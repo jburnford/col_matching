@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+# experiment outputs / scratch — never the prod graph
+out/
+*.jsonl
