@@ -18,13 +18,21 @@ A candidate cluster is a connected component of `COL_Official` nodes joined by
 ```
 (:COL_Official)-[:POSSIBLE_MATCH {
   uncertainty: float,      # 0.0 = certain match … 1.0 = certain non-match
-  ml_uncertainty: float,   # GradientBoosting score (may be null)
   method: str,             # automated_linking | cross_colony_linking
                            #   | ml_discovery | gazette_discovery
-  confidence: float,
-  date_created: str
+  ml_uncertainty: float,   # GradientBoosting score (present on ~67% of edges)
+  ml_probability: float,   # (present on ~67% of edges)
+  chain_validated: bool,   # (present on ~58% of edges)
+  domain_match, name_specificity, gap_years, editions_gap, editions_missed,
+  a_editions, b_editions, a_last_position, a_last_dept,
+  b_first_position, b_first_dept,    # per-edge evidence (some partial-coverage)
+  score_version: str, date_created: str
 }]->(:COL_Official)
 ```
+
+There is **no** `confidence` property on `POSSIBLE_MATCH` (it's on
+`COL_PersonRecord`-stage provenance, not here). Verified against the live graph
+2026-06-11.
 
 `col_matching` v1 **reuses col_pipeline's blocking** — it adjudicates clusters
 the linker/ML already proposed, rather than re-generating candidates. Widening
@@ -35,19 +43,22 @@ conservative linker never scored) is deliberately deferred.
 
 ```
 (:COL_Official {
-  uri: str,                # col:official/{slug}/{name_key}
-  canonical_name: str,
-  surname: str,
+  id: str,                 # IDENTIFIER, e.g. "Metzger, J. M___Sierra Leone___1878"
+                           #   = name___colony___first_year (triple underscore)
+  name: str,               # surname-first display name (NOT `canonical_name`)
   colony: str,
   first_year: int,
   last_year: int,
-  editions: int,
-  domain: str | null       # medical | legal | … (may be null)
+  num_editions: int,       # count of editions
+  editions: list[int]      # the actual edition years, e.g. [1878, 1879, 1883, …]
 })
 ```
 
-`COL_Official` is thin — the discriminating evidence (honours, rank, position,
-department, salary) lives on the underlying records, not here.
+`COL_Official` is the leanest node — the discriminating evidence (honours, rank,
+position, department, salary, `canonical_name`, `surname`) lives on the
+underlying `COL_PersonRecord`s, not here. **This shape was verified against the
+live graph 2026-06-11 and differs materially from `col_pipeline/docs/schema.md`,
+which is stale** (see Known drift). Officials are keyed and joined by `id`.
 
 ### 3. Per-stint evidence — `RECORD_OF` → `COL_PersonRecord`
 
@@ -92,8 +103,20 @@ the cluster.
 
 ## Known drift (upstream, informational)
 
-- `col_pipeline/docs/schema.md` lists the person edge as
-  `(:COL_Official)-[:IS_PERSON]->(:COL_Person)`. The README and live graph use
-  `CAREER_STINT` (`COL_Person → COL_Official`). `col_matching` does not read
-  the person layer, so this does not affect the contract — but it's a
-  source-of-truth fix worth making in `col_pipeline`.
+`col_pipeline/docs/schema.md` is materially stale versus the live graph
+(verified 2026-06-11). The matching contract above reflects the live graph, not
+the doc. Discrepancies found:
+
+- **`COL_Official` identifier**: doc says `uri` (`col:official/{slug}/{name_key}`);
+  live graph has **no `uri`** — officials are keyed by `id`
+  (`name___colony___first_year`). All 68,335 officials have null `uri`.
+- **`COL_Official` name**: doc says `canonical_name` + `surname` + `domain`;
+  live node has `name` only (no `canonical_name`/`surname`/`domain`).
+- **`COL_Official.editions`**: doc says `editions: int`; live graph has
+  `editions: list[int]` (the years) plus `num_editions: int` (the count).
+- **`POSSIBLE_MATCH.confidence`**: doc lists it; not present on the live edge.
+- **Person edge**: doc says `(:COL_Official)-[:IS_PERSON]->(:COL_Person)`; README
+  and live graph use `CAREER_STINT` (`COL_Person → COL_Official`).
+  `col_matching` doesn't read the person layer, so this one doesn't affect us.
+
+These are source-of-truth fixes worth making in `col_pipeline/docs/schema.md`.
