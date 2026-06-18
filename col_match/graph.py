@@ -90,6 +90,49 @@ def fetch_cluster(driver, *, seed_id: str, cfg) -> list[dict]:
         return result
 
 
+def fetch_all_officials(driver, *, cfg) -> Iterator[dict]:
+    """Stream every COL_Official with its quarantine-filtered evidence.
+    Read-only; used to build the local match cache (one pass, ~435k records)."""
+    query = """
+        MATCH (pr:COL_PersonRecord)-[:RECORD_OF]->(o:COL_Official)
+        RETURN o.id AS id, o.name AS name, o.colony AS colony,
+               o.first_year AS first_year, o.last_year AS last_year,
+               o.editions AS editions,
+               pr {
+                 .name_raw, .surname, .given_names, .position_raw,
+                 .department_raw, .honors, .military_rank,
+                 .colony, .year, .quarantined, .quarantine_reason
+               } AS pr
+        ORDER BY o.id
+    """
+    with driver.session(database=cfg.neo4j_database) as session:
+        result = session.run(query)
+        current: dict | None = None
+        for row in result:
+            if current is None or row["id"] != current["id"]:
+                if current is not None and current["records"]:
+                    yield current
+                current = {
+                    "id": row["id"], "name": row["name"], "colony": row["colony"],
+                    "first_year": row["first_year"], "last_year": row["last_year"],
+                    "editions": row["editions"], "records": [],
+                }
+            if _keep_record(row["pr"]):
+                current["records"].append(row["pr"])
+        if current is not None and current["records"]:
+            yield current
+
+
+def fetch_possible_match_edges(driver, *, cfg) -> list[tuple[str, str]]:
+    """All POSSIBLE_MATCH edges (read-only), for component coverage stats."""
+    with driver.session(database=cfg.neo4j_database) as session:
+        rows = session.run(
+            "MATCH (a:COL_Official)-[r:POSSIBLE_MATCH]->(b:COL_Official) "
+            "RETURN a.id AS a, b.id AS b"
+        )
+        return [(row["a"], row["b"]) for row in rows]
+
+
 def _cluster_officials(tx, seed_id: str, max_uncertainty: float) -> list[dict]:
     rows = tx.run(
         """

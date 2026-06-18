@@ -36,9 +36,33 @@ each stint's evidence is gathered by traversing `RECORD_OF` back to its
 
 ## Status
 
-Scaffold only. Present: the read-only graph accessor and the documented
-contract. Not present yet (by design): the dossier serializer, the Fable
-adjudication harness, and any evaluation framework.
+Phase 1 (services-section pipeline) is built and run; see
+`docs/approach.md` and `data/services/reports/full_run_report.md`.
+
+The printed "Record of Services" biographical sections (1883–1966) are
+segmented, deduplicated across editions, parsed (rules tier ~77%, Gemini
+batch fallback for the rest), and compiled into ~30k per-person biographies
+with per-fact edition provenance. Careers are then built by **record-level
+attachment**: each biography claims the annual staff-list records it predicts,
+year by year, in the same volumes (`col_match/services/attach.py`). Stint
+matching (`match.py`) is retained as an independent cross-check. Both run at
+zero measured false positives against 543 hand-verified careers.
+
+```
+col-services segment      # locate + split the services sections (62 volumes)
+col-services dedup        # 199k entry instances -> 42k distinct versions
+col-services parse_rules  # deterministic tier (77%)
+col-services llm_submit / llm_poll / llm_escalate   # Gemini batch fallback
+col-services compile      # versions -> biographies (conservative merging)
+col-services fetch_graph  # read-only cache of officials + records + edges
+col-services attach       # biographies claim annual records (primary)
+col-services match        # stint-level cross-check
+col-services coverage     # coverage report
+col-services eval_gold / check_twins                # evaluation harness
+```
+
+Not present yet (by design): the Fable dossier adjudication harness for the
+~13k below-evidence-bar candidates, and any write path anywhere.
 
 ## Setup
 

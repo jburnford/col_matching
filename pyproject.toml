@@ -6,7 +6,13 @@ requires-python = ">=3.11"
 dependencies = [
     "neo4j>=5.0",
     "python-dotenv>=1.0",
+    "pydantic>=2.0",
+    "rapidfuzz>=3.0",
+    "google-genai>=1.0",
 ]
+
+[project.scripts]
+col-services = "col_match.services.cli:main"
 
 [project.optional-dependencies]
 # Pulled in only when the Fable adjudication harness lands; not used by the
