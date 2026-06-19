@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q125387501",
+  "persons": [
+    {
+      "bio_id": "trimingham_harold-gilbert-lutyens_b1892",
+      "stint_ids": ["Trimingham, H. G. L___Bermuda___1949"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: a same-name relative (son or nephew) in Bermuda's small Trimingham clan could also be 'H. G. L. Trimingham' and have succeeded to a Bermuda post around 1949. This fails because the stint is not a generic post but Colonial Auditor of Bermuda, the exact office the biography records ('col. audr., Berm., 1943'), and the stint years 1949-1952 are a direct continuation of an appointment begun in 1943 by a man aged 57 in 1949 — plausible service age. All three initials H. G. L. match, an unusual triple. A second Trimingham biography exists in the corpus, but for a hypothetical relative to hold this stint he would need the identical three initials AND the identical specific office the biography already claims; no such competing biography is in this case. The OCR-coincidence hypothesis fails: four consecutive editions print the same name, post and colony.",
+      "evidence_cited": [
+        {"stint_id": "Trimingham, H. G. L___Bermuda___1949", "year": 1943, "fact": "col. audr., Berm., 1943"},
+        {"stint_id": "Trimingham, H. G. L___Bermuda___1949", "year": 1949, "fact": "Colonial Auditor"},
+        {"stint_id": "Trimingham, H. G. L___Bermuda___1949", "year": 1949, "fact": "H. G. L. Trimingham"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous H. G. L. Trimingham in Bermuda's establishment (e.g. a son with the same initials appearing in the Audit department), or a death/retirement notice for the b.1892 man before 1949."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Three-initial exact match, exact office match (col. audr. = Colonial Auditor), same colony, tenure continuity from the 1943 appointment, and 3 agreeing edition co-occurrences. No live counter-hypothesis."
+}

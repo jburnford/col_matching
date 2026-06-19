@@ -1,0 +1,29 @@
+{
+ "case_id": "calib_gemini_ceylon_0030",
+ "persons": [
+  {
+   "bio_id": "griffin_c-t_e1883",
+   "stint_ids": [
+    "Griffin, C. T___Ceylon___1898"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Tenure overlap failed on mechanics. But initials C.T., colony Ceylon, and the highly specific medical-office progression (Colonial Surgeon -> Assistant Principal Civil Medical Officer and Inspector-General of Hospitals) match the entry verbatim. The entry text also contains a second Griffin (Eugene Patrick) but that is a different person not at issue here.",
+   "evidence_cited": [
+    {
+     "stint_id": "Griffin, C. T___Ceylon___1898",
+     "year": 1906,
+     "fact": "Assistant Principal Civil Medical Officer and Inspector-General of Hospitals"
+    },
+    {
+     "stint_id": "Griffin, C. T___Ceylon___1898",
+     "year": 1900,
+     "fact": "Colonial Surgeon"
+    }
+   ],
+   "would_overturn": "A second same-surname person in the same colony and years holding the same office, or a printed death/birth date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "pilot hand-adjudication (Claude Code, in-session)"
+}

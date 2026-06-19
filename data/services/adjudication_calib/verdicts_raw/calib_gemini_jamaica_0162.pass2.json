@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0162",
+  "persons": [
+    {
+      "bio_id": "mainwaring_k-h-a_e1850",
+      "stint_ids": ["Mainwaring, K. H. A___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-case is a same-name relative: the corpus holds 5 Mainwarings and 2 biographies, so a father/son or brother could share the surname and even a colony. This fails because the match is not on surname alone but on a highly specific multi-dimensional fingerprint: all three initials (K.H.A.) agree, the distinctive naval rank 'Captain' is carried in every staff-list year and matches 'CAPTAIN K. H. A., R.N.' in the bio, and the exact unusual sequence of Jamaica judicial/harbour offices in the bio (stipendiary magistrate 1874, asst. pol. mag. 1876-8, harbour-master Kingston 1876, pol. mag. 1888-91) is reproduced position-for-position in the stint years 1877-1890. No relative would replicate three initials, rank, colony, and this precise office chain simultaneously.",
+      "evidence_cited": [
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1877, "fact": "stipendiary magistrate Jamaica, April, 1874"},
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1878, "fact": "asst. pol. mag., 1876-8"},
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1890, "fact": "harbour-master, Kingston, 1876"},
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1888, "fact": "Capt. K. H. A. Mainwaring"}
+      ],
+      "would_overturn": "Evidence of a second K. H. A. Mainwaring of Captain rank holding Jamaica magistracy posts in the same years would reverse this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography, single stint; positions, colony, three initials, and rank all corroborate. High-confidence match."
+}

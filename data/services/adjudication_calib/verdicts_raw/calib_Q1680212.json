@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q1680212",
+  "persons": [
+    {
+      "bio_id": "aikins_james-cox_b1823",
+      "stint_ids": ["Aikins, James Cox___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: a same-name relative trap — the Aikins family of Manitoba is real and a younger Aikins (the biographee's son, also 'James' and also later a Lieutenant-Governor of Manitoba) is exactly the kind of confusion this corpus produces; plus no shared honour (deterministic FAIL) and no edition co-occurrence bonus. The counter-hypothesis fails on chronology and forename: every relevant row prints the full and distinctive middle name 'James Cox' or 'J. C.', not the son's 'James Albert Manning'; the son's Manitoba lieutenant-governorship began only in 1916, after this stint's last row (1914); and the stint tracks the biography's dates with perfect edition lag — Senator in 1877-78, 'Secretary of State for Canada' from the 1879 list (bio: re-appointed '19th Oct., 1878'), the verbatim rare compound title 'Secretary of State and Registrar-General' in 1880 (bio: 'secretary of state and registrar-general of Canada'), and 'Lieutenant Governor of Manitoba' from the 1883 list (bio: 'appointed lieutenant governor of Manitoba, 15th October, 1882'). The honour FAIL is vacuous — neither source prints honours for him. The long 'Lieutenant-Governors' tail (1886-1914) is the retrospective roll of past lieutenant-governors, normal for an honoured retiree.",
+      "evidence_cited": [
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1877, "fact": "James Cox Aikins"},
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1880, "fact": "Secretary of State and Registrar-General"},
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1883, "fact": "Lieutenant Governor of Manitoba"},
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1879, "fact": "Secretary of State for Canada"}
+      ],
+      "would_overturn": "Evidence that any rows in this stint (especially the post-1900 'Lieutenant-Governors' roll entries) actually print 'James A. M. Aikins' or otherwise belong to the son, or discovery of a second contemporaneous James Cox Aikins in federal office."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Multiple independent dimensions: distinctive full forename 'James Cox', exact rare compound office title, and two office transitions (Secretary of State 1878, Lt-Gov Manitoba 1882) each reflected in the following edition. The 1886-1914 rows are retrospective 'Lieutenant-Governors' roll listings, not evidence of current service."
+}

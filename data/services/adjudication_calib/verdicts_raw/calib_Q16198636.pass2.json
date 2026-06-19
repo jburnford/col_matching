@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q16198636",
+  "persons": [
+    {
+      "bio_id": "douglas_john_e1862",
+      "stint_ids": ["Douglas, John___Ceylon___1879"],
+      "confidence": "certain",
+      "arguments_against": "'John Douglas' is a genuinely common name (70 Douglases in the staff lists, 27 biographies), and at least one other well-known colonial John Douglas, C.M.G. existed in this era (the Queensland politician), so the namesake trap is real. It fails here because the stint is not a name match but an office match: Colonial Secretary of Ceylon is a single-occupant post, and the biography records 'lieutenant-governor and colonial secretary, Ceylon, July, 1878' — the stint begins the very next list year (1879) and runs to 1883, the edition in which the biography itself is printed. The stint rows carry 'C.M.G.', matching the bio's C.M.G. (1875), and the bio's whole prior career (auditor-general, Ceylon, Dec. 1869; acting colonial secretary 1874 and 1878) is a continuous Ceylon secretariat ladder ending in exactly this office. A second John Douglas, C.M.G., simultaneously holding Ceylon's colonial secretaryship is not possible; the Queensland namesake's career was in Australia and New Guinea, never Ceylon.",
+      "evidence_cited": [
+        {"stint_id": "Douglas, John___Ceylon___1879", "year": 1878, "fact": "lieutenant-governor and colonial secretary, Ceylon, July, 1878"},
+        {"stint_id": "Douglas, John___Ceylon___1879", "year": 1879, "fact": "Colonial Secretary"},
+        {"stint_id": "Douglas, John___Ceylon___1879", "year": 1879, "fact": "C.M.G."},
+        {"stint_id": "Douglas, John___Ceylon___1879", "year": 1869, "fact": "auditor-general, Ceylon, Dec. 1869"}
+      ],
+      "would_overturn": "Evidence that the Colonial Secretary of Ceylon 1879-83 was a different John Douglas (e.g. a succession record replacing the 1878 appointee before 1879), which contemporary Ceylon civil lists rule out."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial warning is mitigated: the staff list prints the full forename 'John Douglas', the office is single-occupant, the honour matches, and the tenure is the direct continuation of the bio's July 1878 appointment."
+}

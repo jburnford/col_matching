@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q1608948",
+  "persons": [
+    {
+      "bio_id": "hone_herbert-ralph_b1896",
+      "stint_ids": ["Hone, Ralph___North Borneo___1950"],
+      "confidence": "certain",
+      "arguments_against": "The single-initial warning applies, so the strongest case against is a different Sir R. Hone among the 8 corpus Hones governing North Borneo, or the predecessor/successor governor confused with him. This fails: Governor and Commander-in-Chief of North Borneo is a unique post that the biography claims for exactly this year ('gov. and c.in-c., N. Borneo, 1950'); the staff list expands the name to the bio's own preferred forename, 'Sir Ralph Hone', in 1952-53; the 1953 row carries 'K.C.M.G.', matching the bio's K.C.M.G (1951); and the stint ends at 1953, matching the bio's 'ret., re-app. asst. legal advr., C.O./C.R.O., dir., 1954'. He went by Ralph, not Herbert — the bio prints 'HONE, (Herbert) Ralph' and the 1953 version is headed 'HONE, Sir Ralph'. Every dimension — unique office, colony, start year, end year, knighthood, honour year, forename — agrees; there is no live counter-hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Hone, Ralph___North Borneo___1950", "year": 1950, "fact": "gov. and c.in-c., N. Borneo, 1950"},
+        {"stint_id": "Hone, Ralph___North Borneo___1950", "year": 1952, "fact": "Sir Ralph Hone"},
+        {"stint_id": "Hone, Ralph___North Borneo___1950", "year": 1953, "fact": "K.C.M.G."},
+        {"stint_id": "Hone, Ralph___North Borneo___1950", "year": 1950, "fact": "Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "Evidence that a different Sir Ralph Hone, K.C.M.G., governed North Borneo 1950-53 — effectively impossible for a unique vice-regal post with forename, honour and tenure agreement."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The mechanical position_sim FAIL (59 vs 60) is purely an abbreviation artifact: 'gov. and c.in-c.' is the verbatim abbreviation of 'Governor and Commander-in-Chief'. The single-initial warning is mitigated by the full forename 'Ralph' printed in the 1952-53 staff lists."
+}

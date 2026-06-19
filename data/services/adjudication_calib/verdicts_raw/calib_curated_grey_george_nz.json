@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_curated_grey_george_nz",
+  "persons": [
+    {
+      "bio_id": "grey_george_e1829",
+      "stint_ids": [
+        "Grey, George___New Zealand___1877"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: this is a flagged single-initial biography (30 Greys in the staff lists, 12 in the biographies), no birth year is printed so the age gate is unchecked, and the deterministic honour check FAILED — Earl Grey's family also produced multiple public men named George Grey, so a namesake politician in New Zealand is conceivable. This fails. The honour FAIL is a pure string artifact: the bio prints 'K.C.B. (Civil.), 1848' and every staff-list record prints 'K.C.B.' — the parenthetical division marker broke the mechanical comparison, but the honour is identical. Beyond the honour, the stint matches the biography on two specific, non-generic offices in the right years: the 1877 record 'Superintendent of Auckland' matches 'superintendent of the Province of Auckland, 1875', and the 1878-79 records 'Premier and Commissioner of Customs' match 'premier of New Zealand, 1877 to 1879' — the stint's listing span (1877-1879) coincides exactly with the printed premiership span. Premier of New Zealand is a unique office held by one person at a time; there was no second Sir George Grey, K.C.B., as premier. The namesake hypothesis cannot account for the superintendency, premiership, knighthood, and exact years simultaneously.",
+      "evidence_cited": [
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1877, "fact": "superintendent of the Province of Auckland, 1875"},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1878, "fact": "premier of New Zealand, 1877 to 1879"},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1879, "fact": "K.C.B."}
+      ],
+      "would_overturn": "A primary record showing the New Zealand premier of 1877-79 was a different George Grey from the former governor, or that the staff-list K.C.B. annotation belongs to another man."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic honour FAIL is an artifact of the '(Civil.)' suffix in the bio's 'K.C.B. (Civil.), 1848' against the bare 'K.C.B.' in the staff lists; they are the same honour. Unique-office agreement (Premier of New Zealand, exact span) plus the Auckland superintendency makes this safe despite the single-forename warning."
+}

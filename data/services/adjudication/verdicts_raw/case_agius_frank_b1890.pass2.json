@@ -1,0 +1,22 @@
+{
+  "case_id": "case_agius_frank_b1890",
+  "persons": [
+    {
+      "bio_id": "agius_frank_b1890",
+      "stint_ids": ["Agius, F___Malta___1925", "Agius, F___Malta___1949"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the biography carries a single initial ('F'), and 21 officials with the surname Agius appear in the graph's staff lists, so either stint could belong to a different F. Agius (a relative, or a successor in the Customs and Port Department); the edition_cooccurrence check also fails for both stints, and the 1949 stint inherits all its places. Why this fails: the match is not built on name or tenure overlap but on a four-step rank progression in one named department that agrees with the printed biography at each step and date. The bio's 'ch. clk., customs, 1933' matches the staff list's promotion from 'Clerks, 2nd Class' to 'Chief Clerk' (first printed 1934, the expected one-edition lag); 'asst. collr., customs, 1938' matches 'Assistant Collector of Customs' (printed 1939-1940); 'collr., customs, 1944' matches 'Collector of Customs and Superintendent of the Ports' (1949-1951); and 'food and comm. cont. offr. in addn., 1949' matches 'Food and Commerce Control Officer' (1953-1956). A second F. Agius would have to have held exactly this sequence of increasingly senior, specific posts on exactly the biography's dates in the same colony, while the biography's subject held the same posts but never appeared in the staff lists - not realistic. The two stints are also mutually continuous: the 1925 stint ends in 1940 as Assistant Collector, the 1949 stint opens as Collector, exactly bridging the bio's 1944 promotion across the wartime gap in editions. The father/son hypothesis fails on chronology: born 1890, appointed 1908, the subject is 35 at the 1925 stint's start and 59 at the 1949 stint's start, both consistent with one career; a son holding Collector of Customs by 1949 would conflict with the bio claiming that exact 1944 promotion for himself.",
+      "evidence_cited": [
+        {"stint_id": "Agius, F___Malta___1925", "year": 1934, "fact": "Chief Clerk"},
+        {"stint_id": "Agius, F___Malta___1925", "year": 1939, "fact": "Assistant Collector of Customs"},
+        {"stint_id": "Agius, F___Malta___1925", "year": 1925, "fact": "Customs and Port Department"},
+        {"stint_id": "Agius, F___Malta___1949", "year": 1949, "fact": "Collector of Customs and Superintendent of the Ports"},
+        {"stint_id": "Agius, F___Malta___1949", "year": 1953, "fact": "Food and Commerce Control Officer"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous F. Agius in the Malta Customs and Port Department (e.g., two F. Agius entries in any one staff-list year, or a biography for another F. Agius claiming the Chief Clerk/Assistant Collector/Collector posts in the 1930s-1950s); or a death/retirement record for Frank Agius (b. 1890) before 1956 that contradicts the 1949 stint's later years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial bio, but the required strong independent dimension is satisfied several times over: four distinct, specific position-title matches (Chief Clerk 1933/34, Assistant Collector 1938/39-40, Collector 1944/1949-51, Food and Commerce Control Officer 1949/1953-56), all in Malta's customs service, each within the normal print lag of the bio's stated promotion year. The two stints are treated as one continuous career interrupted only by the WWII publication gap (no editions cover 1941-1948 for this person). The FAIL on edition_cooccurrence is an artifact: the bio appears only in the 1951 edition, and the 1949 stint is in fact listed in 1951, so the mechanical check appears to compare different fields; it does not weaken the link."
+}

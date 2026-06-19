@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q973005",
+  "persons": [
+    {
+      "bio_id": "nathan_malcolm-wemyss_b1862",
+      "stint_ids": ["Nathan, Matthew___Hong Kong___1905"],
+      "confidence": "certain",
+      "arguments_against": "The serious objection is the forename clash: the biography is printed 'NATHAN, Lt.-Col. Sir Malcolm Wemyss' while the stint resolves to 'Nathan, Matthew' / 'Sir M. Nathan' — possibly a same-surname relative (the Nathans were a family with several distinguished brothers). But the objection fails on the career facts, which do not depend on the forename: the biography's subject was 'governor, Hong Kong, 21st Sept., 1903' and held that post until 'governor, Natal, 1st May, 1907'; Governor of Hong Kong is a unique office, and the stint records exactly that office in 1905-1906, squarely inside the bio's tenure. The honour matches too: bio K.C.M.G. (1902), staff list shows K.C.M.G. and the 'Sir' style in both years. Whatever the correct expansion of the printed forename (the 1917 OCR 'Malcolm Wemyss' is very plausibly a garbling of the entry for Sir Matthew Nathan, whose documented career — R.E. 1880, Sierra Leone 1899, Gold Coast 1900, Hong Kong 1903, Natal 1907 — this entry reproduces line for line), the biography's subject and the stint's officeholder are necessarily the same individual: only one person was Governor of Hong Kong in 1905-1906.",
+      "evidence_cited": [
+        {"stint_id": "Nathan, Matthew___Hong Kong___1905", "year": 1905, "fact": "governor, Hong Kong, 21st Sept., 1903"},
+        {"stint_id": "Nathan, Matthew___Hong Kong___1905", "year": 1905, "fact": "K.C.M.G. (1902)"},
+        {"stint_id": "Nathan, Matthew___Hong Kong___1905", "year": 1906, "fact": "governor, Natal, 1st May, 1907"}
+      ],
+      "would_overturn": "Evidence that two different Nathans governed Hong Kong between 1903 and 1907, or a corrected reading of the 1917 biography showing its subject was somewhere other than Hong Kong in 1905-1906."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The bio's printed forename 'Malcolm Wemyss' conflicts with the staff list's 'Matthew', but the initials agree (M.) and the career content (unique governorship, exact tenure window, K.C.M.G. 1902) identifies a single individual. Reviewer may want to flag the bio's forename field as a probable OCR/typesetting error for 'Matthew'."
+}

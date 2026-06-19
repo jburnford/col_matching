@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q76821",
+  "persons": [
+    {
+      "bio_id": "grey_george_e1829",
+      "stint_ids": ["Grey, George___New Zealand___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Grey is a very common surname (30 officials, 12 biographies), the dossier flags the single-initial namesake trap, and the deterministic honour check FAILed — so could this be a different George Grey in New Zealand politics 1877-79? The counter-hypothesis fails on three independent dimensions. (1) The offices are unique, not generic: 'Superintendent of Auckland' in 1877 matches the bio's 'superintendent of the Province of Auckland, 1875', and 'Premier and Commissioner of Customs' in 1878-79 matches 'premier of New Zealand, 1877 to 1879' — there is exactly one Premier of New Zealand at a time, and the stint's years 1877-1879 coincide exactly with the bio's premiership. (2) The honour FAIL is mechanical: the bio reads 'K.C.B. (Civil.), 1848' and every stint row carries 'K.C.B.' — the strings differ only by the '(Civil.)' qualifier. (3) The stint terminates in 1879 exactly when the bio's premiership ends. A namesake who was simultaneously Premier, Superintendent of Auckland, and a K.C.B. does not exist.",
+      "evidence_cited": [
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1877, "fact": "Superintendent of Auckland"},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1878, "fact": "Premier and Commissioner of Customs"},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1877, "fact": "K.C.B."},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1879, "fact": "Hon. Sir George Grey"}
+      ],
+      "would_overturn": "Evidence of a second Sir George Grey, K.C.B., active in New Zealand provincial and executive government in 1877-1879 — effectively impossible given the unique offices (Premier of New Zealand, Superintendent of Auckland) involved."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Despite the single-initial warning and common surname, the stint's offices are singular national/provincial posts (Premier of New Zealand; Superintendent of Auckland) that the biography attests for exactly the stint's years, plus the shared K.C.B. The deterministic honour FAIL is a string-normalization artifact."
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q7965114",
+  "persons": [
+    {
+      "bio_id": "hely-hutchinson_walter-francis_b1849",
+      "stint_ids": ["Hely-Hutchinson, Walter___Windward Islands___1878"],
+      "confidence": "certain",
+      "arguments_against": "Two objections are conceivable. First, the bio says 'col. sec. of Barbas, Nov., 1877' (Barbados) while the 1878-1883 staff-list rows sit under colony 'Windward Islands' — could the Colonial Secretary rows belong to a different Hely-Hutchinson serving in a different colony? No: in this period Barbados was the seat of the Windward Islands government, so the Barbados colonial secretaryship appears under the Windward Islands staff lists; the dates dovetail exactly (appointed Nov. 1877, listed from 1878, gone after 1883 when the bio has him as 'ch. sec. to govt. of Malta, 1883'), and the rows print 'Hon. W. F. Hely-Hutchinson' — both initials and the 'Hon.' style matching 'THE HONOURABLE WALTER FRANCIS'. Second, the position_sim score of 11 compared the wrong pair ('gov.' vs the Colonial Secretary row); read directly, the 1890 row 'Sir Walter Hely-Hutchinson', 'Governor and Commander-in-Chief of the Windward Islands', K.C.M.G., matches the bio's 'gov. of Windward Is., 1889' and K.C.M.G. (1888) precisely. With a rare double-barrelled surname, exact initials, the honorific, the unique governorship, the matching knighthood/honour, and three independent date agreements (1877/78, 1883 departure, 1889/90 governorship), no same-name-relative hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Hely-Hutchinson, Walter___Windward Islands___1878", "year": 1878, "fact": "col. sec. of Barbados, Nov., 1877"},
+        {"stint_id": "Hely-Hutchinson, Walter___Windward Islands___1878", "year": 1878, "fact": "Hon. W. F. Hely-Hutchinson"},
+        {"stint_id": "Hely-Hutchinson, Walter___Windward Islands___1878", "year": 1890, "fact": "gov. of Windward Is., 1889"},
+        {"stint_id": "Hely-Hutchinson, Walter___Windward Islands___1878", "year": 1890, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Hely-Hutchinson, Walter___Windward Islands___1878", "year": 1890, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second Hon. W. F. Hely-Hutchinson in West Indian service circa 1878-1890, or a record showing the Barbados colonial secretaryship of 1877-83 was held by someone else."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The stint spans two offices in one colony chain: Colonial Secretary (Barbados, seat of the Windward Islands government) 1878-1883 and Governor 1890, both explicitly attested in the bio with consistent dates. The 1883-1890 gap in staff-list rows corresponds to his Malta service (1883-1889), reinforcing rather than weakening the identification."
+}

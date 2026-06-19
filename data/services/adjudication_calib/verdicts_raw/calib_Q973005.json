@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q973005",
+  "persons": [
+    {
+      "bio_id": "nathan_malcolm-wemyss_b1862",
+      "stint_ids": ["Nathan, Matthew___Hong Kong___1905"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the forenames flatly disagree -- the bio prints 'Malcolm Wemyss' while the staff list prints 'Matthew' -- and with 15 Nathan officials and 7 Nathan biographies in the corpus, these could be two different men, e.g. brothers, one of whom governed Hong Kong while the other had the career in the bio. This fails on the uniqueness of the office. The bio itself claims 'governor, Hong Kong, 21st Sept., 1903' and holds the post until 'governor, Natal, 1st May, 1907'; the stint records the Governor of Hong Kong in the 1905 and 1906 editions, squarely inside that bracket. Hong Kong has exactly one Governor at a time, so if the bio's career is real, its subject IS the person in the stint rows. The shared K.C.M.G. (bio: 'K.C.M.G. (1902)'; staff list: K.C.M.G. in both rows, pre-dating the bio's 1908 G.C.M.G., exactly right for 1905-06) and the matching first initial M corroborate. The two-different-men hypothesis would require the bio's Hong Kong clause to be wholly fabricated, for which there is no sign -- the rest of the career (Gold Coast 1900 before, Natal 1907 after) is coherent gubernatorial succession. The forename discrepancy is therefore a printing/OCR error in one source, not evidence of two persons.",
+      "evidence_cited": [
+        {"stint_id": "Nathan, Matthew___Hong Kong___1905", "year": 1905, "fact": "governor, Hong Kong, 21st Sept., 1903"},
+        {"stint_id": "Nathan, Matthew___Hong Kong___1905", "year": 1907, "fact": "governor, Natal, 1st May, 1907"},
+        {"stint_id": "Nathan, Matthew___Hong Kong___1905", "year": 1905, "fact": "K.C.M.G. (1902)"},
+        {"stint_id": "Nathan, Matthew___Hong Kong___1905", "year": 1900, "fact": "governor, Gold Coast, Oct., 1900"}
+      ],
+      "would_overturn": "Evidence that two different Nathans (e.g. brothers Malcolm Wemyss and Matthew) each held colonial governorships in this period, with the Hong Kong post belonging to the one NOT described in this biography; or a corrected reading of the 1917 entry showing its Hong Kong clause is an OCR intrusion from another entry."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Reviewer should note the forename conflict: bio prints 'Malcolm Wemyss', staff list 'Matthew'. The career in the bio (R.E. officer, administrator Sierra Leone 1899, gov. Gold Coast 1900, gov. Hong Kong 1903, gov. Natal 1907, G.P.O. secondment 1910, chairman board of inland revenue 1911, under-secretary for Ireland 1914, pensions 1916, honours C.M.G. 1899 / K.C.M.G. 1902 / G.C.M.G. 1908) is internally coherent and matches the unique Hong Kong governorship in the stint years, so the identity link is secure; one of the two printed forenames is erroneous. The bio's canonical forename should be checked against external sources before publication."
+}

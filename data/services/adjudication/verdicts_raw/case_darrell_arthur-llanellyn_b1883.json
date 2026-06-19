@@ -1,0 +1,24 @@
+{
+  "case_id": "case_darrell_arthur-llanellyn_b1883",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Darrell, A. L___Windward Islands___1905",
+      "reason": "Gate-compatible with out-of-case biography darrell_arthur-llewellyn_b1883 (same birth year 1883, same A.L. initials; 'Llanellyn' vs 'Llewellyn' is almost certainly an OCR variant of one name), which the dossier says is 'already linked elsewhere or filtered'. If the two bios are the same person, assigning here creates a conflicting double-assignment; if they are genuinely two people, the evidence (initials + career-shape only, generic junior titles: 2nd Landing Waiter, Clerk) cannot separate them. Either way the partition rule says assign to neither."
+    },
+    {
+      "stint_id": "Darrell, A. L___St Vincent___1909",
+      "reason": "Strongest single stint for this bio (colony gate passes: bio has 'asst. clk. to registr., St. Vincent, 1900-01'), and the 2nd Landing Waiter post is continuous with the Windward Islands 1905-08 listing. But the same out-of-case biography darrell_arthur-llewellyn_b1883 is gate-compatible and already linked elsewhere; with two b.1883 'A. L. Darrell' bio records in play and a 4-9 year gap between the bio's last attested event (1901) and this stint, the link must wait for bio-level deduplication. Generic junior title plus colony agreement is not strong enough to override the live counter-hypothesis."
+    },
+    {
+      "stint_id": "Darrell, A. L___Grenada___1911",
+      "reason": "Clerk, Governor's Office is a generic junior title; the bio attests nothing in Grenada and nothing after 1901. The out-of-case biography darrell_arthur-llewellyn_b1883 is equally gate-compatible and already linked elsewhere. No independent dimension (position, honour, edition co-occurrence) ties this stint to the Llanellyn record specifically."
+    },
+    {
+      "stint_id": "Darrell, A. L___Nigeria___1915",
+      "reason": "A 1915-1936 Nigeria Treasury career is a large leap from a bio whose only attested service is St. Vincent 1900-01; the only bridge is initials plus career-shape continuity through the other Caribbean stints, which are themselves unassigned. The out-of-case biography darrell_arthur-llewellyn_b1883 is gate-compatible and already linked elsewhere, so assigning here risks a conflicting double-assignment."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "All four stints plausibly form ONE continuous career: 2nd Landing Waiter, St Vincent/Windward Islands 1905-1910 -> Clerk, Governor's Office, Grenada 1911-12 -> Clerk, Governor's Office, Windward Islands 1913-15 -> Nigeria Treasury 1915-1936 (the Windward listing ends 1915 exactly when Nigeria begins). The bio (b. 1883, St. Vincent, appears in edition 1913 while the Windward stint is listed 1913-15 as Clerk, Governor's Office) fits that career well. The blocker is darrell_arthur-llewellyn_b1883: identical birth year, identical initials, and 'Llanellyn'/'Llewellyn' differ by an OCR-plausible substitution -- these two biography records are very likely the same printed person duplicated by OCR, and that record is reported as already linked elsewhere. Recommended action: dedupe the two bio records at the biography level first; once merged, all four stints can be assigned to the canonical record with high confidence as a single coherent career. duplicate_bio_groups is left empty only because the Llewellyn bio is outside this case; reviewers should treat ['darrell_arthur-llanellyn_b1883', 'darrell_arthur-llewellyn_b1883'] as the de-facto duplicate pair."
+}

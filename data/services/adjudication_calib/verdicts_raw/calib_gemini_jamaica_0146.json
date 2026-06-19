@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0146",
+  "persons": [
+    {
+      "bio_id": "mackglashan_john-charles_e1858",
+      "stint_ids": ["Mackglashan, John C___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the biography says he 'resigned seat in Council 1882', yet the stint continues as Auditor-General through 1886, so the staff-list officer could be a same-named successor or son who took over the audit office. This fails: the resignation clause refers explicitly to his Legislative Council seat ('member of legislative council, April, 1878; resigned seat in Council 1882'), not to the Auditor-Generalship, and the biography itself is still printed in the 1883 and 1886 editions - the very editions in which the stint lists him as Auditor-General - which is how a serving officer is presented. The surname is unique in the entire corpus (1 official, 1 biography), the forename 'John C.' matches 'JOHN CHARLES' beyond mere initials, the unique senior office Auditor-General matches at similarity 100 with the bio's appointment date (April 1875) preceding the stint's first listing (1877), and the 1877 'Clerk to the Privy Council' row matches the bio's earlier 'clerk to privy council' appointment. No same-name rival exists anywhere in the corpus.",
+      "evidence_cited": [
+        {"stint_id": "Mackglashan, John C___Jamaica___1877", "year": 1877, "fact": "Auditor-general, Jamaica, April, 1875"},
+        {"stint_id": "Mackglashan, John C___Jamaica___1877", "year": 1877, "fact": "Auditor-General"},
+        {"stint_id": "Mackglashan, John C___Jamaica___1877", "year": 1877, "fact": "Clerk to the Privy Council"},
+        {"stint_id": "Mackglashan, John C___Jamaica___1877", "year": 1880, "fact": "Legislative Council"}
+      ],
+      "would_overturn": "Discovery of a second John Mackglashan in Jamaican service (e.g. a son with the same forename appointed Auditor-General between 1875 and 1877), or evidence that the biography's subject died or left the Audit Office before 1877."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique surname in corpus, full-forename agreement, unique senior office match (Auditor-General, Jamaica) with consistent dates, plus a secondary office match (Clerk to the Privy Council). The single edition co-occurrence (1883) is position-agreeing at 100."
+}

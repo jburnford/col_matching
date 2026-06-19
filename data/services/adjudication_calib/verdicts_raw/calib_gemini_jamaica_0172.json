@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0172",
+  "persons": [
+    {
+      "bio_id": "pearson_torner_e1869",
+      "stint_ids": ["Pearson, Turner___Jamaica___1877"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: (1) the dossier flags a single-initial namesake trap and there are 53 Pearsons in the staff lists, so this could be another Pearson clerk in Jamaica; (2) 'Clerk' is a generic junior title; (3) from 1905 the stint table contains 'T. L. Pearson' rows (2nd/1st Class Superintendent, Public Works) which coexist with 'T. Pearson' (Chief Clerk, Medical Department) in 1905-1908, proving the stint record bundles at least two distinct men in its later years. Why the core link survives: the namesake warning is misapplied here -- the staff list prints the FULL forename 'Turner Pearson' (the bio's 'TORNER' is a trivial OCR error for 'Turner'), and the uncommon forename plus the exact, highly specific dual posting (clerk at BOTH the Public Hospital and the Lock Hospital simultaneously, 1877-1883, precisely matching the bio's 'Chief clerk and purveyor, public hospital, and clerk to the lock hospital ... April, 1875') and 3 agreeing edition co-occurrences are multiple independent dimensions. The conflation of T. L. Pearson into the same stint is why confidence is held at probable rather than certain.",
+      "evidence_cited": [
+        {"stint_id": "Pearson, Turner___Jamaica___1877", "year": 1877, "fact": "Turner Pearson"},
+        {"stint_id": "Pearson, Turner___Jamaica___1877", "year": 1877, "fact": "Public Hospital"},
+        {"stint_id": "Pearson, Turner___Jamaica___1877", "year": 1878, "fact": "Lock Hospital"},
+        {"stint_id": "Pearson, Turner___Jamaica___1877", "year": 1898, "fact": "Chief Clerk"}
+      ],
+      "would_overturn": "Evidence that a second 'Turner Pearson' served in Jamaica's hospital service in the late 1870s, or that the 1877-1900 hospital-clerk rows belong to a different forename expanded elsewhere as something other than Turner. Also, confirmation that the 1905-1921 'T. L. Pearson' Public Works rows are intended as part of this stint's identity would force the stint to be split before assignment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The stint record appears internally conflated: 'T. Pearson' (Chief Clerk, Medical Department) and 'T. L. Pearson' (2nd Class Superintendents, Public Works) are listed simultaneously in 1905-1908, so they are two different people. The biography matches the hospital/Medical Department line (1877 through ~1908). The 1909-1921 Public Works 'T. L. Pearson' rows almost certainly belong to a different man and the stint should be split upstream. Assignment is made for the stint as the 'Turner Pearson' hospital clerk identity; the bio's printed forename 'TORNER' is an OCR error for 'Turner'."
+}

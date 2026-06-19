@@ -1,0 +1,16 @@
+{
+  "case_id": "case_dent_e-j_e1913",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Dent, Edward___North Borneo___1908",
+      "reason": "Career shapes are incompatible. The biography describes a junior field officer in the East Africa Protectorate ('Asst. jun. staff survr., E.A.P., June, 1914; asst. dist. consnr., Dec., 1913'), while this stint is a senior London-based company director in North Borneo ('Court of Directors', rising to 'Vice-Chairman' by 1913 and 'Vice-President' by 1920). The same man cannot plausibly be a Vice-Chairman of the North Borneo Court of Directors in 1913 and simultaneously a brand-new assistant district commissioner in East Africa in Dec. 1913. Every deterministic dimension fails (colony, tenure_overlap, position_sim, honour, edition_cooccurrence); only surname and a single initial 'E' agree, and the bio uses initials 'E. J.' vs the stint's full forename 'Edward'. With 11 officials and 5 biographies sharing this surname in the corpus, name agreement carries no weight."
+    },
+    {
+      "stint_id": "Dent, Edward___St Vincent___1909",
+      "reason": "Same incompatibility as the North Borneo stint: this 'Edward Dent' is listed on a 'Court of Directors' as 'Vice-Chairman' in 1911 — a senior directorship — whereas the biography's E. J. Dent only began service as an 'asst. dist. consnr.' in Dec. 1913 in the East Africa Protectorate. No colony, position, tenure, honour, or edition-co-occurrence agreement exists. The identical name, identical 'Court of Directors' department, and identical Vice-Chairman title across this stint and the North Borneo stint suggest they are the same senior director (or a list-parsing artifact), distinct from the E.A.P. junior officer in the biography."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two candidate stints almost certainly refer to one and the same person (or one record mis-sectioned): both print 'Edward Dent', both sit in a 'Court of Directors' department, and both carry the 'Vice-Chairman' title in overlapping years (1911 St Vincent, 1913 North Borneo). 'Court of Directors' under St Vincent looks like a section-attribution or OCR artifact, since St Vincent was a Crown colony without such a body; the North Borneo (Chartered Company) Court of Directors sat in London. Either way, that senior director cannot be the E. J. Dent of the biography, who entered colonial service at junior rank in East Africa in Dec. 1913 while 'Edward Dent' was already Vice-Chairman. Both stints left unassigned; the stint pair may merit a separate stint-to-stint merge review outside this case."
+}

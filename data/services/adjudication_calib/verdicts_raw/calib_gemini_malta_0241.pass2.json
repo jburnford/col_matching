@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_malta_0241",
+  "persons": [
+    {
+      "bio_id": "amato-gauci_f-e_b1917",
+      "stint_ids": ["Amato-Gauci, F. E___Malta___1953"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter would be a same-name relative or successor in the Director of Labour post. This collapses immediately: the corpus contains exactly one Amato-Gauci official and one Amato-Gauci biography, so there is no competing same-name candidate; the surname is highly distinctive and hyphenated, not a blocking-key coincidence. Beyond the rare surname, both initials F.E. match, the stint's positions reproduce the bio exactly in matching years -- 'dir. of labr., 1949' = Director of Labour (1953-56), 'dir., emig., labr. and soc. welf., 1956' = Director of Emigration, Labour and Social Welfare (1957-59) -- and the M.B.E. that appears in the 1959 staff-list line matches the bio's 'M.B.E. (mil.) (1945)' (the deterministic honour check failed only on formatting). Age (b.1917, stint from 1953, age 36) is consistent. No realistic counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Amato-Gauci, F. E___Malta___1953", "year": 1953, "fact": "dir. of labr., 1949"},
+        {"stint_id": "Amato-Gauci, F. E___Malta___1953", "year": 1957, "fact": "dir., emig., labr. and soc. welf., 1956"},
+        {"stint_id": "Amato-Gauci, F. E___Malta___1953", "year": 1959, "fact": "M.B.E. (mil.) (1945)"}
+      ],
+      "would_overturn": "Discovery of a second F. E. Amato-Gauci in Malta would reverse this, but the corpus shows only one."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique rare surname plus exact position chain, two-initial match, M.B.E. honour, and consistent age. High-confidence match."
+}

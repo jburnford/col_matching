@@ -1,0 +1,12 @@
+{
+  "case_id": "case_addon_e-n-c_e1857",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Haddon, E. C___Uganda___1939",
+      "reason": "Chronologically impossible and zero corroborating dimensions. The biography's career begins 'Assistant commissioner, Santhial Perahs, India, 1857' and he 'retired, Mar., 1877'; a person in colonial office by 1857 would be born ~1835 or earlier, making him 100+ years old when the stint's 'Analytical Chemist' post in Uganda is listed in 1939-1940. The bio appears only in editions [1897], the stint only in [1939, 1940] - no edition co-occurrence. No shared colony (Tasmania/India/Oudh vs Uganda), no shared honour (bio K.C.M.G., stint none), no position similarity (premier/agent-gen. vs Analytical Chemist/Government Chemist). The surname gate pass is itself suspect: 'ADDON' is almost certainly an OCR truncation of 'BRADDON' (the entry matches Sir Edward Braddon, premier of Tasmania 1894), which is a different surname from 'Haddon'. Initials only partially agree (E. N. C. vs E. C.)."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The biography 'ADDON, THE HON. SIR E. N. C., K.C.M.G.' (premier of Tasmania, 1894; agent-gen. for Tasmania, 1893) is evidently an OCR-clipped 'BRADDON' - Sir Edward Nicholas Coventry Braddon. The candidate stint 'Haddon, E. C' (Uganda Medical dept chemist, 1939-1940) is a different surname and a different generation; the fuzzy surname gate matched only because both truncate to/contain 'addon'. Recommend re-keying this bio under BRADDON so future blocking pairs it with the right staff lists."
+}

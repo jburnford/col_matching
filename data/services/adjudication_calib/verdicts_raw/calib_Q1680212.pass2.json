@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q1680212",
+  "persons": [
+    {
+      "bio_id": "aikins_james-cox_b1823",
+      "stint_ids": ["Aikins, James Cox___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the stint runs to 1914, when a man born 1823 would be 91, and the Aikins family produced a second prominent official (Sir James A. M. Aikins, later himself Lieutenant-Governor of Manitoba) — so the late rows could belong to a son, making the cluster a conflation. This fails: every row prints 'J. C. Aikins' or the full 'James Cox Aikins', never the son's initials J. A. M., and the late rows sit under the 'Lieutenant-Governors' roster department — the Colonial Office List's practice of listing past office-holders, which the dossier instructions flag ('honoured retirees stay listed'); they do not assert current service. The early rows match the biography step for step with full forenames: 'James Cox Aikins / Senator / Senate of Canada' (bio: called to the Senate 1867), 'Secretary of State for Canada' from the 1879 edition (bio: 're-appointed to same office in Sir John's new administration, 19th Oct., 1878'), 'Secretary of State and Registrar-General / Privy Council' in 1880 (verbatim office match), and 'Lieutenant Governor of Manitoba' from 1883 (bio: 'appointed lieutenant governor of Manitoba, 15th October, 1882'). With only 6 Aikinses in the corpus and a distinctive double forename, no namesake hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1877, "fact": "James Cox Aikins"},
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1880, "fact": "Secretary of State and Registrar-General"},
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1878, "fact": "re-appointed to same office in Sir John's new administration, 19th Oct., 1878"},
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1883, "fact": "Lieutenant Governor of Manitoba"},
+        {"stint_id": "Aikins, James Cox___Canada___1877", "year": 1882, "fact": "appointed lieutenant governor of Manitoba, 15th October, 1882"}
+      ],
+      "would_overturn": "Evidence that the post-1906 'J. C. Aikins' roster rows refer to a different person with the same initials in the Lieutenant-Governors list, which would warrant splitting the stint's tail rather than reassigning it."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full double-forename match plus a verbatim office-sequence match across three distinct offices (Senator, Secretary of State and Registrar-General, Lieutenant-Governor of Manitoba) with dates agreeing to the year. The 1905-1914 rows are retrospective Lieutenant-Governors roster listings, a known COL convention, and do not imply service at age 90+."
+}

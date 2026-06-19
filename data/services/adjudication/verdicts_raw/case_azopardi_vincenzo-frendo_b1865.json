@@ -1,0 +1,45 @@
+{
+ "case_id": "case_azopardi_vincenzo-frendo_b1865",
+ "persons": [
+  {
+   "bio_id": "azopardi_vincenzo-frendo_b1865",
+   "stint_ids": [
+    "Azopardi, Vincenzo Frendo___Malta___1898",
+    "Azopardi, Vincenzo Frendo___Malta___1911",
+    "Azopardi, Vincent Frendo___Malta___1917"
+   ],
+   "confidence": "certain",
+   "arguments_against": "The documented legal progression — Advocate for the Poor (1895) -> Crown Advocate (1906) -> Chief Justice of Malta — is matched by the 1898, 1911 and 1917 Malta stints, all initials V.F. with the C.M.G.(1908). The 1922 stint (Assistant Crown Advocate / Major) and the 1936 stint (a Lyceum schoolmaster) are left unassigned: the 1936 master is almost certainly a younger namesake, not the knighted Chief Justice born 1865.",
+   "evidence_cited": [
+    {
+     "stint_id": "Azopardi, Vincenzo Frendo___Malta___1898",
+     "year": 1907,
+     "fact": "Crown Advocate"
+    },
+    {
+     "stint_id": "Azopardi, Vincent Frendo___Malta___1917",
+     "year": 1917,
+     "fact": "Chief Justice of Malta and President of the Court of Appeal"
+    },
+    {
+     "stint_id": "Azopardi, Vincenzo Frendo___Malta___1911",
+     "year": 1911,
+     "fact": "C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [
+  {
+   "stint_id": "Azopardi, Vincenzo Frendo___Malta___1922",
+   "reason": "Assistant Crown Advocate / Public Prosecutor, rank Major, 1922-25 — a demotion from Crown Advocate and a military rank; ambiguous whether the same man. Review."
+  },
+  {
+   "stint_id": "Azopardi, Vincenzo Frendo___Malta___1936",
+   "reason": "A 'Master' at the Lyceum (Education Dept) 1936-40 — almost certainly a younger namesake, not the knighted Chief Justice (b.1865)."
+  }
+ ],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 2, hand-adjudicated (Claude Code, in-session)"
+}

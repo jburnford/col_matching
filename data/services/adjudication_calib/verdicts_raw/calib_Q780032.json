@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q780032",
+  "persons": [
+    {
+      "bio_id": "tilley_samuel-leonard_b1818",
+      "stint_ids": ["Tilley, Samuel Leonard___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: a same-name relative (e.g. a son named after him) serving in Canada, or the stint conflating two Tilleys, since 9 Tilleys appear in staff lists. But the stint records carry the full forename 'Samuel Leonard'/'Samuel L.', the exact offices the biography narrates (Lieutenant-Governor of New Brunswick to 1878, Minister of Finance from October 1878, Lieutenant-Governor again from 1885), and BOTH distinctive honours with correct chronology: C.B. alone in 1877-78, K.C.M.G. added from 1880 (awarded 1879 per the bio). No relative would replicate that honour pair and office sequence. The post-1896 listings (e.g. 1908 with no position) might suggest a different living Tilley, but they show the same K.C.M.G., C.B. pair and blank positions, consistent with stale privy-council/honours rolls listing an honoured ex-minister; the 1894/1896 entries already place him among 'Members of the Privy Council who are not now members of the Cabinet'. The counter-hypothesis fails on every specific dimension.",
+      "evidence_cited": [
+        {"stint_id": "Tilley, Samuel Leonard___Canada___1877", "year": 1877, "fact": "Lieut.-Governor of New Brunswick"},
+        {"stint_id": "Tilley, Samuel Leonard___Canada___1877", "year": 1879, "fact": "Finance Minister"},
+        {"stint_id": "Tilley, Samuel Leonard___Canada___1877", "year": 1880, "fact": "K.C.M.G., C.B."},
+        {"stint_id": "Tilley, Samuel Leonard___Canada___1877", "year": 1883, "fact": "Sir Samuel Leonard Tilley"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous 'Samuel Leonard Tilley' holding office in Canada (e.g. a son with the same full name and K.C.M.G./C.B.), or proof that the post-1900 staff-list rows refer to a different living official rather than a stale honours listing."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Multiple independent agreeing dimensions: full forename, two honours with award-date-consistent appearance, and three distinct offices matching the printed biography's sequence. Stint listings continue to 1914, well past the bio's 1885 terminal and the subject's likely death; these tail rows are position-less honours-roll entries and were treated as stale listings, not service currency."
+}

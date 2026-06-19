@@ -1,0 +1,12 @@
+{
+  "case_id": "calib_gemini_tasmania_0373",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Douglas, Adye___Tasmania___1877",
+      "reason": "The stint conflates two different men. Its 1877-1888 rows ('A. C. Douglas', Secretary, Post Office; 1888 'Postmaster and Secretary to Post Office') match the biography's office verbatim and almost certainly ARE the bio's subject. But the stint is keyed 'Douglas, Adye' and its 1894-1900 rows show 'Adye Douglas' / 'Hon. Adye Douglas' as Member and President of the Legislative Council and Chief Secretary in Cabinet — the well-known Tasmanian politician, a distinct person whose forename is Adye, not 'A. C.'. The name forms never overlap: the Post Office rows are always 'A. C. Douglas', the political rows always 'A. Douglas'/'Adye Douglas', and there is no row tying the postmaster to the Council. With 70 Douglas officials in the corpus, two A.-initial Douglases in Tasmania is entirely plausible. Assigning the whole stint to bio douglas_a-c_e1869 would falsely merge the politician's career into the postmaster's record; the stint should be split upstream before either half is assigned."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Strong recommendation: split this stint chain. Rows 1877-1888 (Post Office, 'A. C. Douglas') match bio douglas_a-c_e1869 on the unique compound office 'Postmaster and secretary to Post Office, Tasmania, 1 April, 1869' and would merit assignment on their own. Rows 1894-1900 ('Adye Douglas', Legislative Council President / Chief Secretary) belong to a different person (the politician Adye Douglas). The deterministic position_sim PASS at 100 is real but applies only to the pre-1888 half of the chain."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0078",
+  "persons": [
+    {
+      "bio_id": "de-wilton_albert-walter_b1862",
+      "stint_ids": ["de Wilton, A. W___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "The strongest realistic case against would be a same-name relative (a son or brother also styled A. W. de Wilton) holding the Ceylon prisons post, or that the 1905 row ('A. de Wilton', one initial) is a different man from the 'A. W. de Wilton' of 1906-1922. Both fail. The surname is unique in the entire corpus (1 official, 1 biography), so there is no candidate relative; the 1905 row carries rank 'Major' and the position 'Inspector-General of Police and Prisons', which is verbatim the biography's 'inspr.-gen. of pol. and prisons, Ceylon, 18th Aug., 1902', and the stint transitions in 1906 to Inspector-General of Prisons and Superintendent of the Convict Establishments exactly as the biography records his 15th July 1905 transfer. Rank (Major), both initials, colony, two successive unique senior offices, the 1905 transition date, and 14 agreeing edition-years all align; the age gate (born 1862, aged 43 at stint start) is consistent. No live counter-hypothesis remains.",
+      "evidence_cited": [
+        {"stint_id": "de Wilton, A. W___Ceylon___1905", "year": 1905, "fact": "Inspector-General of Police and Prisons"},
+        {"stint_id": "de Wilton, A. W___Ceylon___1905", "year": 1906, "fact": "Inspector-General of Prisons and Superintendent of the Colombo Convict Establishments"},
+        {"stint_id": "de Wilton, A. W___Ceylon___1905", "year": 1913, "fact": "Major A. W. de Wilton"}
+      ],
+      "would_overturn": "Discovery of a second A. W. de Wilton in Ceylon government service, or a death/departure record for Major Albert Walter de Wilton before 1922 while the listing continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique surname, multi-initial, rank, colony, two successive unique senior offices, and the 1905 office transition all corroborated across 17 edition-years. The biography's 'retired, 1903' clause refers to his Indian Army retirement, not colonial service; his Ceylon prisons appointment continued."
+}

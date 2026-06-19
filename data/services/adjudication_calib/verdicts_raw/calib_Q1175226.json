@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q1175226",
+  "persons": [
+    {
+      "bio_id": "macpherson_david-lewis_e1881",
+      "stint_ids": ["Macpherson, David L___Canada___1877"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: Macpherson is very common here (29 officials, 11 biographies), the bio has no printed birth year, position_sim failed mechanically, and the stint contains rows that cannot be this man — 'Lieut.-Col. Macpherson | Accountant | Militia and Defence Department' (1877, 1878) is a serving departmental accountant, not a sitting senator; that is a second individual swept into the cluster by surname. One could extend the doubt to the whole stint. That extension fails for the senator rows: the bio's subject was 'speaker of the senate till 1883' and the staff list shows 'D. L. Macpherson | Speaker of the Senate (without Portfolio)' in the Queen's Privy Council list and 'Speaker' of the Senate in exactly 1883 and no other year — a unique office with exact date agreement; he was 'summoned by royal mandamus to a seat in the senate', matching the continuous Senator listings; and the staff lists acquire 'Sir' and 'K.C.M.G.' from 1886, immediately after the bio's K.C.M.G. (1884). A rival D. L. Macpherson who was simultaneously Senator, Speaker in 1883, Privy Councillor, and K.C.M.G. is not a live hypothesis. Confidence is held at probable solely because the stint cluster is contaminated by the Militia accountant rows and should be split before the link is published.",
+      "evidence_cited": [
+        {"stint_id": "Macpherson, David L___Canada___1877", "year": 1883, "fact": "Speaker of the Senate (without Portfolio)"},
+        {"stint_id": "Macpherson, David L___Canada___1877", "year": 1883, "fact": "speaker of the senate till 1883"},
+        {"stint_id": "Macpherson, David L___Canada___1877", "year": 1886, "fact": "Sir D. L. Macpherson | Senator | The Queen's Privy Council for Canada | K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second David L. Macpherson in the Canadian Senate in this period, or a record showing the Speakership of 1883 was held by someone other than the bio's subject; alternatively, confirmation that the Lieut.-Col. accountant rows are the same man would force a full re-examination."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Identity of the senator rows is effectively beyond doubt (unique 1883 Senate Speakership, Privy Council membership, K.C.M.G. appearing in listings from 1886 after the 1884 award). The verdict is probable rather than certain because the stint cluster is contaminated: the 1877-78 'Lieut.-Col. Macpherson, Accountant, Militia and Defence Department' rows are a different person (no forename printed, incompatible occupation) and should be split out upstream. The bio's 'resigned 1885' refers to leaving the ministry, not the Senate, so the Senator listings through 1896 are consistent."
+}

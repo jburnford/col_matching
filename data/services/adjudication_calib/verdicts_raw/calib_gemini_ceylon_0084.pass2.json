@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0084",
+  "persons": [
+    {
+      "bio_id": "lascelles_alfred-george_b1857",
+      "stint_ids": ["Lascelles, Alfred G___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: 4 Lascelles officials exist and the deterministic place check is weak (inherited). Why it fails: the forename 'Alfred G' is spelled out in both bio and staff list, the two initials A. G. agree, and the stint reproduces the bio's exact arc - Attorney-General of Ceylon (1902/1906) then Chief Justice from 1911, retired 1914 - with the staff list showing 'Sir Alfred G. Lascelles' in 1914 matching the bio's 1913 knighthood. Five edition-years co-occur. The named forename plus the AG->Chief Justice succession plus the retirement year defeat any namesake.",
+      "evidence_cited": [
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1902, "fact": "atty.-gen. of Ceylon, 1902"},
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1905, "fact": "Attorney-General"},
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1911, "fact": "chief just., May, 1911; retired, 1914."},
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1912, "fact": "Chief Justice"},
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1914, "fact": "Sir Alfred G. Lascelles"}
+      ],
+      "would_overturn": "A second Alfred G. Lascelles holding the Ceylon attorney-generalship/chief justiceship in these years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full forename, AG->Chief Justice arc, retirement 1914, and the 1914 'Sir' matching the 1913 knighthood make this certain."
+}

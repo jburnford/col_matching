@@ -1,0 +1,34 @@
+{
+  "case_id": "case_boast_henry-w_e1876",
+  "persons": [
+    {
+      "bio_id": "boast_henry-w_e1876",
+      "stint_ids": [
+        "Boast, H. W___Natal___1879",
+        "Boast, H. W___Natal___1896"
+      ],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against the 1879 stint: the staff list prints only 'H. Boast' (single initial), 'Clerk' is the most generic junior title in the corpus, and 11 Boasts appear in the staff lists, so this could be a brother or cousin with the same first initial serving as a clerk elsewhere in Natal. This fails because the agreement is not title-alone: the bio places Henry W. precisely as a clerk attached to resident magistrates' courts in Natal continuously across 1878-1880 (Klip River from 26 May 1878, Weenen from Dec. 1880), and the stint is a Clerk in the Natal 'Magisterial Department and Staff' in exactly 1879-1880 - colony, department, role, and both bracketing years all agree; the only gate-compatible alternative bios (boast_henry-w_e1876-2, roast_henry-w_e1876) have ids indicating they are OCR/duplicate variants of this same Henry W. entry, not distinct people. Strongest case against the 1896 stint: a 13-16 year evidence gap (the bio appears only in the 1883 edition and ends Dec. 1880), so the 1896-1910 Magistrate could be a different H. W. Boast, e.g. a son. This is weakened because the initials match in full ('H. W. Boast' printed every year), the colony is the same, and the role is the natural promotion endpoint of the bio's career (clerk to resident magistrate -> Magistrate); a son of a man whose own career began only in 1876 would be roughly 20 years old in 1896, too young to hold a Natal magistracy. The counter-hypothesis is not dead, hence probable rather than certain, and the outside-case duplicate bios mean this assignment needs reconciliation in review.",
+      "evidence_cited": [
+        {"stint_id": "Boast, H. W___Natal___1879", "year": 1879, "fact": "Clerk | Magisterial Department and Staff"},
+        {"stint_id": "Boast, H. W___Natal___1879", "year": 1878, "fact": "clerk to resident magistrate, Klip River Division, 26th May, 1878"},
+        {"stint_id": "Boast, H. W___Natal___1879", "year": 1880, "fact": "clerk and Zulu interpreter, Court of Resident Magistrate, county of Weenen, Dec. 1880"},
+        {"stint_id": "Boast, H. W___Natal___1896", "year": 1896, "fact": "H. W. Boast | Magistrate | Magistrates"},
+        {"stint_id": "Boast, H. W___Natal___1896", "year": 1905, "fact": "H. W. Boast | Magistrate | Native High Court"}
+      ],
+      "would_overturn": "A printed birth year or a later Record of Services entry showing Henry W. Boast left the Natal service before 1896 or died before 1910; evidence of a second adult H. W. Boast (or H. Boast) serving concurrently in the Natal magisterial establishment in 1879-1880 or 1896-1910; or confirmation that boast_henry-w_e1876-2 / roast_henry-w_e1876 are distinct individuals rather than OCR duplicates of this biography."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Boast, H. W___South Africa___1912",
+      "reason": "A serving Natal Magistrate through 1910 reappearing in 1912 as a junior 'Clerk' in the Swaziland Administration Establishment would be a sharp demotion; the bio subject, in service since 1876, would be near or past 60 across this stint. The career shape better fits a younger same-name relative. No position, place, honour, or edition evidence ties this clerkship to the 1883 biography; surname plus initials alone is insufficient under the prime directive."
+    },
+    {
+      "stint_id": "Boast, H. W___Swaziland___1917",
+      "reason": "Same discontinuity: a junior Clerk in the Swaziland Administration through 1927, when the bio subject would be roughly 65-75 years old. This stint overlaps the South Africa 1912 stint (both list 'Swaziland Administration Establishment' clerkships in 1917-1918) and is plausibly the same second individual listed under two colony rubrics. No independent evidence links it to the 1883 biography."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two unassigned stints (South Africa 1912-1918 and Swaziland 1917-1927) overlap in 1917-1918 with identical Clerk roles in the Swaziland Administration Establishment and almost certainly belong to one person - likely a second, younger H. W. Boast (possibly a son of the bio subject), since Swaziland appears under the South Africa rubric in some editions. The dossier flags out-of-case gate-compatible bios boast_henry-w_e1876-2 and roast_henry-w_e1876 ('Roast' being a plausible OCR error for 'Boast'); their ids suggest OCR/duplicate variants of this same biography. If either is already linked to the Natal stints assigned here, deduplicate the biographies rather than treating them as competing persons."
+}

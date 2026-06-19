@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q6233141",
+  "persons": [
+    {
+      "bio_id": "findlay_john-george_e1906",
+      "stint_ids": ["Findlay, John George___New Zealand___1907"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: 16 Findlays in the staff lists and 7 biographies, no printed birth year, and a surface tension — the biography says 'resigned, 1911' yet the stint includes 1912 rows, which could suggest the 1912 minister is a different J. G. Findlay. This fails: the stint prints the full forename 'John George' in 1908, 1909 and 1912; the biography's stated post, 'Atty.-gen. and col. sec., New Zealand, Nov., 1906', matches the 1907-08 rows 'Attorney-General and Colonial Secretary' verbatim (position_sim PASS at 67); and the 1912 rows carry exactly the biography's honour and degree — K.C.M.G. (bio: 1910) and LL.D. — with the 'Hon. Sir' style matching 'HON. SIR JOHN GEORGE'. The 1912 listing is a standard edition lag: the 1912 volume reflects the 1911 portfolio (he attended the Imperial Conference in 1911 and resigned that year), and a hypothetical second Sir John George Findlay, K.C.M.G., LL.D., as Attorney-General in the same government is not realistic. Attorney-General of New Zealand is a singular office.",
+      "evidence_cited": [
+        {"stint_id": "Findlay, John George___New Zealand___1907", "year": 1907, "fact": "Attorney-General and Colonial Secretary"},
+        {"stint_id": "Findlay, John George___New Zealand___1907", "year": 1908, "fact": "John George Findlay"},
+        {"stint_id": "Findlay, John George___New Zealand___1907", "year": 1912, "fact": "K.C.M.G., LL.D."},
+        {"stint_id": "Findlay, John George___New Zealand___1907", "year": 1912, "fact": "Hon. Sir John George Findlay"}
+      ],
+      "would_overturn": "Evidence of a second John George Findlay in the New Zealand ministry circa 1907-1912 (e.g. distinct staff rows with conflicting forenames or honours), or proof the 1912 rows reflect a successor rather than pre-resignation state — which would only trim the stint's end year, not the identity."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full forename in three rows, verbatim position agreement with the biography's 1906 appointment, and the K.C.M.G.+LL.D. pair surfacing in the 1912 rows exactly per the bio's 1910 award. The 1912 edition listing despite the 1911 resignation is normal publication lag (the multi-portfolio rows match his final-year offices), flagged for the reviewer but not an identity concern."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q389321",
+  "persons": [
+    {
+      "bio_id": "lougheed_sr-jas-alexander_b1854",
+      "stint_ids": ["Lougheed, James Alexander___Canada___1907"],
+      "confidence": "certain",
+      "arguments_against": "The only realistic counter-hypothesis is the other Lougheed in the corpus (2 officials, 2 biographies) — e.g. a relative also in Canadian federal politics — and the honour-check FAIL might be read as a contradiction. Both fail. The staff-list career tracks the biography clause by clause: 'Senator' in 1907 (bio: 'summoned to Senate of Canada, 1889' and 'govt. leader in the Senate, 1907-21'); 'Minister without Portfolio' 1912-1918 (bio: 'minister without portfolio in Mr. Borden's cabinet, Oct., 1911'); 'Minister of Soldiers' Civil Re-establishment' 1919-20 (bio: 'min. of soldiers civil re-establishment, 1918'); and the staff lists add K.C.M.G. from 1917, exactly tracking the bio's 'K.C.M.G. (1916)', plus K.C. matching the bio's 'K.C.'. The honour FAIL is mechanical — the dossier's structured honours field for the bio is empty, but the verbatim entry plainly prints both honours. The 1919-20 rows even print the same abbreviated style, 'Hon. Sir Jas. A. Lougheed'. A second James Alexander Lougheed simultaneously Senator, Minister without Portfolio, and Minister of Soldiers' Civil Re-establishment is not a live possibility.",
+      "evidence_cited": [
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1912, "fact": "Minister without Portfolio"},
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1919, "fact": "Minister of Soldiers' Civil Re-establishment"},
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1917, "fact": "K.C.M.G. (1916)"},
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1919, "fact": "Hon. Sir Jas. A. Lougheed"}
+      ],
+      "would_overturn": "Evidence of a second James Alexander Lougheed holding federal ministerial office in 1907-1922, or a demonstration that the Senate and ministry listings refer to different men despite the identical full name and honours."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Deterministic honour FAIL is an extraction artifact: the bio's structured honours field is empty, but the verbatim text prints 'K.C.M.G. (1916); K.C.', both of which appear on the 1917-1922 staff rows with correct timing (K.C.M.G. first listed 1917). Three distinct offices and four co-occurring edition-years corroborate."
+}

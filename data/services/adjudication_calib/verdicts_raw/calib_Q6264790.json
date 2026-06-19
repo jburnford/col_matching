@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6264790",
+  "persons": [
+    {
+      "bio_id": "woodall_john_b1897",
+      "stint_ids": ["Woodall, John___Bermuda___1956"],
+      "confidence": "certain",
+      "arguments_against": "Single-initial warning applies, and there is a second Woodall biography in the corpus, so the counter-hypothesis is that the other Woodall (or an unrelated J. Woodall) held the Bermuda post. This fails: the stint office is Governor and Commander-in-Chief of Bermuda, a unique single-occupant post, and the biography records 'gov. and c.-in-c., Berm., 1955-59', enclosing the stint's 1956-1958 listing exactly. The staff list prints 'Lieut.-Gen. Sir John Woodall' in 1958, matching the bio's 'Lieut.-Gen. Sir John' precisely in rank, knighthood, and full forename, and three honours agree (K.B.E., C.B., M.C. in 1956; C.B. thereafter). The other Woodall in the staff lists would also have to be a knighted Lieut.-Gen. named John with the same three honours governing Bermuda over the same years — not a realistic alternative.",
+      "evidence_cited": [
+        {"stint_id": "Woodall, John___Bermuda___1956", "year": 1956, "fact": "gov. and c.-in-c., Berm., 1955–59"},
+        {"stint_id": "Woodall, John___Bermuda___1956", "year": 1958, "fact": "Lieut.-Gen. Sir John Woodall"},
+        {"stint_id": "Woodall, John___Bermuda___1956", "year": 1956, "fact": "K.B.E., C.B., M.C."}
+      ],
+      "would_overturn": "External evidence that a different John Woodall governed Bermuda 1956-1958, or that the bio's governorship clause is a conflation — neither plausible given rank, honours, and tenure all agree."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "position_sim FAIL is the recurring abbreviation artifact ('gov. and c.-in-c.' = 'Governor and Commander-in-Chief'). Multiple independent dimensions: unique office + exact tenure containment (1955-59 vs 1956-58), full forename and rank agreement, and a three-honour overlap."
+}

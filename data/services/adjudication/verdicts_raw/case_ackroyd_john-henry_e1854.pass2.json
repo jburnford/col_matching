@@ -1,0 +1,27 @@
+{
+  "case_id": "case_ackroyd_john-henry_e1854",
+  "persons": [
+    {
+      "bio_id": "ackroyd_john-henry_e1854",
+      "stint_ids": [
+        "Ackroyd, John Henry___Mauritius___1877",
+        "Ackroyd, John Henry___Mauritius___1890"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case this is wrong: the corpus holds 5 officials and 4 biographies with the surname Ackroyd, so one or both stints could belong to a same-name relative, e.g. a son also named John Henry serving in Mauritius. The 1877 stint's title 'District Magistrate' is a generic recurring office, and its 1886 record ('Third clerk, registry supreme court') makes no chronological sense for a man who held that post in 1854 and was a district judge by 1882 — it could be a different, younger J. H. Ackroyd starting at the bottom. For the 1890 stint, a son could have inherited the magistracy career. Why these fail: (1) both stints print the full forename pair 'John Henry', not a bare initial, and no second John Henry Ackroyd appears anywhere in the dossier; (2) the 1886 record's position string is a verbatim copy of this biography's unique opening clause ('Third clerk, registry supreme court, April, 1854'), which is the signature of the staff list cross-referencing this man's record of services, not of a new junior clerk; (3) the 1890 stint tracks the biography's printed career step-for-step on three independent, highly specific dimensions: Plaines Wilhems magistrate (bio: 'dist. mag., Plaines Wilhems, 1887'), junior district magistrate (bio: 'ag. jun. dist. mag., Aug., 1895'), and Port Louis district magistrate (bio: 'dist. mag., Port Louis, 1st div., Feb., 1898'); (4) the stint's edition span [1890-1905] exactly matches the biography's later edition appearances. A hypothetical relative would have to replicate this exact sequence of posts, which the biography explicitly assigns to this man. Chronology is consistent: appointed 1854, so serving in 1905 at roughly age 70 as a senior district magistrate is plausible and the biography is still being printed in 1905. The deterministic FAILs (position_sim 59 vs bar 60, edition_cooccurrence) are mechanical string artifacts: 'dist. mag.' vs 'District Magistrate' is an abbreviation, not a difference.",
+      "evidence_cited": [
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1877", "year": 1886, "fact": "Third clerk, registry supreme court"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1877", "year": 1877, "fact": "District Magistrate"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1877", "year": 1883, "fact": "pol. and stip. mag. for the lesser dependencies of Mauritius, 1876"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1894, "fact": "Plaines Wilhems Magistrate (Rose Hill Division)"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1894, "fact": "dist. mag., Plaines Wilhems, 1887"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1899, "fact": "ag. jun. dist. mag., Aug., 1895"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1900, "fact": "dist. mag., Port Louis, 1st div., Feb., 1898"}
+      ],
+      "would_overturn": "Evidence of a second John Henry Ackroyd in Mauritius in the same period — e.g. a staff-list or biographical entry distinguishing 'jun.'/'sen.', a birth or death record showing this man died or retired before 1905, or a record of services for a son with the same forenames holding the Plaines Wilhems or Port Louis magistracies."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-biography case with full-forename agreement on both stints. The two stints are almost certainly one continuous career with an edition-coverage gap (1886-1890). The 1886 staff-list record's anomalous 'Third clerk, registry supreme court' title verbatim-duplicates the biography's 1854 opening appointment and likely reflects the staff list reproducing the record-of-services first line rather than a real 1886 posting; flagged here so reviewers are not misled by the apparent chronological regression. The 1890 stint's edition list [1890, 1894, 1896, 1897, 1898, 1899, 1900, 1905] is an exact subset-match of the biography's edition appearances despite the mechanical edition_cooccurrence FAIL."
+}

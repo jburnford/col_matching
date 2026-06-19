@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107338079",
+  "persons": [
+    {
+      "bio_id": "hooton_john-charles_b1912",
+      "stint_ids": ["Hooton, J. C___Bermuda___1959"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: a second J. C. Hooton (the corpus has 5 Hooton officials and 2 Hooton biographies), e.g. a relative, holding the Bermuda post. This fails: Attorney-General of Bermuda is a unique, senior office held by one person at a time, and the biography explicitly prints 'atty.-gen., Berm., 1958' — exact office, exact colony, with the staff listing beginning the very next edition year (1959) and ending in 1961, exactly when the bio records 'leg. sec. E.A.C.S.O., 1961', i.e. his departure from Bermuda. Both initials (J, C) agree. The career shape (legal officer: crown counsel 1950-51, senior asst. legal sec. 1953) leads naturally to an attorney-generalship. The honour FAIL is an artifact: the staff list prints no honours in these rows at all. The other Hooton biography is not in this case and no evidence suggests it held this office.",
+      "evidence_cited": [
+        {"stint_id": "Hooton, J. C___Bermuda___1959", "year": 1959, "fact": "atty.-gen., Berm., 1958"},
+        {"stint_id": "Hooton, J. C___Bermuda___1959", "year": 1959, "fact": "Attorney-General"},
+        {"stint_id": "Hooton, J. C___Bermuda___1959", "year": 1961, "fact": "leg. sec. E.A.C.S.O., 1961"}
+      ],
+      "would_overturn": "Evidence that a different J. C. Hooton was Bermuda's Attorney-General 1959-1961, or that the biography subject never took up the 1958 appointment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique senior office (Attorney-General, Bermuda) printed verbatim in the biography with matching start (1958 appointment, listed from 1959) and end (1961 move to E.A.C.S.O. legal secretary) plus full initial agreement and 2 co-occurring edition-years."
+}

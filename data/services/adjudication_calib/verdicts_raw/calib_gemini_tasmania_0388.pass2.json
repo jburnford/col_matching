@@ -1,0 +1,24 @@
+{
+ "case_id": "calib_gemini_tasmania_0388",
+ "persons": [
+  {
+   "bio_id": "henry_r_e1878",
+   "stint_ids": [
+    "Henry, Robert___Tasmania___1888"
+   ],
+   "confidence": "certain",
+   "arguments_against": "HENRY, R. is a single-initial bio and the surname is common (74 staff-list officials). But the position 'Superintendent of telegraphs' is a unique colony office (one holder), the colony (Tasmania) and the 1878 appointment continuing into the 1888-1894 listing all agree; a same-initial namesake holding the identical specialised telegraph post in the same colony is implausible.",
+   "evidence_cited": [
+    {
+     "stint_id": "Henry, Robert___Tasmania___1888",
+     "year": 1888,
+     "fact": "Superintendent of Telegraphs"
+    }
+   ],
+   "would_overturn": "A second same-surname person in the same colony and years holding the same office, or a printed death/birth date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "pilot hand-adjudication (Claude Code, in-session)"
+}

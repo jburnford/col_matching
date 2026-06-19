@@ -1,0 +1,26 @@
+{
+  "case_id": "calib_Q125387502",
+  "persons": [
+    {
+      "bio_id": "smith_allan_b1895",
+      "stint_ids": ["Smith, Allan Chalmers___Sierra Leone___1951", "Smith, Allan F___Bermuda___1957"],
+      "confidence": "certain",
+      "arguments_against": "Smith is the worst surname in the corpus (612 officials, 265 bios) and the bio carries only the forename 'Allan' with no middle name, so the namesake trap is at full strength. Against the Sierra Leone assignment: the stint prints the middle name 'Chalmers' which the bio never confirms, so it could be a different Allan Smith. This fails because Chief Justice of Sierra Leone is a unique office: the bio says 'ch. just., S.L., 1950' and the stint shows the Chief Justice from 1951, and decisively, the bio's Kt. (1953) is mirrored by the staff list switching from 'A. C. Smith' (1951-52) to 'Sir Allan Chalmers Smith' in exactly 1953. Two knighted Allan Smiths cannot both have been CJ of Sierra Leone in 1953. Against the Bermuda assignment: the chain key carries a middle initial 'F' which conflicts with 'Chalmers'. But not one of the nine printed rows contains an F — they read 'Allan Smith' then 'Sir Allan Smith' — so the F is a chain-keying artifact, not printed evidence. The bio's man was Bermuda-bred ('ed. Warwick Acad., Berm.'), retired there in 1955, and was appointed 'asst. justice, 1956'; the stint is the Assistant Justice of Bermuda from 1957, knighted, exactly continuing that appointment. A second knighted Allan Smith as Bermuda's Assistant Justice in the same years is not a realistic hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Smith, Allan Chalmers___Sierra Leone___1951", "year": 1951, "fact": "ch. just., S.L., 1950"},
+        {"stint_id": "Smith, Allan Chalmers___Sierra Leone___1951", "year": 1953, "fact": "Sir Allan Chalmers Smith"},
+        {"stint_id": "Smith, Allan Chalmers___Sierra Leone___1951", "year": 1953, "fact": "Kt. (1953)"},
+        {"stint_id": "Smith, Allan F___Bermuda___1957", "year": 1957, "fact": "asst. justice, 1956"},
+        {"stint_id": "Smith, Allan F___Bermuda___1957", "year": 1958, "fact": "Sir Allan Smith"},
+        {"stint_id": "Smith, Allan F___Bermuda___1957", "year": 1957, "fact": "Assistant Justice"}
+      ],
+      "would_overturn": "For Sierra Leone: a record of a different knighted Allan Smith as CJ there in 1951-54. For Bermuda: any printed source actually giving the Assistant Justice a middle initial F or a forename other than Allan, or evidence the bio's subject left Bermuda before 1957."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Smith, A. M. MacLeod___Sierra Leone___1958", "reason": "Different person. A. M. MacLeod Smith was Financial Secretary of Sierra Leone 1958-59 with a C.M.G.; the biography's subject was a judge, never a financial officer, held no C.M.G. (his honour was Kt. 1953), and had left Sierra Leone for Bermuda by 1955 ('retd., apptd. conservr.-gen., Berm., 1955'). Initials and honours both conflict."},
+    {"stint_id": "Smith, A. St. L___Gold Coast___1949", "reason": "Conflated chain mixing at least three distinct people: 'A. C. Smith, Puisne Judge' (1949-50), 'A. Smith, Principal Agricultural Education Officer' (1950), and 'A. H. Smith, Deputy Commissioner, Income Tax' (1951); the chain key 'A. St. L' matches none of them. The Puisne Judge rows are plausibly the biography's subject (bio: 'G.C., 1940' as puisne judge, departing for the Sierra Leone chief justiceship in 1950), but assigning the stint would also attach the agriculture and income-tax officers — people who cannot be him, since he was Chief Justice of Sierra Leone by 1950-51. Under the no-false-merge directive the whole stint stays unassigned; it needs chain repair, not adjudication."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The Gold Coast chain should be split upstream: its 1949-50 'A. C. Smith, Puisne Judge, Judicial' rows would likely link to this bio cleanly once separated from the agriculture and income-tax records. The Bermuda chain's 'F' middle initial appears in the chain key only, never in any printed row."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6142212",
+  "persons": [
+    {
+      "bio_id": "longden_james-r_e1844",
+      "stint_ids": ["Longden, James Robert___Ceylon___1878"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-hypothesis is a same-name relative (e.g. a son 'James Robert Longden') serving in Ceylon in the same years, or that the bio's single middle initial 'R.' conceals a different middle name than 'Robert'. This fails: Longden is a rare surname in the corpus (8 officials, 3 biographies), the bio explicitly states 'gov., Ceylon, 1877 to 1883' which brackets the stint's listed years 1878-1883 exactly, the stint position 'Governor, &c.' is the same office, and both carry the K.C.M.G. (bio: 1876; staff list: K.C.M.G. shown 1878-1880, consistent with an 1876 award and with the G.C.M.G. arriving only in 1883 at the end of the tenure). A second knighted J. R. Longden governing the same colony over the same six-year span is not a realistic alternative. The absence of edition co-occurrence is expected since the stint editions (1878-1880, 1883 staff lists) largely predate the surviving biography sections (1883 onward).",
+      "evidence_cited": [
+        {"stint_id": "Longden, James Robert___Ceylon___1878", "year": 1878, "fact": "gov., Ceylon, 1877 to 1883"},
+        {"stint_id": "Longden, James Robert___Ceylon___1878", "year": 1878, "fact": "Governor, &c."},
+        {"stint_id": "Longden, James Robert___Ceylon___1878", "year": 1878, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second Sir James Robert Longden, K.C.M.G., alive in 1878-1883 (e.g. a son with identical name and honour), or records showing the Ceylon governor of 1878-1883 had different forenames or a different knighthood date."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint, rare surname. Multiple independent agreeing dimensions: exact colony + bracketing dates (1877-1883 vs listed 1878-1883), exact office (governor), forename/initials agreement (James R. vs James Robert), and shared K.C.M.G. with chronologically consistent award year. No live counter-hypothesis."
+}

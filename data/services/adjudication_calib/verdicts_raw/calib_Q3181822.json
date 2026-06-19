@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q3181822",
+  "persons": [
+    {
+      "bio_id": "fraser_j-j_e1882",
+      "stint_ids": ["Fraser, John James___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Fraser is the commonest surname imaginable in this corpus (140 officials, 69 biographies), the biography prints initials only ('J. J.'), no birth year, and the deterministic honour check FAILed — textbook conditions for a namesake trap (two J. J. Frasers in New Brunswick public life, e.g. father and son). The counter-hypothesis fails because the agreement is not a single office but a synchronized career transition within ONE staff-list individual: Attorney-General in the 1879-1880 lists, gone from executive office by 1883 (listed only as 'Member', Legislative Council), then 'Puisne Judge' from the 1886 list onward — exactly tracking the bio's 'Attorney-general and premier, province of New Brunswick... retired, 1882; puisne judge, supreme court, New Brunswick, 1883'. A second J. J. Fraser would have to make the same AG-to-judge move in the same province in the same years. The 1883 row also prints 'Hon. J. J. Fraser, Q.C' matching the bio's 'Q.C.' (the honour FAIL is mechanical — Q.C. was embedded in the name string, not the honours column). Attorney-General and puisne judge of the supreme court are not generic junior titles; they are single-occupancy or near-single-occupancy offices. Edition co-occurrence passes with 5 agreeing edition-years.",
+      "evidence_cited": [
+        {"stint_id": "Fraser, John James___Canada___1877", "year": 1879, "fact": "Attorney-General"},
+        {"stint_id": "Fraser, John James___Canada___1877", "year": 1886, "fact": "Puisne Judge"},
+        {"stint_id": "Fraser, John James___Canada___1877", "year": 1883, "fact": "Hon. J. J. Fraser, Q.C"},
+        {"stint_id": "Fraser, John James___Canada___1877", "year": 1894, "fact": "Lieutenant-Governor"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous J. J. Fraser who was Attorney-General or a supreme-court judge in New Brunswick in 1879-1894, or proof that the Attorney-General rows and the Puisne Judge rows in this stint belong to two different Frasers rather than one continuous individual."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. The biography text was frozen in 1886 and never updated, so it omits the Lieutenant-Governor phase (1894+ rows); the staff list's AG-to-puisne-judge transition matches the bio's 1882/1883 dates with the normal edition lag, and the later Lieutenant-Governor rows are the natural continuation of the same individual (full name 'John James Fraser' printed from 1905). Post-1896 Lieutenant-Governor rows likely reflect retrospective 'Lieutenant-Governors' roll listings."
+}

@@ -1,0 +1,24 @@
+{
+ "case_id": "calib_Q839225",
+ "persons": [
+  {
+   "bio_id": "clemen-ti_cecil_e1895",
+   "stint_ids": [
+    "Clementi, Cecil___Hong Kong___1927"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Compiled as single-initial (given_names='Cecil' = one token). But 'Cecil' is a full forename, the surname Clementi is rare (OCR 'CLEMEN'TI'), and the entry states governor of Hong Kong from 1925 — matching the 1927-1929 HK listing. Risk is low; the only caveat is the mechanical single-initial flag.",
+   "evidence_cited": [
+    {
+     "stint_id": "Clementi, Cecil___Hong Kong___1927",
+     "year": null,
+     "fact": "gov., Hong Kong"
+    }
+   ],
+   "would_overturn": "A second same-surname person in the same colony and years holding the same office, or a printed death/birth date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "pilot hand-adjudication (Claude Code, in-session)"
+}

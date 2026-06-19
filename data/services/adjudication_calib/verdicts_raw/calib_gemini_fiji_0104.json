@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_fiji_0104",
+  "persons": [
+    {
+      "bio_id": "kirkwood_richard-hugh_b1859",
+      "stint_ids": ["Kirkwood, R. H___Fiji___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: 8 Kirkwoods appear in staff lists and 'Chief Clerk' / 'Assistant Auditor' are not unique titles, so a different R. H. Kirkwood (e.g. a relative) could hold the stint; also the early staff-list rows say Chief Clerk in the 'Colonial Secretary's Department' (1894-1905) while the biography says 'ch. clk. audit dept., 1892', a department mismatch. This fails because the stint reproduces the biography's idiosyncratic career zigzag move for move and year for year: promotion to Assistant Auditor in 1907 in both sources ('ass't. auditor, 1907' vs the 1907 row 'Assistant Auditor | Audit Department'), a single-year detour to 'Sub-Collector of Customs' in the 1911 list matching 'sub-collr., customs, and postmr., Lautoka, May, 1910', and an immediate return to Assistant Auditor matching 'ass't. auditor, Jan., 1911'. Such a three-step coincidence in one colony for a namesake with the same two initials is not realistic. The department discrepancy is resolved within the dossier itself: the stint's own 1906 row moves the Chief Clerk to 'Audit Department', showing the same person and a listing/classification variation rather than two people.",
+      "evidence_cited": [
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1907, "fact": "ass't. auditor, 1907"},
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1911, "fact": "sub-collr., customs, and postmr., Lautoka, May, 1910"},
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1912, "fact": "ass't. auditor, Jan., 1911"},
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1906, "fact": "ch. clk. audit dept., 1892"}
+      ],
+      "would_overturn": "Evidence of a second R. H. Kirkwood in Fiji's establishment in 1894-1921 (two simultaneous staff-list lines), or a record showing the Assistant Auditor of Fiji 1907-1921 had forenames other than Richard Hugh."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The place_inherited FAIL is mitigated: the biography opens with 'col. sec.'s office, Fiji' naming the colony directly, and every subsequent clause is one continuous Fiji career. The deterministic position_sim only captured one match; reading the verbatim text reveals three independent position+year agreements including the distinctive 1910-11 customs detour."
+}

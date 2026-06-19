@@ -1,0 +1,12 @@
+{
+ "careers": 543,
+ "cases_built": 212,
+ "careers_unresolved": 330,
+ "careers_multi_bio_skipped": 1,
+ "candidate_pairs": 302,
+ "positive_pairs": 290,
+ "negative_pairs": 12,
+ "gated_out_pairs": 238,
+ "rendered": 212,
+ "review_oversized": 0
+}

@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_Q2607987",
+  "persons": [
+    {
+      "bio_id": "stubbs_reginald-edward_b1876",
+      "stint_ids": ["Stubbs, R. E___Ceylon___1914", "Stubbs, Reginald Edward___Hong Kong___1919", "Stubbs, R. E___Jamaica___1928"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: 16 officials and 9 biographies share the surname Stubbs, the only edition that carries the post-1912 career (col1937) is severely OCR-garbled, position_sim FAILED on all three stints, and for Jamaica both tenure_overlap and place_inherited FAILED — so each stint could in principle belong to a different R. E. Stubbs. This fails for each stint. Hong Kong: the bio reads 'gov., Hong Kong; assumed govt., 30th Sept.' and carries K.C.M.G. (1919); the staff list prints the full forenames 'Reginald Edward', shows Governor 1919-1925, and its honour flips from C.M.G. (1919 row) to K.C.M.G. (1920 row) in exact step with the bio's 1919 knighthood — Hong Kong had one Governor. Ceylon: the bio places him in Ceylon from 'Jan., 1913' ('...lands comm., Ceylon, Jan., 1913') and has him as 'O.A.G., Dec., 1915 to Apr., 1916' — the Officer Administering the Government is precisely the Colonial Secretary's acting role, matching the stint's 'Colonial Secretary' 1914-15; the stint gains C.M.G. in 1915 consistent with the pre-knighthood honour the bio lists, and the career shape (C.O. 1st class clerk 1910 → Col. Sec. Ceylon → Gov. Hong Kong 1919) is continuous. Jamaica: the bio's garbled 'capt., Jamaica, 1926' preserves the Captain-General title and date, matching the stint's 'Captain-General and Governor-in-Chief' (listed 1928-31) with shared K.C.M.G., and it slots exactly between the Hong Kong stint ending 1925 and 'gov. and comm., Dec., 1932, do., Ceylon'. Three different R. E. Stubbses succeeding each other through these unique senior posts with synchronized honours is not a realistic hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Stubbs, R. E___Ceylon___1914", "year": 1914, "fact": "Ceylon, Jan., 1913"},
+        {"stint_id": "Stubbs, R. E___Ceylon___1914", "year": 1915, "fact": "O.A.G., Dec., 1915 to Apr., 1916"},
+        {"stint_id": "Stubbs, Reginald Edward___Hong Kong___1919", "year": 1919, "fact": "gov., Hong Kong"},
+        {"stint_id": "Stubbs, Reginald Edward___Hong Kong___1919", "year": 1920, "fact": "K.C.M.G. (1919)"},
+        {"stint_id": "Stubbs, R. E___Jamaica___1928", "year": 1928, "fact": "capt., Jamaica, 1926"},
+        {"stint_id": "Stubbs, R. E___Jamaica___1928", "year": 1928, "fact": "gov. and comm., Dec., 1932, do., Ceylon"}
+      ],
+      "would_overturn": "Commission records showing a different person as Colonial Secretary of Ceylon 1914-15, Governor of Hong Kong 1919-25, or Governor of Jamaica 1928-31; in particular, a cleaner copy of the 1937 entry contradicting the Ceylon 1913 posting would weaken the Ceylon assignment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The col1937 OCR is badly mangled (e.g. 'C.M.G. (1876)' conflates the birth year with the honour date; clauses are spliced). The verdict rests on the fragments that survive intact — 'Ceylon, Jan., 1913', 'O.A.G., Dec., 1915 to Apr., 1916', 'gov., Hong Kong', 'capt., Jamaica, 1926', 'gov. and comm., Dec., 1932, do., Ceylon' — which jointly trace one continuous senior career matching all three stints. The honour transitions in the staff lists (C.M.G.→K.C.M.G. at 1919/1920 in Hong Kong) independently corroborate the K.C.M.G. (1919) date."
+}

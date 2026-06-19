@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q1361191",
+  "persons": [
+    {
+      "bio_id": "atkinson_h-a_e1887",
+      "stint_ids": ["Atkinson, Harry Albert___New Zealand___1880"],
+      "confidence": "certain",
+      "arguments_against": "The biography carries only initials 'H. A.' and no birth year, so the strongest case against is a second H. A. Atkinson in New Zealand politics (a son or relative) holding some of the 1880-1890 portfolio rows, or the stint cluster conflating two men. This fails: the stint rows form one continuous ministerial career under one name, the 1889 row reads 'Premier, Colonial Treasurer, Postmaster-General and Commissioner of Telegraphs, Commissioner of Stamp Duties, and Minister of Marine' with 'K.C.M.G.' — matching the bio's unique office bundle ('Premier, Treasurer, commissioner of stamp duties, and of trade and customs, New Zealand, 1887') and its 'K.C.M.G. (1888)' honour, which appears in the staff list exactly from the 1889 edition. Premier of New Zealand is a unique post; two contemporaneous Sir H. A. Atkinsons K.C.M.G. holding it is impossible. The earlier 1880-1888 Treasurer/Commissioner rows show the same man's well-documented ministerial continuity (same name, same departments, 'Hon.' then 'Sir' progression).",
+      "evidence_cited": [
+        {"stint_id": "Atkinson, Harry Albert___New Zealand___1880", "year": 1887, "fact": "Premier, Treasurer, commissioner of stamp duties, and of trade and customs, New Zealand, 1887"},
+        {"stint_id": "Atkinson, Harry Albert___New Zealand___1880", "year": 1889, "fact": "Premier, Colonial Treasurer, Postmaster-General and Commissioner of Telegraphs, Commissioner of Stamp Duties, and Minister of Marine"},
+        {"stint_id": "Atkinson, Harry Albert___New Zealand___1880", "year": 1889, "fact": "K.C.M.G."},
+        {"stint_id": "Atkinson, Harry Albert___New Zealand___1880", "year": 1888, "fact": "K.C.M.G (1888)"}
+      ],
+      "would_overturn": "Evidence that the pre-1888 Treasurer rows belong to a different H. A. Atkinson than the post-1888 Premier (e.g. an obituary or succession notice splitting the career), which would require splitting the stint rather than reassigning it."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique head-of-government post with a distinctive multi-portfolio bundle matching the bio verbatim, plus the K.C.M.G. (1888) appearing in staff lists from 1889. The honour and 'Sir' progression across the stint rows confirms a single career."
+}

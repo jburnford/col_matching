@@ -1,0 +1,28 @@
+{
+  "case_id": "calib_gemini_ceylon_0011",
+  "persons": [
+    {
+      "bio_id": "fraser_john-george_b1864",
+      "stint_ids": [
+        "Fraser, J. G___Ceylon___1888",
+        "Fraser, J. G___Ceylon___1896"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Fraser is one of the commonest surnames in the corpus (140 officials, 69 bios) and the bio is two initials, so 'J. G. Fraser, Cadet' could be any of several men, and 'cadet' is a generic junior title. The cadet stint (1888-89) is therefore weak on its own. It is rescued by being the documented start of a single continuous career that the 1896 stint matches on multiple specific, non-generic dimensions: Assistant Government Agent of the NORTH WESTERN Province in 1900 (bio 'astt. govt. agt., Chilaw, Dec., 1899' -- Chilaw lies in the North Western Province), Settlement Officer in the Land Settlement Department 1905-11 (bio 'land settmtn. offr., Aug., 1901'), acting Government Agent 1912 (bio 'ag. govt. agt., W. Prov., 4th Jan., 1912'), and acting Controller of Revenue in 1914 (bio 'ag. controller of revenue, in 1911, 1912, 1913'), with C.M.G. surfacing in 1914 (bio C.M.G. 1913). That cluster -- Land Settlement Officer plus acting Controller of Revenue plus acting GA Western Province plus C.M.G. timing -- is highly distinctive and not duplicable by another J. G. Fraser. The bio's 'cadet Ceylon civ. ser., Oct., 1887' places the cadet exactly in the 1888-89 lists, with no competing cadet in the case, so the cadet stint joins the same continuous record.",
+      "evidence_cited": [
+        {"stint_id": "Fraser, J. G___Ceylon___1888", "year": 1888, "fact": "J. G. Fraser | Cadet"},
+        {"stint_id": "Fraser, J. G___Ceylon___1888", "year": 1887, "fact": "cadet Ceylon civ. ser., Oct., 1887"},
+        {"stint_id": "Fraser, J. G___Ceylon___1896", "year": 1900, "fact": "J. G. Fraser | Assistant Government Agent | North Western Province"},
+        {"stint_id": "Fraser, J. G___Ceylon___1896", "year": 1905, "fact": "J. G. Fraser | Settlement Officer | Land Settlement Department"},
+        {"stint_id": "Fraser, J. G___Ceylon___1896", "year": 1901, "fact": "land settmtn. offr., Aug., 1901"},
+        {"stint_id": "Fraser, J. G___Ceylon___1896", "year": 1914, "fact": "Controller of Revenue (acting)"}
+      ],
+      "would_overturn": "Evidence of a second J. G. Fraser in the Ceylon service who was also a Land Settlement Officer and acting Controller of Revenue with C.M.G., or that the 1887 cadet of the bio is a different J. G. Fraser from the one in the 1888-89 lists."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Fraser, J. G___Ceylon___1919", "reason": "This stint is internally contaminated: its 1919-1922 records ('J. G. Fraser, Government Agent, Western Province, C.M.G.') are a clear continuation of the bio's career (Government Agent W. Prov. from 1914, C.M.G. 1913, retired 1924), but its 1925 and 1927 records read 'J. G. Fraser, Master Attendant, Colombo Port Commission, rank Captain' with NO C.M.G. -- a maritime port officer who is almost certainly a different J. G. Fraser (our man held C.M.G. and was knighted in 1924 and had retired by 1924; a Master Attendant 'Captain' would not drop those honours). The stint bundles two people and cannot be split here, so per the no-false-merges directive it is left unassigned. A reviewer should split it: the 1919-1922 Government Agent / Western Province portion belongs to this bio; the 1925-27 Master Attendant (Captain) portion does not."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Sir John George Fraser, Ceylon civil servant (C.M.G. 1913, Kt. Bach. 1924, ret. 1924). Cadet 1888 and the 1896 stint are the same continuous career and are assigned. The 1919 stint is contaminated: its early years (Government Agent, Western Province, C.M.G.) match this bio, but its 1925-27 years are a different 'J. G. Fraser' (Master Attendant, Colombo Port, Captain, no honours). Left unassigned to avoid merging the port captain; flag for manual split."
+}

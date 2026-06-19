@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0067",
+  "persons": [
+    {
+      "bio_id": "cottle_henry-chas_b1857",
+      "stint_ids": ["Cottle, H. C___Ceylon___1888"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-case: another H. C. Cottle (4 same-surname officials and 3 same-surname biographies exist in the corpus), e.g. a son or brother who also worked in the Ceylon Government Printing Office, or a same-initial successor in the printer posts. This fails because the staff-list line tracks the bio's three dated promotions in order: 'Second-Assistant Government Printer' in 1888 (bio: '2nd astl. gov't. printer, Ceylon, Nov., 1885'), 'Assistant Government Printer' from 1890 (bio: 'astl. gov't. printer, 1888'), and 'Government Printer' from 1907 (bio: 'gov't. printer, 1906'). A relative or successor would not reproduce all three transitions at the bio's dates under the same two initials in the same establishment. There are also 14 agreeing edition-years of colony-agreeing position co-occurrence. The slight offset of staff-list promotion years (1888/1890 vs bio 1885/1888) reflects edition lag, not a different person; transitions land in the first edition after each appointment that the stint covers.",
+      "evidence_cited": [
+        {"stint_id": "Cottle, H. C___Ceylon___1888", "year": 1888, "fact": "Second-Assistant Government Printer"},
+        {"stint_id": "Cottle, H. C___Ceylon___1888", "year": 1890, "fact": "Assistant Government Printer"},
+        {"stint_id": "Cottle, H. C___Ceylon___1888", "year": 1907, "fact": "Government Printer"}
+      ],
+      "would_overturn": "Evidence of a second H. C. Cottle in the Ceylon printing establishment in 1888-1915 (a separate staff-list line), or a record that Henry Chas. Cottle left the service while the line continued, or a death/retirement before 1915 contradicting the listing run."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two-initial match with a full three-stage career-shape agreement in the same specialised establishment (Government Printing) and 14 agreeing edition-years. The bio's acting interludes (ag. gov't. printer 1890-1904, ag. contr. of gov't. stores 1904-1906) are consistent with the substantive 'Assistant Government Printer' title the staff list shows through 1906. The 1905 bio version's '2nd astt. govt. printer, Ceylon, Nov., 1888' is an OCR/typesetting slip for 1885, corrected in all other versions."
+}

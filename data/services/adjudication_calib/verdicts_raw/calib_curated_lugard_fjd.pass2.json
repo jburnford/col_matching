@@ -1,0 +1,27 @@
+{
+  "case_id": "calib_curated_lugard_fjd",
+  "persons": [
+    {
+      "bio_id": "lugard_frederick-john-dealtry_b1858",
+      "stint_ids": [
+        "Lugard, F. J. D___Nigeria___1917",
+        "Lugard, F. J. D___Northern Nigeria___1905",
+        "Lugard, Frederick John Dealty___Hong Kong___1911"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The counter-case would be a same-name relative occupying one of these governorships. It collapses against an exceptionally distinctive three-forename identity (Frederick John Dealtry), only ONE bio with this surname, and a unique honour set (G.C.M.G./K.C.M.G., C.B., D.S.O.) that the stints carry. Northern Nigeria 1905: bio 'high commnstr. for Northern Nigeria, Dec., 1899; resigned Sept., 1906' matches 'High Commissioner' 1905-06 in Northern Nigeria with C.B./D.S.O. -- and the bio's K.C.M.G. (1901) appears exactly when the stint upgrades C.M.G.->K.C.M.G. in 1906. Hong Kong 1911: bio 'gov. of Hong Kong, May, 1907' matches Governor of Hong Kong, with the stint printing the full name 'Frederick John Dealty'. Nigeria 1917: bio 'gov.-gen., Nigeria, Dec., 1913' matches 'Governor-General' of Nigeria 1917-18 with G.C.M.G./C.B./D.S.O. The tenure-overlap FAILs for the two Nigeria stints are mechanical (placed-event tenures not coded as spanning those exact years), but the named-office + place + honour + full-name agreement is overwhelming and there is no second F. J. D. Lugard in the record.",
+      "evidence_cited": [
+        {"stint_id": "Lugard, F. J. D___Nigeria___1917", "year": 1917, "fact": "Sir F. J. D. Lugard | Governor-General"},
+        {"stint_id": "Lugard, F. J. D___Nigeria___1917", "year": 1913, "fact": "gov.-gen., Nigeria, Dec., 1913"},
+        {"stint_id": "Lugard, F. J. D___Northern Nigeria___1905", "year": 1905, "fact": "Sir F. J. D. Lugard | High Commissioner"},
+        {"stint_id": "Lugard, F. J. D___Northern Nigeria___1905", "year": 1899, "fact": "high commnstr. for Northern Nigeria, Dec., 1899"},
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1911, "fact": "Sir F. J. D. Lugard | Governor"},
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1907, "fact": "gov. of Hong Kong, May, 1907"}
+      ],
+      "would_overturn": "Evidence of a second person named Frederick John Dealtry Lugard simultaneously holding colonial office -- which would contradict the unique forename triple and the single biography for the surname."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Lord Lugard (F. J. D. Lugard), the famous colonial administrator. Distinctive three-forename name, single bio for the surname, and offices/places/honours map directly to named bio clauses. The tenure-overlap FAILs are mechanical coding artifacts, not evidence against."
+}

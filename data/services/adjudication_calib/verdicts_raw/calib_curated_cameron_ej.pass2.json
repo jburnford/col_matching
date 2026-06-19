@@ -1,0 +1,33 @@
+{
+  "case_id": "calib_curated_cameron_ej",
+  "persons": [
+    {
+      "bio_id": "cameron_edward-j_e1882",
+      "stint_ids": [
+        "Cameron, Edw. John___Windward Islands___1905",
+        "Cameron, Edward J___Gambia___1914",
+        "Cameron, Edward John___Windward Islands___1948"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Windward Islands 1905 stint: the strongest counter-case is a second E. J. Cameron among the 68 staff-list Camerons serving as a Windward Islands administrator. It fails because the stint's specifics track the biography point for point: the C.M.G. appears in the staff list precisely in 1906, immediately after the bio's 'C.M.G. (1905)'; the stint's records alternate between the St. Vincent administration ('Administrators of St. Vincent') and St. Lucia ('Administrator of St. Lucia'), exactly mirroring the bio's 'admstr., St. Vincent, May, 1901' then 'admstr., St. Lucia, Apr., 1909'; and the current-service rows stop being plausible as live service after 1914, when the bio's subject left for the Gambia governorship — the post-1920 rows sit in retrospective rosters ('Administrators of St. Vincent since 1888', 'ADMINISTRATORS SINCE 1900'), which list past officeholders and so do not imply a living second Cameron. Gambia 1914 stint: counter-case is that the bio never names Gambia — it reads 'gov'r., Gomana'. But 'Gomana' is an OCR garble in a clause dated '28th Feb., 1914' with government assumed '11th Apr., 1914', and the staff list shows E. J. Cameron as Governor and Commander-in-Chief of the Gambia from 1914; the honours clinch it: staff list C.M.G. in 1914-15 then 'Sir E. J. Cameron' K.C.M.G. from 1917, matching the bio's K.C.M.G. (1916), and the stint ends in 1920, matching 'ret., 1920.' A namesake governor would need the same initials, same honours with the same award years, and the same retirement year. Windward Islands 1948 stint: counter-case is a younger mid-century Edward John Cameron actively administering in 1948-50 (the bio's subject retired in 1920). This fails because the 1948/1950 rows carry C.M.G. — the honour the bio's subject held as administrator — and sit in the same retrospective-roster context as the 1905-stint's own 1933-1950 rows (e.g. the 1950 row under 'ADMINISTRATORS SINCE 1900'); they are roster memorials of the same past administrator, not evidence of a second living one. A genuinely new 1948 administrator with the identical full name, identical honour, and no current-service detail anywhere would be an extraordinary coincidence.",
+      "evidence_cited": [
+        {"stint_id": "Cameron, Edw. John___Windward Islands___1905", "year": 1906, "fact": "C.M.G. (1905)"},
+        {"stint_id": "Cameron, Edw. John___Windward Islands___1905", "year": 1905, "fact": "admstr., St. Vincent, May, 1901"},
+        {"stint_id": "Cameron, Edw. John___Windward Islands___1905", "year": 1915, "fact": "admstr., St. Lucia, Apr., 1909"},
+        {"stint_id": "Cameron, Edward J___Gambia___1914", "year": 1914, "fact": "assumed govt., 11th Apr., 1914"},
+        {"stint_id": "Cameron, Edward J___Gambia___1914", "year": 1917, "fact": "K.C.M.G. (1916)"},
+        {"stint_id": "Cameron, Edward J___Gambia___1914", "year": 1920, "fact": "ret., 1920."},
+        {"stint_id": "Cameron, Edward John___Windward Islands___1948", "year": 1948, "fact": "C.M.G. (1905)"}
+      ],
+      "would_overturn": "For the Windward 1905 and Gambia 1914 stints: any record of a second contemporaneous E. J. Cameron administering St. Vincent/St. Lucia or governing the Gambia in those exact years. For the 1948 stint: evidence that the 1948-1950 Windward rows are current-service listings of a living administrator (e.g. a salary entry or appointment date in the 1940s) rather than retrospective rosters."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Cameron, Edward J___Leeward Islands___1949",
+      "reason": "Chronology effectively rules out the biography's subject: he was a private secretary in 1882 (so born around 1858-1860) and retired in 1920; an active Commissioner in the Leeward Islands in 1949-1951 would put him around age 90 in a working post. Unlike the 1948 Windward rows, these records carry no C.M.G./K.C.M.G. at all, which contradicts the bio's honours if it were a retrospective listing of him, and the Commissioner post does not appear anywhere in the biography. This is almost certainly a younger namesake (initials E. J. only), so it stays unassigned."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "'Gomana' in the bio OCR is the Gambia: the appointment date (28th Feb., 1914), assumption of government (11th Apr., 1914), honours progression, and 1920 retirement all match the Gambia governor stint. The Windward Islands lists in this corpus demonstrably retain past administrators in retrospective rosters for decades (the 1905 stint runs to 1950 with the 1906-vintage C.M.G.), which is why the 1948 stint is read as the same person's roster entry rather than a new official."
+}

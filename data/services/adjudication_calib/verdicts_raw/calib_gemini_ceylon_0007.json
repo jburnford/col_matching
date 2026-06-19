@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0007",
+  "persons": [
+    {
+      "bio_id": "lushington_charles-morant_b1854",
+      "stint_ids": ["Lushington, C. M___Ceylon___1877", "Lushington, C. M___Ceylon___1907"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: the Lushingtons were a well-known colonial-service family, so a same-initial relative could account for one stint — particularly the 1907-1912 stint, whose deterministic position check FAILed and whose places are all clause-inherited. This fails on career shape and place specificity. For the 1877 stint: Writer in the Colonial Secretary's Office 1877-78 matches 'writer, Ceylon civ. serv., 1st Apr., 1876'; Police Magistrate 1879-83 matches 'pol. mag., Balapitiyamoda, 25th Dec., 1877'; Office Assistant in Government Agencies 1886-89 matches 'office asst. to govt. agt., N.W. prov., 17th May, 1878' and its sequels; and Assistant Government Agent, Eastern Province 1900 matches the bio's 'ditto, Trincomalee, 1st Oct., 1896' (Trincomalee is in the Eastern Province). For the 1907 stint: it opens at Government Agent plus Collector for the Southern Province — a senior post, not an entry post, so a new-generation relative is implausible — and the bio reads 'govt. agt., S. prov., 7th Dec., 1905' then 'govt. agt. and fiscal for S. prov., 22nd Sept., 1907', exactly the Government Agent + Southern Province collector/fiscal pairing the staff list prints for 1907-1912. The bio itself stops appearing after 1912, the same year the stint ends. With only 5 Lushingtons in all staff lists and 1 in the biographical sections, no concrete rival exists in the corpus. The position_sim FAIL is a string artifact ('govt. agt., prov. of Uva' vs 'Government Agent'); read directly, the positions agree.",
+      "evidence_cited": [
+        {"stint_id": "Lushington, C. M___Ceylon___1877", "year": 1877, "fact": "writer, Ceylon civ. serv., 1st Apr., 1876"},
+        {"stint_id": "Lushington, C. M___Ceylon___1877", "year": 1879, "fact": "pol. mag., Balapitiyamoda, 25th Dec., 1877"},
+        {"stint_id": "Lushington, C. M___Ceylon___1877", "year": 1900, "fact": "ditto, Trincomalee, 1st Oct., 1896"},
+        {"stint_id": "Lushington, C. M___Ceylon___1907", "year": 1907, "fact": "govt. agt. and fiscal for S. prov., 22nd Sept., 1907"},
+        {"stint_id": "Lushington, C. M___Ceylon___1907", "year": 1907, "fact": "govt. agt., S. prov., 7th Dec., 1905"}
+      ],
+      "would_overturn": "Evidence of a second C. M. Lushington in the Ceylon service (e.g. two C. M. Lushington rows in one staff-list year), or a record showing Charles Morant Lushington left the Southern Province post before 1912 while the staff list continued listing a C. M. Lushington there."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints are one career chain split across a staff-list gap (1900-1907); the biography bridges the gap continuously (offr. of cls. II 1898, govt. agt. E. prov. 1903, offr. of cls. I 1904, govt. agt. Uva then S. prov. 1905). Surname is rare in the corpus (5 staff-list officials, 1 biography)."
+}

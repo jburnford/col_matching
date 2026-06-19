@@ -1,0 +1,21 @@
+{
+  "case_id": "case_bharucha_navroji-maneckji_b1890",
+  "persons": [
+    {
+      "bio_id": "bharucha_navroji-maneckji_b1890",
+      "stint_ids": ["Bharucha, N. M___Ceylon___1920"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: (1) A same-name relative (brother or cousin) named N. M. Bharucha could have entered the Ceylon service around 1920, and the bio's only attested edition is 1915 with zero edition co-occurrence with the stint (1920-1937), plus a five-year listing gap. This fails because the corpus context shows only 1 official with this surname in the entire graph's staff lists, the stint's two initials match both forenames Navroji Maneckji exactly, the age fits perfectly (cadet at 24 in 1914, magistrate at 30 in 1920), and the career shape is the standard Ceylon civil service track: cadets appointed ~1914 routinely advanced to Police Magistrate / Commissioner of Requests / District Judge posts by 1920. The position_sim FAIL is an artifact of comparing the cadet-entry string to a later judicial title, not evidence of different people. (2) The stronger residual concern: the stint is also gate-compatible with the out-of-case biography 'bharucha_navroji-manekji_b1890', which is the same printed name one OCR character apart (Manekji vs Maneckji) with the identical birth year 1890 - almost certainly a duplicate record of the SAME human, not a rival person. So the live risk is not a wrong-person merge but a duplicate-person double-assignment if that variant bio was or will be linked to this stint elsewhere. That bookkeeping risk is why this is 'probable' (routed to human review) rather than 'certain'.",
+      "evidence_cited": [
+        {"stint_id": "Bharucha, N. M___Ceylon___1920", "year": 1914, "fact": "cadet, Ceylon civ. ser., Jan., 1914"},
+        {"stint_id": "Bharucha, N. M___Ceylon___1920", "year": 1920, "fact": "Commissioner of Requests and Police Magistrate"},
+        {"stint_id": "Bharucha, N. M___Ceylon___1920", "year": 1920, "fact": "stint starts 1920, birth 1890 (age 30)"},
+        {"stint_id": "Bharucha, N. M___Ceylon___1920", "year": 1920, "fact": "bio ['N', 'M'] ~ stint ['N', 'M']"}
+      ],
+      "would_overturn": "Evidence that 'bharucha_navroji-manekji_b1890' is a distinct person (different birth year, different career text, or both bios co-occurring as separate entries in the same edition) rather than an OCR variant; or discovery of a second N. M. Bharucha in Ceylon staff lists 1915-1920; or a printed entry showing Navroji Maneckji Bharucha left the Ceylon service before 1920."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The dossier flags the stint as gate-compatible with out-of-case bio 'bharucha_navroji-manekji_b1890' (Manekji vs Maneckji, same birth year 1890). These two biographies are almost certainly OCR/spelling-variant duplicates of one person; they cannot be declared in duplicate_bio_groups because only one is in this case. Reviewer should verify the variant bio is not separately linked to this same stint, and merge the two bio records if confirmed duplicates. Identity of the stint with this human is very strong: unique surname in staff lists, exact two-initial match, Ceylon colony match, age 30 at stint start, and canonical cadet-to-judiciary Ceylon career progression."
+}

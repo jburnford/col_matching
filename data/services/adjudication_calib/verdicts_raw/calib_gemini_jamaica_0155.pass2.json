@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0155",
+  "persons": [
+    {
+      "bio_id": "bicknell_h-j_e1860",
+      "stint_ids": ["Bicknell, H. J___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "BICKNELL is moderately common (10 officials, 2 bios), the bio carries only two initials H. J. with no birth year (age gate unchecked), there is no shared honour, and no edition co-occurrence bonus. A relative could in principle hold a magistracy. This fails because the single continuous stint reproduces the bio's dated career step for step, including a specific place and a timed role change. Bio 'Police magistrate, Kingston, Jamaica, Mar., 1860' matches the staff list's Police Magistrate, and specifically 'Police Magistrate, Kingston' in 1883. Bio 'R.M., St. Catherine, April, 1888' / 'resident magistrate ... April, 1888' matches the stint's transition from Police Magistrate to Resident Magistrate in 1889-90 — the right office change at the right time. Initials H. J. and colony Jamaica agree, and tenure (1877-90) sits inside the bio's span (magistrate from 1860, R.M. from 1888). A namesake would not replicate both the Kingston police magistracy and the 1888 shift to resident magistrate.",
+      "evidence_cited": [
+        {"stint_id": "Bicknell, H. J___Jamaica___1877", "year": 1883, "fact": "Police Magistrate, Kingston"},
+        {"stint_id": "Bicknell, H. J___Jamaica___1877", "year": 1889, "fact": "Resident Magistrate"},
+        {"stint_id": "Bicknell, H. J___Jamaica___1877", "year": 1877, "fact": "Police magistrate, Kingston, Jamaica, Mar., 1860"},
+        {"stint_id": "Bicknell, H. J___Jamaica___1877", "year": 1889, "fact": "resident magistrate, St. Catherine, April, 1888"}
+      ],
+      "would_overturn": "Evidence of a second H. J. Bicknell in the Jamaica magistracy, splitting the police-magistrate and resident-magistrate phases between two men."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "One continuous Jamaica judicial career matching the bio's specific posts (Police Magistrate at Kingston, then Resident Magistrate from 1888/89) and place; two-initial match. No honour or edition co-occurrence, but the place-specific position match plus the correctly-timed role change make it certain."
+}

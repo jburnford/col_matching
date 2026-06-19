@@ -1,0 +1,139 @@
+<!-- {"case_id": "case_tu-per_cham-hibbert_b1855", "bio_ids": ["tu-per_cham-hibbert_b1855"], "stint_ids": ["Tupper, Charles Hibbert___Canada___1877"]} -->
+# Dossier case_tu-per_cham-hibbert_b1855
+
+## Case context
+
+- 1 biography(ies) and 1 candidate stint(s) are entangled in this case.
+- Corpus context: 6 official(s) with this surname in the graph's staff lists; 1 biography(ies) with this surname in the printed biographical sections. The commoner the surname, the weaker any name-based inference.
+- Phase 1 found `tu-per_cham-hibbert_b1855` ↔ `Tupper, Charles Hibbert___Canada___1877` passed its evidence bar but dropped it as ambiguous (a comparable-strength competitor existed).
+- NOTE: stint `Tupper, Charles Hibbert___Canada___1877` is also gate-compatible with biography(ies) outside this case: ['tupper_charles-hibbert_b1855'] (already linked elsewhere or filtered).
+
+## Biography `tu-per_cham-hibbert_b1855`
+
+- Printed name: **TU'PER, CHAM. HIBBERT**
+- Birth year: 1855 (attested in editions [1922])
+- Honours: K.C.M.G (1893)
+- Appears in editions: [1922]
+
+### Verbatim printed entry text (OCR)
+
+**Version `col1922-L56700.v` — printed in editions [1922]:**
+
+> TU'PER, HON. SIR CHAM. HIBBERT, K.C.M.G. (1893).—B. 1855; son of late Sir C. Tupper; mem. of N.S. bar; grad. Harvard law schl.; mem. of house of commons, Canada, 1882-1900; min. of marine and fisheries, 1888-1896; deleg. to Washington in connection with Behring Sea difficulty, 1890; Br. agt. for the arbitration with the U.S. on the Behring Sea question, 1892-3; min. of just., 1895; resig. 1896; mem. of priv. coun. for Canada.
+
+### Compiled career timeline
+
+| # | years | position | place | editions |
+|---|-------|----------|-------|----------|
+| 0 | 1882–1900 | mem. of house of commons | Canada | [1922] |
+| 1 | 1888–1896 | min. of marine and fisheries | Canada *(inherited from previous clause)* | [1922] |
+| 2 | 1890 | deleg. to Washington in connection with Behring Sea difficulty | Canada *(inherited from previous clause)* | [1922] |
+| 3 | 1892–1893 | Br. agt. for the arbitration with the U.S. on the Behring Sea question | Canada *(inherited from previous clause)* | [1922] |
+| 4 | 1895 | min. of just | Canada *(inherited from previous clause)* | [1922] |
+| 5 | 1896 | resig | Canada *(inherited from previous clause)* | [1922] |
+
+## Candidate stint `Tupper, Charles Hibbert___Canada___1877`
+
+- Staff-list name: **Tupper, Charles Hibbert** | colony: **Canada** | listed 1877–1922 | editions [1877, 1878, 1879, 1880, 1883, 1886, 1888, 1889, 1890, 1894, 1896, 1897, 1898, 1900, 1905, 1906, 1908, 1912, 1913, 1914, 1917, 1918, 1919, 1920, 1922]
+
+### Year-by-year staff-list records
+
+| year | name as printed | position | department | honours | rank |
+|------|-----------------|----------|------------|---------|------|
+| 1877 | Charles Tupper | M.P. | Civil Establishment | C.B. | — |
+| 1877 | Hon. C. Tupper, C.B. | Member of Parliament | House of Commons | C.B. | — |
+| 1878 | Charles Tupper | M.P. | Civil Establishment | C.B. | — |
+| 1879 | C. Tupper | — | — | C.B. | — |
+| 1879 | Charles Tupper | Minister of Public Works | Public Works | C.B. | — |
+| 1880 | Charles Tupper | Minister of Railways and Canals | Railways and Canals | K.C.M.G., C.B. | — |
+| 1880 | Sir Charles Tupper | Minister of Railways and Canals | Privy Council | K.C.M.G., C.B. | — |
+| 1883 | Charles H. Tupper | — | — | — | — |
+| 1883 | Sir Charles Tupper | Minister of Railways and Canals | THE QUEEN'S PRIVY COUNCIL FOR CANADA | K.C.M.G., C.B. | — |
+| 1883 | Charles Tupper | — | — | K.C.M.G. | — |
+| 1883 | Charles Tupper | Minister of Railways and Canals | Railways and Canals | K.C.M.G., C.B. | — |
+| 1886 | Sir Charles Tupper | High Commissioner for Canada in London | The Queen's Privy Council for Canada | K.C.M.G., C.B. | — |
+| 1886 | Sir Charles Tupper | High Commissioner for Canada in London | High Commissioner | G.C.M.G., C.B. | — |
+| 1886 | Charles H. Tupper | Member | Province of Nova Scotia | — | — |
+| 1888 | Charles H. Tupper | Member | Province of Nova Scotia | — | — |
+| 1888 | Sir Charles Tupper | Finance Minister | Finance Department | G.C.M.G., C.B. | — |
+| 1888 | C. Tupper | Member | Province of Nova Scotia | G.C.M.G. | — |
+| 1888 | Sir Charles Tupper | High Commissioner | HIGH COMMISSIONER IN LONDON | G.C.M.G., C.B. | — |
+| 1888 | Hon. Sir C. Tupper | Minister of Finance | THE QUEEN'S PRIVY COUNCIL FOR CANADA | G.C.M.G., C.B. | — |
+| 1889 | Charles H. Tupper | — | Province of Nova Scotia | — | — |
+| 1889 | C. H. Tupper | Minister of Fisheries | Department of Fisheries | — | — |
+| 1889 | Sir Charles Tupper | High Commissioner for Canada in London | Members of the Privy Council who are not now members of the Cabinet | G.C.M.G., C.B. | — |
+| 1889 | C. H. Tupper | Minister of Marine and Fisheries | THE QUEEN'S PRIVY COUNCIL FOR CANADA | — | — |
+| 1889 | Charles Tupper | High Commissioner | High Commissioner in London | G.C.M.G., C.B. | — |
+| 1889 | C. H. Tupper | Minister | Department of Marine | — | — |
+| 1890 | C. H. Tupper | Minister of Marine and Fisheries | Queens Privy Council for Canada | — | — |
+| 1890 | Charles H. Tupper | — | PROVINCE OF NOVA SCOTIA | — | — |
+| 1890 | Hon. Sir Charles Tupper, Bart. | High Commissioner | High Commissioner in London | G.C.M.G., C.B. | — |
+| 1890 | Hon. C. H. Tupper | Minister of Fisheries | Department of Fisheries | — | — |
+| 1890 | Sir Charles Tupper | High Commissioner for Canada in London | Queens Privy Council for Canada | G.C.M.G., C.B. | — |
+| 1890 | C. H. Tupper | Minister | Department of Marine | — | — |
+| 1894 | C. Hibbert Tupper | Minister | Marine and Fisheries | K.C.M.G. | — |
+| 1894 | Sir Charles Hibbert Tupper | Minister Marine and Fisheries | THE QUEEN'S PRIVY COUNCIL FOR CANADA | K.C.M.G. | — |
+| 1894 | Hon. Sir Charles Tupper, Bart. | High Commissioner | HIGH COMMISSIONER IN LONDON | G.C.M.G., C.B. | — |
+| 1894 | Sir Charles Tupper | High Commissioner for Canada in London | Members of the Privy Council who are not now members of the Cabinet | G.C.M.G., C.B. | — |
+| 1894 | Tupper | Member of Legislative Assembly | — | K.C.M.G. | — |
+| 1896 | C. Tupper | Secretary of State of Canada | Secretary of State | G.C.M.G. | — |
+| 1896 | Sir Charles Tupper | High Commissioner | High Commissioner in London | G.C.M.G., C.B. | — |
+| 1896 | Hon. Sir Charles Tupper, Bart. | High Commissioner | High Commissioner in London | G.C.M.G., C.B. | — |
+| 1896 | C. Tupper | — | — | G.C.M.G. | — |
+| 1896 | Hon. Sir C. Tupper | Secretary of State | THE QUEEN'S PRIVY COUNCIL FOR CANADA | G.C.M.G. | — |
+| 1896 | Hon. Sir C. Hibbert Tupper | — | THE QUEEN'S PRIVY COUNCIL FOR CANADA | K.C.M.G. | — |
+| 1896 | Tupper | — | — | K.C.M.G. | — |
+| 1897 | Charles Hibbert Tupper | Member of Legislative Assembly | Provincial Legislature | K.C.M.G. | — |
+| 1898 | Hon. Sir C. Tupper | — | Privy Council | G.C.M.G., C.B. | — |
+| 1898 | Hon. Sir C. H. Tupper | — | Privy Council | K.C.M.G. | — |
+| 1898 | Charles Hibbert Tupper | — | — | K.C.M.G. | — |
+| 1900 | Hon. Sir C. H. Tupper | — | Privy Council | K.C.M.G. | — |
+| 1900 | Hon. Sir C. Tupper | — | Privy Council | G.C.M.G., C.B. | — |
+| 1905 | Sir C. H. Tupper | — | Privy Council Office | K.C.M.G., K.C. | — |
+| 1905 | Sir C. Tupper, Bart. | — | Privy Council Office | G.C.M.G., C.B. | — |
+| 1906 | C. Tupper | — | Privy Council Office | G.C.M.G., C.B. | — |
+| 1906 | C. H. Tupper | — | Privy Council Office | K.C.M.G. | — |
+| 1908 | C. H. Tupper | Privy Councillor | Privy Council Office | K.C.M.G. | — |
+| 1908 | C. Tupper | Privy Councillor | Privy Council Office | G.C.M.G., C.B. | — |
+| 1912 | C. Tupper | Privy Councillor | Office of the Privy Council | G.C.M.G., C.B. | — |
+| 1912 | C. H. Tupper | Privy Councillor | Office of the Privy Council | K.C.M.G. | — |
+| 1913 | C. H. Tupper | — | Office of the Privy Council | K.C.M.G. | — |
+| 1913 | C. Tupper | — | Office of the Privy Council | G.C.M.G., C.B. | — |
+| 1914 | C. H. Tupper | Privy Councillor | Privy Council | K.C.M.G. | — |
+| 1914 | C. Tupper | Privy Councillor | Privy Council | G.C.M.G., C.B. | — |
+| 1917 | C. H. Tupper | Privy Councillor | Privy Council | K.C.M.G. | — |
+| 1918 | Sir C. H. Tupper | Privy Councillor | Privy Council | K.C.M.G., K.C. | — |
+| 1919 | C. H. Tupper | Privy Councillor | Privy Councillors | K.C.M.G. | — |
+| 1920 | C. H. Tupper | Privy Councillor | Privy Councillors who are not members of the Cabinet | K.C.M.G., K.C. | — |
+| 1922 | C. H. Tupper | Privy Councillor | Privy Council | K.C.M.G. | — |
+
+### Deterministic checks: `tu-per_cham-hibbert_b1855` vs `Tupper, Charles Hibbert___Canada___1877`
+
+- [PASS] surname_gate: bio 'TU'PER' vs stint 'Tupper, Charles Hibbert' (fuzzy:1)
+- [PASS] initials: bio ['C', 'H'] ~ stint ['C', 'H']
+- [PASS] age_gate: stint starts 1877, birth 1855 (age 22)
+- [PASS] colony: 6 placed event(s) resolve to 'Canada'
+- [PASS] tenure_overlap: 6 event tenure(s) overlap stint years 1877-1922
+- [PASS] position_sim: best 92 vs bar 60: 'min. of marine and fisheries' ~ 'Minister of Marine and Fisheries'
+- [PASS] honour: shared: K.C.M.G
+- [not met] edition_cooccurrence (strict corroboration bonus — same edition-year with colony-agreeing position match; absence is normal even for true matches and is NOT evidence against): no agreeing edition-years
+- [PASS] place_inherited: at least one supporting event names its place in print
+
+## Adjudication constraints (binding)
+
+- The prime directive is NO FALSE MERGES. A missed link is recoverable; a
+  wrong one silently corrupts the historical record. When in doubt, leave
+  the stint unassigned.
+- Surname identity is NOT evidence: every candidate here already shares the
+  surname (it is the blocking key). Only position, place, dates, honours,
+  initials/forenames, and edition co-occurrence count.
+- Single-initial biographies (e.g. "J. Lewis") must never be merged on
+  shared-stint or tenure-overlap evidence alone; they need a strong
+  independent dimension (specific position match, shared honour, or
+  multi-edition co-occurrence).
+- A stint belongs to AT MOST one biography. If two biographies in this case
+  could plausibly hold the same stint, assign it to neither.
+- Respect hard chronology: nobody serves before age ~15 or after death.
+- Generic junior titles (clerk, cadet, assistant) recur constantly; a title
+  match alone on a common office is weak evidence.
+

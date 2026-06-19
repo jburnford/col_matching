@@ -1,0 +1,31 @@
+{
+  "case_id": "calib_curated_clifford_hugh",
+  "persons": [
+    {
+      "bio_id": "clifford_hugh-charles_b1866",
+      "stint_ids": [
+        "Clifford, Hugh Charles___Gold Coast___1913",
+        "Clifford, Hugh___Ceylon___1907",
+        "Clifford, Hugh___Nigeria___1919",
+        "Clifford, Hugh___Trinidad and Tobago___1905"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 20 Cliffords appear in the staff lists and 10 in the biographies, so another 'Hugh Clifford' (a relative or namesake) could in principle hold one of these posts, and three of the four stints print only the single forename 'Hugh' rather than 'Hugh Charles'. This fails for each stint individually: the Trinidad stint (Colonial Secretary, C.M.G., 1905-06) matches the bio's 'col. sec., Trinidad and Tobago, 14th Sept., 1904' in office, colony, dates, and the C.M.G. (1900); the Ceylon stint matches 'col. sec., Ceylon, 3rd May, 1907' and the staff list flips from C.M.G. to K.C.M.G. in 1910, exactly tracking his K.C.M.G. (1909) — a namesake would not share both honours with matching award dates; the Gold Coast stint ('Sir Hugh Charles Clifford', Governor, K.C.M.G., 1913-18) matches 'gov., G. Coast, 11th Dec., 1912' on full forename, office, colony, date, and honour; the Nigeria stint (Governor, K.C.M.G. then G.C.M.G. from 1922) matches 'gov., Nigeria, 23rd July, 1919' and tracks his G.C.M.G. (1921). The four stints also form one continuous career path identical to the printed biography (Trinidad -> Ceylon -> Gold Coast -> Nigeria) with no gaps or overlaps. No realistic counter-hypothesis survives: there is no second Hugh Clifford who was successively colonial secretary of Trinidad and Ceylon and governor of the Gold Coast and Nigeria with the same honours timeline.",
+      "evidence_cited": [
+        {"stint_id": "Clifford, Hugh___Trinidad and Tobago___1905", "year": 1905, "fact": "col. sec., Trinidad and Tobago, 14th Sept., 1904"},
+        {"stint_id": "Clifford, Hugh___Ceylon___1907", "year": 1907, "fact": "col. sec., Ceylon, 3rd May, 1907"},
+        {"stint_id": "Clifford, Hugh Charles___Gold Coast___1913", "year": 1913, "fact": "gov., G. Coast, 11th Dec., 1912"},
+        {"stint_id": "Clifford, Hugh___Nigeria___1919", "year": 1919, "fact": "gov., Nigeria, 23rd July, 1919"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Hugh Clifford holding the same C.M.G. (1900) and K.C.M.G. (1909) and serving as colonial secretary of Trinidad or Ceylon or governor of the Gold Coast/Nigeria in these exact years; or a primary record showing the staff-list entries refer to someone with a different birth year or career."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Clifford, Hugh___St Vincent___1909",
+      "reason": "No event in the biography places Clifford in St Vincent at any time, and during the stint years (1909-1911) the biography places him firmly in Ceylon as colonial secretary, repeatedly administering the government there ('admstd. govt., ... 3rd June to 11th Oct., 1909, 30th June to 17th Nov., 1911'). The St Vincent list also shows only 'C.M.G.' in 1911, whereas Hugh Charles Clifford was K.C.M.G. from 1909 (the Ceylon list of the same years correctly shows 'Sir Hugh Clifford ... K.C.M.G.'). This is most plausibly a stale or erroneous Governors-section listing or a different Clifford; assigning it would contradict the documented Ceylon tenure, so it stays unassigned."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Single-biography case. Four of five stints chain into the exact career printed in the biography with matching honours at matching dates. The St Vincent 1909-1911 'Governor' listing conflicts with the documented Ceylon tenure and honour state and is left unlinked for later investigation (possibly a Governors-table listing error)."
+}

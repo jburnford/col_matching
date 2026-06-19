@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q6742650",
+  "persons": [
+    {
+      "bio_id": "stevenson_malcolm_b1878",
+      "stint_ids": ["Stevenson, Malcolm___Cyprus___1918"],
+      "confidence": "certain",
+      "arguments_against": "Stevenson is a very common surname (32 officials, 20 biographies in the corpus) and the bio is flagged single-initial, so the strongest counter-case is a namesake M./Malcolm Stevenson in Cyprus. But the stint is not a generic post: it runs Chief Secretary to Government (1918–1920), then High Commissioner and Commander-in-Chief of Cyprus (1921–1925) — two successive unique senior offices. The biography independently gives 'ch. sec. to govt., Cyprus, 14th May, 1917', 'admtd. govt., Nov., 1918 to 24th Aug., 1920', and 'high comsnr., Cyprus, 25th Aug., 1920' — the same two offices, same colony, with day-level dates that exactly explain the staff-list transition between the 1920 and 1921 editions. Honours corroborate dynamically: C.M.G. appears in the staff list 1921–1923 and K.C.M.G. with 'Sir' from 1924, matching the bio's 'K.C.M.G. (1923), C.M.G. (1920)' allowing the usual one-edition print lag. No second Malcolm Stevenson could have held the Cyprus High Commissionership in these years. The counter-hypothesis has no surviving foothold.",
+      "evidence_cited": [
+        {"stint_id": "Stevenson, Malcolm___Cyprus___1918", "year": 1918, "fact": "ch. sec. to govt., Cyprus, 14th May, 1917"},
+        {"stint_id": "Stevenson, Malcolm___Cyprus___1918", "year": 1921, "fact": "high comsnr., Cyprus, 25th Aug., 1920"},
+        {"stint_id": "Stevenson, Malcolm___Cyprus___1918", "year": 1921, "fact": "High Commissioner and Commander-in-Chief"},
+        {"stint_id": "Stevenson, Malcolm___Cyprus___1918", "year": 1924, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "A record showing a different M. Stevenson as Cyprus Chief Secretary or High Commissioner in 1918–1925, or evidence the staff-list rows conflate two people across the 1920/1921 office change."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two successive unique Cyprus offices with day-dated transitions in the bio matching the staff-list office change between 1920 and 1921 editions, plus the C.M.G.->K.C.M.G. progression mirrored in the lists. Multiple independent dimensions; common surname risk neutralized by office uniqueness."
+}

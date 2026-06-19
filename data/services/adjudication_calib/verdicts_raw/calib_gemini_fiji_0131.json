@@ -1,0 +1,28 @@
+{
+  "case_id": "calib_gemini_fiji_0131",
+  "persons": [
+    {
+      "bio_id": "ragg_hugh-aime_b1904",
+      "stint_ids": ["Ragg, H. A___Fiji___1928", "Ragg, H. A___Fiji___1950"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: 9 Raggs appear in Fiji-area staff lists and 3 in the biographical sections, so each stint could belong to a relative with the same initials — and the 1928 stint even contains a 1930 row for 'H. Ragg' as a Junior Postal Clerk, proof that at least one other Ragg with initial H was serving in Fiji at the same time. This fails for the two assigned stints because both reproduce the biography's career ladder rung for rung with matching years and departments. 1928 stint: 'junr. draughtsman, 1927' vs Junior Draughtsman 1928-30; 'draughtsman, 1932' vs Draftsman/Draughtsman 1933-36; 'engnr. asst., 1936' vs Engineering Assistant 1937 — all in the Works/Public Works Department, the bio's P.W.D. 1950 stint: 'exec. engnr., 1943' vs Executive Engineer 1950-51; 'D.D.P.W., 1952' vs Deputy Director 1953-54; 'D.P.W., 1954-56' vs Director of Public Works 1955-56 — three successive promotions at the printed years, ending exactly when the bio says the directorship ended (1956). A namesake would have to share initials H. A., the P.W.D., and this exact promotion sequence twice over; no realistic counter-hypothesis survives. The anomalous 1930 postal row inside the 1928 stint is a bundling artifact belonging to a different Ragg (single initial, different department) and is noted for the reviewer.",
+      "evidence_cited": [
+        {"stint_id": "Ragg, H. A___Fiji___1928", "year": 1928, "fact": "junr. draughtsman, 1927"},
+        {"stint_id": "Ragg, H. A___Fiji___1928", "year": 1933, "fact": "draughtsman, 1932"},
+        {"stint_id": "Ragg, H. A___Fiji___1928", "year": 1937, "fact": "engnr. asst., 1936"},
+        {"stint_id": "Ragg, H. A___Fiji___1950", "year": 1950, "fact": "exec. engnr., 1943"},
+        {"stint_id": "Ragg, H. A___Fiji___1950", "year": 1953, "fact": "D.D.P.W., 1952"},
+        {"stint_id": "Ragg, H. A___Fiji___1950", "year": 1955, "fact": "D.P.W., 1954-56"}
+      ],
+      "would_overturn": "Evidence of a second H. A. Ragg in Fiji's Public Works Department in 1928-1956 (two simultaneous staff-list lines in that department), or a record showing the Director of Public Works, Fiji, 1954-56 was not Hugh Aime Ragg."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Ragg, H. A___Fiji___1963",
+      "reason": "Deputy Postmaster-General 1963-65 is a postal-career office with no support in the biography, whose printed career is entirely Public Works and terminates with 'D.P.W., 1954-56'; the bio's last edition is 1957. All deterministic positional/temporal checks fail. The 1930 staff-list row for 'H. Ragg' among Junior Postal Clerks and Telegraphists shows a second Ragg pursuing a postal career in Fiji in the right era to be Deputy Postmaster-General by 1963 — a live counter-hypothesis. Under the no-false-merge directive this stint stays unassigned."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The 1928 stint's year-by-year table contains one contaminated row (1930, 'H. Ragg', Junior Postal Clerks and Telegraphists, Post and Telegraph Department) that almost certainly belongs to a different Ragg; the stint is assigned on the strength of its Works/P.W.D. rows, but the reviewer may wish to split that row out. The same postal Ragg is the probable holder of the unassigned 1963 Deputy Postmaster-General stint."
+}

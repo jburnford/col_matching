@@ -1,0 +1,877 @@
+[
+  {
+    "volume": "colonial-office-list-1883",
+    "year": 1883,
+    "era": "early",
+    "section": [
+      26125,
+      30109
+    ],
+    "entries": 1806,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 163,
+    "no_dash": 40
+  },
+  {
+    "volume": "colonial-office-list-1886",
+    "year": 1886,
+    "era": "early",
+    "section": [
+      31818,
+      36402
+    ],
+    "entries": 2062,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 140,
+    "no_dash": 34
+  },
+  {
+    "volume": "colonial-office-list-1888",
+    "year": 1888,
+    "era": "early",
+    "section": [
+      31720,
+      36948
+    ],
+    "entries": 2300,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 216,
+    "no_dash": 34
+  },
+  {
+    "volume": "colonial-office-list-1889",
+    "year": 1889,
+    "era": "early",
+    "section": [
+      31427,
+      36450
+    ],
+    "entries": 2339,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 137,
+    "no_dash": 24
+  },
+  {
+    "volume": "colonial-office-list-1890",
+    "year": 1890,
+    "era": "early",
+    "section": [
+      32233,
+      37499
+    ],
+    "entries": 2411,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 132,
+    "no_dash": 26
+  },
+  {
+    "volume": "colonial-office-list-1894",
+    "year": 1894,
+    "era": "early",
+    "section": [
+      29936,
+      35077
+    ],
+    "entries": 2269,
+    "twins": 2,
+    "dropped_short": 0,
+    "orphan_lines": 146,
+    "no_dash": 41
+  },
+  {
+    "volume": "colonial-office-list-1896",
+    "year": 1896,
+    "era": "early",
+    "section": [
+      37164,
+      42417
+    ],
+    "entries": 2306,
+    "twins": 2,
+    "dropped_short": 0,
+    "orphan_lines": 124,
+    "no_dash": 39
+  },
+  {
+    "volume": "colonial-office-list-1897",
+    "year": 1897,
+    "era": "early",
+    "section": [
+      30468,
+      35235
+    ],
+    "entries": 2173,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 79,
+    "no_dash": 44
+  },
+  {
+    "volume": "colonial-office-list-1898",
+    "year": 1898,
+    "era": "early",
+    "section": [
+      31846,
+      37050
+    ],
+    "entries": 2202,
+    "twins": 2,
+    "dropped_short": 0,
+    "orphan_lines": 203,
+    "no_dash": 34
+  },
+  {
+    "volume": "colonial-office-list-1899",
+    "year": 1899,
+    "era": "early",
+    "section": [
+      33328,
+      38233
+    ],
+    "entries": 2157,
+    "twins": 21,
+    "dropped_short": 2,
+    "orphan_lines": 185,
+    "no_dash": 36
+  },
+  {
+    "volume": "colonial-office-list-1900",
+    "year": 1900,
+    "era": "early",
+    "section": [
+      33602,
+      37936
+    ],
+    "entries": 2116,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 32,
+    "no_dash": 20
+  },
+  {
+    "volume": "colonial-office-list-1905",
+    "year": 1905,
+    "era": "early",
+    "section": [
+      41715,
+      46863
+    ],
+    "entries": 2346,
+    "twins": 0,
+    "dropped_short": 9,
+    "orphan_lines": 78,
+    "no_dash": 20
+  },
+  {
+    "volume": "colonial-office-list-1906",
+    "year": 1906,
+    "era": "early",
+    "section": [
+      43927,
+      48968
+    ],
+    "entries": 2316,
+    "twins": 0,
+    "dropped_short": 9,
+    "orphan_lines": 112,
+    "no_dash": 17
+  },
+  {
+    "volume": "colonial-office-list-1907",
+    "year": 1907,
+    "era": "early",
+    "section": [
+      42702,
+      47934
+    ],
+    "entries": 2431,
+    "twins": 0,
+    "dropped_short": 10,
+    "orphan_lines": 65,
+    "no_dash": 24
+  },
+  {
+    "volume": "colonial-office-list-1908",
+    "year": 1908,
+    "era": "early",
+    "section": [
+      42823,
+      48362
+    ],
+    "entries": 2555,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 109,
+    "no_dash": 38
+  },
+  {
+    "volume": "colonial-office-list-1909",
+    "year": 1909,
+    "era": "early",
+    "section": [
+      43508,
+      50538
+    ],
+    "entries": 2732,
+    "twins": 499,
+    "dropped_short": 0,
+    "orphan_lines": 97,
+    "no_dash": 42
+  },
+  {
+    "volume": "colonial-office-list-1910",
+    "year": 1910,
+    "era": "early",
+    "section": [
+      43880,
+      49638
+    ],
+    "entries": 2802,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 47,
+    "no_dash": 17
+  },
+  {
+    "volume": "colonial-office-list-1911",
+    "year": 1911,
+    "era": "early",
+    "section": [
+      42707,
+      48899
+    ],
+    "entries": 2942,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 125,
+    "no_dash": 36
+  },
+  {
+    "volume": "colonial-office-list-1912",
+    "year": 1912,
+    "era": "early",
+    "section": [
+      42112,
+      48558
+    ],
+    "entries": 3049,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 111,
+    "no_dash": 47
+  },
+  {
+    "volume": "colonial-office-list-1913",
+    "year": 1913,
+    "era": "mid",
+    "section": [
+      43296,
+      50422
+    ],
+    "entries": 3202,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 99,
+    "no_dash": 23
+  },
+  {
+    "volume": "colonial-office-list-1914",
+    "year": 1914,
+    "era": "mid",
+    "section": [
+      44194,
+      51104
+    ],
+    "entries": 3237,
+    "twins": 9,
+    "dropped_short": 0,
+    "orphan_lines": 134,
+    "no_dash": 25
+  },
+  {
+    "volume": "colonial-office-list-1915",
+    "year": 1915,
+    "era": "mid",
+    "section": [
+      44755,
+      51657
+    ],
+    "entries": 3267,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 125,
+    "no_dash": 32
+  },
+  {
+    "volume": "colonial-office-list-1917",
+    "year": 1917,
+    "era": "mid",
+    "section": [
+      47181,
+      54288
+    ],
+    "entries": 3390,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 93,
+    "no_dash": 24
+  },
+  {
+    "volume": "colonial-office-list-1918",
+    "year": 1918,
+    "era": "mid",
+    "section": [
+      48175,
+      55518
+    ],
+    "entries": 3381,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 84,
+    "no_dash": 28
+  },
+  {
+    "volume": "colonial-office-list-1919",
+    "year": 1919,
+    "era": "mid",
+    "section": [
+      50111,
+      56880
+    ],
+    "entries": 3216,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 169,
+    "no_dash": 15
+  },
+  {
+    "volume": "colonial-office-list-1920",
+    "year": 1920,
+    "era": "mid",
+    "section": [
+      51302,
+      58264
+    ],
+    "entries": 3393,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 69,
+    "no_dash": 31
+  },
+  {
+    "volume": "colonial-office-list-1921",
+    "year": 1921,
+    "era": "mid",
+    "section": [
+      54001,
+      61126
+    ],
+    "entries": 3415,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 137,
+    "no_dash": 30
+  },
+  {
+    "volume": "colonial-office-list-1922",
+    "year": 1922,
+    "era": "mid",
+    "section": [
+      50188,
+      57319
+    ],
+    "entries": 3426,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 79,
+    "no_dash": 38
+  },
+  {
+    "volume": "colonial-office-list-1923",
+    "year": 1923,
+    "era": "mid",
+    "section": [
+      52001,
+      59281
+    ],
+    "entries": 3471,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 67,
+    "no_dash": 19
+  },
+  {
+    "volume": "colonial-office-list-1924",
+    "year": 1924,
+    "era": "mid",
+    "section": [
+      51876,
+      59093
+    ],
+    "entries": 3450,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 71,
+    "no_dash": 21
+  },
+  {
+    "volume": "colonial-office-list-1925",
+    "year": 1925,
+    "era": "mid",
+    "section": [
+      53659,
+      60569
+    ],
+    "entries": 3275,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 84,
+    "no_dash": 67
+  },
+  {
+    "volume": "colonial-office-list-1927",
+    "year": 1927,
+    "era": "mid",
+    "section": [
+      56702,
+      64076
+    ],
+    "entries": 3444,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 146,
+    "no_dash": 20
+  },
+  {
+    "volume": "colonial-office-list-1928",
+    "year": 1928,
+    "era": "mid",
+    "section": [
+      63645,
+      71338
+    ],
+    "entries": 3485,
+    "twins": 175,
+    "dropped_short": 0,
+    "orphan_lines": 81,
+    "no_dash": 22
+  },
+  {
+    "volume": "colonial-office-list-1929",
+    "year": 1929,
+    "era": "mid",
+    "section": [
+      57920,
+      65277
+    ],
+    "entries": 3463,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 120,
+    "no_dash": 21
+  },
+  {
+    "volume": "colonial-office-list-1930",
+    "year": 1930,
+    "era": "mid",
+    "section": [
+      62062,
+      69618
+    ],
+    "entries": 3433,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 128,
+    "no_dash": 27
+  },
+  {
+    "volume": "colonial-office-list-1931",
+    "year": 1931,
+    "era": "mid",
+    "section": [
+      61865,
+      69553
+    ],
+    "entries": 3499,
+    "twins": 30,
+    "dropped_short": 0,
+    "orphan_lines": 108,
+    "no_dash": 25
+  },
+  {
+    "volume": "colonial-office-list-1932",
+    "year": 1932,
+    "era": "mid",
+    "section": [
+      57852,
+      65287
+    ],
+    "entries": 3545,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 127,
+    "no_dash": 24
+  },
+  {
+    "volume": "colonial-office-list-1933",
+    "year": 1933,
+    "era": "mid",
+    "section": [
+      57301,
+      64719
+    ],
+    "entries": 3450,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 102,
+    "no_dash": 25
+  },
+  {
+    "volume": "colonial-office-list-1934",
+    "year": 1934,
+    "era": "mid",
+    "section": [
+      56104,
+      64336
+    ],
+    "entries": 3427,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 201,
+    "no_dash": 83
+  },
+  {
+    "volume": "colonial-office-list-1936",
+    "year": 1936,
+    "era": "mid",
+    "section": [
+      58307,
+      65920
+    ],
+    "entries": 3555,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 117,
+    "no_dash": 28
+  },
+  {
+    "volume": "colonial-office-list-1937",
+    "year": 1937,
+    "era": "mid",
+    "section": [
+      58325,
+      66070
+    ],
+    "entries": 3372,
+    "twins": 35,
+    "dropped_short": 0,
+    "orphan_lines": 124,
+    "no_dash": 114
+  },
+  {
+    "volume": "colonial-office-list-1939",
+    "year": 1939,
+    "era": "mid",
+    "section": [
+      64242,
+      72084
+    ],
+    "entries": 3209,
+    "twins": 567,
+    "dropped_short": 0,
+    "orphan_lines": 53,
+    "no_dash": 28
+  },
+  {
+    "volume": "colonial-office-list-1940",
+    "year": 1940,
+    "era": "mid",
+    "section": [
+      61853,
+      69872
+    ],
+    "entries": 3826,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 100,
+    "no_dash": 21
+  },
+  {
+    "volume": "colonial-office-list-1948",
+    "year": 1948,
+    "era": "late",
+    "section": [
+      30643,
+      37156
+    ],
+    "entries": 3210,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 89,
+    "no_dash": 11
+  },
+  {
+    "volume": "colonial-office-list-1949",
+    "year": 1949,
+    "era": "late",
+    "section": [
+      29940,
+      36976
+    ],
+    "entries": 3424,
+    "twins": 2,
+    "dropped_short": 1,
+    "orphan_lines": 173,
+    "no_dash": 11
+  },
+  {
+    "volume": "colonial-office-list-1950",
+    "year": 1950,
+    "era": "late",
+    "section": [
+      33063,
+      41036
+    ],
+    "entries": 3952,
+    "twins": 2,
+    "dropped_short": 0,
+    "orphan_lines": 117,
+    "no_dash": 8
+  },
+  {
+    "volume": "colonial-office-list-1951",
+    "year": 1951,
+    "era": "late",
+    "section": [
+      35506,
+      44134
+    ],
+    "entries": 4319,
+    "twins": 3,
+    "dropped_short": 0,
+    "orphan_lines": 94,
+    "no_dash": 5
+  },
+  {
+    "volume": "colonial-office-list-1952",
+    "year": 1952,
+    "era": "late",
+    "section": null,
+    "entries": 0
+  },
+  {
+    "volume": "colonial-office-list-1953",
+    "year": 1953,
+    "era": "late",
+    "section": [
+      16271,
+      19700
+    ],
+    "entries": 1737,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 29,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1954",
+    "year": 1954,
+    "era": "late",
+    "section": [
+      19244,
+      23013
+    ],
+    "entries": 1919,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 23,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1955",
+    "year": 1955,
+    "era": "late",
+    "section": [
+      19396,
+      23491
+    ],
+    "entries": 2061,
+    "twins": 2,
+    "dropped_short": 0,
+    "orphan_lines": 29,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1956",
+    "year": 1956,
+    "era": "late",
+    "section": [
+      19291,
+      25327
+    ],
+    "entries": 2958,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 99,
+    "no_dash": 4
+  },
+  {
+    "volume": "colonial-office-list-1957",
+    "year": 1957,
+    "era": "late",
+    "section": [
+      20446,
+      28694
+    ],
+    "entries": 4108,
+    "twins": 3,
+    "dropped_short": 0,
+    "orphan_lines": 69,
+    "no_dash": 2
+  },
+  {
+    "volume": "colonial-office-list-1958",
+    "year": 1958,
+    "era": "late",
+    "section": [
+      19840,
+      28465
+    ],
+    "entries": 4258,
+    "twins": 3,
+    "dropped_short": 0,
+    "orphan_lines": 126,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1959",
+    "year": 1959,
+    "era": "late",
+    "section": [
+      19919,
+      29632
+    ],
+    "entries": 4829,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 142,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1960",
+    "year": 1960,
+    "era": "late",
+    "section": [
+      19823,
+      29746
+    ],
+    "entries": 4996,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 88,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1961",
+    "year": 1961,
+    "era": "late",
+    "section": [
+      18955,
+      29075
+    ],
+    "entries": 5092,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 92,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1962",
+    "year": 1962,
+    "era": "late",
+    "section": [
+      18085,
+      28225
+    ],
+    "entries": 5042,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 125,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1963",
+    "year": 1963,
+    "era": "late",
+    "section": [
+      16652,
+      26659
+    ],
+    "entries": 5013,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 112,
+    "no_dash": 2
+  },
+  {
+    "volume": "colonial-office-list-1964",
+    "year": 1964,
+    "era": "late",
+    "section": [
+      14102,
+      23394
+    ],
+    "entries": 4614,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 93,
+    "no_dash": 2
+  },
+  {
+    "volume": "colonial-office-list-1965",
+    "year": 1965,
+    "era": "late",
+    "section": [
+      13064,
+      20484
+    ],
+    "entries": 3746,
+    "twins": 0,
+    "dropped_short": 0,
+    "orphan_lines": 58,
+    "no_dash": 1
+  },
+  {
+    "volume": "colonial-office-list-1966",
+    "year": 1966,
+    "era": "late",
+    "section": [
+      12777,
+      19169
+    ],
+    "entries": 3234,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 47,
+    "no_dash": 2
+  },
+  {
+    "volume": "dominions-office-list-1935",
+    "year": 1935,
+    "era": "mid",
+    "section": [
+      56419,
+      63507
+    ],
+    "entries": 3442,
+    "twins": 1,
+    "dropped_short": 0,
+    "orphan_lines": 76,
+    "no_dash": 30
+  }
+]

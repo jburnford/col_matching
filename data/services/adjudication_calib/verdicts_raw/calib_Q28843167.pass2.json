@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q28843167",
+  "persons": [
+    {
+      "bio_id": "haddon-smith_geo-babil_b1861",
+      "stint_ids": ["Haddon-Smith, George B___Windward Islands___1915"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypotheses: (1) one of the other three Haddon-Smith officials in the corpus held this stint; (2) the position_sim FAIL signals a real position mismatch; (3) a same-name relative succeeded him as governor. All fail. The stint is for the 'Governor and Commander-in-Chief of the Windward Islands' styled 'Sir George B. Haddon-Smith, K.C.M.G.' — the biography records exactly 'gov., Windward Is., 14th Dec., 1914' and a K.C.M.G. conferred 1915, the very year the stint begins; the forename initials 'George B.' match 'Geo. Babil' precisely. The position_sim FAIL is a mechanical artifact (timeline cell holds only the abbreviation 'gov.'); read verbatim, the offices are identical. The stint window 1915-1925 matches the bio's tenure (appointed Dec 1914, 'ret., 1924.', with retiree listing into 1925). No other Haddon-Smith could plausibly be a knighted Windward Islands governor with the same forename and honour in those years.",
+      "evidence_cited": [
+        {"stint_id": "Haddon-Smith, George B___Windward Islands___1915", "year": 1915, "fact": "gov., Windward Is., 14th Dec., 1914"},
+        {"stint_id": "Haddon-Smith, George B___Windward Islands___1915", "year": 1915, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Haddon-Smith, George B___Windward Islands___1915", "year": 1915, "fact": "K.C.M.G. (1915)"}
+      ],
+      "would_overturn": "Discovery of a second contemporaneous George B. Haddon-Smith, K.C.M.G., or records showing a different person held the Windward Islands governorship in 1915-1924 while this biography subject served elsewhere."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Position match is exact when read from verbatim text (Governor and C-in-C, Windward Islands); the deterministic position_sim FAIL compares only the abbreviated token 'gov.'. Honour K.C.M.G. (1915) aligns with the stint's first listed year. Stint listings end 1925, consistent with 'ret., 1924.'."
+}

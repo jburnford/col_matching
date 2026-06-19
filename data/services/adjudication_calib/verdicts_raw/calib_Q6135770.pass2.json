@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6135770",
+  "persons": [
+    {
+      "bio_id": "sadler_james-hayes_e1870",
+      "stint_ids": ["Sadler, James Hayes___Windward Islands___1913"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: no birth year is printed (age gate unchecked), 12 Sadlers appear in the staff lists, and 'James Hayes Sadler' is a name known to recur in families (a same-named kinsman in consular service is a realistic prior). Could the 1913-14 Windward Islands governor be a different James Hayes Sadler? No: the biography explicitly records 'gov. and comdr.-in-chief, Windward Is., 6th May, 1909; assumed govt., 13th Oct., 1909' — the exact singular post the stint shows in 1913-14, within the natural span of a governorship begun in 1909; the stint rows carry precisely the biography's honour pair, K.C.M.G. (bio: 1907) and C.B. (bio: 1902); and the stint's printed rank 'Lt.-Col.'/'Lieut.-Colonel' matches the biography's 'Licut.-Col. Indian Staff Corps'. Four independent dimensions (full forename, singular post + place, honour pair, military rank) leave no room for a namesake. The position_sim FAIL (55) is a string artifact: 'gov. and comdr.-in-chief' is the same office as 'Governor and Commander-in-Chief of the Windward Islands'.",
+      "evidence_cited": [
+        {"stint_id": "Sadler, James Hayes___Windward Islands___1913", "year": 1913, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Sadler, James Hayes___Windward Islands___1913", "year": 1913, "fact": "K.C.M.G., C.B."},
+        {"stint_id": "Sadler, James Hayes___Windward Islands___1913", "year": 1913, "fact": "Lieut.-Colonel"}
+      ],
+      "would_overturn": "Evidence that this Sadler's Windward Islands governorship ended before 1913 and a second, same-named Lieut.-Col. Sir James Hayes Sadler K.C.M.G., C.B. succeeded him (no such person is plausible), or gazette records showing a different governor in 1913-14."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two 1913 rows are the same person listed under both the 'Civil Establishment' and 'Governor' department headings of the same volume. Honour pair (K.C.M.G. 1907, C.B. 1902) and Lieut.-Colonel rank independently corroborate the appointment stated verbatim in the biography (governor from May 1909). The 'e1870' in the bio_id reflects the bio's earliest career date (first commission 1870), not a birth year."
+}

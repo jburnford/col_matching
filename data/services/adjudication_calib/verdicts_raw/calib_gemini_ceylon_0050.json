@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0050",
+  "persons": [
+    {
+      "bio_id": "ingles_walter-culpepper-stanseer_b1868",
+      "stint_ids": ["Ingles, W. C. S___Ceylon___1899"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the honour check FAILED (bio lists A.I.C.E., staff list prints none), the place_inherited check FAILED (every bio event after the first inherits 'Ceylon' from one clause), and the staff list lags the bio's appointment dates (bio 'dep. survr.-gen., 15th Oct., 1910' but staff still shows 'Superintendent of Survey(s)' in 1910-11, Deputy only from 1912; bio 'supt. of application surveys, 1st Jan., 1905' but staff shows 'Assistant Superintendent' through 1906) — could the stint be the other Ingles in the corpus (2 staff-list officials share the surname)? This fails. The stint name carries all three initials W. C. S., matching the unusual full name Walter Culpepper Stanseer, which rules out a coincidental single-initial collision; the lags are ordinary edition/acting delays and the directions never contradict (the staff list never shows him above the bio's rank); and the ladder converges on unique senior offices: Deputy Surveyor-General (bio 1910; staff 1912-15) then Surveyor-General (bio '30th Nov., 1915'; staff 1917-23, the first post-1915 editions). There is one Surveyor-General of Ceylon; a second W. C. S. Ingles holding this exact sequence is not a realistic hypothesis. The honour FAIL is non-contradictory (A.I.C.E. is a professional membership not printed in the staff-list honours column).",
+      "evidence_cited": [
+        {"stint_id": "Ingles, W. C. S___Ceylon___1899", "year": 1899, "fact": "asst. survr., Ceylon, 4th Jan., 1890"},
+        {"stint_id": "Ingles, W. C. S___Ceylon___1899", "year": 1907, "fact": "supt. of application surveys, 1st Jan., 1905"},
+        {"stint_id": "Ingles, W. C. S___Ceylon___1899", "year": 1912, "fact": "dep. survr.-gen., 15th Oct., 1910"},
+        {"stint_id": "Ingles, W. C. S___Ceylon___1899", "year": 1917, "fact": "survr.-gen., 30th Nov., 1915"}
+      ],
+      "would_overturn": "Evidence of a second W. C. S. Ingles in the Ceylon Survey Department in 1899-1923, or a record showing Walter Culpepper Stanseer Ingles in another colony or post while the staff list shows this stint-holder as Deputy Surveyor-General or Surveyor-General."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography vs single stint. Rare surname (2 staff-list officials) and a rare three-initial match (W.C.S. = Walter Culpepper Stanseer). Survey Department ladder matches over 24 years culminating in the unique Surveyor-General office (bio 30 Nov. 1915; staff from 1917, the next available edition). Eight agreeing edition-years of co-occurrence. Honour and place_inherited failures are mechanical artifacts; staff-list rank never exceeds the bio's claimed rank at any date."
+}

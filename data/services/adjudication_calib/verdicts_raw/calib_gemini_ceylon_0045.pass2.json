@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0045",
+  "persons": [
+    {
+      "bio_id": "tomalin_herbert-frederic_b1862",
+      "stint_ids": ["Tomalin, H. F___Ceylon___1888"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: the bio shows only initials 'H. F.' and three Tomalin biographies exist, so a same-name relative could be intended; the deterministic honour check FAILS. This fails because there is exactly ONE Tomalin official in the staff lists, and the stint reproduces the bio's distinctive engineering career step-for-step: District Engineer P.W.D. (bio 1886-90 / staff 1888-90), then the unusual specific post 'Second Financial and Office Assistant' (bio '2nd finan. and office ast. P.W.D., 1890-6' / staff 1894), then Provincial Engineer (bio 'prov. engrnr.' 1903-05 / staff 1905-15), then the highly distinctive late pivot to Conservator of Forests (bio 'conservator of forests, 1st Oct., 1914' / staff 'Conservator of Forests' 1915-21). 11 agreeing edition-years. No second H. F. Tomalin exists to compete.",
+      "evidence_cited": [
+        {"stint_id": "Tomalin, H. F___Ceylon___1888", "year": 1894, "fact": "H. F. Tomalin | Second Financial and Office Assistant"},
+        {"stint_id": "Tomalin, H. F___Ceylon___1888", "year": 1905, "fact": "H. F. Tomalin | Provincial Engineer"},
+        {"stint_id": "Tomalin, H. F___Ceylon___1888", "year": 1915, "fact": "H. F. Tomalin | Conservator of Forests"}
+      ],
+      "would_overturn": "Discovery of a second H. F. Tomalin in the Ceylon service, or evidence that the staff-list Conservator of Forests was a different man than the bio's engineer."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique surname in the staff lists, an idiosyncratic specific post (Second Financial and Office Assistant), and a distinctive late career pivot from Provincial Engineer to Conservator of Forests dated identically (bio Oct 1914 / staff from 1915), with 11 agreeing edition-years."
+}

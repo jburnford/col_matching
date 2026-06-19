@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q28843167",
+  "persons": [
+    {
+      "bio_id": "haddon-smith_geo-babil_b1861",
+      "stint_ids": ["Haddon-Smith, George B___Windward Islands___1915"],
+      "confidence": "certain",
+      "arguments_against": "The corpus has 4 Haddon-Smiths in staff lists and 3 biographies, so the counter-hypothesis is a same-name relative (e.g. a son) holding the Windward Islands governorship. This fails: the governorship is a unique office; the biography records 'gov., Windward Is., 14th Dec., 1914' and 'assumed govt., 30th Dec., 1914', precisely matching the stint's first listing in 1915; the forename and initial 'George B.' match 'Geo. Babil'; both carry K.C.M.G., conferred 1915, exactly when the stint begins showing it; and the bio's 'ret., 1924.' matches the stint ending its 1915-1925 listing window (the 1925 edition reflecting 1924 service). A hypothetical second Sir George B. Haddon-Smith, K.C.M.G., governing the same colony in the same years while this biography claims that exact post is not realistic. The position_sim FAIL is mechanical: the abbreviation 'gov.' scored 21 against 'Governor, Windward Islands', but they denote the same office.",
+      "evidence_cited": [
+        {"stint_id": "Haddon-Smith, George B___Windward Islands___1915", "year": 1914, "fact": "gov., Windward Is., 14th Dec., 1914"},
+        {"stint_id": "Haddon-Smith, George B___Windward Islands___1915", "year": 1914, "fact": "assumed govt., 30th Dec., 1914"},
+        {"stint_id": "Haddon-Smith, George B___Windward Islands___1915", "year": 1915, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Haddon-Smith, George B___Windward Islands___1915", "year": 1915, "fact": "K.C.M.G. (1915)"},
+        {"stint_id": "Haddon-Smith, George B___Windward Islands___1915", "year": 1924, "fact": "ret., 1924."}
+      ],
+      "would_overturn": "Evidence of a second George B. Haddon-Smith, K.C.M.G., as Governor of the Windward Islands in 1914-1925, or a record showing Geo. Babil Haddon-Smith declined or never assumed the 1914 appointment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Five independent agreeing dimensions: unique gubernatorial office, colony, appointment date (Dec. 1914) immediately preceding the 1915 listing, shared K.C.M.G. with matching conferral year, matching forename 'George'/'Geo.' and middle initial B (Babil), and retirement 1924 closing the listing window. The position_sim failure is an abbreviation artifact ('gov.' vs 'Governor, Windward Islands')."
+}

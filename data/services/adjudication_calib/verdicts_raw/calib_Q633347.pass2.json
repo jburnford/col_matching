@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q633347",
+  "persons": [
+    {
+      "bio_id": "mclelan_a-w_e1881-3",
+      "stint_ids": ["McLelan, A. W___Canada___1878"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the bio has no printed birth year and only initials 'A. W.', so a same-name relative (e.g. a son also styled A. W. McLelan) could theoretically account for part of the long 1878–1897 staff-list run, particularly the early Senator years (1878–79) which the bio never mentions. But the counter-case collapses: the staff-list run is a single continuous career arc — Senator, then Minister of Marine and Fisheries (1883, 1886), then Postmaster-General (1888), then Lieutenant-Governor of Nova Scotia (1889–1896) — and the biography independently names the same three successive senior offices with matching dates ('minister of marine and fisheries' from 1881, 'postmaster-general 1887', 'lieutenant-governor, Nova Scotia, 1888'). Three distinct, high-specificity cabinet-level offices in date agreement cannot be a namesake coincidence; these are unique offices held by one person at a time. The 'no shared honour' FAIL is vacuous since neither source prints honours. The Senator records (1878–79) precede the bio's narrative but are continuous with it (he was 'President of the privy council of Canada until 1881', i.e. already in federal politics) and belong to the same stint entity.",
+      "evidence_cited": [
+        {"stint_id": "McLelan, A. W___Canada___1878", "year": 1883, "fact": "Minister of Marine and Fisheries"},
+        {"stint_id": "McLelan, A. W___Canada___1878", "year": 1888, "fact": "Postmaster-General"},
+        {"stint_id": "McLelan, A. W___Canada___1878", "year": 1889, "fact": "Lieut. Governor of Nova Scotia"},
+        {"stint_id": "McLelan, A. W___Canada___1878", "year": 1890, "fact": "lieutenant-governor, Nova Scotia, 1888"}
+      ],
+      "would_overturn": "Evidence that two A. W. McLelans were active in Canadian federal politics in this period — e.g. a record showing the 1878–79 Senator was a different person from the 1883 Minister of Marine and Fisheries."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Three successive unique cabinet/vice-regal offices (Marine and Fisheries, Postmaster-General, Lieutenant-Governor of Nova Scotia) match between bio and staff lists with consistent dates; only 1 official with this surname in the staff lists. The honour check FAIL reflects absence of printed honours on both sides, not disagreement."
+}

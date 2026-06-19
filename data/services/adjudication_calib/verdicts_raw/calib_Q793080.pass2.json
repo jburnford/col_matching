@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q793080",
+  "persons": [
+    {
+      "bio_id": "pearson_aylmer-cavendish_b1876",
+      "stint_ids": ["Pearson, A. C___North Borneo___1908"],
+      "confidence": "certain",
+      "arguments_against": "Pearson is a common surname (53 officials, 23 biographies) and the stint name is initials-only, so a different A. C. Pearson in the North Borneo service is the hypothesis to defeat. It fails on the conjunction of dimensions: the stint reproduces the biography's specific office ladder in the same small service — Secretary to Governor in 1908 (bio: sec. to gov., 1904, still held around then), Government Secretary in 1910 (bio: govt. sec. and judge of high ct., 1909), Governor from 1913 onward (bio: ag. gov. 1910-11, dep. gov. 1912, gov. 1915) — and the C.M.G. first appears in the stint's 1919 records, the precise year the biography dates the C.M.G. The 1913 'Governor' record slightly precedes the bio's substantive 1915 governorship, but the bio itself has him acting governor 1910-11 and deputy governor 1912, so a staff list printing him at the top of the Civil Service in 1913 is expected, not anomalous. North Borneo's governorship is a unique office; two A. C. Pearsons climbing the identical ladder there with the same honour year is not credible.",
+      "evidence_cited": [
+        {"stint_id": "Pearson, A. C___North Borneo___1908", "year": 1908, "fact": "Secretary to Governor"},
+        {"stint_id": "Pearson, A. C___North Borneo___1908", "year": 1910, "fact": "Government Secretary"},
+        {"stint_id": "Pearson, A. C___North Borneo___1908", "year": 1919, "fact": "C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second A. C. Pearson in the North Borneo civil service in 1908-1921, or evidence that the Governor of North Borneo in 1919-21 was someone other than Aylmer Cavendish Pearson."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Position_sim FAIL is a string artifact ('gov.' vs 'Governor' scored 55). Office-ladder agreement across three ranks plus exact C.M.G. year (1919) in a unique gubernatorial office makes this certain."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_gemini_newfoundland_0358",
+  "persons": [
+    {
+      "bio_id": "blandford_sydney-d_b1868",
+      "stint_ids": ["Blandford, Sydney D___Newfoundland___1910"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: with 7 Blandford officials in the staff lists and 2 Blandford biographies in the corpus, the family is locally common in Newfoundland, so a same-name relative (e.g. a son or brother also styled S. D.) could in principle hold some of these rows; and the chain is not perfectly clean — it contains 'S. Blandford | Sub-Collector' rows in 1920, 1921 and 1927 that overlap the Sheriff rows and almost certainly belong to a different person folded in upstream. Why it fails: the principal records track the biography across two distinct, unique, single-holder offices over 17 years — Minister of Agriculture and Mines from 1910 (bio: 'M.E.C. and min. of agric. and mines, 1909') through 1917, a Legislative Council listing in 1917 (bio: 'M.L.C. ... 1914'), then Sheriff of Newfoundland from 1918 (bio: 'sheriff of Newfoundland, 1917'). The full forename 'Sydney D.' matches exactly, the birth year 1868 makes him 42 at stint start, and there are 4 agreeing edition-years on the Sheriff office. No relative hypothesis survives a career that switches offices in lockstep with the printed biography.",
+      "evidence_cited": [
+        {"stint_id": "Blandford, Sydney D___Newfoundland___1910", "year": 1910, "fact": "S. D. Blandford | Minister of Agriculture and Mines"},
+        {"stint_id": "Blandford, Sydney D___Newfoundland___1910", "year": 1910, "fact": "M.E.C. and min. of agric. and mines, 1909"},
+        {"stint_id": "Blandford, Sydney D___Newfoundland___1910", "year": 1918, "fact": "S. D. Blandford | Sheriff of Newfoundland | Judicial Establishment"},
+        {"stint_id": "Blandford, Sydney D___Newfoundland___1910", "year": 1918, "fact": "sheriff of Newfoundland, 1917"},
+        {"stint_id": "Blandford, Sydney D___Newfoundland___1910", "year": 1917, "fact": "Sydney D. Blandford | — | Legislative Council"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Sydney D. Blandford in Newfoundland (e.g. a separate biography with the same name and different career), or evidence that the Minister and Sheriff rows belong to two different men whose names were conflated by the chain builder."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Blandford, D___Newfoundland___1911", "reason": "Single-initial 'D. Blandford', Sub-Collector of Customs 1911-1927. This career runs fully concurrent with Sydney D. Blandford's service as Minister of Agriculture and Mines (1910-1917) and Sheriff of Newfoundland (1918-1927); one man cannot hold an outport customs sub-collectorship and those offices simultaneously, and the biography never mentions any customs post (position_sim best 32, no agreeing edition-years). With 7 Blandford officials in the staff lists, this is almost certainly a different person, likely a relative. Initials overlap ('D') plus tenure overlap is exactly the weak evidence the constraints forbid merging on."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The assigned stint chain is internally contaminated: 'S. Blandford | Sub-Collector' (1920, 1921) and 'S. Blandford | Collector' (1927) rows appear alongside the Sheriff rows in the same years and mirror the unassigned 'Blandford, D' customs career; they likely belong to a third Blandford (or to the same customs officer as the D. Blandford chain) and were bundled upstream. The identification of the biography with the Minister/Sheriff records is nonetheless certain. Reviewer may wish to split the customs rows out of the Sydney D chain."
+}

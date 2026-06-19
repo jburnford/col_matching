@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_jamaica_0165",
+  "persons": [
+    {
+      "bio_id": "sanguinetti_frederick-s_e1863",
+      "stint_ids": ["Sanguinetti, Fred___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-case: this surname has 16 officials in the staff lists, and there is demonstrably a same-name relative with the very same initials F. S. (the 1948-51 Commissioner stint in this same case), so 'F. S. Sanguinetti' alone is not decisive. This fails for the 1877 stint because the bio describes a specific Colonial Secretary's Office clerkship chain in Jamaica in exactly these years -- '2nd class clk. in financial sec.'s office, 1866, and now in col. sec.'s office' and '1st class clk. in col. sec.'s office, Jamaica, Aug., 1878' -- and the staff-list records reproduce it: F. S. Sanguinetti, Clerks 2nd Class then 1st Class, Colonial Secretary's Office, 1877 through 1898 (rising to Chief Clerk 1898, consistent with the bio's retirement that year). Both initials F.S. appear in every staff-list year. A different F.S. Sanguinetti clerking in the identical office across the identical span is implausible.",
+      "evidence_cited": [
+        {"stint_id": "Sanguinetti, Fred___Jamaica___1877", "year": 1877, "fact": "2nd class clk. in financial sec.’s office, 1866, and now in col. sec.’s office"},
+        {"stint_id": "Sanguinetti, Fred___Jamaica___1877", "year": 1880, "fact": "1st class clk. in col. sec.’s office, Jamaica, Aug., 1878"},
+        {"stint_id": "Sanguinetti, Fred___Jamaica___1877", "year": 1877, "fact": "F. S. Sanguinetti"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous F. S. Sanguinetti also clerking in the Jamaica Colonial Secretary's Office 1877-1898 would reverse this."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Sanguinetti, Fred___Jamaica___1948", "reason": "Chronologically incompatible with the bio: the subject entered colonial service in 1863 and retired on pension in 1898, so a stint beginning 1948 (85 years after entry, 50 years after retirement) cannot be the same man. It shares the name F. S. Sanguinetti and a generic 'Commissioner' title, but is almost certainly a later same-named descendant. No colony-agreeing tenure overlap and no position overlap with the bio."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints sharing the name 'Sanguinetti, Fred'/F.S. are 50+ years apart and represent two different generations. Only the 1877 stint belongs to this bio."
+}

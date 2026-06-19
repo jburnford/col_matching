@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_jamaica_0154",
+  "persons": [
+    {
+      "bio_id": "walker_edward-noel_b1842",
+      "stint_ids": ["Walker, E. N___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "WALKER is the most common surname in the entire corpus (124 officials, 70 bios), so the same-name/namesake risk is at its maximum, and the bio offers only two initials E. N. This fails because the match does not rest on the name. The honour C. M. G. is shared and, decisively, appears in the staff list in 1886 — exactly the year after the bio states it was awarded ('C.M.G. (1885)'). The office is the unique senior post Colonial Secretary of Jamaica, and the career arc matches verbatim: bio 'asst. col. sec., Jamaica, May, 1874; col. sec., June, 1883' against the staff list's Assistant Secretary / Assistant Colonial Secretary (1877-83) rising to Colonial Secretary (1886). Age is consistent (35 in 1877, b. 1842), colony agrees. No other E. N. Walker could be the C.M.G. Colonial Secretary of Jamaica in these exact years; the honour's correct timing is independent corroboration that rules out a namesake.",
+      "evidence_cited": [
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1877, "fact": "Assistant Secretary"},
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1880, "fact": "Assistant Colonial Secretary"},
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1886, "fact": "Colonial Secretary"},
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1886, "fact": "C.M.G."},
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1877, "fact": "asst. col. sec., Jamaica, May, 1874; col. sec., June, 1883"}
+      ],
+      "would_overturn": "Evidence of a second E. N. Walker, C.M.G., holding the Jamaica colonial secretaryship in 1877-86."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Highest-frequency surname in the corpus, but cleared by the shared honour C.M.G. (timed exactly to the bio's 1885 award), the unique office Colonial Secretary of Jamaica, the Assistant->Colonial Secretary progression, and age consistency. This is Sir Edward Noel Walker, K.C.M.G."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "case_dover_h-b_e1913",
+  "persons": [
+    {
+      "bio_id": "dover_h-b_e1913",
+      "stint_ids": ["Dover, H. B___Kenya___1915"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the colony check fails (bio places the career in Uganda, stint is in Kenya), and a second Dover biography exists in the corpus, so this could be a different H. B. Dover or even a relative serving in a neighbouring territory in a similar railway post. This fails for three reasons. First, the colony 'mismatch' is a known administrative artifact, not a real discrepancy: the Uganda Railway, despite its name, ran from Mombasa through the East Africa Protectorate (renamed Kenya Colony in 1920) and its staff were listed under the East Africa/Kenya staff lists in the Colonial Office List, so 'Asst. traffic man., Uganda rly.' is exactly what a Kenya staff-list entry for the railway's Traffic department would look like. Second, the position is an exact and highly specific match — 'Asst. traffic man.' vs 'Assistant Traffic Managers' in the 'Traffic' department — not a generic junior title like clerk or cadet; the chance of a second H. B. Dover holding the identical specialist railway post in the same region is negligible. Third, the corpus context shows only 1 official with this surname in the entire graph's staff lists, so there is no second staff-list Dover for the other biography to claim; the chronology (appointed 1913, listed 1915 and 1917) and the 1917 edition co-occurrence are fully consistent. No realistic counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Dover, H. B___Kenya___1915", "year": 1913, "fact": "Asst. traffic man., Uganda rly., 1913"},
+        {"stint_id": "Dover, H. B___Kenya___1915", "year": 1915, "fact": "Assistant Traffic Managers"},
+        {"stint_id": "Dover, H. B___Kenya___1915", "year": 1915, "fact": "Traffic"},
+        {"stint_id": "Dover, H. B___Kenya___1915", "year": 1917, "fact": "listed 1915–1917"}
+      ],
+      "would_overturn": "Evidence that the Uganda Railway's Traffic staff were listed under the Uganda Protectorate (not the East Africa Protectorate/Kenya) in the 1915 and 1917 editions; or a second H. B. Dover appearing in any East African staff list or biography with a railway traffic post; or a printed forename/birth-year in a later edition contradicting this identification."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic colony/tenure/position FAILs all stem from one resolvable artifact: 'Uganda rly.' resolves the bio's only event to Uganda, while the railway's staff were administratively listed under Kenya (East Africa Protectorate until 1920). Once read against the verbatim entries, the position match is exact and specific (Assistant Traffic Manager, railway Traffic department), initials agree, the 1913 appointment precedes the 1915-1917 listings, and the bio and stint co-occur in the 1917 edition. The second Dover biography in the corpus is not in this case and there is only one Dover official in the staff lists."
+}

@@ -1,0 +1,25 @@
+{
+  "case_id": "case_dombreu_j-e_e1858",
+  "persons": [
+    {
+      "bio_id": "dombreu_j-e_e1858",
+      "stint_ids": ["Dombreux, J. E___Mauritius___1879"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: a same-name relative (e.g. a son, also 'J. E. Dombreux') serving as a district clerk in Mauritius concurrently, since 'district clerk' is a junior-grade title that recurs. This fails because the corpus contains only 2 officials with this surname in the staff lists and exactly 1 biography, and the biography itself documents a continuous district-clerk career spanning the stint window: 'district clerk at Pamplemousses, 1863, at Plaines Wilhelms, 18th April, 1876, now at Black River' (the 1888 edition's 'now' confirms he was still a serving district clerk through 1879-1883, exactly when the stint lists 'J. E. Dombreux' as 'District Clerk' in the 'District Magistracy'). Both full initials J. E. match, the colony matches, the specific office matches verbatim, and bio and stint co-occur in the 1883 edition. The deterministic tenure_overlap/edition FAILs are artifacts of the compiled timeline recording only point years (1863, 1876). No live counter-hypothesis remains.",
+      "evidence_cited": [
+        {"stint_id": "Dombreux, J. E___Mauritius___1879", "year": 1879, "fact": "J. E. Dombreux | District Clerk | District Magistracy"},
+        {"stint_id": "Dombreux, J. E___Mauritius___1879", "year": 1883, "fact": "district clerk at Pamplemousses, 1863, at Plaines Wilhelms, 18th April, 1876, now at Black River"},
+        {"stint_id": "Dombreux, J. E___Mauritius___1879", "year": 1883, "fact": "colony: **Mauritius** | listed 1879–1883"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous 'J. E. Dombreux' in Mauritius (e.g. a staff list or biography showing two distinct Dombreux district clerks in different districts in the same year), or a printed record showing the biography subject left the district-clerk service before 1879."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Dombreux, J. E___Mauritius___1889",
+      "reason": "The 1889-1890 stint is printed as single-initial 'J. Dombreux' holding '2nd Class Master' at the 'Royal College School' — an entirely different occupation from the biography's 30-year district-clerk career, which the 1888 edition still records as current ('now at Black River'). A late-career switch from district clerk to junior schoolmaster is implausible; a same-surname relative (e.g. a son) is at least as likely. Single-initial agreement plus colony is exactly the weak evidence the constraints forbid merging on."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Rare surname (2 officials, 1 biography in corpus). The deterministic FAILs on the 1879 stint stem from the timeline compiler treating 'district clerk at Plaines Wilhelms, 1876' and 'now at Black River' as point/unknown years; the verbatim 1888 entry shows continuous district-clerk service covering 1879-1883. The 1889 schoolmaster stint should be retried if a second Dombreux biography (e.g. a teacher) surfaces in later editions."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q6742650",
+  "persons": [
+    {
+      "bio_id": "stevenson_malcolm_b1878",
+      "stint_ids": ["Stevenson, Malcolm___Cyprus___1918"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the dossier itself flags the namesake trap -- the bio effectively carries one forename, 'Stevenson' is common (32 officials, 20 biographies), and the early staff rows print only 'M. Stevenson' with no honours, so the 1918-20 Chief Secretary could be a different M. Stevenson from the man who became High Commissioner. This fails because the stint is one continuous record whose internal transitions match the bio's dated career to the year on three independent axes. (1) Office succession: the rows show Chief Secretary 1918-1920 then High Commissioner from the 1921 edition; the bio has 'ch. sec. to govt., Cyprus, 14th May, 1917' and 'high comsnr., Cyprus, 25th Aug., 1920' -- the same person promoted at exactly the date the staff list flips. (2) Honour chronology: C.M.G. first appears in the 1921 row (bio: 'C.M.G. (1920)'), and 'Sir' with K.C.M.G. first appears in the 1924 row (bio: 'K.C.M.G. (1923)') -- two separate honour transitions both lagging the award year by exactly one edition. (3) The bio's 'admtd. govt., Nov., 1918 to 24th Aug., 1920' explains why the Chief Secretary was the man elevated to High Commissioner. A namesake hypothesis requires two different M. Stevensons handing the same pair of unique Cyprus offices between them while sharing both honour years -- not realistic.",
+      "evidence_cited": [
+        {"stint_id": "Stevenson, Malcolm___Cyprus___1918", "year": 1918, "fact": "ch. sec. to govt., Cyprus, 14th May, 1917"},
+        {"stint_id": "Stevenson, Malcolm___Cyprus___1918", "year": 1921, "fact": "high comsnr., Cyprus, 25th Aug., 1920"},
+        {"stint_id": "Stevenson, Malcolm___Cyprus___1918", "year": 1924, "fact": "K.C.M.G. (1923), C.M.G. (1920)"},
+        {"stint_id": "Stevenson, Malcolm___Cyprus___1918", "year": 1919, "fact": "admtd. govt., Nov., 1918 to 24th Aug., 1920"}
+      ],
+      "would_overturn": "Evidence that the Chief Secretary rows (1918-20) and the High Commissioner rows (1921-25) belong to two different M. Stevensons, e.g. a second biography claiming either office in those years, or an external record of the bio subject serving elsewhere during 1918-25."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-forename bio, but the namesake trap is discharged by three independent within-stint transitions (office change 1920/21, C.M.G. appearance 1921, K.C.M.G./Sir appearance 1924) each matching the bio's dated milestones. The stint ends with the 1925 edition, consistent with the bio's 'title changed to gov., May, 1926' (a governor stint would be listed separately)."
+}

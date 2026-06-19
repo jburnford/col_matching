@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q6264790",
+  "persons": [
+    {
+      "bio_id": "woodall_john_b1897",
+      "stint_ids": ["Woodall, John___Bermuda___1956"],
+      "confidence": "certain",
+      "arguments_against": "The bio carries only a single forename 'John', so the namesake trap nominally applies: another John Woodall (the corpus notes 2 officials with the surname) could in principle be the Bermuda listing. But the counter-hypothesis dies on the specifics: the staff-list entry is for the 'Governor and Commander-in-Chief' of Bermuda, an office held by exactly one person at a time, and the biography states 'gov. and c.-in-c., Berm., 1955–59' — the exact office, place, and span. The 1958 staff list even prints the rank 'Lieut.-Gen. Sir John Woodall' matching the bio's 'Lieut.-Gen. Sir John'. The honours K.B.E., C.B., M.C. printed in the 1956 staff list match the bio's honours with their pre-1959 dates (K.C.M.G. only awarded 1959, consistent with its absence from the 1956–58 listings). No realistic second John Woodall could be Governor of Bermuda in these exact years. The position_sim FAIL (59 vs bar 60) is a pure abbreviation artefact: 'gov. and c.-in-c.' is verbatim 'Governor and Commander-in-Chief'.",
+      "evidence_cited": [
+        {"stint_id": "Woodall, John___Bermuda___1956", "year": 1956, "fact": "gov. and c.-in-c., Berm., 1955–59"},
+        {"stint_id": "Woodall, John___Bermuda___1956", "year": 1956, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Woodall, John___Bermuda___1956", "year": 1956, "fact": "K.B.E., C.B., M.C."},
+        {"stint_id": "Woodall, John___Bermuda___1956", "year": 1958, "fact": "Lieut.-Gen. Sir John Woodall"}
+      ],
+      "would_overturn": "Evidence of a second Lieut.-Gen. Sir John Woodall, or any other John Woodall, serving as Governor of Bermuda c. 1955–1959, or a primary source showing the Bermuda governorship in 1956–1958 was held by someone else."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique gubernatorial office + exact place/date span + three shared honours + rank match make this airtight despite the single-initial warning. The deterministic position_sim failure is an abbreviation artefact only."
+}

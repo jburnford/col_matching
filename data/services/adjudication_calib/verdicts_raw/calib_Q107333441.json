@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107333441",
+  "persons": [
+    {
+      "bio_id": "simmons_e-b_b1913",
+      "stint_ids": ["Simmons, E. B___Tanganyika___1960"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: with 44 Simmons officials and 9 Simmons biographies in the corpus, and a bio carrying initials only, a different E. B. Simmons could be the Tanganyika judge. This fails: the biography prints a continuous judicial career — 'puisne judge, Maur., 1952; Tang., 1959' — i.e. a puisne judgeship in Tanganyika from 1959, and the staff list shows E. B. Simmons as High Court Judge, Judiciary, Tanganyika in 1960-1961. 'Puisne judge' IS a High Court judge (the position_sim FAIL at 59 vs bar 60 is a pure string artifact; semantically the titles are the same office). The Tanganyika bench was small, with a handful of named judges; two E. B. Simmonses on it simultaneously is not credible. Dates align exactly (appointed 1959, listed 1960-61), and the later bio version's closing note '(Tanzania Govt. service.)' explains why the colonial-list stint ends at 1961 — Tanganyika's independence — rather than indicating a different person. Both initials agree, with 2 co-occurring edition-years.",
+      "evidence_cited": [
+        {"stint_id": "Simmons, E. B___Tanganyika___1960", "year": 1960, "fact": "puisne judge, Maur., 1952; Tang., 1959"},
+        {"stint_id": "Simmons, E. B___Tanganyika___1960", "year": 1960, "fact": "High Court Judge"},
+        {"stint_id": "Simmons, E. B___Tanganyika___1960", "year": 1961, "fact": "(Tanzania Govt. service.)"}
+      ],
+      "would_overturn": "Evidence of a second E. B. Simmons on the Tanganyika High Court bench in 1960-1961, or a primary source showing the biography subject remained in Mauritius past 1959."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The position_sim FAIL is a string-similarity artifact: a puisne judge is a High Court judge. Place, date, semantic office, initials, and edition co-occurrence all agree; the stint's 1961 end matches Tanganyika independence and the bio's note that he continued in Tanzania government service."
+}

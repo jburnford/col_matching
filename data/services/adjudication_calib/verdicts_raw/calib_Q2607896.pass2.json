@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_Q2607896",
+  "persons": [
+    {
+      "bio_id": "blake_henry-arthur_b1840",
+      "stint_ids": ["Blake, Henry Arthur___Jamaica___1889", "Blake, Henry Arthur___Hong Kong___1898", "Blake, Henry A___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Blake is a common surname (26 officials, 8 biographies), and position_sim FAILED on all three stints, so one could posit different H. A. Blakes in each colony, or that the Ceylon listing reflects an honoured retiree rather than current service. Every leg of this fails. The position 'failures' are phrasing artifacts: 'Captain-General and Governor-in-Chief' is the formal Jamaica governor's title, 'Governor, d.c.' is the Ceylon governor's, and 'gov.' is the bio's abbreviation — the offices are identical. The biography explicitly names each posting with dates that bracket each stint: 'gov., Jamaica, Dec., 1888' (stint listed 1889-1897), 'gov., H. Kong, 1898' (stint 1898-1900), and 'gov., Ceylon, 1903' with 'ret., July, 1907.' (stint 1905-1907, ending exactly at the retirement). The honours track the biography's chronology precisely: Jamaica rows show K.C.M.G. (awarded 1888), and the Hong Kong/Ceylon rows show G.C.M.G. (awarded 1897). These are unique gubernatorial posts held by one person at a time, the staff lists print the full forenames 'Henry Arthur'/'Henry A.', and a chain of three same-named, same-honoured governors succeeding each other across three colonies is not a realistic counter-hypothesis. The retiree trap does not apply: the Ceylon listing stops at 1907, the retirement year, not after.",
+      "evidence_cited": [
+        {"stint_id": "Blake, Henry Arthur___Jamaica___1889", "year": 1889, "fact": "gov., Jamaica, Dec., 1888"},
+        {"stint_id": "Blake, Henry Arthur___Jamaica___1889", "year": 1889, "fact": "K.C.M.G. (1888)"},
+        {"stint_id": "Blake, Henry Arthur___Hong Kong___1898", "year": 1898, "fact": "gov., H. Kong, 1898"},
+        {"stint_id": "Blake, Henry Arthur___Hong Kong___1898", "year": 1898, "fact": "G.C.M.G. (1897)"},
+        {"stint_id": "Blake, Henry A___Ceylon___1905", "year": 1905, "fact": "gov., Ceylon, 1903"},
+        {"stint_id": "Blake, Henry A___Ceylon___1905", "year": 1907, "fact": "ret., July, 1907"}
+      ],
+      "would_overturn": "Commission records showing a different person as Governor of Jamaica 1889-97, Hong Kong 1898-1900, or Ceylon 1905-07; or evidence that the biography's subject never took up one of the posts (as happened with his Queensland appointment, which the bio itself flags as not taken up — note no Queensland stint is in this case)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "One biography, three stints, all assigned. The biography's own sequence (Bahamas 1884, Newfoundland 1887, Queensland 1888 not taken up, Jamaica Dec. 1888, Hong Kong 1898, Ceylon 1903, retired July 1907) accounts for every stint with no gaps or conflicts. The 1897 Jamaica row's 'Colonial Secretary and Governor-in-Chief' is a staff-list column artifact, not a career change."
+}

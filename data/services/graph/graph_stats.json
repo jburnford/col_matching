@@ -1,0 +1,18 @@
+{
+ "persons_total": 91568,
+ "biography_persons": 30415,
+ "biography_persons_grounded": 7410,
+ "record_only_persons": 61153,
+ "observations_total": 344768,
+ "observations_graph": 342597,
+ "observations_recovered": 2171,
+ "colony_year_cells": 3386,
+ "same_person_groups": 75,
+ "same_person_confirmed": 8,
+ "completeness_ledger": {
+  "grounded": 15648,
+  "scale_adjudication_addressable": 10640,
+  "extraction_addressable": 50475,
+  "ceiling": 22237
+ }
+}

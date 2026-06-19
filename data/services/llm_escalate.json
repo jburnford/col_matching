@@ -1,0 +1,1899 @@
+{
+ "col1883-L26125.v": [
+  "no_events"
+ ],
+ "col1883-L26313.v": [
+  "event_year_out_of_range:4:1891"
+ ],
+ "col1889-L31748.v": [
+  "no_events"
+ ],
+ "col1883-L26546.v": [
+  "no_events"
+ ],
+ "col1883-L26558.v": [
+  "no_events"
+ ],
+ "col1886-L32371.v": [
+  "event_year_out_of_range:4:1888"
+ ],
+ "col1948-L31433.v": [
+  "no_events"
+ ],
+ "col1898-L32392.v": [
+  "event_before_age_13"
+ ],
+ "col1908-L43501.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L26644.v": [
+  "no_events"
+ ],
+ "col1913-L44394.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L26865.v": [
+  "no_events"
+ ],
+ "col1883-L26876.v": [
+  "no_events"
+ ],
+ "col1883-L26884.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L26923.v": [
+  "event_year_out_of_range:1:1885"
+ ],
+ "col1883-L26929.v": [
+  "no_events"
+ ],
+ "col1886-L32759.v": [
+  "no_events"
+ ],
+ "col1883-L26939.v": [
+  "event_year_out_of_range:0:1888"
+ ],
+ "col1905-L42688.v": [
+  "chronology_inversions:3",
+  "event_before_age_13"
+ ],
+ "col1920-L52710.v": [
+  "chronology_inversions:3"
+ ],
+ "col1906-L44950.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L27086.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L27289.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L27351.v": [
+  "no_events"
+ ],
+ "col1911-L44608.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L27394.v": [
+  "no_events"
+ ],
+ "col1883-L27443.v": [
+  "chronology_inversions:3"
+ ],
+ "col1937-L60939.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L27492.v": [
+  "chronology_inversions:3"
+ ],
+ "col1932-L60319.v": [
+  "no_events"
+ ],
+ "col1911-L44808.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L27628.v": [
+  "no_events"
+ ],
+ "col1883-L27659.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L27666.v": [
+  "no_events"
+ ],
+ "col1889-L33413.v": [
+  "chronology_inversions:4"
+ ],
+ "col1937-L61341.v": [
+  "no_events"
+ ],
+ "col1905-L43514.v": [
+  "event_before_age_13"
+ ],
+ "col1890-L34460.v": [
+  "chronology_inversions:3"
+ ],
+ "col1898-L33694.v": [
+  "chronology_inversions:3"
+ ],
+ "col1912-L44637.v": [
+  "chronology_inversions:3"
+ ],
+ "col1896-L39226.v": [
+  "no_events"
+ ],
+ "col1883-L27819.v": [
+  "event_year_out_of_range:4:1889",
+  "event_year_out_of_range:5:1891"
+ ],
+ "col1883-L27876.v": [
+  "no_events"
+ ],
+ "col1894-L32042.v": [
+  "chronology_inversions:3"
+ ],
+ "col1888-L33974.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L28051.v": [
+  "event_year_out_of_range:12:1890"
+ ],
+ "col1908-L45261.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L28059.v": [
+  "no_events"
+ ],
+ "col1883-L28063.v": [
+  "no_events"
+ ],
+ "col1896-L39577.v": [
+  "event_before_age_13"
+ ],
+ "col1897-L32643.v": [
+  "no_events"
+ ],
+ "col1890-L34922.v": [
+  "chronology_inversions:3"
+ ],
+ "col1905-L44102.v": [
+  "event_before_age_13"
+ ],
+ "col1900-L35675.v": [
+  "chronology_inversions:3"
+ ],
+ "col1922-L53572.v": [
+  "chronology_inversions:5"
+ ],
+ "col1890-L35075.v": [
+  "no_events"
+ ],
+ "col1894-L32445.v": [
+  "event_year_out_of_range:5:1898",
+  "event_year_out_of_range:6:1898",
+  "event_year_out_of_range:6:1898"
+ ],
+ "col1908-L45581.v": [
+  "event_before_age_13"
+ ],
+ "col1914-L47712.v": [
+  "event_year_out_of_range:2:1935",
+  "chronology_inversions:4"
+ ],
+ "col1924-L55676.v": [
+  "chronology_inversions:3"
+ ],
+ "col1937-L62375.v": [
+  "chronology_inversions:3"
+ ],
+ "col1894-L32478.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L28315.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L28354.v": [
+  "chronology_inversions:3"
+ ],
+ "col1921-L58051.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L28460.v": [
+  "event_year_out_of_range:1:1890",
+  "event_year_out_of_range:1:1891",
+  "event_before_age_13"
+ ],
+ "col1883-L28464.v": [
+  "event_year_out_of_range:0:1886",
+  "chronology_inversions:6"
+ ],
+ "col1898-L34615.v": [
+  "chronology_inversions:3"
+ ],
+ "col1890-L35468.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L28554.v": [
+  "event_year_out_of_range:0:1889"
+ ],
+ "col1883-L28633.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L28645.v": [
+  "event_year_out_of_range:0:1892"
+ ],
+ "col1888-L34857.v": [
+  "chronology_inversions:3"
+ ],
+ "col1883-L28674.v": [
+  "event_year_out_of_range:2:1891",
+  "event_year_out_of_range:2:1891"
+ ],
+ "col1883-L28750.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L28879.v": [
+  "chronology_inversions:3"
+ ],
+ "col1888-L35278.v": [
+  "event_year_out_of_range:0:1787"
+ ],
+ "col1888-L35280.v": [
+  "event_year_out_of_range:3:1892"
+ ],
+ "col1883-L28946.v": [
+  "event_year_out_of_range:0:1887",
+  "event_year_out_of_range:1:1889",
+  "chronology_inversions:3"
+ ],
+ "col1883-L29053.v": [
+  "no_events"
+ ],
+ "col1883-L29085.v": [
+  "no_events"
+ ],
+ "col1888-L35629.v": [
+  "event_year_out_of_range:9:1898"
+ ],
+ "col1898-L35514.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L29211.v": [
+  "event_year_out_of_range:13:1892"
+ ],
+ "col1883-L29238.v": [
+  "chronology_inversions:3"
+ ],
+ "col1956-L23800.v": [
+  "event_before_age_13"
+ ],
+ "col1883-L29270.v": [
+  "event_year_out_of_range:0:1887"
+ ],
+ "col1883-L29326.v": [
+  "chronology_inversions:3"
+ ],
+ "col1905-L45622.v": [
+  "event_year_out_of_range:2:1999"
+ ],
+ "col1900-L37023.v": [
+  "no_events"
+ ],
+ "col1888-L35933.v": [
+  "chronology_inversions:4"
+ ],
+ "col1890-L36700.v": [
+  "event_year_out_of_range:9:1898",
+  "event_year_out_of_range:10:1898",
+  "event_year_out_of_range:10:1898"
+ ],
+ "col1922-L56124.v": [
+  "no_events"
+ ],
+ "col1886-L35828.v": [
+  "no_events"
+ ],
+ "col1883-L29666.v": [
+  "event_year_out_of_range:1:1887"
+ ],
+ "col1883-L29817.v": [
+  "chronology_inversions:4"
+ ],
+ "col1886-L36061.v": [
+  "chronology_inversions:4"
+ ],
+ "col1900-L37581.v": [
+  "chronology_inversions:5"
+ ],
+ "col1890-L37169.v": [
+  "terminal_year_out_of_range:1892"
+ ],
+ "col1883-L29896.v": [
+  "event_year_out_of_range:1:1892"
+ ],
+ "col1896-L41830.v": [
+  "event_year_out_of_range:5:1898"
+ ],
+ "col1930-L69193.v": [
+  "no_events"
+ ],
+ "col1894-L34515.v": [
+  "event_year_out_of_range:1:1899",
+  "event_year_out_of_range:1:1899"
+ ],
+ "col1888-L36665.v": [
+  "span_not_in_text:5"
+ ],
+ "col1905-L46638.v": [
+  "event_year_out_of_range:7:1913"
+ ],
+ "col1908-L48223.v": [
+  "no_events"
+ ],
+ "col1883-L30008.v": [
+  "chronology_inversions:3"
+ ],
+ "col1888-L36791.v": [
+  "event_before_age_13"
+ ],
+ "col1894-L34564.v": [
+  "chronology_inversions:4"
+ ],
+ "col1898-L36557.v": [
+  "chronology_inversions:3"
+ ],
+ "col1888-L36819.v": [
+  "no_events"
+ ],
+ "col1883-L30016.v": [
+  "no_events"
+ ],
+ "col1940-L69701.v": [
+  "chronology_inversions:3"
+ ],
+ "col1933-L64574.v": [
+  "chronology_inversions:3"
+ ],
+ "col1934-L64319.v": [
+  "no_events"
+ ],
+ "col1939-L64779.v": [
+  "chronology_inversions:3",
+  "event_before_age_13"
+ ],
+ "col1897-L30691.v": [
+  "no_events"
+ ],
+ "col1934-L56383.v": [
+  "event_before_age_13"
+ ],
+ "col1888-L32076.v": [
+  "event_year_out_of_range:3:1899",
+  "event_year_out_of_range:3:1899"
+ ],
+ "col1889-L31884.v": [
+  "event_year_out_of_range:3:1892"
+ ],
+ "col1894-L30430.v": [
+  "event_before_age_13"
+ ],
+ "col1886-L32333.v": [
+  "no_events"
+ ],
+ "col1907-L43215.v": [
+  "no_events"
+ ],
+ "col1886-L32398.v": [
+  "event_year_out_of_range:2:1892"
+ ],
+ "col1886-L32453.v": [
+  "event_year_out_of_range:9:1889"
+ ],
+ "col1889-L32211.v": [
+  "event_year_out_of_range:6:1898"
+ ],
+ "col1894-L30731.v": [
+  "no_events"
+ ],
+ "col1888-L32752.v": [
+  "event_year_out_of_range:3:1896",
+  "chronology_inversions:3",
+  "event_before_age_13"
+ ],
+ "col1886-L32863.v": [
+  "no_events"
+ ],
+ "col1886-L32943.v": [
+  "no_events"
+ ],
+ "col1894-L31381.v": [
+  "no_events"
+ ],
+ "col1886-L33658.v": [
+  "no_events"
+ ],
+ "col1888-L33605.v": [
+  "no_events"
+ ],
+ "col1886-L33757.v": [
+  "no_events"
+ ],
+ "col1933-L60250.v": [
+  "event_before_age_13"
+ ],
+ "col1886-L33864.v": [
+  "event_year_out_of_range:1:1894"
+ ],
+ "col1886-L34047.v": [
+  "event_year_out_of_range:7:1888"
+ ],
+ "col1929-L61163.v": [
+  "chronology_inversions:3"
+ ],
+ "col1886-L34332.v": [
+  "event_year_out_of_range:6:1888"
+ ],
+ "col1890-L35297.v": [
+  "event_year_out_of_range:9:1898"
+ ],
+ "col1886-L34604.v": [
+  "chronology_inversions:3"
+ ],
+ "col1886-L34664.v": [
+  "event_year_out_of_range:4:1888"
+ ],
+ "col1929-L62740.v": [
+  "event_before_age_13"
+ ],
+ "col1886-L35219.v": [
+  "no_events"
+ ],
+ "col1886-L35226.v": [
+  "event_year_out_of_range:0:1888"
+ ],
+ "col1900-L36872.v": [
+  "event_before_age_13"
+ ],
+ "col1914-L49419.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L58890.v": [
+  "event_before_age_13"
+ ],
+ "col1962-L25880.v": [
+  "event_before_age_13"
+ ],
+ "col1886-L35723.v": [
+  "no_events"
+ ],
+ "col1886-L35751.v": [
+  "event_year_out_of_range:8:1889"
+ ],
+ "col1897-L34640.v": [
+  "event_before_age_13"
+ ],
+ "col1908-L47528.v": [
+  "event_year_out_of_range:0:1933",
+  "event_year_out_of_range:1:1939",
+  "event_year_out_of_range:1:1943"
+ ],
+ "col1937-L65078.v": [
+  "event_before_age_13"
+ ],
+ "col1886-L35879.v": [
+  "chronology_inversions:3"
+ ],
+ "col1886-L35885.v": [
+  "event_year_out_of_range:0:1891"
+ ],
+ "col1886-L35924.v": [
+  "event_year_out_of_range:2:1890"
+ ],
+ "col1917-L53548.v": [
+  "event_before_age_13"
+ ],
+ "col1886-L36225.v": [
+  "event_year_out_of_range:0:1888"
+ ],
+ "col1890-L37435.v": [
+  "no_events"
+ ],
+ "col1896-L37236.v": [
+  "chronology_inversions:3"
+ ],
+ "col1905-L42117.v": [
+  "event_before_age_13"
+ ],
+ "col1898-L32501.v": [
+  "event_before_age_13"
+ ],
+ "col1888-L32737.v": [
+  "no_events"
+ ],
+ "col1888-L32862.v": [
+  "no_events"
+ ],
+ "col1905-L42776.v": [
+  "chronology_inversions:3"
+ ],
+ "col1888-L32967.v": [
+  "chronology_inversions:4"
+ ],
+ "col1889-L32651.v": [
+  "event_year_out_of_range:3:1897"
+ ],
+ "col1888-L33379.v": [
+  "event_year_out_of_range:12:1898"
+ ],
+ "col1888-L33685.v": [
+  "event_before_age_13"
+ ],
+ "col1899-L35160.v": [
+  "event_before_age_13"
+ ],
+ "col1913-L46876.v": [
+  "chronology_inversions:3"
+ ],
+ "col1888-L34199.v": [
+  "chronology_inversions:3"
+ ],
+ "col1888-L34523.v": [
+  "chronology_inversions:3"
+ ],
+ "col1888-L35693.v": [
+  "chronology_inversions:3"
+ ],
+ "col1894-L33639.v": [
+  "event_year_out_of_range:8:1898"
+ ],
+ "col1912-L47271.v": [
+  "chronology_inversions:3",
+  "event_before_age_13"
+ ],
+ "col1897-L34375.v": [
+  "event_year_out_of_range:1:1901",
+  "event_year_out_of_range:1:1901"
+ ],
+ "col1905-L45790.v": [
+  "chronology_inversions:3"
+ ],
+ "col1896-L41331.v": [
+  "no_events"
+ ],
+ "col1908-L47332.v": [
+  "no_events"
+ ],
+ "col1912-L47601.v": [
+  "no_events"
+ ],
+ "col1915-L50426.v": [
+  "no_events"
+ ],
+ "col1908-L47396.v": [
+  "event_before_age_13"
+ ],
+ "col1932-L64030.v": [
+  "event_before_age_13"
+ ],
+ "col1905-L46312.v": [
+  "chronology_inversions:4"
+ ],
+ "col1908-L47847.v": [
+  "chronology_inversions:3"
+ ],
+ "col1897-L34942.v": [
+  "event_before_age_13"
+ ],
+ "col1897-L34962.v": [
+  "no_events"
+ ],
+ "col1897-L34989.v": [
+  "event_before_age_13"
+ ],
+ "col1898-L36498.v": [
+  "event_before_age_13"
+ ],
+ "col1888-L36699.v": [
+  "span_not_in_text:4",
+  "span_not_in_text:5",
+  "span_not_in_text:6",
+  "span_not_in_text:7",
+  "span_not_in_text:9",
+  "span_not_in_text:10",
+  "span_not_in_text:11",
+  "chronology_inversions:3"
+ ],
+ "col1915-L45960.v": [
+  "chronology_inversions:4"
+ ],
+ "col1889-L32514.v": [
+  "chronology_inversions:3"
+ ],
+ "col1889-L32559.v": [
+  "event_year_out_of_range:16:1693"
+ ],
+ "col1889-L33333.v": [
+  "no_events"
+ ],
+ "col1908-L45309.v": [
+  "chronology_inversions:3"
+ ],
+ "col1924-L55324.v": [
+  "chronology_inversions:3"
+ ],
+ "col1908-L46159.v": [
+  "chronology_inversions:3"
+ ],
+ "col1889-L34866.v": [
+  "chronology_inversions:3"
+ ],
+ "col1889-L35572.v": [
+  "event_year_out_of_range:0:1898"
+ ],
+ "col1915-L50744.v": [
+  "no_events"
+ ],
+ "col1889-L36010.v": [
+  "chronology_inversions:3"
+ ],
+ "col1890-L32348.v": [
+  "no_events"
+ ],
+ "col1905-L41886.v": [
+  "terminal_year_out_of_range:1914"
+ ],
+ "col1948-L30980.v": [
+  "no_events"
+ ],
+ "col1890-L33171.v": [
+  "no_events"
+ ],
+ "col1890-L33245.v": [
+  "event_year_out_of_range:1:1897"
+ ],
+ "col1919-L52859.v": [
+  "event_before_age_13"
+ ],
+ "col1894-L32088.v": [
+  "no_events"
+ ],
+ "col1894-L32388.v": [
+  "event_year_out_of_range:3:1899"
+ ],
+ "col1890-L36358.v": [
+  "chronology_inversions:3"
+ ],
+ "col1905-L41752.v": [
+  "event_year_out_of_range:15:1932",
+  "chronology_inversions:3"
+ ],
+ "col1894-L30459.v": [
+  "no_events"
+ ],
+ "col1908-L43800.v": [
+  "no_events"
+ ],
+ "col1915-L46160.v": [
+  "event_year_out_of_range:1:1938",
+  "chronology_inversions:3"
+ ],
+ "col1939-L66656.v": [
+  "event_before_age_13"
+ ],
+ "col1907-L44223.v": [
+  "event_before_age_13"
+ ],
+ "col1894-L31857.v": [
+  "event_year_out_of_range:0:1896"
+ ],
+ "col1912-L44857.v": [
+  "event_before_age_13"
+ ],
+ "col1898-L33947.v": [
+  "event_before_age_13"
+ ],
+ "col1927-L59879.v": [
+  "event_before_age_13"
+ ],
+ "col1894-L32291.v": [
+  "event_before_age_13"
+ ],
+ "col1896-L39951.v": [
+  "event_year_out_of_range:1:1898"
+ ],
+ "col1899-L36341.v": [
+  "chronology_inversions:3"
+ ],
+ "col1908-L46241.v": [
+  "chronology_inversions:5"
+ ],
+ "col1894-L33448.v": [
+  "event_year_out_of_range:0:1898"
+ ],
+ "col1894-L33623.v": [
+  "chronology_inversions:3"
+ ],
+ "col1894-L33666.v": [
+  "no_events"
+ ],
+ "col1906-L48045.v": [
+  "event_before_age_13"
+ ],
+ "col1905-L46502.v": [
+  "event_before_age_13"
+ ],
+ "col1894-L34944.v": [
+  "no_events"
+ ],
+ "col1894-L34964.v": [
+  "no_events"
+ ],
+ "col1894-L35053.v": [
+  "no_events"
+ ],
+ "col1894-L35073.v": [
+  "no_events"
+ ],
+ "col1924-L53173.v": [
+  "chronology_inversions:3"
+ ],
+ "col1922-L52616.v": [
+  "event_before_age_13"
+ ],
+ "col1896-L39107.v": [
+  "event_year_out_of_range:3:1898"
+ ],
+ "col1905-L44332.v": [
+  "chronology_inversions:3"
+ ],
+ "col1908-L45628.v": [
+  "chronology_inversions:3"
+ ],
+ "col1921-L57690.v": [
+  "chronology_inversions:3"
+ ],
+ "col1899-L35915.v": [
+  "no_events"
+ ],
+ "col1914-L47825.v": [
+  "no_events"
+ ],
+ "col1915-L48577.v": [
+  "event_before_age_13"
+ ],
+ "col1911-L46451.v": [
+  "chronology_inversions:3"
+ ],
+ "col1908-L46274.v": [
+  "event_before_age_13"
+ ],
+ "col1896-L40441.v": [
+  "event_year_out_of_range:2:1898"
+ ],
+ "col1896-L40519.v": [
+  "event_before_age_13"
+ ],
+ "col1896-L40790.v": [
+  "event_year_out_of_range:4:1898"
+ ],
+ "col1906-L47636.v": [
+  "no_events"
+ ],
+ "col1896-L41207.v": [
+  "chronology_inversions:3"
+ ],
+ "col1906-L43946.v": [
+  "event_before_age_13"
+ ],
+ "col1905-L41985.v": [
+  "chronology_inversions:3"
+ ],
+ "col1908-L43151.v": [
+  "event_before_age_13"
+ ],
+ "col1897-L30846.v": [
+  "event_before_age_13"
+ ],
+ "col1897-L30954.v": [
+  "no_surname"
+ ],
+ "col1897-L31118.v": [
+  "event_year_out_of_range:3:1899",
+  "event_year_out_of_range:4:1899"
+ ],
+ "col1897-L31268.v": [
+  "no_events"
+ ],
+ "col1924-L54239.v": [
+  "chronology_inversions:3"
+ ],
+ "col1940-L64316.v": [
+  "event_before_age_13"
+ ],
+ "col1897-L32208.v": [
+  "event_year_out_of_range:9:1911",
+  "event_year_out_of_range:10:1912",
+  "event_year_out_of_range:11:1912",
+  "event_year_out_of_range:12:1912",
+  "event_year_out_of_range:13:1912",
+  "event_year_out_of_range:13:1913",
+  "event_year_out_of_range:14:1912",
+  "event_year_out_of_range:15:1912",
+  "event_year_out_of_range:17:1913",
+  "chronology_inversions:3"
+ ],
+ "col1899-L35697.v": [
+  "no_events"
+ ],
+ "col1897-L34405.v": [
+  "chronology_inversions:3"
+ ],
+ "col1912-L48517.v": [
+  "event_before_age_13"
+ ],
+ "col1909-L44537.v": [
+  "chronology_inversions:4"
+ ],
+ "col1909-L44795.v": [
+  "no_events"
+ ],
+ "col1917-L51714.v": [
+  "event_before_age_13"
+ ],
+ "col1914-L48565.v": [
+  "event_before_age_13"
+ ],
+ "col1898-L35226.v": [
+  "event_year_out_of_range:5:1900"
+ ],
+ "col1931-L68232.v": [
+  "event_before_age_13"
+ ],
+ "col1900-L33764.v": [
+  "chronology_inversions:3"
+ ],
+ "col1899-L36058.v": [
+  "event_before_age_13"
+ ],
+ "col1905-L44996.v": [
+  "event_before_age_13"
+ ],
+ "col1909-L48775.v": [
+  "span_not_in_text:3"
+ ],
+ "col1909-L49742.v": [
+  "event_before_age_13"
+ ],
+ "col1921-L60370.v": [
+  "no_events"
+ ],
+ "col1899-L37706.v": [
+  "chronology_inversions:4"
+ ],
+ "col1899-L37870.v": [
+  "no_events"
+ ],
+ "col1899-L37925.v": [
+  "event_before_age_13"
+ ],
+ "col1906-L48736.v": [
+  "no_events"
+ ],
+ "col1907-L47824.v": [
+  "no_events"
+ ],
+ "col1900-L34555.v": [
+  "event_before_age_13"
+ ],
+ "col1905-L43308.v": [
+  "chronology_inversions:3"
+ ],
+ "col1900-L35429.v": [
+  "chronology_inversions:3"
+ ],
+ "col1900-L36489.v": [
+  "no_events"
+ ],
+ "col1900-L36886.v": [
+  "chronology_inversions:3"
+ ],
+ "col1900-L37537.v": [
+  "chronology_inversions:3"
+ ],
+ "col1913-L43742.v": [
+  "no_events"
+ ],
+ "col1905-L42105.v": [
+  "event_year_out_of_range:2:1924"
+ ],
+ "col1905-L42561.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L59876.v": [
+  "no_events"
+ ],
+ "col1934-L59924.v": [
+  "no_events"
+ ],
+ "col1921-L56897.v": [
+  "no_events"
+ ],
+ "col1910-L46425.v": [
+  "event_before_age_13"
+ ],
+ "col1911-L45748.v": [
+  "chronology_inversions:3"
+ ],
+ "col1937-L62179.v": [
+  "event_before_age_13"
+ ],
+ "col1939-L68024.v": [
+  "event_before_age_13"
+ ],
+ "col1907-L45408.v": [
+  "chronology_inversions:3"
+ ],
+ "col1925-L57218.v": [
+  "chronology_inversions:3"
+ ],
+ "col1948-L34053.v": [
+  "event_before_age_13"
+ ],
+ "col1905-L44512.v": [
+  "no_events"
+ ],
+ "col1910-L47347.v": [
+  "no_events"
+ ],
+ "col1917-L51601.v": [
+  "event_year_out_of_range:0:1984"
+ ],
+ "col1925-L58026.v": [
+  "event_before_age_13"
+ ],
+ "col1908-L46716.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L63944.v": [
+  "no_events"
+ ],
+ "col1905-L45479.v": [
+  "event_year_out_of_range:4:1913",
+  "event_year_out_of_range:4:1914"
+ ],
+ "col1905-L45591.v": [
+  "event_before_age_13"
+ ],
+ "col1908-L47563.v": [
+  "event_before_age_13"
+ ],
+ "col1913-L49673.v": [
+  "chronology_inversions:3"
+ ],
+ "col1927-L63102.v": [
+  "chronology_inversions:3"
+ ],
+ "col1912-L48093.v": [
+  "event_before_age_13"
+ ],
+ "col1905-L46492.v": [
+  "event_before_age_13"
+ ],
+ "col1912-L48231.v": [
+  "chronology_inversions:3"
+ ],
+ "col1906-L48672.v": [
+  "no_events"
+ ],
+ "col1920-L58034.v": [
+  "no_events"
+ ],
+ "col1932-L65135.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L65907.v": [
+  "event_before_age_13"
+ ],
+ "col1932-L65146.v": [
+  "chronology_inversions:3"
+ ],
+ "col1930-L63114.v": [
+  "chronology_inversions:3"
+ ],
+ "col1953-L16750.v": [
+  "chronology_inversions:3"
+ ],
+ "col1919-L51219.v": [
+  "no_events"
+ ],
+ "col1906-L45047.v": [
+  "chronology_inversions:3"
+ ],
+ "col1906-L48518.v": [
+  "chronology_inversions:4"
+ ],
+ "col1922-L51786.v": [
+  "event_year_out_of_range:0:1933",
+  "chronology_inversions:3"
+ ],
+ "col1907-L45577.v": [
+  "event_year_out_of_range:1:1945"
+ ],
+ "col1930-L66798.v": [
+  "event_before_age_13"
+ ],
+ "col1907-L47847.v": [
+  "no_events"
+ ],
+ "col1907-L47878.v": [
+  "event_year_out_of_range:0:1996"
+ ],
+ "col1908-L43805.v": [
+  "chronology_inversions:4"
+ ],
+ "col1919-L51452.v": [
+  "chronology_inversions:3"
+ ],
+ "col1917-L50448.v": [
+  "chronology_inversions:3"
+ ],
+ "col1908-L45230.v": [
+  "chronology_inversions:3"
+ ],
+ "col1933-L62221.v": [
+  "no_events"
+ ],
+ "col1912-L46483.v": [
+  "no_events"
+ ],
+ "col1908-L47929.v": [
+  "chronology_inversions:4"
+ ],
+ "col1908-L48005.v": [
+  "chronology_inversions:3"
+ ],
+ "col1908-L48323.v": [
+  "event_before_age_13"
+ ],
+ "col1910-L43903.v": [
+  "event_before_age_13"
+ ],
+ "col1909-L43991.v": [
+  "event_before_age_13"
+ ],
+ "col1909-L45015.v": [
+  "chronology_inversions:3"
+ ],
+ "col1928-L65821.v": [
+  "no_events"
+ ],
+ "col1932-L60161.v": [
+  "no_events"
+ ],
+ "col1934-L59241.v": [
+  "event_before_age_13"
+ ],
+ "col1909-L47970.v": [
+  "event_before_age_13"
+ ],
+ "col1909-L47999.v": [
+  "no_events"
+ ],
+ "col1911-L42816.v": [
+  "event_before_age_13"
+ ],
+ "col1918-L48397.v": [
+  "no_events"
+ ],
+ "col1940-L62108.v": [
+  "no_events"
+ ],
+ "col1930-L63453.v": [
+  "chronology_inversions:4"
+ ],
+ "col1910-L44972.v": [
+  "event_before_age_13"
+ ],
+ "col1910-L45259.v": [
+  "chronology_inversions:3"
+ ],
+ "col1910-L45997.v": [
+  "event_year_out_of_range:0:1993"
+ ],
+ "col1914-L47751.v": [
+  "event_before_age_13"
+ ],
+ "col1910-L47097.v": [
+  "event_year_out_of_range:0:1912"
+ ],
+ "col1910-L47474.v": [
+  "event_before_age_13"
+ ],
+ "col1918-L53181.v": [
+  "chronology_inversions:3"
+ ],
+ "col1910-L48219.v": [
+  "event_before_age_13"
+ ],
+ "col1911-L42756.v": [
+  "event_before_age_13"
+ ],
+ "col1922-L50558.v": [
+  "event_year_out_of_range:3:1934"
+ ],
+ "col1911-L43375.v": [
+  "chronology_inversions:3"
+ ],
+ "col1919-L52388.v": [
+  "chronology_inversions:3"
+ ],
+ "col1911-L45162.v": [
+  "chronology_inversions:3"
+ ],
+ "col1922-L53430.v": [
+  "no_events"
+ ],
+ "col1922-L54426.v": [
+  "event_year_out_of_range:3:1926"
+ ],
+ "col1911-L46482.v": [
+  "event_before_age_13"
+ ],
+ "col1911-L46742.v": [
+  "event_before_age_13"
+ ],
+ "col1911-L47421.v": [
+  "chronology_inversions:3"
+ ],
+ "col1917-L52557.v": [
+  "chronology_inversions:3"
+ ],
+ "col1950-L33992.v": [
+  "no_events"
+ ],
+ "col1920-L52843.v": [
+  "chronology_inversions:3"
+ ],
+ "col1937-L60156.v": [
+  "chronology_inversions:3"
+ ],
+ "col1912-L44321.v": [
+  "chronology_inversions:3"
+ ],
+ "col1912-L46400.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L58154.v": [
+  "event_before_age_13"
+ ],
+ "col1912-L46886.v": [
+  "event_before_age_13"
+ ],
+ "col1923-L58534.v": [
+  "no_events"
+ ],
+ "col1923-L54393.v": [
+  "no_events"
+ ],
+ "col1913-L46289.v": [
+  "chronology_inversions:3"
+ ],
+ "col1936-L61177.v": [
+  "no_events"
+ ],
+ "col1918-L51694.v": [
+  "chronology_inversions:4"
+ ],
+ "col1914-L47998.v": [
+  "no_events"
+ ],
+ "col1913-L48665.v": [
+  "event_before_age_13"
+ ],
+ "col1913-L49752.v": [
+  "no_events"
+ ],
+ "col1932-L64756.v": [
+  "chronology_inversions:3"
+ ],
+ "col1920-L58012.v": [
+  "no_events"
+ ],
+ "col1921-L60835.v": [
+  "no_events"
+ ],
+ "col1925-L55933.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L56330.v": [
+  "event_before_age_13"
+ ],
+ "col1915-L47791.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L57953.v": [
+  "event_before_age_13"
+ ],
+ "col1922-L54898.v": [
+  "event_before_age_13"
+ ],
+ "col1914-L49112.v": [
+  "event_before_age_13"
+ ],
+ "col1929-L58150.v": [
+  "event_before_age_13"
+ ],
+ "col1915-L45644.v": [
+  "event_before_age_13"
+ ],
+ "col1915-L46676.v": [
+  "no_events"
+ ],
+ "col1930-L64551.v": [
+  "event_year_out_of_range:1:1942"
+ ],
+ "col1940-L64528.v": [
+  "chronology_inversions:3"
+ ],
+ "col1915-L48300.v": [
+  "no_events"
+ ],
+ "col1915-L48815.v": [
+  "chronology_inversions:3"
+ ],
+ "col1915-L49354.v": [
+  "chronology_inversions:6",
+  "event_before_age_13"
+ ],
+ "col1917-L47369.v": [
+  "no_events"
+ ],
+ "col1917-L47964.v": [
+  "event_before_age_13"
+ ],
+ "col1917-L48102.v": [
+  "event_before_age_13"
+ ],
+ "col1919-L50965.v": [
+  "event_before_age_13"
+ ],
+ "col1924-L53758.v": [
+  "event_year_out_of_range:0:1694"
+ ],
+ "col1934-L58418.v": [
+  "no_events"
+ ],
+ "col1939-L66717.v": [
+  "chronology_inversions:3"
+ ],
+ "col1925-L56687.v": [
+  "no_events"
+ ],
+ "col1921-L57240.v": [
+  "chronology_inversions:3"
+ ],
+ "col1917-L51409.v": [
+  "event_before_age_13"
+ ],
+ "col1930-L66465.v": [
+  "event_before_age_13"
+ ],
+ "col1917-L51617.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L58382.v": [
+  "event_before_age_13"
+ ],
+ "col1917-L52405.v": [
+  "event_before_age_13"
+ ],
+ "col1917-L52892.v": [
+  "event_before_age_13"
+ ],
+ "col1922-L56049.v": [
+  "no_events"
+ ],
+ "col1917-L53077.v": [
+  "event_before_age_13"
+ ],
+ "col1917-L53558.v": [
+  "event_before_age_13"
+ ],
+ "col1917-L53703.v": [
+  "event_before_age_13"
+ ],
+ "col1919-L51145.v": [
+  "no_events"
+ ],
+ "col1921-L55343.v": [
+  "event_before_age_13"
+ ],
+ "col1918-L49496.v": [
+  "chronology_inversions:4"
+ ],
+ "col1918-L51505.v": [
+  "chronology_inversions:3"
+ ],
+ "col1918-L53553.v": [
+  "event_year_out_of_range:3:1944"
+ ],
+ "col1918-L54409.v": [
+  "chronology_inversions:3"
+ ],
+ "col1919-L50200.v": [
+  "chronology_inversions:3"
+ ],
+ "col1919-L50804.v": [
+  "event_before_age_13"
+ ],
+ "col1919-L50928.v": [
+  "event_before_age_13"
+ ],
+ "col1919-L51040.v": [
+  "event_before_age_13"
+ ],
+ "col1936-L61011.v": [
+  "no_events"
+ ],
+ "col1919-L55668.v": [
+  "event_before_age_13"
+ ],
+ "col1919-L55910.v": [
+  "chronology_inversions:3"
+ ],
+ "col1932-L57955.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L59562.v": [
+  "no_events"
+ ],
+ "col1920-L53200.v": [
+  "event_year_out_of_range:2:1993"
+ ],
+ "col1920-L53826.v": [
+  "no_events"
+ ],
+ "col1920-L54330.v": [
+  "event_before_age_13"
+ ],
+ "col1920-L54365.v": [
+  "event_before_age_13"
+ ],
+ "col1920-L56473.v": [
+  "event_before_age_13"
+ ],
+ "col1921-L54177.v": [
+  "event_before_age_13"
+ ],
+ "col1922-L50865.v": [
+  "event_before_age_13"
+ ],
+ "col1921-L55326.v": [
+  "chronology_inversions:3"
+ ],
+ "col1921-L55493.v": [
+  "event_before_age_13"
+ ],
+ "col1928-L65885.v": [
+  "chronology_inversions:4"
+ ],
+ "col1925-L57322.v": [
+  "chronology_inversions:3"
+ ],
+ "col1934-L61109.v": [
+  "chronology_inversions:3"
+ ],
+ "col1921-L58184.v": [
+  "event_before_age_13"
+ ],
+ "col1939-L70525.v": [
+  "no_events"
+ ],
+ "col1928-L70304.v": [
+  "no_events"
+ ],
+ "col1937-L65464.v": [
+  "event_year_out_of_range:3:1939"
+ ],
+ "col1923-L59000.v": [
+  "event_year_out_of_range:6:1929"
+ ],
+ "col1922-L50622.v": [
+  "event_year_out_of_range:3:1931"
+ ],
+ "col1928-L64753.v": [
+  "no_events"
+ ],
+ "col1922-L51406.v": [
+  "event_before_age_13"
+ ],
+ "col1948-L32076.v": [
+  "no_events"
+ ],
+ "col1922-L52049.v": [
+  "chronology_inversions:3"
+ ],
+ "col1922-L53243.v": [
+  "no_surname"
+ ],
+ "col1922-L54952.v": [
+  "event_before_age_13"
+ ],
+ "col1922-L56768.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L59225.v": [
+  "chronology_inversions:3",
+  "event_before_age_13"
+ ],
+ "col1923-L54268.v": [
+  "chronology_inversions:3"
+ ],
+ "col1923-L55048.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L56436.v": [
+  "no_events"
+ ],
+ "col1923-L55597.v": [
+  "event_before_age_13"
+ ],
+ "col1939-L68359.v": [
+  "chronology_inversions:3"
+ ],
+ "col1923-L56685.v": [
+  "event_before_age_13"
+ ],
+ "col1954-L21656.v": [
+  "event_before_age_13"
+ ],
+ "col1923-L57451.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L64342.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L59327.v": [
+  "no_events"
+ ],
+ "col1923-L58240.v": [
+  "chronology_inversions:3"
+ ],
+ "col1937-L64952.v": [
+  "no_events"
+ ],
+ "col1923-L58425.v": [
+  "event_before_age_13"
+ ],
+ "col1924-L52083.v": [
+  "chronology_inversions:3"
+ ],
+ "col1924-L52717.v": [
+  "chronology_inversions:3"
+ ],
+ "col1924-L52833.v": [
+  "event_before_age_13"
+ ],
+ "col1939-L65307.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L58299.v": [
+  "no_events"
+ ],
+ "col1924-L55837.v": [
+  "chronology_inversions:3",
+  "event_before_age_13"
+ ],
+ "col1924-L56063.v": [
+  "chronology_inversions:3"
+ ],
+ "col1933-L61845.v": [
+  "event_before_age_13"
+ ],
+ "dol1935-L62677.v": [
+  "no_events"
+ ],
+ "col1936-L58603.v": [
+  "no_events"
+ ],
+ "col1948-L31721.v": [
+  "no_events"
+ ],
+ "col1932-L59300.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L55107.v": [
+  "chronology_inversions:3"
+ ],
+ "col1925-L57358.v": [
+  "event_before_age_13"
+ ],
+ "col1928-L68146.v": [
+  "no_events"
+ ],
+ "col1925-L58099.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L58109.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L58111.v": [
+  "chronology_inversions:4"
+ ],
+ "col1925-L59149.v": [
+  "event_before_age_13"
+ ],
+ "col1925-L59517.v": [
+  "event_year_out_of_range:12:1929"
+ ],
+ "col1927-L56752.v": [
+  "event_before_age_13"
+ ],
+ "col1927-L57279.v": [
+  "chronology_inversions:3"
+ ],
+ "col1939-L65086.v": [
+  "no_events"
+ ],
+ "col1936-L60530.v": [
+  "chronology_inversions:4"
+ ],
+ "col1927-L59090.v": [
+  "chronology_inversions:3"
+ ],
+ "col1937-L65456.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L66027.v": [
+  "event_before_age_13"
+ ],
+ "col1928-L63757.v": [
+  "event_before_age_13"
+ ],
+ "col1930-L67957.v": [
+  "no_events"
+ ],
+ "col1936-L64269.v": [
+  "no_events"
+ ],
+ "col1937-L64670.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L65144.v": [
+  "event_before_age_13"
+ ],
+ "col1929-L58817.v": [
+  "chronology_inversions:3"
+ ],
+ "col1948-L36427.v": [
+  "no_events"
+ ],
+ "col1930-L62304.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L56910.v": [
+  "no_events"
+ ],
+ "col1934-L57953.v": [
+  "no_events"
+ ],
+ "col1930-L64075.v": [
+  "event_before_age_13"
+ ],
+ "col1930-L65216.v": [
+  "no_surname"
+ ],
+ "col1930-L66500.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L62180.v": [
+  "no_events"
+ ],
+ "col1950-L39409.v": [
+  "chronology_inversions:3"
+ ],
+ "col1931-L62476.v": [
+  "no_events"
+ ],
+ "col1931-L65343.v": [
+  "event_before_age_13"
+ ],
+ "col1931-L65831.v": [
+  "event_year_out_of_range:5:1936",
+  "event_year_out_of_range:5:1936"
+ ],
+ "col1931-L66027.v": [
+  "no_events"
+ ],
+ "col1949-L33964.v": [
+  "chronology_inversions:3"
+ ],
+ "col1931-L67496.v": [
+  "event_before_age_13"
+ ],
+ "col1939-L65049.v": [
+  "no_events"
+ ],
+ "col1939-L66271.v": [
+  "event_before_age_13"
+ ],
+ "col1932-L61985.v": [
+  "no_surname"
+ ],
+ "col1932-L62501.v": [
+  "event_before_age_13"
+ ],
+ "col1932-L62532.v": [
+  "event_before_age_13"
+ ],
+ "col1932-L63291.v": [
+  "event_before_age_13"
+ ],
+ "col1933-L58174.v": [
+  "no_surname"
+ ],
+ "col1939-L66291.v": [
+  "chronology_inversions:4"
+ ],
+ "col1939-L66355.v": [
+  "event_before_age_13"
+ ],
+ "col1948-L32309.v": [
+  "no_events"
+ ],
+ "col1933-L59680.v": [
+  "no_events"
+ ],
+ "col1933-L59744.v": [
+  "no_events"
+ ],
+ "col1933-L60731.v": [
+  "event_year_out_of_range:7:1940"
+ ],
+ "col1948-L35392.v": [
+  "no_events"
+ ],
+ "col1933-L64128.v": [
+  "event_year_out_of_range:0:1941",
+  "event_year_out_of_range:15:1949"
+ ],
+ "col1933-L64539.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L56446.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L56458.v": [
+  "event_year_out_of_range:26:1936"
+ ],
+ "col1934-L57433.v": [
+  "chronology_inversions:3"
+ ],
+ "col1934-L57949.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L58420.v": [
+  "no_events"
+ ],
+ "col1948-L32429.v": [
+  "no_events"
+ ],
+ "col1939-L66495.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L59050.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L59165.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L59552.v": [
+  "event_before_age_13"
+ ],
+ "col1934-L59612.v": [
+  "event_year_out_of_range:11:1938"
+ ],
+ "col1934-L60064.v": [
+  "event_year_out_of_range:1:1941"
+ ],
+ "col1939-L67773.v": [
+  "no_events"
+ ],
+ "col1934-L61214.v": [
+  "event_year_out_of_range:0:1943"
+ ],
+ "col1934-L61580.v": [
+  "event_year_out_of_range:9:1940"
+ ],
+ "col1934-L62058.v": [
+  "event_year_out_of_range:7:1937"
+ ],
+ "col1934-L63794.v": [
+  "chronology_inversions:3"
+ ],
+ "dol1935-L57313.v": [
+  "no_events"
+ ],
+ "col1936-L60104.v": [
+  "chronology_inversions:4"
+ ],
+ "col1936-L61072.v": [
+  "no_events"
+ ],
+ "col1951-L38480.v": [
+  "chronology_inversions:3"
+ ],
+ "col1948-L33323.v": [
+  "no_events"
+ ],
+ "col1936-L62592.v": [
+  "event_before_age_13"
+ ],
+ "dol1935-L61609.v": [
+  "event_before_age_13"
+ ],
+ "col1936-L64936.v": [
+  "no_events"
+ ],
+ "col1937-L65573.v": [
+  "chronology_inversions:3"
+ ],
+ "col1937-L59219.v": [
+  "chronology_inversions:3",
+  "event_before_age_13"
+ ],
+ "col1937-L59569.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L59952.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L60112.v": [
+  "event_year_out_of_range:4:1939"
+ ],
+ "col1937-L60577.v": [
+  "event_before_age_13"
+ ],
+ "col1950-L35952.v": [
+  "chronology_inversions:3"
+ ],
+ "col1937-L61869.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L64091.v": [
+  "no_events"
+ ],
+ "col1937-L64310.v": [
+  "no_events"
+ ],
+ "col1937-L64672.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L64954.v": [
+  "chronology_inversions:3"
+ ],
+ "col1939-L70844.v": [
+  "event_before_age_13"
+ ],
+ "col1937-L65925.v": [
+  "no_events"
+ ],
+ "col1953-L16461.v": [
+  "chronology_inversions:3"
+ ],
+ "col1939-L65467.v": [
+  "event_before_age_13"
+ ],
+ "col1939-L69816.v": [
+  "no_events"
+ ],
+ "col1939-L70612.v": [
+  "event_before_age_13"
+ ],
+ "col1939-L70881.v": [
+  "event_year_out_of_range:0:1948"
+ ],
+ "col1950-L40277.v": [
+  "chronology_inversions:3"
+ ],
+ "col1940-L63531.v": [
+  "no_surname"
+ ],
+ "col1940-L64421.v": [
+  "chronology_inversions:3"
+ ],
+ "col1940-L68900.v": [
+  "event_before_age_13"
+ ],
+ "col1948-L37082.v": [
+  "no_events"
+ ],
+ "col1948-L37103.v": [
+  "no_events"
+ ],
+ "col1948-L30643.v": [
+  "no_events"
+ ],
+ "col1948-L30951.v": [
+  "no_events"
+ ],
+ "col1948-L31255.v": [
+  "no_events"
+ ],
+ "col1948-L33062.v": [
+  "no_events"
+ ],
+ "col1948-L34088.v": [
+  "no_events"
+ ],
+ "col1948-L34166.v": [
+  "event_before_age_13"
+ ],
+ "col1948-L34681.v": [
+  "no_events"
+ ],
+ "col1948-L35046.v": [
+  "no_events"
+ ],
+ "col1948-L35521.v": [
+  "no_events"
+ ],
+ "col1951-L43787.v": [
+  "no_events"
+ ],
+ "col1950-L40966.v": [
+  "chronology_inversions:4"
+ ],
+ "col1948-L37088.v": [
+  "no_events"
+ ],
+ "col1949-L32569.v": [
+  "event_before_age_13"
+ ],
+ "col1956-L22277.v": [
+  "no_events"
+ ],
+ "col1950-L37671.v": [
+  "chronology_inversions:3"
+ ],
+ "col1953-L18321.v": [
+  "event_year_out_of_range:5:1975"
+ ],
+ "col1953-L18569.v": [
+  "event_before_age_13"
+ ],
+ "col1957-L28566.v": [
+  "event_before_age_13"
+ ],
+ "col1953-L19403.v": [
+  "event_before_age_13"
+ ],
+ "col1954-L20391.v": [
+  "chronology_inversions:3"
+ ],
+ "col1959-L21496.v": [
+  "chronology_inversions:3"
+ ],
+ "col1962-L21247.v": [
+  "event_before_age_13"
+ ],
+ "col1961-L21069.v": [
+  "event_before_age_13"
+ ],
+ "col1961-L22830.v": [
+  "event_before_age_13"
+ ],
+ "col1962-L21104.v": [
+  "event_before_age_13"
+ ],
+ "col1966-L14971.v": [
+  "event_before_age_13"
+ ],
+ "col1966-L13993.v": [
+  "event_before_age_13"
+ ],
+ "dol1935-L58192.v": [
+  "event_year_out_of_range:0:1937"
+ ]
+}

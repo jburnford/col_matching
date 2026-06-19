@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q945390",
+  "persons": [
+    {
+      "bio_id": "stout_robert_b1844",
+      "stint_ids": ["Stout, Robert___New Zealand___1900"],
+      "confidence": "certain",
+      "arguments_against": "The dossier raises the single-initial namesake warning, but the merge does not rest on the name: the Chief Justiceship of New Zealand is a unique office held by one person at a time; the biography dates his tenure 'chief justice of N.Z., 1899-1926', and every one of the stint's fifteen records (1900-1922) is 'Chief Justice' in the Judicial department, wholly contained in that window; every record carries K.C.M.G., matching the biography's K.C.M.G. (1886). A same-name relative (e.g. a son — Stout had sons in NZ law) could not simultaneously be Chief Justice, and only 2 Stouts exist in the entire staff-list corpus. The only way this fails is if the biography's own chief-justiceship dates are wrong, for which there is no indication across 27 editions.",
+      "evidence_cited": [
+        {"stint_id": "Stout, Robert___New Zealand___1900", "year": 1900, "fact": "Chief Justice"},
+        {"stint_id": "Stout, Robert___New Zealand___1900", "year": 1900, "fact": "K.C.M.G."},
+        {"stint_id": "Stout, Robert___New Zealand___1900", "year": 1922, "fact": "Chief Justice"}
+      ],
+      "would_overturn": "Evidence that a different Robert Stout held the New Zealand Chief Justiceship during 1900-1922, contradicting the biography's stated 1899-1926 tenure."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "All deterministic checks pass, position_sim at 100, and 15 strict edition co-occurrences. Unique judicial office with exact tenure containment makes this one of the strongest possible matches."
+}

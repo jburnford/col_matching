@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q28843184",
+  "persons": [
+    {
+      "bio_id": "popham_henry-bradshaw_b1881",
+      "stint_ids": ["Popham, Henry B___Windward Islands___1939"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypotheses: (1) the other Popham biography (or one of the 5 Popham officials) is the real governor; (2) the position_sim FAIL indicates a different office; (3) the stint's nominal extension to 1950 belongs to someone else. Against (1): the stint is a knighted 'Sir Henry B. Popham, K.C.M.G., M.B.E.' as Governor and C-in-C of the Windward Islands in 1939 — the biography records exactly 'GOV. AND COMMR.-IN-CH., WINDWARD IS., 1937', K.C.M.G. (1938) and M.B.E. (1918), with matching forename 'Henry B[radshaw]'; no second Popham could simultaneously hold this unique office with the same forename and honours. Against (2): the FAIL is purely abbreviation-driven; the offices are verbatim identical in meaning. Against (3): the only year-by-year record shown is 1939, squarely within his tenure beginning 1937; even if a 1950 edition line is a stale or retiree listing it does not create a rival identity for the stint.",
+      "evidence_cited": [
+        {"stint_id": "Popham, Henry B___Windward Islands___1939", "year": 1939, "fact": "GOV. AND COMMR.-IN-CH., WINDWARD IS., 1937"},
+        {"stint_id": "Popham, Henry B___Windward Islands___1939", "year": 1939, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Popham, Henry B___Windward Islands___1939", "year": 1939, "fact": "K.C.M.G., M.B.E."}
+      ],
+      "would_overturn": "Evidence of a second Sir Henry B. Popham, K.C.M.G., or a record showing the Windward Islands governorship in 1939 was held by a different person while this subject served elsewhere."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "position_sim FAIL is an abbreviation artifact ('GOV. AND COMMR.-IN-CH.' vs spelled-out office). Honours K.C.M.G. (1938) + M.B.E. (1918) both appear on the 1939 staff-list line. The stint's stated range extends to a 1950 edition but only the 1939 record is shown; reviewer may wish to confirm the 1950 listing is the same person or a stale entry, though it does not affect the 1939 identification."
+}

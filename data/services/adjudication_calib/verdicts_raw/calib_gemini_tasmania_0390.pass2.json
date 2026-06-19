@@ -1,0 +1,29 @@
+{
+ "case_id": "calib_gemini_tasmania_0390",
+ "persons": [
+  {
+   "bio_id": "israel_john-wm_b1850",
+   "stint_ids": [
+    "Israel, J. W___Tasmania___1888"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Tenure overlap failed on mechanics. But initials J.W. = 'John Wm', colony Tasmania, birth 1850 (age 38 in 1888), and the audit-office progression (Chief Clerk -> Deputy Auditor -> Auditor-General of Tasmania) matches the entry exactly. The same person.",
+   "evidence_cited": [
+    {
+     "stint_id": "Israel, J. W___Tasmania___1888",
+     "year": 1896,
+     "fact": "Auditor-General"
+    },
+    {
+     "stint_id": "Israel, J. W___Tasmania___1888",
+     "year": 1888,
+     "fact": "Chief Clerk"
+    }
+   ],
+   "would_overturn": "A second same-surname person in the same colony and years holding the same office, or a printed death/birth date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "pilot hand-adjudication (Claude Code, in-session)"
+}

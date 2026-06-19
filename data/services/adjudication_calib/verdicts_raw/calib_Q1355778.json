@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q1355778",
+  "persons": [
+    {
+      "bio_id": "turnbull_roland_b1905",
+      "stint_ids": ["Turnbull, Roland___North Borneo___1954"],
+      "confidence": "certain",
+      "arguments_against": "The case is flagged for the single-initial trap (31 Turnbulls in the staff lists), and the 1954-55 rows print 'R. E. Turnbull' with a middle initial E that the bio (forename 'Roland' only) cannot confirm — so one could posit a different R. E. Turnbull as governor. That hypothesis collapses on the joint evidence: Governor and Commander-in-Chief of North Borneo is a unique office; the bio prints 'gov. and c.-in-c., N. Borneo, 1954-60' and the stint occupies exactly 1954-1957 of that span; the same chain switches to 'Sir Roland Turnbull' in 1956, confirming the forename; and the honours track the bio's C.M.G. (1946) / K.C.M.G. (1956) perfectly — C.M.G. in the 1954-55 rows, K.C.M.G. plus 'Sir' from 1956, the precise award year. A namesake governor would require two Roland/R. E. Turnbulls holding the same unique post in the same years with the same honour transition. The position_sim miss (59 vs bar 60) is a string-abbreviation artifact, not a substantive disagreement.",
+      "evidence_cited": [
+        {"stint_id": "Turnbull, Roland___North Borneo___1954", "year": 1954, "fact": "gov. and c.-in-c., N. Borneo, 1954-60"},
+        {"stint_id": "Turnbull, Roland___North Borneo___1954", "year": 1956, "fact": "Sir Roland Turnbull"},
+        {"stint_id": "Turnbull, Roland___North Borneo___1954", "year": 1956, "fact": "K.C.M.G. (1956)"},
+        {"stint_id": "Turnbull, Roland___North Borneo___1954", "year": 1954, "fact": "Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "Evidence that the 1954-55 'R. E. Turnbull' governor was a different person from the 1956-57 'Sir Roland Turnbull' (i.e. a mid-term succession the bio's 1954-60 tenure contradicts), or any record of a second Roland Turnbull in Borneo service."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique office, tenure subset of the bio's printed 1954-60, forename confirmed in 1956-57 rows, and the C.M.G.-to-K.C.M.G. transition lands exactly on the bio's 1956 award year. The 'E' middle initial in 1954-55 is additional detail (Roland Evelyn Turnbull) rather than a conflict, since the same chain resolves to 'Sir Roland' upon knighthood."
+}

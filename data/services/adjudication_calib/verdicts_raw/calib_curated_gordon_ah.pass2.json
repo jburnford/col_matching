@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_curated_gordon_ah",
+  "persons": [
+    {
+      "bio_id": "gordon_arthur-hamilton_e1852",
+      "stint_ids": ["Gordon, Arthur Hamilton___Fiji___1877", "Gordon, Arthur Hamilton___Ceylon___1886"],
+      "confidence": "certain",
+      "arguments_against": "Gordon is the commonest surname in this corpus (117 staff-list officials, 47 biographies), so the case for a mistake is a second Arthur Hamilton Gordon. It fails on every dimension. Fiji stint: the biography reads 'governor of the new colony of Fiji, Jan., 1876' and the staff list shows Governor and Commander-in-Chief 1877-1880; the courtesy style matches ('The Hon. Sir Arthur Hamilton Gordon' against the bio's 'HON. SIR ARTHUR HAMILTON'); the honours upgrade in the staff list from K.C.M.G. (1877, 1878) to G.C.M.G. (1879 onward) exactly tracks the bio's K.C.M.G. (1871) and G.C.M.G. (1878); and the stint's final 1883 row, 'Honorary Commissioner for the Western Pacific', echoes the bio's 'high commissioner for the Western Pacific, 1877'. Ceylon stint: the bio ends 'governor of Ceylon, 1883' and the staff list shows Sir Arthur Hamilton Gordon, G.C.M.G., as Governor from 1886 through 1889-90 — the same unique office, same full double forename, same G.C.M.G. Both governorships are sole-occupant posts; a namesake would have to hold the identical full name, identical honours with identical award sequence, and the same two governorships. No live counter-hypothesis remains.",
+      "evidence_cited": [
+        {"stint_id": "Gordon, Arthur Hamilton___Fiji___1877", "year": 1877, "fact": "governor of the new colony of Fiji, Jan., 1876"},
+        {"stint_id": "Gordon, Arthur Hamilton___Fiji___1877", "year": 1879, "fact": "G.C.M.G. (1878)"},
+        {"stint_id": "Gordon, Arthur Hamilton___Fiji___1877", "year": 1883, "fact": "high commissioner for the Western Pacific, 1877"},
+        {"stint_id": "Gordon, Arthur Hamilton___Ceylon___1886", "year": 1886, "fact": "governor of Ceylon, 1883"}
+      ],
+      "would_overturn": "Evidence of a second Sir Arthur Hamilton Gordon, G.C.M.G., in colonial service in the 1870s-1880s, or gazette records naming different governors of Fiji 1877-1880 or Ceylon 1886-1890."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The G.C.M.G. switch between the 1878 and 1879 Fiji staff lists is a precise, independent corroboration of the bio's 1878 award. The gap between the bio's Ceylon appointment (1883) and the stint's first record (1886) reflects edition coverage, not a tenure conflict — the bio appears in the 1883 edition already naming him governor of Ceylon."
+}

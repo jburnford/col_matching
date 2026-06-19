@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_fiji_0141",
+  "persons": [
+    {
+      "bio_id": "mccaig_devon-francis_b1895",
+      "stint_ids": ["McCaig, D. F___Fiji___1913", "McCaig, D. F___Fiji___1950"],
+      "confidence": "certain",
+      "arguments_against": "There are 3 McCaigs in the staff lists, so a relative could in principle hold one of these posts, and the earliest records (1913-15) are printed with a single initial 'D. McCaig'. This fails because the bio describes one unusual two-phase career and BOTH stints reconstruct it. The bio: 'clk., Fiji, 1912; Post-mstr., 1929; regraded postal clk., 1938; supt. prisons, 1947'. The 1913 stint shows the postal half exactly — Postal Department clerk from 1913 rising to Postmaster by 1930. The 1950 stint shows the prisons half — Superintendent of Prisons 1950-56, matching 'supt. prisons, 1947', with 6 editions co-occurring. The combination of a postal career THEN a prison superintendency is a unique signature; a relative would not replicate both halves under the same D. F. initials. The single-initial early records simply expand to D. F. by 1917 within the same continuous Postal Department run.",
+      "evidence_cited": [
+        {"stint_id": "McCaig, D. F___Fiji___1913", "year": 1930, "fact": "Postmaster"},
+        {"stint_id": "McCaig, D. F___Fiji___1913", "year": 1913, "fact": "clk., Fiji, 1912; Post-mstr., 1929"},
+        {"stint_id": "McCaig, D. F___Fiji___1950", "year": 1950, "fact": "Superintendent of Prisons"},
+        {"stint_id": "McCaig, D. F___Fiji___1950", "year": 1950, "fact": "supt. prisons, 1947"}
+      ],
+      "would_overturn": "Evidence of a second D. F. McCaig in the Fiji postal service or prison service, splitting the two phases between two men."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two stints jointly reconstruct the bio's unusual postal-then-prisons career; rare surname (3 in lists), two-initial match, and the unique Superintendent of Prisons post (6 editions) make both certain."
+}

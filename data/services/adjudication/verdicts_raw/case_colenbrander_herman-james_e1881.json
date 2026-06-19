@@ -1,0 +1,12 @@
+{
+  "case_id": "case_colenbrander_herman-james_e1881",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Colenbrander, H. J___Natal___1905",
+      "reason": "Only initials and colony agree; every substantive deterministic dimension fails (no tenure overlap, no position comparison possible, no shared honours, no edition co-occurrence). The biography is a single 1888-edition entry for a junior 'Clerk for Immigration purposes' in 1881, with a 24-year undocumented gap before this 1905-1910 Magistrate stint -- 'clerk' is exactly the generic junior title the constraints flag as weak. Decisively, the dossier states the stint is also gate-compatible with a second biography outside this case, 'colenbrander_herman-james_b1863' -- an identically named Herman James Colenbrander (plausibly the same man, or a same-name relative). With two gate-compatible biographies sharing the full name and 4 biographies with this surname in the corpus, assigning the stint to e1881 risks a false merge that would be invisible later. No independent strong dimension (specific position match, honour, or multi-edition co-occurrence) supports the link, so the stint stays unassigned."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Likely resolution lies outside this case: 'colenbrander_herman-james_e1881' (no printed birth year, single 1888 entry) and the external 'colenbrander_herman-james_b1863' may well be the same person -- a man born 1863 would be ~18 when appointed clerk in Nov 1881 and ~42 as a Magistrate in 1905, a coherent single career. A reviewer should check whether e1881 and b1863 are duplicate biographies; if so, the stint probably belongs to that merged person. As framed, with b1863 'already linked elsewhere or filtered' and unavailable for joint adjudication here, the conservative verdict is to leave the stint unlinked rather than attach it to e1881 on initials + colony alone."
+}

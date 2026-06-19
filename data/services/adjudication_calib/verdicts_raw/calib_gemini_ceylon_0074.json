@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0074",
+  "persons": [
+    {
+      "bio_id": "watt_j_e1866",
+      "stint_ids": ["Watt, J___Ceylon___1877"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: this is a single-initial biography ('WATT, J.') with 39 Watt officials and 20 Watt biographies in the corpus, so the staff-list 'J. Watt' could be a different man — for instance a younger relative or a successor chaplain — and the stint runs to 1900, twelve years after the biography stops being printed (1888), so the later rows could even belong to a successor folded into one stint. This largely fails because the dimensions agree on more than a generic title: the biography is a Presbyterian colonial chaplain ('Colonial chaplain of the Scot's Kirk, Kandy, Ceylon, 1866'), and the staff list shows J. Watt as 'Colonial Chaplain' in Ceylon's Ecclesiastical Department, listed in 1888 with the title 'Rev.' under the 'Presbyterian Church' heading — denomination, office, and colony all match, and the Presbyterian colonial chaplaincy establishment in Ceylon was very small. The biography appears in editions 1883, 1886, 1888, precisely the years the staff list carries this chaplain. The surviving residual risk (single initial; possible undetected succession by another Rev. J. Watt within the 1877-1900 stint) keeps this at probable rather than certain.",
+      "evidence_cited": [
+        {"stint_id": "Watt, J___Ceylon___1877", "year": 1877, "fact": "Colonial Chaplain"},
+        {"stint_id": "Watt, J___Ceylon___1877", "year": 1888, "fact": "Presbyterian Church"},
+        {"stint_id": "Watt, J___Ceylon___1877", "year": 1888, "fact": "Rev."}
+      ],
+      "would_overturn": "Evidence of a second Rev. J. Watt in the Ceylon Presbyterian chaplaincy in 1877-1900, or a record that the Scot's Kirk chaplain of 1866 died or left Ceylon before 1877."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial namesake trap acknowledged. The merge rests on denomination + office + colony agreement (Presbyterian colonial chaplain, Ceylon) concurrent with the biography's edition span, not on tenure overlap alone. Routed to human review per 'probable' semantics."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_tasmania_0385",
+  "persons": [
+    {
+      "bio_id": "ward_w-f_e1876",
+      "stint_ids": ["Ward, William F___Tasmania___1888"],
+      "confidence": "certain",
+      "arguments_against": "Ward is a very common surname (112 officials, 43 biographies), and the stint's first listing (1888) postdates the bio's appointment (1882) by six years, so one could posit a different W. F. Ward succeeding to the analyst's office. This fails: the post is the government Analyst of Tasmania — a single specialist scientific office, not a generic junior title — and the bio (trained at the Royal School of Mines, 'Analyst, &c., to the govt. of Tasmania, 1882') matches it exactly in colony, office, and both initials; the bio and stint co-occur in the same editions for nearly three decades (1889-1917) with position agreement at 100, and the bio kept being reprinted as the Tasmanian government analyst across exactly the years the staff list carries W. F. Ward in the Analyst's Office. A same-initialled successor whose predecessor's unchanged biography continued in print for 30 years is not a realistic hypothesis; the 1888 stint start reflects staff-list coverage, not appointment.",
+      "evidence_cited": [
+        {"stint_id": "Ward, William F___Tasmania___1888", "year": 1889, "fact": "Analyst, &c., to the govt. of Tasmania, 1882"},
+        {"stint_id": "Ward, William F___Tasmania___1888", "year": 1894, "fact": "W. F. Ward | Analyst | Analyst's Office"},
+        {"stint_id": "Ward, William F___Tasmania___1888", "year": 1889, "fact": "Associate Royal School of Mines, Lond. (1876)"}
+      ],
+      "would_overturn": "Evidence of a second W. F. Ward in Tasmania's scientific service, or a record showing the 1882 appointee left the analyst's post before 1888 while the staff-list Ward continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two printed bio versions (col1889 and col1918) are the same entry, the latter truncated by OCR; they are already grouped under one bio_id, so no duplicate_bio_groups entry is needed."
+}

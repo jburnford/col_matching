@@ -1,0 +1,12 @@
+{
+  "case_id": "calib_Q107338322",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Pavlides, Stelios___Cyprus___1936",
+      "reason": "Forename conflict and profession conflict. The biography is PAVLIDES, Spyros, a physician ('hon. radiologist, Cyp., 1939; med. offr. spec. (radiologist), 1949'). The stint is keyed to 'Pavlides, Stelios', whose records 1936-1952 show a legal career: 'Crown Counsel' (1936, 1939) then 'Attorney-General' (1946-1952, C.M.G.) - a different first name (Stelios vs Spyros) and an entirely different profession. The only deterministic position match (best 85: 'hon. radiologist' ~ 'Medical Officer Specialist (Radiologist)') comes from a single 1951 row printed as 'S. G. Pavlides' in the Research department, which is almost certainly a record of Spyros mis-clustered into the Stelios stint by the shared initial 'S.' (the namesake trap flagged in the dossier). The stint as a unit belongs to Stelios the lawyer, not Spyros the radiologist; assigning it would merge the Attorney-General's career into the doctor's record. No shared honour (Stelios has C.M.G.; the bio lists none). Left unassigned per the no-false-merges directive."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The stint entity appears contaminated: it bundles Stelios Pavlides (Crown Counsel/Attorney-General, 1936-1952) with one 1951 'S. G. Pavlides, Medical Officer Specialist (Radiologist)' row that matches the Spyros Pavlides biography ('med. offr. spec. (radiologist), 1949'). Recommend splitting the 1951 radiologist row out of this stint upstream; that row alone, if separated, would be a strong match to bio pavlides_spyros_b1901. As constituted, the stint cannot be assigned to the Spyros biography."
+}

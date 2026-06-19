@@ -1,0 +1,21 @@
+{
+  "case_id": "case_craw_james_e1863",
+  "persons": [
+    {
+      "bio_id": "craw_james_e1863",
+      "stint_ids": ["Craw, J___Natal___1879"],
+      "confidence": "probable",
+      "arguments_against": "The strongest case against: the biography's last printed event is 1866, and the stint begins 1879 — a 13-year gap. A son or other relative named J. Craw could have succeeded James in the same Natal office, and colonial offices did pass between kin; the staff list prints only the initial 'J', so it cannot distinguish James from, say, John. The place evidence is also weak in isolation: the 1866 event inherits 'Natal' from the previous clause rather than stating it. Why this fails: there is no gap in the post itself to suggest succession — the bio puts James as 'first clerk in the registry of deeds and stamp office' from 1866, and the staff list shows a J. Craw holding exactly that rank ('1st Clerk') in exactly that department ('Registrar of Deeds') in the same colony continuously through 1879-1883, the natural continuation of a single tenure. The corpus contains exactly one Craw official and one Craw biography, so no second candidate exists; and the 1883 edition prints the biography and the staff-list entry concurrently, which fits one living serving officer. The succession hypothesis requires inventing an undocumented second Craw who happens to hold the identical specific post; nothing in the dossier supports him. Still, because the link rests on a single-initial staff name plus position continuity across a 13-year listing gap, a realistic (if unevidenced) relative-successor hypothesis survives, so this stops short of certain.",
+      "evidence_cited": [
+        {"stint_id": "Craw, J___Natal___1879", "year": 1866, "fact": "first clerk in the registry of deeds and stamp office of that colony, 1866"},
+        {"stint_id": "Craw, J___Natal___1879", "year": 1879, "fact": "1st Clerk"},
+        {"stint_id": "Craw, J___Natal___1879", "year": 1879, "fact": "Registrar of Deeds Department"},
+        {"stint_id": "Craw, J___Natal___1879", "year": 1883, "fact": "1 official(s) with this surname in the graph's staff lists"}
+      ],
+      "would_overturn": "Evidence of a second Craw in Natal (e.g. a staff list or biography showing two contemporaneous Craws, a death/retirement notice for James Craw before 1879, or a forename for the 1879-1883 clerk other than James) would reverse this assignment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic edition_cooccurrence check reports FAIL, but the dossier itself shows the biography in editions [1883, 1886] and the stint in editions [1879, 1880, 1883] — 1883 is shared, so the mechanical check appears wrong on this point; the 1883 co-occurrence mildly supports the link. Position match is highly specific: 'first clerk in the registry of deeds' (bio, 1866) vs '1st Clerk' in 'Registrar of Deeds' (staff list), same colony, and the surname is unique in the corpus. Held at probable rather than certain solely because the staff list carries a bare initial and there is a 13-year gap between the bio's last event and the stint's first listing."
+}

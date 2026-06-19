@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q7788737",
+  "persons": [
+    {
+      "bio_id": "cubitt_thomas-astley_b1871",
+      "stint_ids": ["Cubitt, T. A___Bermuda___1931"],
+      "confidence": "certain",
+      "arguments_against": "The stint name is initials-only ('T. A. Cubitt'), so a same-initial relative is the hypothesis to kill. It fails on every independent dimension: (1) the Governorship and Commander-in-Chiefship of Bermuda is a unique office, and the biography states 'gov. and commdr.-in-ch., Bermuda, 1931' exactly when the stint begins; (2) the stint's honour string is C.B., C.M.G., D.S.O. in 1931 becoming K.C.B., C.M.G., D.S.O. by 1932 — precisely the biography's honour set (D.S.O. 1903, C.M.G. 1916, C.B. 1919, K.C.B. 1931), including the in-window upgrade to K.C.B.; (3) the rank Lt.-Gen./General Commanding matches a career major-general promoted on appointment; (4) four edition-years co-occur with position agreement. A second T. A. Cubitt holding the same unique governorship with the identical four-honour set is not a realistic possibility.",
+      "evidence_cited": [
+        {"stint_id": "Cubitt, T. A___Bermuda___1931", "year": 1931, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Cubitt, T. A___Bermuda___1931", "year": 1931, "fact": "C.B., C.M.G., D.S.O."},
+        {"stint_id": "Cubitt, T. A___Bermuda___1931", "year": 1932, "fact": "K.C.B., C.M.G., D.S.O."}
+      ],
+      "would_overturn": "Evidence that a different T. A. Cubitt governed Bermuda from 1931, which would contradict the biography's own final career line."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "All deterministic checks pass including strict edition co-occurrence. The honour-state transition (C.B. to K.C.B. between the 1931 and 1932 staff lists) independently corroborates the biography's K.C.B. (1931) date."
+}

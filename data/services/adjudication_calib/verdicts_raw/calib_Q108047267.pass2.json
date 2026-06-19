@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q108047267",
+  "persons": [
+    {
+      "bio_id": "dreschfield_ralph-leonard-emmanuel_b1911",
+      "stint_ids": ["Dreschfield, R. L. E___Uganda___1952"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the place_inherited check FAILED - every supporting bio event inherits 'Uganda' from the opening 'res. mag., Uga., 1938' clause rather than naming it in print - so one could argue the attorney-generalship of 1951-63 was somewhere else, and the staff-list man is a namesake (there is one other Dreschfield key in the lists). But the bio's closing tag '(Uga. Govt. service.)' explicitly anchors the whole career to Uganda, and the inheritance reading (resident magistrate, then crown counsel, solicitor-general, attorney-general, all in Uganda) is the natural reading of a single-territory career entry. The match itself is multi-dimensional: all three distinctive initials R. L. E. agree; the unique office (Attorney-General) and tenure agree to the year (bio 1951-63 vs listings 1952-62); and the shared honour C.M.G. (bio: 1957) appears in the staff list from 1959. A namesake with identical triple initials holding the identical unique office for the identical decade, with the identical honour, is not a realistic hypothesis; the surname is also very rare (2 officials, 1 biography). The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Dreschfield, R. L. E___Uganda___1952", "year": 1951, "fact": "atty.-gen., 1951-63"},
+        {"stint_id": "Dreschfield, R. L. E___Uganda___1952", "year": 1952, "fact": "Attorney-General"},
+        {"stint_id": "Dreschfield, R. L. E___Uganda___1952", "year": 1959, "fact": "C.M.G."},
+        {"stint_id": "Dreschfield, R. L. E___Uganda___1952", "year": 1963, "fact": "(Uga. Govt. service.)"}
+      ],
+      "would_overturn": "Evidence that the bio's attorney-generalship was in a different territory than Uganda (contradicting the '(Uga. Govt. service.)' tag), or discovery of a second R. L. E. Dreschfield in East African legal service."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "All deterministic checks pass except place_inherited, which is an artifact of the bio's compressed single-territory phrasing; the printed '(Uga. Govt. service.)' tag resolves the place beyond doubt. Tenure (1951-63 vs 1952-62 listings), triple initials, unique office, and the C.M.G. (1957, appearing in lists 1959+) give four independent agreeing dimensions. The 1962 'Commissioner on Special Duty' record is a late-career redesignation within the same establishment, consistent with the bio's service ending 1963."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0018",
+  "persons": [
+    {
+      "bio_id": "bonser_j-w_b1847",
+      "stint_ids": ["Bonser, J. W___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the bio carries only initials ('J. W.'), and the corpus has a second Bonser in the staff lists, so the stint could in principle belong to that other Bonser — perhaps a relative who also reached the bench. This fails decisively. Chief Justice of Ceylon is a unique office held by one person at a time; the bio says 'ch. justice, Ceylon, 1893' and the staff list shows J. W. Bonser as Chief Justice continuously 1894-1900, the exact years the bio holder occupied the post. The stint's printed style 'Sir J. W. Bonser' from 1894 matches the bio's 'KT. BACH. (1894)' knighthood date precisely — an independent corroborating dimension beyond name and office. A second J. W. Bonser cannot have been Chief Justice of Ceylon in the same years. The single-initial caution does not apply because the link rests on a specific unique-office match with date and honour-style agreement, not on tenure overlap alone.",
+      "evidence_cited": [
+        {"stint_id": "Bonser, J. W___Ceylon___1894", "year": 1894, "fact": "Chief Justice"},
+        {"stint_id": "Bonser, J. W___Ceylon___1894", "year": 1894, "fact": "ch. justice, Ceylon, 1893"},
+        {"stint_id": "Bonser, J. W___Ceylon___1894", "year": 1894, "fact": "Sir J. W. Bonser"},
+        {"stint_id": "Bonser, J. W___Ceylon___1894", "year": 1894, "fact": "KT. BACH. (1894)"}
+      ],
+      "would_overturn": "Documentation that a different person was Chief Justice of Ceylon in 1894-1900, or evidence that the staff-list rows conflate two Bonsers (e.g. a second J. W. Bonser appearing simultaneously in the Ceylon judicial establishment)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Stint ends by 1900, consistent with the bio's elevation to the Judicial Committee of the Privy Council in 1901 ('mem. jud. comt. depute, priv. coun., 1901')."
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_newfoundland_0277",
+  "persons": [
+    {
+      "bio_id": "nevill_j-t_e1874",
+      "stint_ids": ["Nevill, J. T___Newfoundland___1877"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 12 officials share the surname Nevill in the staff lists, so a same-name relative could conceivably hold a Newfoundland post; and the bio appears in only one edition (1886), so the link rests on one printed entry. This fails because the office is a unique compound title — 'Inspector of lighthouses and superintendent of public buildings' — which matches the staff-list position verbatim, in the same colony, with both initials ('J. T.') agreeing exactly, the bio's appointment date (Jan. 1874) preceding and consistent with the stint's first listing (1877), and a same-edition (1886) co-occurrence at position similarity 100. A colony has exactly one Inspector of Lighthouses and Superintendent of Public Buildings at a time; no second J. T. Nevill exists to contest it.",
+      "evidence_cited": [
+        {"stint_id": "Nevill, J. T___Newfoundland___1877", "year": 1886, "fact": "Inspector of lighthouses and superintendent of public buildings, Newfoundland, Jan., 1874"},
+        {"stint_id": "Nevill, J. T___Newfoundland___1877", "year": 1886, "fact": "J. T. Nevill | Inspector of Lighthouses and Superintendent of Public Buildings"}
+      ],
+      "would_overturn": "Discovery of a second J. T. Nevill in Newfoundland service (e.g. a son succeeding the father in the same office between 1877 and 1897), or evidence the biography's subject died or left the colony before 1877."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Exact two-initial agreement plus a verbatim match on a unique compound senior office in the same colony, with 1886 edition co-occurrence; this is as strong as a no-honours case gets."
+}

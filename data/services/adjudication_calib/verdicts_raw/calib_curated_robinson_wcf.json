@@ -1,0 +1,32 @@
+{
+  "case_id": "calib_curated_robinson_wcf",
+  "persons": [
+    {
+      "bio_id": "robinson_william-c-f_b1836",
+      "stint_ids": [
+        "Robinson, William Cleaver Francis___Straits Settlements___1878",
+        "Robinson, W. C. F___Western Australia___1890",
+        "Robinson, William C. F___Canada___1886"
+      ],
+      "confidence": "probable",
+      "arguments_against": "Two strong arguments against. (1) The biography record is itself a conflation of two different men: version col1883-L29281.v ('ROBINSON, Sir WILLIAM C. F., K.C.M.G. (1877). (C.M.G., 1873)' — private secretary to Sir Hercules Robinson, president of Montserrat 1862, Falklands 1866, Prince Edward Island 1870-73, Western Australia 1874 and 1880, Straits Settlements 1877, South Australia 1882) and versions col1883-L29279.v/col1898-L35635.v ('ROBINSON, SIR WILLIAM, K.C.M.G. (1883), (C.M.G., 1877)' — a Colonial Office clerk 1854-1873, then Bahamas, Windward Islands, Trinidad 1885, Hong Kong 1891, b. 1836, ret. 1898). These two entries coexist in the SAME 1883 edition with mutually exclusive careers for 1854-1873 and conflicting honour dates, so they are two persons wrongly merged under one bio_id; any stint assignment to this bio_id risks attaching records to the wrong component. (2) Robinson is the commonest surname in the corpus (136 officials, 56 bios). Why the assignments still stand, against the W. C. F. component specifically: the Straits stint prints the full name 'Sir William C. F. Robinson' as 'Governor and Commander-in-Chief' with K.C.M.G. in 1878, matching 'governor of the Straits Settlements, Aug., 1877' and 'K.C.M.G. (1877)' exactly on office, colony, date, and honour — and the other William was then governing the Bahamas, so the partition is clean. The Canada stint ('William C. F. Robinson', 'Lieutenant-Governor', department 'Lieutenant-Governors since entering the Dominion', K.C.M.G.) is a retrospective Dominion list matching 'governor of Prince Edward Island, 5th July, 1870, to Nov. 1873' — PEI entered the Dominion in 1873, during his term; the other William never served in Canada. The WA stint ('Sir W. C. F. Robinson', Governor and C-in-C, G.C.M.G., 1890-94) continues the W. C. F. career shape (WA governor in 1874 and again Jan. 1880; historically he held a third WA term 1890-95) while the other William was then governor of Hong Kong per his own entry ('gov. of Hong Kong, 1891'), excluding him. Confidence is capped at probable solely because the bio entity is conflated and must be split before these links are published.",
+      "evidence_cited": [
+        {"stint_id": "Robinson, William Cleaver Francis___Straits Settlements___1878", "year": 1878, "fact": "governor of the Straits Settlements, Aug., 1877"},
+        {"stint_id": "Robinson, William Cleaver Francis___Straits Settlements___1878", "year": 1878, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Robinson, William C. F___Canada___1886", "year": 1886, "fact": "governor of Prince Edward Island, 5th July, 1870, to Nov. 1873"},
+        {"stint_id": "Robinson, William C. F___Canada___1886", "year": 1888, "fact": "Lieutenant-Governors since entering the Dominion"},
+        {"stint_id": "Robinson, W. C. F___Western Australia___1890", "year": 1890, "fact": "governor of Western Australia, Jan., 1880"},
+        {"stint_id": "Robinson, W. C. F___Western Australia___1890", "year": 1890, "fact": "governor of Western Australia, 7th October, 1874"}
+      ],
+      "would_overturn": "Confirmation that the bio_id is canonically the OTHER William Robinson (b. 1836, Bahamas/Trinidad/Hong Kong) rather than William Cleaver Francis Robinson — in that case all three assignments are wrong and must be moved to a new bio entity; or evidence of a third W. C. F. Robinson holding any of these posts."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Robinson, W. C. F___Leeward Islands___1877",
+      "reason": "The only records (1879, 1880) carry no position, no honours, and a 'Narrative' department — likely a retrospective or narrative-section mention, not a current office. The W. C. F. component of the bio says only 'nominated governor-in-chief of the Leeward Islands, 1874' — a nomination he did not take up (he went to Western Australia in Oct. 1874), and during the listing span 1877-1883 he was demonstrably governor of the Straits Settlements and then Western Australia. A listing proves service currency only if the career was current; with empty record content and a conflicting concurrent career, this stays unlinked."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "IMPORTANT FOR REVIEWER: bio 'robinson_william-c-f_b1836' conflates two distinct contemporaries. Versions col1883-L29279.v and col1883-L29281.v are two separate entries printed in the same 1883 edition: (A) Sir William Robinson, b. 1836, C.M.G. 1877/K.C.M.G. 1883/G.C.M.G. 1897, Colonial Office clerk then governor of Bahamas, Windward Is., Trinidad, Hong Kong, ret. 1898; (B) Sir William Cleaver Francis Robinson, C.M.G. 1873/K.C.M.G. 1877, governor of Falklands, PEI, WA (x3), Straits Settlements, South Australia. The printed birth year 1836 and the header honours belong to (A); all four candidate stints belong to (B). The bio entity must be split; the three assignments above attach to component (B). Confidence deliberately capped at probable to force human review of the split."
+}

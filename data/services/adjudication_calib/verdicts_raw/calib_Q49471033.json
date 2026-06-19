@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q49471033",
+  "persons": [
+    {
+      "bio_id": "calder_james_b1898",
+      "stint_ids": ["Calder, J___North Borneo___1949"],
+      "confidence": "certain",
+      "arguments_against": "The stint is single-initial 'J. Calder' and Calder is common (14 officials, 9 biographies), so the live counter-hypotheses are (a) a different J. Calder in North Borneo, or (b) a successor in the same post after James Calder left. Against (a): Chief Secretary of North Borneo is a unique, senior single-occupant office, and the biography states 'ch. sec., N. Borneo, 1946' with 'O.A.G. periods, 1946-48' immediately before the stint window; the stint holder also carries C.M.G., the bio subject's honour, in every year 1949-1952. Against (b): a successor sharing surname, initial J, AND the C.M.G. in the identical unique post starting the very year the bio (printed in the same 1949-1951 editions) still describes James Calder as the incumbent chief secretary would be an extraordinary coincidence; the bio's continued appearance through 1951 with no successor-shaped career break supports continuity. The link rests on specific position+place agreement plus a shared honour, not on the name.",
+      "evidence_cited": [
+        {"stint_id": "Calder, J___North Borneo___1949", "year": 1949, "fact": "ch. sec., N. Borneo, 1946"},
+        {"stint_id": "Calder, J___North Borneo___1949", "year": 1949, "fact": "O.A.G. periods, 1946-48"},
+        {"stint_id": "Calder, J___North Borneo___1949", "year": 1949, "fact": "C.M.G."}
+      ],
+      "would_overturn": "Staff-list or external evidence that James Calder left North Borneo before 1949 and a different J. Calder, C.M.G., succeeded him as Chief Secretary; or a death/retirement date before 1949."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "position_sim FAIL is an abbreviation artifact ('ch. sec.' = 'Chief Secretary'). The O.A.G. (Officer Administering the Government) periods 1946-48 explain why the chief-secretary staff listing may only begin at 1949 in this stint segmentation. Strong independent dimensions per the single-initial rule: exact unique-position+colony match and shared C.M.G. across all four stint years."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_curated_macgregor_william",
+  "persons": [
+    {
+      "bio_id": "macgregor_william_b1847",
+      "stint_ids": [
+        "MacGregor, William___Newfoundland___1906",
+        "Macgregor, William___British New Guinea___1889"
+      ],
+      "confidence": "certain",
+      "arguments_against": "This is a single-initial bio ('William') over a very common surname (30 bios, 33 officials), so the namesake trap is acute: I must not merge on shared-colony/tenure alone. The defence against a namesake is that BOTH stints are unique top-of-colony posts the bio names explicitly, and each carries an independent corroborating marker beyond name. British New Guinea: the bio states 'admstr., Br. New Guinea, 1888'; the 1889-90 stint is 'Administrator' of British New Guinea with C.M.G. (bio holds C.M.G. 1881), and the 1890 entry reads 'Dr. (now Sir W.) Macgregor' -- the 'Dr.' matches this bio's distinctive medical training (M.B./M.D.) and 'now Sir' matches his K.C.M.G. of 1889. Newfoundland: the bio states 'gov., Newfoundland, 23rd July, 1904'; the 1906-09 stint is 'Sir William MacGregor, Governor' of Newfoundland whose honours upgrade from K.C.M.G./C.B. to G.C.M.G./C.B. in 1908 -- exactly tracking the bio's G.C.M.G. (1907). A second contemporaneous William MacGregor who is both a physician AND simultaneously Administrator of British New Guinea then Governor of Newfoundland, with this exact honour-upgrade timing, is not credible. The position_sim FAILs are mechanical (no coded placed-event to compare); the printed offices match the bio verbatim.",
+      "evidence_cited": [
+        {"stint_id": "Macgregor, William___British New Guinea___1889", "year": 1888, "fact": "admstr., Br. New Guinea, 1888"},
+        {"stint_id": "Macgregor, William___British New Guinea___1889", "year": 1890, "fact": "Dr. (now Sir W.) Macgregor | Administrator"},
+        {"stint_id": "MacGregor, William___Newfoundland___1906", "year": 1904, "fact": "gov., Newfoundland, 23rd July, 1904"},
+        {"stint_id": "MacGregor, William___Newfoundland___1906", "year": 1908, "fact": "Sir William MacGregor | Governor, Commander-in-Chief, and Vice-Admiral | G.C.M.G., C.B."}
+      ],
+      "would_overturn": "Evidence of a second physician named William MacGregor active in colonial governorships in this period, or that the British New Guinea / Newfoundland gubernatorial posts were held by a different William MacGregor than the one the bio names."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Sir William MacGregor, doctor-administrator. Single-initial bio over a common surname, so handled with care -- but both stints are unique colony-head posts the bio names explicitly, each with an independent corroborating signal: the 'Dr.'/'now Sir' marker (matching his medical training + 1889 knighthood) for British New Guinea, and the G.C.M.G. (1907) honour-upgrade timing for Newfoundland."
+}

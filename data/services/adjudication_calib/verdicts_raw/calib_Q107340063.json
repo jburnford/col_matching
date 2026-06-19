@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q107340063",
+  "persons": [
+    {
+      "bio_id": "morgan_hywel-glyn_b1899",
+      "stint_ids": ["Morgan, H. G. St. G___Nyasaland___1933"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the stint chain is keyed 'Morgan, H. G. St. G' — the extra 'St. G' suggests a man with initials H. G. St. G. (e.g. 'St. George'), which 'Hywel Glyn' does not supply, so this could be a different H. G. Morgan among the 85 Morgans in the staff lists. Why it fails: every year-by-year row actually prints plain 'H. G. Morgan', so the 'St. G' is an artifact of one fuller listing or OCR, not a stable contradiction; and the office is not generic — Assistant Attorney-General then Attorney-General of Nyasaland is a unique senior post held by one person at a time. The bio dates 'asst. atty.-gen., Nyasaland Prot., Mar., 1932' and 'atty.-gen., Aug., 1936' reproduce exactly the staff-list progression (Assistant Attorney-General 1933-1936 editions, Attorney-General from the 1937 edition, consistent with an Aug. 1936 promotion appearing in the next year's volume). A second H. G. Morgan simultaneously holding the same unique Nyasaland law offices on the same dates is not a realistic counter-hypothesis. Age (b. 1899, aged 34 at stint start) and 1948-edition confirmation ('K.C. (Nyasa. and N. Rhod.)') corroborate.",
+      "evidence_cited": [
+        {"stint_id": "Morgan, H. G. St. G___Nyasaland___1933", "year": 1933, "fact": "asst. atty.-gen., Nyasaland Prot., Mar., 1932"},
+        {"stint_id": "Morgan, H. G. St. G___Nyasaland___1933", "year": 1933, "fact": "Assistant Attorney-General"},
+        {"stint_id": "Morgan, H. G. St. G___Nyasaland___1933", "year": 1937, "fact": "atty.-gen., Aug., 1936"},
+        {"stint_id": "Morgan, H. G. St. G___Nyasaland___1933", "year": 1937, "fact": "Attorney-General"}
+      ],
+      "would_overturn": "Evidence of a contemporaneous H. G. St. G. Morgan in the Nyasaland legal department distinct from Hywel Glyn Morgan (e.g. a staff list printing both men in the same year, or a bio for an 'H. G. St. George Morgan'), or a record showing Hywel Glyn Morgan was elsewhere than Nyasaland in 1933-1940."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The chain key's 'St. G' does not appear in any of the printed year rows (all 'H. G. Morgan'); worth checking where the chain name came from, but it does not affect the identification: the promotion from Assistant Attorney-General to Attorney-General of Nyasaland between the 1936 and 1937 editions matches the bio's dated Aug. 1936 appointment exactly."
+}

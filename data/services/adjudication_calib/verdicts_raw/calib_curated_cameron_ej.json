@@ -1,0 +1,31 @@
+{
+  "case_id": "calib_curated_cameron_ej",
+  "persons": [
+    {
+      "bio_id": "cameron_edward-j_e1882",
+      "stint_ids": [
+        "Cameron, Edw. John___Windward Islands___1905",
+        "Cameron, Edward J___Gambia___1914",
+        "Cameron, Edward John___Windward Islands___1948"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Cameron is very common (68 officials, 33 bios), no birth year is printed, the Gambia stint fails the colony check outright, and the Windward stints run to 1950 — thirty years past his printed retirement ('ret., 1920.') — which on its face suggests a different, younger E. J. Cameron. This fails. Gambia: the bio's 'gov'r., Gomana, 28th Feb., 1914' is an OCR corruption of 'Gambia' — the surrounding clauses pin it ('assumed govt., 11th Apr., 1914' and 'ret., 1920' bracket the listing span 1914-1920 exactly), and the staff list's honours flip from C.M.G. (1914-15) to K.C.M.G. (1917-19) precisely tracks his K.C.M.G. (1916); no other E. J. Cameron governed the Gambia. Windward 1905: the records are his St. Vincent administratorship ('admstr., St. Vincent, May, 1901' — the combined offices 'Administrator of the Government, Colonial Secretary, Treasurer...' are St. Vincent's standing combination) then St. Lucia ('admstr., St. Lucia, Apr., 1909'; records 1914-15 read 'Administrator of St. Lucia'), with C.M.G. appearing from 1906, matching C.M.G. (1905). The post-1920 rows in that stint are explicitly retrospective rosters (departments read 'Administrators of St. Vincent since 1888', 'Administrators of St. Lucia, since 1900', 'ADMINISTRATORS SINCE 1900'), so the 1950 terminus does not imply service past retirement. Windward 1948 ('Edward John Cameron', Administrator, C.M.G., 1948/1950) is the same retrospective-roster phenomenon under a fuller name key — the 1950 row even lacks position and department — and a hypothetical second living administrator with the identical full name AND a C.M.G. would have his own biography entry; none exists in the case.",
+      "evidence_cited": [
+        {"stint_id": "Cameron, Edward J___Gambia___1914", "year": 1914, "fact": "assumed govt., 11th Apr., 1914"},
+        {"stint_id": "Cameron, Edward J___Gambia___1914", "year": 1920, "fact": "ret., 1920."},
+        {"stint_id": "Cameron, Edw. John___Windward Islands___1905", "year": 1905, "fact": "admstr., St. Vincent, May, 1901"},
+        {"stint_id": "Cameron, Edw. John___Windward Islands___1905", "year": 1915, "fact": "admstr., St. Lucia, Apr., 1909"},
+        {"stint_id": "Cameron, Edward John___Windward Islands___1948", "year": 1948, "fact": "Administrators of St. Vincent since 1888"}
+      ],
+      "would_overturn": "Evidence that 'Gomana' is a real territory rather than an OCR error for Gambia; or discovery of a second E. J. Cameron, C.M.G., serving as a Windward Islands administrator in the 1940s with his own service record."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Cameron, Edward J___Leeward Islands___1949",
+      "reason": "Two bare rows ('Commissioner', department 'Commissioners', no honours, 1949 and 1951). It is plausibly a retrospective roster of Commissioners of the Virgin Islands including this man (the bio has 'pres., Virgin Is., Feb., 1887', an office later retitled Commissioner), parallel to the retrospective Windward rosters. But unlike those rows it carries no C.M.G./K.C.M.G. annotation, no dates, and a title ('Commissioner') that differs from the bio's printed office ('pres.'), so a different, living E. J. Cameron serving as a commissioner in the Leewards in 1949-51 cannot be excluded from the dossier alone. Active service by the biography subject is impossible (retired 1920, career began 1882), and with no corroborating dimension the link stays open."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Key OCR fact: the bio's 'gov'r., Gomana, 28th Feb., 1914' is the Gambia governorship (confirmed by the assumption date and 1920 retirement matching the Gambia listing exactly). The Windward stint mixes current listings (1905-1919) with retrospective administrator rosters (1920-1950); the 1948-50 'Edward John Cameron' stint consists entirely of such roster rows."
+}

@@ -1,0 +1,50 @@
+{
+  "case_id": "case_abrahams_h-a_b1906",
+  "persons": [
+    {
+      "bio_id": "abrahams_h-a_b1906",
+      "stint_ids": [
+        "Abrahams, H. A___Jamaica___1925",
+        "Abrahams, H. A___Jamaica___1934"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: a same-name relative (father, brother, or cousin) also named H. A. Abrahams serving in the Jamaica Constabulary in the 1920s-1930s, with the corpus holding 10 Abrahams officials and 3 Abrahams biographies, so the surname pool is non-trivial; 'Assistant' and '2nd Class Clerk' are exactly the generic junior titles the instructions warn about. This fails because the match is not title-alone: the bio's own verbatim career ('asst., constab., J'ca., 1923' -> '2nd cl. clk., constab., 1933' -> '1st cl. clk., ... 1939') is mirrored step-for-step in the staff lists, including the promotion timing -- Assistant in the Jamaica Constabulary listed 1925/1927, 2nd Class Clerk in the Jamaica Constabulary listed 1934/1937, and 1st Class Clerk by the 1940 edition, immediately after the bio's 1939 promotion. Both initials (H. A.) agree, not a single initial. For the counter-hypothesis to hold, a second H. A. Abrahams would have to occupy the identical sequence of junior posts in the identical department on the identical promotion schedule while the bio subject (who by his own entry held those exact posts in those exact years) is absent from the staff lists -- and the staff lists show only one such name. The edition_cooccurrence FAIL is an artifact, not counter-evidence: the biography is printed 1956-1964 (his senior years) while the stints cover 1925-1940 (his junior years); the Record of Services section simply did not include him until he was senior. The 1940 record's department 'Head Office' vs the bio's 'med. dept.' for the 1st cl. clk. post is the only friction, and the 1940 line drops to a single initial 'H. Abrahams'; but the rank, year, name, and colony all continue the same thread, and a one-year department label difference in a reorganized listing does not sustain a two-person hypothesis.",
+      "evidence_cited": [
+        {
+          "stint_id": "Abrahams, H. A___Jamaica___1925",
+          "year": 1925,
+          "fact": "asst., constab., J'ca., 1923"
+        },
+        {
+          "stint_id": "Abrahams, H. A___Jamaica___1925",
+          "year": 1925,
+          "fact": "Jamaica Constabulary"
+        },
+        {
+          "stint_id": "Abrahams, H. A___Jamaica___1934",
+          "year": 1934,
+          "fact": "2nd cl. clk., constab., 1933"
+        },
+        {
+          "stint_id": "Abrahams, H. A___Jamaica___1934",
+          "year": 1934,
+          "fact": "2nd Class Clerk"
+        },
+        {
+          "stint_id": "Abrahams, H. A___Jamaica___1934",
+          "year": 1940,
+          "fact": "1st cl. clk., med. dept., 1939"
+        },
+        {
+          "stint_id": "Abrahams, H. A___Jamaica___1934",
+          "year": 1940,
+          "fact": "1st Class Clerk"
+        }
+      ],
+      "would_overturn": "Any staff-list edition between 1925 and 1940 showing two distinct H. A. Abrahams entries in Jamaica; a second Abrahams biography giving the same Jamaica Constabulary clerk career with these dates; or evidence (e.g. a death notice or separate forename expansion) that the 1925-27 Assistant was a different forename whose initials merely collapse to H. A."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-biography case. The deterministic position_sim FAIL on the 1925 stint (57 vs bar 60) is a string-abbreviation artifact: 'asst., constab.' and 'Assistant' / 'Jamaica Constabulary' are the same post read in context. The edition_cooccurrence FAILs on both stints reflect the bio appearing only in 1956-1964 editions, after the stint years, which is the expected pattern for an official whose biography was added late in his career. The 1940 row prints 'H. Abrahams' (one initial) under 'Head Office' rather than med. dept.; flagged for the reviewer but it continues the same rank progression in the same colony one year after the bio's 1939 promotion."
+}

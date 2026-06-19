@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q7329994",
+  "persons": [
+    {
+      "bio_id": "scott_richard-william_b1825",
+      "stint_ids": ["Scott, Richard William___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Scott is the second-commonest surname in the corpus (151 officials, 65 biographies), no honour is shared (deterministic FAIL), so a namesake — even another R. W. Scott — in Ottawa officialdom is conceivable. The counter-hypothesis fails on career shape: the stint shows Secretary of State in 1877-1878, then Senator-only rows 1879-1896, then Secretary of State again from 1897 through 1908 — a distinctive two-spell pattern that matches the biography's dates exactly ('appointed secretary of state of Canada, 9th January, 1874; retired on resignation of Mackenzie government, Oct., 1878; is now a senator; ... joined Mr. Laurier's govt., as sec. of state, June, 1896'). Canada had one Secretary of State at a time, and the full forename 'Richard William Scott' is printed in many rows. No second R. W. Scott could occupy that office in both spells while also sitting continuously in the Senate. The honour FAIL is vacuous: the bio prints only 'Q.C.' (in the name line) and the staff lists print almost no honours for him; the 1905-06 'K.C.' rows are the same distinction under the new reign's style.",
+      "evidence_cited": [
+        {"stint_id": "Scott, Richard William___Canada___1877", "year": 1877, "fact": "Secretary of State for Canada"},
+        {"stint_id": "Scott, Richard William___Canada___1877", "year": 1879, "fact": "Senator"},
+        {"stint_id": "Scott, Richard William___Canada___1877", "year": 1897, "fact": "Secretary of State of Canada"},
+        {"stint_id": "Scott, Richard William___Canada___1877", "year": 1906, "fact": "Richard William Scott"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Richard William Scott in Canadian federal politics holding the Secretaryship of State or a Senate seat in 1877-1913 — not a live possibility given the single-occupancy office and full-name agreement."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. The two-spell Secretary of State pattern (Mackenzie government to Oct 1878; Laurier government from June 1896) with continuous Senate membership in between is matched row-for-row, with full forename printed throughout. Age gate consistent (b. 1825, aged 52 at stint start)."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q28843184",
+  "persons": [
+    {
+      "bio_id": "popham_henry-bradshaw_b1881",
+      "stint_ids": ["Popham, Henry B___Windward Islands___1939"],
+      "confidence": "certain",
+      "arguments_against": "There are 5 Pophams in the staff lists and 2 in the biographical sections, so a relative (e.g. a son) sharing 'Henry B.' is conceivable, and the position_sim check formally failed. But the position_sim failure is an abbreviation artifact: the bio's 'GOV. AND COMMR.-IN-CH., WINDWARD IS., 1937' is the same office as the stint's 'Governor and Commander-in-Chief of the Windward Islands'. Governor is a unique post in the colony; a second Sir Henry B. Popham holding it in 1939 while the biography's subject (appointed 1937) was still in office is impossible. The staff list independently corroborates the knighthood and both distinctive honours (K.C.M.G., matching the bio's K.C.M.G. (1938), and M.B.E., matching M.B.E. (1918)). A son or namesake would not be 'Sir' with K.C.M.G. in 1939. The counter-hypothesis has no support.",
+      "evidence_cited": [
+        {"stint_id": "Popham, Henry B___Windward Islands___1939", "year": 1939, "fact": "GOV. AND COMMR.-IN-CH., WINDWARD IS., 1937"},
+        {"stint_id": "Popham, Henry B___Windward Islands___1939", "year": 1939, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Popham, Henry B___Windward Islands___1939", "year": 1939, "fact": "K.C.M.G., M.B.E."},
+        {"stint_id": "Popham, Henry B___Windward Islands___1939", "year": 1939, "fact": "K.C.M.G. (1938)"}
+      ],
+      "would_overturn": "A record of a different Sir Henry Popham as Windward Islands governor in 1939, or evidence Henry Bradshaw Popham had left the governorship before 1939 and a namesake succeeded him."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Stint nominally listed 1939-1950 but has only one actual record (1939); the 1950 edition listing has no record row here, so no claim is made about service beyond 1939. Unique office, exact title match once abbreviations are expanded, appointment year 1937 consistent with 1939 listing, two shared honours plus knighthood."
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "case_abraham_e-a-v_e1869",
+  "persons": [
+    {
+      "bio_id": "abraham_e-a-v_e1869",
+      "stint_ids": ["Abraham, E. A. V___British Guiana___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case this is wrong: (1) The 1877-1880 staff-list rows print only 'E. Abraham' (single initial), so those early rows could belong to a different Abraham relative in the same office, and (2) the bio says he was promoted '1st ditto, 1876' (1st asst. sworn clerk) yet the 1877-1880 staff list still styles him 'Third Assistant Sworn Clerk' - a seniority discrepancy that could indicate two different clerks. Why this fails: from 1883 onward the staff list prints the full, distinctive triple initials 'E. A. V. Abraham' with the position 'Third Sworn Clerk and Notary Public', which matches the bio's 'sworn clerk and notary public, 1882' promotion almost to the year; the earlier rows show 'Third Assistant Sworn Clerk', exactly the bio's '3rd asst. sworn clerk, 1874' post, in the same Judicial Establishment of the same colony, forming one continuous career line. A second E. A. V. Abraham holding the identical compound office in British Guiana's judicial establishment in the identical years is not a realistic hypothesis; the '1st ditto' discrepancy is more plausibly a stale staff-list designation or a compiler/OCR slip in the bio than a second person, since the surrounding career shape is otherwise in lockstep.",
+      "evidence_cited": [
+        {"stint_id": "Abraham, E. A. V___British Guiana___1877", "year": 1883, "fact": "E. A. V. Abraham"},
+        {"stint_id": "Abraham, E. A. V___British Guiana___1877", "year": 1883, "fact": "Third Sworn Clerk and Notary Public"},
+        {"stint_id": "Abraham, E. A. V___British Guiana___1877", "year": 1877, "fact": "Third Assistant Sworn Clerk"},
+        {"stint_id": "Abraham, E. A. V___British Guiana___1877", "year": 1883, "fact": "sworn clerk and notary public, 1882"},
+        {"stint_id": "Abraham, E. A. V___British Guiana___1877", "year": 1877, "fact": "3rd asst. sworn clerk, 1874"}
+      ],
+      "would_overturn": "Evidence of a second E. A. V. (or E.) Abraham serving in British Guiana's Judicial Establishment in 1877-1889 (e.g. two Abraham entries in the same staff list, or a bio for a relative with the same initials and a sworn-clerk career); or a record showing this biography's subject held a different post (e.g. 1st assistant sworn clerk elsewhere) during 1877-1880, proving the 'E. Abraham' rows belong to someone else."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. Deterministic FAILs are weak: honour fails trivially (neither side has honours); edition_cooccurrence fails only because bio editions [1889, 1890, 1894] barely trail the stint's staff-list run, though both do touch 1889; place_inherited is mitigated by the anchor clause explicitly placing the career in 'registrar's office, Br. Guiana, 1869'. One internal inconsistency for the reviewer: bio claims promotion to '1st ditto' (1st asst. sworn clerk) in 1876, but staff lists 1877-1880 still show Third Assistant Sworn Clerk; this does not change the identity conclusion but may indicate a bio compilation error."
+}

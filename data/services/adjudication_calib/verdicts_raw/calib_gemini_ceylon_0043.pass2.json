@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0043",
+  "persons": [
+    {
+      "bio_id": "chapman_thos-howard_b1866",
+      "stint_ids": ["Chapman, T. H___Ceylon___1890"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: Chapman is a common surname (41 staff officials, 23 biographies), the bio carries only initials 'T. H.', the deterministic honour check FAILS, and edition co-occurrence is not met, so name and the mechanical scores alone would be weak. This fails because the staff stint and the bio trace the IDENTICAL multi-rung Ceylon Public Works ladder in the same order over 25+ years: District Engineer (bio 1888 / staff 1890) -> Provincial Engineer (bio 'ag. prov. engrnr., E. Prov', 1904 / staff 1906-09) -> Extra Assistant Director of Public Works (bio 'extra astt. D.P.W., 1909' / staff 1910-12) -> Assistant Director (bio 'astt. D.P.W., 1912' / staff 1913) -> Director of Public Works (bio 'D.P.W., Aug., 1913' / staff Director 1914-22). The terminal post is the singular Directorship. No second T. H. Chapman could climb this exact specific sequence in lockstep.",
+      "evidence_cited": [
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1906, "fact": "T. H. Chapman | Provincial Engineer"},
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1910, "fact": "T. H. Chapman | Extra Assistant Director of Public Works"},
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1913, "fact": "T. H. Chapman | Assistant Director of Public Works"},
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1914, "fact": "T. H. Chapman | Director of Public Works"}
+      ],
+      "would_overturn": "Evidence of a second T. H. Chapman in the Ceylon Public Works Department following the same Provincial Engineer -> Director progression, or a chronology conflict at the District Engineer entry."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Common surname and two-initial bio are decisively offset by a detailed, ordered multi-office career match through the Ceylon PWD ranks ending in the singular Directorship of Public Works. Deterministic honour/edition checks add nothing, but the career-shape continuity is overwhelming."
+}

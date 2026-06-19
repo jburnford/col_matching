@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_gemini_ceylon_0006",
+  "persons": [
+    {
+      "bio_id": "booth_leonard-wm_b1856",
+      "stint_ids": [
+        "Booth, L. W___Ceylon___1879",
+        "Booth, L. W___Ceylon___1907"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Booth is a common surname (28 officials, 11 bios) and the bio carries only two initials, so a same-initial Ceylon namesake is the danger -- and there are two separate stints, which could in principle be two men. Against this: both stints trace one continuous Ceylon civil career whose office-and-place sequence matches the bio's detailed timeline by named, singular postings. Stint 1 (1879-1900): Writer (bio 'writer, Ceylon service, 1878'), Office Assistant in Uva (bio 'office asst. to govt. agt., Uva, 1886'), Police Magistrate, and Government Agent of Sabaragamuwa in 1900 (bio 'govt. agt., Sabaragamuna, June, 1899'). Stint 2 (1907-1912): Principal Collector of Customs (bio 'prin. collr. of customs, May, 1906'), then Government Agent (bio's run of govt.-agent posts 1908-12). The two stints are the early and late segments of the same person, bridged by the bio's unbroken Ceylon career; the specific provinces (Uva, Sabaragamuwa) and the singular Principal-Collector-of-Customs post are not duplicable by a second L. W. Booth. The honour FAILs are expected (C.M.G. only 1913, after both stints end).",
+      "evidence_cited": [
+        {"stint_id": "Booth, L. W___Ceylon___1879", "year": 1888, "fact": "L. W. Booth | Office Assistant | Province of UVA"},
+        {"stint_id": "Booth, L. W___Ceylon___1879", "year": 1886, "fact": "office asst. to govt. agt., Uva, 1886"},
+        {"stint_id": "Booth, L. W___Ceylon___1879", "year": 1900, "fact": "L. W. Booth | Government Agent | Province of Sabaragamuwa"},
+        {"stint_id": "Booth, L. W___Ceylon___1907", "year": 1907, "fact": "L. W. Booth | Principal Collector | Customs Department"},
+        {"stint_id": "Booth, L. W___Ceylon___1907", "year": 1906, "fact": "prin. collr. of customs, May, 1906"}
+      ],
+      "would_overturn": "Evidence of a second L. W. Booth in the Ceylon service holding the Uva office-assistantship, the Sabaragamuwa agency, and the Principal Collector of Customs post -- a duplication of singular named postings the record does not support."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two stints are the early (1879-1900) and late (1907-1912) segments of one continuous Ceylon career. Named provinces (Uva, Sabaragamuwa) and the singular Principal Collector of Customs post match the bio's detailed timeline, anchoring both."
+}

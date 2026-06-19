@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_Q1439869",
+  "persons": [
+    {
+      "bio_id": "trench_david-clive-crosby_b1915",
+      "stint_ids": ["Trench, David___Hong Kong___1956", "Trench, David___Hong Kong___1964"],
+      "confidence": "certain",
+      "arguments_against": "Against the 1956-61 stint: the deterministic pass found no tenure overlap or position match, so this could be a different D. Trench in Hong Kong — a relative among the 8 corpus Trenches. This fails: the staff list prints the full triple initials 'D. C. C. Trench' (David Clive Crosby), and the rows track the bio's Hong Kong ladder step by step — 'Defence Secretary' 1956 matches 'asst. sec., dep. def. sec., H.K., 1950' continued, 'Cadet Officer, Staff Grade' matches 'staff gr., 1956', 'Deputy Colonial Secretary' 1960 matches 'dep. col. sec., 1959, 1960', and 'Administrative Officer, Staff Grade A' matches 'redesig. admin. offr., staff gr. A, 1959'; the honours rows show M.C. (1958) and C.M.G. (1961), both in the bio with C.M.G. (1960). Against the 1964-66 stint: a successor governor could share the surname. This fails: the bio records 'gov. and c.in-c. (designate), H.K. 1963', the stint begins 1964 as 'Sir David Trench' with 'K.C.M.G.' matching the bio's K.C.M.G. (1962), and Governor of Hong Kong is a unique post. The two stints are one continuous, fully documented career with the 1961-63 gap explained by the bio: 'high comsnr., W. Pac., 1961'.",
+      "evidence_cited": [
+        {"stint_id": "Trench, David___Hong Kong___1956", "year": 1956, "fact": "D. C. C. Trench"},
+        {"stint_id": "Trench, David___Hong Kong___1956", "year": 1960, "fact": "dep. col. sec., 1959, 1960"},
+        {"stint_id": "Trench, David___Hong Kong___1956", "year": 1961, "fact": "Administrative Officer, Staff Grade A"},
+        {"stint_id": "Trench, David___Hong Kong___1956", "year": 1959, "fact": "redesig. admin. offr., staff gr. A, 1959"},
+        {"stint_id": "Trench, David___Hong Kong___1964", "year": 1963, "fact": "gov. and c.in-c. (designate), H.K. 1963"},
+        {"stint_id": "Trench, David___Hong Kong___1964", "year": 1964, "fact": "Sir David Trench"},
+        {"stint_id": "Trench, David___Hong Kong___1964", "year": 1964, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous D. C. C. Trench in the Hong Kong establishment, or a record that the 1964 Governor was a different Sir David Trench than the K.C.M.G. (1962) of the biography."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic FAILs on the 1956 stint are artifacts: the bio's Hong Kong events from 1953-1960 lost their place attribution in compilation ('clk., councils', 'staff gr.', 'dep. col. sec.' all inherited H.K. context from the 1950 clause), so no placed event was available to compare. Read against the verbatim entry, the staff-list rows match the bio year by year and honour by honour."
+}

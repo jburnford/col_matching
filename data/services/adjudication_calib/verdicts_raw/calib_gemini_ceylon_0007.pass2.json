@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_gemini_ceylon_0007",
+  "persons": [
+    {
+      "bio_id": "lushington_charles-morant_b1854",
+      "stint_ids": [
+        "Lushington, C. M___Ceylon___1877",
+        "Lushington, C. M___Ceylon___1907"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The counter-case would be two C. M. Lushingtons in the Ceylon service, or one stint belonging to a relative. It fails because the surname is rare (only 5 officials and a SINGLE biography for it), and both stints form one continuous Ceylon career whose offices map to the bio by name and place. Stint 1 (1877-1900): Writer (bio 'writer, Ceylon civ. serv., 1st Apr., 1876'), Police Magistrate (bio 'pol. mag.... 1877'/'magistrate, 1878'), Office Assistant, and Assistant Government Agent of the Eastern Province by 1900 (bio 'govt. agt., E. prov.... 13th June, 1903'). Stint 2 (1907-12): Collector / Government Agent of the Southern Province, matching the bio exactly: 'govt. agt., S. prov., 7th Dec., 1905; govt. agt. and fiscal for S. prov., 22nd Sept., 1907'. The position_sim FAIL on stint 2 is a phrasing artifact ('Government Agent' vs 'govt. agt., prov. of Uva'); the printed Southern-Province agency matches the bio. With a single bio for a rare surname and an unbroken matching career, a namesake is not credible.",
+      "evidence_cited": [
+        {"stint_id": "Lushington, C. M___Ceylon___1877", "year": 1877, "fact": "C. M. Lushington | Writer"},
+        {"stint_id": "Lushington, C. M___Ceylon___1877", "year": 1900, "fact": "C. M. Lushington | Assistant Government Agent | Eastern Province"},
+        {"stint_id": "Lushington, C. M___Ceylon___1907", "year": 1907, "fact": "C. M. Lushington | Government Agent"},
+        {"stint_id": "Lushington, C. M___Ceylon___1907", "year": 1907, "fact": "govt. agt. and fiscal for S. prov., 22nd Sept., 1907"}
+      ],
+      "would_overturn": "Evidence of a second C. M. Lushington in the Ceylon service -- which the single biography for this rare surname makes implausible."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Rare surname, single bio. Two stints are the early (1877-1900) and late (1907-12) segments of one continuous Ceylon career; the Eastern-Province and Southern-Province agencies match the bio by name."
+}

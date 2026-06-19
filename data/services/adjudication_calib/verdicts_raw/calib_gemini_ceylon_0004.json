@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0004",
+  "persons": [
+    {
+      "bio_id": "crawford_henry-leighton_b1855",
+      "stint_ids": ["Crawford, H. L___Ceylon___1878"],
+      "confidence": "certain",
+      "arguments_against": "Crawford is a common surname (47 officials, 20 biographies in the corpus), so the strongest counter-hypothesis is a second 'H. L. Crawford' in Ceylon — e.g. a relative who also entered as a writer in the late 1870s, or an OCR-conflated chain mixing two clerks. This fails on the evidence: the stint's entire 33-year trajectory tracks the biography step for step across five independent dimensions — Writer in the Colonial Secretary's Office 1878-1883 (bio: writer 1877, then 2nd asst. col. sec.), Office Assistant in Government Agencies 1886-1890 (bio: office asst. to govt. agt., W. Prov., 1884), Principal Assistant 1896-1900 (bio: prin. asst. col. sec., Apr., 1896), Government Agent 1905-1907 (bio: govt. agt., S. Prov. 1904, W. Prov. 1905-06), and Controller of Revenue 1909-1911 (bio: controller of rev., July, 1907). The staff list adds C.M.G. from 1907, exactly matching the bio's C.M.G. (1906). A hypothetical second H. L. Crawford would have to mirror every one of these promotions and the honour in the same years, which is not realistic. Age check passes (b. 1855, age 23 at stint start). No other biography is in this case to compete for the stint.",
+      "evidence_cited": [
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1878, "fact": "writer, Ceylon service, 1877"},
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1896, "fact": "prin. asst. col. sec., Apr., 1896"},
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1909, "fact": "controller of rev., July, 1907"},
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1907, "fact": "C.M.G. (1906)"},
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1905, "fact": "govt. agt., S. Prov., Sept., 1904"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous H. L. Crawford in the Ceylon civil service (e.g. a separate staff-list line or biography with the same initials), or a record showing Henry Leighton Crawford was out of Ceylon during years the stint lists him as serving."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "One bio, one stint; the stint's positions, departments, honour (C.M.G.), and dates align with the biography across the full 1878-1911 span. The stint's 1905-06 'Collector, Southern Province' rows correspond to the bio's 'prin. collr. of cust.' / govt. agt. S. Prov. period."
+}

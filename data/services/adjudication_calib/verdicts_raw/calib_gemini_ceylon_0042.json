@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0042",
+  "persons": [
+    {
+      "bio_id": "cooper_francis-alfred_b1860",
+      "stint_ids": ["Cooper, F. A___Ceylon___1898"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: Cooper is a common surname (75 officials, 41 biographies in the corpus), so a different F. A. Cooper could conceivably be the Ceylon staff-list entry, or this could be a successor in the same post. This fails on multiple independent grounds: (1) the post is 'Director of Public Works' for Ceylon, a unique senior office, not a generic junior title; the biography explicitly records 'dir. pub. wks., Ceylon, 1897' and the staff list shows F. A. Cooper as Director of Public Works from 1898 — exactly when the 1897 appointee would first appear in print; (2) the biography records C.M.G. (1901) and the staff list begins showing 'C.M.G.' against his name from 1905, with none before 1901; (3) the biography records 'ret., 1913.' and the stint's listing ends in exactly 1913; (4) initials F. A. match the full forenames Francis Alfred. A successor hypothesis cannot explain the C.M.G., the matching start year, or the matching retirement year. No live counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Cooper, F. A___Ceylon___1898", "year": 1898, "fact": "dir. pub. wks., Ceylon, 1897"},
+        {"stint_id": "Cooper, F. A___Ceylon___1898", "year": 1898, "fact": "Director of Public Works"},
+        {"stint_id": "Cooper, F. A___Ceylon___1898", "year": 1905, "fact": "C.M.G."},
+        {"stint_id": "Cooper, F. A___Ceylon___1898", "year": 1913, "fact": "ret., 1913"}
+      ],
+      "would_overturn": "Evidence of a second F. A. Cooper serving in the Ceylon Public Works Department in 1898-1913 (e.g. a distinct biography with C.M.G. and a Ceylon directorship), or a record showing Francis Alfred Cooper left Ceylon before 1913 while the staff listing continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography vs single stint. Five independent agreeing dimensions: unique senior post (Director of Public Works, Ceylon), appointment year 1897 vs first listing 1898, shared honour C.M.G. (1901, appearing in staff lists from 1905), retirement 1913 matching last listing 1913, and initials F.A. = Francis Alfred."
+}

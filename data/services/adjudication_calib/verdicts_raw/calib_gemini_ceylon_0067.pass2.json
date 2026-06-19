@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0067",
+  "persons": [
+    {
+      "bio_id": "cottle_henry-chas_b1857",
+      "stint_ids": ["Cottle, H. C___Ceylon___1888"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: 4 Cottle officials exist and 'Government Printer'/'Assistant Government Printer' could in principle be held by successive same-name men. Why it fails: the bio carries two initials (H. C.) that agree, and the stint reproduces the bio's exact three-step progression - 'Second-Assistant Government Printer' (1888), 'Assistant Government Printer' (1890s-1906), 'Government Printer' (1907 on) - within the same Civil Establishment; age 31 in 1888 fits a man born 1857, and 14 edition-years co-occur. This precise grade-by-grade career is uniquely identifying.",
+      "evidence_cited": [
+        {"stint_id": "Cottle, H. C___Ceylon___1888", "year": 1885, "fact": "2nd astl. gov't. printer, Ceylon, Nov., 1885; astl. gov't. printer, 1888"},
+        {"stint_id": "Cottle, H. C___Ceylon___1888", "year": 1888, "fact": "Second-Assistant Government Printer"},
+        {"stint_id": "Cottle, H. C___Ceylon___1888", "year": 1890, "fact": "Assistant Government Printer"},
+        {"stint_id": "Cottle, H. C___Ceylon___1888", "year": 1906, "fact": "gov't. printer, 1906"}
+      ],
+      "would_overturn": "A second H. C. Cottle in the printing department, or a date conflict in the 2nd-asst -> asst -> govt printer progression."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two initials, exact grade-by-grade printer progression, and 14 edition cooccurrences make this certain."
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_jamaica_0162",
+  "persons": [
+    {
+      "bio_id": "mainwaring_k-h-a_e1850",
+      "stint_ids": ["Mainwaring, K. H. A___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: there is a second Mainwaring biography in the corpus and 5 Mainwarings in the staff lists, so the stint could belong to a relative; also the staff list shows him as Assistant Police Magistrate through 1888 while the 1896 bio says 'asst. pol. mag., 1876-8' then 'pol. mag., 1888-91', which on its face conflicts with the 1878-1888 staff rows. This fails: (a) the staff-list man carries all three initials K. H. A. and the rank 'Captain' in every row, matching a retired R.N. captain — a same-surname relative would need the same three initials and the same naval rank; (b) the office sequence matches the biography on three distinct, specific posts: 'Stipendiary Magistrate' (bio: 'stipendiary magistrate, Jamaica, April, 1874'), 'Assistant Police Magistrate' (bio: 'asst. pol. mag.'), and 'Harbour Master' in 1889-1890 (bio: 'harbour-master, Kingston, 1876') — a coincidence across three offices in one colony is not realistic; (c) the apparent date conflict is a compression artifact of the 1896 bio (the fuller 1883 version says 'harbour-master, Kingston, Jamaica, and assistant police magistrate, Nov., 1876', i.e. he held both concurrently, which is exactly what the staff lists show resolving into separate rows over time). No counter-hypothesis survives the triple-office plus rank plus three-initial agreement.",
+      "evidence_cited": [
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1877, "fact": "Stipendiary Magistrate"},
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1874, "fact": "stipendiary magistrate, Jamaica, April, 1874"},
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1878, "fact": "Assistant Police Magistrate"},
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1890, "fact": "Harbour Master"},
+        {"stint_id": "Mainwaring, K. H. A___Jamaica___1877", "year": 1888, "fact": "Capt. K. H. A. Mainwaring"}
+      ],
+      "would_overturn": "Evidence of a second Captain K. H. A. Mainwaring in Jamaica in 1877-1890, or a record showing the staff-list magistrate was a different person than the harbour-master (e.g. distinct forenames behind the shared initials)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The honour check fails only because neither side prints an honour. The bio's compressed 1896 dating ('asst. pol. mag., 1876-8') understates the tenure relative to the staff lists (asst. police magistrate through 1888), but the fuller 1883 bio version shows the harbour-master and assistant-police-magistrate posts were held concurrently from Nov. 1876, consistent with the staff-list rows."
+}

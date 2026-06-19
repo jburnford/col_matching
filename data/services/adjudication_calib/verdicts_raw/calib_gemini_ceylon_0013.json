@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0013",
+  "persons": [
+    {
+      "bio_id": "fowler_geo-merrick_e1874",
+      "stint_ids": ["Fowler, G. M___Ceylon___1877"],
+      "confidence": "certain",
+      "arguments_against": "Fowler is a common surname (36 staff-list officials, 21 biographies) and the bio prints no birth year, so the counter-hypothesis is a second G. M. Fowler in Ceylon — a relative whose junior magistracies were conflated into this 31-year chain. This fails because the stint matches the biography at place-and-office precision across the whole span, not just on titles: Landing and Tide Surveyor, Southern Province 1879-80 matches 'landing survr., Galle, Feb., 1878' (Galle is the Southern Province port — a distinctive customs post, not a generic clerkship); Assistant Collector, Southern Province 1886 matches 'asst. collr. customs, Galle, June, 1880'; the Police Magistrate rows 1877-78 and 1883 match 'pol. mag., Galagedara, Sept., 1876' and 'pol. mag., Navalapitiya, Jan., 1880'; the Assistant Government Agent rows 1888-1898 match the bio's asst.-govt.-agt. sequence at Matara, Kalutara, N'Eliya, and Trincomalee; Government Agent, Southern Province 1900 matches 'gov''t. agt., S. prov., Feb., 1900' in the same year; and the staff list adds C.M.G. from 1906, matching the bio's C.M.G. (1905). A rival G. M. Fowler would have to mirror the customs-surveyor specialty, the magistracies, the agency postings, the Southern Province agency in the exact year, and the honour — no realistic relative does. Six colony-agreeing edition co-occurrences corroborate. The missing birth year leaves the age gate unchecked, but a writer of Jan. 1874 serving to 1907 is a normal 33-year career, posing no chronology problem.",
+      "evidence_cited": [
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1879, "fact": "landing survr., Galle, Feb., 1878"},
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1877, "fact": "pol. mag., Galagedara, Sept., 1876"},
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1886, "fact": "asst. collr. customs, Galle, June, 1880"},
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1900, "fact": "gov't. agt., S. prov., Feb., 1900"},
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1906, "fact": "C.M.G. (1905)"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous G. M. Fowler in the Ceylon service (e.g. two G. M. Fowler rows in one staff-list year in incompatible posts), or a printed birth/death record placing George Merrick Fowler outside Ceylon during years the stint lists him as serving."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "All deterministic checks pass, including the shared C.M.G. and six edition co-occurrences. The stint's department column (Southern Province for the surveyor, collector, and 1900 agency rows) repeatedly corroborates the bio's Galle and S. Prov. postings at place level."
+}

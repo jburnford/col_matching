@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q3181113",
+  "persons": [
+    {
+      "bio_id": "boyd_john-alexander_b1837",
+      "stint_ids": ["Boyd, John Alexander___Canada___1877"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: this stint is visibly a conflation of more than one Boyd. The 'John Boyd' rows listed as 'Senator' (1883, 1889, 1890) and the 'J. Boyd' rows as 'Government Agent' (1877-79) carry no middle initial/name and describe offices the biography never mentions; the historical Senator John Boyd of New Brunswick was a different man, and a Chancellor of Ontario does not simultaneously sit as a Senator. If I assign the whole stint, I attribute those rows to the Chancellor — a partial false merge. Why the assignment still stands at stint level: the stint's key name is the full 'Boyd, John Alexander', and the dominant, continuous record (Chancellor, 1883-1915, 'John A. Boyd'/'John Alexander Boyd') matches the biography on every dimension — 'Chancellor of Ontario' vs the bio's 'chan. of Ontario, 1881', the K.C.M.G. carried in the 1913-15 rows matching the bio's honours, departments 'High Court of Justice' matching 'pres. of high ct. of just., 1887', and the 1913-15 rows coinciding with the bio's edition span. The identity of the stint's principal is not in doubt; the doubt is row-level contamination, which caps confidence at probable so a human can strip the Senator/Government Agent rows.",
+      "evidence_cited": [
+        {"stint_id": "Boyd, John Alexander___Canada___1877", "year": 1913, "fact": "Chancellor of Ontario"},
+        {"stint_id": "Boyd, John Alexander___Canada___1877", "year": 1913, "fact": "K.C.M.G."},
+        {"stint_id": "Boyd, John Alexander___Canada___1877", "year": 1907, "fact": "High Court of Justice"},
+        {"stint_id": "Boyd, John Alexander___Canada___1877", "year": 1915, "fact": "Sir John Alexander Boyd"}
+      ],
+      "would_overturn": "Evidence that the Chancellor rows belong to a different John A. Boyd than the K.C.M.G. biographee (effectively none conceivable), or — more realistically — a decision to split the stint, which would remove the Senator and Government Agent rows from this person without overturning the core identity."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "REVIEWER: this stint conflates at least two and possibly three people under the Boyd key. Rows printed 'John A. Boyd'/'John Alexander Boyd' as Chancellor (1883-1915) are securely the biographee (chan. of Ontario 1881, K.C.M.G.). Rows printed 'John Boyd' as Senator (1883, 1889, 1890; Senate of Canada) and 'J. Boyd' as Government Agent (1877-1879) very likely belong to other Boyds (38 share the surname in the staff lists) and should be split out. Confidence held at probable solely because of this row-level contamination; the principal identity match itself is beyond reasonable doubt."
+}

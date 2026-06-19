@@ -1,0 +1,12 @@
+{
+  "case_id": "case_adams_r-p_e1867",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Adams, R. P___Tasmania___1878",
+      "reason": "The two claimant biographies are duplicate records of the same person: both print the identical appointment 'Solicitor-general, Tasmania, 20 Dec., 1867', and the later record's 'puisne judge 1889' matches the stint's transition from Solicitor-General (1878-1888) to Puisne Judge (1889-1898). The stint almost certainly belongs to this one underlying person, but per the binding instructions a stint contested between duplicate biographies is assigned to neither; the duplicate group is flagged instead so the records can be merged upstream before assignment."
+    }
+  ],
+  "duplicate_bio_groups": [["adams_r-p_e1867", "adams_robert-patton_e1867"]],
+  "notes": "adams_r-p_e1867 (editions [1886], initials only) and adams_robert-patton_e1867 (editions [1888]-[1900], full name 'ADAMS, ROBERT PATTON') share the exact same appointment line including the day-precise date '20 Dec., 1867' and the same office and colony; the 1886 entry is the same person before the compiler expanded the name. The edition footprints are complementary (1886 vs 1888-1900), not conflicting, which is the signature of a single continuing entry rather than two people. No evidence suggests a second R. P. Adams in Tasmania: the staff list shows one continuous officeholder whose career (Solicitor-General then Puisne Judge from 1889) exactly tracks the Robert Patton Adams biography. Recommended action: merge the two bio records, then the stint can be assigned to the merged person with confidence 'certain'. The strongest argument against duplication - a father and son holding the same office - fails because both biographies cite the same appointment date to the day, which two people cannot share."
+}

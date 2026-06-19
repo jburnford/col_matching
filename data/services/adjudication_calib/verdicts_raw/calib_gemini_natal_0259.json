@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_natal_0259",
+  "persons": [
+    {
+      "bio_id": "hunter_david_e1879",
+      "stint_ids": ["Hunter, D___Natal___1883"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: 'Hunter' is a common surname (64 officials, 37 biographies in the corpus), and the stint runs to 1906 while the biography is only printed in 1883 and 1886 — the later staff-list years (C.M.G. 1899, knighted by 1905) could in principle be a different D. Hunter who succeeded to the same post, with the staff list silently swapping incumbents under the same initial. This fails because the post is singular and highly specific — there is one 'General Manager, Natal Government Railways' at a time — and the staff list shows an unbroken run of the identical name and identical title from 1883 to 1906 with no discontinuity that would mark a succession; the biography's appointment date (27th September, 1879) precedes and is consistent with the stint's first listing in 1883; and the biography co-occurs with the stint in both of its editions (1883, 1886) at position similarity ~100. A namesake holding the very same unique senior post in the same colony in the same years, listed under the same initial, is not a realistic hypothesis. The single-initial trap does not apply with force: the biography carries the full forename DAVID, and the required strong independent dimension (specific unique position match plus multi-edition co-occurrence) is present.",
+      "evidence_cited": [
+        {"stint_id": "Hunter, D___Natal___1883", "year": 1883, "fact": "General manager, Natal government railways, 27th September, 1879"},
+        {"stint_id": "Hunter, D___Natal___1883", "year": 1883, "fact": "General Manager | Natal Government Railways"},
+        {"stint_id": "Hunter, D___Natal___1883", "year": 1886, "fact": "D. Hunter | General Manager | Natal Government Railways"}
+      ],
+      "would_overturn": "Evidence that the David Hunter of the 1879 appointment left or died before 1883 and a different D. Hunter held the General Managership when the staff lists begin; or a second contemporaneous D. Hunter in the Natal railway department revealed by fuller records."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography vs single stint. The post (General Manager, Natal Government Railways) is unique and senior; biography appointment date 1879 fits the stint's 1883 start; edition co-occurrence in both bio editions with exact position agreement. The deterministic honour FAIL is expected: the bio text predates the C.M.G./K.C.M.G. shown in the 1899-1906 staff lists."
+}

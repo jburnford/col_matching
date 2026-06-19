@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0153",
+  "persons": [
+    {
+      "bio_id": "newton_edward_e1859",
+      "stint_ids": ["Newton, Edward___Jamaica___1878"],
+      "confidence": "certain",
+      "arguments_against": "This is flagged as the single-initial trap: NEWTON is extremely common (29 officials, 14 bios) and the bio carries only the forename Edward with no birth year, so a same-name relative is a real worry, and the single-initial rule forbids merging on tenure-overlap alone. This fails because the link does NOT rest on tenure overlap — it rests on multiple strong independent dimensions. The honour C. M. G. is shared and appears in every staff record (bio 'C.M.G. (1875)'). The offices are unique top posts matching the bio verbatim: bio 'lieutenant-governor and colonial secretary, Jamaica, Nov., 1877' against the staff list's 'Lieutenant-Governor' (Civil Establishment) and 'Colonial Secretary' (Colonial Secretary's Office). Colony Jamaica agrees and the dates align (bio retired 1883; the man stays listed through 1886 as honoured/Lt-Governor). Only one Edward Newton was Lieutenant-Governor and Colonial Secretary of Jamaica holding the C.M.G. in 1877-83; no relative could occupy these singular offices simultaneously.",
+      "evidence_cited": [
+        {"stint_id": "Newton, Edward___Jamaica___1878", "year": 1878, "fact": "Colonial Secretary"},
+        {"stint_id": "Newton, Edward___Jamaica___1878", "year": 1880, "fact": "Lieutenant-Governor"},
+        {"stint_id": "Newton, Edward___Jamaica___1878", "year": 1878, "fact": "lieutenant-governor and colonial secretary, Jamaica, Nov., 1877"},
+        {"stint_id": "Newton, Edward___Jamaica___1878", "year": 1878, "fact": "C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second Edward Newton, C.M.G., holding the Jamaica Lieutenant-Governorship / Colonial Secretaryship in the same years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial / common-surname case, but cleared by strong independent dimensions: shared honour C.M.G. plus the unique senior offices Lieutenant-Governor and Colonial Secretary of Jamaica, with matching colony and dates. This is Sir Edward Newton, K.C.M.G."
+}

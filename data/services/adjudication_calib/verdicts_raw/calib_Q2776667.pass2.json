@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q2776667",
+  "persons": [
+    {
+      "bio_id": "bols_louis-jean_b1867",
+      "stint_ids": ["Bols, Louis Jean___Bermuda___1928"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-hypothesis is a same-name relative (e.g. a son) holding a different Bermuda post in the same years, or that the staff listing reflects an honoured retiree rather than current service. Both fail: the corpus contains exactly one Bols official and one Bols biography; the stint records the full distinctive forename pair 'Louis Jean' with the rank Lieut.-General and the precise office 'Governor and Commander-in-Chief', matching the biography's 'gov. and commdr. in ch., Bermuda, 1927' appointment which was current (appointed 1927, listed 1928-1930); and three independent honours (K.C.B., K.C.M.G., D.S.O.) match exactly. A second 'Sir Louis Jean Bols, K.C.B., K.C.M.G., D.S.O., Lieut.-General' governing Bermuda at the same time is not a realistic hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Bols, Louis Jean___Bermuda___1928", "year": 1928, "fact": "gov. and commdr. in ch., Bermuda, 1927"},
+        {"stint_id": "Bols, Louis Jean___Bermuda___1928", "year": 1928, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Bols, Louis Jean___Bermuda___1928", "year": 1928, "fact": "K.C.B., K.C.M.G., D.S.O."}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Louis Jean Bols (e.g. a son with identical forenames and honours), or a printed record showing the biography subject died or left office before 1928 while the staff lists continued under a different person."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case with full forename, exact office, exact place, contiguous dates (appointment 1927, listings 1928-1930), three shared honours, and matching rank. No live counter-hypothesis."
+}

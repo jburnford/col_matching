@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0078",
+  "persons": [
+    {
+      "bio_id": "de-wilton_albert-walter_b1862",
+      "stint_ids": ["de Wilton, A. W___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: any same-name relative could in principle share the prisons post. Why it fails: 'de Wilton' is unique in the entire corpus (1 staff-list official, 1 biography), the rank 'Major' and initials 'A. W.' agree, and the stint reproduces the bio's exact 1905 appointment 'inspr.-gen. of prisons and supt. of convict establishment, Ceylon' as 'Inspector-General of Prisons and Superintendent of the Colombo Convict Establishments', held continuously 1905-1922 with 14 edition-years co-occurring. There is no plausible alternative holder.",
+      "evidence_cited": [
+        {"stint_id": "de Wilton, A. W___Ceylon___1905", "year": 1905, "fact": "inspr.-gen. of prisons and supt. of convict establishment, Ceylon, 15th July, 1905"},
+        {"stint_id": "de Wilton, A. W___Ceylon___1905", "year": 1906, "fact": "Inspector-General of Prisons and Superintendent of the Colombo Convict Establishments"},
+        {"stint_id": "de Wilton, A. W___Ceylon___1905", "year": 1905, "fact": "Major"}
+      ],
+      "would_overturn": "Discovery of a second de Wilton (e.g. son) holding the same Ceylon prisons office."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique surname, matching rank and initials, verbatim specific post, 14 edition cooccurrences."
+}

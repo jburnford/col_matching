@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q7348833",
+  "persons": [
+    {
+      "bio_id": "armitage_robert-perceval_b1906",
+      "stint_ids": ["Armitage, Robert___Cyprus___1954"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: there are 7 Armitages in the staff lists and 5 in the biographical sections, so another Armitage (e.g. a relative) could conceivably be the Cyprus listing, and the position_sim check mechanically FAILED. This fails because the governorship of Cyprus is a unique, singular office, not a generic junior title; the biography explicitly states 'gov. and c.-in-c., Cyp., 1954' and the staff list shows 'R. P. Armitage' as 'Governor and Commander-in-Chief' of Cyprus in exactly 1954. The position_sim FAIL is a pure abbreviation artifact ('gov. and c.-in-c.' vs the expanded printed title). Both initials R. P. match Robert Perceval, the C.M.G. honour is shared, and the age (48) is consistent. No other biography is present in the case to contest the stint.",
+      "evidence_cited": [
+        {"stint_id": "Armitage, Robert___Cyprus___1954", "year": 1954, "fact": "gov. and c.-in-c., Cyp., 1954"},
+        {"stint_id": "Armitage, Robert___Cyprus___1954", "year": 1954, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Armitage, Robert___Cyprus___1954", "year": 1954, "fact": "R. P. Armitage"},
+        {"stint_id": "Armitage, Robert___Cyprus___1954", "year": 1954, "fact": "C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second R. P. Armitage serving in Cyprus in 1954, or a corrected staff list showing a different person held the Cyprus governorship in 1954 (e.g. the listing being a holdover/acting appointee with different forenames)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. Unique colony-level office (Governor and C.-in-C. of Cyprus), exact year agreement (1954), full initials agreement (R. P. = Robert Perceval), and shared C.M.G. honour. The only deterministic FAIL (position_sim 59 vs bar 60) is an abbreviation artifact."
+}

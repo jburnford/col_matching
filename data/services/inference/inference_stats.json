@@ -1,0 +1,15 @@
+{
+ "place_less_dated_clauses": 61108,
+ "auto_accept_clauses": 5546,
+ "review_clauses": 641,
+ "drop_no_records": 36293,
+ "drop_multi_colony": 5775,
+ "drop_low_position": 12853,
+ "intrabio_resolved": 1401,
+ "auto_bios": 3132,
+ "auto_bios_new_colony": 951,
+ "review_bios": 577,
+ "window": 2,
+ "pos_floor": 60,
+ "pos_auto": 75
+}

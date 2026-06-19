@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q2577848",
+  "persons": [
+    {
+      "bio_id": "goode_william-allmond-codrington_b1907",
+      "stint_ids": ["Goode, William___North Borneo___1960"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: with 11 Goode officials and 4 Goode biographies in the corpus, the stint could belong to a different William Goode, e.g. a relative who also reached North Borneo. This fails: the stint is the unique office of Governor and Commander-in-Chief of North Borneo, held by one person at a time, and the biography names exactly this office with exactly these years: 'gov. and c.-in-c., N. Borneo, 1960-63' (stint listed 1960-1963). The honours sequence corroborates independently: the bio records K.C.M.G. (1958) and G.C.M.G. (1963), and the staff list shows the same officer as K.C.M.G. in 1960-62 then G.C.M.G. in 1963 — a year-accurate honour transition that a namesake would not reproduce. Forename 'William' agrees in full. No second knighted William Goode could have held the same governorship over the same span.",
+      "evidence_cited": [
+        {"stint_id": "Goode, William___North Borneo___1960", "year": 1960, "fact": "gov. and c.-in-c., N. Borneo, 1960-63"},
+        {"stint_id": "Goode, William___North Borneo___1960", "year": 1960, "fact": "Sir William Goode"},
+        {"stint_id": "Goode, William___North Borneo___1960", "year": 1963, "fact": "G.C.M.G. (1963)"}
+      ],
+      "would_overturn": "External evidence that a different William Goode held the North Borneo governorship 1960-63, or that the bio's final clause was conflated from another entry."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The position_sim FAIL is an abbreviation artifact ('gov. and c.-in-c.' = 'Governor and Commander-in-Chief'). Exact position+place+year-range agreement, full forename, and a year-accurate K.C.M.G.-to-G.C.M.G. honour transition constitute multiple independent dimensions. Bio timeline row 17 ('dist. offr., Raub, 1963') is an OCR misreading of 1936 in version col1953-L17469.v, corrected in other versions; it does not affect this link."
+}

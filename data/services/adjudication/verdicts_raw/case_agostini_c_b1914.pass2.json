@@ -1,0 +1,32 @@
+{
+  "case_id": "case_agostini_c_b1914",
+  "persons": [
+    {
+      "bio_id": "agostini_c_b1914",
+      "stint_ids": ["Agostini, C___Trinidad and Tobago___1949"],
+      "confidence": "certain",
+      "arguments_against": "The bio carries a single initial 'C', the classic namesake trap: with 7 officials of this surname in the staff lists, the stint could belong to another C. Agostini, or to Louis Colville Cedar Agostini (whose initials L.C.C. also pass the initials gate, making the stint formally contested). But the trap fails here on a specific strong dimension: the bio states he was made 'dir. of civil aviation, and aerodrome supt., 1947', and the stint lists 'Director of Civil Aviation and Aerodrome Superintendent' continuously 1949-1962 — a unique, senior, highly specific post in Trinidad, not a generic junior title, with the staff listing beginning two years after the bio's appointment date and the bio appearing in editions (1948-1966) spanning the stint years (1949-1962). The rival claimant L.C.C. Agostini is eliminated jointly: his own bio and the L.C. stint place him as supervisor of the government printery (1946), asst. gov. printer (1949) and Government Printer (1950/1952) during exactly these years, so he cannot simultaneously have been Director of Civil Aviation. No other Agostini biography claims any aviation post. A second, unrecorded C. Agostini holding the colony's single Director of Civil Aviation post in the very years this bio says this man held it is not a realistic hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Agostini, C___Trinidad and Tobago___1949", "year": 1947, "fact": "dir. of civil aviation, and aerodrome supt., 1947"},
+        {"stint_id": "Agostini, C___Trinidad and Tobago___1949", "year": 1949, "fact": "Director of Civil Aviation and Aerodrome Superintendent"},
+        {"stint_id": "Agostini, C___Trinidad and Tobago___1949", "year": 1941, "fact": "control offr., Trin., 1941"}
+      ],
+      "would_overturn": "Evidence of a second C. Agostini in Trinidad government service in 1949-1962 holding the Director of Civil Aviation post (e.g. a staff-list record distinguishing two C. Agostinis, or a forename for this stint inconsistent with this bio), or evidence that this bio's subject left the post before 1949."
+    },
+    {
+      "bio_id": "agostini_louis-colville-cedar_b1912",
+      "stint_ids": ["Agostini, L. C___Trinidad and Tobago___1940"],
+      "confidence": "certain",
+      "arguments_against": "The 1940 record is a generic junior title ('2nd Class Clerks' in the Colonial Secretary's Department) — exactly the kind of title-match the instructions warn recurs constantly, and a brother or cousin L. C. Agostini clerking in Trinidad in 1940 is conceivable; the bio is attested in only one edition (1951), so corroboration is thin on the bio side. The stint is also formally contested because the single-initial bio agostini_c_b1914 passes the initials gate ('C' subset of 'L, C'). But the counter-case fails: the stint's 1952 record is 'Government Printer' — a unique, named senior post — and the bio states 'gov. printer, 1950', an exact specific position match two years before, with the full preceding career shape agreeing (bio: 'clk., Trin., 1932' matching the 1940 clerk record; then supervr. gov. printery 1946, asst. gov. printer 1949). Both initials L. C. match 'Louis Colville' exactly, whereas the rival bio is a 'C' only and his own entry places him in civil aviation, not printing, throughout these years. The 1940 clerk record and 1952 Government Printer record are one continuous staff-list stint, so they belong to one man, and only this bio fits both ends.",
+      "evidence_cited": [
+        {"stint_id": "Agostini, L. C___Trinidad and Tobago___1940", "year": 1950, "fact": "gov. printer, 1950"},
+        {"stint_id": "Agostini, L. C___Trinidad and Tobago___1940", "year": 1952, "fact": "Government Printer"},
+        {"stint_id": "Agostini, L. C___Trinidad and Tobago___1940", "year": 1932, "fact": "clk., Trin., 1932"}
+      ],
+      "would_overturn": "Evidence that the 1940 clerk and the 1952 Government Printer are different L. C. Agostinis (i.e. the stint was wrongly chained), or a record of another L. C. Agostini as Government Printer of Trinidad c. 1950-1952."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The dossier flags both stints as contested, but the contest dissolves under joint reasoning: the two biographies have mutually exclusive concurrent careers (civil aviation vs government printery) in 1946-1952, and each stint matches exactly one bio on a unique named senior post (Director of Civil Aviation and Aerodrome Superintendent; Government Printer). All deterministic colony/position checks FAILed only because the bios' placed events did not resolve to the string 'Trinidad and Tobago' — the verbatim entries make the Trinidad placement explicit ('control offr., Trin.', 'clk., Trin.', 'T'dad Govt. service')."
+}

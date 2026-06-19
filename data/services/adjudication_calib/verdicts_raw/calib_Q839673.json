@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q839673",
+  "persons": [
+    {
+      "bio_id": "grantham_alexander-william-george-herder_b1899",
+      "stint_ids": ["Grantham, Alexander William George Herder___Hong Kong___1948"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: there are 6 Grantham officials and 6 Grantham biographies in the corpus, so one could imagine a son or namesake holding the Hong Kong governorship while the biography subject served elsewhere; and the G.C.M.G. shown in the staff list from 1952 is not in the bio's honour list, which could hint at a different, more senior man. This fails. (1) The staff-list name is the full four-part 'Alexander William George Herder Grantham' -- an extremely distinctive forename string identical to the bio's, leaving no room for an initials-only namesake. (2) The bio's final clause 'gov. and c.-in-c., H.K., 1947' matches the stint's colony, its title 'Governor and Commander-in-Chief', and its start (listed from the 1948 edition, i.e. the first edition after a 1947 appointment). (3) The shared K.C.M.G. (1945) appears in both bio and the 1948-1951 staff rows, and the bio's whole career (cadet H.K. 1922 onward) is Hong Kong-anchored. The missing G.C.M.G. in the bio simply reflects that the bio text was last revised in 1949, before the elevation -- the 1949 version's honour list ends at K.C.M.G. (1945), exactly what the staff list shows through 1951. A son born early enough to govern in 1948 would conflict with the bio subject's own documented tenure of the same post.",
+      "evidence_cited": [
+        {"stint_id": "Grantham, Alexander William George Herder___Hong Kong___1948", "year": 1948, "fact": "gov. and c.-in-c., H.K., 1947"},
+        {"stint_id": "Grantham, Alexander William George Herder___Hong Kong___1948", "year": 1948, "fact": "K.C.M.G. (1945)"},
+        {"stint_id": "Grantham, Alexander William George Herder___Hong Kong___1948", "year": 1922, "fact": "cadet, H.K., 1922"}
+      ],
+      "would_overturn": "Evidence of a second Alexander William George Herder Grantham (e.g. a separate biography with a different birth year claiming the 1947 Hong Kong governorship), or an external record showing the biography subject left Hong Kong before 1957 while the staff listing continued for someone else."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Five agreeing edition-years (1953-1957) with a colony-agreeing position match passed the strict edition co-occurrence check. The G.C.M.G. appearing in staff rows from 1952 postdates the last bio revision (1949 version) and is an honour progression, not a conflict."
+}

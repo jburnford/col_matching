@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q503662",
+  "persons": [
+    {
+      "bio_id": "wright_andrew-barkworth_b1895",
+      "stint_ids": ["Wright, Andrew Barkworth___Cyprus___1951"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 'Wright' is the commonest surname imaginable in this corpus (159 officials, 63 biographies), the position_sim check formally FAILed (59 vs bar 60), and the 1952 staff row adds a C.B. that the bio never records -- so the Governor could conceivably be a different, decorated Sir A. B. Wright. This fails. (1) The position FAIL is an abbreviation artefact: 'gov. and c.-in-c.' IS 'Governor and Commander-in-Chief'. (2) The staff list spells out the full, distinctive double forename 'Andrew Barkworth', identical to the bio's -- this is not an initials-only collision, and among 63 Wright biographies only this one carries that forename pair. (3) The bio's career ends 'gov. and c.-in-c., Gam., 1947 ; Cyp., 1949', placing him in exactly this unique office from 1949; the stint's 1951-1953 listing falls inside that governorship. (4) The K.C.M.G. matches the bio's 'K.C.M.G. (1948)', correctly pre-dating the stint. (5) Fourteen of the bio's placed events resolve to Cyprus -- his whole formative career (asst. sec. 1922 through col. sec. 1937 and ag. gov. 1938-39) was there, making the return as Governor continuous in shape. The absent C.B. in the bio reflects only that the bio text predates or omits the award; it cannot outweigh a unique-office, full-name, honour-dated match.",
+      "evidence_cited": [
+        {"stint_id": "Wright, Andrew Barkworth___Cyprus___1951", "year": 1951, "fact": "gov. and c.-in-c., Gam., 1947 ; Cyp., 1949"},
+        {"stint_id": "Wright, Andrew Barkworth___Cyprus___1951", "year": 1951, "fact": "K.C.M.G. (1948)"},
+        {"stint_id": "Wright, Andrew Barkworth___Cyprus___1951", "year": 1951, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Wright, Andrew Barkworth___Cyprus___1951", "year": 1922, "fact": "asst. sec., Cyp., 1922"}
+      ],
+      "would_overturn": "Evidence of a second Sir Andrew Barkworth Wright, K.C.M.G., alive in 1951, or an external record showing the 1949 Cyprus governor left before 1951 and was succeeded by a different man of the same full name."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The C.B. appearing in the 1952 staff row is not in the bio's honour list; bios in this series frequently lag or omit non-order honours, and all other dimensions (full double forename, unique office, colony, dates, K.C.M.G. year) agree, so it was not treated as a conflict."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "case_covington_m_e1849",
+  "persons": [
+    {
+      "bio_id": "covington_m_e1849",
+      "stint_ids": ["Covington, M___Ceylon___1877"],
+      "confidence": "certain",
+      "arguments_against": "The bio carries a single initial ('M.'), so the namesake trap applies: the stint could belong to a different M. Covington — e.g. a son who followed his father into the Ceylon medical service, or an unrelated officer. The deterministic pass found no tenure overlap, no position-string overlap, and no edition co-occurrence, which superficially suggests two disjoint records. This counter-case fails on the verbatim text. The bio's career is entirely in the Ceylon medical service and culminates in 'assistant colonial surgeon, 1859, ditto, 1st class, 1867' — exactly the office the stint records ('Assistant Colonial Surgeons', Medical Department, Ceylon) for 1877–1883, a seamless continuation of the same specific, non-junior post in the same colony. The mechanical edition_cooccurrence FAIL is wrong on its face: the bio is printed in the 1883 edition and the stint is listed in that same 1883 edition, so the volume carries the biography of its own currently-serving officer. The corpus contains exactly one official and one biography with this surname, leaving no live candidate for a second M. Covington; a father/son pair holding the identical specific office with the identical initial, with only one of them ever appearing anywhere in the corpus, is not a realistic hypothesis. The tenure_overlap FAIL is an artifact of the bio's last dated event (1867) preceding the stint window (1877), not of any conflict.",
+      "evidence_cited": [
+        {"stint_id": "Covington, M___Ceylon___1877", "year": 1877, "fact": "Assistant Colonial Surgeons"},
+        {"stint_id": "Covington, M___Ceylon___1877", "year": 1883, "fact": "Assistant Colonial Surgeon"},
+        {"stint_id": "Covington, M___Ceylon___1877", "year": 1859, "fact": "assistant colonial surgeon, 1859"},
+        {"stint_id": "Covington, M___Ceylon___1877", "year": 1849, "fact": "Medical sub-assistant to the government of Ceylon"}
+      ],
+      "would_overturn": "Evidence of a second M. Covington in the Ceylon medical service (e.g. a staff list or biography distinguishing a senior and junior Covington, or a death/retirement notice for the biographee before 1877), or a printed forename for either record showing the initials resolve to different names."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial bio, but the strong independent dimension required by the constraints is present: a specific position match (assistant colonial surgeon, Medical Department, Ceylon) plus same-edition co-occurrence in 1883 (the deterministic edition_cooccurrence check missed this) and a unique surname in the corpus (1 official, 1 biography). The bio's timeline ending in 1867 with promotion to 1st class and the stint beginning in 1877 form one continuous career, not a conflict."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q108047267",
+  "persons": [
+    {
+      "bio_id": "dreschfield_ralph-leonard-emmanuel_b1911",
+      "stint_ids": ["Dreschfield, R. L. E___Uganda___1952"],
+      "confidence": "certain",
+      "arguments_against": "The deterministic pass flags that the supporting career events inherit their place from an earlier clause, so a sceptic could argue the Attorney-Generalship was held somewhere other than Uganda, and there is a second Dreschfield in the staff lists who could be a relative. But the inheritance chain starts from an explicitly printed place ('res. mag., Uga., 1938') with no intervening colony change, and both bio versions close with '(Uga. Govt. service.)', so the Uganda location is not actually in doubt. The counter-hypothesis of a second R. L. E. Dreschfield holding the unique office of Attorney-General of Uganda over exactly the years 1951-63 stated in the bio, with the same three initials on a very rare surname (only 2 in the entire corpus) and the same C.M.G., is not realistic. Attorney-General is a singular senior post, not a generic junior title.",
+      "evidence_cited": [
+        {"stint_id": "Dreschfield, R. L. E___Uganda___1952", "year": 1952, "fact": "atty.-gen., 1951-63"},
+        {"stint_id": "Dreschfield, R. L. E___Uganda___1952", "year": 1952, "fact": "Attorney-General"},
+        {"stint_id": "Dreschfield, R. L. E___Uganda___1952", "year": 1959, "fact": "C.M.G. (1957)"},
+        {"stint_id": "Dreschfield, R. L. E___Uganda___1952", "year": 1938, "fact": "res. mag., Uga., 1938"}
+      ],
+      "would_overturn": "Evidence of a second R. L. E. Dreschfield in Uganda government service in the 1950s, or a record placing Ralph Leonard Emmanuel Dreschfield's attorney-generalship in a different territory."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Very rare surname, exact three-initial match, unique senior office with exact tenure agreement (bio 1951-63 vs stint 1952-1962), shared C.M.G. whose 1957 award date is consistent with its appearance in staff lists from 1959. The 1962 'Commissioner on Special Duty' record is a plausible end-of-tenure transition consistent with the bio's atty.-gen. tenure ending 1963."
+}

@@ -1,0 +1,46 @@
+{
+ "case_id": "case_saunders_william_b1836",
+ "persons": [
+  {
+   "bio_id": "saunders_william_b1836",
+   "stint_ids": [
+    "Saunders, Prof. William___Canada___1890"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Single-initial bio (William). The entry is William Saunders, Dominion analyst then director of experimental farms, Canada, C.M.G.(1905). Only the Canada 1890 stint (Prof. William Saunders, Director of Experimental Farm, position 91, shared C.M.G.) is him — an independently strong link. The other four stints are different same-surname people.",
+   "evidence_cited": [
+    {
+     "stint_id": "Saunders, Prof. William___Canada___1890",
+     "year": 1890,
+     "fact": "Director of Experimental Farm"
+    },
+    {
+     "stint_id": "Saunders, Prof. William___Canada___1890",
+     "year": 1890,
+     "fact": "C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [
+  {
+   "stint_id": "Saunders, H. W___Cape of Good Hope___1883",
+   "reason": "H. W. Saunders, Visiting Medical Officer, Cape — a different person."
+  },
+  {
+   "stint_id": "Saunders, Prof. William___Canada___1877",
+   "reason": "1877 records are John Simcoe Saunders (President of Legislative Council) — a different (upstream over-merged) person; the analyst's career began in 1882."
+  },
+  {
+   "stint_id": "Saunders, W. R. W___Natal___1905",
+   "reason": "W. R. W. Saunders, Magistrate, Natal — a different person."
+  },
+  {
+   "stint_id": "Saunders, William S___Sierra Leone___1886",
+   "reason": "W. S. Saunders, Supreme Court clerk/registrar, Sierra Leone — a different person."
+  }
+ ],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 4, hand-adjudicated (Claude Code, in-session)"
+}

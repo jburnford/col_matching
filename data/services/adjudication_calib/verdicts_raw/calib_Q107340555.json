@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107340555",
+  "persons": [
+    {
+      "bio_id": "furnes-smith_cecil_b1890",
+      "stint_ids": ["Furness-Smith, C___Zanzibar___1937"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the stint name carries only the initial 'C', and the dossier flags the single-initial namesake trap, so a different C. Furness-Smith (a relative, or a successor in the same post) could be the Zanzibar Attorney-General. This fails for several reasons. Attorney-General of Zanzibar is a unique, senior legal office, not a generic junior title that recurs across namesakes; the biography states this exact appointment with a date ('atty.-gen., Zanzibar, Mar., 1936') that immediately precedes the stint's first listing year (1937). The corpus contains only 2 officials with this rare hyphenated surname and a single biography, so the namesake pool is tiny. The stint ends in 1940, exactly when the 1950 biography records him moving on ('atty.-gen., Zanz., 1936; T.T., 1940') — the career shape and the staff-list window agree end-to-end. A successor hypothesis would require another barrister named C. Furness-Smith holding the identical office in the identical years, which the biography already claims for itself; no counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Furness-Smith, C___Zanzibar___1937", "year": 1936, "fact": "atty.-gen., Zanzibar, Mar., 1936"},
+        {"stint_id": "Furness-Smith, C___Zanzibar___1937", "year": 1937, "fact": "Attorney-General"},
+        {"stint_id": "Furness-Smith, C___Zanzibar___1937", "year": 1940, "fact": "atty.-gen., Zanz., 1936; T.T., 1940"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous barrister named C. Furness-Smith serving in East Africa in the late 1930s, or a staff-list record showing the Zanzibar Attorney-General 1937-1940 with a forename other than Cecil."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The seven OCR variants of the surname (FURNES-, FURNNESS-, FURNESSE-, RNESS-) are clearly the same printed biography; the compiled timeline is internally consistent across all editions. The stint's 1937-1940 listing window matches the biography's Zanzibar tenure exactly, including the 1940 transfer to Tanganyika Territory."
+}

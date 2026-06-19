@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q108050307",
+  "persons": [
+    {
+      "bio_id": "mayers_thomas-henry_b1907",
+      "stint_ids": ["Mayers, T. H___Kenya___1953"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: 4 Mayers appear in the staff lists, the deterministic honour check FAILED, and the Kenya puisne judgeship rests on a single bio version (the 1962 text) - the 1951 version says nothing about Kenya, so one might suspect the 1962 'puisne judge, Ken., 1952' clause was conflated from a different T. H. Mayers. But the 1962 version is unambiguously the same man (same birth year 1907, same Harrison Coll./Downing Coll. education, same Jamaica career res. mag. 1936 / solr.-gen. 1940 / atty.-gen. 1943), and it states 'puisne judge, Ken., 1952' with the closing tag '(Ken. Govt. service.)'. The stint shows T. H. Mayers as Puisne Judge in Kenya 1953-54, immediately after that 1952 appointment. The honour FAIL is illusory: the 1954 staff record prints 'Q.C.', and the bio's subject took silk (K.C., restyled Q.C. from 1952) - the honour actually agrees, the mechanical check simply compared against the bio's 'M.A.' field. A namesake would need identical initials, the same unique senior judgeship, the same colony and year, and a Q.C. A puisne judgeship is not a generic title. The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Mayers, T. H___Kenya___1953", "year": 1952, "fact": "puisne judge, Ken., 1952"},
+        {"stint_id": "Mayers, T. H___Kenya___1953", "year": 1953, "fact": "Puisne Judge"},
+        {"stint_id": "Mayers, T. H___Kenya___1953", "year": 1954, "fact": "Q.C."},
+        {"stint_id": "Mayers, T. H___Kenya___1953", "year": 1963, "fact": "(Ken. Govt. service.)"}
+      ],
+      "would_overturn": "Evidence of a second T. H. Mayers, Q.C. in the Kenya judiciary in 1953-54, or proof the 1962 bio version's Kenya clause was a compositor's conflation (e.g. a separate Mayers biography claiming the same Kenya judgeship)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Position similarity 100 (puisne judge), colony and dates exact (appointed 1952, listed 1953-54), initials exact, and the staff list's 'Q.C.' in 1954 matches the bio's silk (K.C. in earlier versions, Q.C. from 1962 version) - so the honour dimension in fact agrees despite the mechanical FAIL. The bio's '(Ken. Govt. service.)' tag and 'retd. 1963' confirm a continuing Kenya career consistent with the stint."
+}

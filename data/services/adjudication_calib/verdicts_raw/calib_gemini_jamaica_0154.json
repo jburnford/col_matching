@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_jamaica_0154",
+  "persons": [
+    {
+      "bio_id": "walker_edward-noel_b1842",
+      "stint_ids": ["Walker, E. N___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Walker is an extremely common surname (124 officials, 70 biographies), 'Assistant Secretary' is a generic junior title, and the staff list gives only initials 'E. N.', so this could be a different E. N. Walker — e.g. a relative serving in the same office, or the bio's dates could belong to someone else since the 1883 bio version says assistant government secretary from 4th May 1874 while the stint only begins in 1877 (a gap that could hide a substitution). This fails: (a) the stint's earlier absence is an artifact of which editions exist (1877 is the first listed edition), not of a different person; (b) the career shape matches the biography step for step — Assistant Secretary in the Colonial Secretary's Office, then Assistant Colonial Secretary, then Colonial Secretary of Jamaica, exactly the bio's 'asst. col. sec., Jamaica, May, 1874; col. sec., June, 1883'; (c) the 1886 staff row shows 'C.M.G.' against E. N. Walker as Colonial Secretary, appearing precisely after the bio's C.M.G. (1885) award and on the exact office the bio assigns him; (d) both initials match, not one. A namesake would have to share both initials, the same three successive offices in the same colony in the same years, and a C.M.G. awarded in the same window — not realistic.",
+      "evidence_cited": [
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1877, "fact": "Assistant Secretary"},
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1883, "fact": "Assistant Colonial Secretary"},
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1886, "fact": "Colonial Secretary"},
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1886, "fact": "C.M.G."},
+        {"stint_id": "Walker, E. N___Jamaica___1877", "year": 1883, "fact": "col. sec., June, 1883"}
+      ],
+      "would_overturn": "A record of a second E. N. Walker in Jamaica's Colonial Secretary's Office in 1877-1886, or evidence that the C.M.G. Colonial Secretary listed in 1886 was a different Walker (e.g. an appointment notice naming someone else as Jamaica's Colonial Secretary in 1883-1886)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Bio versions disagree on the start of the Jamaica assistant-colonial-secretaryship (1871 in the 1889 version vs May 1874 in the 1883/1898 versions) and on the Ceylon transfer year (1885 vs 1887); these are internal OCR/compilation variants of the same biography and do not affect the link. The 1886 staff listing as Colonial Secretary of Jamaica is consistent with the later Ceylon transfer (1887-1901 per the 1898 version)."
+}

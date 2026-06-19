@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0024",
+  "persons": [
+    {
+      "bio_id": "dias_felix-reginald_e1887",
+      "stint_ids": ["Dias, Felix R___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: Dias is a very common Ceylon surname (14 staff officials, 8 biographies), so a same-name relative could hold this judicial stint; surname is not evidence. This fails because both the bio and the staff list carry the distinctive full given name 'Felix' ('DIAS, FELIX REGINALD' / 'Felix R. Dias'), not merely shared initials, and the careers coincide step-for-step: Crown Counsel (bio 'crown counsel for the island, July, 1893' / staff list 'Crown Counsel' 1894-1900), then Additional District Judge (bio 'additnl. dist. judge, Colombo, July, 1900' / staff list 1907-08), then District Judge. The position match scores 100 and there are 5 agreeing edition-years, leaving no plausible second Felix Dias on this exact judicial ladder.",
+      "evidence_cited": [
+        {"stint_id": "Dias, Felix R___Ceylon___1894", "year": 1894, "fact": "Felix R. Dias | Crown Counsel"},
+        {"stint_id": "Dias, Felix R___Ceylon___1907", "year": 1907, "fact": "F. R. Dias | Additional District Judge"},
+        {"stint_id": "Dias, Felix R___Ceylon___1900", "year": 1900, "fact": "F. R. Dias | District Judge"}
+      ],
+      "would_overturn": "Evidence of a second 'Felix R. Dias' in the Ceylon Judicial Establishment over 1894-1920 with an overlapping Crown Counsel / District Judge career."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Distinctive forename 'Felix' carried in the staff list (not just initials) plus a Crown Counsel -> Additional District Judge -> District Judge trajectory matching the bio, with 5 agreeing edition-years. Minor place divergence (bio's last clause is District Judge Kandy 1908 while staff list shows Colombo from 1909) does not weaken the identification."
+}

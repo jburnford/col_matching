@@ -1,0 +1,42 @@
+{
+ "case_id": "case_saunders_frederick-richard_b1838",
+ "persons": [
+  {
+   "bio_id": "saunders_frederick-richard_b1838",
+   "stint_ids": [
+    "Saunders, F. R___Ceylon___1877"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Only the Ceylon stint is this man. Initials F.R., colony Ceylon, the inspector-general of prisons / government-agent offices and the C.M.G./K.C.M.G. all match the entry. The other three stints are same-surname different people (see unassigned).",
+   "evidence_cited": [
+    {
+     "stint_id": "Saunders, F. R___Ceylon___1877",
+     "year": 1877,
+     "fact": "Inspector-General of Prisons"
+    },
+    {
+     "stint_id": "Saunders, F. R___Ceylon___1877",
+     "year": 1877,
+     "fact": "Government Agent"
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [
+  {
+   "stint_id": "Saunders, Frank___Jamaica___1883",
+   "reason": "Frank Saunders, a Jamaica medical officer (Senior Medical Officer, Public Hospital) — a different person; this man was a Ceylon administrator, not a doctor."
+  },
+  {
+   "stint_id": "Saunders, R___South Australia___1888",
+   "reason": "R. Saunders, Inspector of Police, South Australia — a different person (different colony, single initial)."
+  },
+  {
+   "stint_id": "Saunders, Richardson___Bahamas___1877",
+   "reason": "Richardson Saunders, Bahamas — a different forename and colony."
+  }
+ ],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 2, hand-adjudicated (Claude Code, in-session)"
+}

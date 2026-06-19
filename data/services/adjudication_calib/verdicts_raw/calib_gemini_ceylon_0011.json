@@ -1,0 +1,27 @@
+{
+  "case_id": "calib_gemini_ceylon_0011",
+  "persons": [
+    {
+      "bio_id": "fraser_john-george_b1864",
+      "stint_ids": ["Fraser, J. G___Ceylon___1888", "Fraser, J. G___Ceylon___1896"],
+      "confidence": "certain",
+      "arguments_against": "Fraser is one of the commonest surnames in the corpus (140 staff-list officials, 69 biographies), so the live counter-hypothesis is a second J. G. Fraser in Ceylon. For the 1896 stint this fails decisively: the stint's distinctive middle career — Settlement Officer in the Land Settlement Department 1905-1911 — matches the bio's 'land settmtn. offr., Aug., 1901' exactly; Assistant Government Agent, North Western Province in 1900 matches 'astt. govt. agt., Chilaw, Dec., 1899' (Chilaw is in the North Western Province); Government Agent (acting) 1912 matches 'ag. govt. agt., W. Prov., 4th Jan., 1912'; Controller of Revenue (acting) 1914 matches 'ag. controller of revenue, in 1911, 1912, 1913, 1915 and 1916'; and the staff list shows C.M.G. from 1914, matching the bio's C.M.G. (1913). Five independent dimensions agree; no rival J. G. Fraser could shadow all of them. For the 1888 stint the trap is the generic junior title: 'cadet' recurs constantly and could belong to a different J. G. Fraser who left service by 1890. This fails on date specificity and cohort logic: the bio states 'cadet Ceylon civ. ser., Oct., 1887', and the staff list shows exactly one J. G. Fraser, Cadet, Civil Establishment, in 1888 and 1889 — precisely when John George Fraser must have been listed as a cadet. For the listed cadet to be someone else would require a second J. G. Fraser in the same tiny Ceylon cadet cohort at the same moment AND John George's own cadetship to be unprinted; jointly implausible. The 1890-1895 staff-list gap is covered by the bio's Badulla judgeship (Feb. 1894) and is a coverage gap, not a career break.",
+      "evidence_cited": [
+        {"stint_id": "Fraser, J. G___Ceylon___1888", "year": 1888, "fact": "cadet Ceylon civ. ser., Oct., 1887"},
+        {"stint_id": "Fraser, J. G___Ceylon___1896", "year": 1905, "fact": "land settmtn. offr., Aug., 1901"},
+        {"stint_id": "Fraser, J. G___Ceylon___1896", "year": 1900, "fact": "astt. govt. agt., Chilaw, Dec., 1899"},
+        {"stint_id": "Fraser, J. G___Ceylon___1896", "year": 1912, "fact": "ag. govt. agt., W. Prov., 4th Jan., 1912"},
+        {"stint_id": "Fraser, J. G___Ceylon___1896", "year": 1914, "fact": "C.M.G. (1913)"}
+      ],
+      "would_overturn": "Discovery of a second contemporaneous J. G. Fraser in the Ceylon civil service (e.g. two J. G. Fraser rows in one staff-list year in overlapping departments), or evidence that the 1888-89 cadet resigned rather than continuing into the 1890s service the biography describes."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Fraser, J. G___Ceylon___1919",
+      "reason": "The chain conflates two different people. Its 1919-1922 rows (Government Agent, C.M.G., including 'WESTERN PROVINCE' in 1921) match the biography's 'govt. agt., W. Prov., July, 1914' through retirement in 1924 very well. But its 1925 and 1927 rows are 'Master Attendant, Colombo Port Commission' with rank 'Captain' and no C.M.G. — a mariner's post held by a different J. G. Fraser, irreconcilable with Sir John George Fraser, a civil-service Government Agent who retired in 1924 ('ret., 1924') and was knighted that year (KT. BACH. (1924), which never appears on these rows). Assigning the whole stint would merge the harbour-master's records into the knight's. The chain needs splitting before its 1919-1922 portion can be linked."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Reviewer action suggested: split stint Fraser, J. G___Ceylon___1919 at the 1922/1925 boundary. The 1919-1922 sub-segment (Government Agent, C.M.G., Western Province) almost certainly belongs to fraser_john-george_b1864; the 1925-1927 Master Attendant/Captain rows belong to a different J. G. Fraser at the Colombo Port Commission."
+}

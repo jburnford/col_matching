@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_gemini_fiji_0142",
+  "persons": [
+    {
+      "bio_id": "gregg_b-l_b1905",
+      "stint_ids": ["Gregg, B. L___Fiji___1932"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the surname is moderately common in the corpus (8 staff-list officials, 3 biographies named Gregg), the biography gives only initials 'B. L.' (no forename), and the early staff-list title 'Clerk to Attorney-General' is a junior post that could in principle be held by a relative. This fails because the match is not built on the junior title or initials alone: the stint records three successive and increasingly distinctive offices in Fiji - Clerk to Attorney-General (1932-37), 'Deputy Registrar of Supreme Court; Deputy Registrar-General' (1939), and 'Registrar-General and Registrar of Titles' (1953-63) - and the biography lists exactly this sequence with matching dates ('clk. to atty.-gen., 1930', 'dep. registr.-gen. and dep. registr., sup. ct., 1938', 'registr.-gen., and registr. of titles, Fiji, 1950-63'). The head-of-department posts are unique offices in a small colony; two B. L. Greggs holding the identical three-office career in Fiji over the same 30 years is not a realistic hypothesis. The biography and stint also co-occur in 9 edition-years with position agreement, and the bio's stated end date 1963 matches the stint's last listing in 1963.",
+      "evidence_cited": [
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1932, "fact": "Clerk to Attorney-General"},
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1932, "fact": "clk. to atty.-gen., 1930"},
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1939, "fact": "Deputy Registrar of Supreme Court; Deputy Registrar-General"},
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1939, "fact": "dep. registr.-gen. and dep. registr., sup. ct., 1938"},
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1953, "fact": "Registrar-General and Registrar of Titles"},
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1953, "fact": "registr.-gen., and registr. of titles, Fiji, 1950-63"}
+      ],
+      "would_overturn": "Evidence of a second B. L. Gregg serving in Fiji's judicial/legal establishment in the same period (e.g. concurrent staff-list rows for two B. L. Greggs), or forename evidence showing the staff-list officer's initials resolve to a different person than the biography's subject."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography, single stint; three independent position-and-date agreements across a 31-year career in one colony, plus 9 edition co-occurrences. The 1941-49 staff-list gap is a listing gap, not a career break - the 1950 row resumes the same Deputy Registrar-General office held in 1940."
+}

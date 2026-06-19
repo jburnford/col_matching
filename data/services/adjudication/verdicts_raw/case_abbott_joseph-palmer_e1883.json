@@ -1,0 +1,12 @@
+{
+  "case_id": "case_abbott_joseph-palmer_e1883",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Abbott, J___South Australia___1879",
+      "reason": "The biography is a New South Wales political figure ('Secretary for mines, New South Wales, 5 Jan., 1883, to Oct., 1885'); the stint is a 'Draughtsmen' in the South Australia 'Survey Department' in 1879-1880. No dimension beyond surname and a single shared initial 'J' connects them: colony differs (NSW vs South Australia), there is no tenure overlap (stint ends 1880, bio career starts 1883), no position similarity (draughtsman vs ministerial secretary/speaker), no shared honours, and no edition co-occurrence (stint in editions 1879-1880, bio in 1886-1900). A junior technical draughtsman in SA becoming Secretary for Mines in NSW three years later is implausible career-shape continuity. The dossier also notes the stint is gate-compatible with a different biography (abbott_wm-jackson_e1901), and with 38 Abbotts in the staff lists the initial 'J' carries essentially no weight. Leaving unassigned per the prime directive."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "One-bio, one-stint case with zero supporting evidence dimensions: every substantive deterministic check (colony, tenure_overlap, position_sim, honour, edition_cooccurrence, place_inherited) is FAIL, and the verbatim entries confirm the mismatch rather than revealing an abbreviation the fuzzy checks missed. The strongest case FOR the merge would be that draughtsman is an early-career post predating the printed biography's 1883 start; but the colony is wrong, the trajectory (technical survey draughtsman to NSW cabinet minister within three years) is unrealistic, and 'J. Abbott' matches many candidates. No assignment is defensible."
+}

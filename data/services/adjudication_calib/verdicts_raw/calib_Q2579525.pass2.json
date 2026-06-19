@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q2579525",
+  "persons": [
+    {
+      "bio_id": "jervois_william-francis-drummond_e1841",
+      "stint_ids": ["Jervois, William Francis Drummond___New Zealand___1883", "Jervois, William Francis Drummond___South Australia___1878"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against the New Zealand stint: the honour check FAILED (the staff-list rows print no honours), so one could posit a different Sir W. F. D. Jervois as governor. That fails: the biography states 'governor, New Zealand, Nov., 1882' immediately preceding the stint's 1883-1888 listing, the staff list prints the identical rare triple forename, position_sim is 100, and New Zealand had one Governor at a time. Strongest case against the South Australia stint: the deterministic colony, tenure, and position checks all FAILED because the biography never names a South Australia post — perhaps a same-name relative (e.g. a son, since the 1879 staff list also shows a Lieutenant 'Jervois' as Aide-de-Camp) was the SA governor. That fails: the SA staff list prints the full 'William Francis Drummond Jervois' with exactly the biography's three honours (C.B., K.C.M.G., G.C.M.G.), and the elevation shown in the staff list — K.C.M.G. in the 1878 row, G.C.M.G. in the 1879 row — matches the biography's 'G.C.M.G. (1878)' to the year; the biography also records that he 'was selected by H.M.'s government to proceed to the Australian colonies' on defence work, the exact context of the SA appointment, and his next post is the NZ governorship in Nov. 1882, the classic career continuation from Adelaide to Wellington. A hypothetical second Sir W. F. D. Jervois, C.B., K.C.M.G.-then-G.C.M.G.-in-1878, does not exist; the corpus's other Jervois entries do not carry this name or honours.",
+      "evidence_cited": [
+        {"stint_id": "Jervois, William Francis Drummond___New Zealand___1883", "year": 1883, "fact": "governor, New Zealand, Nov., 1882"},
+        {"stint_id": "Jervois, William Francis Drummond___New Zealand___1883", "year": 1886, "fact": "Sir William Francis Drummond Jervois"},
+        {"stint_id": "Jervois, William Francis Drummond___South Australia___1878", "year": 1879, "fact": "G.C.M.G. (1878)"},
+        {"stint_id": "Jervois, William Francis Drummond___South Australia___1878", "year": 1878, "fact": "K.C.M.G., 1874"},
+        {"stint_id": "Jervois, William Francis Drummond___South Australia___1878", "year": 1878, "fact": "to proceed to the Australian colonies to advise the respective governments"}
+      ],
+      "would_overturn": "For New Zealand: a commission record showing a different person as Governor of New Zealand 1883-88. For South Australia: evidence that the 1878-79 Governor of South Australia was a distinct W. F. D. Jervois with independently identical honours, or that the biography's subject was elsewhere (e.g. still in the Straits or in the UK) throughout 1878-79."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1879 South Australia row 'Jervois | Aide-de-Camp | Lieutenant' is almost certainly a different person (a junior relative serving as the governor's ADC, a common arrangement) that the stint-builder grouped under the governor's stint; reviewers may want to split that single row out of the stint record. The biography's printed entry never explicitly names the South Australia governorship — the assignment rests on the full-name and triple-honour agreement with matched G.C.M.G. timing plus career continuity into the New Zealand post."
+}

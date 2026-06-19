@@ -1,0 +1,28 @@
+{
+  "case_id": "calib_gemini_ceylon_0015",
+  "persons": [
+    {
+      "bio_id": "kindersley_william-lobing_b1868",
+      "stint_ids": [
+        "Kindersley, William L___Ceylon___1900",
+        "Kindersley, William L___Ceylon___1909"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the corpus notes 3 officials with this surname in the staff lists, so one of these stints could belong to a different Kindersley — e.g. a brother or son also styled 'W. L.' serving in Ceylon, or the 1900 stint could be an earlier same-initials relative whose career the biography's holder later inherited (same generic posts: Police Magistrate, Assistant Government Agent are common offices). This fails for three reasons. (1) Both stints print the full forename 'William L', matching the bio's WILLIAM LOBING, not a bare initial. (2) The position-date agreement is too specific for a coincidence: the bio's 'asst. govt. agt. ... Chilaw, Nov., 1905; Puttalam, Apr., 1906' matches the 1900-stint's Assistant Government Agent rows in exactly 1905 and 1906; the bio's 'regisr.-gen., Sept., 1914' matches the 1909-stint's Registrar-General rows 1915-1919; the bio's 'govt. agt., Cent. Prov., July, 1920' matches the 1921 row 'Government Agent | CENTRAL PROVINCE'. (3) The two stints are one continuous career track under one printed name (Asst Govt Agent 1905-06 resuming 1909-11), leaving no room for a second simultaneous William L. Kindersley in the Ceylon establishment, and no such second person is attested anywhere in the dossier.",
+      "evidence_cited": [
+        {"stint_id": "Kindersley, William L___Ceylon___1900", "year": 1900, "fact": "Commissioners of Requests and Police Magistrates"},
+        {"stint_id": "Kindersley, William L___Ceylon___1900", "year": 1905, "fact": "Assistant Government Agent"},
+        {"stint_id": "Kindersley, William L___Ceylon___1900", "year": 1905, "fact": "Chilaw, Nov., 1905"},
+        {"stint_id": "Kindersley, William L___Ceylon___1900", "year": 1906, "fact": "Puttalam, Apr., 1906"},
+        {"stint_id": "Kindersley, William L___Ceylon___1909", "year": 1915, "fact": "Registrar-General"},
+        {"stint_id": "Kindersley, William L___Ceylon___1909", "year": 1915, "fact": "regisr.-gen., Sept., 1914"},
+        {"stint_id": "Kindersley, William L___Ceylon___1909", "year": 1921, "fact": "CENTRAL PROVINCE"},
+        {"stint_id": "Kindersley, William L___Ceylon___1909", "year": 1921, "fact": "govt. agt., Cent. Prov., July, 1920"}
+      ],
+      "would_overturn": "Evidence of a second 'William L. Kindersley' in the Ceylon establishment in 1900-1921 (e.g. two W. L. Kindersley rows in the same staff-list year, or a second biography with the same forename and overlapping Ceylon service); or a staff-list row in either stint showing a post/place incompatible with the bio timeline (e.g. a 1905 posting outside Chilaw/Puttalam agencies)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints are almost certainly one career split by edition-coverage gaps (1907-1908 missing): same printed name 'W. L. Kindersley', same Assistant Government Agent track resuming across the gap. The deterministic place_inherited FAILs reflect the bio's clause-chaining style, not weak evidence — the verbatim entry places every post in named Ceylon stations."
+}

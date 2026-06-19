@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_Q107340153",
+  "persons": [
+    {
+      "bio_id": "cools-lartigue_alexander-raphael_b1899",
+      "stint_ids": ["Cools-Lartigue, A. R___Jamaica___1954", "Cools-Lartigue, A. R___Windward Islands___1939"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: there are 3 Cools-Lartigue biographies and 8 staff-list officials, so one of these stints - especially the Windward Islands one, where every deterministic check failed - could belong to a same-name relative with the same 'A. R.' initials. But the deterministic FAILs on the Windward stint are artifacts of place resolution, not of the evidence: the bio's 1950 version reads 'atty.-gen., St. L., 1938; Wind. Is., 1942; puisne judge, Wind. and Leeward Is., 1949', and St. Lucia is administratively part of the Windward Islands, so an A. R. Cools-Lartigue listed as Attorney-General under 'Windward Islands' in 1939 and 1950 is precisely what the bio predicts. The 1952-53 records ('Puisne Judge, Windward and Leeward Islands (St. Vincent Circuit)') quote the bio's own unusual joint title almost verbatim. These are unique senior offices; a relative would have had to hold the identical Attorney-Generalship and the identical joint puisne judgeship in the identical years claimed by the bio. For the Jamaica stint, the bio says 'J'ca., 1953' and '(J'ca Govt. service.)', and the stint begins 1954, the year after the Windward listing ends - a single continuous career, not two people. The counter-hypothesis fails for both.",
+      "evidence_cited": [
+        {"stint_id": "Cools-Lartigue, A. R___Windward Islands___1939", "year": 1938, "fact": "atty.-gen., St. L., 1938"},
+        {"stint_id": "Cools-Lartigue, A. R___Windward Islands___1939", "year": 1942, "fact": "Wind. Is., 1942"},
+        {"stint_id": "Cools-Lartigue, A. R___Windward Islands___1939", "year": 1952, "fact": "Puisne Judge, Windward and Leeward Islands (St. Vincent Circuit)"},
+        {"stint_id": "Cools-Lartigue, A. R___Windward Islands___1939", "year": 1949, "fact": "puisne judge, Wind. and Leeward Is., 1949"},
+        {"stint_id": "Cools-Lartigue, A. R___Jamaica___1954", "year": 1953, "fact": "J'ca., 1953"},
+        {"stint_id": "Cools-Lartigue, A. R___Jamaica___1954", "year": 1954, "fact": "Puisne Judge"}
+      ],
+      "would_overturn": "Discovery that one of the other Cools-Lartigue biographies also carries initials A. R. with a West Indian legal career in the same years, or a record showing the Windward Islands Attorney-General of 1939/1950 had different forenames."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The Windward Islands stint's deterministic FAILs (colony, tenure, position) stem from the compiled timeline attaching 'St. Lucia' rather than 'Windward Islands' to the relevant events; the verbatim text resolves this - St. Lucia's Attorney-General appears in the Windward Islands staff list, and the bio explicitly extends the post to 'Wind. Is., 1942' and the judgeship to 'Wind. and Leeward Is., 1949'. The two stints dovetail (Windward listing ends 1953; Jamaica listing begins 1954; bio: puisne judge 'J'ca., 1953'), forming one continuous career."
+}

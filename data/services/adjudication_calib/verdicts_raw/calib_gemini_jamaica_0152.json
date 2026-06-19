@@ -1,0 +1,12 @@
+{
+  "case_id": "calib_gemini_jamaica_0152",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Burke, S. Constantine___Jamaica___1877",
+      "reason": "Hard chronological impossibility for the stint as a whole: the biography's subject took his 'B.A. Jesus Coll., Camb., 1890' and was called 'barrister-at-law, Inner Temp., 1890', so he was born around 1868-70 and cannot be the 'S. C. Burke' listed as Crown Solicitor and 'S. Constantine Burke' listed as Assistant to the Attorney-General from 1877 - he would have been a child. The stint (1877-1922) almost certainly conflates two people under one staff-list key: an elder S. Constantine Burke (senior law officer 1877-1890, then Legislative Council member and Schools Commission member to ~1900) and a younger S. C. Burke whose 'Clerk' rows in Clerks of the Courts from 1899 and Assistant Resident Magistrate rows from 1911 do match the biography's 'clk. of cta., Jamaica, 1898' and its edition run (1908-1924). Burke is the commonest surname in the case set (30 staff-list officials, 11 biographies), the biography is initials-only, and father/son same-name pairs in the same colony are an explicitly flagged trap. Because the stint is a single unit and a large portion of it provably belongs to someone else, assigning it to this biography would be a false merge. The post-1899 clerkship/magistracy rows should be split into a separate stint before any assignment is attempted."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Recommend splitting this stint: rows 1877-1898 (Crown Solicitor, Assistant to the Attorney-General, Legislative Council, Schools Commission) appear to be an elder S. Constantine Burke; rows 1899-1922 (Clerk, Clerks of the Courts; Assistant to R. M. Kingston; Assistant Resident Magistrate) are consistent with the biography burke_s-c_e1890 ('clk. of cta., Jamaica, 1898', editions 1908-1924) and could plausibly be assigned to it after a split. As compiled, the stint cannot be assigned without merging two people."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_curated_nicholls_haa",
+  "persons": [
+    {
+      "bio_id": "nicholls_henry-alfred-alford_b1851",
+      "stint_ids": [
+        "Nicholls, H. A. Alford___Dominica___1886",
+        "Nicholls, H. A. Alford___Leeward Islands___1897"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: 22 Nicholls officials and 7 biographies exist in the corpus; the two stints span 35+ years (1886-1925), long enough that a father and son holding successive medical posts in the same small colony could masquerade as one career; and the Dominica stint's position_sim check failed mechanically. This fails. The staff-list name form 'H. A. Alford Nicholls' is highly distinctive (three initials plus the unusual middle-name form 'Alford', matching HENRY ALFRED ALFORD exactly). The Dominica records match the bio office-for-office across the whole span: 'Medical Officer of Public Institutions' = 'med. offr., pub. instituta., 1880' (the position_sim FAIL compared the wrong clause, 'hth. offr.'); 'Medical Officer of the Public Institutions and Health Officer' in 1898 matches 'hth. offr. of Dominica, 1897'; 'Senior Medical Officer' matches 'sen. med. offr., Dominica, 1904'. The Leeward Islands stint is the same man listed under the federal colony (Dominica was a presidency of the Leeward Islands): 'Official Member, Legislative Council' matches 'offr. mem. of legis. coun., 1898'; 'Member, Executive Council' matches 'mem. exec. coun., 1914' and 'offr. mem. exec. coun., Leeward Is., 1922'; 'Principal Medical Officer' (1923-25) matches 'prin. med. offr., Dominica, 1922'. Decisively against the father/son hypothesis: the C.M.G. appears in the staff lists exactly from 1897-98 onward, tracking his C.M.G. (1896) award, and persists on both stints throughout — a son would not carry the identical honour. One continuous, internally consistent medical-administrative career in one small colony, with the honour timeline anchored.",
+      "evidence_cited": [
+        {"stint_id": "Nicholls, H. A. Alford___Dominica___1886", "year": 1886, "fact": "medical officer public institutions"},
+        {"stint_id": "Nicholls, H. A. Alford___Dominica___1886", "year": 1921, "fact": "sen. med. offr., Dominica, 1904"},
+        {"stint_id": "Nicholls, H. A. Alford___Leeward Islands___1897", "year": 1899, "fact": "offr. mem. of legis. coun., 1898"},
+        {"stint_id": "Nicholls, H. A. Alford___Leeward Islands___1897", "year": 1925, "fact": "prin. med. offr., Dominica, 1922"}
+      ],
+      "would_overturn": "Evidence of a second H. A. A. Nicholls (e.g. a son) holding medical office in Dominica in this period with his own C.M.G., or a death/retirement record for Henry Alfred Alford Nicholls before 1925 that would orphan the later listings."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints are one career listed under two colony headings: Dominica was a presidency of the Leeward Islands federation, so its officers appear in both the island and federal staff lists, often in the same edition-years."
+}

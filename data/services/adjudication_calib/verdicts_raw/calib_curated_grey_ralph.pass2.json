@@ -1,0 +1,30 @@
+{
+  "case_id": "calib_curated_grey_ralph",
+  "persons": [
+    {
+      "bio_id": "grey_ralph-francis-alnwick_b1910",
+      "stint_ids": [
+        "Grey, Ralph___Nigeria___1956",
+        "Grey, Ralph___British Guiana___1960",
+        "Grey, Ralph___Bahamas___1964",
+        "Grey, Ralph___West Indies Federation___1961",
+        "Grey, Ralph___Western Pacific___1965"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Nigeria 1956-58: a second Sir Ralph Grey as Chief Secretary of the Federation is excluded — unique office, and the honours track the bio exactly (C.M.G. in 1956 matching C.M.G. (1955); K.C.V.O., C.M.G., O.B.E. in 1958 matching K.C.V.O. (1956) and O.B.E.), with the 1958 row's Deputy Governor-General matching 'dep. gov.-gen., 1957'. British Guiana 1960-64: the deterministic colony FAIL is a parsing artifact (the bio's 'gov. and c.-in-c. B. Guiana, 1959' clause was wrongly tagged Nigeria by place-inheritance); the verbatim text names British Guiana, the unique governorship starts 1959, and the staff list's K.C.M.G. matches K.C.M.G. (1959). Bahamas 1964-66: the staff list's 'Governor and Commander-in-Chief (Designate)' in 1964 reproduces the bio's unusual '(designate)' qualifier verbatim, with honours G.C.M.G., K.C.V.O., O.B.E. matching G.C.M.G. (1964). The two anomalous stints need the strongest counter-case. West Indies Federation 1961-62: he was never a WIF official — could this be a different Ralph Grey governing a federation territory? The rows sit in roster departments ('Governors and Commanders-in-Chief', 'Colonial Office'), i.e. central lists of serving governors, during the exact years he was Governor and C-in-C of British Guiana, the adjacent Caribbean territory grouped with the West Indies in these volumes; no other Grey held any governorship then, and inventing an otherwise unrecorded WIF governor named Ralph Grey (no honours, no bio, no other trace among 30 corpus Greys) is not a realistic hypothesis. Western Pacific 1965-66: he was Governor of the Bahamas then, not Western Pacific High Commissioner — but the 1966 row carries the exact honours triple G.C.M.G., K.C.V.O., O.B.E., a fingerprint-grade combination (K.C.V.O. is vanishingly rare in colonial service), under departments 'Colonial Office' and 'Miscellaneous Islands', again central-roster context with a mis-resolved colony label. A second 'Sir Ralph Grey, Governor and Commander-in-Chief' with the identical three honours in the identical years does not exist.",
+      "evidence_cited": [
+        {"stint_id": "Grey, Ralph___Nigeria___1956", "year": 1956, "fact": "chief sec., 1955"},
+        {"stint_id": "Grey, Ralph___Nigeria___1956", "year": 1958, "fact": "dep. gov.-gen., 1957"},
+        {"stint_id": "Grey, Ralph___British Guiana___1960", "year": 1960, "fact": "gov. and c.-in-c. B. Guiana, 1959"},
+        {"stint_id": "Grey, Ralph___British Guiana___1960", "year": 1961, "fact": "K.C.M.G. (1959)"},
+        {"stint_id": "Grey, Ralph___Bahamas___1964", "year": 1964, "fact": "gov. and c.-in-c. (designate), Bahamas, 1964"},
+        {"stint_id": "Grey, Ralph___West Indies Federation___1961", "year": 1961, "fact": "gov. and c.-in-c. B. Guiana, 1959"},
+        {"stint_id": "Grey, Ralph___Western Pacific___1965", "year": 1966, "fact": "G.C.M.G. (1964)"}
+      ],
+      "would_overturn": "For the two roster stints: evidence that the West Indies Federation or Western Pacific sections list a genuinely distinct serving Ralph Grey (e.g. an appointment gazette, a salary line, or honours inconsistent with this man). For the core three: any record of a second Sir Ralph Grey in 1950s-60s colonial service."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "One career, five stint fragments. The West Indies Federation and Western Pacific colony labels contradict the printed career, but in both the department fields ('Governors and Commanders-in-Chief', 'Colonial Office', 'Miscellaneous Islands') show these are centralized governor rosters whose colony attribution was inferred from page context; the honours fingerprint (G.C.M.G., K.C.V.O., O.B.E.) and the years tie them to this man. Reviewer note: the colony-resolution step for roster pages is the underlying data bug."
+}

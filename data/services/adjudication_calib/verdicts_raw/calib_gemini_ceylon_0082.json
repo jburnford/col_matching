@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0082",
+  "persons": [
+    {
+      "bio_id": "arunachalam_ponnambalam_b1853",
+      "stint_ids": ["Arunachalam, P___Ceylon___1878", "Arunachalam, P___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the dossier flags the single-initial namesake trap (early entries print only 'ARUNACHALAM, P.'), a second Arunachalam exists in the staff lists (plausibly a son or kinsman in the same service), and the 1894 stint's deterministic place check failed because its supporting bio events inherit 'Ceylon' from an earlier clause. This fails on the office-sequence evidence, which is specific and dated. For the 1878 stint: the staff list shows 'Commissioner of Requests, Police Magistrate' from 1878 and 'District Judge, Commissioner of Requests and Police Magistrate' in 1888, matching the biography's 'comsrr. of requests, pol. mag, 1876' and 'dist. judge, June, 1887' (1885 in an earlier version). For the 1894 stint: 'Commissioner of Requests' at Colombo 1894-1898 matches 'comsrr. of requests, Colombo, 1892'; 'Registrar-General' from the 1899 edition matches 'registr.-gen., Jan., 1898'; the anomalous 1905 row 'District Judge, Commissioner of Requests, Police Magistrate' matches his documented 1903-1905 interlude as 'officer of class I, dist. judge, Kurunegala, 23rd June, 1903' before 'registr.-gen., Feb., 1905'; and the stint terminates in 1913, the year the biography prints 'ret., 1913'. A namesake would have to replicate this entire dated sequence including the unique colony-wide post of Registrar-General. The biography's forename is fully printed (Ponnambalam) in later editions, and the age gate is consistent throughout. No live counter-hypothesis survives for either stint, and the two stints are the same continuous career with a listing gap 1889-1893.",
+      "evidence_cited": [
+        {"stint_id": "Arunachalam, P___Ceylon___1878", "year": 1878, "fact": "Commissioner of Requests, Police Magistrate"},
+        {"stint_id": "Arunachalam, P___Ceylon___1878", "year": 1888, "fact": "District Judge, Commissioner of Requests and Police Magistrate"},
+        {"stint_id": "Arunachalam, P___Ceylon___1894", "year": 1894, "fact": "Commissioner of Requests"},
+        {"stint_id": "Arunachalam, P___Ceylon___1894", "year": 1899, "fact": "Registrar-General"},
+        {"stint_id": "Arunachalam, P___Ceylon___1894", "year": 1905, "fact": "District Judge, Commissioner of Requests, Police Magistrate"}
+      ],
+      "would_overturn": "Evidence that the second Arunachalam in the staff lists also served as Commissioner of Requests or Registrar-General with initial P. in these same years, or a record placing Ponnambalam Arunachalam outside Ceylon during 1878-1888 or 1894-1913."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Sir Ponnambalam Arunachalam, b. 1853. Single-initial warning is mitigated by full forename in later editions, near-unique surname (2 officials, 1 biography), and a dated office sequence (police magistrate -> district judge -> commissioner of requests Colombo -> registrar-general -> district judge Kurunegala interlude -> registrar-general -> retired 1913) that both stints jointly reproduce. The stint end in 1913 coincides exactly with the printed retirement."
+}

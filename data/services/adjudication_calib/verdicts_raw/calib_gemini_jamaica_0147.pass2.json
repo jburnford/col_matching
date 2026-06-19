@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0147",
+  "persons": [
+    {
+      "bio_id": "trench_d-p_e1848",
+      "stint_ids": ["Trench, Daniel Power___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "TRENCH is common in this corpus (8 officials, 6 bios) and the bio gives only initials 'D. P.' with no birth year, so on its face this is a weak two-initial case. This fails because the stint supplies the FULL forename 'Daniel Power Trench', which uniquely expands the bio's D. P., and the office is a single high-level post: bio 'collector general of Jamaica upon the amalgamation of the customs, excise, and internal revenue departments in March, 1869' matches the staff list's 'Collector-General' (Revenue Department) verbatim. The bio's 'official member of the legislative council 1866' matches the Collector General appearing under Legislative Council / Official Members. Only one person can be Collector-General of Jamaica at a time; combined with the full-forename agreement, none of the other Trench bios could hold this stint.",
+      "evidence_cited": [
+        {"stint_id": "Trench, Daniel Power___Jamaica___1877", "year": 1877, "fact": "Collector-General"},
+        {"stint_id": "Trench, Daniel Power___Jamaica___1877", "year": 1877, "fact": "collector general of Jamaica upon the amalgamation of the customs, excise, and internal revenue departments in March, 1869"},
+        {"stint_id": "Trench, Daniel Power___Jamaica___1877", "year": 1877, "fact": "Legislative Council"},
+        {"stint_id": "Trench, Daniel Power___Jamaica___1877", "year": 1878, "fact": "Official Members"}
+      ],
+      "would_overturn": "A second Daniel Power Trench, or evidence the staff-list Collector-General was a different D. P. Trench than the bio."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full forename 'Daniel Power' in the stint pins the bio's D. P. initials; the unique senior office Collector-General of Jamaica plus Legislative Council membership make this certain despite the common surname."
+}

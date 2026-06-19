@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_malta_0226",
+  "persons": [
+    {
+      "bio_id": "zammit_professor-sir-themistocles_b1864",
+      "stint_ids": ["Zammit, Themistocles___Malta___1886"],
+      "confidence": "certain",
+      "arguments_against": "Two counter-cases. First, 22 Zammits appear in the Malta staff lists, so the surname carries no weight. Second and more concrete: the 1886 'T. Zammit, District Medical Officer' line predates the bio's 'grad. in medicine, 1889', so that earliest year could be a different Zammit folded into this staff-list chain. Both fail: the dominant body of the stint reproduces the bio's distinctive senior-office career uniquely and in matching years -- 'Government Analyst' (Sanitary Branch) matches 'govt. analyst, 1891-1920'; 'Chemistry, Professors ... Malta University' matches 'prof. of chemistry, Malta Univ., 1905-20'; 'Curator, Museum' matches 'curator, Valletta Museum, 1903'; 'Rector of the University' (from 1922) matches 'rector, Malta Univ., July, 1920'; and the staff list carries the C.M.G. honour from 1912 matching the bio's 'C.M.G. (1911)'. The forename Themistocles plus this exact union of four senior posts and the C.M.G. identifies one man. The single early DMO year does not break a stint otherwise overwhelmingly his.",
+      "evidence_cited": [
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1907, "fact": "govt. analyst, 1891-1920"},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1906, "fact": "prof. of chemistry, Malta Univ., 1905-20"},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1917, "fact": "curator, Valletta Museum, 1903"},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1922, "fact": "rector, Malta Univ., July, 1920"},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1912, "fact": "C.M.G. (1911)"}
+      ],
+      "would_overturn": "Evidence that the Government Analyst / Professor of Chemistry / Curator / Rector posts were held by two distinct Zammits rather than one would reverse this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Sir Themistocles Zammit. Forename, four matching senior posts, shared C.M.G., colony, and age all corroborate. The 1886 District Medical Officer line precedes his 1889 medical degree and may be an aggregation artifact, but does not undermine the identification of the stint as a whole."
+}

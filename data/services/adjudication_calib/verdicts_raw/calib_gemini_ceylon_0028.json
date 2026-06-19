@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0028",
+  "persons": [
+    {
+      "bio_id": "kynsey_w-r-f-k-q-c-p-c-m-g-1888_b1840",
+      "stint_ids": ["Kynsey, William R___Ceylon___1878"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the bio is initials-only ('W. R.'), and the dossier could in principle hide a same-name relative — e.g. a son 'William R. Kynsey' who succeeded his father in the medical department, with the staff lists silently switching person mid-stint. This fails on every dimension. The office — 'Principal Civil Medical Officer and Inspector-General of Hospitals' — is a unique, island-wide headship held by one person at a time, and the stint holds it unbroken 1878-1896, squarely inside the bio's tenure ('Feb., 1875' to 'ret., 1897'); a succession would show a title change or gap. The 1894 and 1896 rows carry the honour 'C.M.G.', matching the bio's 'C.M.G. 1888' (the deterministic honour check missed this because the bio's honour field was OCR-mangled into the name). The corpus contains exactly one Kynsey in the staff lists and one in the biographies, so there is no candidate second person at all. The single-initial caution is satisfied by the specific unique-office match plus the shared honour plus 4 agreeing edition-years.",
+      "evidence_cited": [
+        {"stint_id": "Kynsey, William R___Ceylon___1878", "year": 1878, "fact": "Principal Civil Medical Officer and Inspector-General of Hospitals"},
+        {"stint_id": "Kynsey, William R___Ceylon___1878", "year": 1878, "fact": "prin. civ. med. offr., and inspr.-gen. of hospitals, Ceylon, Feb., 1875"},
+        {"stint_id": "Kynsey, William R___Ceylon___1878", "year": 1894, "fact": "C.M.G."},
+        {"stint_id": "Kynsey, William R___Ceylon___1878", "year": 1896, "fact": "ret., 1897"}
+      ],
+      "would_overturn": "Evidence of a second W. R. Kynsey in colonial service (none exists in this corpus), or a record showing the Principal Civil Medical Officer post changed hands between 1878 and 1896 while the printed name stayed the same."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The bio's printed name field is OCR-corrupted ('KYNSEY, W. R. F. K.Q.C.P.; C.M.G. (1888)' — post-nominals fused into the name; one version misprints the surname as KYNSLEY). The stint's C.M.G. honour in 1894/1896 corroborates the bio's C.M.G. (1888) despite the mechanical honour-check FAIL."
+}

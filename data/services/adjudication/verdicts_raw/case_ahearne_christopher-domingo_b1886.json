@@ -1,0 +1,27 @@
+{
+  "case_id": "case_ahearne_christopher-domingo_b1886",
+  "persons": [
+    {
+      "bio_id": "ahearne_christopher-domingo_b1886",
+      "stint_ids": [
+        "Ahearne, C. D___Straits Settlements___1913",
+        "Ahearne, C. D___Straits Settlements___1931"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: (1) The 1913-1920 stint shows only generic cadet-service titles (Passed Cadets, Class V Cadet, Supernumerary), and the dossier warns that junior titles like 'cadet' recur constantly; a second, undocumented C. D. Ahearne could be the cadet while the biography subject held the labour-department posts. This fails because the corpus contains only 2 officials with this surname in the staff lists (these two stints) and 1 biography, the biography explicitly enters the same service ('cadet, S. Stltmte., 1910') at the right time for a 1913 'Passed Cadets' listing, and the bio's Jan. 1919 promotion to a numbered officer class mirrors the stint's 1919 'Cadet Service Officer - Class V' record; positing a simultaneous second C. D. Ahearne cadet in the same small Straits service is not a realistic alternative. The class-iv vs Class V discrepancy is a one-character OCR/edition-lag issue, not a different career. (2) For the 1931 stint, the gate notes flag another gate-compatible biography, 'aharne_christopher-dominic_b1886'. This fails as a counter-hypothesis because that record is transparently the same individual under an OCR-mangled surname (AHARNE/AHEARNE, DOMINIC/DOMINGO, identical birth year 1886, same colony); it is a duplicate-extraction problem for the pipeline, not evidence of a distinct person. (3) The deterministic colony/tenure/position checks all FAIL - but they fail only because no bio event mechanically resolved to the literal string 'Straits Settlements'; the printed entry is wall-to-wall Penang/Klang/Singapore/Balik Pulau/S'pore service, i.e. the Straits Settlements throughout, so the FAILs are an artifact of place resolution, not disagreement.",
+      "evidence_cited": [
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1913", "year": 1910, "fact": "cadet, S. Stltmte., 1910"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1913", "year": 1919, "fact": "Cadet Service Officer - Class V"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1913", "year": 1919, "fact": "offr., cls. iv., Jan., 1919"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1931", "year": 1931, "fact": "Controller of Labour, Malaya"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1931", "year": 1925, "fact": "ag. contr. lab., Malaya, in addn., Feb., 1925"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1931", "year": 1931, "fact": "Deputy Treasurer (A)"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1931", "year": 1929, "fact": "dep. treas. S.S., 1929"}
+      ],
+      "would_overturn": "Evidence of a second C. D. Ahearne/Aharne in the Straits Settlements service in this period as a distinct individual (e.g. a separate biography for 'aharne_christopher-dominic_b1886' with a materially different career, different birth year, or overlapping but incompatible postings), or a staff-list record placing the cadet-service C. D. Ahearne in a post incompatible with the biography's documented 1913-1920 Penang/Klang/Singapore appointments."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Both stints are flagged as gate-compatible with 'aharne_christopher-dominic_b1886' outside this case. That bio id (AHARNE, CHRISTOPHER DOMINIC, b. 1886) is almost certainly an OCR-variant duplicate of AHEARNE, CHRISTOPHER DOMINGO, b. 1886 - same initials, same birth year, same colony. It is not in this case so it cannot be listed in duplicate_bio_groups, but the pipeline should reconcile the two bio records before finalizing, since these stints may otherwise be double-linked. The deterministic FAILs on colony/tenure/position are artifacts: the bio's places (Penang, Klang, Singapore, Balik Pulau) were never resolved to the colony string 'Straits Settlements'. The 1931 stint's simultaneous Controller of Labour, Malaya + Deputy Treasurer listings match the bio's distinctive late-career combination ('ag. contr. lab., Malaya' + 'dep. treas. S.S.') on two independent specific positions, and the bio's last attested edition (1930) abuts the stint window (1931-1932)."
+}

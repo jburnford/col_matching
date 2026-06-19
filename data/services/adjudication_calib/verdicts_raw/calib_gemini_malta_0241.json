@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_malta_0241",
+  "persons": [
+    {
+      "bio_id": "amato-gauci_f-e_b1917",
+      "stint_ids": ["Amato-Gauci, F. E___Malta___1953"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the biography prints initials only ('F. E.'), so a same-initialled relative (father, brother) could in theory be the staff-list officer; the place_inherited check also flags that all the bio's placed events inherit 'Malta' from one clause. Why this fails: Amato-Gauci is a rare double-barrelled surname -- the corpus context records exactly 1 official with this surname in the staff lists and 1 biography, so there is no namesake pool at all; both initials agree exactly; and the careers match on specific senior posts with the correct transition: the bio's 'dir. of labr., 1949' matches 'Director of Labour' (1953-1956 rows; position_sim 76), the bio's 'dir., emig., labr. and soc. welf., 1956' matches 'Director of Emigration, Labour and Social Welfare' (1957-1959 rows), and the 1959 staff list prints the honour 'M.B.E.' matching the bio's 'M.B.E. (mil.) (1945)' -- the deterministic honour FAIL is a mechanical miss, not a real disagreement. The Malta place inheritance is irrelevant given the entire career, bio and stint alike, is Maltese government service. Multiple independent agreeing dimensions, no live counter-hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Amato-Gauci, F. E___Malta___1953", "year": 1953, "fact": "Director of Labour"},
+        {"stint_id": "Amato-Gauci, F. E___Malta___1953", "year": 1957, "fact": "Director of Emigration, Labour and Social Welfare"},
+        {"stint_id": "Amato-Gauci, F. E___Malta___1953", "year": 1959, "fact": "M.B.E."},
+        {"stint_id": "Amato-Gauci, F. E___Malta___1953", "year": 1953, "fact": "F. E. Amato-Gauci"}
+      ],
+      "would_overturn": "Discovery of a second F. E. Amato-Gauci in Maltese service (e.g., a father with identical initials holding the Labour directorship), or evidence that the Director of Labour of 1953-1959 bore different forenames than the biography subject."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The bio dates posts at appointment ('dir. of labr., 1949') while the stint's first listing is 1953; Colonial Office List staff-list coverage of Maltese departments is intermittent, so the lag is unremarkable. The bio's 'dir., labr. and soc. welf., 1955' title does not appear verbatim in the staff list (which goes straight from 'Director of Labour' in 1956 to the fuller emigration title in 1957) -- a one-edition printing lag, not a discrepancy of identity."
+}

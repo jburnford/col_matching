@@ -1,0 +1,21 @@
+{
+  "case_id": "case_addison_a-j_b1922",
+  "persons": [
+    {
+      "bio_id": "addison_a-j_b1922",
+      "stint_ids": ["Addison, A. J___Gold Coast___1949"],
+      "confidence": "probable",
+      "arguments_against": "The strongest case against: Addison is a common surname in the Gold Coast (the corpus has 21 officials and 10 biographies with this surname), so the stint could belong to a different A. J. Addison — e.g. a relative who was also a Gold Coast engineer in 1949-51, while the biography's subject held a post not captured by this staff list. There is also no shared honour and no edition co-occurrence to corroborate. This counter-hypothesis fails to be compelling because the agreement is not name-only: both initials match exactly, the profession matches specifically (bio 'engrnr., 1948' vs staff-list position 'Engineers' — engineer, not a generic junior title like clerk or cadet), the colony matches, and the 1949-1951 listing sits exactly inside the bio's engineer phase (promoted engineer 1948, regional engineer 1955), with age 27 at stint start being entirely plausible. The edition_cooccurrence FAIL is expected, not contrary: the biography appears only in the 1956 edition while the stint is from the 1949/1951 staff lists, so no agreeing edition-years are possible. Still, because the only corroborating dimensions beyond initials are profession and timeline, and the surname is locally common, a second A. J. Addison engineer cannot be ruled out to publication standard, so this stays 'probable' rather than 'certain'.",
+      "evidence_cited": [
+        {"stint_id": "Addison, A. J___Gold Coast___1949", "year": 1949, "fact": "A. J. Addison | Engineers | Posts and Telegraphs"},
+        {"stint_id": "Addison, A. J___Gold Coast___1949", "year": 1951, "fact": "A. J. Addison | Engineers | Engineering Branch"},
+        {"stint_id": "Addison, A. J___Gold Coast___1949", "year": 1948, "fact": "engrnr., 1948"},
+        {"stint_id": "Addison, A. J___Gold Coast___1949", "year": 1955, "fact": "regl. engrnr. (G.C. local service), 1955"}
+      ],
+      "would_overturn": "Evidence of a second A. J. Addison serving as an engineer in the Gold Coast circa 1949-1951 (e.g. another biography or staff-list entry with the same initials and profession); or a 1949/1951 staff-list detail incompatible with the biography, such as the Posts and Telegraphs engineer holding an honour, seniority date, or forename that contradicts a man born in 1922 who joined as probationary assistant engineer in 1943."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. All deterministic gates pass except honour (neither side lists any honour) and edition_cooccurrence, which is structurally impossible here: the bio is attested only in the 1956 edition, the stint only in 1949/1951. The stint years 1949-1951 fall precisely within the bio's 'engrnr.' phase (1948-1955), consistent with a 1943 probationary-assistant-engineer entrant born 1922. Held at 'probable' (human review) rather than 'certain' solely because the surname is locally common (21 staff-list officials) and corroboration rests on initials + profession + timeline without honours or co-occurrence."
+}

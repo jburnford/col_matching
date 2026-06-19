@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107333441",
+  "persons": [
+    {
+      "bio_id": "simmons_e-b_b1913",
+      "stint_ids": ["Simmons, E. B___Tanganyika___1960"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: 44 officials named Simmons appear in the staff lists, so another E. B. Simmons could conceivably be the Tanganyika judge, and the deterministic position_sim check FAILED (59 vs bar 60). But that FAIL is purely lexical: 'puisne judge' IS a High Court judge by definition; the titles denote the same office, not different ones. For the counter-hypothesis to hold, a second person with the identical initials 'E. B.' would have to be appointed a High Court judge in Tanganyika in exactly the window (1960-61) when the biography says this man became 'puisne judge ... Tang., 1959' - while the biography's subject, an active senior judge, somehow vanishes from the very staff list his own entry says he serves in. No such second E. B. Simmons biography exists in the case, and a senior judgeship is a unique, non-generic post (one or a few holders per colony). The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Simmons, E. B___Tanganyika___1960", "year": 1959, "fact": "puisne judge, Maur., 1952; Tang., 1959"},
+        {"stint_id": "Simmons, E. B___Tanganyika___1960", "year": 1960, "fact": "High Court Judge"},
+        {"stint_id": "Simmons, E. B___Tanganyika___1960", "year": 1962, "fact": "(Tanzania Govt. service.)"}
+      ],
+      "would_overturn": "Discovery of a second biography or staff record of a different 'E. B. Simmons' serving in the Tanganyika judiciary c. 1959-1961, or evidence that the biography's subject was actually in Mauritius (not Tanganyika) during 1960-61."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Initials match exactly; colony and dates match ('Tang., 1959' immediately preceding the 1960-61 staff listings); 'puisne judge' and 'High Court Judge' are the same office (the position_sim FAIL is a string-score artifact). The later edition's note '(Tanzania Govt. service.)' independently confirms he stayed on in Tanganyika after the 1959 appointment."
+}

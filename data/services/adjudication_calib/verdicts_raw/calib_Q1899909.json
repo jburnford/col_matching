@@ -1,0 +1,24 @@
+{
+ "case_id": "calib_Q1899909",
+ "persons": [
+  {
+   "bio_id": "young_mark-aitchison_b1886",
+   "stint_ids": [
+    "Young, Mark Aitchison___Hong Kong___1946"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Position 'resumed duties' is generic and did not score. But the full forename 'Mark Aitchison' (not an initial) matches exactly, the colony (Hong Kong) and year (1946, post-internment resumption) match the entry, and the name is distinctive. A different Mark Aitchison Young in HK in 1946 is not credible.",
+   "evidence_cited": [
+    {
+     "stint_id": "Young, Mark Aitchison___Hong Kong___1946",
+     "year": 1946,
+     "fact": "resumed duties"
+    }
+   ],
+   "would_overturn": "A second same-surname person in the same colony and years holding the same office, or a printed death/birth date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "pilot hand-adjudication (Claude Code, in-session)"
+}

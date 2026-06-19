@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0082",
+  "persons": [
+    {
+      "bio_id": "arunachalam_ponnambalam_b1853",
+      "stint_ids": ["Arunachalam, P___Ceylon___1878", "Arunachalam, P___Ceylon___1894"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case it is wrong: a single-initial 'P. Arunachalam', and the corpus reports 2 officials of this surname, so the early stint (1878-1888) and the later stint (1894-1913) could be two men split by the 1888-1894 listing gap rather than one continuous career. Why it fails: the surname is essentially unique, and the biography documents one continuous Ceylon judicial career holding exactly these offices - writer 1875, commissioner of requests / police magistrate 1876, district judge, commissioner of requests Colombo 1892, then registrar-general 1898 - so both staff-list segments map onto the same documented individual (Sir Ponnambalam Arunachalam). The early stint matches 'comsrr. of requests, pol. mag', the later stint matches 'comsrr. of requests, Colombo' moving into 'registr.-gen' (a unique senior post). The single-initial flag and the inter-stint gap keep this at probable, not certain.",
+      "evidence_cited": [
+        {"stint_id": "Arunachalam, P___Ceylon___1878", "year": 1878, "fact": "Commissioner of Requests, Police Magistrate"},
+        {"stint_id": "Arunachalam, P___Ceylon___1878", "year": 1876, "fact": "comsrr. of requests, pol. mag"},
+        {"stint_id": "Arunachalam, P___Ceylon___1894", "year": 1892, "fact": "comsrr. of requests, Colombo"},
+        {"stint_id": "Arunachalam, P___Ceylon___1894", "year": 1898, "fact": "registr.-gen., Jan., 1898"},
+        {"stint_id": "Arunachalam, P___Ceylon___1894", "year": 1899, "fact": "Registrar-General"}
+      ],
+      "would_overturn": "A second Arunachalam biography with an overlapping judicial career, or evidence that the registrar-general listed from 1899 was a different P. Arunachalam from the 1878-88 commissioner of requests."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Both stints are sequential segments of one continuous, specifically documented career (commissioner of requests -> district judge -> registrar-general). Surname is essentially unique; single-initial and the listing gap hold this at probable for human review."
+}

@@ -1,0 +1,48 @@
+{
+ "case_id": "case_logan_william-marston_b1889",
+ "persons": [
+  {
+   "bio_id": "logan_william-marston_b1889",
+   "stint_ids": [
+    "Logan, W. M___Kenya___1924",
+    "Logan, W. M___Northern Rhodesia___1939"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Two distinct Logans share this surname. Sir William Marston Logan (W.M., b.1889) is an ADMINISTRATOR: the entry gives senior assistant secretary Kenya from 1924 (O.B.E.) and chief secretary Northern Rhodesia 1937 (C.M.G.) — matched by the two W. M. Logan stints assigned here. The three 'W. E. M. Logan' stints (Kenya/Tanganyika/Uganda, 1949-62) are a FORESTER (Conservator of Forests) with a different middle initial and an entirely different career — a different person, left unassigned.",
+   "evidence_cited": [
+    {
+     "stint_id": "Logan, W. M___Kenya___1924",
+     "year": 1924,
+     "fact": "Senior Assistant Secretary"
+    },
+    {
+     "stint_id": "Logan, W. M___Northern Rhodesia___1939",
+     "year": 1939,
+     "fact": "Chief Secretary"
+    },
+    {
+     "stint_id": "Logan, W. M___Northern Rhodesia___1939",
+     "year": 1939,
+     "fact": "C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [
+  {
+   "stint_id": "Logan, W. E. M___Kenya___1949",
+   "reason": "W. E. M. Logan, Assistant Conservator of Forests — a forester, different middle initial; not this administrator."
+  },
+  {
+   "stint_id": "Logan, W. E. M___Tanganyika___1956",
+   "reason": "W. E. M. Logan, Deputy Chief Conservator of Forests — the forester, not this man."
+  },
+  {
+   "stint_id": "Logan, W. E. M___Uganda___1959",
+   "reason": "W. E. M. Logan, Chief Conservator of Forests — the forester, not this man."
+  }
+ ],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 3, hand-adjudicated (Claude Code, in-session)"
+}

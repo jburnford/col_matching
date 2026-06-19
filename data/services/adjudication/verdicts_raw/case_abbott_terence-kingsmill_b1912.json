@@ -1,0 +1,40 @@
+{
+  "case_id": "case_abbott_terence-kingsmill_b1912",
+  "persons": [
+    {
+      "bio_id": "abbott_terence-kingsmill_b1912",
+      "stint_ids": [
+        "Abbott, T. K___Seychelles___1949",
+        "Abbott, T. K___North Borneo___1953"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: 38 Abbotts in the staff lists and 16 Abbott biographies exist, and both stints are flagged gate-compatible with two bios outside this case (abbott_t-kings-mill_e1837, abbott_x_b1914), so a different T. K. Abbott medical officer could in principle hold these posts. This fails for several reasons. First, the match is not name-based: the biography's own printed text records the exact appointments the stints show — 'S.M.O., Sey., 1948' against a Seychelles staff list showing T. K. Abbott as Senior Medical Officer in 1949-1951 (S.M.O. is the standard abbreviation of Senior Medical Officer; the position_sim FAIL is an abbreviation artifact, score 16 for identical posts), and 'D.D.M.S., N. Borneo, 1951' against T. K. Abbott as Deputy Director of Medical Services, North Borneo, 1953-1954 (D.D.M.S. = Deputy Director of Medical Services, same artifact at score 21). Second, these are senior, single-incumbent specialist medical posts, not generic junior titles; two different T. K. Abbotts simultaneously tracing the same Seychelles-then-North-Borneo medical career is not a realistic hypothesis. Third, the two stints cohere with each other as one career arc exactly as the biography narrates it (Seychelles ends by 1951, the year the bio dates the N. Borneo appointment). The rival bio abbott_t-kings-mill_e1837 has a name ('T. Kings-mill') that is transparently an OCR/spelling variant of 'T. Kingsmill' and is almost certainly the same man duplicated, not a competitor; abbott_x_b1914 has no forename evidence and no claim to these specific posts. Even if the e1837 record is the same person under another id, the assignment here still attaches the stints to the right individual.",
+      "evidence_cited": [
+        {
+          "stint_id": "Abbott, T. K___Seychelles___1949",
+          "year": 1948,
+          "fact": "S.M.O., Seychelles, 1948"
+        },
+        {
+          "stint_id": "Abbott, T. K___Seychelles___1949",
+          "year": 1949,
+          "fact": "Senior Medical Officer"
+        },
+        {
+          "stint_id": "Abbott, T. K___North Borneo___1953",
+          "year": 1951,
+          "fact": "D.D.M.S., N. Borneo, 1951"
+        },
+        {
+          "stint_id": "Abbott, T. K___North Borneo___1953",
+          "year": 1953,
+          "fact": "Deputy Director of Medical Services"
+        }
+      ],
+      "would_overturn": "Evidence of a second contemporaneous T. K. Abbott in the colonial medical service — e.g. a staff list or biography showing two T. K. Abbotts listed simultaneously in different colonies in overlapping years, or a record showing the Seychelles S.M.O. or North Borneo D.D.M.S. of these years had a different forename (not Terence Kingsmill) or an incompatible birth year."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two deterministic position_sim FAILs are both abbreviation artifacts: 'S.M.O.' = 'Senior Medical Officer' and 'D.D.M.S.' = 'Deputy Director of Medical Services' are exact position matches in expanded form. The edition_cooccurrence FAIL also looks mechanical: the bio appears in editions 1950, 1951, 1953, 1954, which overlap the Seychelles stint editions (1949-1951) and the North Borneo stint editions (1953-1954). Reviewer should check bio 'abbott_t-kings-mill_e1837' (outside this case): 'T. Kings-mill' is very likely an OCR variant of 'T. Kingsmill' and may be a duplicate record of this same person that should be merged at the biography level."
+}

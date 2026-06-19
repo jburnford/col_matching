@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_Q7341945",
+  "persons": [
+    {
+      "bio_id": "llewelyn_robert-b_b1845",
+      "stint_ids": ["Llewelyn, R. B___Turks and Caicos Islands___1879", "Llewelyn, R. B___Windward Islands___1905"],
+      "confidence": "certain",
+      "arguments_against": "For the Turks stint, every deterministic check beyond name and age failed, and the staff list shows no honours — so a sceptic could claim this is a different, younger R. B. Llewelyn (a relative) holding a junior post. But the failures are artifacts: the colony check missed because the bio prints 'Turks Is.' while the stint colony is normalized to 'Turks and Caicos Islands', and the bio explicitly records 'comsurr. for Turks Is., 1878' (OCR of comsnr. = Commissioner) — the precise post ('Commissioner') the stint shows from 1879 to 1883. The Commissioner of the Turks Islands is a unique office; appointment in 1878 followed by listings 1879-1883 and departure before the 1885 Tobago administratorship is a seamless single career. The absence of honours in 1879-83 is expected: his C.M.G. came only in 1889. For the Windward stint, the worry is the implausible 1905-1950 span (he was born 1845) suggesting conflation with another person; but the verbatim records are him at every point — 'Sir R. B. Llewelyn', K.C.M.G., Governor in 1905 matching the bio's 'gov. Windward Islands, 1900-6', and the 1905/1913 'Administrator' rows under 'Administrators of St. Lucia' matching his 1889 St. Lucia administratorship with C.M.G. (1889). The late listings are retrospective former-office-holder entries, the known honoured-retiree pattern, not evidence of a second person. No realistic counter-hypothesis survives for either stint.",
+      "evidence_cited": [
+        {"stint_id": "Llewelyn, R. B___Turks and Caicos Islands___1879", "year": 1879, "fact": "comsurr. for Turks Is., 1878"},
+        {"stint_id": "Llewelyn, R. B___Turks and Caicos Islands___1879", "year": 1879, "fact": "Commissioner"},
+        {"stint_id": "Llewelyn, R. B___Windward Islands___1905", "year": 1905, "fact": "gov. Windward Islands, 1900-6"},
+        {"stint_id": "Llewelyn, R. B___Windward Islands___1905", "year": 1905, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Llewelyn, R. B___Windward Islands___1905", "year": 1905, "fact": "K.C.M.G."},
+        {"stint_id": "Llewelyn, R. B___Windward Islands___1905", "year": 1905, "fact": "admistr., St. Lucia, 1889"}
+      ],
+      "would_overturn": "Evidence of a second R. B. Llewelyn in West Indian service in the 1870s-1900s, or a record showing the Turks Islands commissioner of 1879-83 had different forenames."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The Windward stint's nominal 1905-1950 edition span reflects retrospective lists of former governors/administrators (he was governor 1900-06, born 1845); the link is to the person, with no claim of active service after 1906. The Turks stint's deterministic failures are normalization artifacts ('Turks Is.' vs 'Turks and Caicos Islands'); the bio names the exact unique post and year."
+}

@@ -1,0 +1,27 @@
+{
+  "case_id": "calib_Q2607896",
+  "persons": [
+    {
+      "bio_id": "blake_henry-arthur_b1840",
+      "stint_ids": [
+        "Blake, Henry Arthur___Jamaica___1889",
+        "Blake, Henry Arthur___Hong Kong___1898",
+        "Blake, Henry A___Ceylon___1905"
+      ],
+      "confidence": "certain",
+      "arguments_against": "With 26 Blakes in the staff lists, one could posit a second Henry A. Blake, or worry that the three stints belong to different men strung together by initials. That hypothesis dies on the office: each stint is a colonial governorship — a unique post — and the biography records exactly these three governorships in exactly these years: 'gov., Jamaica, Dec., 1888' (stint listed 1889-1897), 'gov., H. Kong, 1898' (stint listed 1898-1900), 'gov., Ceylon, 1903 ... ret., July, 1907' (stint listed 1905-1907, ending precisely at his retirement). The honours track his actual award sequence: the Jamaica rows print K.C.M.G. (awarded 1888), and the Hong Kong and Ceylon rows print G.C.M.G. (awarded 1897) — a forger of coincidences would have to match that progression too. The position_sim FAILs are mechanical: 'Captain-General and Governor-in-Chief' is simply the formal Jamaica title for 'governor', and 'Governor, d.c.' for 'gov.'. A father/son confusion is excluded because the stints carry his full forenames ('Henry Arthur', 'Henry A.') and the dates form one continuous gubernatorial career for a man born 1840.",
+      "evidence_cited": [
+        {"stint_id": "Blake, Henry Arthur___Jamaica___1889", "year": 1889, "fact": "gov., Jamaica, Dec., 1888"},
+        {"stint_id": "Blake, Henry Arthur___Jamaica___1889", "year": 1889, "fact": "K.C.M.G. (1888)"},
+        {"stint_id": "Blake, Henry Arthur___Hong Kong___1898", "year": 1898, "fact": "gov., H. Kong, 1898"},
+        {"stint_id": "Blake, Henry Arthur___Hong Kong___1898", "year": 1898, "fact": "G.C.M.G. (1897)"},
+        {"stint_id": "Blake, Henry A___Ceylon___1905", "year": 1905, "fact": "gov., Ceylon, 1903"},
+        {"stint_id": "Blake, Henry A___Ceylon___1905", "year": 1907, "fact": "ret., July, 1907"}
+      ],
+      "would_overturn": "Evidence that the Governor of Jamaica 1889-97, Hong Kong 1898-1900, or Ceylon 1905-07 was a different Henry A. Blake — i.e. external sources showing two contemporaneous Sir Henry Blakes holding governorships, which the unique-office constraint makes implausible."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1897 Jamaica row's 'Colonial Secretary and Governor-in-Chief' is almost certainly a staff-list row-alignment/OCR artifact (the Governor-in-Chief part is consistent with the prior years). The bio's '1879' cadet date is an OCR slip for 1859 (the 1886/1889 versions both print Feb. 1859). Neither affects the identification."
+}

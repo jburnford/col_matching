@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q7349660",
+  "persons": [
+    {
+      "bio_id": "scott_robert_b1903",
+      "stint_ids": ["Scott, Robert___Mauritius___1954"],
+      "confidence": "certain",
+      "arguments_against": "Scott is the corpus's commonest surname (151 officials, 65 bios) and the bio is single-initial, so the namesake trap is at maximum nominal strength: another Robert Scott could in principle be the Mauritius listing. The hypothesis fails on office uniqueness and converging specifics: the staff list shows 'Governor and Commander-in-Chief' of Mauritius for 1954–1958, and the biography states 'gov. and c-in-c., Maur., 1954-59' — the unique colonial headship, same place, same exact span. The honours corroborate dynamically: the 1954 row prints C.M.G. (bio: 'C.M.G. (1945)'), and from 1955 he is 'Sir Robert Scott' with K.C.M.G., matching the bio's 'K.C.M.G. (1954)' with one-edition print lag. Two Robert Scotts serially governing Mauritius across the same five years is not a live possibility; no other Scott could hold this singular office in these years. The position_sim FAIL is the standard abbreviation artefact ('gov. and c-in-c.' vs the spelled-out title).",
+      "evidence_cited": [
+        {"stint_id": "Scott, Robert___Mauritius___1954", "year": 1954, "fact": "gov. and c-in-c., Maur., 1954-59"},
+        {"stint_id": "Scott, Robert___Mauritius___1954", "year": 1955, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Scott, Robert___Mauritius___1954", "year": 1955, "fact": "K.C.M.G."},
+        {"stint_id": "Scott, Robert___Mauritius___1954", "year": 1955, "fact": "Sir Robert Scott"}
+      ],
+      "would_overturn": "Evidence of a different Robert Scott as Governor of Mauritius 1954–1959, or a source showing the bio subject never took up the Mauritius appointment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Despite the very common surname and single-initial flag, the unique gubernatorial office with exact span agreement plus the C.M.G.->K.C.M.G./'Sir' progression appearing in the staff lists at the right years gives multiple independent dimensions with no surviving counter-hypothesis."
+}

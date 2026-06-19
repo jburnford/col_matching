@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q1392013",
+  "persons": [
+    {
+      "bio_id": "bowen_george-ferguson_e1840",
+      "stint_ids": ["Bowen, George Ferguson___Mauritius___1879", "Bowen, George Ferguson___Hong Kong___1883"],
+      "confidence": "certain",
+      "arguments_against": "Bowen is a common surname (50 officials), and neither stint shares an edition-year with the biography, so mechanically the strict co-occurrence bonus is absent. The strongest contrary case would be a second Sir G. F. Bowen — but it collapses immediately: both staff-list rows print the full distinctive name 'Sir George Ferguson Bowen' with the honour G.C.M.G., which the bio dates to 1860; the bio states 'governor of Mauritius, 1879-83; of Hong Kong, 1883' and the stints are Governor of Mauritius listed from 1879 and Governor of Hong Kong listed from 1883 — exact office, colony, date, name, and honour agreement on both. There is exactly one governor of a colony at a time, and the two stints chain end-to-end exactly as the printed career does. No counter-hypothesis survives for either stint, and no other biography is in the case to contest them.",
+      "evidence_cited": [
+        {"stint_id": "Bowen, George Ferguson___Mauritius___1879", "year": 1879, "fact": "Sir George Ferguson Bowen | Governor and Commander-in-Chief | Civil Establishment | G.C.M.G."},
+        {"stint_id": "Bowen, George Ferguson___Mauritius___1879", "year": 1879, "fact": "of Mauritius, 1879-83"},
+        {"stint_id": "Bowen, George Ferguson___Hong Kong___1883", "year": 1883, "fact": "Sir George Ferguson Bowen | Governor | Civil Establishment | G.C.M.G."},
+        {"stint_id": "Bowen, George Ferguson___Hong Kong___1883", "year": 1883, "fact": "of Hong Kong, 1883"}
+      ],
+      "would_overturn": "Nothing realistic; only the discovery that the Colonial Office List itself misprinted a different governor's name in both colonies, which contemporary records rule out."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Textbook positive: full three-part name, gubernatorial offices, exact colony-date chaining (Mauritius 1879-83 handing off to Hong Kong 1883), and the dated honour G.C.M.G. on every staff-list row. Absence of edition co-occurrence is an artifact of staff-list coverage years versus bio edition years."
+}

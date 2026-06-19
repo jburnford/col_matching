@@ -1,0 +1,38 @@
+{
+ "case_id": "case_sukuna_joseva-lalabaluvu-vaanailili_b1888",
+ "persons": [
+  {
+   "bio_id": "sukuna_joseva-lalabaluvu-vaanailili_b1888",
+   "stint_ids": [
+    "Sukuna, J. L. V___Fiji___1912",
+    "Sukuna, J. L. V___Fiji___1918",
+    "Sukuna, Ratu J. L. V___Fiji___1923",
+    "Sukuna, J. L. V___Fiji___1933",
+    "Sukuna, Ratu J. L. V___Fiji___1937"
+   ],
+   "confidence": "certain",
+   "arguments_against": "All five Fiji stints are one man: the highly distinctive full name J. L. V. Sukuna (the 'Ratu' prefix is his Fijian chiefly title), and the career maps the entry exactly — clerk (1912) -> cadet (1917) -> chief assistant, Native Lands Commission (1922) -> district commissioner (1932) -> administrative officer. No other person bears this name.",
+   "evidence_cited": [
+    {
+     "stint_id": "Sukuna, J. L. V___Fiji___1918",
+     "year": 1920,
+     "fact": "Cadet"
+    },
+    {
+     "stint_id": "Sukuna, Ratu J. L. V___Fiji___1923",
+     "year": 1923,
+     "fact": "Chief Assistant Native Lands Commission"
+    },
+    {
+     "stint_id": "Sukuna, J. L. V___Fiji___1933",
+     "year": 1933,
+     "fact": "District Commissioner"
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 2, hand-adjudicated (Claude Code, in-session)"
+}

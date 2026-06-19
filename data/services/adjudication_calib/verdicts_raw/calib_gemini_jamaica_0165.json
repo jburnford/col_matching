@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_gemini_jamaica_0165",
+  "persons": [
+    {
+      "bio_id": "sanguinetti_frederick-s_e1863",
+      "stint_ids": ["Sanguinetti, Fred___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: 16 Sanguinettis appear in the staff lists and 4 in the biographies, 'clerk' is the most generic title in the corpus, and the bio puts him on detached acting posts (Turks and Caicos 1883 and 1886, Falklands 1890-1) in years when the Jamaica staff lists still carry F. S. Sanguinetti — so the Jamaica rows in those years could belong to a different F. S. Sanguinetti. This fails: (a) the promotion timing is a dated fingerprint — the staff list shows 'Clerks, 2nd Class' in the Colonial Secretary's Office in 1877-1878 and 'Clerks, 1st Class' from the 1880 edition, exactly matching the bio's '1st class clk. in col. sec.'s office, Jamaica, Aug., 1878' and the 2nd-class clerkship held 'now in col. sec.'s office' before it; (b) the detached posts were acting appointments, and substantive officeholders routinely remained on their home-colony establishment list while acting elsewhere — the rows are continuous in name, office and grade, not a second person's distinct career; (c) the stint ends in 1898, the year the bio has him 'ret. on pension, 1898', and the final row's promotion to Chief Clerk caps a single unbroken ladder in one office. A namesake would need the same two initials, the same office, the same grade at the same dates, and a career ending the same year.",
+      "evidence_cited": [
+        {"stint_id": "Sanguinetti, Fred___Jamaica___1877", "year": 1877, "fact": "Clerks, 2nd Class"},
+        {"stint_id": "Sanguinetti, Fred___Jamaica___1877", "year": 1880, "fact": "Clerks, 1st Class"},
+        {"stint_id": "Sanguinetti, Fred___Jamaica___1877", "year": 1878, "fact": "1st class clk. in col. sec.’s office, Jamaica, Aug., 1878"},
+        {"stint_id": "Sanguinetti, Fred___Jamaica___1877", "year": 1898, "fact": "Chief Clerk"},
+        {"stint_id": "Sanguinetti, Fred___Jamaica___1877", "year": 1898, "fact": "ret. on pension, 1898"}
+      ],
+      "would_overturn": "Evidence of two F. S. Sanguinettis in Jamaica's Colonial Secretary's Office in 1877-1898, or records showing the office's clerk rows in 1883/1886/1890 were a different person while Frederick S. was abroad on his acting posts."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Sanguinetti, Fred___Jamaica___1948", "reason": "Chronologically impossible for this biography. The bio's career begins as a clerk in Sept. 1863, implying birth around 1848 or earlier; a Commissioner serving 1948-1951 would then be roughly 100-103 years old. The bio also has him retired on pension in 1898, and his editions end in 1906. The 1948-1951 F. S. Sanguinetti is a later namesake (plausibly a descendant — the surname recurs 16 times in the staff lists), and the superficial echo between 'Commissioner' and the bio's 'comsnr. of Cayman Is., 1898' is exactly the namesake/title trap. No tenure overlap, no position comparison, no honours."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints share an identical staff-list name key ('Sanguinetti, Fred', initials F. S.) but are 50 years apart; they cannot be the same person as each other either. The 1948 stint should be matched against 20th-century Sanguinetti biographies, not this one."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q22018889",
+  "persons": [
+    {
+      "bio_id": "lyons_t-c_e1857",
+      "stint_ids": ["Lyons, Thomas Casey___Bermuda___1894"],
+      "confidence": "certain",
+      "arguments_against": "Lyons is common (24 officials, 6 biographies), the bio has only initials T.C. and no birth year, and the mechanical honour check failed — so the counter-hypothesis is a different T. C. Lyons in Bermuda. It fails: the office is Governor and Commander-in-Chief of Bermuda, a unique single-occupant post, and the biography records 'govrn. and commr.-in-chief, Bermuda, July, 1892', consistent with the stint's 1894-1896 listings; the bio appears in exactly the same two editions (1894, 1896) as the stint. The honour-check FAIL is a parsing artifact: the printed bio reads 'LYONS, Lieut.-Gen. T.C., C.B.' and every stint row carries 'C.B.', so the honour in fact agrees, as does the rank Lieut.-General ('Lieut.-General Commanding' / rank column 'Lieut.-General'). Initials T.C. match Thomas Casey. A second Lieut.-Gen. T. C. Lyons, C.B., governing Bermuda in the same two editions is not a live possibility.",
+      "evidence_cited": [
+        {"stint_id": "Lyons, Thomas Casey___Bermuda___1894", "year": 1894, "fact": "govrn. and commr.-in-chief, Bermuda, July, 1892"},
+        {"stint_id": "Lyons, Thomas Casey___Bermuda___1894", "year": 1894, "fact": "LYONS, Lieut.-Gen. T.C., C.B."},
+        {"stint_id": "Lyons, Thomas Casey___Bermuda___1894", "year": 1896, "fact": "Lieut.-General"}
+      ],
+      "would_overturn": "External evidence that the Bermuda governorship of 1892-1896 was held by a different Lyons, or that the bio's Bermuda clause belongs to another entry."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic honour FAIL is spurious: 'C.B.' is printed in the bio header but was evidently not extracted into the structured honours field. Position_sim passes at 86, initials match, rank matches, and bio/stint edition sets are identical (1894, 1896). Bio id suffix e1857 reflects the Indian Mutiny service start, not a birth year."
+}

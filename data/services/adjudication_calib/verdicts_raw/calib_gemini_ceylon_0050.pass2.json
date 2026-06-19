@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0050",
+  "persons": [
+    {
+      "bio_id": "ingles_walter-culpepper-stanseer_b1868",
+      "stint_ids": ["Ingles, W. C. S___Ceylon___1899"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: the deterministic honour check FAILS and all bio events inherit their Ceylon place from one clause, so place evidence is weak; a same-name relative could in principle exist (2 Ingles officials, 2 biographies). This fails decisively: the bio and stint share the rare three-initial form 'W. C. S.' exactly, and the stint traces the bio's Survey Department career in order -- Assistant Superintendent (bio 'asst. supt. of surveys', 1902 / staff 1899-1906), Superintendent of Surveys (bio 'supt. of application surveys', 1905 / staff 1907-11), Deputy Surveyor-General (bio 'dep. survr.-gen., 15th Oct., 1910' / staff from 1912), then the singular Surveyor-General (bio 'survr.-gen., 30th Nov., 1915' / staff from 1917) -- with 8 agreeing edition-years. No second W. C. S. Ingles can hold this exact survey ladder.",
+      "evidence_cited": [
+        {"stint_id": "Ingles, W. C. S___Ceylon___1899", "year": 1907, "fact": "W. C. S. Ingles | Superintendent of Surveys"},
+        {"stint_id": "Ingles, W. C. S___Ceylon___1899", "year": 1912, "fact": "W. C. S. Ingles | Deputy Surveyor-General"},
+        {"stint_id": "Ingles, W. C. S___Ceylon___1899", "year": 1917, "fact": "W. C. S. Ingles | Surveyor-General"}
+      ],
+      "would_overturn": "Evidence of a second W. C. S. Ingles in the Ceylon Survey Department, or a chronology conflict separating the Deputy / Surveyor-General stints from the bio."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Rare exact three-initial match (W. C. S.) plus an ordered, date-matched Survey Department career to the singular Surveyor-Generalship, with 8 agreeing edition-years."
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_natal_0252",
+  "persons": [
+    {
+      "bio_id": "bird_christopher_b1855",
+      "stint_ids": ["Bird, C. J___Natal___1879"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case this is wrong: Bird is common in this corpus (34 staff-list officials, 12 biographies), Natal had a well-known Bird family of officials, and the stint's earliest record (1879, 'C. J. Bird', 2nd Clerk, Public Works Department) carries a middle initial 'J' that the bio's plain 'Christopher' does not print, and a department ('Public Works') the bio does not name for 1879 — so the 1879 row could belong to a relative, and the stint chain could be contaminated at its head. Why it fails: from 1883 onward the stint is an unbroken sequence of singular senior offices that mirror the bio clause by clause — 1st Clerk, Colonial Secretary's Department 1883 ('1st cls., Aug., 1881'), Assistant Colonial Secretary 1889-90 ('asst. col. sec., Jan., 1888'), Principal Under Secretary from 1894 ('apptd. prin. under-secr. on establtnt. of responsible govt., Oct., 1893'), Chairman of the Civil Service Board ('chrmn., civ. ser. bd., 1901'), 'Permanent Head of the Civil Service' ('permnt. head of civ. ser., 1903'), and the shared C.M.G. There was exactly one Principal Under Secretary of Natal; two people cannot hold it. Even the 1879 head of the chain fits: the bio has him a clerk in the engineer's department from 1874 (Natal's public-works office) moving to the Colonial Secretary's office in Jan. 1880, exactly when the stint's department changes. The stint ends 1910, matching 'retired, 1911' at the Union. No realistic counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1889, "fact": "Assistant Colonial Secretary"},
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1894, "fact": "Principal Under Secretary"},
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1905, "fact": "Principal Under Secretary and Permanent Head of the Civil Service"},
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1905, "fact": "C.M.G."},
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1893, "fact": "apptd. prin. under-secr. on establtnt. of responsible govt., Oct., 1893"}
+      ],
+      "would_overturn": "A staff list showing a second C. Bird in the Natal Colonial Secretary's Office during 1883-1910, or evidence that the 1879 'C. J. Bird' in Public Works is a documented different person (e.g., a distinct biography for a C. J. Bird with a Public Works career), which would split only the 1879 row off the chain, not the 1883-1910 core."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The single-initial warning is mitigated here by the strongest possible independent dimensions: a shared C.M.G., exact matches on multiple unique senior offices (Assistant Colonial Secretary, Principal Under Secretary, Permanent Head of the Civil Service, Chairman Civil Service Board), tenure agreement across three decades, and edition co-occurrence (1883, 1886). The 'J' in the 1879 record is consistent with a middle name the biography simply renders as 'Christopher'."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "case_aggart_john-g_e1888",
+  "persons": [
+    {
+      "bio_id": "aggart_john-g_e1888",
+      "stint_ids": ["Haggart, John Graham___Canada___1877"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: the dossier notes this stint is also gate-compatible with an out-of-case biography 'haggart_john-g_e1872', already linked elsewhere or filtered, and Phase 1 dropped this pair as ambiguous because of that comparable-strength competitor. If that other biography is a distinct John G. Haggart (e.g. a father/son pair), assigning here would be a false merge; and even if it is the same man, double-linking the stint to two biography entries violates the partition. Why the identity counter-hypothesis fails: the biography names two specific, unique-at-any-time Canadian cabinet offices — Postmaster-general (1888) and minister of railways and public works (1892) — and the staff-list stint holds exactly those offices in agreeing years (Postmaster-General in the 1889/1890 editions, Minister of Railways and Canals in 1894/1896), with matching J. G. initials in the same colony. Two same-named people cannot both have held these singular cabinet posts in those years, so 'haggart_john-g_e1872' is almost certainly a duplicate/variant entry for the same person rather than a different individual. The residual risk is bookkeeping (duplicate biography), not identity, which is why this is graded probable rather than certain and routed to human review.",
+      "evidence_cited": [
+        {"stint_id": "Haggart, John Graham___Canada___1877", "year": 1889, "fact": "Postmaster-General | POST OFFICE DEPARTMENT"},
+        {"stint_id": "Haggart, John Graham___Canada___1877", "year": 1894, "fact": "Minister of Railways and Canals"},
+        {"stint_id": "Haggart, John Graham___Canada___1877", "year": 1897, "fact": "John Graham Haggart"}
+      ],
+      "would_overturn": "Evidence that 'haggart_john-g_e1872' describes a different individual (e.g. a distinct birth year or a career incompatible with Postmaster-General 1888 / Railways 1892), or a record showing a second John G. Haggart holding either cabinet office in those years; alternatively, confirmation that the stint is canonically linked to the e1872 biography and the system forbids re-assignment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The biography is an OCR-truncated entry ('AGGART, THE HON. JOHN G.' = Haggart). Its two printed offices match the stint's unique cabinet posts exactly (position_sim 100 on 'Postmaster-general' ~ 'Postmaster-General'; bio's 'minister of railways and public works, 1892' corresponds to the staff list's 'Minister of Railways and Canals' from 1894 editions, edition lag expected). The flagged out-of-case biography haggart_john-g_e1872 is very likely a duplicate entry for the same person (cabinet offices are singular); reviewer should dedupe across cases rather than treat them as rivals. Edition_cooccurrence FAIL is an artifact: the bio appears only in 1897 and the stint's 1897 rows exist, but the mechanical check found no agreeing edition-years on the matched events."
+}

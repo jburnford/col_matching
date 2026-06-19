@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6106030",
+  "persons": [
+    {
+      "bio_id": "asser_limut-gen-sir-joseph-john_b1867",
+      "stint_ids": ["Asser, Joseph John___Bermuda___1923"],
+      "confidence": "certain",
+      "arguments_against": "The only counter-hypothesis worth stating is a same-name relative holding the Bermuda post, or the stint belonging to a successor. Both fail: Asser is unique in the corpus (1 official, 1 biography); the stint office is Governor and Commander-in-Chief of Bermuda, a unique post, and the biography records 'gov. of Bermuda, 4th May, 1922; assumed govt., 9th Aug., 1922; ret., 1927' — the stint's 1923-1927 listing sits exactly inside that tenure and ends in the bio's retirement year. The staff list prints both forenames 'Sir Joseph John Asser' with rank 'Lieut.-Gen.', and four honours (K.C.B., K.C.M.G., K.C.V.O., C.B.) agree; the K.C.B. even appears in the staff list from 1924, the year the bio dates that honour. No live alternative remains.",
+      "evidence_cited": [
+        {"stint_id": "Asser, Joseph John___Bermuda___1923", "year": 1923, "fact": "gov. of Bermuda, 4th May, 1922"},
+        {"stint_id": "Asser, Joseph John___Bermuda___1923", "year": 1927, "fact": "ret., 1927"},
+        {"stint_id": "Asser, Joseph John___Bermuda___1923", "year": 1924, "fact": "K.C.B., K.C.M.G."}
+      ],
+      "would_overturn": "External evidence that someone else governed Bermuda 1923-1927; effectively nothing short of systemic corruption of both sources."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "position_sim FAIL (33) is purely a string artifact: 'gov. of Bermuda' and 'Governor and Commander-in-Chief' (of Bermuda) are the same office. The 1923-27 'General Commanding' rows are the same man's military capacity, consistent with governor-and-c-in-c. Initials check noise ('L','S') comes from OCR of 'LIMUT.-GEN. SIR' in the bio header, not from forenames."
+}

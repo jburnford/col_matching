@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0064",
+  "persons": [
+    {
+      "bio_id": "willis_john-christopher_b1868",
+      "stint_ids": ["Willis, J. C___Ceylon___1898"],
+      "confidence": "certain",
+      "arguments_against": "Willis is a common surname (17 staff-list officials, 9 biographies in the corpus), so the strongest counter-case is a different J. C. Willis in Ceylon, or a same-initial successor as Director of the Royal Botanic Gardens. A secondary worry: the staff-list department column reads 'Telegraphs' (1898-1900) and 'Department of Public Instruction' (1905-1907), which superficially conflicts with a botanic-gardens post. The counter-case fails: the position title itself, 'Director of the Royal Botanic Garden', is a unique senior post matching the bio's 'dir. of Royal Bot. Gardens, Ceylon, Aug., 1896' almost verbatim; the stint begins in 1898, exactly when an Aug. 1896 appointee would appear; both initials J. C. agree (not the single-initial trap); and there are 3 agreeing edition-years with colony-agreeing position matches. The department-column anomaly is internally inconsistent across years for the SAME unchanged position line (Telegraphs -> Public Instruction -> Botanic Gardens while the position never changes), which marks it as staff-list section/parsing noise rather than evidence of a second person. No other Willis biography could plausibly hold a directorship the dossier's bio explicitly claims with matching date.",
+      "evidence_cited": [
+        {"stint_id": "Willis, J. C___Ceylon___1898", "year": 1898, "fact": "Director of the Royal Botanic Garden"},
+        {"stint_id": "Willis, J. C___Ceylon___1898", "year": 1898, "fact": "dir. of Royal Bot. Gardens, Ceylon, Aug., 1896"},
+        {"stint_id": "Willis, J. C___Ceylon___1898", "year": 1908, "fact": "Botanic Gardens"}
+      ],
+      "would_overturn": "Evidence of a second J. C. Willis on the Ceylon establishment in 1898-1911, or a record that John Christopher Willis vacated the directorship before 1911 while the staff-list line continued under another J. C. Willis, or confirmation that the 'Telegraphs' department entries belong to a genuinely different officeholder rather than column noise."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two-initial match on a unique senior post with date agreement (appointed Aug. 1896; staff-list run 1898-1911) and edition co-occurrence (1898, 1899, 1900). The department column varies erratically (Telegraphs / Department of Public Instruction / Botanic Gardens) while the position string is constant; treated as staff-list layout or parsing noise. Bio's 1904 special duty to the Federated Malay States is compatible with a temporary secondment while remaining Ceylon director."
+}

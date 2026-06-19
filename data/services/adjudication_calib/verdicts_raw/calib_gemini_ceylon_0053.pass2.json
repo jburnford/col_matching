@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0053",
+  "persons": [
+    {
+      "bio_id": "dutton_thomas-edward_b1877",
+      "stint_ids": ["Dutton, T. E___Ceylon___1915"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: Dutton is common (21 staff officials, 13 biographies), the bio is a two-initial 'T. E.' form, and neither the honour nor edition-cooccurrence bonus fires, so name/initials are weak. This fails because the bio supplies an idiosyncratic detail that the staff list confirms exactly: 'traffic supt., Ceylon, 2nd Oct., 1913; designation altered to traffic man., 1916' -- the staff list shows the SAME post renamed from Traffic Superintendent (1915) to Traffic Manager (1917), not a new role. The career then ends at the singular head office, General Manager of the Ceylon Government Railways (bio 'gen. man., Ceylon Govt. Rlys., July, 1923' / staff General Manager from 1925). A renamed single post plus the singular General Managership leaves no room for a second T. E. Dutton on this exact railway track.",
+      "evidence_cited": [
+        {"stint_id": "Dutton, T. E___Ceylon___1915", "year": 1915, "fact": "T. E. Dutton | Traffic Superintendent"},
+        {"stint_id": "Dutton, T. E___Ceylon___1915", "year": 1917, "fact": "T. E. Dutton | Traffic Manager"},
+        {"stint_id": "Dutton, T. E___Ceylon___1915", "year": 1925, "fact": "T. E. Dutton | General Manager"}
+      ],
+      "would_overturn": "Evidence of a second T. E. Dutton in the Ceylon Railway Department over 1915-1931, or that the General Manager from 1925 was a different man than the bio's railway officer."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The bio's distinctive note that the Traffic Superintendent designation was 'altered to traffic man., 1916' matches the staff list's Traffic Superintendent (1915) -> Traffic Manager (1917) rename, and the career terminates in the singular General Managership of the Ceylon Government Railways. Common surname is offset by this specific, dated, single-office trajectory."
+}

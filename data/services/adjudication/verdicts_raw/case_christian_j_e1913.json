@@ -1,0 +1,24 @@
+{
+  "case_id": "case_christian_j_e1913",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Christian, J___Southern Nigeria___1911",
+      "reason": "Hard chronology violation: the biography opens 'CHRISTIAN, J.—1913', the standard birth-year position, and his career begins 'cadet, Nig., 1946'. A '1st Class Clerk' in the Southern Nigeria Treasury in 1911-1912 would predate his birth (or at best make him an infant). Even ignoring the birth year, a 1911 clerk who re-enters as a cadet in 1946 is implausible; this is a different, earlier J. Christian among the 22 namesakes in the staff lists."
+    },
+    {
+      "stint_id": "Christian, John___Fiji___1954",
+      "reason": "The bio subject was 'prin. asst. sec., min. of internal affrs., E. regn.' in Nigeria in 1954 — he cannot simultaneously be 'Chief Magistrate' of the 'Pitcairn Islands Group' administered from Fiji. The Chief Magistrate of Pitcairn was by long custom a resident islander (the Christian surname is ubiquitous on Pitcairn), not a UK-educated colonial-service officer. Single-initial bio; no colony, position, honour, or edition co-occurrence agreement."
+    },
+    {
+      "stint_id": "Christian, John___Fiji___1960",
+      "reason": "Continuation of the same Pitcairn Chief Magistrate as the 1954 stint, irreconcilable with the bio's exclusively Nigerian career (cadet 1946, principal assistant secretary 1954). No dimension of agreement beyond surname and a single shared initial; the namesake trap applies."
+    },
+    {
+      "stint_id": "Christian, John___Pitcairn Island___1964",
+      "reason": "Same resident Pitcairn islander magistrate continuing 1964-1966 ('Island Magistrate/President of Council' in 1966). Nothing connects the Nigeria-career biography to Pitcairn; assigning would be a classic common-surname false merge — Christian is the dominant family name on Pitcairn."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "All four stints declined. The 1911 Southern Nigeria clerk fails hard chronology against the printed birth year 1913. The three Fiji/Pitcairn stints form one continuous person (John Christian, Chief Magistrate, Pitcairn Islands Group, 1954-1966) who is almost certainly a resident Pitcairn islander and in any case conflicts with the bio's 1954 Nigerian post. The three Pitcairn stints could safely be merged with each other in a later pass (same forename, same office, contiguous years), but none belongs to christian_j_e1913."
+}

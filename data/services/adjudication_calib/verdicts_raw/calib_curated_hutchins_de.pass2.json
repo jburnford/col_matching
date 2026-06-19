@@ -1,0 +1,27 @@
+{
+  "case_id": "calib_curated_hutchins_de",
+  "persons": [
+    {
+      "bio_id": "hutchins_david-ernest_b1850",
+      "stint_ids": [
+        "Hutchins, D. E___Cape of Good Hope___1888",
+        "Hutchins, D. E___Cape of Good Hope___1906",
+        "Hutchins, D. E___Kenya___1908"
+      ],
+      "confidence": "certain",
+      "arguments_against": "There are 3 biographies and 10 officials with the surname Hutchins, so the worry is a second forester of the same family. It fails because the bio gives a single, highly specific forestry career that each stint maps onto by named clause, not by generic title. Cape 1888: bio 'conservator of forests, E. division, Cape, Jan., 1886' matches the Conservator, Crown Forests entry. Cape 1906: bio 'conservator of forests, W. div.' and 'prof. of forestry, S. African forest schl., 1906' matches 'Conservator of Forests, Western Conservancy' 1906-07 (the position string scored low only on phrasing). Kenya 1908: bio 'ch. conservator of forests, E. Africa Prot., 1st June, 1907' / 'inspected and reported on forests of Brit. E. Africa, 1907' -- the East Africa Protectorate is the colony later named Kenya, so the mechanical colony gate failed on the name change, but the bio explicitly states this exact appointment and its editions run through 1911, matching the stint years. Forestry conservatorship is a narrow specialty and no second Hutchins forester is in evidence.",
+      "evidence_cited": [
+        {"stint_id": "Hutchins, D. E___Cape of Good Hope___1888", "year": 1886, "fact": "conservator of forests, E. division, Cape, Jan., 1886"},
+        {"stint_id": "Hutchins, D. E___Cape of Good Hope___1888", "year": 1888, "fact": "Conservator"},
+        {"stint_id": "Hutchins, D. E___Cape of Good Hope___1906", "year": 1892, "fact": "conservator of forests, W. div., and consulting forest offr"},
+        {"stint_id": "Hutchins, D. E___Cape of Good Hope___1906", "year": 1906, "fact": "Conservator of Forests, Western Conservancy"},
+        {"stint_id": "Hutchins, D. E___Kenya___1908", "year": 1907, "fact": "ch. conservator of forests, E. Africa Prot., 1st June, 1907"},
+        {"stint_id": "Hutchins, D. E___Kenya___1908", "year": 1908, "fact": "Conservator of Forests"}
+      ],
+      "would_overturn": "Evidence of a second D. E. Hutchins also in colonial forestry service, or that the East Africa Protectorate 'Conservator of Forests' post (1908-11) was held by someone other than the man the bio places there from 1 June 1907."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "D. E. Hutchins, colonial forester. Two-initial bio with a single specific forestry career line; each stint maps to a named clause. Kenya failed the mechanical colony gate only because 'East Africa Protectorate' (named in the bio) was the predecessor name of Kenya."
+}

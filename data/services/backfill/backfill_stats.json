@@ -1,0 +1,21 @@
+{
+ "model": "deepseek/deepseek-v4-flash",
+ "sections_done": 752,
+ "sections_failed": 41,
+ "sections_escalated": 44,
+ "records_total": 234248,
+ "records_by_confidence": {
+  "confirmed_in_ocr": 168628,
+  "surname_only": 65620
+ },
+ "failed_reasons": {
+  "missing_surname": 1,
+  "zero_records": 40
+ },
+ "tokens_in": 21415352,
+ "tokens_out": 66317852,
+ "output_input_ratio": 3.097,
+ "spend_usd": 20.7176,
+ "cap_usd": 21.0,
+ "aborted_on_cap": false
+}

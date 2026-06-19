@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q18810574",
+  "persons": [
+    {
+      "bio_id": "hood_alexander_b1888",
+      "stint_ids": ["Hood, Alexander___Bermuda___1950"],
+      "confidence": "certain",
+      "arguments_against": "Hood is a common surname (19 officials, 8 biographies in the corpus) and the flag warns of the single-initial trap, so the counter-hypothesis is a different A. Hood holding the Bermuda post, or the bio's single career clause being a misattribution. This fails: the office is Governor and Commander-in-Chief of Bermuda — a unique post held by one person at a time — and the biography states 'gov. and c.-in-c., Berm., 1949', agreeing with the stint's 1950-1955 listing in position, place, and date. The staff list prints the full forename 'Sir Alexander Hood' with rank 'Lieut.-Gen.', matching the bio's 'Lieut.-Gen. Sir Alexander'; the stint carries K.C.B. and G.B.E., both held by the bio subject (K.C.B. 1943, G.B.E. 1946). Two knighted Lieut.-Gen. Sir Alexander Hoods with K.C.B. and G.B.E. governing Bermuda simultaneously is not a live possibility. The bio is thin (only two career events), but the one placed event is exactly this unique office.",
+      "evidence_cited": [
+        {"stint_id": "Hood, Alexander___Bermuda___1950", "year": 1950, "fact": "gov. and c.-in-c., Berm., 1949"},
+        {"stint_id": "Hood, Alexander___Bermuda___1950", "year": 1952, "fact": "Lieut.-Gen. Sir Alexander Hood"},
+        {"stint_id": "Hood, Alexander___Bermuda___1950", "year": 1951, "fact": "G.B.E., K.C.B."}
+      ],
+      "would_overturn": "Evidence of a second Lieut.-Gen. Sir Alexander Hood, K.C.B., G.B.E., or external records showing a different person held the Bermuda governorship in 1950-1955."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The position_sim FAIL is a string artifact ('gov. and c.-in-c.' vs 'Governor and Commander-in-Chief' are the same office abbreviated). Full forename, identical rank, two shared honours, and a unique single-occupant office give multiple independent dimensions."
+}

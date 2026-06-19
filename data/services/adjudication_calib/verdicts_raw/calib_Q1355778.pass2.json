@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q1355778",
+  "persons": [
+    {
+      "bio_id": "turnbull_roland_b1905",
+      "stint_ids": ["Turnbull, Roland___North Borneo___1954"],
+      "confidence": "certain",
+      "arguments_against": "The bio is flagged single-initial and the early staff-list rows print 'R. E. Turnbull', a middle initial the biography never gives — so the strongest case against is that the Governor was a different R. (E.) Turnbull among the 31 Turnbulls in the lists. This fails on every independent dimension: the office is Governor and Commander-in-Chief of North Borneo, a unique post the biography claims for exactly these years ('gov. and c.-in-c., N. Borneo, 1954-60'); the honours track in lockstep — the stint shows C.M.G. in 1954-55 and K.C.M.G. from 1956, matching the bio's 'C.M.G. (1946)' and 'K.C.M.G. (1956)' to the year; and from 1956 the list prints the full forename 'Sir Roland Turnbull'. A namesake hypothesis would require a second Sir Roland Turnbull, K.C.M.G. (1956), governing the same colony in the same years — not a live possibility. The 'E.' is most plausibly a middle initial omitted from the biography's heading (or OCR noise), not a different man.",
+      "evidence_cited": [
+        {"stint_id": "Turnbull, Roland___North Borneo___1954", "year": 1954, "fact": "gov. and c.-in-c., N. Borneo, 1954-60"},
+        {"stint_id": "Turnbull, Roland___North Borneo___1954", "year": 1956, "fact": "Sir Roland Turnbull"},
+        {"stint_id": "Turnbull, Roland___North Borneo___1954", "year": 1956, "fact": "K.C.M.G."},
+        {"stint_id": "Turnbull, Roland___North Borneo___1954", "year": 1954, "fact": "Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "Evidence that the 1954-55 'R. E. Turnbull' was a different person from the 1956-57 'Sir Roland Turnbull' (e.g. a gubernatorial succession in North Borneo in 1955-56), or that the K.C.M.G. (1956) was conferred on a different Turnbull."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique single-occupant post (Governor, North Borneo) with exact tenure match, honour-progression match (C.M.G. then K.C.M.G. in 1956, both attested in the bio with those years), and full forename printed from 1956. The mechanical position_sim FAIL (59 vs 60) is an abbreviation artifact: 'gov. and c.-in-c.' is verbatim 'Governor and Commander-in-Chief'."
+}

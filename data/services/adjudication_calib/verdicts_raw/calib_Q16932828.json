@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_Q16932828",
+  "persons": [
+    {
+      "bio_id": "wedderburn_maxwell-maclagan_b1883",
+      "stint_ids": ["Wedderburn, M. M___Ceylon___1919"],
+      "confidence": "certain",
+      "arguments_against": "The corpus has 10 Wedderburns in staff lists and 8 in biographies, so another 'M. M. Wedderburn' in Ceylon is conceivable, e.g. a relative in the same service whose staff-list rows are being conflated with this man's. But the counter-hypothesis fails on the cumulative specificity: the stint tracks the biography post-for-post across two decades — Assistant Government Agent in 1919 (bio: asst. gov't. agt. from Sept. 1915 until the July 1920 move), Assistant Settlement Officer 1921-1923 (bio: asst. settlmt. offr., July 1920), Government Agent 1931 (bio: gov't. agt., W. Prov., Mar. 1931), Deputy then acting Chief Secretary 1936 (bio: dep. ch. sec., Sept. 1934; ag. ch. sec.), Chief Secretary 1937-1940 (bio: ch. sec., Jan. 1936). The C.M.G. appearing on the staff-list rows from 1936 matches the bio's C.M.G. (1935) exactly in timing. There is only one Chief Secretary of Ceylon at a time; a second M. M. Wedderburn holding that office is not a live hypothesis. The only deterministic FAIL (place_inherited) is mechanical: the colony is unambiguous from the verbatim text ('cadet, Ceylon civ. ser.') even though individual clauses inherit place.",
+      "evidence_cited": [
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1919, "fact": "asst. govt. agt., Nuwara Eliya, Sept., 1915"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1921, "fact": "asst. settlmt. offr., July, 1920"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1931, "fact": "gov't. agt., W. Prov., Mar., 1931"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1936, "fact": "C.M.G. (1935)"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1937, "fact": "ch. sec., Jan., 1936"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1936, "fact": "dep. ch. sec., Sept., 1934"}
+      ],
+      "would_overturn": "Evidence of a second M. M. Wedderburn in the Ceylon civil service in 1919-1940 (e.g. a distinct staff-list entry with different forenames or a different birth year holding any of these posts), or evidence that the Chief Secretary of Ceylon 1936-40 was a different person."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Some staff-list rows carry odd department labels (e.g. 'Additional Commissioner of Requests and Police Magistrate, Northern Circuit' 1927-28; 'Commissioner of Lands / Superintendent Composing Branch' 1934) that do not appear in the biography; these look like row-alignment or OCR artifacts in the staff lists rather than evidence of a second person, since the surrounding years track the biography tightly. The 1927-28 rows are the weakest part of the stint, but the stint is a single unit and the anchor years are decisive."
+}

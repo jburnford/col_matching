@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0079",
+  "persons": [
+    {
+      "bio_id": "hyde_george-herbert-maccarthy_b1869",
+      "stint_ids": ["Hyde, G. H. M___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: Hyde is common (14 officials), and the position score is only modest (68). Why it fails: the bio carries three distinctive initials 'G. H. M.' which match the stint exactly, both place the man in the Ceylon Public Works Department, and the stint reproduces the bio's career transition - district/mechanical engineer in the P.W.D. (to ~1911) becoming 'Factory Engineer' (from 1912) - matching the bio's 'factory engrnr ... 1911'. Four edition-years co-occur. Three matching uncommon initials plus the same department and the same office transition identify one man.",
+      "evidence_cited": [
+        {"stint_id": "Hyde, G. H. M___Ceylon___1905", "year": 1900, "fact": "dist. and mech. engrnr., P.W.D., Ceylon, 1900"},
+        {"stint_id": "Hyde, G. H. M___Ceylon___1905", "year": 1909, "fact": "Mechanical and District Engineer"},
+        {"stint_id": "Hyde, G. H. M___Ceylon___1905", "year": 1911, "fact": "factory engrnr., with rank and duties of provincial engrnr., 1911"},
+        {"stint_id": "Hyde, G. H. M___Ceylon___1905", "year": 1912, "fact": "Factory Engineer"}
+      ],
+      "would_overturn": "A second G. H. M. Hyde in the P.W.D. engineering staff with an overlapping factory-engineer tenure."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Three matching uncommon initials, same department, and the mechanical/district -> factory engineer transition carry the link."
+}

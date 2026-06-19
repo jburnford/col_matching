@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q839673",
+  "persons": [
+    {
+      "bio_id": "grantham_alexander-william-george-herder_b1899",
+      "stint_ids": ["Grantham, Alexander William George Herder___Hong Kong___1948"],
+      "confidence": "certain",
+      "arguments_against": "The only conceivable counter-hypothesis is a same-name relative or namesake as Governor of Hong Kong. It is not viable: the staff-list name reproduces the full, highly distinctive four-forename string 'Alexander William George Herder' exactly; the Governorship of Hong Kong is a unique office; the biography itself states 'gov. and c.-in-c., H.K., 1947', one year before the stint's first listing; the stint's K.C.M.G. matches the biography's K.C.M.G. (1945); and the career shape closes the loop — the biography starts him as 'cadet, Hong-Kong Nov., 1922', making a return as Governor the natural terminal post. The G.C.M.G. appearing from the 1952 list is a later honour the (older) printed biography versions simply had not yet recorded, which is the normal pattern, not a discrepancy. The position_sim score of 59 vs bar 60 is a one-point abbreviation artifact ('gov. and c.-in-c.' vs 'Governor and Commander-in-Chief').",
+      "evidence_cited": [
+        {"stint_id": "Grantham, Alexander William George Herder___Hong Kong___1948", "year": 1948, "fact": "Governor"},
+        {"stint_id": "Grantham, Alexander William George Herder___Hong Kong___1948", "year": 1948, "fact": "K.C.M.G."},
+        {"stint_id": "Grantham, Alexander William George Herder___Hong Kong___1948", "year": 1952, "fact": "Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "Evidence that a second Alexander William George Herder Grantham existed and governed Hong Kong in 1948-57, contradicting the biography's own 1947 appointment line."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full four-forename identity, unique gubernatorial office matching the biography's 1947 appointment, agreeing honour state, and 5 strict edition co-occurrences. The honour upgrade to G.C.M.G. in 1952 post-dates the last bio version's honour list, as expected."
+}

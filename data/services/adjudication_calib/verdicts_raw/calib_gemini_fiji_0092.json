@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_fiji_0092",
+  "persons": [
+    {
+      "bio_id": "langford_john_e1874",
+      "stint_ids": ["Langford, John___Fiji___1879"],
+      "confidence": "certain",
+      "arguments_against": "The dossier flags the namesake trap (12 Langfords in staff lists, 5 biographies), and 'John' is a common forename, so the strongest counter-hypothesis is a different John Langford in Fiji, e.g. a father/son pair, or that the 1883 plain 'Clerk' row belongs to someone else. This fails for the main identification because the stint tracks the biography through TWO successive, highly specific compound offices with matching dates: 'ch. clk. and clk. of legis. coun., Jan., 1878' matching 'Chief Clerk and Clerk to the Legislative Council', and 'registr., sup. ct., and curator of intestate estates, June, 1884' matching 'Registrar of Supreme Court, and Curator of Intestate Estates' continuously from 1886 to 1906. These are sole-incumbent offices, not generic junior titles, and the careers transition at the same point in both sources. The biography's last appearance (1910 edition, with I.S.O. awarded 1907) is consistent with a career ending around the stint's last listing in 1906. No second John Langford with this career could exist in Fiji simultaneously without two people holding the same sole-incumbent office.",
+      "evidence_cited": [
+        {"stint_id": "Langford, John___Fiji___1879", "year": 1883, "fact": "ch. clk. and clk. of legis. coun., Jan., 1878"},
+        {"stint_id": "Langford, John___Fiji___1879", "year": 1886, "fact": "registr., sup. ct., and curator of intestate estates, June, 1884"},
+        {"stint_id": "Langford, John___Fiji___1879", "year": 1900, "fact": "Registrar of Supreme Court, and Curator of Intestate Estates"},
+        {"stint_id": "Langford, John___Fiji___1879", "year": 1879, "fact": "Clk., col. sec.'s office, Fiji, Oct., 1874"}
+      ],
+      "would_overturn": "Evidence of a second John Langford in the Fiji civil establishment in 1879-1906 (distinct staff-list lines in the same year for two John Langfords in different offices), or a record showing the Registrar of the Supreme Court of Fiji in 1886-1906 had a different forename."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Although the dossier carries a single-initial warning, the printed biography gives the full forename JOHN and the staff list prints 'John Langford' in nearly every year. The merge rests on the required strong independent dimensions: exact specific-position agreement on two successive sole-incumbent compound offices with matching transition dates, plus colony agreement and 4 co-occurring editions."
+}

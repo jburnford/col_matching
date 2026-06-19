@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_gemini_malta_0206",
+  "persons": [
+    {
+      "bio_id": "bonavia_edgar_b1868",
+      "stint_ids": ["Bonavia, Edgar L___Malta___1889", "Bonavia, Edgar L___Malta___1912"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the bio is flagged as a single-initial namesake trap, and 'Clerk' is a generic junior title, so the 1889-1907 stint could in principle be a different E. Bonavia (12 Bonavias in the staff lists); the bio also never prints the middle initial 'L'. Why this fails: the 1896 staff list prints the full forename 'Edgar L. Bonavia', and the career matches the printed biography clause-for-clause across two decades and two stints: post office clerk (bio 1886; staff list 1889 'Clerk, Post Office'), transfer to the secretariat 1894 (1896-1905 clerk in the Chief Secretary's Office), Lieutenant Governor's Office by 1906-07, then 'dep. asst. sec. to govt., 1911' (1912 'Deputy Assistant Secretary'), 'asst. sec. to govt., 1912' (1913-1921 'Assistant Secretary'), the shared C.M.G. honour (bio 1917; staff list from 1918), and 'perm. sec. to head of ministry, 5th Nov., 1921' (1922-1925 'Permanent Secretary, Office of the Head of the Ministry'). These are many independent agreeing dimensions (full forename, specific successive positions, exact departments, dates, honour); no rival Bonavia hypothesis survives. The two stints are continuous segments of the same documented career, with the 1908-1911 gap in stint coverage bridged by the bio's 'stenographer to the coun. of govt., 1891-1911'.",
+      "evidence_cited": [
+        {"stint_id": "Bonavia, Edgar L___Malta___1889", "year": 1889, "fact": "Post Office"},
+        {"stint_id": "Bonavia, Edgar L___Malta___1889", "year": 1896, "fact": "Edgar L. Bonavia"},
+        {"stint_id": "Bonavia, Edgar L___Malta___1889", "year": 1896, "fact": "Chief Secretary's Office"},
+        {"stint_id": "Bonavia, Edgar L___Malta___1912", "year": 1912, "fact": "Deputy Assistant Secretary"},
+        {"stint_id": "Bonavia, Edgar L___Malta___1912", "year": 1918, "fact": "C.M.G."},
+        {"stint_id": "Bonavia, Edgar L___Malta___1912", "year": 1922, "fact": "Office of the Head of the Ministry"}
+      ],
+      "would_overturn": "Evidence of a second 'Edgar Bonavia' in Maltese government service in the same decades (e.g., a son with the same forename serving in the secretariat), or a printed source showing the C.M.G. of 1917 was awarded to a different E. Bonavia."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Bonavia, Miss E___Malta___1934", "reason": "Printed as 'Miss E. Bonavia' -- a woman, so she cannot be Edgar Bonavia. Likely a relative (the shared Lieutenant-Governor's Office department is suggestive of family connection, not identity). No tenure overlap with the bio, and Edgar would be 66-69 in 1934-37 appearing as a junior Shorthand Typist, which is implausible."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two Edgar L. Bonavia stints (1889-1907 and 1912-1925) are clearly the same man as the biography; the deterministic position_sim failures are string-similarity artifacts ('clk., post office' vs 'Second Class Clerk'; 'boy scouts' comsnr.' vs 'Assistant Secretary') -- the verbatim texts agree precisely once abbreviations are expanded. The 'Miss E. Bonavia' stint should be kept as a separate person record."
+}

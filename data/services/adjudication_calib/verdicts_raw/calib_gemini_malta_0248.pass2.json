@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_malta_0248",
+  "persons": [
+    {
+      "bio_id": "ransley_g-j_b1900",
+      "stint_ids": ["Ransley, G. J___Malta___1949"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter: there are 3 Ransleys in the Malta staff lists, so in principle a same-name relative or a successor could hold the Director of Prisons post, and the bio carries no honour to cross-check (honour FAIL). This fails because the evidence is multi-dimensional and the office is singular: both initials G.J. match, the bio's career culminates exactly at 'dir., prisons, 1944', and the stint shows 'G. J. Ransley, Director of Prisons' held continuously 1949-1960 -- one man holds Director of Prisons at a time, and the bio's 1944 appointment flows directly into the stint with no gap. Age (b.1900, age 49 in 1949) fits, and there are 3 agreeing edition-years with position similarity 78. A second G. J. Ransley simultaneously or successively directing Malta's prisons is implausible.",
+      "evidence_cited": [
+        {"stint_id": "Ransley, G. J___Malta___1949", "year": 1949, "fact": "dir., prisons, 1944"},
+        {"stint_id": "Ransley, G. J___Malta___1949", "year": 1955, "fact": "Director of Prisons"}
+      ],
+      "would_overturn": "Evidence that the Director of Prisons post passed to a different G. J. Ransley between 1944 and 1949 would reverse this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two-initial match, singular department-head post matching the bio's terminal appointment, chronological continuity from 1944, consistent age, 3 agreeing edition-years. High-confidence match."
+}

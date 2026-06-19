@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q336027",
+  "persons": [
+    {
+      "bio_id": "lugard_frederick-john-dealtry_b1858",
+      "stint_ids": ["Lugard, Frederick John Dealty___Hong Kong___1911"],
+      "confidence": "certain",
+      "arguments_against": "Possible objections: (1) one of the other 4 Lugard officials in the corpus is the Hong Kong governor; (2) the staff list shows 'C.M.G.' while the biography has K.C.M.G., hinting at a different man; (3) position_sim FAILed. All fail. The biography states 'gov. of Hong Kong, 1st May, 1907' with the next posting in March 1912 — bracketing the stint's 1911-1912 listing of the colony's sole Governor; the stint name 'Frederick John Dealty' matches the bio's distinctive triple forename 'Frederick John Dealtry' to within one OCR letter, and 'Sir F. J. D. Lugard' matches all three initials; C.B. and D.S.O. are shared, and the 'C.M.G.' is best read as a truncated/garbled K.C.M.G. (1901) — consistent with the 'Sir' styling, since a mere C.M.G. would not be 'Sir'. The position_sim FAIL ('gov.' vs 'Governor', score 55 vs bar 60) is a pure abbreviation artifact. No other Lugard could be Hong Kong's knighted governor with these initials and honours in 1911.",
+      "evidence_cited": [
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1911, "fact": "gov. of Hong Kong, 1st May, 1907"},
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1911, "fact": "Sir F. J. D. Lugard"},
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1911, "fact": "C.M.G., C.B., D.S.O."}
+      ],
+      "would_overturn": "Evidence of a second F. J. D. Lugard serving in Hong Kong in 1911, or a record that the biography subject left the governorship before 1911 and a namesake succeeded him."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Stint window (1911-1912) sits entirely inside the bio's Hong Kong governorship (May 1907 to Mar 1912 transfer to Nigeria). The staff-list 'C.M.G.' vs bio 'K.C.M.G. (1901)' is a likely print/OCR truncation, corroborated by the 'Sir' prefix; C.B. and D.S.O. match exactly."
+}

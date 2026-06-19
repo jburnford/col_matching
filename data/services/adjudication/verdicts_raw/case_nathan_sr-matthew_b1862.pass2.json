@@ -1,0 +1,36 @@
+{
+ "case_id": "case_nathan_sr-matthew_b1862",
+ "persons": [
+  {
+   "bio_id": "nathan_sr-matthew_b1862",
+   "stint_ids": [
+    "Nathan, Matthew___Hong Kong___1905",
+    "Nathan, Matthew___Gold Coast___1922",
+    "Nathan, Matthew___Gold Coast___1946"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Sir Matthew Nathan is a singular figure. The Hong Kong 1905 stint is his contemporaneous governorship (the entry states gov. Hong Kong from 1903), colony and tenure agreeing. The two Gold Coast 'Governors' records (1922, 1946) are retrospective rosters of past Gold Coast governors — he governed the Gold Coast from 1900 per the entry — naming 'Sir Matthew Nathan, K.C.M.G.' His distinctive name and the shared K.C.M.G. make a different person implausible; the only caveat is that the Gold Coast records are historical-roster years, not his 1900-04 tenure years.",
+   "evidence_cited": [
+    {
+     "stint_id": "Nathan, Matthew___Hong Kong___1905",
+     "year": 1905,
+     "fact": "Governor"
+    },
+    {
+     "stint_id": "Nathan, Matthew___Gold Coast___1946",
+     "year": 1946,
+     "fact": "Governor"
+    },
+    {
+     "stint_id": "Nathan, Matthew___Hong Kong___1905",
+     "year": 1905,
+     "fact": "K.C.M.G"
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 3, hand-adjudicated (Claude Code, in-session)"
+}

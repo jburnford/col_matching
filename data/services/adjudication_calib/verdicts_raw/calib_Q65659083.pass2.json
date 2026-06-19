@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q65659083",
+  "persons": [
+    {
+      "bio_id": "garraway_e-c-f_e1880",
+      "stint_ids": ["Garraway, E. C. F___Basutoland___1920"],
+      "confidence": "certain",
+      "arguments_against": "With 20 Garraways in the staff lists, the namesake risk is nominally high; could the Basutoland Resident Commissioner of 1920–1925 be a relative of the biography's subject — say a son with the same three initials? The hypothesis fails on multiple independent dimensions. (1) The biography states 'res. comsrr., Basutoland, 16th Dec., 1917; ret., 19th Apr., 1926', exactly bracketing the listed years 1920–1925, and Resident Commissioner of Basutoland is a unique office. (2) All three initials E. C. F. match. (3) The rank matches: bio 'LT.-COL. SIR E. C. F.', staff list 'Lieut.-Col. E. C. F. Garraway'. (4) The honours track in time: staff list shows C.M.G. in 1920–1922 and K.C.M.G. with the style 'Sir' from 1924, matching the bio's 'K.C.M.G. (1922), C.M.G. (1911)'. A second Lieut.-Col. E. C. F. Garraway holding the same unique office in the same years is not a live possibility. The position_sim FAIL is the abbreviation 'res. comsrr.' scoring low against 'Resident Commissioner' — the strings denote the identical office.",
+      "evidence_cited": [
+        {"stint_id": "Garraway, E. C. F___Basutoland___1920", "year": 1920, "fact": "res. comsrr., Basutoland, 16th Dec., 1917"},
+        {"stint_id": "Garraway, E. C. F___Basutoland___1920", "year": 1920, "fact": "Lieut.-Col. E. C. F. Garraway"},
+        {"stint_id": "Garraway, E. C. F___Basutoland___1920", "year": 1924, "fact": "K.C.M.G."},
+        {"stint_id": "Garraway, E. C. F___Basutoland___1920", "year": 1925, "fact": "Resident Commissioner"}
+      ],
+      "would_overturn": "Evidence of a second E. C. F. Garraway in colonial service, or a record showing the Basutoland Resident Commissionership 1920–1925 was held by someone other than the bio subject (e.g. an acting officer listed under the same name)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique office + exact tenure bracket (1917 appointment, 1926 retirement) + three-initial match + rank match + honour progression (C.M.G. then K.C.M.G./'Sir' appearing in the staff list after the 1922 award) — multiple independent agreeing dimensions, no live counter-hypothesis."
+}

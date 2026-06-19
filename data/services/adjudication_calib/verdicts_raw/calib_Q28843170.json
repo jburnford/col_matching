@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q28843170",
+  "persons": [
+    {
+      "bio_id": "james_frederick-swton_b1870",
+      "stint_ids": ["James, Frederick S___Windward Islands___1924"],
+      "confidence": "certain",
+      "arguments_against": "James is a very common surname (79 officials, 42 biographies in the corpus), and the position_sim check failed, so one could argue the mechanical match is weak and another Frederick James could be the Windward Islands man. But the position_sim failure is a pure OCR artifact: the bio prints 'gov't., Windward Is., 23rd Feb., 1924; assumed gov't., 26th July, 1924' — i.e. the governorship of the Windward Islands appointed Feb 1924 and assumed July 1924 — and the stint is 'Governor, Windward Islands' starting in exactly 1924. Governor is a unique office in a colony; two Frederick S. Jameses cannot both hold it in 1924. The staff list further prints 'Sir' and the honours K.B.E. and C.M.G., matching the bio's K.B.E. (1922) and C.M.G. (1902) exactly. A same-name relative or successor would not share both honours, the knighthood, the full forename, the middle initial, and the appointment year of a unique post. The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "James, Frederick S___Windward Islands___1924", "year": 1924, "fact": "gov't., Windward Is., 23rd Feb., 1924"},
+        {"stint_id": "James, Frederick S___Windward Islands___1924", "year": 1924, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "James, Frederick S___Windward Islands___1924", "year": 1924, "fact": "K.B.E., C.M.G."},
+        {"stint_id": "James, Frederick S___Windward Islands___1924", "year": 1924, "fact": "K.B.E. (1922), C.M.G. (1902)"}
+      ],
+      "would_overturn": "A record of a different Sir Frederick James holding the Windward Islands governorship in 1924-1929, or evidence this biography's subject was serving elsewhere (e.g. still in Malaya) throughout 1924-1929."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic position_sim FAIL ('gov't.' vs 'Governor, Windward Islands' scoring 21) is an abbreviation artifact; the verbatim bio text explicitly records appointment to the government of the Windward Islands on 23 Feb 1924, assumed 26 July 1924. Unique office + exact year + forename + middle initial + two shared honours (K.B.E., C.M.G.) + knighthood. 'SWTON' is an OCR garble of the middle name (likely 'Seton'), consistent with the 'S' in the staff list."
+}

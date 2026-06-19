@@ -1,0 +1,18 @@
+{
+  "case_id": "case_addo_james-abee_b1903",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Addo, J. A___Gold Coast___1928",
+      "reason": "The two biographies in this case are OCR duplicates of the same printed entry (see duplicate_bio_groups), so per instructions the contested stint is assigned to neither. Independently, the dossier notes this stint is also gate-compatible with an outside biography 'addo_james-aryee_b1903' — another J. A. Addo with the same birth year 1903 in Gold Coast, already linked elsewhere or filtered. 'JAMES ABEE' vs 'James Aryee' may themselves be OCR variants of one printed name, but the dossier provides no text for the Aryee entry to verify, and if Aryee is a distinct person (e.g. a relative born the same year) he is an equally strong claimant: the stint's 'Cadet Inspector of Schools' (1928) matches the bio's 'cadet inspr., schls., 1927; inspr., schls., 1928' well, but that same career text would presumably match the Aryee bio too. With a live same-initials, same-birth-year, same-colony counter-claimant outside the case, assigning here risks a false merge or a silent duplicate of a link already made to Aryee."
+    },
+    {
+      "stint_id": "Addo, J. A___Gold Coast___1949",
+      "reason": "Education Officer 1949-1950 starts 21 years after the biography's last dated event (1928) and 9+ years after its last edition appearance (1940). No tenure overlap, no overlapping position to compare, no honours, no edition co-occurrence. The corpus has 4 staff-list officials with this surname, and the outside biography 'addo_james-aryee_b1903' is also gate-compatible. 'Education Officer' is a generic title; a younger J. A. Addo entering the Gold Coast education service by 1949 is entirely plausible. Initials + colony + age-plausibility alone cannot carry an initial-only link across a two-decade gap."
+    }
+  ],
+  "duplicate_bio_groups": [
+    ["addo_james-abee_b1903", "addon_j-a_b1903"]
+  ],
+  "notes": "The two in-case biographies are unmistakably one printed entry read twice by OCR: identical B.A., identical 'B. 1903', and clause-for-clause identical careers ('4th cls. teacher, Gold Coast, 1922; 2nd divn. teacher, 1923'), differing only in 'ADDO/ADDON' and 'instr.'/'inspr.' — the 1933 reading 'inspr.' (inspector) is likely the correct one given the staff list's 'Cadet Inspector of Schools'. The substantive blocker for the 1928 stint is not the duplicate pair but the outside biography addo_james-aryee_b1903 (same initials, same birth year, same colony, already linked elsewhere or filtered). Recommended reviewer action: pull the Aryee entry text; if 'Abee' and 'Aryee' are OCR variants of the same person, merge all three bio records and the 1928 stint link follows naturally (position + year agreement is strong: 'cadet inspr., schls., 1927; inspr., schls., 1928' vs staff-list Cadet Inspector of Schools 1928-1929, African Inspector of Schools 1930). The 1949 stint should stay open pending evidence bridging 1936-1949."
+}

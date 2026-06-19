@@ -1,0 +1,25 @@
+{
+  "case_id": "case_agius_frank_b1890",
+  "persons": [
+    {
+      "bio_id": "agius_frank_b1890",
+      "stint_ids": ["Agius, F___Malta___1925", "Agius, F___Malta___1949"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: this is a single-initial biography ('F') and Agius is a common Maltese surname (21 officials with this surname in the staff lists), so the F. Agius in the staff lists could be a different Agius — a brother, cousin, or unrelated namesake serving in the same colony. The bio also says he was appointed in 1908, yet the first stint only begins in 1925, leaving a 17-year gap that could mean the 1925 listing is a different, younger man entering the service. Why this fails: the link does not rest on name or tenure overlap but on a dated promotion fingerprint. The bio reads 'ch. clk., customs, 1933' and the staff list shows F. Agius in the Customs and Port Department promoted from 'Clerks, 2nd Class' (last listed 1933) to 'Chief Clerk' (1934); the bio reads 'asst. collr., customs, 1938' and the staff list shows 'Assistant Collector of Customs' from 1939. Two consecutive specific-office promotions in the same department, each within a year of the bio's stated date, cannot plausibly belong to a second F. Agius — that would require two men with the same initial holding the same singular customs posts at the same times. The 1908-1925 gap is explained by junior grades below 2nd-class clerk not being printed. For the 1949 stint, the bio's 'collr., customs, 1944' and 'food and comm. cont. offr. in addn., 1949' match the stint's 'Collector of Customs and Superintendent of the Ports' (1949-51) followed by 'Food and Commerce Control Officer' (1953-56), and the stint is the natural continuation of the first stint's career arc (asst. collector 1940 -> collector). A successor-in-post hypothesis fails because the bio itself attests Frank held BOTH the collector post and the food-control post, the exact two offices the stint records in sequence.",
+      "evidence_cited": [
+        {"stint_id": "Agius, F___Malta___1925", "year": 1934, "fact": "Chief Clerk"},
+        {"stint_id": "Agius, F___Malta___1925", "year": 1933, "fact": "ch. clk., customs, 1933"},
+        {"stint_id": "Agius, F___Malta___1925", "year": 1939, "fact": "Assistant Collector of Customs"},
+        {"stint_id": "Agius, F___Malta___1925", "year": 1938, "fact": "asst. collr., customs, 1938"},
+        {"stint_id": "Agius, F___Malta___1949", "year": 1949, "fact": "Collector of Customs and Superintendent of the Ports"},
+        {"stint_id": "Agius, F___Malta___1949", "year": 1944, "fact": "collr., customs, 1944"},
+        {"stint_id": "Agius, F___Malta___1949", "year": 1953, "fact": "Food and Commerce Control Officer"},
+        {"stint_id": "Agius, F___Malta___1949", "year": 1949, "fact": "food and comm. cont. offr. in addn., 1949"}
+      ],
+      "would_overturn": "Evidence of a second F. Agius in the Malta Customs and Port Department in the 1930s-1950s (e.g., a staff list or biography showing two distinct F. Agius entries in that department concurrently), or a record showing Frank Agius left the customs service or died before 1949, which would force the 1949 stint onto a namesake successor."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial trap acknowledged, but the assignment rests on two independent specific dimensions per stint: dated office-for-office agreement (chief clerk 1933/34, asst. collector 1938/39, collector by 1949, food and commerce control officer 1949/1953) and department/colony agreement, plus career-shape continuity bridging the two stints (asst. collector to 1940, bio collr. 1944, collector from 1949). The mechanical edition_cooccurrence FAIL is misleading: the 1951 edition contains both the biography and the 1949 stint's staff-list record. The 1908-1925 gap before the first stint reflects junior grades not being printed in staff lists. The stint gap 1941-1948 spans the war years and the bio's 1944 collector promotion; no rival F. Agius appears in either stint's records."
+}

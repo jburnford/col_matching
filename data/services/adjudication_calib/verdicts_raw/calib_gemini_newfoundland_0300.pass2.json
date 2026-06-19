@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_newfoundland_0300",
+  "persons": [
+    {
+      "bio_id": "conroy_j-g_e1880",
+      "stint_ids": ["Conroy, J. G___Newfoundland___1889"],
+      "confidence": "certain",
+      "arguments_against": "Conroy is moderately common (8 officials, 5 bios), so a same-name relative sharing the J. G. initials and the colony is the counter-hypothesis. But the office is specific and singular -- 'Central District Court Judge, Newfoundland' (position_sim 100) -- and the bio and stint co-occur across an unusually long span: the bio is printed in 1888-1917 and the stint runs 1889-1915 with matching position, including same-edition agreement in 1889 and 1894. The bio's 1880 appointment precedes the stint's 1889 first listing consistently (staff-list coverage starting later). For the counter-hypothesis to hold, two J. G. Conroys would both have to be Central District Court Judges of Newfoundland across the same two-plus decades -- not credible. Objection fails.",
+      "evidence_cited": [
+        {"stint_id": "Conroy, J. G___Newfoundland___1889", "year": 1894, "fact": "J. G. Conroy | Central District Court Judge"},
+        {"stint_id": "Conroy, J. G___Newfoundland___1889", "year": 1889, "fact": "Central District Court Judges | Judicial Establishment"}
+      ],
+      "would_overturn": "A printed record of a second J. G. Conroy also holding a Central District Court judgeship in Newfoundland, or a death date for the bio incompatible with listing through 1915."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two-initial match, singular specific judicial office, and long-span edition co-occurrence (1889-1915) with position_sim 100. No live counter-hypothesis."
+}

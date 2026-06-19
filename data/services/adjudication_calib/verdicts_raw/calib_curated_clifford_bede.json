@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_curated_clifford_bede",
+  "persons": [
+    {
+      "bio_id": "clifford_bede-edmund-hugh_b1890",
+      "stint_ids": [
+        "Clifford, Bede E. H___Bahamas___1933",
+        "Clifford, Bede___Mauritius___1939"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: there are 20 Cliffords in the staff lists and 10 in the biographies, so one could posit a second Clifford as governor of the Bahamas or Mauritius in these years; the deterministic colony/tenure checks FAILED for the Bahamas stint, and the Mauritius staff-list name is the single forename 'Bede'. This fails. The colony FAIL for the Bahamas is a pipeline artifact: the compiled timeline wrongly inherited 'Australia' as the place, but the verbatim printed entry explicitly reads 'gov. and commdr.-in-ch. of the Bahamas, 1931'. The Bahamas staff list prints 'Capt. Hon. B. E. H. Clifford' — full three-initial agreement with Bede Edmund Hugh, plus the rank 'Capt.' and the courtesy style 'Hon.' both matching the printed entry ('CLIFFORD, CAPT. HON. SIR BEDE EDMUND HUGH'), plus the C.M.G. (1924) and C.B. (1931). For Mauritius, the bio reads 'do., Mauritius, Oct., 1937' (i.e. governor and commander-in-chief), and the 1939 staff list shows 'Sir Bede Clifford ... Governor and Commander-in-Chief ... K.C.M.G., C.B.' — exact office, colony, date sequence, and both honours (K.C.M.G. 1933, C.B. 1931) agree. 'Bede' is a rare forename; combined with the Capt./Hon./honour agreement and the Bahamas-then-Mauritius succession matching the bio exactly, no same-name relative or successor hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Clifford, Bede E. H___Bahamas___1933", "year": 1933, "fact": "gov. and commdr.-in-ch. of the Bahamas, 1931"},
+        {"stint_id": "Clifford, Bede E. H___Bahamas___1933", "year": 1933, "fact": "Capt. Hon. B. E. H. Clifford"},
+        {"stint_id": "Clifford, Bede___Mauritius___1939", "year": 1939, "fact": "do., Mauritius, Oct., 1937"},
+        {"stint_id": "Clifford, Bede___Mauritius___1939", "year": 1939, "fact": "Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Capt. Hon. B. E. H. Clifford, or a primary record showing a different person held the Bahamas governorship 1933-1940 or the Mauritius governorship 1939-1948 while Bede Edmund Hugh Clifford was elsewhere."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-biography case. The deterministic colony/tenure FAILs on the Bahamas stint stem from a place-inheritance error in the compiled timeline ('Australia' wrongly carried forward); the verbatim entry text names the Bahamas governorship from 1931 explicitly. Both stints assigned with certainty."
+}

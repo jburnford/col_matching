@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_ceylon_0018",
+  "persons": [
+    {
+      "bio_id": "bonser_j-w_b1847",
+      "stint_ids": ["Bonser, J. W___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: 2 Bonser officials exist in the staff lists, so the stint might belong to a same-name relative rather than the biographied Chief Justice; and the bio is a two-initial 'J. W.' form, which demands a strong independent dimension. This fails because Chief Justice of Ceylon is a unique, single-holder office, the bio explicitly states 'ch. justice, Ceylon, 1893', and the stint shows him as Chief Justice 1894-1900 with the matching honorific 'Sir J. W. Bonser' (bio: 'KT. BACH. (1894)', staff list adds 'Sir' from 1894 onward). The second Bonser cannot also be Chief Justice. Position, initials, knighthood timing, and 4-edition co-occurrence all agree.",
+      "evidence_cited": [
+        {"stint_id": "Bonser, J. W___Ceylon___1894", "year": 1894, "fact": "Sir J. W. Bonser | Chief Justice"},
+        {"stint_id": "Bonser, J. W___Ceylon___1900", "year": 1900, "fact": "J. W. Bonser | Chief Justice"}
+      ],
+      "would_overturn": "Evidence that a different J. W. Bonser held the Ceylon Chief Justiceship in 1894-1900, or that the bio's Chief Justice tenure ended before 1894."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique single-holder office (Chief Justice of Ceylon) plus matching knighthood timing (Kt. Bach. 1894 / 'Sir' appearing from 1894) and 4 agreeing edition-years make this a publish-grade match."
+}

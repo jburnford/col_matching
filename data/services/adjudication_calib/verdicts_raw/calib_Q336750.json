@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q336750",
+  "persons": [
+    {
+      "bio_id": "robinson_hercules-g-r_e1846",
+      "stint_ids": ["Robinson, Hercules George Robert___New Zealand___1879"],
+      "confidence": "certain",
+      "arguments_against": "Robinson is a very common surname (136 officials, 56 biographies in the corpus), so one could posit a different H. Robinson in New Zealand in 1879, e.g. a relative or a successor governor. But the counter-hypothesis fails on every specific dimension: the stint's full forename string 'Hercules George Robert' is distinctive and matches the bio's initials H.G.R. exactly; the bio explicitly records 'governor, New Zealand, 1879' in both printed versions; the stint position 'Governor and Commander-in-Chief and Vice-Admiral' is the same office; and both carry the G.C.M.G. (bio: 1875; stint: listed 1879-1880). A second 'Hercules George Robert Robinson' serving as governor of the same colony in the same year is not a realistic alternative. The lack of strict edition co-occurrence is expected: the stint editions are 1879-1880 and the biography sections survive only from 1883 onward.",
+      "evidence_cited": [
+        {"stint_id": "Robinson, Hercules George Robert___New Zealand___1879", "year": 1879, "fact": "governor, New Zealand, 1879"},
+        {"stint_id": "Robinson, Hercules George Robert___New Zealand___1879", "year": 1879, "fact": "Governor and Commander-in-Chief and Vice-Admiral"},
+        {"stint_id": "Robinson, Hercules George Robert___New Zealand___1879", "year": 1880, "fact": "G.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Hercules G. R. Robinson (e.g. a son with identical forenames holding the New Zealand governorship in 1879-1880), or a staff-list correction showing the 1879-1880 New Zealand governor's forenames differ from 'Hercules George Robert'."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Multiple independent agreeing dimensions: distinctive triple forename/initials, exact colony+year agreement with the printed career line, exact office (governor), and shared G.C.M.G. honour with consistent award date. No live counter-hypothesis."
+}

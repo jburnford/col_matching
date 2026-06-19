@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q5735394",
+  "persons": [
+    {
+      "bio_id": "palmer_herbert-richmond_b1877",
+      "stint_ids": ["Palmer, Herbert Richmond___Cyprus___1934"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: Palmer is common (61 staff-list officials, 25 biographies), and the stint's listed range nominally runs to 1946 while the biography says 'ret., 1939' — could the later listings belong to a different H. R. Palmer who succeeded him? No: the stint prints the full double forename 'Herbert Richmond' with 'Sir' and K.C.M.G. in every row, the biography records exactly this appointment ('gov. and commodr.-in-ch., Cyprus, 1933' / 'gov. and c.in-c., Cyp., 1933') and the K.C.M.G. honour (dated 1933 or 1935 across versions — both before the 1934 stint start), and Governor and Commander-in-Chief of Cyprus is a singular post. The only substantive rows shown are 1934 and 1936, squarely within his 1933-1939 tenure; the 1939/1946 edition listings without rows are consistent with honoured-retiree carry-over or sparse extraction, not a second person, since no row shows anyone else's forename. Two contemporaneous 'Sir Herbert Richmond Palmer, K.C.M.G.' governors is not a realistic hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Palmer, Herbert Richmond___Cyprus___1934", "year": 1934, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Palmer, Herbert Richmond___Cyprus___1934", "year": 1934, "fact": "Sir Herbert Richmond Palmer"},
+        {"stint_id": "Palmer, Herbert Richmond___Cyprus___1934", "year": 1936, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second Herbert Richmond Palmer (e.g. a son with the identical double forename and K.C.M.G.) serving in Cyprus in the 1930s, or staff-list rows after 1939 showing this name as Governor when a different governor is independently attested — which would instead indicate an extraction error, not a different person."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full double forename + 'Sir' + K.C.M.G. + the singular Cyprus governorship stated verbatim in the biography make this airtight. Minor discrepancy: the K.C.M.G. year is printed as 1935 in one bio version and 1933 in others (OCR/compositor variance); either way it precedes the stint. The stint's nominal end (1946) overshoots the bio's 'ret., 1939' — likely sparse edition coverage in the stint builder; only 1934 and 1936 rows are actually attested."
+}

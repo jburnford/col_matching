@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_curated_grey_george_nz",
+  "persons": [
+    {
+      "bio_id": "grey_george_e1829",
+      "stint_ids": ["Grey, George___New Zealand___1877"],
+      "confidence": "certain",
+      "arguments_against": "The dossier flags the namesake trap (30 Greys in staff lists, 12 in biographies, and the bio carries only the forename George — Greys named George recur, including the Earls Grey). Could this New Zealand stint belong to a different George Grey? No: the stint is not one generic post but a specific two-office sequence that the biography reproduces exactly — the 1877 row is 'Superintendent of Auckland', matching the bio's 'superintendent of the Province of Auckland, 1875', and the 1878-79 rows are 'Premier and Commissioner of Customs', matching 'premier of New Zealand, 1877 to 1879', with the stint ending in 1879 exactly when the premiership ends. The honour seals it: every staff-list row carries K.C.B., matching the bio's K.C.B. (Civil.) (1848) — the deterministic honour FAIL is a formatting artifact of '(Civil.)'. Premier of New Zealand is a unique office; no second K.C.B. George Grey held it. The single-forename caution is satisfied by two specific position matches plus the shared honour.",
+      "evidence_cited": [
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1877, "fact": "superintendent of the Province of Auckland, 1875"},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1878, "fact": "premier of New Zealand, 1877 to 1879"},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1879, "fact": "K.C.B. (Civil.) (1848)"}
+      ],
+      "would_overturn": "Evidence of a second Sir George Grey, K.C.B., active in New Zealand provincial or ministerial office in 1877-1879, or records showing the 1877-79 Premier was a different individual from the former governor."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The honour FAIL is mechanical: bio 'K.C.B. (Civil.)' vs staff list 'K.C.B.' are the same order; the parenthetical division marker defeated the string match. The stint's three 1879 rows (Premier, Commissioner of Customs, Stamp Office) are one man holding portfolio combinations, as the 1879 Executive Council row itself states ('Premier and Commissioner of Customs and of Stamps')."
+}

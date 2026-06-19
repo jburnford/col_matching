@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_natal_0264",
+  "persons": [
+    {
+      "bio_id": "plant_robert_e1888",
+      "stint_ids": ["Plant, R___Natal___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the biography carries effectively a single distinguishing initial in the staff lists ('R. Plant'), the stint starts in 1894 while the biography dates the appointment to 1888 (a six-year gap before the first listing), and a relative — for instance a son or brother also named R. Plant — could in principle have served in the same Natal Education Department. This fails for three reasons. First, the post is specific and rare, not a generic junior title: 'Inspector, Native Education' in Natal's Education Department, and the corpus holds only 8 Plants in all staff lists. Second, the career shape matches at a fine grain: the biography records promotion to 'senr. inspir. of native schls., 1st July, 1904', and the staff lists show exactly that transition — 'Inspector, Native Education' through 1900, 'Senior Inspector, Native Education' from 1905 onward. A namesake would have to duplicate both the unusual office and the 1904 promotion. Third, the 1894 start is a listing artifact, not a contradiction: the stint's edition list simply begins at 1894, and an 1888 appointee being listed from 1894 is fully consistent (the bio itself only enters the biographical section in 1907). No second R. Plant appears anywhere in the Natal lists to sustain a rival hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Plant, R___Natal___1894", "year": 1894, "fact": "Inspr. of native educa., Natal, 18th Oct., 1888"},
+        {"stint_id": "Plant, R___Natal___1894", "year": 1894, "fact": "Inspector, Native Education | Education Department"},
+        {"stint_id": "Plant, R___Natal___1894", "year": 1905, "fact": "Senior Inspector, Native Education"},
+        {"stint_id": "Plant, R___Natal___1894", "year": 1904, "fact": "senr. inspir. of native schls., 1st July, 1904"}
+      ],
+      "would_overturn": "Discovery of a second contemporaneous R. Plant in the Natal Education Department; or evidence that Robert Plant left the inspectorship before 1905 and a different R. Plant held the Senior Inspector post."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography vs single stint. The decisive evidence is the matched promotion: bio's 1904 elevation to senior inspector is mirrored exactly by the staff lists' shift from 'Inspector, Native Education' (through 1900) to 'Senior Inspector, Native Education' (from 1905). Specific uncommon office + place + initial + promotion-shape + 2-edition co-occurrence; the deterministic honour FAIL reflects only that neither source prints an honour."
+}

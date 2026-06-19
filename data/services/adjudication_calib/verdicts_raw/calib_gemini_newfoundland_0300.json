@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_newfoundland_0300",
+  "persons": [
+    {
+      "bio_id": "conroy_j-g_e1880",
+      "stint_ids": ["Conroy, J. G___Newfoundland___1889"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 8 officials share the surname Conroy, and the gap between the bio's appointment date (1880) and the stint's first listing (1889) could in theory conceal a succession — a different J. G. Conroy taking over the bench. This fails: the office is a specific senior judicial post ('Central District Court judge') matched verbatim in the same colony, both initials agree exactly, and the bio and stint co-occur in the same editions across more than two decades (1889 through 1915) with colony-agreeing position matches — the biographical entry naming this exact judgeship was reprinted in the very volumes whose Newfoundland staff lists carry J. G. Conroy as Central District Court Judge. A succession by a same-initialled relative while the original's biography continued to be printed unchanged for 25+ years is not a realistic hypothesis; the stint's start at 1889 simply reflects coverage, not appointment.",
+      "evidence_cited": [
+        {"stint_id": "Conroy, J. G___Newfoundland___1889", "year": 1889, "fact": "Central District Court judge, Newfoundland, 1880"},
+        {"stint_id": "Conroy, J. G___Newfoundland___1889", "year": 1894, "fact": "J. G. Conroy | Central District Court Judge | Judicial Establishment"}
+      ],
+      "would_overturn": "Evidence of two J. G. Conroys on the Newfoundland bench (e.g. an obituary of the 1880 appointee before 1915 while the staff listing continued), which would indicate a same-name successor."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Multi-edition co-occurrence check passes (2+ agreeing edition-years at pos~99); position, colony, and both initials agree exactly over a 27-year span. The 1898 department string 'NEWFOUNDLAND—NEW SOUTH WALES' is a page-header OCR artifact, not a posting change."
+}

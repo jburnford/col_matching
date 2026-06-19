@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q108043166",
+  "persons": [
+    {
+      "bio_id": "conroy_diarmaid_b1913",
+      "stint_ids": ["Conroy, D. W___Northern Rhodesia___1961"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the case is flagged single-initial ('Diarmaid' gives only 'D'), the stint name carries a second initial 'W', and there are 8 Conroys in the staff lists and 5 Conroy biographies - so the Chief Justice could in principle be a different D. W. Conroy. But the bio's own earlier printed version heads the entry 'CONROY, D. W., C.M.G. (1960), O.B.E. (1955)' - the same man was printed with exactly the stint's initials, so the 'extra' W is not a discrepancy at all. Beyond the name: Chief Justice of Northern Rhodesia is a unique office; the bio states 'ch. just., N. Rhod., 1961-65' matching the 1961-64 listings; the staff list prints the shared honour C.M.G. every year (bio: C.M.G. 1960); and the list switches to 'Sir D. W. Conroy' in 1962, the precise year the bio records his knighthood (Kt. 1962). A namesake would have to duplicate the unique office, the honour, and the knighthood year simultaneously. The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Conroy, D. W___Northern Rhodesia___1961", "year": 1961, "fact": "ch. just., N. Rhod., 1961–65"},
+        {"stint_id": "Conroy, D. W___Northern Rhodesia___1961", "year": 1961, "fact": "Chief Justice"},
+        {"stint_id": "Conroy, D. W___Northern Rhodesia___1961", "year": 1962, "fact": "Sir D. W. Conroy"},
+        {"stint_id": "Conroy, D. W___Northern Rhodesia___1961", "year": 1960, "fact": "C.M.G. (1960)"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous D. W. Conroy with a C.M.G. and a 1962 knighthood in Northern Rhodesia's judiciary - effectively impossible; or proof the bio's 1954 'D. W.' version belongs to a different entry than the 1962 'Sir Diarmaid' version."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Four independent agreeing dimensions: unique office + colony + exact years (1961-65 bio vs 1961-64 listings), shared C.M.G. honour, knighthood year synchronization (Sir appears 1962), and the bio's own earlier version printing the name as 'D. W.'. The single-initial warning is mooted by that earlier version. '(Zambia Govt. service.)' confirms he remained through independence in 1964."
+}

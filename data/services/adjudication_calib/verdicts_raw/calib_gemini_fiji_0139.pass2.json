@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_fiji_0139",
+  "persons": [
+    {
+      "bio_id": "donovan_wilbur-edmund-james_b1899",
+      "stint_ids": ["Donovan, W. E. J___Fiji___1925"],
+      "confidence": "certain",
+      "arguments_against": "DONOVAN is a common surname (18 officials in the staff lists, 5 bios), and the early part of this stint is printed with only two initials ('W. E. Donovan', 1925-1940) while the senior years carry three ('W. E. J. Donovan', 1950-55) — so one could argue the junior Treasury clerk and the later Accountant-General were two different Donovans. This fails: the stint is a single continuous clustered career in one colony, climbing rank year by year within the Treasury, with no break. The bio's three forename initials W. E. J. agree exactly, and the decisive evidence is the unique senior post: bio 'asst. acctnt. gen., 1947 ... acctnt. gen., 1951' matches the staff list's Assistant Accountant-General (1950-51) then Accountant-General (1952-55), with three editions co-occurring. The bio also records 'clk., Fiji, 1921; ch. clk., 1939', matching the long Treasury-clerk run. No relative would replicate both the clerk ladder and the unique Accountant-General office under the same three initials.",
+      "evidence_cited": [
+        {"stint_id": "Donovan, W. E. J___Fiji___1925", "year": 1950, "fact": "Assistant Accountant-General"},
+        {"stint_id": "Donovan, W. E. J___Fiji___1925", "year": 1952, "fact": "Accountant-General"},
+        {"stint_id": "Donovan, W. E. J___Fiji___1925", "year": 1925, "fact": "asst. acctnt. gen., 1947 ; title changed to dep. acctnt. gen., 1950 ; acctnt. gen., 1951"},
+        {"stint_id": "Donovan, W. E. J___Fiji___1925", "year": 1939, "fact": "Grade A Clerk"}
+      ],
+      "would_overturn": "Evidence that the junior Treasury clerk (W. E. Donovan, 1925-40) and the later Accountant-General (W. E. J. Donovan) were distinct individuals, not one continuous career."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single continuous Fiji Treasury career; three-initial match W. E. J. and the unique senior post Accountant-General make this certain despite the common surname."
+}

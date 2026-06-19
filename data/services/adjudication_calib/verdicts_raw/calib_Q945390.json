@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q945390",
+  "persons": [
+    {
+      "bio_id": "stout_robert_b1844",
+      "stint_ids": ["Stout, Robert___New Zealand___1900"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the dossier flags the bio as single-initial ('R'), so the namesake trap is formally in play — a second R. Stout (a son, say) could be imagined on the New Zealand bench. This fails on every dimension: the staff lists print the full forename ('Sir Robert Stout'), not just an initial, for most years; the office is the unique Chief Justiceship of New Zealand, which the biography gives as 'chief justice of N.Z., 1899-1926' while the stint runs 1900-1922 wholly inside that span; every stint row carries K.C.M.G., matching the bio's K.C.M.G. (1886); and bio and stint co-occur in 15 edition-years at position similarity 100. A rival Robert Stout who was also a K.C.M.G. knight and also Chief Justice during 1900-1922 cannot exist alongside the bio's man, since the office has one holder. The 'honoured retiree' trap does not apply: the bio's tenure (to 1926) outlasts the stint's final listing (1922), so the listings reflect current service.",
+      "evidence_cited": [
+        {"stint_id": "Stout, Robert___New Zealand___1900", "year": 1899, "fact": "chief justice of N.Z., 1899-1926"},
+        {"stint_id": "Stout, Robert___New Zealand___1900", "year": 1900, "fact": "Sir Robert Stout | Chief Justice | Judicial | K.C.M.G."},
+        {"stint_id": "Stout, Robert___New Zealand___1900", "year": 1886, "fact": "K.C.M.G. (1886)"}
+      ],
+      "would_overturn": "Evidence that the New Zealand Chief Justiceship passed to a different Robert Stout within 1900-1922, or that the bio's 1899-1926 tenure is a conflation of two judges — neither has any support in the dossier."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Despite the single-initial warning on the bio record, the staff lists themselves print the full forename 'Robert', and the match rests on a unique office (Chief Justice of New Zealand) with the stint span 1900-1922 nested inside the bio's printed tenure 1899-1926, a shared dated honour (K.C.M.G. 1886, present in every row), and 15 co-occurring edition-years. All deterministic checks pass; nothing in the dossier supports a counter-hypothesis."
+}

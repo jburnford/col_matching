@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0060",
+  "persons": [
+    {
+      "bio_id": "harward_john_e1892",
+      "stint_ids": ["Harward, J___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: a single-initial 'J. Harward' with 5 Harward officials in the staff lists, so a relative could be confused for him. Why it fails: 'Principal of the Royal College' then 'Director' of the public-instruction/education department is the head of the colony's entire education system - a unique office held by one person at a time, not a generic title. Decisively, the staff-list department itself is renamed from 'Department of Public Instruction' to 'Education Department' in 1914, exactly corroborating the bio's printed statement that the 'designation of office changed to dir. of educn., Aug., 1913'. No other Harward could occupy this identical dual-office career with the same redesignation timing.",
+      "evidence_cited": [
+        {"stint_id": "Harward, J___Ceylon___1894", "year": 1892, "fact": "Principal, Royal Coll., Ceylon, 1st Apr., 1892"},
+        {"stint_id": "Harward, J___Ceylon___1894", "year": 1894, "fact": "Principal of the Royal College"},
+        {"stint_id": "Harward, J___Ceylon___1894", "year": 1903, "fact": "dir. of pub. instrn., 23rd June, 1903"},
+        {"stint_id": "Harward, J___Ceylon___1894", "year": 1913, "fact": "designation of office changed to dir. of educn., Aug., 1913"},
+        {"stint_id": "Harward, J___Ceylon___1894", "year": 1914, "fact": "Education Department"}
+      ],
+      "would_overturn": "A second Harward biography occupying the Royal College principalship and the directorship of public instruction in overlapping years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial bio, but specific unique dual-office career plus the 1913/1914 department redesignation corroboration meet the strong-independent-dimension bar."
+}

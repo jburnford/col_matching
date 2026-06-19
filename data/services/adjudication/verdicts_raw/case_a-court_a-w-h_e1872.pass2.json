@@ -1,0 +1,32 @@
+{
+  "case_id": "case_a-court_a-w-h_e1872",
+  "persons": [
+    {
+      "bio_id": "a-court_a-w-h_e1872",
+      "stint_ids": [
+        "A'Court, A. W. H___Antigua___1890",
+        "A'Court, A. W. H___Leeward Islands___1883",
+        "A'Court, A. W. H___Leeward Islands___1897"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the 'Hon.' prefix marks a peerage family, so a same-initialled relative (a son 'A. W. H. A'Court jr.') could have succeeded the 1872 appointee in the same office, meaning the later stints (especially 1897-1899) belong to a second person. This fails: the biography is printed as a current officer in editions 1886-1890 holding exactly 'Surveyor of public works, Antigua', and the Leeward Islands 1883-1889 stint shows 'Hon. A. W. H. A'Court' in that identical office concurrently with those bio editions, while the Antigua 1890-1898 stint continues the identical title with identical three initials the moment the office is listed under the Antigua presidency instead of the federal Leeward Islands header. The 1897-1899 Leeward stint overlaps 1897-1898 with the Antigua stint, which indicates one man cross-listed (federal Legislative Council member plus presidency civil establishment), not two simultaneous A. W. H. A'Courts; the corpus shows only 4 same-surname officials, accounted for by these very list segments. A succession by a same-initialled son would require two 'A. W. H. A'Court's serving simultaneously in one small federation with no corroborating second biography, for which there is zero evidence. Three independent dimensions agree: full three-initial match on a rare surname, exact distinctive position match to the bio's office, and edition co-occurrence (bio in 1889/1890 editions while the stints are listed in 1889/1890).",
+      "evidence_cited": [
+        {"stint_id": "A'Court, A. W. H___Antigua___1890", "year": 1890, "fact": "Surveyor of Public Works, Roads, &c."},
+        {"stint_id": "A'Court, A. W. H___Antigua___1890", "year": 1898, "fact": "Hon. A. W. H. A'Court"},
+        {"stint_id": "A'Court, A. W. H___Leeward Islands___1883", "year": 1883, "fact": "Hon. A. W. H. A'Court"},
+        {"stint_id": "A'Court, A. W. H___Leeward Islands___1883", "year": 1883, "fact": "Surveyor of Public Works, Roads, &c."},
+        {"stint_id": "A'Court, A. W. H___Leeward Islands___1897", "year": 1899, "fact": "Surveyor of Public Works, Roads, &c."},
+        {"stint_id": "A'Court, A. W. H___Leeward Islands___1897", "year": 1899, "fact": "Superintendent of Public Works"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous A. W. H. A'Court (e.g., a son with identical initials appearing in any staff list or a second biography serving in the Leeward Islands/Antigua in the 1880s-1890s), or a death/retirement/transfer notice for the 1872 appointee dated before 1890, or a printed birth year making service to 1899 chronologically implausible."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "A'Court, H___Leeward Islands___1877",
+      "reason": "Single-initial name ('Hon. H. A'Court'). The identical office ('Surveyor of Public Works, Roads, &c.') and matching 'Hon.' prefix make it likely this is the same man printed under his final forename initial, and the bio's 1872 appointment to this very office predates the stint. But 'Hon.' marks a peerage family in which multiple same-surname relatives (brothers, a father) carry the prefix, the initial 'H' alone cannot distinguish them, and the corpus records a second biography with this surname that is not in this case. A same-office relative holding the post 1877-1879 is a live counter-hypothesis, so per the prime directive this stays unassigned pending human review."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic colony/tenure FAILs on the Leeward Islands stints are artifacts of list reorganization: Antigua was a presidency of the Leeward Islands federation, and the same office ('Surveyor of Public Works, Roads, &c.') moves between the federal header (1877-1889, 1899) and the Antigua header (1890-1898). The unassigned 1877-1879 'H. A'Court' stint is probably the same person (office continuity from the 1872 appointment); a reviewer who can consult the second A'Court biography in the corpus should be able to resolve it."
+}

@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_gemini_ceylon_0024",
+  "persons": [
+    {
+      "bio_id": "dias_felix-reginald_e1887",
+      "stint_ids": ["Dias, Felix R___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: Dias is a very common Ceylonese surname (14 officials, 8 biographies in the corpus), so this stint could belong to a different F. R. Dias, or could even conflate two men — note the 1900 edition lists both 'F. R. Dias, District Judge' and 'Felix R. Dias, Crown Counsel', and the 1905-06 rows revert to 'Crown Counsel' although the bio has him as additional district judge from July 1900. Could the district-judge rows belong to a relative? This fails: (1) the stint prints the full forename 'Felix R. Dias', agreeing with FELIX REGINALD, not a bare initial; (2) 'Crown Counsel' is a specific senior law-office post, and the stint holds it from 1894, exactly matching 'crown counsel for the island, July, 1893'; (3) the bio itself bridges the two tracks — 'additnl. dist. judge, Colombo, July, 1900' explains the dual 1900 rows as a mid-year transition by one man, and 'Additional District Judge' in 1907-08 matches 'ag. dist. judge, Colombo, Apl., 1907'; (4) the District of Colombo and Midland Circuit covers Kandy, matching 'dist. judge, Kandy, Jan., 1908'. The 1905-06 Crown Counsel rows are best read as list lag or resumed counsel duties, not as a second Felix R. Dias — no second man of that forename appears anywhere in the rows.",
+      "evidence_cited": [
+        {"stint_id": "Dias, Felix R___Ceylon___1894", "year": 1894, "fact": "Crown Counsel"},
+        {"stint_id": "Dias, Felix R___Ceylon___1894", "year": 1894, "fact": "crown counsel for the island, July, 1893"},
+        {"stint_id": "Dias, Felix R___Ceylon___1894", "year": 1894, "fact": "Felix R. Dias"},
+        {"stint_id": "Dias, Felix R___Ceylon___1894", "year": 1907, "fact": "Additional District Judge"},
+        {"stint_id": "Dias, Felix R___Ceylon___1894", "year": 1907, "fact": "additnl. dist. judge, Colombo, July, 1900"},
+        {"stint_id": "Dias, Felix R___Ceylon___1894", "year": 1908, "fact": "dist. judge, Kandy, Jan., 1908"}
+      ],
+      "would_overturn": "Evidence of a second 'Felix R. Dias' in the Ceylon establishment in this period (e.g. two contemporaneous Felix R. Dias rows in distinct posts in years other than the 1900 transition year), or a record showing the bio holder left the Colombo/Midland Circuit bench while the staff-list rows continue."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1905-1906 'Crown Counsel' rows postdate the bio's July 1900 move to additional district judge; reviewer may wish to confirm whether he resumed Crown Counsel duties c.1905-06 or the staff list lagged. This affects the internal chronology only, not the identity of the stint holder."
+}

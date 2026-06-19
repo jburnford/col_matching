@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q7427339",
+  "persons": [
+    {
+      "bio_id": "samuel_saul_e1854",
+      "stint_ids": ["Samuel, Saul___New South Wales___1879"],
+      "confidence": "certain",
+      "arguments_against": "The flagged risks: the dossier marks this bio as single-initial (mechanically, since 'Saul' compresses to 'S'), there is no co-occurring edition (bio editions start 1883, stint ends 1880), and the mechanical position_sim only scraped the bar at 60 by comparing 'agent general' to 'Postmaster-General' — so one could argue the link rests on weak strings. This fails on the verbatim texts: the biography opens 'Late postmaster-general of New South Wales' and the stint IS the Postmaster-General of New South Wales, 1879-1880; the forename is the full and uncommon 'Saul', not an initial; the stint rows carry the honour C.M.G., which the bio dates to 1874 — correctly present by 1879 and correctly not yet K.C.M.G. (1882); and the stint's end in 1880 matches the bio's 'agent general in London for New South Wales, 1880', explaining his disappearance from the colonial staff list. A second Saul Samuel, C.M.G., serving as NSW Postmaster-General is not a live hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Samuel, Saul___New South Wales___1879", "year": 1879, "fact": "Late postmaster-general of New South Wales"},
+        {"stint_id": "Samuel, Saul___New South Wales___1879", "year": 1879, "fact": "Saul Samuel | Postmaster-General | General Post-Office | C.M.G."},
+        {"stint_id": "Samuel, Saul___New South Wales___1879", "year": 1880, "fact": "agent general in London for New South Wales, 1880"}
+      ],
+      "would_overturn": "Evidence of a second Saul Samuel holding NSW ministerial office in 1879-80, or a record showing the C.M.G. on the staff list belonged to a different Samuel."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Four independent agreeing dimensions: distinctive full forename, exact senior office + colony ('postmaster-general of New South Wales'), shared dated honour (C.M.G. 1874, present on the 1879-80 rows), and chronological dovetail (stint ends exactly when the bio says he became agent-general in London, 1880). The absence of edition co-occurrence is fully explained by his 1880 departure from the colonial list before the bio's first edition (1883)."
+}

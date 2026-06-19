@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_tasmania_0389",
+  "persons": [
+    {
+      "bio_id": "browne_george_e1863",
+      "stint_ids": ["Browne, George___Tasmania___1878"],
+      "confidence": "certain",
+      "arguments_against": "Browne is one of the commonest surnames in the corpus (80 officials, 48 bios) and the bio carries only the single forename 'George', so the namesake trap is acute -- another George Browne is the obvious counter-hypothesis. The defence cannot rest on the surname or on a generic title; it rests on a distinctive cluster of singular offices that the bio names and the stint reproduces almost verbatim. The bio: 'Associate to the Judges of the Supreme Court of Tasmania, registrar of the supreme court in bankruptcy, curator of intestate estates'. The stint: 'Judges' Associate (also Curator of Intestate Estates, &c., &c.)' (1888-1900) and 'Registrar of the Supreme Court (Judge's Associate)' (1880), plus an 1888 'Aide-de-Camp and Private Secretary' line matching the bio's many private-secretary-to-governor roles. These are unique Supreme Court of Tasmania offices held by one man; the conjunction of Judge's Associate + Curator of Intestate Estates + Registrar is a fingerprint, and the 1878-1900 stint span aligns with the bio editions (1883-1900). A second George Browne holding this exact bundle simultaneously is not credible. Objection fails.",
+      "evidence_cited": [
+        {"stint_id": "Browne, George___Tasmania___1878", "year": 1888, "fact": "Judges' Associate (also Curator of Intestate Estates, &c., &c.)"},
+        {"stint_id": "Browne, George___Tasmania___1878", "year": 1880, "fact": "Registrar of the Supreme Court (Judge's Associate)"},
+        {"stint_id": "Browne, George___Tasmania___1878", "year": 1888, "fact": "Aide-de-Camp and Private Secretary"}
+      ],
+      "would_overturn": "Evidence of a second George Browne holding the Judge's Associate / Curator of Intestate Estates office in Tasmania, or a death date for the bio before 1888."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Browne, George___Tasmania___1907", "reason": "No corroborating evidence ties this to the bio. The bio stops appearing in editions after 1900 and its private-secretary roles were attached to specific governors of the 1870s-1880s; this stint is 'Private Secretary' / 'Honorary Private Secretary' in 1907-1917, with no edition co-occurrence, no tenure overlap, and only a generic 'Private Secretary' title. Given the extremely common surname (80 Brownes) and single forename, this could easily be a different George Browne (or a later honorary appointee). It may well be the same man continuing in an honorary role, but that is unconfirmable, and the prime directive forbids merging on a generic title plus surname alone. Left unassigned."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Stint 1878 matched to the bio on a distinctive Supreme Court of Tasmania office cluster (Judge's Associate + Curator of Intestate Estates + Registrar) plus matching private-secretary roles. Stint 1907 (Honorary Private Secretary) left unassigned: no positive evidence, bio absent from post-1900 editions, generic title, very common name. A missed link here is recoverable; a false merge on a common name is not."
+}

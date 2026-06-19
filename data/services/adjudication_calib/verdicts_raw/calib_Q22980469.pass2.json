@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q22980469",
+  "persons": [
+    {
+      "bio_id": "abell_anthony-foster_b1906",
+      "stint_ids": ["Abell, Anthony Foster___Sarawak___1950"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: position_sim FAILED at 59 vs bar 60, and one could posit a same-name relative (a second A. F. Abell) in Sarawak. This fails on every dimension: the position 'failure' is a one-point abbreviation artifact — 'gov. and c.-in-c., Sarawak, 1950-59' in the biography is letter-for-letter the same office and exact same tenure as the staff list's 'Governor and Commander-in-Chief' listed 1950-1959; the honours track in lockstep (staff list C.M.G. in 1950-51, then K.C.M.G. from 1952, exactly matching the biography's 'K.C.M.G. (1952), C.M.G.'); the staff list prints the full name 'Sir Anthony Foster Abell' in 1952; and the surname is rare (2 officials, 1 biography in the whole corpus). The Governor of Sarawak is a unique post; there is no live counter-hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Abell, Anthony Foster___Sarawak___1950", "year": 1950, "fact": "gov. and c.-in-c., Sarawak, 1950-59"},
+        {"stint_id": "Abell, Anthony Foster___Sarawak___1950", "year": 1952, "fact": "K.C.M.G. (1952)"},
+        {"stint_id": "Abell, Anthony Foster___Sarawak___1950", "year": 1952, "fact": "Sir Anthony Foster Abell"}
+      ],
+      "would_overturn": "Evidence that a different Anthony Foster Abell governed Sarawak 1950-59, which would require two people of identical full name and identically timed C.M.G./K.C.M.G. honours — effectively a documentary error in the List itself."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case with rare surname. The honour timing is independently corroborating: the staff list switches from C.M.G. to K.C.M.G. precisely at the biography's 1952 knighthood."
+}

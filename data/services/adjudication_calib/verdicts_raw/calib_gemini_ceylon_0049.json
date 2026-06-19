@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0049",
+  "persons": [
+    {
+      "bio_id": "templeton_robert-stanaker_b1855",
+      "stint_ids": ["Templeton, R. S___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the honour check FAILED (bio lists A.I.C.E./F.R.G.S., staff list prints none), the place_inherited check FAILED (all bio events after the first inherit 'Ceylon' from one clause), and there are small title/date wobbles (staff 1899 reads 'Assistant Superintendent, Topographical Branch' where the bio says 'supt. of topographical surveys, 1st Jan., 1899'; staff shows 'Superintendent of Survey' already in 1900 while the bio dates 'supt. of surveys' to 1902) — so perhaps this is a different R. S. Templeton in the same department. This fails. The wobbles are intra-department title abbreviation and acting/confirmation lag, not a different career: the ladder matches at every rung across 21 years — District Surveyor (bio 'dist. survr., 1st Aug., 1890'; staff 1894-98), the topographical superintendency (1899 in both), Assistant Surveyor-General (bio 'asst. survr.-gen., 23rd June, 1904'; staff 1905-08), and Surveyor-General (bio 'survr.-gen., 15th Oct., 1910'; staff Acting 1909-10, confirmed 1911-15). Surveyor-General of Ceylon is a unique office; two same-initial Templetons cannot both have held this sequence. The honour FAIL is non-contradictory (professional memberships are not printed in the staff-list honours column), and the place-inheritance weakness is irrelevant because the inheriting clause itself names Ceylon and the whole career is one colony.",
+      "evidence_cited": [
+        {"stint_id": "Templeton, R. S___Ceylon___1894", "year": 1894, "fact": "dist. survr., 1st Aug., 1890"},
+        {"stint_id": "Templeton, R. S___Ceylon___1894", "year": 1899, "fact": "supt. of topographical surveys, 1st Jan., 1899"},
+        {"stint_id": "Templeton, R. S___Ceylon___1894", "year": 1905, "fact": "asst. survr.-gen., 23rd June, 1904"},
+        {"stint_id": "Templeton, R. S___Ceylon___1894", "year": 1911, "fact": "survr.-gen., 15th Oct., 1910"}
+      ],
+      "would_overturn": "Evidence of a second R. S. Templeton in the Ceylon Survey Department in 1894-1915, or a record showing Robert Stanaker Templeton holding a different post in a year the staff list shows this stint-holder as Assistant Surveyor-General or Surveyor-General."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography vs single stint. Five-rung Survey Department ladder matches over 21 years, culminating in the unique Surveyor-General office (bio appointment 15 Oct. 1910; staff Acting 1909-10, confirmed from 1911). Edition co-occurrence passes (1914, 1915). The honour and place_inherited check failures are mechanical artifacts, not contradictions."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q351904",
+  "persons": [
+    {
+      "bio_id": "archibald_adams-g_e1870",
+      "stint_ids": ["Archibald, Adams G___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Archibald is a common surname here (16 officials, 12 biographies), the deterministic position check FAILed, and the 1889 staff-list row shows 'M.P.', an office the biography never mentions. But the counter-hypothesis requires a second 'Adams G. Archibald' — 'Adams' is a highly distinctive forename, printed in full in the stint key — who also held a K.C.M.G. first appearing in the lists in 1886 (the bio's award is dated 1885: 'K.C.M.G. (1885)') AND was associated with the Province of Nova Scotia, where the bio's subject was Lieutenant-Governor 1873-83. The M.P. row does not contradict: an ex-Lieutenant-Governor entering the Commons after 1883 is consistent, and the row still carries his K.C.M.G. The position FAIL is mechanical (most staff-list rows print no position at all — they are Privy Council honours-roll entries, expected for an honoured ex-Lieutenant-Governor). No realistic second Adams G. Archibald with this honour-and-place profile exists.",
+      "evidence_cited": [
+        {"stint_id": "Archibald, Adams G___Canada___1877", "year": 1886, "fact": "Sir A. G. Archibald"},
+        {"stint_id": "Archibald, Adams G___Canada___1877", "year": 1886, "fact": "K.C.M.G."},
+        {"stint_id": "Archibald, Adams G___Canada___1877", "year": 1889, "fact": "Province of Nova Scotia"},
+        {"stint_id": "Archibald, Adams G___Canada___1877", "year": 1890, "fact": "Queens Privy Council for Canada"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Adams G. Archibald (e.g. a son with the identical forename) holding a K.C.M.G. and Nova Scotia office in the 1880s, or proof that the 1889 M.P. row belongs to a different Archibald whose records were conflated into this stint."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Stint header claims listing 1877-1914 but year-by-year records shown run only 1886-1890; the subject died in the early 1890s, so any later rows would be stale or absent — the visible records are all consistent with this one person. Distinctive full forename 'Adams G' + K.C.M.G. with award-consistent first appearance (1886, awarded 1885) + Nova Scotia place agreement constitute multiple independent dimensions."
+}

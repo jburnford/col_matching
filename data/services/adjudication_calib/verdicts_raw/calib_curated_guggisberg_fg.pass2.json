@@ -1,0 +1,27 @@
+{
+  "case_id": "calib_curated_guggisberg_fg",
+  "persons": [
+    {
+      "bio_id": "guggisberg_frederick-gordon_b1869",
+      "stint_ids": [
+        "Guggisberg, F. Gordon___Gold Coast___1922",
+        "Guggisberg, F. Gordon___Southern Nigeria___1911",
+        "Guggisberg, F. Gordon___Togoland___1920"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-case is a same-name relative or successor holding one of these posts. It fails on every front: the corpus has only ONE biography with this rare surname, and the staff-list entries carry the full distinctive forename ('F. Gordon Guggisberg') plus the bio's exact honour trajectory (C.M.G. 1908 -> D.S.O. 1918 -> K.C.M.G. 1922) and rank (Brigadier-General, R.E.). Gold Coast: bio says 'governor and commander in chief, Gold Coast, 24th Sept., 1919' and stint shows him Governor of Gold Coast 1922-27 with K.C.M.G./D.S.O. -- direct match. S. Nigeria: bio 'dir. of surveys, S. Nigeria, 1910' and stint shows 'Director of Surveys', Major, C.M.G. 1911-13 -- direct match on rare-name + specific office + rank + honour. Togoland: the deterministic colony check failed only because the bio does not name Togoland, but British Togoland was administered by the Gold Coast Governor; the staff records 'F. Gordon Guggisberg, Governor, K.C.M.G., D.S.O., Brigadier-General' are textually identical to the Gold Coast records and overlap the same years. No realistic alternative person carries this exact name+rank+honour set.",
+      "evidence_cited": [
+        {"stint_id": "Guggisberg, F. Gordon___Gold Coast___1922", "year": 1922, "fact": "Brigadier-General F. G. Guggisberg, K.C.M.G., D.S.O., R.E."},
+        {"stint_id": "Guggisberg, F. Gordon___Gold Coast___1922", "year": 1919, "fact": "governor and commander in chief, Gold Coast, 24th Sept., 1919"},
+        {"stint_id": "Guggisberg, F. Gordon___Southern Nigeria___1911", "year": 1911, "fact": "Director of Surveys"},
+        {"stint_id": "Guggisberg, F. Gordon___Southern Nigeria___1911", "year": 1910, "fact": "dir. of surveys, S. Nigeria, 1910"},
+        {"stint_id": "Guggisberg, F. Gordon___Togoland___1920", "year": 1925, "fact": "F. Gordon Guggisberg"},
+        {"stint_id": "Guggisberg, F. Gordon___Togoland___1920", "year": 1920, "fact": "F. G. Guggisberg"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Guggisberg holding a governorship/survey post (e.g. a brother or son in the same R.E. survey service), or that the Togoland 'Governor' entry referred to an administrator distinct from the Gold Coast Governor."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Famous F. G. Guggisberg, Governor of the Gold Coast (which administered British Togoland). Single bio with a rare surname; staff-list entries carry full forename 'Gordon' plus the bio's exact honour/rank trajectory. Togoland failed the mechanical colony gate only because the bio text does not enumerate Togoland, but it is the same Gold Coast governorship under mandate administration."
+}

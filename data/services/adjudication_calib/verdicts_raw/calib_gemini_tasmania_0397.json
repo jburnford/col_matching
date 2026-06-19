@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_tasmania_0397",
+  "persons": [
+    {
+      "bio_id": "barnard_james_e1864",
+      "stint_ids": ["Barnard, James___Tasmania___1877"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: (1) The bio's only specific office is 'sec. for customs, Tasmania, 1894', while the staff list for 1894 prints 'Collector and Landing Surveyor' — Secretary and Collector are not the same office, so the bio could describe a different Barnard heading the customs secretariat while this one collected at the port. (2) The stint chain itself looks conflated: in 1877-1879 it contains two concurrent rows, 'James Barnard, Government Printer' and 'J. Barnard, Warehouse-keeper, Customs Department' — one person cannot hold both rows, and the Government Printer is plausibly an older same-name relative, so part of this stint may not belong to anyone in this dossier. (3) The corpus has 32 Barnard officials and 13 Barnard bios, and the bio is effectively single-initial-grade ('James' is common). Why it still fails to block the link: the customs trajectory in the stint (Warehouse-keeper 1877 -> Senior Landing Waiter 1888 -> Collector and Landing Surveyor exactly in 1894 -> Collector and Inspector to 1909) agrees with a man who 'Ent. govt. service, 1864' and whose one career milestone is a senior customs post in Tasmania dated exactly 1894; the promotion-year agreement (1894), the colony (Tasmania), the department (Customs), the forename/initial, and 4 co-occurring editions (1905-1908) are multiple independent dimensions all pointing the same way. The Secretary/Collector title gap and the Government-Printer contamination keep this below 'certain'.",
+      "evidence_cited": [
+        {"stint_id": "Barnard, James___Tasmania___1877", "year": 1894, "fact": "sec. for customs, Tasmania, 1894"},
+        {"stint_id": "Barnard, James___Tasmania___1877", "year": 1894, "fact": "Collector and Landing Surveyor"},
+        {"stint_id": "Barnard, James___Tasmania___1877", "year": 1905, "fact": "Collector and Inspector of Customs"},
+        {"stint_id": "Barnard, James___Tasmania___1877", "year": 1864, "fact": "Ent. govt. service, 1864"}
+      ],
+      "would_overturn": "A staff list or bio showing a separate 'Secretary for Customs' Barnard in Tasmania around 1894 distinct from the Collector; or evidence that the bio's James Barnard served in a non-customs department in 1877-1909; or a birth/death date making the 1864 entry or the 1909 listing chronologically impossible for the customs man."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The stint chain appears internally conflated: 1877-1879 contain two concurrent rows (James Barnard, Government Printer, Miscellaneous Offices vs J. Barnard, Warehouse-keeper, Customs Department). The Government Printer rows likely belong to a different (probably older, same-name) James Barnard; the customs rows are the ones matching this biography. Recommend splitting the chain before publication; the 'probable' confidence applies to the customs career, not the Government Printer rows."
+}

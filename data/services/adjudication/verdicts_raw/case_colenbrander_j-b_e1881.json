@@ -1,0 +1,16 @@
+{
+  "case_id": "case_colenbrander_j-b_e1881",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Colenbrander, B___Zululand___1894",
+      "reason": "Bio is 'J. B.' while every staff-list record prints 'B. Colenbrander' — a partial initial match consistent with a different person (e.g. a brother) in a corpus with 3 same-surname officials and 4 same-surname biographies. The only positional echo is the generic junior title 'Clerk' ('Clerk to border agent' 1881 vs 'Clerk and Interpreter' 1894-97), explicitly weak evidence. Colony differs (Natal vs Zululand), there is a 13-year gap with no bridging record, and the bio appears only in the 1883 edition with no edition co-occurrence, tenure overlap, or shared honour. No strong independent dimension supports the merge."
+    },
+    {
+      "stint_id": "Colenbrander, B___Natal___1899",
+      "reason": "Same partial-initial problem: bio 'J. B.' vs stint 'B.' This stint (1899-1910, rising to Civil Commissioner and Commissioner for Native Affairs, Zululand) is 18+ years after the bio's single 1881 event and shares only the colony Natal and the generic title 'Clerk' with it. It is plausibly continuous with the Zululand 1894-97 stint (same name, same 'Clerk and Interpreter' post in 'Resident Magistrates', Zululand annexed to Natal in 1897), i.e. the two stints more likely form one 'B. Colenbrander' career that need not be the 'J. B.' of the 1883 biography. No tenure overlap, no edition co-occurrence, no honours. Insufficient evidence to merge."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints themselves show strong mutual continuity: identical printed name 'B. Colenbrander', identical post 'Clerk and Interpreter' under 'Resident Magistrates' in 1894-97 (Zululand) and 1899 (Natal), consistent with Zululand's 1897 annexation to Natal. They very likely describe one official, but that official cannot be confidently identified with the 'J. B.' biography on the available evidence: the bio's sole record is a generic clerkship in 1881 printed only in the 1883 edition, the initials do not fully agree, and the dossier notes multiple Colenbrander officials and biographies in the corpus (the family is known to have had several members in Natal/Zululand service). Strongest temptation to merge was Natal + 'Clerk' + shared 'B' initial; rejected because the title is generic, the gap is unbridged, and the missing 'J.' across five independent staff-list years argues the stints belong to a different (single-initial B.) Colenbrander. Would reconsider if a record showed 'J. B. Colenbrander' as Clerk and Interpreter in Zululand/Natal in the 1890s, or a biography linking the Lower Tugela border-agent clerkship to the later Zululand career."
+}

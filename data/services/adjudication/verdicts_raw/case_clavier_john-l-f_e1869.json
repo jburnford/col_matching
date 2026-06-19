@@ -1,0 +1,25 @@
+{
+  "case_id": "case_clavier_john-l-f_e1869",
+  "persons": [
+    {
+      "bio_id": "clavier_john-l-f_e1869",
+      "stint_ids": ["Clavier, J. L___Windward Islands___1877"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: 'clerk' is a generic junior title, and the Windward Islands staff list covers several islands (Grenada, St. Vincent, Tobago, St. Lucia), so the 1877-78 'Clerk to Treasurer' could be a same-name relative serving in a different island's treasury; the deterministic colony check FAILED because no bio event resolves to 'Windward Islands', and there is no edition co-occurrence (bio printed only in 1883, stint listed 1877-1878). Why it fails: St. Lucia was administratively part of the Windward Islands group in this period, so the place evidence is consistent rather than contradictory; the position is not merely 'clerk' but specifically a treasurer's-office clerkship, exactly matching the bio's entire career arc (supernumerary clerk in the treasurer's office 1869, returned to the treasury as second clerk 1874, first clerk 1875); the initials J. L. agree with JOHN L. F.; and the 1877 start follows seamlessly from the bio's 1875 promotion. With only 7 officials of this rare surname in the corpus, a second J. L. Clavier holding the same specific treasury clerkship in the same island group two years after the bio's last event is an unlikely coincidence. Still, because the corroboration rests on one specific dimension (position) plus partial initials, and the staff list does not name St. Lucia explicitly, a same-name relative cannot be fully excluded, so this stays at probable rather than certain.",
+      "evidence_cited": [
+        {"stint_id": "Clavier, J. L___Windward Islands___1877", "year": 1877, "fact": "Clerk to Treasurer"},
+        {"stint_id": "Clavier, J. L___Windward Islands___1877", "year": 1877, "fact": "Supernumerary clerk in the treasurer's office, St. Lucia, March, 1869"},
+        {"stint_id": "Clavier, J. L___Windward Islands___1877", "year": 1877, "fact": "returned to the treasury as second clerk, in June, 1874; first clerk, March, 1875"}
+      ],
+      "would_overturn": "Evidence that the 1877-78 Windward Islands 'Clerk to Treasurer' post was located in Grenada, St. Vincent, or Tobago rather than St. Lucia; or discovery of a second contemporaneous J. L. Clavier (e.g. a brother) in Windward Islands service; or a record showing John L. F. Clavier left the treasury or the colony before 1877."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Clavier, L___British Guiana___1918",
+      "reason": "Profession, place, and chronology all point away from the biography. The bio describes a treasury clerk in St. Lucia (1869-1875); this stint is a Surgeon / Medical Officer ('Surgeon, No. 1 Dispensary, Alms House and Orphan Asylum', 'Dr. L. Clavier') in British Guiana, 1918-1929 — a different profession requiring medical qualifications never mentioned in the bio, a different colony, and a 43-year evidentiary gap. The bio subject, already in service in 1869, would be roughly 70-80 years old during this stint. The single initial 'L' does not match the bio's lead initial 'J' (L. is plausibly a different person, e.g. a son sharing the middle initial). Every substantive deterministic check failed. No dimension supports the link."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Rare surname (7 officials, 2 bios in corpus) strengthens the Windward Islands assignment but cannot make it certain on its own: the staff list does not name St. Lucia explicitly and there is no edition co-occurrence. The British Guiana medical officer L. Clavier is very likely a distinct person, possibly a relative, and should block any future automated merge attempts based on surname alone."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": "calib_Q2579525",
+  "persons": [
+    {
+      "bio_id": "jervois_william-francis-drummond_e1841",
+      "stint_ids": ["Jervois, William Francis Drummond___New Zealand___1883"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the bio prints no birth year (age gate unchecked), the honour check failed for this stint, and the corpus holds 4 Jervois officials, so a namesake — even a son — could be posited. This fails: the staff-list name is the full distinctive triple 'Sir William Francis Drummond Jervois', not an initialism; the biography ends 'governor, New Zealand, Nov., 1882' and the stint lists the Governor of New Zealand from 1883 to 1888, a unique office; and the bio and stint co-occur in the same editions (1886, 1888) with position similarity 100. The 1883 row's rank 'Major-Gen.' is consistent with the bio's military trajectory ('Lieut.-Gen.' by the 1886 printing). No realistic second William Francis Drummond Jervois exists to hold the governorship.",
+      "evidence_cited": [
+        {"stint_id": "Jervois, William Francis Drummond___New Zealand___1883", "year": 1882, "fact": "governor, New Zealand, Nov., 1882"},
+        {"stint_id": "Jervois, William Francis Drummond___New Zealand___1883", "year": 1883, "fact": "Sir William Francis Drummond Jervois | Governor and Commander-in-Chief and Vice-Admiral"}
+      ],
+      "would_overturn": "Evidence of a different W. F. D. Jervois appointed Governor of New Zealand in this window, or a death/recall record before 1888 with the listing continuing for another person."
+    },
+    {
+      "bio_id": "jervois_william-francis-drummond_e1841",
+      "stint_ids": ["Jervois, William Francis Drummond___South Australia___1878"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: the printed biography never mentions South Australia — the colony, tenure-overlap, and position checks all FAIL — so the South Australia governorship could in principle belong to a different Jervois, and the stint also contains a 1879 row 'Jervois | Aide-de-Camp | THE GOVERNOR' at rank Lieutenant, which cannot be the Major-General Governor and is certainly a second individual (governors' ADCs were often their sons). Against the namesake worry: the governor rows carry the full triple name 'William Francis Drummond Jervois' and an exact, dated honours fingerprint — 'K.C.M.G., C.B.' in 1878 turning to 'G.C.M.G., C.B.' in 1879, precisely matching the bio's 'G.C.M.G. (1878), (K.C.M.G., 1874), C.B.' — and the career shape interlocks: the bio has him sent 'to proceed to the Australian colonies' on defence work after the Straits governorship (1875-7) and before New Zealand (1882), exactly bracketing a 1878-79 South Australia listing. The identity of the governor rows is not realistically in doubt; the verdict is held at probable solely because the stint cluster is contaminated by the Aide-de-Camp row and should be split before publication.",
+      "evidence_cited": [
+        {"stint_id": "Jervois, William Francis Drummond___South Australia___1878", "year": 1878, "fact": "Colonel Sir William Francis Drummond Jervois | Governor and Commander-in-Chief"},
+        {"stint_id": "Jervois, William Francis Drummond___South Australia___1878", "year": 1878, "fact": "G.C.M.G. (1878), (K.C.M.G., 1874), C.B."},
+        {"stint_id": "Jervois, William Francis Drummond___South Australia___1878", "year": 1879, "fact": "G.C.M.G., C.B."}
+      ],
+      "would_overturn": "A record of a second William Francis Drummond Jervois with K.C.M.G./G.C.M.G. honours in the 1870s, or confirmation that the 1879 Aide-de-Camp row was generated from the same printed person rather than a separate ADC, which would instead force a re-examination of the whole cluster."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Both stints belong to Lieut.-Gen. Sir W. F. D. Jervois on the governor rows. Caveat for the reviewer: the South Australia stint contains a contaminant row (1879, 'Jervois', Aide-de-Camp, rank Lieutenant) that is a different person — a Lieutenant ADC on the Governor's staff, swept into the cluster by surname. Recommend splitting that row out upstream; the governorship rows themselves are beyond realistic doubt (full triple name, dated honour progression K.C.M.G.->G.C.M.G. matching the 1878 award, career-shape fit between Straits Settlements 1875-7 and New Zealand 1882). The SA verdict is probable rather than certain only because of this cluster contamination."
+}

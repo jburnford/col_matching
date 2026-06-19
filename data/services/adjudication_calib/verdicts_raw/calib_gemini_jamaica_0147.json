@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0147",
+  "persons": [
+    {
+      "bio_id": "trench_d-p_e1848",
+      "stint_ids": ["Trench, Daniel Power___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: Trench is a well-represented surname (8 staff-list officials, 6 biographies), the biography gives only initials 'D. P.', and its career starts in 1848 - if he began adult service in 1848 he would be quite old by 1883, so the 1877-1883 Collector-General could be a same-initialled son or successor. This fails: Collector General of Jamaica is a single, unique senior office, and the biography states he held it 'upon the amalgamation of the customs, excise, and internal revenue departments in March, 1869' with no successor or end date printed; the stint's first listing (1877) follows continuously from that 1869 appointment, and the biography is printed in the 1883 edition - the same edition in which the staff list still records 'Daniel Power Trench' as Collector-General. The stint's parallel rows in the Legislative Council ('The Hon. D. P. Trench', Official Members) independently corroborate the bio's 'official member of the legislative council 1866'. A second D. P. Trench holding the identical unique office plus the identical council seat in the same years is not a realistic hypothesis, and a 1848-1883 career (roughly age 20 to 55+) is chronologically unremarkable.",
+      "evidence_cited": [
+        {"stint_id": "Trench, Daniel Power___Jamaica___1877", "year": 1877, "fact": "collector general of Jamaica upon the amalgamation of the customs, excise, and internal revenue departments in March, 1869"},
+        {"stint_id": "Trench, Daniel Power___Jamaica___1877", "year": 1877, "fact": "Collector-General"},
+        {"stint_id": "Trench, Daniel Power___Jamaica___1877", "year": 1877, "fact": "The Hon. D. P. Trench"},
+        {"stint_id": "Trench, Daniel Power___Jamaica___1877", "year": 1877, "fact": "official member of the legislative council 1866"}
+      ],
+      "would_overturn": "Evidence that the office changed hands between 1869 and 1877 to a different D. P. Trench (e.g. a record of the elder Trench's death or retirement before 1877, or a forename for the biography's subject that is not Daniel Power)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two independent agreeing dimensions beyond initials: the unique office of Collector-General with continuous dating from the bio's 1869 appointment, and the Legislative Council membership corroborating the bio's 1866 council clause. Bio and stint co-occur in the 1883 edition with position similarity 100."
+}

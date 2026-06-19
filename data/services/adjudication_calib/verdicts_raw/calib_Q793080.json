@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q793080",
+  "persons": [
+    {
+      "bio_id": "pearson_aylmer-cavendish_b1876",
+      "stint_ids": ["Pearson, A. C___North Borneo___1908"],
+      "confidence": "certain",
+      "arguments_against": "Pearson is the commonest surname in these calibration cases (53 officials, 23 biographies), so the counter-hypothesis is a different A. C. Pearson in the North Borneo service, e.g. a relative. It fails because the match is not one office but a whole career trajectory in lockstep: bio 'sec. to gov., 1904' vs stint 'Secretary to Governor' (1908 listing, consistent with edition lag); bio 'govt. sec. and judge of high ct., 1909' vs stint 'Government Secretary' (1910); bio 'gov. N. B. N. Borneo, 1915' vs stint 'Governor' (1913-1921, the 1913 listing consistent with his acting/deputy governorships of 1910-12); and the bio's 'C.M.G. (1919)' appears against the stint precisely from the 1919 listing onward, never earlier. Both initials agree. Two A. C. Pearsons tracking the identical succession of unique senior offices (Government Secretary, Governor) in the same small colony is not a realistic alternative; North Borneo had one Governor at a time.",
+      "evidence_cited": [
+        {"stint_id": "Pearson, A. C___North Borneo___1908", "year": 1908, "fact": "sec. to gov., 1904"},
+        {"stint_id": "Pearson, A. C___North Borneo___1908", "year": 1910, "fact": "govt. sec. and judge of high ct., 1909"},
+        {"stint_id": "Pearson, A. C___North Borneo___1908", "year": 1919, "fact": "C.M.G. (1919)"},
+        {"stint_id": "Pearson, A. C___North Borneo___1908", "year": 1913, "fact": "gov. N. B. N. Borneo, 1915"}
+      ],
+      "would_overturn": "Evidence of a second A. C. Pearson in the North Borneo service whose offices interleave with this one, or external sources showing a different person was Governor of North Borneo 1915-1921."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "position_sim FAIL is an abbreviation artifact ('gov.' = 'Governor'). The stint header says listed to 1929 but the year-by-year table ends at 1921; the 1929 edition listing, if real, would be consistent with an honoured-retiree carryover and does not affect the identification, which rests on the 1908-1921 records."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "case_adman_john-lad-brooke_e1929",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Tadman, J. L___Mauritius___1936",
+      "reason": "The substantive match is excellent (colony Mauritius, 'asst. audr.' vs 'Assistant Auditor', start 1936, initials J.L.), but the dossier states this stint is also gate-compatible with bio 'tadman_john-ladbrooke_e1931' outside this case, 'already linked elsewhere or filtered', and Phase 1 dropped this pairing as ambiguous for exactly that competitor. 'ADMAN, JOHN LAD BROOKE' is almost certainly an OCR mutilation of 'TADMAN, JOHN LADBROOKE' — i.e. the competitor bio is the same person under its correct spelling. Assigning the stint to this mangled duplicate record would risk double-assignment against the canonical Tadman record; the link should be resolved by merging/deduplicating the two bios, not by an assignment here."
+    },
+    {
+      "stint_id": "Cadman, J___Trinidad___1911",
+      "reason": "Different person: 'Expert Adviser, Mines Department' 1911-1919 (C.M.G. 1918, K.C.M.G. 1919) is the mining/petroleum adviser John Cadman (gate-compatible with 'cadman_john_b1877'). The bio's career begins with a 1929 Oxford exhibition and a 1931 entry into the colonial audit department; he cannot have been an expert adviser in 1911. No place, position, date, honour, or edition agreement (all deterministic checks beyond name FAIL)."
+    },
+    {
+      "stint_id": "Cadman, John___Tobago___1909",
+      "reason": "Same Mines Department Expert Adviser ('Prof. Sir J. Cadman', K.C.M.G.) as the Trinidad 1911 stint, listed 1909-1921. Chronologically impossible for the bio (career starts 1929/1931, audit branch, Uganda/Mauritius); no dimension agrees beyond the fuzzy surname."
+    },
+    {
+      "stint_id": "Cadman, John___Trinidad and Tobago___1906",
+      "reason": "Same mines Inspector/Expert Adviser as the other two Cadman stints, listed 1906-1922 with K.C.M.G. by 1922. The bio's subject was a schoolboy/undergraduate during most of this span and served in the audit department in East Africa and Mauritius, never in mines or Trinidad/Tobago; every deterministic check beyond surname FAILs."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Bio 'adman_john-lad-brooke_e1929' (printed 'ADMAN, JOHN LAD BROOKE') is almost certainly an OCR-corrupted duplicate of the out-of-case biography 'tadman_john-ladbrooke_e1931' ('TADMAN, JOHN LADBROOKE'): identical forenames modulo a split ('LAD BROOKE' = 'LADBROOKE'), initial 'T' dropped from the surname, and a career line ('asst. audr., Mauritius, Feb., 1936') matching the Tadman/Mauritius staff-list stint on place, position, and date. Recommend merging the two bio records; once merged, the 'Tadman, J. L___Mauritius___1936' stint assignment is effectively certain. The three Cadman stints belong to Sir John Cadman (b. 1877), the Mines Department expert adviser, and should resolve to 'cadman_john_b1877'. duplicate_bio_groups left empty only because the duplicate bio is outside this case."
+}

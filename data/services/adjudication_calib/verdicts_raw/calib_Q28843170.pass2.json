@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q28843170",
+  "persons": [
+    {
+      "bio_id": "james_frederick-swton_b1870",
+      "stint_ids": ["James, Frederick S___Windward Islands___1924"],
+      "confidence": "certain",
+      "arguments_against": "James is a very common surname (79 officials, 42 biographies in the corpus), so the strongest counter-hypothesis is a different Frederick James — perhaps a relative — as Windward Islands governor, or that the position_sim FAIL marks a real office mismatch. Both fail. There is only one Governor of the Windward Islands at a time, and the stint's first listed year (1924) coincides exactly with the biography's 'gov't., Windward Is., 23rd Feb., 1924; assumed gov't., 26th July, 1924' (OCR of 'govt.' = governor); the 1924 staff list styles him 'Sir Frederick S. James' with honours 'K.B.E., C.M.G.', matching the biography's K.B.E. (1922) and C.M.G. (1902) and the forename/initial 'Frederick S[wton]'. The position_sim FAIL compares only the OCR-garbled token \"gov't.\" against the full office string — a mechanical artifact. The commonness of the surname is neutralized by the uniqueness of the office, the date coincidence, and two independent shared honours.",
+      "evidence_cited": [
+        {"stint_id": "James, Frederick S___Windward Islands___1924", "year": 1924, "fact": "gov't., Windward Is., 23rd Feb., 1924"},
+        {"stint_id": "James, Frederick S___Windward Islands___1924", "year": 1924, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "James, Frederick S___Windward Islands___1924", "year": 1924, "fact": "K.B.E., C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second knighted Frederick S. James holding the Windward Islands governorship in 1924-1929, or a record showing this biography's subject declined or never assumed the 1924 appointment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "position_sim FAIL is an OCR/abbreviation artifact (\"gov't.\" vs full office string); verbatim entry confirms the governorship and assumption of government in July 1924, matching the stint's start. Honours K.B.E. + C.M.G. shared on the 1924 staff-list line."
+}

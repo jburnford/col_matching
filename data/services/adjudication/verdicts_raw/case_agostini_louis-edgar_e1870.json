@@ -1,0 +1,40 @@
+{
+  "case_id": "case_agostini_louis-edgar_e1870",
+  "persons": [
+    {
+      "bio_id": "agostini_louis-edgar_e1870",
+      "stint_ids": [
+        "Agostini, Edgar___Trinidad and Tobago___1905",
+        "Agostini, Edgar___Trinidad___1908"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case this is wrong: the staff lists name 'Edgar Agostini' while the biography is 'Louis Edgar' — a same-surname relative (the corpus has 7 Agostini officials and 4 Agostini biographies) could be the actual Attorney-General, e.g. a brother or son using the name Edgar, and the bio subject could have left the post after his 1907-08 acting chief-justiceship while a kinsman succeeded him. This fails for several reasons. (1) Attorney-General of Trinidad is a unique senior Crown office, not a generic junior title; only one person holds it at a time. The biography states an appointment as 'atty.-gen., Trinidad, 10th Sept., 1904', and the staff lists show Edgar Agostini as Attorney-General continuously from 1905 onward — exactly the succession the bio predicts. A different Agostini taking the same unique post in the same colony in the immediately following year, unmentioned in any of the 4 Agostini biographies, is not a realistic coincidence. (2) The biography carries the honour 'K.C.' and the 1908 staff-list record for this Attorney-General also carries 'K.C.' — an independent agreeing dimension. (3) 'Edgar' is the bio subject's second forename; Victorian/Edwardian officials commonly went by a middle name, and the initials check passes (E in [L, E]). (4) The bio's acting chief-justiceship June 1907 - June 1908 is an acting elevation from the substantive AG post, consistent with the staff lists continuing to record him as Attorney-General through 1910-1911. The two stints are also clearly one continuous officeholding (same name, same office, colony label merely shifting between 'Trinidad' and 'Trinidad and Tobago'), so assigning one and not the other would be incoherent. The deterministic FAILs (position_sim, tenure_overlap, colony for the 1905 stint) are string artifacts: 'atty.-gen.' vs 'Attorney-General' and 'Trinidad' vs 'Trinidad and Tobago'.",
+      "evidence_cited": [
+        {
+          "stint_id": "Agostini, Edgar___Trinidad and Tobago___1905",
+          "year": 1905,
+          "fact": "atty.-gen., Trinidad, 10th Sept., 1904"
+        },
+        {
+          "stint_id": "Agostini, Edgar___Trinidad and Tobago___1905",
+          "year": 1905,
+          "fact": "Attorney-General (is also Clerk of the Peace)"
+        },
+        {
+          "stint_id": "Agostini, Edgar___Trinidad___1908",
+          "year": 1908,
+          "fact": "K.C."
+        },
+        {
+          "stint_id": "Agostini, Edgar___Trinidad___1908",
+          "year": 1908,
+          "fact": "Attorney-General"
+        }
+      ],
+      "would_overturn": "Evidence of a second contemporaneous 'Edgar Agostini' in Trinidad's legal establishment — e.g. another Agostini biography or staff-list officer recorded as Attorney-General or in the Legal department in 1905-1911, or a record showing Louis Edgar Agostini vacated the attorney-generalship before 1905 (resignation, death, or transfer) while a different Edgar Agostini was appointed to it."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Both stints record the same continuous officeholding (Attorney-General of Trinidad, 1905-1911); the colony label differs only as 'Trinidad' vs 'Trinidad and Tobago'. Assignment rests on a unique senior office + colony + date succession from the bio's printed 10 Sept 1904 appointment, plus the shared K.C. honour and middle-name usage ('Edgar' is the bio's second forename). The bio's 'ag. chief just., June, 1907, to June, 1908' is an acting elevation and does not conflict with the substantive AG listing."
+}

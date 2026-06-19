@@ -1,0 +1,21 @@
+{
+  "case_id": "case_abayomi-cole_a-b_b1907",
+  "persons": [
+    {
+      "bio_id": "abayomi-cole_a-b_b1907",
+      "stint_ids": ["Abayomi-Cole, A. B___Sierra Leone___1949"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: a same-name relative (e.g. a father, brother, or cousin sharing the initials A. B.) who was also a Medical Officer in Sierra Leone during 1949-1951, with the famous Abayomi-Cole family of Sierra Leone making relatives in colonial service plausible. This fails for several reasons jointly. First, the corpus contains exactly one official and one biography with this surname, so no second candidate exists anywhere in the staff lists. Second, this is a two-initial match (A. B.), not a single-initial trap, and the initials agree exactly. Third, the career shape is a precise fit, not a generic overlap: the biography records 'M.O., S.L., 1944' with the next promotion ('S.M.O.') in 1955, so the person was serving as Medical Officer in Sierra Leone continuously through 1949-1951 -- exactly the rank, department, colony, and years the stint shows. A hypothetical relative would have to hold the same two initials, the same specific post, in the same colony, in exactly the window the biography's own M.O. tenure covers, while leaving no other trace in the corpus. The deterministic FAILs are artifacts: position_sim failed only because 'M.O.' is an abbreviation of 'Medical Officer' (string score 24, but semantically identical); the honour FAIL is expected because the O.B.E. came in 1960, after the stint; edition co-occurrence FAIL is expected because the biography appears in 1956-1963 volumes while the stint is from 1949-1951 staff lists -- the biographical section simply did not carry him in the earlier volumes.",
+      "evidence_cited": [
+        {"stint_id": "Abayomi-Cole, A. B___Sierra Leone___1949", "year": 1944, "fact": "M.O., S.L., 1944"},
+        {"stint_id": "Abayomi-Cole, A. B___Sierra Leone___1949", "year": 1949, "fact": "A. B. Abayomi-Cole"},
+        {"stint_id": "Abayomi-Cole, A. B___Sierra Leone___1949", "year": 1949, "fact": "Medical Officer"},
+        {"stint_id": "Abayomi-Cole, A. B___Sierra Leone___1949", "year": 1955, "fact": "S.M.O., 1955"}
+      ],
+      "would_overturn": "Evidence of a second A. B. Abayomi-Cole in Sierra Leone government medical service in the late 1940s (e.g. a staff-list entry distinguishing two officers of this name, a Sierra Leone medical register showing two practitioners with these initials, or a biography of a relative with the same initials serving as M.O. in this window)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case with a vanishingly rare double-barrelled surname (1 official, 1 biography in the entire corpus). The bio's M.O. tenure (1944 until S.M.O. promotion in 1955) brackets the stint years 1949-1951 exactly, and rank ('Medical Officer'), department (Medical), colony (Sierra Leone), and both initials all agree. All three deterministic FAILs are mechanical artifacts (abbreviation, post-stint honour, non-overlapping section coverage across volumes), not substantive disagreements."
+}

@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_Q107340153",
+  "persons": [
+    {
+      "bio_id": "cools-lartigue_alexander-raphael_b1899",
+      "stint_ids": ["Cools-Lartigue, A. R___Jamaica___1954", "Cools-Lartigue, A. R___Windward Islands___1939"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: 8 officials share this surname (a prominent West Indian family), so a same-initial relative could in principle account for one of the stints, and the Windward Islands stint FAILED every deterministic place/position check. This fails on the verbatim text: the bio explicitly records 'atty.-gen., St. L., 1938; Wind. Is., 1942; puisne judge, Wind. and Leeward Is., 1949; J'ca., 1953' - exactly the progression the Windward Islands stint shows (Attorney-General 1939-1950, then 'Puisne Judge, Windward and Leeward Islands (St. Vincent Circuit)' 1952-53) and exactly when the Jamaica stint begins (Puisne Judge, 1954-56, after the 1953 move to Jamaica). The deterministic FAILs on the Windward stint are a parser artifact: the compiled timeline inherited 'St. Lucia' as the place for the 1942 and 1949 clauses, but the printed text names 'Wind. Is.' and 'Wind. and Leeward Is.' directly; St. Lucia was itself a Windward Islands presidency, explaining the 1939 AG listing. A relative-namesake hypothesis would require a second A. R. Cools-Lartigue holding the identical, singular AG-then-puisne-judge offices in the same years that the biography claims for this man, which is not realistic. The two stints are one continuous career, so the partition is internally consistent.",
+      "evidence_cited": [
+        {"stint_id": "Cools-Lartigue, A. R___Windward Islands___1939", "year": 1939, "fact": "atty.-gen., St. Lucia, Apr., 1938"},
+        {"stint_id": "Cools-Lartigue, A. R___Windward Islands___1939", "year": 1950, "fact": "Wind. Is., 1942"},
+        {"stint_id": "Cools-Lartigue, A. R___Windward Islands___1939", "year": 1952, "fact": "puisne judge, Wind. and Leeward Is., 1949"},
+        {"stint_id": "Cools-Lartigue, A. R___Windward Islands___1939", "year": 1952, "fact": "Puisne Judge, Windward and Leeward Islands (St. Vincent Circuit)"},
+        {"stint_id": "Cools-Lartigue, A. R___Jamaica___1954", "year": 1954, "fact": "J'ca., 1953"},
+        {"stint_id": "Cools-Lartigue, A. R___Jamaica___1954", "year": 1954, "fact": "Puisne Judge"},
+        {"stint_id": "Cools-Lartigue, A. R___Jamaica___1954", "year": 1958, "fact": "senr. puisne judge, 1958–64"}
+      ],
+      "would_overturn": "Discovery of a second A. R. Cools-Lartigue in the legal service of the Windward Islands or Jamaica in 1939-1956 (e.g. a brother or son with the same initials holding the AG or puisne judge posts), or evidence that the 1950 biography conflated two relatives' careers."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The Windward Islands stint's deterministic FAILs (colony, tenure_overlap, position_sim) are all caused by the timeline parser inheriting 'St. Lucia' as the place for the 1942 'Wind. Is.' and 1949 'puisne judge, Wind. and Leeward Is.' clauses. The verbatim 1950 entry text resolves this unambiguously. Jamaica stint also passes strict edition co-occurrence (1954, 1955, 1956) with position_sim 100."
+}

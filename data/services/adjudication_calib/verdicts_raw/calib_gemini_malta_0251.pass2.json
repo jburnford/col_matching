@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_malta_0251",
+  "persons": [
+    {
+      "bio_id": "zammit_c-gr_b1911",
+      "stint_ids": ["Zammit, Carmelo___Malta___1936", "Zammit, Carmelo___Malta___1956"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter: Zammit is one of the commonest Malta surnames (22 officials), so any single match is weak, and the 1936 stint opens single-initial 'C. Zammit' (tenure_overlap FAIL). This fails because the bio describes a tight, distinctive archaeology-to-museum career -- 'asst. custodian, archaeol., 1930; custodian, 1934; dir., museum, Malta, 1955' -- and the two stints reproduce it precisely. The 1936 stint is 'Curator of the Archaeological Section, Museum', printed 'C. G. Zammit' (both bio initials) in 1939-40, matching the bio's archaeology custodianship; the 1956 stint is 'C. G. Zammit, Director of Museum' (1956-64), matching 'dir., museum, Malta, 1955' with 8 agreeing edition-years. The same C. G. Zammit moves from curating the archaeological section to directing the museum, exactly the bio's arc. Age fits (b.1911: 25 in 1936, 45 in 1956). A different C. G. Zammit replicating this specific archaeology-curator-to-museum-director path is implausible.",
+      "evidence_cited": [
+        {"stint_id": "Zammit, Carmelo___Malta___1936", "year": 1939, "fact": "custodian, 1934"},
+        {"stint_id": "Zammit, Carmelo___Malta___1936", "year": 1936, "fact": "asst. custodian, archaeol., 1930"},
+        {"stint_id": "Zammit, Carmelo___Malta___1956", "year": 1956, "fact": "dir., museum, Malta, 1955"}
+      ],
+      "would_overturn": "Evidence of a second C. G. Zammit also curating the archaeological section / directing the Malta museum would split this."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Zammit, G___Malta___1929", "reason": "A different person. This stint is single-initial 'G. Zammit', District Medical Officer 1929-1934 then 'Masters' (schoolteacher) at the Lyceum 1936-1940 -- neither matches the bio's archaeology/museum career. A medical officer in 1929 cannot be the bio subject, who was born 1911 and would have been only 18 with no medical degree. The schoolmaster role also does not fit. No tenure overlap, no position overlap, no shared honour. Almost certainly one or two other G. Zammits; leave unassigned."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Likely Charles G. Zammit (archaeologist/museum director). Stints 1936 and 1956 are one continuous archaeology-to-museum career matching the bio. The 1929 stint (medical officer then schoolmaster) is a distinct Zammit, ruled out on career and age."
+}

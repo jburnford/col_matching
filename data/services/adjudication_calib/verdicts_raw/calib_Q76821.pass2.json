@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q76821",
+  "persons": [
+    {
+      "bio_id": "grey_george_e1829",
+      "stint_ids": ["Grey, George___New Zealand___1877"],
+      "confidence": "certain",
+      "arguments_against": "The dossier warns of the single-initial namesake trap, and 'George Grey' is a genuinely common name (30 Greys in the staff lists, 12 in the biographies). But the merge does not rest on name or tenure overlap: (1) the Premiership of New Zealand is a unique office held by one person at a time, and the stint's 'Premier and Commissioner of Customs' records in 1878-79 fall exactly inside the biography's 'premier of New Zealand, 1877 to 1879'; (2) the stint's 1877 record is 'Superintendent of Auckland', matching the biography's 'superintendent of the Province of Auckland, 1875' — a second specific, unusual office in agreement; (3) every stint record carries K.C.B., and the biography's headline honour is K.C.B. (Civil.) 1848 — the deterministic honour check failed only on the '(Civil.)' string suffix. A namesake would have to be a second Sir George Grey, K.C.B., serving simultaneously as Superintendent of Auckland and Premier of New Zealand in the same years, which is impossible. No counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1877, "fact": "Superintendent of Auckland"},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1878, "fact": "Premier and Commissioner of Customs"},
+        {"stint_id": "Grey, George___New Zealand___1877", "year": 1879, "fact": "K.C.B."}
+      ],
+      "would_overturn": "Evidence that the New Zealand Premier of 1877-79 was a different George Grey from the former Governor, contradicting the biography's own statement of his premiership years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The honour check's FAIL is mechanical: bio 'K.C.B. (Civil.)' vs stint 'K.C.B.' is the same honour. Unique-office (Premier), exact-year, place, and honour agreement together make this certain despite the single-forename name."
+}

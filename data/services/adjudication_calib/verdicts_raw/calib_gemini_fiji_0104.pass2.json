@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_fiji_0104",
+  "persons": [
+    {
+      "bio_id": "kirkwood_richard-hugh_b1859",
+      "stint_ids": ["Kirkwood, R. H___Fiji___1894"],
+      "confidence": "certain",
+      "arguments_against": "There are 8 Kirkwoods in the staff lists and 3 bios with this surname, so a same-name relative could in principle hold a Fiji audit post; and the deterministic pass flagged place_inherited (the audit-dept place is inherited, not printed). But this fails as a counter-hypothesis: the match is not on surname or a single generic title, it is on a highly specific multi-step career trajectory unique to one person. The bio reads 'ch. clk. audit dept., 1892-1907; asst. auditor, 1907' and the staff list shows R. H. Kirkwood as Chief Clerk in the Audit Department through 1906 then becoming Assistant Auditor in exactly 1907; the bio's 'sub-collr., customs ... May, 1910' matches the staff list's anomalous 'Sub-Collector of Customs' entry in 1911. Two full forename initials (R. H.) agree, age is consistent (35 in 1894), and 3 editions co-occur. A relative would not replicate this exact promotion sequence and the one-off customs posting.",
+      "evidence_cited": [
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1907, "fact": "asst. auditor, 1907"},
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1907, "fact": "Assistant Auditor"},
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1911, "fact": "Sub-Collector of Customs"},
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1910, "fact": "sub-collr., customs, and postmr., Lautoka, May, 1910"},
+        {"stint_id": "Kirkwood, R. H___Fiji___1894", "year": 1906, "fact": "ch. clk. audit dept."}
+      ],
+      "would_overturn": "Evidence of a second R. H. Kirkwood in the Fiji audit/customs service in the same years, or a printed entry showing the staff-list Chief Clerk/Assistant Auditor was a different person."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Career trajectory (Chief Clerk audit dept -> Assistant Auditor 1907 -> Sub-Collector of Customs ~1910/11) matches verbatim entry precisely; forename initials and age also agree."
+}

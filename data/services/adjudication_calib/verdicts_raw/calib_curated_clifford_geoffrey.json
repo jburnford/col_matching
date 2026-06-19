@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_curated_clifford_geoffrey",
+  "persons": [
+    {
+      "bio_id": "clifford_geoffrey-miles_b1897",
+      "stint_ids": [
+        "Clifford, Geoffrey Miles___Falkland Islands___1946",
+        "Clifford, Miles___Falkland Islands___1951"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: with 20 Cliffords in the staff lists, one could posit that 'Clifford, Miles' (single forename, 1951-53) is a different person from 'Clifford, Geoffrey Miles' (1946-52) — e.g. a successor governor with a similar name — and the position_sim check failed mechanically for both stints. This fails. The position FAIL is purely an abbreviation artifact ('gov. and c.in-c.' vs 'Governor and Commander-in-Chief' scores 59 against a bar of 60). The biography states 'gov. and c.in-c., Falk. Is., 1946-54' — one continuous governorship spanning both stints exactly. The two stints are the same office in the same colony with overlapping/contiguous years (1946-1952 and 1951-1953) and the same C.M.G.; the 1952 record of the first stint already prints 'Sir Geoffrey Miles Clifford', and the second stint's 'Sir Miles Clifford' matches the biography's own later headline form 'CLIFFORD, Sir Miles' (1953-54 editions) — the man simply went by 'Miles'. There was no second Clifford governing the Falklands in 1951-53; the colony had one governor, and the bio holds that post through 1954. Honours agree (C.M.G. 1944, O.B.E. 1939 in the 1946 record).",
+      "evidence_cited": [
+        {"stint_id": "Clifford, Geoffrey Miles___Falkland Islands___1946", "year": 1946, "fact": "gov. and c.in-c., Falk. Is., 1946-54"},
+        {"stint_id": "Clifford, Geoffrey Miles___Falkland Islands___1946", "year": 1946, "fact": "C.M.G., O.B.E."},
+        {"stint_id": "Clifford, Miles___Falkland Islands___1951", "year": 1951, "fact": "CLIFFORD, Sir Miles, K.B.E. (1949), C.M.G. (1944), O.B.E. (1939)"},
+        {"stint_id": "Clifford, Miles___Falkland Islands___1951", "year": 1951, "fact": "Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "A primary record showing a different Miles Clifford succeeded Geoffrey Miles Clifford as Falklands governor before 1954, or evidence that the 1951-53 staff-list entries carry honours or details inconsistent with this man."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints are one continuous Falkland Islands governorship (1946-54 per the bio) split by a staff-list name-form change ('G. Miles Clifford' -> 'Sir Miles Clifford'); the biography itself switches headline form from 'Geoffrey Miles' to 'Sir Miles' across the same years."
+}

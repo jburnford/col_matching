@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0150",
+  "persons": [
+    {
+      "bio_id": "mossey_charles-benjamin_e1866",
+      "stint_ids": ["Mosse, C. B___Jamaica___1878"],
+      "confidence": "certain",
+      "arguments_against": "The surname is not an exact match (bio MOSSEY vs stint MOSSE, fuzzy distance 1), there is no printed birth year, and no edition co-occurrence; one could argue MOSSE and MOSSEY are different families. This fails: every independent dimension agrees. Initials C. B. match; the honour C. B. is shared and appears in every staff record (bio 'C.B. (1874)'); the office matches verbatim including its distinctive dual form — bio 'Deputy Surgeon-General' and 'superintending medical officer for Jamaica, June, 1876' against the staff list's 'Superintending Medical Officer, Deputy Surgeon-General' (Medical Department); colony Jamaica agrees; and the dates are consistent (bio 'retired 1892', stint runs 1878-1890). Only one Superintending Medical Officer / Deputy Surgeon-General of Jamaica held the C.B.; the Mosse/Mossey spelling is ordinary OCR variation.",
+      "evidence_cited": [
+        {"stint_id": "Mosse, C. B___Jamaica___1878", "year": 1878, "fact": "Superintending Medical Officer, Deputy Surgeon-General"},
+        {"stint_id": "Mosse, C. B___Jamaica___1878", "year": 1878, "fact": "superintending medical officer for Jamaica, June, 1876"},
+        {"stint_id": "Mosse, C. B___Jamaica___1878", "year": 1878, "fact": "C.B."},
+        {"stint_id": "Mosse, C. B___Jamaica___1878", "year": 1878, "fact": "Deputy Surgeon-General"}
+      ],
+      "would_overturn": "Evidence that MOSSE and MOSSEY were two distinct C.B. medical officers in Jamaica, not one OCR-variant name."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Shared honour C.B. plus the verbatim dual senior title 'Superintending Medical Officer, Deputy Surgeon-General' in the same colony with consistent dates; surname differs only by an OCR letter. Certain."
+}

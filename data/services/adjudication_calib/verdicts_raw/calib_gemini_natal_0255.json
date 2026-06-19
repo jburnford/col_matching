@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_natal_0255",
+  "persons": [
+    {
+      "bio_id": "lamond_george_e1853",
+      "stint_ids": ["Lamond, G___Natal___1879"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case this is wrong: the bio is single-initial-equivalent ('George' -> G.) and a son also named George Lamond could have succeeded his father as Registrar of Deeds, with the staff list silently switching persons mid-stint; alternatively, the career started in 1853, so by the late 1890s the man would be elderly and the listing could be a stale carry-over. Why it fails: the office is singular and highly specific — the bio's 'registrar of deeds and distributor of stamps, and registrar-general of births, deaths, and marriages, 1878' is reproduced almost verbatim in the staff list as 'Registrar of Deeds, and Registrar-General of Births, Deaths, and Marriages' from 1879, exactly one year after the bio's appointment; the bio and stint co-occur with this matching position in at least five edition-years (1883, 1886, 1888, 1889, 1890) and run in lockstep through 1900, with the bio's edition run (1883-1900) and the stint's span (1879-1900) ending together; and Lamond is rare — only 2 officials with the surname in the whole staff-list corpus. A succession by a same-initial son would show as a break or re-listing; the record is one continuous tenure in the same singular office the bio claims. The age concern is mild: a man starting as a postmaster in 1853 (say, born ~1830) serving to 1900 at ~70 is unusual but not anomalous for a registrar-general, and the bio kept being reprinted as a current officer through 1900.",
+      "evidence_cited": [
+        {"stint_id": "Lamond, G___Natal___1879", "year": 1879, "fact": "Registrar of Deeds, and Registrar-General of Births, Deaths, and Marriages"},
+        {"stint_id": "Lamond, G___Natal___1879", "year": 1878, "fact": "registrar of deeds and distributor of stamps, and registrar-general of births, deaths, and marriages, 1878"},
+        {"stint_id": "Lamond, G___Natal___1879", "year": 1898, "fact": "Registrar of Deeds, and Registrar-General"}
+      ],
+      "would_overturn": "Evidence of a second G. Lamond in Natal service (e.g., the other Lamond official in the corpus proving to be a same-initial relative holding the deeds registry in part of 1879-1900), or a death/retirement record for George Lamond before 1900 while the staff-list entries continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The only failed substantive check (place_inherited) is a formatting artifact of the bio's single-sentence career with 'Natal' stated once at the head; every clause is unambiguously Natal. The other Lamond biography in the corpus is not in this case; if it ever claims the Natal deeds registry, this verdict should be revisited."
+}

@@ -1,0 +1,42 @@
+{
+ "case_id": "case_berkley_george_e1845",
+ "persons": [
+  {
+   "bio_id": "berkley_george_e1845",
+   "stint_ids": [
+    "Berkeley, George___Leeward Islands___1877"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Single-initial bio (George). Assigned only the Leeward Islands governorship, which matches the entry ('governor, Leeward Islands, Oct. 1874') verbatim with a 100 position score and the shared C.M.G.(1874) — an independently strong link despite the bare forename. Surname OCR-garbled BERKLEY~Berkeley.",
+   "evidence_cited": [
+    {
+     "stint_id": "Berkeley, George___Leeward Islands___1877",
+     "year": 1877,
+     "fact": "Governor"
+    },
+    {
+     "stint_id": "Berkeley, George___Leeward Islands___1877",
+     "year": 1877,
+     "fact": "C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [
+  {
+   "stint_id": "Beckley, L. G. A___Sierra Leone___1950",
+   "reason": "L. G. A. Beckley, Assistant Treasurer, Sierra Leone 1950 — a different surname (Beckley) and person a century later."
+  },
+  {
+   "stint_id": "Berkeley, George___Windward Islands___1877",
+   "reason": "A St Vincent administrators' roster naming George Berkeley — almost certainly the same man (the entry gives lt.-gov. of St Vincent 1864) but the roster carries no position/honour, so with a single initial it cannot be auto-confirmed. Review."
+  },
+  {
+   "stint_id": "Berkeley, George___Windward Islands___1948",
+   "reason": "A 1948-50 roster entry — too late for a man who retired in 1881. Review/likely artifact."
+  }
+ ],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 4, hand-adjudicated (Claude Code, in-session)"
+}

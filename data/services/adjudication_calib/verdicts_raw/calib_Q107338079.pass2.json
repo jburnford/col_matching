@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107338079",
+  "persons": [
+    {
+      "bio_id": "hooton_john-charles_b1912",
+      "stint_ids": ["Hooton, J. C___Bermuda___1959"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: there are 5 Hootons in the staff lists and 2 Hooton biographies, so the Bermuda Attorney-General could in principle be the other Hooton or an unbiographed namesake; and the staff list shows no honours while the bio's subject held M.B.E. and Croix de Guerre. But the office is unique - a colony has exactly one Attorney-General - and the bio names it explicitly with the date: 'atty.-gen., Berm., 1958', immediately preceding the stint's 1959-1961 listings. The stint also ends precisely when the bio says he left for East Africa ('leg. sec. E.A.C.S.O., 1961'). For the counter-hypothesis, a second J. C. Hooton would have to hold the same unique post in the same colony in exactly the years the bio claims for this man. Absent honours in staff-list columns is common formatting omission, not contrary evidence. The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Hooton, J. C___Bermuda___1959", "year": 1958, "fact": "atty.-gen., Berm., 1958"},
+        {"stint_id": "Hooton, J. C___Bermuda___1959", "year": 1959, "fact": "Attorney-General"},
+        {"stint_id": "Hooton, J. C___Bermuda___1959", "year": 1961, "fact": "leg. sec. E.A.C.S.O., 1961"}
+      ],
+      "would_overturn": "Evidence that a different J. C. Hooton (e.g. the second Hooton biography's subject) served as Bermuda's Attorney-General 1959-61, or a record placing this bio's subject elsewhere full-time during those years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio in case, single stint. Unique senior office (Attorney-General of Bermuda), exact initials, appointment date 1958 in bio vs staff listings 1959-61, and departure date 1961 (to E.A.C.S.O.) matching the stint's last listed year. Multiple independent agreeing dimensions."
+}

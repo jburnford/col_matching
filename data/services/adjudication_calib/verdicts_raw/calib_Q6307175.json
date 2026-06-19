@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6307175",
+  "persons": [
+    {
+      "bio_id": "gascoigne_julian_b1903",
+      "stint_ids": ["Gascoigne, Julian___Bermuda___1960"],
+      "confidence": "certain",
+      "arguments_against": "Single-initial warning plus 3 Gascoigne biographies in the corpus invite the namesake/relative hypothesis: a different J. Gascoigne in Bermuda. It fails: the stint office is Governor and Commander-in-Chief of Bermuda, a unique single-occupant post, and the biography records 'gov. and c.-in-c., Bermuda, 1959-64', enclosing the stint's 1960-1964 listing. The staff list prints 'Major-Gen. Sir Julian Gascoigne' — full forename, knighthood, and the bio's exact rank — and the honour record is year-accurate: C.B. and D.S.O. before 1962, K.C.M.G. added in the 1962 staff list, matching the bio's 'K.C.M.G. (1962)'. A second Major-Gen. Sir Julian Gascoigne with the same honours governing Bermuda in the same years is not a live possibility.",
+      "evidence_cited": [
+        {"stint_id": "Gascoigne, Julian___Bermuda___1960", "year": 1960, "fact": "gov. and c.-in-c., Bermuda, 1959-64"},
+        {"stint_id": "Gascoigne, Julian___Bermuda___1960", "year": 1960, "fact": "Major-Gen. Sir Julian Gascoigne"},
+        {"stint_id": "Gascoigne, Julian___Bermuda___1960", "year": 1962, "fact": "K.C.M.G., C.B., D.S.O."}
+      ],
+      "would_overturn": "External evidence that a different person held the Bermuda governorship 1960-1964, or that the bio's final clause was conflated from another entry."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "position_sim FAIL is the standard abbreviation artifact. Independent agreeing dimensions: unique office with tenure containment (1959-64 vs 1960-64), full forename + rank, three shared honours with a year-accurate K.C.M.G. appearance in 1962."
+}

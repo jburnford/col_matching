@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q7427339",
+  "persons": [
+    {
+      "bio_id": "samuel_saul_e1854",
+      "stint_ids": ["Samuel, Saul___New South Wales___1879"],
+      "confidence": "certain",
+      "arguments_against": "The dossier flags this as a single-initial namesake trap, but that flag is mechanical: the staff-list name is the full distinctive forename 'Saul', identical to the biography's printed forename, not a bare initial. The realistic counter-hypothesis is a relative or successor Samuel holding the Postmaster-Generalship of New South Wales in 1879-80. That fails on three independent dimensions at once: the biography states verbatim he was 'Late postmaster-general of New South Wales' (exact office and colony); the stint carries C.M.G., which the biography dates to 1874 and which he held until his 1882 K.C.M.G. — exactly the honour state expected in 1879-80; and the stint ends in 1880, the very year the biography has him leave for London as agent-general for New South Wales. A second Saul Samuel, C.M.G., serving as NSW Postmaster-General in the same two years is not a live possibility.",
+      "evidence_cited": [
+        {"stint_id": "Samuel, Saul___New South Wales___1879", "year": 1879, "fact": "Postmaster-General"},
+        {"stint_id": "Samuel, Saul___New South Wales___1879", "year": 1879, "fact": "C.M.G."},
+        {"stint_id": "Samuel, Saul___New South Wales___1879", "year": 1880, "fact": "General Post Office"}
+      ],
+      "would_overturn": "Evidence of a second Saul Samuel, C.M.G., in New South Wales public life in 1879-80, or evidence the biography subject had already left the Postmaster-Generalship before 1879 with a different Samuel succeeding him under the same forename."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Exact office+colony+honour+chronology agreement; the stint's end in 1880 dovetails with the biography's agent-general appointment in London in 1880."
+}

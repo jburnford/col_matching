@@ -1,0 +1,46 @@
+{
+ "case_id": "case_micallef_sr-richard_b1846",
+ "persons": [
+  {
+   "bio_id": "micallef_sr-richard_b1846",
+   "stint_ids": [
+    "Micallef, Richard___Malta___1877"
+   ],
+   "confidence": "certain",
+   "arguments_against": "The bio is Sir Richard Micallef, Malta, Comptroller of Charitable Institutions, C.M.G.(1902)/K.C.M.G.(1906), retired 1911. The Malta 1877 stint matches verbatim (clerk -> Comptroller of Charitable Institutions, C.M.G.). I assign only that stint. The Leeward Islands / Virgin Islands stints show the SAME Malta-specific offices (Comptroller of Charitable Institutions, Council of Government, Monte di Pieta) and are very likely the same man mis-colonied upstream, but the colony discrepancy needs human review, not auto-confirmation. The Malta 1930 stint is a different, younger namesake (R. G. Micallef, a Major in Public Health, 1930-40; this man retired in 1911).",
+   "evidence_cited": [
+    {
+     "stint_id": "Micallef, Richard___Malta___1877",
+     "year": 1889,
+     "fact": "Comptroller of Charitable Institutions"
+    },
+    {
+     "stint_id": "Micallef, Richard___Malta___1877",
+     "year": 1905,
+     "fact": "C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [
+  {
+   "stint_id": "Micallef, Richard___Leeward Islands___1897",
+   "reason": "Holds Malta-specific offices (Comptroller of Charitable Institutions, Council of Government) identical to the bio — likely the same man mis-colonied as 'Leeward Islands' upstream. Review the colony anomaly before linking."
+  },
+  {
+   "stint_id": "Micallef, Richard___Virgin Islands___1890",
+   "reason": "Same Malta-specific offices as the bio; likely the same man mis-colonied as 'Virgin Islands'. Review the colony anomaly."
+  },
+  {
+   "stint_id": "Micallef, Richard___Malta___1930",
+   "reason": "R. G. Micallef, Major, 2nd-class clerk in Public Health 1930-1940 — a different, younger namesake. The bio's Sir Richard Micallef retired in 1911."
+  },
+  {
+   "stint_id": "Micallef, S___Malta___1911",
+   "reason": "Single-initial 'S.' Malta 1911; not examined in detail. Possibly the same man's final year but left for review given the bare initial."
+  }
+ ],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice, hand-adjudicated (Claude Code, in-session)"
+}

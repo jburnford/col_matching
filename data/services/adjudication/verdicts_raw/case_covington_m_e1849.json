@@ -1,0 +1,21 @@
+{
+  "case_id": "case_covington_m_e1849",
+  "persons": [
+    {
+      "bio_id": "covington_m_e1849",
+      "stint_ids": ["Covington, M___Ceylon___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: this is a single-initial biography, so the stint could belong to a same-name relative (a son or brother, also 'M. Covington') serving in Ceylon's Medical Department in 1877-1883, or to a successor holding the same generic-sounding post. That hypothesis fails on several grounds. First, the corpus contains exactly one official and one biography with this surname, so no second Covington is attested anywhere in the staff lists or biographical sections. Second, the match is not on a generic junior title but on a specific named office: the bio's career culminates in 'assistant colonial surgeon' (1859, 1st class 1867) in Ceylon, and the stint is 'Assistant Colonial Surgeons' in Ceylon's Medical Department -- the exact office, exact colony, exact initial. Third, the 1883 edition prints both the biography and the staff listing simultaneously, i.e. the compilers of that very volume treated the biographical subject as the then-current Assistant Colonial Surgeon; a Record of Services entry with no death/retirement note alongside a current staff listing of the same name and post is the editors' own identification. Fourth, the career shape is continuous: a man promoted to assistant colonial surgeon 1st class in 1867 still being listed as Assistant Colonial Surgeon in 1877-1883 is the natural continuation, and his age (entered service 1849, so roughly 50s-60s by 1883) is unremarkable for a serving colonial surgeon. The deterministic FAILs are mechanical artifacts: tenure_overlap and position_sim fail only because the bio's placed events stop at 1867, before the stint window opens, and edition_cooccurrence fails despite both records demonstrably appearing in the 1883 edition.",
+      "evidence_cited": [
+        {"stint_id": "Covington, M___Ceylon___1877", "year": 1859, "fact": "assistant colonial surgeon, 1859"},
+        {"stint_id": "Covington, M___Ceylon___1877", "year": 1877, "fact": "Assistant Colonial Surgeons"},
+        {"stint_id": "Covington, M___Ceylon___1877", "year": 1849, "fact": "Medical sub-assistant to the government of Ceylon"},
+        {"stint_id": "Covington, M___Ceylon___1877", "year": 1883, "fact": "editions [1877, 1878, 1879, 1880, 1883]"}
+      ],
+      "would_overturn": "Evidence of a second M. Covington in Ceylon's medical service (e.g. a staff list or biography distinguishing 'M. Covington, sen.' and 'jun.', or two M. Covingtons in any Ceylon Medical Department listing), or a record showing the biographical subject died or left the service before 1877."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "All five deterministic similarity checks failed mechanically, but each failure is explained by the bio's compiled timeline ending in 1867 (no placed events overlap the 1877-1883 stint window) rather than by any contradiction. The verbatim texts agree on colony (Ceylon), department/profession (medical), specific office (assistant colonial surgeon), initial (M.), and 1883 edition co-occurrence, and the surname is unique in the corpus. The edition_cooccurrence FAIL appears to be a tooling artifact worth investigating: bio editions [1883] and stint editions [1877, 1878, 1879, 1880, 1883] plainly share 1883."
+}

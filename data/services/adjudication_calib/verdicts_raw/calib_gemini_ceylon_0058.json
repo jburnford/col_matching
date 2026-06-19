@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0058",
+  "persons": [
+    {
+      "bio_id": "donnan_j_b1837",
+      "stint_ids": ["Donnan, J___Ceylon___1877"],
+      "confidence": "certain",
+      "arguments_against": "The single-initial namesake trap is live: 'DONNAN, J.' could in principle be a different J. Donnan from the staff-list line, e.g. a relative in Ceylon harbour service or one of the 2 same-surname biographies in the corpus. This fails for three reasons. First, Master Attendant is not a generic junior title; it is a singular senior harbour post (the staff list shows exactly one Master Attendant line, in the Harbour Department), and the bio explicitly holds that exact post at Colombo from 1863. Second, the stint's run (1877-1900) sits entirely inside the bio's stated tenure (appointed 1863, 'ret., 1902.') and terminates just before the retirement date, exactly as it should. Third, the corpus contains only 1 official with this surname in the staff lists, so there is no second staff-list Donnan for the bio to belong to. Two different J. Donnans successively holding the unique Master Attendant post at Colombo within the bio's own attested tenure is not a realistic hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Donnan, J___Ceylon___1877", "year": 1877, "fact": "Master Attendant"},
+        {"stint_id": "Donnan, J___Ceylon___1877", "year": 1877, "fact": "Harbour Department"},
+        {"stint_id": "Donnan, J___Ceylon___1877", "year": 1900, "fact": "mast. attendant, Colombo, Ceylon, 1863"}
+      ],
+      "would_overturn": "Evidence of a second J. Donnan in Ceylon harbour service in 1877-1900 (e.g. a separate staff-list line), or a record showing the biographical J. Donnan left the Master Attendant post before 1877 with a successor of the same initial, or a birth/death record incompatible with service through 1900."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial biography, so the namesake trap was weighed explicitly. The required strong independent dimension is a specific position match on a unique senior post: bio 'mast. attendant, Colombo, Ceylon, 1863 ... ret., 1902' vs staff-list 'Master Attendant', Harbour Department, listed 1877-1900. Tenure containment is exact (stint ends 1900, retirement 1902). Minor staff-list OCR variants ('Muster Attendant', 'Master Attendants') are obvious typesetting/OCR noise on the same line."
+}

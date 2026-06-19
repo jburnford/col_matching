@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q107337917",
+  "persons": [
+    {
+      "bio_id": "southworth_f_b1910",
+      "stint_ids": ["Southworth, F___Nyasaland___1955"],
+      "confidence": "certain",
+      "arguments_against": "The biography carries a single initial ('F.'), so the namesake trap applies: a different F. Southworth (a relative, or a coincidental namesake among the 3 Southworths in the staff lists) could be the Nyasaland judge. But the case against that counter-hypothesis is overwhelming: the biography says 'asst. judge, Nyasa., 1953; puisne judge, 1955', and the staff list shows the exact same two-step career shape for the exact same person-name in the exact same colony - 'Assistant Judge' in 1955 then 'Puisne Judge' 1956-1964. A second F. Southworth would have to replicate not just one post but the specific assistant-judge-to-puisne-judge promotion in Nyasaland at the same dates, while the bio's subject disappears from the list his own entry says he was on. Judgeships are unique senior posts, not generic junior titles, and the surname is rare (3 officials, 1 biography). The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Southworth, F___Nyasaland___1955", "year": 1953, "fact": "asst. judge, Nyasa., 1953"},
+        {"stint_id": "Southworth, F___Nyasaland___1955", "year": 1955, "fact": "puisne judge, 1955"},
+        {"stint_id": "Southworth, F___Nyasaland___1955", "year": 1955, "fact": "Assistant Judge"},
+        {"stint_id": "Southworth, F___Nyasaland___1955", "year": 1956, "fact": "Puisne Judge"}
+      ],
+      "would_overturn": "Discovery of a second contemporaneous F. Southworth in the Nyasaland judiciary, or evidence the bio's subject left Nyasaland before 1955 (e.g. an obituary or transfer record contradicting the puisne-judge appointment)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial bio, but the binding constraint is satisfied: specific senior-position match at similarity 100 plus 10 agreeing edition-years of co-occurrence. The Assistant Judge (1955) to Puisne Judge (1956+) progression in the staff list exactly tracks the bio's 'asst. judge, Nyasa., 1953; puisne judge, 1955'. 'Puise Judge' (1957-58) and 'Puisne Judges' (1962-63) are OCR/layout variants of the same office."
+}

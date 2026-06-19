@@ -1,0 +1,41 @@
+{
+ "case_id": "case_hamiiton_charles-boughton_b1850",
+ "persons": [
+  {
+   "bio_id": "hamiiton_charles-boughton_b1850",
+   "stint_ids": [
+    "Hamilton, C. B___British Guiana___1877",
+    "Hamilton, C. B___British Guiana___1894",
+    "Hamilton, C. B___Trinidad___1886"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Surname is OCR-garbled (HAMIITON~Hamilton, edit distance 1) and the Trinidad position scored only 52. But the entry explicitly traces this exact career: clerk/bookkeeper British Guiana from the 1870s, 'rec.-gen., &c., Trinidad, 1886', then receiver-general British Guiana 1892 with the C.M.G. (1895). Initials C.B., the colonies, and the office sequence all match the prose verbatim across three stints.",
+   "evidence_cited": [
+    {
+     "stint_id": "Hamilton, C. B___British Guiana___1877",
+     "year": 1877,
+     "fact": "Clerk"
+    },
+    {
+     "stint_id": "Hamilton, C. B___British Guiana___1894",
+     "year": 1896,
+     "fact": "Receiver-General"
+    },
+    {
+     "stint_id": "Hamilton, C. B___Trinidad___1886",
+     "year": 1886,
+     "fact": "Receiver-General"
+    },
+    {
+     "stint_id": "Hamilton, C. B___British Guiana___1894",
+     "year": 1896,
+     "fact": "C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice, hand-adjudicated (Claude Code, in-session)"
+}

@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_gemini_malta_0226",
+  "persons": [
+    {
+      "bio_id": "zammit_professor-sir-themistocles_b1864",
+      "stint_ids": ["Zammit, Themistocles___Malta___1886"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: there are 22 Zammits in the Malta staff lists, and the stint's opening 1886 row ('District Medical Officer') sits oddly with the biography, which says he only graduated in medicine in 1889 -- that row could belong to a different T. Zammit (e.g., a relative who was a practising doctor). Also most rows print only the initial 'T.'. Why this fails as a reason to withhold: the staff-list key carries the full, very rare forename 'Themistocles', and the body of the stint matches the printed biography on many independent specific dimensions simultaneously: 'govt. analyst, 1891-1920' vs the Analytical Chemist / Government Analyst rows 1896-1920; 'prof. of chemistry, Malta Univ., 1905-20' vs the Chemistry rows under Professors and Lecturers in the Malta University 1906-1920; 'curator, Valletta Museum, 1903' vs the Curator, Museum rows 1917-1924; 'rector, Malta Univ., July, 1920' vs Rector of the University 1922-1925; and the shared C.M.G. (bio: 1911; honour appears in the staff list from 1912, exactly when a 1911 award would first print). No second Zammit could plausibly hold this exact combination of posts. The 1886 anomaly is at worst a single conflated row, not a rival identity for the stint.",
+      "evidence_cited": [
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1896, "fact": "Analytical Chemist"},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1907, "fact": "Government Analyst"},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1906, "fact": "Professors and Lecturers in the Malta University"},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1912, "fact": "C.M.G."},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1918, "fact": "Curator"},
+        {"stint_id": "Zammit, Themistocles___Malta___1886", "year": 1922, "fact": "Rector of the University"}
+      ],
+      "would_overturn": "Documentary evidence of a second 'Themistocles Zammit' in Maltese government service holding the analyst or chemistry chair in the same years, or proof that the C.M.G.-bearing Government Analyst rows belong to a different person than the University rector."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1886 row ('T. Zammit, District Medical Officer') predates the biography's 1889 medical graduation and may be a different T. Zammit conflated into this stint by the upstream grouping; reviewers may want to split that single row. Everything from 1896 onward is unambiguously the biography subject. The 'initials' check lists bio initials ['P','S','T'] but 'P' and 'S' come from the honorific 'Professor Sir', not forenames."
+}

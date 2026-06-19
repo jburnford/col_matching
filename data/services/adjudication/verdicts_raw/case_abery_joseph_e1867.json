@@ -1,0 +1,16 @@
+{
+  "case_id": "case_abery_joseph_e1867",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Abey, J. R___Tasmania___1894",
+      "reason": "No agreeing dimension beyond the fuzzy surname block ('ABERY' vs 'Abey'). The biography is a medical officer ('Assistant colonel surgeon, Ceylon, 1867', honours M.B.C.M.); the stint is a 'Stationmaster' in the 'Tasmanian Government Railways' — different profession, different colony (Ceylon vs Tasmania), no shared honour, no edition co-occurrence (bio appears only in 1897 as a 46-year-old career note; the stint spans 1894-1917 in a wholly different staff list). The bio carries a single initial 'J' while the stint is 'J. R.', and single-initial biographies require a strong independent dimension, which is absent. A career starting in Ceylon medicine in 1867 followed by Tasmanian railway station work into 1917 (50 years later) is implausible as one person."
+    },
+    {
+      "stint_id": "Abey, J. R___Australia___1913",
+      "reason": "Same person as the Tasmania stint records (identical name 'J. R. Abey', identical position 'Stationmaster', identical department 'Tasmanian Government Railways'), so the same objections apply: the biography is a Ceylon medical officer of 1867 with honours M.B.C.M.; this stint is a Tasmanian railway stationmaster listed 1913-1918, 46+ years later, with no colony, position, honour, or edition agreement. All deterministic checks beyond the surname/initial gate FAIL. The single-initial trap forbids merging without a strong independent dimension, and none exists."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints ('Abey, J. R___Australia___1913' and 'Abey, J. R___Tasmania___1894') are almost certainly the same individual railway stationmaster split by a colony-labelling artifact (the 1913/1918 records list department 'Tasmanian Government Railways' under colony 'Australia', plausibly post-federation relabelling). That person is distinct from the biography subject Joseph Abery, M.B.C.M., a Ceylon medical officer of 1867. Surname match is fuzzy (ABERY vs Abey), profession and geography are disjoint, and the chronology (1867 appointment vs service to 1917-1918) strains a single-person reading. Recommend the two stints be linked to each other in any downstream stint-merging step, but not to this biography."
+}

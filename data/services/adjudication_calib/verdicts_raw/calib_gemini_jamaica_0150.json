@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0150",
+  "persons": [
+    {
+      "bio_id": "mossey_charles-benjamin_e1866",
+      "stint_ids": ["Mosse, C. B___Jamaica___1878"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the surnames are not identical ('MOSSEY' vs 'Mosse'), so these could be two distinct families rather than an OCR variant, and 5 staff-list officials share the surname; additionally the matching honour 'C.B.' is graphically identical to the initials 'C. B.', so one could worry the honours column is a misread of the name. This fails on three independent dimensions: (1) the office is a perfect and highly specific compound match - the bio styles the man 'Deputy Surgeon-General, A.M.D.' and 'superintending medical officer for Jamaica, June, 1876', and the staff list prints 'Superintending Medical Officer, Deputy Surgeon-General' - a unique senior medical pairing in one colony, not a generic title; (2) the C.B. honour is independently attested in the bio ('C.B. (1874)', awarded for the Ashantee war) and printed in the stint's dedicated honours column in every year 1878-1890; (3) the chronology is exact: bio appointment June 1876, stint first listed 1878, stint ends 1890, bio 'retired 1892.' The one-letter surname difference in an OCR-noisy entry (which also garbles 'M.R.C.S.' context) is far more plausible as a transcription artifact than a second C. B. Mosse(y), C.B., holding the identical unique office in Jamaica in the identical years.",
+      "evidence_cited": [
+        {"stint_id": "Mosse, C. B___Jamaica___1878", "year": 1878, "fact": "superintending medical officer for Jamaica, June, 1876"},
+        {"stint_id": "Mosse, C. B___Jamaica___1878", "year": 1878, "fact": "Superintending Medical Officer, Deputy Surgeon-General"},
+        {"stint_id": "Mosse, C. B___Jamaica___1878", "year": 1878, "fact": "C.B. (1874)"},
+        {"stint_id": "Mosse, C. B___Jamaica___1878", "year": 1886, "fact": "Deputy Surgeon-General"}
+      ],
+      "would_overturn": "Evidence that Mossey and Mosse are distinct contemporaneous individuals (e.g. both appearing in the same staff list, or a primary record giving the Jamaica medical officer a forename other than Charles Benjamin), or a record showing the bio's subject left Jamaica before 1878."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Three independent agreeing dimensions: unique compound office with exact appointment/retirement chronology, shared C.B. honour attested on both sides, and initials. The surname differs by one trailing letter, consistent with OCR error in a visibly noisy 1897 entry. No edition co-occurrence is expected: the bio appears only in 1897, after the stint ends."
+}

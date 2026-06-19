@@ -1,0 +1,25 @@
+{
+  "case_id": "case_abramson_albert_b1876",
+  "persons": [
+    {
+      "bio_id": "abramson_albert_b1876",
+      "stint_ids": ["Abramson, A. A___Palestine___1921"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the biography carries effectively a single initial ('Albert' -> 'A.'), and the 1921 staff-list row prints 'A. A. Abramson' with TWO initials, suggesting a different person (e.g. a relative such as a son or brother also serving in Palestine), with the deterministic pass failing on colony, tenure, position, honours, and edition co-occurrence. Why it fails: the mechanical failures are an artifact of the dossier's place-inheritance, which wrongly tagged the post-1921 bio events as Transjordan; the verbatim bio text shows these are Palestine-administration posts. The careers then match clause-for-clause across four distinct, specific offices with consistent staff-list lag: bio 'ohmn., land coman., and dir., land dept' 1920 vs staff list 'Chairman' of 'Land Commission' 1921; bio 'dist. gov., southern dist' 1922 vs 'District Governor' 1923-24; bio 'dist. comanr., northern dist' 1925 vs 'District Commissioner' 1927-28; bio 'comanr., lands, 1927' vs 'Commissioner of Lands' 1929-32. A hypothetical second A. Abramson would have to hold this exact four-office sequence on the same dates, in a corpus where only 1 official and 1 biography bear this surname. The stray second initial appears in exactly one OCR'd row (1921) and reverts to 'A. Abramson' in all eight later years, so an OCR/typesetting artifact is far likelier than a distinct person. Hebron (1918, military governorate) and Transjordan (1921 chief British representative) were both administered under the Palestine mandate establishment, consistent with the Palestine staff list.",
+      "evidence_cited": [
+        {"stint_id": "Abramson, A. A___Palestine___1921", "year": 1921, "fact": "ohmn., land coman., and dir., land dept., 1920"},
+        {"stint_id": "Abramson, A. A___Palestine___1921", "year": 1921, "fact": "Chairman | Land Commission"},
+        {"stint_id": "Abramson, A. A___Palestine___1921", "year": 1922, "fact": "dist. gov., southern dist., 1922"},
+        {"stint_id": "Abramson, A. A___Palestine___1921", "year": 1923, "fact": "District Governor | Administrative Staff"},
+        {"stint_id": "Abramson, A. A___Palestine___1921", "year": 1925, "fact": "dist. comanr., northern dist., 1925"},
+        {"stint_id": "Abramson, A. A___Palestine___1921", "year": 1928, "fact": "District Commissioner | District Staff"},
+        {"stint_id": "Abramson, A. A___Palestine___1921", "year": 1927, "fact": "comanr., lands, 1927"},
+        {"stint_id": "Abramson, A. A___Palestine___1921", "year": 1929, "fact": "Commissioner of Lands | Land Settlement"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous A. Abramson in the Palestine administration (e.g. a staff list or biography distinguishing 'A. A. Abramson' from 'Albert Abramson' in the same edition, or a bio for an 'A. A. Abramson' with a different career), or a primary source showing Albert Abramson held the 1920s land/district posts somewhere other than Palestine."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic FAILs (colony, tenure_overlap, position_sim, edition_cooccurrence) all stem from the bio timeline's '(inherited from previous clause)' Transjordan tagging; the printed entry itself describes Palestine-mandate offices that track the Palestine staff-list rows one-for-one with the usual 1-2 year publication lag. Single-initial trap considered and discharged by four independent specific position+date matches on a surname unique in the corpus (1 official, 1 biography). The lone 'A. A. Abramson' double-initial row (1921) is treated as an OCR/printing artifact since all other years print 'A. Abramson'."
+}

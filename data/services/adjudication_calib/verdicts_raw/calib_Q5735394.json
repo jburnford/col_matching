@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q5735394",
+  "persons": [
+    {
+      "bio_id": "palmer_herbert-richmond_b1877",
+      "stint_ids": ["Palmer, Herbert Richmond___Cyprus___1934"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 'Palmer' is common (61 officials, 25 biographies); the stint's nominal listing range runs to 1946 although the bio subject retired in 1939, which could suggest the later listings belong to a different H. R. Palmer who succeeded to the governorship; and the bio's K.C.M.G. year is inconsistently printed (1935 in one version, 1933 in two others), hinting at sloppy compilation. This fails. (1) The staff list spells out the full forename pair 'Herbert Richmond', identical to the bio -- not an initials collision. (2) The bio's 'gov. and commodr.-in-ch., Cyprus, 1933' matches the stint's unique office 'Governor and Commander-in-Chief' (position_sim 75, PASS), its colony, and its start in the 1934 edition (first edition after a 1933 appointment). (3) The K.C.M.G. in both 1934 and 1936 rows agrees with the bio's knighthood (1933 or 1935 printing -- either way before/at the stint). (4) The only substantive rows are 1934 and 1936, inside the 1933-1939 tenure the bio describes ('ret., 1939'); the 1939/1946 edition listings carry no rows here and are consistent with stale carry-forward, not a second person -- a successor of the same full double name with the same honour is not a realistic hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Palmer, Herbert Richmond___Cyprus___1934", "year": 1934, "fact": "gov. and commodr.-in-ch., Cyprus, 1933"},
+        {"stint_id": "Palmer, Herbert Richmond___Cyprus___1934", "year": 1936, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Palmer, Herbert Richmond___Cyprus___1934", "year": 1939, "fact": "ret., 1939"},
+        {"stint_id": "Palmer, Herbert Richmond___Cyprus___1934", "year": 1930, "fact": "gov., Gam., 1930"}
+      ],
+      "would_overturn": "Evidence of a second Sir Herbert Richmond Palmer, K.C.M.G., governing Cyprus in the mid-1930s, or an external record showing the bio subject never took up the 1933 Cyprus appointment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The bio's two printed versions disagree on the K.C.M.G. year (1935 vs 1933); both predate or coincide with the stint, so the discrepancy does not affect identity. The stint's nominal listing window extends to the 1946 edition while the bio records retirement in 1939; the rows actually shown stop at 1936, so any post-1939 listing should be treated as a stale carry-forward when consolidating tenure dates."
+}

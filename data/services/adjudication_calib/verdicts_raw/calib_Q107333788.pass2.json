@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107333788",
+  "persons": [
+    {
+      "bio_id": "langley_cableton-george_b1885",
+      "stint_ids": ["Langley, C. G___Leeward Islands___1932"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: with 15 Langleys in the staff lists, the 'C. G. Langley' listed as Attorney-General could be a different man - say a relative who succeeded him in the post - and the strict edition_cooccurrence bonus was not met (only 1 agreeing edition-year). But Attorney-General of the Leeward Islands is a unique senior law office, not a generic junior title; the biography explicitly says this man was 'atty.-gen., Leeward Islands, 1931' and held a 'dual appt. atty.-gen. and ag. col. sec., 1934-36', which spans almost exactly the stint's 1932-1937 listings. The stint name 'C. G.' matches the rare double forename 'Cableton George' exactly. A successor with the identical initials taking the identical unique office in the identical colony in the same years, while the biography's subject (who the bio says held the post then) goes unlisted, is not a realistic hypothesis. The 1937 staff-list tail slightly outlasting the bio's 1936 transition to Administrator of Antigua is consistent with edition lag and the dual-appointment pattern, not with a different person.",
+      "evidence_cited": [
+        {"stint_id": "Langley, C. G___Leeward Islands___1932", "year": 1931, "fact": "atty.-gen., Leeward Islands, 1931"},
+        {"stint_id": "Langley, C. G___Leeward Islands___1932", "year": 1934, "fact": "dual appt. atty.-gen. and ag. col. sec., 1934-36"},
+        {"stint_id": "Langley, C. G___Leeward Islands___1932", "year": 1932, "fact": "Attorney-General"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous C. G. Langley in West Indian legal service, or a record showing the Leeward Islands Attorney-Generalship 1932-37 was held by someone with different forenames."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Position match is exact ('atty.-gen.' = 'Attorney-General'), the office is unique and senior, colony and tenure align (1931 appointment, dual appointment to 1936, Administrator of Antigua - within the Leeward Islands federation - 1936-38, consistent with the 1937 listings). Initials match the distinctive forenames 'Cableton George'."
+}

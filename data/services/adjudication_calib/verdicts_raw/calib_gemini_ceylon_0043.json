@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0043",
+  "persons": [
+    {
+      "bio_id": "chapman_thos-howard_b1866",
+      "stint_ids": ["Chapman, T. H___Ceylon___1890"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: Chapman is a common surname (41 officials, 23 biographies), 'District Engineer' is a recurring junior-to-mid title, and the deterministic honour check FAILED (the bio has O.B.E./V.D., the staff list prints none) — so this could be a different T. H. Chapman, e.g. a relative who also joined the Ceylon P.W.D. This fails because the match is not a single title but a five-rung promotion ladder tracked in lockstep over 32 years: bio 'dist. engrnr., P.W.D., Ceylon, 1888' vs staff 'District Engineer' (1890 on); bio 'ag. prov. engrnr., E. Prov., 1904' confirmed 1905 vs staff 'Provincial Engineer' (1906-09); bio 'extra astt. D.P.W., 1909' vs staff 'Extra Assistant Director of Public Works' (1910-12); bio 'astt. D.P.W., 1912' vs staff 'Assistant Director of Public Works' (1913); bio 'D.P.W., Aug., 1913' vs staff 'Director of Public Works' (1914-22). Two same-initial Chapmans cannot both occupy this exact sequence of posts culminating in the unique Director of Public Works office. The honour FAIL is an artifact: the staff list simply prints no honours column entries for him, which is absence, not contradiction.",
+      "evidence_cited": [
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1890, "fact": "dist. engrnr., P.W.D., Ceylon, 1888"},
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1906, "fact": "ag. prov. engrnr., E. Prov., 1904"},
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1910, "fact": "extra astt. D.P.W., 1909"},
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1913, "fact": "astt. D.P.W., 1912"},
+        {"stint_id": "Chapman, T. H___Ceylon___1890", "year": 1914, "fact": "D.P.W., Aug., 1913"}
+      ],
+      "would_overturn": "A second T. H. Chapman documented in the Ceylon Public Works Department in the same period, or a record showing Thos. Howard Chapman holding a different post (or absent from Ceylon) in a year the staff list places this stint-holder on the ladder above."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography vs single stint. Career-shape continuity is exceptionally strong: every staff-list rank change (District Engineer 1890, Provincial Engineer 1906, Extra Assistant D.P.W. 1910, Assistant D.P.W. 1913, Director of Public Works 1914) appears in the printed biography with the matching appointment a year or less earlier, ending in a unique senior office. Initials T.H. agree. Honour check failure is non-contradictory (staff list omits honours for this name throughout)."
+}

@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q98767258",
+  "persons": [
+    {
+      "bio_id": "nunan_joseph-john_e1898",
+      "stint_ids": ["Nunan, J. J___British Guiana___1906"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: a different J. J. Nunan (the corpus has 4 Nunan biographies, though only 2 staff-list officials), e.g. a relative in the same colony's law offices. This fails: the biography prints 'solr.-gen., B. Guiana, 1906' and 'atty.-gen., B. Guiana, 1912', and the staff list shows J. J. Nunan as Solicitor-General 1906-1912 then Attorney-General from 1913 — a two-step promotion through two unique, single-holder law offices in exact place and date agreement with the printed entry. Independent corroboration: the staff-list name changes to 'Sir J. J. Nunan' in 1924, the precise year of the bio's knighthood ('KT. BACH (1924)'), and the listing ends in 1925, the bio's printed retirement year ('ret., 1925.'). Both initials agree with Joseph John. Two J. J. Nunans successively holding the same unique offices over the same twenty years is not a realistic hypothesis. The honour FAIL is an artifact: the staff list's honours column is empty, but the 'Sir' prefix appearing in 1924 encodes the same fact.",
+      "evidence_cited": [
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1906, "fact": "solr.-gen., B. Guiana, 1906"},
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1906, "fact": "Solicitor-General"},
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1913, "fact": "Attorney-General"},
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1912, "fact": "atty.-gen., B. Guiana, 1912"},
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1924, "fact": "Sir J. J. Nunan"}
+      ],
+      "would_overturn": "Evidence that two distinct J. J. Nunans served successively as British Guiana's Solicitor-General and Attorney-General 1906-1925, with the knighted one differing from the biography subject."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Four independent agreeing dimensions: office+colony+date for the 1906 solicitor-generalship, office+date for the 1912/13 attorney-generalship, the 'Sir' prefix appearing exactly in the 1924 knighthood year, and listing terminating at the printed 1925 retirement."
+}

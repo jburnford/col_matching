@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0083",
+  "persons": [
+    {
+      "bio_id": "bertram_anton_e1887",
+      "stint_ids": ["Bertram, Anton___Ceylon___1912"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the dossier flags the single-initial namesake trap, there are 8 Bertram officials and 2 Bertram biographies in the corpus, and the staff listing continues to 1925 — honoured retirees sometimes linger in lists, so the late rows could in principle be stale. This fails comprehensively. The staff list prints the full distinctive forename 'Anton' (later 'Sir Anton Bertram'), not a bare initial, so the namesake trap does not bite; the offices are the colony's unique senior law posts, not generic titles; and the dated transitions match the biography exactly — Attorney-General 1912-1918 against 'atty.-gen., Ceylon, 19th May, 1911', the switch to 'Chief Justice' in the 1919 edition against 'ch. justice, July, 1918', the 'Sir' prefix appearing in 1918 after Kt. Bach. (1916), the 1919 row's honours 'K.C., Kt.' matching K.C. (1913), and the stint terminating in 1925, the printed retirement year ('ret., 1925'). Multiple independent dimensions (full forename, two unique offices, transition dates, shared honour, retirement-year termination, 5 strict edition co-occurrences) leave no live counter-hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1912, "fact": "Attorney-General"},
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1919, "fact": "Chief Justice"},
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1919, "fact": "K.C., Kt."},
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1918, "fact": "Sir Anton Bertram"}
+      ],
+      "would_overturn": "Discovery of a second Anton Bertram in Ceylon's Judicial Establishment, or evidence that Sir Anton Bertram's Ceylon offices in 1912-1925 were held by someone else (e.g. a record of his permanent departure before 1925 beyond the documented 1920-1921 Palestine secondment)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Sir Anton Bertram, Attorney-General then Chief Justice of Ceylon. The single-initial warning is moot because the staff list prints the full forename throughout. The 1920-1921 Palestine secondment ('services lent to govt. of Palestine, Dec., 1920 to May, 1921') is consistent with his continued listing as Chief Justice during those years."
+}

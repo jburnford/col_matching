@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q7183388",
+  "persons": [
+    {
+      "bio_id": "smylly_sie-philip-crampton_b1866",
+      "stint_ids": ["Smyly, P. C___Gold Coast___1912"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the corpus holds 3 officials and 2 biographies with this surname, so the stint could belong to a same-name relative, and the bio's surname is variously OCR'd (SMYLLY/SMYLY/SMYLV), inviting a conflation of two distinct men. This fails because the match is not name-based: the biography states 'ch. just., Gold Coast, 1911' and the stint is the Chief Justice of the Gold Coast's Judicial Department beginning 1912 — an exact, highly specific office-place-date agreement. The staff list prints 'Sir P. C. Smyly', matching both the initials of Philip Crampton and the knighthood (KT. BACH) recorded in the biography. A hypothetical second P. C. Smyly who was also a knight and also Chief Justice of the Gold Coast at the same moment is not realistic; the Chief Justiceship is a unique office, so a successor of the same name would require the bio's own 1911 appointment to be false, which five editions independently attest.",
+      "evidence_cited": [
+        {"stint_id": "Smyly, P. C___Gold Coast___1912", "year": 1911, "fact": "ch. just., Gold Coast, 1911"},
+        {"stint_id": "Smyly, P. C___Gold Coast___1912", "year": 1912, "fact": "Sir P. C. Smyly | Chief Justice | Judicial Department"},
+        {"stint_id": "Smyly, P. C___Gold Coast___1912", "year": 1906, "fact": "KT. BACH"}
+      ],
+      "would_overturn": "Evidence of a second knighted P. C. Smyly serving in West Africa in the 1910s-1920s (e.g., a separate biography with the same initials and a Gold Coast judicial career), or a death/retirement record for Sir Philip Crampton Smyly before 1930 while the staff listing continued under the same name."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique-office match: Chief Justice of the Gold Coast, with appointment year in the bio (1911) immediately preceding first staff listing (1912), 'Sir' prefix consistent with the 1905/06 knighthood, and edition co-occurrence across 1913 and 1917. Surname OCR variants (SMYLLY/SMYLV) are clearly the same printed entry."
+}

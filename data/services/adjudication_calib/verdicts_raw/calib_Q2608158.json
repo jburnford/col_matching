@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q2608158",
+  "persons": [
+    {
+      "bio_id": "black_robert_b1906",
+      "stint_ids": ["Black, Robert___Hong Kong___1958"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 'Black' is a very common surname (60 officials, 29 biographies in the corpus), the bio carries effectively a single forename, and 'Robert Black' could be a namesake -- e.g. an unrelated Sir Robert Black knighted separately who happened to govern Hong Kong while the biography subject served elsewhere. This fails on three independent dimensions. (1) The bio's own career clause reads 'gov. and c.-in-c., S'pore, 1955; H.K., 1958-64' -- an exact match to the stint's title 'Governor and Commander-in-Chief' and to its exact listing range 1958-1964. (2) The honour chronology inside the stint corroborates the bio's honour dates precisely: the staff list shows K.C.M.G. through 1961 and G.C.M.G. from 1962, matching the bio's 'G.C.M.G. (1962), K.C.M.G. (1955)'. (3) The bio also places him in Hong Kong immediately before ('col. sec., H.K., 1952'), giving career-shape continuity. A namesake would have to share the surname, forename, knighthood class, the year of elevation to G.C.M.G., and the governorship years simultaneously -- not a live hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Black, Robert___Hong Kong___1958", "year": 1958, "fact": "H.K., 1958-64"},
+        {"stint_id": "Black, Robert___Hong Kong___1958", "year": 1958, "fact": "gov. and c.-in-c., S'pore, 1955"},
+        {"stint_id": "Black, Robert___Hong Kong___1958", "year": 1962, "fact": "G.C.M.G. (1962), K.C.M.G. (1955)"},
+        {"stint_id": "Black, Robert___Hong Kong___1958", "year": 1958, "fact": "Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "Evidence of a second Sir Robert Black with a K.C.M.G. and a 1962 G.C.M.G. active in Hong Kong in 1958-64, or an external record showing the biography subject held a different post during 1958-64."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The single-initial namesake warning is discharged by two strong independent dimensions: exact tenure-range agreement (1958-64) and exact honour-date agreement, including the K.C.M.G.-to-G.C.M.G. transition visible in the staff list between the 1961 and 1962 editions. The C.B. honour in the 1958 staff-list row is not in the bio's honour list, but bios frequently omit non-order honours; it does not constitute a conflict."
+}

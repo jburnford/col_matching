@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0045",
+  "persons": [
+    {
+      "bio_id": "tomalin_herbert-frederic_b1862",
+      "stint_ids": ["Tomalin, H. F___Ceylon___1888"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the honour check FAILED (the bio claims M.I.C.E./F.R.I.B.A./F.G.S., the staff list prints no honours), and the staff list shows him still 'District Engineer, 1st Grade' in 1896-99 when the bio's district-engineer clause ends at 1890 — could this be a different H. F. Tomalin, e.g. a brother? This fails. Tomalin is a rare surname (exactly 1 official with this surname in the entire staff-list graph), and the careers interlock on highly distinctive posts: bio '2nd finan. and office ast. P.W.D., Ceylon, 1890-6' vs staff 'Second Financial and Office Assistant' (1894) — an unusual, near-unique office title; bio 'dist. engrnr. P.W.D., Ceylon, 1886-90' vs staff 'District Engineer' (1888-90); bio 'prov. engrnr., Cent. Prov., Mar., 1903' onward vs staff 'Provincial Engineer' (1905-15); bio 'conservator of forests, 1st Oct., 1914' vs staff 'Conservator of Forests' (1915-21). The apparent 1896-99 discrepancy dissolves on reading the entry: he held 'dist. engrnr., Colombo, 1893-6' and the Jaffna water-supply district engineership 'Nov., 1896, to Apr., 1897', i.e. he was indeed a district engineer in those years. The honour FAIL is an artifact: professional memberships (M.I.C.E.) are not printed in this staff list's honours column. No counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Tomalin, H. F___Ceylon___1888", "year": 1888, "fact": "dist. engrnr. P.W.D., Ceylon, 1886-90"},
+        {"stint_id": "Tomalin, H. F___Ceylon___1888", "year": 1894, "fact": "2nd finan. and office ast. P.W.D., Ceylon, 1890-6"},
+        {"stint_id": "Tomalin, H. F___Ceylon___1888", "year": 1905, "fact": "prov. engrnr., Cent. Prov., Mar., 1903"},
+        {"stint_id": "Tomalin, H. F___Ceylon___1888", "year": 1915, "fact": "conservator of forests, 1st Oct., 1914"}
+      ],
+      "would_overturn": "Discovery of a second H. F. Tomalin in Ceylon government service in 1888-1921, or records showing Herbert Frederic Tomalin in a different colony or post during years the staff list places this stint-holder in the Ceylon P.W.D. or Forest Department."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography vs single stint, rare surname (1 staff-list official, 3 biographies corpus-wide). Four independent position-track agreements over 33 years, including the near-unique 'Second Financial and Office Assistant' office and the cross-department move to Conservator of Forests in 1914/15, plus 11 agreeing edition-years of co-occurrence. Honour-check failure is non-contradictory (professional memberships are not staff-list honours)."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q633347",
+  "persons": [
+    {
+      "bio_id": "mclelan_a-w_e1881-3",
+      "stint_ids": ["McLelan, A. W___Canada___1878"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the biography is initials-only ('A. W.'), no birth year is printed, no honours are shared (the deterministic honour check FAILed), and three McLelan biographies exist — so a same-name relative (a son also 'A. W.') is the live hypothesis. It fails because the agreement is not on one office but on a whole career arc of specific, senior, named posts in the right order and at the right offsets: Minister of Marine and Fisheries in the 1883-1886 lists (bio: 'appointed minister of marine and fisheries' in 1881), Postmaster-General in the 1888 list (bio: 'postmaster-general 1887'), and 'Lieut. Governor of Nova Scotia' from the 1889 list (bio: 'lieutenant-governor, Nova Scotia, 1888') — each appearing one edition after the bio's appointment date, exactly the expected print lag. There is only ONE McLelan in the entire staff-list corpus, and Canada had one Postmaster-General and one Lieutenant-Governor of Nova Scotia at a time. The honour FAIL is vacuous: neither the bio nor any staff-list row prints an honour, so there was nothing to compare.",
+      "evidence_cited": [
+        {"stint_id": "McLelan, A. W___Canada___1878", "year": 1883, "fact": "Minister of Marine and Fisheries"},
+        {"stint_id": "McLelan, A. W___Canada___1878", "year": 1888, "fact": "Postmaster-General"},
+        {"stint_id": "McLelan, A. W___Canada___1878", "year": 1889, "fact": "Lieut. Governor of Nova Scotia"},
+        {"stint_id": "McLelan, A. W___Canada___1878", "year": 1890, "fact": "Seat of Government—HALIFAX."}
+      ],
+      "would_overturn": "Evidence of a second A. W. McLelan in Canadian federal politics in the 1880s holding any of these unique offices, or proof the Senate rows (1878-79) belong to a different McLelan — though the bio's 'President of the privy council of Canada until 1881' makes pre-1881 federal service expected."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint; the surname is unique in the staff-list corpus. Three distinct senior offices (Marine and Fisheries, Postmaster-General, Lieutenant-Governor of Nova Scotia) each match the biography with the normal one-year edition lag. The early Senator rows (1878-79) are consistent with the bio's pre-1881 privy-council career."
+}

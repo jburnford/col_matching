@@ -1,0 +1,14 @@
+{
+ "bios_total": 28228,
+ "bios_placed": 24506,
+ "bios_unlinked_placed": 10734,
+ "pairs_enumerated": 107713,
+ "pairs_passed_phase1_bar": 21303,
+ "pairs_dropped_ambiguous": 2007,
+ "phase1_matches_not_reproduced": 0,
+ "candidates_written": 35453,
+ "bios_with_candidates": 7154,
+ "stints_with_candidates": 24631,
+ "single_initial_candidates": 14717,
+ "fuzzy_surname_candidates": 7683
+}

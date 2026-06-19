@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_natal_0265",
+  "persons": [
+    {
+      "bio_id": "hyslop_j_e1882",
+      "stint_ids": ["Hyslop, J. H___Natal___1883"],
+      "confidence": "certain",
+      "arguments_against": "Single-initial bio ('J.'), so the namesake trap applies and tenure overlap alone would be insufficient. A same-name relative (another Dr. J. Hyslop) could in principle share surname and colony. But the office is singular and specific, not generic: 'Resident surgeon, lunatic asylum, Pietermaritzburg, Natal' (position_sim 100). The stint shows exactly this man's career arc -- Resident Surgeon of the Medical Dept from 1883, becoming Medical Superintendent, and explicitly 'Natal Government Asylum' in 1905 -- a single continuous track at one institution. Both carry the 'Dr.' title and the initial J. The asylum has one resident surgeon at a time; a relative holding the identical post in the identical years is not credible. The bio's 1882 appointment date precedes the stint's 1883 first listing consistently. The namesake objection fails.",
+      "evidence_cited": [
+        {"stint_id": "Hyslop, J. H___Natal___1883", "year": 1883, "fact": "Dr. J. Hyslop | Resident Surgeon | Medical Department"},
+        {"stint_id": "Hyslop, J. H___Natal___1883", "year": 1905, "fact": "Medical Superintendent | Natal Government Asylum"}
+      ],
+      "would_overturn": "A printed record of a second Dr. J. Hyslop also serving as resident surgeon/superintendent of the Natal (Pietermaritzburg) asylum, or a death/birth date making the 1882 appointment incompatible with the 1883-1910 stint."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Despite single-initial warning and only one same-edition co-occurrence (1886), the match rests on a unique institutional post (resident surgeon of the Pietermaritzburg lunatic asylum), the matching 'Dr.' title, and career continuity into Medical Superintendent of the same Natal Government Asylum. Strong independent dimensions present."
+}

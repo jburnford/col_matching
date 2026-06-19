@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_newfoundland_0358",
+  "persons": [
+    {
+      "bio_id": "blandford_sydney-d_b1868",
+      "stint_ids": ["Blandford, Sydney D___Newfoundland___1910"],
+      "confidence": "certain",
+      "arguments_against": "Counter-case: the bio is an honoured public figure (Hon. Sydney D. Blandford, MHA), and honoured retirees can stay listed after their career ends, so a listing need not prove the link. But here the match is on specific, non-generic offices that track the bio's printed career exactly: 'min. of agric. and mines' (bio 1909/1914) appears as 'Minister of Agriculture and Mines' in the stint 1910-1917, and 'sheriff of Newfoundland, 1917' (bio) appears as 'Sheriff of Newfoundland' in the stint from 1918 onward -- the precise transition the bio records. Both initials S. D. match, birth 1868 gives age 42 at first listing (fine), and there are 4 same-edition co-occurrences at position_sim 100. No competing Blandford bio could hold this Minister->Sheriff arc. Objection fails decisively.",
+      "evidence_cited": [
+        {"stint_id": "Blandford, Sydney D___Newfoundland___1910", "year": 1910, "fact": "S. D. Blandford | Minister of Agriculture and Mines"},
+        {"stint_id": "Blandford, Sydney D___Newfoundland___1910", "year": 1918, "fact": "S. D. Blandford | Sheriff of Newfoundland"}
+      ],
+      "would_overturn": "Evidence that the Minister/Sheriff stint belongs to a different S. D. Blandford, or that the bio's career ended before 1910."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Blandford, D___Newfoundland___1911", "reason": "This is a distinct person: 'D. Blandford', Sub-Collector then Collector in the Department of Customs (1911-1927). The bio's career is political/judicial (MHA, Minister of Agriculture and Mines, Sheriff) with no customs office. Decisively, the customs Sub-Collector runs concurrently with the bio's Minister/Sheriff career in the same years (e.g. D. Blandford Sub-Collector 1911-1921 while S. D. Blandford is Minister 1910-1917), so they must be two different men. The single initial 'D' and a position mismatch (sheriff vs Sub-Collector, sim 32) reinforce non-identity. The stray 'S. Blandford, Sub-Collector/Collector' lines that the aggregator folded into the Sydney D. stint are almost certainly this same customs official, not the politician."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Two distinct contemporaneous Blandfords in Newfoundland: Hon. Sydney D. (Minister of Agriculture and Mines -> Sheriff), matched to the bio, and a Customs Sub-Collector/Collector ('D. Blandford'), left unassigned. The Sydney D. stint aggregation contains stray customs lines that belong to the latter; they do not affect the bio match."
+}

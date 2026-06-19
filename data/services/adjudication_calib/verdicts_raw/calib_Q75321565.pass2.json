@@ -1,0 +1,18 @@
+{
+  "case_id": "calib_Q75321565",
+  "persons": [
+    {
+      "bio_id": "galiwey_thomas-lionel-j_e1839",
+      "stint_ids": ["Gallwey, Thomas Lionel John___Bermuda___1883"],
+      "confidence": "certain",
+      "arguments_against": "Possible objections: (1) the surname spellings differ (GALIWEY vs Gallwey) — but this is a one-character OCR substitution of 'iw' for 'lw' in a single-edition entry, and the forename string 'Thomas Lionel J(ohn)' matches in full; (2) the deterministic honour check fails — but the stint record is from 1883 and the K.C.M.G. was conferred in 1889, the year after the stint ends, so the absence of a printed honour in 1883 is exactly what a true match predicts; (3) a same-name relative — but the Governorship and Commander-in-Chiefship of Bermuda is a unique office held by one person at a time, and the biography dates his tenure 1882-88, enclosing the stint's 1883-1888 listing precisely. No counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Gallwey, Thomas Lionel John___Bermuda___1883", "year": 1883, "fact": "Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "Evidence that a different T. L. J. Gallwey governed Bermuda in 1883-88, or that the biography's 'gov. and comdr.-in-ch. of Bermuda, 1882-88' is itself an OCR conflation of two entries."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique gubernatorial office, exact tenure containment (1882-88 bio vs 1883-1888 stint), full three-forename agreement. Bio surname 'GALIWEY' is an OCR error for 'Gallwey'."
+}

@@ -1,0 +1,12 @@
+{
+  "case_id": "calib_Q573690",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Musgrave, Anthony___Jamaica___1877",
+      "reason": "The stint conflates two distinct people, a father and son serving in the same colony at the same time. Most rows (1877-1886) are 'Sir Anthony Musgrave | Captain-General and Governor-in-Chief' with K.C.M.G. — the Governor of Jamaica. Only the 1879 and 1883 rows 'Anthony Musgrave, jun. | Private Secretary' (no honours) belong to the biography subject, who was 'private secretary to governor of Jamaica, Aug., 1877, to June, 1883' and indeed 'private secretary to Sir A. Musgrave' — i.e. private secretary to the other man in this very stint. The biography subject never held a K.C.M.G. or a governorship (his career peaks at govt. secy. and local auditor in New Guinea), so assigning the whole stint to him would falsely merge the Governor's record into the son's. The stint must be split by the upstream builder before any assignment is safe."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The biography musgrave_antony-junr_e1868 genuinely matches the two 'Anthony Musgrave, jun. | Private Secretary' rows (1879, 1883): exact place + date agreement ('private secretary to governor of Jamaica, Aug., 1877, to June, 1883'), exact position, and the 'jun.' suffix matches 'JUNR.' But those rows are bundled into a single stint dominated by his father Sir Anthony Musgrave, K.C.M.G., Captain-General and Governor-in-Chief. The bio itself names the relationship: 'private secretary to Sir A. Musgrave in Queensland, Nov., 1883'. Recommend splitting the stint into Governor rows vs 'jun.' Private Secretary rows; after the split, the Private Secretary sub-stint could be assigned to this bio with high confidence, and the Governor sub-stint belongs to a Sir Anthony Musgrave biography not present in this case."
+}

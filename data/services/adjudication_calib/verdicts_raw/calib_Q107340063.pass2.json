@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q107340063",
+  "persons": [
+    {
+      "bio_id": "morgan_hywel-glyn_b1899",
+      "stint_ids": ["Morgan, H. G. St. G___Nyasaland___1933"],
+      "confidence": "certain",
+      "arguments_against": "Two real worries. (1) Morgan is an extremely common surname (85 officials, 36 biographies), so name-based inference is weak. (2) The stint key carries extra initials - 'H. G. St. G' - which 'Hywel Glyn' does not explain; that pattern could belong to a different man (e.g. an 'H. G. St. George Morgan'). Against these: the offices in question are unique, not generic - a protectorate has one Assistant Attorney-General and one Attorney-General - and the biography claims them with exact dates: 'asst. atty.-gen., Nyasaland Prot., Mar., 1932' and 'atty.-gen., Aug., 1936'. The staff list shows the very same promotion at the very same point: Assistant Attorney-General through the 1936 edition, Attorney-General from 1937. Two different H. G. Morgans cannot both have held Nyasaland's (Asst.) Attorney-Generalship over 1933-1940; if the stint were a namesake, the bio's explicit claims would be false across 11 editions. The 'St. G' element appears in the aggregated key only - every year-by-year record prints plain 'H. G. Morgan' - so it is most plausibly a transcription/aggregation artifact or an unabbreviated extra name omitted from the bio heading. The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Morgan, H. G. St. G___Nyasaland___1933", "year": 1932, "fact": "asst. atty.-gen., Nyasaland Prot., Mar., 1932"},
+        {"stint_id": "Morgan, H. G. St. G___Nyasaland___1933", "year": 1933, "fact": "Assistant Attorney-General"},
+        {"stint_id": "Morgan, H. G. St. G___Nyasaland___1933", "year": 1936, "fact": "atty.-gen., Aug., 1936"},
+        {"stint_id": "Morgan, H. G. St. G___Nyasaland___1933", "year": 1937, "fact": "Attorney-General"}
+      ],
+      "would_overturn": "Evidence of a distinct contemporaneous 'H. G. St. G. Morgan' in Nyasaland legal service (e.g. a separate biography or staff record with the full St. George name and a different career), or proof the bio's subject was elsewhere during 1933-1940."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The decisive evidence is the synchronized promotion in a unique office: bio says Asst. Atty.-Gen. Mar. 1932 then Atty.-Gen. Aug. 1936; staff list shows Assistant Attorney-General 1933-1936 then Attorney-General 1937-1940, in Nyasaland's Legal and Judicial department. Stint editions [1933-1940] coincide with the bio's attestation editions. The 'St. G' in the stint key never appears in the year-by-year printed names and is treated as an aggregation artifact; flagged here for the reviewer."
+}

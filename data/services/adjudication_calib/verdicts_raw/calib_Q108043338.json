@@ -1,0 +1,24 @@
+{
+ "case_id": "calib_Q108043338",
+ "persons": [
+  {
+   "bio_id": "pereira_robert-james_b1869",
+   "stint_ids": [
+    "Pereira, R. J___Ceylon___1922"
+   ],
+   "confidence": "certain",
+   "arguments_against": "'Extra Office Assistant' is a junior title, which is normally weak. But the full forename 'Robert James' = R.J., colony Ceylon, the 1920 appointment continuing into the 1922-1925 listing, and the entry naming the Colombo Kachcheri extra-office-assistant post all agree. The junior title is the only caveat; name+colony+years carry it.",
+   "evidence_cited": [
+    {
+     "stint_id": "Pereira, R. J___Ceylon___1922",
+     "year": 1922,
+     "fact": "Extra Office Assistant"
+    }
+   ],
+   "would_overturn": "A second same-surname person in the same colony and years holding the same office, or a printed death/birth date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "pilot hand-adjudication (Claude Code, in-session)"
+}

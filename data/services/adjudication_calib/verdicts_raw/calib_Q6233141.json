@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6233141",
+  "persons": [
+    {
+      "bio_id": "findlay_john-george_e1906",
+      "stint_ids": ["Findlay, John George___New Zealand___1907"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the bio prints no birth year, Findlay is fairly common (16 officials, 7 biographies), the bio says 'resigned, 1911' yet the stint is still listed in 1912 — could the 1912 rows be a successor of the same name, or the whole stint a namesake? This fails: the biography's office is the precise compound 'Atty.-gen. and col. sec., New Zealand, Nov., 1906', and the stint opens in the very next edition (1907) as 'Attorney-General and Colonial Secretary' — a unique senior pairing, not a generic title. The 1908-09 rows print the full name 'John George Findlay', and the 1912 rows print 'Hon. Sir John George Findlay' with 'K.C.M.G., LL.D.' — exactly the bio's K.C.M.G. (1910) and LL.D., so the 1912 listing is the same man (publication lag after his 1911 resignation, a known pattern), not a successor: a successor would not share the full triple name, the knighthood, and the doctorate. The honorific 'Dr.' in 1907-08 also coheres with the bio's LL.D.",
+      "evidence_cited": [
+        {"stint_id": "Findlay, John George___New Zealand___1907", "year": 1906, "fact": "Atty.-gen. and col. sec., New Zealand, Nov., 1906"},
+        {"stint_id": "Findlay, John George___New Zealand___1907", "year": 1907, "fact": "Attorney-General and Colonial Secretary"},
+        {"stint_id": "Findlay, John George___New Zealand___1907", "year": 1912, "fact": "Hon. Sir John George Findlay | Minister of Justice | DEPARTMENT OF JUSTICE AND PATENT OFFICE | K.C.M.G., LL.D."}
+      ],
+      "would_overturn": "Evidence of a second John George Findlay, K.C.M.G., LL.D., in New Zealand politics in 1906-1912, or a record showing the Attorney-Generalship was held by a different Findlay during the stint years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique compound office (Attorney-General and Colonial Secretary of New Zealand) with appointment date Nov. 1906 immediately preceding the 1907 first listing; full triple-name agreement; and a two-honour fingerprint (K.C.M.G. 1910 + LL.D.) reproduced verbatim in the 1912 rows. The 1912 listing after the bio's 1911 resignation is edition lag, and the stint ends there, consistent with the resignation."
+}

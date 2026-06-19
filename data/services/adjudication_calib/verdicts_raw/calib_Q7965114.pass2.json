@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q7965114",
+  "persons": [
+    {
+      "bio_id": "hely-hutchinson_walter-francis_b1849",
+      "stint_ids": ["Hely-Hutchinson, Walter___Windward Islands___1878"],
+      "confidence": "certain",
+      "arguments_against": "Two objections worth testing. (1) The biography says colonial secretary 'of Barbados' while the stint's 1878-1883 Colonial Secretary records sit under 'Windward Islands' — could these be two different W. Hely-Hutchinsons in neighbouring administrations? No: in this period Barbados was the seat of the Windward Islands government (the same governor administered both), so the Barbados colonial secretary naturally appears in the Windward Islands staff lists; the date (appointed Nov. 1877, first listed 1878) and the 'Hon. W. F.' initials match the biography exactly. (2) A same-name relative could be the 1890 Governor. No: the biography itself records 'gov. of Windward Is., 1889' and K.C.M.G. (1888), and the 1890 record reads 'Sir Walter Hely-Hutchinson ... K.C.M.G.' — the unique gubernatorial office, the knighthood timing, and the forename all agree. The chain's 1883-1890 listing gap corresponds precisely to his Malta chief-secretaryship (1883-89), which is career-shape corroboration rather than a discrepancy. The position_sim FAIL is purely the abbreviation 'gov.' scoring 11 against the long printed title.",
+      "evidence_cited": [
+        {"stint_id": "Hely-Hutchinson, Walter___Windward Islands___1878", "year": 1878, "fact": "Colonial Secretary; Notary Public"},
+        {"stint_id": "Hely-Hutchinson, Walter___Windward Islands___1878", "year": 1890, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Hely-Hutchinson, Walter___Windward Islands___1878", "year": 1890, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second W. Hely-Hutchinson serving as colonial secretary in the Barbados/Windward Islands administration in 1878-83, or that the 1890 Governor record belongs to a different knighted Walter Hely-Hutchinson."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Rare double-barrelled surname (6 officials corpus-wide), W. F. initials, two distinct offices agreeing with the biography at both ends of the chain, and a listing gap that exactly matches the Malta posting. The 1883 bio version's 'C.M.G. (1885)' is an OCR slip for 1883."
+}

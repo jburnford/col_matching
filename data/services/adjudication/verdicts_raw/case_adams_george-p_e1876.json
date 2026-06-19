@@ -1,0 +1,14 @@
+{
+  "case_id": "case_adams_george-p_e1876",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Adams, G. P___Tasmania___1877",
+      "reason": "Both claimant biographies are duplicate printings of the same person (identical name, identical 'Recorder of titles, Tasmania, ... 1876' appointment; the later version merely adds the April 1885 registrar post and appears in later, non-overlapping editions). Per the binding rule on duplicate biographies, the contested stint is assigned to neither record until the bios are merged. The stint almost certainly belongs to this single individual: staff lists show 'Recorder of Titles' 1878-1880 matching the 1876 appointment, and the 1888-1894 Supreme Court registrar-of-deeds listings match the 'registrar, supreme court, April, 1885' clause, with 3 agreeing edition-years for the second bio version."
+    }
+  ],
+  "duplicate_bio_groups": [
+    ["adams_george-p_e1876", "adams_george-p_e1876-2"]
+  ],
+  "notes": "Not a genuine two-claimant contest. Bio adams_george-p_e1876 (1886 edition only) reads 'Recorder of titles, Tasmania, 3 July, 1876.'; bio adams_george-p_e1876-2 (1888-1898 editions) reads the same with an added clause 'registrar, supreme court, April, 1885.' Same person, entry updated between editions; edition ranges are disjoint and consistent with one continuing entry. Argument against duplication (father/son sharing the office) fails: both entries cite the exact same July 1876 appointment to the same post, which two people cannot both hold. Recommend merging the two bios upstream, after which the stint links cleanly: position_sim 100 ('Recorder of titles' ~ 'Recorder of Titles'), Tasmania colony match, tenure overlap 1877-1894, and edition co-occurrence [1888, 1889, 1894]. The 1877 'Solicitor-General' staff-list row is the only wrinkle (not mentioned in either bio) and would merit a glance in human review."
+}

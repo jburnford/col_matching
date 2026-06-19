@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_gemini_fiji_0131",
+  "persons": [
+    {
+      "bio_id": "ragg_hugh-aime_b1904",
+      "stint_ids": ["Ragg, H. A___Fiji___1928", "Ragg, H. A___Fiji___1950"],
+      "confidence": "certain",
+      "arguments_against": "There are 9 Raggs in the staff lists, and the 1928 stint even contains a stray 1930 record for 'H. Ragg, Junior Postal Clerks and Telegraphists' in the Post and Telegraph Department, hinting at a second postal Ragg; a same-name relative could in principle hold the draughtsman or engineer posts. This fails for the 1928 and 1950 stints: the staff-list records reproduce the bio's dated promotion ladder year-for-year and title-for-title. Bio: 'junr. draughtsman, 1927; draughtsman, 1932; engnr. asst., 1936' -> stint shows Junior Draughtsman 1928-30, Draughtsman 1933-36, Engineering Assistant 1937. Bio: 'exec. engnr., 1943; D.D.P.W., 1952; D.P.W., 1954-56' -> stint shows Executive Engineer 1950-51, Deputy Director 1953-54, Director of Public Works 1955-56. No relative would replicate this entire engineering career arc; the full title 'Director of Public Works' matching 'D.P.W.' is decisive. The stray 1930 postal record is a clustering artifact / the other Ragg, not the draughtsman career.",
+      "evidence_cited": [
+        {"stint_id": "Ragg, H. A___Fiji___1928", "year": 1928, "fact": "Junior Draughtsman"},
+        {"stint_id": "Ragg, H. A___Fiji___1928", "year": 1937, "fact": "Engineering Assistant"},
+        {"stint_id": "Ragg, H. A___Fiji___1928", "year": 1928, "fact": "junr. draughtsman, 1927; draughtsman, 1932; engnr. asst., 1936"},
+        {"stint_id": "Ragg, H. A___Fiji___1950", "year": 1950, "fact": "Executive Engineer"},
+        {"stint_id": "Ragg, H. A___Fiji___1950", "year": 1955, "fact": "Director of Public Works"},
+        {"stint_id": "Ragg, H. A___Fiji___1950", "year": 1950, "fact": "exec. engnr., 1943; D.D.P.W., 1952; D.P.W., 1954-56"}
+      ],
+      "would_overturn": "Evidence that the Fiji PWD draughtsman/engineer ladder was held by a second H. A. Ragg rather than Hugh Aime Ragg."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Ragg, H. A___Fiji___1963", "reason": "Post is Deputy Postmaster-General (Post & Telegraph / Civil Establishment), 1963-65 — unrelated to the bio's engineering/Public-Works career, which the entry shows ending as Director of Public Works in 1956. No position or tenure overlap. With 9 Raggs in the lists and a separate postal 'H. Ragg' already appearing in 1930, this is plausibly a different H. A. Ragg; assigning it would risk a false merge."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Two engineering stints map verbatim onto the bio's promotion ladder. The 1963 Deputy Postmaster-General stint is a different (postal) career line and is left unassigned. Note also the stray 1930 postal record inside the 1928 stint, which likely belongs to another Ragg."
+}

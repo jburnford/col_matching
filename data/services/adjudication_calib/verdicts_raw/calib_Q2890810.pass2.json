@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q2890810",
+  "persons": [
+    {
+      "bio_id": "chancellor_john-robert_e1896",
+      "stint_ids": ["Chancellor, J. R___Mauritius___1912"],
+      "confidence": "certain",
+      "arguments_against": "The stint name carries only initials 'J. R.', and there are 7 Chancellor officials and 3 Chancellor biographies in the corpus, so the strongest counter-hypothesis is a different J. R. Chancellor (or relative) as Mauritius governor, with the position_sim FAIL as a warning sign. It fails: the biography records 'gov., Mauritius, 22nd July, 1911' and the stint lists the Governor and C-in-C of Mauritius 1912-1915 — a unique office; the staff list gives the rank 'Major' matching 'MAJOR SIR JOHN ROBERT'; three honours match (C.M.G., D.S.O. in 1912-13, then K.C.M.G.), and crucially the staff list's honour progression — C.M.G., D.S.O. through 1913, 'K.C.M.G., D.S.O.' with 'Sir' from 1914 — exactly tracks the biography's K.C.M.G. (1913). The position_sim FAIL is the usual abbreviation artifact ('gov.' vs full office). The stint ends 1915, matching his transfer: 'gov., Trinidad and Tobago, 10th Dec., 1915'. No rival hypothesis survives this rank + honours-progression + office + dates conjunction.",
+      "evidence_cited": [
+        {"stint_id": "Chancellor, J. R___Mauritius___1912", "year": 1912, "fact": "gov., Mauritius, 22nd July, 1911"},
+        {"stint_id": "Chancellor, J. R___Mauritius___1912", "year": 1914, "fact": "K.C.M.G., D.S.O."},
+        {"stint_id": "Chancellor, J. R___Mauritius___1912", "year": 1912, "fact": "Major"},
+        {"stint_id": "Chancellor, J. R___Mauritius___1912", "year": 1915, "fact": "gov., Trinidad and Tobago, 10th Dec., 1915"}
+      ],
+      "would_overturn": "Discovery of a second Major J. R. Chancellor, D.S.O. governing Mauritius 1912-1915, or evidence that this biography subject never took up the 1911 Mauritius appointment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Honour progression in the staff lists (C.M.G./D.S.O. 1912-13; 'Sir' + K.C.M.G. from 1914) independently corroborates the biography's K.C.M.G. (1913). Stint end (1915) coincides with transfer to Trinidad and Tobago. position_sim FAIL is an abbreviation artifact."
+}

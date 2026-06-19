@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0015",
+  "persons": [
+    {
+      "bio_id": "kindersley_william-lobing_b1868",
+      "stint_ids": ["Kindersley, William L___Ceylon___1900", "Kindersley, William L___Ceylon___1909"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: the corpus lists 3 Kindersley officials and 3 Kindersley biographies, so a same-name relative (e.g. brother) could hold one of these Ceylon stints, and surname is not evidence. This fails because both stints carry the full two-initial form 'W. L. Kindersley' (matching the bio's distinctive 'WILLIAM LOBING'), and together they trace ONE continuous, specific Ceylon civil-service trajectory that mirrors the bio clause-by-clause: police magistrate (1900 stint) -> assistant government agent (1905-06 stint) -> assistant government agent (1909-11) -> Registrar-General (1915-19) -> Government Agent Central Province (1921). The Registrar-General then Government Agent, Central Province sequence is highly specific and is not a generic junior title, leaving no live alternate Kindersley with this exact career.",
+      "evidence_cited": [
+        {"stint_id": "Kindersley, William L___Ceylon___1909", "year": 1915, "fact": "Registrar-General"},
+        {"stint_id": "Kindersley, William L___Ceylon___1909", "year": 1921, "fact": "Government Agent | CENTRAL PROVINCE"},
+        {"stint_id": "Kindersley, William L___Ceylon___1900", "year": 1900, "fact": "Commissioners of Requests and Police Magistrates"},
+        {"stint_id": "Kindersley, William L___Ceylon___1905", "year": 1905, "fact": "Assistant Government Agent"}
+      ],
+      "would_overturn": "Evidence of a second 'W. L. Kindersley' in the Ceylon civil service during 1900-1921 with an overlapping Registrar-General / Government Agent career, or a birth-date conflict splitting the two stints across two men."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Bio's distinctive middle name 'Lobing' and the matching Registrar-General -> Government Agent Central Province sequence (bio: 'regisr.-gen., Sept., 1914; ... govt. agt., Cent. Prov., July, 1920') anchor the identification. The 1900 stint shows no edition co-occurrence only because the bio's editions begin in 1911, after that stint's 1900/1905/1906 listings."
+}

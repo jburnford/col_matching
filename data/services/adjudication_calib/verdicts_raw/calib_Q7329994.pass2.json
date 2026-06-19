@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q7329994",
+  "persons": [
+    {
+      "bio_id": "scott_richard-william_b1825",
+      "stint_ids": ["Scott, Richard William___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "Scott is the most common surname imaginable in this corpus (151 officials, 65 bios), so the namesake hypothesis must be taken seriously: could the staff-list run, or part of it (especially the 1897–1908 Secretary of State rows, or the long Senator run), belong to a different R. W. Scott? The hypothesis fails. The staff list repeatedly prints the full forenames 'Richard William Scott', not just initials. The career shape is a single coherent arc that matches the bio at every joint: Secretary of State in 1877–1878 (bio: 'appointed secretary of state of Canada, 9th January, 1874; retired on resignation of Mackenzie government, Oct., 1878' — the office disappears from his rows after 1878); continuous Senator listings thereafter (bio: 'called to the senate, 13th March, 1874', 'is now a senator'); Secretary of State again from 1897 (bio: 'joined Mr. Laurier's govt., as sec. of state, June, 1896'). The probability that two Richard William Scotts alternately held the same unique cabinet office across both Mackenzie and Laurier governments while also sitting in the Senate is nil. The mechanical honour FAIL is illusory: the bio's 'created a Q.C., 1867' and the staff list's 'K.C.' (1905, under Edward VII) are the same distinction renamed with the sovereign.",
+      "evidence_cited": [
+        {"stint_id": "Scott, Richard William___Canada___1877", "year": 1877, "fact": "appointed secretary of state of Canada, 9th January, 1874"},
+        {"stint_id": "Scott, Richard William___Canada___1877", "year": 1879, "fact": "called to the senate, 13th March, 1874"},
+        {"stint_id": "Scott, Richard William___Canada___1877", "year": 1897, "fact": "joined Mr. Laurier's govt., as sec. of state, June, 1896"},
+        {"stint_id": "Scott, Richard William___Canada___1877", "year": 1906, "fact": "Richard William Scott"}
+      ],
+      "would_overturn": "Evidence of a second Richard William Scott in Canadian federal politics 1877–1913 — e.g. a record distinguishing the Senator from the Secretary of State, or showing the 1897–1908 Secretary of State was a different Scott."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full-forename match across many editions plus a three-phase career arc (Sec. of State to 1878, Senator throughout, Sec. of State again from 1896) that the bio narrates with day-level dates. The honour FAIL is a Q.C./K.C. naming change with the sovereign, i.e. actually corroborating. Age at final listing (88 in 1913) is consistent with his documented long senatorial tenure."
+}

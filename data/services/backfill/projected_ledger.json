@@ -1,0 +1,25 @@
+{
+ "note": "projected/pre-load; authoritative lift = loopback.bios_rescued",
+ "baseline_ledger": {
+  "grounded": 15648,
+  "scale_adjudication_addressable": 10640,
+  "extraction_addressable": 50475,
+  "ceiling": 22237
+ },
+ "projected_ledger": {
+  "grounded": 21234,
+  "scale_adjudication_addressable": 10640,
+  "extraction_addressable": 45107,
+  "ceiling": 22019
+ },
+ "delta": {
+  "grounded": 5586,
+  "scale_adjudication_addressable": 0,
+  "extraction_addressable": -5368,
+  "ceiling": -218
+ },
+ "newly_grounded_by_backfill": {
+  "confirmed": 3725,
+  "surname_only": 1861
+ }
+}

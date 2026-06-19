@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q7341945",
+  "persons": [
+    {
+      "bio_id": "llewelyn_robert-b_b1845",
+      "stint_ids": ["Llewelyn, R. B___Turks and Caicos Islands___1879", "Llewelyn, R. B___Windward Islands___1905"],
+      "confidence": "certain",
+      "arguments_against": "Turks stint: the deterministic pass failed every contextual check (colony, tenure, position), so the strongest counter-case is that this is a different R. B. Llewelyn entirely — perhaps one of the other 5 Llewelyns in the lists. But the checks failed only because the gazetteer did not resolve the bio's 'Turks Is.' to the stint's 'Turks and Caicos Islands'; reading the printed entry, the bio states 'comsurr. for Turks Is., 1878' and the staff list shows 'R. B. Llewelyn, Commissioner' of the Turks and Caicos from 1879 — same unique chief-administrator office, same place, appointment year immediately preceding first listing, both initials matching, and the listing ends by 1883–85 exactly when the bio moves him to 'admistr. of Tobago, 1885'. The absence of honours in 1879–83 is correct, not contrary: his C.M.G. came only in 1889. Windward stint: the trap here is the absurd nominal span 1905–1950 (he would be 105 in 1950) — could later rows belong to a namesake? The substantive rows are 1905: 'Governor and Commander-in-Chief of the Windward Islands' with K.C.M.G., matching the bio's 'gov. Windward Islands, 1900-6' and 'K.C.M.G. (1898)', plus an 'Administrators of St. Lucia' roll entry with C.M.G. matching 'admistr., St. Lucia, 1889' and 'C.M.G. (1889)'. The 1913 and 1950 rows are positionless retrospective-roll entries (past administrators/governors lists), the classic honoured-retiree listing pattern — they prove listing, not service, and are consistent with the same person.",
+      "evidence_cited": [
+        {"stint_id": "Llewelyn, R. B___Turks and Caicos Islands___1879", "year": 1879, "fact": "comsurr. for Turks Is., 1878"},
+        {"stint_id": "Llewelyn, R. B___Turks and Caicos Islands___1879", "year": 1880, "fact": "Commissioner"},
+        {"stint_id": "Llewelyn, R. B___Windward Islands___1905", "year": 1905, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Llewelyn, R. B___Windward Islands___1905", "year": 1905, "fact": "gov. Windward Islands, 1900-6"},
+        {"stint_id": "Llewelyn, R. B___Windward Islands___1905", "year": 1905, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second R. B. Llewelyn in West Indian service c. 1878–1906 (e.g. a record showing the Turks Islands Commissioner of 1879–83 was not the later Windward Islands governor), or that the 1913/1950 Windward rows reflect a living, serving namesake rather than retrospective rolls."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The Turks stint's all-FAIL deterministic profile is a pure place-resolution artefact ('Turks Is.' vs 'Turks and Caicos Islands'); the verbatim bio names the exact office, place, and year. The Windward stint's 1905-1950 span is inflated by retrospective roll entries (positionless 1913 and 1950 rows); the substantive 1905 rows match the bio's governorship and both honours."
+}

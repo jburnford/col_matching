@@ -1,0 +1,12 @@
+{
+  "case_id": "case_adams_alexander-samuel_b1861",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Adams, S___Canada___1877",
+      "reason": "No positive dimension links this stint to the biography. The biography is a New Zealand lawyer ('barrister and solr., 1883'; 'judge, N.Z. sup. obl., 1921') with no Canadian event; the stint is a 'Private Secretary' in Canada in 1877-1878, when the bio subject (b. 1861) was ~16 and per the entry still being educated at 'pub. schls. and Otago Univ., N.Z.'. Colony, tenure_overlap, position_sim, honour, edition_cooccurrence, and place_inherited checks all FAIL; editions do not overlap (1877-78 vs 1922-33). The only agreement is the single initial 'S' matching the second forename of a surname shared by 96 officials, which is far below the bar for a merge."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "One-bio, one-stint case with no plausible link. A 16-year-old serving as a Private Secretary in Canada while attending Otago University in New Zealand is effectively impossible; the stint almost certainly belongs to a different S. Adams not present in this dossier. Recommend the stint be re-blocked against other Adams biographies or left unlinked."
+}

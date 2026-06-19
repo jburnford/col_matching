@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q351904",
+  "persons": [
+    {
+      "bio_id": "archibald_adams-g_e1870",
+      "stint_ids": ["Archibald, Adams G___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "There are 16 Archibald officials and 12 Archibald biographies, and the bio's last dated office ends in 1883 while the shown staff rows start in 1886 — so the counter-hypotheses are (1) a same-name relative (son/nephew) in Canadian public life, and (2) that the post-1883 listings are merely an honoured retiree or a different A. G. Archibald in the Privy Council rosters. They fail jointly: the forename 'Adams G' is rare and matches exactly; the staff lists show 'Sir A. G. Archibald' with K.C.M.G. beginning in 1886, immediately after the biography's 'K.C.M.G. (1885)' conferral — a relative would not share that specific, dated honour; and the 1889-1890 rows place him under 'Province of Nova Scotia', matching the bio's 'Lieutenant-Governor... of Province of Nova Scotia, 1873-83', while the Privy Council listing matches his 'HON.' styling. The position_sim FAIL reflects only that the bio's offices ended in 1883, before the first shown staff row — an honoured ex-Lieutenant-Governor remaining in Privy Council and provincial honour rolls is exactly the expected pattern, and the retiree-listing trap cuts against treating the listings as proof of current service, not against the identity itself, which rests on name + honour timing + province.",
+      "evidence_cited": [
+        {"stint_id": "Archibald, Adams G___Canada___1877", "year": 1886, "fact": "K.C.M.G. (1885)"},
+        {"stint_id": "Archibald, Adams G___Canada___1877", "year": 1886, "fact": "Sir A. G. Archibald"},
+        {"stint_id": "Archibald, Adams G___Canada___1877", "year": 1889, "fact": "Province of Nova Scotia"}
+      ],
+      "would_overturn": "Evidence of a second Adams G. Archibald (e.g. a son) who was himself a K.C.M.G. and Privy Councillor in the 1880s, or records showing the staff-list rows refer to a different office-holder while the biography subject had died or left public life before 1886."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Stint header claims editions to 1914 but the year-by-year table ends in 1890; the later editions likely carry stale roster listings (the subject's active career ended in 1883). This is an intra-stint data-quality question, not an identity question. K.C.M.G. timing (conferred 1885, listed from 1886) is the strongest single corroboration."
+}

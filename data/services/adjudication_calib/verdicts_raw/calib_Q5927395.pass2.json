@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q5927395",
+  "persons": [
+    {
+      "bio_id": "jerningham_hubert-edward-henry_b1842",
+      "stint_ids": ["Jerningham, Hubert Edward Henry___Mauritius___1890"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the staff-list honours look anachronistic — the 1894 and 1896 rows print K.C.M.G., but the biography dates the K.C.M.G. to 'Jan., 1899'; could the Governor rows therefore be a different, already-knighted Jerningham? This fails: Jerningham is a very rare surname (only 2 officials in the entire staff-list graph, 1 biography), the stint prints the full triple forename 'Hubert Edward Henry' which matches the biography exactly, and the career trajectory in the stint reproduces the biography step for step — 'col. sec., Mauritius, 1889' matches the 1890 row 'Colonial Secretary' with C.M.G. (bio: C.M.G. 1889), then 'licut.-gov., Aug., 1892; gov. and comdr-in-ch., July, 1893' matches the 1894-96 rows 'Governor and Commander-in-Chief'. A second Hubert Edward Henry Jerningham simultaneously climbing the identical Mauritius ladder is not a coherent hypothesis. The K.C.M.G. discrepancy is best explained as a staff-list or OCR dating artifact (or the bio's '(Jan., 1899)' being misprinted), and in any case it cannot manufacture a second person with this name. The position_sim FAIL is the usual abbreviation artifact ('col. sec.' vs 'Colonial Secretary').",
+      "evidence_cited": [
+        {"stint_id": "Jerningham, Hubert Edward Henry___Mauritius___1890", "year": 1890, "fact": "Colonial Secretary"},
+        {"stint_id": "Jerningham, Hubert Edward Henry___Mauritius___1890", "year": 1890, "fact": "C.M.G."},
+        {"stint_id": "Jerningham, Hubert Edward Henry___Mauritius___1890", "year": 1894, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Jerningham, Hubert Edward Henry___Mauritius___1890", "year": 1894, "fact": "Sir Hubert Edward Henry Jerningham"}
+      ],
+      "would_overturn": "Documentation of a second Hubert Edward Henry Jerningham in colonial service (none exists in this corpus), or gazette evidence that the Mauritius governorship 1894-96 was held by someone other than the former colonial secretary of 1889-92."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Rare surname, full triple-forename agreement, and a two-rung career match (Colonial Secretary 1890 with C.M.G., then Governor and Commander-in-Chief 1894-96). Reviewer note: the staff list shows K.C.M.G. in 1894/1896 while the biography prints '(Jan., 1899)' — one of the two dates is wrong in the sources; this is an honours-dating discrepancy, not an identity question. The biography also confirms departure to 'gov., Trinidad, Jan., 1897', consistent with the stint ending at 1896."
+}

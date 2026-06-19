@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0068",
+  "persons": [
+    {
+      "bio_id": "skeen_g-j-a_e1869",
+      "stint_ids": ["Skeen, G. J. A___Ceylon___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: the deterministic place check is weak (all supporting events inherit their place), and 4 Skeen officials exist. Why it fails: the biography carries three distinctive initials 'G. J. A.' which match the stint name exactly - an extremely improbable coincidence for an unrelated namesake - and the position matches (sim 100) with the bio's asst-printer->government-printer arc reproduced in the stint (Assistant Government Printer 1877-79, Government Printer 1883 on). 'Government Printer' of Ceylon is a single office. The inherited-place weakness does not threaten a three-initial plus unique-post identification; 2 edition-years co-occur.",
+      "evidence_cited": [
+        {"stint_id": "Skeen, G. J. A___Ceylon___1877", "year": 1872, "fact": "asst. govt. printer, 1872"},
+        {"stint_id": "Skeen, G. J. A___Ceylon___1877", "year": 1877, "fact": "Assistant Government Printer"},
+        {"stint_id": "Skeen, G. J. A___Ceylon___1877", "year": 1881, "fact": "govt. printer, 1881"},
+        {"stint_id": "Skeen, G. J. A___Ceylon___1877", "year": 1883, "fact": "Government Printer"}
+      ],
+      "would_overturn": "Another G. J. A. Skeen in the printing line, or a date conflict in the asst-printer -> government-printer succession."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Three identical uncommon initials plus exact position match and unique post override the weak inherited-place signal."
+}

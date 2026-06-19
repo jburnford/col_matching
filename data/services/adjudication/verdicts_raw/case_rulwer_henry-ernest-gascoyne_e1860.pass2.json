@@ -1,0 +1,38 @@
+{
+ "case_id": "case_rulwer_henry-ernest-gascoyne_e1860",
+ "persons": [
+  {
+   "bio_id": "rulwer_henry-ernest-gascoyne_e1860",
+   "stint_ids": [
+    "Bulwer, Henry Ernest___Natal___1879"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Surname is OCR-garbled (RULWER~Bulwer). The Natal stint carries the full forename 'Henry Ernest' and falls within the entry's stated Natal lieutenant-governorship (1875-1880), with the K.C.M.G.(1874). The Labuan 1890 and South Africa 1912 stints are left unassigned: the entry's Labuan governorship was 1871-75 (not 1890), and he retired in 1892 (so not South Africa 1912) — likely a successor or relative.",
+   "evidence_cited": [
+    {
+     "stint_id": "Bulwer, Henry Ernest___Natal___1879",
+     "year": 1879,
+     "fact": "lieut.-gov. of Natal"
+    },
+    {
+     "stint_id": "Bulwer, Henry Ernest___Natal___1879",
+     "year": 1879,
+     "fact": "K.C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [
+  {
+   "stint_id": "Bulwer, H. E___Labuan___1890",
+   "reason": "The entry's Labuan governorship was 1871-75; a Labuan 'Governors' listing in 1890-94 is too late to be this man — likely a successor. Review."
+  },
+  {
+   "stint_id": "Bulwer, H___South Africa___1912",
+   "reason": "Single initial 'H.', South Africa 1912 — after this man retired (1892). Different person or stale listing."
+  }
+ ],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 2, hand-adjudicated (Claude Code, in-session)"
+}

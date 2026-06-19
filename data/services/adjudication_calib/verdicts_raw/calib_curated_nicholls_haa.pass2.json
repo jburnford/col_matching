@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_curated_nicholls_haa",
+  "persons": [
+    {
+      "bio_id": "nicholls_henry-alfred-alford_b1851",
+      "stint_ids": [
+        "Nicholls, H. A. Alford___Dominica___1886",
+        "Nicholls, H. A. Alford___Leeward Islands___1897"
+      ],
+      "confidence": "certain",
+      "arguments_against": "With 22 officials and 7 bios for the surname Nicholls, the worry is conflating two Nicholls medical men. It fails because both stints repeatedly print the same highly distinctive full name 'H. A. Alford Nicholls' -- the unusual middle name 'Alford' (the bio's third forename) spelled out -- together with C.M.G. (the bio's C.M.G. 1896) and the specific office 'Medical Officer of the Public Institutions', which the bio states verbatim ('med. offr., pub. instit., 1880'). Dominica was a presidency within the Leeward Islands colony, so the same physician legitimately appears in both the Dominica list and the Leeward Islands list; the Leeward Islands entries add 'Official Member, Legislative Council' and 'Member, Executive Council', matching the bio's 'offr. mem. of legis. coun., 1898', 'mem. exec. coun., 1914', and 'offr. mem. exec. coun., Leeward Is., 1922'. The triple-initial distinctive name plus shared honour plus named-office agreement leaves no room for a separate H. A. Alford Nicholls. The position_sim near-miss on the Dominica stint is a phrasing artifact.",
+      "evidence_cited": [
+        {"stint_id": "Nicholls, H. A. Alford___Dominica___1886", "year": 1886, "fact": "H. A. A. Nicholls | Medical Officer of Public Institutions"},
+        {"stint_id": "Nicholls, H. A. Alford___Dominica___1886", "year": 1880, "fact": "med. offr., pub. instituta., 1880"},
+        {"stint_id": "Nicholls, H. A. Alford___Leeward Islands___1897", "year": 1917, "fact": "H. A. A. Nicholls | Member, Executive Council"},
+        {"stint_id": "Nicholls, H. A. Alford___Leeward Islands___1897", "year": 1914, "fact": "mem. exec. coun., 1914"},
+        {"stint_id": "Nicholls, H. A. Alford___Leeward Islands___1897", "year": 1922, "fact": "offr. mem. exec. coun., Leeward Is., 1922"}
+      ],
+      "would_overturn": "Evidence of a second physician also named H. A. Alford Nicholls (same three forenames) holding C.M.G. and medical-officer posts in Dominica/Leeward Islands -- which the unique forename string makes implausible."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "H. A. Alford Nicholls, Dominica physician. Dominica was a presidency of the Leeward Islands, so the same man appears in both staff lists. The distinctive spelled-out 'Alford' forename plus C.M.G. plus the named offices ('Medical Officer of the Public Institutions', Executive/Legislative Council member) anchor both stints to the bio."
+}

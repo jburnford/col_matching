@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q125387523",
+  "persons": [
+    {
+      "bio_id": "williams_d-j_b1915",
+      "stint_ids": ["Williams, D. J___Bermuda___1949"],
+      "confidence": "probable",
+      "arguments_against": "Williams is the weakest possible surname signal (380 officials, 162 biographies share it) and the bio gives initials only. The strongest counter-hypothesis: the stint chain conflates TWO D. J. Williamses in Bermuda's education service — the bio prints 'inspr., schs., Berm., 1946', yet the staff list shows D. J. Williams as 'Organiser of Physical Education' in 1949-1951 and as Inspector of Schools only from 1953; if the bio subject was already an inspector in 1946, the 1949-51 organiser rows could be a different man. Why I still assign: the chain is a single continuous name in one small colony's Education department with a natural promotion ladder (PE organiser -> Inspector of Schools -> Director of Education), no year shows two D. J. Williamses simultaneously, and the anchor matches are very strong and unique — 'dir., educ., 1956' against 'Director of Education' listed 1957-1966, and 'inspr., schs.' against 'Inspector of Schools' 1953-55 — with 10 co-occurring edition-years. The 1946-vs-1949 title discrepancy is most plausibly bio compression or retitling, but it is a real tension, so this stays below 'certain'.",
+      "evidence_cited": [
+        {"stint_id": "Williams, D. J___Bermuda___1949", "year": 1957, "fact": "dir., educ., 1956"},
+        {"stint_id": "Williams, D. J___Bermuda___1949", "year": 1957, "fact": "Director of Education"},
+        {"stint_id": "Williams, D. J___Bermuda___1949", "year": 1953, "fact": "Inspector of Schools"},
+        {"stint_id": "Williams, D. J___Bermuda___1949", "year": 1953, "fact": "inspr., schs., Berm., 1946"}
+      ],
+      "would_overturn": "Evidence of two contemporaneous D. J. Williamses in Bermuda's Education department (e.g. an edition listing both an Organiser of Physical Education and an Inspector of Schools named D. J. Williams), or a primary source showing the bio subject held the inspectorship continuously from 1946 while someone else was the PE organiser."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The Director of Education and Inspector of Schools rows (1953-1966) match the biography decisively. The 1949-1951 'Organiser of Physical Education' rows are the residual uncertainty: the bio claims an inspectorship from 1946, which those rows do not show. If the chain is ever split, the 1953-1966 portion is the safe core."
+}

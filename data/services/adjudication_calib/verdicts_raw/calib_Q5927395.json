@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q5927395",
+  "persons": [
+    {
+      "bio_id": "jerningham_hubert-edward-henry_b1842",
+      "stint_ids": ["Jerningham, Hubert Edward Henry___Mauritius___1890"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: a second Jerningham exists in the staff lists (2 officials with the surname), so the Mauritius officer could be a relative; and the 1894/1896 staff lists show K.C.M.G. while the bio dates the K.C.M.G. to Jan. 1899, a possible inconsistency suggesting two different men. This fails: the stint prints the full, rare three-forename string 'Hubert Edward Henry' identical to the bio; the bio explicitly records 'col. sec., Mauritius, 1889' matching the 1890 staff list 'Colonial Secretary' with the matching C.M.G. (1889); and the career shape inside the stint (Colonial Secretary 1890 -> Governor and Commander-in-Chief 1894-1896) exactly mirrors the bio's progression ('licut.-gov., Aug., 1892; gov. and comdr-in-ch., July, 1893') before the documented move to 'gov., Trinidad, Jan., 1897'. The K.C.M.G. date discrepancy is a minor printing/OCR or honours-dating inconsistency, not a counter-identity: no second Hubert Edward Henry Jerningham is plausible, and a Governor of Mauritius is a unique office.",
+      "evidence_cited": [
+        {"stint_id": "Jerningham, Hubert Edward Henry___Mauritius___1890", "year": 1889, "fact": "col. sec., Mauritius, 1889"},
+        {"stint_id": "Jerningham, Hubert Edward Henry___Mauritius___1890", "year": 1890, "fact": "Colonial Secretary"},
+        {"stint_id": "Jerningham, Hubert Edward Henry___Mauritius___1890", "year": 1893, "fact": "gov. and comdr-in-ch., July, 1893"},
+        {"stint_id": "Jerningham, Hubert Edward Henry___Mauritius___1890", "year": 1894, "fact": "Sir Hubert Edward Henry Jerningham"}
+      ],
+      "would_overturn": "Evidence of a second Hubert Edward Henry Jerningham serving in Mauritius in the 1890s, or records showing the Mauritius Colonial Secretary of 1890 and the Governor of 1894-96 were different people."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full three-forename agreement, exact position+place+year agreement on Colonial Secretary Mauritius 1889/1890, internal career progression (Col. Sec. -> Governor) matching the printed bio, and shared C.M.G./K.C.M.G. The deterministic position_sim failure (56 vs bar 60) is the abbreviation 'col. sec.' vs 'Colonial Secretary'. Minor note for reviewer: staff list shows K.C.M.G. by 1894 whereas the bio dates K.C.M.G. to Jan. 1899; treated as an honours-dating inconsistency in the printed sources, not a counter-identity."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q7348833",
+  "persons": [
+    {
+      "bio_id": "armitage_robert-perceval_b1906",
+      "stint_ids": ["Armitage, Robert___Cyprus___1954"],
+      "confidence": "certain",
+      "arguments_against": "Counter-case: 7 Armitages appear in the staff lists, the stint record carries only initials 'R. P.', and only a single staff-list row exists (1954), so could this be a different R. Armitage briefly in Cyprus? It cannot survive scrutiny: the row is for 'Governor and Commander-in-Chief' of Cyprus — the colony's unique head — and the biography reads 'gov. and c.-in-c., Cyp., 1954', the same office, place, and exact year. Both initials match ('R. P. Armitage' vs Robert Perceval). The printed honour C.M.G. matches the bio's 'C.M.G. (1951)'; the K.C.M.G. (1954) plausibly post-dates the list's compilation, so its absence is unremarkable. The short two-edition span (1954–1955) is exactly what the bio predicts, since he moved on as 'gov., Nyasa., 1956-61'. There is no realistic second R. P. Armitage governing Cyprus in 1954. The position_sim FAIL is an abbreviation artefact.",
+      "evidence_cited": [
+        {"stint_id": "Armitage, Robert___Cyprus___1954", "year": 1954, "fact": "gov. and c.-in-c., Cyp., 1954"},
+        {"stint_id": "Armitage, Robert___Cyprus___1954", "year": 1954, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Armitage, Robert___Cyprus___1954", "year": 1954, "fact": "R. P. Armitage"},
+        {"stint_id": "Armitage, Robert___Cyprus___1954", "year": 1954, "fact": "C.M.G."}
+      ],
+      "would_overturn": "Evidence that a different R. P. Armitage held the Cyprus governorship in 1954, or that the staff-list row is a misprint for another governor (e.g. the predecessor or successor)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique office, exact year match, two-initial agreement, C.M.G. agreement, and stint end matching his documented 1956 move to Nyasaland. Single-row stint, but the office's uniqueness plus multi-dimension agreement leaves no live counter-hypothesis."
+}

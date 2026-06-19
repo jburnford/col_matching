@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_Q107394016",
+  "persons": [
+    {
+      "bio_id": "somerhough_a-g-c_b1906",
+      "stint_ids": [
+        "Somerhough, A. G. C___Northern Rhodesia___1956",
+        "Somerhough, A. G___Kenya___1950"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the Kenya stint prints only 'A. G.' (the C is missing), its rows carry no honours, and the bio says he became 'dep. publ. prosecutor, 1950' while the 1950-51 staff rows still call him Crown Counsel -- so the Kenya man could be a relative (A. G. without C) in the same legal department. This fails. (1) The surname is exceptionally rare: 2 officials and 1 biography in the whole corpus, and the two officials are exactly these two stint name-keys, which the bio's own career spans. (2) The bio claims the precise Kenya office and date the stint records: 'crown coun., Ken., 1949' against 'Crown Counsel' in the LEGAL department in the 1950-51 editions -- a one-edition lag and continued substantive listing while acting as deputy prosecutor is normal staff-list behaviour, not a conflict. (3) For Northern Rhodesia the agreement is total: 'puisne judge, N. Rhod., 1954-60' vs Puisne Judge rows 1956-1960, full A. G. C. initials, and the 1958-59 rows print 'O.B.E., Q.C.' matching the bio's post-nominals exactly, with five agreeing edition-years. (4) The two stints chain into one coherent legal career (Kenya counsel -> Rhodesian judge) exactly as the single biography narrates it. A hypothetical second A. G. Somerhough would have to occupy the very office and years the bio subject documents for himself.",
+      "evidence_cited": [
+        {"stint_id": "Somerhough, A. G___Kenya___1950", "year": 1950, "fact": "crown coun., Ken., 1949"},
+        {"stint_id": "Somerhough, A. G___Kenya___1950", "year": 1950, "fact": "Crown Counsel"},
+        {"stint_id": "Somerhough, A. G. C___Northern Rhodesia___1956", "year": 1956, "fact": "puisne judge, N. Rhod., 1954–60"},
+        {"stint_id": "Somerhough, A. G. C___Northern Rhodesia___1956", "year": 1958, "fact": "O.B.E., Q.C."}
+      ],
+      "would_overturn": "Evidence of a second Somerhough in colonial legal service (e.g. a staff record distinguishing an 'A. G.' from an 'A. G. C.' serving simultaneously in different posts), or an external record showing the bio subject had left Kenya before 1950."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The Kenya rows listing him as Crown Counsel in 1950-51 despite the bio's 1950 promotion to deputy public prosecutor is consistent with edition lag and substantive-vs-acting listing practice. The bio's 'dep. publ. prosecutor, 1950' clause itself confirms continued Kenya legal service through the stint years."
+}

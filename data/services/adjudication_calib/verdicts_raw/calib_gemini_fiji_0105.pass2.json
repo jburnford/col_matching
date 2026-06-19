@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_fiji_0105",
+  "persons": [
+    {
+      "bio_id": "forth_j-ogilvie_e1883",
+      "stint_ids": ["Forth, J. O___Fiji___1886"],
+      "confidence": "certain",
+      "arguments_against": "No printed birth year, so the age gate is unchecked, and the bio dates its appointment as colonial auditor to 1891 while the staff list still calls him a generic 'Auditor' until 1906 and only 'Colonial Auditor' from 1906 — a date offset that could in principle signal a different man. This fails: FORTH is a rare surname (only 2 officials in all the staff lists, only 1 bio), the forename is a distinctive double initial J. O. that agrees exactly, the colony is Fiji in both, and the bio's senior office 'col. auditor' matches the staff list's senior office 'Colonial Auditor' in the same colony. Staff lists routinely lag biographical appointment dates, so the offset is expected, not disqualifying. There is no second J. O. Forth and no competing bio that could hold this stint.",
+      "evidence_cited": [
+        {"stint_id": "Forth, J. O___Fiji___1886", "year": 1906, "fact": "Colonial Auditor"},
+        {"stint_id": "Forth, J. O___Fiji___1886", "year": 1883, "fact": "col. auditor, Nov., 1891"},
+        {"stint_id": "Forth, J. O___Fiji___1886", "year": 1894, "fact": "Auditor"},
+        {"stint_id": "Forth, J. O___Fiji___1886", "year": 1886, "fact": "Audit clk., Fiji, Aug., 1883"}
+      ],
+      "would_overturn": "Evidence of a second J. O. Forth in the Fiji audit service, or a printed entry showing the staff-list Colonial Auditor was a different individual."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Rare surname (2 in staff lists), distinctive double initials J. O., colony Fiji, and senior office Colonial Auditor all agree; career arc clerk -> auditor -> colonial auditor matches the verbatim entry."
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_tasmania_0385",
+  "persons": [
+    {
+      "bio_id": "ward_w-f_e1876",
+      "stint_ids": ["Ward, William F___Tasmania___1888"],
+      "confidence": "certain",
+      "arguments_against": "Ward is extremely common (112 officials, 43 bios), so surname carries no weight and a same-name relative is the obvious counter-hypothesis. The defence is that the office is singular and specialised: the bio is 'Analyst, &c., to the govt. of Tasmania, 1882' (an Associate of the Royal School of Mines, a trained chemist), and the stint is exactly the Government Analyst of Tasmania in the 'Analyst's Office', held continuously 1888-1917. Both initials W. F. match, and the 1907 listing spells out 'William F. Ward', confirming the forename behind the bio's 'W. F.'. Position_sim 100 and three same-edition co-occurrences (1889, 1894, 1896). The Analyst's Office has one analyst; a relative holding the identical specialised post in the same years is not credible. Objection fails.",
+      "evidence_cited": [
+        {"stint_id": "Ward, William F___Tasmania___1888", "year": 1888, "fact": "W. F. Ward | Analyst | Analyst's Office"},
+        {"stint_id": "Ward, William F___Tasmania___1888", "year": 1907, "fact": "William F. Ward"}
+      ],
+      "would_overturn": "A printed record of a second W. F. / William F. Ward also serving as Government Analyst of Tasmania, or a death date for the bio before 1888."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Common surname offset by a singular specialised office (Government Analyst of Tasmania), two matching initials with 'William F.' forename confirmation, position_sim 100, and three same-edition co-occurrences. The bio's chemist/Royal-School-of-Mines background fits the analyst role precisely."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0047",
+  "persons": [
+    {
+      "bio_id": "balfour_john-aylmer_b1874",
+      "stint_ids": ["Balfour, J. A___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the honour check FAILED (bio claims A.M.I.C.E., staff list prints nothing), the stint only begins in 1905 while the bio puts him in Ceylon from 1900, and 'Irrigation Engineer' could be a grade held by several men — so perhaps the 1905-08 rows belong to a different J. A. Balfour and the biography's man only appears later. This fails: (1) the gap is an artifact of coverage, not a contradiction — the bio says 'irrigtn. engrnr., Ceylon, 1900' and the staff list shows exactly that post when its rows for him start; (2) from 1909 the trajectories lock step on a senior, effectively unique ladder within the small Ceylon Irrigation Department: bio 'asst. dir. of irrigtn., June, 1909' vs staff 'Assistant Director of Irrigation (acting)' in 1909 and confirmed 1910-13; bio 'dir. of irrigtn., 14th Aug., 1913' vs staff 'Director of Irrigation' from 1914 (the next edition after an Aug. 1913 appointment); (3) there is one Director of Irrigation post, and two same-initial Balfours cannot both have climbed Irrigation Engineer to Assistant Director to Director on these exact dates. The honour FAIL is non-contradictory: A.M.I.C.E. is a professional membership not printed in the staff-list honours column.",
+      "evidence_cited": [
+        {"stint_id": "Balfour, J. A___Ceylon___1905", "year": 1905, "fact": "irrigtn. engrnr., Ceylon, 1900"},
+        {"stint_id": "Balfour, J. A___Ceylon___1905", "year": 1909, "fact": "asst. dir. of irrigtn., June, 1909"},
+        {"stint_id": "Balfour, J. A___Ceylon___1905", "year": 1910, "fact": "ag. dir., Feb., 1910"},
+        {"stint_id": "Balfour, J. A___Ceylon___1905", "year": 1914, "fact": "dir. of irrigtn., 14th Aug., 1913"}
+      ],
+      "would_overturn": "Evidence of a second J. A. Balfour in the Ceylon Irrigation Department in 1905-1918, or a record showing John Aylmer Balfour serving elsewhere during years the staff list shows this stint-holder as Assistant Director or Director of Irrigation."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography vs single stint. The promotion ladder within the specialized Ceylon Irrigation Department matches step-for-step with consistent one-edition lag: Irrigation Engineer (bio 1900; staff 1905-08), Assistant Director acting/confirmed (bio June 1909; staff 1909 acting, 1910-13), Director of Irrigation (bio 14 Aug. 1913; staff 1914-18). Initials J.A. agree; surname moderately rare (8 staff-list officials). Honour-check failure is non-contradictory."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_curated_clifford_bede",
+  "persons": [
+    {
+      "bio_id": "clifford_bede-edmund-hugh_b1890",
+      "stint_ids": ["Clifford, Bede E. H___Bahamas___1933", "Clifford, Bede___Mauritius___1939"],
+      "confidence": "certain",
+      "arguments_against": "Bahamas stint: the deterministic colony/tenure checks FAIL, so the mechanical case is weak — could this Governor be one of the other 19 staff-list Cliffords (the corpus includes the famous Sir Hugh Clifford, another Clifford governor)? No: those FAILs are a parsing artifact — the bio's place-inheritance wrongly tagged 'gov. and c.-in-c. of the Bah' with 'Australia', but the verbatim text plainly reads 'gov. and commdr.-in-ch. of the Bahamas, 1931'. The staff list's 'Capt. Hon. B. E. H. Clifford' reproduces the bio's full styling — the rare forename triple Bede Edmund Hugh, the rank 'Capt.', the courtesy 'Hon.' — and the honours C.B. and C.M.G. match the bio's C.B. (1931), C.M.G. (1924); the governorship of the Bahamas is a unique office and 1933-34 sits inside the 1931-1937 tenure. Sir Hugh Clifford (the only other plausible Clifford governor) was never Governor of the Bahamas and had different honours. Mauritius stint: counter-case is that 'Bede' alone with one initial could be someone else; it fails because Bede is an exceptionally rare forename, the office (Governor and Commander-in-Chief of Mauritius, unique) matches 'do., Maur., Oct., 1937', and the 1939 honours K.C.M.G., C.B. match the bio's K.C.M.G. (1933) and C.B. (1931) exactly. No second Bede Clifford exists in the corpus context.",
+      "evidence_cited": [
+        {"stint_id": "Clifford, Bede E. H___Bahamas___1933", "year": 1933, "fact": "gov. and commdr.-in-ch. of the Bahamas, 1931"},
+        {"stint_id": "Clifford, Bede E. H___Bahamas___1933", "year": 1934, "fact": "C.M.G. (1924)"},
+        {"stint_id": "Clifford, Bede___Mauritius___1939", "year": 1939, "fact": "do., Mauritius, Oct., 1937"},
+        {"stint_id": "Clifford, Bede___Mauritius___1939", "year": 1939, "fact": "K.C.M.G. (1933)"}
+      ],
+      "would_overturn": "Evidence of a second Bede Clifford in colonial service, or staff-list records showing the Bahamas governor of 1933-34 or Mauritius governor of 1939 with honours, rank, or forenames inconsistent with this biography."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic colony/tenure FAILs on the Bahamas stint stem from a clause-inheritance parsing bug (events 1-6 in the compiled timeline wrongly carry 'Australia'); the verbatim entry names the Bahamas (1931) and Mauritius (Oct., 1937) governorships explicitly. One oddity: the 1933 staff-list rows still show C.M.G. rather than K.C.M.G. (1933) — consistent with the volume going to press before the honour, and the bio itself attests K.C.M.G. from the 1933 edition onward."
+}

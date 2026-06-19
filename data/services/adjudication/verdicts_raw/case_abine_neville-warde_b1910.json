@@ -1,0 +1,21 @@
+{
+  "case_id": "case_abine_neville-warde_b1910",
+  "persons": [
+    {
+      "bio_id": "abine_neville-warde_b1910",
+      "stint_ids": ["Sabine, N. W___North Borneo___1949"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: (1) The stint is also gate-compatible with biography 'sabine_neville-warde_b1910' outside this case, so assigning it here could double-assign it. But that bio shares the identical forenames 'Neville Warde' and identical birth year 1910 with this one, and 'ABINE' is plainly an OCR truncation of 'SABINE' (the stint surname is 'Sabine'); this is a duplicate bio record of the same individual, not a rival identity, so the assignment is not a false merge across distinct people. (2) There are 7 Sabines in the staff lists and a 15-year gap (1934 Gold Coast to 1949 North Borneo) with zero overlapping editions, so the North Borneo officer could be a different N. W. Sabine. However, the match is not surname-plus-one-initial: both initials N.W. agree with 'Neville Warde', the age fits (39 at stint start), and crucially the career is in the same specialised cadre - the bio shows entry to the colonial audit dept ('col. dit dept' is OCR for 'col. audit dept') and 'ast. audr., Gold Coast, 1934', while the stint is 'Principal Auditor' in the AUDIT department, a natural 15-year promotion within the unified Colonial Audit Service whose officers routinely transferred between colonies. A second coincidental N. W. Sabine in the colonial audit branch is implausible. (3) 'Auditor' alone could be a recurring title, but 'Principal Auditor' is a senior, department-specific post, not a generic junior title. The counter-hypotheses are real enough (evidence gap, external duplicate bio) to withhold 'certain', but the identification is clearly more likely than not.",
+      "evidence_cited": [
+        {"stint_id": "Sabine, N. W___North Borneo___1949", "year": 1950, "fact": "N. W. Sabine"},
+        {"stint_id": "Sabine, N. W___North Borneo___1949", "year": 1949, "fact": "Principal Auditor"},
+        {"stint_id": "Sabine, N. W___North Borneo___1949", "year": 1934, "fact": "ast. audr., Gold Coast, 1934"},
+        {"stint_id": "Sabine, N. W___North Borneo___1949", "year": 1934, "fact": "col. dit dept"}
+      ],
+      "would_overturn": "A staff list or biography expanding the North Borneo officer's initials to forenames other than Neville Warde; evidence that Neville Warde Sabine died, retired, or left the Colonial Audit Service before 1949; or a colony-agreeing record placing him in a different territory during 1949-1951."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Biography 'abine_neville-warde_b1910' is an OCR-truncated duplicate of 'sabine_neville-warde_b1910' (leading 'S' lost; same forenames, same birth year 1910); the dossier notes the stint is gate-compatible with that external bio and 'already linked elsewhere or filtered'. The two bio records should be merged upstream. If the stint is already linked to the sabine_ record, this verdict corroborates that link rather than contesting it; the reviewer should resolve the bio-level deduplication, not the identity. The deterministic FAILs (colony, tenure_overlap, position_sim, edition_cooccurrence) all stem from the bio appearing only in the 1937 edition, 12 years before the stint; the audit-branch continuity is visible only in the verbatim text ('col. dit dept' = colonial audit dept)."
+}

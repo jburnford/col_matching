@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q6106030",
+  "persons": [
+    {
+      "bio_id": "asser_limut-gen-sir-joseph-john_b1867",
+      "stint_ids": ["Asser, Joseph John___Bermuda___1923"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: a namesake or relative holding one of the stint rows, or the post-retirement-listing trap (the stint runs to 1927, the bio's retirement year). Neither survives. Asser is unique in this corpus — exactly 1 official in the staff lists and 1 biography — so there is no namesake pool at all. The stint prints the full double forename 'Joseph John' with 'Sir', and the honours track the biography's award sequence precisely: 1923 rows show K.C.M.G., C.B. (bio: K.C.M.G. 1918, C.B. 1915), and from 1924 the rows add/replace with K.C.B. (bio: K.C.B. 1924) — an independent chronological corroboration no coincidence could produce. The biography states 'gov. of Bermuda, 4th May, 1922; assumed govt., 9th Aug., 1922; ret., 1927', exactly bracketing the stint's 1923-1927 listing; the 1927 row is his final year of service, not a stale honoured-retiree listing. The dual rows (Governor and Commander-in-Chief / General Commanding) reflect Bermuda's combined civil-military governorship held by a Lieut.-Gen., matching the bio's military rank. The position_sim FAIL (33) compares 'gov. of Bermuda' to 'Governor and Commander-in-Chief' — a phrasing artifact, not a mismatch.",
+      "evidence_cited": [
+        {"stint_id": "Asser, Joseph John___Bermuda___1923", "year": 1923, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Asser, Joseph John___Bermuda___1923", "year": 1923, "fact": "Sir Joseph John Asser"},
+        {"stint_id": "Asser, Joseph John___Bermuda___1923", "year": 1924, "fact": "K.C.B., K.C.M.G."},
+        {"stint_id": "Asser, Joseph John___Bermuda___1923", "year": 1924, "fact": "Lieut.-Gen."}
+      ],
+      "would_overturn": "Discovery of a second Joseph John Asser in colonial or military service (none exists in this corpus), or gazette evidence that Bermuda's governor in 1923-27 was a different officer."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique surname in the corpus, full double-forename match, singular post (Governor of Bermuda) stated verbatim in the biography with assumption (1922) and retirement (1927) dates bracketing the stint, and the K.C.B. appearing in staff-list rows exactly from 1924 — the bio's award year. The 'LIMUT.-GEN.' in the bio_id is an OCR artifact for 'Lieut.-Gen.'"
+}

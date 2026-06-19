@@ -1,0 +1,25 @@
+{
+  "case_id": "case_abrahams_h-a_b1906",
+  "persons": [
+    {
+      "bio_id": "abrahams_h-a_b1906",
+      "stint_ids": [
+        "Abrahams, H. A___Jamaica___1925",
+        "Abrahams, H. A___Jamaica___1934"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: a same-name relative (father or older brother, also 'H. A. Abrahams') serving in the Jamaica Constabulary in the 1920s-30s, with the biography's owner being a different person whose 1923-1939 career merely resembles it; the corpus has 10 officials and 3 biographies under this surname, and 'Assistant' and 'Clerk' are exactly the generic junior titles the instructions warn about. Also, the 1940 record reads 'Head Office' while the bio places the 1939 post in the 'med. dept.', and a male relative could share both initials. This fails because the match is not a single generic title but a three-step career trajectory reproduced with correct ordering and one-year listing lags: bio 'asst., constab., J'ca., 1923' vs staff list 'Assistant / Jamaica Constabulary' (1925, 1927); bio '2nd cl. clk., constab., 1933' vs '2nd Class Clerk / Jamaica Constabulary' (1934, 1937); bio '1st cl. clk., med. dept., 1939' vs '1st Class Clerk' (1940). For a relative to collide, he would need the same two initials AND the same posts in the same department in the same years as the bio self-reports, while the bio's owner is simultaneously absent from those very staff lists -- an unsupported double coincidence. The two stints are also continuous with each other (same name, same constabulary, promotion sequence), so they stand or fall together, and the age gate (entry at 17, listed at 19) is plausible for an assistant. The 'Head Office' vs 'med. dept.' discrepancy is a department-label difference in a single year, not a contradiction of person identity, and the 1940 listing drops to 'H. Abrahams' consistent with the same man.",
+      "evidence_cited": [
+        {"stint_id": "Abrahams, H. A___Jamaica___1925", "year": 1925, "fact": "asst., constab., J'ca., 1923"},
+        {"stint_id": "Abrahams, H. A___Jamaica___1925", "year": 1925, "fact": "Jamaica Constabulary"},
+        {"stint_id": "Abrahams, H. A___Jamaica___1934", "year": 1934, "fact": "2nd cl. clk., constab., 1933"},
+        {"stint_id": "Abrahams, H. A___Jamaica___1934", "year": 1937, "fact": "2nd Class Clerk"},
+        {"stint_id": "Abrahams, H. A___Jamaica___1934", "year": 1940, "fact": "1st cl. clk., med. dept., 1939"}
+      ],
+      "would_overturn": "Evidence of a second H. A. Abrahams in Jamaica government service in the 1920s-1930s (e.g., two H. A. Abrahams rows in the same edition's staff lists, or a relative's biography showing constabulary service in those years); or a record showing the 1940 'Head Office' 1st Class Clerk belonged to a department incompatible with the bio's medical-department post; or a death/departure record for the staff-list man before 1933 that breaks the promotion chain."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-biography case. Both stints form one continuous Jamaica Constabulary-to-clerical career that the biography reproduces step-for-step with the expected one-year lag between appointment date and staff-list appearance (1923->1925, 1933->1934, 1939->1940). Deterministic position_sim FAIL on the 1925 stint is an abbreviation artifact ('asst., constab.' vs 'Assistant' in the Jamaica Constabulary department column). Edition co-occurrence is structurally absent: the biography appears only in 1956-1964 editions, long after the stint years, so its FAIL carries no negative weight."
+}

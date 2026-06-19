@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q2577848",
+  "persons": [
+    {
+      "bio_id": "goode_william-allmond-codrington_b1907",
+      "stint_ids": ["Goode, William___North Borneo___1960"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the staff list prints only 'William' against the biography's three forenames, 11 officials share the surname Goode, and position_sim FAILED (59 vs bar 60) — so a second Sir William Goode could in theory be the North Borneo governor. This fails: the position 'failure' is a one-point abbreviation artifact, since the biography states 'gov. and c.-in-c., N. Borneo, 1960-63' — the identical office, colony, and exact tenure as the stint (listed 1960-1963); the honours track in lockstep with the biography (staff list K.C.M.G. 1960-62 then G.C.M.G. in 1963, matching the biography's K.C.M.G. (1958) and G.C.M.G. (1963)); and the post is unique — North Borneo had one Governor at a time. No second knighted William Goode with identically timed honours is plausible, and no other biography competes in this case.",
+      "evidence_cited": [
+        {"stint_id": "Goode, William___North Borneo___1960", "year": 1960, "fact": "gov. and c.-in-c., N. Borneo, 1960-63"},
+        {"stint_id": "Goode, William___North Borneo___1960", "year": 1960, "fact": "K.C.M.G. (1958)"},
+        {"stint_id": "Goode, William___North Borneo___1960", "year": 1963, "fact": "G.C.M.G. (1963)"}
+      ],
+      "would_overturn": "Evidence that a different Sir William Goode was commissioned Governor of North Borneo for 1960-63, which would contradict the biography's own explicit statement of the same posting and the synchronized G.C.M.G. elevation in 1963."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. The honour transition in the staff list (K.C.M.G. through 1962, G.C.M.G. in 1963) independently corroborates the biography's G.C.M.G. (1963) date. The bio timeline's stray 'dist. offr., Raub, 1963' row is an OCR digit error in col1953-L17469.v (other versions read 1936) and does not affect the verdict."
+}

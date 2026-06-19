@@ -1,0 +1,12 @@
+{
+  "case_id": "case_cole_v-g_e1921",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Cole, G___Bahamas___1886",
+      "reason": "No dimension of evidence links this stint to the only biography in the case. The biography (COLE, V. G.) records a single event: 'Asst. dist. comsnr., Kenya, June, 1921'. The stint is G. Cole serving in the Bahamas as Inspector of Public Schools / Inspector and General Superintendent of Schools from 1886 to 1913 — different colony, entirely different career line (education vs. district administration), and no overlapping years or editions (stint editions end 1913; bio appears 1924-1928). Chronology argues against identity: a man senior enough to be Inspector of Public Schools in 1886 would be roughly 60+ by 1921, an implausible age for a first appointment as assistant district commissioner in Kenya. The initials only partially agree ('V. G.' vs 'G.'), and with 96 officials and 31 biographies sharing the surname Cole, name-based inference is especially weak. Deterministic checks confirm: colony, tenure_overlap, position_sim, honour, and edition_cooccurrence all FAIL. The strongest case FOR the link — that 'G.' could be the same man printed with a dropped first initial who later moved to Kenya — fails because nothing in either record corroborates a move, and the career shape is discontinuous by eight years (1913-1921) across hemispheres."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case with zero agreeing evidence dimensions beyond the surname blocking key. The two records almost certainly describe different people: a long-serving Bahamas education official (G. Cole, fl. 1886-1913) and a Kenya administrative officer (V. G. Cole, appointed June 1921). Leaving unassigned per the no-false-merges directive; if a fuller biography of V. G. Cole ever surfaces showing prior Bahamas education service, this could be revisited."
+}

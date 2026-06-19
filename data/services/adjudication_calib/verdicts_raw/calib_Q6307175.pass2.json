@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q6307175",
+  "persons": [
+    {
+      "bio_id": "gascoigne_julian_b1903",
+      "stint_ids": ["Gascoigne, Julian___Bermuda___1960"],
+      "confidence": "certain",
+      "arguments_against": "The single-initial warning invites the namesake hypothesis: with 5 Gascoignes in the staff lists and 3 in the biographical sections, the Bermuda listing could belong to a different Julian Gascoigne (e.g. a relative). That hypothesis fails on every specific dimension: the staff-list office is 'Governor and Commander-in-Chief' of Bermuda — a unique office — and the biography says 'gov. and c.-in-c., Bermuda, 1959-64', the exact office, place, and span covering the listed years 1960–1964. The rank 'Major-Gen. Sir Julian Gascoigne' in the staff lists matches the bio's 'Major-General Sir Julian'. Honours track precisely and dynamically: 1960 list shows C.B., D.S.O.; the K.C.M.G. appears in the staff list from 1962, exactly the year the bio dates it 'K.C.M.G. (1962)'. A second Major-General Sir Julian Gascoigne governing Bermuda in the same years is not a realistic possibility. The position_sim FAIL is an abbreviation artefact ('gov. and c.-in-c.' vs the spelled-out title).",
+      "evidence_cited": [
+        {"stint_id": "Gascoigne, Julian___Bermuda___1960", "year": 1960, "fact": "gov. and c.-in-c., Bermuda, 1959-64"},
+        {"stint_id": "Gascoigne, Julian___Bermuda___1960", "year": 1960, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Gascoigne, Julian___Bermuda___1960", "year": 1962, "fact": "K.C.M.G., C.B., D.S.O."},
+        {"stint_id": "Gascoigne, Julian___Bermuda___1960", "year": 1963, "fact": "Major-Gen. Sir Julian Gascoigne"}
+      ],
+      "would_overturn": "Documentation of a different Julian Gascoigne holding the Bermuda governorship 1959–1964, or evidence that the staff-list honours/rank sequence belongs to another person."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique office, exact tenure agreement, matching rank, and the K.C.M.G. award year (1962) appearing in the staff list in the right year make this a multi-dimensional certain match. Deterministic position_sim failure is purely an abbreviation artefact."
+}

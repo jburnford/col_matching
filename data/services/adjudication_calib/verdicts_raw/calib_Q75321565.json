@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q75321565",
+  "persons": [
+    {
+      "bio_id": "galiwey_thomas-lionel-j_e1839",
+      "stint_ids": ["Gallwey, Thomas Lionel John___Bermuda___1883"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-hypothesis is a same-name relative (e.g. a son) holding a Bermuda post in 1883-1888, or that the 'Galiwey' biography is a different officer whose name OCR'd similarly. This fails: the biography explicitly records 'gov. and comdr.-in-ch. of Bermuda, 1882-88', an exact, highly specific senior-office match in place, title, and tenure with the stint (Governor and Commander-in-Chief, Bermuda, listed 1883-1888). There is only one Governor of Bermuda at a time, so no relative or namesake could simultaneously hold this exact office over this exact span. All three forename initials (T, L, J) and the full forenames 'Thomas Lionel John' agree. The honour check FAIL is an artifact: the staff list prints no honours at all for this row, so no shared honour could be recorded. No live counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Gallwey, Thomas Lionel John___Bermuda___1883", "year": 1883, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Gallwey, Thomas Lionel John___Bermuda___1883", "year": 1883, "fact": "gov. and comdr.-in-ch. of Bermuda, 1882-88"},
+        {"stint_id": "Gallwey, Thomas Lionel John___Bermuda___1883", "year": 1883, "fact": "Thomas Lionel John Gallwey"}
+      ],
+      "would_overturn": "Evidence that two distinct Thomas Lionel John Gallweys existed, with a different one serving as Governor of Bermuda 1883-1888 (e.g. a primary source showing the biography subject was elsewhere during 1883-1888, contradicting the printed 1882-88 governorship)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Sole biography and sole stint. Unique senior office (Governor and C-in-C of Bermuda) with exact place/title/date agreement plus full three-forename agreement. 'GALIWEY' is an OCR misreading of 'Gallwey' (fuzzy gate passed at 1)."
+}

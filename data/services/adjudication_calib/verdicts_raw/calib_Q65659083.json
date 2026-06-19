@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q65659083",
+  "persons": [
+    {
+      "bio_id": "garraway_e-c-f_e1880",
+      "stint_ids": ["Garraway, E. C. F___Basutoland___1920"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: another E. C. F. Garraway among the 20 Garraway officials (e.g. a son), or a successor Resident Commissioner being conflated. This fails on several independent dimensions: the biography prints 'res. comsrr., Basutoland, 16th Dec., 1917' — the exact unique office and territory of the stint, held by one person at a time; the staff list's rank column reads 'Lieut.-Col.' matching the bio's 'LT.-COL. SIR E. C. F.'; the honours track the bio's award dates independently — C.M.G. in the 1920-1922 rows (bio: C.M.G. 1911) upgrading to K.C.M.G. with the 'Sir' prefix by 1924 (bio: K.C.M.G. 1922); all three initials agree; and the listing ends in 1925, immediately before the bio's printed retirement 'ret., 19th Apr., 1926.' A namesake would have to share the same three initials, rank, honour sequence, and unique office in the same years — not realistic. The position_sim FAIL (58 vs bar 60) is a string artifact: 'res. comsrr.' is the standard abbreviation of 'Resident Commissioner'.",
+      "evidence_cited": [
+        {"stint_id": "Garraway, E. C. F___Basutoland___1920", "year": 1920, "fact": "res. comsrr., Basutoland, 16th Dec., 1917"},
+        {"stint_id": "Garraway, E. C. F___Basutoland___1920", "year": 1920, "fact": "Resident Commissioner"},
+        {"stint_id": "Garraway, E. C. F___Basutoland___1920", "year": 1920, "fact": "Lieut.-Col. E. C. F. Garraway"},
+        {"stint_id": "Garraway, E. C. F___Basutoland___1920", "year": 1924, "fact": "Sir E. C. F. Garraway"}
+      ],
+      "would_overturn": "Evidence that a different E. C. F. Garraway held the Basutoland residency 1920-1925, or that the biography subject left the post before 1920 — both contradicted by the printed 1917 appointment and 1926 retirement."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Five co-occurring edition-years; unique office (Resident Commissioner, Basutoland) printed verbatim in the bio with appointment date 1917; rank (Lieut.-Col.) and the C.M.G.-to-K.C.M.G./'Sir' transition in 1924 independently corroborate; listing ends consistent with the April 1926 retirement."
+}

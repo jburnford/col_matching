@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q780032",
+  "persons": [
+    {
+      "bio_id": "tilley_samuel-leonard_b1818",
+      "stint_ids": ["Tilley, Samuel Leonard___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "The candidate counter-hypothesis is a same-name relative (Tilley had descendants in New Brunswick public life) or a successor in office. It fails because the stint reproduces the biography's exact and unusual office sequence with the exact honour transitions: Lieut.-Governor of New Brunswick in 1877-78 carrying C.B. only (bio: lieutenant-governor from Nov. 1873, C.B. 1867); Finance Minister from 1879 (bio: accepted office as minister of finance Oct. 1878); K.C.M.G. appearing beside C.B. precisely in the 1880 list (bio: K.C.M.G. 1879); Lieutenant-Governor again in 1886 (bio: resigned 10th Nov. 1885 on appointment for the 2nd time as lieutenant-governor of New Brunswick). Lieutenant-governorships and the federal Finance ministership are unique offices; no relative could hold this sequence in these years. The one anomaly is a positionless 'S. L. Tilley, K.C.M.G., C.B.' row in 1908, after his likely death — this is the known honoured-retiree/stale-listing pattern, not evidence of a second person, since it carries his exact honour pair and no office.",
+      "evidence_cited": [
+        {"stint_id": "Tilley, Samuel Leonard___Canada___1877", "year": 1877, "fact": "Lieut.-Governor of New Brunswick"},
+        {"stint_id": "Tilley, Samuel Leonard___Canada___1877", "year": 1879, "fact": "Finance Minister"},
+        {"stint_id": "Tilley, Samuel Leonard___Canada___1877", "year": 1880, "fact": "K.C.M.G., C.B."},
+        {"stint_id": "Tilley, Samuel Leonard___Canada___1877", "year": 1886, "fact": "Lieutenant-Governor"}
+      ],
+      "would_overturn": "Evidence that the post-1896 rows in this chain (especially 1905-1914 editions) belong to a different living S. L. Tilley rather than being stale listings — e.g. a positioned record for a second Tilley with the same honours."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Office sequence (Lt.-Gov. NB, Finance Minister, Lt.-Gov. NB again) and honour chronology (C.B. only through 1878, K.C.M.G.+C.B. from 1880) match the biography step for step. The chain's tail listings into the 1900s with no position are residual privy-council/honours rows; reviewer may want the post-1896 rows trimmed at the record level, but the stint as blocked belongs to this person."
+}

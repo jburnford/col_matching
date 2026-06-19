@@ -1,0 +1,36 @@
+{
+ "case_id": "case_champion_reginald-stuart_b1895",
+ "persons": [
+  {
+   "bio_id": "champion_reginald-stuart_b1895",
+   "stint_ids": [
+    "Champion, R. S___Palestine___1923",
+    "Champion, Reginald Stuart___Aden___1929",
+    "Champion, Reginald Stuart___Aden___1946"
+   ],
+   "confidence": "certain",
+   "arguments_against": "One continuous career, initials R.S. throughout. The entry traces Palestine civil administration (district officer) from 1920, secondment to Aden as political/protectorate secretary 1928-34, then governor and commander-in-chief of Aden 1944 — matched exactly by the Palestine 1923, Aden 1929, and Aden 1946 stints, the last carrying the K.C.M.G.(1946) and O.B.E.(1934). No competing R. S. Champion exists.",
+   "evidence_cited": [
+    {
+     "stint_id": "Champion, R. S___Palestine___1923",
+     "year": 1923,
+     "fact": "District Officer"
+    },
+    {
+     "stint_id": "Champion, Reginald Stuart___Aden___1929",
+     "year": 1933,
+     "fact": "Protectorate Secretary and District Magistrate"
+    },
+    {
+     "stint_id": "Champion, Reginald Stuart___Aden___1946",
+     "year": 1948,
+     "fact": "Governor"
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 3, hand-adjudicated (Claude Code, in-session)"
+}

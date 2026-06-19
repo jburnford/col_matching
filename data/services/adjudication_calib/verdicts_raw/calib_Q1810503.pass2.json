@@ -1,0 +1,24 @@
+{
+ "case_id": "calib_Q1810503",
+ "persons": [
+  {
+   "bio_id": "olivier_sydney_b1859",
+   "stint_ids": [
+    "Olivier, Sydney___Jamaica___1908"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Compiled as single-initial ('Sydney' one token). But the entry is the well-attested Sir Sydney Olivier, governor of Jamaica from 1907; the Jamaica 1908 listing matches the assumed-government period. Surname uncommon. Caveat: mechanical single-initial flag only.",
+   "evidence_cited": [
+    {
+     "stint_id": "Olivier, Sydney___Jamaica___1908",
+     "year": null,
+     "fact": "gov. of Jamaica"
+    }
+   ],
+   "would_overturn": "A second same-surname person in the same colony and years holding the same office, or a printed death/birth date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "pilot hand-adjudication (Claude Code, in-session)"
+}

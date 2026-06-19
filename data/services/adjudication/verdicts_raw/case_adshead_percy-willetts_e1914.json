@@ -1,0 +1,21 @@
+{
+  "case_id": "case_adshead_percy-willetts_e1914",
+  "persons": [
+    {
+      "bio_id": "adshead_percy-willetts_e1914",
+      "stint_ids": ["Adshead, P. W___Uganda___1928"],
+      "confidence": "probable",
+      "arguments_against": "The strongest case against: the dossier notes this stint is also gate-compatible with an outside biography, 'adshead_percy-williams_b1892'. 'Percy Willetts' and 'Percy Williams' are one OCR slip apart, so either (a) they are duplicate biographies of the same man, in which case this assignment is harmless, or (b) there were two distinct P. W. Adsheads, and the Uganda Chief Accountant could be the other one. Scenario (b) would make this a false merge. Why it likely fails: the biography in this case explicitly prints 'ch. acctnt., P.W.D., Uga., 1926' — the exact position (Chief Accountant), exact department (Public Works Department), and exact colony (Uganda) of the stint, with an appointment date two years before the first staff-list appearance in 1928. The bio also places him on the 'business profits comttee., Uga., 1928', the stint's first listed year, and his departure to Palestine in 1937 is consistent with the staff listings ending by 1933. Two distinct P. W. Adsheads both holding the singular post of Chief Accountant, P.W.D., Uganda in the same years is not a realistic hypothesis. The residual risk is confined to the Willetts/Williams ambiguity, which is why this is 'probable' rather than 'certain'. The position_sim FAIL is a mechanical artifact: the scorer compared 'mem. of business profits comttee.' against 'Chief Accountant' instead of the bio's actual P.W.D. accountant event.",
+      "evidence_cited": [
+        {"stint_id": "Adshead, P. W___Uganda___1928", "year": 1926, "fact": "ch. acctnt., P.W.D., Uga., 1926"},
+        {"stint_id": "Adshead, P. W___Uganda___1928", "year": 1928, "fact": "Chief Accountant"},
+        {"stint_id": "Adshead, P. W___Uganda___1928", "year": 1928, "fact": "mem. of business profits comttee., Uga., 1928"},
+        {"stint_id": "Adshead, P. W___Uganda___1928", "year": 1937, "fact": "senr. asst. treas., Pal., 1937"}
+      ],
+      "would_overturn": "Evidence that 'adshead_percy-williams_b1892' is a distinct person (not an OCR variant of Percy Willetts) whose own printed career claims the Chief Accountant, P.W.D., Uganda post in 1926-1933 — e.g. a verbatim entry for Percy Williams Adshead naming that office, or records showing two P. W. Adsheads serving in Uganda simultaneously."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. Strong multi-dimensional match: exact position + department + colony ('ch. acctnt., P.W.D., Uga., 1926' vs staff-list 'Chief Accountant', 'Public Works', Uganda), initials P.W. agree, and tenure 1928-1933 fits between the 1926 appointment and the 1937 Palestine transfer. Held at 'probable' rather than 'certain' solely because of the flagged outside-case gate-compatible biography 'adshead_percy-williams_b1892' (likely an OCR duplicate, Willetts/Williams); recommend the reviewer check whether that bio is a duplicate of this one and reconcile the two entity keys."
+}

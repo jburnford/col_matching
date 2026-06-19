@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q1608948",
+  "persons": [
+    {
+      "bio_id": "hone_herbert-ralph_b1896",
+      "stint_ids": ["Hone, Ralph___North Borneo___1950"],
+      "confidence": "certain",
+      "arguments_against": "The case warns the biography carries a single initial, so the strongest counter-hypothesis is a namesake: another R. Hone (8 Hone officials in the staff lists) who happened to be in North Borneo c.1950. This fails on multiple independent grounds: the post in question is Governor and Commander-in-Chief of North Borneo, a unique office held by exactly one person at a time, and the biography itself states 'gov. and c.in-c., N. Borneo, 1950' — an exact position+place+year agreement, not a generic junior title. The stint name is printed in full as 'Sir Ralph Hone' (1952-53), matching the bio's printed name and knighthood, and the K.C.M.G. honour (bio: 1951) appears against the stint in 1953. A second knighted Sir Ralph Hone serving as Governor of North Borneo in the same years is not a realistic alternative. The other Hone biography in the corpus is not in this case and the unique-governorship fact excludes any staff-list namesake.",
+      "evidence_cited": [
+        {"stint_id": "Hone, Ralph___North Borneo___1950", "year": 1950, "fact": "gov. and c.in-c., N. Borneo, 1950"},
+        {"stint_id": "Hone, Ralph___North Borneo___1950", "year": 1952, "fact": "Sir Ralph Hone"},
+        {"stint_id": "Hone, Ralph___North Borneo___1950", "year": 1953, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second, distinct Sir Ralph Hone serving as Governor of North Borneo 1950-1953, or evidence that the biography's North Borneo governorship clause was an OCR conflation from a different entry."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial warning applies in form only: the link rests on a unique senior office (Governor and C-in-C, North Borneo) named with identical years in both bio and stint, full forename 'Ralph' printed in the 1952-53 staff lists, and the shared K.C.M.G. — three independent agreeing dimensions."
+}

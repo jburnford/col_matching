@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0164",
+  "persons": [
+    {
+      "bio_id": "musson_samuel-paynter_e1866",
+      "stint_ids": ["Musson, Samuel P___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-case: 6 Musson biographies and 5 Musson officials exist, so a same-name relative (the surname is shared by the blocking key) could in principle hold a Jamaica clerkship. This fails because the entire distinctive career chain matches point-for-point in matching years: the bio's 'first-class clerk, colonial secretary's office, Oct., 1872' equals the stint's '1st Class Clerks, Colonial Secretary's Office' (1877-83); 'chief clerk, 1884' equals the stint's 'Chief Clerk, Colonial Secretary's Office' (1886-96); 'treas., Jamaica, 1896' equals 'Public Treasurer, Treasury' (1898-1900); 'nominated mem. of legis. coun.' equals 'Island Treasurer, Legislative Council' (1898). Five agreeing edition-years (1886-1894) with position similarity ~100 corroborate. No relative would replicate this exact senior-office progression in the same office and years.",
+      "evidence_cited": [
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1877, "fact": "first-class clerk, colonial secretary's office, Oct., 1872"},
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1886, "fact": "ch. clk., 1884"},
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1898, "fact": "treas., Jamaica, 1896"},
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1898, "fact": "nominated mem. of legis. coun."}
+      ],
+      "would_overturn": "Evidence of a distinct second S. P. Musson clerking in the same Jamaica Colonial Secretary's Office across these years would reverse this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Detailed career continuity (clerk to chief clerk to treasurer to legislative council) plus 5 agreeing edition-years. High-confidence match."
+}

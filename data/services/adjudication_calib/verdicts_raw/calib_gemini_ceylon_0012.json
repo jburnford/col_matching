@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0012",
+  "persons": [
+    {
+      "bio_id": "hellings_robert-bailey_b1863",
+      "stint_ids": ["Hellings, R. B___Ceylon___1889", "Hellings, R. B___Ceylon___1913"],
+      "confidence": "certain",
+      "arguments_against": "The corpus holds 2 Hellings biographies and 3 staff-list officials, so the counter-hypothesis is that one of these stints belongs to the other Hellings — a brother or son with the same R. B. initials. For the 1889 stint this fails on a chain of place-and-office specifics: Assistant Collector and Landing Surveyor, Eastern Province in 1890 matches the bio's 'asst. collr., etc., customs, Trincomalee, Nov., 1888' (Trincomalee is the Eastern Province customs port); Additional Commissioner of Requests and Police Magistrate 1894-98 matches the bio's magistracies at Galle and judgeships of the mid-1890s; the Colombo Commissioner of Requests rows 1900-1905 match 'comsnr. of requesta, Colombo, Aug., 1900, May, 1904'; Assistant Government Agent 1906 matches 'asst. gov't. agt., Matale, Nov., 1904'; and the Government Agent rows 1907-1910 match 'gov't. agt., Prov. of Sabangamuwa, Feb., 1906'. No second person could shadow that sequence. For the 1913 stint the relative-hypothesis fails on rank shape and timing: it opens at Government Agent plus Collector, Southern Province — senior posts, not an entry point — exactly one staff-list year after the bio's 'gov't. agt., S. Prov., May, 1912', and runs to 1921, the last edition in which the biography appears. The deterministic FAILs on the 1913 stint (tenure_overlap, position_sim) are artifacts of the bio's terminal clauses carrying no printed place; read directly, 'gov't. agt., S. Prov.' and the Southern Province Government Agent/Collector rows are the same posting. The only oddity is the 1890 'Master Attendants, Harbour Department' row, which is most plausibly a staff-list section misparse adjacent to the customs/landing-surveyor entry, not evidence of a mariner namesake — the same line also lists him as Assistant Collector and Landing Surveyor that year.",
+      "evidence_cited": [
+        {"stint_id": "Hellings, R. B___Ceylon___1889", "year": 1890, "fact": "asst. collr., etc., customs, Trincomalee, Nov., 1888"},
+        {"stint_id": "Hellings, R. B___Ceylon___1889", "year": 1889, "fact": "cadet, Ceylon civ. ser., Dec., 1885"},
+        {"stint_id": "Hellings, R. B___Ceylon___1889", "year": 1900, "fact": "comsnr. of requesta, Colombo, Aug., 1900"},
+        {"stint_id": "Hellings, R. B___Ceylon___1889", "year": 1906, "fact": "asst. gov't. agt., Matale, Nov., 1904"},
+        {"stint_id": "Hellings, R. B___Ceylon___1913", "year": 1913, "fact": "gov't. agt., S. Prov., May, 1912"}
+      ],
+      "would_overturn": "Evidence that the second Hellings biography in the corpus shares the R. B. initials and a Ceylon career overlapping these years, or a staff-list year showing two R. B. Hellings rows in different careers simultaneously, or a record that Robert Bailey Hellings left the Southern Province post before 1921 while the listing continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints are one career split across a staff-list gap (1910-1913); the biography bridges it continuously (ag. gov't. agt., Cent. Prov., Apr., 1910; gov't. agt., S. Prov., May, 1912; offr. of cls. I, grade I, Jan., 1913). Surname is rare (3 staff-list officials). The 1890 Harbour Department row inside the first stint looks like a section-parsing artifact and may merit a data-quality check."
+}

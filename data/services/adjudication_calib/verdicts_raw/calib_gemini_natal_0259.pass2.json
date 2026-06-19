@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_natal_0259",
+  "persons": [
+    {
+      "bio_id": "hunter_david_e1879",
+      "stint_ids": ["Hunter, D___Natal___1883"],
+      "confidence": "certain",
+      "arguments_against": "This is the textbook namesake trap and the dossier flags it: Hunter is extremely common (64 officials, 37 biographies), the bio is single-initial 'David' (D), it gives only one career line, and the honour check FAILs (the bio, printed only in 1883/1886, predates the C.M.G./K.C.M.G. that the staff list later shows). On surname plus single initial alone this would be far too weak. It nonetheless resolves with certainty because the matching dimension is a singular, specifically named office: the bio states 'General manager, Natal government railways, 27th September, 1879', and the stint is 'D. Hunter, General Manager, Natal Government Railways' held continuously 1883-1906 (position similarity 100, 2 agreeing edition-years). Only one person is General Manager of the Natal Government Railways at any time, so the namesake trap -- which requires two same-name people sharing evidence -- cannot operate here. The bio's 1879 appointment runs straight into the stint, and the later 'Sir D. Hunter, K.C.M.G.' is the same man (Sir David Hunter), with honours accruing after the bio's last edition.",
+      "evidence_cited": [
+        {"stint_id": "Hunter, D___Natal___1883", "year": 1883, "fact": "General manager, Natal government railways, 27th September, 1879"},
+        {"stint_id": "Hunter, D___Natal___1883", "year": 1886, "fact": "General Manager"}
+      ],
+      "would_overturn": "Evidence that the Natal Government Railways General Managership was held by a different D. Hunter than the bio subject would reverse this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial common-surname bio cleared by a singular named-office match (General Manager, Natal Government Railways) with exact position similarity and direct continuity from the bio's 1879 appointment. This is Sir David Hunter. High-confidence match."
+}

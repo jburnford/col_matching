@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q22980469",
+  "persons": [
+    {
+      "bio_id": "abell_anthony-foster_b1906",
+      "stint_ids": ["Abell, Anthony Foster___Sarawak___1950"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the corpus has 2 officials surnamed Abell, so the Sarawak listing could in principle be the other one, and the deterministic position_sim check FAILed (59 vs bar 60), suggesting the offices differ. This fails on inspection: the position_sim failure is purely an abbreviation artifact — the biography's 'gov. and c.-in-c., Sarawak, 1950-59' is the same office as the staff list's 'Governor and Commander-in-Chief', and the tenure (1950-1959) matches the stint listing span exactly. The Governor of Sarawak is a unique office; a second A. F. Abell holding it simultaneously is impossible. The honours sequence clinches it: the bio records C.M.G. then K.C.M.G. (1952), and the staff list shows C.M.G. in 1950-51 switching to K.C.M.G. exactly in 1952 with the name becoming 'Sir Anthony Foster Abell'. Full forename agreement ('Anthony Foster') removes any same-name-relative hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Abell, Anthony Foster___Sarawak___1950", "year": 1950, "fact": "gov. and c.-in-c., Sarawak, 1950-59"},
+        {"stint_id": "Abell, Anthony Foster___Sarawak___1950", "year": 1952, "fact": "Sir Anthony Foster Abell | Governor and Commander-in-Chief"},
+        {"stint_id": "Abell, Anthony Foster___Sarawak___1950", "year": 1952, "fact": "K.C.M.G. (1952)"}
+      ],
+      "would_overturn": "Discovery of a second Anthony Foster Abell with a colonial career in Borneo in the 1950s, or evidence that the biography's Sarawak governorship dates were transcribed from a different person's entry."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Exact full-name, unique office (Governor and C-in-C of Sarawak), exact tenure span 1950-1959, and honour progression C.M.G. -> K.C.M.G. in 1952 mirrored year-by-year in the staff lists. The lone deterministic FAIL (position_sim 59) is an abbreviation artifact."
+}

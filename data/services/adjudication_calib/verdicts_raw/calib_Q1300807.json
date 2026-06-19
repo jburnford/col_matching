@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_Q1300807",
+  "persons": [
+    {
+      "bio_id": "abrahams_sidney-solomon_b1885",
+      "stint_ids": ["Abrahams, S. S___Zanzibar___1917", "Abrahams, S. S___Zanzibar___1923"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against the 1917 stint: 'Abrahams' is a moderately common surname (10 officials in the corpus), the deterministic position check FAILED ('town mag.' vs '3rd Magistrate' scored 36), and a same-initialed relative could conceivably be a junior magistrate in Zanzibar while Sidney Solomon held the town magistracy. This fails: the double initial 'S. S.' is far more specific than a single initial; the biography places him in Zanzibar's judiciary continuously through the stint window — 'town mag., Zanzibar, June, 1915' and 'sole edr., Zanzibar law rept., 1918-22' bracket 1917-1919 exactly; both titles are magistracies in the same small Judicial and Legal Departments establishment, and the position FAIL is a fuzzy-string artifact ('town mag.' vs '3rd Magistrate' are plausibly the same bench seat under different naming conventions, and no other career event competes for those years). Two concurrent S. S. Abrahams magistrates in tiny Zanzibar is not a realistic hypothesis. Strongest case against the 1923 stint: a successor of the same name in the Attorney-General's chair. This fails outright: the biography itself claims 'atty.-gen., Zanzibar, June, 1922' and departure to 'atty.-gen., Uganda, Jan., 1925', which brackets the 1923-1924 staff listings perfectly, with 2 colony-agreeing edition co-occurrences and a Zanzibar honour (Order of Brilliant Star of Zanzibar, 1924) awarded during precisely this stint.",
+      "evidence_cited": [
+        {"stint_id": "Abrahams, S. S___Zanzibar___1917", "year": 1915, "fact": "town mag., Zanzibar, June, 1915"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1917", "year": 1917, "fact": "3rd Magistrate"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1917", "year": 1918, "fact": "sole edr., Zanzibar law rept., 1918-22"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1923", "year": 1922, "fact": "atty.-gen., Zanzibar, June, 1922"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1923", "year": 1923, "fact": "Attorney-General"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1923", "year": 1925, "fact": "atty.-gen., Uganda, Jan., 1925"}
+      ],
+      "would_overturn": "Discovery of a second S. S. Abrahams in the Zanzibar judicial establishment in 1917-1919 (e.g. a staff list showing both a town magistrate Abrahams and a 3rd Magistrate Abrahams simultaneously), or a record showing the Zanzibar Attorney-General of 1923-24 with forenames other than Sidney Solomon."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1924 honour '2nd cls. Order of Brilliant Star of Zanzibar (1924)' falls inside the 1923-24 Attorney-General stint, further corroborating presence in Zanzibar. The gap between the two stints (1920-1922) is explained by the documented Mesopotamia secondment ('seconded for serv. with Mesopotamia civil admnstr. Jan., 1920')."
+}

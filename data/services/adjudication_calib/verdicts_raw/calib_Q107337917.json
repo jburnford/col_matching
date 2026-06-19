@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107337917",
+  "persons": [
+    {
+      "bio_id": "southworth_f_b1910",
+      "stint_ids": ["Southworth, F___Nyasaland___1955"],
+      "confidence": "certain",
+      "arguments_against": "The single-initial trap applies: 'F. Southworth' could in principle be a different F. Southworth among the 3 officials with this surname, e.g. a relative also in colonial service. This fails for several independent reasons: the biography prints a specific judicial career — 'asst. judge, Nyasa., 1953; puisne judge, 1955' — and the staff list shows exactly that progression in exactly that colony (Assistant Judge in 1955, Puisne Judge from 1956 onward), a specific senior-office match, not a generic junior title; there are at most one or two puisne judges in Nyasaland at a time, so a second F. Southworth holding the same bench seat is not plausible; and the bio and stint co-occur in 10 edition-years (1955-1964) with colony-agreeing position matches. The single-initial constraint is satisfied by the specific position match plus multi-edition co-occurrence, not by tenure overlap alone.",
+      "evidence_cited": [
+        {"stint_id": "Southworth, F___Nyasaland___1955", "year": 1955, "fact": "asst. judge, Nyasa., 1953; puisne judge, 1955"},
+        {"stint_id": "Southworth, F___Nyasaland___1955", "year": 1955, "fact": "Assistant Judge"},
+        {"stint_id": "Southworth, F___Nyasaland___1955", "year": 1956, "fact": "Puisne Judge"}
+      ],
+      "would_overturn": "Discovery of a second F. Southworth on the Nyasaland bench in 1955-1964, or evidence the biography subject left Nyasaland before 1964 while the staff listing continued under a different person."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Despite the single-initial warning, this is a textbook strong match: the printed entry's 1953 assistant judgeship and 1955 puisne judgeship in Nyasaland are mirrored year-for-year by the staff list, with 10 co-occurring editions. Rare surname (3 officials, 1 biography). The honour FAIL is an artifact: the staff list prints no honours for these rows (bio's Q.C. simply not recorded there)."
+}

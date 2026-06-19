@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q18810574",
+  "persons": [
+    {
+      "bio_id": "hood_alexander_b1888",
+      "stint_ids": ["Hood, Alexander___Bermuda___1950"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: 19 officials and 8 biographies carry the surname Hood, the biography is flagged single-initial, and the position_sim check FAILED at 59 vs bar 60 — so a namesake (e.g. a naval Hood, a family with many Alexanders) could in principle be the Bermuda official. This fails decisively: the position_sim 'failure' is a one-point abbreviation artifact ('gov. and c.-in-c.' is verbatim the same office as 'Governor and Commander-in-Chief'); the biography names the exact colony and year ('gov. and c.-in-c., Berm., 1949') against the stint's Bermuda 1950-1955 listing; the stint carries the same rare honour pair (K.C.B., and G.B.E. in 1951) as the biography's K.C.B. (1943) and G.B.E. (1946); and the staff list's 'Lieut.-Gen. Sir Alexander Hood' matches the biography's military rank ('on mil. serv., 1912-41, lieut.-gen.'). Bermuda had one Governor at a time; no second Lieut.-Gen. Sir Alexander Hood, K.C.B., G.B.E., is plausible.",
+      "evidence_cited": [
+        {"stint_id": "Hood, Alexander___Bermuda___1950", "year": 1950, "fact": "gov. and c.-in-c., Berm., 1949"},
+        {"stint_id": "Hood, Alexander___Bermuda___1950", "year": 1950, "fact": "K.C.B. (1943)"},
+        {"stint_id": "Hood, Alexander___Bermuda___1950", "year": 1951, "fact": "G.B.E. (1946)"},
+        {"stint_id": "Hood, Alexander___Bermuda___1950", "year": 1952, "fact": "Lieut.-Gen. Sir Alexander"}
+      ],
+      "would_overturn": "Evidence that a different Alexander Hood was commissioned Governor of Bermuda in 1949-1955, or that the biography's subject died or vacated the post before 1950 while a namesake succeeded him under the same name and honours."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. The single-initial warning does not bite: both bio and staff list print the full forename 'Alexander', and the staff list adds the distinctive rank and honours. Governor of a colony is a unique office, eliminating the generic-title trap."
+}

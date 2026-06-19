@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_malta_0248",
+  "persons": [
+    {
+      "bio_id": "ransley_g-j_b1900",
+      "stint_ids": ["Ransley, G. J___Malta___1949"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case this is wrong: a same-name relative (e.g., a son or brother also 'G. J. Ransley') could have succeeded to the prisons directorship, or the listing could be an honoured retiree carried after leaving office. Why it fails: the bio states 'dir., prisons, 1944' and the stint shows the singular post 'Director of Prisons' held continuously 1949-1960, exactly the continuation one expects; both initials (G and J) agree, not a single-initial case; the surname is rare (only 3 Ransley officials in the entire staff-list corpus, 1 biography); and the bio and stint co-occur in editions 1955, 1957, 1958 with the matching position (position_sim 78). A successor hypothesis would require the bio's subject to have vacated the post before 1949 with a same-initials namesake taking over — there is no trace of any second G. J. Ransley, and the bio kept being printed with 'dir., prisons' as the current office through 1960, the same years the stint runs. The retiree trap does not apply: the career was current (appointed 1944, aged 49 in 1949).",
+      "evidence_cited": [
+        {"stint_id": "Ransley, G. J___Malta___1949", "year": 1944, "fact": "dir., prisons, 1944"},
+        {"stint_id": "Ransley, G. J___Malta___1949", "year": 1949, "fact": "Director of Prisons"},
+        {"stint_id": "Ransley, G. J___Malta___1949", "year": 1955, "fact": "G. J. Ransley"}
+      ],
+      "would_overturn": "Discovery of a second G. J. Ransley in Malta (e.g., a son appointed Director of Prisons before 1949), or evidence the biography subject died or left the service before 1949 while the staff-list entries continued under another person."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case with two-initial agreement, a specific senior position match (Director of Prisons), tenure continuity from the bio's 1944 appointment, and multi-edition co-occurrence (1955, 1957, 1958). The only weak deterministic signal (place_inherited FAIL) reflects the bio's clause-inheritance formatting, not a substantive doubt: the entry's career is entirely Maltese."
+}

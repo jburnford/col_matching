@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_gemini_ceylon_0004",
+  "persons": [
+    {
+      "bio_id": "crawford_henry-leighton_b1855",
+      "stint_ids": [
+        "Crawford, H. L___Ceylon___1878"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Crawford is a common surname (47 officials, 20 bios) and the bio is only two initials, so a same-initial namesake in the same colony is the live worry. It fails because this is a single uninterrupted Ceylon career, and the stint's office sequence tracks the bio clause-by-clause across 30+ years: Writer 1878 (bio 'writer, Ceylon service, 1877'), Office Assistant 1886 (bio 'office asst. to govt. agt., W. Prov., 1884'), Principal Assistant 1896 (bio 'prin. asst. col. sec., Apr., 1896'), Government Agent / Collector Southern Province 1905 (bio 'govt. agt., S. Prov., Sept., 1904'), Controller of Revenue 1909-11 (bio 'controller of rev., July, 1907'), with C.M.G. first appearing 1907 (bio C.M.G. 1906). These are singular, sequential posts held by one man; a second H. L. Crawford would have to shadow the entire identical progression, which is not credible.",
+      "evidence_cited": [
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1878, "fact": "H. L. Crawford | Writer"},
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1896, "fact": "H. L. Crawford | Principal Assistant"},
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1909, "fact": "H. L. Crawford | Controller of Revenue"},
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1907, "fact": "controller of rev., July, 1907"},
+        {"stint_id": "Crawford, H. L___Ceylon___1878", "year": 1896, "fact": "prin. asst. col. sec., Apr., 1896"}
+      ],
+      "would_overturn": "Evidence of a second H. L. Crawford in the Ceylon service holding the same sequence of offices (Writer, Principal Assistant, Controller of Revenue) -- a duplication of singular posts that the record does not support."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single Ceylon career; the stint's full office progression (Writer -> Office Assistant -> Principal Assistant -> Government Agent -> Controller of Revenue, C.M.G. 1907) matches the bio clause-by-clause across all editions."
+}

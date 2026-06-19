@@ -1,0 +1,22 @@
+{
+  "case_id": "case_adolphus_g-a_e1890",
+  "persons": [
+    {
+      "bio_id": "adolphus_g-a_e1890",
+      "stint_ids": ["Adolphus, G. A___Gold Coast___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: a second G. A. Adolphus on the Gold Coast (a relative, e.g. a son who entered the customs service in 1894 while the biography subject is a different man), or that the staff-list entry is a successor in the same generic junior posts. This fails on several grounds. First, the surname is rare in the corpus (only 3 officials and 2 biographies surname-wide), so the prior on two same-initial Adolphuses serving simultaneously in the same colony is very low. Second, the match is not on a single generic title but on a two-step career trajectory that agrees in both content and timing: the biography's 'Supervisor of customs Gold Coast Col., 1890' matches the stint's Customs department 'First-Class Supervisor' role (1894-96), and the biography's promotion 'asst. treasr., July, 1896' matches the stint's switch to 'Assistant Treasurer' in the Treasury department by the 1897 edition (the expected one-edition compilation lag for a July 1896 appointment). Third, the stint terminates in exactly the year the biography says he left the colony ('asst. treasr., Northern Nigeria, July, 1900'), explaining his disappearance from the Gold Coast staff lists after 1900. A coincidental namesake would have to replicate the same initials, colony, both successive positions, the promotion year, and the departure year. The deterministic FAILs (colony, tenure_overlap, position_sim) are mechanical artifacts: the bio's compiled timeline has no resolved place fields, so there were no placed events to compare, not a substantive disagreement.",
+      "evidence_cited": [
+        {"stint_id": "Adolphus, G. A___Gold Coast___1894", "year": 1890, "fact": "Supervisor of customs Gold Coast Col., 1890"},
+        {"stint_id": "Adolphus, G. A___Gold Coast___1894", "year": 1896, "fact": "First-Class Supervisor"},
+        {"stint_id": "Adolphus, G. A___Gold Coast___1894", "year": 1897, "fact": "Assistant Treasurer"},
+        {"stint_id": "Adolphus, G. A___Gold Coast___1894", "year": 1896, "fact": "asst. treasr., July, 1896"},
+        {"stint_id": "Adolphus, G. A___Gold Coast___1894", "year": 1900, "fact": "asst. treasr., Northern Nigeria, July, 1900"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous G. A. Adolphus in Gold Coast service (e.g. two Adolphus entries in the same Gold Coast staff list year, or a birth/death record showing the biography subject could not have served 1894-1900); or a Northern Nigeria staff list showing this same individual listed there before 1900 while the Gold Coast stint was still running under the same name."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. All deterministic dimension FAILs stem from the bio timeline having no resolved place fields ('no placed event resolves'), not from conflicting evidence. The verbatim bio text supplies the colony (Gold Coast), both positions (customs supervisor, assistant treasurer), the 1896 promotion, and the July 1900 transfer to Northern Nigeria that cleanly explains the stint ending in 1900. Initials G. A. match exactly; surname is rare in the corpus."
+}

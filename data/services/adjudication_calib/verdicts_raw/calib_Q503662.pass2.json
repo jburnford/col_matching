@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q503662",
+  "persons": [
+    {
+      "bio_id": "wright_andrew-barkworth_b1895",
+      "stint_ids": ["Wright, Andrew Barkworth___Cyprus___1951"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: Wright is an extremely common surname (159 officials, 63 biographies in this corpus), so one could posit a second Wright as Governor of Cyprus in 1951-52. But the stint prints the full double forename 'Andrew Barkworth' — a distinctive combination, not an initial — with the honour K.C.M.G., which the biography records as conferred in 1948; and the biography explicitly states the exact appointment: 'gov. and c.-in-c. ... Cyp., 1949', following a 27-year Cyprus career (asst. sec. 1922 through col. sec. 1937 and ag. gov. 1938-39). Governor and Commander-in-Chief of Cyprus is a singular post; two contemporaneous 'Sir Andrew Barkworth Wright, K.C.M.G.' figures is not a live hypothesis. The position_sim FAIL (59 vs bar 60) is a hair's-breadth abbreviation artifact ('gov. and c.-in-c.' vs 'Governor and Commander-in-Chief'). The only loose thread is the C.B. appearing in the 1952 staff-list row but not in the biography's honours line — most plausibly a late award or an OCR/compositor slip — which does not outweigh four independent agreeing dimensions (full name, singular post, place, dates, K.C.M.G.).",
+      "evidence_cited": [
+        {"stint_id": "Wright, Andrew Barkworth___Cyprus___1951", "year": 1951, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Wright, Andrew Barkworth___Cyprus___1951", "year": 1951, "fact": "Sir Andrew Barkworth Wright"},
+        {"stint_id": "Wright, Andrew Barkworth___Cyprus___1951", "year": 1951, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second Andrew Barkworth Wright (e.g. a son with the identical double forename) serving in Cyprus in 1951-53, or a record showing this Wright's Cyprus governorship ended before 1951 with a different appointee of the same full name."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full double forename in the staff list neutralizes the common-surname concern. Biography's 1948 version states 'gov. and c.-in-c., Gam., 1947 ; Cyp., 1949', directly covering the 1951-1953 stint. The unexplained C.B. in the 1952 row is noted for the reviewer but does not create a realistic counter-hypothesis."
+}

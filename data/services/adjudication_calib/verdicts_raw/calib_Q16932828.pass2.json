@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q16932828",
+  "persons": [
+    {
+      "bio_id": "wedderburn_maxwell-maclagan_b1883",
+      "stint_ids": ["Wedderburn, M. M___Ceylon___1919"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: 10 officials and 8 biographies share the surname Wedderburn in the corpus, so another 'M. M. Wedderburn' (a relative or namesake) could be the staff-list person, and many of the biography's place attributions are inherited from earlier clauses (the place_inherited check FAILED), weakening the Ceylon anchor. This fails because the agreement is not on surname or colony alone: the stint's year-by-year offices track the biography's distinctive senior career step-for-step — Assistant Government Agent in 1919 (bio: asst. gov't. agt., Nuwara Eliya, Sept. 1915), Assistant Settlement Officer 1921-23 (bio: asst. settlmt. offr., July 1920), Government Agent 1931 (bio: gov't. agt., W. Prov., Mar. 1931), Deputy Chief Secretary then Chief Secretary 1936-40 (bio: dep. ch. sec. Sept. 1934, ch. sec. Jan. 1936) — and the stint carries C.M.G. from 1936 onward, matching the bio's C.M.G. (1935). Chief Secretary of Ceylon is a unique post, not a generic junior title; two same-initial Wedderburns could not both hold it in 1936-37. No second biography in this case competes for the stint.",
+      "evidence_cited": [
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1920, "fact": "asst. settlmt. offr., July, 1920"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1931, "fact": "gov't. agt., W. Prov., Mar., 1931"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1936, "fact": "ch. sec., Jan., 1936"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1936, "fact": "C.M.G. (1935)"},
+        {"stint_id": "Wedderburn, M. M___Ceylon___1919", "year": 1934, "fact": "dep. ch. sec., Sept., 1934"}
+      ],
+      "would_overturn": "Discovery of a second M. M. Wedderburn in the Ceylon civil service in 1919-1940 (e.g. a son or brother in the staff lists with distinct postings), or evidence that the 1936-37 Chief Secretary of Ceylon was a different person than the C.M.G. (1935) recipient in the biography."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. The 1927-28 staff-list rows ('Additional Commissioner of Requests and Police Magistrate, Northern Circuit') and the 1934 'Commissioner of Lands' row do not appear in the printed biography, but the biography compresses acting/additional duties and the surrounding years (rubber controller 1925, govt. agent N.C. Prov. 1925, ag. ch. sec. 1932) bracket them consistently; they do not raise a live counter-hypothesis. The 1934 'Superintendent Composing Branch' department looks like a staff-list OCR/column artifact."
+}

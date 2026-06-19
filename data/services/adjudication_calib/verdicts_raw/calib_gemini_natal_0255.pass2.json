@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_natal_0255",
+  "persons": [
+    {
+      "bio_id": "lamond_george_e1853",
+      "stint_ids": ["Lamond, G___Natal___1879"],
+      "confidence": "certain",
+      "arguments_against": "The dossier flags the single-initial/namesake trap: the bio is just 'George' (initial G, no middle), there are 2 Lamond officials and 2 Lamond biographies, so a same-name relative could in principle be the staff-list 'G. Lamond', and there is no honour to cross-check (honour FAIL). This fails because the single-initial caution explicitly permits merging when there is a specific position match OR multi-edition co-occurrence -- here both are present and exceptional. The stint's office is a singular, distinctive compound post, 'Registrar of Deeds, and Registrar-General of Births, Deaths, and Marriages', which matches the bio's terminal appointment verbatim ('registrar of deeds and distributor of stamps, and registrar-general of births, deaths, and marriages, 1878', position similarity 100), and the bio's 1878 appointment flows directly into the stint's 1879-1900 tenure with no gap. Five edition-years co-occur at similarity 100. Only one person holds this singular registrarship at a time, so a second G. Lamond cannot account for it.",
+      "evidence_cited": [
+        {"stint_id": "Lamond, G___Natal___1879", "year": 1879, "fact": "registrar of deeds and distributor of stamps, and registrar-general of births, deaths, and marriages, 1878"},
+        {"stint_id": "Lamond, G___Natal___1879", "year": 1883, "fact": "Registrar of Deeds, and Registrar-General"}
+      ],
+      "would_overturn": "Evidence of a second G. Lamond who held the Natal Registrar of Deeds / Registrar-General post would reverse this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial bio cleared by an exact singular-office match plus 5-year edition co-occurrence at similarity 100, and continuity from the bio's 1878 appointment. High-confidence match."
+}

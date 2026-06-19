@@ -1,0 +1,21 @@
+{
+  "case_id": "case_adamson_e_b1921",
+  "persons": [
+    {
+      "bio_id": "adamson_e_b1921",
+      "stint_ids": ["Adamson, E___Singapore___1959"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the biography carries a single initial only ('ADAMSON, E'), the namesake trap explicitly applies, and 22 Adamsons appear in the staff lists, so another E. Adamson could hold the Singapore post; the stint is also gate-compatible with adamson_alfred-edward_b1871 and adamson_st-john-ernest_b1867. All six deterministic checks beyond name/age FAILed, including colony and position_sim. Why this fails: the FAILs are mechanical artifacts. The verbatim bio text places the career squarely in Singapore ('senr. exec. engrn., P.W.D., S'pore, 1955') even though the timeline tool mislabeled the inherited place as Malaya, and 'D.D.P.W., 1958-60' is the standard abbreviation of exactly the stint's printed title 'Deputy Director of Public Works' — a senior, near-unique post, not a generic junior title — held over exactly the stint's listed years 1959-1960. The bio appears in editions 1959 and 1960, matching the stint's editions. The two outside namesakes were born 1871 and 1867 (ages 88 and 92 in 1959), chronologically implausible for a serving Deputy Director, and both are noted as already linked elsewhere or filtered. No live counter-hypothesis survives the combined position + place + year + edition agreement.",
+      "evidence_cited": [
+        {"stint_id": "Adamson, E___Singapore___1959", "year": 1958, "fact": "D.D.P.W., 1958-60"},
+        {"stint_id": "Adamson, E___Singapore___1959", "year": 1959, "fact": "Deputy Director of Public Works"},
+        {"stint_id": "Adamson, E___Singapore___1959", "year": 1955, "fact": "senr. exec. engrn., P.W.D., S'pore, 1955"},
+        {"stint_id": "Adamson, E___Singapore___1959", "year": 1957, "fact": "chief engrn., 1957"}
+      ],
+      "would_overturn": "Evidence of a second E. Adamson serving in Singapore's Public Works Department in the late 1950s (e.g. a staff-list entry with a distinguishing forename or honour, or two simultaneous E. Adamson listings in the 1959/1960 Singapore civil establishment); or evidence that 'D.D.P.W.' in this biography abbreviates a different office than Deputy Director of Public Works."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic colony FAIL is a place-inheritance bug: the compiled timeline inherited 'Malaya' across the 'S'pore' clause, but the verbatim OCR text explicitly moves the career to Singapore in 1955. The position_sim FAIL is an abbreviation miss (D.D.P.W. vs Deputy Director of Public Works). The single-initial trap is satisfied by a strong independent dimension: exact senior-position match with exact year and place agreement, plus edition co-occurrence in 1959 and 1960."
+}

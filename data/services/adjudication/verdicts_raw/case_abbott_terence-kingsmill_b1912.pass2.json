@@ -1,0 +1,40 @@
+{
+  "case_id": "case_abbott_terence-kingsmill_b1912",
+  "persons": [
+    {
+      "bio_id": "abbott_terence-kingsmill_b1912",
+      "stint_ids": [
+        "Abbott, T. K___Seychelles___1949",
+        "Abbott, T. K___North Borneo___1953"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the stints are gate-compatible with two bios outside this case, abbott_t-kings-mill_e1837 and abbott_x_b1914, and 'T. K.' is only an initial pair among 38 Abbotts in the staff lists. Could a different T. K. Abbott (or the b1914 Abbott) be the Seychelles SMO or North Borneo DDMS? This fails for several reasons. First, the position+place+date agreement is not generic: the biography says 'S.M.O., Sey., 1948' and the Seychelles staff list shows T. K. Abbott as 'Senior Medical Officer' from 1949-1951 -- S.M.O. is the standard abbreviation of exactly that title, it is a senior singular post (not a recurring junior title like clerk/cadet), and the listing begins the year after the printed appointment date, exactly as expected. Second, the biography says 'D.D.M.S., N. Borneo, 1951' and the North Borneo staff list shows T. K. Abbott as 'Deputy Director of Medical Services' in 1953-1954 -- again the exact expansion of the abbreviation, again a singular senior medical post, again consistent in date. Third, the two stints form one coherent medical career trajectory (Seychelles SMO 1949-51 ending precisely when the bio's 1951 North Borneo appointment begins, with the North Borneo listing following) that matches the bio's compiled timeline clause for clause. For a second T. K. Abbott medical officer to exist who held these two specific senior posts in these two colonies in these exact years while the bio's subject held identically-described posts would require an essentially impossible coincidence. The position_sim FAILs are abbreviation artifacts ('S.M.O.' vs 'Senior Medical Officer' scores 16 by string fuzz but is an exact semantic match), and the edition_cooccurrence FAIL reflects the normal one-edition lag between appointment and staff-list printing. abbott_t-kings-mill_e1837 is almost certainly an OCR/indexing variant of the same man ('T. Kings-mill' = 'T. Kingsmill'), so it threatens the partition bookkeeping, not the identity; abbott_x_b1914 has no forename, no medical evidence, and nothing tying it to either colony.",
+      "evidence_cited": [
+        {
+          "stint_id": "Abbott, T. K___Seychelles___1949",
+          "year": 1948,
+          "fact": "S.M.O., Seychelles, 1948"
+        },
+        {
+          "stint_id": "Abbott, T. K___Seychelles___1949",
+          "year": 1949,
+          "fact": "Senior Medical Officer"
+        },
+        {
+          "stint_id": "Abbott, T. K___North Borneo___1953",
+          "year": 1951,
+          "fact": "D.D.M.S., N. Borneo, 1951"
+        },
+        {
+          "stint_id": "Abbott, T. K___North Borneo___1953",
+          "year": 1953,
+          "fact": "Deputy Director of Medical Services"
+        }
+      ],
+      "would_overturn": "Evidence that abbott_x_b1914 (or any other contemporaneous Abbott) was a medical officer with initials T. K. who served in Seychelles or North Borneo in 1948-1954; or a staff-list or biographical entry showing the bio's subject demonstrably elsewhere (e.g. still in Tanganyika or invalided out) during 1949-1951 or 1953-1954; or evidence that abbott_t-kings-mill_e1837 is a distinct person (different birth year or divergent career) rather than an OCR variant of this biography."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Both stints are also gate-compatible with abbott_t-kings-mill_e1837, whose id strongly suggests an OCR-split variant of 'T. Kingsmill' Abbott, i.e. the same person as this biography but indexed separately (flagged as 'already linked elsewhere or filtered'). If that bio carries links to these same stints elsewhere in the pipeline, the two bio records should be reconciled as duplicates rather than treated as competing claimants. The deterministic position_sim failures are pure abbreviation mismatches: 'S.M.O.' = 'Senior Medical Officer', 'D.D.M.S.' = 'Deputy Director of Medical Services'."
+}

@@ -1,0 +1,13 @@
+{
+ "gaps_considered": 52619,
+ "recovered_records": 9874,
+ "confirmed_in_ocr": 2171,
+ "surname_only": 7703,
+ "not_in_ocr": 41911,
+ "not_in_ocr_reasons": {
+  "surname_absent": 35121,
+  "surname_present_incompatible_initials": 6790
+ },
+ "section_worklist_files": 1131,
+ "bios_with_recovered_record": 6282
+}

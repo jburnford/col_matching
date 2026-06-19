@@ -1,0 +1,4840 @@
+{
+ "/home/jic823/textasdatacolonialofficelist/1955_manual_parsed/ZANZIBAR.txt": {
+  "state": "done",
+  "n_records": 12,
+  "n_extracted": 22,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1933_manual_parsed/UNFEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 177,
+  "n_extracted": 196,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1957_manual_parsed/ZANZIBAR.txt": {
+  "state": "done",
+  "n_records": 27,
+  "n_extracted": 32,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1956_manual_parsed/ZANZIBAR.txt": {
+  "state": "done",
+  "n_records": 24,
+  "n_extracted": 30,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1960_manual_parsed/kenya.txt": {
+  "state": "done",
+  "n_records": 137,
+  "n_extracted": 147,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/palestine.txt": {
+  "state": "done",
+  "n_records": 7,
+  "n_extracted": 7,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 187,
+  "n_extracted": 235,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 774,
+  "n_extracted": 836,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/MALAYA_FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 868,
+  "n_extracted": 956,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/THE_GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 643,
+  "n_extracted": 655,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1962_manual_parsed/Kenya.txt": {
+  "state": "done",
+  "n_records": 148,
+  "n_extracted": 156,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 1210,
+  "n_extracted": 1243,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1931_manual_parsed/UNFEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 1280,
+  "n_extracted": 1532,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/MALAYA__FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 1040,
+  "n_extracted": 1139,
+  "escalated": true
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/federation_of_malaya.txt": {
+  "state": "done",
+  "n_records": 21,
+  "n_extracted": 21,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/MALAYA_STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 1549,
+  "n_extracted": 1615,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 820,
+  "n_extracted": 957,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1953_manual_parsed/federation_of_malaya.txt": {
+  "state": "done",
+  "n_records": 186,
+  "n_extracted": 216,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/TRANSVAAL.txt": {
+  "state": "done",
+  "n_records": 370,
+  "n_extracted": 394,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1949_manual_parsed/Trinidad_and_Tobago.txt": {
+  "state": "done",
+  "n_records": 225,
+  "n_extracted": 249,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/cape_of_good_hope.txt": {
+  "state": "done",
+  "n_records": 1575,
+  "n_extracted": 1726,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/TRINIDAD.txt": {
+  "state": "done",
+  "n_records": 298,
+  "n_extracted": 333,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/ceylon.txt": {
+  "state": "done",
+  "n_records": 210,
+  "n_extracted": 246,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1963_manual_parsed/kenya.txt": {
+  "state": "done",
+  "n_records": 79,
+  "n_extracted": 79,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/NORTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 18,
+  "n_extracted": 18,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/THE_GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 580,
+  "n_extracted": 593,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 415,
+  "n_extracted": 454,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1956_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 120,
+  "n_extracted": 128,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 543,
+  "n_extracted": 551,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1954_manual_parsed/FEDERATION_OF_MALAYA.txt": {
+  "state": "done",
+  "n_records": 189,
+  "n_extracted": 194,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1953_manual_parsed/nigeria.txt": {
+  "state": "done",
+  "n_records": 172,
+  "n_extracted": 173,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1950_manual_parsed/trinidad_and_tobago.txt": {
+  "state": "done",
+  "n_records": 225,
+  "n_extracted": 246,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 357,
+  "n_extracted": 426,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1954_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 176,
+  "n_extracted": 178,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/CAPE_OF_GOOD_HOPE.txt": {
+  "state": "done",
+  "n_records": 1454,
+  "n_extracted": 1603,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1961_manual_parsed/kenya.txt": {
+  "state": "done",
+  "n_records": 156,
+  "n_extracted": 165,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 318,
+  "n_extracted": 371,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 468,
+  "n_extracted": 499,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1958_manual_parsed/trinidad_and_tobago.txt": {
+  "state": "done",
+  "n_records": 2,
+  "n_extracted": 2,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 92,
+  "n_extracted": 105,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/PALESTINE.txt": {
+  "state": "done",
+  "n_records": 545,
+  "n_extracted": 559,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1955_manual_parsed/MALAYA.txt": {
+  "state": "done",
+  "n_records": 164,
+  "n_extracted": 205,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1924_manual_parsed/NEW_ZEALAND_DEPENDENCIES.txt": {
+  "state": "done",
+  "n_records": 434,
+  "n_extracted": 463,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/THE_GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 625,
+  "n_extracted": 637,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 456,
+  "n_extracted": 463,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/SOUTH_AFRICA.txt": {
+  "state": "done",
+  "n_records": 11,
+  "n_extracted": 12,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1956_manual_parsed/FEDERATION_OF_MALAYA.txt": {
+  "state": "done",
+  "n_records": 129,
+  "n_extracted": 133,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 775,
+  "n_extracted": 782,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 430,
+  "n_extracted": 469,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1931_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 395,
+  "n_extracted": 438,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1952_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 38,
+  "n_extracted": 38,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/MALAYA_STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 1750,
+  "n_extracted": 1844,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/jamaica.txt": {
+  "state": "done",
+  "n_records": 162,
+  "n_extracted": 173,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 220,
+  "n_extracted": 221,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1954_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 112,
+  "n_extracted": 123,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/GOLD_COAST_COLONY.txt": {
+  "state": "done",
+  "n_records": 285,
+  "n_extracted": 298,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/BASUTOLAND.txt": {
+  "state": "done",
+  "n_records": 144,
+  "n_extracted": 150,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1930_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 419,
+  "n_extracted": 478,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1957_manual_parsed/FEDERATION_OF_MALAYA.txt": {
+  "state": "done",
+  "n_records": 142,
+  "n_extracted": 157,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/trinidad.txt": {
+  "state": "done",
+  "n_records": 53,
+  "n_extracted": 63,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1951_manual_parsed/trinidad_and_tobago.txt": {
+  "state": "done",
+  "n_records": 252,
+  "n_extracted": 277,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/canada.txt": {
+  "state": "done",
+  "n_records": 149,
+  "n_extracted": 162,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 461,
+  "n_extracted": 467,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/SOUTH_AFRICA.txt": {
+  "state": "done",
+  "n_records": 1172,
+  "n_extracted": 1264,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/NATAL.txt": {
+  "state": "done",
+  "n_records": 315,
+  "n_extracted": 323,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/cape_of_good_hope.txt": {
+  "state": "done",
+  "n_records": 835,
+  "n_extracted": 903,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/ZANZIBAR.txt": {
+  "state": "done",
+  "n_records": 93,
+  "n_extracted": 112,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/NATAL.txt": {
+  "state": "done",
+  "n_records": 246,
+  "n_extracted": 270,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 195,
+  "n_extracted": 228,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1953_manual_parsed/trinidad_and_tobago.txt": {
+  "state": "done",
+  "n_records": 84,
+  "n_extracted": 86,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 454,
+  "n_extracted": 506,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1918_manual_parsed/FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 258,
+  "n_extracted": 291,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 409,
+  "n_extracted": 451,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1930_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 990,
+  "n_extracted": 1010,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 445,
+  "n_extracted": 495,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/LAGOS.txt": {
+  "state": "done",
+  "n_records": 262,
+  "n_extracted": 266,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/HONG_KONG.txt": {
+  "state": "done",
+  "n_records": 134,
+  "n_extracted": 150,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1928_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 407,
+  "n_extracted": 452,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/NORTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 119,
+  "n_extracted": 121,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/trinidad.txt": {
+  "state": "done",
+  "n_records": 155,
+  "n_extracted": 167,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/JAMAICA.txt": {
+  "state": "done",
+  "n_records": 836,
+  "n_extracted": 880,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 462,
+  "n_extracted": 517,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1928_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 2154,
+  "n_extracted": 2449,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1933_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 416,
+  "n_extracted": 479,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/orange_river_colony.txt": {
+  "state": "done",
+  "n_records": 246,
+  "n_extracted": 267,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/cape_of_good_hope.txt": {
+  "state": "done",
+  "n_records": 433,
+  "n_extracted": 493,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1923_manual_parsed/trinidad_tobago.txt": {
+  "state": "done",
+  "n_records": 608,
+  "n_extracted": 677,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 71,
+  "n_extracted": 88,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 342,
+  "n_extracted": 394,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1933_manual_parsed/PALESTINE.txt": {
+  "state": "done",
+  "n_records": 450,
+  "n_extracted": 470,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1961_manual_parsed/west_indies_jamaica.txt": {
+  "state": "done",
+  "n_records": 150,
+  "n_extracted": 156,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 438,
+  "n_extracted": 480,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/LAGOS.txt": {
+  "state": "done",
+  "n_records": 354,
+  "n_extracted": 359,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/nigeria.txt": {
+  "state": "done",
+  "n_records": 20,
+  "n_extracted": 20,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/SIERRA_LEONE.txt": {
+  "state": "done",
+  "n_records": 190,
+  "n_extracted": 194,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 776,
+  "n_extracted": 782,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/MAURITIUS.txt": {
+  "state": "done",
+  "n_records": 205,
+  "n_extracted": 226,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1962_manual_parsed/The_West_Indies_-_Trinidad_and_Tobago.txt": {
+  "state": "done",
+  "n_records": 114,
+  "n_extracted": 122,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 402,
+  "n_extracted": 453,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 1353,
+  "n_extracted": 1397,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/british_guiana.txt": {
+  "state": "done",
+  "n_records": 185,
+  "n_extracted": 211,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/LEEWARD_ISLANDS_ANTIGUA.txt": {
+  "state": "done",
+  "n_records": 57,
+  "n_extracted": 68,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1924_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 410,
+  "n_extracted": 474,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1957_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 121,
+  "n_extracted": 126,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 451,
+  "n_extracted": 479,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/PALESTINE.txt": {
+  "state": "done",
+  "n_records": 470,
+  "n_extracted": 483,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/SARAWAK.txt": {
+  "state": "done",
+  "n_records": 144,
+  "n_extracted": 157,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 403,
+  "n_extracted": 425,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/HONG_KONG.txt": {
+  "state": "done",
+  "n_records": 364,
+  "n_extracted": 385,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1950_manual_parsed/nigeria.txt": {
+  "state": "done",
+  "n_records": 1887,
+  "n_extracted": 1963,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 584,
+  "n_extracted": 663,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/PALESTINE.txt": {
+  "state": "done",
+  "n_records": 608,
+  "n_extracted": 632,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 3125,
+  "n_extracted": 3295,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 6,
+  "n_extracted": 6,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/BRITISH_EAST_AFRICA_ZANZIBAR_UGANDA.txt": {
+  "state": "done",
+  "n_records": 2,
+  "n_extracted": 2,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/hong_kong.txt": {
+  "state": "done",
+  "n_records": 84,
+  "n_extracted": 96,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 12,
+  "n_extracted": 12,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/the_transvaal.txt": {
+  "state": "done",
+  "n_records": 67,
+  "n_extracted": 78,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/LEEWARD_ISLANDS_ANTIGUA.txt": {
+  "state": "done",
+  "n_records": 50,
+  "n_extracted": 51,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/cyprus.txt": {
+  "state": "done",
+  "n_records": 30,
+  "n_extracted": 40,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1949_manual_parsed/East_Africa_High_Commission.txt": {
+  "state": "done",
+  "n_records": 154,
+  "n_extracted": 164,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/uganda.txt": {
+  "state": "done",
+  "n_records": 15,
+  "n_extracted": 15,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1953_manual_parsed/gold_coast.txt": {
+  "state": "done",
+  "n_records": 121,
+  "n_extracted": 124,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/st_lucia.txt": {
+  "state": "done",
+  "n_records": 38,
+  "n_extracted": 41,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 299,
+  "n_extracted": 321,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/south_australia.txt": {
+  "state": "done",
+  "n_records": 318,
+  "n_extracted": 335,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/ceylon.txt": {
+  "state": "done",
+  "n_records": 103,
+  "n_extracted": 111,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/kenya.txt": {
+  "state": "done",
+  "n_records": 42,
+  "n_extracted": 46,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/DOMINICA.txt": {
+  "state": "done",
+  "n_records": 55,
+  "n_extracted": 70,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/british_guiana.txt": {
+  "state": "done",
+  "n_records": 273,
+  "n_extracted": 297,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 3068,
+  "n_extracted": 3275,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/british_guiana.txt": {
+  "state": "done",
+  "n_records": 304,
+  "n_extracted": 325,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/CANADA.txt": {
+  "state": "done",
+  "n_records": 1536,
+  "n_extracted": 1654,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 490,
+  "n_extracted": 525,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/palestine.txt": {
+  "state": "done",
+  "n_records": 297,
+  "n_extracted": 305,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/FIJI.txt": {
+  "state": "done",
+  "n_records": 213,
+  "n_extracted": 242,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1964_manual_parsed/northern_rhodesia.txt": {
+  "state": "done",
+  "n_records": 107,
+  "n_extracted": 110,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 219,
+  "n_extracted": 226,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/NORTHERN_RHODESIA.txt": {
+  "state": "done",
+  "n_records": 306,
+  "n_extracted": 321,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/RHODESIA.txt": {
+  "state": "done",
+  "n_records": 138,
+  "n_extracted": 145,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/LEEWARD_ISLANDS___ST._CHRISTOPHER_AND_NEVIS.txt": {
+  "state": "done",
+  "n_records": 73,
+  "n_extracted": 86,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 7,
+  "n_extracted": 7,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/the_gold_coast_colony.txt": {
+  "state": "done",
+  "n_records": 152,
+  "n_extracted": 159,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/cape_of_good_hope.txt": {
+  "state": "done",
+  "n_records": 859,
+  "n_extracted": 951,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/straits_settlements.txt": {
+  "state": "done",
+  "n_records": 120,
+  "n_extracted": 130,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/barbados.txt": {
+  "state": "done",
+  "n_records": 203,
+  "n_extracted": 270,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/tanganyika.txt": {
+  "state": "done",
+  "n_records": 33,
+  "n_extracted": 43,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/LEEWARD_ISLANDS_DOMINICA.txt": {
+  "state": "done",
+  "n_records": 68,
+  "n_extracted": 86,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/cape_of_good_hope.txt": {
+  "state": "done",
+  "n_records": 653,
+  "n_extracted": 706,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 414,
+  "n_extracted": 518,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/NATAL.txt": {
+  "state": "done",
+  "n_records": 460,
+  "n_extracted": 496,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 195,
+  "n_extracted": 212,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/straits_settlements.txt": {
+  "state": "done",
+  "n_records": 8,
+  "n_extracted": 8,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/GAMBIA.txt": {
+  "state": "done",
+  "n_records": 49,
+  "n_extracted": 53,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 76,
+  "n_extracted": 79,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/JAMAICA.txt": {
+  "state": "done",
+  "n_records": 523,
+  "n_extracted": 547,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/JAMAICA.txt": {
+  "state": "done",
+  "n_records": 715,
+  "n_extracted": 743,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/rhodesia.txt": {
+  "state": "done",
+  "n_records": 103,
+  "n_extracted": 113,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/LEEWARD_ISLANDS_MONTSERRAT.txt": {
+  "state": "done",
+  "n_records": 15,
+  "n_extracted": 19,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 324,
+  "n_extracted": 349,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/british_guiana.txt": {
+  "state": "done",
+  "n_records": 464,
+  "n_extracted": 501,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 19,
+  "n_extracted": 19,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/SIERRA_LEONE.txt": {
+  "state": "done",
+  "n_records": 211,
+  "n_extracted": 230,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/british_guiana.txt": {
+  "state": "done",
+  "n_records": 396,
+  "n_extracted": 417,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/trinidad.txt": {
+  "state": "done",
+  "n_records": 282,
+  "n_extracted": 317,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/BRITISH_HONDURAS.txt": {
+  "state": "done",
+  "n_records": 83,
+  "n_extracted": 93,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1915_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 461,
+  "n_extracted": 473,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 807,
+  "n_extracted": 829,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/VICTORIA.txt": {
+  "state": "done",
+  "n_records": 291,
+  "n_extracted": 312,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/natal.txt": {
+  "state": "done",
+  "n_records": 229,
+  "n_extracted": 251,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1954_manual_parsed/BECHUANALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 14,
+  "n_extracted": 14,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1954_manual_parsed/BASUTOLAND.txt": {
+  "state": "done",
+  "n_records": 17,
+  "n_extracted": 17,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1933_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 311,
+  "n_extracted": 345,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/ADEN.txt": {
+  "state": "done",
+  "n_records": 47,
+  "n_extracted": 54,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/NATAL.txt": {
+  "state": "done",
+  "n_records": 308,
+  "n_extracted": 316,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1911_manual_parsed/bechuanaland_protectorate.txt": {
+  "state": "done",
+  "n_records": 28,
+  "n_extracted": 31,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/australia-new_south_wales.txt": {
+  "state": "done",
+  "n_records": 189,
+  "n_extracted": 274,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/DOMINION_OF_CANADA.txt": {
+  "state": "done",
+  "n_records": 1109,
+  "n_extracted": 1190,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 843,
+  "n_extracted": 954,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/RHODESIA.txt": {
+  "state": "done",
+  "n_records": 207,
+  "n_extracted": 219,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 809,
+  "n_extracted": 929,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/new_brunswick.txt": {
+  "state": "done",
+  "n_records": 80,
+  "n_extracted": 81,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/bahamas.txt": {
+  "state": "done",
+  "n_records": 77,
+  "n_extracted": 90,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1889_manual_parsed/BRITISH_BECHUANALAND.txt": {
+  "state": "done",
+  "n_records": 37,
+  "n_extracted": 41,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/SOMALILAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 5,
+  "n_extracted": 5,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/western_australia.txt": {
+  "state": "done",
+  "n_records": 82,
+  "n_extracted": 91,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/fiji.txt": {
+  "state": "done",
+  "n_records": 62,
+  "n_extracted": 68,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1889_manual_parsed/LAGOS.txt": {
+  "state": "done",
+  "n_records": 82,
+  "n_extracted": 86,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/uganda.txt": {
+  "state": "done",
+  "n_records": 10,
+  "n_extracted": 10,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/british_honduras.txt": {
+  "state": "done",
+  "n_records": 35,
+  "n_extracted": 41,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/lagos.txt": {
+  "state": "done",
+  "n_records": 194,
+  "n_extracted": 198,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/THE_FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 94,
+  "n_extracted": 98,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 2856,
+  "n_extracted": 3155,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/antigua.txt": {
+  "state": "done",
+  "n_records": 151,
+  "n_extracted": 174,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/LEEWARD_ISLANDS_MONTSERRAT.txt": {
+  "state": "done",
+  "n_records": 37,
+  "n_extracted": 57,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/cyprus.txt": {
+  "state": "done",
+  "n_records": 29,
+  "n_extracted": 29,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/ANTIGUA.txt": {
+  "state": "done",
+  "n_records": 53,
+  "n_extracted": 71,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/BARBADOS.txt": {
+  "state": "done",
+  "n_records": 232,
+  "n_extracted": 291,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/BECHUANALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 55,
+  "n_extracted": 58,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1914_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 412,
+  "n_extracted": 430,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/bahamas.txt": {
+  "state": "done",
+  "n_records": 42,
+  "n_extracted": 46,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1914_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 524,
+  "n_extracted": 600,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/BAHAMAS.txt": {
+  "state": "done",
+  "n_records": 124,
+  "n_extracted": 137,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/victoria.txt": {
+  "state": "done",
+  "n_records": 445,
+  "n_extracted": 481,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/dominica.txt": {
+  "state": "done",
+  "n_records": 11,
+  "n_extracted": 11,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/TRINIDAD.txt": {
+  "state": "done",
+  "n_records": 181,
+  "n_extracted": 205,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 361,
+  "n_extracted": 462,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/PALESTINE.txt": {
+  "state": "done",
+  "n_records": 539,
+  "n_extracted": 560,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/queensland.txt": {
+  "state": "done",
+  "n_records": 225,
+  "n_extracted": 239,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/MALTA.txt": {
+  "state": "done",
+  "n_records": 390,
+  "n_extracted": 465,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/trinidad.txt": {
+  "state": "done",
+  "n_records": 241,
+  "n_extracted": 266,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1911_manual_parsed/basutoland.txt": {
+  "state": "done",
+  "n_records": 40,
+  "n_extracted": 40,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1897_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 283,
+  "n_extracted": 321,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/trinidad.txt": {
+  "state": "done",
+  "n_records": 314,
+  "n_extracted": 362,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/CAPE_OF_GOOD_HOPE.txt": {
+  "state": "done",
+  "n_records": 569,
+  "n_extracted": 627,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/western_australia.txt": {
+  "state": "done",
+  "n_records": 186,
+  "n_extracted": 209,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/FIJI.txt": {
+  "state": "done",
+  "n_records": 155,
+  "n_extracted": 178,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/NEW_ZEALAND.txt": {
+  "state": "done",
+  "n_records": 309,
+  "n_extracted": 338,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/st_christopher_and_nevis.txt": {
+  "state": "done",
+  "n_records": 78,
+  "n_extracted": 87,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/SOUTH_AFRICA.txt": {
+  "state": "done",
+  "n_records": 631,
+  "n_extracted": 690,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/south_australia.txt": {
+  "state": "done",
+  "n_records": 579,
+  "n_extracted": 625,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/FIJI.txt": {
+  "state": "done",
+  "n_records": 150,
+  "n_extracted": 177,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/the_gambia.txt": {
+  "state": "done",
+  "n_records": 13,
+  "n_extracted": 13,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/NATAL.txt": {
+  "state": "done",
+  "n_records": 152,
+  "n_extracted": 159,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/the_gold_coast_colony.txt": {
+  "state": "done",
+  "n_records": 4,
+  "n_extracted": 4,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/nevis.txt": {
+  "state": "done",
+  "n_records": 37,
+  "n_extracted": 46,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/NYASALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 245,
+  "n_extracted": 255,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/dominica.txt": {
+  "state": "done",
+  "n_records": 45,
+  "n_extracted": 55,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/ST_VINCENT.txt": {
+  "state": "done",
+  "n_records": 52,
+  "n_extracted": 60,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/CAPE_OF_GOOD_HOPE.txt": {
+  "state": "done",
+  "n_records": 877,
+  "n_extracted": 982,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/ceylon.txt": {
+  "state": "done",
+  "n_records": 253,
+  "n_extracted": 295,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/natal.txt": {
+  "state": "done",
+  "n_records": 319,
+  "n_extracted": 350,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/ceylon.txt": {
+  "state": "done",
+  "n_records": 282,
+  "n_extracted": 327,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 154,
+  "n_extracted": 163,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/niger_protectorate.txt": {
+  "state": "done",
+  "n_records": 6,
+  "n_extracted": 6,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/BRITISH_CENTRAL_AFRICA.txt": {
+  "state": "done",
+  "n_records": 7,
+  "n_extracted": 8,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/gibraltar.txt": {
+  "state": "done",
+  "n_records": 77,
+  "n_extracted": 86,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/LEEWARD_ISLANDS_DOMINICA.txt": {
+  "state": "done",
+  "n_records": 60,
+  "n_extracted": 75,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/SOUTH_AFRICA.txt": {
+  "state": "done",
+  "n_records": 975,
+  "n_extracted": 1094,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/north_borneo.txt": {
+  "state": "done",
+  "n_records": 58,
+  "n_extracted": 59,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/cyprus.txt": {
+  "state": "done",
+  "n_records": 84,
+  "n_extracted": 99,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/VICTORIA.txt": {
+  "state": "done",
+  "n_records": 274,
+  "n_extracted": 293,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/LEEWARD_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 533,
+  "n_extracted": 654,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/dominica.txt": {
+  "state": "done",
+  "n_records": 64,
+  "n_extracted": 81,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/GRENADA.txt": {
+  "state": "done",
+  "n_records": 57,
+  "n_extracted": 61,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/new_south_wales.txt": {
+  "state": "done",
+  "n_records": 342,
+  "n_extracted": 354,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1924_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 967,
+  "n_extracted": 1069,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/NATAL.txt": {
+  "state": "done",
+  "n_records": 630,
+  "n_extracted": 704,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/jamaica.txt": {
+  "state": "done",
+  "n_records": 101,
+  "n_extracted": 112,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1954_manual_parsed/THE_GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 125,
+  "n_extracted": 133,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/BARBADOS.txt": {
+  "state": "done",
+  "n_records": 221,
+  "n_extracted": 271,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/new_zealand.txt": {
+  "state": "done",
+  "n_records": 242,
+  "n_extracted": 272,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/FIJI.txt": {
+  "state": "done",
+  "n_records": 23,
+  "n_extracted": 23,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/nova_scotia.txt": {
+  "state": "done",
+  "n_records": 70,
+  "n_extracted": 74,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/mauritius.txt": {
+  "state": "done",
+  "n_records": 482,
+  "n_extracted": 545,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1878_manual_parsed/THE_TRANSVAAL.txt": {
+  "state": "done",
+  "n_records": 50,
+  "n_extracted": 59,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1899_manual_parsed/malta.txt": {
+  "state": "done",
+  "n_records": 269,
+  "n_extracted": 326,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/SARAWAK.txt": {
+  "state": "done",
+  "n_records": 98,
+  "n_extracted": 113,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/dominion_of_canada.txt": {
+  "state": "done",
+  "n_records": 1336,
+  "n_extracted": 1446,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/LAGOS.txt": {
+  "state": "done",
+  "n_records": 336,
+  "n_extracted": 351,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/st_lucia.txt": {
+  "state": "done",
+  "n_records": 50,
+  "n_extracted": 56,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/ceylon.txt": {
+  "state": "done",
+  "n_records": 246,
+  "n_extracted": 290,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/barbados.txt": {
+  "state": "done",
+  "n_records": 218,
+  "n_extracted": 252,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/hong_kong.txt": {
+  "state": "done",
+  "n_records": 117,
+  "n_extracted": 139,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/dominion_of_canada.txt": {
+  "state": "done",
+  "n_records": 1053,
+  "n_extracted": 1143,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/the_gold_coast_colony.txt": {
+  "state": "done",
+  "n_records": 223,
+  "n_extracted": 236,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/new_south_wales.txt": {
+  "state": "done",
+  "n_records": 282,
+  "n_extracted": 289,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/HONG_KONG.txt": {
+  "state": "done",
+  "n_records": 167,
+  "n_extracted": 192,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/JAMAICA.txt": {
+  "state": "done",
+  "n_records": 448,
+  "n_extracted": 460,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/dominion_of_canada.txt": {
+  "state": "done",
+  "n_records": 939,
+  "n_extracted": 1006,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1931_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 2006,
+  "n_extracted": 2059,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/DOMINION_OF_CANADA.txt": {
+  "state": "done",
+  "n_records": 1219,
+  "n_extracted": 1304,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/ZANZIBAR.txt": {
+  "state": "done",
+  "n_records": 92,
+  "n_extracted": 93,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/gold_coast.txt": {
+  "state": "done",
+  "n_records": 12,
+  "n_extracted": 12,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/sarawak.txt": {
+  "state": "done",
+  "n_records": 16,
+  "n_extracted": 19,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/sarawak.txt": {
+  "state": "done",
+  "n_records": 41,
+  "n_extracted": 54,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/st_lucia.txt": {
+  "state": "done",
+  "n_records": 104,
+  "n_extracted": 129,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/british_bechuanaland.txt": {
+  "state": "done",
+  "n_records": 46,
+  "n_extracted": 48,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1914_manual_parsed/AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 3378,
+  "n_extracted": 3654,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 365,
+  "n_extracted": 402,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/BAHAMAS.txt": {
+  "state": "done",
+  "n_records": 195,
+  "n_extracted": 214,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/south_africa.txt": {
+  "state": "done",
+  "n_records": 9,
+  "n_extracted": 10,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/south_africa.txt": {
+  "state": "done",
+  "n_records": 9,
+  "n_extracted": 10,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/BARBADOS.txt": {
+  "state": "done",
+  "n_records": 271,
+  "n_extracted": 307,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/cyprus.txt": {
+  "state": "done",
+  "n_records": 71,
+  "n_extracted": 75,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1899_manual_parsed/st_lucia.txt": {
+  "state": "done",
+  "n_records": 56,
+  "n_extracted": 70,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/RHODESIA.txt": {
+  "state": "done",
+  "n_records": 16,
+  "n_extracted": 16,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/gibraltar.txt": {
+  "state": "done",
+  "n_records": 93,
+  "n_extracted": 101,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/straits_settlements.txt": {
+  "state": "done",
+  "n_records": 254,
+  "n_extracted": 260,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/SARAWAK.txt": {
+  "state": "done",
+  "n_records": 27,
+  "n_extracted": 35,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/NEWFOUNDLAND.txt": {
+  "state": "done",
+  "n_records": 25,
+  "n_extracted": 28,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/NORTH_BORNEO.txt": {
+  "state": "done",
+  "n_records": 84,
+  "n_extracted": 98,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 7,
+  "n_extracted": 7,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1918_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 469,
+  "n_extracted": 474,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 261,
+  "n_extracted": 281,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/british_honduras.txt": {
+  "state": "done",
+  "n_records": 117,
+  "n_extracted": 143,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/THE_LEEWARD_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 265,
+  "n_extracted": 357,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/SOUTH_AFRICA.txt": {
+  "state": "done",
+  "n_records": 48,
+  "n_extracted": 53,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/BASUTOLAND.txt": {
+  "state": "done",
+  "n_records": 39,
+  "n_extracted": 39,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/GRENA_DA.txt": {
+  "state": "done",
+  "n_records": 67,
+  "n_extracted": 67,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/SWAZILAND.txt": {
+  "state": "done",
+  "n_records": 48,
+  "n_extracted": 52,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/VICTORIA.txt": {
+  "state": "done",
+  "n_records": 204,
+  "n_extracted": 221,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/ceylon.txt": {
+  "state": "done",
+  "n_records": 313,
+  "n_extracted": 365,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/ST_CHRISTOPHER_AND_NEVIS.txt": {
+  "state": "done",
+  "n_records": 37,
+  "n_extracted": 45,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/antigua.txt": {
+  "state": "done",
+  "n_records": 76,
+  "n_extracted": 96,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/WESTERN_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 317,
+  "n_extracted": 369,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 316,
+  "n_extracted": 347,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 190,
+  "n_extracted": 195,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/gold_coast.txt": {
+  "state": "done",
+  "n_records": 13,
+  "n_extracted": 14,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1958_manual_parsed/west_indies_federation.txt": {
+  "state": "done",
+  "n_records": 479,
+  "n_extracted": 503,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/GRIQUALAND_WEST.txt": {
+  "state": "done",
+  "n_records": 65,
+  "n_extracted": 67,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/griqualand_west.txt": {
+  "state": "done",
+  "n_records": 53,
+  "n_extracted": 59,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/WEST_AFRICA_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 100,
+  "n_extracted": 109,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 191,
+  "n_extracted": 229,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/leeward_islands.txt": {
+  "state": "done",
+  "n_records": 172,
+  "n_extracted": 210,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/MAURITIUS.txt": {
+  "state": "done",
+  "n_records": 431,
+  "n_extracted": 509,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/british_bechuanaland.txt": {
+  "state": "done",
+  "n_records": 65,
+  "n_extracted": 66,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/mauritius.txt": {
+  "state": "done",
+  "n_records": 450,
+  "n_extracted": 532,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1889_manual_parsed/FIJI.txt": {
+  "state": "done",
+  "n_records": 92,
+  "n_extracted": 114,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1889_manual_parsed/SIERRA_LEONE.txt": {
+  "state": "done",
+  "n_records": 49,
+  "n_extracted": 52,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1899_manual_parsed/bechuanaland_protectorate.txt": {
+  "state": "done",
+  "n_records": 24,
+  "n_extracted": 24,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/natal.txt": {
+  "state": "done",
+  "n_records": 233,
+  "n_extracted": 248,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 1207,
+  "n_extracted": 1236,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/south_australia.txt": {
+  "state": "done",
+  "n_records": 556,
+  "n_extracted": 600,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/WINDWARD_ISLANDS_GRENADA.txt": {
+  "state": "done",
+  "n_records": 96,
+  "n_extracted": 108,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 192,
+  "n_extracted": 199,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 52,
+  "n_extracted": 54,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 333,
+  "n_extracted": 356,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 175,
+  "n_extracted": 188,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/natal.txt": {
+  "state": "done",
+  "n_records": 406,
+  "n_extracted": 435,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/trinidad.txt": {
+  "state": "done",
+  "n_records": 281,
+  "n_extracted": 325,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1924_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 1435,
+  "n_extracted": 1470,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/cape_of_good_hope.txt": {
+  "state": "done",
+  "n_records": 760,
+  "n_extracted": 828,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/ST._LUCIA.txt": {
+  "state": "done",
+  "n_records": 82,
+  "n_extracted": 94,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/NEW_SOUTH_WALES.txt": {
+  "state": "done",
+  "n_records": 678,
+  "n_extracted": 708,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 524,
+  "n_extracted": 619,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 3051,
+  "n_extracted": 3285,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/MONTSERRAT.txt": {
+  "state": "done",
+  "n_records": 25,
+  "n_extracted": 37,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/grenada.txt": {
+  "state": "done",
+  "n_records": 120,
+  "n_extracted": 135,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1924_manual_parsed/UNFEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 95,
+  "n_extracted": 109,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/lagos.txt": {
+  "state": "done",
+  "n_records": 30,
+  "n_extracted": 32,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/GIBRALTAR.txt": {
+  "state": "done",
+  "n_records": 91,
+  "n_extracted": 103,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/western_pacific_high_commission.txt": {
+  "state": "done",
+  "n_records": 26,
+  "n_extracted": 26,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/newfoundland.txt": {
+  "state": "done",
+  "n_records": 101,
+  "n_extracted": 114,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/st_lucia.txt": {
+  "state": "done",
+  "n_records": 54,
+  "n_extracted": 62,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/HONG_KONG.txt": {
+  "state": "done",
+  "n_records": 109,
+  "n_extracted": 124,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/grenada_windward.txt": {
+  "state": "done",
+  "n_records": 55,
+  "n_extracted": 64,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/british_columbia.txt": {
+  "state": "done",
+  "n_records": 87,
+  "n_extracted": 91,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1889_manual_parsed/MALTA.txt": {
+  "state": "done",
+  "n_records": 220,
+  "n_extracted": 260,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/THE_LEEWARD_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 229,
+  "n_extracted": 279,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 264,
+  "n_extracted": 306,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1919_manual_parsed/AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 3957,
+  "n_extracted": 4211,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1899_manual_parsed/grenada.txt": {
+  "state": "done",
+  "n_records": 71,
+  "n_extracted": 77,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/british_honduras.txt": {
+  "state": "done",
+  "n_records": 58,
+  "n_extracted": 69,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/BASUTOLAND.txt": {
+  "state": "done",
+  "n_records": 50,
+  "n_extracted": 51,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 102,
+  "n_extracted": 112,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/BRITISH_HONDURAS.txt": {
+  "state": "done",
+  "n_records": 82,
+  "n_extracted": 86,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/hong_kong.txt": {
+  "state": "done",
+  "n_records": 152,
+  "n_extracted": 166,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/st_christopher_and_nevis.txt": {
+  "state": "done",
+  "n_records": 71,
+  "n_extracted": 79,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/victoria.txt": {
+  "state": "done",
+  "n_records": 314,
+  "n_extracted": 334,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/NORTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 220,
+  "n_extracted": 221,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1899_manual_parsed/st_vincent.txt": {
+  "state": "done",
+  "n_records": 46,
+  "n_extracted": 57,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/NORTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 223,
+  "n_extracted": 225,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/MAURITIUS.txt": {
+  "state": "done",
+  "n_records": 177,
+  "n_extracted": 198,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 360,
+  "n_extracted": 388,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/australia-queensland.txt": {
+  "state": "done",
+  "n_records": 106,
+  "n_extracted": 109,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/ST._VINCENT.txt": {
+  "state": "done",
+  "n_records": 72,
+  "n_extracted": 82,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/st_vincent.txt": {
+  "state": "done",
+  "n_records": 77,
+  "n_extracted": 81,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/SOMALILAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 82,
+  "n_extracted": 88,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1889_manual_parsed/NEW_SOUTH_WALES.txt": {
+  "state": "done",
+  "n_records": 381,
+  "n_extracted": 400,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/NORTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 254,
+  "n_extracted": 261,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/TOGOLAND.txt": {
+  "state": "done",
+  "n_records": 527,
+  "n_extracted": 551,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/ST_LUCIA.txt": {
+  "state": "done",
+  "n_records": 51,
+  "n_extracted": 63,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/KEDAH.txt": {
+  "state": "done",
+  "n_records": 8,
+  "n_extracted": 10,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/SIERRA_LEONE.txt": {
+  "state": "done",
+  "n_records": 297,
+  "n_extracted": 303,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/JAMAICA.txt": {
+  "state": "done",
+  "n_records": 775,
+  "n_extracted": 792,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/BRUNEI.txt": {
+  "state": "done",
+  "n_records": 11,
+  "n_extracted": 11,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 1620,
+  "n_extracted": 1668,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/bahamas.txt": {
+  "state": "done",
+  "n_records": 67,
+  "n_extracted": 73,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/northern_rhodesia.txt": {
+  "state": "done",
+  "n_records": 17,
+  "n_extracted": 21,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/QUEENSLAND.txt": {
+  "state": "done",
+  "n_records": 110,
+  "n_extracted": 120,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/st_vincent.txt": {
+  "state": "done",
+  "n_records": 55,
+  "n_extracted": 61,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/NORTH_BORNEO.txt": {
+  "state": "done",
+  "n_records": 58,
+  "n_extracted": 63,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/gambia.txt": {
+  "state": "done",
+  "n_records": 131,
+  "n_extracted": 134,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/victoria.txt": {
+  "state": "done",
+  "n_records": 335,
+  "n_extracted": 351,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/SIERRA_LEONE.txt": {
+  "state": "done",
+  "n_records": 101,
+  "n_extracted": 111,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/south_africa.txt": {
+  "state": "done",
+  "n_records": 14,
+  "n_extracted": 14,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/st_vincent.txt": {
+  "state": "done",
+  "n_records": 34,
+  "n_extracted": 39,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/WINDWARD_ISLANDS___ST._VINCENT.txt": {
+  "state": "done",
+  "n_records": 38,
+  "n_extracted": 43,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/ontario.txt": {
+  "state": "done",
+  "n_records": 296,
+  "n_extracted": 389,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/WESTERN_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 89,
+  "n_extracted": 103,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 370,
+  "n_extracted": 390,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/st_lucia.txt": {
+  "state": "done",
+  "n_records": 59,
+  "n_extracted": 73,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/THE_GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 429,
+  "n_extracted": 437,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/BECHUANALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 20,
+  "n_extracted": 23,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/south_australia.txt": {
+  "state": "done",
+  "n_records": 333,
+  "n_extracted": 361,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/FIJI.txt": {
+  "state": "done",
+  "n_records": 116,
+  "n_extracted": 132,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/BRITISH_HONDURAS.txt": {
+  "state": "done",
+  "n_records": 80,
+  "n_extracted": 85,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/MALTA.txt": {
+  "state": "done",
+  "n_records": 265,
+  "n_extracted": 324,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/MAURITIUS.txt": {
+  "state": "done",
+  "n_records": 464,
+  "n_extracted": 525,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1931_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 1706,
+  "n_extracted": 2200,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/bahamas.txt": {
+  "state": "done",
+  "n_records": 80,
+  "n_extracted": 93,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/MAURITIUS.txt": {
+  "state": "done",
+  "n_records": 406,
+  "n_extracted": 473,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/NEW_ZEALAND.txt": {
+  "state": "done",
+  "n_records": 280,
+  "n_extracted": 296,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/NORTH_BORNEO.txt": {
+  "state": "done",
+  "n_records": 82,
+  "n_extracted": 87,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/VICTORIA.txt": {
+  "state": "done",
+  "n_records": 327,
+  "n_extracted": 353,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/ST_VINCENT.txt": {
+  "state": "done",
+  "n_records": 60,
+  "n_extracted": 71,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/barbados.txt": {
+  "state": "done",
+  "n_records": 239,
+  "n_extracted": 298,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/jamaica.txt": {
+  "state": "done",
+  "n_records": 536,
+  "n_extracted": 570,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/bechuanaland_protectorate.txt": {
+  "state": "done",
+  "n_records": 38,
+  "n_extracted": 41,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1919_manual_parsed/FEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 244,
+  "n_extracted": 271,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/ORANGE_RIVER_COLONY.txt": {
+  "state": "done",
+  "n_records": 634,
+  "n_extracted": 675,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/RHODESIA.txt": {
+  "state": "done",
+  "n_records": 133,
+  "n_extracted": 145,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 431,
+  "n_extracted": 498,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/BERMUDA.txt": {
+  "state": "done",
+  "n_records": 118,
+  "n_extracted": 142,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/tanganyika_territory.txt": {
+  "state": "done",
+  "n_records": 395,
+  "n_extracted": 399,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/NEW_ZEALAND.txt": {
+  "state": "done",
+  "n_records": 296,
+  "n_extracted": 312,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1923_manual_parsed/palestine.txt": {
+  "state": "done",
+  "n_records": 272,
+  "n_extracted": 274,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/TANGANYIKA.txt": {
+  "state": "done",
+  "n_records": 499,
+  "n_extracted": 505,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1930_manual_parsed/WESTERN_PACIFIC.txt": {
+  "state": "done",
+  "n_records": 95,
+  "n_extracted": 100,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 892,
+  "n_extracted": 915,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1919_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 470,
+  "n_extracted": 482,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/HONG_KONG.txt": {
+  "state": "done",
+  "n_records": 176,
+  "n_extracted": 181,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 1455,
+  "n_extracted": 1505,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 487,
+  "n_extracted": 554,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/BERMUDA.txt": {
+  "state": "done",
+  "n_records": 39,
+  "n_extracted": 40,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 366,
+  "n_extracted": 378,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/british_guiana.txt": {
+  "state": "done",
+  "n_records": 45,
+  "n_extracted": 52,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/zanzibar.txt": {
+  "state": "done",
+  "n_records": 15,
+  "n_extracted": 17,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/BRITISH_HONDURAS.txt": {
+  "state": "done",
+  "n_records": 1831,
+  "n_extracted": 1949,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/mauritius.txt": {
+  "state": "done",
+  "n_records": 27,
+  "n_extracted": 31,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/barbados.txt": {
+  "state": "done",
+  "n_records": 76,
+  "n_extracted": 80,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/SEYCHELLES.txt": {
+  "state": "done",
+  "n_records": 27,
+  "n_extracted": 34,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/st_helena.txt": {
+  "state": "done",
+  "n_records": 26,
+  "n_extracted": 27,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/fiji.txt": {
+  "state": "done",
+  "n_records": 56,
+  "n_extracted": 62,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/st_christophers_and_anguilla_and_nevis.txt": {
+  "state": "done",
+  "n_records": 45,
+  "n_extracted": 56,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/BAHAMAS.txt": {
+  "state": "done",
+  "n_records": 69,
+  "n_extracted": 72,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1955_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 204,
+  "n_extracted": 206,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1964_manual_parsed/nyasaland.txt": {
+  "state": "done",
+  "n_records": 61,
+  "n_extracted": 64,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 1143,
+  "n_extracted": 1421,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/HONG_KONG.txt": {
+  "state": "done",
+  "n_records": 78,
+  "n_extracted": 101,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/labuan.txt": {
+  "state": "done",
+  "n_records": 7,
+  "n_extracted": 11,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1879_manual_parsed/grenada_windward.txt": {
+  "state": "done",
+  "n_records": 61,
+  "n_extracted": 74,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1879_manual_parsed/west_africa.txt": {
+  "state": "done",
+  "n_records": 44,
+  "n_extracted": 44,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1879_manual_parsed/griqualand_west.txt": {
+  "state": "done",
+  "n_records": 51,
+  "n_extracted": 57,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/HONG_KONG.txt": {
+  "state": "done",
+  "n_records": 316,
+  "n_extracted": 328,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1878_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 486,
+  "n_extracted": 514,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/SOUTHERN_RHODESIA.txt": {
+  "state": "done",
+  "n_records": 240,
+  "n_extracted": 256,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1889_manual_parsed/BRITISH_NEW_GUINEA.txt": {
+  "state": "done",
+  "n_records": 3,
+  "n_extracted": 3,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 151,
+  "n_extracted": 166,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 65,
+  "n_extracted": 72,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/the_windward_islands.txt": {
+  "state": "done",
+  "n_records": 7,
+  "n_extracted": 7,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/niger_coast_protectorate.txt": {
+  "state": "done",
+  "n_records": 46,
+  "n_extracted": 48,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/montserrat.txt": {
+  "state": "done",
+  "n_records": 15,
+  "n_extracted": 17,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/antigua.txt": {
+  "state": "done",
+  "n_records": 145,
+  "n_extracted": 175,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/NEW_ZEALAND.txt": {
+  "state": "done",
+  "n_records": 306,
+  "n_extracted": 339,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/WINDWARD_ISLANDS___ST._LUCIA.txt": {
+  "state": "done",
+  "n_records": 58,
+  "n_extracted": 69,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/LEEWARD_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 133,
+  "n_extracted": 165,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/antigua.txt": {
+  "state": "done",
+  "n_records": 56,
+  "n_extracted": 61,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/sarawak.txt": {
+  "state": "done",
+  "n_records": 28,
+  "n_extracted": 29,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/leeward_islands.txt": {
+  "state": "done",
+  "n_records": 13,
+  "n_extracted": 13,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/dominica.txt": {
+  "state": "done",
+  "n_records": 35,
+  "n_extracted": 36,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/TRINIDAD.txt": {
+  "state": "done",
+  "n_records": 268,
+  "n_extracted": 307,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/st_vincent.txt": {
+  "state": "done",
+  "n_records": 57,
+  "n_extracted": 61,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/BAHAMAS.txt": {
+  "state": "done",
+  "n_records": 85,
+  "n_extracted": 105,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1897_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 263,
+  "n_extracted": 284,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/ZULULAND.txt": {
+  "state": "done",
+  "n_records": 70,
+  "n_extracted": 80,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/DOMINION_OF_CANADA.txt": {
+  "state": "done",
+  "n_records": 1130,
+  "n_extracted": 1232,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/jamaica.txt": {
+  "state": "done",
+  "n_records": 464,
+  "n_extracted": 490,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/BAHAMAS.txt": {
+  "state": "done",
+  "n_records": 111,
+  "n_extracted": 125,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/labuan.txt": {
+  "state": "done",
+  "n_records": 174,
+  "n_extracted": 205,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/montserrat.txt": {
+  "state": "done",
+  "n_records": 32,
+  "n_extracted": 46,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 134,
+  "n_extracted": 138,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/QUEENSLAND.txt": {
+  "state": "done",
+  "n_records": 126,
+  "n_extracted": 135,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/BRITISH_COLUMBIA.txt": {
+  "state": "done",
+  "n_records": 202,
+  "n_extracted": 215,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/THE_GAMBIA.txt": {
+  "state": "done",
+  "n_records": 90,
+  "n_extracted": 103,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/northern_territory.txt": {
+  "state": "done",
+  "n_records": 40,
+  "n_extracted": 43,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/st._lucia.txt": {
+  "state": "done",
+  "n_records": 64,
+  "n_extracted": 73,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/BECHUANALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 26,
+  "n_extracted": 29,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/NEW_SOUTH_WALES.txt": {
+  "state": "done",
+  "n_records": 522,
+  "n_extracted": 551,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/british_columbia.txt": {
+  "state": "done",
+  "n_records": 84,
+  "n_extracted": 87,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1899_manual_parsed/leeward_islands.txt": {
+  "state": "done",
+  "n_records": 507,
+  "n_extracted": 643,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/cape_of_good_hope.txt": {
+  "state": "done",
+  "n_records": 1201,
+  "n_extracted": 1345,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/LEEWARD_ISLANDS_ST_CHRISTOPHER_NEVIS.txt": {
+  "state": "done",
+  "n_records": 100,
+  "n_extracted": 111,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/trinidad.txt": {
+  "state": "done",
+  "n_records": 384,
+  "n_extracted": 450,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/new_zealand.txt": {
+  "state": "done",
+  "n_records": 330,
+  "n_extracted": 347,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1910_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 474,
+  "n_extracted": 562,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1911_manual_parsed/southern_nigeria.txt": {
+  "state": "done",
+  "n_records": 940,
+  "n_extracted": 952,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/western_australia.txt": {
+  "state": "done",
+  "n_records": 369,
+  "n_extracted": 446,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/NEW_SOUTH_WALES.txt": {
+  "state": "done",
+  "n_records": 493,
+  "n_extracted": 528,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/TASMANIA.txt": {
+  "state": "done",
+  "n_records": 271,
+  "n_extracted": 281,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/GAMBIA.txt": {
+  "state": "done",
+  "n_records": 96,
+  "n_extracted": 113,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1919_manual_parsed/LABUAN.txt": {
+  "state": "done",
+  "n_records": 5,
+  "n_extracted": 5,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/SOUTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 653,
+  "n_extracted": 658,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/SIERRA_LEONE.txt": {
+  "state": "done",
+  "n_records": 258,
+  "n_extracted": 273,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/montserrat.txt": {
+  "state": "done",
+  "n_records": 32,
+  "n_extracted": 43,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1911_manual_parsed/east_africa_protectorate.txt": {
+  "state": "done",
+  "n_records": 264,
+  "n_extracted": 272,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/WESTERN_PACIFIC.txt": {
+  "state": "done",
+  "n_records": 74,
+  "n_extracted": 77,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/BRITISH_HONDURAS.txt": {
+  "state": "done",
+  "n_records": 114,
+  "n_extracted": 118,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/straits_settlements.txt": {
+  "state": "done",
+  "n_records": 564,
+  "n_extracted": 666,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1931_manual_parsed/SARAWAK.txt": {
+  "state": "done",
+  "n_records": 205,
+  "n_extracted": 218,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/NORTH_BORNEO.txt": {
+  "state": "done",
+  "n_records": 190,
+  "n_extracted": 207,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/JOHORE.txt": {
+  "state": "done",
+  "n_records": 79,
+  "n_extracted": 81,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/mauritius.txt": {
+  "state": "done",
+  "n_records": 382,
+  "n_extracted": 427,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/THE_GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 549,
+  "n_extracted": 566,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1923_manual_parsed/zanzibar.txt": {
+  "state": "done",
+  "n_records": 197,
+  "n_extracted": 198,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/hong_kong.txt": {
+  "state": "done",
+  "n_records": 1,
+  "n_extracted": 1,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1937_manual_parsed/NORTH_BORNEO.txt": {
+  "state": "done",
+  "n_records": 57,
+  "n_extracted": 61,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/NEW_HEBRIDES.txt": {
+  "state": "done",
+  "n_records": 8,
+  "n_extracted": 8,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/gibraltar.txt": {
+  "state": "done",
+  "n_records": 39,
+  "n_extracted": 44,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/MALTA.txt": {
+  "state": "done",
+  "n_records": 27,
+  "n_extracted": 35,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 503,
+  "n_extracted": 513,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/prince_edward_island.txt": {
+  "state": "done",
+  "n_records": 68,
+  "n_extracted": 74,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1963_manual_parsed/north_borneo.txt": {
+  "state": "done",
+  "n_records": 54,
+  "n_extracted": 57,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/tobago.txt": {
+  "state": "done",
+  "n_records": 40,
+  "n_extracted": 57,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 413,
+  "n_extracted": 421,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1915_manual_parsed/AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 3369,
+  "n_extracted": 3615,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/nigeria.txt": {
+  "state": "done",
+  "n_records": 41,
+  "n_extracted": 41,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/THE_COMMONWEALTH.txt": {
+  "state": "done",
+  "n_records": 236,
+  "n_extracted": 251,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/fiji.txt": {
+  "state": "done",
+  "n_records": 47,
+  "n_extracted": 56,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/sarawak.txt": {
+  "state": "done",
+  "n_records": 751,
+  "n_extracted": 809,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1931_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 562,
+  "n_extracted": 638,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/WESTERN_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 106,
+  "n_extracted": 114,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1878_manual_parsed/VIRGIN_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 43,
+  "n_extracted": 48,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/tasmania.txt": {
+  "state": "done",
+  "n_records": 113,
+  "n_extracted": 126,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/leeward_islands.txt": {
+  "state": "done",
+  "n_records": 176,
+  "n_extracted": 220,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/ST_HELENA.txt": {
+  "state": "done",
+  "n_records": 18,
+  "n_extracted": 20,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/FIJI.txt": {
+  "state": "done",
+  "n_records": 122,
+  "n_extracted": 141,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/MALTA.txt": {
+  "state": "done",
+  "n_records": 359,
+  "n_extracted": 431,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/tasmania.txt": {
+  "state": "done",
+  "n_records": 138,
+  "n_extracted": 155,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/jamaica.txt": {
+  "state": "done",
+  "n_records": 437,
+  "n_extracted": 446,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/TRINIDAD.txt": {
+  "state": "done",
+  "n_records": 276,
+  "n_extracted": 310,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/MALAYA_STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 631,
+  "n_extracted": 713,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 754,
+  "n_extracted": 764,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/TASMANIA.txt": {
+  "state": "done",
+  "n_records": 241,
+  "n_extracted": 251,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/WINDWARD_ISLANDS___GRENADA.txt": {
+  "state": "done",
+  "n_records": 52,
+  "n_extracted": 52,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/imperial_british_east_african_company.txt": {
+  "state": "done",
+  "n_records": 4,
+  "n_extracted": 4,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/PALESTINE.txt": {
+  "state": "done",
+  "n_records": 373,
+  "n_extracted": 387,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/bahamas.txt": {
+  "state": "done",
+  "n_records": 91,
+  "n_extracted": 110,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/labuan.txt": {
+  "state": "done",
+  "n_records": 4,
+  "n_extracted": 5,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/british_north_borneo.txt": {
+  "state": "done",
+  "n_records": 39,
+  "n_extracted": 41,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/the_windward_islands.txt": {
+  "state": "done",
+  "n_records": 10,
+  "n_extracted": 10,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/MALTA.txt": {
+  "state": "done",
+  "n_records": 220,
+  "n_extracted": 261,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/grenada.txt": {
+  "state": "done",
+  "n_records": 75,
+  "n_extracted": 84,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/zululand.txt": {
+  "state": "done",
+  "n_records": 47,
+  "n_extracted": 50,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/tobago.txt": {
+  "state": "done",
+  "n_records": 20,
+  "n_extracted": 25,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/THE_WINDWARD_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 360,
+  "n_extracted": 397,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/mauritius.txt": {
+  "state": "done",
+  "n_records": 451,
+  "n_extracted": 516,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 276,
+  "n_extracted": 311,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/labuan.txt": {
+  "state": "done",
+  "n_records": 6,
+  "n_extracted": 6,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/sierra_leone.txt": {
+  "state": "done",
+  "n_records": 169,
+  "n_extracted": 184,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/hong_kong.txt": {
+  "state": "done",
+  "n_records": 129,
+  "n_extracted": 143,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/BRITISH_NEW_GUINEA.txt": {
+  "state": "done",
+  "n_records": 21,
+  "n_extracted": 23,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1897_manual_parsed/NIGER_COAST_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 91,
+  "n_extracted": 98,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/LEEWARD_ISLANDS_ST_CHRISTOPHER_NEVIS.txt": {
+  "state": "done",
+  "n_records": 78,
+  "n_extracted": 90,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/hong_kong.txt": {
+  "state": "done",
+  "n_records": 84,
+  "n_extracted": 109,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/ST_HELENA.txt": {
+  "state": "done",
+  "n_records": 27,
+  "n_extracted": 33,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/SEYCHELLES.txt": {
+  "state": "done",
+  "n_records": 35,
+  "n_extracted": 37,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/GIBRALTAR.txt": {
+  "state": "done",
+  "n_records": 94,
+  "n_extracted": 103,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/natal.txt": {
+  "state": "done",
+  "n_records": 134,
+  "n_extracted": 143,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/jamaica.txt": {
+  "state": "done",
+  "n_records": 442,
+  "n_extracted": 460,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/nova_scotia.txt": {
+  "state": "done",
+  "n_records": 89,
+  "n_extracted": 93,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 387,
+  "n_extracted": 411,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/SIERRA_LEONE.txt": {
+  "state": "done",
+  "n_records": 186,
+  "n_extracted": 200,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/st_christopher_and_nevis.txt": {
+  "state": "done",
+  "n_records": 116,
+  "n_extracted": 151,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/SIERRA_LEONE.txt": {
+  "state": "done",
+  "n_records": 260,
+  "n_extracted": 282,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/st._vincent.txt": {
+  "state": "done",
+  "n_records": 173,
+  "n_extracted": 188,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/western_australia.txt": {
+  "state": "done",
+  "n_records": 213,
+  "n_extracted": 247,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/the_gold_coast_colony.txt": {
+  "state": "done",
+  "n_records": 231,
+  "n_extracted": 241,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1911_manual_parsed/swaziland.txt": {
+  "state": "done",
+  "n_records": 11,
+  "n_extracted": 11,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1911_manual_parsed/southern_rhodesia_administration.txt": {
+  "state": "done",
+  "n_records": 118,
+  "n_extracted": 122,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/TASMANIA.txt": {
+  "state": "done",
+  "n_records": 513,
+  "n_extracted": 545,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/new_zealand.txt": {
+  "state": "done",
+  "n_records": 273,
+  "n_extracted": 307,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/DOMINION_OF_CANADA.txt": {
+  "state": "done",
+  "n_records": 1280,
+  "n_extracted": 1402,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1911_manual_parsed/straits_settlements.txt": {
+  "state": "done",
+  "n_records": 397,
+  "n_extracted": 470,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1914_manual_parsed/WESTERN_PACIFIC.txt": {
+  "state": "done",
+  "n_records": 35,
+  "n_extracted": 35,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/BECHUANALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 34,
+  "n_extracted": 36,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1911_manual_parsed/somaliland_protectorate.txt": {
+  "state": "done",
+  "n_records": 640,
+  "n_extracted": 685,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 400,
+  "n_extracted": 436,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/british_guiana.txt": {
+  "state": "done",
+  "n_records": 454,
+  "n_extracted": 492,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 475,
+  "n_extracted": 666,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1919_manual_parsed/BRUNEI.txt": {
+  "state": "done",
+  "n_records": 6,
+  "n_extracted": 6,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1918_manual_parsed/NORTH_BORNEO.txt": {
+  "state": "done",
+  "n_records": 110,
+  "n_extracted": 117,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1924_manual_parsed/GILBERT_AND_ELLICE_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 50,
+  "n_extracted": 51,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/zanzibar.txt": {
+  "state": "done",
+  "n_records": 62,
+  "n_extracted": 64,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1923_manual_parsed/rhodesia.txt": {
+  "state": "done",
+  "n_records": 71,
+  "n_extracted": 71,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/FIJI.txt": {
+  "state": "done",
+  "n_records": 323,
+  "n_extracted": 348,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/ST_VINCENT.txt": {
+  "state": "done",
+  "n_records": 47,
+  "n_extracted": 52,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/GRENADA.txt": {
+  "state": "done",
+  "n_records": 54,
+  "n_extracted": 60,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 370,
+  "n_extracted": 372,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 461,
+  "n_extracted": 462,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1934_manual_parsed/NORTH_BORNEO.txt": {
+  "state": "done",
+  "n_records": 56,
+  "n_extracted": 63,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/SOUTH_AFRICA.txt": {
+  "state": "done",
+  "n_records": 1174,
+  "n_extracted": 1267,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 207,
+  "n_extracted": 255,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 311,
+  "n_extracted": 333,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1933_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 152,
+  "n_extracted": 164,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/JAMAICA.txt": {
+  "state": "done",
+  "n_records": 647,
+  "n_extracted": 672,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/SOMALILAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 38,
+  "n_extracted": 38,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/aden.txt": {
+  "state": "done",
+  "n_records": 34,
+  "n_extracted": 40,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/THE_GAMBIA.txt": {
+  "state": "done",
+  "n_records": 66,
+  "n_extracted": 72,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/HONG_KONG.txt": {
+  "state": "done",
+  "n_records": 349,
+  "n_extracted": 370,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/BRITISH_HONDURAS.txt": {
+  "state": "done",
+  "n_records": 139,
+  "n_extracted": 151,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/somaliland_protectorate.txt": {
+  "state": "done",
+  "n_records": 24,
+  "n_extracted": 27,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1948_manual_parsed/northern_rhodesia.txt": {
+  "state": "done",
+  "n_records": 21,
+  "n_extracted": 24,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/nyasaland.txt": {
+  "state": "done",
+  "n_records": 21,
+  "n_extracted": 23,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1919_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 518,
+  "n_extracted": 572,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/GIBRALTAR.txt": {
+  "state": "done",
+  "n_records": 33,
+  "n_extracted": 33,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1962_manual_parsed/Basutoland.txt": {
+  "state": "done",
+  "n_records": 43,
+  "n_extracted": 48,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1912_manual_parsed/NORTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 255,
+  "n_extracted": 258,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/BRUNEI.txt": {
+  "state": "done",
+  "n_records": 647,
+  "n_extracted": 876,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1879_manual_parsed/st_lucia.txt": {
+  "state": "done",
+  "n_records": 44,
+  "n_extracted": 48,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/falkland_islands.txt": {
+  "state": "done",
+  "n_records": 16,
+  "n_extracted": 19,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 386,
+  "n_extracted": 419,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/NYASALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 177,
+  "n_extracted": 181,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/tobago_windward.txt": {
+  "state": "done",
+  "n_records": 37,
+  "n_extracted": 42,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/TASMANIA.txt": {
+  "state": "done",
+  "n_records": 108,
+  "n_extracted": 121,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/NORTHERN_RHODESIA.txt": {
+  "state": "done",
+  "n_records": 335,
+  "n_extracted": 353,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/DOMINICA.txt": {
+  "state": "done",
+  "n_records": 22,
+  "n_extracted": 22,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/bermuda.txt": {
+  "state": "done",
+  "n_records": 85,
+  "n_extracted": 94,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/MAURITIUS.txt": {
+  "state": "done",
+  "n_records": 89,
+  "n_extracted": 89,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 354,
+  "n_extracted": 385,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/falkland_islands.txt": {
+  "state": "done",
+  "n_records": 68,
+  "n_extracted": 106,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/BAHAMAS.txt": {
+  "state": "done",
+  "n_records": 178,
+  "n_extracted": 194,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/victoria.txt": {
+  "state": "done",
+  "n_records": 321,
+  "n_extracted": 335,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/dominica.txt": {
+  "state": "done",
+  "n_records": 17,
+  "n_extracted": 19,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 278,
+  "n_extracted": 326,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/WINDWARD_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 291,
+  "n_extracted": 325,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 402,
+  "n_extracted": 424,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/grenada.txt": {
+  "state": "done",
+  "n_records": 51,
+  "n_extracted": 56,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/KENYA.txt": {
+  "state": "done",
+  "n_records": 805,
+  "n_extracted": 826,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/ZULULAND.txt": {
+  "state": "done",
+  "n_records": 48,
+  "n_extracted": 51,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/sierra_leone.txt": {
+  "state": "done",
+  "n_records": 73,
+  "n_extracted": 77,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/basutoland.txt": {
+  "state": "done",
+  "n_records": 20,
+  "n_extracted": 20,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/british_east_africa_and_zanzibar.txt": {
+  "state": "done",
+  "n_records": 2,
+  "n_extracted": 2,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/hong_kong.txt": {
+  "state": "done",
+  "n_records": 75,
+  "n_extracted": 99,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/falkland_islands.txt": {
+  "state": "done",
+  "n_records": 21,
+  "n_extracted": 29,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/tobago.txt": {
+  "state": "done",
+  "n_records": 21,
+  "n_extracted": 26,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1889_manual_parsed/THE_GOLD_COAST_COLONY.txt": {
+  "state": "done",
+  "n_records": 151,
+  "n_extracted": 156,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/tasmania.txt": {
+  "state": "done",
+  "n_records": 330,
+  "n_extracted": 348,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/british_honduras.txt": {
+  "state": "done",
+  "n_records": 102,
+  "n_extracted": 113,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/dominion_of_canada.txt": {
+  "state": "done",
+  "n_records": 1270,
+  "n_extracted": 1703,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/gibraltar.txt": {
+  "state": "done",
+  "n_records": 85,
+  "n_extracted": 96,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1897_manual_parsed/BRITISH_SOUTH_AFRICA_COMPANY.txt": {
+  "state": "done",
+  "n_records": 3,
+  "n_extracted": 3,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/NEW_SOUTH_WALES.txt": {
+  "state": "done",
+  "n_records": 369,
+  "n_extracted": 392,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/the_gambia.txt": {
+  "state": "done",
+  "n_records": 43,
+  "n_extracted": 45,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/KENYA.txt": {
+  "state": "done",
+  "n_records": 573,
+  "n_extracted": 601,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/newfoundland.txt": {
+  "state": "done",
+  "n_records": 164,
+  "n_extracted": 179,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/NIGER_COAST_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 74,
+  "n_extracted": 82,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/queensland.txt": {
+  "state": "done",
+  "n_records": 190,
+  "n_extracted": 198,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/western_australia.txt": {
+  "state": "done",
+  "n_records": 326,
+  "n_extracted": 347,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/NORTH_BORNEO.txt": {
+  "state": "done",
+  "n_records": 51,
+  "n_extracted": 59,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1888_manual_parsed/NATAL.txt": {
+  "state": "done",
+  "n_records": 287,
+  "n_extracted": 304,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/BRITISH_CENTRAL_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 66,
+  "n_extracted": 67,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/LABUAN.txt": {
+  "state": "done",
+  "n_records": 1,
+  "n_extracted": 1,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/SEYCHELLES.txt": {
+  "state": "done",
+  "n_records": 103,
+  "n_extracted": 127,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/QUEENSLAND.txt": {
+  "state": "done",
+  "n_records": 230,
+  "n_extracted": 246,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/BRITISH_CENTRAL_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 125,
+  "n_extracted": 126,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/SOUTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 263,
+  "n_extracted": 267,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/BRITISH_NEW_GUINEA.txt": {
+  "state": "done",
+  "n_records": 50,
+  "n_extracted": 54,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/RHODESIA.txt": {
+  "state": "done",
+  "n_records": 328,
+  "n_extracted": 339,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/bechuanaland_protectorate.txt": {
+  "state": "done",
+  "n_records": 24,
+  "n_extracted": 27,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/LABUAN.txt": {
+  "state": "done",
+  "n_records": 131,
+  "n_extracted": 132,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/labuan.txt": {
+  "state": "done",
+  "n_records": 521,
+  "n_extracted": 565,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/bermuda.txt": {
+  "state": "done",
+  "n_records": 80,
+  "n_extracted": 88,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/BRITISH_EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 51,
+  "n_extracted": 51,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/papua.txt": {
+  "state": "done",
+  "n_records": 49,
+  "n_extracted": 53,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1896_manual_parsed/jamaica.txt": {
+  "state": "done",
+  "n_records": 562,
+  "n_extracted": 593,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/GIBRALTAR.txt": {
+  "state": "done",
+  "n_records": 102,
+  "n_extracted": 114,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/NATAL.txt": {
+  "state": "done",
+  "n_records": 202,
+  "n_extracted": 224,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1890_manual_parsed/newfoundland.txt": {
+  "state": "done",
+  "n_records": 113,
+  "n_extracted": 120,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/the_northern_territories.txt": {
+  "state": "done",
+  "n_records": 268,
+  "n_extracted": 272,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/prince_edward_island.txt": {
+  "state": "done",
+  "n_records": 154,
+  "n_extracted": 174,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/ST_HELENA.txt": {
+  "state": "done",
+  "n_records": 25,
+  "n_extracted": 36,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/NEWFOUNDLAND.txt": {
+  "state": "done",
+  "n_records": 70,
+  "n_extracted": 73,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/VICTORIA.txt": {
+  "state": "done",
+  "n_records": 335,
+  "n_extracted": 354,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/WESTERN_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 425,
+  "n_extracted": 487,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1907_manual_parsed/SOUTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 569,
+  "n_extracted": 595,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/EAST_AFRICA_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 378,
+  "n_extracted": 382,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 466,
+  "n_extracted": 566,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1914_manual_parsed/NEW_ZEALAND.txt": {
+  "state": "done",
+  "n_records": 360,
+  "n_extracted": 405,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/NYASALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 151,
+  "n_extracted": 155,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/SWAZILAND.txt": {
+  "state": "done",
+  "n_records": 34,
+  "n_extracted": 35,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1951_manual_parsed/nigeria.txt": {
+  "state": "done",
+  "n_records": 2170,
+  "n_extracted": 2215,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1915_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 556,
+  "n_extracted": 642,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/SOUTH_AUSTRALIA.txt": {
+  "state": "done",
+  "n_records": 705,
+  "n_extracted": 736,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 226,
+  "n_extracted": 246,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1919_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 233,
+  "n_extracted": 246,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1913_manual_parsed/NORTHERN_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 300,
+  "n_extracted": 306,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 495,
+  "n_extracted": 537,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/WESTERN_PACIFIC.txt": {
+  "state": "done",
+  "n_records": 67,
+  "n_extracted": 67,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 249,
+  "n_extracted": 250,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1915_manual_parsed/SOUTH_AFRICA.txt": {
+  "state": "done",
+  "n_records": 1251,
+  "n_extracted": 1369,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/UGANDA.txt": {
+  "state": "done",
+  "n_records": 248,
+  "n_extracted": 252,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 848,
+  "n_extracted": 864,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/NORTHERN_RHODESIA.txt": {
+  "state": "done",
+  "n_records": 72,
+  "n_extracted": 76,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/THE_GILBERT_AND_ELLICE_ISLANDS_COLONY.txt": {
+  "state": "done",
+  "n_records": 68,
+  "n_extracted": 71,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/QUEENSLAND.txt": {
+  "state": "done",
+  "n_records": 254,
+  "n_extracted": 269,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1923_manual_parsed/federated_malay_states.txt": {
+  "state": "done",
+  "n_records": 352,
+  "n_extracted": 410,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/THE_TERRITORY_OF_NEW_GUINEA.txt": {
+  "state": "done",
+  "n_records": 32,
+  "n_extracted": 32,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/BARBADOS.txt": {
+  "state": "done",
+  "n_records": 299,
+  "n_extracted": 354,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/THE_WINDWARD_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 191,
+  "n_extracted": 210,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1924_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 649,
+  "n_extracted": 716,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/IRAQ.txt": {
+  "state": "done",
+  "n_records": 32,
+  "n_extracted": 39,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/KENYA.txt": {
+  "state": "done",
+  "n_records": 802,
+  "n_extracted": 825,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1915_manual_parsed/NIGERIA.txt": {
+  "state": "done",
+  "n_records": 1042,
+  "n_extracted": 1051,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/BARBUDA.txt": {
+  "state": "done",
+  "n_records": 1,
+  "n_extracted": 2,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1928_manual_parsed/NYASALAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 199,
+  "n_extracted": 205,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/tobago.txt": {
+  "state": "done",
+  "n_records": 509,
+  "n_extracted": 561,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1930_manual_parsed/SOMALILAND_PROTECTORATE.txt": {
+  "state": "done",
+  "n_records": 52,
+  "n_extracted": 53,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1927_manual_parsed/CAPE_OF_GOOD_HOPE.txt": {
+  "state": "done",
+  "n_records": 42,
+  "n_extracted": 51,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1952_manual_parsed/THE_GOLD_COAST.txt": {
+  "state": "done",
+  "n_records": 90,
+  "n_extracted": 102,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/MALAYA_UNFEDERATED_MALAY_STATES.txt": {
+  "state": "done",
+  "n_records": 172,
+  "n_extracted": 187,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1955_manual_parsed/TRINIDAD_AND_TOBAGO.txt": {
+  "state": "done",
+  "n_records": 101,
+  "n_extracted": 105,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1922_manual_parsed/CANADA.txt": {
+  "state": "done",
+  "n_records": 1395,
+  "n_extracted": 1520,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1959_manual_parsed/Kenya.txt": {
+  "state": "done",
+  "n_records": 144,
+  "n_extracted": 156,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/CAPE_OF_GOOD_HOPE.txt": {
+  "state": "done",
+  "n_records": 1851,
+  "n_extracted": 2021,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/antigua.txt": {
+  "state": "done",
+  "n_records": 106,
+  "n_extracted": 125,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1929_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 2318,
+  "n_extracted": 2602,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1936_manual_parsed/PALESTINE.txt": {
+  "state": "done",
+  "n_records": 508,
+  "n_extracted": 534,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1925_manual_parsed/CYPRUS.txt": {
+  "state": "done",
+  "n_records": 129,
+  "n_extracted": 148,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1899_manual_parsed/trinidad_and_tobago.txt": {
+  "state": "done",
+  "n_records": 245,
+  "n_extracted": 265,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1906_manual_parsed/TRANSVAAL.txt": {
+  "state": "done",
+  "n_records": 16,
+  "n_extracted": 16,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1931_manual_parsed/BRITISH_GUIANA.txt": {
+  "state": "done",
+  "n_records": 289,
+  "n_extracted": 304,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1940_manual_parsed/TANGANYIKA_TERRITORY.txt": {
+  "state": "done",
+  "n_records": 289,
+  "n_extracted": 299,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1917_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 37,
+  "n_extracted": 38,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1950_manual_parsed/tanganyika.txt": {
+  "state": "done",
+  "n_records": 311,
+  "n_extracted": 333,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1932_manual_parsed/CEYLON.txt": {
+  "state": "done",
+  "n_records": 35,
+  "n_extracted": 75,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1955_manual_parsed/CAYMAN_ISLANDS.txt": {
+  "state": "done",
+  "n_records": 9,
+  "n_extracted": 9,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1954_manual_parsed/THE_FEDERATION_OF_RHODESIA_AND_NYASALAND.txt": {
+  "state": "done",
+  "n_records": 7,
+  "n_extracted": 7,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1952_manual_parsed/WESTERN_PACIFIC.txt": {
+  "state": "done",
+  "n_records": 32,
+  "n_extracted": 34,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1951_manual_parsed/windward_islands.txt": {
+  "state": "done",
+  "n_records": 100,
+  "n_extracted": 103,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1953_manual_parsed/sarawak.txt": {
+  "state": "done",
+  "n_records": 46,
+  "n_extracted": 46,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1953_manual_parsed/leeward_islands.txt": {
+  "state": "done",
+  "n_records": 89,
+  "n_extracted": 121,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1962_manual_parsed/The_Bechuanaland_Protectorate.txt": {
+  "state": "done",
+  "n_records": 25,
+  "n_extracted": 26,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1965_manual_parsed/bechuanaland_protectorate.txt": {
+  "state": "done",
+  "n_records": 25,
+  "n_extracted": 25,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1954_manual_parsed/ADEN.txt": {
+  "state": "done",
+  "n_records": 30,
+  "n_extracted": 30,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1953_manual_parsed/kenya.txt": {
+  "state": "done",
+  "n_records": 114,
+  "n_extracted": 121,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1959_manual_parsed/Nigeria.txt": {
+  "state": "done",
+  "n_records": 275,
+  "n_extracted": 277,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1951_manual_parsed/tanganyika.txt": {
+  "state": "done",
+  "n_records": 684,
+  "n_extracted": 716,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1957_manual_parsed/FEDERATION_OF_NIGERIA.txt": {
+  "state": "done",
+  "n_records": 281,
+  "n_extracted": 287,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1950_manual_parsed/uganda.txt": {
+  "state": "done",
+  "n_records": 534,
+  "n_extracted": 551,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1949_manual_parsed/Tanganyika.txt": {
+  "state": "done",
+  "n_records": 646,
+  "n_extracted": 667,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/mesopotamia.txt": {
+  "state": "done",
+  "n_records": 14,
+  "n_extracted": 17,
+  "escalated": true
+ },
+ "/home/jic823/textasdatacolonialofficelist/1958_manual_parsed/kenya.txt": {
+  "state": "done",
+  "n_records": 127,
+  "n_extracted": 139,
+  "escalated": true
+ },
+ "/home/jic823/textasdatacolonialofficelist/1894_manual_parsed/straits_settlements.txt": {
+  "state": "done",
+  "n_records": 145,
+  "n_extracted": 156,
+  "escalated": true
+ },
+ "/home/jic823/textasdatacolonialofficelist/1905_manual_parsed/JAMAICA.txt": {
+  "state": "done",
+  "n_records": 552,
+  "n_extracted": 585,
+  "escalated": true
+ },
+ "/home/jic823/textasdatacolonialofficelist/1939_manual_parsed/MALAYA__STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 1711,
+  "n_extracted": 1922,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/DOMINION_OF_CANADA.txt": {
+  "state": "done",
+  "n_records": 837,
+  "n_extracted": 901,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1909_manual_parsed/south_australia.txt": {
+  "state": "done",
+  "n_records": 634,
+  "n_extracted": 708,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1963_manual_parsed/uganda.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1958_manual_parsed/jamaica.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1957_manual_parsed/GOLD_COAST_GHANA.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1958_manual_parsed/federation_of_malaya.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1961_manual_parsed/federation_of_nigeria.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/sierra_leone.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/lagos.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/grenada.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/barbados.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/BARBADOS.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1964_manual_parsed/kenya.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/LAGOS.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1962_manual_parsed/Sierra_Leone.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1879_manual_parsed/nevis.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1962_manual_parsed/Tanganyika.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/gold_coast_colony.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/GOLD_COAST.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/GOLD_COAST.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/BARBADOS.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/tobago.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/west_africa_settlements.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/ST_CHRISTOPHER_NEVIS_AND_ANGUILLA.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1879_manual_parsed/antigua.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/dominica_ref.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1879_manual_parsed/barbados.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1963_manual_parsed/jamaica.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1898_manual_parsed/RHODESIA.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/barbados_ref.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1879_manual_parsed/lagos.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/nevis_ref.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/dominica.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/BRITISH_COLUMBIA_AND_VANCOUVER_ISLAND.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1880_manual_parsed/antigua.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1867_manual_parsed/honduras.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1946_manual_parsed/north_borneo.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/DOMINICA.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1877_manual_parsed/THE_GOLD_COAST_COLONY.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1886_manual_parsed/GAMBIA.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "escalated": true,
+  "n_extracted": 0
+ },
+ "/home/jic823/textasdatacolonialofficelist/1908_manual_parsed/DOMINION_OF_CANADA.txt": {
+  "state": "done",
+  "n_records": 890,
+  "n_extracted": 958,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1930_manual_parsed/STRAITS_SETTLEMENTS.txt": {
+  "state": "done",
+  "n_records": 1513,
+  "n_extracted": 1770,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1920_manual_parsed/TRINIDAD.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "note": "inspected: profile/trade-tables only, no named staff roster (ceiling)"
+ },
+ "/home/jic823/textasdatacolonialofficelist/1921_manual_parsed/trinidad.txt": {
+  "state": "failed",
+  "reasons": [
+   "zero_records"
+  ],
+  "note": "inspected: profile/trade-tables only, no named staff roster (ceiling)"
+ },
+ "/home/jic823/textasdatacolonialofficelist/1883_manual_parsed/dominion_of_canada.txt": {
+  "state": "done",
+  "n_records": 1047,
+  "n_extracted": 1151,
+  "escalated": false
+ },
+ "/home/jic823/textasdatacolonialofficelist/1900_manual_parsed/DOMINION_OF_CANADA.txt": {
+  "state": "failed",
+  "reasons": [
+   "missing_surname"
+  ],
+  "escalated": true,
+  "n_extracted": 1494
+ }
+}

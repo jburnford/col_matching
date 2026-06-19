@@ -1,0 +1,26 @@
+{
+  "case_id": "calib_Q2577723",
+  "persons": [
+    {
+      "bio_id": "robinson_william-c-f_b1836",
+      "stint_ids": ["Robinson, W. C. F___Western Australia___1890"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against: (a) the bio record is internally conflated — version col1883-L29281.v (Sir William C. F. Robinson: Montserrat, Falklands, PEI, Western Australia 1874 and 1880, Straits, South Australia 1882) describes a DIFFERENT man from versions col1883-L29279.v/col1898-L35635.v (Sir William Robinson, b.1836, Colonial Office clerk, Bahamas, Windwards, Trinidad 1885, Hong Kong 1891); the b.1836 and G.C.M.G.(1897) attributes belong to the plain-William component, so the deterministic honour PASS (G.C.M.G.) is likely a cross-person artifact; (b) the printed entry never mentions a WA governorship in 1890-1894, so the link rests on inference, and a different Sir W. C. F. Robinson could in principle exist among 136 Robinsons in the corpus. Why it still holds: the stint name 'Sir W. C. F. Robinson' matches all three initials exactly; Governor and Commander-in-Chief of Western Australia is a unique office; and the C.F. component of the bio shows two prior WA governorships (1874 and Jan. 1880) plus South Australia 1882, making a return WA term 1890-1894 strong career-shape continuity. No other biography with initials W. C. F. is present. Probable rather than certain because the link is to the C.F. component of a conflated bio record and the 1890 term is not itself printed in the entry.",
+      "evidence_cited": [
+        {"stint_id": "Robinson, W. C. F___Western Australia___1890", "year": 1890, "fact": "Sir W. C. F. Robinson"},
+        {"stint_id": "Robinson, W. C. F___Western Australia___1890", "year": 1890, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Robinson, W. C. F___Western Australia___1890", "year": 1890, "fact": "governor of Western Australia, Jan., 1880"},
+        {"stint_id": "Robinson, W. C. F___Western Australia___1890", "year": 1890, "fact": "appointed governor of South Australia, Nov., 1882"}
+      ],
+      "would_overturn": "Evidence of a second Sir W. C. F. Robinson holding the WA governorship 1890-1894, or evidence that the C.F. component of this bio (the Q-entity behind the case) was elsewhere during 1890-1894."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Robinson, William___South Australia___1879",
+      "reason": "This stint chain is itself a conflation of two people: nine of its ten year-rows (1879-1898) are 'W. N. Robinson, Medical Officer, Medical Department' — initials and occupation incompatible with the biography — and only the single 1886 row ('Sir William Robinson, Governor and Commander-in-Chief, K.C.M.G.') plausibly matches the bio's 'appointed governor of South Australia, Nov., 1882'. Assigning the whole stint would falsely merge the medical officer W. N. Robinson into the governor's record. The stint must be split upstream before any part of it can be linked."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "IMPORTANT for reviewer: the biography record itself conflates two distinct historical persons. Versions col1883-L29279.v, col1897-L34112.v and col1898-L35635.v describe Sir William Robinson (b.1836; CO clerk; Bahamas; Windwards; Trinidad 1885; Hong Kong 1891; G.C.M.G. 1897), while version col1883-L29281.v describes Sir William C. F. Robinson (priv. sec. to Sir Hercules Robinson; Montserrat; Falklands; PEI; WA 1874 and 1880; Straits; South Australia 1882; K.C.M.G. 1877). The compiled timeline interleaves both careers. The WA 1890 stint is assigned to the C.F. component. The bio record should be split. Also, the South Australia stint chain conflates W. N. Robinson (Medical Officer) with the 1886 governor row and should also be split."
+}

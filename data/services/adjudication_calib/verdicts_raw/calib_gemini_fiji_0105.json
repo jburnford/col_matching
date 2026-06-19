@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_fiji_0105",
+  "persons": [
+    {
+      "bio_id": "forth_j-ogilvie_e1883",
+      "stint_ids": ["Forth, J. O___Fiji___1886"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the biography gives only 'J.' plus the middle name Ogilvie, the early stint rows show a generic junior title ('Clerk, Second' in the Colonial Secretary's Department rather than the biography's 'Audit clk.'), and there is no edition co-occurrence bonus, so one could posit a second J. O. Forth in Fiji. This fails on several grounds: the corpus contains only 2 Forths in all staff lists and 1 biography, so the namesake pool is nearly empty; 'O' as a second initial (Ogilvie) is rare and matches exactly; and the careers converge on the same sole-incumbent senior office — the biography's 'col. auditor, Nov., 1891' is exactly what the staff list shows ('Auditor' from 1894, the first edition in the stint after 1888, then 'Colonial Auditor' in the Audit Department 1906-09). Two different J. O. Forths cannot both have been Colonial Auditor of Fiji in the 1890s-1900s. The department label ('Colonial Secretary's Department') for the early Auditor rows is a listing quirk, resolved when the stint itself moves him to 'Audit Department' in 1906. Bio and stint also disappear together after the 1909 edition.",
+      "evidence_cited": [
+        {"stint_id": "Forth, J. O___Fiji___1886", "year": 1894, "fact": "col. auditor, Nov., 1891"},
+        {"stint_id": "Forth, J. O___Fiji___1886", "year": 1906, "fact": "Colonial Auditor"},
+        {"stint_id": "Forth, J. O___Fiji___1886", "year": 1886, "fact": "Audit clk., Fiji, Aug., 1883"}
+      ],
+      "would_overturn": "Evidence of a second J. O. Forth in Fiji's establishment in 1886-1909, or a record showing the Colonial Auditor of Fiji in the 1890s-1900s had forenames other than J. Ogilvie."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Tiny namesake pool (2 staff-list officials, 1 biography with this surname), exact two-initial agreement including the uncommon 'O' (Ogilvie), colony agreement, and convergence on the sole-incumbent Colonial Auditor post. Bio editions (1896-1909) and stint listings (1886-1909) terminate in the same year."
+}

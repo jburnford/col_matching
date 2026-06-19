@@ -1,0 +1,29 @@
+{
+  "case_id": "calib_curated_grey_ralph",
+  "persons": [
+    {
+      "bio_id": "grey_ralph-francis-alnwick_b1910",
+      "stint_ids": [
+        "Grey, Ralph___Nigeria___1956",
+        "Grey, Ralph___British Guiana___1960",
+        "Grey, Ralph___Bahamas___1964",
+        "Grey, Ralph___West Indies Federation___1961",
+        "Grey, Ralph___Western Pacific___1965"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: 30 Greys populate the staff lists; the British Guiana, West Indies Federation, and Western Pacific stints all FAIL the deterministic colony/tenure checks; and the biography never mentions the West Indies Federation or the Western Pacific at all — so the last two could be a different Ralph Grey. This fails. Nigeria: 'Chief Secretary of the Federation' (1956) and 'Deputy Governor-General' (1958) match 'chief sec., 1955' and 'dep. gov.-gen., 1957' verbatim, with the distinctive honour set C.M.G. (1955), K.C.V.O. (1956), O.B.E. British Guiana: 'gov. and c.-in-c. B. Guiana, 1959' matches the 1960-64 'Governor and Commander-in-Chief' listing with K.C.M.G. — his K.C.M.G. (1959) — and the colony FAIL is purely a timeline artifact (the B. Guiana clause inherited 'Nigeria' as its place; the verbatim text names B. Guiana). Bahamas: 'gov. and c.-in-c. (designate), Bahamas, 1964' matches the 1964 record's unusual '(Designate)' wording exactly, with G.C.M.G. (1964), K.C.V.O., O.B.E. The two roster stints: the West Indies Federation rows (1961-62, 'Governor/Commander-in-Chief' under 'Governors and Commanders-in-Chief'/'Colonial Office') are regional governors'-table rows in exactly the years he governed British Guiana, the only governor named Ralph Grey anywhere in this era; the Western Pacific rows (1965-66) carry his precise three-honour fingerprint 'G.C.M.G., K.C.V.O., O.B.E.' — the K.C.V.O. being rare — in the years of his Bahamas governorship, so the row is him in a Colonial Office summary table whatever the section header says. No second Ralph Grey holding any governorship in 1956-66 exists in evidence; the namesake hypothesis cannot produce the honour fingerprints.",
+      "evidence_cited": [
+        {"stint_id": "Grey, Ralph___Nigeria___1956", "year": 1956, "fact": "chief sec., 1955"},
+        {"stint_id": "Grey, Ralph___Nigeria___1956", "year": 1958, "fact": "dep. gov.-gen., 1957"},
+        {"stint_id": "Grey, Ralph___British Guiana___1960", "year": 1960, "fact": "gov. and c.-in-c. B. Guiana, 1959"},
+        {"stint_id": "Grey, Ralph___Bahamas___1964", "year": 1964, "fact": "gov. and c.-in-c. (designate), Bahamas, 1964"},
+        {"stint_id": "Grey, Ralph___West Indies Federation___1961", "year": 1961, "fact": "Governor/Commander-in-Chief"},
+        {"stint_id": "Grey, Ralph___Western Pacific___1965", "year": 1966, "fact": "G.C.M.G., K.C.V.O., O.B.E."}
+      ],
+      "would_overturn": "Evidence of a second Sir Ralph Grey holding a governorship in 1961-66 (especially one with the K.C.V.O.), or source-page images showing the West Indies Federation / Western Pacific rows name a different office-holder whose name was mis-OCRed."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The West Indies Federation (1961-62) and Western Pacific (1965-66) stints are almost certainly Colonial Office summary/roster rows mis-sectioned by the parser rather than actual service in those territories: in those exact years Grey was governor of British Guiana and the Bahamas respectively, and the Western Pacific rows carry his exact honour trio. Assigning them links the records to the right man; reviewers may wish to relabel the stints' territory rather than treat them as additional postings."
+}

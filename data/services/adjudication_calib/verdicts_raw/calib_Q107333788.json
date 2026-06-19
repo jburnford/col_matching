@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107333788",
+  "persons": [
+    {
+      "bio_id": "langley_cableton-george_b1885",
+      "stint_ids": ["Langley, C. G___Leeward Islands___1932"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Langley is a common surname in this corpus (15 officials, 5 biographies), the stint name is initials-only ('C. G.'), and the honour check failed (the staff lists never print the K.C.), so this could be a different C. G. Langley — perhaps a relative — in the Caribbean service. This fails because the link rests on a unique, senior office with exact place and date agreement: the biography reads 'atty.-gen., Leeward Islands, 1931' with a 'dual appt. atty.-gen. and ag. col. sec., 1934-36', and the stint is the Attorney-General of the Leeward Islands listed 1932-1937, first appearing the edition-year after the 1931 appointment. There is only one Attorney-General of the colony at a time; two C. G. Langleys holding it in the same span is not a live hypothesis. The missing K.C. in the staff-list honours column is an omission pattern common in these tables, not contradictory evidence; the stint's end (1937) also coheres with the bio's move to 'adminstr., Antigua, 1936-38' and B. Guiana in 1937.",
+      "evidence_cited": [
+        {"stint_id": "Langley, C. G___Leeward Islands___1932", "year": 1931, "fact": "atty.-gen., Leeward Islands, 1931"},
+        {"stint_id": "Langley, C. G___Leeward Islands___1932", "year": 1932, "fact": "C. G. Langley | Attorney-General | Judicial Establishment"},
+        {"stint_id": "Langley, C. G___Leeward Islands___1932", "year": 1934, "fact": "dual appt. atty.-gen. and ag. col. sec., 1934-36"}
+      ],
+      "would_overturn": "A second biography or record of a different C. G. Langley serving as a law officer in the Leeward Islands in the 1930s, or evidence that the Attorney-Generalship changed hands to another Langley within 1932-1937."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique colony-level office (Attorney-General, Leeward Islands) with initials and chronology in lockstep: bio appointment 1931, staff listing 1932-1937, departure consistent with the bio's 1936-38 Antigua administratorship and 1937 British Guiana judgeship. 'CABLETON' is an OCR artifact (likely 'Carleton'). The auxiliary 'Chairman, Public Library' rows in 1932-33 are an ex officio role under the same name and colony, not a separate person."
+}

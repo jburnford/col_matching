@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_malta_0229",
+  "persons": [
+    {
+      "bio_id": "vella_v-g_b1901",
+      "stint_ids": ["Vella, V. G___Malta___1930"],
+      "confidence": "certain",
+      "arguments_against": "Two counter-cases. First, Vella is extremely common (28 officials, 6 biographies), so the surname is worthless. Second, the stint's early years (1930-1946) are printed as single-initial 'V. Vella, Clerks 2nd/1st Class, Public Works Department', which could be a different junior Vella conflated into the chain. Both fail because the identity-defining mass of the stint -- the years 1949-1961 -- is printed as 'V. G. Vella' with military rank Lt.-Col./Colonel and reproduces the bio's distinctive senior career point-for-point in matching years: 'civ. def. planning offr., 1949' = Civil Defence Planning Officer (1950); 'sec., Maltese imp. govt., 1950' = Secretary, Maltese Imperial Government (1951-58); 'comsnr.-gen., Malta govt. off., London, 1958-61' = Commissioner General for Malta in London (1959-61). The honours accruing in the staff list (O.B.E. 1959, C.M.G. 1960, C.V.O. 1961) match the bio's 'C.M.G. (1960), C.V.O. (1954), O.B.E. (mil.)', and the Lt.-Col. rank matches 'mil. serv., 1939-45, lt.-col.' This union of three honours, military rank, and three named senior posts identifies one man; the single-initial junior-clerk years do not break a stint otherwise unambiguously his.",
+      "evidence_cited": [
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1950, "fact": "civ. def. planning offr., 1949"},
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1951, "fact": "sec., Maltese imp. govt., 1950"},
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1959, "fact": "comsnr.-gen., Malta govt. off., London, 1958-61"},
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1961, "fact": "C.M.G. (1960), C.V.O. (1954), O.B.E. (mil.)"}
+      ],
+      "would_overturn": "Evidence that the Civil Defence Planning Officer / Secretary Maltese Imperial Government / Commissioner General posts belonged to a different V. G. Vella would reverse this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Strong: two initials, three matching named senior posts, military rank Lt.-Col./Colonel, three shared honours, 4 agreeing edition-years. Military service 1939-45 explains the staff-list gap. High-confidence match."
+}

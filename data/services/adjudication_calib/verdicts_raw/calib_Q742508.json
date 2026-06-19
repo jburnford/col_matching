@@ -1,0 +1,33 @@
+{
+  "case_id": "calib_Q742508",
+  "persons": [
+    {
+      "bio_id": "bell_francis-henry-dillon_b1851",
+      "stint_ids": ["Bell, Francis Dillon___New Zealand___1920"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Bell is the commonest surname imaginable in this corpus (123 officials, 69 biographies), and the stint's cluster key 'Francis Dillon Bell' — missing the 'Henry' — is exactly the name of this man's famous father, Sir Francis Dillon Bell, also a New Zealand K.C.M.G. So this stint looks, by name alone, like the father. This fails on hard chronology and office content: the stint runs 1920-1922, decades after the father's generation, and the offices listed are a verbatim mirror of the son's biography for precisely those years — the 1920 row bundles 'Attorney-General, Minister of Education, Minister of Public Health, Minister Immigration, Commissioner of State Forests ... and Leader of the Legislative Council', matching the bio's atty.-gen. 1918-26, 'min. of educn., min. of public health and min. of immigr., 1919-20', 'comnr. of state forests, 1919-22', and leader of legis. coun. 1912-26. The K.C.M.G. in every row matches the bio's 1915 award. No second Sir Francis Bell with this exact office bundle existed in 1920s New Zealand; the dropped 'Henry' is a clustering artifact of the staff list printing 'Sir Francis Bell'.",
+      "evidence_cited": [
+        {"stint_id": "Bell, Francis Dillon___New Zealand___1920", "year": 1920, "fact": "Attorney-General, Minister of Education, Minister of Public Health, Minister Immigration, Commissioner of State Forests"},
+        {"stint_id": "Bell, Francis Dillon___New Zealand___1920", "year": 1919, "fact": "comnr. of state forests, 1919-22"},
+        {"stint_id": "Bell, Francis Dillon___New Zealand___1920", "year": 1922, "fact": "Attorney-General, Commissioner of State Forests, Minister in Charge of Valuation Department, and Leader of the Legislative Council"}
+      ],
+      "would_overturn": "Evidence that a different Sir Francis Bell, K.C.M.G., held the New Zealand Attorney-Generalship and the State Forests/Valuation portfolios in 1920-22 — which would also contradict the bio's own dated office list."
+    },
+    {
+      "bio_id": "bell_francis-henry-dillon_b1851",
+      "stint_ids": ["Bell, Francis Henry Dillon___New Zealand___1897"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: this stint spans 1897-1922 and mixes two seemingly different careers — a Foreign Consuls thread (Vice-Consul, then Consul for North Island, 1897-1922) and an Executive Council ministerial thread (1913-1922) — so one could argue the consul is a different Francis Henry Dillon Bell (a relative) and the cluster is contaminated. This fails: the consul rows carry the full distinctive triple name throughout, and from 1917 they acquire exactly the bio subject's honours and style — 'K.C.M.G.' from 1917 (bio: K.C.M.G. 1915), 'Sir Francis Henry Dillon Bell' by 1920, 'Hon. Sir Francis Henry Dillon Bell' in 1922, the 'Hon.' matching his Legislative Council leadership. A hypothetical second F. H. D. Bell who was also knighted K.C.M.G. in the same years is not realistic. The ministerial rows match the biography clause for clause: Minister of Internal Affairs 1913-15 (bio 'min. of internal affairs, 1912'), 'Minister of Immigration and Leader of the Legislative Council' 1917-18, Attorney-General 1919 (bio 1918-26), Minister of Marine 1922 (bio 'min. of marine, 1921-22'). The wealthy-barrister-holding-a-foreign-consulship pattern is consistent, not contradictory.",
+      "evidence_cited": [
+        {"stint_id": "Bell, Francis Henry Dillon___New Zealand___1897", "year": 1913, "fact": "F. H. D. Bell | Minister of Internal Affairs"},
+        {"stint_id": "Bell, Francis Henry Dillon___New Zealand___1897", "year": 1917, "fact": "Minister of Immigration and Leader of the Legislative Council"},
+        {"stint_id": "Bell, Francis Henry Dillon___New Zealand___1897", "year": 1922, "fact": "Sir F. H. D. Bell | Minister of Marine"},
+        {"stint_id": "Bell, Francis Henry Dillon___New Zealand___1897", "year": 1920, "fact": "Sir Francis Henry Dillon Bell | Consul (for North Island)"}
+      ],
+      "would_overturn": "Evidence that the 1897-1909 consul was a different (e.g. older or younger) Francis Henry Dillon Bell whose listing was inherited — for instance a consular appointment record naming another holder — would detach the early consul rows, though the ministerial rows and the post-1917 knighted consul rows would remain his."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Both stints are fragments of the same person, Rt. Hon. Sir Francis Henry Dillon Bell (b. 1851, NZ prime minister May 1925), split by name-key variants ('Francis Bell' vs 'F. H. D. / Francis Henry Dillon Bell'); they should be merged downstream. The name-trap here is his father Sir Francis Dillon Bell, K.C.M.G., whom the first stint's cluster key superficially matches — excluded by chronology (stint years 1920-22) and by the office bundle matching the son's bio verbatim. The honours columns (K.C.M.G. from 1917, never G.C.M.G.) lag the bio's 1923 G.C.M.G. only because the stint ends in 1922."
+}

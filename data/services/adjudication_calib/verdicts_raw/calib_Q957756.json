@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q957756",
+  "persons": [
+    {
+      "bio_id": "clifford_hugh-charles_b1866",
+      "stint_ids": ["Clifford, Hugh___Ceylon___1907"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 'Clifford' is common in the corpus (20 officials, 10 biographies) and the staff list prints only 'Hugh Clifford', so a relative named Hugh Clifford without the middle name Charles could be the Ceylon Colonial Secretary while the bio subject was elsewhere; the position_sim check also formally FAILed ('col. sec.' vs 'Colonial Secretary' scored 56). This fails. (1) The position FAIL is purely an abbreviation artefact -- 'col. sec.' IS 'Colonial Secretary'. (2) The bio states 'col. sec., Ceylon, 3rd May, 1907' and leaves the post at 'gov., G. Coast, 11th Dec., 1912' -- exactly the stint's listing range 1907-1912 for the unique office of Colonial Secretary of Ceylon. (3) The honour chronology is decisive: the staff list shows C.M.G. in 1907 and 1909 rows, then 'Sir' with K.C.M.G. from the 1910 row -- matching the bio's 'K.C.M.G. (1909); C.M.G. (1900)' to the year. (4) Four edition-years co-occur with colony-agreeing position. A namesake would need the same forename, the same C.M.G., a knighthood in the same year, and the same unique office in the same years; no such alternative exists in the case.",
+      "evidence_cited": [
+        {"stint_id": "Clifford, Hugh___Ceylon___1907", "year": 1907, "fact": "col. sec., Ceylon, 3rd May, 1907"},
+        {"stint_id": "Clifford, Hugh___Ceylon___1907", "year": 1912, "fact": "gov., G. Coast, 11th Dec., 1912"},
+        {"stint_id": "Clifford, Hugh___Ceylon___1907", "year": 1910, "fact": "K.C.M.G. (1909); C.M.G. (1900)"},
+        {"stint_id": "Clifford, Hugh___Ceylon___1907", "year": 1909, "fact": "admstd. govt., 11th July to 3rd Aug., 1907, 3rd June to 11th Oct., 1909"}
+      ],
+      "would_overturn": "Evidence of a second Hugh Clifford with a C.M.G. and a 1909 K.C.M.G. serving as Colonial Secretary of Ceylon 1907-1912, or an external record showing the biography subject vacated that office before 1912 while the listing continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The honour transition visible inside the stint (C.M.G. through the 1909 edition, K.C.M.G. plus 'Sir' from the 1910 edition) independently corroborates the bio's 1909 knighthood date. The bio also records repeated spells administering the government of Ceylon during 1907-1912, consistent with the Colonial Secretary post."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q336027",
+  "persons": [
+    {
+      "bio_id": "lugard_frederick-john-dealtry_b1858",
+      "stint_ids": ["Lugard, Frederick John Dealty___Hong Kong___1911"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the 1911 staff-list row credits 'C.M.G., C.B., D.S.O.' while the biography records K.C.M.G. (1901) and G.C.M.G. (1911) but never a plain C.M.G., so the stint could belong to a different, lesser-honoured F. J. D. Lugard (a son or nephew sharing all three forenames). This fails. (1) The honour discrepancy is a transcription artefact, not a different person: a knighted 'Sir F. J. D. Lugard' (the staff list prints 'Sir') cannot hold only a C.M.G.; 'C.M.G.' is evidently an OCR/abbreviation slip for K.C.M.G./G.C.M.G., and the remaining honours C.B. and D.S.O. match the bio exactly ('C.B. (1896), D.S.O. (1887)'). (2) The bio states 'gov. of Hong Kong, 1st May, 1907' and the very next clause 'gov., N. and S. Nigeria, 25th Mar., 1912' -- the stint's 1911-1912 listing falls precisely inside that governorship and ends exactly when the bio moves him to Nigeria. (3) The full triple forename 'Frederick John Dealty' (OCR of Dealtry) is rare, and the corpus has only one Lugard biography. No same-name relative hypothesis survives the exact date bracketing.",
+      "evidence_cited": [
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1911, "fact": "gov. of Hong Kong, 1st May, 1907"},
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1912, "fact": "gov., N. and S. Nigeria, 25th Mar., 1912"},
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1911, "fact": "C.B. (1896), D.S.O. (1887)"}
+      ],
+      "would_overturn": "Evidence of a second Frederick John Dealtry Lugard with a C.B. and D.S.O. serving as Governor of Hong Kong in 1911, or an external record showing the biography subject had vacated the Hong Kong governorship before 1911."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The staff-list honour string 'C.M.G.' in the 1911 row conflicts with the bio's K.C.M.G./G.C.M.G., but the 'Sir' prefix in the same row shows he was knighted, so this is an abbreviation or OCR error rather than evidence of a different person. All other dimensions (full triple forename, colony, exact governorship date bracket, C.B., D.S.O.) agree."
+}

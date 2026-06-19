@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_ceylon_0064",
+  "persons": [
+    {
+      "bio_id": "willis_john-christopher_b1868",
+      "stint_ids": ["Willis, J. C___Ceylon___1898"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: Willis is a common surname (17 officials, 9 biographies), and the staff-list department fields are noisy (Telegraphs, Public Instruction, Botanic Gardens). Why it fails: the bio carries two initials (J. C.) that agree exactly, the office 'Director of the Royal Botanic Garden' is a single colony-wide post, and the bio's directorship from Aug. 1896 is consistent with a man born 1868 (age 30 in 1898) holding the stint 1898-1911; 3 edition-years co-occur. The noisy department labels do not disturb a stable, unique job title.",
+      "evidence_cited": [
+        {"stint_id": "Willis, J. C___Ceylon___1898", "year": 1896, "fact": "dir. of Royal Bot. Gardens, Ceylon, Aug., 1896"},
+        {"stint_id": "Willis, J. C___Ceylon___1898", "year": 1898, "fact": "Director of the Royal Botanic Garden"}
+      ],
+      "would_overturn": "A second J. C. Willis recorded as director of the Royal Botanic Garden in overlapping years, or a birth date excluding a 1896 directorship."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Two-initial agreement plus a unique senior post make this unambiguous despite the common surname."
+}

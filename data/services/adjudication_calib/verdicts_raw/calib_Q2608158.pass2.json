@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q2608158",
+  "persons": [
+    {
+      "bio_id": "black_robert_b1906",
+      "stint_ids": ["Black, Robert___Hong Kong___1958"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Black is very common in the corpus (60 officials, 29 biographies), the biography is flagged single-initial ('R'), and position_sim FAILED (the bio's Hong Kong 1958-64 clause carries no position string after the ditto compression) — so a different Robert Black could be the Hong Kong governor. This fails: the bio's clause 'gov. and c.-in-c., S'pore, 1955; H.K., 1958-64' is a ditto construction meaning Governor and Commander-in-Chief of Hong Kong 1958-64, identical office and exact tenure to the stint (listed 1958-1964, 'Governor and Commander-in-Chief'); the staff list's honours track the biography to the year — K.C.M.G. in 1958-61 matching K.C.M.G. (1955), switching to G.C.M.G. in the 1962 row matching G.C.M.G. (1962); his prior Hong Kong service ('col. sec., H.K., 1952; O.A.G., 1952 and 1954') anchors the colony; and the staff list prints the full forename 'Sir Robert Black', not an initial. Hong Kong had one Governor; a second knighted Robert Black with identically timed honours is not realistic.",
+      "evidence_cited": [
+        {"stint_id": "Black, Robert___Hong Kong___1958", "year": 1958, "fact": "H.K., 1958-64"},
+        {"stint_id": "Black, Robert___Hong Kong___1958", "year": 1958, "fact": "K.C.M.G. (1955)"},
+        {"stint_id": "Black, Robert___Hong Kong___1958", "year": 1962, "fact": "G.C.M.G. (1962)"},
+        {"stint_id": "Black, Robert___Hong Kong___1958", "year": 1958, "fact": "col. sec., H.K., 1952"}
+      ],
+      "would_overturn": "Evidence that a different Sir Robert Black was commissioned Governor of Hong Kong for 1958-64, which would contradict the biography's own explicit statement of the same posting and the synchronized G.C.M.G. elevation in 1962."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. The single-initial warning does not bite: the staff list prints the full forename. The 1958 row's extra 'C.B.' is not in the biography's honours; it is a single-year staff-list artifact (dropped in 1959-63) and does not outweigh the exact tenure and twice-synchronized K.C.M.G./G.C.M.G. agreement."
+}

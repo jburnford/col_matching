@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0079",
+  "persons": [
+    {
+      "bio_id": "hyde_george-herbert-maccarthy_b1869",
+      "stint_ids": ["Hyde, G. H. M___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Hyde is a moderately common surname (14 officials, 3 biographies in the corpus), the stint starts in 1905 while the biography dates his P.W.D. appointment to 1900 (a 5-year listing gap), and no honour is shared (the staff list never prints his M.I.C.E./M.I.M.E./M.I.N.A.). This fails because the match rests on three independent strong dimensions: all three initials agree, including the unusual third initial M (MacCarthy); the department and specialist roles agree exactly ('dist. and mech. engrnr., P.W.D., Ceylon, 1900' vs staff-list 'Mechanical and District Engineer', 'Public Works Department'); and the career transition matches to the year — the biography's 'factory engrnr., with rank and duties of provincial engrnr., 1911' is mirrored by the staff list switching from 'Mechanical and District Engineer' in 1911 to 'Factory Engineer' in 1912 and every year thereafter. The 1905 listing start reflects when he first appears in the lists, not a contradiction; the age gate (b. 1869, age 36) is consistent. A namesake would need identical triple initials and the same specialist trajectory in the same department, which is not a realistic alternative.",
+      "evidence_cited": [
+        {"stint_id": "Hyde, G. H. M___Ceylon___1905", "year": 1909, "fact": "Mechanical and District Engineer"},
+        {"stint_id": "Hyde, G. H. M___Ceylon___1905", "year": 1912, "fact": "Factory Engineer"},
+        {"stint_id": "Hyde, G. H. M___Ceylon___1905", "year": 1905, "fact": "Public Works Department"}
+      ],
+      "would_overturn": "Discovery of a second G. H. M. Hyde in the Ceylon P.W.D., or evidence that George Herbert MacCarthy Hyde left Ceylon service before 1921 while the staff listing continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Triple-initial match with distinctive 'M', exact department, and a position trajectory (mechanical/district engineer to factory engineer at the 1911-1912 boundary) that tracks the printed biography year for year, with 4 strict edition co-occurrences."
+}

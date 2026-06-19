@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0047",
+  "persons": [
+    {
+      "bio_id": "balfour_john-aylmer_b1874",
+      "stint_ids": ["Balfour, J. A___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: Balfour is moderately common (8 staff officials, 5 biographies) and the bio is a two-initial 'J. A.' form, so name/initials are weak and the deterministic honour and edition-cooccurrence bonuses do not fire. This fails because the stint and bio trace the identical specialised career inside the small Ceylon Irrigation Department in lockstep: Irrigation Engineer (bio 'irrigtn. engrnr., Ceylon, 1900' / staff 1905-08), then Assistant Director of Irrigation acting then confirmed (bio 'asst. dir. of irrigtn., June, 1909' / staff acting 1909, confirmed 1910-13), then the singular Director of Irrigation (bio 'dir. of irrigtn., 14th Aug., 1913' / staff Director from 1914). The Directorship of Irrigation is a single-holder office; no second J. A. Balfour can occupy this exact dated ladder in the same department.",
+      "evidence_cited": [
+        {"stint_id": "Balfour, J. A___Ceylon___1905", "year": 1905, "fact": "J. A. Balfour | Irrigation Engineer"},
+        {"stint_id": "Balfour, J. A___Ceylon___1905", "year": 1909, "fact": "J. A. Balfour | Assistant Director of Irrigation (acting)"},
+        {"stint_id": "Balfour, J. A___Ceylon___1905", "year": 1914, "fact": "J. A. Balfour | Director of Irrigation"}
+      ],
+      "would_overturn": "Evidence of a second J. A. Balfour in the Ceylon Irrigation Department over 1905-1918, or a chronology conflict at the Irrigation Engineer entry."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Specialised single department (Irrigation) with an ordered, date-matched ladder Irrigation Engineer -> Assistant Director -> Director of Irrigation (singular post). Mechanical honour/edition bonuses do not fire, but the career-shape match is decisive."
+}

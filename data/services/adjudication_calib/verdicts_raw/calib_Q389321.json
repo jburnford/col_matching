@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q389321",
+  "persons": [
+    {
+      "bio_id": "lougheed_sr-jas-alexander_b1854",
+      "stint_ids": ["Lougheed, James Alexander___Canada___1907"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: a same-name relative (the corpus has 2 Lougheeds in staff lists and 2 biographies), e.g. a son or brother also in Canadian public life, and the deterministic pass found no shared honour. But the honour FAIL is a mechanical extraction artifact: the verbatim bio text reads 'K.C.M.G. (1916); K.C.' and the staff lists show K.C.M.G. appearing exactly from 1917 (absent 1907-1914) and 'K.C.M.G., K.C.' from 1919 — the award chronology matches precisely, which a relative could not replicate. Beyond that, the office sequence is point-for-point: Senator in 1907 (bio: 'summoned to Senate of Canada, 1889' and 'govt. leader in the Senate, 1907-21'), Minister without Portfolio 1912-1918 (bio: 'minister without portfolio in Mr. Borden's cabinet, Oct., 1911'), Minister of Soldiers' Civil Re-establishment 1919-1920 (bio: 'min. of soldiers civil re-establishment, 1918'). A second Lougheed holding this exact succession of named offices in the same years is not a live hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1907, "fact": "Senator"},
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1912, "fact": "Minister without Portfolio"},
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1919, "fact": "Minister of Soldiers' Civil Re-establishment"},
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1919, "fact": "Hon. Sir Jas. A. Lougheed"},
+        {"stint_id": "Lougheed, James Alexander___Canada___1907", "year": 1917, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous James Alexander Lougheed in Canadian federal politics holding ministerial office 1911-1922, or proof the K.C.M.G. in the staff lists was awarded to a different Lougheed."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. The deterministic honour check FAILed only because the bio's honours were not parsed into the structured header; the verbatim entry text carries 'K.C.M.G. (1916); K.C.' and the staff lists corroborate the award year (K.C.M.G. first appears in 1917 records). Edition co-occurrence (4 agreeing edition-years) plus full-forename and multi-office agreement make this publishable."
+}

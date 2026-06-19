@@ -1,0 +1,12 @@
+{
+  "case_id": "calib_Q128672",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Tupper, Charles Hibbert___Canada___1877",
+      "reason": "The stint is a conflation of two distinct persons: Sir Charles Tupper (father; Bart., G.C.M.G., C.B., Minister of Railways and Canals, High Commissioner for Canada in London) and his son Sir Charles Hibbert Tupper (K.C.M.G. 1893, Minister of Marine and Fisheries, the biography's subject). The same edition-years list both men concurrently with incompatible honours — e.g. 1905 has both 'Sir C. H. Tupper ... K.C.M.G., K.C.' and 'Sir C. Tupper, Bart. ... G.C.M.G., C.B.' — and the 1877-1886 rows (Charles Tupper, C.B., Minister of Public Works/Railways, High Commissioner) predate or contradict the bio, which enters the Commons only in 1882 and explicitly calls the subject 'son of late Sir C. Tupper'. Assigning this mixed stint to the son's biography would merge the father's career into his record, a false merge; the stint must be split upstream before any assignment."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "This is the father/son trap the instructions warn about, realized inside a single stint cluster. The son's rows are genuinely present (e.g. 1894 'Sir Charles Hibbert Tupper | Minister Marine and Fisheries' with K.C.M.G., matching the bio's 'min. of marine and fisheries, 1888-1895' and 'K.C.M.G. (1893)'), and a sub-stint restricted to the 'C. H. / Charles H. / Charles Hibbert' rows from 1883 onward would be a certain match to bio tupper_charles-hibbert_b1855. But as constituted the stint also contains the father's rows ('Sir Charles Tupper, Bart.', G.C.M.G., C.B., High Commissioner in London, Minister of Railways and Canals, Secretary of State 1896), which are chronologically and honour-wise incompatible with a man born 1855 who was never C.B., G.C.M.G., or a baronet. Recommend splitting the stint by honours/forename pattern (C.B./G.C.M.G./Bart. vs K.C.M.G./Hibbert) and re-adjudicating."
+}

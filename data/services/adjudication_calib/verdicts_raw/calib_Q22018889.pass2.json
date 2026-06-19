@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q22018889",
+  "persons": [
+    {
+      "bio_id": "lyons_t-c_e1857",
+      "stint_ids": ["Lyons, Thomas Casey___Bermuda___1894"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the biography prints initials only ('T.C.'), has no birth year, 24 officials share the surname Lyons, and the honour check FAILED — so a different T. C. Lyons (e.g. a relative also in imperial service) could in theory be the Bermuda official. This fails: the honour 'failure' is a metadata-extraction miss, not a real disagreement — the printed entry itself reads 'LYONS, Lieut.-Gen. T.C., C.B.' and the staff list shows 'C.B.' in every year, so the honour actually matches; the rank matches exactly (bio 'Lieut.-Gen.', staff list 'Lieut.-General Commanding' and rank 'Lieut.-General'); the office matches at 86 ('govrn. and commr.-in-chief, Bermuda, July, 1892' vs 'Governor and Commander-in-Chief'); and the biography appears only in editions [1894, 1896], the exact two editions of the stint. Bermuda's military governorship is a unique post — two Lieut.-Gen. T. C. Lyons, C.B., cannot both have held it in 1894-96.",
+      "evidence_cited": [
+        {"stint_id": "Lyons, Thomas Casey___Bermuda___1894", "year": 1894, "fact": "govrn. and commr.-in-chief, Bermuda, July, 1892"},
+        {"stint_id": "Lyons, Thomas Casey___Bermuda___1894", "year": 1894, "fact": "Lieut.-Gen. T.C., C.B."},
+        {"stint_id": "Lyons, Thomas Casey___Bermuda___1894", "year": 1896, "fact": "Lieut.-General Commanding"}
+      ],
+      "would_overturn": "Evidence that the Bermuda governor commissioned July 1892 was a different person from the Indian Mutiny veteran in the biography (e.g. a service record showing two contemporaneous Lieut.-Gens. T. C. Lyons), or a death/replacement record before 1894."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. The [FAIL] honour check is a false negative: the bio's honours list was not extracted into metadata, but C.B. is printed in the entry's first line and matches the staff list's C.B. in all three rows. The Indian Mutiny service dates (1857-8) are chronologically consistent with a Lieut.-General governing Bermuda in the 1890s."
+}

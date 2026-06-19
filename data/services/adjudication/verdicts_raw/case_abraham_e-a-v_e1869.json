@@ -1,0 +1,20 @@
+{
+  "case_id": "case_abraham_e-a-v_e1869",
+  "persons": [
+    {
+      "bio_id": "abraham_e-a-v_e1869",
+      "stint_ids": ["Abraham, E. A. V___British Guiana___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the 1877-1880 staff-list rows print only 'E. Abraham', a single initial, and 20 officials share this surname in the graph, so those early rows could belong to a different E. Abraham (a relative or an unrelated clerk) whose record was later spliced with the real E. A. V. Abraham. This fails because the rows are one continuous chain in the same colony and department (Judicial Establishment, British Guiana) holding the same office, and the chain's internal promotion mirrors the biography exactly: the bio's '3rd asst. sworn clerk, 1874' matches 'Third Assistant Sworn Clerk' in 1877-1880, and the bio's 'sworn clerk and notary public, 1882' matches the chain's switch to 'Third Sworn Clerk and Notary Public' by 1883 - the same year the name expands to the full 'E. A. V. Abraham'. A second person would require an E. Abraham who held the identical specific post and vanished exactly when E. A. V. Abraham (per his own bio) was promoted into it. A second counter-argument is the place_inherited FAIL: all bio places inherit from the first clause. But that is just the printed 'ditto' style of a single-colony career that begins 'Copyist, registrar's office, Br. Guiana, 1869', and the stint is in that same colony. The edition_cooccurrence FAIL reflects the bio appearing in 1889-1894 editions while the staff-list chain runs 1877-1889; the careers are the same, the sections just enter the corpus at different times.",
+      "evidence_cited": [
+        {"stint_id": "Abraham, E. A. V___British Guiana___1877", "year": 1877, "fact": "Third Assistant Sworn Clerk"},
+        {"stint_id": "Abraham, E. A. V___British Guiana___1877", "year": 1883, "fact": "Third Sworn Clerk and Notary Public"},
+        {"stint_id": "Abraham, E. A. V___British Guiana___1877", "year": 1889, "fact": "E. A. V. Abraham"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Abraham with initials E. A. V. (or an E. Abraham) serving in British Guiana's Judicial Establishment in 1877-1889; or a record showing the biography's subject was absent from British Guiana (e.g., serving elsewhere or deceased) during the stint years; or an archival source showing the 1877-1880 'E. Abraham' rows refer to a relative who held the Third Assistant Sworn Clerk post before handing it to E. A. V. Abraham."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. Three-initial match (E. A. V.), colony match (British Guiana), and two specific position-title matches at chronologically consistent dates (1874 bio promotion appearing in the 1877 staff list; 1882 bio promotion appearing by the 1883 staff list, the same year the printed name expands from 'E. Abraham' to 'E. A. V. Abraham'). The three deterministic FAILs (honour, edition_cooccurrence, place_inherited) are explained by printing conventions, not by conflicting evidence."
+}

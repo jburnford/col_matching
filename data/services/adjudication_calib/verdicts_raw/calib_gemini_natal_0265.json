@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_natal_0265",
+  "persons": [
+    {
+      "bio_id": "hyslop_j_e1882",
+      "stint_ids": ["Hyslop, J. H___Natal___1883"],
+      "confidence": "certain",
+      "arguments_against": "The biography carries a single initial ('J') and appears in only one edition, so the namesake trap applies: a second J. Hyslop in Natal (e.g. a relative) could in principle be the staff-list man, and the stint key's initials 'J. H' add a second initial the bio lacks. This fails because the matching dimension is not name-based at all: the bio's printed post, 'Resident surgeon, lunatic asylum, Pietermaritzburg', is a unique, senior, highly specific office, and the staff list shows 'Dr. J. Hyslop' as 'Resident Surgeon' in Natal's Medical Department in the very same 1886 edition, with the stint beginning in 1883 — exactly consistent with the bio's appointment date of 4 July 1882. The 'Dr.' title matches, the colony matches, and the career continues coherently into Medical Superintendent of the Natal Government Asylum. There is no second Hyslop in Natal's medical service to contest the stint (only 3 officials with the surname in the whole graph), so no live counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Hyslop, J. H___Natal___1883", "year": 1886, "fact": "Resident surgeon, lunatic asylum, Pietermaritzburg, Natal, 4 July, 1882"},
+        {"stint_id": "Hyslop, J. H___Natal___1883", "year": 1886, "fact": "Dr. J. Hyslop | Resident Surgeon | Medical Department"},
+        {"stint_id": "Hyslop, J. H___Natal___1883", "year": 1905, "fact": "Medical Superintendent | Natal Government Asylum"}
+      ],
+      "would_overturn": "Evidence of a second Dr. J. Hyslop serving in Natal's medical service in the 1880s (e.g. a brother or son also styled 'Dr. J. Hyslop'), or a printed record showing the bio's subject left Natal shortly after 1882 while the staff-list Hyslop continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial bio, but the merge rests on an exact, specific senior position match (resident surgeon of the Pietermaritzburg lunatic asylum) with same-edition (1886) colony-agreeing co-occurrence and appointment-date alignment (bio 4 July 1882; stint listed from 1883), not on the shared surname or tenure overlap."
+}

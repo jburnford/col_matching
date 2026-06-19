@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0060",
+  "persons": [
+    {
+      "bio_id": "harward_john_e1892",
+      "stint_ids": ["Harward, J___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "The bio carries a single initial and no birth year, and the corpus holds 5 staff-list officials with this surname, so the namesake trap is live: the staff-list 'J. Harward' could be a different Harward, e.g. a relative who also taught in Ceylon. This fails because the stint reproduces the bio's entire three-stage career with the right dates, not just one office: 'Principal of the Royal College' from 1894 (bio: appointed 1st Apr. 1892), 'Director' of the 'Department of Public Instruction' from 1905 (bio: dir. of pub. instrn. 23rd June 1903), and the department label switching to 'Education Department' precisely in the 1914 edition (bio: 'designation of office changed to dir. of educn., Aug., 1913'). Principal of the Royal College and Director of Public Instruction are unique senior posts, not generic titles; two different J. Harwards holding both in succession on the bio's exact timeline is not a realistic hypothesis. The other 4 same-surname officials would have to occupy this single continuous staff-list line, which tracks one person through one career.",
+      "evidence_cited": [
+        {"stint_id": "Harward, J___Ceylon___1894", "year": 1894, "fact": "Principal of the Royal College"},
+        {"stint_id": "Harward, J___Ceylon___1894", "year": 1905, "fact": "Department of Public Instruction"},
+        {"stint_id": "Harward, J___Ceylon___1894", "year": 1914, "fact": "Education Department"}
+      ],
+      "would_overturn": "Evidence of a second J. Harward in the Ceylon education service in 1894-1915 (a separate staff-list line), or a record showing John Harward vacated the Principalship or Directorship before the staff-list run ended while a same-initial successor took over, or a forename for the staff-list entry other than John."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial biography, so a strong independent dimension was required: satisfied by specific position matches on two unique senior posts plus the dated office redesignation (bio: Aug. 1913 change to dir. of educn.; staff list: department becomes 'Education Department' in 1914-1915). Stint years 1894-1915 sit entirely within the bio's attested career (1892 onward, still listed 1915)."
+}

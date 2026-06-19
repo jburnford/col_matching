@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6141419",
+  "persons": [
+    {
+      "bio_id": "prendergast_james_b1828",
+      "stint_ids": ["Prendergast, J___New Zealand___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: this is a single-initial situation ('J. Prendergast' in the staff lists), the surname has 7 officials and 4 biographies in the corpus, and the honour check failed — so the standing namesake trap applies, and one could posit a different J. Prendergast on the New Zealand bench. This fails because the office is unique and the agreement is total: there is exactly one Chief Justice of New Zealand at a time, the biography states he 'was raised to the bench as chief justice of New Zealand' in 1875 and served 'ch. just. of N.Z., 1875-1899', and the stint lists 'J. Prendergast | Chief Justice' from 1877 through 1899 and then stops, exactly when the bio's tenure ends. The staff-list name acquires 'Sir' (1886 onward) consistent with the bio's 1881 knighthood (Knt. Bachel.), and there are 4 colony-agreeing edition co-occurrences at position similarity 100. The single-initial rule demands a strong independent dimension beyond tenure overlap; the unique-office exact match plus the knighthood-driven 'Sir' transition plus multi-edition co-occurrence supplies several.",
+      "evidence_cited": [
+        {"stint_id": "Prendergast, J___New Zealand___1877", "year": 1875, "fact": "ch. just. of N.Z., 1875-1899"},
+        {"stint_id": "Prendergast, J___New Zealand___1877", "year": 1877, "fact": "J. Prendergast | Chief Justice | Judicial"},
+        {"stint_id": "Prendergast, J___New Zealand___1877", "year": 1886, "fact": "Sir J. Prendergast | Chief Justice"}
+      ],
+      "would_overturn": "Evidence of a second J. Prendergast holding the New Zealand Chief Justiceship within 1877-1899, or a record showing Sir James Prendergast vacated the office before 1899 while the listing continued for a namesake successor."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial bio, but cleared by the unique-office test: Chief Justice of New Zealand, tenure 1875-1899 in the bio matching the listing span 1877-1899, 'Sir' prefix appearing after the 1881 knighthood, and 4 agreeing edition-years at position_sim 100. The honour-check FAIL reflects the staff lists leaving the honours column blank, not a conflicting honour."
+}

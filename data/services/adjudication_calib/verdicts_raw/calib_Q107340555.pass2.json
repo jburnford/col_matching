@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q107340555",
+  "persons": [
+    {
+      "bio_id": "furnes-smith_cecil_b1890",
+      "stint_ids": ["Furness-Smith, C___Zanzibar___1937"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the stint carries only the initial 'C.', the surname gate passed only fuzzily (FURNES-SMITH vs Furness-Smith), the strict edition-cooccurrence bonus was not met, and there is a second Furness-Smith in the staff lists - so the Zanzibar Attorney-General could conceivably be that other person. But Attorney-General of Zanzibar is a unique office held by one man at a time, and the biography names it with month precision: 'atty.-gen., Zanzibar, Mar., 1936', the year before the stint's first listing (1937). The 1950 bio version adds 'atty.-gen., Zanz., 1936; T.T., 1940', and the stint's last listing is exactly 1940 - the year he transferred to Tanganyika - so both the start and the end of the stint are independently predicted by the bio. The surname is rare (2 officials, 1 biography) and the spelling variants (FURNES/FURNNESS/FURNESSE) are plainly OCR/typesetting noise on one entry, not different people. For the counter-hypothesis, a second C. Furness-Smith would have to hold the identical unique office in the identical years the bio claims. It fails.",
+      "evidence_cited": [
+        {"stint_id": "Furness-Smith, C___Zanzibar___1937", "year": 1936, "fact": "atty.-gen., Zanzibar, Mar., 1936"},
+        {"stint_id": "Furness-Smith, C___Zanzibar___1937", "year": 1937, "fact": "Attorney-General"},
+        {"stint_id": "Furness-Smith, C___Zanzibar___1937", "year": 1940, "fact": "atty.-gen., Zanz., 1936; T.T., 1940"}
+      ],
+      "would_overturn": "Evidence that the second Furness-Smith in the staff lists also had a forename starting with C and served in Zanzibar's Legal Department in 1937-40, or a record showing Cecil Furness-Smith held a different post elsewhere throughout 1937-1940."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Despite the single-initial warning, this is not a bare-overlap merge: the specific unique position (Attorney-General), the colony (Zanzibar), the appointment year (Mar. 1936, immediately before the 1937 listing), and the departure year (to Tanganyika 'T.T., 1940', matching the stint's last edition) all agree. The honour FAIL is expected - the Kt. came in 1949, after the stint ended."
+}

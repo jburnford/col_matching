@@ -1,0 +1,12 @@
+{
+  "case_id": "calib_gemini_natal_0261",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Chadwick, J. C. C___Natal___1879",
+      "reason": "The stint conflates two distinct contemporaneous Chadwicks in Natal, so assigning it whole to the biography would be a false merge. The staff lists contain two parallel record streams under this stint key: (a) 'J. Chadwick' in the Telegraph/Postal departments — 'Clerk in Charge' (1880), 'General Sub-Manager' of 'Telegraphs' (1883), 'Postmaster-General and General Manager of Telegraphs' (1886-1894), 'Postmaster-General' (1896-1899) — which matches the biography of CHADWICK, JOHN closely ('gen. sub-man. of tels., Natal, 1880; postmnr.-gen., 1883; postmnr.-gen., and gen. man. of tels., Jan., 1884'); and (b) 'J. C. C. Chadwick' in the Judicial line — 'Registrar' of the 'Judicial Department' (1879, 1880), 'Magistrate' (1896-1900), 'Judge' of the 'Native High Court' (1906-1910). The two streams co-occur in the same edition years with different names and different departments (1880: J. Chadwick / Telegraph Department alongside J. C. C. Chadwick / Judicial Department; 1896, 1898, 1899: J. Chadwick / Postal and Telegraphs alongside J. C. C. Chadwick / Magistrates), proving they are two simultaneous officials, not one career. The biography never mentions any registrar, magistrate, or judicial post, and its initials ('J') do not carry the 'J. C. C.' of the judicial officer. The stint as clustered belongs to at most one person only if it is split upstream; as delivered it mixes both, so it stays unassigned."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Recommend splitting this stint upstream before re-adjudication. The telegraph/postal subset of records (name printed 'J. Chadwick', Telegraph/Postal departments, 1880-1899) is a very strong match to bio chadwick_john_e1879: specific position agreement at multiple rungs (General Sub-Manager of Telegraphs 1880/1883, Postmaster-General and General Manager of Telegraphs 1884/1886-1894), place (Natal), and 5 co-occurring editions. The judicial subset (name printed 'J. C. C. Chadwick', Registrar 1879-1880, Magistrate 1896-1900, Judge of Native High Court 1905-1910) is a different person and matches nothing in the biography. Assigning the merged stint as-is would attribute the judicial career to John Chadwick the postmaster-general, corrupting the record."
+}

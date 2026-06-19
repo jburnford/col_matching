@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0068",
+  "persons": [
+    {
+      "bio_id": "skeen_g-j-a_e1869",
+      "stint_ids": ["Skeen, G. J. A___Ceylon___1877"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the corpus holds 4 Skeen officials and 2 Skeen biographies, so the stint could belong to a relative (e.g. a son) working in the same Ceylon printing establishment, and all five bio events inherit their place from a single 'Ceylon' clause, which the deterministic pass flags as weak. This fails because the staff list prints the full three-initial form 'G. J. A. Skeen' in every one of 15 edition-years, matching the biography's initials exactly; the office of Government Printer of Ceylon is a unique, non-generic post held by one person at a time; and the career shape matches in detail — the bio has him assistant govt. printer from 1872 and government printer from 1880/1881, while the staff list shows 'Assistant Government Printer' 1877-1879 and 'Government Printer' from 1883 onward (the 1880 'Government Secretary' row is a transcription slip in an otherwise unbroken printer sequence). The bio is reprinted in editions 1886, 1889, 1898-1906, the same editions in which the stint lists him as Government Printer. A relative would need the same three initials and the same unique office simultaneously, which is not realistic.",
+      "evidence_cited": [
+        {"stint_id": "Skeen, G. J. A___Ceylon___1877", "year": 1877, "fact": "Assistant Government Printer"},
+        {"stint_id": "Skeen, G. J. A___Ceylon___1877", "year": 1883, "fact": "Government Printer"},
+        {"stint_id": "Skeen, G. J. A___Ceylon___1877", "year": 1898, "fact": "G. J. A. Skeen"}
+      ],
+      "would_overturn": "Evidence of a second 'G. J. A. Skeen' in Ceylon (e.g. a son with identical initials in the printing department), or a printed record showing this biography's subject left Ceylon or died before 1906 while the staff listing continued."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. Three-initial match plus the unique office of Government Printer, Ceylon, with assistant-to-principal career progression mirrored in both sources and 2 agreeing edition co-occurrences. The 1880 staff-list row reading 'Government Secretary' is almost certainly an OCR or compositor error for 'Government Printer' (the bio says acting government printer 1875, government printer 1880)."
+}

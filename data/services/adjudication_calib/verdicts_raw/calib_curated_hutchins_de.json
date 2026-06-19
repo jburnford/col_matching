@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_curated_hutchins_de",
+  "persons": [
+    {
+      "bio_id": "hutchins_david-ernest_b1850",
+      "stint_ids": [
+        "Hutchins, D. E___Cape of Good Hope___1888",
+        "Hutchins, D. E___Cape of Good Hope___1906",
+        "Hutchins, D. E___Kenya___1908"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the bio carries no honours (so the honour dimension can never corroborate), the staff lists print only initials 'D. E.', and the Kenya stint fails every deterministic colony/tenure/position check — a different D. E. Hutchins could in principle be the Kenya conservator. This fails. Forestry conservator is a rare, specialist office, and the three stints trace exactly the printed career: (1) Cape 1888-90 'Conservator' in 'Crown Forests and Plantations' matches 'conservator of forests, E. division, Cape, Jan., 1886'; (2) Cape 1906-07 'Conservator of Forests, Western Conservancy' matches 'conservator of forests, W. div., and consulting forest offr., Mar., 1892' — the position_sim FAIL compared the wrong clause (the 1907 E. Africa inspection) rather than the W. div. conservatorship; (3) the Kenya stint (1908-11, 'Conservator of Forests') matches 'ch. conservator of forests, E. Africa Prot., 1st June, 1907' — the East Africa Protectorate IS Kenya (renamed 1920; the graph normalizes the colony name), so the colony FAIL is purely a naming artifact, and the appointment date (June 1907) sits immediately before the first listing year (1908). The bio's edition run extends through 1911, exactly covering the Kenya listing years. A second D. E. Hutchins simultaneously pursuing the identical niche profession across the same two territories in the same years is not a realistic hypothesis; only 10 Hutchins officials exist in the whole corpus and no other forestry Hutchins is in evidence.",
+      "evidence_cited": [
+        {"stint_id": "Hutchins, D. E___Cape of Good Hope___1888", "year": 1888, "fact": "conservator of forests, E. division, Cape, Jan., 1886"},
+        {"stint_id": "Hutchins, D. E___Cape of Good Hope___1906", "year": 1906, "fact": "conservator of forests, W. div., and consulting forest offr., Mar., 1892"},
+        {"stint_id": "Hutchins, D. E___Kenya___1908", "year": 1908, "fact": "ch. conservator of forests, E. Africa Prot., 1st June, 1907"},
+        {"stint_id": "Hutchins, D. E___Kenya___1908", "year": 1908, "fact": "Conservator of Forests"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous D. E. Hutchins in colonial forestry, or a record showing the East Africa Protectorate chief conservatorship from 1907 was held by someone other than the man listed in the Kenya staff lists 1908-11."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The Kenya deterministic FAILs are a colony-normalization artifact: the bio names the 'E. Africa Prot.' (the pre-1920 name of Kenya) and the compiled timeline mis-inherited 'Cape of Good Hope' for the 1907 East Africa clauses. The specialist office (forest conservator) plus exact division-level agreement (E. division, then Western Conservancy) anchors all three."
+}

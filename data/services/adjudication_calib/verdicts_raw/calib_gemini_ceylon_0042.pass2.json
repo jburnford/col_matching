@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0042",
+  "persons": [
+    {
+      "bio_id": "cooper_francis-alfred_b1860",
+      "stint_ids": ["Cooper, F. A___Ceylon___1898"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: Cooper is one of the commonest surnames in the corpus (75 staff officials, 41 biographies), so name and initials carry almost no weight, and the bio is a two-initial 'F. A.' form. This fails because three independent dimensions agree on a singular office: Director of Public Works, Ceylon is a unique single-holder post (bio 'dir. pub. wks., Ceylon, 1897' / staff list 'Director of Public Works' 1898-1913); the C.M.G. honour is shared (bio 'C.M.G. (1901)' / staff list carries 'C.M.G.' from 1905); and the retirement year matches exactly (bio 'ret., 1913' / staff list stint ends 1913). The combination of a unique office + matching honour + matching retirement year admits no realistic second F. A. Cooper.",
+      "evidence_cited": [
+        {"stint_id": "Cooper, F. A___Ceylon___1898", "year": 1898, "fact": "F. A. Cooper | Director of Public Works"},
+        {"stint_id": "Cooper, F. A___Ceylon___1898", "year": 1905, "fact": "F. A. Cooper | Director | C.M.G."},
+        {"stint_id": "Cooper, F. A___Ceylon___1898", "year": 1913, "fact": "F. A. Cooper | Director of Public Works | C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second F. A. Cooper holding the Ceylon Directorship of Public Works in this period, or that the bio's Director tenure ended well before 1913."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Common surname offset by three agreeing independent dimensions: the singular office (Director of Public Works, Ceylon), the shared C.M.G. honour, and an exact retirement-year match (1913). Deterministic edition_cooccurrence not met, but the honour and singular-office agreement carry the case."
+}

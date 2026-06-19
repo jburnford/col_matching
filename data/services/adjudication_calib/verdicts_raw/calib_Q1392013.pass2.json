@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q1392013",
+  "persons": [
+    {
+      "bio_id": "bowen_george-ferguson_e1840",
+      "stint_ids": ["Bowen, George Ferguson___Hong Kong___1883", "Bowen, George Ferguson___Mauritius___1879"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: with 50 Bowens in the staff lists, a relative named George Ferguson Bowen could have held one of these governorships, or the stints could be a successor coincidence. This fails comprehensively. Both stints print the full distinctive double forename 'Sir George Ferguson Bowen' with 'G.C.M.G.' — the bio's exact honour ('G.C.M.G. in 1860') — in the exact colonies and years the biography claims: 'governor of Mauritius, 1879' (stint listed 1879-1880, 'Governor and Commander-in-Chief') and 'of Hong Kong, 1883' (stint listed 1883-1886, 'Governor'). Governorships are unique single-occupant posts; two contemporaneous Sir George Ferguson Bowens G.C.M.G. is not a live hypothesis. The successor hypothesis fails because the names and honours match verbatim, not just the office. Chronology coheres as one career: Victoria to 1879, Mauritius 1879-83, Hong Kong 1883, retired 1887.",
+      "evidence_cited": [
+        {"stint_id": "Bowen, George Ferguson___Mauritius___1879", "year": 1879, "fact": "governor of Mauritius, 1879"},
+        {"stint_id": "Bowen, George Ferguson___Mauritius___1879", "year": 1879, "fact": "Sir George Ferguson Bowen"},
+        {"stint_id": "Bowen, George Ferguson___Mauritius___1879", "year": 1879, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Bowen, George Ferguson___Hong Kong___1883", "year": 1883, "fact": "of Hong Kong, 1883"},
+        {"stint_id": "Bowen, George Ferguson___Hong Kong___1883", "year": 1883, "fact": "G.C.M.G."}
+      ],
+      "would_overturn": "Documentary evidence of a second Sir George Ferguson Bowen, G.C.M.G., governing Mauritius or Hong Kong in these years — effectively impossible for unique vice-regal posts with full-name and honour agreement."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Full double-forename match, unique gubernatorial offices, exact years, and shared G.C.M.G. on both stints. The lack of edition co-occurrence is expected: the staff lists record him in 1879/1883 editions while the biographical section entries run 1886-1899."
+}

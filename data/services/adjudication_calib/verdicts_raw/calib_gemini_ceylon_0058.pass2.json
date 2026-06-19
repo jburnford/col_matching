@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0058",
+  "persons": [
+    {
+      "bio_id": "donnan_j_b1837",
+      "stint_ids": ["Donnan, J___Ceylon___1877"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case it is wrong: this is a single-initial 'J. Donnan', so a same-name relative or a successor in the harbour post could hold the stint, and the deterministic edition-cooccurrence corroboration was NOT met. Why it fails: there is only one Donnan official in the entire corpus's staff lists, and 'Master Attendant' of Colombo harbour is a unique senior office held by one man at a time; the age (40 in 1877) fits a man born 1837 who was master attendant from 1863, and the stint's last listing (1900) precedes the bio's retirement (1902). The residual single-initial risk plus the missing edition corroboration keep this at probable rather than certain.",
+      "evidence_cited": [
+        {"stint_id": "Donnan, J___Ceylon___1877", "year": 1863, "fact": "mast. attendant, Colombo, Ceylon, 1863"},
+        {"stint_id": "Donnan, J___Ceylon___1877", "year": 1877, "fact": "Master Attendant"},
+        {"stint_id": "Donnan, J___Ceylon___1877", "year": 1902, "fact": "ret., 1902"}
+      ],
+      "would_overturn": "Evidence of a second Donnan holding the Colombo master-attendant post, or a birth/death date inconsistent with master-attendant service 1863-1902."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single Donnan official in the corpus; unique senior post (Master Attendant, Colombo) and continuous career shape carry the link despite the single-initial flag and absent edition cooccurrence."
+}

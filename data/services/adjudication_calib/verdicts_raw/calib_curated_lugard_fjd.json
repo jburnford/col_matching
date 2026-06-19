@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_curated_lugard_fjd",
+  "persons": [
+    {
+      "bio_id": "lugard_frederick-john-dealtry_b1858",
+      "stint_ids": ["Lugard, F. J. D___Northern Nigeria___1905", "Lugard, Frederick John Dealty___Hong Kong___1911", "Lugard, F. J. D___Nigeria___1917"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against, per stint. (1) Northern Nigeria 1905-06: tenure_overlap and position_sim FAILed mechanically, and the 1905 row prints 'C.M.G.' not K.C.M.G. — could this be a relative (5 Lugards in the staff lists, e.g. his brother E. J. Lugard who served under him in Nigeria)? No: the initials are 'F. J. D.', the post is 'High Commissioner' of Northern Nigeria — the exact office the bio gives him ('high comsnr. for Northern Nigeria, 29th Dec., 1899; resigned Sept., 1906'), the stint ends in 1906 exactly at his resignation, and the honour triplet C.B. + D.S.O. (1887) is his; the 1906 row's 'K.C.M.G., C.B., D.S.O.' matches his K.C.M.G. (1901), making the 1905 'C.M.G.' a plain misprint/OCR slip. The tenure FAIL is an artifact: the bio's Northern Nigeria event was extracted as a point at 1899. (2) Hong Kong 1911: position_sim FAILed only on the abbreviation 'gov.' vs 'Governor'; the stint name is the full 'Frederick John Dealty' (OCR of Dealtry) and the bio reads 'gov. of Hong Kong, 1st May, 1907' — a single-occupancy governorship in the right window, with C.B. and D.S.O. shared. (3) Nigeria 1917-18: 'Governor-General' with 'G.C.M.G., C.B., D.S.O.' matches 'gov.-gen., Nigeria, 1st Dec., 1913' and his G.C.M.G. (1911), inside his tenure (retired 1919); a brother would not hold the Governor-Generalship or the G.C.M.G. The same rare initial triple F.J.D. and the same evolving honour set thread all three stints to one man whose biography narrates precisely this Northern Nigeria, Hong Kong, Nigeria sequence.",
+      "evidence_cited": [
+        {"stint_id": "Lugard, F. J. D___Northern Nigeria___1905", "year": 1905, "fact": "High Commissioner"},
+        {"stint_id": "Lugard, F. J. D___Northern Nigeria___1905", "year": 1906, "fact": "K.C.M.G., C.B., D.S.O."},
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1911, "fact": "Governor"},
+        {"stint_id": "Lugard, Frederick John Dealty___Hong Kong___1911", "year": 1911, "fact": "C.M.G., C.B., D.S.O."},
+        {"stint_id": "Lugard, F. J. D___Nigeria___1917", "year": 1917, "fact": "Governor-General"},
+        {"stint_id": "Lugard, F. J. D___Nigeria___1917", "year": 1917, "fact": "G.C.M.G., C.B., D.S.O."}
+      ],
+      "would_overturn": "Evidence that another F. J. D. Lugard existed (the known relative, Edward James Lugard, has different initials), or that any of these single-occupancy posts (High Commissioner of Northern Nigeria, Governor of Hong Kong, Governor-General of Nigeria) was held in those years by someone other than the biographee."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "One bio, three stints, all assigned. The three stints' honour columns trace the bio's award sequence (K.C.M.G. 1901 visible by 1906; G.C.M.G. 1911 visible by 1917) with constant C.B. + D.S.O. The 'C.M.G.' in the 1905 and 1911 rows is a recurring print/OCR slip for K.C.M.G. (the 1906 row corrects it). Deterministic tenure/position FAILs on the two Nigeria stints stem from the bio timeline extracting point-year events (1899, 1913) rather than ranges; the verbatim text resolves them."
+}

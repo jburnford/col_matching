@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_gemini_malta_0229",
+  "persons": [
+    {
+      "bio_id": "vella_v-g_b1901",
+      "stint_ids": ["Vella, V. G___Malta___1930"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: Vella is a very common Maltese surname (28 officials in the staff lists, 6 biographies), and the stint's early rows (1930-1940) print only 'V. Vella' with the generic title 'Clerks, 2nd Class' in the Public Works Department -- those rows could belong to a different V. Vella (Vincent/Victor etc.), and the bio never mentions Public Works. Why the assignment stands: the identity of the stint is fixed by its 1949-1961 core, which matches the printed biography on many independent, highly specific dimensions simultaneously: 'Private Secretary, Office of the Prime Minister' (bio: 'p.s. to prime min. and sec. to cab, 1947'); 'Civil Defence Planning Officer' 1950 (bio: 'civ. def. planning offr., 1949'; deterministic position_sim 82); 'Secretary, Maltese Imperial Government' 1951-1958 (bio: 'sec., Maltese imp. govt., 1950'); 'Commissioner General for Malta in London' 1959-1961 (bio: 'comsnr.-gen., Malta govt. off., London, 1958-61'); military rank Lt.-Col./Colonel matching 'mil. serv., 1939-45, lt.-col.'; shared honours C.M.G. (bio 1960; first printed in the 1960 row -- exact year agreement) and C.V.O. plus O.B.E.; both initials 'V. G.' agree; and 4 agreeing edition co-occurrences. No rival Vella could hold this combination. The 1930-1940 clerk rows are consistent with the bio's 'Malta civ. serv., 1922' (a man in service since 1922 plausibly held a 2nd-class clerkship in the 1930s) and show an unbroken promotion path into the 1946-1949 rows, so there is no internal contradiction forcing a split.",
+      "evidence_cited": [
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1950, "fact": "Civil Defence Planning Officer"},
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1951, "fact": "Secretary, Maltese Imperial Government"},
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1959, "fact": "Commissioner General for Malta in London"},
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1960, "fact": "C.M.G."},
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1961, "fact": "C.M.G., C.V.O., O.B.E."},
+        {"stint_id": "Vella, V. G___Malta___1930", "year": 1949, "fact": "Lt.-Col."}
+      ],
+      "would_overturn": "Evidence that the 1930-1940 'V. Vella' Public Works clerk was a different person (e.g., a staff list printing both that clerk and a separate V. G. Vella in the same year, or a record placing the biography subject in a different department in the 1930s) would force the early rows to be split off, though the 1946-1961 core would remain his."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Minor caveat for reviewers: the 1930-1940 rows print only the single initial 'V.' with a generic clerk title; they are consistent with, but not independently probative of, the biography subject. The middle initial 'G.' first appears in print in 1950. The biography's 1922 service start predates the stint's 1930 first listing -- junior clerks were often unlisted, so the gap is unremarkable."
+}

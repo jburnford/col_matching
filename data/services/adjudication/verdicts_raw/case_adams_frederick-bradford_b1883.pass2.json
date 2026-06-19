@@ -1,0 +1,45 @@
+{
+  "case_id": "case_adams_frederick-bradford_b1883",
+  "persons": [
+    {
+      "bio_id": "adams_philip-francis-burnett_e1902",
+      "stint_ids": [
+        "Adams, P. F. B___Orange River Colony___1905",
+        "Adams, Burnet___Orange River Colony___1905"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: (a) For the P. F. B. stint, the other biography (Frederick Bradford Adams, b. 1883) also passes the surname and age gates; but he would have been 22 in 1905, his initials are F.B. not P.F.B., and his printed career begins as an assistant district commissioner in Southern Nigeria in 1908 — a 22-year-old is not a colonial Surveyor-General and Chief Inspector of Mines, and his bio shows no South African service. (b) For the 'Burnet' stint, one could posit a second, distinct Adams named Burnet serving in the Orange River Colony; but the staff lists show 'Burnet Adams' as Surveyor-General (ex officio on the Legislative Council) in exactly the same colony and years (1905-1907) that 'P. F. B. Adams' is listed as Surveyor-General in the Survey and Mines Department — a colony has one Surveyor-General, so these are the same office-holder, and 'Burnet' matches the bio's third forename 'Burnett' with a single dropped letter. (c) One could object that the deterministic position_sim FAILED (31 vs 60); but that is a string-score artifact: 'survr.-gen.' is the standard abbreviation of 'Surveyor-General', and 'in addition head of mines dept., Apr., 1903' in the bio matches 'Acting Chief Inspector of Mines' / 'Survey and Mines Department' in the staff lists. The counter-hypotheses fail; the assignment rests on full-initial agreement, exact colony agreement, exact office agreement on a unique senior post, and date agreement (appointed July 1902, listed 1905-1909).",
+      "evidence_cited": [
+        {"stint_id": "Adams, P. F. B___Orange River Colony___1905", "year": 1905, "fact": "survr.-gen., O.R.C., July, 1902"},
+        {"stint_id": "Adams, P. F. B___Orange River Colony___1905", "year": 1905, "fact": "Surveyor-General and Acting Chief Inspector of Mines"},
+        {"stint_id": "Adams, P. F. B___Orange River Colony___1905", "year": 1903, "fact": "in addition head of mines dept., Apr., 1903"},
+        {"stint_id": "Adams, Burnet___Orange River Colony___1905", "year": 1905, "fact": "Burnet Adams"},
+        {"stint_id": "Adams, Burnet___Orange River Colony___1905", "year": 1905, "fact": "Surveyor-General"}
+      ],
+      "would_overturn": "Evidence of a second, distinct Adams holding the Orange River Colony Surveyor-Generalship concurrently in 1905-1907 (e.g., an O.R.C. civil-service record distinguishing a 'Burnet Adams' from 'P. F. B. Adams'), or a printed source showing P. F. B. Adams was absent from the colony during 1905-1909."
+    },
+    {
+      "bio_id": "adams_frederick-bradford_b1883",
+      "stint_ids": [
+        "Adams, F. B___Nigeria___1915"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the other biography, Philip Francis Burnett Adams, could also be printed as 'F. B. Adams' if the first forename were dropped, and the initials check passed for him too. But his entire printed career is South African surveying (siege of Mafeking, survr.-gen. O.R.C. 1902, survr.-gen. O.F.S. 1910) with no Nigerian or district-administration service whatever, and he was still listed as Surveyor-General of the Orange Free State in editions through 1915 — he is not a Nigerian district officer. A second worry: 'District Officer' is a common junior-to-mid title in Nigeria and 96 officials share this surname; another F. B. Adams could exist. But this link does not rest on title alone: the biography reads '2nd cls. dist. offr., 1914' in Southern Nigeria, and the staff list shows 'F. B. Adams' as 'Second Class District Officer' in Nigeria from 1915 — exact rank-and-grade agreement (the position_sim FAIL at 57 vs bar 60 is a pure abbreviation artifact), exact initial agreement (F.B. = Frederick Bradford), colony agreement (4 placed events resolve to Nigeria), and tenure overlap, with the 1918 listing in the 'Southern Provinces' matching his Southern Nigeria service. Multiple independent dimensions agree and no concrete rival candidate is in evidence.",
+      "evidence_cited": [
+        {"stint_id": "Adams, F. B___Nigeria___1915", "year": 1914, "fact": "2nd cls. dist. offr., 1914"},
+        {"stint_id": "Adams, F. B___Nigeria___1915", "year": 1918, "fact": "Second Class District Officer"},
+        {"stint_id": "Adams, F. B___Nigeria___1915", "year": 1908, "fact": "asst. dist. comanr., S. Nigeria, 1908"},
+        {"stint_id": "Adams, F. B___Nigeria___1915", "year": 1918, "fact": "Southern Provinces"}
+      ],
+      "would_overturn": "A staff list or service record showing two contemporaneous F. B. Adamses in the Nigerian administrative service 1915-1919, or evidence that Frederick Bradford Adams was seconded away from Nigeria (e.g., on war service) throughout 1915-1919 while another F. B. Adams held the district-officer post."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Adams, P. F___New South Wales___1877",
+      "reason": "P. F. Adams, Surveyor-General of New South Wales 1877-1888, is almost certainly a distinct person (plausibly a same-name relative of Philip Francis Burnett Adams — the initials P. F. and the Surveyor-General profession invite exactly the father/son trap). The biography of P. F. B. Adams makes no mention of New South Wales or any pre-1899 service: it opens with education at King's College and the South African war (siege of Mafeking, c. 1899-1900), then survr.-gen., O.R.C., July 1902. A man senior enough to be a colony's Surveyor-General by 1877 would be implausibly old to begin a new surveyor-generalship in 1902 and serve to 1915, and a Colonial Office List biography would not omit an 11-year surveyor-generalship of New South Wales. Every deterministic dimension except surname/initials FAILED. No biography in this case can hold it."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two Orange River Colony stints ('Adams, Burnet' and 'Adams, P. F. B', both 1905-) are the same man listed twice in the same volumes: once in the Survey and Mines Department and once ex officio on the Legislative Council, both as Surveyor-General. The contested status of all three assigned stints dissolves on reading the verbatim entries: Frederick Bradford Adams (b. 1883) was a Nigeria district officer with no South African service, and Philip Francis Burnett Adams was a South African surveyor-general with no Nigerian service; their careers do not overlap in place, office, or seniority. The New South Wales 1877 stint is left unassigned as a probable elder same-name relative outside this case's biographies."
+}

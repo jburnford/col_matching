@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q7349660",
+  "persons": [
+    {
+      "bio_id": "scott_robert_b1903",
+      "stint_ids": ["Scott, Robert___Mauritius___1954"],
+      "confidence": "certain",
+      "arguments_against": "Scott is a very common surname (151 officials, 65 bios) and the bio is flagged single-initial, so a namesake 'Robert Scott' is statistically easy to find. But the namesake would have to be Governor and Commander-in-Chief of Mauritius — a unique office — over exactly 1954-1959, the very tenure the bio prints ('gov. and c-in-c., Maur., 1954-59'), and would have to replicate this man's precise honours sequence: the staff list shows 'C.M.G.' in 1954 upgrading to 'Sir' + 'K.C.M.G.' in 1955, matching the bio's C.M.G. (1945) and K.C.M.G. (1954) (a 1954 award appearing in the next year's printed list is the normal one-edition lag). Position, place, both tenure endpoints, and two honours all agree independently; the position_sim 'failure' (59 vs bar 60) is a rounding-level string artifact between 'gov. and c-in-c.' and the spelled-out title. No realistic counter-hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Scott, Robert___Mauritius___1954", "year": 1954, "fact": "gov. and c-in-c., Maur., 1954-59"},
+        {"stint_id": "Scott, Robert___Mauritius___1954", "year": 1955, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Scott, Robert___Mauritius___1954", "year": 1955, "fact": "K.C.M.G. (1954)"},
+        {"stint_id": "Scott, Robert___Mauritius___1954", "year": 1954, "fact": "C.M.G. (1945)"}
+      ],
+      "would_overturn": "Evidence of a different Sir Robert Scott as Mauritius governor in the mid-1950s, or a record showing this biography's subject held an incompatible post elsewhere during 1954-1959."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique office with exact tenure match (1954-59 in both sources) plus an independently corroborating honours progression (C.M.G. 1954 list, K.C.M.G./Sir from 1955). The single-initial warning is mitigated by the full forename 'Robert' printed in both bio and staff list."
+}

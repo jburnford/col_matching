@@ -1,0 +1,2312 @@
+{
+ "calib_gemini_ceylon_0002": {
+  "career_id": "gemini_ceylon_0002",
+  "bio_id": "saunders_frederick-richard_b1838",
+  "positives": [
+   "Saunders, F. R___Ceylon___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Saunders, R. G___Ceylon___1899",
+   "Saunders, R. G___Ceylon___1914",
+   "Saunders, R. G___Ceylon___1921",
+   "Saunders, R. B___Ceylon___1936"
+  ]
+ },
+ "calib_gemini_ceylon_0004": {
+  "career_id": "gemini_ceylon_0004",
+  "bio_id": "crawford_henry-leighton_b1855",
+  "positives": [
+   "Crawford, H. L___Ceylon___1878"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Crawford, M. S___Ceylon___1880",
+   "Crawford, M. S___Ceylon___1934"
+  ]
+ },
+ "calib_gemini_ceylon_0006": {
+  "career_id": "gemini_ceylon_0006",
+  "bio_id": "booth_leonard-wm_b1856",
+  "positives": [
+   "Booth, L. W___Ceylon___1879",
+   "Booth, L. W___Ceylon___1907"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Booth, F___Ceylon___1905"
+  ]
+ },
+ "calib_gemini_ceylon_0007": {
+  "career_id": "gemini_ceylon_0007",
+  "bio_id": "lushington_charles-morant_b1854",
+  "positives": [
+   "Lushington, C. M___Ceylon___1877",
+   "Lushington, C. M___Ceylon___1907"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Lushington, A. B___Ceylon___1908",
+   "Lushington, H. E. C___Ceylon___1923"
+  ]
+ },
+ "calib_gemini_ceylon_0008": {
+  "career_id": "gemini_ceylon_0008",
+  "bio_id": "white_herbert_b1857",
+  "positives": [
+   "White, H. J___Ceylon___1883"
+  ],
+  "negatives": [
+   "White, H. J___Ceylon___1927"
+  ],
+  "gated_out": [
+   "White, A. M___Ceylon___1896",
+   "White, R. M___Ceylon___1911",
+   "White, T.W___Ceylon___1915"
+  ]
+ },
+ "calib_gemini_ceylon_0010": {
+  "career_id": "gemini_ceylon_0010",
+  "bio_id": "bowes_frederick_e1891",
+  "positives": [
+   "Bowes, F. W___Ceylon___1896",
+   "Bowes, F. W___Ceylon___1909"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Bowes, J. S___Ceylon___1905"
+  ]
+ },
+ "calib_gemini_ceylon_0011": {
+  "career_id": "gemini_ceylon_0011",
+  "bio_id": "fraser_john-george_b1864",
+  "positives": [
+   "Fraser, J. G___Ceylon___1888",
+   "Fraser, J. G___Ceylon___1896",
+   "Fraser, J. G___Ceylon___1919"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Fraser, J. H___Ceylon___1905"
+  ]
+ },
+ "calib_gemini_ceylon_0012": {
+  "career_id": "gemini_ceylon_0012",
+  "bio_id": "hellings_robert-bailey_b1863",
+  "positives": [
+   "Hellings, R. B___Ceylon___1889",
+   "Hellings, R. B___Ceylon___1913"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0013": {
+  "career_id": "gemini_ceylon_0013",
+  "bio_id": "fowler_george-merrick_b1852",
+  "positives": [
+   "Fowler, G. M___Ceylon___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0015": {
+  "career_id": "gemini_ceylon_0015",
+  "bio_id": "kindersley_william-lobing_b1868",
+  "positives": [
+   "Kindersley, William L___Ceylon___1900",
+   "Kindersley, William L___Ceylon___1909"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0016": {
+  "career_id": "gemini_ceylon_0016",
+  "bio_id": "cumberland_chas-russell_b1866",
+  "positives": [
+   "Cumberland, C. R___Ceylon___1890",
+   "Cumberland, C. R___Ceylon___1905",
+   "Cumberland, C. R___Ceylon___1910",
+   "Cumberland, C. R___Ceylon___1919"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0018": {
+  "career_id": "gemini_ceylon_0018",
+  "bio_id": "bonser_j-w_b1847",
+  "positives": [
+   "Bonser, J. W___Ceylon___1894"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0020": {
+  "career_id": "gemini_ceylon_0020",
+  "bio_id": "pereira_james-cecil-walter-k_b1856",
+  "positives": [
+   "Pereira, J. C. Walter___Ceylon___1908"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Pereira, W. H. D. E___Ceylon___1907",
+   "Pereira, W. H. D. E___Ceylon___1925",
+   "Pereira, J. F___Ceylon___1921",
+   "Pereira, A. L___Ceylon___1914",
+   "Pereira, R. J___Ceylon___1922",
+   "Pereira, R. H___Ceylon___1914",
+   "Pereira, I. X___Ceylon___1934"
+  ]
+ },
+ "calib_gemini_ceylon_0022": {
+  "career_id": "gemini_ceylon_0022",
+  "bio_id": "browne_dodwell-f_e1892",
+  "positives": [
+   "Browne, Dodwell F___Ceylon___1894"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Browne, Gerald___Ceylon___1877"
+  ]
+ },
+ "calib_gemini_ceylon_0024": {
+  "career_id": "gemini_ceylon_0024",
+  "bio_id": "dias_felix-reginald_e1887",
+  "positives": [
+   "Dias, Felix R___Ceylon___1894"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Dias, William___Ceylon___1877",
+   "Dias, S. W___Ceylon___1877",
+   "Dias, H___Ceylon___1880",
+   "Dias, R. F___Ceylon___1921",
+   "Dias, C. W___Ceylon___1919",
+   "Dias, E. O___Ceylon___1923",
+   "Dias, S. J. F___Ceylon___1931"
+  ]
+ },
+ "calib_gemini_ceylon_0025": {
+  "career_id": "gemini_ceylon_0025",
+  "bio_id": "de-saram_j-h_b1844",
+  "positives": [
+   "de Saram, J. H___Ceylon___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "de Saram, D. E___Ceylon___1877",
+   "de Saram, W. H. P___Ceylon___1889",
+   "de Saram, Philip___Ceylon___1894",
+   "de Saram, Peter___Ceylon___1894",
+   "de Saram, Peter___Ceylon___1907",
+   "de Saram, J. S___Ceylon___1894",
+   "de Saram, W. H. F___Ceylon___1900",
+   "de Saram, Allard___Ceylon___1908",
+   "de Saram, Allan___Ceylon___1905",
+   "de Saram, W. S___Ceylon___1909",
+   "de Saram, R. O___Ceylon___1909",
+   "de Saram, R. O___Ceylon___1913",
+   "de Saram, R. O___Ceylon___1920",
+   "de Saram, H. J___Ceylon___1915",
+   "de Saram, B___Ceylon___1914",
+   "de Saram, L. W___Ceylon___1918",
+   "de Saram, J. G. C. S___Ceylon___1934",
+   "de Saram, C. J___Ceylon___1936"
+  ]
+ },
+ "calib_gemini_ceylon_0027": {
+  "career_id": "gemini_ceylon_0027",
+  "bio_id": "maartensz_lewis-matthew_b1876",
+  "positives": [
+   "Maartensz, L. M___Ceylon___1909",
+   "Maartensz, L. M___Ceylon___1918"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Maartensz, A. G___Ceylon___1877"
+  ]
+ },
+ "calib_gemini_ceylon_0028": {
+  "career_id": "gemini_ceylon_0028",
+  "bio_id": "kynsey_w-r_b1840",
+  "positives": [
+   "Kynsey, William R___Ceylon___1878"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0029": {
+  "career_id": "gemini_ceylon_0029",
+  "bio_id": "perry_allan_b1860",
+  "positives": [
+   "Perry, Allan___Ceylon___1898"
+  ],
+  "negatives": [
+   "Perry, The ourable Allan___Ceylon___1911"
+  ],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0030": {
+  "career_id": "gemini_ceylon_0030",
+  "bio_id": "griffin_c-t_e1883",
+  "positives": [
+   "Griffin, C. T___Ceylon___1898"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Griffin, C. F___Ceylon___1886",
+   "Griffin, H. L___Ceylon___1917"
+  ]
+ },
+ "calib_gemini_ceylon_0031": {
+  "career_id": "gemini_ceylon_0031",
+  "bio_id": "vanderstraaten_j-l_e1863",
+  "positives": [
+   "Vanderstraaten, J. L___Ceylon___1878",
+   "Vanderstraaten, J. L___Ceylon___1898"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Vanderstraaten, E. H___Ceylon___1899",
+   "Vanderstraaten, A. E___Ceylon___1905"
+  ]
+ },
+ "calib_gemini_ceylon_0034": {
+  "career_id": "gemini_ceylon_0034",
+  "bio_id": "attygalle_j_e1866",
+  "positives": [
+   "Attygalle, J. W. S___Ceylon___1877",
+   "Attygalle, J. W. S___Ceylon___1908"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Attygalle, T. P___Ceylon___1906"
+  ]
+ },
+ "calib_gemini_ceylon_0035": {
+  "career_id": "gemini_ceylon_0035",
+  "bio_id": "spence_j-b_e1886",
+  "positives": [
+   "Spence, J. B___Ceylon___1888"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0042": {
+  "career_id": "gemini_ceylon_0042",
+  "bio_id": "cooper_francis-alfred_b1860",
+  "positives": [
+   "Cooper, F. A___Ceylon___1898"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Cooper, A. G___Ceylon___1909",
+   "Cooper, J. C___Ceylon___1913",
+   "Cooper, J. C___Ceylon___1927"
+  ]
+ },
+ "calib_gemini_ceylon_0043": {
+  "career_id": "gemini_ceylon_0043",
+  "bio_id": "chapman_thos-howard_b1866",
+  "positives": [
+   "Chapman, T. H___Ceylon___1890"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0044": {
+  "career_id": "gemini_ceylon_0044",
+  "bio_id": "creasy_harold-thomas_b1873",
+  "positives": [
+   "Creasy, Harold___Ceylon___1899"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Creasy, L___Ceylon___1877",
+   "Creasy, E. S___Ceylon___1879",
+   "Creasy, E. B___Ceylon___1907"
+  ]
+ },
+ "calib_gemini_ceylon_0045": {
+  "career_id": "gemini_ceylon_0045",
+  "bio_id": "tomalin_herbert-frederic_b1862",
+  "positives": [
+   "Tomalin, H. F___Ceylon___1888"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0047": {
+  "career_id": "gemini_ceylon_0047",
+  "bio_id": "balfour_john-aylmer_b1874",
+  "positives": [
+   "Balfour, J. A___Ceylon___1905"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Balfour, W. E. L___Ceylon___1905",
+   "Balfour, D. H___Ceylon___1912",
+   "Balfour, D. H___Ceylon___1928"
+  ]
+ },
+ "calib_gemini_ceylon_0048": {
+  "career_id": "gemini_ceylon_0048",
+  "bio_id": "grinlinton_f-h_e1870",
+  "positives": [
+   "Grinlinton, F. H___Ceylon___1878",
+   "Grinlinton, F. H___Ceylon___1888"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Grinlinton, J. J___Ceylon___1894"
+  ]
+ },
+ "calib_gemini_ceylon_0049": {
+  "career_id": "gemini_ceylon_0049",
+  "bio_id": "templeton_robert-stanaker_b1855",
+  "positives": [
+   "Templeton, R. S___Ceylon___1894"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Templeton, W. S___Ceylon___1907"
+  ]
+ },
+ "calib_gemini_ceylon_0050": {
+  "career_id": "gemini_ceylon_0050",
+  "bio_id": "ingles_walter-culpepper-stanseer_b1868",
+  "positives": [
+   "Ingles, W. C. S___Ceylon___1899"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0051": {
+  "career_id": "gemini_ceylon_0051",
+  "bio_id": "greene_geoffrey-phillip_b1868",
+  "positives": [
+   "Greene, G. P___Ceylon___1905"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0053": {
+  "career_id": "gemini_ceylon_0053",
+  "bio_id": "dutton_thomas-edward_b1877",
+  "positives": [
+   "Dutton, T. E___Ceylon___1915"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Dutton, B. J___Ceylon___1900"
+  ]
+ },
+ "calib_gemini_ceylon_0054": {
+  "career_id": "gemini_ceylon_0054",
+  "bio_id": "campbell_george-w-r_e1855",
+  "positives": [
+   "Campbell, G. W. R___Ceylon___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Campbell, R. B___Ceylon___1888",
+   "Campbell, F. W. B___Ceylon___1888",
+   "Campbell, T. J___Ceylon___1905",
+   "Campbell, W. K. H___Ceylon___1910",
+   "Campbell, W. K. H___Ceylon___1919"
+  ]
+ },
+ "calib_gemini_ceylon_0056": {
+  "career_id": "gemini_ceylon_0056",
+  "bio_id": "tranchell_charles-lancelot_b1870",
+  "positives": [
+   "Tranchell, C. L___Ceylon___1894"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Tranchell, E. F___Ceylon___1886",
+   "Tranchell, E. T___Ceylon___1878"
+  ]
+ },
+ "calib_gemini_ceylon_0058": {
+  "career_id": "gemini_ceylon_0058",
+  "bio_id": "donnan_j_b1837",
+  "positives": [
+   "Donnan, J___Ceylon___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0059": {
+  "career_id": "gemini_ceylon_0059",
+  "bio_id": "gorman_w-j_e1858",
+  "positives": [
+   "Gorman, W. J___Ceylon___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0060": {
+  "career_id": "gemini_ceylon_0060",
+  "bio_id": "harward_john_e1892",
+  "positives": [
+   "Harward, J___Ceylon___1894"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Harward, C. C___Ceylon___1905",
+   "Harward, T___Ceylon___1905"
+  ]
+ },
+ "calib_gemini_ceylon_0061": {
+  "career_id": "gemini_ceylon_0061",
+  "bio_id": "hartley_chas_e1896",
+  "positives": [
+   "Hartley, C___Ceylon___1899"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0064": {
+  "career_id": "gemini_ceylon_0064",
+  "bio_id": "willis_john-christopher_b1868",
+  "positives": [
+   "Willis, J. C___Ceylon___1898"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0066": {
+  "career_id": "gemini_ceylon_0066",
+  "bio_id": "joseph_gerard-abraham_b1870",
+  "positives": [
+   "Joseph, G. A___Ceylon___1896"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Joseph, A. F___Ceylon___1907",
+   "Joseph, Mervyn___Ceylon___1910",
+   "Joseph, Mervyn___Ceylon___1923",
+   "Joseph, L. A___Ceylon___1909",
+   "Joseph, S. P___Ceylon___1918",
+   "Joseph, H. P___Ceylon___1919",
+   "Joseph, E. M. C___Ceylon___1934",
+   "Joseph, D. E___Ceylon___1923",
+   "Joseph, James___Ceylon___1936",
+   "Joseph, T. J___Ceylon___1934"
+  ]
+ },
+ "calib_gemini_ceylon_0068": {
+  "career_id": "gemini_ceylon_0068",
+  "bio_id": "skeen_g-j-a_e1869",
+  "positives": [
+   "Skeen, G. J. A___Ceylon___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Skeen, H. G___Ceylon___1889"
+  ]
+ },
+ "calib_gemini_ceylon_0074": {
+  "career_id": "gemini_ceylon_0074",
+  "bio_id": "watt_j_e1866",
+  "positives": [
+   "Watt, J___Ceylon___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0078": {
+  "career_id": "gemini_ceylon_0078",
+  "bio_id": "de-wilton_albert-walter_b1862",
+  "positives": [
+   "de Wilton, A. W___Ceylon___1905"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0079": {
+  "career_id": "gemini_ceylon_0079",
+  "bio_id": "hyde_george-herbert-maccarthy_b1869",
+  "positives": [
+   "Hyde, G. H. M___Ceylon___1905"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0082": {
+  "career_id": "gemini_ceylon_0082",
+  "bio_id": "arunachalam_ponnambalam_b1853",
+  "positives": [
+   "Arunachalam, P___Ceylon___1878",
+   "Arunachalam, P___Ceylon___1894"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0083": {
+  "career_id": "gemini_ceylon_0083",
+  "bio_id": "bertram_anton_e1887",
+  "positives": [
+   "Bertram, Anton___Ceylon___1912"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_ceylon_0084": {
+  "career_id": "gemini_ceylon_0084",
+  "bio_id": "lascelles_alfred-george_b1857",
+  "positives": [
+   "Lascelles, Alfred G___Ceylon___1905"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_fiji_0092": {
+  "career_id": "gemini_fiji_0092",
+  "bio_id": "langford_john_e1874",
+  "positives": [
+   "Langford, John___Fiji___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_fiji_0104": {
+  "career_id": "gemini_fiji_0104",
+  "bio_id": "kirkwood_richard-hugh_b1859",
+  "positives": [
+   "Kirkwood, R. H___Fiji___1894"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_fiji_0105": {
+  "career_id": "gemini_fiji_0105",
+  "bio_id": "forth_j-ogilvie_e1883",
+  "positives": [
+   "Forth, J. O___Fiji___1886"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Forth, G. F. J___Fiji___1910"
+  ]
+ },
+ "calib_gemini_fiji_0108": {
+  "career_id": "gemini_fiji_0108",
+  "bio_id": "osborn_john-frederick_b1865",
+  "positives": [
+   "Osborn, J. F___Fiji___1906",
+   "Osborn, J. F___Fiji___1911"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Osborn, L. H. L___Fiji___1918"
+  ]
+ },
+ "calib_gemini_fiji_0136": {
+  "career_id": "gemini_fiji_0136",
+  "bio_id": "ackland_ralph-bell_b1898",
+  "positives": [
+   "Ackland, R. B___Fiji___1918",
+   "Ackland, R. B___Fiji___1927",
+   "Ackland, R. B___Fiji___1934"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Ackland, A. B___Fiji___1915",
+   "Ackland, A. B___Fiji___1932"
+  ]
+ },
+ "calib_gemini_fiji_0139": {
+  "career_id": "gemini_fiji_0139",
+  "bio_id": "donovan_wilbur-edmund-james_b1899",
+  "positives": [
+   "Donovan, W. E. J___Fiji___1925"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_fiji_0141": {
+  "career_id": "gemini_fiji_0141",
+  "bio_id": "mccaig_devon-francis_b1895",
+  "positives": [
+   "McCaig, D. F___Fiji___1913",
+   "McCaig, D. F___Fiji___1950"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_fiji_0142": {
+  "career_id": "gemini_fiji_0142",
+  "bio_id": "gregg_b-l_b1905",
+  "positives": [
+   "Gregg, B. L___Fiji___1932"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_fiji_0143": {
+  "career_id": "gemini_fiji_0143",
+  "bio_id": "warner_f-e-m_b1906",
+  "positives": [
+   "Warner, F. E. M___Fiji___1950",
+   "Warner, F. E. M___Fiji___1958"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Warner, P. E___Fiji___1919"
+  ]
+ },
+ "calib_gemini_jamaica_0146": {
+  "career_id": "gemini_jamaica_0146",
+  "bio_id": "mackglashan_john-charles_e1858",
+  "positives": [
+   "Mackglashan, John C___Jamaica___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_jamaica_0147": {
+  "career_id": "gemini_jamaica_0147",
+  "bio_id": "trench_d-p_e1848",
+  "positives": [
+   "Trench, Daniel Power___Jamaica___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_jamaica_0150": {
+  "career_id": "gemini_jamaica_0150",
+  "bio_id": "mossey_charles-benjamin_e1866",
+  "positives": [
+   "Mosse, C. B___Jamaica___1878"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Mosse, C. G. D___Jamaica___1907"
+  ]
+ },
+ "calib_gemini_jamaica_0153": {
+  "career_id": "gemini_jamaica_0153",
+  "bio_id": "newton_edward_e1859",
+  "positives": [
+   "Newton, Edward___Jamaica___1878"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Newton, R. C___Jamaica___1950"
+  ]
+ },
+ "calib_gemini_jamaica_0154": {
+  "career_id": "gemini_jamaica_0154",
+  "bio_id": "walker_edward-noel_b1842",
+  "positives": [
+   "Walker, E. N___Jamaica___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Walker, W. R___Jamaica___1889",
+   "Walker, J. R___Jamaica___1912",
+   "Walker, F___Jamaica___1910",
+   "Walker, Samuel Magnus___Jamaica___1946",
+   "Walker, R. I___Jamaica___1937"
+  ]
+ },
+ "calib_gemini_jamaica_0155": {
+  "career_id": "gemini_jamaica_0155",
+  "bio_id": "bicknell_h-j_e1860",
+  "positives": [
+   "Bicknell, H. J___Jamaica___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Bicknell, Thomas A___Jamaica___1905",
+   "Bicknell, C. A___Jamaica___1905",
+   "Bicknell, L. B___Jamaica___1922",
+   "Bicknell, L. B___Jamaica___1931",
+   "Bicknell, G. M___Jamaica___1933"
+  ]
+ },
+ "calib_gemini_jamaica_0158": {
+  "career_id": "gemini_jamaica_0158",
+  "bio_id": "knollys_louis-frederick_b1847",
+  "positives": [
+   "Knollys, L. F___Jamaica___1888"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Knollys, J. C___Jamaica___1905"
+  ]
+ },
+ "calib_gemini_jamaica_0162": {
+  "career_id": "gemini_jamaica_0162",
+  "bio_id": "mainwaring_k-h-a_e1850",
+  "positives": [
+   "Mainwaring, K. H. A___Jamaica___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_jamaica_0163": {
+  "career_id": "gemini_jamaica_0163",
+  "bio_id": "hartwell_e-h-b_e1851",
+  "positives": [
+   "Hartwell, E. H. B___Jamaica___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_jamaica_0164": {
+  "career_id": "gemini_jamaica_0164",
+  "bio_id": "musson_samuel-paynter_e1866",
+  "positives": [
+   "Musson, Samuel P___Jamaica___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Musson, J. T___Jamaica___1894"
+  ]
+ },
+ "calib_gemini_jamaica_0165": {
+  "career_id": "gemini_jamaica_0165",
+  "bio_id": "sanguinetti_frederick-s_e1863",
+  "positives": [
+   "Sanguinetti, Fred___Jamaica___1877"
+  ],
+  "negatives": [
+   "Sanguinetti, Fred___Jamaica___1948"
+  ],
+  "gated_out": [
+   "Sanguinetti, Elsie___Jamaica___1877",
+   "Sanguinetti, E. H___Jamaica___1886",
+   "Sanguinetti, O. D___Jamaica___1925",
+   "Sanguinetti, O. D___Jamaica___1934",
+   "Sanguinetti, O. D___Jamaica___1954",
+   "Sanguinetti, Ivy M___Jamaica___1922",
+   "Sanguinetti, Ivy M___Jamaica___1930",
+   "Sanguinetti, E. M___Jamaica___1922",
+   "Sanguinetti, S. G___Jamaica___1911",
+   "Sanguinetti, S. T. B___Jamaica___1949",
+   "Sanguinetti, C. S___Jamaica___1915"
+  ]
+ },
+ "calib_gemini_jamaica_0172": {
+  "career_id": "gemini_jamaica_0172",
+  "bio_id": "pearson_torner_e1869",
+  "positives": [
+   "Pearson, Turner___Jamaica___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Pearson, Henry___Jamaica___1888"
+  ]
+ },
+ "calib_gemini_malta_0194": {
+  "career_id": "gemini_malta_0194",
+  "bio_id": "arrigo_edgar_b1870",
+  "positives": [
+   "Arrigo, Edgar___Malta___1896",
+   "Arrigo, Edgar___Malta___1914"
+  ],
+  "negatives": [
+   "Arrigo, Edgar___Malta___1933"
+  ],
+  "gated_out": [
+   "Arrigo, H___Malta___1899",
+   "Arrigo, H___Malta___1924",
+   "Arrigo, A___Malta___1929"
+  ]
+ },
+ "calib_gemini_malta_0206": {
+  "career_id": "gemini_malta_0206",
+  "bio_id": "bonavia_edgar_b1868",
+  "positives": [
+   "Bonavia, Edgar L___Malta___1889",
+   "Bonavia, Edgar L___Malta___1912"
+  ],
+  "negatives": [
+   "Bonavia, Miss E___Malta___1934"
+  ],
+  "gated_out": [
+   "Bonavia, Miss E___Malta___1877",
+   "Bonavia, C___Malta___1877",
+   "Bonavia, F. C___Malta___1905",
+   "Bonavia, F. C___Malta___1923",
+   "Bonavia, G___Malta___1913",
+   "Bonavia, G___Malta___1933"
+  ]
+ },
+ "calib_gemini_malta_0207": {
+  "career_id": "gemini_malta_0207",
+  "bio_id": "briffa_robert-j_b1866",
+  "positives": [
+   "Briffa, R. J___Malta___1886",
+   "Briffa, R. J___Malta___1911"
+  ],
+  "negatives": [
+   "Briffa, John___Malta___1924",
+   "Briffa, R. J___Malta___1939"
+  ],
+  "gated_out": [
+   "Briffa, A. C___Malta___1877",
+   "Briffa, A. C___Malta___1920",
+   "Briffa, A. C___Malta___1949",
+   "Briffa, W. J___Malta___1905",
+   "Briffa, W. J___Malta___1929",
+   "Briffa, V___Malta___1929",
+   "Briffa, Edw. H___Malta___1906",
+   "Briffa, Edw. H___Malta___1929",
+   "Briffa, L. Sammut___Malta___1960"
+  ]
+ },
+ "calib_gemini_malta_0222": {
+  "career_id": "gemini_malta_0222",
+  "bio_id": "galea_arthur_b1872",
+  "positives": [
+   "Galea, Arthur___Malta___1924"
+  ],
+  "negatives": [
+   "Galea, J. Attard___Malta___1939",
+   "Galea, J. Attard___Malta___1952"
+  ],
+  "gated_out": [
+   "Galea, Arthur___Malta___1886",
+   "Galea, G. O___Malta___1877",
+   "Galea, G. O___Malta___1933",
+   "Galea, F. R___Malta___1883",
+   "Galea, Emm___Malta___1929",
+   "Galea, Emm___Malta___1936",
+   "Galea, Emm___Malta___1960",
+   "Galea, Robert V___Malta___1906",
+   "Galea, Robert V___Malta___1936",
+   "Galea, D___Malta___1920",
+   "Galea, S. J___Malta___1924",
+   "Galea, P. P___Malta___1929",
+   "Galea, Mgr. Can. Prof. E___Malta___1933",
+   "Galea, Mgr. Can. E___Malta___1933",
+   "Galea, Victor R___Malta___1936",
+   "Galea, L___Malta___1949"
+  ]
+ },
+ "calib_gemini_malta_0226": {
+  "career_id": "gemini_malta_0226",
+  "bio_id": "zammit_professor-sir-themistocles_b1864",
+  "positives": [
+   "Zammit, Themistocles___Malta___1886"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Zammit, A___Malta___1878",
+   "Zammit, N___Malta___1883",
+   "Zammit, I___Malta___1889",
+   "Zammit, J___Malta___1896",
+   "Zammit, J___Malta___1912",
+   "Zammit, J___Malta___1949",
+   "Zammit, G___Malta___1898",
+   "Zammit, G___Malta___1907",
+   "Zammit, G___Malta___1929",
+   "Zammit, Prof. T. S___Malta___1906",
+   "Zammit, Carmelo___Malta___1924",
+   "Zammit, Carmelo___Malta___1936",
+   "Zammit, Carmelo___Malta___1956",
+   "Zammit, F___Malta___1931"
+  ]
+ },
+ "calib_gemini_malta_0229": {
+  "career_id": "gemini_malta_0229",
+  "bio_id": "vella_v-g_b1901",
+  "positives": [
+   "Vella, V. G___Malta___1930"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Vella, Frederick___Malta___1877",
+   "Vella, Frederick___Malta___1939",
+   "Vella, Tammaso___Malta___1877",
+   "Vella, Paolo___Malta___1877",
+   "Vella, G. Curmi___Malta___1877",
+   "Vella, G. Curmi___Malta___1936",
+   "Vella, V. G___Malta___1899",
+   "Vella, Ruggiero___Malta___1886",
+   "Vella, Edw. L___Malta___1889",
+   "Vella, H___Malta___1896",
+   "Vella, Carmello___Malta___1907",
+   "Vella, Carmello___Malta___1936",
+   "Vella, Carmello___Malta___1953",
+   "Vella, J. Dunbar___Malta___1912",
+   "Vella, J. Dunbar___Malta___1929",
+   "Vella, J. Dunbar___Malta___1949",
+   "Vella, S. L___Malta___1929",
+   "Vella, A___Malta___1929"
+  ]
+ },
+ "calib_gemini_malta_0235": {
+  "career_id": "gemini_malta_0235",
+  "bio_id": "schranz_e-g_b1905",
+  "positives": [
+   "Schranz, E. G___Malta___1933",
+   "Schranz, E. G___Malta___1956"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Schranz, A. G___Malta___1929",
+   "Schranz, J___Malta___1937",
+   "Schranz, J___Malta___1962",
+   "Schranz, F___Malta___1939",
+   "Schranz, C___Malta___1956",
+   "Schranz, A. E___Malta___1905"
+  ]
+ },
+ "calib_gemini_malta_0241": {
+  "career_id": "gemini_malta_0241",
+  "bio_id": "amato-gauci_f-e_b1917",
+  "positives": [
+   "Amato-Gauci, F. E___Malta___1953"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_malta_0242": {
+  "career_id": "gemini_malta_0242",
+  "bio_id": "axisa_j-f_b1906",
+  "positives": [
+   "Axisa, J. F___Malta___1949",
+   "Axisa, J. F___Malta___1956"
+  ],
+  "negatives": [
+   "Axisa, J. F___Malta___1933"
+  ],
+  "gated_out": []
+ },
+ "calib_gemini_malta_0246": {
+  "career_id": "gemini_malta_0246",
+  "bio_id": "pace_l_b1897",
+  "positives": [
+   "Pace, L___Malta___1915",
+   "Pace, L___Malta___1934",
+   "Pace, L___Malta___1949"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Pace, L___Malta___1896",
+   "Pace, T___Malta___1877",
+   "Pace, Pietro___Malta___1889",
+   "Pace, Giuseppe___Malta___1886",
+   "Pace, Monsignor Pietro___Malta___1896",
+   "Pace, E. H___Malta___1898",
+   "Pace, Victor___Malta___1929",
+   "Pace, Victor___Malta___1937",
+   "Pace, Charles___Malta___1929",
+   "Pace, J. Anastasi___Malta___1929",
+   "Pace, J. Anastasi___Malta___1960",
+   "Pace, A___Malta___1924",
+   "Pace, Very Mgr. J___Malta___1933"
+  ]
+ },
+ "calib_gemini_malta_0248": {
+  "career_id": "gemini_malta_0248",
+  "bio_id": "ransley_g-j_b1900",
+  "positives": [
+   "Ransley, G. J___Malta___1949"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_malta_0251": {
+  "career_id": "gemini_malta_0251",
+  "bio_id": "zammit_c-gr_b1911",
+  "positives": [
+   "Zammit, Carmelo___Malta___1936",
+   "Zammit, Carmelo___Malta___1956"
+  ],
+  "negatives": [
+   "Zammit, G___Malta___1929"
+  ],
+  "gated_out": [
+   "Zammit, A___Malta___1878",
+   "Zammit, N___Malta___1883",
+   "Zammit, Themistocles___Malta___1886",
+   "Zammit, Themistocles___Malta___1934",
+   "Zammit, I___Malta___1889",
+   "Zammit, J___Malta___1896",
+   "Zammit, J___Malta___1912",
+   "Zammit, J___Malta___1949",
+   "Zammit, G___Malta___1898",
+   "Zammit, G___Malta___1907",
+   "Zammit, Prof. T. S___Malta___1906",
+   "Zammit, Carmelo___Malta___1924",
+   "Zammit, F___Malta___1931"
+  ]
+ },
+ "calib_gemini_natal_0252": {
+  "career_id": "gemini_natal_0252",
+  "bio_id": "bird_christopher_b1855",
+  "positives": [
+   "Bird, C. J___Natal___1879"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Bird, J. W. F___Natal___1879",
+   "Bird, J. W. F___Natal___1896",
+   "Bird, F. S___Natal___1883"
+  ]
+ },
+ "calib_gemini_natal_0253": {
+  "career_id": "gemini_natal_0253",
+  "bio_id": "byrne_a_e1876",
+  "positives": [
+   "Byrne, A. X___Natal___1879"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Byrne, J___Natal___1879",
+   "Byrne, G. C___Natal___1886"
+  ]
+ },
+ "calib_gemini_natal_0255": {
+  "career_id": "gemini_natal_0255",
+  "bio_id": "lamond_george_e1853",
+  "positives": [
+   "Lamond, G___Natal___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_natal_0259": {
+  "career_id": "gemini_natal_0259",
+  "bio_id": "hunter_david_e1879",
+  "positives": [
+   "Hunter, D___Natal___1883"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Hunter, J. M___Natal___1894"
+  ]
+ },
+ "calib_gemini_natal_0261": {
+  "career_id": "gemini_natal_0261",
+  "bio_id": "chadwick_john-courtenay-chaman_b1846",
+  "positives": [
+   "Chadwick, J. C. C___Natal___1879"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Chadwick, R. M. K___Natal___1879"
+  ]
+ },
+ "calib_gemini_natal_0262": {
+  "career_id": "gemini_natal_0262",
+  "bio_id": "russell_robert_e1866",
+  "positives": [
+   "Russell, Robert___Natal___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_natal_0264": {
+  "career_id": "gemini_natal_0264",
+  "bio_id": "plant_robert_e1888",
+  "positives": [
+   "Plant, R___Natal___1894"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_natal_0265": {
+  "career_id": "gemini_natal_0265",
+  "bio_id": "hyslop_j_e1882",
+  "positives": [
+   "Hyslop, J. H___Natal___1883"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Hyslop, T___Natal___1906"
+  ]
+ },
+ "calib_gemini_newfoundland_0277": {
+  "career_id": "gemini_newfoundland_0277",
+  "bio_id": "nevill_j-t_e1874",
+  "positives": [
+   "Nevill, J. T___Newfoundland___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_newfoundland_0278": {
+  "career_id": "gemini_newfoundland_0278",
+  "bio_id": "casey_james-joseph_e1878",
+  "positives": [
+   "Casey, John___Newfoundland___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_newfoundland_0300": {
+  "career_id": "gemini_newfoundland_0300",
+  "bio_id": "conroy_j-g_e1880",
+  "positives": [
+   "Conroy, J. G___Newfoundland___1889"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_newfoundland_0302": {
+  "career_id": "gemini_newfoundland_0302",
+  "bio_id": "mccowen_john-roche_b1844",
+  "positives": [
+   "McCowen, John R___Newfoundland___1896"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_newfoundland_0307": {
+  "career_id": "gemini_newfoundland_0307",
+  "bio_id": "shea_e-d_e1874",
+  "positives": [
+   "Shea, E. D___Newfoundland___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Shea, Henry___Newfoundland___1880"
+  ]
+ },
+ "calib_gemini_newfoundland_0342": {
+  "career_id": "gemini_newfoundland_0342",
+  "bio_id": "halfyard_w-w_e1918",
+  "positives": [
+   "Halfyard, W. W___Newfoundland___1917"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_newfoundland_0358": {
+  "career_id": "gemini_newfoundland_0358",
+  "bio_id": "blandford_sydney-d_b1868",
+  "positives": [
+   "Blandford, Sydney D___Newfoundland___1910"
+  ],
+  "negatives": [
+   "Blandford, D___Newfoundland___1911"
+  ],
+  "gated_out": [
+   "Blandford, J. B___Newfoundland___1883"
+  ]
+ },
+ "calib_gemini_tasmania_0373": {
+  "career_id": "gemini_tasmania_0373",
+  "bio_id": "douglas_a-c_e1869",
+  "positives": [
+   "Douglas, Adye___Tasmania___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Douglas, P. C___Tasmania___1896"
+  ]
+ },
+ "calib_gemini_tasmania_0377": {
+  "career_id": "gemini_tasmania_0377",
+  "bio_id": "fletcher_geo-wm_e1851",
+  "positives": [
+   "Fletcher, G. W___Tasmania___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Fletcher, M___Tasmania___1899"
+  ]
+ },
+ "calib_gemini_tasmania_0385": {
+  "career_id": "gemini_tasmania_0385",
+  "bio_id": "ward_w-f_e1876",
+  "positives": [
+   "Ward, William F___Tasmania___1888"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Ward, L. K___Tasmania___1908"
+  ]
+ },
+ "calib_gemini_tasmania_0388": {
+  "career_id": "gemini_tasmania_0388",
+  "bio_id": "henry_r_e1878",
+  "positives": [
+   "Henry, Robert___Tasmania___1888"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Henry, John___Tasmania___1894"
+  ]
+ },
+ "calib_gemini_tasmania_0389": {
+  "career_id": "gemini_tasmania_0389",
+  "bio_id": "browne_george_e1863",
+  "positives": [
+   "Browne, George___Tasmania___1878",
+   "Browne, George___Tasmania___1907"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Browne, Justin McCarty___Tasmania___1888"
+  ]
+ },
+ "calib_gemini_tasmania_0390": {
+  "career_id": "gemini_tasmania_0390",
+  "bio_id": "israel_john-wm_b1850",
+  "positives": [
+   "Israel, J. W___Tasmania___1888"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_gemini_tasmania_0397": {
+  "career_id": "gemini_tasmania_0397",
+  "bio_id": "barnard_james_e1864",
+  "positives": [
+   "Barnard, James___Tasmania___1877"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Barnard, H. S___Tasmania___1877",
+   "Barnard, C. E___Tasmania___1888"
+  ]
+ },
+ "calib_Q107340063": {
+  "career_id": "Q107340063",
+  "bio_id": "morgan_hywel-glyn_b1899",
+  "positives": [
+   "Morgan, H. G. St. G___Nyasaland___1933"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7427339": {
+  "career_id": "Q7427339",
+  "bio_id": "samuel_saul_e1854",
+  "positives": [
+   "Samuel, Saul___New South Wales___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1392013": {
+  "career_id": "Q1392013",
+  "bio_id": "bowen_george-ferguson_e1840",
+  "positives": [
+   "Bowen, George Ferguson___Hong Kong___1883",
+   "Bowen, George Ferguson___Mauritius___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1439869": {
+  "career_id": "Q1439869",
+  "bio_id": "trench_david-clive-crosby_b1915",
+  "positives": [
+   "Trench, David___Hong Kong___1956",
+   "Trench, David___Hong Kong___1964"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q14945531": {
+  "career_id": "Q14945531",
+  "bio_id": "stanley_herbert-james_b1872",
+  "positives": [
+   "Stanley, Herbert J___Northern Rhodesia___1925"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q16003769": {
+  "career_id": "Q16003769",
+  "bio_id": "tyrrell_francis-graham_b1876",
+  "positives": [
+   "Tyrrell, F. G___Ceylon___1931"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q16198636": {
+  "career_id": "Q16198636",
+  "bio_id": "douglas_john_e1862",
+  "positives": [
+   "Douglas, John___Ceylon___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q16932828": {
+  "career_id": "Q16932828",
+  "bio_id": "wedderburn_maxwell-maclagan_b1883",
+  "positives": [
+   "Wedderburn, M. M___Ceylon___1919"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1899909": {
+  "career_id": "Q1899909",
+  "bio_id": "young_mark-aitchison_b1886",
+  "positives": [
+   "Young, Mark Aitchison___Hong Kong___1946"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2607896": {
+  "career_id": "Q2607896",
+  "bio_id": "blake_henry-arthur_b1840",
+  "positives": [
+   "Blake, Henry A___Ceylon___1905",
+   "Blake, Henry Arthur___Hong Kong___1898",
+   "Blake, Henry Arthur___Jamaica___1889"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2607987": {
+  "career_id": "Q2607987",
+  "bio_id": "stubbs_reginald-edward_b1876",
+  "positives": [
+   "Stubbs, R. E___Ceylon___1914",
+   "Stubbs, R. E___Jamaica___1928",
+   "Stubbs, Reginald Edward___Hong Kong___1919"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2608158": {
+  "career_id": "Q2608158",
+  "bio_id": "black_robert_b1906",
+  "positives": [
+   "Black, Robert___Hong Kong___1958"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q336027": {
+  "career_id": "Q336027",
+  "bio_id": "lugard_frederick-john-dealtry_b1858",
+  "positives": [
+   "Lugard, Frederick John Dealty___Hong Kong___1911"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q336750": {
+  "career_id": "Q336750",
+  "bio_id": "robinson_hercules-g-r_e1846",
+  "positives": [
+   "Robinson, Hercules George Robert___New Zealand___1879"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Robinson, H. W___New Zealand___1877"
+  ]
+ },
+ "calib_Q3815649": {
+  "career_id": "Q3815649",
+  "bio_id": "chalmers_right-hon-sir-robert_b1858",
+  "positives": [
+   "Chalmers, Robert___Ceylon___1914"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q5538536": {
+  "career_id": "Q5538536",
+  "bio_id": "barker_g-digby_b1833",
+  "positives": [
+   "Barker, George Digby___Bermuda___1897"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q6142212": {
+  "career_id": "Q6142212",
+  "bio_id": "longden_james-r_e1844",
+  "positives": [
+   "Longden, James Robert___Ceylon___1878"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q839225": {
+  "career_id": "Q839225",
+  "bio_id": "clemen-ti_cecil_e1895",
+  "positives": [
+   "Clementi, Cecil___Hong Kong___1927"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q839673": {
+  "career_id": "Q839673",
+  "bio_id": "grantham_alexander-william-george-herder_b1899",
+  "positives": [
+   "Grantham, Alexander William George Herder___Hong Kong___1948"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q16043679": {
+  "career_id": "Q16043679",
+  "bio_id": "burns_john-fitzgerald_e1861",
+  "positives": [
+   "Burns, J. F___New South Wales___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q957756": {
+  "career_id": "Q957756",
+  "bio_id": "clifford_hugh-charles_b1866",
+  "positives": [
+   "Clifford, Hugh___Ceylon___1907"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q107340555": {
+  "career_id": "Q107340555",
+  "bio_id": "furnes-smith_cecil_b1890",
+  "positives": [
+   "Furness-Smith, C___Zanzibar___1937"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1300807": {
+  "career_id": "Q1300807",
+  "bio_id": "abrahams_sidney-solomon_b1885",
+  "positives": [
+   "Abrahams, S. S___Zanzibar___1917",
+   "Abrahams, S. S___Zanzibar___1923"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q711119": {
+  "career_id": "Q711119",
+  "bio_id": "richards_arthur-frederick_b1885",
+  "positives": [
+   "Richards, A. F___North Borneo___1933",
+   "Richards, Arthur F___Jamaica___1940"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Richards, A. G___Jamaica___1888",
+   "Richards, A. H___Jamaica___1937"
+  ]
+ },
+ "calib_Q503662": {
+  "career_id": "Q503662",
+  "bio_id": "wright_andrew-barkworth_b1895",
+  "positives": [
+   "Wright, Andrew Barkworth___Cyprus___1951"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q5735394": {
+  "career_id": "Q5735394",
+  "bio_id": "palmer_herbert-richmond_b1877",
+  "positives": [
+   "Palmer, Herbert Richmond___Cyprus___1934"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q6742650": {
+  "career_id": "Q6742650",
+  "bio_id": "stevenson_malcolm_b1878",
+  "positives": [
+   "Stevenson, Malcolm___Cyprus___1918"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7348833": {
+  "career_id": "Q7348833",
+  "bio_id": "armitage_robert-perceval_b1906",
+  "positives": [
+   "Armitage, Robert___Cyprus___1954"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q107338322": {
+  "career_id": "Q107338322",
+  "bio_id": "pavlides_spyros_b1901",
+  "positives": [
+   "Pavlides, Stelios___Cyprus___1936"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q107340153": {
+  "career_id": "Q107340153",
+  "bio_id": "cools-lartigue_alexander-raphael_b1899",
+  "positives": [
+   "Cools-Lartigue, A. R___Jamaica___1954",
+   "Cools-Lartigue, A. R___Windward Islands___1939"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q107394016": {
+  "career_id": "Q107394016",
+  "bio_id": "somerhough_a-g-c_b1906",
+  "positives": [
+   "Somerhough, A. G. C___Northern Rhodesia___1956",
+   "Somerhough, A. G___Kenya___1950"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q108043166": {
+  "career_id": "Q108043166",
+  "bio_id": "conroy_diarmaid_b1913",
+  "positives": [
+   "Conroy, D. W___Northern Rhodesia___1961"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q108047267": {
+  "career_id": "Q108047267",
+  "bio_id": "dreschfield_ralph-leonard-emmanuel_b1911",
+  "positives": [
+   "Dreschfield, R. L. E___Uganda___1952"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Dreschfield, R. E. L___Uganda___1939"
+  ]
+ },
+ "calib_Q108050307": {
+  "career_id": "Q108050307",
+  "bio_id": "mayers_thomas-henry_b1907",
+  "positives": [
+   "Mayers, T. H___Kenya___1953"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1810503": {
+  "career_id": "Q1810503",
+  "bio_id": "olivier_sydney_b1859",
+  "positives": [
+   "Olivier, Sydney___Jamaica___1908"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q28843167": {
+  "career_id": "Q28843167",
+  "bio_id": "haddon-smith_geo-babil_b1861",
+  "positives": [
+   "Haddon-Smith, George B___Windward Islands___1915"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q28843170": {
+  "career_id": "Q28843170",
+  "bio_id": "james_frederick-swton_b1870",
+  "positives": [
+   "James, Frederick S___Windward Islands___1924"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q28843184": {
+  "career_id": "Q28843184",
+  "bio_id": "popham_henry-bradshaw_b1881",
+  "positives": [
+   "Popham, Henry B___Windward Islands___1939"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2984597": {
+  "career_id": "Q2984597",
+  "bio_id": "deverell_colville_b1907",
+  "positives": [
+   "Deverell, Colville Montgomery___Mauritius___1960",
+   "Deverell, Colville___Windward Islands___1955"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q573690": {
+  "career_id": "Q573690",
+  "bio_id": "musgrave_antony-junr_e1868",
+  "positives": [
+   "Musgrave, Anthony___Jamaica___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q6135770": {
+  "career_id": "Q6135770",
+  "bio_id": "sadler_james-hayes_e1870",
+  "positives": [
+   "Sadler, James Hayes___Windward Islands___1913"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7341945": {
+  "career_id": "Q7341945",
+  "bio_id": "llewelyn_robert-b_b1845",
+  "positives": [
+   "Llewelyn, R. B___Turks and Caicos Islands___1879",
+   "Llewelyn, R. B___Windward Islands___1905"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q125387502": {
+  "career_id": "Q125387502",
+  "bio_id": "smith_allan_b1895",
+  "positives": [
+   "Smith, A. M. MacLeod___Sierra Leone___1958",
+   "Smith, A. St. L___Gold Coast___1949",
+   "Smith, Allan Chalmers___Sierra Leone___1951",
+   "Smith, Allan F___Bermuda___1957"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q24648718": {
+  "career_id": "Q24648718",
+  "bio_id": "sayer_w-f_e1879",
+  "positives": [
+   "Sayer, William F___Western Australia___1899"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2890810": {
+  "career_id": "Q2890810",
+  "bio_id": "chancellor_john-robert_e1896",
+  "positives": [
+   "Chancellor, J. R___Mauritius___1912"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q5927395": {
+  "career_id": "Q5927395",
+  "bio_id": "jerningham_hubert-edward-henry_b1842",
+  "positives": [
+   "Jerningham, Hubert Edward Henry___Mauritius___1890"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7349660": {
+  "career_id": "Q7349660",
+  "bio_id": "scott_robert_b1903",
+  "positives": [
+   "Scott, Robert___Mauritius___1954"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1355778": {
+  "career_id": "Q1355778",
+  "bio_id": "turnbull_roland_b1905",
+  "positives": [
+   "Turnbull, Roland___North Borneo___1954"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1608948": {
+  "career_id": "Q1608948",
+  "bio_id": "hone_herbert-ralph_b1896",
+  "positives": [
+   "Hone, Ralph___North Borneo___1950"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q18810574": {
+  "career_id": "Q18810574",
+  "bio_id": "hood_alexander_b1888",
+  "positives": [
+   "Hood, Alexander___Bermuda___1950"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2577848": {
+  "career_id": "Q2577848",
+  "bio_id": "goode_william-allmond-codrington_b1907",
+  "positives": [
+   "Goode, William___North Borneo___1960"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2776667": {
+  "career_id": "Q2776667",
+  "bio_id": "bols_louis-jean_b1867",
+  "positives": [
+   "Bols, Louis Jean___Bermuda___1928"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q49471033": {
+  "career_id": "Q49471033",
+  "bio_id": "calder_james_b1898",
+  "positives": [
+   "Calder, J___North Borneo___1949"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q6106030": {
+  "career_id": "Q6106030",
+  "bio_id": "asser_limut-gen-sir-joseph-john_b1867",
+  "positives": [
+   "Asser, Joseph John___Bermuda___1923"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q6264790": {
+  "career_id": "Q6264790",
+  "bio_id": "woodall_john_b1897",
+  "positives": [
+   "Woodall, John___Bermuda___1956"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q6307175": {
+  "career_id": "Q6307175",
+  "bio_id": "gascoigne_julian_b1903",
+  "positives": [
+   "Gascoigne, Julian___Bermuda___1960"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q793080": {
+  "career_id": "Q793080",
+  "bio_id": "pearson_aylmer-cavendish_b1876",
+  "positives": [
+   "Pearson, A. C___North Borneo___1908"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7788737": {
+  "career_id": "Q7788737",
+  "bio_id": "cubitt_thomas-astley_b1871",
+  "positives": [
+   "Cubitt, T. A___Bermuda___1931"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q22018889": {
+  "career_id": "Q22018889",
+  "bio_id": "lyons_t-c_e1857",
+  "positives": [
+   "Lyons, Thomas Casey___Bermuda___1894"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q75321565": {
+  "career_id": "Q75321565",
+  "bio_id": "galiwey_thomas-lionel-j_e1839",
+  "positives": [
+   "Gallwey, Thomas Lionel John___Bermuda___1883"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2577723": {
+  "career_id": "Q2577723",
+  "bio_id": "robinson_william-c-f_b1836",
+  "positives": [
+   "Robinson, W. C. F___Western Australia___1890",
+   "Robinson, William___South Australia___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q107337917": {
+  "career_id": "Q107337917",
+  "bio_id": "southworth_f_b1910",
+  "positives": [
+   "Southworth, F___Nyasaland___1955"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q107338079": {
+  "career_id": "Q107338079",
+  "bio_id": "hooton_john-charles_b1912",
+  "positives": [
+   "Hooton, J. C___Bermuda___1959"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q108043338": {
+  "career_id": "Q108043338",
+  "bio_id": "pereira_robert-james_b1869",
+  "positives": [
+   "Pereira, R. J___Ceylon___1922"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q125387501": {
+  "career_id": "Q125387501",
+  "bio_id": "trimingham_harold-gilbert-lutyens_b1892",
+  "positives": [
+   "Trimingham, H. G. L___Bermuda___1949"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q125387509": {
+  "career_id": "Q125387509",
+  "bio_id": "godet_h-m_b1897",
+  "positives": [
+   "Godet, H. Martin___Bermuda___1949"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q125387523": {
+  "career_id": "Q125387523",
+  "bio_id": "williams_d-j_b1915",
+  "positives": [
+   "Williams, D. J___Bermuda___1949"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q125387529": {
+  "career_id": "Q125387529",
+  "bio_id": "smith_p-j-c_b1921",
+  "positives": [
+   "Smith, P. J. C___Bermuda___1953"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q459640": {
+  "career_id": "Q459640",
+  "bio_id": "sharpe_alfred_b1853",
+  "positives": [
+   "Sharpe, Alfred___British Central Africa___1898",
+   "Sharpe, Alfred___Nyasaland___1908"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q98767258": {
+  "career_id": "Q98767258",
+  "bio_id": "nunan_joseph-john_e1898",
+  "positives": [
+   "Nunan, J. J___British Guiana___1906"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q107333441": {
+  "career_id": "Q107333441",
+  "bio_id": "simmons_e-b_b1913",
+  "positives": [
+   "Simmons, E. B___Tanganyika___1960"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q65659083": {
+  "career_id": "Q65659083",
+  "bio_id": "garraway_e-c-f_e1880",
+  "positives": [
+   "Garraway, E. C. F___Basutoland___1920"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7183388": {
+  "career_id": "Q7183388",
+  "bio_id": "smyly_sie-philip-crampton_b1866",
+  "positives": [
+   "Smyly, P. C___Gold Coast___1912"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q22980469": {
+  "career_id": "Q22980469",
+  "bio_id": "abell_anthony-foster_b1906",
+  "positives": [
+   "Abell, Anthony Foster___Sarawak___1950"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q128672": {
+  "career_id": "Q128672",
+  "bio_id": "tupper_charles-hibbert_b1855",
+  "positives": [
+   "Tupper, Charles Hibbert___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q6141419": {
+  "career_id": "Q6141419",
+  "bio_id": "prendergast_james_b1828",
+  "positives": [
+   "Prendergast, J___New Zealand___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7326872": {
+  "career_id": "Q7326872",
+  "bio_id": "cartwright_richard-john_b1835",
+  "positives": [
+   "Cartwright, Richard John___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q2579525": {
+  "career_id": "Q2579525",
+  "bio_id": "jerovis_william-francis-drummond_e1841",
+  "positives": [
+   "Jervois, William Francis Drummond___New Zealand___1883",
+   "Jervois, William Francis Drummond___South Australia___1878"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1606473": {
+  "career_id": "Q1606473",
+  "bio_id": "ayers_henry_e1863",
+  "positives": [
+   "Ayers, Henry___South Australia___1877",
+   "Ayers, Henry___South Australia___1888"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q742508": {
+  "career_id": "Q742508",
+  "bio_id": "bell_francis-henry-dillon_b1851",
+  "positives": [
+   "Bell, Francis Dillon___New Zealand___1920",
+   "Bell, Francis Henry Dillon___New Zealand___1897"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1175226": {
+  "career_id": "Q1175226",
+  "bio_id": "macpherson_david-lewis_e1881",
+  "positives": [
+   "Macpherson, David L___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q328232": {
+  "career_id": "Q328232",
+  "bio_id": "whitaker_frederick_e1846",
+  "positives": [
+   "Whitaker, Frederick___New Zealand___1883"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1361191": {
+  "career_id": "Q1361191",
+  "bio_id": "atkinson_h-a_e1887",
+  "positives": [
+   "Atkinson, Harry Albert___New Zealand___1880"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q945390": {
+  "career_id": "Q945390",
+  "bio_id": "stout_robert_b1844",
+  "positives": [
+   "Stout, Robert___New Zealand___1900"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q6233141": {
+  "career_id": "Q6233141",
+  "bio_id": "findlay_john-george_e1906",
+  "positives": [
+   "Findlay, John George___New Zealand___1907"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q780032": {
+  "career_id": "Q780032",
+  "bio_id": "tilley_samuel-leonard_b1818",
+  "positives": [
+   "Tilley, Samuel Leonard___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q389321": {
+  "career_id": "Q389321",
+  "bio_id": "lougheed_sr-jas-alexander_b1854",
+  "positives": [
+   "Lougheed, James Alexander___Canada___1907"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q351904": {
+  "career_id": "Q351904",
+  "bio_id": "archibald_adams-g_e1870",
+  "positives": [
+   "Archibald, Adams G___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7146030": {
+  "career_id": "Q7146030",
+  "bio_id": "buckley_p-a_e1891",
+  "positives": [
+   "Buckley, P. A___New Zealand___1894"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q76821": {
+  "career_id": "Q76821",
+  "bio_id": "grey_george_e1829",
+  "positives": [
+   "Grey, George___New Zealand___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q3181113": {
+  "career_id": "Q3181113",
+  "bio_id": "boyd_john-alexander_b1837",
+  "positives": [
+   "Boyd, John Alexander___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q3181822": {
+  "career_id": "Q3181822",
+  "bio_id": "fraser_j-j_e1882",
+  "positives": [
+   "Fraser, John James___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q7329994": {
+  "career_id": "Q7329994",
+  "bio_id": "scott_richard-william_b1825",
+  "positives": [
+   "Scott, Richard William___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_Q1680212": {
+  "career_id": "Q1680212",
+  "bio_id": "aikins_james-cox_b1823",
+  "positives": [
+   "Aikins, James Cox___Canada___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_gordon_ah": {
+  "career_id": "curated_gordon_ah",
+  "bio_id": "gordon_arthur-hamilton_e1852",
+  "positives": [
+   "Gordon, Arthur Hamilton___Ceylon___1886",
+   "Gordon, Arthur Hamilton___Fiji___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_lugard_fjd": {
+  "career_id": "curated_lugard_fjd",
+  "bio_id": "lugard_frederick-john-dealtry_b1858",
+  "positives": [
+   "Lugard, F. J. D___Nigeria___1917",
+   "Lugard, F. J. D___Northern Nigeria___1905",
+   "Lugard, Frederick John Dealty___Hong Kong___1911"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_clifford_hugh": {
+  "career_id": "curated_clifford_hugh",
+  "bio_id": "clifford_hugh-charles_b1866",
+  "positives": [
+   "Clifford, Hugh Charles___Gold Coast___1913",
+   "Clifford, Hugh___Ceylon___1907",
+   "Clifford, Hugh___Nigeria___1919",
+   "Clifford, Hugh___St Vincent___1909",
+   "Clifford, Hugh___Trinidad and Tobago___1905"
+  ],
+  "negatives": [],
+  "gated_out": [
+   "Clifford, Hugh___Labuan___1905",
+   "Clifford, Hugh___North Borneo___1908",
+   "Clifford, Hugh Charles___Straits Settlements___1931"
+  ]
+ },
+ "calib_curated_clifford_bede": {
+  "career_id": "curated_clifford_bede",
+  "bio_id": "clifford_bede-edmund-hugh_b1890",
+  "positives": [
+   "Clifford, Bede E. H___Bahamas___1933",
+   "Clifford, Bede___Mauritius___1939"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_clifford_geoffrey": {
+  "career_id": "curated_clifford_geoffrey",
+  "bio_id": "clifford_geoffrey-miles_b1897",
+  "positives": [
+   "Clifford, Geoffrey Miles___Falkland Islands___1946",
+   "Clifford, Miles___Falkland Islands___1951"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_robinson_hgr": {
+  "career_id": "curated_robinson_hgr",
+  "bio_id": "robinson_hercules-g-r_e1846",
+  "positives": [
+   "Robinson, Hercules George Robert___Cape of Good Hope___1883",
+   "Robinson, Hercules George Robert___New South Wales___1877",
+   "Robinson, Hercules George Robert___New Zealand___1879"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_cameron_donald": {
+  "career_id": "curated_cameron_donald",
+  "bio_id": "cameron_donald-charles_e1890",
+  "positives": [
+   "Cameron, Donald C___Nigeria___1914",
+   "Cameron, Donald___British Guiana___1888",
+   "Cameron, Donald___Tanganyika___1925"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_guggisberg_fg": {
+  "career_id": "curated_guggisberg_fg",
+  "bio_id": "guggisberg_frederick-gordon_b1869",
+  "positives": [
+   "Guggisberg, F. Gordon___Gold Coast___1922",
+   "Guggisberg, F. Gordon___Southern Nigeria___1911",
+   "Guggisberg, F. Gordon___Togoland___1920"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_macgregor_william": {
+  "career_id": "curated_macgregor_william",
+  "bio_id": "macgregor_william_b1847",
+  "positives": [
+   "MacGregor, William___Newfoundland___1906",
+   "Macgregor, William___British New Guinea___1889"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_nicholls_haa": {
+  "career_id": "curated_nicholls_haa",
+  "bio_id": "nicholls_henry-alfred-alford_b1851",
+  "positives": [
+   "Nicholls, H. A. Alford___Dominica___1886",
+   "Nicholls, H. A. Alford___Leeward Islands___1897"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_hutchins_de": {
+  "career_id": "curated_hutchins_de",
+  "bio_id": "hutchins_david-ernest_b1850",
+  "positives": [
+   "Hutchins, D. E___Cape of Good Hope___1888",
+   "Hutchins, D. E___Cape of Good Hope___1906",
+   "Hutchins, D. E___Kenya___1908"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_grey_george_nz": {
+  "career_id": "curated_grey_george_nz",
+  "bio_id": "grey_george_e1829",
+  "positives": [
+   "Grey, George___New Zealand___1877"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_robinson_wcf": {
+  "career_id": "curated_robinson_wcf",
+  "bio_id": "robinson_william-c-f_b1836",
+  "positives": [
+   "Robinson, W. C. F___Leeward Islands___1877",
+   "Robinson, W. C. F___Western Australia___1890",
+   "Robinson, William C. F___Canada___1886",
+   "Robinson, William Cleaver Francis___Straits Settlements___1878"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_grey_ralph": {
+  "career_id": "curated_grey_ralph",
+  "bio_id": "grey_ralph-francis-alnwick_b1910",
+  "positives": [
+   "Grey, Ralph___Bahamas___1964",
+   "Grey, Ralph___British Guiana___1960",
+   "Grey, Ralph___Nigeria___1956",
+   "Grey, Ralph___West Indies Federation___1961",
+   "Grey, Ralph___Western Pacific___1965"
+  ],
+  "negatives": [],
+  "gated_out": []
+ },
+ "calib_curated_cameron_ej": {
+  "career_id": "curated_cameron_ej",
+  "bio_id": "cameron_edward-j_e1882",
+  "positives": [
+   "Cameron, Edw. John___Windward Islands___1905",
+   "Cameron, Edward J___Gambia___1914",
+   "Cameron, Edward J___Leeward Islands___1949",
+   "Cameron, Edward John___Windward Islands___1948"
+  ],
+  "negatives": [],
+  "gated_out": []
+ }
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q125387501",
+  "persons": [
+    {
+      "bio_id": "trimingham_harold-gilbert-lutyens_b1892",
+      "stint_ids": ["Trimingham, H. G. L___Bermuda___1949"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: Trimingham is a prominent Bermudian family name (6 officials with the surname, 2 biographies), so a relative — even a son with the same initials — could hold a Bermuda post. This fails: Colonial Auditor of Bermuda is a unique, named senior office, and the biography prints 'col. audr., Berm., 1943' — exact office and colony, with the stint (Colonial Auditor, Audit dept., 1949-1952) being the direct continuation of that 1943 appointment; all three initials H. G. L. match the full forenames Harold Gilbert Lutyens; and his entire printed career (audit board member 1932, chairman 1934-43) is in Bermuda's audit establishment, the same department as the stint. A same-initial relative holding the identical unique office during the same years is not a realistic alternative. The honour FAIL is an artifact: neither source prints honours.",
+      "evidence_cited": [
+        {"stint_id": "Trimingham, H. G. L___Bermuda___1949", "year": 1949, "fact": "col. audr., Berm., 1943"},
+        {"stint_id": "Trimingham, H. G. L___Bermuda___1949", "year": 1949, "fact": "Colonial Auditor"},
+        {"stint_id": "Trimingham, H. G. L___Bermuda___1949", "year": 1949, "fact": "chmn., audit bd., 1934-43"}
+      ],
+      "would_overturn": "Evidence of a second H. G. L. Trimingham serving as Bermuda's Colonial Auditor 1949-1952, or evidence the biography subject retired or died before 1949."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique office (Colonial Auditor, Bermuda) printed in the biography from 1943; stint 1949-1952 is its continuation. Three-initial agreement and 3 co-occurring edition-years. Age 57-60 during the stint is consistent with a senior auditor approaching retirement."
+}

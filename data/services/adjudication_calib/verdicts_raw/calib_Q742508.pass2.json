@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_Q742508",
+  "persons": [
+    {
+      "bio_id": "bell_francis-henry-dillon_b1851",
+      "stint_ids": [
+        "Bell, Francis Dillon___New Zealand___1920",
+        "Bell, Francis Henry Dillon___New Zealand___1897"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against is the famous same-name father: Sir Francis Dillon Bell (the biography subject's father was a well-known New Zealand politician with the identical name minus 'Henry'), and the 1920 stint is printed as 'Bell, Francis Dillon' without the 'Henry'. The father, however, belonged to a generation active in the mid-1800s and could not be serving as a minister in 1920-1922; and the 1920 stint's portfolio list (Attorney-General, Minister of Education, Public Health, Immigration, Commissioner of State Forests, Leader of the Legislative Council, K.C.M.G.) reproduces the biography's 1919-20 offices exactly and in combination, which no relative or successor could coincidentally share. For the 1897 stint, the early Vice-Consul/Consul records (1897-1909) are not mentioned in the biography, so one could argue they belong to a different F. H. D. Bell; but the stint is a single continuous chain under the full distinctive triple forename 'Francis Henry Dillon', and its later records (Minister of Internal Affairs 1913-15, Minister of Immigration, Attorney-General 1919, Leader of the Legislative Council, Minister of Marine 1922, K.C.M.G.) match the biography office-for-office and year-for-year. A consular sideline simply went unrecorded in the Record of Services. No live counter-hypothesis survives for either stint.",
+      "evidence_cited": [
+        {"stint_id": "Bell, Francis Henry Dillon___New Zealand___1897", "year": 1913, "fact": "Minister of Internal Affairs"},
+        {"stint_id": "Bell, Francis Henry Dillon___New Zealand___1897", "year": 1919, "fact": "Attorney-General, Minister of Immigration and Leader of the Legislative Council"},
+        {"stint_id": "Bell, Francis Henry Dillon___New Zealand___1897", "year": 1922, "fact": "Minister of Marine"},
+        {"stint_id": "Bell, Francis Dillon___New Zealand___1920", "year": 1920, "fact": "Attorney-General, Minister of Education, Minister of Public Health, Minister Immigration, Commissioner of State Forests"},
+        {"stint_id": "Bell, Francis Dillon___New Zealand___1920", "year": 1922, "fact": "Attorney-General, Commissioner of State Forests, Minister in Charge of Valuation Department, and Leader of the Legislative Council"}
+      ],
+      "would_overturn": "Evidence that a second F. Bell held any of the 1920-22 ministerial portfolios in New Zealand, or that the 1897-1909 consular records belong to a separately attested Francis Henry Dillon Bell (e.g. a son with the identical triple forename active as consul while the subject sat in the House of Representatives)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Both stints are the same well-documented person (NZ Prime Minister May 1925). The 1920 stint's name omits 'Henry' but the office-cluster match with the biography's 1919-22 portfolios is exact and multi-dimensional (positions + honours + dates + colony)."
+}

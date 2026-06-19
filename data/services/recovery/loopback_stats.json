@@ -1,0 +1,11 @@
+{
+ "confirmed_records": 170799,
+ "surname_only_records": 65620,
+ "synthetic_stints": 235128,
+ "bios_with_candidate_before": 9706,
+ "bios_with_candidate_after": 15654,
+ "bios_rescued": 6046,
+ "bios_rescued_confirmed_driven": 5167,
+ "bios_rescued_surname_only_driven": 879,
+ "bios_with_recovered_candidate": 14814
+}

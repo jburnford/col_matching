@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_natal_0264",
+  "persons": [
+    {
+      "bio_id": "plant_robert_e1888",
+      "stint_ids": ["Plant, R___Natal___1894"],
+      "confidence": "certain",
+      "arguments_against": "The bio is single-initial ('R.'), so the namesake trap is in play: a same-name relative could share the surname and colony. The decisive test is whether the office is generic or singular. Here the match is on a unique senior office: 'Inspector of Native Education, Natal' with a documented promotion to 'Senior Inspector of Native Schools/Education'. There is only one such post in the colony at a time, and the stint shows exactly that single-track career (Inspector 1894-1900, then Senior Inspector 1905-1910), mirroring the bio's two clauses (Inspr. native educa. 1888; senr. inspr. native schls 1904). A relative would have to hold the identical singular office with the identical promotion in the same years — not credible. The 1888 appointment vs 1894 first listing is just staff-list coverage starting later. The namesake objection therefore fails.",
+      "evidence_cited": [
+        {"stint_id": "Plant, R___Natal___1894", "year": 1894, "fact": "Inspector, Native Education"},
+        {"stint_id": "Plant, R___Natal___1894", "year": 1905, "fact": "Senior Inspector, Native Education"}
+      ],
+      "would_overturn": "Evidence of two distinct R. Plants holding the Inspector of Native Education post in Natal, or a printed birth/death date making the bio's career incompatible with the 1894-1910 stint years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Match rests on a singular senior office (Inspector -> Senior Inspector of Native Education, Natal) and a matching promotion event ~1904, not on surname or generic tenure overlap. Despite the single-initial warning, the specific-position dimension and career-shape continuity are strong and mutually corroborating."
+}

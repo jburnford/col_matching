@@ -1,0 +1,38 @@
+{
+  "year": 1921,
+  "doc": "col",
+  "pages": 1021,
+  "bios": {
+    "section": [
+      17805,
+      23227
+    ],
+    "n_blocks": 4606,
+    "n_bios": 3490,
+    "rules_ok": 2384,
+    "unparsed": 1106
+  },
+  "roster": {
+    "blocks_scanned": 17805,
+    "roster_blocks": 2192,
+    "n_records": 5302,
+    "colonies": 56
+  },
+  "match": {
+    "bios_in": 3490,
+    "records_in": 5302,
+    "bios_linked": 437,
+    "links": 441,
+    "ambiguous_dropped": 1,
+    "by_strength": {
+      "strong": 351,
+      "medium": 67,
+      "weak": 23
+    },
+    "by_surname_match": {
+      "exact": 433,
+      "fuzzy": 8
+    }
+  },
+  "bio_link_rate": 0.1252
+}

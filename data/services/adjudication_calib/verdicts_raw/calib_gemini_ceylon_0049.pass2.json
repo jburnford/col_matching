@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0049",
+  "persons": [
+    {
+      "bio_id": "templeton_robert-stanaker_b1855",
+      "stint_ids": ["Templeton, R. S___Ceylon___1894"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: Templeton is moderately common (8 staff officials, 5 biographies), the bio is a two-initial 'R. S.' form, the honour check FAILS, and all bio events inherit their place (Ceylon) from one clause. This fails because the stint reproduces the bio's Survey Department career step-for-step and in order: District Surveyor (bio 'dist. survr', 1890 / staff 1894-98), Topographical superintendent (bio 'supt. of topographical surveys', 1899 / staff 'Assistant Superintendent, Topographical Branch', 1899), Superintendent of Survey (bio 'supt. of surveys', 1902 / staff 1900), Assistant Surveyor-General (bio 1904 / staff 1905-08), then the singular Surveyor-General (bio 'survr.-gen., 15th Oct., 1910' / staff Acting 1909-10, full 1911-15). The Surveyor-Generalship is a single-holder office; no second R. S. Templeton can hold this exact dated survey ladder.",
+      "evidence_cited": [
+        {"stint_id": "Templeton, R. S___Ceylon___1894", "year": 1899, "fact": "R. S. Templeton | Assistant Superintendent, Topographical Branch"},
+        {"stint_id": "Templeton, R. S___Ceylon___1894", "year": 1905, "fact": "R. S. Templeton | Assistant Surveyor-General"},
+        {"stint_id": "Templeton, R. S___Ceylon___1894", "year": 1911, "fact": "R. S. Templeton | Surveyor-General"}
+      ],
+      "would_overturn": "Evidence of a second R. S. Templeton in the Ceylon Survey Department over 1894-1915 following the same District Surveyor -> Surveyor-General progression."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Ordered, date-matched multi-rung career through the single Survey Department, culminating in the singular Surveyor-Generalship; 2 agreeing edition-years (the only editions the bio appears in). Inherited-place flag is irrelevant given the position-sequence match."
+}

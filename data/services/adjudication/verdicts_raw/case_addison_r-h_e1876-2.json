@@ -1,0 +1,12 @@
+{
+  "case_id": "case_addison_r-h_e1876-2",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Addison, R. H___Natal___1879",
+      "reason": "The match to addison_r-h_e1876-2 is superficially strong: initials agree, colony Natal agrees, and the stint position 'Clerk and Zulu Interpreter' (1879-1880, Magisterial Department) matches the bio's 1876 post 'Clk. and interp. to R.M., Umlazi, Natal' in both content and chronology. However, the dossier states the stint is also gate-compatible with a biography outside this case, 'addison_r-h_e1876' (already linked elsewhere or filtered), whose identifier indicates the same printed name and the same 1876 career epoch — i.e. a comparable-strength competitor, most plausibly a duplicate printing of the same man or a same-name relative. Phase 1 itself passed this pair on evidence but dropped it as ambiguous for exactly this reason. With two gate-compatible R. H. Addison biographies anchored to 1876, assigning the stint to this one risks a false merge (or a double-assignment if the other bio already holds it). The deterministic checks also show no shared honour and zero edition co-occurrence (stint editions 1879-1880 vs bio editions 1894-1917), so there is no independent dimension that discriminates between the two candidate biographies. Per the prime directive and the at-most-one-biography rule, the stint stays unassigned pending resolution of whether addison_r-h_e1876 and addison_r-h_e1876-2 are duplicates."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Recommend a reviewer check whether bios addison_r-h_e1876 and addison_r-h_e1876-2 are duplicate printings of the same person (both keyed to a 1876 Natal start, same initials). If they are merged, this stint is an excellent match to the unified person: 'Clerk and Zulu Interpreter' 1879-1880 sits squarely inside the 1876-1882 'Clk. and interp. to R.M., Umlazi' tenure, and position_sim passed at 72 vs bar 60. The only reason for non-assignment is the unresolved competitor, not weak evidence."
+}

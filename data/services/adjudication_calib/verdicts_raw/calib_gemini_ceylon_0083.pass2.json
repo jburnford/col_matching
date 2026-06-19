@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_ceylon_0083",
+  "persons": [
+    {
+      "bio_id": "bertram_anton_e1887",
+      "stint_ids": ["Bertram, Anton___Ceylon___1912"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: the dossier flags this as single-initial and 8 Bertram officials exist. Why it fails: the forename 'Anton' is spelled out in full in both the biography and the staff list (not a bare initial), the honour 'K.C.' is shared (bio K.C. 1913; stint records 'K.C., Kt.'), and the stint reproduces the bio's exact arc - Attorney-General of Ceylon from 1911/1912 then Chief Justice from 1918/1919, listed as 'Sir Anton Bertram' after the 1916 knighthood. Five edition-years co-occur. Full distinctive forename plus shared honour plus two unique offices defeat the namesake hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1911, "fact": "atty.-gen., Ceylon, 19th May, 1911"},
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1912, "fact": "Attorney-General"},
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1918, "fact": "ch. justice, July, 1918"},
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1919, "fact": "Chief Justice"},
+        {"stint_id": "Bertram, Anton___Ceylon___1912", "year": 1913, "fact": "K.C. (1913)"}
+      ],
+      "would_overturn": "Evidence that a different Anton Bertram held the Ceylon attorney-generalship and chief justiceship in these years."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial flag is misleading: full forename 'Anton' agrees, K.C. honour is shared, and the AG->Chief Justice arc with the knighthood matches exactly."
+}

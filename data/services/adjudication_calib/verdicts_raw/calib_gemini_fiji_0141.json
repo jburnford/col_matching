@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_fiji_0141",
+  "persons": [
+    {
+      "bio_id": "mccaig_devon-francis_b1895",
+      "stint_ids": ["McCaig, D. F___Fiji___1913", "McCaig, D. F___Fiji___1950"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: there are 3 officials with this surname in the staff lists but only 1 biography, so the two stints could belong to a different McCaig (e.g. a relative also in Fiji service), and the 1913 stint begins as 'D. McCaig' with a single initial, which could be a different man than 'D. F. McCaig'. This fails: the 1913-1937 stint's department and grade progression (Postal Department clerk grades, then Senior Postal Clerk 1928-29, then Postmaster 1930-37) tracks the biography's printed career clause-for-clause (clk. 1912, Post-mstr. 1929, regraded postal clk. 1938), and the single-initial 'D. McCaig' rows (1913-15) sit inside the same continuous Postal Department record that becomes 'D. F. McCaig' by 1917 with no break. The 1950-1956 stint matches the biography's distinctive late-career switch to 'supt. prisons, 1947' and co-occurs with the biography in 6 edition-years; a second D. F. McCaig who was also Superintendent of Prisons in Fiji at exactly the years the biography claims is not a realistic hypothesis. The 1938-1949 staff-list gap is explained by the biography itself: 'on mil. serv. 1915-19, 1941-45, lt.-col.' and the 1938 regrading.",
+      "evidence_cited": [
+        {"stint_id": "McCaig, D. F___Fiji___1913", "year": 1913, "fact": "clk., Fiji, 1912"},
+        {"stint_id": "McCaig, D. F___Fiji___1913", "year": 1930, "fact": "Postmaster"},
+        {"stint_id": "McCaig, D. F___Fiji___1913", "year": 1928, "fact": "Senior Postal Clerks and Telegraphists"},
+        {"stint_id": "McCaig, D. F___Fiji___1950", "year": 1950, "fact": "Superintendent of Prisons"},
+        {"stint_id": "McCaig, D. F___Fiji___1950", "year": 1950, "fact": "supt. prisons, 1947"}
+      ],
+      "would_overturn": "Evidence of a second D. F. McCaig in Fiji service in the same period (e.g. a staff-list row showing two McCaigs concurrently in different departments, or a forename for the early 'D. McCaig' rows inconsistent with Devon Francis), or a death/retirement record for Devon Francis McCaig before 1950."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints are almost certainly one continuous career split by the 1938 regrading and 1941-45 military service. Position progression, colony, initials, dates, and edition co-occurrence all agree; no live counter-hypothesis."
+}

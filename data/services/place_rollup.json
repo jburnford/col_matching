@@ -1,0 +1,322 @@
+{
+ "accra": {
+  "colony": "goldcoast",
+  "qid": "Q3761",
+  "source": "capital_audit"
+ },
+ "adamstown": {
+  "colony": "pitcairnisland",
+  "qid": "Q48273",
+  "source": "capital_audit"
+ },
+ "adelaide": {
+  "colony": "southaustralia",
+  "qid": "Q5112",
+  "source": "capital_audit"
+ },
+ "amman": {
+  "colony": "transjordan",
+  "qid": "Q3805",
+  "source": "capital_audit"
+ },
+ "antiguacolony": {
+  "colony": "westindiesfederation",
+  "qid": "Q130386222",
+  "source": "empire_kg"
+ },
+ "baghdad": {
+  "colony": "iraq",
+  "qid": "Q1530",
+  "source": "capital_audit"
+ },
+ "bandarseribegawan": {
+  "colony": "brunei",
+  "qid": "Q9279",
+  "source": "capital_audit"
+ },
+ "banjul": {
+  "colony": "gambia",
+  "qid": "Q3726",
+  "source": "capital_audit"
+ },
+ "barbadoscolony": {
+  "colony": "westindiesfederation",
+  "qid": "Q244",
+  "source": "empire_kg"
+ },
+ "basseterre": {
+  "colony": "stchristopherandnevis",
+  "qid": "Q41295",
+  "source": "capital_audit"
+ },
+ "belmopan": {
+  "colony": "britishhonduras",
+  "qid": "Q3043",
+  "source": "capital_audit"
+ },
+ "berbera": {
+  "colony": "britishsomaliland",
+  "qid": "Q191718",
+  "source": "capital_audit"
+ },
+ "bloemfontein": {
+  "colony": "orangerivercolony",
+  "qid": "Q37701",
+  "source": "capital_audit"
+ },
+ "brisbane": {
+  "colony": "queensland",
+  "qid": "Q34932",
+  "source": "capital_audit"
+ },
+ "bulawayo": {
+  "colony": "zululand",
+  "qid": "Q193250",
+  "source": "capital_audit"
+ },
+ "calabar": {
+  "colony": "nigercoastprotectorate",
+  "qid": "Q344075",
+  "source": "capital_audit"
+ },
+ "castries": {
+  "colony": "stlucia",
+  "qid": "Q47385",
+  "source": "capital_audit"
+ },
+ "cockburntown": {
+  "colony": "turksandcaicosislands",
+  "qid": "Q34205",
+  "source": "capital_audit"
+ },
+ "colombo": {
+  "colony": "ceylon",
+  "qid": "Q35381",
+  "source": "capital_audit"
+ },
+ "daressalaam": {
+  "colony": "tanganyika",
+  "qid": "Q1960",
+  "source": "capital_audit"
+ },
+ "dominicacolony": {
+  "colony": "westindiesfederation",
+  "qid": "Q784",
+  "source": "empire_kg"
+ },
+ "entebbe": {
+  "colony": "uganda",
+  "qid": "Q211970",
+  "source": "capital_audit"
+ },
+ "freetown": {
+  "colony": "sierraleone",
+  "qid": "Q3780",
+  "source": "capital_audit"
+ },
+ "gaborone": {
+  "colony": "bechuanaland",
+  "qid": "Q3919",
+  "source": "capital_audit"
+ },
+ "grenadacolony": {
+  "colony": "westindiesfederation",
+  "qid": "Q3116419",
+  "source": "empire_kg"
+ },
+ "hamilton": {
+  "colony": "bermuda",
+  "qid": "Q30985",
+  "source": "capital_audit"
+ },
+ "ho": {
+  "colony": "togoland",
+  "qid": "Q615006",
+  "source": "capital_audit"
+ },
+ "hobart": {
+  "colony": "tasmania",
+  "qid": "Q40191",
+  "source": "capital_audit"
+ },
+ "jamestown": {
+  "colony": "sthelena",
+  "qid": "Q133748",
+  "source": "capital_audit"
+ },
+ "jerusalem": {
+  "colony": "palestine",
+  "qid": "Q1218",
+  "source": "capital_audit"
+ },
+ "kimberley": {
+  "colony": "griqualandwest",
+  "qid": "Q188686",
+  "source": "capital_audit"
+ },
+ "kingston": {
+  "colony": "jamaica",
+  "qid": "Q34692",
+  "source": "capital_audit"
+ },
+ "kingstown": {
+  "colony": "stvincent",
+  "qid": "Q135541",
+  "source": "capital_audit"
+ },
+ "kuching": {
+  "colony": "sarawak",
+  "qid": "Q220445",
+  "source": "capital_audit"
+ },
+ "levuka": {
+  "colony": "fiji",
+  "qid": "Q26692",
+  "source": "capital_audit"
+ },
+ "lobamba": {
+  "colony": "swaziland",
+  "qid": "Q101418",
+  "source": "capital_audit"
+ },
+ "lusaka": {
+  "colony": "northernrhodesia",
+  "qid": "Q3881",
+  "source": "capital_audit"
+ },
+ "maseru": {
+  "colony": "basutoland",
+  "qid": "Q3909",
+  "source": "capital_audit"
+ },
+ "melbourne": {
+  "colony": "victoria",
+  "qid": "Q3141",
+  "source": "capital_audit"
+ },
+ "nairobi": {
+  "colony": "kenya",
+  "qid": "Q3870",
+  "source": "capital_audit"
+ },
+ "nassau": {
+  "colony": "bahamas",
+  "qid": "Q40950",
+  "source": "capital_audit"
+ },
+ "nicosia": {
+  "colony": "cyprus",
+  "qid": "Q3856",
+  "source": "capital_audit"
+ },
+ "nukualofa": {
+  "colony": "tonga",
+  "qid": "Q38834",
+  "source": "capital_audit"
+ },
+ "ottawa": {
+  "colony": "canada",
+  "qid": "Q1930",
+  "source": "capital_audit"
+ },
+ "perth": {
+  "colony": "westernaustralia",
+  "qid": "Q3183",
+  "source": "capital_audit"
+ },
+ "pietermaritzburg": {
+  "colony": "natal",
+  "qid": "Q185591",
+  "source": "capital_audit"
+ },
+ "plymouth": {
+  "colony": "montserrat",
+  "qid": "Q30990",
+  "source": "capital_audit"
+ },
+ "portedward": {
+  "colony": "weihaiwei",
+  "qid": "Q17053538",
+  "source": "capital_audit"
+ },
+ "portlouis": {
+  "colony": "mauritius",
+  "qid": "Q3929",
+  "source": "capital_audit"
+ },
+ "pretoria": {
+  "colony": "transvaal",
+  "qid": "Q3926",
+  "source": "capital_audit"
+ },
+ "roadtown": {
+  "colony": "virginislands",
+  "qid": "Q179431",
+  "source": "capital_audit"
+ },
+ "saintchristophernevisanguilla": {
+  "colony": "westindiesfederation",
+  "qid": "Q763",
+  "source": "empire_kg"
+ },
+ "saintluciacolony": {
+  "colony": "westindiesfederation",
+  "qid": "Q760",
+  "source": "empire_kg"
+ },
+ "salisbury": {
+  "colony": "rhodesia",
+  "qid": "Q39097",
+  "source": "capital_audit"
+ },
+ "southtarawa": {
+  "colony": "gilbertandelliceislands",
+  "qid": "Q131233",
+  "source": "capital_audit"
+ },
+ "stanley": {
+  "colony": "falklandislands",
+  "qid": "Q12245",
+  "source": "capital_audit"
+ },
+ "stgeorges": {
+  "colony": "grenada",
+  "qid": "Q188661",
+  "source": "capital_audit"
+ },
+ "stvincentcolony": {
+  "colony": "westindiesfederation",
+  "qid": "Q757",
+  "source": "empire_kg"
+ },
+ "suva": {
+  "colony": "westernpacific",
+  "qid": "Q38807",
+  "source": "capital_audit"
+ },
+ "sydney": {
+  "colony": "newsouthwales",
+  "qid": "Q3130",
+  "source": "capital_audit"
+ },
+ "valletta": {
+  "colony": "malta",
+  "qid": "Q23800",
+  "source": "capital_audit"
+ },
+ "vryburg": {
+  "colony": "britishbechuanaland",
+  "qid": "Q1027291",
+  "source": "capital_audit"
+ },
+ "wellington": {
+  "colony": "newzealand",
+  "qid": "Q23661",
+  "source": "capital_audit"
+ },
+ "zungeru": {
+  "colony": "northernnigeria",
+  "qid": "Q8075286",
+  "source": "capital_audit"
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_ceylon_0035",
+  "persons": [
+    {
+      "bio_id": "spence_j-b_e1886",
+      "stint_ids": ["Spence, J. B___Ceylon___1888"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: Spence is a very common surname (26 staff officials, 17 biographies) and the bio is a bare two-initial 'J. B.' form, which the single-initial rule says must not be merged on weak evidence; also the bio dates the post to 1886 while the staff list begins in 1888 as 'Surgeon Lunatic Asylum', raising the possibility of a successor in the same post. This fails because the office -- Medical Superintendent of the (Colombo) Lunatic Asylum -- is a unique single-holder post, not a generic junior title, and the position match is verbatim (score 100). The staff list shows one continuous 'J. B. Spence' occupying that asylum medical post from 1888 through 1913, promoted from Surgeon to Medical Superintendent, and the bio's 'J. B. Spence, Medical superintendent of Colombo lunatic asylum' names the identical office and initials. No second J. B. Spence can hold the same singular asylum post in the same years.",
+      "evidence_cited": [
+        {"stint_id": "Spence, J. B___Ceylon___1888", "year": 1894, "fact": "J. B. Spence | Medical Superintendent, Lunatic Asylum"},
+        {"stint_id": "Spence, J. B___Ceylon___1896", "year": 1896, "fact": "J. B. Spence | Medical Superintendent, Lunatic Asylum"}
+      ],
+      "would_overturn": "Evidence of two distinct J. B. Spences in the Ceylon Lunatic Asylum medical line (e.g. one ending before 1888 and another beginning after), which would split the bio from the staff-list stint."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The strong independent dimension required for a two-initial bio is supplied by the singular, specific office (Medical Superintendent of the Lunatic Asylum) matching at 100 with continuous J. B. Spence occupancy 1888-1913 overlapping the bio's editions (1896-1897)."
+}

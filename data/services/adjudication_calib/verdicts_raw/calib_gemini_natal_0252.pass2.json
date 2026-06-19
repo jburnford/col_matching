@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_natal_0252",
+  "persons": [
+    {
+      "bio_id": "bird_christopher_b1855",
+      "stint_ids": ["Bird, C. J___Natal___1879"],
+      "confidence": "certain",
+      "arguments_against": "Strong counter-case, and the dossier flags the single-initial/namesake trap: Bird is among the most common Natal surnames (34 officials, 12 biographies, including a prominent Natal family), the bio carries only the forename 'Christopher' (initial C, no middle), yet the 1879 staff-list line is 'C. J. Bird' with a middle initial J the biography never records -- so the 1879 Public Works clerk could be a different/related C. J. Bird. This fails because the single-initial caution is satisfied by not one but several strong independent dimensions, far beyond tenure overlap. From 1883 onward the stint reproduces Christopher Bird's exact senior career in matching years: '2nd cls., col. sec.'s office' / '1st cls.' = 1st Clerk Colonial Secretary's Dept (1883); 'asst. col. sec., Jan., 1888' = Assistant Colonial Secretary (1889-90); 'apptd. prin. under-secr. ... 1893' = Principal Under Secretary (1894+); 'permnt. head of civ. ser., 1903' = Permanent Head of the Civil Service (1905-10); 'chrmn., civ. ser. bd., 1901' = Chairman, Civil Service Board. These are singular top posts held by one man, and the staff list carries 'C.M.G.' matching the bio's 'C.M.G. (1901)'. The middle initial J is simply omitted from the biographical sketch; no second person could hold this identical chain of unique senior offices with the same honour.",
+      "evidence_cited": [
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1889, "fact": "asst. col. sec., Jan., 1888"},
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1894, "fact": "apptd. prin. under-secr. on establtnt. of responsible govt."},
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1905, "fact": "permnt. head of civ. ser., 1903"},
+        {"stint_id": "Bird, C. J___Natal___1879", "year": 1905, "fact": "C.M.G. (1901)"}
+      ],
+      "would_overturn": "Evidence that the Natal Principal Under Secretary / Permanent Head of the Civil Service holding the C.M.G. was a person other than Christopher Bird would reverse this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial bio warning is overridden by multiple strong dimensions: exact senior-office chain (Assistant Colonial Secretary -> Principal Under Secretary -> Permanent Head of Civil Service -> Chairman Civil Service Board), shared C.M.G., colony, age, edition co-occurrence. The 'J' middle initial in the staff list is unrecorded in the bio sketch but does not create a rival hypothesis given the singular posts."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q49471033",
+  "persons": [
+    {
+      "bio_id": "calder_james_b1898",
+      "stint_ids": ["Calder, J___North Borneo___1949"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the staff list prints only 'J. Calder' and there are 14 Calders in the staff lists and 9 in the biographies, so a different J. Calder (John, Joseph, etc.) could be the post-1948 Chief Secretary of North Borneo while James Calder's biography simply stops at 'O.A.G. periods, 1946-48'. This fails because the match is not name-based: Chief Secretary of North Borneo is a singular, senior post, and the biography states this exact appointment ('ch. sec., N. Borneo, 1946') with no terminal/retirement note, making continuation into 1949-52 the natural reading; the stint carries the honour C.M.G., which the biography also records, and which appears in the biography precisely in the 1949-1951 editions — the same editions in which the stint runs — indicating the C.M.G. was newly conferred on the serving Chief Secretary; and the O.A.G. (Officer Administering the Government) periods 1946-48 are exactly what the substantive Chief Secretary would do. A hypothetical second J. Calder, C.M.G., succeeding the first as Chief Secretary of the same small colony in 1949 is not realistic. The position_sim FAIL (57 vs bar 60) is purely an abbreviation artifact: 'ch. sec.' = 'Chief Secretary'.",
+      "evidence_cited": [
+        {"stint_id": "Calder, J___North Borneo___1949", "year": 1949, "fact": "Chief Secretary"},
+        {"stint_id": "Calder, J___North Borneo___1949", "year": 1949, "fact": "C.M.G."},
+        {"stint_id": "Calder, J___North Borneo___1949", "year": 1952, "fact": "Civil Establishment"}
+      ],
+      "would_overturn": "A staff-list or gazette record showing James Calder left North Borneo before 1949 and a different J. Calder, C.M.G., was appointed Chief Secretary; or a biography for another J. Calder claiming the North Borneo chief secretaryship in 1949-52."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial stint, but the evidence is position-specific (singular Chief Secretary post of North Borneo, stated verbatim in the biography as 'ch. sec., N. Borneo, 1946') plus the shared C.M.G. honour appearing in the same edition window. The biography's last dated event (O.A.G. 1946-48) abuts the stint start (1949) with no retirement noted."
+}

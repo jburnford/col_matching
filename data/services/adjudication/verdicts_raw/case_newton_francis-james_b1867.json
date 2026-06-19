@@ -1,0 +1,39 @@
+{
+ "case_id": "case_newton_francis-james_b1867",
+ "persons": [
+  {
+   "bio_id": "newton_francis-james_b1867",
+   "stint_ids": [
+    "Newton, Francis J___Cape of Good Hope___1883",
+    "Newton, F. J___British Honduras___1898",
+    "Newton, F. J___Rhodesia___1905",
+    "Newton, F. J___Swaziland___1908",
+    "Newton, F. J___Southern Rhodesia___1911",
+    "Newton, F. J___South Africa___1912"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Six stints assigned to one man. The Cape 1883 ADC/private-secretary stint matches the entry verbatim (extra A.D.C. to the Cape governor, then private secretary) with colony and tenure agreeing. The British Honduras colonial-secretaryship and the Treasurer stints across Rhodesia / Southern Rhodesia / Swaziland / South Africa all carry initials F.J. and the distinctive honour set C.M.G. + C.V.O.(1911) + K.C.M.G. — the Treasurer role recorded under the evolving Southern-African territory labels. A different F.J. Newton holding the C.V.O. and serving as Treasurer in Southern Africa is not credible.",
+   "evidence_cited": [
+    {
+     "stint_id": "Newton, Francis J___Cape of Good Hope___1883",
+     "year": 1883,
+     "fact": "Extra Aide-de-Camp"
+    },
+    {
+     "stint_id": "Newton, F. J___Rhodesia___1905",
+     "year": 1905,
+     "fact": "Treasurer"
+    },
+    {
+     "stint_id": "Newton, F. J___South Africa___1912",
+     "year": 1912,
+     "fact": "C.V.O."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice batch 2, hand-adjudicated (Claude Code, in-session)"
+}

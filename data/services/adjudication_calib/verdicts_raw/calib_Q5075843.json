@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_Q5075843",
+  "persons": [
+    {
+      "bio_id": "bruce_st-charles_b1837",
+      "stint_ids": [
+        "Bruce, Charles___British Guiana___1886",
+        "Bruce, Charles___Mauritius___1897"
+      ],
+      "confidence": "certain",
+      "arguments_against": "With 48 Bruces in the staff lists and 21 Bruce biographies, another C. Bruce could hold either post; the British Guiana stint shows only the initial 'C. Bruce', and a single initial is weak. There is even a second Bruce visible in the Mauritius staff list ('Lieut. C. M. D. Bruce', Private Secretary and Aide-de-Camp, 1899) proving relatives served alongside him. But the counter-hypothesis fails on multiple independent dimensions: the biography names the exact compound office 'lieutenant-governor and government-secretary, British Guiana, 1885', and the stint records that exact rare pairing (Lieutenant-Governor + Government Secretary rows for the same man, 1886-1890); the honours track the biography precisely (C.M.G. 1881 shown through 1889, K.C.M.G. 1889 shown from 1890, and the man becomes 'Sir C. Bruce' in 1890); and the Mauritius stint is the colony's unique Governorship starting exactly in 1897, the year the biography gives, under the full name 'Sir Charles Bruce' with K.C.M.G. The C. M. D. Bruce private secretary has different initials and a different, junior office, so he cannot be confused with either assigned post.",
+      "evidence_cited": [
+        {"stint_id": "Bruce, Charles___British Guiana___1886", "year": 1885, "fact": "lieutenant-governor and government-secretary, British Guiana, 1885"},
+        {"stint_id": "Bruce, Charles___British Guiana___1886", "year": 1890, "fact": "Sir C. Bruce | Lieutenant-Governor"},
+        {"stint_id": "Bruce, Charles___British Guiana___1886", "year": 1889, "fact": "K.C.M.G. (1889), C.M.G. (1881)"},
+        {"stint_id": "Bruce, Charles___Mauritius___1897", "year": 1897, "fact": "gov. of Mauritius, 1897"},
+        {"stint_id": "Bruce, Charles___Mauritius___1897", "year": 1897, "fact": "Sir Charles Bruce | Governor and Commander-in-Chief"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Sir Charles Bruce K.C.M.G. holding senior office in British Guiana or Mauritius in 1886-1900; or a primary source showing the Governor of Mauritius 1897 had a different birth year or career (e.g. no Ceylon/British Museum background)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1899 Mauritius staff-list row 'Lieut. C. M. D. Bruce, Private Secretary and Aide-de-Camp' appears to be a different person (likely a relative serving on the Governor's staff) that the stint-builder grouped into the same stint; reviewers may want to split that row out, but it does not affect the identity of the Governor rows. The bio's printed name 'BRUCE, ST CHARLES' is an OCR error for 'SIR CHARLES' (the 1888 and 1914 versions read 'BRUCE, SIR CHARLES')."
+}

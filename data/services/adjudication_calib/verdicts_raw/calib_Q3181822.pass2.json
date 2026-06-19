@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q3181822",
+  "persons": [
+    {
+      "bio_id": "fraser_j-j_e1882",
+      "stint_ids": ["Fraser, John James___Canada___1877"],
+      "confidence": "certain",
+      "arguments_against": "Fraser is among the commonest surnames in the corpus (140 officials, 69 biographies) and the biography gives initials only, so the strongest counter-hypothesis is a different J. J. Fraser in the New Brunswick establishment — e.g. one Fraser as Attorney-General and a different one as judge — or that the long stint (1877-1914) conflates two men. This fails: the biography's career is 'Attorney-general and premier, province of New Brunswick... retired, 1882; puisne judge, supreme court, New Brunswick, 1883', and the staff-list stint shows the same single name holding exactly that arc — Attorney-General 1879-80, then 'Hon. J. J. Fraser, Q.C' in 1883 (matching the bio's 'Hon.' and 'Q.C.' styling in the very year of the judicial appointment), then Puisne Judge from 1886 — in the same province. Attorney-General of New Brunswick is a unique office; two J. J. Frasers cannot both have held it and then moved to the supreme court bench on the same dates. Position match is exact (puisne judge), with 5 agreeing edition-years. The honour-check FAIL is because Q.C. is not tracked as an honour, yet it appears verbatim in both bio and 1883 staff line. One residual oddity — Lieutenant-Governor listings persisting to 1908 — concerns staleness within the stint, not the identity of its holder.",
+      "evidence_cited": [
+        {"stint_id": "Fraser, John James___Canada___1877", "year": 1879, "fact": "Attorney-General"},
+        {"stint_id": "Fraser, John James___Canada___1877", "year": 1886, "fact": "puisne judge, supreme court, New Brunswick, 1883"},
+        {"stint_id": "Fraser, John James___Canada___1877", "year": 1883, "fact": "Hon. J. J. Fraser, Q.C"}
+      ],
+      "would_overturn": "Evidence of two contemporaneous J. J. Frasers in New Brunswick public life (e.g. one the Attorney-General/premier and another the judge or Lieutenant-Governor), or a record showing the biography subject died before the later staff-list years while listings continued for a namesake."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Bio is a stale boilerplate entry (unchanged 1886-1909) and never mentions the Lieutenant-Governorship the staff lists record from 1894; this is consistent with COL bios not being updated rather than with a different person. The Lieutenant-Governor rows persisting to 1905-1908 look like stale listings and may merit a data-quality check, but they sit inside the single blocked stint and do not affect the assignment."
+}

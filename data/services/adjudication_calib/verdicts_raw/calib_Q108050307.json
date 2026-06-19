@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q108050307",
+  "persons": [
+    {
+      "bio_id": "mayers_thomas-henry_b1907",
+      "stint_ids": ["Mayers, T. H___Kenya___1953"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-hypothesis is a second T. H. Mayers in Kenya (a relative or coincidental namesake), since the corpus has 4 officials with this surname in staff lists. But the biography itself, in its 1962-1964 version, records 'puisne judge, Ken., 1952' and '(Ken. Govt. service.)' -- the exact post, colony, and start year of the stint -- and the stint's 1954 record carries the honour Q.C., matching the bio's Q.C./K.C. A namesake who was ALSO a Q.C. puisne judge in Kenya in exactly 1952-54 while the biography claims that precise post would be an extraordinary coincidence; no other biography with this surname exists in the printed sections to compete for it. The honour check 'FAIL' is mechanical: the bio lists Q.C. (formerly K.C.) and the 1954 staff list shows Q.C., so the honours in fact agree.",
+      "evidence_cited": [
+        {"stint_id": "Mayers, T. H___Kenya___1953", "year": 1962, "fact": "puisne judge, Ken., 1952"},
+        {"stint_id": "Mayers, T. H___Kenya___1953", "year": 1953, "fact": "Puisne Judge"},
+        {"stint_id": "Mayers, T. H___Kenya___1953", "year": 1962, "fact": "(Ken. Govt. service.)"}
+      ],
+      "would_overturn": "Evidence of a second T. H. Mayers serving as a Kenya puisne judge in 1952-1954, e.g. a separate biography or staff-list entry distinguishing two individuals, or a record showing Thomas Henry Mayers remained in Jamaica through 1953-54."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "All deterministic checks pass except the mechanical honour check, which misses that K.C. and Q.C. are the same honour renamed at the 1952 accession; the 1954 staff list's Q.C. actually corroborates the bio. Position match is exact (puisne judge, Kenya), date matches the bio's 1952 appointment, and initials T.H. match the full name Thomas Henry."
+}

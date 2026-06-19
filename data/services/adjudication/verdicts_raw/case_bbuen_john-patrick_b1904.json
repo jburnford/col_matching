@@ -1,0 +1,25 @@
+{
+  "case_id": "case_bbuen_john-patrick_b1904",
+  "persons": [
+    {
+      "bio_id": "bbuen_john-patrick_b1904",
+      "stint_ids": [
+        "Bruen, J. P___British Guiana___1949",
+        "Bruen, J. P___Fiji___1950"
+      ],
+      "confidence": "probable",
+      "arguments_against": "Strongest case against the British Guiana stint: the bio appears only in the 1935 edition, so there is a 14-year gap with no intervening listings, and the 1949 Deputy Director could be a different J. P. Bruen (e.g. a same-name relative or a later recruit), with the deterministic tenure_overlap, position_sim and edition_cooccurrence checks all failing. This fails because the gap is mechanical (no editions of the bio between 1935 and 1949 to overlap), while the substance lines up on multiple independent dimensions: the bio's man was 'asst. engrn. to sea defence bd. of comsnrs.' in British Guiana in 1934 and the 1949 stint is 'Deputy Director Drainage, Irrigation and Sea Defences' in the same colony's Public Works Department — an extremely narrow specialty (sea defences in British Guiana), a natural 15-year promotion arc, initials J. P. matching the full forenames John Patrick, and age 45 in 1949, which fits a Deputy Director but rules out a son of a man born 1904 (such a son would be in his early 20s). The corpus holds only 3 officials with this surname. Strongest case against the Fiji stint: the bio never mentions Fiji, every place-based check fails, and the link rests on chaining through the British Guiana stint — a second J. P. Bruen engineer elsewhere in the service is conceivable. It is weakened because the Fiji 'Director of Public Works' appointment begins in 1950 exactly as the identically named British Guiana Public Works Deputy Director's listing ends in 1950, a textbook colonial-service promotion-with-transfer in the same engineering field; the 1950 double listing is the usual edition lag for a mid-year transfer. That counter-hypothesis is unlikely but realistic enough that the overall verdict is probable, not certain; on the British Guiana stint alone I would be at certain.",
+      "evidence_cited": [
+        {"stint_id": "Bruen, J. P___British Guiana___1949", "year": 1934, "fact": "asst. engrn. to sea defence bd. of comsnrs., 1934"},
+        {"stint_id": "Bruen, J. P___British Guiana___1949", "year": 1949, "fact": "Deputy Director Drainage, Irrigation and Sea Defences"},
+        {"stint_id": "Bruen, J. P___British Guiana___1949", "year": 1930, "fact": "asst. engrn., Br. Guiana, 1930"},
+        {"stint_id": "Bruen, J. P___Fiji___1950", "year": 1950, "fact": "Director of Public Works"},
+        {"stint_id": "Bruen, J. P___Fiji___1950", "year": 1950, "fact": "listed 1949–1950"}
+      ],
+      "would_overturn": "Evidence of two contemporaneous J. P. Bruens in the Colonial Office Lists (e.g. the British Guiana Deputy Director continuing in post after 1950 while the Fiji Director serves, or both appearing with distinct forenames/honours); a birth or service record showing the Fiji Director of Public Works was born in a different year than 1904; or confirmation that the external biography bruen_john-patrick_b1904 is a distinct individual rather than an OCR variant of this one."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The bio surname 'BBUEN' is almost certainly an OCR error for 'BRUEN' (the verbatim entry reads 'BBUEN, JOHN PATRICK ... asst. engrn., Br. Guiana'). Both stints are flagged as gate-compatible with an out-of-case biography 'bruen_john-patrick_b1904' — same forenames, same birth year — which is very likely the same person under the corrected spelling. If that external bio already holds these stints, this case's bio should be merged/deduplicated with it rather than creating a parallel assignment; flagging for the pipeline since duplicate_bio_groups only covers in-case bios. The 1950 co-listing (British Guiana stint ends 1950, Fiji stint begins 1950) is consistent with a single mid-year transfer, not a contradiction."
+}

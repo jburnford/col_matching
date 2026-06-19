@@ -1,0 +1,35 @@
+{
+ "case_id": "case_grannum_edward-allan_b1869",
+ "persons": [
+  {
+   "bio_id": "grannum_edward-allan_b1869",
+   "stint_ids": [
+    "Grannum, A___Mauritius___1910",
+    "Grannum, E. A___Mauritius___1913"
+   ],
+   "confidence": "certain",
+   "arguments_against": "The 1910 stint is a single initial 'A.'. But the entry is Sir Edward Allan Grannum, Mauritius: auditor-general 1909 then receiver-general 1912 — the two stints hold exactly those two offices in sequence in Mauritius, with the C.M.G. (1915) on the receiver-general records. One continuous career.",
+   "evidence_cited": [
+    {
+     "stint_id": "Grannum, A___Mauritius___1910",
+     "year": 1910,
+     "fact": "Auditor-General"
+    },
+    {
+     "stint_id": "Grannum, E. A___Mauritius___1913",
+     "year": 1915,
+     "fact": "Receiver-General"
+    },
+    {
+     "stint_id": "Grannum, E. A___Mauritius___1913",
+     "year": 1915,
+     "fact": "C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice, hand-adjudicated (Claude Code, in-session)"
+}

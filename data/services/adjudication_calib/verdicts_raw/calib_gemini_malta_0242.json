@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_gemini_malta_0242",
+  "persons": [
+    {
+      "bio_id": "axisa_j-f_b1906",
+      "stint_ids": ["Axisa, J. F___Malta___1949", "Axisa, J. F___Malta___1956"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the biography prints initials only ('J. F.'), and the stint's own 1933 sibling record proves at least one other Axisa (a 'J. E. Axisa' in the Police Department) existed in this small pool of 3 staff-list Axisas -- so a namesake relative could in principle be the officer here; most rows of the 1949 stint also print just 'J. Axisa'. Why this fails: 'Director of Emigration' is a unique senior post, not a generic title, and it matches the bio's 'dir. of emig., 1947' exactly (position_sim 67); the 1956 stint then tracks the bio clause-for-clause through three successive specific posts: 'Director of Technical Education' 1957-1959 (bio: 'dir., tech. educ., 1955'), 'Under Secretary' 1961 (bio: 'under sec., 1960'), with the shared honour M.B.E. (bio: 1951) printed against 'J. F. Axisa' in 1959 and 1961 -- full initials agreeing -- plus 2 agreeing edition co-occurrences. A rival Axisa would have to have held the identical sequence of unique directorships in the identical years, which is not a live hypothesis. The two stints are one continuous career (Director of Emigration 1949-1956 spans both).",
+      "evidence_cited": [
+        {"stint_id": "Axisa, J. F___Malta___1949", "year": 1949, "fact": "Director of Emigration"},
+        {"stint_id": "Axisa, J. F___Malta___1956", "year": 1957, "fact": "Director of Technical Education"},
+        {"stint_id": "Axisa, J. F___Malta___1956", "year": 1959, "fact": "M.B.E."},
+        {"stint_id": "Axisa, J. F___Malta___1956", "year": 1961, "fact": "Under Secretary"},
+        {"stint_id": "Axisa, J. F___Malta___1956", "year": 1959, "fact": "J. F. Axisa"}
+      ],
+      "would_overturn": "Evidence of a second J. Axisa holding the Emigration or Technical Education directorships in the same years, or a record showing the M.B.E. of 1951 belonged to a different Axisa."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Axisa, J. F___Malta___1933", "reason": "Two problems compound. (1) The 1933-1936 rows are a generic junior title ('Clerk, 2nd Class') printed with a single initial ('J. Axisa'); for an initials-only biography the binding constraints demand a strong independent dimension, and none exists here -- position_sim FAILs, no honour, no edition co-occurrence. The Emigration Department continuity with his later directorship is suggestive but is exactly the kind of career-shape-only inference the single-initial rule forbids. (2) The stint is internally conflated: its 1937 row prints 'J. E. Axisa, Second Deputy Commissioner, Police Department' -- a different middle initial and a senior police post foreign to the biography -- almost certainly one of the other Axisas (3 in the staff lists). Assigning the stint whole would attach a likely-false police record to the biography. If the stint is split upstream, the 1933-1936 Emigration Department clerk rows would merit reconsideration as a probable link."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The 1963-1964 rows ('Commissioner General for Malta in London') are not mentioned in either printed bio version (which end at 'under sec., 1960'), but they are continuous with the Under Secretary post under the full 'J. F. Axisa' name and consistent with him succeeding V. G. Vella (Commissioner-General 1958-61) in that office; no contradiction. The 1956 row 'Director of Emigration' overlapping the bio's 'dir., tech. educ., 1955' is a one-edition printing lag."
+}

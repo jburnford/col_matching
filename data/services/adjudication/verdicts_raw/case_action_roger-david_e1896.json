@@ -1,0 +1,14 @@
+{
+  "case_id": "case_action_roger-david_e1896",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Acton, R. D___Straits Settlements___1911",
+      "reason": "The stint matches the career excellently (1911 'Deputy Registrar and Assistant Official Assignee' in Penang matches 'deputy regisr. and asst. offl. assignee, Apr., 1908'; 1912-1915 '2nd Magistrate' matches '2nd mag., Singapore, Apr., 1911'; 1913 'Officer, Class III' matches 'promoted to Cls. III., Apr., 1911'; 1921 'District Judge and First Magistrate, Penang' matches the dist. judge / 1st mag. Penang progression). But the two claimant biographies are duplicates of the same man (one is an OCR corruption 'ACTION' of 'ACTON', with verbatim-identical career text), and per the binding instructions a stint contested between biographies in the case is assigned to neither; the duplicate group is recorded instead so the merge can be made after bio deduplication."
+    }
+  ],
+  "duplicate_bio_groups": [
+    ["action_roger-david_e1896", "acton_roger-david_e1896"]
+  ],
+  "notes": "These are unambiguously the same person. The 1917-edition bio 'ACTION, ROGER DAVID' reproduces the ACTON entry word-for-word up to OCR noise: both read 'Cadet, F.M.S., Nov., 1896', land revenue collector Perak June 1900, 'asst. sec. to res., Perak, Jan., 1903', deputy registrar sup. ct. Penang May 1907, 'ag. sheriff and deputy', 'ag. 2nd mag., Singapore, Dec., 1910', 'promoted to Cls. III., Apr., 1911', '2nd mag., Singapore, Apr., 1911'. 'ACTION' appears in no staff list (7 officials surnamed Acton-family in staff lists, and the stint prints 'R. D. Acton'); the surname_gate hit was fuzzy. After deduplicating the bios into a single ACTON, ROGER DAVID record, the stint should be linked to it with high confidence: initials R. D. agree, colony Straits Settlements agrees with the Penang/Singapore postings, and at least four specific position+place+date dimensions align (deputy registrar & asst. official assignee Penang 1911; 2nd Magistrate 1912-15; Class III 1913; District Judge and First Magistrate Penang 1921-22). Recommended action: merge the bio pair, then re-run this case."
+}

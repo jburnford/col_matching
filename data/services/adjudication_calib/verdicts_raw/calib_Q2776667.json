@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q2776667",
+  "persons": [
+    {
+      "bio_id": "bols_louis-jean_b1867",
+      "stint_ids": ["Bols, Louis Jean___Bermuda___1928"],
+      "confidence": "certain",
+      "arguments_against": "The only conceivable counter-hypothesis is a same-name relative (e.g. a son) holding the Bermuda post, since fathers and sons can share full names. It fails on every dimension: Bols is unique in the corpus (1 official, 1 biography); the stint office is Governor and Commander-in-Chief of Bermuda, a unique single-occupant post that the biography explicitly records ('gov. and commdr. in ch., Bermuda, 1927', stint listed 1928-1930); the staff list prints both forenames 'Sir Louis Jean Bols' and the rank 'Lieut.-General', matching 'BOLS, LIEUT.-GEN. SIR LOUIS JEAN'; and three honours (K.C.B., K.C.M.G., D.S.O.) agree between bio and every stint year. A hypothetical son would not be a knighted Lieut.-General with the identical honour set governing Bermuda at the same date the father's bio says he did.",
+      "evidence_cited": [
+        {"stint_id": "Bols, Louis Jean___Bermuda___1928", "year": 1928, "fact": "gov. and commdr. in ch., Bermuda, 1927"},
+        {"stint_id": "Bols, Louis Jean___Bermuda___1928", "year": 1928, "fact": "Sir Louis Jean Bols"},
+        {"stint_id": "Bols, Louis Jean___Bermuda___1928", "year": 1928, "fact": "K.C.B., K.C.M.G., D.S.O."}
+      ],
+      "would_overturn": "External evidence that the Bermuda governorship 1928-1930 was held by a different person, which would imply the bio clause and staff lists are both corrupt — no realistic path to this."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "All deterministic checks pass. The stint includes a same-year 'General Commanding' record in 1928 under Chief Military Officers with the identical honour string; this is the same person listed in both his military and civil capacities, consistent with a governor who is also commander-in-chief."
+}

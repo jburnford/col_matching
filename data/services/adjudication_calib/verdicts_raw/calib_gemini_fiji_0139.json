@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_fiji_0139",
+  "persons": [
+    {
+      "bio_id": "donovan_wilbur-edmund-james_b1899",
+      "stint_ids": ["Donovan, W. E. J___Fiji___1925"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: Donovan is a common surname (18 officials in staff lists, 5 biographies), the stint's rows from 1925-1940 print only two initials ('W. E. Donovan') rather than three, the titles in those years are generic clerk grades, and there is a ten-year listing gap (1941-1949) — so one could argue the early clerk and the post-1950 Accountant-General are two different Donovans stitched together, or that the whole stint belongs to a relative. This fails: the biography itself describes exactly this single continuous Treasury career — 'clk., Fiji, 1921', 'ch. clk., 1939' (matching the 1939-40 shift to Grade A / Special Grade Clerk in Treasury), 'senr. asst. acctnt., treas., 1944' (in the unlisted wartime gap), 'asst. acctnt. gen., 1947' (matching Assistant Accountant-General when listings resume in 1950), and 'acctnt. gen., 1951' (matching Accountant-General 1952-55, a sole-incumbent colony office). The three-initial form 'W. E. J. Donovan' appears in the staff lists from 1950 on, exactly matching Wilbur Edmund James, and the bio and stint editions co-occur in 1953-55 with the same office. A namesake would need the same three initials, the same Treasury department, and the same promotion into the same unique office at the same year — not realistic.",
+      "evidence_cited": [
+        {"stint_id": "Donovan, W. E. J___Fiji___1925", "year": 1950, "fact": "asst. acctnt. gen., 1947"},
+        {"stint_id": "Donovan, W. E. J___Fiji___1925", "year": 1952, "fact": "acctnt. gen., 1951"},
+        {"stint_id": "Donovan, W. E. J___Fiji___1925", "year": 1930, "fact": "senr. asst. acctnt., treas., 1944"},
+        {"stint_id": "Donovan, W. E. J___Fiji___1925", "year": 1939, "fact": "ch. clk., 1939"}
+      ],
+      "would_overturn": "Evidence that the W. E. Donovan in the 1925-1940 clerk rows had different forenames than the post-1950 W. E. J. Donovan (e.g. two overlapping Donovan staff-list lines in Treasury), or a record showing the Accountant-General of Fiji 1951-55 was not Wilbur Edmund James Donovan."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1941-1949 listing gap coincides with wartime/postwar publication interruptions; the biography's 1944 and 1947 promotions fall inside it and are corroborated when listings resume in 1950. The stint is one extraction unit; its early two-initial rows ('W. E. Donovan') are consistent with the same man, as the career line (Treasury clerk grades) flows directly into the biography's narrative."
+}

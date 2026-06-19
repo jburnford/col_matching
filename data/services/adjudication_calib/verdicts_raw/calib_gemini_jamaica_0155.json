@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0155",
+  "persons": [
+    {
+      "bio_id": "bicknell_h-j_e1860",
+      "stint_ids": ["Bicknell, H. J___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the biography gives only initials (H. J.), no birth year and no honours, so a same-initial relative (a son following his father onto the Jamaica bench) could be the man in the staff lists, especially since the bio's career starts in 1860 but the stint is only listed from 1877 — the staff-list man could be a younger H. J. Bicknell who took over a magistracy the elder once held. This fails: (a) Bicknell is a rare surname (10 officials, 2 biographies) and the staff lists show exactly one continuous H. J. Bicknell in Jamaica, with no overlap or handoff visible; (b) the 1877 start is an artifact of edition coverage, not of the career — the bio places him as Police Magistrate, Kingston from Mar. 1860 and the 1883 staff row prints the identical specific office 'Police Magistrate, Kingston'; (c) the decisive dimension is the career transition: the bio says 'R.M., St. Catherine, April, 1888', and the staff list shows Police Magistrate through the 1888 edition then 'Resident Magistrate' in 1889 and 1890 — a successor or relative would not reproduce this exact office change at this exact date. Three independent dimensions (both initials, specific Kingston magistracy, dated transition to Resident Magistrate) agree, with no second biography contesting the stint.",
+      "evidence_cited": [
+        {"stint_id": "Bicknell, H. J___Jamaica___1877", "year": 1883, "fact": "Police Magistrate, Kingston"},
+        {"stint_id": "Bicknell, H. J___Jamaica___1877", "year": 1860, "fact": "Police magistrate, Kingston, Jamaica, Mar., 1860"},
+        {"stint_id": "Bicknell, H. J___Jamaica___1877", "year": 1889, "fact": "Resident Magistrate"},
+        {"stint_id": "Bicknell, H. J___Jamaica___1877", "year": 1888, "fact": "R.M., St. Catherine, April, 1888"}
+      ],
+      "would_overturn": "Evidence of two H. J. Bicknells on the Jamaica judicial establishment in this period (e.g. staff-list rows distinguishing senior/junior, or an appointment record showing the 1889 Resident Magistrate was a different Bicknell than the Kingston Police Magistrate)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The honour check fails only because neither the biography nor the staff lists print any honour; it is absence on both sides, not a conflict. The bio's 1860 start predates the first available staff-list edition (1877), which explains the stint's later start."
+}

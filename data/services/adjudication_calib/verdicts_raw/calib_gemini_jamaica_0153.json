@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0153",
+  "persons": [
+    {
+      "bio_id": "newton_edward_e1859",
+      "stint_ids": ["Newton, Edward___Jamaica___1878"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: with 29 Newtons in the staff lists and 14 Newton biographies, this could be a different Edward Newton, or the 1886 'Lieut.-Governor' listing could be a successor, since the biography says 'retired, 1883.' This fails: the staff list prints the full forename 'Edward Newton' (not a bare initial), holding exactly the paired offices the biography names — 'lieutenant-governor and colonial secretary, Jamaica, Nov., 1877' matches the stint's Colonial Secretary (1878) and Lieutenant-Governor (1880, 1883) rows — in the same colony, starting the year after the printed appointment, and carrying the same distinctive honour C.M.G. (1875 per the bio; printed against every staff-list row). The 1886 row post-dating retirement is the known honoured-retiree listing lag, not a second person: it is the same C.M.G.-bearing E. Newton as Lieut.-Governor, and the biography itself continued to be printed through 1897 after retirement. No other biography is in the case to contest the stint. Multiple independent dimensions (full forename, exact dual-office match, colony, appointment date, honour) agree with no live counter-hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Newton, Edward___Jamaica___1878", "year": 1877, "fact": "lieutenant-governor and colonial secretary, Jamaica, Nov., 1877"},
+        {"stint_id": "Newton, Edward___Jamaica___1878", "year": 1880, "fact": "Lieutenant-Governor"},
+        {"stint_id": "Newton, Edward___Jamaica___1878", "year": 1878, "fact": "Colonial Secretary"},
+        {"stint_id": "Newton, Edward___Jamaica___1878", "year": 1878, "fact": "C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second Edward Newton, C.M.G., serving in Jamaica's Colonial Secretary's Office or as Lieutenant-Governor in 1878-1886 (e.g. a staff-list row distinguishing two Edward Newtons in Jamaica, or an appointment record naming a different Edward Newton to either office in that window)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The dossier flags a single-initial warning, but the biography actually prints the full forename EDWARD and the staff list prints 'Edward Newton' in full, so the namesake trap does not bite here. The stint's 1886 listing post-dates the printed retirement (1883); this is consistent with retained listing of an honoured (C.M.G./K.C.M.G.) officer and does not indicate a different person."
+}

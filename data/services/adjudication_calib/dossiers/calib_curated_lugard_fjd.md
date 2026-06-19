@@ -1,0 +1,162 @@
+<!-- {"case_id": "calib_curated_lugard_fjd", "bio_ids": ["lugard_frederick-john-dealtry_b1858"], "stint_ids": ["Lugard, F. J. D___Nigeria___1917", "Lugard, F. J. D___Northern Nigeria___1905", "Lugard, Frederick John Dealty___Hong Kong___1911"]} -->
+# Dossier calib_curated_lugard_fjd
+
+## Case context
+
+- 1 biography(ies) and 3 candidate stint(s) are entangled in this case.
+- Corpus context: 9 official(s) with this surname in the graph's staff lists; 1 biography(ies) with this surname in the printed biographical sections. The commoner the surname, the weaker any name-based inference.
+
+## Biography `lugard_frederick-john-dealtry_b1858`
+
+- Printed name: **LUGARD, FREDERICK JOHN DEALTRY**
+- Birth year: 1858 (attested in editions [1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940])
+- Honours: C.B. (1896), D.S.O. (1887), G.C.M.G. (1911), K.C.M.G. (1901), P.C. (1920)
+- Terminal: retired 1919 — “retired, 1919.”
+- Appears in editions: [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940]
+
+### Verbatim printed entry text (OCR)
+
+**Version `col1928-L67978.v` — printed in editions [1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940]:**
+
+> LUGARD, 1ST BARON (CR. 1928), RT. HON. SIR FREDERICK JOHN DEALTRY LUGARD, P.C. (1920), G.C.M.G. (1911), K.C.M.G. (1901), C.B. (1896), D.S.O. (1887). — B. 1858; ed. Rossall and Sandhurst; 1st commn., 9th foot, May, 1878; captain, Aug., 1880; major, Aug., 1896; lieut.-col., July, 1899; col., July, 1905; temp. brig.-gen., 1900-07; to India, Sept., 1878; active service, Afghanistan, Sept., 1879, to Sept., 1880, medal; Soudan, Feb. to Nov., 1885; medal, clasp, "Tofrek" Khedive's Star, despatches; Burmah, Oct., 1886, to Aug., 1887; mentioned in despatches, D.S.O. and medal. To Africa, Feb., 1888; commanding expdn. against slave traders; very severely wounded. To East Africa, Nov., 1889, to Oct., 1892; exploration of Sabakh; admnstr. Uganda; went to Borgu in commd. expdn., July, 1894, and made treaties on behalf of Royal Niger Company, returned, Apl., 1895, Feb., 1896, led expedition across Kalahari for Brid Charterland Co.; apptd. commnstr., and commd., West African frontier force, Aug., 1897; high commnstr. for Northern Nigeria, Dec., 1899; resigned Sept., 1906; gov. of Hong Kong, May, 1907; gov., N. and S. Nigeria, Mar., 1912; gov.-gen., Nigeria, Dec., 1913; assumed govt., Jan., 1914; retired, 1919; Br. mem., Permanent Mandates commn. since 1922; author of "The Dual Mandate in Br. Tropical Africa" and other works.
+
+**Version `col1921-L58028.v` — printed in editions [1921]:**
+
+> LUGARDB, Rt. Hon. Sir Frederick John Dealtly, P.C. (1920), G.C.M.G. (1911), K.C.M.G. (1901), C.B. (1895), D.S.O. (1887).—B. 1858; ed. Rossall and Sandhurst; 1st comsnr., 9th foot, May, 1878; captain, Aug., 1885; major, Aug., 1896; lieut.-col., July, 1899; col., July, 1905; temp. brig.-gen., 1900-07; to India, Sept., 1878; active service, Afghanistan, Sept., 1879, to Sept., 1880, medal; Soufan, Feb. to Nov., 1885; medal, clasp, "Tofrek." Khedive's Star, despatches; Burmah, Oct., 1886, to Aug., 1887; mentioned in despatches, D.S.O. and medal. To Africa, Feb., 1888; commanding expdn. against slave traders; very severely wounded. To East Africa, Nov., 1889, to Oct., 1892; exploration of Sabakh; adminstd. Uganda; went to Borgu in comd. expdn., July, 1894, and made treaties on behalf of Royal Niger Company, returned, Apl., 1895; Feb., 1896, led expedition across Kalahari for Br. Charterland Co.; apptd. comsnr., and comdt., West African frontier force, Aug., 1897; high comsnr. for Northern Nigeria, 29th Dec., 1899; resigned Sept., 1906; gov. of Hong Kong, 1st May, 1907; gov., N. and S. Nigeria, 25th Mar., 1912; gov.-gen., Nigeria, 1st Dec., 1913; assumed govt., 1st Jan., 1914; retired, 1919.
+
+**Version `col1908-L45832.v` — printed in editions [1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1922, 1923, 1924, 1925, 1927]:**
+
+> LUGARD, Rt. Hon. Sir Frederick John Dealtly, P.C. (1920), G.C.M.G. (1911), K.C.M.G. (1901), C.B. (1895), D.S.O. (1887).—B. 1858; ed. Rossall and Sandhurst; 1st coman., 9th foot, May, 1878; captain, Aug., 1885; major, Aug., 1896; lieut.-col., July, 1899; col., July, 1905; temp. brig.-gen., 1900-07; to India, Sept., 1878; active service, Afghanistan, Sept., 1879, to Sept., 1880; medal: Soudan, Feb. to Nov., 1885; medal, clasp, "Tofrek" Khedive's Star, despatches; Burmah, Oct., 1886, to Aug., 1887; mentioned in despatches, D.S.O. and medal. To Africa, Feb., 1888; commanding expdn. against slave traders; very severely wounded. To East Africa, Nov., 1889, to Oct., 1892; exploration of Sabakhi; adminstd. Uganda; went to Borgu in comd. expdn., July, 1894, and made treaties on behalf of Royal Niger Company, returned, Apl., 1895; Feb., 1896, led expedition across Kalahari for Br. Charterland Co.; apptd. comsnr., and comdt., West African frontier force, Aug., 1897; high comsnr. for Northern Nigeria, 29th Dec., 1899; resigned Sept., 1906; gov. of Hong Kong, 1st May, 1907; gov., N. and S. Nigeria, 25th Mar., 1912; gov.-gen., Nigeria, 1st Dec., 1913; assumed govt., 1st Jan., 1914; retired, 1919.
+
+**Version `col1909-L48011.v` — printed in editions [1909]:**
+
+> LUIGARD, COL. SIR FREDERICK JOHN DEALTRY, K.C.M.G. (1901), C.B. (1895), D.S.O. (1887).—B. 1858; ed. Rossall and Sandhurst; 1st coman., 9th foot, May, 1878; capt., Aug., 1885; major, Aug., 1896; lieut.-col., July, 1899; col., July, 1905; temp. brig.-gen., 1900-07; to India, Sept., 1878; active service, Afghanistan, Sept., 1879, to Sept., 1880; medal; Soudan, Feb. to Nov., 1885; medal, clasp, "Tofrek" Khedive's Star, despatches; Burmah, Oct., 1886, to Aug., 1887; mentioned in despatches, D.S.O. and medal. To Africa, Feb., 1888; commanding expdn. against slave traders; very severely wounded. To East Africa, Nov., 1889, to Oct., 1902; exploration of Sabakhi; adminstr. Uganda; went to Borgu in comd. expdn., July, 1894, and made treaties on behalf of Royal Niger Company, returned, Apr., 1895; Feb., 1896, led expedition across Kalahari for Br. Charterland Co.; apptd. comsrr., and comdt., West African frontier force, Aug., 1897; high comsrr. for Northern Nigeria, 29th Dec., 1899; resigned Sept., 1900; gov. of Hong Kong, 1st May, 1907.
+
+**Version `col1899-L36093.v` — printed in editions [1899, 1905, 1906, 1907]:**
+
+> LUGARD, BRIG.-GEN. SIR F. D., K.C.M.G. (1901), C.B. (1895), D.S.O.—B. 1858; ed. Rossall and Sandhurst; 1st comsnr., 9th foot, May, 1878; capt., Aug., 1885; major, Aug., 1896; temp. col., 1898; to India, Sept., 1878; active service, Afghanistan, Sept., 1879-80; medal, Soudan, Feb. to Nov., 1885; medal, clasp, "Tofrek" Khedive's Star; despatches, Burmah, Oct., 1886, to Aug., 1887; mentioned in despatches, D.S.O. and medal. To Africa, Feb., 1888; commanding expdn. against slave traders; very severely wounded. To East Africa, Nov., 1889; exploration of Sakabhi; admnstd. Uganda; wrote "Our East African Empire." July, 1894, went to Borgu in comd., expedition, and made treaties; hit by arrow. returned, Apr., 1895; Feb., 1896, led expedition across Kalahari for Br. Charterland Co.; apptd. c.msnr., and comdt., West African frontier force, Aug., 1897; went out, Mar., 1898; high comsnr. for Northern Nigeria, 29th Dec., 1899; resigned Sept., 1906.
+
+### Compiled career timeline
+
+| # | years | position | place | editions |
+|---|-------|----------|-------|----------|
+| 0 | 1878 | 1st commn., 9th foot | — | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 1 | 1878 | — | India | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 2 | 1879–1880 | active service | Afghanistan | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 3 | 1880 | captain | — | [1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 4 | 1885–1885 | — | Soudan | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 5 | 1885–1885 | captain | — | [1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927] |
+| 6 | 1885–1885 | — | Soufan | [1921] |
+| 7 | 1885 | capt. | — | [1899, 1905, 1906, 1907, 1909] |
+| 8 | 1886–1887 | — | Burmah | [1899, 1905, 1906, 1907, 1909, 1921, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 9 | 1886–1887 | — | Burma | [1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1922, 1923, 1924, 1925, 1927] |
+| 10 | 1888 | — | Africa | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 11 | 1889–1892 | — | East Africa | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 12 | 1894–1895 | in commd. expdn. | Borgu | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 13 | 1895 | — | — | [1899, 1905, 1906, 1907] |
+| 14 | 1896 | major | — | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 15 | 1896 | — | Kalahari | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 16 | 1897 | commnstr., and commd., West African frontier force | West Africa | [1899, 1905, 1906, 1907, 1909, 1921, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 17 | 1897 | comsnr., and comdt. | — | [1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1922, 1923, 1924, 1925, 1927] |
+| 18 | 1898 | temp. col. | — | [1899, 1905, 1906, 1907] |
+| 19 | 1898 | — | — | [1899, 1905, 1906, 1907] |
+| 20 | 1899 | lieut.-col. | — | [1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 21 | 1899 | high commnstr. | Northern Nigeria | [1899, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 22 | 1900–1907 | temp. brig.-gen. | — | [1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 23 | 1900 | — | — | [1909] |
+| 24 | 1905 | col. | — | [1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 25 | 1906 | resigned | — | [1921, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 26 | 1906 | — | — | [1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1922, 1923, 1924, 1925, 1927] |
+| 27 | 1907 | gov. | Hong Kong | [1908, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 28 | 1912 | gov. | Northern and Southern Nigeria | [1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 29 | 1913 | gov.-gen. | Nigeria | [1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 30 | 1914 | assumed govt. | — | [1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 31 | 1919 | retired | — | [1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+| 32 | 1922 | Br. mem., Permanent Mandates commn. | — | [1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1939, 1940] |
+
+## Candidate stint `Lugard, F. J. D___Nigeria___1917`
+
+- Staff-list name: **Lugard, F. J. D** | colony: **Nigeria** | listed 1917–1918 | editions [1917, 1918]
+
+### Year-by-year staff-list records
+
+| year | name as printed | position | department | honours | rank |
+|------|-----------------|----------|------------|---------|------|
+| 1917 | Sir F. J. D. Lugard | Governor-General | Civil Establishment | G.C.M.G., C.B., D.S.O. | — |
+| 1918 | Sir F. J. D. Lugard | Governor-General | Civil Establishment | G.C.M.G., C.B., D.S.O. | — |
+
+### Deterministic checks: `lugard_frederick-john-dealtry_b1858` vs `Lugard, F. J. D___Nigeria___1917`
+
+- [PASS] surname_gate: bio 'LUGARD' vs stint 'Lugard, F. J. D' (exact)
+- [PASS] initials: bio ['F', 'J', 'D'] ~ stint ['F', 'J', 'D']
+- [PASS] age_gate: stint starts 1917, birth 1858 (age 59)
+- [PASS] colony: 2 placed event(s) resolve to 'Nigeria'
+- [FAIL] tenure_overlap: no colony-agreeing tenure overlaps stint years 1917-1918
+- [FAIL] position_sim: no overlapping placed event to compare
+- [PASS] honour: shared: C.B., D.S.O., G.C.M.G.
+- [PASS] edition_cooccurrence: 2 agreeing edition-year(s) [1917, 1918] pos~100 (bar: >=2)
+- [FAIL] place_inherited: no supporting events
+
+## Candidate stint `Lugard, F. J. D___Northern Nigeria___1905`
+
+- Staff-list name: **Lugard, F. J. D** | colony: **Northern Nigeria** | listed 1905–1906 | editions [1905, 1906]
+
+### Year-by-year staff-list records
+
+| year | name as printed | position | department | honours | rank |
+|------|-----------------|----------|------------|---------|------|
+| 1905 | Sir F. J. D. Lugard | High Commissioner | Civil Establishment | C.M.G., C.B., D.S.O. | — |
+| 1906 | Sir F. J. D. Lugard | High Commissioner | Civil Establishment | K.C.M.G., C.B., D.S.O. | — |
+
+### Deterministic checks: `lugard_frederick-john-dealtry_b1858` vs `Lugard, F. J. D___Northern Nigeria___1905`
+
+- [PASS] surname_gate: bio 'LUGARD' vs stint 'Lugard, F. J. D' (exact)
+- [PASS] initials: bio ['F', 'J', 'D'] ~ stint ['F', 'J', 'D']
+- [PASS] age_gate: stint starts 1905, birth 1858 (age 47)
+- [PASS] colony: 1 placed event(s) resolve to 'Northern Nigeria'
+- [FAIL] tenure_overlap: no colony-agreeing tenure overlaps stint years 1905-1906
+- [FAIL] position_sim: no overlapping placed event to compare
+- [PASS] honour: shared: C.B., D.S.O., K.C.M.G.
+- [PASS] edition_cooccurrence: 2 agreeing edition-year(s) [1905, 1906] pos~73 (bar: >=2)
+- [FAIL] place_inherited: no supporting events
+
+## Candidate stint `Lugard, Frederick John Dealty___Hong Kong___1911`
+
+- Staff-list name: **Lugard, Frederick John Dealty** | colony: **Hong Kong** | listed 1911–1912 | editions [1911, 1912]
+
+### Year-by-year staff-list records
+
+| year | name as printed | position | department | honours | rank |
+|------|-----------------|----------|------------|---------|------|
+| 1911 | Sir F. J. D. Lugard | Governor | Civil Establishment | C.M.G., C.B., D.S.O. | — |
+
+### Deterministic checks: `lugard_frederick-john-dealtry_b1858` vs `Lugard, Frederick John Dealty___Hong Kong___1911`
+
+- [PASS] surname_gate: bio 'LUGARD' vs stint 'Lugard, Frederick John Dealty' (exact)
+- [PASS] initials: bio ['F', 'J', 'D'] ~ stint ['F', 'J', 'D']
+- [PASS] age_gate: stint starts 1911, birth 1858 (age 53)
+- [PASS] colony: 1 placed event(s) resolve to 'Hong Kong'
+- [PASS] tenure_overlap: 1 event tenure(s) overlap stint years 1911-1912
+- [PASS] position_sim: best 100 vs bar 60: 'gov.' ~ 'Governor'
+- [PASS] honour: shared: C.B., D.S.O.
+- [not met] edition_cooccurrence (strict corroboration bonus — same edition-year with colony-agreeing position match; absence is normal even for true matches and is NOT evidence against): 1 agreeing edition-year(s) [1911] pos~100 (bar: >=2)
+- [PASS] place_inherited: at least one supporting event names its place in print
+
+## Adjudication constraints (binding)
+
+- The prime directive is NO FALSE MERGES. A missed link is recoverable; a
+  wrong one silently corrupts the historical record. When in doubt, leave
+  the stint unassigned.
+- Surname identity is NOT evidence: every candidate here already shares the
+  surname (it is the blocking key). Only position, place, dates, honours,
+  initials/forenames, and edition co-occurrence count.
+- Single-initial biographies (e.g. "J. Lewis") must never be merged on
+  shared-stint or tenure-overlap evidence alone; they need a strong
+  independent dimension (specific position match, shared honour, or
+  multi-edition co-occurrence).
+- A stint belongs to AT MOST one biography. If two biographies in this case
+  could plausibly hold the same stint, assign it to neither.
+- Respect hard chronology: nobody serves before age ~15 or after death.
+- Generic junior titles (clerk, cadet, assistant) recur constantly; a title
+  match alone on a common office is weak evidence.
+

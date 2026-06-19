@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_gemini_tasmania_0389",
+  "persons": [
+    {
+      "bio_id": "browne_george_e1863",
+      "stint_ids": ["Browne, George___Tasmania___1878"],
+      "confidence": "certain",
+      "arguments_against": "Browne is a very common surname (80 officials, 48 biographies), the namesake-trap warning applies, and the position_sim check scored only 69 — so one could argue this is a different George Browne, e.g. a relative also in Tasmanian legal service. This fails on the verbatim texts: the bio's 1866 office is 'Associate to the Judges of the Supreme Court of Tasmania, registrar of the supreme court in bankruptcy, curator of intestate estates, and marshal of the vice-admiralty court', and the staff list carries 'George Browne | Judges' Associate (also Curator of Intestate Estates, &c., &c.)' — the same rare compound of offices, in the same colony, under the same full forename, across editions (1888-1900) in which the biography was simultaneously reprinted. The 1888 row 'George Browne (acting) | Aide-de-Camp and Private Secretary' independently matches the bio's 'acting private secretary to administrator Sir W. L. Dobson, 1886-7'. Two George Brownes simultaneously holding the judges'-associate-plus-curator compound is not a realistic hypothesis; the low mechanical position score reflects string fragmentation, not a real mismatch.",
+      "evidence_cited": [
+        {"stint_id": "Browne, George___Tasmania___1878", "year": 1889, "fact": "Judges' Associate (also Curator of Intestate Estates, &c., &c.)"},
+        {"stint_id": "Browne, George___Tasmania___1878", "year": 1889, "fact": "curator of intestate estates, and marshal of the vice-admiralty court, 1866"},
+        {"stint_id": "Browne, George___Tasmania___1878", "year": 1888, "fact": "George Browne (acting) | Aide-de-Camp and Private Secretary"}
+      ],
+      "would_overturn": "Evidence of two contemporaneous George Brownes in Tasmania's Judicial and Legal Departments, or a record showing the judges' associate of 1878-1900 was a son who inherited the office while the biography's subject had left it."
+    }
+  ],
+  "unassigned_stints": [
+    {
+      "stint_id": "Browne, George___Tasmania___1907",
+      "reason": "This stint (Private Secretary / Honorary Private Secretary, Civil Establishment, 1907-1917) starts seven years after both the biography's last printed edition (1900) and the end of the 1878-1900 stint. No bio event overlaps it, no edition co-occurs, and 'Private Secretary' is a generic title. The career shape is suggestive — the bio's subject served repeatedly as private secretary to governors and administrators (1874-1887) and an elderly honorary private secretary would fit a man whose career began in 1863 — but with 80 Brownes in the staff lists and the forename George common, a different (possibly younger) George Browne taking the governor's private-secretaryship in 1907 is a fully live counter-hypothesis. Under the no-false-merge directive this stays unassigned."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The two printed bio versions (col1883 and col1888) are successive expansions of the same entry and are already grouped under one bio_id. The deterministic position_sim of 69 for the 1878 stint understates the match badly; the verbatim compound office text is decisive."
+}

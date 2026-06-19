@@ -1,0 +1,14 @@
+{
+  "case_id": "case_adapoe_cephas-kodjo-fianyehia_b1912",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Adapoe, C. K. F___Gold Coast___1949",
+      "reason": "Contested between two biographies that are clearly OCR duplicates of the same person ('Fianyehia' vs 'Flanyehia' is a one-character i/l OCR variant; both b. 1912, ed. Ewe school and City of Lond. Coll. plus acctnt. gen. dept. Lond., both '2nd div. clk., G.C., 1930'). Per instructions, contested stints between duplicate biographies are assigned to neither. The match to the merged person is otherwise strong: bio says 'acctnt., posts and tels. dept., G.C., 1947' and the 1949 staff list shows 'C. K. F. Adapoe' under 'Accountants' in 'Posts and Telegraphs', Gold Coast, with full initials C.K.F. agreeing and age 37 plausible. Once the duplicate bios are merged upstream, this stint should attach to the merged record with high confidence."
+    }
+  ],
+  "duplicate_bio_groups": [
+    ["adapoe_cephas-kodjo-fianyehia_b1912", "adapoe_cephas-kodjo-flanyehia_b1912"]
+  ],
+  "notes": "The two biographies are the same person printed in consecutive editions (1950, 1951) with a single OCR letter difference in the third forename (Fianyehia/Flanyehia). The 1950 entry is truncated/garbled at the end ('acctnt., 1497.' is plainly the same 'acctnt., posts and tels. dept., G.C., 1947' line, with 1947 misread as 1497). No realistic counter-hypothesis of two distinct C. K. F. Adapoes exists -- corpus context shows only 1 official with this surname in the staff lists -- but the partition rules forbid arbitrarily picking one duplicate bio, so the stint is left unassigned pending bio merge. Recommended action: merge the bios, then link the stint (would have been 'certain': initials C.K.F. exact, colony Gold Coast, position 'Accountants'/'Posts and Telegraphs' matches 'acctnt., posts and tels. dept.' verbatim apart from abbreviation, tenure 1949-1951 follows 1947 appointment)."
+}

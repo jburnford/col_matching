@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_gemini_malta_0251",
+  "persons": [
+    {
+      "bio_id": "zammit_c-gr_b1911",
+      "stint_ids": ["Zammit, Carmelo___Malta___1956", "Zammit, Carmelo___Malta___1936"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case this is wrong: Zammit is a very common Maltese surname (22 officials in the staff lists, 3 biographies), and Malta's most famous archaeologist-curator family (the Zammits) had multiple members in museum work, so a relative — even a father or uncle 'C. Zammit' — could be the 1936-1940 curator while the bio subject was elsewhere. Why it fails: the bio's career is uniquely specific — 'asst. custodian, archaeol., 1930; custodian, 1934; dir., museum, Malta, 1955' — and the two stints reproduce it exactly in staff-list phrasing: 'Curator of the Archaeological Section' in the Museum department 1936-1940 (the staff-list rendering of 'custodian' of archaeology, printed with BOTH initials 'C. G. Zammit' in 1939-1940, matching 'C. Gr.'), then 'Director of Museum(s)' 1956-1964 continuing the 1955 directorship, with 8 agreeing edition-years (1956-1962) where bio and stint co-occur with matching position (position_sim 75). The dates interlock: custodian from 1934, curator stint opens 1936; director from 1955, director stint opens 1956. A relative-curator hypothesis would require that relative to also carry initials C. G. and hold exactly the post the bio claims for the same years — no such second C. G. Zammit appears.",
+      "evidence_cited": [
+        {"stint_id": "Zammit, Carmelo___Malta___1956", "year": 1956, "fact": "Director of Museums"},
+        {"stint_id": "Zammit, Carmelo___Malta___1956", "year": 1955, "fact": "dir., museum, Malta, 1955"},
+        {"stint_id": "Zammit, Carmelo___Malta___1936", "year": 1939, "fact": "C. G. Zammit"},
+        {"stint_id": "Zammit, Carmelo___Malta___1936", "year": 1936, "fact": "Curator of the Archaeological Section"},
+        {"stint_id": "Zammit, Carmelo___Malta___1936", "year": 1934, "fact": "custodian, 1934"}
+      ],
+      "would_overturn": "Evidence of a second C. G. Zammit in the Malta museum service (e.g., a staff list showing two such names concurrently), or a record showing the bio subject was absent from Malta (studying in London) for the whole 1936-1940 curatorship while another C. Zammit held it."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Zammit, G___Malta___1929", "reason": "Wrong leading initial (G. vs the bio's C. Gr.) and an incompatible career: District Medical Officer 1929-1934 then Lyceum schoolmaster 1936-1940. The bio subject, born 1911, would have been an 18-year-old District Medical Officer in 1929 — chronologically impossible for a physician — and was simultaneously the museum's archaeological curator during 1936-1940, so he cannot also be the Lyceum master. This is a different person, plausibly an unrelated G. Zammit."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The 1941-1955 gap between the two assigned stints spans the war and the pre-directorship custodian years; the bio records no intermediate appointment, consistent with continuous museum service that the sampled editions simply do not list here."
+}

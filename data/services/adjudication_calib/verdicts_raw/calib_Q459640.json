@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q459640",
+  "persons": [
+    {
+      "bio_id": "sharpe_alfred_b1853",
+      "stint_ids": ["Sharpe, Alfred___British Central Africa___1898", "Sharpe, Alfred___Nyasaland___1908"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: a second Alfred Sharpe among the 25 Sharpe officials, or a successor in the same posts being confused with him. This fails on multiple independent dimensions. For the BCA stint: the bio prints 'comanr. and consul-gen., for territories under Brit. infil. N. of Zambesi, 15th July, 1897' and 'comanr. commdr.-in-chief, and consul-gen., Br. Cent. Africa Prot., 1st Jan., 1902', matching the staff list's Commissioner and Consul-General (1898) and Commissioner, Commander-in-Chief, and Consul-General (1905-07) exactly; the honours sequence corroborates independently — the 1898 row shows C.B. only (bio: C.B. 1897) and the 1905-07 rows add K.C.M.G. (bio: K.C.M.G. 1903), exactly tracking the award dates. For the Nyasaland stint: the bio prints 'gov. of Nyassaland (late B.C.A. Prot.), 6th Sept., 1907' matching Governor and Commander-in-Chief listed 1908-1909, with identical honours (K.C.M.G., C.B.), and the listing window ends consistent with 'ret., 1910'. The two stints are also mutually continuous: BCA Protectorate was renamed Nyasaland in 1907 (the bio itself says 'late B.C.A. Prot.'), so this is one unbroken career, not two. Both offices are unique posts held by one person at a time. The position_sim FAIL on the second stint is a string artifact ('gov.' vs 'Governor and Commander-in-Chief'); the printed texts agree. No realistic namesake hypothesis survives the matched honour-award chronology.",
+      "evidence_cited": [
+        {"stint_id": "Sharpe, Alfred___British Central Africa___1898", "year": 1898, "fact": "Commissioner and Consul-General"},
+        {"stint_id": "Sharpe, Alfred___British Central Africa___1898", "year": 1905, "fact": "Commissioner, Commander-in-Chief, and Consul-General"},
+        {"stint_id": "Sharpe, Alfred___British Central Africa___1898", "year": 1905, "fact": "K.C.M.G., C.B."},
+        {"stint_id": "Sharpe, Alfred___Nyasaland___1908", "year": 1908, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Sharpe, Alfred___Nyasaland___1908", "year": 1908, "fact": "gov. of Nyassaland (late B.C.A. Prot.), 6th Sept., 1907"}
+      ],
+      "would_overturn": "Evidence of a second Sir Alfred Sharpe with C.B. and K.C.M.G. serving in Central Africa in the same years — effectively impossible given the unique offices and matching honour-award chronology."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single biography, two stints forming one continuous career across the 1907 renaming of British Central Africa Protectorate to Nyasaland. The shared honours with edition-tracked award years (C.B. only in 1898; K.C.M.G.+C.B. from 1905) are decisive independent corroboration. The single-initial warning is conservative: both bio and staff list print the full forename 'Alfred'."
+}

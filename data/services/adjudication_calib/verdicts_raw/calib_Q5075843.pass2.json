@@ -1,0 +1,26 @@
+{
+  "case_id": "calib_Q5075843",
+  "persons": [
+    {
+      "bio_id": "bruce_st-charles_b1837",
+      "stint_ids": [
+        "Bruce, Charles___British Guiana___1886",
+        "Bruce, Charles___Mauritius___1897"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: 48 Bruces in the staff lists and 21 in the biographies, the staff lists print only 'C. Bruce' for the British Guiana years, and a relative with the same initial demonstrably exists in this very dossier (the 1899 Mauritius row 'Lieut. C. M. D. Bruce', Private Secretary and Aide-de-Camp — almost certainly the Governor's kinsman). Could one of these stints belong to that other C. Bruce? No. For British Guiana: the biography states 'lieutenant-governor and government-secretary, British Guiana, 1885', the exact dual office the staff lists show ('Government Secretary' 1886-88, 'Lieutenant-Governor' + 'Government Secretary' 1889-90), and the honours track the biography's award dates perfectly — C.M.G. (bio: 1881) through 1889, then 'Sir C. Bruce' K.C.M.G. in 1890 (bio: K.C.M.G. 1889). For Mauritius: the biography states 'Governor, ... Mauritius, 1897'; the staff list shows 'Sir Charles Bruce', K.C.M.G., Governor and Commander-in-Chief 1897-1900 — full forename, singular post, matching honour, exact start year. The ADC C. M. D. Bruce is excluded by his own distinct initials, junior rank, and lack of K.C.M.G. The 'ST CHARLES' in the bio_id/printed name is an OCR misreading of 'SIR CHARLES' (the 1888 and 1914 versions print 'SIR CHARLES'), not a forename discrepancy.",
+      "evidence_cited": [
+        {"stint_id": "Bruce, Charles___British Guiana___1886", "year": 1886, "fact": "Government Secretary"},
+        {"stint_id": "Bruce, Charles___British Guiana___1886", "year": 1889, "fact": "Lieutenant-Governor"},
+        {"stint_id": "Bruce, Charles___British Guiana___1886", "year": 1890, "fact": "Sir C. Bruce"},
+        {"stint_id": "Bruce, Charles___Mauritius___1897", "year": 1897, "fact": "Governor and Commander-in-Chief"},
+        {"stint_id": "Bruce, Charles___Mauritius___1897", "year": 1897, "fact": "Sir Charles Bruce"},
+        {"stint_id": "Bruce, Charles___Mauritius___1897", "year": 1897, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence that a different Charles Bruce held the British Guiana government secretaryship or the Mauritius governorship in these exact years (e.g. gazette notices with conflicting forenames or honours), or that the C.M.G./K.C.M.G. transition in the staff lists belongs to someone other than the biography's subject."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "'ST CHARLES' in the printed-name field is an OCR artifact for 'SIR CHARLES' (other versions of the same entry print 'SIR CHARLES'). The 1899 row for 'Lieut. C. M. D. Bruce, Private Secretary and Aide-de-Camp' inside the Mauritius stint table is a different person (distinct initials C.M.D., junior post, no honours) — likely a relative serving as the Governor's ADC; the stint extraction appears to have swept his row in, and a reviewer may want to split it out. The honour chronology across the British Guiana rows (C.M.G. until 1889, K.C.M.G. from 1890) independently corroborates the biography's award dates."
+}

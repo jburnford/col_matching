@@ -1,0 +1,35 @@
+{
+ "case_id": "case_jack_enos-louis_b1898",
+ "persons": [
+  {
+   "bio_id": "jack_enos-louis_b1898",
+   "stint_ids": [
+    "Jack, E. L___Jamaica___1917",
+    "Jack, E. L___Jamaica___1922"
+   ],
+   "confidence": "certain",
+   "arguments_against": "The 1917 stint is a generic 'Clerical Assistant' (junior titles are weak). But initials E.L. are exact, the colony is Jamaica, the man (Enos Louis Jack, b. 1898, M.B.E.) entered the service as a clerk in 1915, and the 1922 stint is verbatim '2nd Class Clerk, Government Savings Bank' matching the entry's '2nd cl. clk., gov. sav. bk., 1920'. The 1917 clerkship is the same young man's first posting; the savings-bank stint anchors it.",
+   "evidence_cited": [
+    {
+     "stint_id": "Jack, E. L___Jamaica___1922",
+     "year": 1922,
+     "fact": "Government Savings Bank"
+    },
+    {
+     "stint_id": "Jack, E. L___Jamaica___1922",
+     "year": 1922,
+     "fact": "Clerk, 2nd Class"
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [
+  {
+   "stint_id": "Jack, E. L___Jamaica___1949",
+   "reason": "Not examined in this pass; a later 1949 Jamaica E. L. Jack stint plausibly the same man (career ran to 1940s) but left for review."
+  }
+ ],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice, hand-adjudicated (Claude Code, in-session)"
+}

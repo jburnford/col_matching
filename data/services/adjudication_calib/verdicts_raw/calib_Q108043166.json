@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q108043166",
+  "persons": [
+    {
+      "bio_id": "conroy_diarmaid_b1913",
+      "stint_ids": ["Conroy, D. W___Northern Rhodesia___1961"],
+      "confidence": "certain",
+      "arguments_against": "The single-initial trap is flagged: the early bio versions print only 'CONROY, D. W.', and 8 Conroys appear in staff lists, so another D. Conroy in Northern Rhodesia is conceivable. But the counter-hypothesis requires a second D. W. Conroy who was simultaneously Chief Justice of Northern Rhodesia 1961-1964, held the C.M.G., and was knighted in exactly 1962 — the same year the biography records 'Kt. (1962)' and the staff list switches from 'D. W. Conroy' to 'Sir D. W. Conroy'. Chief Justice is a unique office, not a generic junior title, and the bio explicitly states 'ch. just., N. Rhod., 1961–65', matching the stint years 1961-1964. A father/son or namesake cannot occupy the same unique post in the same years. The counter-hypothesis fails on every independent dimension.",
+      "evidence_cited": [
+        {"stint_id": "Conroy, D. W___Northern Rhodesia___1961", "year": 1962, "fact": "ch. just., N. Rhod., 1961–65"},
+        {"stint_id": "Conroy, D. W___Northern Rhodesia___1961", "year": 1961, "fact": "Chief Justice"},
+        {"stint_id": "Conroy, D. W___Northern Rhodesia___1961", "year": 1962, "fact": "Sir D. W. Conroy"},
+        {"stint_id": "Conroy, D. W___Northern Rhodesia___1961", "year": 1960, "fact": "C.M.G. (1960)"}
+      ],
+      "would_overturn": "Evidence of a second D. W. Conroy serving in the Northern Rhodesia judiciary in 1961-1964, or a record showing Diarmaid Conroy held a different post elsewhere during 1961-1964 incompatible with the Chief Justiceship."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique senior office (Chief Justice), exact place and year agreement, shared C.M.G., and knighthood year 1962 independently corroborated by the staff list's switch to 'Sir'. Initials D. W. match the printed bio heading exactly."
+}

@@ -1,0 +1,28 @@
+{
+  "case_id": "case_ahearne_christopher-domingo_b1886",
+  "persons": [
+    {
+      "bio_id": "ahearne_christopher-domingo_b1886",
+      "stint_ids": [
+        "Ahearne, C. D___Straits Settlements___1913",
+        "Ahearne, C. D___Straits Settlements___1931"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: (1) The 1913-1920 stint carries only generic junior titles (Passed Cadet, Class V Cadet, Supernumerary), which recur constantly, and its 1919 entry reads 'Cadet Service Officer - Class V' while the bio says 'offr., cls. iv., Jan., 1919' - a class-number mismatch that could indicate a second, more junior Ahearne cadet. (2) Both stints are gate-compatible with an out-of-case biography 'aharne_christopher-dominic_b1886', so the stints might belong to that person instead. These fail because: the corpus contains only 2 officials with this surname in the staff lists - and they are these two identically-named 'Ahearne, C. D' Straits Settlements stints themselves - so there is no second cadet candidate; the iv/v discrepancy is a one-character OCR/typesetting slip on a Roman numeral, and every other milestone aligns (bio 'cadet, S. Stltmte., 1910' precedes the 1913 'Passed Cadets' listing; cadets remained on the Cadet Service establishment while seconded to the substantive Penang/Klang/Singapore labour posts the bio records for 1913-1918). The out-of-case bio 'aharne_christopher-dominic_b1886' shares forename Christopher, initials C.D., birth year 1886, and a one-letter surname/forename variation (Aharne/Ahearne, Dominic/Domingo) - it is an OCR duplicate of this same person, not a rival identity, so assigning to this bio cannot be a false merge of two distinct people. The 1931 stint needs no rescue: 'Controller of Labour, Malaya' and 'Deputy Treasurer (A)' are two independent, specific senior-position matches to the bio's 'ag. contr. lab., Malaya' and 'dep. treas. S.S., 1929'.",
+      "evidence_cited": [
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1913", "year": 1913, "fact": "Passed Cadets"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1913", "year": 1910, "fact": "cadet, S. Stltmte., 1910"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1913", "year": 1919, "fact": "Cadet Service Officer - Class V"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1913", "year": 1919, "fact": "offr., cls. iv., Jan., 1919"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1931", "year": 1931, "fact": "Controller of Labour, Malaya"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1931", "year": 1926, "fact": "ag. contr. lab., Malaya, in addn., Feb., 1925"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1931", "year": 1931, "fact": "Deputy Treasurer (A)"},
+        {"stint_id": "Ahearne, C. D___Straits Settlements___1931", "year": 1929, "fact": "dep. treas. S.S., 1929"}
+      ],
+      "would_overturn": "Evidence that 'aharne_christopher-dominic_b1886' is a distinct individual rather than an OCR variant (e.g. a different birth year, different education, or a divergent career in its printed entry), or discovery of a second C. D. Ahearne in the Straits Settlements staff lists circa 1913-1932, or a staff-list record placing this C. D. Ahearne in a post the bio contradicts (e.g. outside Malaya during 1913-1929)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Both stints are flagged as gate-compatible with out-of-case bio 'aharne_christopher-dominic_b1886' (already linked elsewhere or filtered). That bio id (Christopher Dominic Aharne, b. 1886) is almost certainly an OCR-variant duplicate of this bio (Christopher Domingo Ahearne, b. 1886); the pipeline should dedupe those two bio records and ensure the stints are not double-linked. The two stints (1913-1920 and 1931-1932) are the same printed name in the same colony and are themselves one continuous career split by a chain gap; the bio covers the intervening years 1920-1929 continuously in the Straits Settlements."
+}

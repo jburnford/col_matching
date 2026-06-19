@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_natal_0253",
+  "persons": [
+    {
+      "bio_id": "byrne_a_e1876",
+      "stint_ids": ["Byrne, A. X___Natal___1879"],
+      "confidence": "probable",
+      "arguments_against": "Strongest case this is wrong: the bio carries a single initial ('A.'), Byrne is common in this corpus (20 staff-list officials, 10 biographies), and the stint prints an extra initial 'X' (1879-1886) that the biography never shows — so the staff-list 'A. X. Byrne', a mere Clerk in the Civil Establishment, could be a different man (a brother or cousin) while the bio's A. Byrne spent 1880-1893 as an itinerant private secretary to successive governors and administrators. Also, 'Clerk' is exactly the generic junior title the instructions warn about, and the mechanical position_sim 100 ('Governor's clerk' ~ 'Clerk') is over-generous. Why the link nonetheless holds on balance: the stint is not a generic clerkship — it is repeatedly 'Clerk, Governor's Office' (1880, 1883, 1889, 1890, 1894), the exact substantive post the bio gives ('Governor's clerk, Natal, Mar., 1878'), opening in 1879 immediately after the bio's appointment; the private-secretary duties in the bio (to officers administering the government, to the governor in 1890, to the administrator in 1893) are precisely the special duties a Governor's Office clerk performs while the staff list keeps printing his substantive post; and the stint's 22-year span (1879-1900) is co-extensive with the bio's edition run (1886-1900), both ending together around 1900. The 'X' is consistent with a middle initial the biography simply omits. A second A. Byrne serving simultaneously as the Governor's Office clerk is not evidenced anywhere in the dossier. The counter-hypothesis is weakened but not impossible, hence probable rather than certain.",
+      "evidence_cited": [
+        {"stint_id": "Byrne, A. X___Natal___1879", "year": 1880, "fact": "Clerk, Governor's Office"},
+        {"stint_id": "Byrne, A. X___Natal___1879", "year": 1878, "fact": "Governor's clerk, Natal, Mar., 1878"},
+        {"stint_id": "Byrne, A. X___Natal___1879", "year": 1890, "fact": "priv. sec. to gov. Natal, Feb., 1890"}
+      ],
+      "would_overturn": "Any record giving the bio subject's full forename(s) inconsistent with 'A. X.' (e.g., a forename with no X middle name), or a staff list/biography showing a second contemporaneous A. Byrne attached to the Natal Governor's Office or Civil Establishment in 1879-1900."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Sent to human review per 'probable' semantics. Decisive check for a reviewer: Natal civil lists or Blue Books giving the full name of the Governor's Office clerk (is he Alfred Xavier Byrne or similar?), and whether any of the other 9 Byrne biographies claims clerk/Chief Clerk service in the Natal Civil Establishment in the 1890s."
+}

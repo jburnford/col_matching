@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q125387529",
+  "persons": [
+    {
+      "bio_id": "smith_p-j-c_b1921",
+      "stint_ids": ["Smith, P. J. C___Bermuda___1953"],
+      "confidence": "certain",
+      "arguments_against": "Smith is the commonest surname in the corpus (612 staff-list officials), so the strongest case against is a namesake P. J. C. Smith in Bermuda, or an OCR coincidence on the initials. This fails: the office is not generic — Solicitor-General of Bermuda is a single-occupant senior law office — and the biography records exactly that appointment ('solr.-gen., Berm., 1952') one year before the stint begins. All three initials P. J. C. match, the editions co-occur exactly (both 1953 and 1954, the same two editions the biography appears in), and the career shape fits: called to the bar at Gray's Inn, aged 31 at appointment. A successor-in-post hypothesis fails because the stint starts with the appointment, not after it. No competing biography is in the case.",
+      "evidence_cited": [
+        {"stint_id": "Smith, P. J. C___Bermuda___1953", "year": 1952, "fact": "solr.-gen., Berm., 1952"},
+        {"stint_id": "Smith, P. J. C___Bermuda___1953", "year": 1953, "fact": "Solicitor-General"},
+        {"stint_id": "Smith, P. J. C___Bermuda___1953", "year": 1953, "fact": "P. J. C. Smith"}
+      ],
+      "would_overturn": "Evidence of two contemporaneous P. J. C. Smiths in the Bermuda establishment, or a record showing the Solicitor-General appointed in 1952 had different forenames."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Three-initial exact match, single-occupant office (Solicitor-General, Bermuda) matching the bio's 1952 appointment, perfect edition co-occurrence (1953, 1954). No live counter-hypothesis."
+}

@@ -1,0 +1,345 @@
+[
+ {
+  "case_id": "case_a-court_a-w-h_e1872",
+  "seniority": "mid",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_aasdorp_a-f-s_e1878",
+  "seniority": "senior",
+  "traits": [
+   "dropped_ambiguous",
+   "fuzzy",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_aasdorp_christian-george_e1878",
+  "seniority": "senior",
+  "traits": [
+   "dropped_ambiguous",
+   "fuzzy",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_abayomi-cole_a-b_b1907",
+  "seniority": "senior",
+  "traits": []
+ },
+ {
+  "case_id": "case_abbott_arthur-moore_e1871",
+  "seniority": "mid",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_abbott_joseph-palmer_e1883",
+  "seniority": "senior",
+  "traits": []
+ },
+ {
+  "case_id": "case_abbott_terence-kingsmill_b1912",
+  "seniority": "senior",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_abdullah_h_b1927",
+  "seniority": "mid",
+  "traits": [
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_abery_joseph_e1867",
+  "seniority": "senior",
+  "traits": [
+   "fuzzy",
+   "multi",
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_abine_neville-warde_b1910",
+  "seniority": "mid",
+  "traits": [
+   "fuzzy"
+  ]
+ },
+ {
+  "case_id": "case_abraham_a-a_b1912",
+  "seniority": "senior",
+  "traits": []
+ },
+ {
+  "case_id": "case_abraham_e-a-v_e1869",
+  "seniority": "mid",
+  "traits": []
+ },
+ {
+  "case_id": "case_abrahams_h-a_b1906",
+  "seniority": "mid",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_abramson_albert_b1876",
+  "seniority": "senior",
+  "traits": [
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_acheson_james-alexander_b1892",
+  "seniority": "mid",
+  "traits": []
+ },
+ {
+  "case_id": "case_ackroyd_john-henry_e1854",
+  "seniority": "senior",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_action_roger-david_e1896",
+  "seniority": "senior",
+  "traits": [
+   "fuzzy",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_adams_alexander-samuel_b1861",
+  "seniority": "mid",
+  "traits": []
+ },
+ {
+  "case_id": "case_adams_frederick-bradford_b1883",
+  "seniority": "senior",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_adams_george-p_e1876",
+  "seniority": "mid",
+  "traits": [
+   "dropped_ambiguous",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_adams_r-p_e1867",
+  "seniority": "senior",
+  "traits": [
+   "dropped_ambiguous",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_adamson_e_b1921",
+  "seniority": "mid",
+  "traits": [
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_adapoe_cephas-kodjo-fianyehia_b1912",
+  "seniority": "mid",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_addison_a-j_b1922",
+  "seniority": "mid",
+  "traits": []
+ },
+ {
+  "case_id": "case_addison_r-h_e1876-2",
+  "seniority": "senior",
+  "traits": [
+   "dropped_ambiguous"
+  ]
+ },
+ {
+  "case_id": "case_addo_james-abee_b1903",
+  "seniority": "mid",
+  "traits": [
+   "fuzzy",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_addon_e-n-c_e1857",
+  "seniority": "senior",
+  "traits": [
+   "fuzzy"
+  ]
+ },
+ {
+  "case_id": "case_adman_john-lad-brooke_e1929",
+  "seniority": "mid",
+  "traits": [
+   "dropped_ambiguous",
+   "fuzzy",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_adolphus_g-a_e1890",
+  "seniority": "mid",
+  "traits": []
+ },
+ {
+  "case_id": "case_adshead_percy-willetts_e1914",
+  "seniority": "mid",
+  "traits": []
+ },
+ {
+  "case_id": "case_aggart_john-g_e1888",
+  "seniority": "mid",
+  "traits": [
+   "dropped_ambiguous",
+   "fuzzy"
+  ]
+ },
+ {
+  "case_id": "case_agius_frank_b1890",
+  "seniority": "senior",
+  "traits": [
+   "multi",
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_agostini_c_b1914",
+  "seniority": "mid",
+  "traits": [
+   "multi",
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_agostini_louis-edgar_e1870",
+  "seniority": "mid",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_ahearne_christopher-domingo_b1886",
+  "seniority": "mid",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_bbuen_john-patrick_b1904",
+  "seniority": "junior",
+  "traits": [
+   "fuzzy",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_bharucha_navroji-maneckji_b1890",
+  "seniority": "junior",
+  "traits": []
+ },
+ {
+  "case_id": "case_boast_henry-w_e1876",
+  "seniority": "junior",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_bullock_g_e1919",
+  "seniority": "junior",
+  "traits": [
+   "multi",
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_christian_j_e1913",
+  "seniority": "junior",
+  "traits": [
+   "multi",
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_clavier_john-l-f_e1869",
+  "seniority": "junior",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_cole_v-g_e1921",
+  "seniority": "junior",
+  "traits": []
+ },
+ {
+  "case_id": "case_colenbrander_herman-james_e1881",
+  "seniority": "junior",
+  "traits": []
+ },
+ {
+  "case_id": "case_colenbrander_j-b_e1881",
+  "seniority": "junior",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_covington_m_e1849",
+  "seniority": "junior",
+  "traits": [
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_craw_james_e1863",
+  "seniority": "junior",
+  "traits": [
+   "single_initial"
+  ]
+ },
+ {
+  "case_id": "case_darrell_arthur-llanellyn_b1883",
+  "seniority": "junior",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_dent_e-j_e1913",
+  "seniority": "junior",
+  "traits": [
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_dombreu_j-e_e1858",
+  "seniority": "junior",
+  "traits": [
+   "fuzzy",
+   "multi"
+  ]
+ },
+ {
+  "case_id": "case_dover_h-b_e1913",
+  "seniority": "junior",
+  "traits": []
+ }
+]

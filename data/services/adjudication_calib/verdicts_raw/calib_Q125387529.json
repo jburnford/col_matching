@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_Q125387529",
+  "persons": [
+    {
+      "bio_id": "smith_p-j-c_b1921",
+      "stint_ids": ["Smith, P. J. C___Bermuda___1953"],
+      "confidence": "certain",
+      "arguments_against": "Smith is the commonest surname in the corpus (612 officials, 265 biographies), so the prior on any name-based match is weak, and one could posit a different P. J. C. Smith in Bermuda. This fails: Solicitor-General of Bermuda is a unique, named law office held by one person at a time; the biography prints 'solr.-gen., Berm., 1952' — exact office, exact colony, appointed the year before the stint begins; all three initials (P, J, C) agree; and bio and stint co-occur in exactly the same two editions (1953, 1954), appearing and disappearing together — the synchronised window itself indicates one person. Two distinct P. J. C. Smiths holding the same unique Bermuda law office in the same two years is not a realistic hypothesis. The honour FAIL is an artifact: neither source prints honours.",
+      "evidence_cited": [
+        {"stint_id": "Smith, P. J. C___Bermuda___1953", "year": 1953, "fact": "solr.-gen., Berm., 1952"},
+        {"stint_id": "Smith, P. J. C___Bermuda___1953", "year": 1953, "fact": "Solicitor-General"}
+      ],
+      "would_overturn": "Evidence that a different P. J. C. Smith held the Bermuda solicitor-generalship in 1953-1954, or that the biography subject never took up the 1952 appointment."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Despite the maximally common surname, the match rests on a unique senior office (Solicitor-General, Bermuda) printed verbatim in the biography with consistent dates, full three-initial agreement, and perfectly synchronised edition windows (both appear only in 1953-1954)."
+}

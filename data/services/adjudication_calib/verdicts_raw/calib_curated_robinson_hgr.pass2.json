@@ -1,0 +1,27 @@
+{
+  "case_id": "calib_curated_robinson_hgr",
+  "persons": [
+    {
+      "bio_id": "robinson_hercules-g-r_e1846",
+      "stint_ids": [
+        "Robinson, Hercules George Robert___Cape of Good Hope___1883",
+        "Robinson, Hercules George Robert___New South Wales___1877",
+        "Robinson, Hercules George Robert___New Zealand___1879"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Robinson is an extremely common surname (136 officials, 56 bios), so name alone is worthless. But the staff lists print the full forename string 'Hercules George Robert Robinson' -- a unique combination anchored by the rare forename 'Hercules' -- exactly matching the bio's H. G. R. Robinson, all carrying G.C.M.G. (the bio's G.C.M.G. 1875). Each stint maps to a named governorship in the bio: NSW (bio 'governor of New South Wales, 1872'; he held it until 1879, covering the 1877-78 stint), New Zealand (bio 'governor, New Zealand, 1879', exact year and 'Governor' office), and the Cape (bio 'governor of the Cape of Good Hope ... and H.M.'s high commissioner in South Africa, 1880'; stint is 'Governor; High Commissioner' of Cape 1883-89). The colony FAIL on the Cape is a mechanical artifact -- the bio's placed-event was coded 'South Africa', yet the text literally names the Cape of Good Hope and the High Commissioner role the stint shows. No second Hercules George Robert Robinson exists; the unique forename triple plus consecutive governorships rule out a namesake.",
+      "evidence_cited": [
+        {"stint_id": "Robinson, Hercules George Robert___New South Wales___1877", "year": 1878, "fact": "Sir Hercules George Robert Robinson | Governor, &c."},
+        {"stint_id": "Robinson, Hercules George Robert___New South Wales___1877", "year": 1872, "fact": "governor of New South Wales, 1872"},
+        {"stint_id": "Robinson, Hercules George Robert___New Zealand___1879", "year": 1879, "fact": "Hercules George Robert Robinson | Governor and Commander-in-Chief and Vice-Admiral"},
+        {"stint_id": "Robinson, Hercules George Robert___New Zealand___1879", "year": 1879, "fact": "governor, New Zealand, 1879"},
+        {"stint_id": "Robinson, Hercules George Robert___Cape of Good Hope___1883", "year": 1883, "fact": "Sir Hercules George Robert Robinson | Governor; High Commissioner"},
+        {"stint_id": "Robinson, Hercules George Robert___Cape of Good Hope___1883", "year": 1880, "fact": "governor of the Cape of Good Hope, Griqualand West, and H.M.'s high commissioner in South Africa, 1880"}
+      ],
+      "would_overturn": "Evidence of a second person named Hercules George Robert Robinson holding colonial governorships -- which the unique forename combination makes implausible -- or that the Cape governorship of 1883-89 was held by someone other than the bio's subject."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Sir Hercules G. R. Robinson, serial colonial governor (NSW 1872-79, NZ 1879, Cape 1880 onward). Common surname but a unique forename triple ('Hercules George Robert') printed in full in every stint, plus G.C.M.G. and named offices matching the bio. The Cape colony gate failed only because the bio's placed event was coded 'South Africa' while the text names the Cape of Good Hope outright."
+}

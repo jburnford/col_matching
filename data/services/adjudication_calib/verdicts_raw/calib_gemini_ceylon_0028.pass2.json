@@ -1,0 +1,19 @@
+{
+  "case_id": "calib_gemini_ceylon_0028",
+  "persons": [
+    {
+      "bio_id": "kynsey_w-r-f-k-q-c-p-c-m-g-1888_b1840",
+      "stint_ids": ["Kynsey, William R___Ceylon___1878"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypothesis: the bio is a two-initial 'W. R.' form, which on its own would be weak, and an honoured retiree can stay listed after retirement. This fails on every count: there is exactly ONE Kynsey official and ONE Kynsey biography in the entire corpus, so no same-name relative competes; the position is the unique single-holder office 'Principal Civil Medical Officer and Inspector-General of Hospitals' matching verbatim; the dates align (bio appointed 1875, retired 1897 / staff list 1878-1896); and the C.M.G. honour is shared (bio 'C.M.G. 1888', staff list shows 'C.M.G.' in 1894 and 1896 -- the deterministic honour check missed this). The staff list also spells out 'William R. Kynsey', matching the bio forename.",
+      "evidence_cited": [
+        {"stint_id": "Kynsey, William R___Ceylon___1878", "year": 1878, "fact": "W. R. Kynsey | Principal Civil Medical Officer and Inspector-General of Hospitals"},
+        {"stint_id": "Kynsey, William R___Ceylon___1894", "year": 1894, "fact": "William R. Kynsey | Principal Civil Medical Officer and Inspector-General of Hospitals | C.M.G."}
+      ],
+      "would_overturn": "Discovery of a second Kynsey holding the same Ceylon medical post, or a chronology conflict with the 1875-1897 tenure."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique surname in both staff lists and biographies, unique single-holder office matching verbatim, and a shared C.M.G. honour that the mechanical honour check failed to detect. Publish-grade."
+}

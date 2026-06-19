@@ -1,0 +1,153 @@
+{
+  "stints_total": 67952,
+  "stints_matched": 6799,
+  "stint_coverage_pct": 10.0,
+  "components_total": 11731,
+  "components_adjudicable_same_bio": 801,
+  "components_partial": 2183,
+  "components_uncovered": 8747,
+  "by_decade": {
+    "1870": {
+      "total": 5890,
+      "matched": 506
+    },
+    "1880": {
+      "total": 5417,
+      "matched": 457
+    },
+    "1890": {
+      "total": 7994,
+      "matched": 454
+    },
+    "1900": {
+      "total": 10834,
+      "matched": 621
+    },
+    "1910": {
+      "total": 12318,
+      "matched": 676
+    },
+    "1920": {
+      "total": 10950,
+      "matched": 974
+    },
+    "1930": {
+      "total": 6544,
+      "matched": 882
+    },
+    "1940": {
+      "total": 3423,
+      "matched": 847
+    },
+    "1950": {
+      "total": 3070,
+      "matched": 1028
+    },
+    "1960": {
+      "total": 1512,
+      "matched": 354
+    }
+  },
+  "top_colonies": {
+    "Canada": {
+      "total": 4497,
+      "matched": 161
+    },
+    "Gold Coast": {
+      "total": 3070,
+      "matched": 398
+    },
+    "Ceylon": {
+      "total": 2698,
+      "matched": 315
+    },
+    "Mauritius": {
+      "total": 2660,
+      "matched": 214
+    },
+    "Jamaica": {
+      "total": 2617,
+      "matched": 197
+    },
+    "Cape of Good Hope": {
+      "total": 2522,
+      "matched": 109
+    },
+    "British Guiana": {
+      "total": 2364,
+      "matched": 151
+    },
+    "Kenya": {
+      "total": 2153,
+      "matched": 400
+    },
+    "Leeward Islands": {
+      "total": 1894,
+      "matched": 46
+    },
+    "Sierra Leone": {
+      "total": 1827,
+      "matched": 306
+    },
+    "Australia": {
+      "total": 1797,
+      "matched": 1
+    },
+    "Trinidad and Tobago": {
+      "total": 1796,
+      "matched": 8
+    },
+    "Hong Kong": {
+      "total": 1688,
+      "matched": 423
+    },
+    "Uganda": {
+      "total": 1574,
+      "matched": 388
+    },
+    "Malta": {
+      "total": 1536,
+      "matched": 123
+    },
+    "Straits Settlements": {
+      "total": 1487,
+      "matched": 170
+    },
+    "Fiji": {
+      "total": 1473,
+      "matched": 213
+    },
+    "South Australia": {
+      "total": 1288,
+      "matched": 29
+    },
+    "Windward Islands": {
+      "total": 1198,
+      "matched": 15
+    },
+    "Barbados": {
+      "total": 1185,
+      "matched": 155
+    },
+    "Trinidad": {
+      "total": 1138,
+      "matched": 91
+    },
+    "Nigeria": {
+      "total": 1107,
+      "matched": 191
+    },
+    "New South Wales": {
+      "total": 991,
+      "matched": 39
+    },
+    "Nyasaland": {
+      "total": 958,
+      "matched": 198
+    },
+    "Northern Rhodesia": {
+      "total": 953,
+      "matched": 234
+    }
+  }
+}

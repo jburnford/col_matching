@@ -1,0 +1,35 @@
+{
+ "case_id": "case_caron_j-p-r-a_b1843",
+ "persons": [
+  {
+   "bio_id": "caron_j-p-r-a_b1843",
+   "stint_ids": [
+    "Caron, Adolphe___Canada___1883",
+    "Caron, J. P. R. A___Canada___1883"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Two stints are involved; the 'Adolphe' rendering is a single printed initial 'A.'. But the entry is Sir J. P. R. A. Caron (Adolphe-Philippe Caron), Canadian Minister of Militia and Defence, K.C.M.G. (1885) — both stints carry that exact office, the K.C.M.G., and Canada across overlapping years. They are one person under two name renderings; a distinct same-surname Canadian militia minister with the K.C.M.G. is not credible.",
+   "evidence_cited": [
+    {
+     "stint_id": "Caron, J. P. R. A___Canada___1883",
+     "year": 1883,
+     "fact": "Minister of Militia and Defence"
+    },
+    {
+     "stint_id": "Caron, Adolphe___Canada___1883",
+     "year": 1888,
+     "fact": "Minister of Militia"
+    },
+    {
+     "stint_id": "Caron, Adolphe___Canada___1883",
+     "year": 1886,
+     "fact": "K.C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice, hand-adjudicated (Claude Code, in-session)"
+}

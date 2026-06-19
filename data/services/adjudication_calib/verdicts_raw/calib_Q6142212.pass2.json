@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6142212",
+  "persons": [
+    {
+      "bio_id": "longden_james-r_e1844",
+      "stint_ids": ["Longden, James Robert___Ceylon___1878"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the biography abbreviates the middle name to 'R.' while the stint prints 'Robert', no birth year is printed (age gate unchecked), and 8 Longdens exist in the staff lists — so a different James Robert Longden could in theory be the Ceylon governor while the bio's 'James R.' is, say, a James Richard. This fails: the biography explicitly records 'governor of Ceylon, 1877 to 1883', the precise singular post and span of the stint (listed 1878-1883); the stint rows carry K.C.M.G., which the biography dates to 1876 — already held at the stint's 1878 start, exactly as printed; and 'Robert' is the natural expansion of 'R.' with no competing James R. Longden anywhere in the case. Governor of Ceylon is one office held by one person; the bio's eight-step career ladder (Falklands 1844 through Trinidad 1870 and British Guiana 1874) culminates in this governorship. The G.C.M.G. (1883) not appearing in the 1878-80 rows is correct chronology, not a discrepancy.",
+      "evidence_cited": [
+        {"stint_id": "Longden, James Robert___Ceylon___1878", "year": 1878, "fact": "Governor, &c."},
+        {"stint_id": "Longden, James Robert___Ceylon___1878", "year": 1878, "fact": "Sir James Robert Longden"},
+        {"stint_id": "Longden, James Robert___Ceylon___1878", "year": 1878, "fact": "K.C.M.G."}
+      ],
+      "would_overturn": "Evidence that the biography's 'James R.' stands for a name other than Robert, together with a record of a distinct James Robert Longden governing Ceylon 1878-1883 — i.e., two same-named knights in the same singular post, which nothing in the corpus supports."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Exact tenure agreement (bio: 'governor of Ceylon, 1877 to 1883'; stint listed 1878-1883), K.C.M.G. held at stint start per the bio's 1876 award date, full-forename consistency, and a singular office. The absence of G.C.M.G. in the staff-list rows matches its 1883 award year."
+}

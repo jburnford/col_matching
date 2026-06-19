@@ -1,0 +1,26 @@
+{
+  "case_id": "case_abbott_arthur-moore_e1871",
+  "persons": [
+    {
+      "bio_id": "abbott_arthur-moore_e1871",
+      "stint_ids": ["Abbott, A. M___British Guiana___1878"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 38 Abbotts appear in the staff lists, 'Clerk' is among the most generic junior titles in the corpus, and the place_inherited check flags that most of the bio's placed events inherit British Guiana from an earlier clause rather than stating it directly — so a different A. M. Abbott (e.g. a son or relative) clerking in British Guiana is conceivable. This fails for three reasons taken together. First, the match is not on the generic title but on a specific dated post: the bio records '3rd clk., imigrn. dep., Oct., 1876' and the staff list shows A. M. Abbott as Third Clerk, Immigration Department in 1878-1879 — exact department, exact rank ordinal, immediately following the appointment date. Second, the career shapes move in lockstep: the bio's 'stipendiary magistrate's clerk, Mar., 1879' corresponds to the stint's switch from Immigration Department to Clerk, Judicial Establishment by 1880, and the bio's later magistracy-adjacent posts (chief clerk to police magistrate and sheriff, acting police magistrate, acting stipendiary magistrate) keep him inside the judicial establishment exactly where the staff list keeps listing him through 1900. Third, both initials agree (A. M.), and the stint is a single continuous British Guiana listing with no rival biography in the case (the other three stints are two women and a 1960s judge). A father/son pair sharing 'A. M.' in the same department in the same years would also have produced two staff-list lines, which we do not see.",
+      "evidence_cited": [
+        {"stint_id": "Abbott, A. M___British Guiana___1878", "year": 1878, "fact": "3rd clerk, immigration department, Oct., 1876"},
+        {"stint_id": "Abbott, A. M___British Guiana___1878", "year": 1878, "fact": "Third Clerk | Immigration Department"},
+        {"stint_id": "Abbott, A. M___British Guiana___1878", "year": 1880, "fact": "stipendiary magistrate's clerk, Mar., 1879"},
+        {"stint_id": "Abbott, A. M___British Guiana___1878", "year": 1880, "fact": "Clerk | Judicial Establishment"},
+        {"stint_id": "Abbott, A. M___British Guiana___1878", "year": 1878, "fact": "bio ['A', 'M'] ~ stint ['A', 'M']"}
+      ],
+      "would_overturn": "Evidence of a second A. M. Abbott in British Guiana in the same period (e.g. a separate staff-list line or a second biography with these initials), or a record showing Arthur Moore Abbott left the colonial service before 1878, or that the Judicial Establishment clerk after 1880 carried a different forename when spelled out in any edition."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Abbott, Maria___St Vincent___1896", "reason": "Female ('Mrs. Maria Abbott', Matron, Female Prison) in St Vincent; the biography is a man (Arthur Moore) whose entire recorded career is in British Guiana. No dimension agrees beyond surname; also gate-compatible with a biography outside this case."},
+    {"stint_id": "Abbott, Miss___Leeward Islands___1917", "reason": "Female ('Miss Abbott') in the Leeward Islands, 1917-1918; the biography is a man whose career is in British Guiana and whose last edition appearance is 1899. No agreeing dimension; also gate-compatible with a biography outside this case."},
+    {"stint_id": "Abbott, Myles___Bermuda___1962", "reason": "Forename Myles (initials M. J.), not Arthur Moore; Chief Justice of Bermuda 1962-1966. A man clerking in 1871 would be roughly 110 years old in 1962 — chronologically impossible. Belongs to a different person (other gate-compatible biographies exist outside this case)."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The edition_cooccurrence FAIL for the British Guiana stint appears to be a mechanical artifact: the stint is in fact listed in editions 1888, 1889, 1894, 1896, 1898 and 1899, the exact editions in which the biography appears. The two bio versions are the same person (same career, one re-phrased); not a duplicate-bio situation."
+}

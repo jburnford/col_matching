@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0053",
+  "persons": [
+    {
+      "bio_id": "dutton_thomas-edward_b1877",
+      "stint_ids": ["Dutton, T. E___Ceylon___1915"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: a same-name relative (e.g. a son or brother also 'T. E. Dutton') serving in the Ceylon Railway Department, or the staff-list entry being a successor who inherited the post. This fails because the match is not on a single office but on a three-stage career trajectory that tracks the biography's dated transitions precisely: the bio says traffic supt. 1913 with 'designation altered to traffic man., 1916' and the staff list shows 'Traffic Superintendent' in 1915 flipping to 'Traffic Manager' by 1917; the bio says gen. man. July 1923 and the staff list shows 'General Manager' from 1925 onward. A successor or relative would not replicate all three dated transitions under the same initials in the same department. The 21 same-surname officials in the corpus are screened out by the specific T.E. initials plus this exact progression.",
+      "evidence_cited": [
+        {"stint_id": "Dutton, T. E___Ceylon___1915", "year": 1915, "fact": "Traffic Superintendent"},
+        {"stint_id": "Dutton, T. E___Ceylon___1915", "year": 1917, "fact": "Traffic Manager"},
+        {"stint_id": "Dutton, T. E___Ceylon___1915", "year": 1925, "fact": "General Manager"}
+      ],
+      "would_overturn": "Evidence of a second T. E. Dutton in the Ceylon Railway Department in the same period (e.g. two distinct staff-list lines), or a record showing Thomas Edward Dutton left Ceylon before 1925 while the staff-list line continued, or a death/retirement notice before 1931 contradicting the listing run."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. The bio's 'traffic supt., Ceylon, 2nd Oct., 1913; designation altered to traffic man., 1916; gen. man., Ceylon Govt. Rlys., July, 1923' is mirrored step-for-step in the staff-list records (1915 supt, 1917-1923 manager, 1925-1931 general manager). Initials, colony, department, dates, and career shape all agree; no counter-hypothesis survives."
+}

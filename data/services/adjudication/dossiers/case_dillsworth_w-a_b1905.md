@@ -1,0 +1,71 @@
+<!-- {"case_id": "case_dillsworth_w-a_b1905", "bio_ids": ["dillsworth_w-a_b1905"], "stint_ids": ["Dillsworth, W. A___Sierra Leone___1948"]} -->
+# Dossier case_dillsworth_w-a_b1905
+
+## Case context
+
+- 1 biography(ies) and 1 candidate stint(s) are entangled in this case.
+- Corpus context: 1 official(s) with this surname in the graph's staff lists; 1 biography(ies) with this surname in the printed biographical sections. The commoner the surname, the weaker any name-based inference.
+
+## Biography `dillsworth_w-a_b1905`
+
+- Printed name: **DILLSWORTH, W. A.**
+- Birth year: 1905 (attested in editions [1956, 1957])
+- Appears in editions: [1956, 1957]
+
+### Verbatim printed entry text (OCR)
+
+**Version `col1956-L20833.v` — printed in editions [1956, 1957]:**
+
+> DILLSWORTH, W. A.—b. 1905; ed. St. Edward's Secondary Sch., S.L.; cler. serv., S.L., 1927; asst. col. sec., 1942; secon. town clk., Freetown city council, 1946 and 1952-55.
+
+### Compiled career timeline
+
+| # | years | position | place | editions |
+|---|-------|----------|-------|----------|
+| 0 | 1927–1927 | cler. serv. | Sierra Leone | [1956, 1957] |
+| 1 | 1942–1942 | asst. col. sec. | — | [1956, 1957] |
+| 2 | 1946–1955 | secon. town clk., Freetown city council | — | [1956, 1957] |
+
+## Candidate stint `Dillsworth, W. A___Sierra Leone___1948`
+
+- Staff-list name: **Dillsworth, W. A** | colony: **Sierra Leone** | listed 1948–1951 | editions [1948, 1949, 1950, 1951]
+
+### Year-by-year staff-list records
+
+| year | name as printed | position | department | honours | rank |
+|------|-----------------|----------|------------|---------|------|
+| 1948 | W. A. Dillsworth | Clerk | Legislative Council | — | — |
+| 1949 | W. A. Dillsworth | Assistant Colonial Secretary | Colonial Secretary’s Office | — | — |
+| 1950 | W. A. Dillsworth | Assistant Colonial Secretary | Colonial Secretary's Office | — | — |
+| 1951 | W. A. Dillsworth | Assistant Colonial Secretary | Colonial Secretary’s Office | — | — |
+
+### Deterministic checks: `dillsworth_w-a_b1905` vs `Dillsworth, W. A___Sierra Leone___1948`
+
+- [PASS] surname_gate: bio 'DILLSWORTH' vs stint 'Dillsworth, W. A' (exact)
+- [PASS] initials: bio ['W', 'A'] ~ stint ['W', 'A']
+- [PASS] age_gate: stint starts 1948, birth 1905 (age 43)
+- [PASS] colony: 1 placed event(s) resolve to 'Sierra Leone'
+- [FAIL] tenure_overlap: no colony-agreeing tenure overlaps stint years 1948-1951
+- [FAIL] position_sim: no overlapping placed event to compare
+- [FAIL] honour: no shared honour
+- [not met] edition_cooccurrence (strict corroboration bonus — same edition-year with colony-agreeing position match; absence is normal even for true matches and is NOT evidence against): no agreeing edition-years
+- [FAIL] place_inherited: no supporting events
+
+## Adjudication constraints (binding)
+
+- The prime directive is NO FALSE MERGES. A missed link is recoverable; a
+  wrong one silently corrupts the historical record. When in doubt, leave
+  the stint unassigned.
+- Surname identity is NOT evidence: every candidate here already shares the
+  surname (it is the blocking key). Only position, place, dates, honours,
+  initials/forenames, and edition co-occurrence count.
+- Single-initial biographies (e.g. "J. Lewis") must never be merged on
+  shared-stint or tenure-overlap evidence alone; they need a strong
+  independent dimension (specific position match, shared honour, or
+  multi-edition co-occurrence).
+- A stint belongs to AT MOST one biography. If two biographies in this case
+  could plausibly hold the same stint, assign it to neither.
+- Respect hard chronology: nobody serves before age ~15 or after death.
+- Generic junior titles (clerk, cadet, assistant) recur constantly; a title
+  match alone on a common office is weak evidence.
+

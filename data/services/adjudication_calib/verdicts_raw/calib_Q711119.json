@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_Q711119",
+  "persons": [
+    {
+      "bio_id": "richards_arthur-frederick_b1885",
+      "stint_ids": [
+        "Richards, A. F___North Borneo___1933",
+        "Richards, Arthur F___Jamaica___1940"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 'Richards' is extremely common (86 officials, 38 biographies), and the North Borneo stint is nominally listed 1933-1948 -- years when the bio subject was demonstrably governing Gambia, Fiji and Jamaica -- so the North Borneo listing could belong to a DIFFERENT A. F. Richards who succeeded him there. This fails. (1) For North Borneo, the only substantive rows are 1933 ('Governor', C.M.G.) and a positionless 1936 roster row; the bio holds 'gov', N. Borneo, Mar., 1930' until 'gov', and commdr.-in-ch., Gambia, Nov., 1933', so the 1933 edition correctly catches the tail of his tenure, and the C.M.G. matches the bio's 'C.M.G. (1933)' to the year. Crucially, the 1936 row STILL shows C.M.G. although a serving governor named A. F. Richards in 1936 would have been a different man with his own honours -- the frozen honour shows this is a stale carry-forward of the same departed governor, not a successor (North Borneo's lists carried former governors in a 'Governors' department). (2) For Jamaica, the 1940 row's distinctive title 'Captain-General and Governor-in-Chief' matches the bio's 'capt.-gen. and gov'-in-ch., Jamaica, 1938' (position_sim 72, PASS), the staff list's K.C.M.G. matches the bio's 'K.C.M.G. (1935)', and the name is spelled out 'Sir Arthur F. Richards'. A second Sir Arthur F. Richards, K.C.M.G., holding Jamaica in 1940 while the bio subject (appointed 1938) also held it is impossible -- the office is unique.",
+      "evidence_cited": [
+        {"stint_id": "Richards, A. F___North Borneo___1933", "year": 1933, "fact": "gov', N. Borneo, Mar., 1930"},
+        {"stint_id": "Richards, A. F___North Borneo___1933", "year": 1933, "fact": "C.M.G. (1933)"},
+        {"stint_id": "Richards, Arthur F___Jamaica___1940", "year": 1940, "fact": "capt.-gen. and gov'-in-ch., Jamaica, 1938"},
+        {"stint_id": "Richards, Arthur F___Jamaica___1940", "year": 1940, "fact": "K.C.M.G. (1935)"},
+        {"stint_id": "Richards, Arthur F___Jamaica___1940", "year": 1940, "fact": "Captain-General and Governor-in-Chief"}
+      ],
+      "would_overturn": "Evidence that North Borneo had a different serving Governor named A. F. Richards, C.M.G., in 1933, or that the Jamaica Captain-General listed in 1940 was a different Sir Arthur F. Richards; e.g. a second biography with these posts under another birth year."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The North Borneo stint's nominal range 1933-1948 overlaps the subject's later governorships; the 1936 (and presumably 1940/1948) North Borneo rows are stale roster carry-forwards -- the honour stays frozen at C.M.G. and the position field empties after 1933. The identity of the stint is anchored by the substantive 1933 Governor rows. Reviewers consolidating tenure dates should treat the post-1933 North Borneo listings as non-current."
+}

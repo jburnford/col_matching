@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q7183388",
+  "persons": [
+    {
+      "bio_id": "smylly_sie-philip-crampton_b1866",
+      "stint_ids": ["Smyly, P. C___Gold Coast___1912"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the surname only fuzzy-matches (SMYLLY/SMYLY/SMYLV across OCR versions), the deterministic honour check fails, and the stint runs to 1930 — could a second Smyly (a son, also 'P. C.') have succeeded to the Gold Coast bench partway through? The case fails: (1) the office is unique — there is one Chief Justice of the Gold Coast at a time — and the bio gives 'ch. just., Gold Coast, 1911', exactly preceding the 1912 first listing; (2) the initials P. C. match Philip Crampton; (3) the staff list styles him 'Sir P. C. Smyly' from 1912, matching the bio's knighthood 'KT. BACH.' (1905/06) — knights bachelor carry no post-nominals, which is precisely why the mechanical honour check finds 'no shared honour'; the 'Sir' is the honour agreement. (4) The listing is continuous 1912–1930 under one name and office with no break that would suggest a successor namesake, and the bio itself was still being printed in the 1930 edition with the same career. The surname spelling variants are OCR noise within the bio's own versions, not evidence of distinct people.",
+      "evidence_cited": [
+        {"stint_id": "Smyly, P. C___Gold Coast___1912", "year": 1912, "fact": "ch. just., Gold Coast, 1911"},
+        {"stint_id": "Smyly, P. C___Gold Coast___1912", "year": 1912, "fact": "Sir P. C. Smyly"},
+        {"stint_id": "Smyly, P. C___Gold Coast___1912", "year": 1930, "fact": "Chief Justice"}
+      ],
+      "would_overturn": "Evidence that the Gold Coast Chief Justiceship changed hands to a different Smyly during 1912–1930, or that the bio subject left the bench substantially before 1930 while a namesake continued under the same printed name."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique judicial office, appointment year (1911) immediately preceding first staff listing (1912), initials matching the full forenames, and the 'Sir' style matching a knight bachelor (which carries no post-nominal letters — the mechanical honour FAIL is expected, not contrary evidence). Surname variants are OCR artefacts present within the biography's own printings."
+}

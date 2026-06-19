@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_gemini_malta_0246",
+  "persons": [
+    {
+      "bio_id": "pace_l_b1897",
+      "stint_ids": ["Pace, L___Malta___1949", "Pace, L___Malta___1934"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case this is wrong: 'Pace' is an extremely common Maltese surname (20 officials with it in the staff lists), the biography carries a single initial only, and a different L. Pace could have held judicial registrarships. Why it fails: the bio names two highly specific offices with appointment years — 'registr., Gozo courts, 1932' and 'registr., courts of jud. police, Malta, 1941' — and the two assigned stints trace exactly that career. The 1934 stint is 'Registrar' in the Judicial Establishment, explicitly 'Registrar, Gozo' by 1939-40, and vanishes after 1940, precisely when the bio says he transferred to the courts of judicial police (1941). The 1949 stint then resumes as 'Registrar, Courts of Judicial Police' (position_sim 89) through 1957, co-occurring with the bio in editions 1955-1957. There is only one such registrarship at a time; for the counter-hypothesis to hold, a second L. Pace would have to hold the same singular post the bio claims for the same years, which the staff lists do not show. The single-initial trap is overcome by a specific, non-generic position match in both eras plus seamless career-shape continuity across the 1941 transition.",
+      "evidence_cited": [
+        {"stint_id": "Pace, L___Malta___1949", "year": 1949, "fact": "Registrar, Courts of Judicial Police"},
+        {"stint_id": "Pace, L___Malta___1949", "year": 1941, "fact": "registr., courts of jud. police, Malta, 1941"},
+        {"stint_id": "Pace, L___Malta___1934", "year": 1939, "fact": "Registrar, Gozo"},
+        {"stint_id": "Pace, L___Malta___1934", "year": 1932, "fact": "registr., Gozo courts, 1932"}
+      ],
+      "would_overturn": "A staff list or biography showing a second L. Pace holding the Gozo or Courts-of-Judicial-Police registrarship in 1934-1940 or 1949-1957, or evidence (e.g., a death notice or different birth year) that the Gozo registrar of the 1930s and the judicial-police registrar of the 1950s were different men."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Pace, L___Malta___1915", "reason": "Generic junior financial/clerical posts (Financial Assistant, Assistant Collector, Chief Clerk) in Customs, Treasury and Charitable Institutions, 1915-1925. The biography's printed career begins only in 1932 in the judicial line and mentions no customs or treasury service. Age 18 in 1915 is merely possible, not evidence. With 20 Pace officials in the corpus and a single-initial bio, no specific dimension (position, honour, edition co-occurrence) links this stint; assigning it would rest on surname + initial alone."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The 1941-1948 gap between the two assigned stints coincides with the bio's stated 1941 transfer; wartime edition coverage is sparse in that window. The 1915 customs stint may belong to an older relative or unrelated namesake."
+}

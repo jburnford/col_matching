@@ -1,0 +1,23 @@
+{
+  "case_id": "calib_gemini_ceylon_0006",
+  "persons": [
+    {
+      "bio_id": "booth_leonard-wm_b1856",
+      "stint_ids": ["Booth, L. W___Ceylon___1879", "Booth, L. W___Ceylon___1907"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-hypothesis: with 28 Booths in the staff lists, the two stints could belong to two different L. W. Booths, or one of them to a relative of Leonard Wm. Booth — e.g. a son entering service around 1907 just as the father reached senior rank. Against the 1879 stint this fails because the trajectory matches the biography at named-place precision, not just title level: Writer in the Colonial Secretary's Office 1879-80 (bio: writer 1878), Police Magistrate 1883-86 (bio: pol. mag., Avissawella, 1880), Office Assistant 'Province of UVA' 1888 (bio: office asst. to govt. agt., Uva, 1886), and Government Agent 'Province of Sabaragamuwa' 1900 (bio: govt. agt. Sabaragamuwa, June, 1899). Against the 1907 stint the son-hypothesis fails on rank shape: it opens at Principal Collector, Customs Department — a senior post no new entrant holds — exactly matching the bio's 'prin. collr. of customs, May, 1906', then runs Government Agent 1909-1912 matching the bio's unbroken govt.-agent/acting-col.-sec. run, and terminates in 1912, consistent with the bio's retirement Jan. 1914. The honour check fails only because the C.M.G. came in 1913, after both stints' last honour-bearing rows; that is expected, not contrary. The two stints are chronologically disjoint (1879-1900, 1907-1912) so assigning both creates no internal conflict; the 1900-1907 gap is covered by the bio's continuous Ceylon postings, indicating a staff-list chain split rather than two people.",
+      "evidence_cited": [
+        {"stint_id": "Booth, L. W___Ceylon___1879", "year": 1879, "fact": "Writer, Ceylon Service, 1878"},
+        {"stint_id": "Booth, L. W___Ceylon___1879", "year": 1888, "fact": "office asst. to govt. agt., Uva, 1886"},
+        {"stint_id": "Booth, L. W___Ceylon___1879", "year": 1900, "fact": "govt. agt. Sabaragamuwa, June, 1899"},
+        {"stint_id": "Booth, L. W___Ceylon___1907", "year": 1907, "fact": "prin. collr. of customs, May, 1906"},
+        {"stint_id": "Booth, L. W___Ceylon___1907", "year": 1910, "fact": "govt. agt., Cent. Prov., Oct., 1910"},
+        {"stint_id": "Booth, L. W___Ceylon___1907", "year": 1909, "fact": "govt. agt., N.W. Prov., Dec., 1908"}
+      ],
+      "would_overturn": "Discovery of a second L. W. Booth in the Ceylon service active in the same period (e.g. separate staff-list rows in the same year, or a biography for a Booth son in Ceylon), or evidence that the 1907-1912 Government Agent rows refer to a different province sequence than Leonard Wm. Booth's attested postings."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints are one career chain split across a staff-list gap (1900-1907); the biography's continuous Ceylon postings (govt. agt. N.C. Province 1900, dist. judge Batticaloa 1905, prin. collr. of customs 1906) bridge the gap exactly. Honour check FAILs are an artifact of the C.M.G. being awarded in 1913, at the very end of the second stint's coverage."
+}

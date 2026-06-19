@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_gemini_jamaica_0164",
+  "persons": [
+    {
+      "bio_id": "musson_samuel-paynter_e1866",
+      "stint_ids": ["Musson, Samuel P___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: there are 6 Musson biographies and 5 Mussons in the staff lists, 'clerk' is the most generic of junior titles, and a son named for his father (another Samuel P. Musson) could have followed him into the Jamaica civil service. This fails: the staff list is not matching on a single generic title but on a 23-year career whose every transition matches the biography — 'Clerks, 1st Class' in the Colonial Secretary's Office in 1877-1883 (bio: '1st class clk. in col. sec.'s office, Oct., 1872'), promotion to 'Chief Clerk' appearing in the 1886 edition (bio: 'ch. clk., 1884'), and 'Public Treasurer' / 'Island Treasurer' from 1898 (bio: 'treas., Jamaica, 1896'), with the Legislative Council row matching the bio's 1897 nomination as member of the legislative council. A father/son pair cannot occupy this single continuous promotion ladder in one office; the staff lists show one S. P. Musson, not two. The stint name 'Samuel P' agrees with the full printed forename, not just initials. Five edition-years co-occur with position agreement.",
+      "evidence_cited": [
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1877, "fact": "Clerks, 1st Class"},
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1872, "fact": "1st class clk. in col. sec.'s office, Oct., 1872"},
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1886, "fact": "Chief Clerk"},
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1898, "fact": "Public Treasurer"},
+        {"stint_id": "Musson, Samuel P___Jamaica___1877", "year": 1896, "fact": "treas., Jamaica, 1896"}
+      ],
+      "would_overturn": "Evidence of two S. P. Mussons in the Jamaica Colonial Secretary's Office or Treasury in 1877-1900 (e.g. records distinguishing a senior and junior Samuel P. Musson, or a different forename behind the Treasury rows)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The honour check fails only because neither side prints an honour. The bio's promotion dates slightly precede their first staff-list appearance (chief clerk 1884 vs first listed 1886; treasurer 1896 vs first listed 1898), consistent with edition lag. The 1888 bio version's '1867' clerk date is an OCR variant of 1866."
+}

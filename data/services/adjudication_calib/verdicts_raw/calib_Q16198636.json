@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q16198636",
+  "persons": [
+    {
+      "bio_id": "douglas_john_e1862",
+      "stint_ids": ["Douglas, John___Ceylon___1879"],
+      "confidence": "certain",
+      "arguments_against": "Douglas is a very common surname (70 officials, 27 biographies) and the era has a well-known namesake: the Hon. John Douglas of Queensland, also a C.M.G., so the shared forename and even the shared honour are not by themselves conclusive. This counter-hypothesis fails on place and office: the biography's subject was appointed 'lieutenant-governor and colonial secretary, Ceylon, July, 1878' after a decade in Ceylon as 'auditor-general, Ceylon, Dec. 1869' with prior acting colonial-secretaryships there, and the stint is precisely the Colonial Secretary of Ceylon, listed from 1879 — the year after that appointment — carrying the C.M.G. (bio: 1875) on every row, and co-occurring with the bio in the 1883 edition at position similarity 100. The Queensland John Douglas never served in Ceylon; a colony has one Colonial Secretary at a time; and no other Ceylon John Douglas is in evidence. Office, colony, date, full forename, and dated honour all agree independently.",
+      "evidence_cited": [
+        {"stint_id": "Douglas, John___Ceylon___1879", "year": 1879, "fact": "lieutenant-governor and colonial secretary, Ceylon, July, 1878"},
+        {"stint_id": "Douglas, John___Ceylon___1879", "year": 1879, "fact": "John Douglas | Colonial Secretary | Colonial Secretary's Office | C.M.G."},
+        {"stint_id": "Douglas, John___Ceylon___1879", "year": 1883, "fact": "auditor-general, Ceylon, Dec. 1869"}
+      ],
+      "would_overturn": "Evidence that a different John Douglas, C.M.G., held the Ceylon colonial-secretaryship from 1879 (e.g. a record of the July 1878 appointee dying or transferring before 1879)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The single-initial warning is mechanical (full forename 'JOHN' is printed). The merge rests on the exact office-colony-date dovetail (appointed colonial secretary of Ceylon July 1878; stint begins 1879) plus the dated shared honour C.M.G. (1875) and 1883 same-edition co-occurrence — independent of the name."
+}

@@ -1,0 +1,74 @@
+<!-- {"case_id": "case_minns_a-e_b1912", "bio_ids": ["minns_a-e_b1912"], "stint_ids": ["Minns, A. E___Singapore___1949"]} -->
+# Dossier case_minns_a-e_b1912
+
+## Case context
+
+- 1 biography(ies) and 1 candidate stint(s) are entangled in this case.
+- Corpus context: 7 official(s) with this surname in the graph's staff lists; 3 biography(ies) with this surname in the printed biographical sections. The commoner the surname, the weaker any name-based inference.
+
+## Biography `minns_a-e_b1912`
+
+- Printed name: **MINNS, A. E**
+- Birth year: 1912 (attested in editions [1956, 1957, 1958, 1959, 1960, 1961])
+- Honours: C.P.M (1952), Q.P.M (1960)
+- Appears in editions: [1956, 1957, 1958, 1959, 1960, 1961]
+
+### Verbatim printed entry text (OCR)
+
+**Version `col1956-L23083.v` — printed in editions [1956, 1957, 1958, 1959, 1960, 1961]:**
+
+> MINNS, A. E., Q.P.M. (1960), C.P.M. (1952).—b. 1912; ed. Preston Tech. Sch.; prob. inspr., police, S.S., 1936; inspr., 1939; asst. supt., 1946; motor transport offr., 1946; o/c "marine" div., S'pore, 1950; dep. supt., police, 1953; supt., 1955; asst. comsnr., 1957-60.
+
+### Compiled career timeline
+
+| # | years | position | place | editions |
+|---|-------|----------|-------|----------|
+| 0 | 1936 | prob. inspr., police | Straits Settlements | [1956, 1957, 1958, 1959, 1960, 1961] |
+| 1 | 1939 | inspr | Straits Settlements *(inherited from previous clause)* | [1956, 1957, 1958, 1959, 1960, 1961] |
+| 2 | 1946 | asst. supt | Straits Settlements *(inherited from previous clause)* | [1956, 1957, 1958, 1959, 1960, 1961] |
+| 3 | 1950 | o/c "marine" div., S'pore | Straits Settlements *(inherited from previous clause)* | [1956, 1957, 1958, 1959, 1960, 1961] |
+| 4 | 1953 | dep. supt., police | Straits Settlements *(inherited from previous clause)* | [1956, 1957, 1958, 1959, 1960, 1961] |
+| 5 | 1955 | supt | Straits Settlements *(inherited from previous clause)* | [1956, 1957, 1958, 1959, 1960, 1961] |
+| 6 | 1957–1960 | asst. comsnr | Straits Settlements *(inherited from previous clause)* | [1956, 1957, 1958, 1959, 1960, 1961] |
+
+## Candidate stint `Minns, A. E___Singapore___1949`
+
+- Staff-list name: **Minns, A. E** | colony: **Singapore** | listed 1949–1951 | editions [1949, 1951]
+
+### Year-by-year staff-list records
+
+| year | name as printed | position | department | honours | rank |
+|------|-----------------|----------|------------|---------|------|
+| 1949 | A. E. Minns | Assistant Superintendents of Police | Police | — | — |
+| 1951 | A. E. Minns | Assistant Superintendents | Police | — | — |
+
+### Deterministic checks: `minns_a-e_b1912` vs `Minns, A. E___Singapore___1949`
+
+- [PASS] surname_gate: bio 'MINNS' vs stint 'Minns, A. E' (exact)
+- [PASS] initials: bio ['A', 'E'] ~ stint ['A', 'E']
+- [PASS] age_gate: stint starts 1949, birth 1912 (age 37)
+- [FAIL] colony: no placed event resolves to 'Singapore'
+- [FAIL] tenure_overlap: no colony-agreeing tenure overlaps stint years 1949-1951
+- [FAIL] position_sim: no overlapping placed event to compare
+- [FAIL] honour: no shared honour
+- [not met] edition_cooccurrence (strict corroboration bonus — same edition-year with colony-agreeing position match; absence is normal even for true matches and is NOT evidence against): no agreeing edition-years
+- [FAIL] place_inherited: no supporting events
+
+## Adjudication constraints (binding)
+
+- The prime directive is NO FALSE MERGES. A missed link is recoverable; a
+  wrong one silently corrupts the historical record. When in doubt, leave
+  the stint unassigned.
+- Surname identity is NOT evidence: every candidate here already shares the
+  surname (it is the blocking key). Only position, place, dates, honours,
+  initials/forenames, and edition co-occurrence count.
+- Single-initial biographies (e.g. "J. Lewis") must never be merged on
+  shared-stint or tenure-overlap evidence alone; they need a strong
+  independent dimension (specific position match, shared honour, or
+  multi-edition co-occurrence).
+- A stint belongs to AT MOST one biography. If two biographies in this case
+  could plausibly hold the same stint, assign it to neither.
+- Respect hard chronology: nobody serves before age ~15 or after death.
+- Generic junior titles (clerk, cadet, assistant) recur constantly; a title
+  match alone on a common office is weak evidence.
+

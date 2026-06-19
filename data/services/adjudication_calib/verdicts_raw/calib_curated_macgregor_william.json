@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_curated_macgregor_william",
+  "persons": [
+    {
+      "bio_id": "macgregor_william_b1847",
+      "stint_ids": [
+        "MacGregor, William___Newfoundland___1906",
+        "Macgregor, William___British New Guinea___1889"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the dossier flags this as a single-initial biography (33 MacGregors in the staff lists, 30 in the biographies), the Newfoundland stint fails tenure_overlap and position_sim, and 'William' is among the commonest Scottish forenames, so a namesake governor or administrator is conceivable. This fails. For Newfoundland: the biography prints 'gov., Newfoundland, 23rd July, 1904', and the 1906-09 staff list shows 'Sir William MacGregor' as 'Governor, Commander-in-Chief, and Vice-Admiral' — colony, office, and tenure all consistent (the tenure_overlap FAIL is because the bio prints only the 1904 appointment date, not a span). Decisively, the staff-list honours track his exact award history: 'K.C.M.G., C.B.' in 1906-07 flipping to 'G.C.M.G., C.B.' in 1908-09, matching K.C.M.G. (1889), C.B. (1897), G.C.M.G. (1907). Three shared honours with the correct transition year is not survivable by a namesake. For British New Guinea: the bio prints 'admstr., Br. New Guinea, 1888' and 'declared the Queen's sovereignty over Br. New Guinea, Sept., 1888'; the 1889 staff list shows 'Administrator' with C.M.G. (his C.M.G. is 1881), and the 1890 record reads 'Dr. (now Sir W.) Macgregor' — 'Dr.' matching his M.D. (1874) and 'now Sir' matching his K.C.M.G. (1889) precisely. Office + colony + date + honour + the doctor detail close out any namesake hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "MacGregor, William___Newfoundland___1906", "year": 1906, "fact": "gov., Newfoundland, 23rd July, 1904"},
+        {"stint_id": "MacGregor, William___Newfoundland___1906", "year": 1908, "fact": "G.C.M.G., C.B."},
+        {"stint_id": "Macgregor, William___British New Guinea___1889", "year": 1889, "fact": "admstr., Br. New Guinea, 1888"},
+        {"stint_id": "Macgregor, William___British New Guinea___1889", "year": 1890, "fact": "Dr. (now Sir W.) Macgregor"}
+      ],
+      "would_overturn": "Evidence of a second Sir William MacGregor holding the K.C.M.G./G.C.M.G./C.B. with the same award years, or primary records showing a different person was Newfoundland governor 1906-09 or British New Guinea administrator 1889-90."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-forename case, but both assignments rest on multiple independent dimensions beyond name: exact office+colony+date agreement and honour timelines that change in the correct years (G.C.M.G. appearing in the 1908 Newfoundland list after the 1907 award; 'now Sir' in the 1890 New Guinea list after the 1889 K.C.M.G.)."
+}

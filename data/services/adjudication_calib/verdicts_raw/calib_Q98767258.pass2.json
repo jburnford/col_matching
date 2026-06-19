@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q98767258",
+  "persons": [
+    {
+      "bio_id": "nunan_joseph-john_e1898",
+      "stint_ids": ["Nunan, J. J___British Guiana___1906"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: a second J. J. Nunan (a relative sharing both initials) in the small British Guiana legal establishment, or the staff list rolling two successive officeholders into one name. This fails because the correspondence is point-for-point across two decades: the biography reads 'solr.-gen., B. Guiana, 1906' and the staff list shows J. J. Nunan as Solicitor-General from 1906; the biography reads 'atty.-gen., B. Guiana, 1912' and the staff list switches him to Attorney-General from 1913 (the 1913 volume reflecting the 1912 promotion); the biography records a knighthood 'KT. BACH (1924)' and the staff-list name becomes 'Sir J. J. Nunan' exactly in 1924; the biography ends 'ret., 1925.' and the stint's last listing is 1925. Solicitor-General and Attorney-General of British Guiana are unique senior offices, not generic junior titles, and only 2 Nunans appear in the entire staff-list corpus. No same-name-relative hypothesis survives this many synchronized transitions.",
+      "evidence_cited": [
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1906, "fact": "solr.-gen., B. Guiana, 1906"},
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1913, "fact": "atty.-gen., B. Guiana, 1912"},
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1924, "fact": "KT. BACH (1924)"},
+        {"stint_id": "Nunan, J. J___British Guiana___1906", "year": 1925, "fact": "ret., 1925."}
+      ],
+      "would_overturn": "Documentation of two distinct J. J. Nunans serving in the British Guiana judicial establishment 1906-1925, or evidence that the biography's subject left British Guiana before 1925 while the staff listing continued for someone else."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic honour FAIL is an artifact: the staff list's honours column is empty, but the 'Sir' prefix appearing precisely in 1924-1925 corroborates the bio's 1924 knighthood. No birth year is printed, so the age gate is unchecked, but the 1898 bar call and 1906 senior appointment are chronologically coherent."
+}

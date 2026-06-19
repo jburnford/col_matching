@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_gemini_ceylon_0031",
+  "persons": [
+    {
+      "bio_id": "vanderstraaten_j-l_e1863",
+      "stint_ids": [
+        "Vanderstraaten, J. L___Ceylon___1878",
+        "Vanderstraaten, J. L___Ceylon___1898"
+      ],
+      "confidence": "probable",
+      "arguments_against": "Strongest counter-case: the bio carries bare initials ('J. L.'), Vanderstraaten is a Ceylon Burgher family name with 4 officials in the staff lists, and 'Colonial Surgeon' is a graded rank held by several officers at once, not a unique office — so either stint could belong to a same-initialled relative, and in particular the 1898-99 stint could be a son who reached Colonial Surgeon grade after the bio's man retired (his bio gives no retirement date, and entries persist after retirement). Against this: (1) the 1878-1894 stint's grade transition — 'Assistant Colonial Surgeon' through 1883, 'Colonial Surgeon' from 1886 — lands exactly on the bio's 'colonial surgeon, 1885' promotion, with the preceding assistant-grade years matching 'assistant colonial surgeon, second class, 1867; first class, 1868'; only one J. L. Vanderstraaten row exists per year, so if these rows were a relative, the bio's man (holding the identical grades in the identical years) would be inexplicably absent from his own department's list. (2) For 1898-99, the same printed name resumes in the same grade after a 4-year extraction gap, and the bio (still describing him as colonial surgeon and principal of the medical college) is reprinted in those same 1898 and 1899 editions; no junior-grade rows for any second 'J. L.' appear anywhere in the case to support a successor hypothesis. The relative-successor hypothesis for 1898-99 is not fully killable from this dossier alone, which is why the verdict stays at probable rather than certain.",
+      "evidence_cited": [
+        {"stint_id": "Vanderstraaten, J. L___Ceylon___1878", "year": 1883, "fact": "Assistant Colonial Surgeon"},
+        {"stint_id": "Vanderstraaten, J. L___Ceylon___1878", "year": 1883, "fact": "assistant colonial surgeon, second class, 1867"},
+        {"stint_id": "Vanderstraaten, J. L___Ceylon___1878", "year": 1886, "fact": "Colonial Surgeon"},
+        {"stint_id": "Vanderstraaten, J. L___Ceylon___1878", "year": 1886, "fact": "colonial surgeon, 1885"},
+        {"stint_id": "Vanderstraaten, J. L___Ceylon___1898", "year": 1898, "fact": "Colonial Surgeon"}
+      ],
+      "would_overturn": "Evidence that one of the other 3 Vanderstraatens in the staff lists also bore the initials 'J. L.' (e.g. a son in the medical department), a retirement or death date for the bio's man before 1898, or staff-list rows showing two simultaneous J. L. Vanderstraatens in any year."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The two stints are almost certainly one continuous career split by an 1895-1897 extraction gap (same printed name, same grade on both sides). The 1878-1894 stint on its own approaches certain via the 1885 promotion-timing match; the 1898-99 tail is the residual risk that holds the package at probable. If human review confirms no second J. L. Vanderstraaten, upgrade to certain."
+}

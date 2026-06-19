@@ -1,0 +1,16 @@
+{
+  "case_id": "case_bullock_g_e1919",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Bullock, G___Kenya___1920",
+      "reason": "The two claimant biographies are duplicates of the same person (see duplicate_bio_groups), so per instructions the contested stint is assigned to neither. The match itself is strong: bio says 'Asst. traffic manager, Uganda Railway, Apr., 1919' and the stint shows 'Assistant Traffic Manager' (Traffic) from 1920; the later bio version adds 'senr. asst. supt., transportation dept., Mar., 1927' matching the stint's 'Assistant Superintendents' (Transportation) in 1925-1927 — the Uganda Railway staff were listed under Kenya, explaining the deterministic colony FAIL. Recommend assigning to the merged biography once the duplicate pair is consolidated."
+    },
+    {
+      "stint_id": "Bullock, George Mackworth___Bermuda___1913",
+      "reason": "Career-shape incompatibility: this stint is 'Sir George Bullock', 'Governor and Commander-in-Chief' / 'General Commanding', rank 'Lieut.-General', honours 'K.C.B.', Bermuda 1913-1917. A knighted lieutenant-general governing Bermuda would not appear two years later as an assistant traffic manager on the Uganda Railway with no honours printed. No position, place, honour, or edition overlap with either biography; initial agreement ('G') is the namesake trap. Different person."
+    }
+  ],
+  "duplicate_bio_groups": [["bullock_g_e1919", "bullock_g_e1919-2"]],
+  "notes": "bullock_g_e1919 (editions 1920-1929) and bullock_g_e1919-2 (editions 1930-1937) print the identical opening clause ('Asst. traffic manager, Uganda Railway') with the same April 1919 date; the second is simply the updated entry after a March 1927 promotion, and the edition ranges are perfectly disjoint and consecutive. After merging the duplicate biographies, the Kenya 1920-1927 stint is an excellent candidate for the merged person: exact position agreement in 1920 (Assistant Traffic Manager) and again in 1927 (assistant superintendent, transportation), with the Kenya listing explained by the Uganda Railway being administered from Kenya. The Bermuda stint belongs to a different, well-documented individual (Lt.-Gen. Sir George Mackworth Bullock, K.C.B.)."
+}

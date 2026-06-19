@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q6135770",
+  "persons": [
+    {
+      "bio_id": "sadler_james-hayes_e1870",
+      "stint_ids": ["Sadler, James Hayes___Windward Islands___1913"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: 'James Hayes Sadler' is a name known to recur in the same family (father and son both served abroad), there are 12 Sadlers in the staff lists, the bio prints no birth year, and the position_sim check failed — so the 1913-14 Windward Islands governor could in principle be a younger relative. But the position_sim failure is purely an abbreviation gap ('gov. and comdr.-in-chief' vs the fully spelled-out title), and the bio explicitly records 'gov. and comdr.-in-chief, Windward Is., 6th May, 1909; assumed govt., 13th Oct., 1909' — the same unique office the stint records in 1913, a normal 4-5 year gubernatorial term. The staff list independently corroborates three more dimensions: the knighthood ('Sir'), both honours exactly (K.C.M.G., C.B., matching K.C.M.G. (1907) and C.B. (1902)), and the military rank Lt.-Col., matching the bio's 'Licut.-Col. Indian Staff Corps'. A relative would not share the K.C.M.G./C.B. pair, the rank, and the unique governorship the bio itself names. The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Sadler, James Hayes___Windward Islands___1913", "year": 1913, "fact": "gov. and comdr.-in-chief, Windward Is., 6th May, 1909"},
+        {"stint_id": "Sadler, James Hayes___Windward Islands___1913", "year": 1913, "fact": "Governor and Commander-in-Chief of the Windward Islands"},
+        {"stint_id": "Sadler, James Hayes___Windward Islands___1913", "year": 1913, "fact": "K.C.M.G., C.B."},
+        {"stint_id": "Sadler, James Hayes___Windward Islands___1913", "year": 1913, "fact": "Lt.-Col."}
+      ],
+      "would_overturn": "Evidence that the biography's subject left the Windward Islands governorship before 1913 and was succeeded by a same-name relative, or a record distinguishing two K.C.M.G. James Hayes Sadlers in the 1910s."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique office explicitly named in the bio with 1909 appointment; stint years 1913-14 fall within a normal term. Four independent agreeing dimensions: full fore- and middle-name, K.C.M.G. + C.B. honour pair, Lieutenant-Colonel rank, and the governorship itself."
+}

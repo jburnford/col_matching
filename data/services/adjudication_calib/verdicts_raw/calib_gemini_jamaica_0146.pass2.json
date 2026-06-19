@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_jamaica_0146",
+  "persons": [
+    {
+      "bio_id": "mackglashan_john-charles_e1858",
+      "stint_ids": ["Mackglashan, John C___Jamaica___1877"],
+      "confidence": "certain",
+      "arguments_against": "No printed birth year (age gate unchecked) and only a single co-occurring edition (1883), below the strict corroboration bar. This fails decisively: MACKGLASHAN is a unique surname in the corpus — exactly 1 official in all staff lists and 1 bio — so there is no same-name relative or successor to confuse. The forename matches in full (John Charles / John C.), and the senior office matches verbatim: bio 'Auditor-general, Jamaica, April, 1875' against the staff list's 'Auditor-General' (Audit Office) 1877-1886. The bio's other roles also appear: 'clerk to privy council' -> 'Clerk to the Privy Council' (1877), 'member of legislative council, April, 1878' -> Auditor General listed under Legislative Council (1880). With a unique surname and an exact senior-post match there is no live counter-hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Mackglashan, John C___Jamaica___1877", "year": 1877, "fact": "Auditor-General"},
+        {"stint_id": "Mackglashan, John C___Jamaica___1877", "year": 1877, "fact": "Clerk to the Privy Council"},
+        {"stint_id": "Mackglashan, John C___Jamaica___1877", "year": 1877, "fact": "Auditor-general, Jamaica, April, 1875"},
+        {"stint_id": "Mackglashan, John C___Jamaica___1877", "year": 1880, "fact": "Legislative Council"}
+      ],
+      "would_overturn": "Evidence of a second Mackglashan in the Jamaica service — but the corpus shows only one."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Unique surname in the corpus; full forename and the senior post Auditor-General Jamaica match exactly, with Privy Council and Legislative Council roles corroborating. Single edition co-occurrence is immaterial given uniqueness."
+}

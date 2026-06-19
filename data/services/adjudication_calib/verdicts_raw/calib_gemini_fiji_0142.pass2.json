@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_fiji_0142",
+  "persons": [
+    {
+      "bio_id": "gregg_b-l_b1905",
+      "stint_ids": ["Gregg, B. L___Fiji___1932"],
+      "confidence": "certain",
+      "arguments_against": "GREGG is a common surname (8 officials, 3 bios) and the bio gives only two initials B. L., so granularity is limited and a relative could in principle share them. This fails because the stint reconstructs the bio's entire dated career as a chain of unique senior legal posts, in lockstep. Bio: 'clk. to atty.-gen., 1930; leg. dftsmn., 1938; dep. registr.-gen. ..., 1938; registr.-gen., and registr. of titles, Fiji, 1950-63.' Stint: Clerk to Attorney-General from 1932, Deputy Registrar-General / Deputy Registrar of Supreme Court from 1939, then 'Registrar-General and Registrar of Titles' 1953-63 — matching verbatim. There are 9 co-occurring editions on the senior post. A relative would not replicate this exact succession of one-of-a-kind offices with matching dates.",
+      "evidence_cited": [
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1932, "fact": "Clerk to Attorney-General"},
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1939, "fact": "Deputy Registrar-General"},
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1953, "fact": "Registrar-General and Registrar of Titles"},
+        {"stint_id": "Gregg, B. L___Fiji___1932", "year": 1932, "fact": "clk. to atty.-gen., 1930; leg. dftsmn., 1938; dep. registr.-gen. and dep. registr., sup. ct., 1938; registr.-gen., and registr. of titles, Fiji, 1950-63"}
+      ],
+      "would_overturn": "Evidence of a second B. L. Gregg holding the Fiji registrar-general line, splitting this continuous career between two men."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single continuous Fiji legal/registry career matching the bio step by step with 9 co-occurring editions; the unique title 'Registrar-General and Registrar of Titles' is decisive despite the common surname and two-initial bio."
+}

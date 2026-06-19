@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0084",
+  "persons": [
+    {
+      "bio_id": "lascelles_alfred-george_b1857",
+      "stint_ids": ["Lascelles, Alfred G___Ceylon___1905"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-hypothesis is a same-name relative or successor: another A. G. Lascelles serving in Ceylon's Judicial Establishment, with the corpus holding 4 officials and 3 biographies under this surname. This fails because the stint is not a generic junior post but the unique offices of Attorney-General and Chief Justice of Ceylon, held in exactly the years the biography gives (atty.-gen. 1902/1906, chief just. 1911); only one person can hold the Chief Justiceship at a time. The stint's final year (1914) matches the biography's 'retired, 1914.' exactly, and the staff list adds 'Sir' in 1914, consistent with the 1913 knighthood (Kt., 1913). A second hypothesis — that the 'place_inherited' FAIL means the Ceylon location is unreliable — fails because the verbatim entry explicitly says 'atty.-gen. of Ceylon, 1902', so the colony is directly attested, not merely inherited.",
+      "evidence_cited": [
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1905, "fact": "atty.-gen. of Ceylon, 1902"},
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1911, "fact": "chief just., May, 1911"},
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1913, "fact": "Alfred G. Lascelles"},
+        {"stint_id": "Lascelles, Alfred G___Ceylon___1905", "year": 1914, "fact": "retired, 1914."}
+      ],
+      "would_overturn": "Evidence of a second Alfred G. Lascelles in Ceylon's judicial service in 1905-1914 (e.g. a distinct staff-list line or biography showing different birth year or career), or a record showing the Chief Justice of Ceylon 1911-1914 was a different person."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Multiple independent agreeing dimensions: both initials, unique senior offices (Attorney-General then Chief Justice of Ceylon) with matching years, knighthood timing (Kt 1913 -> 'Sir' in 1914 staff list), and stint terminating exactly at the biography's retirement year 1914."
+}

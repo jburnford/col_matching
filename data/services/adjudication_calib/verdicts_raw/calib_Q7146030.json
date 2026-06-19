@@ -1,0 +1,34 @@
+{
+ "case_id": "calib_Q7146030",
+ "persons": [
+  {
+   "bio_id": "buckley_p-a_e1891",
+   "stint_ids": [
+    "Buckley, P. A___New Zealand___1894"
+   ],
+   "confidence": "certain",
+   "arguments_against": "The colony/tenure gates failed because the bio events were never place-attached. But the entry explicitly names New Zealand and the exact office sequence (attorney-general & colonial secretary, then puisne judge 1896) that the stint records show year-for-year, plus a shared K.C.M.G. (1892). Coincidence across three independent dimensions is implausible.",
+   "evidence_cited": [
+    {
+     "stint_id": "Buckley, P. A___New Zealand___1894",
+     "year": 1896,
+     "fact": "Puisne Judge"
+    },
+    {
+     "stint_id": "Buckley, P. A___New Zealand___1894",
+     "year": 1894,
+     "fact": "Attorney-General"
+    },
+    {
+     "stint_id": "Buckley, P. A___New Zealand___1894",
+     "year": null,
+     "fact": "K.C.M.G"
+    }
+   ],
+   "would_overturn": "A second same-surname person in the same colony and years holding the same office, or a printed death/birth date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "pilot hand-adjudication (Claude Code, in-session)"
+}

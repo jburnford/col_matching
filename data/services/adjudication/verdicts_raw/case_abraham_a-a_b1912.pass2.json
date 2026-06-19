@@ -1,0 +1,26 @@
+{
+  "case_id": "case_abraham_a-a_b1912",
+  "persons": [
+    {
+      "bio_id": "abraham_a-a_b1912",
+      "stint_ids": ["Abraham, A. A___British Guiana___1954"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-hypothesis is the gate-compatible namesake abraham_arthur-alexander_b1883: a same-initials Abraham in the same colony, plausibly the father of this man (the 1954-55 staff lists print 'A. A. Abraham, Jnr.', which proves a senior A. A. Abraham existed). Could the stint belong to the elder? It fails on three grounds: (1) the 'Jnr.' suffix explicitly marks the stint-holder as the junior of the two, i.e. NOT the b. 1883 man; (2) the elder would be 71 in 1954 and 81 at the 1964 'Permanent Secretary' listing, implausible for a continuous active senior appointment ladder; (3) the b. 1912 biography enumerates this exact ladder verbatim - prin. asst. sec. 1953, ch. estab. offr. 1955, gov't. sec. and clk. ex. co. 1960, perm. sec. 1963 - and each appointment surfaces in the staff list the following edition (1954, 1956, 1961, 1964). A second worry is the deterministic FAILs on colony/position/edition, but reading the printed entry shows these are parser artifacts: the timeline mis-inherited 'Dominions Office' as the place, while the verbatim text says 'cler. asst., B. Guiana, 1929' and never leaves British Guiana. Four independent specific senior-position matches in correct order with consistent lag, same colony, matching initials, age 42 at stint start, and nine co-occurring editions (1956-1964) leave no live counter-hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1954, "fact": "A. A. Abraham, Jnr."},
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1954, "fact": "Principal Assistant Secretaries"},
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1956, "fact": "Chief Establishment Officer"},
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1961, "fact": "Governor's Secretary and Clerk to the Executive Council"},
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1964, "fact": "Permanent Secretary"},
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1956, "fact": "prin. asst. sec., 1953"},
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1956, "fact": "gov't. sec. and clk., ex. co., 1960"},
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1956, "fact": "perm. sec., 1963"},
+        {"stint_id": "Abraham, A. A___British Guiana___1954", "year": 1956, "fact": "cler. asst., B. Guiana, 1929"}
+      ],
+      "would_overturn": "Evidence that the b. 1883 Arthur Alexander Abraham (rather than a hypothetical third Abraham) was himself styled 'Jnr.' and held Principal Assistant Secretary / Chief Establishment Officer posts in British Guiana in 1954-1964; or a record showing the b. 1912 A. A. Abraham served outside British Guiana during 1954-1964; or staff lists showing two distinct A. A. Abrahams concurrently in the British Guiana Civil Establishment in 1956-1964."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Deterministic checks failed (colony, tenure_overlap, position_sim, edition_cooccurrence) only because the compiled timeline mis-inherited 'Dominions Office' as the place for events 1-6; the verbatim printed entry locates the entire career in B. Guiana. The 'Jnr.' suffix in 1954-55 implies the gate-compatible abraham_arthur-alexander_b1883 (noted as already linked elsewhere or filtered) is likely the father; the 1956 disappearance of the suffix is consistent with the elder's retirement or death."
+}

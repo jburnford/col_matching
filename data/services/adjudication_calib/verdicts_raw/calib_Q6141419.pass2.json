@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q6141419",
+  "persons": [
+    {
+      "bio_id": "prendergast_james_b1828",
+      "stint_ids": ["Prendergast, J___New Zealand___1877"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: the staff list prints only the initial 'J.' (the namesake trap), there are 7 Prendergasts in the staff lists and 4 biographies, and the honour check FAILED. Could a different J. Prendergast be the Chief Justice? No: Chief Justice of New Zealand is a singular office held by one person at a time; the biography states 'ch. just. of N.Z., 1875-1899', and the stint shows an unbroken Chief Justice listing 1877-1899 ending in exactly the bio's terminal year; the staff list switches from 'J. Prendergast' to 'Sir J. Prendergast' between the 1883 and 1886 editions, corroborating the biography's knighthood 'Knt. Bachel. (1881)' (staff lists commonly lag a year or two); and the deterministic pass found 4 colony-agreeing edition-years at position similarity 100. The honour FAIL is vacuous: the staff-list honours column is simply empty in every row, so there was nothing to match — while the 'Sir' prefix transition supplies the honour evidence the column lacks. A second J. Prendergast holding the same singular chief justiceship over the same 22-year span is not a coherent alternative.",
+      "evidence_cited": [
+        {"stint_id": "Prendergast, J___New Zealand___1877", "year": 1877, "fact": "Chief Justice"},
+        {"stint_id": "Prendergast, J___New Zealand___1877", "year": 1886, "fact": "Sir J. Prendergast"},
+        {"stint_id": "Prendergast, J___New Zealand___1877", "year": 1899, "fact": "Chief Justice"}
+      ],
+      "would_overturn": "Evidence that the Chief Justice of New Zealand 1877-1899 was a different J. Prendergast than the biography's subject — e.g. a gazette showing James Prendergast left the bench early and a same-initial kinsman succeeded him (no such succession is recorded anywhere in the dossier)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial stint, but the singular office (Chief Justice of New Zealand), the exact tenure agreement (bio 1875-1899; listings 1877-1899), the 'Sir' prefix appearing after the 1881 knighthood, and 4 agreeing edition-years jointly satisfy the strong-independent-dimension requirement. The empty honours column in the staff list explains the mechanical honour FAIL."
+}

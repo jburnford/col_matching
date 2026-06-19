@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_ceylon_0061",
+  "persons": [
+    {
+      "bio_id": "hartley_chas_e1896",
+      "stint_ids": ["Hartley, C___Ceylon___1899"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: single initial 'C' with 17 Hartley officials and 13 Hartley biographies - a very common surname, the textbook namesake trap. Why it fails: the position string 'Lecturer in English and Modern Languages, Royal College' matches near-verbatim (sim 97) and is a single, highly specific post; the bio's lecturer->principal arc at the same Royal College is reproduced in the stint (lecturer 1899-1900, principal from 1905), and 11 edition-years co-occur with the colony-agreeing position. Among many Hartleys only one held this exact Royal College lectureship and then its principalship.",
+      "evidence_cited": [
+        {"stint_id": "Hartley, C___Ceylon___1899", "year": 1896, "fact": "lecturer in English and modern languages, Royal Coll., Ceylon, 11th Dec., 1896"},
+        {"stint_id": "Hartley, C___Ceylon___1899", "year": 1899, "fact": "Lecturer in English and Modern Languages, Royal College"},
+        {"stint_id": "Hartley, C___Ceylon___1899", "year": 1903, "fact": "principal, Royal Coll., 23rd June, 1903"},
+        {"stint_id": "Hartley, C___Ceylon___1899", "year": 1905, "fact": "Principal of the Royal College"}
+      ],
+      "would_overturn": "Another C. Hartley biography also recorded as lecturer in English/modern languages at the Royal College in the same span."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Common surname and single initial, but the verbatim specific position match plus 11 edition cooccurrences clear the bar."
+}

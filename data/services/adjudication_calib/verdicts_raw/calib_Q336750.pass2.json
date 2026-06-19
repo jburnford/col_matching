@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q336750",
+  "persons": [
+    {
+      "bio_id": "robinson_hercules-g-r_e1846",
+      "stint_ids": ["Robinson, Hercules George Robert___New Zealand___1879"],
+      "confidence": "certain",
+      "arguments_against": "Robinson is one of the commonest surnames in the corpus (136 officials, 56 biographies), so the obligatory counter-hypothesis is a different Robinson as New Zealand governor in 1879, or a relative sharing the forename. It fails comprehensively: the biography reads 'governor, New Zealand, 1879' and the stint records the colony's unique 'Governor and Commander-in-Chief and Vice-Admiral' for 1879-1880; the staff-list name is the full distinctive triple forename 'Hercules George Robert Robinson' matching the bio's 'HERCULES, G.R.' initials exactly; both carry G.C.M.G. (bio: 1875, predating the stint); and the stint ends in 1880 precisely when the biography moves him to 'governor of the Cape of Good Hope... 1880'. The forename Hercules is rare, the office is unique, and the dates dovetail on both ends — no namesake hypothesis survives.",
+      "evidence_cited": [
+        {"stint_id": "Robinson, Hercules George Robert___New Zealand___1879", "year": 1879, "fact": "governor, New Zealand, 1879"},
+        {"stint_id": "Robinson, Hercules George Robert___New Zealand___1879", "year": 1879, "fact": "Hercules George Robert Robinson"},
+        {"stint_id": "Robinson, Hercules George Robert___New Zealand___1879", "year": 1880, "fact": "G.C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second Hercules G. R. Robinson, G.C.M.G., or a record showing a different person held the New Zealand governorship in 1879-1880."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "All deterministic checks pass. Stint window 1879-1880 matches the bio's New Zealand governorship sandwiched between New South Wales (1872) and the Cape (1880). Common surname fully neutralized by the rare triple forename and unique office."
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_gemini_fiji_0092",
+  "persons": [
+    {
+      "bio_id": "langford_john_e1874",
+      "stint_ids": ["Langford, John___Fiji___1879"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case it is wrong: the dossier flags single-initial and the surname is common (12 officials, 5 biographies); a stray '1883 J. Langford, Clerk' row even hints at another Langford. Why it fails: the forename 'John' is spelled out in both bio and staff list, the compound office 'Registrar of Supreme Court, and Curator of Intestate Estates' matches near-verbatim (sim 91) and is a single unique Fiji post, and the stint reproduces the bio's exact arc - chief clerk / clerk of the legislative council (1878/1883) then registrar of the supreme court and curator of intestate estates (1884/1886 onward) - all within Fiji, with 4 edition-years co-occurring. A competing John Langford holding both of these specific Fiji offices in sequence is implausible.",
+      "evidence_cited": [
+        {"stint_id": "Langford, John___Fiji___1879", "year": 1878, "fact": "ch. clk. and clk. of legis. coun., Jan., 1878"},
+        {"stint_id": "Langford, John___Fiji___1879", "year": 1883, "fact": "Chief Clerk and Clerk to the Legislative Council"},
+        {"stint_id": "Langford, John___Fiji___1879", "year": 1884, "fact": "registr., sup. ct., and curator of intestate estates, June, 1884"},
+        {"stint_id": "Langford, John___Fiji___1879", "year": 1886, "fact": "Registrar of Supreme Court, and Curator of Intestate Estates"}
+      ],
+      "would_overturn": "A second John Langford in Fiji also recorded as registrar of the supreme court / curator of intestate estates, or a date conflict in the chief-clerk -> registrar succession."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial flag mitigated by full forename 'John'; two unique compound Fiji offices match near-verbatim across the bio's documented career."
+}

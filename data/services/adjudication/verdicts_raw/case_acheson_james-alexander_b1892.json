@@ -1,0 +1,22 @@
+{
+  "case_id": "case_acheson_james-alexander_b1892",
+  "persons": [
+    {
+      "bio_id": "acheson_james-alexander_b1892",
+      "stint_ids": ["Acheson, J. A___Northern Rhodesia___1925"],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: the corpus holds 3 staff-list officials and 4 biographies with surname Acheson, so this stint could belong to a different Acheson — perhaps a relative who also served in Northern Rhodesia, with the J. A. initials being coincidental or an OCR artifact. There is also no shared honour and no agreeing edition-year between bio and stint, and position_sim mechanically FAILed. This fails for several reasons. First, the counter-hypothesis requires a second 'J. A. Acheson' who was also a Medical Officer in the same small colony over the same years — none of the other Achesons in the case provides such a candidate, and the dossier entangles only this one bio with this one stint. Second, the bio is a full two-initial, full-forename biography ('James Alexander'), not a single-initial trap, and the match is on specific position + place + dates, not on tenure overlap alone. Third, the position_sim FAIL is an abbreviation artifact: 'M.O.' is 'Medical Officer', and the bio's 'S.M.O., 1937' matches the stint's promotion to 'Senior Medical Officer' by 1939 — a career-shape agreement no coincidence explains. Fourth, the edition_cooccurrence FAIL is the expected pattern, not a contradiction: the staff-list run ends in 1939 and the biography appears from 1940 onward, i.e. the same career viewed in successive sections. The two-year offset between the bio's 'N. Rhod., 1923' and the stint's first listing in 1925 is consistent with appointment preceding first staff-list capture (no 1923/1924 editions appear in the stint's edition list).",
+      "evidence_cited": [
+        {"stint_id": "Acheson, J. A___Northern Rhodesia___1925", "year": 1925, "fact": "Medical Officer"},
+        {"stint_id": "Acheson, J. A___Northern Rhodesia___1925", "year": 1925, "fact": "M.O., N. Rhod., 1923"},
+        {"stint_id": "Acheson, J. A___Northern Rhodesia___1925", "year": 1939, "fact": "Senior Medical Officer"},
+        {"stint_id": "Acheson, J. A___Northern Rhodesia___1925", "year": 1937, "fact": "S.M.O., 1937"},
+        {"stint_id": "Acheson, J. A___Northern Rhodesia___1925", "year": 1925, "fact": "bio ['J', 'A'] ~ stint ['J', 'A']"}
+      ],
+      "would_overturn": "Evidence of a second J. A. Acheson serving in the Northern Rhodesia medical department in 1925-1939 (e.g. two J. A. Acheson rows in the same edition's staff list, or another Acheson biography naming Northern Rhodesia medical service in these years); or a record showing James Alexander Acheson (b. 1892) was elsewhere (a different colony's staff list) during 1925-1939."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case. Both deterministic FAILs are artifacts: position_sim failed only because 'M.O.' is an abbreviation of 'Medical Officer', and edition_cooccurrence failed because the staff-list run (1925-1939) ends exactly where the biography editions (1940-1951) begin, which is continuity, not disagreement. Independent agreeing dimensions: full initials J.A., colony Northern Rhodesia, specific position M.O./Medical Officer, and the S.M.O. promotion (bio 1937, staff list shows 'Senior Medical Officer' by 1939)."
+}

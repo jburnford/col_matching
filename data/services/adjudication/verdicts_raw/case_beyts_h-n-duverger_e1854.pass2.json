@@ -1,0 +1,29 @@
+{
+ "case_id": "case_beyts_h-n-duverger_e1854",
+ "persons": [
+  {
+   "bio_id": "beyts_h-n-duverger_e1854",
+   "stint_ids": [
+    "Beyts, H. N. D___Mauritius___1877"
+   ],
+   "confidence": "certain",
+   "arguments_against": "Place evidence is inherited across clauses (weak on its own). But initials H.N.D. are exact, the colony is Mauritius, the office (Receiver-General, with acting Colonial Secretary) matches the entry, and the C.M.G. is shared. Four independent dimensions agree.",
+   "evidence_cited": [
+    {
+     "stint_id": "Beyts, H. N. D___Mauritius___1877",
+     "year": 1878,
+     "fact": "Receiver-General"
+    },
+    {
+     "stint_id": "Beyts, H. N. D___Mauritius___1877",
+     "year": 1883,
+     "fact": "C.M.G."
+    }
+   ],
+   "would_overturn": "A second same-surname person serving the same colony in the same years and offices, or a printed birth/death date excluding these years."
+  }
+ ],
+ "unassigned_stints": [],
+ "duplicate_bio_groups": [],
+ "notes": "production high-value slice, hand-adjudicated (Claude Code, in-session)"
+}

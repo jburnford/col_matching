@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q2890810",
+  "persons": [
+    {
+      "bio_id": "chancellor_john-robert_e1896",
+      "stint_ids": ["Chancellor, J. R___Mauritius___1912"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: there are 7 officials and 3 biographies with the surname Chancellor in the corpus, so another J. R. Chancellor (e.g. a relative) could conceivably be the Mauritius governor. This fails because the office is unique and senior (only one Governor of Mauritius at a time), the biography explicitly records the same appointment with the exact date ('gov., Mauritius, 22nd July, 1911'), the stint years 1912-1915 fall squarely inside that tenure and end exactly when the bio records the move to Trinidad and Tobago in 1915, the military rank Major matches ('Major R.E.'), and three honours match independently (C.M.G., D.S.O., K.C.M.G.), including the staff list's honour upgrade from C.M.G. to K.C.M.G. between the 1913 and 1914 editions, agreeing with the bio's K.C.M.G. (1913). No realistic counter-hypothesis survives; the position_sim FAIL is a pure abbreviation artifact ('gov.' vs 'Governor and Commander-in-Chief').",
+      "evidence_cited": [
+        {"stint_id": "Chancellor, J. R___Mauritius___1912", "year": 1911, "fact": "gov., Mauritius, 22nd July, 1911"},
+        {"stint_id": "Chancellor, J. R___Mauritius___1912", "year": 1912, "fact": "Major J. R. Chancellor"},
+        {"stint_id": "Chancellor, J. R___Mauritius___1912", "year": 1914, "fact": "K.C.M.G., D.S.O."},
+        {"stint_id": "Chancellor, J. R___Mauritius___1912", "year": 1915, "fact": "gov., Trinidad and Tobago, 10th Dec., 1915"}
+      ],
+      "would_overturn": "Evidence of a second Major J. R. Chancellor holding C.M.G./D.S.O. honours in the same period, or a record showing the Governor of Mauritius 1912-1915 had different forenames than John Robert."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. Unique senior office (Governor of Mauritius) with exact date, rank, initials, and triple honour agreement, plus tenure end aligning with the documented 1915 transfer to Trinidad and Tobago. The deterministic position_sim failure is an abbreviation mismatch only."
+}

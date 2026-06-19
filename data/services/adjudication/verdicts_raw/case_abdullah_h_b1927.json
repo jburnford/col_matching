@@ -1,0 +1,12 @@
+{
+  "case_id": "case_abdullah_h_b1927",
+  "persons": [],
+  "unassigned_stints": [
+    {
+      "stint_id": "Abdullah, Hanafiah bin___Brunei___1953",
+      "reason": "The biography and the stint are incompatible on every substantive dimension. The biography is a medical career in Hong Kong ('med. offr., H.K., 1954' rising to 'senr. med. and health offr., 1963'); the stint is an audit post in Brunei ('Officer-in-Charge of Audit', Civil Establishment, 1953-1955). The stint years 1954-1955 overlap the bio's Hong Kong medical service starting 1954, so one person cannot plausibly hold both. Deterministic checks confirm: colony FAIL, tenure_overlap FAIL, position_sim FAIL, honour FAIL, edition_cooccurrence FAIL (stint editions 1953-1955 vs bio editions 1965-1966). The only agreements are surname (the blocking key, not evidence) and a single-initial match 'H' ~ 'Hanafiah' on a single-initial biography flagged for the namesake trap, with 9 officials sharing this surname in the staff lists. No strong independent dimension exists; leaving unassigned."
+    }
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "Single-bio, single-stint case resolved as no-match. The Brunei audit officer Hanafiah bin Abdullah (1953-1955) is almost certainly a different person from the Hong Kong medical officer H. Abdullah (b. 1927): different colony, different profession, simultaneous service in 1954-1955, and no edition co-occurrence. The initial 'H' matching 'Hanafiah' is the only positive signal beyond the surname and is exactly the namesake trap the constraints warn about."
+}

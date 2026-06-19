@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q107394016",
+  "persons": [
+    {
+      "bio_id": "somerhough_a-g-c_b1906",
+      "stint_ids": ["Somerhough, A. G. C___Northern Rhodesia___1956", "Somerhough, A. G___Kenya___1950"],
+      "confidence": "certain",
+      "arguments_against": "For the Northern Rhodesia stint there is no live counter-hypothesis: name with all three initials, unique senior office ('puisne judge, N. Rhod., 1954-60' vs Puisne Judge listings 1956-60), and the staff list itself prints his honours 'O.B.E., Q.C.' in 1958-59, matching the bio heading exactly. For the Kenya stint the strongest counter-case: the staff-list name drops the third initial ('A. G.' not 'A. G. C.'), Crown Counsel is a less senior post that colonies hold several of, and the bio says he became 'dep. publ. prosecutor, 1950' while the list still shows Crown Counsel in 1950-51 - so the listing could be a different Somerhough, e.g. a relative in the same legal department. But the surname is very rare (2 staff-list officials, 1 biography - and the two officials are plausibly these two stint keys themselves), the bio explicitly claims 'crown coun., Ken., 1949' immediately before the 1950-51 listings, and the counter-hypothesis requires a second A. G. Somerhough serving as Crown Counsel in the same small Kenya legal department at the same moment the bio's subject was also crown counsel there - while the staff list records only one. The title lag (Crown Counsel printed in 1950-51 despite the 1950 promotion) is ordinary edition lag. The counter-hypothesis fails.",
+      "evidence_cited": [
+        {"stint_id": "Somerhough, A. G. C___Northern Rhodesia___1956", "year": 1954, "fact": "puisne judge, N. Rhod., 1954–60"},
+        {"stint_id": "Somerhough, A. G. C___Northern Rhodesia___1956", "year": 1958, "fact": "O.B.E., Q.C."},
+        {"stint_id": "Somerhough, A. G___Kenya___1950", "year": 1949, "fact": "crown coun., Ken., 1949"},
+        {"stint_id": "Somerhough, A. G___Kenya___1950", "year": 1950, "fact": "Crown Counsel"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Somerhough in Kenyan or Rhodesian legal service with overlapping initials (e.g. a brother who was the Kenya Crown Counsel of 1950-51), or a record contradicting the bio's Kenya service dates."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Northern Rhodesia stint is as strong as this corpus gets: every deterministic check passes including shared honour (O.B.E.) and exact position similarity 100. The Kenya stint is corroborated by the bio's explicit 'crown coun., Ken., 1949' and the rarity of the surname; the missing third initial and the Crown-Counsel-vs-deputy-prosecutor lag are both routine staff-list artifacts. The two stints together reproduce the bio's Kenya-to-Northern-Rhodesia career arc."
+}

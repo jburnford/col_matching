@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_newfoundland_0342",
+  "persons": [
+    {
+      "bio_id": "halfyard_w-w_e1913",
+      "stint_ids": ["Halfyard, W. W___Newfoundland___1917"],
+      "confidence": "probable",
+      "arguments_against": "Two real concerns. (1) The 1917 staff-list row reads 'Member for Placentia' while the biography says 'Elected M.H.A., Fogo, Newfoundland, 1913' — a different district, which could indicate a second Halfyard politician or a row-misalignment/OCR error in the staff list. (2) The stint chain is internally contaminated: in 1921 it contains BOTH 'W. W. Halfyard, Minister of Posts and Telegraphs' AND 'W. Halfyard, 3rd Clerk' in the same year, and a 1927 'W. Halfyard, 2nd Clerk and Accountant'. Two people cannot hold those simultaneously; the single-initial clerk records almost certainly belong to a different W. Halfyard. Why the assignment still stands: the core identification is anchored on the department-head records — 'Colonial Secretary' in 1918 and 1919 matching the bio's 'col. sec., 1918' exactly on office, year, and colony, with both initials W. W. agreeing, plus edition co-occurrence in 1918 and 1919, and corpus context of only one official and one biography with this rare surname. The district discrepancy is outweighed because a sitting member can change districts between 1913 and 1917, and the ministerial offices are unique single-holder posts. The clerk contamination is a chain-construction artifact, not evidence against the bio-to-minister link.",
+      "evidence_cited": [
+        {"stint_id": "Halfyard, W. W___Newfoundland___1917", "year": 1918, "fact": "Hon. W. W. Halfyard | Colonial Secretary | Colonial Secretary's Department"},
+        {"stint_id": "Halfyard, W. W___Newfoundland___1917", "year": 1918, "fact": "Col. sec., Newfoundland, Jan., 1918"},
+        {"stint_id": "Halfyard, W. W___Newfoundland___1917", "year": 1919, "fact": "W. W. Halfyard | Colonial Secretary"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous W. W. Halfyard in Newfoundland politics (e.g. a separate biography or staff-list entry showing a different W. W. Halfyard as Colonial Secretary in 1918), or evidence that the 1918-1919 Colonial Secretary rows belong to someone else and the chain's name field is an OCR conflation."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Confidence held at 'probable' rather than 'certain' for two reasons the reviewer should check: (1) the stint chain appears contaminated — the 1921 list contains both 'W. W. Halfyard, Minister of Posts and Telegraphs' and 'W. Halfyard, 3rd Clerk' in the same year, and the 1927 'W. Halfyard, 2nd Clerk and Accountant' single-initial clerk records likely belong to a different person bundled into this chain upstream; (2) the 1917 row's 'Member for Placentia' conflicts with the bio's Fogo seat. The 1918-1919 Colonial Secretary records themselves are an effectively certain match to the biography."
+}

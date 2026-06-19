@@ -1,0 +1,26 @@
+{
+  "case_id": "calib_Q125387502",
+  "persons": [
+    {
+      "bio_id": "smith_allan_b1895",
+      "stint_ids": ["Smith, Allan Chalmers___Sierra Leone___1951", "Smith, Allan F___Bermuda___1957"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against the Sierra Leone stint: with 612 Smiths in the staff lists and 265 Smith biographies, another 'Allan Smith' could have been Chief Justice of Sierra Leone in 1951-54 while the bio man held the 1950 appointment briefly. This fails: Sierra Leone has exactly one Chief Justice at a time, the bio says 'ch. just., S.L., 1950', the stint begins the very next list year, and the knighthood is a fingerprint — the bio records Kt (1953) and the staff list switches from 'A. C. Smith' to 'Sir Allan Chalmers Smith' precisely in the 1953 edition. Strongest case against the Bermuda stint: 'Assistant Justice' could be a successor, and the cluster header carries a stray 'F' initial absent from the bio. This fails: the year-by-year records never print an 'F' — they read 'Allan Smith' then 'Sir Allan Smith' — the office and colony exactly match 'asst. justice, 1956' in the bio (a retiree post following 'retd., apptd. conservr.-gen., Berm., 1955'), Bermuda is his home colony (ed. Warwick Acad., Berm.), and the 'Sir' prefix again matches the 1953 knighthood. Two independent stints both carrying the knighthood signature and exact-office continuity rule out a namesake.",
+      "evidence_cited": [
+        {"stint_id": "Smith, Allan Chalmers___Sierra Leone___1951", "year": 1950, "fact": "ch. just., S.L., 1950"},
+        {"stint_id": "Smith, Allan Chalmers___Sierra Leone___1951", "year": 1953, "fact": "Sir Allan Chalmers Smith"},
+        {"stint_id": "Smith, Allan Chalmers___Sierra Leone___1951", "year": 1951, "fact": "Chief Justice"},
+        {"stint_id": "Smith, Allan F___Bermuda___1957", "year": 1956, "fact": "asst. justice, 1956"},
+        {"stint_id": "Smith, Allan F___Bermuda___1957", "year": 1958, "fact": "Sir Allan Smith"},
+        {"stint_id": "Smith, Allan F___Bermuda___1957", "year": 1957, "fact": "Assistant Justice"}
+      ],
+      "would_overturn": "A record of a different Allan (Chalmers) Smith knighted in 1953 serving in West African or Bermudian judiciary, or evidence that the Bermuda Assistant Justice 1957-65 was a distinct 'Allan F. Smith' with the F attested in print."
+    }
+  ],
+  "unassigned_stints": [
+    {"stint_id": "Smith, A. M. MacLeod___Sierra Leone___1958", "reason": "Different person. The bio man retired from Sierra Leone in 1955 ('retd., apptd. conservr.-gen., Berm., 1955') and was sitting as Assistant Justice in Bermuda 1957-65. This stint is a Financial Secretary (not judicial), carries C.M.G. (bio has Kt and M.C., never C.M.G.), and the middle names 'M. MacLeod' do not match 'Allan'."},
+    {"stint_id": "Smith, A. St. L___Gold Coast___1949", "reason": "Conflated cluster. The header name 'A. St. L' matches none of the year-by-year records, which mix at least three different officials: 'A. C. Smith' Puisne Judge (1949-50), 'A. Smith' Principal Agricultural Education Officer (1950), and 'A. H. Smith' Deputy Commissioner Income Tax (1951). The Puisne Judge rows alone plausibly belong to the bio man (puisne judge, Gold Coast, 1940), but assigning the stint as a unit would also merge the agricultural and income-tax officials into him — a false merge. Left unassigned pending cluster repair."}
+  ],
+  "duplicate_bio_groups": [],
+  "notes": "The Gold Coast stint should be split upstream: its 1949-50 'A. C. Smith / Puisne Judge / Judicial' rows are very likely this same Sir Allan (Chalmers) Smith immediately before his 1950 elevation to Chief Justice of Sierra Leone, but the cluster also contains an agricultural officer and an income-tax official under different initials."
+}

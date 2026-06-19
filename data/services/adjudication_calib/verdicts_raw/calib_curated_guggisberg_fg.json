@@ -1,0 +1,27 @@
+{
+  "case_id": "calib_curated_guggisberg_fg",
+  "persons": [
+    {
+      "bio_id": "guggisberg_frederick-gordon_b1869",
+      "stint_ids": [
+        "Guggisberg, F. Gordon___Gold Coast___1922",
+        "Guggisberg, F. Gordon___Southern Nigeria___1911",
+        "Guggisberg, F. Gordon___Togoland___1920"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the Togoland stint fails all deterministic colony/tenure/position checks because the biography never names Togoland, so one could posit a second F. G. Guggisberg governing Togoland in 1920-25 while this man governed the Gold Coast. This fails on multiple grounds. First, the surname is extremely rare (4 staff-list officials, 1 biography, and the staff-list name variants are all 'F. G./F. Gordon Guggisberg'). Second, the Togoland records carry the exact honour-and-rank fingerprint of this man at the right moments: 'C.M.G., D.S.O.' with rank 'Brigadier-General' in 1920-21, flipping to 'K.C.M.G., D.S.O.' by 1925 — precisely tracking his K.C.M.G. (1922) award, with C.M.G. (1908), D.S.O. (1918), and 'Brig.-Gen., 1917' all printed in the bio. Third, the British sphere of Togoland was administered concurrently with the Gold Coast by its governor, and the Togoland listing years (1920-25) sit wholly inside his Gold Coast governorship ('governor and commander in chief, Gold Coast, 24th Sept., 1919'); the Gold Coast staff list shows the identical man ('Brigadier-General F. G. Guggisberg, K.C.M.G., D.S.O., R.E.') as Governor in the same edition-years. For the Southern Nigeria stint, 'Director of Surveys', rank 'Major', C.M.G., 1911-13 matches 'dir. of surveys, S. Nigeria, 1910', 'Major, 1908', and C.M.G. (1908) on office, colony, date, rank, and honour simultaneously. No realistic counter-hypothesis survives for any of the three.",
+      "evidence_cited": [
+        {"stint_id": "Guggisberg, F. Gordon___Gold Coast___1922", "year": 1922, "fact": "governor and commander in chief, Gold Coast, 24th Sept., 1919"},
+        {"stint_id": "Guggisberg, F. Gordon___Gold Coast___1922", "year": 1922, "fact": "Brigadier-General F. G. Guggisberg, K.C.M.G., D.S.O., R.E."},
+        {"stint_id": "Guggisberg, F. Gordon___Southern Nigeria___1911", "year": 1911, "fact": "dir. of surveys, S. Nigeria, 1910"},
+        {"stint_id": "Guggisberg, F. Gordon___Southern Nigeria___1911", "year": 1911, "fact": "Major, 1908"},
+        {"stint_id": "Guggisberg, F. Gordon___Togoland___1920", "year": 1920, "fact": "K.C.M.G. (1922), C.M.G. (1908), D.S.O. (1918)"},
+        {"stint_id": "Guggisberg, F. Gordon___Togoland___1920", "year": 1925, "fact": "Brig.-Gen., 1917"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous Brigadier-General F. G. Guggisberg with the C.M.G./D.S.O./K.C.M.G., or a primary record showing British Togoland had a separate resident governor (not the Gold Coast governor) named Guggisberg in 1920-25."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The Togoland deterministic FAILs reflect only that the biography omits the concurrent Togoland administration that came with the Gold Coast governorship; the honour transition (C.M.G.+D.S.O. in 1920-21 to K.C.M.G.+D.S.O. by 1925) and the Brigadier-General rank pin it to this man."
+}

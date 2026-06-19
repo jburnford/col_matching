@@ -1,0 +1,25 @@
+{
+  "case_id": "calib_gemini_ceylon_0012",
+  "persons": [
+    {
+      "bio_id": "hellings_robert-bailey_b1863",
+      "stint_ids": [
+        "Hellings, R. B___Ceylon___1889",
+        "Hellings, R. B___Ceylon___1913"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The case notes 2 bios and 3 officials for the surname Hellings, so a same-surname relative (and 'cadet' is a generic title) is the worry. It fails because Hellings is a rare surname, the bio is the only one entangled with these stints, and both stints trace one continuous Ceylon career matching the bio by specific named posts. Stint 1 (1889-1910): cadet 1889 (bio 'cadet, Ceylon civ. ser., Dec., 1885'), Assistant Collector and Landing Surveyor in the Eastern Province 1890 (bio 'asst. collr., etc., customs, Trincomalee, Nov., 1888' -- Trincomalee is in the Eastern Province), Additional Commissioner of Requests and Police Magistrate (bio 'addl. pol. mag.... 1888' and the later Commissioner-of-Requests/judge posts at Colombo), then Assistant Government Agent 1906 and Government Agent 1907-10 (bio 'asst. gov't. agt., Matale, Nov., 1904; gov't. agt., Prov. of Sabangamuwa, Feb., 1906'). Stint 2 (1913-21): Collector / Government Agent of the Southern Province, matching the bio 'gov't. agt., S. Prov., May, 1912' exactly, and the bio editions run to 1921 alongside the stint. The tenure/position FAILs on stint 2 are mechanical (the bio's placed events are coded without province granularity); the printed Southern-Province agency is a direct match. No second R. B. Hellings competes for these posts.",
+      "evidence_cited": [
+        {"stint_id": "Hellings, R. B___Ceylon___1889", "year": 1889, "fact": "R. B. Hellings | Cadet"},
+        {"stint_id": "Hellings, R. B___Ceylon___1889", "year": 1890, "fact": "R. B. Hellings | Assistant Collector and Landing Surveyor | Eastern Province"},
+        {"stint_id": "Hellings, R. B___Ceylon___1889", "year": 1907, "fact": "R. B. Hellings | Government Agent"},
+        {"stint_id": "Hellings, R. B___Ceylon___1913", "year": 1913, "fact": "R. B. Hellings | Collector | Southern Province"},
+        {"stint_id": "Hellings, R. B___Ceylon___1913", "year": 1912, "fact": "gov't. agt., S. Prov., May, 1912"}
+      ],
+      "would_overturn": "Evidence of a second R. B. Hellings in the Ceylon service holding the Eastern-Province customs collectorship and the Southern-Province agency -- which the rare surname and single competing bio make implausible."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Robert Bailey Hellings, Ceylon civil servant. Rare surname; two stints are the early (1889-1910) and late (1913-21) segments of one continuous career. The Eastern-Province customs collectorship (Trincomalee) and the Southern-Province government agency match the bio by name. One stray 1890 'Master Attendant, Harbour Department' line co-occurs with the Eastern-Province collectorship within the 1889 stint and does not disturb the identification."
+}

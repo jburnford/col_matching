@@ -1,0 +1,24 @@
+{
+  "case_id": "calib_gemini_ceylon_0013",
+  "persons": [
+    {
+      "bio_id": "fowler_geo-merrick_e1874",
+      "stint_ids": [
+        "Fowler, G. M___Ceylon___1877"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Fowler is a common surname (36 officials, 21 bios) and the bio is two initials, so a same-initial Ceylon namesake is the live worry. It fails because the stint is one continuous 30-year Ceylon career whose specific, named postings track the bio clause-by-clause, not by generic title alone: Landing (and Tide) Surveyor in the Southern Province 1879-80 (bio 'landing survr., Galle, Feb., 1878' -- Galle is in the Southern Province, position_sim 84), Assistant Collector, Southern Province 1886 (bio 'asst. collr. customs, Galle, June, 1880'), Commissioner of Requests / Police Magistrate (bio 'pol. mag.' postings), Assistant Government Agent from 1888 (bio 'asst. gov't. agt., Matara, 1887' onward), Government Agent of the Southern Province in 1900 (bio 'gov't. agt., S. prov., Feb., 1900'), and C.M.G. appearing in 1906 (bio C.M.G. 1905). Six agreeing edition-years and a shared C.M.G. corroborate. A second G. M. Fowler shadowing this entire named sequence (Galle landing surveyor, Southern Province collector, Southern Province GA, C.M.G. 1905) is not credible.",
+      "evidence_cited": [
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1879, "fact": "G. M. Fowler | Landing and Tide Surveyor | Southern Province"},
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1878, "fact": "landing survr., Galle, Feb., 1878"},
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1900, "fact": "G. M. Fowler | Government Agent | Southern Province"},
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1900, "fact": "gov't. agt., S. prov., Feb., 1900"},
+        {"stint_id": "Fowler, G. M___Ceylon___1877", "year": 1906, "fact": "G. M. Fowler | Government Agent | Government Agencies | C.M.G."}
+      ],
+      "would_overturn": "Evidence of a second G. M. Fowler in the Ceylon service who was also a Galle/Southern Province landing surveyor and Southern Province Government Agent with C.M.G. -- a duplication of singular named posts the record does not support."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Geo. Merrick Fowler, Ceylon civil servant (C.M.G. 1905). Single continuous Ceylon career; the stint's named postings (Galle/Southern Province landing surveyor, Southern Province assistant collector, Southern Province Government Agent, C.M.G. 1906) match the bio clause-by-clause, with 6 agreeing edition-years."
+}

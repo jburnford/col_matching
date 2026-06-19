@@ -1,0 +1,22 @@
+{
+  "case_id": "calib_Q1300807",
+  "persons": [
+    {
+      "bio_id": "abrahams_sidney-solomon_b1885",
+      "stint_ids": ["Abrahams, S. S___Zanzibar___1917", "Abrahams, S. S___Zanzibar___1923"],
+      "confidence": "certain",
+      "arguments_against": "Against the 1923 stint: a successor Attorney-General with the same initials could have taken over. This fails immediately — the bio records 'atty.-gen., Zanzibar, June, 1922' and he held it until 'atty.-gen., Uganda, Jan., 1925'; the stint years 1923-1924 sit exactly inside that tenure, the office is single-occupant, and the bio later carries the '2nd cls. Order of Brilliant Star of Zanzibar, 1924'. Against the 1917 stint: 'town mag.' is not the verbatim same title as '3rd Magistrate' (position_sim scored only 36), so this could be a different junior magistrate, perhaps a relative. This fails on convergence: Abrahams is rare (10 officials in the whole corpus), the double initial 'S. S.' is distinctive, the stint sits in the Judicial and Legal Departments of Zanzibar exactly during the window the bio places him there (town magistrate from June 1915 until secondment to Mesopotamia Jan. 1920, plus 'sole edr., Zanzibar law rept., 1918-22'), and his bio appears in the very 1917-1919 editions that list the stint. 'Town magistrate' and '3rd Magistrate' are plausibly the same junior Zanzibar judicial post under different stylings; two simultaneous S. S. Abrahamses in Zanzibar's tiny judicial establishment is not a live hypothesis — the staff list shows only one.",
+      "evidence_cited": [
+        {"stint_id": "Abrahams, S. S___Zanzibar___1923", "year": 1922, "fact": "atty.-gen., Zanzibar, June, 1922"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1923", "year": 1923, "fact": "Attorney-General"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1917", "year": 1915, "fact": "town mag., Zanzibar, June, 1915"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1917", "year": 1917, "fact": "3rd Magistrate"},
+        {"stint_id": "Abrahams, S. S___Zanzibar___1917", "year": 1918, "fact": "sole edr., Zanzibar law rept., 1918-22"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous S. S. Abrahams in Zanzibar (e.g. a separate staff-list line for the town magistrate alongside the 3rd Magistrate in 1917-19), or a record that the 1917 3rd Magistrate had different forenames."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1923 Attorney-General stint is an exact office/colony/date match. The 1917 stint failed the mechanical position check ('town mag.' vs '3rd Magistrate') but the printed entries make the identity clear: he was a Zanzibar magistrate and law-report editor continuously 1915-1920, in the same editions."
+}

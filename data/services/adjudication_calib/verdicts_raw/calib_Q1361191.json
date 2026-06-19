@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q1361191",
+  "persons": [
+    {
+      "bio_id": "atkinson_h-a_e1887",
+      "stint_ids": ["Atkinson, Harry Albert___New Zealand___1880"],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the biography is initials-only ('H. A.') with no birth year, Atkinson is very common (34 officials, 25 biographies), and the stint starts in 1880 while the bio's single dated clause is 1887 — so the 1880-88 rows could conceivably be a different H. A. Atkinson whose listing the 1887 Premier inherited. This fails: the office bundle is a fingerprint, not a generic title. The bio reads 'Premier, Treasurer, commissioner of stamp duties, and of trade and customs, New Zealand, 1887', and the 1889 staff list prints 'Sir H. A. Atkinson | Premier, Colonial Treasurer, Postmaster-General and Commissioner of Telegraphs, Commissioner of Stamp Duties, and Minister of Marine' with K.C.M.G. — the same man the moment the bio exists, with the knighthood (1888) and 'Sir' appearing on schedule in 1889. The Premiership and colonial Treasurership of New Zealand are unique offices; and the earlier rows (Treasurer 1880, 'Treasurer, Commissioner of Stamp Duties and Customs' 1883) show the identical idiosyncratic portfolio combination continuing backward under the same initials — career-shape continuity of one politician across ministries, not two namesakes. Two H. A. Atkinsons alternately holding the NZ Treasurership in the 1880s is not a realistic hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Atkinson, Harry Albert___New Zealand___1880", "year": 1887, "fact": "Premier, Treasurer, commissioner of stamp duties, and of trade and customs, New Zealand, 1887"},
+        {"stint_id": "Atkinson, Harry Albert___New Zealand___1880", "year": 1889, "fact": "Sir H. A. Atkinson | Premier, Colonial Treasurer, Postmaster-General and Commissioner of Telegraphs, Commissioner of Stamp Duties, and Minister of Marine"},
+        {"stint_id": "Atkinson, Harry Albert___New Zealand___1880", "year": 1883, "fact": "Treasurer, Commissioner of Stamp Duties and Customs, and Minister of Marine"}
+      ],
+      "would_overturn": "Evidence that the pre-1887 Treasurer/Commissioner rows belong to a different H. A. Atkinson (e.g. a dated appointment record naming another holder of the NZ Treasurership in 1880-83), which would split the stint but not unseat the 1888-90 Premier rows."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Initials-only biography, but cleared by multiple strong dimensions: unique offices (Premier and Colonial Treasurer of New Zealand), an idiosyncratic multi-portfolio bundle quoted nearly verbatim in both sources, shared K.C.M.G. with correct timing ('Sir' from the 1889 edition after the 1888 award), and edition co-occurrence in 1889 and 1890. The stint's staff-list key gives the full forenames 'Harry Albert', consistent throughout."
+}

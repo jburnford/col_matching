@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0035",
+  "persons": [
+    {
+      "bio_id": "spence_j-b_e1886",
+      "stint_ids": ["Spence, J. B___Ceylon___1888"],
+      "confidence": "certain",
+      "arguments_against": "Strongest counter-case: Spence is among the commonest surnames in the corpus (26 officials, 17 biographies) and the bio gives only initials, so the stint could belong to a different J. B. Spence; additionally, the bio claims the superintendency from 1886 while the staff list titles him 'Surgeon Lunatic Asylum' in 1888-1890 and only 'Medical Superintendent, Lunatic Asylum' from 1894 — could the bio's man have held the post 1886-c.1888 and been succeeded by a different J. B. Spence as asylum surgeon? This fails: the Colombo lunatic asylum had a single medical head, and the staff list shows one unbroken J. B. Spence at that institution 1888-1913 with the title evolving (or being printed differently) from Surgeon to Medical Superintendent — a succession by a second man of identical initials at the same unique institution within two years of the first's appointment is not a realistic coincidence, and no second J. B. Spence row ever appears. The bio's 1896-97 printing coincides exactly with the staff list's 'Medical Superintendent, Lunatic Asylum' rows (position similarity 100 in the 1896 edition-year). The single-initial caution is satisfied by the unique-office match: this is a specific named post, not a generic grade.",
+      "evidence_cited": [
+        {"stint_id": "Spence, J. B___Ceylon___1888", "year": 1896, "fact": "Medical Superintendent, Lunatic Asylum"},
+        {"stint_id": "Spence, J. B___Ceylon___1888", "year": 1896, "fact": "Medical superintendent of Colombo lunatic asylum, Ceylon, 1886"},
+        {"stint_id": "Spence, J. B___Ceylon___1888", "year": 1888, "fact": "Surgeon Lunatic Asylum"}
+      ],
+      "would_overturn": "Evidence of two contemporaneous J. B. Spences in the Ceylon medical department, or a record showing the 1886 medical superintendent left the asylum before 1888 (e.g. a differently-initialled superintendent in the 1886-87 lists followed by this J. B. Spence as a new arrival)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1888-1890 'Surgeon Lunatic Asylum' vs the bio's 'Medical superintendent ... 1886' is a title-style discrepancy, not an identity problem: same unique institution, same person, with the staff-list title catching up to 'Medical Superintendent' by 1894. The mechanical edition_cooccurrence bonus was 'not met' only because the bio was printed in just two editions (1896, 1897); the single 1896 co-occurrence is a perfect position match."
+}

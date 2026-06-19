@@ -1,0 +1,27 @@
+{
+  "case_id": "calib_Q2607987",
+  "persons": [
+    {
+      "bio_id": "stubbs_reginald-edward_b1876",
+      "stint_ids": [
+        "Stubbs, R. E___Ceylon___1914",
+        "Stubbs, Reginald Edward___Hong Kong___1919",
+        "Stubbs, R. E___Jamaica___1928"
+      ],
+      "confidence": "certain",
+      "arguments_against": "The strongest case against: there are 16 Stubbs officials and 9 Stubbs biographies in the corpus, so each stint could in principle belong to a different R. E. Stubbs, e.g. a relative who also reached senior rank; and the 1937 entry is badly OCR-garbled, so the timeline I rely on could be corrupted. This fails for three reasons. (1) The Hong Kong stint carries the full forename 'Reginald Edward' in the staff-list name, not just initials, and the bio's 1937 entry explicitly names 'gov., Hong Kong' with K.C.M.G. (1919) -- the stint shows the C.M.G.->K.C.M.G. transition between the 1919 and 1920 listings, exactly matching the bio's honour dates. (2) The Ceylon stint (Colonial Secretary 1914-15, C.M.G.) sits exactly on the bio's 'Ceylon, Jan., 1913' posting and the 'O.A.G., Dec., 1915 to Apr., 1916' clause -- the Colonial Secretary is precisely the officer who acts as O.A.G. (3) The Jamaica stint's unusual title 'Captain-General and Governor-in-Chief' matches the bio's 'capt., Jamaica' clause, with shared K.C.M.G., and the three stints form one continuous gubernatorial career (Ceylon 1914-15 -> Hong Kong 1919-25 -> Jamaica 1928-31 -> back to Ceylon 1932 per the bio) that no second person could plausibly interleave. A same-name relative would have to share both honours with identical dates and a complementary career gap; no such bio is in the case.",
+      "evidence_cited": [
+        {"stint_id": "Stubbs, R. E___Ceylon___1914", "year": 1914, "fact": "Ceylon, Jan., 1913"},
+        {"stint_id": "Stubbs, R. E___Ceylon___1914", "year": 1915, "fact": "O.A.G., Dec., 1915 to Apr., 1916"},
+        {"stint_id": "Stubbs, Reginald Edward___Hong Kong___1919", "year": 1919, "fact": "gov., Hong Kong"},
+        {"stint_id": "Stubbs, Reginald Edward___Hong Kong___1919", "year": 1920, "fact": "K.C.M.G. (1919)"},
+        {"stint_id": "Stubbs, R. E___Jamaica___1928", "year": 1928, "fact": "capt., Jamaica"},
+        {"stint_id": "Stubbs, R. E___Jamaica___1928", "year": 1928, "fact": "Captain-General and Governor-in-Chief"}
+      ],
+      "would_overturn": "Evidence of a second Reginald Edward Stubbs or R. E. Stubbs with a K.C.M.G. active 1913-1932 (e.g. a separate biography showing one of these governorships under a different birth year), or an external source showing the Governor of Hong Kong 1919-25 and the Governor of Jamaica 1928-31 were different individuals."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The 1937 printed entry is heavily OCR-garbled, but the legible fragments (Ceylon Jan 1913, gov. Hong Kong, capt. Jamaica, gov. and comm. Ceylon 1932, K.C.M.G. 1919) independently corroborate all three stints. The honour progression visible inside the stints themselves (C.M.G. in 1915 and 1919 listings, K.C.M.G. from 1920) matches the bio's honour dates exactly."
+}

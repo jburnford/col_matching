@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_Q957756",
+  "persons": [
+    {
+      "bio_id": "clifford_hugh-charles_b1866",
+      "stint_ids": ["Clifford, Hugh___Ceylon___1907"],
+      "confidence": "certain",
+      "arguments_against": "The strongest counter-hypothesis is a second Hugh Clifford serving in Ceylon 1907-1912 (the corpus holds 20 Cliffords in staff lists and 10 biographies). But this fails on multiple independent dimensions: the stint is not a generic junior post but Colonial Secretary of Ceylon, a unique office held by one person at a time; the biography states 'col. sec., Ceylon, 3rd May, 1907' which matches the stint's start year exactly; the staff list shows C.M.G. in 1907/1909 then K.C.M.G. from 1910, exactly tracking the biography's honours K.C.M.G. (1909) and C.M.G. (1900) including the timing of the upgrade; and the name change from 'Hugh Clifford' to 'Sir Hugh Clifford' in 1910 matches the 1909 knighthood. A same-name relative could not coincidentally hold the same unique office in the same colony in the same years with the same honour progression.",
+      "evidence_cited": [
+        {"stint_id": "Clifford, Hugh___Ceylon___1907", "year": 1907, "fact": "col. sec., Ceylon, 3rd May, 1907"},
+        {"stint_id": "Clifford, Hugh___Ceylon___1907", "year": 1910, "fact": "K.C.M.G. (1909)"},
+        {"stint_id": "Clifford, Hugh___Ceylon___1907", "year": 1912, "fact": "gov., G. Coast, 11th Dec., 1912"}
+      ],
+      "would_overturn": "Evidence of a second Hugh Clifford listed as Colonial Secretary of Ceylon in 1907-1912, or a staff-list record showing this Colonial Secretary with a different forename, birth cohort, or honours inconsistent with C.M.G. (1900)/K.C.M.G. (1909)."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single bio, single stint. The position_sim FAIL is a string-scoring artifact: 'col. sec.' is the standard abbreviation of 'Colonial Secretary'. The stint ends in 1912, matching the biography's move to Governor of the Gold Coast in Dec. 1912."
+}

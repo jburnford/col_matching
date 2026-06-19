@@ -1,0 +1,21 @@
+{
+  "case_id": "calib_Q2984597",
+  "persons": [
+    {
+      "bio_id": "deverell_colville_b1907",
+      "stint_ids": ["Deverell, Colville___Windward Islands___1955", "Deverell, Colville Montgomery___Mauritius___1960"],
+      "confidence": "certain",
+      "arguments_against": "Counter-hypotheses: (1) the dossier flags the namesake trap and there are 4 Deverell officials, so a different C. Deverell (e.g. a brother) could be the Windward Islands or Mauritius governor; (2) the Windward stint fails colony/tenure/position checks entirely, suggesting the bio never served there. Both fail on the verbatim text. The biography explicitly reads 'gov. and c.in-c., Wind Is., 1955; Maur., 1959-62' — the deterministic colony FAIL for the Windward stint is a parser artifact (the timeline mis-inherited 'Jamaica' for that clause, and mislabeled the Mauritius clause's position). The Windward staff lists show 'C. M. Deverell, C.M.G.' in 1955-56 becoming 'Sir Colville Deverell, K.C.M.G.' in 1957 — exactly tracking the biography's C.M.G. (1955) and K.C.M.G. (1957); the Mauritius lists show 'Sir Colville Montgomery Deverell, K.C.M.G.' as Governor 1960-61, matching 'Maur., 1959-62' and the 1953 entry's initials 'C. M.'. The rare forename Colville, the unique governorships, the matching honour progression across both stints, and the seamless career hand-off (Windward ends 1957, Mauritius 1959-62) leave no room for a namesake. Despite the single-initial warning, the bio carries the full distinctive forename 'Colville', and the assignments rest on office + place + dates + honours, not name alone.",
+      "evidence_cited": [
+        {"stint_id": "Deverell, Colville___Windward Islands___1955", "year": 1955, "fact": "gov. and c.in-c., Wind Is., 1955"},
+        {"stint_id": "Deverell, Colville___Windward Islands___1955", "year": 1957, "fact": "K.C.M.G. (1957)"},
+        {"stint_id": "Deverell, Colville Montgomery___Mauritius___1960", "year": 1960, "fact": "Maur., 1959-62"},
+        {"stint_id": "Deverell, Colville Montgomery___Mauritius___1960", "year": 1961, "fact": "Sir Colville Montgomery Deverell"}
+      ],
+      "would_overturn": "Evidence of a second Colville Deverell in colonial service in the 1950s-60s, or records showing different persons held the Windward Islands governorship 1955-57 and the Mauritius governorship 1960-62."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "The deterministic FAILs on the Windward stint (colony, tenure, position, place_inherited) are all artifacts of the timeline parser inheriting 'Jamaica' for the 'gov. and c.in-c., Wind Is., 1955' clause and attaching the Wind Is position string to the Mauritius clause; the verbatim entry states both postings explicitly. Honour progression (C.M.G. 1955 -> K.C.M.G. 1957) is independently visible in the Windward staff-list rows."
+}

@@ -1,0 +1,20 @@
+{
+  "case_id": "calib_gemini_ceylon_0061",
+  "persons": [
+    {
+      "bio_id": "hartley_chas_e1896",
+      "stint_ids": ["Hartley, C___Ceylon___1899"],
+      "confidence": "certain",
+      "arguments_against": "The surname is common in the corpus (17 staff-list officials, 13 biographies) and the bio gives effectively a single initial ('Chas.' = C.), so the namesake trap applies: the staff-list 'C. Hartley' could be a different Hartley in Ceylon, or a same-initial successor at the Royal College. This fails because the match is on two stages of a career with uniquely specific titles, not a generic office: the staff list's 'Lecturer in English and Modern Languages, Royal College' (1899-1900) is a near-verbatim rendering of the bio's 'lecturer in English and modern languages, Royal Coll., Ceylon, 11th Dec., 1896', and the staff list then shows 'Principal of the Royal College' from 1905, matching the bio's 'principal, Royal Coll., 23rd June, 1903'. A different C. Hartley would have to hold both the same idiosyncratic lectureship and then succeed to the same principalship on the bio's exact timeline. Additionally there are 11 edition-years where bio and stint co-occur with colony-agreeing position matches, satisfying the strict corroboration bonus.",
+      "evidence_cited": [
+        {"stint_id": "Hartley, C___Ceylon___1899", "year": 1899, "fact": "Lecturer in English and Modern Languages, Royal College"},
+        {"stint_id": "Hartley, C___Ceylon___1899", "year": 1905, "fact": "Principal of the Royal College"},
+        {"stint_id": "Hartley, C___Ceylon___1899", "year": 1905, "fact": "principal, Royal Coll., 23rd June, 1903"}
+      ],
+      "would_overturn": "Evidence of a second C. Hartley on the Ceylon education staff in 1899-1920 (a separate staff-list line), or a record that Chas. Hartley left the Royal College before 1920 while the staff-list line continued under another C. Hartley, or a forename for the staff-list entry incompatible with Charles."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-initial biography with a strong independent dimension: a 97-similarity verbatim match on a highly distinctive post title plus the matching promotion to Principal (bio 1903, staff list shows it by 1905; the 1900-1905 staff-list gap is an edition gap, not a contradiction). Edition co-occurrence corroboration met (11 agreeing edition-years). Stint run 1899-1920 is consistent with the bio appearing in editions through 1921."
+}

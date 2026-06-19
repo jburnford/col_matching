@@ -1,0 +1,28 @@
+{
+  "case_id": "case_ackroyd_john-henry_e1854",
+  "persons": [
+    {
+      "bio_id": "ackroyd_john-henry_e1854",
+      "stint_ids": [
+        "Ackroyd, John Henry___Mauritius___1877",
+        "Ackroyd, John Henry___Mauritius___1890"
+      ],
+      "confidence": "certain",
+      "arguments_against": "Strongest case against: the corpus holds 5 Ackroyd officials and 4 Ackroyd biographies, so one or both stints could belong to a same-name relative — e.g. a son John Henry Ackroyd serving as a Mauritius District Magistrate while the father held the Seychelles posts; 'District Magistrate' is a generic recurring title, and the deterministic pass failed position_sim, edition_cooccurrence, and (for the 1890 stint) tenure_overlap. This fails on the verbatim text. (1) Both stints print the full double forename 'John Henry', not a bare initial, and no other biography in this case gated in. (2) For the 1877-1886 stint, the 1886 staff record reads 'Third clerk, registry supreme court' — the exact wording of this biography's first appointment ('Appointed third clerk, registry supreme court, April, 1854'), a specific textual tie no relative would share; and the bio independently places the man in the Mauritius district magistracy throughout the stint span ('pol. and stip. mag. for the lesser dependencies of Mauritius, 1876' through 'dist. mag., Grand Port, 9 Sep., 1884' — Seychelles and the lesser dependencies were administered under Mauritius). The position_sim FAIL is an abbreviation artifact: 'dist. mag.' vs 'District Magistrate' is the same office. (3) For the 1890-1905 stint, three distinct dated place+position pairs in the staff list match the bio's late-career clauses (Plaines Wilhems, police magistrate, junior district magistrate, Port Louis), and the stint's edition set [1890-1905] is an exact subset of the bio's editions; the tenure_overlap FAIL is because the bio's post-1887 clauses lack machine-resolved colony tags, not because the careers diverge. A hypothetical second John Henry Ackroyd would have to mirror this man's posts clause-for-clause in the same colony, which is not a live hypothesis.",
+      "evidence_cited": [
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1877", "year": 1886, "fact": "Third clerk, registry supreme court"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1877", "year": 1877, "fact": "pol. and stip. mag. for the lesser dependencies of Mauritius, 1876"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1877", "year": 1883, "fact": "dist. mag., Grand Port, Sept., 1884"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1894, "fact": "Plaines Wilhems Magistrate (Rose Hill Division)"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1894, "fact": "dist. mag., Plaines Wilhems, 1887"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1897, "fact": "pol. and additional dist. mag., Aug., 1895"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1899, "fact": "ag. jun. dist. mag., Aug., 1895, to Feb., 1896"},
+        {"stint_id": "Ackroyd, John Henry___Mauritius___1890", "year": 1900, "fact": "dist. mag., Port Louis, 1st div., Feb., 1898"}
+      ],
+      "would_overturn": "Evidence of a second contemporaneous John Henry Ackroyd in Mauritius service (e.g. two Ackroyd, J. H. rows in the same staff-list year, a death/retirement notice for the biography subject before 1905, or a birth year making the 1854 clerkship and the 1905 listing incompatible with one lifespan); or evidence that the 1886 'Third clerk, registry supreme court' row and the 1890-1905 magistrate rows refer to different districts' officeholders with distinct forenames once better OCR is available."
+    }
+  ],
+  "unassigned_stints": [],
+  "duplicate_bio_groups": [],
+  "notes": "Single-biography case; both stints carry the full forename 'John Henry'. The 1890 stint is the strongest link: its edition years [1890, 1894, 1896, 1897, 1898, 1899, 1900, 1905] are exactly a subset of the bio's edition years, and its position/place sequence (Plaines Wilhems -> Police Magistracy -> Junior District Magistrate -> Port Louis) reproduces the bio's 1887-1898 clauses in order; the deterministic edition_cooccurrence/tenure_overlap FAILs stem from the bio's late clauses lacking resolved place tags, not from disagreement. The 1877 stint's anomalous 1886 row ('ACKROYD, JOHN HENRY' in bio-headword capitalization with his 1854 first appointment as the position) looks like the staff list cross-printing the Record of Services line; either way it ties the stint textually to this biography. Minor discrepancy for the reviewer: staff list 1900 prints 'District Magistrate (Port Louis, 2nd Division)' while the bio says '1st div.' in Feb. 1898 — read as a divisional reassignment within Port Louis, not a different person."
+}
