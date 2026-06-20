@@ -76,13 +76,28 @@ def cmd_validate(args, cfg) -> None:
 
 
 def cmd_ground(args, cfg) -> None:
-    """Print the place-grounding worklist (the MCP loop is agent-driven)."""
-    from col_match.kg.ground import distinct_places, query_for
+    """Print the place-grounding worklist (the MCP loop is agent-driven). Each
+    row is annotated with suspected_noise (FLAG, not drop): non-geographic values
+    stay in the worklist but are marked so grounding can skip/route them."""
+    from col_match.kg.ground import distinct_places, query_for, suspected_noise
+    from col_match.services import gazetteer
     struct = Path(args.struct) if args.struct else OUT / "struct_valid.jsonl"
     wl = distinct_places(struct)
-    print(f"# {len(wl)} distinct ungrounded places")
+    try:                                       # gazetteer rescue: never flag a known place
+        known_set = gazetteer.load(cfg.data_dir)
+        known = lambda p: gazetteer.norm(p) in known_set
+    except Exception:
+        known = None
+    n_flag = 0
+    rows = []
     for place, n in wl:
-        print(json.dumps({"place": place, "count": n, "query": query_for(place)}, ensure_ascii=False))
+        noise, reason = suspected_noise(place, known)
+        n_flag += noise
+        rows.append({"place": place, "count": n, "query": query_for(place),
+                     "suspected_noise": noise, "reason": reason})
+    print(f"# {len(wl)} distinct ungrounded places ({n_flag} flagged suspected_noise, kept)")
+    for r in rows:
+        print(json.dumps(r, ensure_ascii=False))
 
 
 def cmd_emit(args, cfg) -> None:
