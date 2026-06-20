@@ -78,7 +78,8 @@ def cmd_validate(args, cfg) -> None:
 def cmd_ground(args, cfg) -> None:
     """Print the place-grounding worklist (the MCP loop is agent-driven)."""
     from col_match.kg.ground import distinct_places, query_for
-    wl = distinct_places(OUT / "struct_valid.jsonl")
+    struct = Path(args.struct) if args.struct else OUT / "struct_valid.jsonl"
+    wl = distinct_places(struct)
     print(f"# {len(wl)} distinct ungrounded places")
     for place, n in wl:
         print(json.dumps({"place": place, "count": n, "query": query_for(place)}, ensure_ascii=False))
@@ -86,7 +87,9 @@ def cmd_ground(args, cfg) -> None:
 
 def cmd_emit(args, cfg) -> None:
     from col_match.kg.emit import build_kg
-    stats = build_kg(OUT)
+    stats = build_kg(OUT,
+                     Path(args.struct) if args.struct else None,
+                     Path(args.persons) if args.persons else None)
     print("KG tables written to data/kg/graph/:")
     print(json.dumps(stats, indent=2))
 
@@ -98,8 +101,8 @@ def main() -> None:
     p.add_argument("--refresh", action="store_true")
     d = sub.add_parser("dump"); d.add_argument("--n", type=int, default=30); d.add_argument("--seed", type=int, default=0)
     sub.add_parser("validate")
-    sub.add_parser("ground")
-    sub.add_parser("emit")
+    g = sub.add_parser("ground"); g.add_argument("--struct", default="")
+    e = sub.add_parser("emit"); e.add_argument("--struct", default=""); e.add_argument("--persons", default="")
     args = ap.parse_args()
     cfg = Config.from_env()
     {"persons": cmd_persons, "dump": cmd_dump, "validate": cmd_validate,

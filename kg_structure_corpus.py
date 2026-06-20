@@ -131,8 +131,15 @@ def cmd_run(args) -> None:
 
 
 def cmd_validate(args) -> None:
-    """Validate raw structs against source text -> *.valid.jsonl (no LLM)."""
+    """Normalize + validate raw structs against source text -> *.valid.jsonl.
+
+    Two deterministic passes, no LLM: postnorm (fix the systematic structuring
+    errors catalogued in docs/STRUCT_ERROR_CATALOG.md — ditto/inheritance,
+    Knight-Bachelor splits, honorific/rank in names, temp.-as-acting) THEN
+    validate (drop facts not supported by source). Changes from each pass are
+    recorded on the row (``_norm`` / ``flags``) so nothing is silent."""
     from col_match.kg.validate import validate_struct
+    from col_match.kg.postnorm import normalize_struct
 
     in_path = Path(args.in_path)
     raw = [json.loads(l) for l in in_path.open(encoding="utf-8")]
@@ -142,15 +149,22 @@ def cmd_validate(args) -> None:
     bio = _bio_index({pid2bid[o["person_id"]] for o in good if o["person_id"] in pid2bid})
 
     out_path = in_path.with_suffix(".valid.jsonl")
-    n_flags = 0
+    n_flags = n_norm = n_normed = 0
     with out_path.open("w", encoding="utf-8") as fh:
         for o in good:
             bid = pid2bid.get(o["person_id"])
             src = bio.get(bid, "")
+            o, norm_changes = normalize_struct(o)
+            if norm_changes:
+                n_norm += len(norm_changes)
+                n_normed += 1
             v = validate_struct(o, src)
+            if norm_changes:
+                v["_norm"] = norm_changes
             n_flags += len(v.get("flags") or [])
             fh.write(json.dumps(v, ensure_ascii=False) + "\n")
     print(f"validated {len(good)} structs ({len(fails)} llm-failures); "
+          f"postnorm fixed {n_norm} items on {n_normed} structs; "
           f"{n_flags} facts dropped/flagged -> {out_path}")
 
 

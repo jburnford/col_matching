@@ -40,9 +40,16 @@ def _bios_index() -> dict[str, dict]:
     return out
 
 
-def build_kg(out_dir: Path) -> dict:
-    structs = {s["person_id"]: s for s in _load(out_dir / "struct_valid.jsonl")}
-    persons = [p for p in _load(out_dir / "persons.jsonl") if p["person_id"] in structs]
+def build_kg(out_dir: Path, struct_path: Path | None = None,
+             persons_path: Path | None = None) -> dict:
+    """Assemble KG tables. ``struct_path``/``persons_path`` default to the
+    legacy ``struct_valid.jsonl`` / ``persons.jsonl`` but can point at the
+    corpus run's output (``llm_struct_corpus.valid.jsonl`` + the final dedup
+    spine) without copying files."""
+    struct_path = struct_path or out_dir / "struct_valid.jsonl"
+    persons_path = persons_path or out_dir / "persons.jsonl"
+    structs = {s["person_id"]: s for s in _load(struct_path)}
+    persons = [p for p in _load(persons_path) if p["person_id"] in structs]
     bios = _bios_index()
     gcache = ground_mod.load_cache()
     # resolve colony once per grounded place
