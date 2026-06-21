@@ -142,6 +142,15 @@ _ACTING = re.compile(r"\b(ag|actg|act)\.?\b", re.I)
 _TOKEN = re.compile(r"[A-Za-z][A-Za-z'&.]*")
 
 
+# Abbreviations whose expansion is genuinely sense-dependent — the structuring
+# audits (docs/STRUCT_ERROR_CATALOG.md) showed a fixed pre-expansion picks the
+# wrong sense often enough to garble positions. Leave these RAW for the LLM to
+# disambiguate from context; position_norm still expands them downstream.
+#   off  -> office / officer       gov/govt -> government / governor / governing
+#   col  -> colony / colonial / colonel    min -> ministry / minister
+_PRE_AMBIGUOUS = {"off", "gov", "govt", "col", "min"}
+
+
 def _expand_token(tok: str) -> str:
     """Expand one whitespace token, preserving a trailing comma/semicolon."""
     m = re.match(r"([A-Za-z][A-Za-z'&.\-]*)(.*)", tok)
@@ -149,6 +158,8 @@ def _expand_token(tok: str) -> str:
         return tok
     word, trail = m.group(1), m.group(2)
     key = re.sub(r"[^a-z]", "", word.lower())
+    if key in _PRE_AMBIGUOUS:
+        return tok
     exp = POS_ABBREV.get(key) or MONTH_ABBREV.get(key)
     if exp and word.endswith("."):           # only expand recognised ABBREVIATIONS (dotted)
         return exp + trail

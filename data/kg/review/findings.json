@@ -1,0 +1,710 @@
+[
+ {
+  "slice": "1-31",
+  "reviewed": 31,
+  "clean": 22,
+  "findings": [
+   {
+    "idx": 0,
+    "person_id": "kgp_col1913-p621b3",
+    "category": "NOT_A_PERSON",
+    "severity": "minor",
+    "source_evidence": "The titles of His Excellency...",
+    "struct_value": "all null",
+    "note": "editorial front-matter, correctly nulled"
+   },
+   {
+    "idx": 10,
+    "person_id": "kgp_col1940-p864b3",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "ment. in desps., Croix-de-Guerre",
+    "struct_value": "only Croix-de-Guerre",
+    "note": "mentioned-in-despatches dropped"
+   },
+   {
+    "idx": 50,
+    "person_id": "kgp_col1928-p977b7",
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "source_evidence": "London Schl. of Trop. Med., 1910",
+    "struct_value": "missing",
+    "note": "dated training dropped"
+   },
+   {
+    "idx": 70,
+    "person_id": "kgp_col1965-p203b15",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "geologist, F.M.S., 1939",
+    "struct_value": "position 'F.M.S.'",
+    "note": "place used as position"
+   },
+   {
+    "idx": 110,
+    "person_id": "kgp_col1939-p923b18",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "assigned to the C.O., 1919",
+    "struct_value": "position null",
+    "note": "null position"
+   },
+   {
+    "idx": 120,
+    "person_id": "kgp_col1940-p866b20",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "ditto, Negombo, 1928",
+    "struct_value": "position 'ditto'",
+    "note": "ditto unresolved"
+   },
+   {
+    "idx": 160,
+    "person_id": "kgp_col1948-p505b11",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "K.C., 1919",
+    "struct_value": "missing",
+    "note": "K.C. dropped"
+   },
+   {
+    "idx": 160,
+    "person_id": "kgp_col1948-p505b11",
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "source_evidence": "called to bar, 1909",
+    "struct_value": "missing",
+    "note": "bar admission dropped"
+   },
+   {
+    "idx": 160,
+    "person_id": "kgp_col1948-p505b11",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "ent. Royal Navy 1893; ret. 1912",
+    "struct_value": "capt., R.N., 1893-1912",
+    "note": "rank mislabeled"
+   },
+   {
+    "idx": 240,
+    "person_id": "kgp_col1878-p361b23",
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "source_evidence": "first event, no prior place",
+    "struct_value": "place_inherited=true",
+    "note": "inherited on first event"
+   },
+   {
+    "idx": 260,
+    "person_id": "kgp_col1928-p983b3",
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "source_evidence": "to C.O. July, 1899",
+    "struct_value": "missing",
+    "note": "transfer dropped"
+   }
+  ]
+ },
+ {
+  "slice": "32-62",
+  "reviewed": 31,
+  "clean": 15,
+  "findings": [
+   {
+    "idx": 310,
+    "person_id": "kgp_col1966-p201b14",
+    "category": "POSITION_GARBLED",
+    "severity": "major",
+    "source_evidence": "mil. serv. 1941-45 ... educ. offr. N. Nig. 1950",
+    "struct_value": "merged into one 1950 event",
+    "note": "two events merged, dates lost, civil tagged military"
+   },
+   {
+    "idx": 320,
+    "person_id": "kgp_col1939-p935b10",
+    "category": "WRONG_DATE",
+    "severity": "minor",
+    "source_evidence": "practised in England until 1913",
+    "struct_value": "year_start 1913",
+    "note": "end-year used as start"
+   },
+   {
+    "idx": 340,
+    "person_id": "kgp_col1936-p832b11",
+    "category": "WRONG_PLACE",
+    "severity": "minor",
+    "source_evidence": "senr. dep. P.M.G., do., 1935",
+    "struct_value": "place 'do.'",
+    "note": "ditto unresolved as place"
+   },
+   {
+    "idx": 360,
+    "person_id": "kgp_col1921-p761b5",
+    "category": "MISSED_EDUCATION",
+    "severity": "minor",
+    "source_evidence": "B.A., LL.B. (Cape)",
+    "struct_value": "schools only",
+    "note": "degrees dropped"
+   },
+   {
+    "idx": 370,
+    "person_id": "kgp_col1936-p833b3",
+    "category": "MISSED_EDUCATION",
+    "severity": "minor",
+    "source_evidence": "B.Sc. (Hons.)",
+    "struct_value": "schools only",
+    "note": "degree dropped"
+   },
+   {
+    "idx": 380,
+    "person_id": "kgp_col1934-p841b20",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "Jun., Nov., 1925",
+    "struct_value": "'junior'",
+    "note": "June misread as junior"
+   },
+   {
+    "idx": 400,
+    "person_id": "kgp_col1940-p874b6",
+    "category": "TERMINAL",
+    "severity": "major",
+    "source_evidence": "no resignation in source",
+    "struct_value": "terminal resigned",
+    "note": "invented terminal status"
+   },
+   {
+    "idx": 430,
+    "person_id": "kgp_dol1935-p832b15",
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "source_evidence": "ex-off. gaz. July 1930 and July 1933",
+    "struct_value": "only 1930",
+    "note": "second occurrence dropped"
+   },
+   {
+    "idx": 440,
+    "person_id": "kgp_col1897-p460b18",
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "source_evidence": "clerk in colonial secretary's office",
+    "struct_value": "place null, inherited true",
+    "note": "inherited true but place null"
+   },
+   {
+    "idx": 450,
+    "person_id": "kgp_col1927-p855b16",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "ment. in desp., 1919",
+    "struct_value": "stored as event",
+    "note": "despatch mention as event not honour"
+   },
+   {
+    "idx": 450,
+    "person_id": "kgp_col1927-p855b16",
+    "category": "ORG_TYPE",
+    "severity": "minor",
+    "source_evidence": "vety. offr., Gold Coast",
+    "struct_value": "military",
+    "note": "civil vet post tagged military"
+   },
+   {
+    "idx": 470,
+    "person_id": "kgp_col1898-p449b10",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "ditto, Singapore",
+    "struct_value": "'ditto'",
+    "note": "ditto unresolved"
+   },
+   {
+    "idx": 480,
+    "person_id": "kgp_col1931-p955b16",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "offr. in ch.",
+    "struct_value": "officer in chief",
+    "note": "'in ch.'->'in chief' not 'in charge'"
+   },
+   {
+    "idx": 530,
+    "person_id": "kgp_col1948-p416b11",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "off. of min. of state",
+    "struct_value": "officer of minister",
+    "note": "'off.'->officer not office"
+   },
+   {
+    "idx": 560,
+    "person_id": "kgp_col1928-p993b9",
+    "category": "WRONG_PLACE",
+    "severity": "minor",
+    "source_evidence": "comdt., Palestinian Gendarmerie",
+    "struct_value": "place 'Palestinian Gendarmerie'",
+    "note": "unit name as place"
+   },
+   {
+    "idx": 570,
+    "person_id": "kgp_col1948-p417b20",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "twice men. in desps.",
+    "struct_value": "missing",
+    "note": "despatch mentions dropped"
+   }
+  ]
+ },
+ {
+  "slice": "63-93",
+  "reviewed": 31,
+  "clean": 21,
+  "findings": [
+   {
+    "idx": 620,
+    "person_id": "kgp_col1905-p614b11",
+    "category": "HALLUCINATION",
+    "severity": "major",
+    "source_evidence": "Apl., 1898 (appointment)",
+    "struct_value": "birth_year 1898",
+    "note": "appointment date became birth_year"
+   },
+   {
+    "idx": 620,
+    "person_id": "kgp_col1905-p614b11",
+    "category": "WRONG_DATE",
+    "severity": "major",
+    "source_evidence": "Apl., 1898",
+    "struct_value": "event year null",
+    "note": "appointment date lost"
+   },
+   {
+    "idx": 620,
+    "person_id": "kgp_col1905-p614b11",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "atty.-gen.'s off.",
+    "struct_value": "officer",
+    "note": "'off.'->officer not office"
+   },
+   {
+    "idx": 640,
+    "person_id": "kgp_col1951-p493b7",
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "source_evidence": "min. of trans., 1920",
+    "struct_value": "place null inherited",
+    "note": "new org wrongly inherited"
+   },
+   {
+    "idx": 670,
+    "person_id": "kgp_col1928-p996b7",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "col., Devon Regt.",
+    "struct_value": "colonial",
+    "note": "colonel->colonial"
+   },
+   {
+    "idx": 670,
+    "person_id": "kgp_col1928-p996b7",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "govt. ... Bermuda",
+    "struct_value": "government",
+    "note": "governor->government"
+   },
+   {
+    "idx": 670,
+    "person_id": "kgp_col1928-p996b7",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "twelve times ment. in desps.",
+    "struct_value": "missing",
+    "note": "despatch mentions dropped"
+   },
+   {
+    "idx": 690,
+    "person_id": "kgp_col1927-p863b10",
+    "category": "NAME_PARSE",
+    "severity": "minor",
+    "source_evidence": "BOSTOCK, HON. HEWITT",
+    "struct_value": "'honorary HEWITT'",
+    "note": "HON.->honorary into given_names"
+   },
+   {
+    "idx": 690,
+    "person_id": "kgp_col1927-p863b10",
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "source_evidence": "called to bar, 1888",
+    "struct_value": "missing",
+    "note": "bar admission dropped"
+   },
+   {
+    "idx": 750,
+    "person_id": "kgp_col1929-p886b6",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "govt., Nyasaland",
+    "struct_value": "government",
+    "note": "governor->government"
+   },
+   {
+    "idx": 770,
+    "person_id": "kgp_col1951-p495b20",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "asst. audr., Uga., 1936",
+    "struct_value": "position 'Uga.'",
+    "note": "place as position"
+   },
+   {
+    "idx": 770,
+    "person_id": "kgp_col1951-p495b20",
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "source_evidence": "first posting",
+    "struct_value": "inherited true",
+    "note": "inherited on first event"
+   },
+   {
+    "idx": 790,
+    "person_id": "kgp_col1915-p664b10",
+    "category": "WRONG_PLACE",
+    "severity": "minor",
+    "source_evidence": "Veterinary offr., F.A.P., 1910",
+    "struct_value": "place null",
+    "note": "F.A.P. place merged into position"
+   },
+   {
+    "idx": 800,
+    "person_id": "kgp_col1939-p948b5",
+    "category": "MISSED_EDUCATION",
+    "severity": "minor",
+    "source_evidence": "BRANCH, STANLEY, M.B.",
+    "struct_value": "missing",
+    "note": "degree dropped"
+   },
+   {
+    "idx": 870,
+    "person_id": "kgp_col1939-p949b7",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "men. in desps. 1918",
+    "struct_value": "missing",
+    "note": "despatch mention dropped"
+   },
+   {
+    "idx": 870,
+    "person_id": "kgp_col1939-p949b7",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "rank of col.",
+    "struct_value": "colonial",
+    "note": "colonel->colonial"
+   },
+   {
+    "idx": 890,
+    "person_id": "kgp_col1939-p950b8",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "King's pol. med., 1936",
+    "struct_value": "as event",
+    "note": "medal as event not honour"
+   },
+   {
+    "idx": 890,
+    "person_id": "kgp_col1939-p950b8",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "order of St. John",
+    "struct_value": "as event",
+    "note": "order as event not honour"
+   }
+  ]
+ },
+ {
+  "slice": "94-124",
+  "reviewed": 31,
+  "clean": 27,
+  "findings": [
+   {
+    "idx": 940,
+    "person_id": "kgp_col1957-p304b23",
+    "category": "ORG_TYPE",
+    "severity": "minor",
+    "source_evidence": "cadet, Nig., 1938; admin. offr.",
+    "struct_value": "military",
+    "note": "civil cadet tagged military"
+   },
+   {
+    "idx": 1120,
+    "person_id": "kgp_col1911-p643b9",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "ment. by Lord Roberts, 1900",
+    "struct_value": "missing",
+    "note": "commendation dropped"
+   },
+   {
+    "idx": 1120,
+    "person_id": "kgp_col1911-p643b9",
+    "category": "TERMINAL",
+    "severity": "minor",
+    "source_evidence": "resig. contingent 1901; dist. comsnr Lagos 1904",
+    "struct_value": "terminal resigned 1901",
+    "note": "career continued; terminal wrong"
+   },
+   {
+    "idx": 1130,
+    "person_id": "kgp_col1934-p863b12",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "offr. in ch.",
+    "struct_value": "officer in chief",
+    "note": "'in ch.'->'in chief' not 'in charge'"
+   },
+   {
+    "idx": 1200,
+    "person_id": "kgp_col1966-p214b18",
+    "category": "TERMINAL",
+    "severity": "minor",
+    "source_evidence": "retd., re-aptd. 1964",
+    "struct_value": "terminal retired 1964",
+    "note": "re-appointment omitted"
+   }
+  ]
+ },
+ {
+  "slice": "125-155",
+  "reviewed": 31,
+  "clean": 23,
+  "findings": [
+   {
+    "idx": 1260,
+    "person_id": "kgp_col1937-p874b7",
+    "category": "NAME_PARSE",
+    "severity": "minor",
+    "source_evidence": "CARDIN, HON. PIERRE ... Richelieu)",
+    "struct_value": "'...ARTHUR Richelieu'",
+    "note": "riding folded into given_names"
+   },
+   {
+    "idx": 1280,
+    "person_id": "kgp_col1918-p706b12",
+    "category": "MISSED_EVENT",
+    "severity": "major",
+    "source_evidence": "called to bar, 1879",
+    "struct_value": "missing",
+    "note": "dated event dropped"
+   },
+   {
+    "idx": 1280,
+    "person_id": "kgp_col1918-p706b12",
+    "category": "TERMINAL",
+    "severity": "minor",
+    "source_evidence": "resigned premiership 1907; M.L.C. 1908",
+    "struct_value": "resigned 1907",
+    "note": "career continued"
+   },
+   {
+    "idx": 1310,
+    "person_id": "kgp_col1937-p875b20",
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "source_evidence": "attd. R.I.C. Dublin 1905",
+    "struct_value": "in education",
+    "note": "training merged into education"
+   },
+   {
+    "idx": 1310,
+    "person_id": "kgp_col1937-p875b20",
+    "category": "WRONG_DATE",
+    "severity": "minor",
+    "source_evidence": "G.S. and Victory Meds., 1914-15",
+    "struct_value": "split 1914/1915",
+    "note": "medal period split into fake years"
+   },
+   {
+    "idx": 1330,
+    "person_id": "kgp_col1933-p862b7",
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "source_evidence": "admnstr.'s off.",
+    "struct_value": "officer",
+    "note": "'off.'->officer not office"
+   },
+   {
+    "idx": 1340,
+    "person_id": "kgp_col1921-p788b6",
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "source_evidence": "Roy. Eng., 1870",
+    "struct_value": "in education",
+    "note": "commission miscaptured as education"
+   },
+   {
+    "idx": 1380,
+    "person_id": "kgp_col1910-p655b11",
+    "category": "HALLUCINATION",
+    "severity": "minor",
+    "source_evidence": "KT. BACH. (1907)",
+    "struct_value": "'KT' + 'BACH'",
+    "note": "Knight Bachelor split into two awards"
+   },
+   {
+    "idx": 1400,
+    "person_id": "kgp_col1939-p962b8",
+    "category": "MISSED_EVENT",
+    "severity": "major",
+    "source_evidence": "M.H.A., Barbados, 1887",
+    "struct_value": "missing",
+    "note": "dated event dropped"
+   },
+   {
+    "idx": 1400,
+    "person_id": "kgp_col1939-p962b8",
+    "category": "MISSED_EVENT",
+    "severity": "major",
+    "source_evidence": "pres., agric. socy., 1905",
+    "struct_value": "missing",
+    "note": "dated event dropped"
+   },
+   {
+    "idx": 1480,
+    "person_id": "kgp_col1939-p963b9",
+    "category": "WRONG_PLACE",
+    "severity": "minor",
+    "source_evidence": "J.P., 1902 (Hong Kong)",
+    "struct_value": "place India inherited",
+    "note": "wrong inherited place"
+   },
+   {
+    "idx": 1480,
+    "person_id": "kgp_col1939-p963b9",
+    "category": "MISSED_EDUCATION",
+    "severity": "minor",
+    "source_evidence": "hon. LL.D. 1926",
+    "struct_value": "missing",
+    "note": "honorary degree dropped"
+   }
+  ]
+ },
+ {
+  "slice": "156-186",
+  "reviewed": 31,
+  "clean": 21,
+  "findings": [
+   {
+    "idx": 1560,
+    "person_id": "kgp_col1951-p514b14",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "M.A. (Oxon), K.C.",
+    "struct_value": "missing",
+    "note": "K.C. dropped"
+   },
+   {
+    "idx": 1570,
+    "person_id": "kgp_col1940-p905b22",
+    "category": "HALLUCINATION",
+    "severity": "minor",
+    "source_evidence": "KT. BACH. (1920)",
+    "struct_value": "'KT'+'BACH'",
+    "note": "Knight Bachelor split"
+   },
+   {
+    "idx": 1570,
+    "person_id": "kgp_col1940-p905b22",
+    "category": "WRONG_DATE",
+    "severity": "minor",
+    "source_evidence": "col. sec. ..., 1906",
+    "struct_value": "year_end 1910",
+    "note": "end year invented"
+   },
+   {
+    "idx": 1580,
+    "person_id": "kgp_dol1935-p862b15",
+    "category": "NAME_PARSE",
+    "severity": "minor",
+    "source_evidence": "COOK, RT. HON. SIR JOSEPH",
+    "struct_value": "'RT. honorary SIR JOSEPH'",
+    "note": "HON.->honorary into given_names"
+   },
+   {
+    "idx": 1610,
+    "person_id": "kgp_col1939-p967b12",
+    "category": "NAME_PARSE",
+    "severity": "minor",
+    "source_evidence": "COOMARASWAMY, VELUPPILLAI",
+    "struct_value": "'VELUPILLAI'",
+    "note": "dropped a letter"
+   },
+   {
+    "idx": 1680,
+    "person_id": "kgp_col1914-p686b8",
+    "category": "HALLUCINATION",
+    "severity": "minor",
+    "source_evidence": "KNT. BACH. (1896)",
+    "struct_value": "'KNT'+'BACH.'",
+    "note": "Knight Bachelor split"
+   },
+   {
+    "idx": 1700,
+    "person_id": "kgp_col1933-p872b13",
+    "category": "WRONG_PLACE",
+    "severity": "major",
+    "source_evidence": "ag. dist. engnr., Mar.-Sept. 1930",
+    "struct_value": "place 'Mar.'",
+    "note": "month abbrev as place"
+   },
+   {
+    "idx": 1760,
+    "person_id": "kgp_col1936-p871b9",
+    "category": "ORG_TYPE",
+    "severity": "minor",
+    "source_evidence": "served in Fiji 1911-15",
+    "struct_value": "military",
+    "note": "no military indication"
+   },
+   {
+    "idx": 1770,
+    "person_id": "kgp_col1940-p912b8",
+    "category": "WRONG_PLACE",
+    "severity": "minor",
+    "source_evidence": "ag. asst. res. mag., ditto, 1915",
+    "struct_value": "place 'ditto'",
+    "note": "ditto unresolved"
+   },
+   {
+    "idx": 1840,
+    "person_id": "kgp_col1966-p226b11",
+    "category": "HALLUCINATION",
+    "severity": "minor",
+    "source_evidence": "sqdn. ldr. (desps.)",
+    "struct_value": "award 'sqdn. ldr. (desps.)'",
+    "note": "rank embedded in award"
+   },
+   {
+    "idx": 1850,
+    "person_id": "kgp_col1923-p909b13",
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "source_evidence": "K.C., 1908",
+    "struct_value": "missing",
+    "note": "K.C. dropped"
+   },
+   {
+    "idx": 1850,
+    "person_id": "kgp_col1923-p909b13",
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "source_evidence": "M.P. for Pembrokeshire 1892-8",
+    "struct_value": "in education",
+    "note": "political role in education"
+   }
+  ]
+ }
+]

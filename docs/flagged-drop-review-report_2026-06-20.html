@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colonial Office KG — Flagged-Drop Review Report (2026-06-20)</title>
+<style>
+  :root{
+    --ink:#1c2530; --muted:#5b6776; --line:#e3e8ee; --bg:#f7f9fb; --card:#fff;
+    --keep:#2e7d51; --correct:#b5751a; --drop:#b23a48; --accent:#2b5d8c; --accent2:#6a4c93;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:900px;margin:0 auto;padding:48px 24px 80px}
+  header{border-bottom:3px solid var(--ink);padding-bottom:20px;margin-bottom:8px}
+  h1{font-size:30px;line-height:1.25;margin:0 0 6px}
+  .sub{color:var(--muted);font-size:15px}
+  h2{font-size:22px;margin:48px 0 8px;padding-top:8px}
+  h3{font-size:17px;margin:28px 0 6px;color:var(--accent)}
+  p{margin:10px 0}
+  .lede{font-size:18px;color:#33414f}
+  code,.mono{font-family:"SF Mono",Menlo,Consolas,monospace;font-size:.88em;
+             background:#eef2f6;padding:1px 5px;border-radius:4px}
+  .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 14px;text-align:center}
+  .card .n{font-size:28px;font-weight:700;line-height:1.1}
+  .card .l{font-size:12px;color:var(--muted);margin-top:4px;text-transform:uppercase;letter-spacing:.04em}
+  .card.k .n{color:var(--keep)} .card.c .n{color:var(--correct)} .card.d .n{color:var(--drop)}
+  table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14.5px;background:var(--card)}
+  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line)}
+  th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted);background:#f0f4f8}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  tr:last-child td{border-bottom:none}
+  tfoot td{font-weight:700;border-top:2px solid var(--ink)}
+  .bar{display:flex;height:30px;border-radius:6px;overflow:hidden;margin:14px 0 6px;border:1px solid var(--line)}
+  .bar > span{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12.5px;font-weight:600;white-space:nowrap}
+  .seg-keep{background:var(--keep)} .seg-correct{background:var(--correct)} .seg-drop{background:var(--drop)}
+  .legend{font-size:13px;color:var(--muted);display:flex;gap:18px;flex-wrap:wrap;margin-bottom:8px}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:5px;vertical-align:middle}
+  .panel{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);
+          border-radius:8px;padding:14px 18px;margin:18px 0}
+  .panel.warn{border-left-color:var(--drop)}
+  .panel.ok{border-left-color:var(--keep)}
+  .flow{display:grid;grid-template-columns:1fr;gap:10px;margin:18px 0}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 16px;
+        display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:center}
+  .step .ph{font-weight:700;color:var(--accent2);font-size:18px;text-align:center}
+  .step .d{font-size:14px}
+  .step .d b{display:block;font-size:15px;color:var(--ink)}
+  .step .v{font-size:13px;color:var(--muted);text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  ul{margin:8px 0;padding-left:22px} li{margin:5px 0}
+  .ex{background:#fbfcfe;border:1px solid var(--line);border-radius:8px;padding:4px 0;margin:14px 0}
+  .ex div{padding:8px 16px;border-bottom:1px solid var(--line);font-size:14px}
+  .ex div:last-child{border-bottom:none}
+  .ex .src{color:var(--muted);font-family:"SF Mono",Menlo,Consolas,monospace;font-size:12.5px}
+  .tag{font-size:11px;font-weight:700;padding:1px 7px;border-radius:10px;color:#fff;vertical-align:middle}
+  .tag.keep{background:var(--keep)} .tag.correct{background:var(--correct)} .tag.drop{background:var(--drop)}
+  footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+  @media(max-width:640px){.cards{grid-template-columns:repeat(2,1fr)}.step{grid-template-columns:28px 1fr}.step .v{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Colonial Office Knowledge Graph<br>Flagged-Drop Review</h1>
+  <div class="sub">Two-stage fact validation &mdash; local model extraction, then careful second-pass adjudication &middot; <strong>2026-06-20</strong></div>
+</header>
+
+<p class="lede">This machine turned ~36,000 dense, OCR&#8209;degraded Colonial Office biographies into a structured knowledge graph, then put every uncertain fact through a second, independent review. The local model proposed; a deterministic validator and a careful reviewer kept the last word. Below is what each stage did and what it produced.</p>
+
+<div class="cards">
+  <div class="card"><div class="n">36,167</div><div class="l">Structured bios</div></div>
+  <div class="card"><div class="n">2,639</div><div class="l">Facts flagged</div></div>
+  <div class="card k"><div class="n">2,142</div><div class="l">Kept / corrected</div></div>
+  <div class="card"><div class="n">2,111</div><div class="l">Quote-verified &amp; restored</div></div>
+</div>
+
+<h2>Stage&nbsp;1 &mdash; The local model</h2>
+<p>Running entirely on this machine, a local <strong>Qwen&nbsp;3.6 structurer</strong> read each printed biography and emitted a structured record: birth year, a timeline of career events (position, place, start/end year, acting flag), honours, and a terminal entry. The source text is hard: 1860s&ndash;1960s print, scanned and OCR&#8209;converted, packed with abbreviations &mdash; <span class="mono">E.A.P.</span> for East Africa Protectorate, <span class="mono">S.&nbsp;Sttlmts.</span> for Straits Settlements, date ranges compressed to <span class="mono">1900-02</span> or even <span class="mono">1896-7-8</span>.</p>
+
+<h3>The flag-don't-drop discipline</h3>
+<p>A separate <strong>deterministic validator</strong> then checked every extracted value against the printed source, under a strict rule: a fact the source does not literally support is never silently kept. Each unconfirmed value is <em>flagged</em> rather than deleted, so nothing is lost and a second pass can adjudicate it. The validator requires:</p>
+<ul>
+  <li>every event year (<span class="mono">year_start</span>/<span class="mono">year_end</span>) to appear verbatim in the source;</li>
+  <li>every non-inherited place to appear token-wise in the source;</li>
+  <li>birth year, honour award-years and the terminal year to appear in the source.</li>
+</ul>
+<p>This flagged <strong>2,639 facts across 1,286 persons</strong> &mdash; the work-list for Stage&nbsp;2. The flags split as:</p>
+
+<table>
+  <thead><tr><th>Flag type</th><th class="num">Count</th><th>What the validator could not confirm</th></tr></thead>
+  <tbody>
+    <tr><td>Place tokens not in source</td><td class="num">1,580</td><td>An abbreviated place (e.g. <span class="mono">E.A.P.</span>, <span class="mono">sup. ct.</span>) whose tokens didn't match.</td></tr>
+    <tr><td>Year-end not in source</td><td class="num">510</td><td>Often an <em>inferred</em> end year (role N ends the year before role N+1 starts).</td></tr>
+    <tr><td>Year-start / honour / terminal</td><td class="num">549</td><td>A start year, award year or birth year not found as a printed token.</td></tr>
+  </tbody>
+  <tfoot><tr><td>Total flagged</td><td class="num">2,639</td><td></td></tr></tfoot>
+</table>
+
+<p class="panel">Many flags are <strong>false alarms caused by OCR and abbreviation</strong>, not genuine extraction errors: the validator can't see that <span class="mono">E.A.P.&nbsp;&amp;&nbsp;T.&nbsp;admin.</span> in the source supports the value &ldquo;E.A.P. &amp; T. administration,&rdquo; or that the printed range <span class="mono">1896-7-8</span> really does contain the year 1898. Separating those from real errors is exactly what Stage&nbsp;2 does.</p>
+
+<h2>Stage&nbsp;2 &mdash; The careful review</h2>
+<p>Every flagged fact was adjudicated <strong>keep</strong> / <strong>correct</strong> / <strong>drop</strong>, and &mdash; critically &mdash; each keep or correct had to cite an <strong>exact substring of that person's source text</strong> as evidence. A final Python merge re-checks every quote and only restores a value whose evidence is genuinely a substring of the source. The model proposes; Python keeps the last word, preserving a zero&#8209;false&#8209;positive guarantee.</p>
+
+<p>The review ran in three passes, chosen to spend the least effort on the most mechanical cases:</p>
+
+<div class="flow">
+  <div class="step"><div class="ph">0</div>
+    <div class="d"><b>Deterministic pre-filter (no LLM)</b>A Python pass auto-confirms the purely mechanical flags with an exact quote &mdash; dotted place acronyms (<span class="mono">E.A.P.</span>) and chained year-ranges (<span class="mono">1896-7-8</span>&rarr;1898) the validator's expander missed.</div>
+    <div class="v">617 confirmed<br>548 acronym &middot; 69 range</div></div>
+  <div class="step"><div class="ph">1</div>
+    <div class="d"><b>Independent LLM agents (Sonnet)</b>An independent model family from the structurer read three batches' source text and adjudicated each flag, citing source quotes.</div>
+    <div class="v">361 verdicts</div></div>
+  <div class="step"><div class="ph">2</div>
+    <div class="d"><b>Main-loop review (Opus)</b>The remaining 14 batches were read and adjudicated in-session &mdash; each batch read in full, every verdict's quote verified against source before writing.</div>
+    <div class="v">1,658 verdicts</div></div>
+</div>
+
+<h3>Outcome of all 2,636 verdicts</h3>
+<div class="legend">
+  <span><i class="seg-keep"></i>keep &mdash; flag was a false alarm; value supported</span>
+  <span><i class="seg-correct"></i>correct &mdash; source supports a different value</span>
+  <span><i class="seg-drop"></i>drop &mdash; genuinely unsupported (a real error)</span>
+</div>
+<div class="bar">
+  <span class="seg-keep" style="width:79.0%">keep&nbsp;2,083 (79%)</span>
+  <span class="seg-correct" style="width:2.2%" title="correct 59"></span>
+  <span class="seg-drop" style="width:18.8%">drop&nbsp;494 (19%)</span>
+</div>
+<p style="font-size:13.5px;color:var(--muted);margin-top:2px">correct = 59 (2.2%, sliver between keep and drop)</p>
+
+<table>
+  <thead><tr><th>Pass</th><th class="num">Verdicts</th><th class="num">keep</th><th class="num">correct</th><th class="num">drop</th></tr></thead>
+  <tbody>
+    <tr><td>Phase&nbsp;0 &mdash; Python pre-filter</td><td class="num">617</td><td class="num">617</td><td class="num">0</td><td class="num">0</td></tr>
+    <tr><td>Phase&nbsp;1 &mdash; Sonnet agents (batches 006/014/017)</td><td class="num">361</td><td class="num">343</td><td class="num">13</td><td class="num">5</td></tr>
+    <tr><td>Phase&nbsp;2 &mdash; main-loop Opus (14 residue batches)</td><td class="num">1,658</td><td class="num">1,123</td><td class="num">46</td><td class="num">489</td></tr>
+  </tbody>
+  <tfoot><tr><td>Total</td><td class="num">2,636</td><td class="num">2,083</td><td class="num">59</td><td class="num">494</td></tr></tfoot>
+</table>
+<p style="font-size:13.5px;color:var(--muted)">Total is 2,636 rather than 2,639 because three duplicate flags (identical person + field) were de-duplicated during review.</p>
+
+<h3>What the corrections fixed (59)</h3>
+<p>Corrections are where the source supports a <em>different</em> value than the model extracted &mdash; almost always an OCR mis-expansion the structurer resolved the wrong way:</p>
+<table>
+  <thead><tr><th>Corrected to</th><th class="num">Count</th><th>Typical cause</th></tr></thead>
+  <tbody>
+    <tr><td>Gilbert and Ellice Islands Colony</td><td class="num">26</td><td><span class="mono">G.&nbsp;&amp;&nbsp;E.&nbsp;Is.&nbsp;Col.</span> &mdash; &ldquo;Col.&rdquo; read as &ldquo;colonial&rdquo; not &ldquo;Colony&rdquo;</td></tr>
+    <tr><td>Gold Coast Colony</td><td class="num">9</td><td><span class="mono">G.&nbsp;C.&nbsp;Col.</span> &mdash; same &ldquo;Col.&rdquo; misread</td></tr>
+    <tr><td>Calpentyn (place)</td><td class="num">6</td><td>OCR garble <span class="mono">Calentyn</span> / <span class="mono">Calyptenyn</span></td></tr>
+    <tr><td>Ministries (Air, Education, Agriculture, Nat. Insurance, Information)</td><td class="num">7</td><td><span class="mono">min.&nbsp;of&nbsp;&hellip;</span> read as &ldquo;minister&rdquo; not &ldquo;Ministry&rdquo;</td></tr>
+    <tr><td>Territory abbreviations (Gambia, Somaliland, Trinidad&nbsp;&amp;&nbsp;Tobago, Nyasaland, B.S.I.P.)</td><td class="num">8</td><td><span class="mono">Som.</span>, <span class="mono">T.T.</span>, <span class="mono">Nyasa.</span> resolved to wrong place</td></tr>
+    <tr><td>Other (year fix, place fix, null-out)</td><td class="num">3</td><td>e.g. <span class="mono">col.</span> = colonel mis-set as a place &rarr; nulled</td></tr>
+  </tbody>
+</table>
+
+<h3>Why things were dropped (494)</h3>
+<p>Drops are genuine errors the source does not support. The dominant patterns:</p>
+<ul>
+  <li><strong>Inferred year-ends</strong> &mdash; the structurer guessed a role ended the year before the next began; that year is nowhere in the print.</li>
+  <li><strong>OCR-truncated years</strong> &mdash; fragments like <span class="mono">&ldquo;B.&nbsp;18&rdquo;</span> or a bare <span class="mono">&ldquo;1&rdquo;</span> that aren't real four-digit years.</li>
+  <li><strong>Abbreviation mis-reads</strong> &mdash; <span class="mono">col.</span> (colonel) or <span class="mono">prot.</span> (protector) wrongly turned into a place like &ldquo;colonial&rdquo; or &ldquo;protectorate.&rdquo;</li>
+  <li><strong>Place inferences</strong> &mdash; e.g. &ldquo;Canada&rdquo; assigned to a federal office where only &ldquo;privy council&rdquo; appears in the source.</li>
+</ul>
+
+<h3>Sample adjudications</h3>
+<div class="ex">
+  <div><span class="tag keep">KEEP</span> &nbsp;<b>E.A.P. &amp; T. administration</b> (place) <span class="src">&mdash; source: &ldquo;E.A.P. &amp; T. admin.&rdquo;</span></div>
+  <div><span class="tag keep">KEEP</span> &nbsp;<b>year_end 1898</b> <span class="src">&mdash; source: &ldquo;1896-7-8&rdquo; (chained range expands to 1898)</span></div>
+  <div><span class="tag correct">CORRECT</span> &nbsp;&ldquo;air minister&rdquo; &rarr; <b>Air Ministry</b> <span class="src">&mdash; source: &ldquo;air min.&rdquo;</span></div>
+  <div><span class="tag correct">CORRECT</span> &nbsp;&ldquo;Calentyn&rdquo; &rarr; <b>Calpentyn</b> <span class="src">&mdash; source: &ldquo;Calpentyn, 1864&rdquo;</span></div>
+  <div><span class="tag drop">DROP</span> &nbsp;&ldquo;colonial&rdquo; (place) <span class="src">&mdash; source: &ldquo;mil. serv., 1932&ndash;46, col.&rdquo; (col. = colonel, not a place)</span></div>
+  <div><span class="tag drop">DROP</span> &nbsp;year_end 1949 <span class="src">&mdash; inferred between &ldquo;&hellip;1948&rdquo; and &ldquo;&hellip;1950&rdquo;; never printed</span></div>
+</div>
+
+<h2>Result</h2>
+<div class="cards">
+  <div class="card"><div class="n">2,111</div><div class="l">Values restored</div></div>
+  <div class="card"><div class="n">36,167</div><div class="l">Reviewed structs</div></div>
+  <div class="card"><div class="n">0</div><div class="l">Quote-gate failures</div></div>
+  <div class="card"><div class="n">12,591</div><div class="l">Places to ground next</div></div>
+</div>
+<p>The merge folded <strong>2,111 quote-verified values</strong> back into the corpus &rarr; <span class="mono">llm_struct_corpus.reviewed.jsonl</span> (36,167 records, line-for-line matching the validated corpus). The 31 keep/correct verdicts <em>not</em> restored were whole-event flags whose <span class="mono">year_start</span> is a non-integer string (e.g. <span class="mono">&ldquo;October,&nbsp;1892&rdquo;</span>) &mdash; the gate declines to auto-restore those, the conservative behaviour. A fresh grounding work-list of <strong>12,591 distinct ungrounded places</strong> was regenerated on the reviewed output.</p>
+
+<div class="panel ok"><strong>Zero false positives preserved.</strong> Every one of the 2,111 restorations is backed by an exact substring of the person's printed biography, re-checked at merge time. A spot-check of 10 random keep/correct verdicts confirmed all 10 quotes are genuinely present in source.</div>
+
+<h3>A note on how Stage&nbsp;2 actually ran</h3>
+<p class="panel warn">The original plan fanned out 17 independent Sonnet review agents in parallel. After a usage-limit incident and a wedged background-agent runner, the approach was revised mid-flight: a free deterministic pre-filter was added to absorb the mechanical cases, and the residue was reviewed in-session by the main model in small, durable, incrementally-written batches. Three agent batches (006/014/017) survive from the first attempt; the rest were done in the main loop. The pre-filter and the two-phase, resumable runbook are now committed to the repository.</p>
+
+<h2>Artifacts produced</h2>
+<table>
+  <thead><tr><th>Path</th><th>Contents</th></tr></thead>
+  <tbody>
+    <tr><td><span class="mono">data/kg/llm_struct_corpus.reviewed.jsonl</span></td><td>Reviewed corpus, 36,167 structs with confirmed restorations</td></tr>
+    <tr><td><span class="mono">data/kg/review/llm_review_verdicts.jsonl</span></td><td>All 2,636 keep/correct/drop verdicts with source quotes</td></tr>
+    <tr><td><span class="mono">data/kg/review/verdicts/&hellip;</span></td><td>Per-batch verdicts + <span class="mono">emit_0NN.py</span> decision scripts (reproducible record)</td></tr>
+    <tr><td><span class="mono">data/kg/places_worklist.jsonl</span></td><td>12,591 distinct ungrounded places for the next grounding pass</td></tr>
+    <tr><td><span class="mono">kg_prefilter.py</span></td><td>Deterministic pre-filter (acronym + chained-range auto-confirm)</td></tr>
+    <tr><td><span class="mono">docs/REVIEW_RUN.md</span></td><td>Two-phase, resumable runbook</td></tr>
+  </tbody>
+</table>
+
+<footer>
+  Generated 2026-06-20 &middot; col_matching &middot; branch <span class="mono">kg-postnorm-and-flag-review</span><br>
+  Stage&nbsp;1: local Qwen&nbsp;3.6 structurer + deterministic validator &middot; Stage&nbsp;2: Python pre-filter, Claude Sonnet agents, Claude Opus&nbsp;4.8 (1M) main-loop review. All figures computed directly from the on-disk verdict and corpus files.
+</footer>
+
+</div>
+</body>
+</html>

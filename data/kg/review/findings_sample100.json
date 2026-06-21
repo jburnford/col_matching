@@ -1,0 +1,409 @@
+[
+ {
+  "slice": "1-20",
+  "reviewed": 20,
+  "clean": 10,
+  "findings": [
+   {
+    "idx": 5,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "off.->officer should be office"
+   },
+   {
+    "idx": 641,
+    "category": "NAME_PARSE",
+    "severity": "minor",
+    "note": "SIR folded into given_names"
+   },
+   {
+    "idx": 959,
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "note": "desps. dropped"
+   },
+   {
+    "idx": 1913,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   },
+   {
+    "idx": 3503,
+    "category": "MISSED_EDUCATION",
+    "severity": "minor",
+    "note": "degrees dropped"
+   },
+   {
+    "idx": 3821,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   },
+   {
+    "idx": 4139,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "position garbled"
+   },
+   {
+    "idx": 4775,
+    "category": "NAME_PARSE",
+    "severity": "minor",
+    "note": "dropped 3rd initial"
+   },
+   {
+    "idx": 5729,
+    "category": "TERMINAL",
+    "severity": "major",
+    "note": "invented resigned (null year)"
+   },
+   {
+    "idx": 6047,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "off.->officer should be office"
+   }
+  ]
+ },
+ {
+  "slice": "21-40",
+  "reviewed": 20,
+  "clean": 7,
+  "findings": [
+   {
+    "idx": 6683,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "col.->colonial should be colony"
+   },
+   {
+    "idx": 7001,
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "note": "desps. dropped"
+   },
+   {
+    "idx": 7319,
+    "category": "ACTING_FLAG",
+    "severity": "minor",
+    "note": "temp.->acting"
+   },
+   {
+    "idx": 7637,
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "note": "2nd stint dropped"
+   },
+   {
+    "idx": 7955,
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "note": "dated positions dropped"
+   },
+   {
+    "idx": 7955,
+    "category": "OTHER",
+    "severity": "minor",
+    "note": "concatenated 2nd bio dropped (OCR merge)"
+   },
+   {
+    "idx": 8273,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "ditto literal"
+   },
+   {
+    "idx": 8273,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   },
+   {
+    "idx": 8591,
+    "category": "MISSED_EDUCATION",
+    "severity": "minor",
+    "note": "D.Litt dropped"
+   },
+   {
+    "idx": 8591,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "gov. body->governor body"
+   },
+   {
+    "idx": 8909,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   },
+   {
+    "idx": 9545,
+    "category": "TERMINAL",
+    "severity": "major",
+    "note": "invented resigned (null year)"
+   },
+   {
+    "idx": 10817,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   },
+   {
+    "idx": 11135,
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "note": "dated 1869 appt dropped"
+   },
+   {
+    "idx": 11453,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "col.->colonial should be colony"
+   },
+   {
+    "idx": 12089,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "gov.->governor should be government"
+   }
+  ]
+ },
+ {
+  "slice": "41-60",
+  "reviewed": 20,
+  "clean": 12,
+  "findings": [
+   {
+    "idx": 13043,
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "note": "D.C.L. dropped"
+   },
+   {
+    "idx": 14633,
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "note": "treasury service dropped"
+   },
+   {
+    "idx": 15269,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "col.->colonial + ditto literal"
+   },
+   {
+    "idx": 15269,
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "note": "thanks of L.G.B. dropped"
+   },
+   {
+    "idx": 15587,
+    "category": "OTHER",
+    "severity": "minor",
+    "note": "education abbrev garble Univ.C.T.->university court"
+   },
+   {
+    "idx": 15905,
+    "category": "OTHER",
+    "severity": "minor",
+    "note": "invented year_end==year_start"
+   },
+   {
+    "idx": 17495,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "gov.->governor should be government"
+   },
+   {
+    "idx": 17813,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "min.->minister should be ministry"
+   },
+   {
+    "idx": 18449,
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "note": "A.M.Inst.C.E. dropped"
+   },
+   {
+    "idx": 18449,
+    "category": "ACTING_FLAG",
+    "severity": "minor",
+    "note": "temp.->acting"
+   },
+   {
+    "idx": 18449,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "min.->minister should be ministry"
+   }
+  ]
+ },
+ {
+  "slice": "61-80",
+  "reviewed": 20,
+  "clean": 13,
+  "findings": [
+   {
+    "idx": 20357,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "off.->officer should be office"
+   },
+   {
+    "idx": 20675,
+    "category": "MISSED_EVENT",
+    "severity": "major",
+    "note": "dated 1889 transfer dropped"
+   },
+   {
+    "idx": 21629,
+    "category": "WRONG_DATE",
+    "severity": "minor",
+    "note": "year_end<year_start (invented)"
+   },
+   {
+    "idx": 22265,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   },
+   {
+    "idx": 23219,
+    "category": "WRONG_PLACE",
+    "severity": "minor",
+    "note": "place inferred not in source"
+   },
+   {
+    "idx": 24491,
+    "category": "NAME_PARSE",
+    "severity": "major",
+    "note": "honorary SIR folded into name"
+   },
+   {
+    "idx": 24491,
+    "category": "OTHER",
+    "severity": "minor",
+    "note": "KT BACH split"
+   },
+   {
+    "idx": 24809,
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "note": "desps. dropped"
+   },
+   {
+    "idx": 24809,
+    "category": "WRONG_PLACE",
+    "severity": "minor",
+    "note": "title fragment as place"
+   },
+   {
+    "idx": 24809,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   }
+  ]
+ },
+ {
+  "slice": "81-100",
+  "reviewed": 20,
+  "clean": 9,
+  "findings": [
+   {
+    "idx": 25445,
+    "category": "NAME_PARSE",
+    "severity": "major",
+    "note": "initial dropped, mis-filed as honour"
+   },
+   {
+    "idx": 25763,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "min.->minister should be ministry"
+   },
+   {
+    "idx": 27035,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "gov.->governor should be government"
+   },
+   {
+    "idx": 27353,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "Sec.Sch.->secretary school (Secondary)"
+   },
+   {
+    "idx": 27671,
+    "category": "NAME_PARSE",
+    "severity": "major",
+    "note": "peerage string folded into name"
+   },
+   {
+    "idx": 27671,
+    "category": "WRONG_PLACE",
+    "severity": "major",
+    "note": "position fragments as place"
+   },
+   {
+    "idx": 27671,
+    "category": "MISSED_HONOUR",
+    "severity": "minor",
+    "note": "desps./medal dropped"
+   },
+   {
+    "idx": 28625,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   },
+   {
+    "idx": 28625,
+    "category": "MISSED_EVENT",
+    "severity": "minor",
+    "note": "summary offices dropped"
+   },
+   {
+    "idx": 28943,
+    "category": "OTHER",
+    "severity": "minor",
+    "note": "invented year_end from next event"
+   },
+   {
+    "idx": 29261,
+    "category": "NAME_PARSE",
+    "severity": "major",
+    "note": "LIEUT.-GENERAL SIR folded"
+   },
+   {
+    "idx": 30215,
+    "category": "POSITION_GARBLED",
+    "severity": "minor",
+    "note": "min.->minister should be ministry"
+   },
+   {
+    "idx": 30215,
+    "category": "INHERITANCE",
+    "severity": "minor",
+    "note": "inherited true, place null"
+   },
+   {
+    "idx": 30533,
+    "category": "NAME_PARSE",
+    "severity": "major",
+    "note": "THE HON. folded, initial dropped"
+   },
+   {
+    "idx": 30851,
+    "category": "NAME_PARSE",
+    "severity": "major",
+    "note": "CAPTAIN folded into name"
+   }
+  ]
+ }
+]

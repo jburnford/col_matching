@@ -89,6 +89,48 @@ def query_for(place: str) -> str:
     return " ".join(out)
 
 
+# --- place-noise guard (FLAG, do not drop) --------------------------------
+# Non-geographic values the structurer sometimes lands in `place` (war/campaign
+# names, months, languages, conflict phrasing). They would pollute the Wikidata
+# worklist. We FLAG them (with a reason) so grounding can skip/route them for
+# review — nothing is removed from the worklist. A value the gazetteer recognises
+# as a real place is never flagged (rescue), so abbreviations like "T.T." stay.
+from .normalize import MONTH_ABBREV as _MONTHS_ABBR
+
+_MONTH_KEYS = set(_MONTHS_ABBR) | {m.lower() for m in _MONTHS_ABBR.values()}
+_WAR = re.compile(
+    r"\b(war|campaign|expe?dn?|expedition|rebellion|rising|mutiny|punitive|"
+    r"operations|siege|relief of|frontier force|expeditionary)\b", re.I)
+_CONFLICT_PHRASE = re.compile(r"\b(against|in connection with)\b", re.I)
+_LANGUAGES = {"swahili", "hausa", "arabic", "tamil", "urdu", "hindustani",
+              "chinese", "persian", "yoruba", "twi", "malayalam", "telugu"}
+
+
+def suspected_noise(place: str, known=None) -> tuple[bool, str]:
+    """Is ``place`` likely NOT a geographic place? Returns (flag, reason).
+    ``known`` is an optional callable (e.g. a gazetteer lookup) that rescues a
+    value it recognises as a real place. High precision — only clear non-places
+    are flagged, since a flag steers grounding to skip the value."""
+    p = (place or "").strip()
+    if not p:
+        return (False, "")
+    if known and known(p):
+        return (False, "")
+    key = re.sub(r"[^a-z]", "", p.lower())
+    if key in _MONTH_KEYS:
+        return (True, "month name")
+    # language only when the whole place is a single plain word (avoid abbrevs
+    # like "T.W.I." collapsing to "twi")
+    if re.fullmatch(r"[A-Za-z]+", p) and p.lower() in _LANGUAGES:
+        return (True, "language name")
+    # war/campaign — but NOT institutions like "War Office"/"War Dept."
+    if _WAR.search(p) and not re.search(r"\bwar\s+(office|dept|department|memorial)\b", p, re.I):
+        return (True, "war/campaign term")
+    if _CONFLICT_PHRASE.search(p):
+        return (True, "conflict-context phrase")
+    return (False, "")
+
+
 # --- verification of get_statements output --------------------------------
 _P31 = re.compile(r"instance of \(P31\):\s*(.+?)\s*\(Q\d+\)")
 _P17 = re.compile(r"country \(P17\):.*?\((Q\d+)\)")
