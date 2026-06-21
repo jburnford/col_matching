@@ -80,6 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
+- Latest: **batch 009 done — coverage 87% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -149,6 +150,27 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   secrt., Western system), compounds (Canada and W. Indies, Egypt and Pal.), ambiguous bare
   names (St. Michael's, Aro, Perak North), no-entity (Kikuyu Prov.), OCR fragment (igua).
   Two-Praso ambiguity resolved: Prahsue→Assin Praso Q20118773 (the historical Pra-river camp).
+- Batch 009 done: 62 grounded / 38 skipped; coverage holds at **87%** of 168,301 mentions
+  (count-9–10 tail; low per-item counts so % is flat). SA/Ceylon/Malaya/Caribbean town run
+  (Standerton, Robertson, Benoni, Kuruman, Tulbagh, Eshowe, Dikoya, Kalutara←Caltura, Kinta
+  District, Pasir Puteh, Sandakan, Corozal←Corosal, Abaco Islands). Renamed-town folds:
+  Maritzburg→Pietermaritzburg Q185591, Joh'burg→Johannesburg, Somerset East→KwaNojoli Q1021900,
+  Roberts Heights→Thaba Tshwane Q7708831, Negapatam→Nagapattinam, Winnebah→Winneba. Historical
+  polities: British Kaffraria Q918121, British Central Africa Protectorate Q2642989 (B. C. Africa
+  protectorate), Orange Free State Province Q1971200 (O.F.S.), Union of South Africa Q193619
+  (S. Afr./Union S. Africa), British Windward Islands Q2660774 (Windward Is. (Grenada)), British
+  Guiana Q918126 (Br. G.), Essequibo colony Q1368792, Griqualand West Q2547918 (Diamond Fields).
+  Inns of Court grounded as place nodes: Middle Temple Q925942 (Mid. Tem.), Lincoln's Inn Q69482.
+  Whitehall→road Q214820. Quebec→modern province Q176 (corpus is 1860s+, not the 1763 colony).
+  Skips: ambiguous initialisms (I.O., G.W.R., N.P., W.P., K.L., U.F.O., N.W.R., E.P.), compounds
+  (Carlsruhe and Darmstadt, Selangor and Negri Sembilan, Natal and Zululand, Chilaw and Puttalam,
+  Lagos and S. Nigeria, N. and S. America, Basutoland Bech. protectorate and Swaz., T.R. and P.S.,
+  W. E. Africa protectorate), generics (northern district, Colony, protectorate, home, Eastern
+  Prov., fedl. government, N.W. prov., district "A"), institutions/military (I.C.T.A., Georgetown
+  prison, H.M.S. "Worcester", R.A.F.), ambiguous bare names (St. George West, Portland), no-clean-
+  entity (L. Islds., Dal, N. Russia, Klip River division, Karene District, Berbice judicial
+  district, Cleveland Divn. of N. Riding). Reused cross-search QIDs without re-searching: Lincoln's
+  Inn (from Middle Temple search), British Guiana (from Essequibo/Berbice searches).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
