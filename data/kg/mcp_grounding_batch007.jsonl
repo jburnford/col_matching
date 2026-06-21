@@ -1,0 +1,100 @@
+{"query":"Puttalam kach.","qid":"Q3088741","label":"Puttalam","country_qid":"Q854","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"San Fernando Trinidad","qid":"Q1023712","label":"San Fernando","country_qid":"Q754","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Batu Pahat","qid":"Q2891912","label":"Batu Pahat","country_qid":"Q833","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"B. Pahat","qid":"Q2891912","label":"Batu Pahat","country_qid":"Q833","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Simla","qid":"Q83786","label":"Shimla","country_qid":"Q668","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Ulu Kelantan","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Kalutara kach.","qid":"Q1295530","label":"Kalutara","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Durham","qid":"Q179815","label":"Durham","country_qid":"Q21","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Lichtenburg","qid":"Q2671213","label":"Lichtenburg","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Potchefstroom","qid":"Q605167","label":"Potchefstroom","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Manila","qid":"Q1461","label":"Manila","country_qid":"Q928","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Matara kach.","qid":"Q13360574","label":"Matara","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Belgium","qid":"Q31","label":"Belgium","country_qid":"Q31","instance_of":["country"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Matabeleland","qid":"Q1266775","label":"Matabeleland","country_qid":"Q954","instance_of":["region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Harrispattu","qid":"Q5657965","label":"Harispattuwa Divisional Secretariat","country_qid":"Q854","instance_of":["divisional secretariat"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"N'Eliya","qid":"Q1340579","label":"Nuwara Eliya","country_qid":"Q854","instance_of":["human settlement"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Suakim","qid":"Q571215","label":"Suakin","country_qid":null,"instance_of":["port"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Manaar","qid":"Q1280127","label":"Mannar","country_qid":"Q854","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"D'Urban Natal","qid":"Q5468","label":"Durban","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Africa","qid":"Q15","label":"Africa","country_qid":null,"instance_of":["continent"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"K.A.R.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"H.O.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Selangor and N. Sembilan","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"B.E.F.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"interior","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"western province","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"E.A.V.R.O.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Penang and Prov. Wellesley","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"N. York","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Admiralty","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"S.P.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"district B","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Tembuland and Transkei","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Egypt and Palestine","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Niger","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Richmond","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Barkly","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Griqualand","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"N. Frontier","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"N. division","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"southern province","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"S.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"C.R.O.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"South district New Territories","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Baltic","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"K.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"D.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"K. and Irak","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"S.S.C.S.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"St. Thomas","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Nairobi prison","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Inst. medical Resch. Federated Malay States","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Transvaal Prov.","qid":"Q190959","label":"Transvaal Province","country_qid":"Q258","instance_of":["former province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Humansdorp","qid":"Q2119634","label":"Humansdorp","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Lucknow","qid":"Q47916","label":"Lucknow","country_qid":"Q668","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Zambia","qid":"Q953","label":"Zambia","country_qid":"Q953","instance_of":["country"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Windhoek","qid":"Q3935","label":"Windhoek","country_qid":"Q1030","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Br. Somaliland","qid":"Q662653","label":"British Somaliland","country_qid":null,"instance_of":["protectorate"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"B.C.A. protectorate (now Nyasaland)","qid":"Q2642989","label":"British Central Africa Protectorate","country_qid":null,"instance_of":["protectorate"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Plaines Wilhems","qid":"Q1053595","label":"Plaines Wilhems District","country_qid":"Q1027","instance_of":["district"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Keiskama Hoek","qid":"Q3644445","label":"Keiskammahoek","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Northern division Bechuanaland","qid":"Q747314","label":"Bechuanaland Protectorate","country_qid":null,"instance_of":["protectorate"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Tembuland","qid":"Q7781208","label":"Thembuland","country_qid":"Q258","instance_of":["region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"East Griqualand","qid":"Q5157575","label":"Griqualand East","country_qid":null,"instance_of":["historical region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Prince Edward's Island","qid":"Q1978","label":"Prince Edward Island","country_qid":"Q16","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Krobo","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Kokstad","qid":"Q1671256","label":"Kokstad","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Bredasdorp","qid":"Q1640898","label":"Bredasdorp","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Sutlej","qid":"Q171675","label":"Sutlej","country_qid":null,"instance_of":["river"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"district of Moka","qid":"Q911643","label":"Moka District","country_qid":"Q1027","instance_of":["district"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Montserrat Leeward Islands","qid":"Q13353","label":"Montserrat","country_qid":null,"instance_of":["island"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Hong Kong Observatory","qid":"Q1537282","label":"Hong Kong Observatory","country_qid":null,"instance_of":["meteorological organization"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Royal Observatory Hong Kong","qid":"Q1537282","label":"Hong Kong Observatory","country_qid":null,"instance_of":["meteorological organization"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Vasse Western Australia","qid":"Q7916922","label":"Vasse","country_qid":"Q408","instance_of":["suburb"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Pietersburg","qid":"Q131662","label":"Polokwane","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Barberton","qid":"Q807828","label":"Barberton","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Germiston","qid":"Q993721","label":"Germiston","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Winburg","qid":"Q238991","label":"Winburg","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Boshof","qid":"Q2256832","label":"Boshof","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Pietermaritzburg Natal","qid":"Q185591","label":"Pietermaritzburg","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Piquetberg","qid":"Q2006534","label":"Piketberg","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Paphos","qid":"Q180918","label":"Paphos","country_qid":"Q229","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Hlatikulu","qid":"Q3235603","label":"Hlatikulu","country_qid":"Q1050","instance_of":["settlement"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Warri","qid":"Q109322776","label":"Warri","country_qid":"Q1033","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Port Alfred","qid":"Q1693203","label":"Port Alfred","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"New Amsterdam","qid":"Q923811","label":"New Amsterdam","country_qid":"Q734","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Kingstown","qid":"Q41474","label":"Kingstown","country_qid":"Q757","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Graham's Town","qid":"Q951161","label":"Makhanda (Grahamstown)","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Manukau","qid":"Q986198","label":"Manukau City","country_qid":"Q664","instance_of":["former territorial authority"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"N. Guinea","qid":"Q40285","label":"New Guinea","country_qid":null,"instance_of":["island"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Igarra","qid":"Q30671991","label":"Igarra","country_qid":"Q1033","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Kuala Kubu","qid":"Q684062","label":"Kuala Kubu Bharu","country_qid":"Q833","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Britstown","qid":"Q849888","label":"Britstown","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Port Nolloth","qid":"Q993170","label":"Port Nolloth","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Pt. Pedro","qid":"Q2307889","label":"Point Pedro","country_qid":"Q854","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Taipo in addn.","qid":"Q1758870","label":"Tai Po","country_qid":null,"instance_of":["area"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"N.W. Territories","qid":"Q2007","label":"Northwest Territories","country_qid":"Q16","instance_of":["territory"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Warwick","qid":"Q549761","label":"Warwick","country_qid":"Q21","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Ulu Pahang","qid":"Q107283722","label":"Ulu Pahang","country_qid":"Q833","instance_of":["historical district"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Elsenburg. Mulder's Vlei","qid":"Q17088933","label":"Elsenburg Agricultural Training Institute","country_qid":"Q258","instance_of":["agricultural college"],"has_coords":true,"match_type":"mcp_unverified"}
