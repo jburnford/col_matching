@@ -87,6 +87,11 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Union, North, Selangor and Pahang, Mauritius and Rodrigues, Kenya and Uganda,
   S. Sttlmts. and F.M.S., Malay States, E. Africa and Uganda Prots., N.R., T.W.I.,
   Kenya Uga. and T.T.); coverage now **83%** of 168,301 mentions.
+- Batch 004 done: 91 grounded / 9 skipped (Commonwealth, Dominion, South, district A.,
+  N.W. district, S.S. & F.M.S., Transvaal and O.R.C., France and Belgium,
+  E. Africa and Uganda); coverage now **84%** of 168,301 mentions. `kach.`/`kachcheri`
+  Ceylon entries grounded to their town (Kurunegala/Anuradhapura/Jaffna); B.C./N.C./Br.
+  abbreviations resolved (British Central Africa, Niger Coast, British Bechuanaland).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
