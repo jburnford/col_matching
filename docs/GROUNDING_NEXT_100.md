@@ -131,6 +131,24 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Niger, district B), ambiguous bare names (Richmond, Barkly, Griqualand, St. Thomas, N. York,
   N. Frontier), institutions w/o clean QID (Nairobi prison, Inst. medical Resch. F.M.S.),
   no-entity (Ulu Kelantan, Krobo).
+- Batch 008 done: 85 grounded / 15 skipped; coverage now **87%** of 168,301 mentions
+  (count-10–11 tail). Heavy SA/Ceylon/Malaya/Guyana/Caribbean town run. Historical polities
+  grounded: South African Republic Q550374 (S. African Repub./Republic), British Solomon
+  Islands Q13410267 (Solomon Is./Br. Sol. Is.), South-West Africa Q953068 (S.W.A.), Southern/
+  Northern Nigeria Protectorate, Federation of Nigeria Q5440850 (Fed. Nig.), Northern Territories
+  of the Gold Coast Q1998749, Ellice Islands Q3593530, Dominion of Newfoundland Q38610 (Newfndl.),
+  Orange Free State Province (O.F.S.), British Virgin Islands (Virgin Islds.), Cyrenaica.
+  Colonial-name folds: Lourenço Marques→Maputo, Rangoon→Yangon, Nanking→Nanjing, Pietersburg
+  →Polokwane, Province Wellesley→Seberang Perai. OCR/abbrev folds: Suakim already, Kurunégala/
+  Ratnapoora/Kégalla/Kaigalle→Ceylon towns, Pr. Ed. Is.→PEI, S. Settlimts.→Straits Settlements
+  Q376178, B. Padang→Batang Padang, P. Wellesley, Brun.→Brunei, Xmas I.→Christmas Island,
+  Lon.→London, Havre→Le Havre. Institutions/jurisdictions as place nodes: England and Wales
+  Q1156248, Greyville divn. of Durban Q131686477. Continent "Africa" already grounded prior batch.
+  Skips: ambiguous initialisms/abbrevs (Man., C.S.A.R., Lake Victoria area), generic words
+  (interior, eastern/western/southern province, board of education, defence headqrs., Nigerian
+  secrt., Western system), compounds (Canada and W. Indies, Egypt and Pal.), ambiguous bare
+  names (St. Michael's, Aro, Perak North), no-entity (Kikuyu Prov.), OCR fragment (igua).
+  Two-Praso ambiguity resolved: Prahsue→Assin Praso Q20118773 (the historical Pra-river camp).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
