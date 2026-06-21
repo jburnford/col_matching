@@ -1,0 +1,31 @@
+{"query": "Singapore", "count": 3261, "picked": "Q4373718", "picked_name": "Singapore Crown Colony", "alternatives": ["Q334", "Q4373718"]}
+{"query": "Canada", "count": 1835, "picked": "Q16", "picked_name": "", "alternatives": ["Q1121436", "Q16"]}
+{"query": "Sarawak", "count": 766, "picked": "Q1658411", "picked_name": "Sarawak", "alternatives": ["Q1658411", "Q5589708"]}
+{"query": "North Borneo", "count": 678, "picked": "Q1147441", "picked_name": "British North Borneo", "alternatives": ["Q1147441", "Q16933920"]}
+{"query": "Aden", "count": 554, "picked": "Q49910", "picked_name": "Aden Colony", "alternatives": ["Q17509767", "Q1865132", "Q49910"]}
+{"query": "Bechuanaland", "count": 494, "picked": "Q747314", "picked_name": "Bechuanaland Protectorate", "alternatives": ["Q4530733", "Q747314"]}
+{"query": "Newfoundland", "count": 462, "picked": "Q2984260", "picked_name": "Colony of Newfoundland", "alternatives": ["Q2984260", "Q38610"]}
+{"query": "New Brunswick", "count": 295, "picked": "Q1965", "picked_name": "", "alternatives": ["Q107499350", "Q1965"]}
+{"query": "British Columbia", "count": 270, "picked": "Q1973", "picked_name": "", "alternatives": ["Q1973", "Q918861"]}
+{"query": "Nova Scotia", "count": 227, "picked": "Q1952", "picked_name": "", "alternatives": ["Q1952", "Q98931415"]}
+{"query": "Bechuanaland protectorate", "count": 143, "picked": "Q747314", "picked_name": "Bechuanaland Protectorate", "alternatives": ["Q4530733", "Q747314"]}
+{"query": "British New Guinea", "count": 58, "picked": "Q2645837", "picked_name": "British New Guinea", "alternatives": ["Q1443945", "Q2645837"]}
+{"query": "Dominion of Canada", "count": 25, "picked": "Q16", "picked_name": "", "alternatives": ["Q1121436", "Q16"]}
+{"query": "British Bechuanaland", "count": 17, "picked": "Q4530733", "picked_name": "British Bechuanaland", "alternatives": ["Q4530733", "Q747314"]}
+{"query": "Aden protectorate", "count": 16, "picked": "Q1865132", "picked_name": "Aden Protectorate", "alternatives": ["Q17509767", "Q1865132", "Q49910"]}
+{"query": "New Guinea", "count": 12, "picked": "Q2645837", "picked_name": "British New Guinea", "alternatives": ["Q1443945", "Q2645837"]}
+{"query": "dominion of Canada", "count": 6, "picked": "Q16", "picked_name": "", "alternatives": ["Q1121436", "Q16"]}
+{"query": "Bechuanaland Protectorate", "count": 4, "picked": "Q747314", "picked_name": "Bechuanaland Protectorate", "alternatives": ["Q4530733", "Q747314"]}
+{"query": "British North Borneo", "count": 4, "picked": "Q1147441", "picked_name": "British North Borneo", "alternatives": ["Q1147441", "Q16933920"]}
+{"query": "province of Canada", "count": 4, "picked": "Q1121436", "picked_name": "Province of Canada", "alternatives": ["Q1121436", "Q16"]}
+{"query": "Province of Nova Scotia", "count": 3, "picked": "Q1952", "picked_name": "", "alternatives": ["Q1952", "Q98931415"]}
+{"query": "Aden Settlement", "count": 3, "picked": "Q17509767", "picked_name": "Aden Province", "alternatives": ["Q17509767", "Q1865132", "Q49910"]}
+{"query": "colony of British Columbia", "count": 2, "picked": "Q918861", "picked_name": "British Columbia (Colony)", "alternatives": ["Q1973", "Q918861"]}
+{"query": "Aden colony", "count": 2, "picked": "Q49910", "picked_name": "Aden Colony", "alternatives": ["Q17509767", "Q1865132", "Q49910"]}
+{"query": "Columbia", "count": 1, "picked": "Q1973", "picked_name": "", "alternatives": ["Q1973", "Q918861"]}
+{"query": "British North Borneo Company", "count": 1, "picked": "Q1147441", "picked_name": "British North Borneo", "alternatives": ["Q1147441", "Q16933920"]}
+{"query": "NOVA SCOTIA", "count": 1, "picked": "Q1952", "picked_name": "", "alternatives": ["Q1952", "Q98931415"]}
+{"query": "territory of New Guinea", "count": 1, "picked": "Q1443945", "picked_name": "Territory of New Guinea", "alternatives": ["Q1443945", "Q2645837"]}
+{"query": "province of New Brunswick", "count": 1, "picked": "Q1965", "picked_name": "", "alternatives": ["Q107499350", "Q1965"]}
+{"query": "Aden settlement", "count": 1, "picked": "Q17509767", "picked_name": "Aden Province", "alternatives": ["Q17509767", "Q1865132", "Q49910"]}
+{"query": "Aden Colony", "count": 1, "picked": "Q49910", "picked_name": "Aden Colony", "alternatives": ["Q17509767", "Q1865132", "Q49910"]}
