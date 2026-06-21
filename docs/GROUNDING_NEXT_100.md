@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 010 done — coverage 88% of 168,301 mentions** (see detail below).
+- Latest: **batch 011 done — coverage 88% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -194,6 +194,30 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   S. district New Territories), ambiguous bare names (St. John, Alexandra, Toledo, Rhod.,
   S. Renfrew, S. Australian, Heidelberg [Transvaal vs W.Cape vs Germany]), no-clean-entity
   (Zoutpansberg = only mountain range Soutpansberg, not the district; gr. I, gr. B OCR fragments).
+- Batch 011 done: 62 grounded / 38 skipped; coverage holds at **88%** of 168,301 mentions
+  (count-7–8 tail; low per-item counts so % is flat). Towns SA/Ceylon/Malaya/Caribbean/Canada/
+  Australia/NZ/UK/Middle East: Ixopo, Uniondale, Victoria West, Lydenburg, Boksburg, Senekal,
+  Couva/Tacarigua/Toco (Trinidad), Montego Bay, Townsville, Norwich, Harwich, Bradford, Cranbrook
+  (BC), Khartoum, Muscat, Tehran (Teheran), Hebron, Jaffa, Dar es Salaam, Benin City, Puttalam
+  (Putlam), Kegalle (Kegalla kach.), Alor Setar (Alor Star). Historical polities/regions: United
+  States of the Ionian Islands Q1063498 (Ionian Is.), Federation of South Arabia Q834486, Federated
+  Malay States Q1400154, British Bechuanaland Q4530733 (distinct from Bechuanaland Protectorate),
+  Griqualand East Q5157575, New Territories Q596660 (New Terrs./new terr.), Tokelau Q36823 (Union
+  Group/Union Islands), Trinidad and Tobago Q754, Saint Catherine Parish Jamaica, Saint Vincent
+  island Q379656, Pamplemousses District (Mauritius), Taranaki/Otago (NZ regions), Pilbara (Pilbarry,
+  WA), Terengganu (Treng.), Rotuma. Rivers as geographic nodes: Demerara River Q1185369 (Demerara/
+  Demerary), Mazaruni River Q1487312 (Massaruni). Langeberg→mountain range Q1734011. Institution as
+  place node: National Museum of Colombo Q2033487 (Colombo museum). Downing-street→Downing Street
+  Q192687. Key West→city Q485186. Reused prior-batch/cross-search QIDs: Newfoundland (Newfld./Newfd./
+  Newf'dld.→Q38610), British Solomon Islands, Niger Coast Protectorate, Inanda, Kimberley (Kimberley
+  Cape Colony), Durban (Durban division). Skips: military (U.D.F., Union defence forces, H.K.V.D.C.,
+  Trinidad local forces), companies/events (Imperial Brit. East Africa Compy., Br. Empire Exhibn.,
+  Alsagoff concession), initialisms (N.Y., C. Prov., C.A.D., C.O., F.A.P.), compounds (Berbice and
+  distcts., Straits Settlements and F.M.S., Perak and Dindings, Quebec and Washington, Fiji and W.
+  Pacific, Potchefstroom and Krugersdorp dists.), generics/ambiguous (Coast, E. Coast, America,
+  Malay, West Africa, northern territory, same constituency, Devonport, Perak South, South Dorset,
+  Egyptian government), OCR fragments/no-entity (N. tory, I, ma, Colo East, Trusan, Upper Tugela,
+  Bruas, Mano Salija, Toro.).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
