@@ -1,0 +1,100 @@
+{"query":"Penang","qid":"Q188096","label":"Penang","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Saint Vincent","qid":"Q379656","label":"Saint Vincent","country_qid":"Q757","instance_of":["island"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Malaya","qid":"Q871091","label":"British Malaya","country_qid":"Q833","instance_of":["historical territory"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Transvaal","qid":"Q1187978","label":"Transvaal Colony","country_qid":"Q258","instance_of":["colony"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Colombo","qid":"Q35381","label":"Colombo","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"London","qid":"Q84","label":"London","country_qid":"Q145","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Perak","qid":"Q188953","label":"Perak","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Saint Kitts","qid":"Q204989","label":"Saint Kitts","country_qid":"Q763","instance_of":["island"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Cape Town","qid":"Q5465","label":"Cape Town","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Selangor","qid":"Q189710","label":"Selangor","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Cape of Good Hope","qid":"Q370736","label":"Cape Colony","country_qid":"Q258","instance_of":["colony"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Tobago","qid":"Q185111","label":"Tobago","country_qid":"Q754","instance_of":["island"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kuala Lumpur","qid":"Q1865","label":"Kuala Lumpur","country_qid":"Q833","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Johore","qid":"Q183032","label":"Johor","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Saint Helena","qid":"Q34497","label":"Saint Helena","country_qid":"Q145","instance_of":["island"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Pretoria","qid":"Q3926","label":"Pretoria","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kandy","qid":"Q203197","label":"Kandy","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kedah","qid":"Q188947","label":"Kedah","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"England","qid":"Q21","label":"England","country_qid":"Q145","instance_of":["country"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"United Kingdom","qid":"Q145","label":"United Kingdom","country_qid":"Q145","instance_of":["country"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Pahang","qid":"Q191346","label":"Pahang","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Western Region Nigeria","qid":"Q3509075","label":"Western Region","country_qid":"Q1033","instance_of":["former region"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Ireland","qid":"Q22890","label":"Ireland","country_qid":null,"instance_of":["island"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Nevis","qid":"Q207794","label":"Nevis","country_qid":"Q763","instance_of":["island"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Eastern Region Nigeria","qid":"Q3509795","label":"Eastern Region","country_qid":"Q1033","instance_of":["former region"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Jaffna","qid":"Q215277","label":"Jaffna","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Sudan","qid":"Q541455","label":"Anglo-Egyptian Sudan","country_qid":"Q145","instance_of":["condominium"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Manitoba","qid":"Q1948","label":"Manitoba","country_qid":"Q16","instance_of":["province"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Matara","qid":"Q13360574","label":"Matara","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Accra","qid":"Q3761","label":"Accra","country_qid":"Q117","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Melbourne","qid":"Q3141","label":"Melbourne","country_qid":"Q408","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"West Indies","qid":"Q920396","label":"British West Indies","country_qid":"Q145","instance_of":["historical region"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Ottawa","qid":"Q1930","label":"Ottawa","country_qid":"Q16","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Durban","qid":"Q5468","label":"Durban","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Johannesburg","qid":"Q34647","label":"Johannesburg","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Ghana","qid":"Q117","label":"Ghana","country_qid":"Q117","instance_of":["country"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Seremban","qid":"Q847610","label":"Seremban","country_qid":"Q833","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Negeri Sembilan","qid":"Q213893","label":"Negeri Sembilan","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Negri Sembilan","qid":"Q213893","label":"Negeri Sembilan","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kinta","qid":"Q2781356","label":"Kinta District","country_qid":"Q833","instance_of":["district"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Badulla","qid":"Q390096","label":"Badulla","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kelantan","qid":"Q185944","label":"Kelantan","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Port Elizabeth","qid":"Q125434","label":"Gqeberha (Port Elizabeth)","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Paris","qid":"Q90","label":"Paris","country_qid":"Q142","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Sydney","qid":"Q3130","label":"Sydney","country_qid":"Q408","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Ipoh","qid":"Q271619","label":"Ipoh","country_qid":"Q833","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"German East Africa","qid":"Q153963","label":"German East Africa","country_qid":"Q43287","instance_of":["colony"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Washington","qid":"Q61","label":"Washington, D.C.","country_qid":"Q30","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kalutara","qid":"Q1295530","label":"Kalutara","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Trincomalee","qid":"Q323873","label":"Trincomalee","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Province Wellesley","qid":"Q1861984","label":"Seberang Perai (Province Wellesley)","country_qid":"Q833","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kurunegala","qid":"Q776887","label":"Kurunegala","country_qid":"Q854","instance_of":["town"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Burma","qid":"Q2376315","label":"British rule in Myanmar","country_qid":"Q145","instance_of":["historical period"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"China","qid":"Q29520","label":"China","country_qid":null,"instance_of":["country"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kegalla","qid":"Q1968268","label":"Kegalle","country_qid":"Q854","instance_of":["town"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Puttalam","qid":"Q3088741","label":"Puttalam","country_qid":"Q854","instance_of":["town"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kimberley","qid":"Q125905","label":"Kimberley","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Toronto","qid":"Q172","label":"Toronto","country_qid":"Q16","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Negombo","qid":"Q668616","label":"Negombo","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Ratnapura","qid":"Q508753","label":"Ratnapura","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Trengganu","qid":"Q189701","label":"Terengganu","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"New Providence","qid":"Q858513","label":"New Providence","country_qid":"Q778","instance_of":["island"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kuala Kangsar","qid":"Q1790832","label":"Kuala Kangsar","country_qid":"Q833","instance_of":["town"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Klang","qid":"Q856003","label":"Klang","country_qid":"Q833","instance_of":["town"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Batticaloa","qid":"Q810963","label":"Batticaloa","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kowloon","qid":"Q239143","label":"Kowloon","country_qid":"Q8646","instance_of":["region"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bloemfontein","qid":"Q37701","label":"Bloemfontein","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Larut","qid":"Q2694747","label":"Larut, Matang and Selama","country_qid":"Q833","instance_of":["district"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Georgetown","qid":"Q10717","label":"Georgetown","country_qid":"Q734","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kingston","qid":"Q34692","label":"Kingston","country_qid":"Q766","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"King William's Town","qid":"Q1016100","label":"Qonce (King William's Town)","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Port Louis","qid":"Q3929","label":"Port Louis","country_qid":"Q1027","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Matale","qid":"Q1540498","label":"Matale","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Capetown","qid":"Q5465","label":"Cape Town","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Chilaw","qid":"Q2495639","label":"Chilaw","country_qid":"Q854","instance_of":["town"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Nuwara Eliya","qid":"Q1340579","label":"Nuwara Eliya","country_qid":"Q854","instance_of":["town"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Calcutta","qid":"Q1348","label":"Kolkata","country_qid":"Q668","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Adelaide","qid":"Q5112","label":"Adelaide","country_qid":"Q408","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Pietermaritzburg","qid":"Q185591","label":"Pietermaritzburg","country_qid":"Q258","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Cape Coast","qid":"Q221283","label":"Cape Coast","country_qid":"Q117","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Rhodesia","qid":"Q750583","label":"Southern Rhodesia","country_qid":"Q145","instance_of":["self-governing colony"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Larnaca Cyprus","qid":"Q171882","label":"Larnaca","country_qid":"Q229","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"New Territories","qid":"Q596660","label":"New Territories","country_qid":"Q8646","instance_of":["region"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"West Australia","qid":"Q3206","label":"Western Australia","country_qid":"Q408","instance_of":["state"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Nassau","qid":"Q2467","label":"Nassau","country_qid":"Q778","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Nicosia","qid":"Q3856","label":"Nicosia","country_qid":"Q229","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Anuradhapura","qid":"Q5724","label":"Anuradhapura","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bridgetown","qid":"Q36168","label":"Bridgetown","country_qid":"Q244","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Freetown","qid":"Q3780","label":"Freetown","country_qid":"Q1044","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Geneva","qid":"Q71","label":"Geneva","country_qid":"Q39","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Rome","qid":"Q220","label":"Rome","country_qid":"Q38","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"France","qid":"Q142","label":"France","country_qid":"Q142","instance_of":["country"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Galle","qid":"Q319366","label":"Galle","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Port of Spain","qid":"Q39178","label":"Port of Spain","country_qid":"Q754","instance_of":["capital city"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"S.S. and F.M.S.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":null,"match_type":"ungrounded"}
+{"query":"F.M.S. and S.S.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":null,"match_type":"ungrounded"}
+{"query":"Ken. and Uga.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":null,"match_type":"ungrounded"}
+{"query":"N.S.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":null,"match_type":"ungrounded"}
+{"query":"C.A.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":null,"match_type":"ungrounded"}
+{"query":"N.T.","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":null,"match_type":"ungrounded"}
