@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 009 done — coverage 87% of 168,301 mentions** (see detail below).
+- Latest: **batch 010 done — coverage 88% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -171,6 +171,29 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   entity (L. Islds., Dal, N. Russia, Klip River division, Karene District, Berbice judicial
   district, Cleveland Divn. of N. Riding). Reused cross-search QIDs without re-searching: Lincoln's
   Inn (from Middle Temple search), British Guiana (from Essequibo/Berbice searches).
+- Batch 010 done: 62 grounded / 38 skipped; coverage now **88%** of 168,301 mentions
+  (count-8–9 tail). Towns across SA/Ceylon/Malaya/Caribbean/Canada/Australia/NZ/UK/Germany:
+  Standerton-style run incl. Ermelo, Graaff-Reinet, Mossel Bay, Riversdale, Verulam (Natal),
+  Jaffna, Kayts, Galagedara, Nuwara Eliya (N. Eliya), Kuala Lumpur, Malacca, Kuala Langat
+  (K. Langat), Lipis District, Batu Gajah (B. Gajah), Nibong Tebal (N. Tebal), Hulu Selangor
+  (U. Selangor), Lagos, Saltpond, Calabar (Old Calabar), Degema, Twillingate, Vancouver,
+  Brandon-style, S. Grafton (NSW), Adelaide, Dunedin, Buenos Aires, Mexico, Stuttgart, Dresden,
+  Cheltenham, Bexhill, Camberley-style Surrey/Suffolk/Ayrshire counties. Colonial polities/regions:
+  Sierra Leone Colony and Protectorate Q30059027 (S. Leone protectorate), Southern Cameroons
+  Q1542471 (S. Cameroons), Federation of Malaya Q1479726 (F. of Mal.), Ashanti Region Q398417
+  (Ashantee), United Provinces of Agra and Oudh Q2160037 (United Provs. India), Turks and Caicos
+  Q18221 (Caicos Is.), Transkei Q466551 (Transkeian Territories), Pondoland Q14555010, Uva
+  Province Q876293, Ra/Lomaiviti Fiji provinces, Turkana County, Waziristan/Tirah (NW frontier
+  regions), Berbera (Somaliland), Mukalla (Hadhramaut/Aden), Lake Ngami (N'Gami). Inner Temple
+  Q1233784 (Inner Tem.) as place node. Reused cross-search/prior-batch QIDs: Kurunegala (Kurunégalla/
+  Kornegalle), Straits Settlements (S. Stlimts.), Johannesburg (Jo'burg), South African Republic
+  (late S.A.R.), Newcastle Natal (Newcastle division), Diego Martin, Haifa, Hulu Selangor, Lomaiviti.
+  Skips: ambiguous initialisms (N.T. (North), N. P., E. A. P., M.V.I., Cams., Win., Maid., rlwys.),
+  compounds (Transvaal and O.F.S., F.M.S. and S. Sttlmts., Aden and Som.), military units (Fife
+  Artillery Militia, Lovat Scouts Yeomanry, Nigerian marine), generics (district C, West district,
+  S. district New Territories), ambiguous bare names (St. John, Alexandra, Toledo, Rhod.,
+  S. Renfrew, S. Australian, Heidelberg [Transvaal vs W.Cape vs Germany]), no-clean-entity
+  (Zoutpansberg = only mountain range Soutpansberg, not the district; gr. I, gr. B OCR fragments).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
