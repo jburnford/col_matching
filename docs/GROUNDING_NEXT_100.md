@@ -81,6 +81,15 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
+- Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
+  and saved to disk (was already in the cache, provenance file was missing).
+- Batch 003 done: 89 grounded / 11 skipped (compounds + ambiguous initialisms:
+  Union, North, Selangor and Pahang, Mauritius and Rodrigues, Kenya and Uganda,
+  S. Sttlmts. and F.M.S., Malay States, E. Africa and Uganda Prots., N.R., T.W.I.,
+  Kenya Uga. and T.T.); coverage now **83%** of 168,301 mentions.
+- NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
+  confirm `wc -l` matches the batch size — a stale file from a prior session will
+  double it. Record only the new tail (`tail -n +<N+1>`).
 - Cache schema = `col_match/kg/ground.py:make_row`; `emit.py` reads `gcache[place].qid`.
 - Colonies are pre-grounded from the manifest (`kg_join_manifest.py`); MCP handles
   only the town tail in `data/kg/places_worklist.mcp.jsonl`. See
