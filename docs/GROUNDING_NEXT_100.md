@@ -113,6 +113,24 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   folded: Matelle→Matale, Trincomalie→Trincomalee, Rotumah→Rotuma, Mannár→Mannar.
   Ambiguous city-names resolved by colonial-corpus default: Worcester→Western Cape,
   Belfast→N. Ireland, Nelson→New Zealand, Black River→Jamaica.
+- Batch 007 done: 66 grounded / 34 skipped; coverage holds at **86%** of 168,301 mentions
+  (count-11–14 tail; lower per-item counts so coverage % barely moves). Big SA/Ceylon/Malaya
+  town run grounded (Potchefstroom, Lichtenburg, Germiston, Winburg, Boshof, Britstown,
+  Bredasdorp, Kokstad, Port Alfred/Nolloth, Pietersburg→Polokwane, Pietermaritzburg,
+  Graham's Town→Makhanda; Kalutara/Matara/Puttalam/Harispattu "kach."/division; Batu Pahat,
+  Johor stuff). Historical polities: Br. Somaliland Q662653, B.C.A. Protectorate Q2642989,
+  Bechuanaland Protectorate Q747314 (Northern division→parent), Transvaal/Union of S.A.,
+  Griqualand East, Thembuland, Matabeleland. Institutions grounded as place nodes:
+  Hong Kong Observatory Q1537282 (=Royal Observatory HK), Elsenburg Agric. Institute.
+  OCR/abbrev folds: Suakim→Suakin, Manaar→Mannar, D'Urban→Durban, B. Pahat→Batu Pahat,
+  Simla→Shimla, N'Eliya→Nuwara Eliya, Piquetberg→Piketberg, Taipo→Tai Po. Continent "Africa"
+  grounded to Q15 (consistent with Australasia). Skips: ambiguous initialisms (S.P., S., K.,
+  D., H.O., C.R.O., K.A.R./B.E.F./E.A.V.R.O./S.S.C.S. military), compounds (Selangor and
+  N. Sembilan, Egypt and Palestine, Tembuland and Transkei, K. and Irak, Penang and Prov.
+  Wellesley), generics (interior, western/southern province, N. division, Admiralty, Baltic,
+  Niger, district B), ambiguous bare names (Richmond, Barkly, Griqualand, St. Thomas, N. York,
+  N. Frontier), institutions w/o clean QID (Nairobi prison, Inst. medical Resch. F.M.S.),
+  no-entity (Ulu Kelantan, Krobo).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
