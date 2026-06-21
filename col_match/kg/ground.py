@@ -28,22 +28,12 @@ from collections import Counter
 from pathlib import Path
 
 from ..services import gazetteer
+from . import place_canon
 
 CACHE = Path("data/kg/places_grounding.jsonl")
 
 # light, deterministic query cleanups (NOT colony guessing — just better search
-# strings). Expands a few printed abbreviations the OCR uses.
-_ABBREV_EXPAND = {
-    "s. sttlmts.": "Straits Settlements", "s. sttlnts.": "Straits Settlements",
-    "ss": "Straits Settlements", "f.m.s.": "Federated Malay States",
-    "n. nigeria": "Northern Nigeria", "s. nigeria": "Southern Nigeria",
-    "e. africa prot.": "East Africa Protectorate", "e.a.p.": "East Africa Protectorate",
-    "cape of good hope": "Cape of Good Hope", "c. of g.h.": "Cape of Good Hope",
-    "br. guiana": "British Guiana", "b. guiana": "British Guiana",
-    "br. honduras": "British Honduras", "b. honduras": "British Honduras",
-    "leeward is": "Leeward Islands", "windward is": "Windward Islands",
-}
-_NOISE = re.compile(r"^(the|of)\s+", re.I)
+# strings). Abbreviation expansion + variant collapse live in place_canon.
 
 
 def load_cache() -> dict[str, dict]:
@@ -72,21 +62,13 @@ def distinct_places(struct_path: Path, cache: dict[str, dict] | None = None) -> 
 
 
 def query_for(place: str) -> str:
-    """Build a clean search query from a printed place string.
+    """Build a clean MCP search query from a printed place string, expanding the
+    colonial territory abbreviations (``Nig.``->Nigeria, ``F.M.S.``->Federated
+    Malay States) and collapsing surface variants to one canonical form.
 
     'Penang, S. Sttlnts.' -> 'Penang Straits Settlements';
     'the Gambia' -> 'Gambia'; 'Ixopo, Natal' -> 'Ixopo Natal'."""
-    parts = [s.strip() for s in place.split(",") if s.strip()]
-    cleaned = []
-    for part in parts:
-        low = part.lower().rstrip(".")
-        cleaned.append(_ABBREV_EXPAND.get(low, _NOISE.sub("", part).strip()))
-    seen, out = set(), []
-    for w in cleaned:                       # de-dup while preserving order
-        if w.lower() not in seen:
-            seen.add(w.lower())
-            out.append(w)
-    return " ".join(out)
+    return place_canon.canonicalize(place)
 
 
 # --- place-noise guard (FLAG, do not drop) --------------------------------
@@ -116,6 +98,9 @@ def suspected_noise(place: str, known=None) -> tuple[bool, str]:
         return (False, "")
     if known and known(p):
         return (False, "")
+    inst, reason = place_canon.is_institution(p)
+    if inst:
+        return (True, reason)
     key = re.sub(r"[^a-z]", "", p.lower())
     if key in _MONTH_KEYS:
         return (True, "month name")
