@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 014 done — coverage 88% of 168,301 mentions** (see detail below).
+- Latest: **batch 015 done — coverage 89% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -304,6 +304,36 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   clean entity (South Nyasa, Corentyne Coast judicial, Kaffrarian outpost, West Simcoe), no-entity
   (Uganda Kingdom [Buganda vs Protectorate ambiguity], Noniti country, East Indies, various
   dists.), OCR fragments (Balapeta-Modera).
+- Batch 015 done: 56 grounded / 44 skipped; coverage now **89%** of 168,301 mentions
+  (count-5–6 tail). World cities/countries: Damascus Q3766, Cuba Q241, Siberia Q5428, Lomé Q3792,
+  Rhine Q584, Hawaii Q782, Great Britain Q23666, Mesopotamia Q11767 (Mespot.), Arabian Peninsula
+  Q31945 (Arabia), İzmir Q35997 (Smyrna), Xiamen Q68744 (Amoy), Allahabad→Prayagraj Q162442,
+  Meerut-style. Australia/NZ/Canada: Victoria BC Q2132, Onehunga Q3352699, Cook Islands Q26988,
+  Kings County NB Q1670967, New Zealand Q664 (N Z.), Australia Q408 (Aust.), Quebec Q176 (Que.).
+  SA towns: Bloemfontein-style — Kroonstad Q264014, Kenhardt Q3643099, Wepener Q841619, Fraserburg
+  Q2609896, Stutterheim Q1021884, Qonce Q1016100 (King Williamstown), Du Toit's Pan Q5310079
+  (Dutoitspan, Kimberley diamond mine). Ceylon: Colombo Q35381 (Colombo Kach./Columbo), Galle
+  Q319366, Hambantota Q1025283, Kalpitiya Q14220105 (Kalpitya). Malaya: Pahang Q191346, Rembau
+  Q2219158, Balik Pulau Q4850899, Port Klang Q11155122 (P. Swettenham = Port Swettenham). W./E.
+  Africa & islands: Serowe Q855634, Ngamiland Q3339267, Mangochi Q1890257 (Fort Johnston), Macuata
+  Q1365304 (Fiji), Savanne District Q1053600 (Mauritius), Salt Cay Q426843, Arima Q661405,
+  Kingstown Q41474 (Kingstown district), Stanley Q12245 (Falklands). Caribbean/UK: Stockton-on-Tees
+  Q989418, Waiapu River Q1764797. Historical polities (several reused): East Africa Protectorate
+  Q876185 (Brit. E. Africa / B.E.A. / E.A. protectorate — all → same), German East Africa Q153963,
+  British Somaliland Q662653 (Br. Som., reuse), Northern Nigeria Protectorate Q585408 (N. Prov.
+  Nigeria), Southern Nigeria Protectorate Q2062030 (Southern Provs. Nigeria, reuse), Natal Province
+  Q917867 (Natal prov. divn., reuse), Griqualand East Q5157575 (E. Griqualand, reuse), Malakand
+  Agency Q1820054 (the colonial-era entity, not the modern district). Skips: compounds (Sarawak N.
+  Borneo and Brunei, Antigua and St. Kitts, Sierra Leone and Gambia, N. and S. Nigeria, East Africa
+  and Uganda Prots., F.M.S. and S.S.), military (R.A.M.C., N.Z.E.F., Home Forces, B. Guiana local
+  forces/militia, E.A.T.R.O., engrg. headqrs.), institutions (Raffles Inst., St. John's savings
+  bank, D.P.W. F.M.S., L.C.C., Union H. of A. / H. of A. = House of Assembly), generic/directional
+  (Western Prov., Southern/central/east. division, district E/No. 1, U. Perak, S. Prov. Ashanti,
+  N. Frontier district, S. Eastern Prov., Lagos Hinterland, Union government, Egyptian), ambiguous
+  bare names (Bethlehem [Palestine vs Free State], Soufriere, Beaconsfield, Basse-terre [St Kitts vs
+  Guadeloupe], Samaria [region vs city]), unresolved-by-search (North Toronto Ontario, Umgeni
+  division — river search again empty, Kegalle [only Town-A/B GN divisions surface], Sadong [Sarawak
+  river/district, no clean settlement]), OCR fragment (New brides, B.).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
