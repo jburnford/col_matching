@@ -56,8 +56,16 @@ def cmd_pending(args):
                           "variants": variants}, ensure_ascii=False))
 
 
+def _read_results(path: str) -> list[dict]:
+    """Accept either a JSON array or JSONL (one object per line)."""
+    text = Path(path).read_text(encoding="utf-8").strip()
+    if text.startswith("["):
+        return json.loads(text)
+    return [json.loads(l) for l in text.splitlines() if l.strip()]
+
+
 def cmd_record(args):
-    results = json.loads(Path(args.results).read_text(encoding="utf-8"))
+    results = _read_results(args.results)
     wl = {r["query"]: r for r in _load_worklist()}
     n_rows = n_q = 0
     for res in results:
