@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 012 done — coverage 88% of 168,301 mentions** (see detail below).
+- Latest: **batch 013 done — coverage 88% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -242,6 +242,37 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Angoniland), ambiguous (Sutherland, Cross River [river vs state], Sydney House), no-clean-entity
   (Klip River/Lower Tugela divisions, Royal Alfred Observatory, Gopeng), OCR fragments (gr. A, Colo.
   E., d Coast, St. ia, anda, Kalu-, B/T., district D).
+- Batch 013 done: 48 grounded / 52 skipped; coverage holds at **88%** of 168,301 mentions
+  (count-6 tail; very low per-item counts so % is flat — skip rate rises here). World cities/
+  regions grounded: Rio de Janeiro Q8678, Kabul Q5838, Folkestone Q375314, Wembley Q146858,
+  Argentina Q414, Libya Q1016, Somerset Q23157 (English county), Victoria Australia Q36687,
+  Australia Q408 (Commonwealth of Austr.), New Brunswick Q1965 (also N. Bruns.). SA towns:
+  Heilbron, Hoopstad, Willowmore, Kuruman (Kuruman Br. Bech.), Nqamakwe (Ngamakwe), Bedford
+  Eastern Cape Q813857 (Bedford division). Ceylon: Kandy Q203197 (Kandy Kachcheri), Dambulla
+  Q377343 (Dambool), Chavakacheri Q1068504 (Chavagacherry). Malaya: Selangor Q189710 (Salangor),
+  Hulu Selangor Q2741737 (Ulu Selangor extension), Kota Bharu Q651131 (Khota Bharu). W. Africa:
+  Ibadan Q183298, Ada Foah Q345860 (Addah), Sekondi-Takoradi Q243293 (Secondee), Borgu Q893575,
+  Bunyoro Q889897, Kampala Q3894, Freetown Q3780, Méko Q33391468 (Meko W. Prov.). Caribbean:
+  Roseau Q36281, Saint Kitts island Q204989 (S. Kitts), Ragged Island Q1532634 (Bahamas).
+  Historical polities/regions: Transvaal Province Q190959 (Transvaal Provl. division), Southern
+  Nigeria Protectorate Q2062030 (Southern Provinces Nigeria, per batch 008), North-West Frontier
+  Province Q4412467, Rajputana Q3929733, Cape Colony Q370736 (C. of G.H. = Cape of Good Hope),
+  Tanganyika Territory Q158725, Western Samoa Trust Territory Q7988268 (W. Samoa, the 1920-62
+  period entity), Quthing Q1003318 (Basutoland/Lesotho). Geo/institution as place nodes: Kalahari
+  Desert Q47700, Royal Arsenal Q2170996 (Woolwich Arsenal), Horse Guards barracks Q492350, Flacq
+  District Q911651 (district of Flacq). Reused: Straits Settlements Q376178 (S. Settments./S.
+  Settlms.). Skips: compounds (S. and N. Rhodesia, Gold Coast and Lagos, Antigua and Montserrat,
+  Dikoya and Amella, Ashanti and N. Territories, France and Gallipoli, Mannar and Mullaittivu,
+  Bridgetown and St. Michael, Nadroga and Colo West, U.S.A. and Canada, Ken. Uga. and T.T.,
+  F.M.S. & S.S., S.S. and F.M.S., Hatton-Nuwara Eliya), directional fragments (S./N. Kedah, S.
+  Malacca, N. Australia), initialisms (D.P.W., O.S.O., Tob., Br. H., B. Pahang), institutions/
+  events (admiralty, Cape H. of A. = Cape House of Assembly, Crown Agents, Imp. Confce., Tyne
+  garrison, Inst. medical Research F.M.S.), generic/ambiguous (St. Mary, St. Andrew, Wodehouse,
+  Northern district, S. district Grenada, district C./F., East Coast, St. George East, King's
+  county, S. India, Colony and protectorate), no-clean-entity (West African Settlements / W.
+  Africa Sttlmts. — no distinct WD entity surfaced; Lower Tugela & Ndwandwe divisions; Fingoland;
+  Qua country; R. Honduras = Br. vs Republic ambiguity), OCR fragments (in addn., Apus, Midland
+  conservancy).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
