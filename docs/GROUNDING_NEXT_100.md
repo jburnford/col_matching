@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 011 done — coverage 88% of 168,301 mentions** (see detail below).
+- Latest: **batch 012 done — coverage 88% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -218,6 +218,30 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Malay, West Africa, northern territory, same constituency, Devonport, Perak South, South Dorset,
   Egyptian government), OCR fragments/no-entity (N. tory, I, ma, Colo East, Trusan, Upper Tugela,
   Bruas, Mano Salija, Toro.).
+- Batch 012 done: 63 grounded / 37 skipped; coverage holds at **88%** of 168,301 mentions
+  (count-6–7 tail). World cities/counties: Westminster, Stafford, Leicester, Northumberland,
+  Birkenhead, Leamington Spa, Barnet, Karlsruhe (Carlsruhe), Tokyo, Madrid, Russia, Spain, Panama,
+  Sicily, Paphos (Papho), Grevena, Eastern Rumelia (Eastern Roumelia), Khartoum, Tehran, Hebron,
+  Jaffa, Khyber Pass, Geelong, Port Darwin (→Darwin), Townsville-style; Canada: Fredericton,
+  Placentia, Bonaventure, Kingston Ont., Manitoba, Harbour Main; SA: Vereeniging, Lydenburg-style,
+  Onderstepoort, Griquatown (→Griekwastad), Glen Grey (→Lady Frere), Clanwilliam, Umlazi; Ceylon:
+  Kalpitiya, Colombo (Colombo Kachcheri/district), Karunegala (→Kurunegala); Caribbean: Bermuda,
+  Barbados, Montego Bay-style, Kingstown (St Vincent), Dieppe Bay Town, Tacarigua-style. Historical
+  polities/regions: Orange River Colony Q1142179 (O.R.C.), Cape Colony Q370736 (Cape Col.), South
+  African Republic Q550374 (S.A. Repub./South African Republic), United States of the Ionian Islands,
+  British rule in Burma Q2376315 (Burmah), Eastern Rumelia, Assam Q1164, Ijebu Ode Q1023726 (Jebu),
+  Yingkou Q75150 (Newchwang). Continents/big geo: North America Q49, Taiwan Q865 (Formosa), Lake
+  Malawi Q5532 (Lake Nyasa), Rukwa Lake Q1143935, Demerara/Mazaruni rivers (prior). Reused QIDs:
+  Straits Settlements (S. Sttlmnts./S. Sttlimts./Str. Settls.), Durban (D'Urban), Savanne District,
+  Msinga (Umsinga division), Bedford, Quebec (P.Q.), Port Antonio, Australia (Australian
+  Commonwealth), Otago. Skips: railways (Trinidad/Mal. rlwys.), military admin (O.E.T.A., Sandhurst,
+  Victoria Inst., Zanzibar govt), initialisms (B.B. and S., V.Is., W.P., N.Cent.Prov., S.S.E.A.P.),
+  compounds (N. Sembilan and Malacca, Point Pedro and Chavakachcheri, Wind. and Leeward Is., France
+  Gallipoli Salonica and Egypt, Selangor Negri Sembilan and Pahang, Ashanti and N. Territories,
+  Georgetown and East Bank Demerara), generics/regions (N./W. reg., West Africa settlements, Cent.
+  Angoniland), ambiguous (Sutherland, Cross River [river vs state], Sydney House), no-clean-entity
+  (Klip River/Lower Tugela divisions, Royal Alfred Observatory, Gopeng), OCR fragments (gr. A, Colo.
+  E., d Coast, St. ia, anda, Kalu-, B/T., district D).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
