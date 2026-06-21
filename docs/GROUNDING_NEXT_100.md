@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 016 done — coverage 89% of 168,301 mentions** (see detail below).
+- Latest: **batch 017 done — coverage 89% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -364,6 +364,40 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Alfred co., Vincent), districts/letters (district "A."/"C", St., P. W., Cols.), search-resistant
   (Vergenoegen, Stockenstrom, Inanda division, prov. of Zululand [only modern district / wrong-era
   bantustan surface], Plaisance, Panvila, Muka OCR).
+- Batch 017 done: 58 grounded / 42 skipped; coverage holds at **89%** of 168,301 mentions
+  (count-5 tail). World cities/towns: Toowoomba Q478302, Albury Q331764 (NSW), Yucatán
+  Q60176, Basra Q48195, Peshawar Q1113311, Bath Q22889 (Somerset, Old-World default),
+  Leominster Q550424, Worcestershire Q23135, Wakefield Q216638, Cheam Q2240615 (Sutton),
+  Antananarivo Q3915, Réunion Q17070, Alderney Q179313, New Westminster Q876122 (BC),
+  Ferryland Q927864 (both Newfndld./Newfndl. spellings). W. Africa: Dixcove Q1231673,
+  Abeokuta Q206484, Sokoto Q336350, Asaba Q1061665, Umuahia Q203301, Benin City Q320704
+  (bare "Benin"), Zaria Q147975, Akim Tafo Q20119033 ("Tafo, G.C."), Busoga Q691037 (Uganda
+  kingdom). Ceylon: Kegalle Q1968268, Peradeniya Q489744, Sabaragamuwa Province Q853272,
+  Hambantota Q1025283 (Hambantotte, reuse). SA/Natal: Port Elizabeth→Gqeberha Q125434 (both
+  "Cape Colony" and "Cape of Good Hope" variants), Weenen Q2096873, Msinga Local Municipality
+  Q278422 (Umsinga magistracy), Qonce Q1016100 (King William's Town, reuse), Pietermaritzburg
+  Q185591 (P.M. Burg., reuse). Malaya/Borneo/Pacific: Kinta District Q2781356, Rawang Q2072124
+  (Selangor), Sabah Q179029 (modern state, literal name), Suva Q38807, Balaclava Q4849747 (Vic.
+  suburb). Historical polities: Niger Coast Protectorate Q2566427 (all 3 "Oil Rivers/Oil Riv.
+  Proteo." variants → one entity), British Cameroons Q1028835 (Br. Cams.), British North Borneo
+  Q1147441 (N. Born., reused from Sabah search), Bengal Presidency Q817165, Province of Canada
+  Q1121436 (late province of Canada), British rule in Burma Q2376315 (British Burmah, reuse),
+  Gilbert and Ellice Islands Q1050859 (reuse), New Territories Q596660 (New Terr., reuse),
+  Syria Q858 (Syrian Republic — no clean period "Syrian Republic" entity surfaced). Bourke
+  county of Victoria Q5177825. Continents/regions grounded (consistent w/ Africa/N.America
+  precedent): North America Q49 (reuse), Caribbean Q664609. South Caicos Q1814473 (Cockburn
+  harbour = its main settlement). Nicosia Q3856 (Nikosia), Jerusalem Q1218 (reuse), Stanley
+  Q12245 (Falklands, reuse). Skips: compounds (Klip River and Weenen counties, Transkei and
+  Tembuland, Transvaal and Swaziland, Ken. and Uga. rlwys.), military (Rhine Army, W. African
+  F.F. = West African Frontier Force, Cape and African station), institutions (B.G. museum,
+  W.Pac.H.C., S. African parlt., legislative assem., Constantinople Embassy, Barb. Even. Inst.,
+  Maur. Inst., L.G.B. = Local Government Board, minister of supply), generics (Dependencies,
+  overseas, Union., Northern Provinces, Savanna), ambiguous initialisms (N. Border, L. Is.,
+  N. B., Vict., Sel., Ky., L. C., C.), electoral/division fragments (county of Quebec, Quebec
+  East, Mid Clarendon, New South, Inanda Division), ambiguous bare names (Mentone [Menton FR vs
+  Mentone Vic], Bath was kept but Lucia/Regent skipped), no-entity (Dumbara [valley near Kandy],
+  Amani [Tanganyika research station], Kissy [Freetown suburb — search empty x3], Mbaruk [person
+  name], Benin territories [region grouping]).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
