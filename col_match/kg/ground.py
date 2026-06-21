@@ -96,11 +96,14 @@ def suspected_noise(place: str, known=None) -> tuple[bool, str]:
     p = (place or "").strip()
     if not p:
         return (False, "")
-    if known and known(p):
-        return (False, "")
+    # institution check BEFORE the gazetteer rescue: office abbreviations like
+    # "C.O." are present in the gazetteer (as offices) and would otherwise be
+    # rescued as "known" and ground as a place.
     inst, reason = place_canon.is_institution(p)
     if inst:
         return (True, reason)
+    if known and known(p):
+        return (False, "")
     key = re.sub(r"[^a-z]", "", p.lower())
     if key in _MONTH_KEYS:
         return (True, "month name")

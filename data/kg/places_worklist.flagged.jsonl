@@ -1,13 +1,23 @@
-# 2137 non-geographic values FLAGGED out of grounding (institutions/offices/war terms) — kept for review, never grounded
+# 2159 non-geographic values FLAGGED out of grounding (institutions/offices/war terms) — kept for review, never grounded
+{"place": "C.O.", "count": 814, "query": "C.O.", "suspected_noise": true, "reason": "office abbrev (Colonial Office)"}
+{"place": "E.A.R. & H.", "count": 466, "query": "E.A.R. & H.", "suspected_noise": true, "reason": "office abbrev (East African Railways & Harbours)"}
 {"place": "E.A.P. & T. administration", "count": 465, "query": "E.A.P. & T. administration", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "F.M.S. railways", "count": 207, "query": "F.M.S. railways", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "E.A. posts and tels. department", "count": 182, "query": "E.A. posts and tels. department", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "K.U.R. & H.", "count": 161, "query": "K.U.R. & H.", "suspected_noise": true, "reason": "office abbrev (Kenya-Uganda Railways & Harbours)"}
+{"place": "E.A.R. and H.", "count": 136, "query": "E.A.R. and H.", "suspected_noise": true, "reason": "office abbrev (East African Railways & Harbours)"}
+{"place": "E.A.C.S.O.", "count": 110, "query": "E.A.C.S.O.", "suspected_noise": true, "reason": "office abbrev (East Africa Common Services Organisation)"}
 {"place": "Uganda railway", "count": 97, "query": "Uganda railway", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "E.A.H.C.", "count": 94, "query": "E.A.H.C.", "suspected_noise": true, "reason": "office abbrev (East Africa High Commission)"}
+{"place": "colonial office", "count": 65, "query": "colonial office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "S. African war", "count": 62, "query": "S. African war", "suspected_noise": true, "reason": "war/campaign term"}
+{"place": "K.U.R. and H.", "count": 62, "query": "K.U.R. and H.", "suspected_noise": true, "reason": "office abbrev (Kenya-Uganda Railways & Harbours)"}
+{"place": "Colonial Office", "count": 61, "query": "Colonial Office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "War Office", "count": 57, "query": "War Office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Tanganyika railways", "count": 56, "query": "Tanganyika railways", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Queen's college", "count": 55, "query": "Queen's college", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Nigerian railway", "count": 54, "query": "Nigerian railway", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "W. Pac. H.C.", "count": 52, "query": "W. Pac. H.C.", "suspected_noise": true, "reason": "office abbrev (Western Pacific High Commission)"}
 {"place": "Pal. police", "count": 52, "query": "Pal. police", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Mal. rlwy.", "count": 44, "query": "Mal. rlwy.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "S. African War", "count": 43, "query": "S. African War", "suspected_noise": true, "reason": "war/campaign term"}
@@ -16,15 +26,20 @@
 {"place": "public works department", "count": 40, "query": "public works department", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "W.O.", "count": 39, "query": "W.O.", "suspected_noise": true, "reason": "office abbrev (War Office)"}
 {"place": "Gold Coast railway", "count": 37, "query": "Gold Coast railway", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Sarawak C.S.", "count": 37, "query": "Sarawak C.S.", "suspected_noise": true, "reason": "office abbrev (Sarawak Civil Service)"}
 {"place": "Nigerian secretariat", "count": 37, "query": "Nigerian secretariat", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Ghana civil service", "count": 34, "query": "Ghana civil service", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "sup. court", "count": 33, "query": "sup. court", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "M.C.S.", "count": 33, "query": "M.C.S.", "suspected_noise": true, "reason": "office abbrev (Malayan Civil Service)"}
 {"place": "general post office", "count": 32, "query": "general post office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Hong Kong university", "count": 30, "query": "Hong Kong university", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Bechuanaland border police", "count": 30, "query": "Bechuanaland border police", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "T.R. & P.S.", "count": 30, "query": "T.R. & P.S.", "suspected_noise": true, "reason": "office abbrev (Tanganyika Railways & Posts)"}
+{"place": "E.A.A.F.R.O.", "count": 28, "query": "E.A.A.F.R.O.", "suspected_noise": true, "reason": "office abbrev (East African Agriculture & Forestry Research Org.)"}
 {"place": "E.A. customs", "count": 28, "query": "E.A. customs", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Ceylon civil service", "count": 27, "query": "Ceylon civil service", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Malta university", "count": 27, "query": "Malta university", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Mal. C.S.", "count": 27, "query": "Mal. C.S.", "suspected_noise": true, "reason": "office abbrev (Malayan Civil Service)"}
 {"place": "Imp. Inst.", "count": 26, "query": "Imp. Inst.", "suspected_noise": true, "reason": "office abbrev (Imperial Institute)"}
 {"place": "Mal. Rlwy.", "count": 26, "query": "Mal. Rlwy.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Nig. rlwy.", "count": 26, "query": "Nig. rlwy.", "suspected_noise": true, "reason": "institution/office term"}
@@ -66,6 +81,7 @@
 {"place": "Bechuanaland protectorate police", "count": 11, "query": "Bechuanaland protectorate police", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "E. and A. department", "count": 11, "query": "E. and A. department", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Queen's university", "count": 11, "query": "Queen's university", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Dominions Office", "count": 11, "query": "Dominions Office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "F.M.S. civil service", "count": 11, "query": "F.M.S. civil service", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Br. post office", "count": 11, "query": "Br. post office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "university of Hong Kong", "count": 11, "query": "university of Hong Kong", "suspected_noise": true, "reason": "institution/office term"}
@@ -142,6 +158,7 @@
 {"place": "Ceylon railways", "count": 7, "query": "Ceylon railways", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "post office", "count": 7, "query": "post office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Grey college school", "count": 7, "query": "Grey college school", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "H.C.T.", "count": 7, "query": "H.C.T.", "suspected_noise": true, "reason": "office abbrev (High Commission Territories)"}
 {"place": "audit department", "count": 7, "query": "audit department", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "London hosp.", "count": 7, "query": "London hosp.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Nigeria regiment", "count": 7, "query": "Nigeria regiment", "suspected_noise": true, "reason": "institution/office term"}
@@ -153,7 +170,7 @@
 {"place": "Penang Free school", "count": 7, "query": "Penang Free school", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Yilgarn railway", "count": 7, "query": "Yilgarn railway", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "W. Pac. high commission", "count": 7, "query": "W. Pac. high commission", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "Malay college, K. Kangsar", "count": 7, "query": "Malay college K. Kangsar", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Malay college, K. Kangsar", "count": 7, "query": "Malay college Kuala Kangsar", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "O.R.C., administration", "count": 7, "query": "Orange River Colony administration", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Nile campaign", "count": 7, "query": "Nile campaign", "suspected_noise": true, "reason": "war/campaign term"}
 {"place": "Worcester College, Oxford", "count": 7, "query": "Worcester College Oxford", "suspected_noise": true, "reason": "institution/office term"}
@@ -173,6 +190,7 @@
 {"place": "H.K. police", "count": 7, "query": "H.K. police", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Palestine railways", "count": 6, "query": "Palestine railways", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Western Pacific high commission", "count": 6, "query": "Western Pacific high commission", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "W.P.H.C.", "count": 6, "query": "W.P.H.C.", "suspected_noise": true, "reason": "office abbrev (Western Pacific High Commission)"}
 {"place": "Worcestershire regiment", "count": 6, "query": "Worcestershire regiment", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "university of Stellenbosch", "count": 6, "query": "university of Stellenbosch", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Glasgow university", "count": 6, "query": "Glasgow university", "suspected_noise": true, "reason": "institution/office term"}
@@ -413,6 +431,7 @@
 {"place": "E. Africa protectorate and Uganda railway", "count": 3, "query": "E. Africa protectorate and Uganda railway", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "St. George's hosp.", "count": 3, "query": "St. George's hosp.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "university college, Lond.", "count": 3, "query": "university college London", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Ken. and E.A.C.S.O.", "count": 3, "query": "Ken. and E.A.C.S.O.", "suspected_noise": true, "reason": "office abbrev (East Africa Common Services Organisation)"}
 {"place": "Raffles college", "count": 3, "query": "Raffles college", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Royal College", "count": 3, "query": "Royal College", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Yaws hosp.", "count": 3, "query": "Yaws hosp.", "suspected_noise": true, "reason": "institution/office term"}
@@ -791,7 +810,7 @@
 {"place": "inland rev. department, Pretoria", "count": 2, "query": "inland rev. department Pretoria", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "I.R. department, Pretoria", "count": 2, "query": "I.R. department Pretoria", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Boys High school, Salisbury, Rhodesia", "count": 2, "query": "Boys High school Salisbury Rhodesia", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "Warren's hosp., K. Kangsar", "count": 2, "query": "Warren's hosp. K. Kangsar", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Warren's hosp., K. Kangsar", "count": 2, "query": "Warren's hosp. Kuala Kangsar", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "F.M.S. Railways", "count": 2, "query": "F.M.S. Railways", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Zulu coronation expedition", "count": 2, "query": "Zulu coronation expedition", "suspected_noise": true, "reason": "war/campaign term"}
 {"place": "Maluti mountains, Langalibalele expedition", "count": 2, "query": "Maluti mountains Langalibalele expedition", "suspected_noise": true, "reason": "war/campaign term"}
@@ -881,6 +900,7 @@
 {"place": "4th battalion Nigeria regiment", "count": 1, "query": "4th battalion Nigeria regiment", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "W.A.F.F., colonial office", "count": 1, "query": "W.A.F.F. colonial office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "St. Kitts-Nevis defence force", "count": 1, "query": "St. Kitts-Nevis defence force", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "colonial Office", "count": 1, "query": "colonial Office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Transjordan Frontier Force", "count": 1, "query": "Transjordan Frontier Force", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "railway board", "count": 1, "query": "railway board", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "colonial office, Downing-street", "count": 1, "query": "colonial office Downing-street", "suspected_noise": true, "reason": "institution/office term"}
@@ -1085,6 +1105,7 @@
 {"place": "Kenya and Uganda railways", "count": 1, "query": "Kenya and Uganda railways", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Pietermaritzburg college school", "count": 1, "query": "Pietermaritzburg college school", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Turks Islands volunteer corps", "count": 1, "query": "Turks Islands volunteer corps", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "high commission territories", "count": 1, "query": "high commission territories", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Transvaal civil service", "count": 1, "query": "Transvaal civil service", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "general hosp., Sepoy lines", "count": 1, "query": "general hosp. Sepoy lines", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "colonial forest service", "count": 1, "query": "colonial forest service", "suspected_noise": true, "reason": "institution/office term"}
@@ -1170,7 +1191,7 @@
 {"place": "Prince Alfred Hosp., Sydney, N.S.W.", "count": 1, "query": "Prince Alfred Hosp. Sydney New South Wales", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Sydney Hosp.", "count": 1, "query": "Sydney Hosp.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Carrington Centennial Hosp. for convalescents", "count": 1, "query": "Carrington Centennial Hosp. for convalescents", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "Prince Alfred Hospital, Sydney, N. S. Wales", "count": 1, "query": "Prince Alfred Hospital Sydney N. S. Wales", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Prince Alfred Hospital, Sydney, N. S. Wales", "count": 1, "query": "Prince Alfred Hospital Sydney New South Wales", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Sydney Hospital", "count": 1, "query": "Sydney Hospital", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Carrington Centennial Hospital for convalescents", "count": 1, "query": "Carrington Centennial Hospital for convalescents", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Winchester college", "count": 1, "query": "Winchester college", "suspected_noise": true, "reason": "institution/office term"}
@@ -1641,7 +1662,7 @@
 {"place": "Vale of Neath and G.W. railway company, England", "count": 1, "query": "Vale of Neath and G.W. railway company England", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Grahamstown, Cape government railways", "count": 1, "query": "Grahamstown Cape government railways", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "High school, Malacca", "count": 1, "query": "High school Malacca", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "government Eng. school, K. Pilah", "count": 1, "query": "government Eng. school K. Pilah", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "government Eng. school, K. Pilah", "count": 1, "query": "government Eng. school Kuala Pilah", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Francis Light school, Penang", "count": 1, "query": "Francis Light school Penang", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Kadoorie school", "count": 1, "query": "Kadoorie school", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "G.E.A. prov. administration", "count": 1, "query": "G.E.A. prov. administration", "suspected_noise": true, "reason": "institution/office term"}
@@ -1654,7 +1675,7 @@
 {"place": "Southampton university college", "count": 1, "query": "Southampton university college", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "nat. broadcasting service, N.Z.", "count": 1, "query": "nat. broadcasting service New Zealand", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "hosp. Ipoh", "count": 1, "query": "hosp. Ipoh", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "women's hosp., K. Kangsar", "count": 1, "query": "women's hosp. K. Kangsar", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "women's hosp., K. Kangsar", "count": 1, "query": "women's hosp. Kuala Kangsar", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "hosp., Ipoh", "count": 1, "query": "hosp. Ipoh", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Bukit Zahrah school, Johore Bahru", "count": 1, "query": "Bukit Zahrah school Johore Bahru", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "department agr.", "count": 1, "query": "department agr.", "suspected_noise": true, "reason": "institution/office term"}
@@ -1823,6 +1844,7 @@
 {"place": "Blvth and W. North British railway", "count": 1, "query": "Blvth and W. North British railway", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "St. V. gram. school", "count": 1, "query": "St. V. gram. school", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Grenada boys' secondary school", "count": 1, "query": "Grenada boys' secondary school", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Cey. C.S.", "count": 1, "query": "Cey. C.S.", "suspected_noise": true, "reason": "office abbrev (Ceylon Civil Service)"}
 {"place": "general post office tels.", "count": 1, "query": "general post office tels.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Bah. general hosp.", "count": 1, "query": "Bah. general hosp.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Australian service", "count": 1, "query": "Australian service", "suspected_noise": true, "reason": "institution/office term"}

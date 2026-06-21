@@ -1,19 +1,19 @@
-# 10052 canonical place queries for MCP grounding (deduped from 10449 surface forms; 2137 noise/institution rows routed to .flagged)
+# 10012 canonical place queries for MCP grounding (deduped from 10427 surface forms; 2159 noise/institution rows routed to .flagged)
 {"query": "Nigeria", "count": 5831, "n_variants": 3, "variants": [["Nig.", 4484], ["Nigeria", 1205], ["Fed. of Nig.", 142]]}
 {"query": "British Guiana", "count": 5155, "n_variants": 7, "variants": [["B. Guiana", 2129], ["Br. Guiana", 1807], ["British Guiana", 901], ["B.G.", 154], ["Guiana", 126], ["Brit. Guiana", 37], ["guiana", 1]]}
-{"query": "Gold Coast", "count": 4761, "n_variants": 9, "variants": [["G.C.", 1967], ["Gold Coast", 1594], ["G. Coast", 1126], ["G. Coast colonial", 60], ["G. Coast.", 7], ["GC.", 4], ["G.C", 1], ["G. coast", 1], ["the Gold Coast", 1]]}
+{"query": "Gold Coast", "count": 4762, "n_variants": 10, "variants": [["G.C.", 1967], ["Gold Coast", 1594], ["G. Coast", 1126], ["G. Coast colonial", 60], ["G. Coast.", 7], ["GC.", 4], ["G.C", 1], ["G. C. colony", 1], ["G. coast", 1], ["the Gold Coast", 1]]}
 {"query": "Trinidad", "count": 3888, "n_variants": 4, "variants": [["Trinidad", 2555], ["Trin.", 1312], ["T'dad", 20], ["T'dad.", 1]]}
 {"query": "Kenya", "count": 3743, "n_variants": 2, "variants": [["Ken.", 2806], ["Kenya", 937]]}
-{"query": "Jamaica", "count": 3590, "n_variants": 8, "variants": [["Jamaica", 1939], ["J'ca", 1259], ["J'ca.", 237], ["Jca.", 133], ["Jam.", 16], ["Jca", 4], ["JAMAICA", 1], ["J.ca", 1]]}
+{"query": "Jamaica", "count": 3598, "n_variants": 9, "variants": [["Jamaica", 1939], ["J'ca", 1259], ["J'ca.", 237], ["Jca.", 133], ["Jam.", 16], ["J'ca-", 8], ["Jca", 4], ["JAMAICA", 1], ["J.ca", 1]]}
 {"query": "Mauritius", "count": 3553, "n_variants": 4, "variants": [["Mauritius", 2268], ["Maur.", 1274], ["Maur", 10], ["MAURITIUS", 1]]}
 {"query": "Ceylon", "count": 3525, "n_variants": 2, "variants": [["Ceylon", 3502], ["Cey.", 23]]}
 {"query": "Tanganyika", "count": 3270, "n_variants": 4, "variants": [["Tang.", 2573], ["T.T.", 585], ["Tanganyika", 97], ["Tanganyika admnstn.", 15]]}
 {"query": "Singapore", "count": 3261, "n_variants": 6, "variants": [["S'pore", 1513], ["Singapore", 1380], ["S'pore.", 241], ["Sing.", 123], ["S’pore", 3], ["Spore", 1]]}
-{"query": "Northern Rhodesia", "count": 3236, "n_variants": 7, "variants": [["N. Rhod.", 2438], ["N. Rhodesia", 637], ["N.E. Rhodesia", 93], ["N.W. Rhodesia", 48], ["N. E. Rhodesia", 16], ["N. Rhod", 2], ["Northern Rhodesia", 2]]}
+{"query": "Northern Rhodesia", "count": 3242, "n_variants": 8, "variants": [["N. Rhod.", 2438], ["N. Rhodesia", 637], ["N.E. Rhodesia", 93], ["N.W. Rhodesia", 48], ["N. E. Rhodesia", 16], ["N. W. Rhodesia", 6], ["N. Rhod", 2], ["Northern Rhodesia", 2]]}
 {"query": "Uganda", "count": 2898, "n_variants": 3, "variants": [["Uga.", 2180], ["Uganda", 714], ["Uga", 4]]}
 {"query": "Fiji", "count": 2733, "n_variants": 2, "variants": [["Fiji", 2731], ["Fiji.", 2]]}
 {"query": "Federated Malay States", "count": 2681, "n_variants": 4, "variants": [["F.M.S.", 2672], ["F. M. S.", 6], ["Federated Malay States", 2], ["FM.S.", 1]]}
-{"query": "Hong Kong", "count": 2567, "n_variants": 4, "variants": [["H.K.", 2529], ["H. Kong", 36], ["H. Kong.", 1], ["Hong Kong.", 1]]}
+{"query": "Hong Kong", "count": 2611, "n_variants": 5, "variants": [["H.K.", 2529], ["Hong-Kong", 44], ["H. Kong", 36], ["H. Kong.", 1], ["Hong Kong.", 1]]}
 {"query": "Sierra Leone", "count": 2534, "n_variants": 4, "variants": [["Sierra Leone", 1009], ["S. Leone", 774], ["S.L.", 750], ["SIERRA LEONE", 1]]}
 {"query": "Barbados", "count": 2353, "n_variants": 2, "variants": [["Barbados", 1852], ["Barb.", 501]]}
 {"query": "Straits Settlements", "count": 2121, "n_variants": 10, "variants": [["S.S.", 1023], ["S. Sttlmts.", 527], ["Straits Settlements", 363], ["S. S.", 92], ["S. Stlmts.", 43], ["S. Sttlnts.", 33], ["S. Settlmts.", 21], ["S. Settlements", 14], ["S. Sttlmts", 3], ["the Straits Settlements", 2]]}
@@ -32,10 +32,10 @@
 {"query": "Palestine", "count": 1284, "n_variants": 2, "variants": [["Pal.", 943], ["Palestine", 341]]}
 {"query": "Nyasaland", "count": 1268, "n_variants": 4, "variants": [["Nyasa.", 609], ["Nyas.", 418], ["Nyasa", 238], ["Nyas", 3]]}
 {"query": "Antigua", "count": 1248, "n_variants": 1, "variants": [["Antigua", 1248]]}
+{"query": "New South Wales", "count": 1228, "n_variants": 5, "variants": [["New South Wales", 511], ["N.S. Wales", 308], ["N.S.W.", 230], ["N. S. Wales", 117], ["New S. Wales", 62]]}
 {"query": "Gambia", "count": 1152, "n_variants": 4, "variants": [["Gambia", 738], ["Gam.", 343], ["Gamb.", 37], ["the Gambia", 34]]}
 {"query": "Saint Vincent", "count": 1146, "n_variants": 3, "variants": [["St. Vincent", 913], ["St. V.", 217], ["Saint Vincent", 16]]}
 {"query": "Malaya", "count": 1129, "n_variants": 4, "variants": [["Mal.", 985], ["Malaya", 142], ["Malaya.", 1], ["Mal", 1]]}
-{"query": "New South Wales", "count": 1111, "n_variants": 4, "variants": [["New South Wales", 511], ["N.S. Wales", 308], ["N.S.W.", 230], ["New S. Wales", 62]]}
 {"query": "Grenada", "count": 1081, "n_variants": 3, "variants": [["Grenada", 1035], ["Gren.", 45], ["Grenada.", 1]]}
 {"query": "South Africa", "count": 1062, "n_variants": 5, "variants": [["Union of S. Africa", 562], ["S. Africa", 382], ["South Africa", 63], ["Union of S.A.", 54], ["Union of S. Africa.", 1]]}
 {"query": "Tanganyika Territory", "count": 1029, "n_variants": 2, "variants": [["Tanganyika Territory", 1028], ["Tanganyika, Territory", 1]]}
@@ -47,15 +47,14 @@
 {"query": "Transvaal", "count": 871, "n_variants": 1, "variants": [["Transvaal", 871]]}
 {"query": "Dominica", "count": 867, "n_variants": 2, "variants": [["Dominica", 830], ["Dom.", 37]]}
 {"query": "Leeward Islands", "count": 828, "n_variants": 3, "variants": [["Leeward Is.", 567], ["Leeward Islands", 225], ["Leeward Islds.", 36]]}
-{"query": "C.O.", "count": 814, "n_variants": 1, "variants": [["C.O.", 814]]}
 {"query": "Gibraltar", "count": 773, "n_variants": 2, "variants": [["Gibraltar", 560], ["Gib.", 213]]}
 {"query": "Sarawak", "count": 766, "n_variants": 5, "variants": [["Sarawak", 692], ["S'wak.", 29], ["Sar.", 22], ["S'wak", 18], ["S.A.R.", 5]]}
 {"query": "Colombo", "count": 757, "n_variants": 1, "variants": [["Colombo", 757]]}
 {"query": "London", "count": 750, "n_variants": 3, "variants": [["London", 669], ["Lond.", 80], ["Lond", 1]]}
 {"query": "Perak", "count": 743, "n_variants": 1, "variants": [["Perak", 743]]}
 {"query": "Saint Kitts", "count": 712, "n_variants": 5, "variants": [["St. Kitts", 521], ["St. Christopher", 133], ["St. Kitt's", 28], ["St. K.", 22], ["St. Kitts.", 8]]}
-{"query": "North Borneo", "count": 664, "n_variants": 5, "variants": [["N. Borneo", 599], ["Br. N. Borneo", 43], ["Br. North Borneo", 16], ["North Borneo", 4], ["N. Borneo.", 2]]}
-{"query": "Basutoland", "count": 659, "n_variants": 3, "variants": [["Basutoland", 398], ["Basuto.", 226], ["Basuto", 35]]}
+{"query": "North Borneo", "count": 678, "n_variants": 6, "variants": [["N. Borneo", 599], ["Br. N. Borneo", 43], ["Br. North Borneo", 16], ["B. N. Borneo", 14], ["North Borneo", 4], ["N. Borneo.", 2]]}
+{"query": "Basutoland", "count": 660, "n_variants": 4, "variants": [["Basutoland", 398], ["Basuto.", 226], ["Basuto", 35], ["Basuto-", 1]]}
 {"query": "Seychelles", "count": 656, "n_variants": 2, "variants": [["Seychelles", 528], ["Sey.", 128]]}
 {"query": "Malacca", "count": 653, "n_variants": 1, "variants": [["Malacca", 653]]}
 {"query": "Tasmania", "count": 646, "n_variants": 1, "variants": [["Tasmania", 646]]}
@@ -68,7 +67,6 @@
 {"query": "Cape Town", "count": 492, "n_variants": 1, "variants": [["Cape Town", 492]]}
 {"query": "Bermuda", "count": 490, "n_variants": 2, "variants": [["Bermuda", 326], ["Berm.", 164]]}
 {"query": "Selangor", "count": 473, "n_variants": 2, "variants": [["Selangor", 472], ["Selangor.", 1]]}
-{"query": "E.A.R. & H.", "count": 467, "n_variants": 2, "variants": [["E.A.R. & H.", 466], ["E.A.R., & H.", 1]]}
 {"query": "India", "count": 462, "n_variants": 1, "variants": [["India", 462]]}
 {"query": "Newfoundland", "count": 462, "n_variants": 2, "variants": [["Newfoundland", 411], ["Newfndld.", 51]]}
 {"query": "Somaliland", "count": 432, "n_variants": 2, "variants": [["Som.", 216], ["Somaliland", 216]]}
@@ -94,6 +92,7 @@
 {"query": "British Columbia", "count": 270, "n_variants": 4, "variants": [["British Columbia", 142], ["B. Columbia", 61], ["Br. Columbia", 36], ["B.C.", 31]]}
 {"query": "Windward Islands", "count": 254, "n_variants": 4, "variants": [["Windward Is.", 120], ["Windward Islands", 76], ["Wind. Is.", 55], ["Wind Is.", 3]]}
 {"query": "United Kingdom", "count": 241, "n_variants": 2, "variants": [["U.K.", 232], ["United Kingdom", 9]]}
+{"query": "Saint Kitts and Nevis", "count": 236, "n_variants": 6, "variants": [["St. Kitts-Nevis", 167], ["St. K.-N.", 38], ["St. Kitts and Nevis", 20], ["St. Kitt's-Nevis", 6], ["St. Kitt's and Nevis", 4], ["St. Kitts Nevis", 1]]}
 {"query": "Federation of Malaya", "count": 235, "n_variants": 2, "variants": [["Fed. of Mal.", 234], ["Federation of Malaya", 1]]}
 {"query": "Egypt", "count": 232, "n_variants": 2, "variants": [["Egypt", 230], ["Egypt.", 2]]}
 {"query": "Nyasaland protectorate", "count": 231, "n_variants": 1, "variants": [["Nyasaland protectorate", 231]]}
@@ -115,9 +114,7 @@
 {"query": "Manitoba", "count": 173, "n_variants": 1, "variants": [["Manitoba", 173]]}
 {"query": "Matara", "count": 171, "n_variants": 1, "variants": [["Matara", 171]]}
 {"query": "Accra", "count": 168, "n_variants": 1, "variants": [["Accra", 168]]}
-{"query": "St. Kitts-Nevis", "count": 167, "n_variants": 1, "variants": [["St. Kitts-Nevis", 167]]}
 {"query": "Melbourne", "count": 161, "n_variants": 1, "variants": [["Melbourne", 161]]}
-{"query": "K.U.R. & H.", "count": 161, "n_variants": 1, "variants": [["K.U.R. & H.", 161]]}
 {"query": "West Indies", "count": 161, "n_variants": 5, "variants": [["W. Indies", 76], ["W.I.", 54], ["West Indies", 28], ["The West Indies", 2], ["the West Indies", 1]]}
 {"query": "Gold Coast Colony", "count": 156, "n_variants": 1, "variants": [["Gold Coast Colony", 156]]}
 {"query": "Ottawa", "count": 155, "n_variants": 1, "variants": [["Ottawa", 155]]}
@@ -133,8 +130,8 @@
 {"query": "Bechuanaland protectorate", "count": 143, "n_variants": 1, "variants": [["Bechuanaland protectorate", 143]]}
 {"query": "Badulla", "count": 137, "n_variants": 1, "variants": [["Badulla", 137]]}
 {"query": "Kelantan", "count": 137, "n_variants": 1, "variants": [["Kelantan", 137]]}
+{"query": "Griqualand West", "count": 137, "n_variants": 2, "variants": [["Griqualand West", 110], ["Griqualand W.", 27]]}
 {"query": "W. Prov.", "count": 136, "n_variants": 1, "variants": [["W. Prov.", 136]]}
-{"query": "E.A.R. and H.", "count": 136, "n_variants": 1, "variants": [["E.A.R. and H.", 136]]}
 {"query": "Port Elizabeth", "count": 135, "n_variants": 1, "variants": [["Port Elizabeth", 135]]}
 {"query": "Brunei", "count": 135, "n_variants": 2, "variants": [["Brunei", 134], ["Brunei.", 1]]}
 {"query": "Paris", "count": 133, "n_variants": 1, "variants": [["Paris", 133]]}
@@ -147,12 +144,10 @@
 {"query": "Trincomalee", "count": 121, "n_variants": 1, "variants": [["Trincomalee", 121]]}
 {"query": "Honduras", "count": 120, "n_variants": 1, "variants": [["Honduras", 120]]}
 {"query": "Southern Rhodesia", "count": 118, "n_variants": 3, "variants": [["S. Rhodesia", 75], ["S. Rhod.", 39], ["Southern Rhodesia", 4]]}
-{"query": "N. S. Wales", "count": 117, "n_variants": 1, "variants": [["N. S. Wales", 117]]}
 {"query": "Iraq", "count": 117, "n_variants": 3, "variants": [["Iraq", 102], ["Iraq.", 8], ["'Iraq", 7]]}
+{"query": "Gilbert and Ellice Islands", "count": 115, "n_variants": 5, "variants": [["Gilbert and Ellice Is.", 56], ["G. and E.I.C.", 29], ["G. & E.I.C.", 17], ["G. & E. Is.", 12], ["G & E.I.C.", 1]]}
 {"query": "Virgin Islands", "count": 112, "n_variants": 1, "variants": [["Virgin Is.", 112]]}
 {"query": "Province Wellesley", "count": 111, "n_variants": 3, "variants": [["Prov. Wellesley", 69], ["Province Wellesley", 27], ["prov. Wellesley", 15]]}
-{"query": "Griqualand West", "count": 110, "n_variants": 1, "variants": [["Griqualand West", 110]]}
-{"query": "E.A.C.S.O.", "count": 110, "n_variants": 1, "variants": [["E.A.C.S.O.", 110]]}
 {"query": "Zululand", "count": 109, "n_variants": 1, "variants": [["Zululand", 109]]}
 {"query": "Trinidad and Tobago", "count": 109, "n_variants": 2, "variants": [["Trinidad and Tobago", 88], ["Trin. and Tob.", 21]]}
 {"query": "Kurunegala", "count": 106, "n_variants": 1, "variants": [["Kurunegala", 106]]}
@@ -169,8 +164,8 @@
 {"query": "Negombo", "count": 95, "n_variants": 1, "variants": [["Negombo", 95]]}
 {"query": "Ratnapura", "count": 95, "n_variants": 1, "variants": [["Ratnapura", 95]]}
 {"query": "Trengganu", "count": 94, "n_variants": 1, "variants": [["Trengganu", 94]]}
-{"query": "E.A.H.C.", "count": 94, "n_variants": 1, "variants": [["E.A.H.C.", 94]]}
 {"query": "New Providence", "count": 93, "n_variants": 1, "variants": [["New Providence", 93]]}
+{"query": "Kuala Kangsar", "count": 93, "n_variants": 2, "variants": [["Kuala Kangsar", 65], ["K. Kangsar", 28]]}
 {"query": "Klang", "count": 90, "n_variants": 1, "variants": [["Klang", 90]]}
 {"query": "N. Prov.", "count": 90, "n_variants": 1, "variants": [["N. Prov.", 90]]}
 {"query": "Batticaloa", "count": 90, "n_variants": 1, "variants": [["Batticaloa", 90]]}
@@ -180,7 +175,6 @@
 {"query": "Tonga", "count": 86, "n_variants": 2, "variants": [["Tonga", 85], ["Tonga.", 1]]}
 {"query": "Larut", "count": 85, "n_variants": 1, "variants": [["Larut", 85]]}
 {"query": "Commonwealth of Australia", "count": 85, "n_variants": 1, "variants": [["Commonwealth of Australia", 85]]}
-{"query": "Gilbert and Ellice Islands", "count": 85, "n_variants": 2, "variants": [["Gilbert and Ellice Is.", 56], ["G. and E.I.C.", 29]]}
 {"query": "Georgetown", "count": 84, "n_variants": 1, "variants": [["Georgetown", 84]]}
 {"query": "N. regn.", "count": 84, "n_variants": 1, "variants": [["N. regn.", 84]]}
 {"query": "Saskatchewan", "count": 84, "n_variants": 3, "variants": [["Sask.", 72], ["Saskatchewan", 11], ["Sask", 1]]}
@@ -208,18 +202,14 @@
 {"query": "New Territories", "count": 66, "n_variants": 1, "variants": [["New Territories", 66]]}
 {"query": "West Australia", "count": 66, "n_variants": 1, "variants": [["West Australia", 66]]}
 {"query": "Nassau", "count": 66, "n_variants": 1, "variants": [["Nassau", 66]]}
-{"query": "Kuala Kangsar", "count": 65, "n_variants": 1, "variants": [["Kuala Kangsar", 65]]}
-{"query": "colonial office", "count": 65, "n_variants": 1, "variants": [["colonial office", 65]]}
 {"query": "Nicosia", "count": 65, "n_variants": 1, "variants": [["Nicosia", 65]]}
 {"query": "Alberta", "count": 64, "n_variants": 1, "variants": [["Alberta", 64]]}
 {"query": "N. Provs.", "count": 63, "n_variants": 1, "variants": [["N. Provs.", 63]]}
 {"query": "Anuradhapura", "count": 63, "n_variants": 1, "variants": [["Anuradhapura", 63]]}
 {"query": "Cent. Prov.", "count": 63, "n_variants": 1, "variants": [["Cent. Prov.", 63]]}
 {"query": "Bridgetown", "count": 63, "n_variants": 1, "variants": [["Bridgetown", 63]]}
-{"query": "K.U.R. and H.", "count": 62, "n_variants": 1, "variants": [["K.U.R. and H.", 62]]}
 {"query": "Ionian Islands", "count": 62, "n_variants": 1, "variants": [["Ionian Islands", 62]]}
 {"query": "C.A.", "count": 61, "n_variants": 1, "variants": [["C.A.", 61]]}
-{"query": "Colonial Office", "count": 61, "n_variants": 1, "variants": [["Colonial Office", 61]]}
 {"query": "Geneva", "count": 61, "n_variants": 1, "variants": [["Geneva", 61]]}
 {"query": "W.A.", "count": 61, "n_variants": 1, "variants": [["W.A.", 61]]}
 {"query": "Cape colonial", "count": 61, "n_variants": 1, "variants": [["Cape colonial", 61]]}
@@ -252,9 +242,9 @@
 {"query": "Gampola", "count": 54, "n_variants": 1, "variants": [["Gampola", 54]]}
 {"query": "Crimea", "count": 53, "n_variants": 1, "variants": [["Crimea", 53]]}
 {"query": "Grand Turk", "count": 53, "n_variants": 1, "variants": [["Grand Turk", 53]]}
+{"query": "South West Africa", "count": 53, "n_variants": 2, "variants": [["S.W. Africa", 39], ["S. W. Africa", 14]]}
 {"query": "N.W. Prov.", "count": 52, "n_variants": 1, "variants": [["N.W. Prov.", 52]]}
 {"query": "Germany", "count": 52, "n_variants": 1, "variants": [["Germany", 52]]}
-{"query": "W. Pac. H.C.", "count": 52, "n_variants": 1, "variants": [["W. Pac. H.C.", 52]]}
 {"query": "Raub", "count": 52, "n_variants": 1, "variants": [["Raub", 52]]}
 {"query": "British West Africa", "count": 52, "n_variants": 1, "variants": [["W. Africa", 52]]}
 {"query": "Orange Walk", "count": 52, "n_variants": 1, "variants": [["Orange Walk", 52]]}
@@ -275,10 +265,11 @@
 {"query": "St. John's", "count": 46, "n_variants": 1, "variants": [["St. John's", 46]]}
 {"query": "Kwang Si", "count": 46, "n_variants": 1, "variants": [["Kwang Si", 46]]}
 {"query": "Kingston Jamaica", "count": 46, "n_variants": 2, "variants": [["Kingston, Jamaica", 42], ["Kingston, J'ca.", 4]]}
+{"query": "Kuala Selangor", "count": 46, "n_variants": 2, "variants": [["K. Selangor", 27], ["Kuala Selangor", 19]]}
+{"query": "Kuala Pilah", "count": 46, "n_variants": 2, "variants": [["Kuala Pilah", 26], ["K. Pilah", 20]]}
 {"query": "Albany", "count": 45, "n_variants": 1, "variants": [["Albany", 45]]}
 {"query": "Mombasa", "count": 45, "n_variants": 1, "variants": [["Mombasa", 45]]}
 {"query": "Limassol", "count": 45, "n_variants": 1, "variants": [["Limassol", 45]]}
-{"query": "Hong-Kong", "count": 44, "n_variants": 1, "variants": [["Hong-Kong", 44]]}
 {"query": "Selangor and Pahang", "count": 44, "n_variants": 2, "variants": [["Selangor and Pahang", 43], ["Selangor, and Pahang", 1]]}
 {"query": "Northwest Territories", "count": 44, "n_variants": 2, "variants": [["N.W.T.", 42], ["Northwest Territories", 2]]}
 {"query": "Belize British Honduras", "count": 43, "n_variants": 5, "variants": [["Belize, Br. Honduras", 22], ["Belize, B. Honduras", 13], ["Belize, Br. Hond.", 6], ["Belize, B. Hond.", 1], ["Belize, British Honduras", 1]]}
@@ -295,10 +286,8 @@
 {"query": "Grand Port", "count": 40, "n_variants": 1, "variants": [["Grand Port", 40]]}
 {"query": "Antigua Leeward Islands", "count": 40, "n_variants": 2, "variants": [["Antigua, Leeward Islands", 26], ["Antigua, Leeward Is.", 14]]}
 {"query": "Birmingham", "count": 39, "n_variants": 1, "variants": [["Birmingham", 39]]}
-{"query": "South West Africa", "count": 39, "n_variants": 1, "variants": [["S.W. Africa", 39]]}
 {"query": "Scotland", "count": 39, "n_variants": 1, "variants": [["Scotland", 39]]}
 {"query": "Liverpool", "count": 38, "n_variants": 1, "variants": [["Liverpool", 38]]}
-{"query": "St. K.-N.", "count": 38, "n_variants": 1, "variants": [["St. K.-N.", 38]]}
 {"query": "Kenya and Uganda", "count": 38, "n_variants": 1, "variants": [["Kenya and Uganda", 38]]}
 {"query": "Berlin", "count": 38, "n_variants": 1, "variants": [["Berlin", 38]]}
 {"query": "Nassau Bahamas", "count": 38, "n_variants": 3, "variants": [["Nassau, Bahamas", 35], ["Nassau, Bah.", 2], ["Nassau Bahamas", 1]]}
@@ -310,7 +299,6 @@
 {"query": "Levuka", "count": 37, "n_variants": 1, "variants": [["Levuka", 37]]}
 {"query": "W. regn.", "count": 37, "n_variants": 1, "variants": [["W. regn.", 37]]}
 {"query": "North", "count": 37, "n_variants": 1, "variants": [["North", 37]]}
-{"query": "Sarawak C.S.", "count": 37, "n_variants": 1, "variants": [["Sarawak C.S.", 37]]}
 {"query": "British Kaffraria", "count": 37, "n_variants": 1, "variants": [["British Kaffraria", 37]]}
 {"query": "Victoria gaol", "count": 37, "n_variants": 1, "variants": [["Victoria gaol", 37]]}
 {"query": "Muar", "count": 36, "n_variants": 1, "variants": [["Muar", 36]]}
@@ -341,7 +329,6 @@
 {"query": "Essequibo", "count": 33, "n_variants": 1, "variants": [["Essequibo", 33]]}
 {"query": "Oxford", "count": 33, "n_variants": 1, "variants": [["Oxford", 33]]}
 {"query": "Eritrea", "count": 33, "n_variants": 1, "variants": [["Eritrea", 33]]}
-{"query": "M.C.S.", "count": 33, "n_variants": 1, "variants": [["M.C.S.", 33]]}
 {"query": "Kenya Uga. and T.T.", "count": 33, "n_variants": 2, "variants": [["Ken., Uga. and T.T.", 31], ["Ken, Uga. and T.T.", 2]]}
 {"query": "Georgetown British Guiana", "count": 33, "n_variants": 3, "variants": [["Georgetown, B. Guiana", 24], ["Georgetown, British Guiana", 5], ["Georgetown, Br. Guiana", 4]]}
 {"query": "Panadura", "count": 32, "n_variants": 1, "variants": [["Panadura", 32]]}
@@ -368,7 +355,7 @@
 {"query": "Johore Bahru", "count": 30, "n_variants": 1, "variants": [["Johore Bahru", 30]]}
 {"query": "Buganda", "count": 30, "n_variants": 1, "variants": [["Buganda", 30]]}
 {"query": "New Territory", "count": 30, "n_variants": 1, "variants": [["New Territory", 30]]}
-{"query": "T.R. & P.S.", "count": 30, "n_variants": 1, "variants": [["T.R. & P.S.", 30]]}
+{"query": "Kuala Lipis", "count": 30, "n_variants": 2, "variants": [["K. Lipis", 16], ["Kuala Lipis", 14]]}
 {"query": "Baghdad", "count": 29, "n_variants": 1, "variants": [["Baghdad", 29]]}
 {"query": "Canterbury", "count": 29, "n_variants": 1, "variants": [["Canterbury", 29]]}
 {"query": "Commonwealth", "count": 29, "n_variants": 1, "variants": [["Commonwealth", 29]]}
@@ -381,7 +368,6 @@
 {"query": "New Providence Bahamas", "count": 29, "n_variants": 1, "variants": [["New Providence, Bahamas", 29]]}
 {"query": "Elmina", "count": 29, "n_variants": 1, "variants": [["Elmina", 29]]}
 {"query": "West Africa Settlements", "count": 29, "n_variants": 2, "variants": [["West Africa Settlements", 27], ["the West Africa Settlements", 2]]}
-{"query": "K. Kangsar", "count": 28, "n_variants": 1, "variants": [["K. Kangsar", 28]]}
 {"query": "Jelebu", "count": 28, "n_variants": 1, "variants": [["Jelebu", 28]]}
 {"query": "Mullaittivu", "count": 28, "n_variants": 1, "variants": [["Mullaittivu", 28]]}
 {"query": "Butterworth", "count": 28, "n_variants": 1, "variants": [["Butterworth", 28]]}
@@ -389,7 +375,6 @@
 {"query": "B.C. Africa protectorate", "count": 28, "n_variants": 1, "variants": [["B.C. Africa protectorate", 28]]}
 {"query": "Transvaal and O.R.C.", "count": 28, "n_variants": 1, "variants": [["Transvaal and O.R.C.", 28]]}
 {"query": "Cradock", "count": 28, "n_variants": 1, "variants": [["Cradock", 28]]}
-{"query": "E.A.A.F.R.O.", "count": 28, "n_variants": 1, "variants": [["E.A.A.F.R.O.", 28]]}
 {"query": "Bridgetown Barbados", "count": 28, "n_variants": 1, "variants": [["Bridgetown, Barbados", 28]]}
 {"query": "Calabar", "count": 28, "n_variants": 1, "variants": [["Calabar", 28]]}
 {"query": "N.W. district", "count": 28, "n_variants": 1, "variants": [["N.W. district", 28]]}
@@ -398,21 +383,17 @@
 {"query": "Mediterranean", "count": 28, "n_variants": 2, "variants": [["Mediterranean", 27], ["the Mediterranean", 1]]}
 {"query": "United States", "count": 28, "n_variants": 2, "variants": [["U.S.A.", 21], ["United States", 7]]}
 {"query": "Alexandria", "count": 27, "n_variants": 1, "variants": [["Alexandria", 27]]}
-{"query": "Mal. C.S.", "count": 27, "n_variants": 1, "variants": [["Mal. C.S.", 27]]}
 {"query": "cent. prov.", "count": 27, "n_variants": 1, "variants": [["cent. prov.", 27]]}
 {"query": "Afghanistan", "count": 27, "n_variants": 1, "variants": [["Afghanistan", 27]]}
 {"query": "Shanghai", "count": 27, "n_variants": 1, "variants": [["Shanghai", 27]]}
-{"query": "K. Selangor", "count": 27, "n_variants": 1, "variants": [["K. Selangor", 27]]}
 {"query": "Hythe", "count": 27, "n_variants": 1, "variants": [["Hythe", 27]]}
 {"query": "Lau", "count": 27, "n_variants": 1, "variants": [["Lau", 27]]}
-{"query": "Griqualand W.", "count": 27, "n_variants": 1, "variants": [["Griqualand W.", 27]]}
 {"query": "Bathurst", "count": 27, "n_variants": 1, "variants": [["Bathurst", 27]]}
 {"query": "N. C. protectorate (now S. Nigeria)", "count": 27, "n_variants": 1, "variants": [["N. C. protectorate (now S. Nigeria)", 27]]}
 {"query": "German South West Africa", "count": 27, "n_variants": 2, "variants": [["German S.W. Africa", 25], ["German South West Africa", 2]]}
 {"query": "Panadure", "count": 26, "n_variants": 1, "variants": [["Panadure", 26]]}
 {"query": "Alor Gajah", "count": 26, "n_variants": 1, "variants": [["Alor Gajah", 26]]}
 {"query": "Sherbro", "count": 26, "n_variants": 1, "variants": [["Sherbro", 26]]}
-{"query": "Kuala Pilah", "count": 26, "n_variants": 1, "variants": [["Kuala Pilah", 26]]}
 {"query": "Temerloh", "count": 26, "n_variants": 1, "variants": [["Temerloh", 26]]}
 {"query": "Woolwich", "count": 26, "n_variants": 1, "variants": [["Woolwich", 26]]}
 {"query": "Moka", "count": 26, "n_variants": 1, "variants": [["Moka", 26]]}
@@ -427,7 +408,6 @@
 {"query": "Mullaitivu", "count": 25, "n_variants": 1, "variants": [["Mullaitivu", 25]]}
 {"query": "Fremantle", "count": 25, "n_variants": 1, "variants": [["Fremantle", 25]]}
 {"query": "Suva", "count": 25, "n_variants": 1, "variants": [["Suva", 25]]}
-{"query": "Saint Kitts and Nevis", "count": 25, "n_variants": 3, "variants": [["St. Kitts and Nevis", 20], ["St. Kitt's and Nevis", 4], ["St. Kitts Nevis", 1]]}
 {"query": "Kurunegala kach.", "count": 24, "n_variants": 1, "variants": [["Kurunegala kach.", 24]]}
 {"query": "Abyssinia", "count": 24, "n_variants": 1, "variants": [["Abyssinia", 24]]}
 {"query": "Christchurch", "count": 24, "n_variants": 1, "variants": [["Christchurch", 24]]}
@@ -497,7 +477,6 @@
 {"query": "E.A.P. & T.", "count": 20, "n_variants": 1, "variants": [["E.A.P. & T.", 20]]}
 {"query": "S. Provs. Nigeria", "count": 20, "n_variants": 1, "variants": [["S. Provs., Nigeria", 20]]}
 {"query": "Bangkok", "count": 20, "n_variants": 1, "variants": [["Bangkok", 20]]}
-{"query": "K. Pilah", "count": 20, "n_variants": 1, "variants": [["K. Pilah", 20]]}
 {"query": "eastern district", "count": 20, "n_variants": 1, "variants": [["eastern district", 20]]}
 {"query": "N. district Bechuanaland", "count": 20, "n_variants": 1, "variants": [["N. district, Bech. protectorate", 20]]}
 {"query": "Fort Beaufort", "count": 20, "n_variants": 1, "variants": [["Fort Beaufort", 20]]}
@@ -509,7 +488,6 @@
 {"query": "Freetown Sierra Leone", "count": 20, "n_variants": 2, "variants": [["Freetown, S. Leone", 12], ["Freetown, Sierra Leone", 8]]}
 {"query": "Massaruni British Guiana", "count": 20, "n_variants": 3, "variants": [["Massaruni, Br. Guiana", 10], ["Massaruni, B. Guiana", 8], ["Massaruni, British Guiana", 2]]}
 {"query": "Rewa", "count": 19, "n_variants": 1, "variants": [["Rewa", 19]]}
-{"query": "Kuala Selangor", "count": 19, "n_variants": 1, "variants": [["Kuala Selangor", 19]]}
 {"query": "Chatham", "count": 19, "n_variants": 1, "variants": [["Chatham", 19]]}
 {"query": "Tanjong Malim", "count": 19, "n_variants": 1, "variants": [["Tanjong Malim", 19]]}
 {"query": "Trans-Jordan", "count": 19, "n_variants": 1, "variants": [["Trans-Jordan", 19]]}
@@ -564,7 +542,6 @@
 {"query": "Albert", "count": 17, "n_variants": 1, "variants": [["Albert", 17]]}
 {"query": "north-western province", "count": 17, "n_variants": 1, "variants": [["north-western province", 17]]}
 {"query": "British Bechuanaland", "count": 17, "n_variants": 1, "variants": [["British Bechuanaland", 17]]}
-{"query": "G. & E.I.C.", "count": 17, "n_variants": 1, "variants": [["G. & E.I.C.", 17]]}
 {"query": "C.P.", "count": 17, "n_variants": 1, "variants": [["C.P.", 17]]}
 {"query": "Weenen", "count": 17, "n_variants": 1, "variants": [["Weenen", 17]]}
 {"query": "S. Cams.", "count": 17, "n_variants": 1, "variants": [["S. Cams.", 17]]}
@@ -596,7 +573,6 @@
 {"query": "Copenhagen", "count": 16, "n_variants": 1, "variants": [["Copenhagen", 16]]}
 {"query": "Colesberg", "count": 16, "n_variants": 1, "variants": [["Colesberg", 16]]}
 {"query": "Ratnapura kach.", "count": 16, "n_variants": 1, "variants": [["Ratnapura kach.", 16]]}
-{"query": "K. Lipis", "count": 16, "n_variants": 1, "variants": [["K. Lipis", 16]]}
 {"query": "Siam", "count": 16, "n_variants": 1, "variants": [["Siam", 16]]}
 {"query": "Caroni", "count": 16, "n_variants": 1, "variants": [["Caroni", 16]]}
 {"query": "Zaria", "count": 16, "n_variants": 1, "variants": [["Zaria", 16]]}
@@ -659,7 +635,6 @@
 {"query": "Dar-es-Salaam", "count": 14, "n_variants": 1, "variants": [["Dar-es-Salaam", 14]]}
 {"query": "New Delhi", "count": 14, "n_variants": 1, "variants": [["New Delhi", 14]]}
 {"query": "Gizo", "count": 14, "n_variants": 1, "variants": [["Gizo", 14]]}
-{"query": "Kuala Lipis", "count": 14, "n_variants": 1, "variants": [["Kuala Lipis", 14]]}
 {"query": "M.E.", "count": 14, "n_variants": 1, "variants": [["M.E.", 14]]}
 {"query": "British Sherbro", "count": 14, "n_variants": 1, "variants": [["British Sherbro", 14]]}
 {"query": "Upper Perak", "count": 14, "n_variants": 1, "variants": [["Upper Perak", 14]]}
@@ -669,7 +644,6 @@
 {"query": "Windward district", "count": 14, "n_variants": 1, "variants": [["Windward district", 14]]}
 {"query": "district B.", "count": 14, "n_variants": 1, "variants": [["district B.", 14]]}
 {"query": "Suakin", "count": 14, "n_variants": 1, "variants": [["Suakin", 14]]}
-{"query": "S. W. Africa", "count": 14, "n_variants": 1, "variants": [["S. W. Africa", 14]]}
 {"query": "Shortlands", "count": 14, "n_variants": 1, "variants": [["Shortlands", 14]]}
 {"query": "N. prov.", "count": 14, "n_variants": 1, "variants": [["N. prov.", 14]]}
 {"query": "Sussex", "count": 14, "n_variants": 1, "variants": [["Sussex", 14]]}
@@ -680,7 +654,6 @@
 {"query": "Port-of-Spain", "count": 14, "n_variants": 1, "variants": [["Port-of-Spain", 14]]}
 {"query": "Brome", "count": 14, "n_variants": 1, "variants": [["Brome", 14]]}
 {"query": "Colo West", "count": 14, "n_variants": 1, "variants": [["Colo West", 14]]}
-{"query": "B. N. Borneo", "count": 14, "n_variants": 1, "variants": [["B. N. Borneo", 14]]}
 {"query": "Mafeking", "count": 14, "n_variants": 1, "variants": [["Mafeking", 14]]}
 {"query": "Leeward district", "count": 14, "n_variants": 1, "variants": [["Leeward district", 14]]}
 {"query": "U. of S. Africa", "count": 14, "n_variants": 1, "variants": [["U. of S. Africa", 14]]}
@@ -767,7 +740,6 @@
 {"query": "N. division", "count": 12, "n_variants": 1, "variants": [["N. division", 12]]}
 {"query": "southern province", "count": 12, "n_variants": 1, "variants": [["southern province", 12]]}
 {"query": "Pietermaritzburg Natal", "count": 12, "n_variants": 1, "variants": [["Pietermaritzburg, Natal", 12]]}
-{"query": "G. & E. Is.", "count": 12, "n_variants": 1, "variants": [["G. & E. Is.", 12]]}
 {"query": "Elsenburg. Mulder's Vlei", "count": 12, "n_variants": 1, "variants": [["Elsenburg. Mulder's Vlei", 12]]}
 {"query": "Africa", "count": 12, "n_variants": 1, "variants": [["Africa", 12]]}
 {"query": "Paphos", "count": 12, "n_variants": 1, "variants": [["Paphos", 12]]}
@@ -814,7 +786,6 @@
 {"query": "Philadelphia", "count": 11, "n_variants": 1, "variants": [["Philadelphia", 11]]}
 {"query": "S.W.A.", "count": 11, "n_variants": 1, "variants": [["S.W.A.", 11]]}
 {"query": "Delhi", "count": 11, "n_variants": 1, "variants": [["Delhi", 11]]}
-{"query": "Dominions Office", "count": 11, "n_variants": 1, "variants": [["Dominions Office", 11]]}
 {"query": "Anglo-Egyptian Sudan", "count": 11, "n_variants": 1, "variants": [["Anglo-Egyptian Sudan", 11]]}
 {"query": "Man.", "count": 11, "n_variants": 1, "variants": [["Man.", 11]]}
 {"query": "Avissawella", "count": 11, "n_variants": 1, "variants": [["Avissawella", 11]]}
@@ -1146,7 +1117,6 @@
 {"query": "N.Y.", "count": 8, "n_variants": 1, "variants": [["N.Y.", 8]]}
 {"query": "St. Vin.", "count": 8, "n_variants": 1, "variants": [["St. Vin.", 8]]}
 {"query": "Demerara River", "count": 8, "n_variants": 1, "variants": [["Demerara River", 8]]}
-{"query": "J'ca-", "count": 8, "n_variants": 1, "variants": [["J'ca-", 8]]}
 {"query": "Treng.", "count": 8, "n_variants": 1, "variants": [["Treng.", 8]]}
 {"query": "Benin City", "count": 8, "n_variants": 1, "variants": [["Benin City", 8]]}
 {"query": "Newfd.", "count": 8, "n_variants": 1, "variants": [["Newfd.", 8]]}
@@ -1205,7 +1175,6 @@
 {"query": "Trinidad local forces", "count": 7, "n_variants": 1, "variants": [["Trinidad local forces", 7]]}
 {"query": "St. Catherine", "count": 7, "n_variants": 1, "variants": [["St. Catherine", 7]]}
 {"query": "Cent. prov.", "count": 7, "n_variants": 1, "variants": [["Cent. prov.", 7]]}
-{"query": "H.C.T.", "count": 7, "n_variants": 1, "variants": [["H.C.T.", 7]]}
 {"query": "Fed. of S. Arabia", "count": 7, "n_variants": 1, "variants": [["Fed. of S. Arabia", 7]]}
 {"query": "Malay", "count": 7, "n_variants": 1, "variants": [["Malay", 7]]}
 {"query": "Brit. Bechuanaland", "count": 7, "n_variants": 1, "variants": [["Brit. Bechuanaland", 7]]}
@@ -1257,7 +1226,7 @@
 {"query": "Formosa", "count": 7, "n_variants": 1, "variants": [["Formosa", 7]]}
 {"query": "Newchwang S. Manchuria", "count": 7, "n_variants": 1, "variants": [["Newchwang, S. Manchuria", 7]]}
 {"query": "Royal Alfred Observatory", "count": 7, "n_variants": 1, "variants": [["Royal Alfred Observatory", 7]]}
-{"query": "S. A. Republic", "count": 7, "n_variants": 1, "variants": [["S. A. Republic", 7]]}
+{"query": "South African Republic", "count": 7, "n_variants": 1, "variants": [["S. A. Republic", 7]]}
 {"query": "B.B. and S.", "count": 7, "n_variants": 1, "variants": [["B.B. and S.", 7]]}
 {"query": "Island of Barbados", "count": 7, "n_variants": 1, "variants": [["Island of Barbados", 7]]}
 {"query": "Fredericton", "count": 7, "n_variants": 1, "variants": [["Fredericton", 7]]}
@@ -1303,7 +1272,6 @@
 {"query": "Cross River", "count": 6, "n_variants": 1, "variants": [["Cross River", 6]]}
 {"query": "Birkenhead", "count": 6, "n_variants": 1, "variants": [["Birkenhead", 6]]}
 {"query": "Geelong", "count": 6, "n_variants": 1, "variants": [["Geelong", 6]]}
-{"query": "W.P.H.C.", "count": 6, "n_variants": 1, "variants": [["W.P.H.C.", 6]]}
 {"query": "N. Cent. Prov.", "count": 6, "n_variants": 1, "variants": [["N. Cent. Prov.", 6]]}
 {"query": "Str. Settls.", "count": 6, "n_variants": 1, "variants": [["Str. Settls.", 6]]}
 {"query": "Rodriguez", "count": 6, "n_variants": 1, "variants": [["Rodriguez", 6]]}
@@ -1320,7 +1288,6 @@
 {"query": "Colombo district", "count": 6, "n_variants": 1, "variants": [["Colombo district", 6]]}
 {"query": "Gold Coast colonial", "count": 6, "n_variants": 1, "variants": [["Gold Coast colonial", 6]]}
 {"query": "Karunegala", "count": 6, "n_variants": 1, "variants": [["Karunegala", 6]]}
-{"query": "N. W. Rhodesia", "count": 6, "n_variants": 1, "variants": [["N. W. Rhodesia", 6]]}
 {"query": "Clanwilliam", "count": 6, "n_variants": 1, "variants": [["Clanwilliam", 6]]}
 {"query": "Midland conservancy", "count": 6, "n_variants": 1, "variants": [["Midland conservancy", 6]]}
 {"query": "West African Settlements", "count": 6, "n_variants": 1, "variants": [["West African Settlements", 6]]}
@@ -1462,7 +1429,6 @@
 {"query": "Meerut", "count": 6, "n_variants": 1, "variants": [["Meerut", 6]]}
 {"query": "Sulymah", "count": 6, "n_variants": 1, "variants": [["Sulymah", 6]]}
 {"query": "Ondo", "count": 6, "n_variants": 1, "variants": [["Ondo", 6]]}
-{"query": "St. Kitt's-Nevis", "count": 6, "n_variants": 1, "variants": [["St. Kitt's-Nevis", 6]]}
 {"query": "East Indies", "count": 6, "n_variants": 1, "variants": [["East Indies", 6]]}
 {"query": "Limasol Cyprus", "count": 6, "n_variants": 1, "variants": [["Limasol, Cyprus", 6]]}
 {"query": "Waterloo", "count": 6, "n_variants": 1, "variants": [["Waterloo", 6]]}
@@ -2605,7 +2571,7 @@
 {"query": "E. Africa and Uganda protectorate", "count": 3, "n_variants": 1, "variants": [["E. Africa and Uganda protectorate", 3]]}
 {"query": "Gilbert and Ellice Is. Coly.", "count": 3, "n_variants": 1, "variants": [["Gilbert and Ellice Is. Coly.", 3]]}
 {"query": "Straits Settlements F.M.S. and Hong Kong", "count": 3, "n_variants": 1, "variants": [["S. Sttlmts., F.M.S. and Hong Kong", 3]]}
-{"query": "Ambriz S. W. Africa", "count": 3, "n_variants": 1, "variants": [["Ambriz, S. W. Africa", 3]]}
+{"query": "Ambriz South West Africa", "count": 3, "n_variants": 1, "variants": [["Ambriz, S. W. Africa", 3]]}
 {"query": "St. Hyacinthe", "count": 3, "n_variants": 1, "variants": [["St. Hyacinthe", 3]]}
 {"query": "Northern Cameroons", "count": 3, "n_variants": 1, "variants": [["Northern Cameroons", 3]]}
 {"query": "Transvaal State Arty.", "count": 3, "n_variants": 1, "variants": [["Transvaal State Arty.", 3]]}
@@ -2632,7 +2598,6 @@
 {"query": "Whim Corentyne", "count": 3, "n_variants": 1, "variants": [["Whim Corentyne", 3]]}
 {"query": "Ontario Canada", "count": 3, "n_variants": 1, "variants": [["Ontario, Canada", 3]]}
 {"query": "Lower Umfolosei", "count": 3, "n_variants": 1, "variants": [["Lower Umfolosei", 3]]}
-{"query": "Ken. and E.A.C.S.O.", "count": 3, "n_variants": 1, "variants": [["Ken. and E.A.C.S.O.", 3]]}
 {"query": "Aquamoo and Crepee", "count": 3, "n_variants": 1, "variants": [["Aquamoo and Crepee", 3]]}
 {"query": "W. Nile", "count": 3, "n_variants": 1, "variants": [["W. Nile", 3]]}
 {"query": "B.B.C.", "count": 3, "n_variants": 1, "variants": [["B.B.C.", 3]]}
@@ -2835,7 +2800,7 @@
 {"query": "B.M.A.", "count": 3, "n_variants": 1, "variants": [["B.M.A.", 3]]}
 {"query": "S. Angoniland", "count": 3, "n_variants": 1, "variants": [["S. Angoniland", 3]]}
 {"query": "Mount Gambier", "count": 3, "n_variants": 1, "variants": [["Mount Gambier", 3]]}
-{"query": "B. E. Africa", "count": 3, "n_variants": 1, "variants": [["B. E. Africa", 3]]}
+{"query": "British East Africa", "count": 3, "n_variants": 1, "variants": [["B. E. Africa", 3]]}
 {"query": "W.A.C.", "count": 3, "n_variants": 1, "variants": [["W.A.C.", 3]]}
 {"query": "Newera Ellia", "count": 3, "n_variants": 1, "variants": [["Newera Ellia", 3]]}
 {"query": "Opobo", "count": 3, "n_variants": 1, "variants": [["Opobo", 3]]}
@@ -3438,7 +3403,7 @@
 {"query": "Nig. rlways.", "count": 2, "n_variants": 1, "variants": [["Nig. rlways.", 2]]}
 {"query": "Nig. Fed.", "count": 2, "n_variants": 1, "variants": [["Nig. Fed.", 2]]}
 {"query": "C.S.O. Capetown", "count": 2, "n_variants": 1, "variants": [["C.S.O., Capetown", 2]]}
-{"query": "Griqualand W. Cape colonial", "count": 2, "n_variants": 1, "variants": [["Griqualand W., Cape colonial", 2]]}
+{"query": "Griqualand West Cape colonial", "count": 2, "n_variants": 1, "variants": [["Griqualand W., Cape colonial", 2]]}
 {"query": "St. Andrew's parish Grenada", "count": 2, "n_variants": 1, "variants": [["St. Andrew's parish, Grenada", 2]]}
 {"query": "Thaba'Nchu", "count": 2, "n_variants": 1, "variants": [["Thaba'Nchu", 2]]}
 {"query": "Grenadines Saint Vincent", "count": 2, "n_variants": 1, "variants": [["Grenadines, St. Vincent", 2]]}
@@ -4929,7 +4894,6 @@
 {"query": "City division Pietermaritzburg", "count": 1, "n_variants": 1, "variants": [["City division, Pietermaritzburg", 1]]}
 {"query": "Antigua and St. Kitts-Nevis", "count": 1, "n_variants": 1, "variants": [["Antigua and St. Kitts-Nevis", 1]]}
 {"query": "Orange Walk and Stann Creek dists.", "count": 1, "n_variants": 1, "variants": [["Orange Walk and Stann Creek dists.", 1]]}
-{"query": "colonial Office", "count": 1, "n_variants": 1, "variants": [["colonial Office", 1]]}
 {"query": "Gold Coast Survey", "count": 1, "n_variants": 1, "variants": [["Gold Coast Survey", 1]]}
 {"query": "Kalutara Kach. Ceylon", "count": 1, "n_variants": 1, "variants": [["Kalutara Kach., Ceylon", 1]]}
 {"query": "Pomeroon River", "count": 1, "n_variants": 1, "variants": [["Pomeroon River", 1]]}
@@ -5679,7 +5643,6 @@
 {"query": "Cape of Good Hope local divn.", "count": 1, "n_variants": 1, "variants": [["Cape of Good Hope local divn.", 1]]}
 {"query": "N. Prov. Tanganyika", "count": 1, "n_variants": 1, "variants": [["N. Prov., T.T.", 1]]}
 {"query": "S. Stltmts.", "count": 1, "n_variants": 1, "variants": [["S. Stltmts.", 1]]}
-{"query": "high commission territories", "count": 1, "n_variants": 1, "variants": [["high commission territories", 1]]}
 {"query": "Udi Patrol", "count": 1, "n_variants": 1, "variants": [["Udi Patrol", 1]]}
 {"query": "Burimah", "count": 1, "n_variants": 1, "variants": [["Burimah", 1]]}
 {"query": "P.M.C.", "count": 1, "n_variants": 1, "variants": [["P.M.C.", 1]]}
@@ -5779,7 +5742,7 @@
 {"query": "West Coast of Atchin", "count": 1, "n_variants": 1, "variants": [["West Coast of Atchin", 1]]}
 {"query": "W. Coast of Atchin", "count": 1, "n_variants": 1, "variants": [["W. Coast of Atchin", 1]]}
 {"query": "Togo", "count": 1, "n_variants": 1, "variants": [["Togo", 1]]}
-{"query": "Sandy Point St. Kitts-Nevis", "count": 1, "n_variants": 1, "variants": [["Sandy Point, St. Kitts-Nevis", 1]]}
+{"query": "Sandy Point Saint Kitts and Nevis", "count": 1, "n_variants": 1, "variants": [["Sandy Point, St. Kitts-Nevis", 1]]}
 {"query": "Virgin Is. circuit", "count": 1, "n_variants": 1, "variants": [["Virgin Is. circuit", 1]]}
 {"query": "H.M. penal sttlmt.", "count": 1, "n_variants": 1, "variants": [["H.M. penal sttlmt.", 1]]}
 {"query": "St. Andrew's Bethnal Green", "count": 1, "n_variants": 1, "variants": [["St. Andrew's, Bethnal Green", 1]]}
@@ -6052,7 +6015,7 @@
 {"query": "Jasin Malacca", "count": 1, "n_variants": 1, "variants": [["Jasin, Malacca", 1]]}
 {"query": "E. Hants", "count": 1, "n_variants": 1, "variants": [["E. Hants", 1]]}
 {"query": "W. Edinburgh City", "count": 1, "n_variants": 1, "variants": [["W. Edinburgh City", 1]]}
-{"query": "district C. St. Kitts-Nevis", "count": 1, "n_variants": 1, "variants": [["district C., St. Kitts-Nevis", 1]]}
+{"query": "district C. Saint Kitts and Nevis", "count": 1, "n_variants": 1, "variants": [["district C., St. Kitts-Nevis", 1]]}
 {"query": "Caribbean Organ. Puerto Rico", "count": 1, "n_variants": 1, "variants": [["Caribbean Organ., Puerto Rico", 1]]}
 {"query": "B'caloa Kachcheri", "count": 1, "n_variants": 1, "variants": [["B'caloa Kachcheri", 1]]}
 {"query": "Gambia Colony", "count": 1, "n_variants": 1, "variants": [["Gambia Colony", 1]]}
@@ -6223,7 +6186,6 @@
 {"query": "Queenbeyen", "count": 1, "n_variants": 1, "variants": [["Queenbeyen", 1]]}
 {"query": "western Australia", "count": 1, "n_variants": 1, "variants": [["western Australia", 1]]}
 {"query": "W. Pro.", "count": 1, "n_variants": 1, "variants": [["W. Pro.", 1]]}
-{"query": "G. C. colony", "count": 1, "n_variants": 1, "variants": [["G. C. colony", 1]]}
 {"query": "Cent. African archives", "count": 1, "n_variants": 1, "variants": [["Cent. African archives", 1]]}
 {"query": "museum Zanzibar", "count": 1, "n_variants": 1, "variants": [["museum, Zanz.", 1]]}
 {"query": "Nova Scotia Canada", "count": 1, "n_variants": 1, "variants": [["Nova Scotia, Canada", 1]]}
@@ -7838,7 +7800,7 @@
 {"query": "N. Iraq", "count": 1, "n_variants": 1, "variants": [["N. Iraq", 1]]}
 {"query": "Mosul province", "count": 1, "n_variants": 1, "variants": [["Mosul province", 1]]}
 {"query": "Basra province", "count": 1, "n_variants": 1, "variants": [["Basra province", 1]]}
-{"query": "K. Kangsar Federated Malay States", "count": 1, "n_variants": 1, "variants": [["K. Kangsar, F.M.S.", 1]]}
+{"query": "Kuala Kangsar Federated Malay States", "count": 1, "n_variants": 1, "variants": [["K. Kangsar, F.M.S.", 1]]}
 {"query": "Galle kach", "count": 1, "n_variants": 1, "variants": [["Galle kach", 1]]}
 {"query": "Windward Is. and Leeward Is.", "count": 1, "n_variants": 1, "variants": [["Windward Is. and Leeward Is.", 1]]}
 {"query": "Four Courts Dublin", "count": 1, "n_variants": 1, "variants": [["Four Courts, Dublin", 1]]}
@@ -8359,7 +8321,7 @@
 {"query": "Idah", "count": 1, "n_variants": 1, "variants": [["Idah", 1]]}
 {"query": "Obubura Hill", "count": 1, "n_variants": 1, "variants": [["Obubura Hill", 1]]}
 {"query": "St. John's Newf'dld.", "count": 1, "n_variants": 1, "variants": [["St. John's, Newf'dld.", 1]]}
-{"query": "Richmond N. S. Wales", "count": 1, "n_variants": 1, "variants": [["Richmond, N. S. Wales", 1]]}
+{"query": "Richmond New South Wales", "count": 1, "n_variants": 1, "variants": [["Richmond, N. S. Wales", 1]]}
 {"query": "Southern circ.", "count": 1, "n_variants": 1, "variants": [["Southern circ.", 1]]}
 {"query": "Western circ.", "count": 1, "n_variants": 1, "variants": [["Western circ.", 1]]}
 {"query": "E. Nyasaland", "count": 1, "n_variants": 1, "variants": [["E. Nyasaland", 1]]}
@@ -8674,7 +8636,6 @@
 {"query": "West Indian colonies", "count": 1, "n_variants": 1, "variants": [["West Indian colonies", 1]]}
 {"query": "supreme courts of Ipoh Penang Kuala Lumpur", "count": 1, "n_variants": 1, "variants": [["supreme courts of Ipoh, Penang, K. Lumpur", 1]]}
 {"query": "Port Swettenham (later Penang Johore)", "count": 1, "n_variants": 1, "variants": [["Port Swettenham (later Penang, Johore)", 1]]}
-{"query": "Cey. C.S.", "count": 1, "n_variants": 1, "variants": [["Cey. C.S.", 1]]}
 {"query": "Lhasa", "count": 1, "n_variants": 1, "variants": [["Lhasa", 1]]}
 {"query": "Mbale", "count": 1, "n_variants": 1, "variants": [["Mbale", 1]]}
 {"query": "Sind", "count": 1, "n_variants": 1, "variants": [["Sind", 1]]}
@@ -9565,6 +9526,7 @@
 {"query": "Fed. Rhod.", "count": 1, "n_variants": 1, "variants": [["Fed. Rhod.", 1]]}
 {"query": "E.A.M.S.", "count": 1, "n_variants": 1, "variants": [["E.A.M.S.", 1]]}
 {"query": "Mzumbe", "count": 1, "n_variants": 1, "variants": [["Mzumbe", 1]]}
+{"query": "E.A.R. & H.", "count": 1, "n_variants": 1, "variants": [["E.A.R., & H.", 1]]}
 {"query": "Carib. commsn.", "count": 1, "n_variants": 1, "variants": [["Carib. commsn.", 1]]}
 {"query": "councils", "count": 1, "n_variants": 1, "variants": [["councils", 1]]}
 {"query": "Buyaga and Bugangazzi", "count": 1, "n_variants": 1, "variants": [["Buyaga and Bugangazzi", 1]]}
@@ -9588,7 +9550,6 @@
 {"query": "Wash.", "count": 1, "n_variants": 1, "variants": [["Wash.", 1]]}
 {"query": "E.A. marine fish. research organ.", "count": 1, "n_variants": 1, "variants": [["E.A. marine fish. research organ.", 1]]}
 {"query": "board of inland rev.", "count": 1, "n_variants": 1, "variants": [["board of inland rev.", 1]]}
-{"query": "G & E.I.C.", "count": 1, "n_variants": 1, "variants": [["G & E.I.C.", 1]]}
 {"query": "Abraka", "count": 1, "n_variants": 1, "variants": [["Abraka", 1]]}
 {"query": "U.W.I.", "count": 1, "n_variants": 1, "variants": [["U.W.I.", 1]]}
 {"query": "Antigua and Virgin Is.", "count": 1, "n_variants": 1, "variants": [["Antigua and Virgin Is.", 1]]}
@@ -10004,7 +9965,6 @@
 {"query": "Br. Empire soc. for the blind", "count": 1, "n_variants": 1, "variants": [["Br. Empire soc. for the blind", 1]]}
 {"query": "Jerusalem and govt. of Palestine", "count": 1, "n_variants": 1, "variants": [["Jerusalem and govt. of Palestine", 1]]}
 {"query": "S.S. and Johore", "count": 1, "n_variants": 1, "variants": [["S.S. and Johore", 1]]}
-{"query": "Basuto-", "count": 1, "n_variants": 1, "variants": [["Basuto-", 1]]}
 {"query": "Kenya Col.", "count": 1, "n_variants": 1, "variants": [["Kenya Col.", 1]]}
 {"query": "Furness", "count": 1, "n_variants": 1, "variants": [["Furness", 1]]}
 {"query": "Christ-", "count": 1, "n_variants": 1, "variants": [["Christ-", 1]]}

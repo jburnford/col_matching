@@ -28,7 +28,7 @@ def canon_key(s: str) -> str:
     apostrophes, collapse whitespace. ``F.M.S.`` -> ``fms``; ``N. Rhod.`` ->
     ``n rhod``; ``S'pore`` -> ``spore``."""
     s = s.lower().replace("'", "").replace("’", "")
-    s = s.replace(".", "")
+    s = s.replace(".", "").replace("-", " ")
     return re.sub(r"\s+", " ", s).strip()
 
 
@@ -152,7 +152,8 @@ _TERRITORY = {
     "br solomon is protectorate": "British Solomon Islands Protectorate",
     "b sol is": "British Solomon Islands Protectorate",
     "gilbert and ellice is": "Gilbert and Ellice Islands",
-    "g and eic": "Gilbert and Ellice Islands",
+    "g and eic": "Gilbert and Ellice Islands", "g & eic": "Gilbert and Ellice Islands",
+    "g & e is": "Gilbert and Ellice Islands", "gilbert and ellice islands": "Gilbert and Ellice Islands",
     "n heb": "New Hebrides", "n hebs": "New Hebrides",
     "christmas is": "Christmas Island",
     # --- Mauritius / Indian Ocean ---
@@ -179,6 +180,18 @@ _TERRITORY = {
     "c of a": "Australia",
     "nz": "New Zealand", "n zealand": "New Zealand",
     # --- British Isles / Europe ---
+    # --- spacing variants of forms already mapped (single-letter initials split
+    #     by spaces survive canon_key, so map them explicitly) ---
+    "n s wales": "New South Wales", "s w africa": "South West Africa",
+    "b n borneo": "North Borneo", "n w rhodesia": "Northern Rhodesia",
+    "n e rhodesia": "Northern Rhodesia", "b e africa": "British East Africa",
+    "b c africa": "British Central Africa", "g c colony": "Gold Coast",
+    "s a republic": "South African Republic", "griqualand w": "Griqualand West",
+    # --- St Kitts-Nevis hyphenated forms ---
+    "st kitts nevis": "Saint Kitts and Nevis", "st k n": "Saint Kitts and Nevis",
+    # --- Malayan "Kuala" towns printed as K. ---
+    "k lumpur": "Kuala Lumpur", "k kangsar": "Kuala Kangsar",
+    "k selangor": "Kuala Selangor", "k pilah": "Kuala Pilah", "k lipis": "Kuala Lipis",
     "uk": "United Kingdom", "eng": "England",
     "lond": "London", "london": "London", "edin": "Edinburgh",
     "camb": "Cambridge", "n ireland": "Northern Ireland",
@@ -196,6 +209,22 @@ _OFFICE_ABBR = {
     "do": "Dominions Office", "lco": "Crown Agents / colonial office",
     "b of t": "Board of Trade", "co rown": "Colonial Office",
     "imp inst": "Imperial Institute",
+    # railways & harbours / high commissions / common-services orgs / civil
+    # services / research orgs — administrative bodies, not places.
+    "ear & h": "East African Railways & Harbours",
+    "ear and h": "East African Railways & Harbours",
+    "kur & h": "Kenya-Uganda Railways & Harbours",
+    "kur and h": "Kenya-Uganda Railways & Harbours",
+    "tr & ps": "Tanganyika Railways & Posts",
+    "eacso": "East Africa Common Services Organisation",
+    "ken and eacso": "East Africa Common Services Organisation",
+    "eahc": "East Africa High Commission",
+    "eaafro": "East African Agriculture & Forestry Research Org.",
+    "w pac hc": "Western Pacific High Commission",
+    "wphc": "Western Pacific High Commission",
+    "hct": "High Commission Territories",
+    "mcs": "Malayan Civil Service", "mal cs": "Malayan Civil Service",
+    "sarawak cs": "Sarawak Civil Service", "cey cs": "Ceylon Civil Service",
 }
 # Word-level signals that a value is an institution/office, not a place.
 _INSTITUTION_RE = re.compile(

@@ -1,4 +1,4 @@
-# 12586 distinct ungrounded places (2137 flagged suspected_noise, kept)
+# 12586 distinct ungrounded places (2159 flagged suspected_noise, kept)
 {"place": "Nig.", "count": 4484, "query": "Nigeria", "suspected_noise": false, "reason": ""}
 {"place": "Ceylon", "count": 3502, "query": "Ceylon", "suspected_noise": false, "reason": ""}
 {"place": "Ken.", "count": 2806, "query": "Kenya", "suspected_noise": false, "reason": ""}
@@ -44,7 +44,7 @@
 {"place": "Lagos", "count": 878, "query": "Lagos", "suspected_noise": false, "reason": ""}
 {"place": "Transvaal", "count": 871, "query": "Transvaal", "suspected_noise": false, "reason": ""}
 {"place": "Dominica", "count": 830, "query": "Dominica", "suspected_noise": false, "reason": ""}
-{"place": "C.O.", "count": 814, "query": "C.O.", "suspected_noise": false, "reason": ""}
+{"place": "C.O.", "count": 814, "query": "C.O.", "suspected_noise": true, "reason": "office abbrev (Colonial Office)"}
 {"place": "Zanzibar", "count": 788, "query": "Zanzibar", "suspected_noise": false, "reason": ""}
 {"place": "S. Australia", "count": 786, "query": "South Australia", "suspected_noise": false, "reason": ""}
 {"place": "S. Leone", "count": 774, "query": "Sierra Leone", "suspected_noise": false, "reason": ""}
@@ -87,7 +87,7 @@
 {"place": "South Australia", "count": 483, "query": "South Australia", "suspected_noise": false, "reason": ""}
 {"place": "W. Australia", "count": 479, "query": "Western Australia", "suspected_noise": false, "reason": ""}
 {"place": "Selangor", "count": 472, "query": "Selangor", "suspected_noise": false, "reason": ""}
-{"place": "E.A.R. & H.", "count": 466, "query": "E.A.R. & H.", "suspected_noise": false, "reason": ""}
+{"place": "E.A.R. & H.", "count": 466, "query": "E.A.R. & H.", "suspected_noise": true, "reason": "office abbrev (East African Railways & Harbours)"}
 {"place": "E.A.P. & T. administration", "count": 465, "query": "E.A.P. & T. administration", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "India", "count": 462, "query": "India", "suspected_noise": false, "reason": ""}
 {"place": "Br. Honduras", "count": 424, "query": "British Honduras", "suspected_noise": false, "reason": ""}
@@ -157,11 +157,11 @@
 {"place": "Manitoba", "count": 173, "query": "Manitoba", "suspected_noise": false, "reason": ""}
 {"place": "Matara", "count": 171, "query": "Matara", "suspected_noise": false, "reason": ""}
 {"place": "Accra", "count": 168, "query": "Accra", "suspected_noise": false, "reason": ""}
-{"place": "St. Kitts-Nevis", "count": 167, "query": "St. Kitts-Nevis", "suspected_noise": false, "reason": ""}
+{"place": "St. Kitts-Nevis", "count": 167, "query": "Saint Kitts and Nevis", "suspected_noise": false, "reason": ""}
 {"place": "New Brunswick", "count": 165, "query": "New Brunswick", "suspected_noise": false, "reason": ""}
 {"place": "Berm.", "count": 164, "query": "Bermuda", "suspected_noise": false, "reason": ""}
 {"place": "Melbourne", "count": 161, "query": "Melbourne", "suspected_noise": false, "reason": ""}
-{"place": "K.U.R. & H.", "count": 161, "query": "K.U.R. & H.", "suspected_noise": false, "reason": ""}
+{"place": "K.U.R. & H.", "count": 161, "query": "K.U.R. & H.", "suspected_noise": true, "reason": "office abbrev (Kenya-Uganda Railways & Harbours)"}
 {"place": "St. L.", "count": 158, "query": "Saint Lucia", "suspected_noise": false, "reason": ""}
 {"place": "Gold Coast Colony", "count": 156, "query": "Gold Coast Colony", "suspected_noise": false, "reason": ""}
 {"place": "Ottawa", "count": 155, "query": "Ottawa", "suspected_noise": false, "reason": ""}
@@ -184,7 +184,7 @@
 {"place": "Badulla", "count": 137, "query": "Badulla", "suspected_noise": false, "reason": ""}
 {"place": "Kelantan", "count": 137, "query": "Kelantan", "suspected_noise": false, "reason": ""}
 {"place": "W. Prov.", "count": 136, "query": "W. Prov.", "suspected_noise": false, "reason": ""}
-{"place": "E.A.R. and H.", "count": 136, "query": "E.A.R. and H.", "suspected_noise": false, "reason": ""}
+{"place": "E.A.R. and H.", "count": 136, "query": "E.A.R. and H.", "suspected_noise": true, "reason": "office abbrev (East African Railways & Harbours)"}
 {"place": "Port Elizabeth", "count": 135, "query": "Port Elizabeth", "suspected_noise": false, "reason": ""}
 {"place": "Brunei", "count": 134, "query": "Brunei", "suspected_noise": false, "reason": ""}
 {"place": "St. Christopher", "count": 133, "query": "Saint Kitts", "suspected_noise": false, "reason": ""}
@@ -203,11 +203,11 @@
 {"place": "Trincomalee", "count": 121, "query": "Trincomalee", "suspected_noise": false, "reason": ""}
 {"place": "Honduras", "count": 120, "query": "Honduras", "suspected_noise": false, "reason": ""}
 {"place": "Windward Is.", "count": 120, "query": "Windward Islands", "suspected_noise": false, "reason": ""}
-{"place": "N. S. Wales", "count": 117, "query": "N. S. Wales", "suspected_noise": false, "reason": ""}
+{"place": "N. S. Wales", "count": 117, "query": "New South Wales", "suspected_noise": false, "reason": ""}
 {"place": "W. Pacific", "count": 113, "query": "Western Pacific", "suspected_noise": false, "reason": ""}
 {"place": "Virgin Is.", "count": 112, "query": "Virgin Islands", "suspected_noise": false, "reason": ""}
 {"place": "Griqualand West", "count": 110, "query": "Griqualand West", "suspected_noise": false, "reason": ""}
-{"place": "E.A.C.S.O.", "count": 110, "query": "E.A.C.S.O.", "suspected_noise": false, "reason": ""}
+{"place": "E.A.C.S.O.", "count": 110, "query": "E.A.C.S.O.", "suspected_noise": true, "reason": "office abbrev (East Africa Common Services Organisation)"}
 {"place": "Zululand", "count": 109, "query": "Zululand", "suspected_noise": false, "reason": ""}
 {"place": "N.B.", "count": 108, "query": "New Brunswick", "suspected_noise": false, "reason": ""}
 {"place": "Kurunegala", "count": 106, "query": "Kurunegala", "suspected_noise": false, "reason": ""}
@@ -228,7 +228,7 @@
 {"place": "Negombo", "count": 95, "query": "Negombo", "suspected_noise": false, "reason": ""}
 {"place": "Ratnapura", "count": 95, "query": "Ratnapura", "suspected_noise": false, "reason": ""}
 {"place": "Trengganu", "count": 94, "query": "Trengganu", "suspected_noise": false, "reason": ""}
-{"place": "E.A.H.C.", "count": 94, "query": "E.A.H.C.", "suspected_noise": false, "reason": ""}
+{"place": "E.A.H.C.", "count": 94, "query": "E.A.H.C.", "suspected_noise": true, "reason": "office abbrev (East Africa High Commission)"}
 {"place": "New Providence", "count": 93, "query": "New Providence", "suspected_noise": false, "reason": ""}
 {"place": "N.E. Rhodesia", "count": 93, "query": "Northern Rhodesia", "suspected_noise": false, "reason": ""}
 {"place": "S. S.", "count": 92, "query": "Straits Settlements", "suspected_noise": false, "reason": ""}
@@ -282,7 +282,7 @@
 {"place": "West Australia", "count": 66, "query": "West Australia", "suspected_noise": false, "reason": ""}
 {"place": "Nassau", "count": 66, "query": "Nassau", "suspected_noise": false, "reason": ""}
 {"place": "Kuala Kangsar", "count": 65, "query": "Kuala Kangsar", "suspected_noise": false, "reason": ""}
-{"place": "colonial office", "count": 65, "query": "colonial office", "suspected_noise": false, "reason": ""}
+{"place": "colonial office", "count": 65, "query": "colonial office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Nicosia", "count": 65, "query": "Nicosia", "suspected_noise": false, "reason": ""}
 {"place": "Alberta", "count": 64, "query": "Alberta", "suspected_noise": false, "reason": ""}
 {"place": "Bechuanaland", "count": 64, "query": "Bechuanaland", "suspected_noise": false, "reason": ""}
@@ -292,11 +292,11 @@
 {"place": "Bridgetown", "count": 63, "query": "Bridgetown", "suspected_noise": false, "reason": ""}
 {"place": "South Africa", "count": 63, "query": "South Africa", "suspected_noise": false, "reason": ""}
 {"place": "S. African war", "count": 62, "query": "S. African war", "suspected_noise": true, "reason": "war/campaign term"}
-{"place": "K.U.R. and H.", "count": 62, "query": "K.U.R. and H.", "suspected_noise": false, "reason": ""}
+{"place": "K.U.R. and H.", "count": 62, "query": "K.U.R. and H.", "suspected_noise": true, "reason": "office abbrev (Kenya-Uganda Railways & Harbours)"}
 {"place": "New S. Wales", "count": 62, "query": "New South Wales", "suspected_noise": false, "reason": ""}
 {"place": "Ionian Islands", "count": 62, "query": "Ionian Islands", "suspected_noise": false, "reason": ""}
 {"place": "C.A.", "count": 61, "query": "C.A.", "suspected_noise": false, "reason": ""}
-{"place": "Colonial Office", "count": 61, "query": "Colonial Office", "suspected_noise": false, "reason": ""}
+{"place": "Colonial Office", "count": 61, "query": "Colonial Office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "B. Columbia", "count": 61, "query": "British Columbia", "suspected_noise": false, "reason": ""}
 {"place": "Geneva", "count": 61, "query": "Geneva", "suspected_noise": false, "reason": ""}
 {"place": "W.A.", "count": 61, "query": "W.A.", "suspected_noise": false, "reason": ""}
@@ -339,7 +339,7 @@
 {"place": "Grand Turk", "count": 53, "query": "Grand Turk", "suspected_noise": false, "reason": ""}
 {"place": "N.W. Prov.", "count": 52, "query": "N.W. Prov.", "suspected_noise": false, "reason": ""}
 {"place": "Germany", "count": 52, "query": "Germany", "suspected_noise": false, "reason": ""}
-{"place": "W. Pac. H.C.", "count": 52, "query": "W. Pac. H.C.", "suspected_noise": false, "reason": ""}
+{"place": "W. Pac. H.C.", "count": 52, "query": "W. Pac. H.C.", "suspected_noise": true, "reason": "office abbrev (Western Pacific High Commission)"}
 {"place": "Pal. police", "count": 52, "query": "Pal. police", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Raub", "count": 52, "query": "Raub", "suspected_noise": false, "reason": ""}
 {"place": "W. Africa", "count": 52, "query": "British West Africa", "suspected_noise": false, "reason": ""}
@@ -372,7 +372,7 @@
 {"place": "Mombasa", "count": 45, "query": "Mombasa", "suspected_noise": false, "reason": ""}
 {"place": "Limassol", "count": 45, "query": "Limassol", "suspected_noise": false, "reason": ""}
 {"place": "Mal. rlwy.", "count": 44, "query": "Mal. rlwy.", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "Hong-Kong", "count": 44, "query": "Hong-Kong", "suspected_noise": false, "reason": ""}
+{"place": "Hong-Kong", "count": 44, "query": "Hong Kong", "suspected_noise": false, "reason": ""}
 {"place": "C. of Aust.", "count": 44, "query": "Australia", "suspected_noise": false, "reason": ""}
 {"place": "S. Stlmts.", "count": 43, "query": "Straits Settlements", "suspected_noise": false, "reason": ""}
 {"place": "S. African War", "count": 43, "query": "S. African War", "suspected_noise": true, "reason": "war/campaign term"}
@@ -400,7 +400,7 @@
 {"place": "Scotland", "count": 39, "query": "Scotland", "suspected_noise": false, "reason": ""}
 {"place": "W.O.", "count": 39, "query": "W.O.", "suspected_noise": true, "reason": "office abbrev (War Office)"}
 {"place": "Liverpool", "count": 38, "query": "Liverpool", "suspected_noise": false, "reason": ""}
-{"place": "St. K.-N.", "count": 38, "query": "St. K.-N.", "suspected_noise": false, "reason": ""}
+{"place": "St. K.-N.", "count": 38, "query": "Saint Kitts and Nevis", "suspected_noise": false, "reason": ""}
 {"place": "B.C. Africa", "count": 38, "query": "British Central Africa", "suspected_noise": false, "reason": ""}
 {"place": "Kenya and Uganda", "count": 38, "query": "Kenya and Uganda", "suspected_noise": false, "reason": ""}
 {"place": "Berlin", "count": 38, "query": "Berlin", "suspected_noise": false, "reason": ""}
@@ -417,7 +417,7 @@
 {"place": "Dom.", "count": 37, "query": "Dominica", "suspected_noise": false, "reason": ""}
 {"place": "Gamb.", "count": 37, "query": "Gambia", "suspected_noise": false, "reason": ""}
 {"place": "Perth, W. Australia", "count": 37, "query": "Perth Western Australia", "suspected_noise": false, "reason": ""}
-{"place": "Sarawak C.S.", "count": 37, "query": "Sarawak C.S.", "suspected_noise": false, "reason": ""}
+{"place": "Sarawak C.S.", "count": 37, "query": "Sarawak C.S.", "suspected_noise": true, "reason": "office abbrev (Sarawak Civil Service)"}
 {"place": "British Kaffraria", "count": 37, "query": "British Kaffraria", "suspected_noise": false, "reason": ""}
 {"place": "Nigerian secretariat", "count": 37, "query": "Nigerian secretariat", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Victoria gaol", "count": 37, "query": "Victoria gaol", "suspected_noise": false, "reason": ""}
@@ -463,7 +463,7 @@
 {"place": "Oxford", "count": 33, "query": "Oxford", "suspected_noise": false, "reason": ""}
 {"place": "Eritrea", "count": 33, "query": "Eritrea", "suspected_noise": false, "reason": ""}
 {"place": "S. Austral.", "count": 33, "query": "South Australia", "suspected_noise": false, "reason": ""}
-{"place": "M.C.S.", "count": 33, "query": "M.C.S.", "suspected_noise": false, "reason": ""}
+{"place": "M.C.S.", "count": 33, "query": "M.C.S.", "suspected_noise": true, "reason": "office abbrev (Malayan Civil Service)"}
 {"place": "N. Provs., Nigeria", "count": 32, "query": "N. Provs. Nigeria", "suspected_noise": false, "reason": ""}
 {"place": "Panadura", "count": 32, "query": "Panadura", "suspected_noise": false, "reason": ""}
 {"place": "province Wellesley", "count": 32, "query": "province Wellesley", "suspected_noise": false, "reason": ""}
@@ -496,7 +496,7 @@
 {"place": "Buganda", "count": 30, "query": "Buganda", "suspected_noise": false, "reason": ""}
 {"place": "Bechuanaland border police", "count": 30, "query": "Bechuanaland border police", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "New Territory", "count": 30, "query": "New Territory", "suspected_noise": false, "reason": ""}
-{"place": "T.R. & P.S.", "count": 30, "query": "T.R. & P.S.", "suspected_noise": false, "reason": ""}
+{"place": "T.R. & P.S.", "count": 30, "query": "T.R. & P.S.", "suspected_noise": true, "reason": "office abbrev (Tanganyika Railways & Posts)"}
 {"place": "Baghdad", "count": 29, "query": "Baghdad", "suspected_noise": false, "reason": ""}
 {"place": "W. Pac.", "count": 29, "query": "Western Pacific", "suspected_noise": false, "reason": ""}
 {"place": "S'wak.", "count": 29, "query": "Sarawak", "suspected_noise": false, "reason": ""}
@@ -513,7 +513,7 @@
 {"place": "New Providence, Bahamas", "count": 29, "query": "New Providence Bahamas", "suspected_noise": false, "reason": ""}
 {"place": "Elmina", "count": 29, "query": "Elmina", "suspected_noise": false, "reason": ""}
 {"place": "West Indies", "count": 28, "query": "West Indies", "suspected_noise": false, "reason": ""}
-{"place": "K. Kangsar", "count": 28, "query": "K. Kangsar", "suspected_noise": false, "reason": ""}
+{"place": "K. Kangsar", "count": 28, "query": "Kuala Kangsar", "suspected_noise": false, "reason": ""}
 {"place": "Jelebu", "count": 28, "query": "Jelebu", "suspected_noise": false, "reason": ""}
 {"place": "Mullaittivu", "count": 28, "query": "Mullaittivu", "suspected_noise": false, "reason": ""}
 {"place": "Butterworth", "count": 28, "query": "Butterworth", "suspected_noise": false, "reason": ""}
@@ -522,7 +522,7 @@
 {"place": "Transvaal and O.R.C.", "count": 28, "query": "Transvaal and O.R.C.", "suspected_noise": false, "reason": ""}
 {"place": "Cradock", "count": 28, "query": "Cradock", "suspected_noise": false, "reason": ""}
 {"place": "St. Kitt's", "count": 28, "query": "Saint Kitts", "suspected_noise": false, "reason": ""}
-{"place": "E.A.A.F.R.O.", "count": 28, "query": "E.A.A.F.R.O.", "suspected_noise": false, "reason": ""}
+{"place": "E.A.A.F.R.O.", "count": 28, "query": "E.A.A.F.R.O.", "suspected_noise": true, "reason": "office abbrev (East African Agriculture & Forestry Research Org.)"}
 {"place": "Bridgetown, Barbados", "count": 28, "query": "Bridgetown Barbados", "suspected_noise": false, "reason": ""}
 {"place": "Calabar", "count": 28, "query": "Calabar", "suspected_noise": false, "reason": ""}
 {"place": "N.W. district", "count": 28, "query": "N.W. district", "suspected_noise": false, "reason": ""}
@@ -535,16 +535,16 @@
 {"place": "Soudan", "count": 27, "query": "Sudan", "suspected_noise": false, "reason": ""}
 {"place": "Malta university", "count": 27, "query": "Malta university", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Province Wellesley", "count": 27, "query": "Province Wellesley", "suspected_noise": false, "reason": ""}
-{"place": "Mal. C.S.", "count": 27, "query": "Mal. C.S.", "suspected_noise": false, "reason": ""}
+{"place": "Mal. C.S.", "count": 27, "query": "Mal. C.S.", "suspected_noise": true, "reason": "office abbrev (Malayan Civil Service)"}
 {"place": "cent. prov.", "count": 27, "query": "cent. prov.", "suspected_noise": false, "reason": ""}
 {"place": "Mediterranean", "count": 27, "query": "Mediterranean", "suspected_noise": false, "reason": ""}
 {"place": "Afghanistan", "count": 27, "query": "Afghanistan", "suspected_noise": false, "reason": ""}
 {"place": "B.C.A. protectorate", "count": 27, "query": "British Central Africa", "suspected_noise": false, "reason": ""}
 {"place": "Shanghai", "count": 27, "query": "Shanghai", "suspected_noise": false, "reason": ""}
-{"place": "K. Selangor", "count": 27, "query": "K. Selangor", "suspected_noise": false, "reason": ""}
+{"place": "K. Selangor", "count": 27, "query": "Kuala Selangor", "suspected_noise": false, "reason": ""}
 {"place": "Hythe", "count": 27, "query": "Hythe", "suspected_noise": false, "reason": ""}
 {"place": "Lau", "count": 27, "query": "Lau", "suspected_noise": false, "reason": ""}
-{"place": "Griqualand W.", "count": 27, "query": "Griqualand W.", "suspected_noise": false, "reason": ""}
+{"place": "Griqualand W.", "count": 27, "query": "Griqualand West", "suspected_noise": false, "reason": ""}
 {"place": "West Africa Settlements", "count": 27, "query": "West Africa Settlements", "suspected_noise": false, "reason": ""}
 {"place": "Bathurst", "count": 27, "query": "Bathurst", "suspected_noise": false, "reason": ""}
 {"place": "N. C. protectorate (now S. Nigeria)", "count": 27, "query": "N. C. protectorate (now S. Nigeria)", "suspected_noise": false, "reason": ""}
@@ -666,7 +666,7 @@
 {"place": "E.A.P. & T.", "count": 20, "query": "E.A.P. & T.", "suspected_noise": false, "reason": ""}
 {"place": "S. Provs., Nigeria", "count": 20, "query": "S. Provs. Nigeria", "suspected_noise": false, "reason": ""}
 {"place": "Bangkok", "count": 20, "query": "Bangkok", "suspected_noise": false, "reason": ""}
-{"place": "K. Pilah", "count": 20, "query": "K. Pilah", "suspected_noise": false, "reason": ""}
+{"place": "K. Pilah", "count": 20, "query": "Kuala Pilah", "suspected_noise": false, "reason": ""}
 {"place": "eastern district", "count": 20, "query": "eastern district", "suspected_noise": false, "reason": ""}
 {"place": "T'dad", "count": 20, "query": "Trinidad", "suspected_noise": false, "reason": ""}
 {"place": "N. district, Bech. protectorate", "count": 20, "query": "N. district Bechuanaland", "suspected_noise": false, "reason": ""}
@@ -745,7 +745,7 @@
 {"place": "P.E. Is.", "count": 17, "query": "Prince Edward Island", "suspected_noise": false, "reason": ""}
 {"place": "C of A.", "count": 17, "query": "Australia", "suspected_noise": false, "reason": ""}
 {"place": "British Bechuanaland", "count": 17, "query": "British Bechuanaland", "suspected_noise": false, "reason": ""}
-{"place": "G. & E.I.C.", "count": 17, "query": "G. & E.I.C.", "suspected_noise": false, "reason": ""}
+{"place": "G. & E.I.C.", "count": 17, "query": "Gilbert and Ellice Islands", "suspected_noise": false, "reason": ""}
 {"place": "C.P.", "count": 17, "query": "C.P.", "suspected_noise": false, "reason": ""}
 {"place": "Weenen", "count": 17, "query": "Weenen", "suspected_noise": false, "reason": ""}
 {"place": "S. Cams.", "count": 17, "query": "S. Cams.", "suspected_noise": false, "reason": ""}
@@ -779,7 +779,7 @@
 {"place": "Nyasaland Field Force", "count": 16, "query": "Nyasaland Field Force", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Queen's college, Hong Kong", "count": 16, "query": "Queen's college Hong Kong", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Ratnapura kach.", "count": 16, "query": "Ratnapura kach.", "suspected_noise": false, "reason": ""}
-{"place": "K. Lipis", "count": 16, "query": "K. Lipis", "suspected_noise": false, "reason": ""}
+{"place": "K. Lipis", "count": 16, "query": "Kuala Lipis", "suspected_noise": false, "reason": ""}
 {"place": "N. E. Rhodesia", "count": 16, "query": "Northern Rhodesia", "suspected_noise": false, "reason": ""}
 {"place": "Siam", "count": 16, "query": "Siam", "suspected_noise": false, "reason": ""}
 {"place": "Caroni", "count": 16, "query": "Caroni", "suspected_noise": false, "reason": ""}
@@ -864,7 +864,7 @@
 {"place": "Windward district", "count": 14, "query": "Windward district", "suspected_noise": false, "reason": ""}
 {"place": "district B.", "count": 14, "query": "district B.", "suspected_noise": false, "reason": ""}
 {"place": "Suakin", "count": 14, "query": "Suakin", "suspected_noise": false, "reason": ""}
-{"place": "S. W. Africa", "count": 14, "query": "S. W. Africa", "suspected_noise": false, "reason": ""}
+{"place": "S. W. Africa", "count": 14, "query": "South West Africa", "suspected_noise": false, "reason": ""}
 {"place": "Shortlands", "count": 14, "query": "Shortlands", "suspected_noise": false, "reason": ""}
 {"place": "N. prov.", "count": 14, "query": "N. prov.", "suspected_noise": false, "reason": ""}
 {"place": "E.A. inc. tax department", "count": 14, "query": "E.A. inc. tax department", "suspected_noise": true, "reason": "institution/office term"}
@@ -876,7 +876,7 @@
 {"place": "Port-of-Spain", "count": 14, "query": "Port-of-Spain", "suspected_noise": false, "reason": ""}
 {"place": "Brome", "count": 14, "query": "Brome", "suspected_noise": false, "reason": ""}
 {"place": "Colo West", "count": 14, "query": "Colo West", "suspected_noise": false, "reason": ""}
-{"place": "B. N. Borneo", "count": 14, "query": "B. N. Borneo", "suspected_noise": false, "reason": ""}
+{"place": "B. N. Borneo", "count": 14, "query": "North Borneo", "suspected_noise": false, "reason": ""}
 {"place": "Mafeking", "count": 14, "query": "Mafeking", "suspected_noise": false, "reason": ""}
 {"place": "Leeward district", "count": 14, "query": "Leeward district", "suspected_noise": false, "reason": ""}
 {"place": "U. of S. Africa", "count": 14, "query": "U. of S. Africa", "suspected_noise": false, "reason": ""}
@@ -975,7 +975,7 @@
 {"place": "southern province", "count": 12, "query": "southern province", "suspected_noise": false, "reason": ""}
 {"place": "King's college", "count": 12, "query": "King's college", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Pietermaritzburg, Natal", "count": 12, "query": "Pietermaritzburg Natal", "suspected_noise": false, "reason": ""}
-{"place": "G. & E. Is.", "count": 12, "query": "G. & E. Is.", "suspected_noise": false, "reason": ""}
+{"place": "G. & E. Is.", "count": 12, "query": "Gilbert and Ellice Islands", "suspected_noise": false, "reason": ""}
 {"place": "Elsenburg. Mulder's Vlei", "count": 12, "query": "Elsenburg. Mulder's Vlei", "suspected_noise": false, "reason": ""}
 {"place": "Africa", "count": 12, "query": "Africa", "suspected_noise": false, "reason": ""}
 {"place": "Paphos", "count": 12, "query": "Paphos", "suspected_noise": false, "reason": ""}
@@ -1032,7 +1032,7 @@
 {"place": "Queen's university", "count": 11, "query": "Queen's university", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "S.W.A.", "count": 11, "query": "S.W.A.", "suspected_noise": false, "reason": ""}
 {"place": "Delhi", "count": 11, "query": "Delhi", "suspected_noise": false, "reason": ""}
-{"place": "Dominions Office", "count": 11, "query": "Dominions Office", "suspected_noise": false, "reason": ""}
+{"place": "Dominions Office", "count": 11, "query": "Dominions Office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "F.M.S. civil service", "count": 11, "query": "F.M.S. civil service", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Anglo-Egyptian Sudan", "count": 11, "query": "Anglo-Egyptian Sudan", "suspected_noise": false, "reason": ""}
 {"place": "Man.", "count": 11, "query": "Man.", "suspected_noise": false, "reason": ""}
@@ -1443,7 +1443,7 @@
 {"place": "St. Vin.", "count": 8, "query": "St. Vin.", "suspected_noise": false, "reason": ""}
 {"place": "Demerara River", "count": 8, "query": "Demerara River", "suspected_noise": false, "reason": ""}
 {"place": "Royal college, Maur.", "count": 8, "query": "Royal college Mauritius", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "J'ca-", "count": 8, "query": "J'ca-", "suspected_noise": false, "reason": ""}
+{"place": "J'ca-", "count": 8, "query": "Jamaica", "suspected_noise": false, "reason": ""}
 {"place": "Treng.", "count": 8, "query": "Treng.", "suspected_noise": false, "reason": ""}
 {"place": "Benin City", "count": 8, "query": "Benin City", "suspected_noise": false, "reason": ""}
 {"place": "Massaruni, B. Guiana", "count": 8, "query": "Massaruni British Guiana", "suspected_noise": false, "reason": ""}
@@ -1515,7 +1515,7 @@
 {"place": "Trinidad local forces", "count": 7, "query": "Trinidad local forces", "suspected_noise": false, "reason": ""}
 {"place": "St. Catherine", "count": 7, "query": "St. Catherine", "suspected_noise": false, "reason": ""}
 {"place": "Cent. prov.", "count": 7, "query": "Cent. prov.", "suspected_noise": false, "reason": ""}
-{"place": "H.C.T.", "count": 7, "query": "H.C.T.", "suspected_noise": false, "reason": ""}
+{"place": "H.C.T.", "count": 7, "query": "H.C.T.", "suspected_noise": true, "reason": "office abbrev (High Commission Territories)"}
 {"place": "Fed. of S. Arabia", "count": 7, "query": "Fed. of S. Arabia", "suspected_noise": false, "reason": ""}
 {"place": "Malay", "count": 7, "query": "Malay", "suspected_noise": false, "reason": ""}
 {"place": "Brit. Bechuanaland", "count": 7, "query": "Brit. Bechuanaland", "suspected_noise": false, "reason": ""}
@@ -1560,7 +1560,7 @@
 {"place": "Lake Nyasa", "count": 7, "query": "Lake Nyasa", "suspected_noise": false, "reason": ""}
 {"place": "W. Pac. high commission", "count": 7, "query": "W. Pac. high commission", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "S. Sttlmnts.", "count": 7, "query": "S. Sttlmnts.", "suspected_noise": false, "reason": ""}
-{"place": "Malay college, K. Kangsar", "count": 7, "query": "Malay college K. Kangsar", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Malay college, K. Kangsar", "count": 7, "query": "Malay college Kuala Kangsar", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Panama", "count": 7, "query": "Panama", "suspected_noise": false, "reason": ""}
 {"place": "O.R.C., administration", "count": 7, "query": "Orange River Colony administration", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "S. Sttlimts.", "count": 7, "query": "S. Sttlimts.", "suspected_noise": false, "reason": ""}
@@ -1586,7 +1586,7 @@
 {"place": "Royal Alfred Observatory", "count": 7, "query": "Royal Alfred Observatory", "suspected_noise": false, "reason": ""}
 {"place": "Nile campaign", "count": 7, "query": "Nile campaign", "suspected_noise": true, "reason": "war/campaign term"}
 {"place": "Worcester College, Oxford", "count": 7, "query": "Worcester College Oxford", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "S. A. Republic", "count": 7, "query": "S. A. Republic", "suspected_noise": false, "reason": ""}
+{"place": "S. A. Republic", "count": 7, "query": "South African Republic", "suspected_noise": false, "reason": ""}
 {"place": "N. division, public works department", "count": 7, "query": "N. division public works department", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "B.B. and S.", "count": 7, "query": "B.B. and S.", "suspected_noise": false, "reason": ""}
 {"place": "Island of Barbados", "count": 7, "query": "Island of Barbados", "suspected_noise": false, "reason": ""}
@@ -1644,7 +1644,7 @@
 {"place": "Birkenhead", "count": 6, "query": "Birkenhead", "suspected_noise": false, "reason": ""}
 {"place": "Geelong", "count": 6, "query": "Geelong", "suspected_noise": false, "reason": ""}
 {"place": "Western Pacific high commission", "count": 6, "query": "Western Pacific high commission", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "W.P.H.C.", "count": 6, "query": "W.P.H.C.", "suspected_noise": false, "reason": ""}
+{"place": "W.P.H.C.", "count": 6, "query": "W.P.H.C.", "suspected_noise": true, "reason": "office abbrev (Western Pacific High Commission)"}
 {"place": "N. Cent. Prov.", "count": 6, "query": "N. Cent. Prov.", "suspected_noise": false, "reason": ""}
 {"place": "Str. Settls.", "count": 6, "query": "Str. Settls.", "suspected_noise": false, "reason": ""}
 {"place": "Rodriguez", "count": 6, "query": "Rodriguez", "suspected_noise": false, "reason": ""}
@@ -1665,7 +1665,7 @@
 {"place": "Glasgow university", "count": 6, "query": "Glasgow university", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Fed. secretariat", "count": 6, "query": "Fed. secretariat", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Karunegala", "count": 6, "query": "Karunegala", "suspected_noise": false, "reason": ""}
-{"place": "N. W. Rhodesia", "count": 6, "query": "N. W. Rhodesia", "suspected_noise": false, "reason": ""}
+{"place": "N. W. Rhodesia", "count": 6, "query": "Northern Rhodesia", "suspected_noise": false, "reason": ""}
 {"place": "Selangor, Negri Sembilan and Pahang", "count": 6, "query": "Selangor Negri Sembilan and Pahang", "suspected_noise": false, "reason": ""}
 {"place": "Clanwilliam", "count": 6, "query": "Clanwilliam", "suspected_noise": false, "reason": ""}
 {"place": "Midland conservancy", "count": 6, "query": "Midland conservancy", "suspected_noise": false, "reason": ""}
@@ -1836,7 +1836,7 @@
 {"place": "Meerut", "count": 6, "query": "Meerut", "suspected_noise": false, "reason": ""}
 {"place": "Sulymah", "count": 6, "query": "Sulymah", "suspected_noise": false, "reason": ""}
 {"place": "Ondo", "count": 6, "query": "Ondo", "suspected_noise": false, "reason": ""}
-{"place": "St. Kitt's-Nevis", "count": 6, "query": "St. Kitt's-Nevis", "suspected_noise": false, "reason": ""}
+{"place": "St. Kitt's-Nevis", "count": 6, "query": "Saint Kitts and Nevis", "suspected_noise": false, "reason": ""}
 {"place": "East Indies", "count": 6, "query": "East Indies", "suspected_noise": false, "reason": ""}
 {"place": "Limasol, Cyprus", "count": 6, "query": "Limasol Cyprus", "suspected_noise": false, "reason": ""}
 {"place": "Waterloo", "count": 6, "query": "Waterloo", "suspected_noise": false, "reason": ""}
@@ -3210,7 +3210,7 @@
 {"place": "Gilbert and Ellice Is. Coly.", "count": 3, "query": "Gilbert and Ellice Is. Coly.", "suspected_noise": false, "reason": ""}
 {"place": "W. Pacific.", "count": 3, "query": "Western Pacific", "suspected_noise": false, "reason": ""}
 {"place": "S. Sttlmts., F.M.S. and Hong Kong", "count": 3, "query": "Straits Settlements F.M.S. and Hong Kong", "suspected_noise": false, "reason": ""}
-{"place": "Ambriz, S. W. Africa", "count": 3, "query": "Ambriz S. W. Africa", "suspected_noise": false, "reason": ""}
+{"place": "Ambriz, S. W. Africa", "count": 3, "query": "Ambriz South West Africa", "suspected_noise": false, "reason": ""}
 {"place": "St. Hyacinthe", "count": 3, "query": "St. Hyacinthe", "suspected_noise": false, "reason": ""}
 {"place": "Northern Cameroons", "count": 3, "query": "Northern Cameroons", "suspected_noise": false, "reason": ""}
 {"place": "Transvaal State Arty.", "count": 3, "query": "Transvaal State Arty.", "suspected_noise": false, "reason": ""}
@@ -3244,7 +3244,7 @@
 {"place": "Ontario, Canada", "count": 3, "query": "Ontario Canada", "suspected_noise": false, "reason": ""}
 {"place": "Victoria East", "count": 3, "query": "Victoria East", "suspected_noise": false, "reason": ""}
 {"place": "Lower Umfolosei", "count": 3, "query": "Lower Umfolosei", "suspected_noise": false, "reason": ""}
-{"place": "Ken. and E.A.C.S.O.", "count": 3, "query": "Ken. and E.A.C.S.O.", "suspected_noise": false, "reason": ""}
+{"place": "Ken. and E.A.C.S.O.", "count": 3, "query": "Ken. and E.A.C.S.O.", "suspected_noise": true, "reason": "office abbrev (East Africa Common Services Organisation)"}
 {"place": "Aquamoo and Crepee", "count": 3, "query": "Aquamoo and Crepee", "suspected_noise": false, "reason": ""}
 {"place": "Raffles college", "count": 3, "query": "Raffles college", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "W. Nile", "count": 3, "query": "W. Nile", "suspected_noise": false, "reason": ""}
@@ -3476,7 +3476,7 @@
 {"place": "B.M.A.", "count": 3, "query": "B.M.A.", "suspected_noise": false, "reason": ""}
 {"place": "S. Angoniland", "count": 3, "query": "S. Angoniland", "suspected_noise": false, "reason": ""}
 {"place": "Mount Gambier", "count": 3, "query": "Mount Gambier", "suspected_noise": false, "reason": ""}
-{"place": "B. E. Africa", "count": 3, "query": "B. E. Africa", "suspected_noise": false, "reason": ""}
+{"place": "B. E. Africa", "count": 3, "query": "British East Africa", "suspected_noise": false, "reason": ""}
 {"place": "W.A.C.", "count": 3, "query": "W.A.C.", "suspected_noise": false, "reason": ""}
 {"place": "Newera Ellia", "count": 3, "query": "Newera Ellia", "suspected_noise": false, "reason": ""}
 {"place": "Opobo", "count": 3, "query": "Opobo", "suspected_noise": false, "reason": ""}
@@ -4205,7 +4205,7 @@
 {"place": "Nig. Fed.", "count": 2, "query": "Nig. Fed.", "suspected_noise": false, "reason": ""}
 {"place": "C.S.O., Capetown", "count": 2, "query": "C.S.O. Capetown", "suspected_noise": false, "reason": ""}
 {"place": "Griqualand West, Cape Colony", "count": 2, "query": "Griqualand West Cape Colony", "suspected_noise": false, "reason": ""}
-{"place": "Griqualand W., Cape colonial", "count": 2, "query": "Griqualand W. Cape colonial", "suspected_noise": false, "reason": ""}
+{"place": "Griqualand W., Cape colonial", "count": 2, "query": "Griqualand West Cape colonial", "suspected_noise": false, "reason": ""}
 {"place": "St. Andrew's parish, Grenada", "count": 2, "query": "St. Andrew's parish Grenada", "suspected_noise": false, "reason": ""}
 {"place": "Thaba'Nchu", "count": 2, "query": "Thaba'Nchu", "suspected_noise": false, "reason": ""}
 {"place": "Grenadines, St. Vincent", "count": 2, "query": "Grenadines Saint Vincent", "suspected_noise": false, "reason": ""}
@@ -5542,7 +5542,7 @@
 {"place": "I.R. department, Pretoria", "count": 2, "query": "I.R. department Pretoria", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Boys High school, Salisbury, Rhodesia", "count": 2, "query": "Boys High school Salisbury Rhodesia", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "E.A.A.R.I. Amani", "count": 2, "query": "E.A.A.R.I. Amani", "suspected_noise": false, "reason": ""}
-{"place": "Warren's hosp., K. Kangsar", "count": 2, "query": "Warren's hosp. K. Kangsar", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Warren's hosp., K. Kangsar", "count": 2, "query": "Warren's hosp. Kuala Kangsar", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "F.M.S. Railways", "count": 2, "query": "F.M.S. Railways", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Penang and public works", "count": 2, "query": "Penang and public works", "suspected_noise": false, "reason": ""}
 {"place": "Katanga", "count": 2, "query": "Katanga", "suspected_noise": false, "reason": ""}
@@ -6058,7 +6058,7 @@
 {"place": "St. Kitts-Nevis defence force", "count": 1, "query": "St. Kitts-Nevis defence force", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Antigua and St. Kitts-Nevis", "count": 1, "query": "Antigua and St. Kitts-Nevis", "suspected_noise": false, "reason": ""}
 {"place": "Orange Walk and Stann Creek dists.", "count": 1, "query": "Orange Walk and Stann Creek dists.", "suspected_noise": false, "reason": ""}
-{"place": "colonial Office", "count": 1, "query": "colonial Office", "suspected_noise": false, "reason": ""}
+{"place": "colonial Office", "count": 1, "query": "colonial Office", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Gold Coast Survey", "count": 1, "query": "Gold Coast Survey", "suspected_noise": false, "reason": ""}
 {"place": "Kalutara Kach., Ceylon", "count": 1, "query": "Kalutara Kach. Ceylon", "suspected_noise": false, "reason": ""}
 {"place": "Pomeroon River", "count": 1, "query": "Pomeroon River", "suspected_noise": false, "reason": ""}
@@ -7035,7 +7035,7 @@
 {"place": "Turks Islands volunteer corps", "count": 1, "query": "Turks Islands volunteer corps", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "N. Prov., T.T.", "count": 1, "query": "N. Prov. Tanganyika", "suspected_noise": false, "reason": ""}
 {"place": "S. Stltmts.", "count": 1, "query": "S. Stltmts.", "suspected_noise": false, "reason": ""}
-{"place": "high commission territories", "count": 1, "query": "high commission territories", "suspected_noise": false, "reason": ""}
+{"place": "high commission territories", "count": 1, "query": "high commission territories", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Udi Patrol", "count": 1, "query": "Udi Patrol", "suspected_noise": false, "reason": ""}
 {"place": "Burimah", "count": 1, "query": "Burimah", "suspected_noise": false, "reason": ""}
 {"place": "P.M.C.", "count": 1, "query": "P.M.C.", "suspected_noise": false, "reason": ""}
@@ -7158,7 +7158,7 @@
 {"place": "West Coast of Atchin", "count": 1, "query": "West Coast of Atchin", "suspected_noise": false, "reason": ""}
 {"place": "W. Coast of Atchin", "count": 1, "query": "W. Coast of Atchin", "suspected_noise": false, "reason": ""}
 {"place": "Togo", "count": 1, "query": "Togo", "suspected_noise": false, "reason": ""}
-{"place": "Sandy Point, St. Kitts-Nevis", "count": 1, "query": "Sandy Point St. Kitts-Nevis", "suspected_noise": false, "reason": ""}
+{"place": "Sandy Point, St. Kitts-Nevis", "count": 1, "query": "Sandy Point Saint Kitts and Nevis", "suspected_noise": false, "reason": ""}
 {"place": "Virgin Is. circuit", "count": 1, "query": "Virgin Is. circuit", "suspected_noise": false, "reason": ""}
 {"place": "H.M. penal sttlmt.", "count": 1, "query": "H.M. penal sttlmt.", "suspected_noise": false, "reason": ""}
 {"place": "St. Peter's college, Camb.", "count": 1, "query": "St. Peter's college Cambridge", "suspected_noise": true, "reason": "institution/office term"}
@@ -7412,7 +7412,7 @@
 {"place": "Sydney Hosp.", "count": 1, "query": "Sydney Hosp.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Carrington Centennial Hosp. for convalescents", "count": 1, "query": "Carrington Centennial Hosp. for convalescents", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Australian museum and Technological museum", "count": 1, "query": "Australian museum and Technological museum", "suspected_noise": false, "reason": ""}
-{"place": "Prince Alfred Hospital, Sydney, N. S. Wales", "count": 1, "query": "Prince Alfred Hospital Sydney N. S. Wales", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "Prince Alfred Hospital, Sydney, N. S. Wales", "count": 1, "query": "Prince Alfred Hospital Sydney New South Wales", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Sydney Hospital", "count": 1, "query": "Sydney Hospital", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Carrington Centennial Hospital for convalescents", "count": 1, "query": "Carrington Centennial Hospital for convalescents", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Royal Society, N. S. W.", "count": 1, "query": "Royal Society N. S. W.", "suspected_noise": false, "reason": ""}
@@ -7531,7 +7531,7 @@
 {"place": "E. Hants", "count": 1, "query": "E. Hants", "suspected_noise": false, "reason": ""}
 {"place": "W. Edinburgh City", "count": 1, "query": "W. Edinburgh City", "suspected_noise": false, "reason": ""}
 {"place": "Jaffa, Pal.", "count": 1, "query": "Jaffa Palestine", "suspected_noise": false, "reason": ""}
-{"place": "district C., St. Kitts-Nevis", "count": 1, "query": "district C. St. Kitts-Nevis", "suspected_noise": false, "reason": ""}
+{"place": "district C., St. Kitts-Nevis", "count": 1, "query": "district C. Saint Kitts and Nevis", "suspected_noise": false, "reason": ""}
 {"place": "Caribbean Organ., Puerto Rico", "count": 1, "query": "Caribbean Organ. Puerto Rico", "suspected_noise": false, "reason": ""}
 {"place": "B'caloa Kachcheri", "count": 1, "query": "B'caloa Kachcheri", "suspected_noise": false, "reason": ""}
 {"place": "Gambia Colony", "count": 1, "query": "Gambia Colony", "suspected_noise": false, "reason": ""}
@@ -7744,7 +7744,7 @@
 {"place": "Queenbeyen", "count": 1, "query": "Queenbeyen", "suspected_noise": false, "reason": ""}
 {"place": "western Australia", "count": 1, "query": "western Australia", "suspected_noise": false, "reason": ""}
 {"place": "W. Pro.", "count": 1, "query": "W. Pro.", "suspected_noise": false, "reason": ""}
-{"place": "G. C. colony", "count": 1, "query": "G. C. colony", "suspected_noise": false, "reason": ""}
+{"place": "G. C. colony", "count": 1, "query": "Gold Coast", "suspected_noise": false, "reason": ""}
 {"place": "S.A. High commission Territories", "count": 1, "query": "S.A. High commission Territories", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Cent. African archives", "count": 1, "query": "Cent. African archives", "suspected_noise": false, "reason": ""}
 {"place": "agriculture department, Nyasa.", "count": 1, "query": "agriculture department Nyasaland", "suspected_noise": true, "reason": "institution/office term"}
@@ -9771,7 +9771,7 @@
 {"place": "N. Iraq", "count": 1, "query": "N. Iraq", "suspected_noise": false, "reason": ""}
 {"place": "Mosul province", "count": 1, "query": "Mosul province", "suspected_noise": false, "reason": ""}
 {"place": "Basra province", "count": 1, "query": "Basra province", "suspected_noise": false, "reason": ""}
-{"place": "K. Kangsar, F.M.S.", "count": 1, "query": "K. Kangsar Federated Malay States", "suspected_noise": false, "reason": ""}
+{"place": "K. Kangsar, F.M.S.", "count": 1, "query": "Kuala Kangsar Federated Malay States", "suspected_noise": false, "reason": ""}
 {"place": "Galle kach", "count": 1, "query": "Galle kach", "suspected_noise": false, "reason": ""}
 {"place": "Windward Is. and Leeward Is.", "count": 1, "query": "Windward Is. and Leeward Is.", "suspected_noise": false, "reason": ""}
 {"place": "Four Courts, Dublin", "count": 1, "query": "Four Courts Dublin", "suspected_noise": false, "reason": ""}
@@ -9939,7 +9939,7 @@
 {"place": "Mebara and Hambantota", "count": 1, "query": "Mebara and Hambantota", "suspected_noise": false, "reason": ""}
 {"place": "U. Langat", "count": 1, "query": "U. Langat", "suspected_noise": false, "reason": ""}
 {"place": "High school, Malacca", "count": 1, "query": "High school Malacca", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "government Eng. school, K. Pilah", "count": 1, "query": "government Eng. school K. Pilah", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "government Eng. school, K. Pilah", "count": 1, "query": "government Eng. school Kuala Pilah", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Francis Light school, Penang", "count": 1, "query": "Francis Light school Penang", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "district admnstn.", "count": 1, "query": "district admnstn.", "suspected_noise": false, "reason": ""}
 {"place": "Belg. Cong.", "count": 1, "query": "Belg. Cong.", "suspected_noise": false, "reason": ""}
@@ -9990,7 +9990,7 @@
 {"place": "Dakar, Senegal", "count": 1, "query": "Dakar Senegal", "suspected_noise": false, "reason": ""}
 {"place": "inf. wel. centre, Ipoh", "count": 1, "query": "inf. wel. centre Ipoh", "suspected_noise": false, "reason": ""}
 {"place": "hosp. Ipoh", "count": 1, "query": "hosp. Ipoh", "suspected_noise": true, "reason": "institution/office term"}
-{"place": "women's hosp., K. Kangsar", "count": 1, "query": "women's hosp. K. Kangsar", "suspected_noise": true, "reason": "institution/office term"}
+{"place": "women's hosp., K. Kangsar", "count": 1, "query": "women's hosp. Kuala Kangsar", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "hosp., Ipoh", "count": 1, "query": "hosp. Ipoh", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Johore Bharn", "count": 1, "query": "Johore Bharn", "suspected_noise": false, "reason": ""}
 {"place": "Union of S. Africa.", "count": 1, "query": "South Africa", "suspected_noise": false, "reason": ""}
@@ -10466,7 +10466,7 @@
 {"place": "Idah", "count": 1, "query": "Idah", "suspected_noise": false, "reason": ""}
 {"place": "Obubura Hill", "count": 1, "query": "Obubura Hill", "suspected_noise": false, "reason": ""}
 {"place": "St. John's, Newf'dld.", "count": 1, "query": "St. John's Newf'dld.", "suspected_noise": false, "reason": ""}
-{"place": "Richmond, N. S. Wales", "count": 1, "query": "Richmond N. S. Wales", "suspected_noise": false, "reason": ""}
+{"place": "Richmond, N. S. Wales", "count": 1, "query": "Richmond New South Wales", "suspected_noise": false, "reason": ""}
 {"place": "Penang, S. Sttlnts.", "count": 1, "query": "Penang Straits Settlements", "suspected_noise": false, "reason": ""}
 {"place": "Southern circ.", "count": 1, "query": "Southern circ.", "suspected_noise": false, "reason": ""}
 {"place": "Western circ.", "count": 1, "query": "Western circ.", "suspected_noise": false, "reason": ""}
@@ -10853,7 +10853,7 @@
 {"place": "St. V. gram. school", "count": 1, "query": "St. V. gram. school", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Grenada boys' secondary school", "count": 1, "query": "Grenada boys' secondary school", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Port Swettenham (later Penang, Johore)", "count": 1, "query": "Port Swettenham (later Penang Johore)", "suspected_noise": false, "reason": ""}
-{"place": "Cey. C.S.", "count": 1, "query": "Cey. C.S.", "suspected_noise": false, "reason": ""}
+{"place": "Cey. C.S.", "count": 1, "query": "Cey. C.S.", "suspected_noise": true, "reason": "office abbrev (Ceylon Civil Service)"}
 {"place": "general post office tels.", "count": 1, "query": "general post office tels.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Bah. general hosp.", "count": 1, "query": "Bah. general hosp.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Australian service", "count": 1, "query": "Australian service", "suspected_noise": true, "reason": "institution/office term"}
@@ -12014,7 +12014,7 @@
 {"place": "high court of W. Pac.", "count": 1, "query": "high court of W. Pac.", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "E.A. marine fish. research organ.", "count": 1, "query": "E.A. marine fish. research organ.", "suspected_noise": false, "reason": ""}
 {"place": "board of inland rev.", "count": 1, "query": "board of inland rev.", "suspected_noise": false, "reason": ""}
-{"place": "G & E.I.C.", "count": 1, "query": "G & E.I.C.", "suspected_noise": false, "reason": ""}
+{"place": "G & E.I.C.", "count": 1, "query": "Gilbert and Ellice Islands", "suspected_noise": false, "reason": ""}
 {"place": "Antigua-Montserrat-Virgin Is. police force", "count": 1, "query": "Antigua-Montserrat-Virgin Is. police force", "suspected_noise": true, "reason": "institution/office term"}
 {"place": "Abraka", "count": 1, "query": "Abraka", "suspected_noise": false, "reason": ""}
 {"place": "university college, London", "count": 1, "query": "university college London", "suspected_noise": true, "reason": "institution/office term"}
@@ -12533,7 +12533,7 @@
 {"place": "Br. Empire soc. for the blind", "count": 1, "query": "Br. Empire soc. for the blind", "suspected_noise": false, "reason": ""}
 {"place": "Jerusalem and govt. of Palestine", "count": 1, "query": "Jerusalem and govt. of Palestine", "suspected_noise": false, "reason": ""}
 {"place": "S.S. and Johore", "count": 1, "query": "S.S. and Johore", "suspected_noise": false, "reason": ""}
-{"place": "Basuto-", "count": 1, "query": "Basuto-", "suspected_noise": false, "reason": ""}
+{"place": "Basuto-", "count": 1, "query": "Basutoland", "suspected_noise": false, "reason": ""}
 {"place": "Kenya Col.", "count": 1, "query": "Kenya Col.", "suspected_noise": false, "reason": ""}
 {"place": "Furness", "count": 1, "query": "Furness", "suspected_noise": false, "reason": ""}
 {"place": "Christ-", "count": 1, "query": "Christ-", "suspected_noise": false, "reason": ""}
