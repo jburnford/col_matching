@@ -100,6 +100,19 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   S. Cams.→Southern Cameroons, British West Indies, W./E. Aden Protectorate→Aden
   Protectorate parent. OCR variants folded: Coomassie→Kumasi, Kurnegalle→Kurunegala,
   Matura→Matara, Cape-town→Cape Town.
+- Batch 006 done: 78 grounded / 22 skipped; coverage now **86%** of 168,301 mentions
+  (count-14–17 tail). Skips: compounds (Kowloon and New Territories, St. Lucia and Tobago,
+  St. Thomas and St. James); ambiguous initialisms (B.H., U.P., S.A.C., U.S. of S., M.E.,
+  N.T. (South)); generic words (colony, dominion); ambiguous bare names (St. Joseph,
+  Caroni county, Windward district, Leeward district, district B., Colo West, Barkly Asylum);
+  no-clean-entity (Dandagamuwa, Kroh→Pengkalan Hulu typed as mukim). Resolved: "kach."
+  Ceylon entries→towns (Batticaloa/Badulla/Ratnapura); compound colony Demerara-Essequibo
+  Q5255160 grounded as ONE historical entity; S.P./S. Nigeria→Southern Nigeria Protectorate
+  Q2062030; D.W.W.I.(OCR for D.W.I.)→Danish West Indies Q829655; "Sudan government"→
+  Anglo-Egyptian Sudan Q541455; G. Coast Colony→Gold Coast Colony Q503623. OCR variants
+  folded: Matelle→Matale, Trincomalie→Trincomalee, Rotumah→Rotuma, Mannár→Mannar.
+  Ambiguous city-names resolved by colonial-corpus default: Worcester→Western Cape,
+  Belfast→N. Ireland, Nelson→New Zealand, Black River→Jamaica.
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
