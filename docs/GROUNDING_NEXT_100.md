@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 013 done — coverage 88% of 168,301 mentions** (see detail below).
+- Latest: **batch 014 done — coverage 88% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -273,6 +273,37 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Africa Sttlmts. — no distinct WD entity surfaced; Lower Tugela & Ndwandwe divisions; Fingoland;
   Qua country; R. Honduras = Br. vs Republic ambiguity), OCR fragments (in addn., Apus, Midland
   conservancy).
+- Batch 014 done: 54 grounded / 46 skipped; coverage holds at **88%** of 168,301 mentions
+  (count-6 tail). World cities/countries: Rio-style — Lisbon Q597, Florence Q2044, Peru Q419,
+  Lithuania Q37, Jerusalem Q1218 (Jerus.), Chongqing Q11725 (Chung King), Cádiz Q15682
+  (Andalusia (Cadiz)), Buenos Aires Q1486 (Buenos Ayres/B. Aires), Kyrenia Q206760, Limassol
+  Q185632 (Limasol), Meerut Q200237, Kadapa Q30651 (Cuddapah). Australia/NZ: Western Australia
+  Q3206 (West Aust./West-Australia), Victoria-style York WA Q994000, Hobart Q40191 (Hobart Town),
+  Port Adelaide Q3908652, Charters Towers Q1020266, Ipswich Qld Q1009253, Hāwera Q998452. SA
+  towns: Bloemfontein Q37701, Johannesburg Q34647 (Jo'burg.), Rustenburg Q182049, Prieska
+  Q1021731, Klerksdorp Q1015647, Amersfoort Mpumalanga Q2553018 (Amersfoort T'vaal), Simon's Town
+  Q1013370, Witwatersrand Q587808 (district→mountain-range geo node). Malaya/Mauritius: Batu Pahat
+  Q2891912 (B. Pahat Johore), Plaines Wilhems District Q1053595, Rivière du Rempart District
+  Q1053565 (both accent variants). W. Africa: Ondo Q1853310, Axim Q792509, Sulima Q2006220
+  (Sulymah), Keta Municipal District Q1432726 (Quittah), Muri Q11883435 (Muri prov.), Congo Free
+  State Q76048. India/Cyprus/UK: Punjab former province Q2629708 (Punjaub), Guildford Q213465,
+  Liskeard Q2019908, Toxteth Q1757189 (Toxteth division Liverpool), Brodsworth Q2553777, Barbados
+  Q244 (Barbadoes). Caribbean/Pacific/Lesotho: Basseterre Q41295, Viti Levu Q208198 (Vitu Levu),
+  Leribe District Q819987, New Hebrides Q752431 (New Heb.). Historical polities reused/grounded:
+  Cape Colony Q370736 (colony of Cape of Good Hope), South African Republic Q550374 (S.A.
+  Republic), Orange River Colony Q1142179 (O.R.C. admn.), Natal Province Q917867 (Natal (Union)),
+  Assin Praso Q20118773 (Prahsu, reuse batch 008). Skips: ambiguous bare names (Windsor, Utrecht
+  [NL city vs Natal town], Hamilton, Salisbury [England vs Rhodesia], Waterloo, Umgeni/Umgeni
+  division [river search kept returning empty — defer], West Devon, Leeward), directional/region
+  fragments (N. Queensland, N. Wales, Gold Coast S., S. Trin., east. district, Upper Sarawak,
+  N. district Nehch.), initialisms (N. R., W.A.M.S., B.W.A., N.Z. H. of R., h.q. E.A. Cmd.),
+  railways/admin/institutions (Cape government rlwys., Mal. rlw., Mal. P.W.S., Nigeria rlways.,
+  Nigeria survey, Western System, open lines, magistracy, colonial, government house, Cape
+  government, Sungei Buloh leper settlement, Shing Mun Valley scheme), compounds (Egypt and
+  France, Maur. and Rodrigues, Windward and Leeward Is., Aden and Sheikh Othman), districts w/o
+  clean entity (South Nyasa, Corentyne Coast judicial, Kaffrarian outpost, West Simcoe), no-entity
+  (Uganda Kingdom [Buganda vs Protectorate ambiguity], Noniti country, East Indies, various
+  dists.), OCR fragments (Balapeta-Modera).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
