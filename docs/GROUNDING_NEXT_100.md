@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 015 done — coverage 89% of 168,301 mentions** (see detail below).
+- Latest: **batch 016 done — coverage 89% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -334,6 +334,36 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Guadeloupe], Samaria [region vs city]), unresolved-by-search (North Toronto Ontario, Umgeni
   division — river search again empty, Kegalle [only Town-A/B GN divisions surface], Sadong [Sarawak
   river/district, no clean settlement]), OCR fragment (New brides, B.).
+- Batch 016 done: 53 grounded / 47 skipped; coverage holds at **89%** of 168,301 mentions
+  (count-5 tail). World cities/countries: Amsterdam Q727, Munich Q1726, Cardiff Q10690, Corfu
+  Q121378, Canberra Q3114, Brazil Q155, Guadeloupe Q17012, Samaria Region Q124371650 (Samaria,
+  Pal.). UK/London: Islington Q125163, South Kensington Q1045096, Preston Q184090, Dorset Q23159
+  (reuse). Canada/Australia/NZ: Kamouraska Q1103923, Victoria BC Q2132, Cariboo Q2938768, New
+  South Wales Q3224 (N.S.W.), Goulburn Q605235, Norfolk Island Q31057, Cocos (Keeling) Islands
+  Q36004. SA towns: Caledon Q777884, Harrismith Q1586262, Mahlabatini Q6395826, Impendle Q10925601
+  (Impendhle), Ulundi Q1013421, Lions River Q13035272 (Lions River division), Ndwedwe Local
+  Municipality Q1717872 (Ndwedwe division), Bloemfontein Q37701 (Bloemfontein O.R.C., reuse).
+  Ceylon/Malaya/Borneo/Fiji: Trincomalee Q323873, Kudat Q23041 (N. Borneo), Taveuni Q1138545
+  (Taviuni), George Town Penang Q61092 (reuse). Caribbean/Pacific: St Ann's Bay Q630692, Portland
+  Parish Q125148, Grenadines Q503482, Banaba Island Q271901 (Ocean Is.), Larnaca Q171882 (Larnaka),
+  Bahamas Q778 (Bahamas census), Mbale City Q1015727. Historical polities (many reused): East
+  Africa Protectorate Q876185 (Brit. E. Africa protectorate), British Central Africa Protectorate
+  Q2642989 (both "Brit. Cen." and "Br. Central" spellings), Gilbert and Ellice Islands Q1050859
+  (G. and E. Is.), British Leeward Islands Q1796551 (Leeward Island), Saint Kitts and Nevis Q763
+  (St. Christopher and Nevis), Antigua and Barbuda Q781, Newfoundland Q38610 (Newfnd./New-foundland),
+  Tokelau Q36823 (Union Is., reuse), Cape Province Q849164 (Cape prov. divn. — consistent with
+  Natal prov. divn. last batch), Berbice Q675322 (cty. Berbice), Stellaland Q1269234 (Boer
+  republic), Eswatini Q1050 (Swaziland adminstrn.), Ijebu Ode Q1023726 (Jebu Ode, reuse), Western
+  Australia Q3206 (W. Australian, reuse). Skips: compounds (Cape and Union of S. Africa, St. James
+  and Trelawny, Colo N. and E., Gallipoli and France), military/institutions (R.A.P., R.A.M.C.-
+  style, St. Helena volrs, Belize pris., Scotland Yard, Br. Museum, Colonial and Indian Exhibition,
+  Impl. confce., Basuto. M.P., English schls., official Gaz.), directional/generic provinces (W./E.
+  Prov. Ashanti, E. Prov. S. Nigeria, N.C. Prov., N.W. Prov., Quebec E./West, Colo North, east
+  province, Northern Border, Transkeian conservancy, W. Coast of Africa, South Malacca again),
+  ambiguous bare names (St. Louis, Trinity, St. George's, Santa Cruz, Maitland, Longford, Alfred /
+  Alfred co., Vincent), districts/letters (district "A."/"C", St., P. W., Cols.), search-resistant
+  (Vergenoegen, Stockenstrom, Inanda division, prov. of Zululand [only modern district / wrong-era
+  bantustan surface], Plaisance, Panvila, Muka OCR).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
