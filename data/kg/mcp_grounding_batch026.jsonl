@@ -1,0 +1,100 @@
+{"query":"Tenom","qid":"Q1011955","label":"Tenom","country_qid":"Q833","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"B'ham","qid":"Q2256","label":"Birmingham","country_qid":"Q21","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"New Orleans","qid":"Q34404","label":"New Orleans","country_qid":"Q30","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Kisumu","qid":"Q214485","label":"Kisumu","country_qid":"Q114","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Kabale","qid":"Q588930","label":"Kabale","country_qid":"Q1036","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Philippines","qid":"Q928","label":"Philippines","country_qid":"Q928","instance_of":["country"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Pembrokeshire","qid":"Q213361","label":"Pembrokeshire","country_qid":"Q25","instance_of":["principal area"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Angola","qid":"Q2826232","label":"Portuguese Angola","country_qid":"Q40362","instance_of":["colony"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Stockholm","qid":"Q1754","label":"Stockholm","country_qid":"Q34","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Jaffra","qid":"Q215277","label":"Jaffna","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Mátale","qid":"Q1540498","label":"Matale","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Mátalé","qid":"Q1540498","label":"Matale","country_qid":"Q854","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Baden Baden","qid":"Q4100","label":"Baden-Baden","country_qid":"Q183","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Casa Blanca","qid":"Q7903","label":"Casablanca","country_qid":"Q1028","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Cherbourg","qid":"Q160199","label":"Cherbourg-Octeville","country_qid":"Q142","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"St. Hyacinthe","qid":"Q141873","label":"Saint-Hyacinthe","country_qid":"Q16","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Chelsea","qid":"Q743535","label":"Chelsea","country_qid":"Q21","instance_of":["area of London"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Reading","qid":"Q161491","label":"Reading","country_qid":"Q21","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Hastings","qid":"Q29245","label":"Hastings","country_qid":"Q21","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Tabankulu","qid":"Q527085","label":"Ntabankulu Local Municipality","country_qid":"Q258","instance_of":["municipality"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Eketahuna","qid":"Q377814","label":"Eketāhuna","country_qid":"Q664","instance_of":["locality"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Tampin Negri Sembilan","qid":"Q2219146","label":"Tampin","country_qid":"Q833","instance_of":["human settlement"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Gezira province","qid":"Q309469","label":"Gezira","country_qid":"Q1049","instance_of":["state"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Ankole district","qid":"Q538636","label":"Ankole","country_qid":"Q1036","instance_of":["kingdom"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Zeyla","qid":"Q157800","label":"Zeila","country_qid":"Q1045","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Mekran S. Persia","qid":"Q695111","label":"Makran","country_qid":"Q794","instance_of":["region"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Perth County Ontario","qid":"Q177690","label":"Perth County","country_qid":"Q16","instance_of":["county"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Lau Archipelago","qid":"Q1062438","label":"Lau Islands","country_qid":"Q712","instance_of":["archipelago"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Ambriz South West Africa","qid":"Q458731","label":"Ambriz","country_qid":"Q916","instance_of":["commune"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Westmoreland","qid":"Q1440250","label":"Westmoreland Parish","country_qid":"Q766","instance_of":["parish"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Volta district","qid":"Q712832","label":"Volta Region","country_qid":"Q117","instance_of":["region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"county of Russell prov. of Ontario","qid":"Q1815593","label":"United Counties of Prescott and Russell","country_qid":"Q16","instance_of":["united counties"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Sea Is. S. Carolina","qid":"Q1535683","label":"Sea Islands","country_qid":"Q30","instance_of":["barrier islands"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Smithfield","qid":"Q820535","label":"Smithfield","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"W. Nile","qid":"Q4261446","label":"West Nile sub-region","country_qid":"Q1036","instance_of":["sub-region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"N. Provs. Kaduna","qid":"Q585408","label":"Northern Nigeria Protectorate","country_qid":"Q174193","instance_of":["protectorate"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"S. West Africa","qid":"Q953068","label":"South West Africa","country_qid":"Q174193","instance_of":["territory"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Windward Islands Saint Vincent","qid":"Q379656","label":"Saint Vincent","country_qid":"Q757","instance_of":["island"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Muri Prov.","qid":"Q11883435","label":"Muri","country_qid":"Q1033","instance_of":["province"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Sokoto Prov.","qid":"Q336350","label":"Sokoto","country_qid":"Q1033","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Ficksburg","qid":"Q1014580","label":"Ficksburg","country_qid":"Q258","instance_of":["town"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Transvaal Province South Africa","qid":"Q190959","label":"Transvaal Province","country_qid":"Q258","instance_of":["province"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Salangore","qid":"Q189710","label":"Selangor","country_qid":"Q833","instance_of":["state"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Rewa Prov.","qid":"Q1365257","label":"Rewa Province","country_qid":"Q712","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Gilbert and Ellice Is. Coly.","qid":"Q1050859","label":"Gilbert and Ellice Islands","country_qid":"Q174193","instance_of":["colony"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Northern Cameroons","qid":"Q111207687","label":"Northern Cameroons","country_qid":"Q174193","instance_of":["region"],"has_coords":false,"match_type":"mcp_unverified"}
+{"query":"Ontario Canada","qid":"Q1904","label":"Ontario","country_qid":"Q16","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"K. Bahru","qid":"Q651131","label":"Kota Bharu","country_qid":"Q833","instance_of":["city"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query": "Nuwara Eliya-Hatton", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "general list", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Tenom-Tawau", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Trinidad and Grenada", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Western Division B.N.G.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Zoutpansberg Transvaal", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "W. African lands committee", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Northern protectorate", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Nupe Prov.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "W. African dependencies", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "South Bourke", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "France and England", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "S. Africa eastern dists. local divn.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Washington Paris and St. Petersburg", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "west coast district British Guiana", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "public works", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Glendairy pris.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Zambesia", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Rarotonga and Penrhyn Is.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Chin.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Siamese Malay States", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "St. Ann's", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "St. Kitts and Dominica", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Kowloon and New Territories Hong Kong", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Palma and Leckie", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "district \"D. \"", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Imp. Economic Confce.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Dominion government", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Lastron Orange Free State", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "n.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "E. Africa and Uganda protectorate", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Straits Settlements F.M.S. and Hong Kong", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Transvaal State Arty.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Syracuse", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "general penitentiary", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Admlty.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Grenada and St. Vincent", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Australia and N.Z.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Africa protectorate", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Impl. education Confce. in London", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "R.G.A. (S.R.)", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Barbados volunteers", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "E.A.L.F.O.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "H.M.S. \"Minotaur\"", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Whim Corentyne", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Lower Umfolosei", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Aquamoo and Crepee", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "B.B.C.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "F.M. Chinese protectorate Perak", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "Berm. trade devel. board", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "W.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
+{"query": "C.O. confce.", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}

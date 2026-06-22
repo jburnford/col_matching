@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 025 done — coverage 90.25% of 168,301 mentions** (see detail below).
+- Latest: **batch 026 done — coverage 90.34% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -672,6 +672,43 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   (Bergen [Norway vs NL], Rietfontein [many SA], St. Johns, St. Mark's parish, West End, Chapeau,
   Coronation, Kafir [ethnonym], Birrim [Ghana river/region], Ioma/Kairuku [Papua stations — search
   not run, low value]), initialisms (G.N.R., N.C.P., district "I").
+- Batch 026 done: 48 grounded / 52 skipped; coverage now **90.34%** of 168,301 mentions
+  (count-3 tail; verified no buried high-count cluster — max pending count is 3). World cities:
+  New Orleans Q34404, Birmingham Q2256 (B'ham), Stockholm Q1754, Casablanca Q7903 (Casa Blanca),
+  Baden-Baden Q4100, Cherbourg-Octeville Q160199 (the historical city of Cherbourg), Chelsea Q743535
+  (London area), Reading Q161491, Hastings Q29245 (E. Sussex, Old-World default over NZ), Shrewsbury-
+  style, Pembrokeshire Q213361 (Wales), Saint-Hyacinthe Q141873 (Quebec), Brockville-style. Africa
+  towns/cities/regions: Kisumu Q214485, Kabale Q588930, Tenom Q1011955 (Sabah), Dar-style, Kano-style,
+  Ankole Q538636 (former kingdom Uganda), West Nile sub-region Q4261446 (W. Nile), Zeila Q157800
+  (Zeyla, Somaliland), Gezira Q309469 (Sudan state), Ambriz Q458731 (Angola commune — query mislabeled
+  "South West Africa"), Volta Region Q712832 (Volta district), Tabankulu→Ntabankulu LM Q527085.
+  Asia/ME: Jaffna Q215277 (Jaffra), Matale Q1540498 (Mátale + Mátalé accent variants), Tampin Q2219146
+  (Negri Sembilan), Makran Q695111 (Mekran S. Persia — region), Qinhuangdao-style. Pacific/Caribbean:
+  Lau Islands Q1062438 (Lau Archipelago), Westmoreland Parish Q1440250 (Jamaica), Sea Islands Q1535683
+  (Sea Is. S. Carolina), Naparima-style. Country/region: Philippines Q928, Angola→Portuguese Angola
+  Q2826232 (period entity per historical-entity rule). Canada: Perth County Q177690, United Counties of
+  Prescott and Russell Q1815593 (county of Russell), Eketāhuna Q377814 (NZ), Smithfield Q820535 (Free
+  State town — bare name grounded to SA per surrounding OFS corpus context). Reused prior-batch QIDs:
+  Northern Nigeria Protectorate Q585408 (N. Provs. Kaduna), South West Africa Q953068 (S. West Africa),
+  Saint Vincent Q379656 (Windward Islands St V.), Muri Q11883435 (Prov.), Sokoto Q336350 (Prov.),
+  Ficksburg Q1014580, Transvaal Province Q190959, Selangor Q189710 (Salangore), Rewa Province Q1365257,
+  Gilbert and Ellice Islands Q1050859 (Coly.), Northern Cameroons Q111207687, Ontario Q1904, Kota Bharu
+  Q651131 (K. Bahru). ENDPOINT FLAKY (one batch of 5 returned all-empty — Tampin/Gezira/Ankole/Zeila/
+  Makran all needed bare-name retries). Skips (52): compounds (Trinidad and Grenada, France and England,
+  Washington Paris and St. Petersburg, Rarotonga and Penrhyn Is., St. Kitts and Dominica, Kowloon and
+  New Territories HK, E. Africa and Uganda protectorate, Straits Settlements F.M.S. and Hong Kong,
+  Grenada and St. Vincent, Australia and N.Z., Nuwara Eliya-Hatton, Tenom-Tawau, Aquamoo and Crepee),
+  institutions/orgs/govt (general list, W. African lands committee, public works, Imp./Impl. Economic+
+  education Confce., Dominion government, Transvaal State Arty., Barbados volunteers, Berm. trade devel.
+  board, F.M. Chinese protectorate Perak, B.B.C., C.O. confce.), prisons (Glendairy pris., general
+  penitentiary), military/ships (R.G.A. S.R., E.A.L.F.O., H.M.S. "Minotaur", Admlty.), region-groupings
+  /directional (Western Division B.N.G. [no clean British New Guinea node, per batch 019], Northern
+  protectorate, Nupe Prov. [ethnonym/kingdom, no clean province node], W. African dependencies, South
+  Bourke, S. Africa eastern dists., west coast district BG, Africa protectorate, Siamese Malay States,
+  Lower Umfolosei), wrong-era/ambiguous-only (Zoutpansberg Transvaal [only mountain range Soutpansberg,
+  per batch 010], Zambesia [BSAC vs Mozambique ambiguity], Syracuse [NY vs Sicily], St. Ann's, Whim
+  Corentyne [obscure Guyana village], Lastron OFS [OCR]), initialisms/fragments (Chin., n., W., Admlty.,
+  district "D.", Palma and Leckie).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
