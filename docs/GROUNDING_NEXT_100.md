@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 024 done — coverage 90.16% of 168,301 mentions** (see detail below).
+- Latest: **batch 025 done — coverage 90.25% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -633,6 +633,45 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   node (Damaraland — only the 1970s bantustan Q1158213 surfaces, not colonial-era region; per prov.-
   of-Zululand precedent), ambiguous bare names (Flinders, Hope Town, Herschel), no-clean-entity
   (Balapitimodara [Balapitiya estuary, OCR-ish — only the town Balapitiya surfaces], Laroot River).
+- Batch 025 done: 51 grounded / 50 skipped (incl. 1 out-of-band buried count-4); coverage now
+  **90.25%** of 168,301 mentions (count-3 tail). Buried count-4 "Northern District, Palestine"
+  found via full-pending sort — SKIPPED (only modern Israel Northern District Q189942 surfaces,
+  wrong-era; no Mandatory-Palestine "Northern District" node). World cities/towns: Brockville
+  Q34047, Beverley Q851718 (Yorks, Old-World default), Shrewsbury Q201970, Ramsgate-style, Ripon
+  Q661529 (Ripon divn. Yorks), Southwark Q5273898, Calgary-style, Sorel-style, Dar es Salaam Q1960,
+  Kano Q182984, Oyo Q1023703, Livingstone Q1866604 (Zambia), Omdurman-style, Qinhuangdao Q58560
+  (Chinwangtao, China treaty port), Port of Spain Q39178. SA/Natal/Free State towns: Jagersfontein
+  Q2460233, Fauresmith Q985813, Aliwal North Q2143142 (Aliwal N.), Dewetsdorp-style, Stanger→KwaDukuza
+  Q10676708, Nquthu Local Municipality Q2003963 (Nqutu district Zululand), Dundee→Q1265538 (Natal
+  town, for both "Dundee district" + "Dundee division"), Hlatikulu Q3235603 (Swaziland). Malaya/Fiji:
+  Larut Matang Selama Q2694747 (Larut Perak), Endau Q5375966 (Johore), Kukup Q6442600 (Johor village),
+  Bua Q1365265 (Fiji province, for "Bua" + "Bua Prov."), Levuka-style, Tarawa Q2486 (Kiribati atoll).
+  Ceylon: Bentota Q4890663 (Bentotte), Anuradhapura-style. Trinidad: Mayaro Q6796869, Naparima Plain
+  Q16969039 (region for Naparima ward). Ghana/Nigeria/Cameroon: Nsawam Q2003928, Northern Cameroons
+  Q111207687 (N. Cameroons — period node, distinct from Southern Cameroons). NZ: Westland District
+  Q2119644. Regions/countries grounded: Serbia Q403, South America Q18 (S. America, continent),
+  Suez Canal Q899 (waterway), Hadhramaut Q1517159 (Hadhramaut States→region), British Togoland Q797527
+  (British Zone of Togoland). Reused prior-batch QIDs: Southern Nigeria Protectorate Q2062030 (Colony
+  and protectorate of S. Nigeria), Transvaal Province Q190959 (Prov. divn.), Eastern Province Ceylon
+  Q1046126, South West Africa Q953068 (S.W. Africa Protectorate), Eshowe Q1367652 (Zululand), Quebec
+  Q176 (prov. of), Kota Bharu Q651131, German East Africa Q153963 (G.E.A. Tanganyika Terr.), British
+  Malaya Q871091, Saint Kitts and Nevis Q763 (S. Kitts-Nevis), Johannesburg Q34647 (North), Nova
+  Scotia Q1952 (N. Scotia), Simon's Town Q1013370 (Simonstown), Uruan Q11058133 (frontier station),
+  Federation of Rhodesia and Nyasaland Q654342, Larnaca Q171882 (district). Skips (50): compounds
+  (Aden and India-style: G. Coast and Lagos, Colombo and Galle, Belgium and France, Kenya-Uganda,
+  Nyasaland-Rhodesia, Washington and Ottawa, Egypt Mesopotamia and India, Canada Australia New
+  Zealand, British Honduras and Cent. America, Fortress and Sheikh Othman Townships), prisons
+  (Freetown gaol), institutions/orgs/govt (Union senate, national provident fund, Indian immignts.,
+  government of Union of S. Africa, E. Africa currency board, Inst. for medical Research FMS,
+  Carmichael St. Georgetown, Bulford Camp), military/ships (H.M.S. "Conway", Umunze Awka Patrol),
+  forestry conservancy (eastern conservancy), region-groupings (Malay Native States, Niger
+  Territories, Syrian Coast, Out Islands, Hadhramaut already done), wrong-era/no-clean-node (Northern
+  District Palestine, Nichol Bay district [only WA bay/locality, not the pastoral district]),
+  divisions per precedent (Lower Tugela division Natal, Klip River division, Up. Umkomanzi, N.
+  Malacca, S. Wales district, W. frontier, Northern Circuit, East Luangwa), ambiguous bare names
+  (Bergen [Norway vs NL], Rietfontein [many SA], St. Johns, St. Mark's parish, West End, Chapeau,
+  Coronation, Kafir [ethnonym], Birrim [Ghana river/region], Ioma/Kairuku [Papua stations — search
+  not run, low value]), initialisms (G.N.R., N.C.P., district "I").
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
