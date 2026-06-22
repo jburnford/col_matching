@@ -28,14 +28,24 @@ the cache, so just repeat until the pending list is empty.
 
 ## Steps
 
-### 1. Get the pending list
+### 1. Get the pending list — COUNT-PRIORITIZED (since batch 031)
 ```
 cd ~/col_matching
-python3 kg_ground_mcp.py pending --n 100 > /tmp/pending.jsonl
+python3 - <<'PY'
+import json, subprocess
+pend=[json.loads(l) for l in subprocess.run(["python3","kg_ground_mcp.py","pending","--n","1000000"],
+    capture_output=True,text=True).stdout.splitlines()]
+pend.sort(key=lambda r:-r['count'])           # highest-count first = concentrated value
+open("/tmp/pending.jsonl","w").writelines(json.dumps(p,ensure_ascii=False)+"\n" for p in pend[:100])
+print("remaining",len(pend),"| count>=2",sum(1 for p in pend if p['count']>=2))
+PY
 wc -l /tmp/pending.jsonl
 ```
-Each line: `{query, count, context_resolved, variants:[...]}`. Work top (highest
-count) down. If 0 lines, grounding is complete — stop and tell the user.
+Each line: `{query, count, context_resolved, variants:[...]}`. **Per the 2026-06-22
+scope analysis, feed count-desc, NOT file order** — value is concentrated in the
+count>=2 head (~1,700 entries = 2pp); the 5,000 count-1 singletons are diminishing
+returns. Stop ~93% (ceiling is ~94% — ~30% of the tail is irreducible noise:
+compounds/institutions/initialisms/OCR-frags). If 0 lines, grounding is complete.
 
 ### 2. Ground in batches of 5
 For each batch of 5 queries, call `mcp__wikidata__search_items` 5× in ONE message.
@@ -80,7 +90,18 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 030 done — coverage 90.69% of 168,301 mentions** (see detail below).
+- Latest: **batch 031 (count-prioritized) done — coverage 90.88% of 168,301 mentions**.
+- **SCOPE DECISION 2026-06-22 (Jim approved "reuse pass + prioritized batches"):** After 30
+  file-order batches, per-batch ROI collapsed (famous places like Baghdad/New Delhi still appearing
+  only because file-order interleaves them with singletons). Analysis: 6,930 pending = 8,724 mentions
+  (5.18%); 75% are count-1 singletons; hard ceiling ~94% (irreducible noise ~30%). Two levers applied:
+  (1) **Reuse pass 01** — auto-grounded 166 zero-FP spelling/abbrev variants of already-grounded QIDs
+  (script: fuzzy-match pending vs cache, EXACT-token tier only, drop bare-ambiguous provinces; +229
+  mentions, no MCP calls). Files: `mcp_grounding_reuse_pass01.jsonl` + `reuse_pass01_candidates.jsonl`.
+  ⚠️ the OK/REVIEW fuzzy tiers had directional-flip FPs (N.→S., E.→W.) — DO NOT auto-accept those;
+  only EXACT-token punctuation/diacritic variants are safe. (2) **Count-prioritized batches** (031+):
+  feed count-desc — grounds ~44/batch at count 2-3 (~2x the mention-value of file-order singletons).
+  Plan: ~10-15 prioritized batches to ~93%, then stop (singletons = archive as known residual).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -855,6 +876,22 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Barberton Pilgrim's Rest and Rhodesia, Dahomey border), directional/generic (West Toronto, Eastern
   divn., Haifa N. district [grounded to Haifa], N. Provs.-style, West Birmingham, Houssa [ethnonym],
   Ziland [OCR Zululand?]), ambiguous bare (Eccles Hill, Br. Borneo terrs.).
+- Reuse pass 01 (2026-06-22): +166 zero-FP variant groundings, 90.69%->90.82%. See SCOPE DECISION above.
+- Batch 031 done (FIRST count-prioritized): 44 grounded / 56 skipped; coverage now **90.88%**
+  (count 2-3 head). Real towns/counties cluster here vs the institution-heavy file-order tail. Grounds:
+  Thirsk Q641274, Bareilly Q213026, York County NB Q1752038, Wellington NZ Q23661, Jaffa Q180294,
+  Namaqualand Q1757791, Bunbury WA Q256711, Albany WA Q704257, Wolverhampton Q126269, South Australia
+  Q35715, Dalston Q2499366, Beersheba Q41843, Co. Kilkenny Q180231, Hulu Langat Q4251470 (Ulu Langat),
+  Temerloh Q2437966, St. Andrew Parish Grenada Q977183, Parramatta Q21319, Baqubah Q270821, Calliaqua
+  Q5021973, Grand Forks BC Q984028, Bloemfontein Q37701, Christiania->Oslo Q585, Saint Christopher-
+  Nevis-Anguilla Q1637975 (the 1958-83 colony), Southern Province Sierra Leone Q772185, Northern
+  Frontier District Kenya Q55643233. Verified reuses (no re-search): Gilbert+Ellice Q1050859, Dindings/
+  Dinding->Manjung Q2302576 (x3), Griqualand West Q2547918, Cent. Prov. Kandy->Central Province Ceylon
+  Q190716, Simon's Town Q1013370, Timcomalie->Trincomalee Q323873, Nablus Q214178, Co. Durham Q23082
+  (x2), Negr Sembilan->Negeri Sembilan Q213893, Anuradhapura Q5724, Cape colonial->Cape Colony Q370736,
+  Portsmouth Q72259, German E. Africa Q153963, Selangor Q189710, Tokio->Tokyo Q1490. Skips (56):
+  institutions/military/railways, compounds, directional frags, OCR (Pantura, Bassema, Kologha),
+  search-resistant (Hanover Square, Stockenstrom, Ndwandwe). Bucks. deferred (didn't verify QID).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
