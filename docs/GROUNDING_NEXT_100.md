@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 026 done — coverage 90.34% of 168,301 mentions** (see detail below).
+- Latest: **batch 027 done — coverage 90.45% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -709,6 +709,45 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   per batch 010], Zambesia [BSAC vs Mozambique ambiguity], Syracuse [NY vs Sicily], St. Ann's, Whim
   Corentyne [obscure Guyana village], Lastron OFS [OCR]), initialisms/fragments (Chin., n., W., Admlty.,
   district "D.", Palma and Leckie).
+- Batch 027 done: 63 grounded / 37 skipped; coverage now **90.45%** of 168,301 mentions
+  (count-3 tail; verified no buried high-count cluster — max pending count is 3). World cities/
+  counties: Agra Q42941, Naples Q2634, Limerick Q133315, Stroud Q281749 (Gloucs.), Barnsley
+  Q54212 (S. Yorks), Banbury Q806160 (Oxon), Berwick→Berwick-upon-Tweed Q504678, Melrose Q632993
+  (Scottish Borders, Old-World default), Herts→Hertfordshire Q3410 (ceremonial per England
+  precedent), Hampstead Q25610 ("division of Middlesex"→London area), Somerset House Q1344889
+  (London building, institution-as-place), Winnipeg Q2135, Darbhanga Q1136189 ("Durbhunga
+  Tirhoot"), Saugor district→Sagar district Q2085421, Morar→Morar Cantonment Q2725698 (Gwalior),
+  Nowshera Q2003745 (KPK Pakistan). Australia/NZ/Pacific: Tenterfield Q1002140 (NSW), Westbury
+  Tasmania Q385934, Launceston Q339527 (Tas.), Rottnest→Rottnest Island Q585317 (WA), Geraldton
+  Q605267 (WA), Wyndham Q477835 (Cambridge Gulf, Kimberley WA), Van Dieman's Land→Q1780114
+  (period colony), Kingdom of Tonga→Tonga Q678, Fanning Island→Tabuaeran Q127335 (reuse b024).
+  Malaya/Borneo: Kampar Q22694790 (Perak town), Fraser's Hill Q3086678 (Pahang), Baram Q7311426
+  (Sarawak district), Bintulu Q594209, Lundu Q6704167, Trans Krian→Kerian District Q2674376,
+  Sri Menanti→Seri Menanti Q3132595, Batang Padang Q1938723 (reuse b018), S. Stlts./Str. Settl.→
+  Straits Settlements Q376178 (reuse). Ceylon: Haldummulla Q5641318, Anuradhpura→Anuradhapura
+  Q5724 (reuse b024). Africa towns: Winnebah→Winneba Q1188560 (Gold Coast), Sekondi→Sekondi-
+  Takoradi Q243293 (reuse), Salt Pond→Saltpond Q340149, Abeokuta Q206484 (reuse b017), Ikoroda/
+  Ikorodu→Ikorodu Q1658159. SA/Natal: Hopetown Q618063 (N. Cape), Fort Beaufort Q473216 (E.
+  Cape), Fort Carnarvon→Carnarvon Q625378 (N. Cape town), division of Ixopo→Ixopo Q827279,
+  Inanda Natal→Inanda Q12730377, Mapumulo→Maphumulo Q1892042, Nkandhla district→Nkandla Q498225,
+  Tugela Valley→Tugela River Q476317, Lions River Q13035272 (reuse b016), Weenen division→Weenen
+  Q2096873 (reuse b011), Taungs→Taung Q2096879 (reuse b021). Caribbean/Guyana: Corozal Q882907
+  (Belize), Turk's Islands→Turks and Caicos Q18221, St. Elizabeth Jamaica→Q1473646 (reuse b024),
+  St. Ann Jamaica→Saint Ann Parish Q1326284, Essequibo river Q589911. Regions/countries:
+  Central America Q27611 (subregion, per continent precedent), Hellenes→Kingdom of Greece Q209065
+  (period entity), Roumania→Kingdom of Romania Q203493 (period entity). ENDPOINT FLAKY (Baram/
+  Bintulu/Ikorodu first pass empty; Hertfordshire/Stroud/Wyndham/Tonga whole batch empty; Nowshera/
+  Haldummulla needed bare-name retries). Skips (37): directional/letter districts (S.W. district
+  Penang, northern district NSW, district C. Dominica, district H., Port of Spain North, Colo. N./
+  Colo. W. [Fiji frags per precedent], Victoria district, Elgin district, York District), generics/
+  anaphora (board, that colony, same province, Commonwealth government, Western Provinces), ambiguous
+  province frags (north-central province ×2, N. Central Prov. — Ceylon vs India, no country
+  qualifier), compounds (Samoan and Union Groups, Kalpitiya and Puttalam, Natal and Orange Free
+  State, Vavuniya and Mullaitivu), institutions (Indian and Colonial Exhibition, Melbourne harbour
+  trust, S. African museum, Edin. Royal Infirmary, Kirkdale prison Liverpool), military (4th Light
+  Dragoons), region-groupings (Western Pacific Islands, W. Pacific Is., N. circuit Ceylon [judicial]),
+  ambiguous bare names (Maryborough [Qld vs Vic], Republic of S.A. [SAR vs RSA]), initialisms/OCR
+  frags (S.A.H.C., Larnt., H. Honduras, Orang general).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
