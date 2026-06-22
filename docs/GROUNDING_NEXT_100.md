@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 017 done — coverage 89% of 168,301 mentions** (see detail below).
+- Latest: **batch 018 done — coverage 89% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -398,6 +398,42 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Mentone Vic], Bath was kept but Lucia/Regent skipped), no-entity (Dumbara [valley near Kandy],
   Amani [Tanganyika research station], Kissy [Freetown suburb — search empty x3], Mbaruk [person
   name], Benin territories [region grouping]).
+- Batch 018 done: 61 grounded / 39 skipped; coverage holds at **89%** of 168,301 mentions
+  (count-4–5 tail). World cities/counties: Essex Q23240, Oxfordshire Q23169, Devon Q23156
+  (all ceremonial counties), Aberdeenshire Q3290674 (historic county — Scotland uses historic
+  for corpus era), Dover Q179224, Govan Q1414040 (Glasgow), Oban Q935702, Algiers Q3561,
+  Addis Ababa Q3624, San Francisco Q62, Nablus Q214178, Halifax Q2141 (NS), St. John's Q2082
+  (Newfoundland), Vancouver Q24639, New Westminster-style, Moose Jaw Q1019496, Twillingate
+  Q1732099 (town, for "Twillingate district"), Akaroa Q416098 + Ohakune Q2016369 (NZ). SA towns:
+  George Q370456 (W. Cape), Warrenton Q1832033 (N. Cape), Bethulie Q646067 (Free State),
+  Amersfoort Q2553018 (bare "Amersfoort" → SA Transvaal town per corpus, NOT the NL city).
+  W. Africa: Kaduna Q208318, Keffi Q3510599, Zaria-area, Anomabu Q567542 (Anamaboe), Achimota
+  Q4673778 (Accra). Ceylon: Kandy Q203197 (Kandy Kach., reuse), Kurunegala Q776887 (Kuruengala),
+  Matara Q13360574 (Mátara), Harispattuwa Divisional Secretariat Q5657965 (Harispattu).
+  Malaya/Borneo run: Kajang Q1946482, Seremban Q847610 (Seramban), Johor Bahru Q231318 (Johore
+  Bharu), Bukit Mertajam Q2158697 (B. Mertajam), Sitiawan Q7531901, Batang Padang Q1938723,
+  Rembau Q2219158 (reuse), Negeri Sembilan Q213893 (Neg. Semb.), Singapore Q334 (the city, for
+  "Singapore, Straits Settlements"), Straits Settlements Q376178 (Straits Sttlmts., reuse). Fiji:
+  Suva-area, Nadi Q619443, Tailevu Q1365322 (Tai Levu). Caribbean/Pacific: Barbados Q244 (reuse),
+  Great Inagua Q3115958 (Inagua), Rum Cay Q1859950, Cocos (Keeling) Q36004 (reuse), Sheikh Othman
+  Q377588 (Aden). Australia: York WA Q994000 (reuse), Hobart Q40191 (reuse). India/Pakistan:
+  N.W. Frontier Province Q4412467 (reuse), Hazara Q10773634. Historical polities: German East
+  Africa Q153963 (both "German E. Africa (Tanganyika Territory)" AND "G.E. Africa" → same),
+  Eswatini Q1050 (Swaziland admstrn., reuse), Gilbert and Ellice Islands Q1050859 (reuse),
+  Batavia Q1199713 (the 1619–1949 colonial Dutch East Indies capital, NOT modern Jakarta). Geo
+  feature: Black Sea Q166 (consistent w/ grounding seas/lakes/rivers). Institution-as-place:
+  Central Experimental Farm Ottawa Q4504150 (consistent w/ observatories/museums prior). Tai Po
+  Q1758870 (Taipo, reuse-style). Skips: compounds (Federated Malay States Java and Sumatra,
+  Kenya-Uganda-Tanganyika, Palestine and Syria, France and Palestine, Flanders and N. Russia,
+  N'gamiland and Ghanzi, France and Germany, Lagos— S. Nigeria), institutions (E.A.A.R.I. Amani,
+  E. African Currency board, Roseau town board, Trinity Church Colombo, government laboratories
+  F.M.S., observatory), prisons/military (Georgetown pris., Glendairy prison, Shorncliffe camp,
+  E.E.F. = Egyptian Expeditionary Force, China station naval), forestry conservancies (Natal/
+  Eastern/Western conservancy), initialisms (G.W.B., N.F.F., C.C., S. Bank Prov., N. protectorate),
+  divisions (Umlazi division, per Inanda-division precedent), ambiguous bare names (Victoria East
+  [Cape division], St. Peter, St. Ann [parishes], Hay, West Indian, Niger Prov., Pondos [ethnonym]),
+  district letters (District "C" Barbados), no-entity (St. John's River Ceylon), OCR fragments
+  (st., W. Pacific ew Hebrides).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
