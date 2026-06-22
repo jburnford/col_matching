@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 029 done — coverage 90.62% of 168,301 mentions** (see detail below).
+- Latest: **batch 030 done — coverage 90.69% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -824,6 +824,37 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Cross Riv. division, S. Prov. Western Australia, various areas, district "F", Corentyne judicial
   district, U. of S.A. [Union vs University ambiguous], Nigerian [adjective], Prov. Alcock [per b028]),
   ambiguous bare names (Mowbray, Granada [Spain vs Grenada WI], Delarey).
+- Batch 030 done: 40 grounded / 60 skipped; coverage now **90.69%** of 168,301 mentions
+  (count-3 tail; HIGH skip rate again — institution/military/OCR-fragment dense. Verified no buried
+  high-count cluster — max pending count is 3). New grounds: Baghdad Q1530, Prince of Wales Island→
+  Penang Island Q1150673 (colonial name for Penang), Pontefract Q1009235, Carriacon→Carriacou Q795647,
+  Three-Rivers→Trois-Rivières Q44012, Para→Pará Q39517 (Brazil state), Kumasi Q182059, K. Treng.→
+  Kuala Terengganu Q846502, Falkland Is. Dependencies Q5431953, N. Delhi→New Delhi Q987, Canada West→
+  Province of Canada Q1121436 (period polity — no distinct "Canada West" node), Highbury Q124394
+  (London), London England Q84, Island of Malta→Q193896 (the island, distinct from country Q233),
+  maritime provinces Canada→Maritimes Q731613, Tamworth Q704864 (Staffs, Old-World default), Akuse
+  Q4701984 (Ghana), Darmstadt Q2973, Galkisse→Dehiwala-Mount Lavinia Q24462 (Galkissa=Mt Lavinia),
+  Portugal Q45, Winchester Q172157, Middlesbrough Q171866, S. Wales→South Wales region Q1286223,
+  Basingstoke Q810196, Tamworth, Carriacou, Highbury. Reused QIDs: Weenen Q2096873, S.W.A. protectorate→
+  South West Africa Q953068, Keffi Q3510599, Oil Rivers protectorate→Niger Coast Protectorate Q2566427,
+  Haifa Q41621, Spanish Twn.→Spanish Town Q846939, Port Swetten-→Port Klang Q11155122, Somerset (East)
+  →KwaNojoli Q1021900, Fed. of Malaya Q1479726, Freestown→Freetown Q3780, Leeward Isles→British
+  Leeward Islands Q1796551, Pekin→Beijing Q956, N. Nigeria→Northern Nigeria Protectorate Q585408,
+  British Guinea→British Guiana Q918126, KW Town→Qonce Q1016100, Kaffrarian→British Kaffraria Q918121.
+  ENDPOINT FLAKY (Kumasi/Highbury/London/Malta/Morpeth/Winchester/Middlesbrough first-pass empty,
+  resolved on retries). Search-resistant skip: Isles de Los (Guinea archipelago — only member islands
+  Kassa/Rouma surface, not the group node). Skips (60): OCR fragments (tlmts., ec., t., s, e, stine,
+  g Tebal, Port Swetten- [grounded], ganyika Territory, 3. Coast, Gold last, gr. C., P. R. G., W/o. I,
+  European gr., Plain Wrahem District), institutions/military/railways/offices (Midland inspectorate,
+  Canadian militia, vagrant dépôt, B.M.A. Somaliland, Somali affrs., Somerset Light Infantry, M.E.L.F.,
+  Nig. coal corpn., conf. of comsns. of labr., minister supply, African education, Lagos Prison, royal
+  horse artillery, Br. India Coy., G.C. rlwys.(+harbours), rlwys. Tanganyika, N.Z. govt rlwys., Pal.
+  rlwys, Lyceum Malta, board agr., B.O.T., executive co., R.N., Worcester militia, Nig. G.E.U.),
+  initialisms (C.O. and C.R.O., W.A.M.S., I.C.A.O., B.O.T.), compounds (Kimberley and De Beers,
+  Rodriguez and luna Islands, Kenya Uga. and Tang., Singapore and F.M.S., England and Ireland,
+  Barberton Pilgrim's Rest and Rhodesia, Dahomey border), directional/generic (West Toronto, Eastern
+  divn., Haifa N. district [grounded to Haifa], N. Provs.-style, West Birmingham, Houssa [ethnonym],
+  Ziland [OCR Zululand?]), ambiguous bare (Eccles Hill, Br. Borneo terrs.).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
