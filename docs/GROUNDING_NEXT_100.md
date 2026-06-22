@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 023 done — coverage 90.1% of 168,301 mentions** (see detail below).
+- Latest: **batch 024 done — coverage 90.16% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -597,6 +597,42 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Congo [Free State vs river vs country ambiguity], Northern Territories (Neutral Zone) [specific
   Anglo-German zone, no distinct node]), ambiguous bare name (Ravensthorpe [WA town vs England
   village]), OCR fragments (in, ne, g., St. ay, Virgin April, Br. Caribbean pre-fed. estab.).
+- Batch 024 done: 45 grounded / 55 skipped; coverage now **90.16%** of 168,301 mentions
+  (count-3 tail; skip rate rising as tail fills with compounds/initialisms/prisons/mines/military).
+  Verified no buried high-count cluster (dumped all 7,631 pending sorted by count — max is 4).
+  World cities/towns: Calgary Q36312, Crewe Q648810, Ramsgate Q736439 (Kent), Staffordshire Q23105
+  (Staffs. + Staffordshire), Ahmedabad Q1070, Omdurman Q180921, Sorel-Tracy Q142010 (Sorel Quebec),
+  Anuradhapura Q5724 (Kachcheri/Kach. ×2), Piet Retief Q1395427, Kuala Kubu Bharu Q684062 (K. Kubu),
+  Taiping Q1011190, Tanjung Malim Q3537158 (T. Malim), Kemaman District Q1827701, Labasa Q579556 +
+  Levuka Q26692 (Fiji), Dewetsdorp Q593434, Mandeville Q1807660 (Maudeville District of Manchester),
+  Montego Bay Q637555 (St. James), Fanning Is.→Tabuaeran Q127335 (Kiribati atoll, not the Falklands
+  islet). Jamaica parishes/places: Saint Elizabeth Parish Q1473646 (St. Elizabeth), Saint Mary Parish
+  Q633565 (St. Mary Jamaica). India regions/districts: Kanara Q3010684 (Canara region), Ratnagiri
+  district Q1771768 (Rutnagherry district). Region/geo: Lake Kyoga Q124978 (Lake Kioga), Seberang
+  Perai Q1861984 (Prov. of Wellesley = Province Wellesley), South America Q18 (S. America — continent,
+  per Africa/N.America precedent). Institution-as-place: Kew Gardens Q188617 (Royal Gardens Kew).
+  Abaco Islands Q304371 (Abaco Bahamas). Reused prior-batch QIDs: British Central Africa Protectorate
+  Q2642989 (B. Cent. Africa), Straits Settlements Q376178 (S. Sttmts.), Saint Vincent Q379656,
+  Teluk Intan Q1317145 (T. Anson), NWFP Q4412467 (N.W. frontier of India), Spanish Town Q846939,
+  Tanganyika Territory Q158725, Kandy Q203197 (kachcheri), Colombo Q35381 (mun.), Southern Nigeria
+  Protectorate Q2062030 (Nigeria S. Provs.), Northern Territories of the Gold Coast Q1998749 (N.T.),
+  Portuguese Mozambique Q889394 (Port. E. Africa), Arima Q661405, Galle Q319366 (Kach.), Matara
+  Q13360574 (Kachcheri). ENDPOINT FLAKY (one batch of 5 returned 4 empties — Staffordshire/Lake
+  Kyoga/Ahmedabad/Damaraland all needed plain-name retries). Skips (55): prisons/penal settlements
+  (H.M.'s penal settlement Massaruni ×2, Suva gaol, New Amsterdam prison Berbice), mines (Durban
+  Roodepoort Deep Mine, Village Main Reef), military (Marlborough Hussar Vol. N.Z., N.Z. Militia,
+  Malay States Guides, G. Coast Constaby. Hausas), institutions/orgs (Inst. for medical Research,
+  Lagos harbour works, S. African Reserve Bank, co-op. socs., United Farmers of Ontario, L. of N.,
+  Overseas Bases), forestry conservancy (Transkeian conservancy Cape Colony — per precedent),
+  compounds (Aden and India, Nigeria Gold Coast Sierra Leone and Gambia, England and France, Gopeng
+  and Kampar, Br. Columbia and N. Can., B.C. and Yukon, Colombo and Negombo, Kedah and Perlis, North
+  Borneo and Labuan, Kwahu and Ashanti-Akim, Cape and Transvaal, Antigua-Montserrat, Dists. A. and
+  B.), directional/generic (district D., West Algoma, N.W. Manchester, N.W. Ashanti, Kinta North,
+  Derbyshire W., eastern districts, Southern Province, province, African coast, Hinterland, Home,
+  Queen's), initialisms/adjectives (R. of O., G.E.I.C., Australian, Malayan, junks), wrong-era only
+  node (Damaraland — only the 1970s bantustan Q1158213 surfaces, not colonial-era region; per prov.-
+  of-Zululand precedent), ambiguous bare names (Flinders, Hope Town, Herschel), no-clean-entity
+  (Balapitimodara [Balapitiya estuary, OCR-ish — only the town Balapitiya surfaces], Laroot River).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
