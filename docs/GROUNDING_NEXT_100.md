@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 027 done — coverage 90.45% of 168,301 mentions** (see detail below).
+- Latest: **batch 028 done — coverage 90.55% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -748,6 +748,46 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Dragoons), region-groupings (Western Pacific Islands, W. Pacific Is., N. circuit Ceylon [judicial]),
   ambiguous bare names (Maryborough [Qld vs Vic], Republic of S.A. [SAR vs RSA]), initialisms/OCR
   frags (S.A.H.C., Larnt., H. Honduras, Orang general).
+- Batch 028 done: 56 grounded / 44 skipped; coverage now **90.55%** of 168,301 mentions
+  (count-3 tail; verified no buried high-count cluster — max pending count is 3). UK/Ireland:
+  Lincolnshire Q23090 (ceremonial), Cheshire Q23064 (ceremonial), Bury Q47822 (Gtr Manchester/
+  Lancashire), High Wycombe Q64116 (Bucks), Huddersfield Q201812, Dunwich Q188020 (Suffolk,
+  Old-World default over Qld), Tavistock Q668262 (Devon), Berwick-style; Scot.→Scotland Q22,
+  Gt. Brit.→Great Britain Q23666 (reuse b015). Canada: Athabasca→Athabasca District Q5283393
+  (period NWT district, not the town), Lennoxville Q672089 (Quebec), Arthabaska→Arthabaska County
+  Q2991091 (historic Quebec county), Wentworth County Ontario Q7983017, Guyshorough→Guysborough
+  Q5622877 (N.S.), British Columbia Q1973 (reuse b023). Africa: De Aar Q743069 + Hondeklip Bay
+  Q2935301 + Murraysburg Q2365106 + Sterkstroom Q3642303 (Cape towns), Cape Town Q5465 ("and
+  district"), Pram Pram→Prampram Q15045728 + Tamale Q217040 + Akwapim→Akropong-Akuapem Q4701715
+  (Ghana), Opobo→Opobo Town Q3238928 (Nigeria city-state), Nairobi Q3870 (E.A.P.), Naivasha
+  Q1007647 (Prov.→town), Ogaden Q137555 (region), Mafia Island Q713391 (Tanzania), G.C. colonial→
+  Gold Coast Colony Q503623 (reuse), Niger C. Protec.→Niger Coast Protectorate Q2566427 (reuse),
+  Sherbro country→Sherbro Island Q2001267 (reuse), Nthn. Rhodn.→Northern Rhodesia Q953903 (reuse),
+  Pietermaritzburg Q185591 (county/city division, reuse), Harisputtu→Harispattuwa Q5657965 (reuse).
+  Caribbean/Atlantic: St. Salvador→San Salvador Island Q845540 (Bahamas, per Long Cay/Bahama Is.
+  cluster context), Long Cay Q1232322 (Bahamas), Bahama Is.→Bahamas Q778 (reuse), Green Turtle Cay
+  Q3249446 (Abaco), Black River Mauritius→Riviere Noire District Q873740, Naparima ward union→
+  Naparima Plain Q16969039 (reuse), Chavakacheri Q1068504 (reuse), Larnaca Q171882 (reuse), Windward
+  Islds.→British Windward Islands Q2660774 + Lee-ward Is.→British Leeward Islands Q1796551 (reuse).
+  Asia/Pacific/Aus/NZ: Nudea/Nuddea→Nadia District 1787-1947 Q139099436 (period entity), Cuddapah
+  +Cuddapah district→Kadapa Q30651 (reuse), Lau prov.→Lau Q513104 (Fiji), Mount Gambier Q327348
+  (SA), Greymouth Q934790 (NZ), Newera Ellia→Nuwara Eliya Q1340579 (reuse), Sclangor→Selangor
+  Q189710 (reuse), Dorset Q23159 (reuse). Europe: Dodecanese Q131555 (island group). ENDPOINT
+  FLAKY (Huddersfield/Dodecanese/Akuapem/Dunwich/Guysborough/Cheshire first-pass empty, resolved on
+  bare-name retries). Skips (44): directional/letter/descriptive districts (S.W. district Penang
+  [prior], north-west, E. Coast district Br. N. Borneo, western district of county of St. George
+  w/ Port of Spain, Leckie east district, N.W. province, Northern Prov., N. and W. Provs.),
+  compounds (Scinde and Punjaub, Grand Port and Savanne, St. Silas and St. Albans, Guatemala and
+  British Honduras, Chilaw-Puttalam, Mauritius (Rodrigues), Canada and Ireland, Kenya Uganda and
+  Tanganyika Territory), institutions/govt/military (B. Guiana bindry. survey, rlwys. Palestine,
+  Caterham Asylum, government of Victoria, Dominion Government, Victoria Gaol Hong Kong, Union
+  Defence Forces, Makogai leper asylum, fed. government, Keyham naval barracks, Chinese hosps. and
+  dispensaries, B.M.A., W.A.C.), conservancy (Natal conservancy), generics/anaphora (board,
+  same/that province-style: "Province Alcock", "S. Angoniland" [Angoniland no node, per b023]),
+  ambiguous bare names (Newington, Milton, St. Michael [parish], Marquette, Turkey in Asia, St.
+  John's River [Ceylon, per b018], Chin. Singapore), no-clean-entity/OCR frags (Nowbutpore, Kaihihi
+  Pas, Chircop, Yilgarn gold fields [goldfield, per East Coolgardie precedent], Marimba district,
+  Ryton-on-Dunsmore [only war-memorial node surfaced]).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
