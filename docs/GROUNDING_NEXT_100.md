@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 020 done — coverage 89% of 168,301 mentions** (see detail below).
+- Latest: **batch 021 done — coverage 90% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -508,6 +508,41 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   names (Middelburg [two SA towns — Mpumalanga vs E.Cape], St. Philip, St. James, Tasmanian
   [adjective], station), no-clean-entity (East Coolgardie Goldfield — only Coolgardie town + an
   electoral district surfaced, not the goldfield).
+- Batch 021 done: 54 grounded / 46 skipped; coverage now **90%** of 168,301 mentions
+  (count-4 tail). UK/Europe: Cork Q36647, Yorkshire Q163 (historic county), Hampshire Q23204
+  (Hants), Shoeburyness Q593890, Cheadle skipped (ambiguous). Africa: Monrovia Q3748, Tangier
+  Q126148, Banjul Q3726 (Bathurst, Gambia), Boma Q223917 (Congo), Sherbro Island Q2001267
+  (both "Sherbro West Africa" + "Sherbro, S. Leone"), Yaba Q3509639 (Lagos), Lagos Q8673,
+  Uruan Q11058133 (Nigeria LGA), Portuguese Mozambique Q889394 (period entity for bare
+  "Mozambique" per historical-entity rule), Chikwawa Q1022541 + Mulanje Q1865092 (Malawi),
+  Entebbe Q211970. SA towns (Western/Eastern Cape run): Clanwilliam Q1025657, Taung Q2096879
+  (Taungs), Oudtshoorn Q951049, Somerset West Q1290313, Swellendam Q1023257, Tulbagh Q1937242,
+  Graaff-Reinet Q1004667, Table Bay Q531909 (the Cape bay). Asia/ME: Kandahar Q45604, Sindh
+  Q37211 (Scinde), Sumatra Q3492, Hejaz Q169977 (Hedjaz region), Cameron Highlands District
+  Q1028741. Australia/NZ/Pacific: Gippsland Q1526531, Swansea Tasmania Q986654, Waikato Region
+  Q139918, Northern Territory Q3235 (North Territory), Barossa Valley Q698920, Efate Q266594,
+  Perim Q1160017. Canada/Caribbean: Bay de Verde Q2892176 (Newfoundland), Halifax Q2141 (N.S.,
+  reuse), Northwest Territories Q2007, St. George's Q41547 (Grenada), Barbuda Island Q21052035,
+  Mangrove Cay Q2702334 (Bahamas), Bartica Q809428 (Guyana), Chacachacare Q77021 (Trinidad),
+  Zeitoun Q4116309 (Cairo district). Reused polities: Essequibo colony Q1368792 (Esse-quibo +
+  Essequibo district), Transvaal Province Q190959 (T'vaal), Johannesburg Q34647 (J'burg.),
+  Australia Q408 (Commonw. of Australia), British Somaliland Q662653 (B. Somaliland), NWFP
+  Q4412467, Maputo Q3922 (Lourenço Marques). ENDPOINT FLAKY THROUGHOUT — most descriptive
+  queries returned empty and only resolved on bare-name retries (Taung, St. George's, Tulbagh,
+  Somerset West, Swansea, Uruan, Waikato, Swellendam, Hampshire, Mozambique, Banjul, Bay de
+  Verde, Chikwawa, Mulanje, Boma, Perim, Northwest Territories, Barossa, Zeitoun all needed a
+  second pass). Skips: compounds (Upper and Lower Doombera, Perak and Sungei Ujong, Mal. and
+  S'pore., S. Provs. and Colony, Mesopotamia and N. Persia, Nos. 3 and 4 mining dists.,
+  Roberts Heights and Transvaal commd.), military/institutions (Br. Hond. constaby., G. Coast
+  volrs., Ashanti camp, Sudan rlways., Uganda Marine, B. of T. offices Glasgow, S. Kensington
+  museum, minister of civil aviation, government of India, crown mines, Australian Museum,
+  O.E.T.A.(S)), directional/generic (N. Cent. prov., N.E./Northern/Eastern/western district,
+  Canadian N.W., S.-W./E. Transvaal, Upper Shire, North Victoria, Gold Field district),
+  district letters (district "E", Strand Division, Peter's Hall district, McCarthy Prov.),
+  initialisms (S.R., KE, N.), ambiguous bare names (St. Andrew's parish, St. James-style,
+  Christ Church, Cheadle [two England towns], Colo [Fiji fragment], Robber's Is. [unclear OCR],
+  county Caroni [only river/swamp surfaced], North Central Province [multi-country bare],
+  N. Sherbro), no-clean-entity (Imperri [Sierra Leone chiefdom not in WD], co. of Quebec).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
