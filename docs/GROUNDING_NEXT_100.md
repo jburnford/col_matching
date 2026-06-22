@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 019 done — coverage 89% of 168,301 mentions** (see detail below).
+- Latest: **batch 020 done — coverage 89% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -471,6 +471,43 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   generic fragments (N. Selangor, South protectorate, No. 3 mining district, N. district New
   Territories, Western Canada, S. African, W. African, Upper Rejang), ambiguous bare names
   (Queen's Town, Queen's Co., Bethesda, Macedonia, Matabele [ethnonym]).
+- Batch 020 done: 54 grounded / 46 skipped; coverage holds at **89%** of 168,301 mentions
+  (count-4 tail; skip rate rising as the tail fills with compounds/initialisms/districts).
+  UK/Europe: Isle of Wight Q9679, Bedfordshire Q23143 (Beds.), Dorchester Q503331 (Dorset,
+  Old-World default), Newark-on-Trent Q49940 (Newark, Old-World default), Midlothian Q67317221
+  (historic county — Scotland uses historic per Aberdeenshire batch 018 precedent), Great Yarmouth
+  Q237253, Stratfield Mortimer Q1982217 (Berkshire), Ulster Q93195 (Irish province), County Antrim
+  Q189592, Budapest Q1781, Nice Q33959, Denmark Q35, Valparaíso Q33986. Canada/Australia/Africa
+  cities: Ontario Q1904, Melbourne Q3141, Dakar Q3718, Castries Q41699 (St Lucia capital), Port
+  Louis Q3929 (Pt. Louis 3rd division → city), Spanish Town Q846939 (Jamaica). SA towns/regions:
+  Ingwavuma Q5138677, Greytown Q1021891 (Natal), Eshowe Q1367652 (divn.), Cape Peninsula Q748494,
+  Tongoland→Maputaland Q4280999 (the historical Tongaland region of N. KZN). Ceylon: Kalutara
+  Q1295530 (Kach.), Gampola Q8264065, Chilaw Q2495639 (Chilau), Nuwarakalawiya→North Central
+  Province Q1057124 (reuse of last batch's Nuwerakalawiya). Malaya/Borneo: Seremban Q847610 (reuse),
+  Gemas Q3523772, Matang Q61082734 (Perak), Belize District Q506056. India/Pakistan: Multan
+  Q185453 (Mooltan), Ambala Q456624 (Umballa), Santal Parganas district Q132450366 (Sonthal),
+  Hazara Q10773634 (reuse). Caribbean/Pacific: Eleuthera Q1141700 (Bahamas), Vere Parish Q60770124
+  (Jamaica), Port Maria Q265115 (Jamaica), Seychelles Q1042, Cedros Q5057178 (Trinidad), Lyttelton
+  Q911909 (NZ). Historical polities (mostly reused): Union of South Africa Q193619 (Union of
+  Africa), South African Republic Q550374 (Transvaal Republic + Transvaal State), Transvaal
+  Province Q190959 (Transvaal prov. division), East Africa Protectorate Q876185 (B. East Africa),
+  Transkei Q466551 (Transkeian territory), Province of Canada Q1121436 (prov. of Canada),
+  Republic of New Granada Q630882 (New Grenada), Darién Province Q688660 (Darien). U. States→Q30,
+  Norfolk-style counties. ENDPOINT FLAKY AGAIN — Dakar/Ingwavuma/Middelburg/Gemas/Eleuthera/Antrim/
+  Darién/Eshowe/Matang/Great Yarmouth/Castries/Gampola/Ulster/Nice all needed plain-query retries
+  (often a full batch of 5 came back empty, then succeeded on the bare name). Skips: compounds
+  (Sudan and S. Africa, Sarawak N. Borneo Brunei, N. Rhod. and Nyasa., Adelaide and Sydney
+  Melbourne, Kimberley and De Beers, Stuttgart and Darmstadt, W. Falkland and S. Shetland, dists.
+  A. and B., Larut and Krian [two Perak districts, no single clean entity]), military/institutions
+  (Pacific station, Chinese protectorate Ipoh, Basseterre town board, Amani, U.K. board of inland
+  rev., Chelsea barracks, South Kensington Museum [V&A], Sarawak Rangers, 1st Royal Lanark Militia,
+  U.N., O.A.S., O.D.M.), initialisms/abbrev (M.S., N.W.R., W.A., E.A.F., F.P., S.E. Provs., W.P.
+  Nigeria), directional/generic provinces (S. Abyssinia, E. reg., northern division, E./W.
+  Gloucestershire/Bristol, E. Transvaal, Eastern Province, Upper Umkomanzi, Bechuanaland border),
+  district letters (district "D."/"C", Buxton district), electoral (Comox-Atlin), ambiguous bare
+  names (Middelburg [two SA towns — Mpumalanga vs E.Cape], St. Philip, St. James, Tasmanian
+  [adjective], station), no-clean-entity (East Coolgardie Goldfield — only Coolgardie town + an
+  electoral district surfaced, not the goldfield).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
