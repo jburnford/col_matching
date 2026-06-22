@@ -543,6 +543,22 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Christ Church, Cheadle [two England towns], Colo [Fiji fragment], Robber's Is. [unclear OCR],
   county Caroni [only river/swamp surfaced], North Central Province [multi-country bare],
   N. Sherbro), no-clean-entity (Imperri [Sierra Leone chiefdom not in WD], co. of Quebec).
+- Batch 022 (out-of-band province cluster, 2026-06-21): 19 grounded / 2 skipped. **`pending` emits
+  in WORKLIST FILE ORDER, not count-desc** — a cluster of 21 country-qualified provinces had been
+  appended at the worklist tail (lines 7709–7729) and would have been served ~76 batches out
+  despite being the highest-frequency ungrounded places (count 5–109, ~745 mentions). Grounded
+  directly by building a results file keyed to their exact surfaces. Ceylon provinces (clean,
+  continuous w/ Sri Lanka): Western Q856686, Central Q190716, Eastern Q1046126, Southern Q876308,
+  Northern Q598745. Sierra Leone: Northern Q912359. Nigeria regions/protectorates: Northern Region
+  Q3509092, Eastern Region Q3509795 (also for "Eastern Province, Nigeria"), Western Region Q3509075
+  (also for "Western Province, Nigeria"), Southern Provinces→Southern Nigeria Protectorate Q2062030,
+  Northern Provinces→Northern Nigeria Protectorate Q585408. Gold Coast provinces→modern Ghana
+  regions: Central Q846323, Western Q870155, Eastern Q405670. Kenya: Eastern Province Q328493
+  (former province). Uganda provinces→regions: Western Q2559188, Eastern Q2559220. Skipped: Central
+  Province Nigeria (S. Nigeria province dissolved, no successor region), Central Province Sierra
+  Leone (never existed — SL had N/S/E/Western Area only). NOTE: colonial Nigeria/Gold Coast/Uganda
+  "Provinces" grounded to their modern Region successors (slight period conflation, but the only WD
+  node for the geographic area). Coverage after: **90.0% (151,431/168,301); count>=5 pending now 0.**
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
