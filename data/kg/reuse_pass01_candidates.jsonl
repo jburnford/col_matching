@@ -1,0 +1,587 @@
+{"query": "Gilbert and Ellice Is. Col.", "label": "Gilbert and Ellice Islands", "qid": "Q1050859", "ratio": 0.98, "flag": "REVIEW:col,coly"}
+{"query": "Lau Islands", "label": "Lau Islands", "qid": "Q1062438", "ratio": 0, "flag": "exact"}
+{"query": "Kurunegalla", "label": "Kurunegala", "qid": "Q776887", "ratio": 0, "flag": "exact"}
+{"query": "W. Africa protectorate", "label": "South West Africa", "qid": "Q953068", "ratio": 0.95, "flag": "OK"}
+{"query": "Simons Town", "label": "Simon's Town", "qid": "Q1013370", "ratio": 0.96, "flag": "REVIEW:simon,simons"}
+{"query": "Nyasam", "label": "Nyasaland", "qid": "Q1649306", "ratio": 0.91, "flag": "REVIEW:nyasa,nyasam"}
+{"query": "Dinding", "label": "Manjung", "qid": "Q2302576", "ratio": 0.93, "flag": "REVIEW:dinding,dindings"}
+{"query": "Negr Sembilan", "label": "Negeri Sembilan", "qid": "Q213893", "ratio": 0.96, "flag": "REVIEW:negr,negri"}
+{"query": "Anuradahapura Kach.", "label": "Anuradhapura", "qid": "Q5724", "ratio": 0.97, "flag": "REVIEW:anuradahapura,anuradhapura"}
+{"query": "E. coast of Africa", "label": "West Africa", "qid": "Q4412", "ratio": 0.92, "flag": "OK"}
+{"query": "Christiania", "label": "Christiana", "qid": "Q1082602", "ratio": 0.95, "flag": "REVIEW:christiana,christiania"}
+{"query": "Yaba", "label": "Yaba", "qid": "Q3509639", "ratio": 0, "flag": "exact"}
+{"query": "Kota Baharu", "label": "Kota Bharu", "qid": "Q651131", "ratio": 0.95, "flag": "REVIEW:baharu,bharu"}
+{"query": "Teluk Anson", "label": "Teluk Intan", "qid": "Q1317145", "ratio": 0.91, "flag": "REVIEW:telok,teluk"}
+{"query": "Kurune gala", "label": "Kurunegala", "qid": "Q776887", "ratio": 0.95, "flag": "REVIEW:gala,kurune,kurunegala"}
+{"query": "Barotseland", "label": "Barotseland", "qid": "Q808750", "ratio": 0, "flag": "exact"}
+{"query": "Hejaz", "label": "Hejaz", "qid": "Q169977", "ratio": 0, "flag": "exact"}
+{"query": "R. Guiana", "label": "British Guiana", "qid": "Q918126", "ratio": 0.94, "flag": "OK"}
+{"query": "Western Prov. Uganda", "label": "Western Region", "qid": "Q2559188", "ratio": 0.9, "flag": "OK"}
+{"query": "C'wealth. of Australia", "label": "Australia", "qid": "Q408", "ratio": 0, "flag": "exact"}
+{"query": "Africa (Transvaal Provl. division)", "label": "Transvaal Province", "qid": "Q190959", "ratio": 0.97, "flag": "OK"}
+{"query": "Tanganyika Terry.", "label": "Tanganyika Territory", "qid": "Q158725", "ratio": 0.97, "flag": "REVIEW:terr,terry"}
+{"query": "Gampolla", "label": "Gampola", "qid": "Q8264065", "ratio": 0.93, "flag": "REVIEW:gampola,gampolla"}
+{"query": "Batticaloa Kach.", "label": "Batticaloa", "qid": "Q810963", "ratio": 0, "flag": "exact"}
+{"query": "German S. W. Africa", "label": "German South-West Africa", "qid": "Q153665", "ratio": 0, "flag": "exact"}
+{"query": "North-Central Province", "label": "North Central Province", "qid": "Q1057124", "ratio": 0, "flag": "exact"}
+{"query": "Prov. of Queb.", "label": "Quebec", "qid": "Q176", "ratio": 0.92, "flag": "REVIEW:queb,quebec"}
+{"query": "Somerset house", "label": "Somerset House", "qid": "Q1344889", "ratio": 0, "flag": "exact"}
+{"query": "Panaduré", "label": "Panadura", "qid": "Q7129771", "ratio": 0, "flag": "exact"}
+{"query": "Haldumulla", "label": "Haldummulla", "qid": "Q5641318", "ratio": 0.95, "flag": "REVIEW:haldummulla,haldumulla"}
+{"query": "Str. Settlts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.95, "flag": "REVIEW:settls,settlts"}
+{"query": "O.F.S. prov.", "label": "Orange Free State Province", "qid": "Q1971200", "ratio": 0, "flag": "exact"}
+{"query": "S. Sttlns.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.94, "flag": "REVIEW:sttlns,sttlnts"}
+{"query": "Kurunegalle", "label": "Kurunegala", "qid": "Q776887", "ratio": 0.95, "flag": "REVIEW:kurnegalle,kurunegalle"}
+{"query": "Wyndham", "label": "Wyndham", "qid": "Q477835", "ratio": 0, "flag": "exact"}
+{"query": "Ijebu-Ode", "label": "Ijebu Ode", "qid": "Q1023726", "ratio": 0, "flag": "exact"}
+{"query": "S. Africa protectorate", "label": "South West Africa", "qid": "Q953068", "ratio": 0.95, "flag": "OK"}
+{"query": "S. Stmts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.93, "flag": "REVIEW:stmts,sttmts"}
+{"query": "Le Havre", "label": "Le Havre", "qid": "Q42810", "ratio": 0, "flag": "exact"}
+{"query": "B'ham.", "label": "Birmingham", "qid": "Q2256", "ratio": 0, "flag": "exact"}
+{"query": "Tailevu", "label": "Tailevu", "qid": "Q1365322", "ratio": 0, "flag": "exact"}
+{"query": "High Wycombe", "label": "High Wycombe", "qid": "Q64116", "ratio": 0, "flag": "exact"}
+{"query": "Prov. of Saharagamuwa", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.95, "flag": "REVIEW:sabaragamuwa,saharagamuwa"}
+{"query": "N. W. prov.", "label": "North-Western Provinces", "qid": "Q138521", "ratio": 0, "flag": "exact"}
+{"query": "Westmorland", "label": "Westmoreland Parish", "qid": "Q1440250", "ratio": 0.96, "flag": "REVIEW:westmoreland,westmorland"}
+{"query": "B. S. Sttlmts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.9, "flag": "OK"}
+{"query": "S'pre", "label": "Singapore Crown Colony", "qid": "Q4373718", "ratio": 0.91, "flag": "REVIEW:pore,pre"}
+{"query": "Cent. Queensland", "label": "Central Queensland", "qid": "Q5061728", "ratio": 0.91, "flag": "REVIEW:cent"}
+{"query": "S. Settments", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0, "flag": "exact"}
+{"query": "Zulu-land", "label": "Zululand", "qid": "Q729768", "ratio": 0.94, "flag": "REVIEW:land,zulu,zululand"}
+{"query": "Kurunegala Kach.", "label": "Kurunegala", "qid": "Q776887", "ratio": 0, "flag": "exact"}
+{"query": "Hadhramaut", "label": "Hadhramaut", "qid": "Q1517159", "ratio": 0, "flag": "exact"}
+{"query": "S. L.", "label": "Sierra Leone Colony", "qid": "Q30059027", "ratio": 0, "flag": "exact"}
+{"query": "Griqualand E.", "label": "Griqualand West", "qid": "Q2547918", "ratio": 0.92, "flag": "OK"}
+{"query": "G.S.W. Africa", "label": "South-West Africa", "qid": "Q953068", "ratio": 0.91, "flag": "OK"}
+{"query": "Downing Street", "label": "Downing Street", "qid": "Q192687", "ratio": 0, "flag": "exact"}
+{"query": "Br. E. African", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0.96, "flag": "REVIEW:africa,african"}
+{"query": "Chavakachcheri", "label": "Chavakacheri", "qid": "Q1068504", "ratio": 0, "flag": "exact"}
+{"query": "X'mas Is.", "label": "Christmas Island", "qid": "Q31063", "ratio": 0.93, "flag": "REVIEW:mas,xmas"}
+{"query": "E. African", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0.94, "flag": "REVIEW:africa,african"}
+{"query": "S. African republic", "label": "South African Republic", "qid": "Q550374", "ratio": 0, "flag": "exact"}
+{"query": "Bukit Merta-jam", "label": "Bukit Mertajam", "qid": "Q2158697", "ratio": 0.97, "flag": "REVIEW:jam,merta,mertajam"}
+{"query": "Str. Sttlmts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.9, "flag": "REVIEW:str"}
+{"query": "Darbhangah", "label": "Darbhanga", "qid": "Q1136189", "ratio": 0.95, "flag": "REVIEW:darbhanga,darbhangah"}
+{"query": "Sunjei Ujong", "label": "Sungai Ujong", "qid": "Q4857417", "ratio": 0.92, "flag": "REVIEW:sungei,sunjei"}
+{"query": "Bridgeton Barbados", "label": "Bridgetown", "qid": "Q36168", "ratio": 0.97, "flag": "REVIEW:bridgeton,bridgetown"}
+{"query": "north-central prov.", "label": "North Central Province", "qid": "Q1057124", "ratio": 0.9, "flag": "OK"}
+{"query": "Exopo division", "label": "Ixopo", "qid": "Q827279", "ratio": 0.93, "flag": "REVIEW:exopo,ixopo"}
+{"query": "Bitulu", "label": "Bintulu", "qid": "Q594209", "ratio": 0.92, "flag": "REVIEW:bintulu,bitulu"}
+{"query": "Dambula", "label": "Dambulla", "qid": "Q377343", "ratio": 0.93, "flag": "REVIEW:dambula,dambulla"}
+{"query": "Chavakacheri", "label": "Chavakacheri", "qid": "Q1068504", "ratio": 0, "flag": "exact"}
+{"query": "North West Territories", "label": "Northwest Territories", "qid": "Q2007", "ratio": 0.98, "flag": "REVIEW:northwest"}
+{"query": "N.W. territories", "label": "Northwest Territories", "qid": "Q2007", "ratio": 0, "flag": "exact"}
+{"query": "Galagdara", "label": "Galagedara", "qid": "Q5517872", "ratio": 0.95, "flag": "REVIEW:galagdara,galagedara"}
+{"query": "Strait Settlements", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.97, "flag": "REVIEW:strait,straits"}
+{"query": "Savusavu", "label": "Savusavu", "qid": "Q619440", "ratio": 0, "flag": "exact"}
+{"query": "N.W. prov. Ceylon", "label": "Northern Province", "qid": "Q598745", "ratio": 0.93, "flag": "OK"}
+{"query": "Petersburg", "label": "Polokwane", "qid": "Q131662", "ratio": 0.95, "flag": "REVIEW:petersburg,pietersburg"}
+{"query": "Weenen country", "label": "Weenen", "qid": "Q2096873", "ratio": 0.96, "flag": "REVIEW:country"}
+{"query": "Demerara river", "label": "Demerara River", "qid": "Q1185369", "ratio": 0, "flag": "exact"}
+{"query": "Str. Settler", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.9, "flag": "REVIEW:settl,settler"}
+{"query": "Kingston District", "label": "Kingston", "qid": "Q34692", "ratio": 0, "flag": "exact"}
+{"query": "Port-Nolloth", "label": "Port Nolloth", "qid": "Q993170", "ratio": 0, "flag": "exact"}
+{"query": "Hambantola", "label": "Hambantota", "qid": "Q1025283", "ratio": 0.9, "flag": "REVIEW:hambantola,hambantota"}
+{"query": "P. E. I.", "label": "Prince Edward Island", "qid": "Q1978", "ratio": 0, "flag": "exact"}
+{"query": "Plaines Wilhems district", "label": "Plaines Wilhems District", "qid": "Q1053595", "ratio": 0, "flag": "exact"}
+{"query": "Stan Creek", "label": "Stann Creek District", "qid": "Q502652", "ratio": 0.95, "flag": "REVIEW:stan,stann"}
+{"query": "Kyrnia", "label": "Kyrenia", "qid": "Q206760", "ratio": 0.92, "flag": "REVIEW:kyrenia,kyrnia"}
+{"query": "Bury", "label": "Bury", "qid": "Q47822", "ratio": 0, "flag": "exact"}
+{"query": "Murraysburg division Cape Colony", "label": "Murraysburg", "qid": "Q2365106", "ratio": 0.94, "flag": "REVIEW:colonial"}
+{"query": "London (Ont.)", "label": "London", "qid": "Q92561", "ratio": 0, "flag": "exact"}
+{"query": "Thaiping", "label": "Taiping", "qid": "Q1011190", "ratio": 0.93, "flag": "REVIEW:taiping,thaiping"}
+{"query": "Bassetterre district", "label": "Basseterre", "qid": "Q41295", "ratio": 0.97, "flag": "REVIEW:basseterre,bassetterre"}
+{"query": "Cape Prov. Divn.", "label": "Cape Province", "qid": "Q849164", "ratio": 0, "flag": "exact"}
+{"query": "B Straits Settlements", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.95, "flag": "OK"}
+{"query": "Shortland", "label": "Shortland Islands", "qid": "Q1200493", "ratio": 0.95, "flag": "REVIEW:shortland,shortlands"}
+{"query": "S.E. America", "label": "South America", "qid": "Q18", "ratio": 0.9, "flag": "OK"}
+{"query": "So. Rhodesia", "label": "Southern Rhodesia Colony", "qid": "Q750583", "ratio": 0.95, "flag": "OK"}
+{"query": "Guysborough", "label": "Guysborough", "qid": "Q5622877", "ratio": 0, "flag": "exact"}
+{"query": "Union of S. Afr.", "label": "British South Africa Company Territory", "qid": "Q5155572", "ratio": 0.92, "flag": "REVIEW:afr"}
+{"query": "German South-West Africa", "label": "German South-West Africa", "qid": "Q153665", "ratio": 0, "flag": "exact"}
+{"query": "Tanganyika admstrn.", "label": "Tanganyika", "qid": "Q158725", "ratio": 0.94, "flag": "REVIEW:admnstn,admstrn"}
+{"query": "Washington D.C.", "label": "Washington, D.C.", "qid": "Q61", "ratio": 0, "flag": "exact"}
+{"query": "Trincomalie Ceylon", "label": "Trincomalee", "qid": "Q323873", "ratio": 0.94, "flag": "REVIEW:trincomalee,trincomalie"}
+{"query": "Tai Po", "label": "Tai Po", "qid": "Q1758870", "ratio": 0, "flag": "exact"}
+{"query": "Brit. East Africa protectorate", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0.95, "flag": "OK"}
+{"query": "Avisawela", "label": "Avissawella", "qid": "Q3537406", "ratio": 0.95, "flag": "REVIEW:avisawela,avisawella"}
+{"query": "Sherbro'", "label": "Sherbro Island", "qid": "Q2001267", "ratio": 0, "flag": "exact"}
+{"query": "Badulla kach", "label": "Badulla", "qid": "Q390096", "ratio": 0, "flag": "exact"}
+{"query": "Jijiga", "label": "Jijiga", "qid": "Q755763", "ratio": 0, "flag": "exact"}
+{"query": "German E. Africa (Occupied Territory)", "label": "German East Africa (British Occupied)", "qid": "Q158725", "ratio": 0.96, "flag": "OK"}
+{"query": "N. Waziristan", "label": "Waziristan", "qid": "Q190217", "ratio": 0.91, "flag": "OK"}
+{"query": "Trans Jordan", "label": "Emirate of Transjordan", "qid": "Q1121819", "ratio": 0, "flag": "exact"}
+{"query": "Msinga", "label": "Msinga Local Municipality", "qid": "Q278422", "ratio": 0.92, "flag": "REVIEW:msinga,umsinga"}
+{"query": "Cranbrook", "label": "Cranbrook", "qid": "Q1138837", "ratio": 0, "flag": "exact"}
+{"query": "N.S. W.", "label": "New South Wales (Original)", "qid": "Q18348382", "ratio": 0, "flag": "exact"}
+{"query": "Taungs Bechuanaland", "label": "Taung", "qid": "Q2096879", "ratio": 0.93, "flag": "OK"}
+{"query": "G. Britain", "label": "Great Britain", "qid": "Q23666", "ratio": 0.95, "flag": "OK"}
+{"query": "E. Caribbean", "label": "Caribbean", "qid": "Q664609", "ratio": 0.9, "flag": "OK"}
+{"query": "B. G.", "label": "British Guiana", "qid": "Q918126", "ratio": 0, "flag": "exact"}
+{"query": "Kumassi", "label": "Kumasi", "qid": "Q182059", "ratio": 0.92, "flag": "REVIEW:kumasi,kumassi"}
+{"query": "Port of Spain S.", "label": "Port of Spain", "qid": "Q39178", "ratio": 0.93, "flag": "OK"}
+{"query": "N. Nigeria protectorate", "label": "Southern Nigeria Protectorate", "qid": "Q2062030", "ratio": 0.95, "flag": "OK"}
+{"query": "Br. C. Africa protectorate", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0.98, "flag": "OK"}
+{"query": "Somali protectorate", "label": "British Somaliland", "qid": "Q662653", "ratio": 0.91, "flag": "REVIEW:som,somali"}
+{"query": "St. Kitts and Leeward Is.", "label": "Saint Kitts", "qid": "Q204989", "ratio": 0.9, "flag": "OK"}
+{"query": "B. Cen. Africa protectorate", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0.98, "flag": "REVIEW:cen,cent"}
+{"query": "Galagedera", "label": "Galagedara", "qid": "Q5517872", "ratio": 0.9, "flag": "REVIEW:galagedara,galagedera"}
+{"query": "B. Central Africa protectorate", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0.98, "flag": "OK"}
+{"query": "Simon's Tn.", "label": "Simon's Town", "qid": "Q1013370", "ratio": 0.91, "flag": "OK"}
+{"query": "B. E.A.", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0, "flag": "exact"}
+{"query": "Samoan", "label": "Samoa", "qid": "Q683", "ratio": 0.91, "flag": "REVIEW:samoa,samoan"}
+{"query": "Lichtenberg", "label": "Lichtenburg", "qid": "Q2671213", "ratio": 0.91, "flag": "REVIEW:lichtenberg,lichtenburg"}
+{"query": "Turks and Caicos Island", "label": "Turks and Caicos Islands", "qid": "Q18221", "ratio": 0.98, "flag": "REVIEW:islands"}
+{"query": "north-western provinces", "label": "North-Western Provinces", "qid": "Q138521", "ratio": 0, "flag": "exact"}
+{"query": "G. C.", "label": "British Gold Coast", "qid": "Q503623", "ratio": 0, "flag": "exact"}
+{"query": "(N. Borneo)", "label": "British North Borneo", "qid": "Q1147441", "ratio": 0, "flag": "exact"}
+{"query": "Ipswich", "label": "Ipswich", "qid": "Q1009253", "ratio": 0, "flag": "exact"}
+{"query": "Warwicks.", "label": "Warwick", "qid": "Q549761", "ratio": 0.93, "flag": "REVIEW:warwick,warwicks"}
+{"query": "E.Nig.", "label": "Eastern Region", "qid": "Q3509795", "ratio": 0, "flag": "exact"}
+{"query": "west coast of Africa", "label": "West Africa", "qid": "Q4412", "ratio": 0, "flag": "exact"}
+{"query": "Neuera Ellia", "label": "Nuwara Eliya", "qid": "Q1340579", "ratio": 0.92, "flag": "REVIEW:neuera,nuwera"}
+{"query": "S. provs. Nigeria", "label": "Southern Nigeria Protectorate", "qid": "Q2062030", "ratio": 0, "flag": "exact"}
+{"query": "Sherbro County", "label": "Sherbro Island", "qid": "Q2001267", "ratio": 0.97, "flag": "REVIEW:country"}
+{"query": "Grey Town", "label": "Greytown", "qid": "Q1021891", "ratio": 0.94, "flag": "REVIEW:grey,greytown"}
+{"query": "eastern Africa", "label": "East Africa", "qid": "Q27407", "ratio": 0, "flag": "exact"}
+{"query": "Transkeian territories", "label": "Transkei", "qid": "Q466551", "ratio": 0, "flag": "exact"}
+{"query": "Swansea", "label": "Swansea", "qid": "Q986654", "ratio": 0, "flag": "exact"}
+{"query": "Trans-keian Territory", "label": "Transkei", "qid": "Q466551", "ratio": 0.98, "flag": "REVIEW:keian,trans,transkeian"}
+{"query": "FREDERICTON", "label": "Fredericton", "qid": "Q2138", "ratio": 0, "flag": "exact"}
+{"query": "Prince of Wales' Island", "label": "Penang Island", "qid": "Q1150673", "ratio": 0, "flag": "exact"}
+{"query": "Matalé", "label": "Matale", "qid": "Q1540498", "ratio": 0, "flag": "exact"}
+{"query": "Ayreshire", "label": "Ayrshire", "qid": "Q793283", "ratio": 0.94, "flag": "REVIEW:ayreshire,ayrshire"}
+{"query": "St. Christopher's", "label": "Saint Kitts", "qid": "Q204989", "ratio": 0.93, "flag": "OK"}
+{"query": "Colony of the Cape of Good Hope", "label": "Cape Colony", "qid": "Q370736", "ratio": 0.93, "flag": "OK"}
+{"query": "Nuwera Eliya", "label": "Nuwara Eliya", "qid": "Q1340579", "ratio": 0.92, "flag": "REVIEW:eliya,ellia"}
+{"query": "Harrispatloo", "label": "Harispattuwa Divisional Secretariat", "qid": "Q5657965", "ratio": 0.92, "flag": "REVIEW:harrispatloo,harrispattoo"}
+{"query": "Dix Cove", "label": "Dixcove", "qid": "Q1231673", "ratio": 0.93, "flag": "REVIEW:cove,dix,dixcove"}
+{"query": "W.Nig.", "label": "Western Region", "qid": "Q3509075", "ratio": 0, "flag": "exact"}
+{"query": "West. Australia", "label": "Western Australia", "qid": "Q3206", "ratio": 0, "flag": "exact"}
+{"query": "Newcastle I.", "label": "Newcastle upon Tyne", "qid": "Q1425428", "ratio": 0.9, "flag": "OK"}
+{"query": "Brit. Somaliland", "label": "British Somaliland", "qid": "Q662653", "ratio": 0.93, "flag": "REVIEW:brit"}
+{"query": "Fed. of Rhod. and Nyas.", "label": "Federation of Rhodesia and Nyasaland", "qid": "Q654342", "ratio": 0.98, "flag": "REVIEW:nyas,nyasa"}
+{"query": "G. & E.Is.", "label": "Gilbert and Ellice Islands", "qid": "Q1050859", "ratio": 0, "flag": "exact"}
+{"query": "runegala kach.", "label": "Kurunegala", "qid": "Q776887", "ratio": 0.93, "flag": "REVIEW:kurunegala,runegala"}
+{"query": "N. W. Territories", "label": "Northwest Territories", "qid": "Q2007", "ratio": 0, "flag": "exact"}
+{"query": "N Rhod.", "label": "Northern Rhodesia Colony", "qid": "Q953903", "ratio": 0, "flag": "exact"}
+{"query": "George Town British Guiana", "label": "Georgetown", "qid": "Q10717", "ratio": 0.98, "flag": "REVIEW:george,georgetown"}
+{"query": "Union of S. ca", "label": "British South Africa Company Territory", "qid": "Q5155572", "ratio": 0.96, "flag": "OK"}
+{"query": "aganyika Territory", "label": "Tanganyika", "qid": "Q158725", "ratio": 0.95, "flag": "REVIEW:aganyika,tanganyika"}
+{"query": "Adelaide (Australia)", "label": "Adelaide", "qid": "Q5112", "ratio": 0.95, "flag": "OK"}
+{"query": "Kano Prov. Nigeria", "label": "Northern Nigeria Protectorate", "qid": "Q585408", "ratio": 0.9, "flag": "REVIEW:kano"}
+{"query": "Swellendam Cape Colony", "label": "Swellendam", "qid": "Q1023257", "ratio": 0.91, "flag": "REVIEW:colonial"}
+{"query": "St. Johns Antigua", "label": "St. John's", "qid": "Q36262", "ratio": 0.97, "flag": "REVIEW:john,johns"}
+{"query": "AUCKLAND", "label": "Auckland", "qid": "Q37100", "ratio": 0, "flag": "exact"}
+{"query": "North Central Prov.", "label": "North Central Province", "qid": "Q1057124", "ratio": 0.9, "flag": "OK"}
+{"query": "N. Provn. Nigeria", "label": "Northern Nigeria Protectorate", "qid": "Q585408", "ratio": 0.97, "flag": "REVIEW:provn"}
+{"query": "I. Africa protectorate", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0.95, "flag": "OK"}
+{"query": "P. Pedro", "label": "Point Pedro", "qid": "Q2307889", "ratio": 0.93, "flag": "OK"}
+{"query": "Rembau Negri Sembilan", "label": "Seremban", "qid": "Q847610", "ratio": 0.91, "flag": "REVIEW:rembau,seremban"}
+{"query": "Badullakach", "label": "Badulla", "qid": "Q390096", "ratio": 0.96, "flag": "REVIEW:badulla,badullakach"}
+{"query": "Transvaal Province", "label": "Transvaal Province", "qid": "Q190959", "ratio": 0, "flag": "exact"}
+{"query": "Balapitiva", "label": "Balapitiya", "qid": "Q4076412", "ratio": 0.9, "flag": "REVIEW:balapitiva,balapitiya"}
+{"query": "Negri-Sembilan", "label": "Negeri Sembilan", "qid": "Q213893", "ratio": 0, "flag": "exact"}
+{"query": "Col mbo Kachcheri", "label": "Colombo", "qid": "Q35381", "ratio": 0.94, "flag": "REVIEW:col,colombo,mbo"}
+{"query": "Anuradahapura Kachcheri", "label": "Anuradhapura", "qid": "Q5724", "ratio": 0.98, "flag": "REVIEW:anuradahapura,anuradhapura"}
+{"query": "B. C. Africa", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0, "flag": "exact"}
+{"query": "Trincomaloe", "label": "Trincomalee", "qid": "Q323873", "ratio": 0.91, "flag": "REVIEW:trincomalie,trincomaloe"}
+{"query": "Wolmaranstad", "label": "Wolmaransstad", "qid": "Q3642582", "ratio": 0.96, "flag": "REVIEW:wolmaransstad,wolmaranstad"}
+{"query": "Turks Isld.", "label": "Grand Turk", "qid": "Q1473924", "ratio": 0.91, "flag": "REVIEW:isld"}
+{"query": "Cockburn Harbour", "label": "South Caicos (Cockburn Harbour)", "qid": "Q1814473", "ratio": 0, "flag": "exact"}
+{"query": "K. Baharu", "label": "Kota Bharu", "qid": "Q651131", "ratio": 0.93, "flag": "REVIEW:baharu,bahru"}
+{"query": "Cape town", "label": "Cape Town", "qid": "Q5465", "ratio": 0, "flag": "exact"}
+{"query": "Wellesley", "label": "Seberang Perai (Province Wellesley)", "qid": "Q1861984", "ratio": 0.9, "flag": "OK"}
+{"query": "Queens- land", "label": "Queensland", "qid": "Q28401203", "ratio": 0.95, "flag": "REVIEW:land,queens,queensland"}
+{"query": "Joburg.", "label": "Johannesburg", "qid": "Q34647", "ratio": 0.92, "flag": "REVIEW:burg,joburg"}
+{"query": "Kwala Kangsar", "label": "Kuala Kangsar", "qid": "Q1790832", "ratio": 0.92, "flag": "REVIEW:kuala,kwala"}
+{"query": "South America", "label": "South America", "qid": "Q18", "ratio": 0, "flag": "exact"}
+{"query": "Kuâla Kangsar", "label": "Kuala Kangsar", "qid": "Q1790832", "ratio": 0, "flag": "exact"}
+{"query": "Straits Sttlimts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.97, "flag": "REVIEW:sttlimts,sttlmts"}
+{"query": "Fouresmith", "label": "Fauresmith", "qid": "Q985813", "ratio": 0.9, "flag": "REVIEW:fauresmith,fouresmith"}
+{"query": "Sabaragumuwa", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.92, "flag": "REVIEW:sabaragamuwa,sabaragumuwa"}
+{"query": "Bridge Town Barbados", "label": "Bridgetown", "qid": "Q36168", "ratio": 0.97, "flag": "REVIEW:bridge,bridgetown"}
+{"query": "S. Bech. protectorate", "label": "Bechuanaland Protectorate", "qid": "Q747314", "ratio": 0.94, "flag": "OK"}
+{"query": "Pánaduré", "label": "Panadura", "qid": "Q7129771", "ratio": 0, "flag": "exact"}
+{"query": "S. Sttlments.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.95, "flag": "REVIEW:sttlments,sttlmnts"}
+{"query": "C'Wealth of Australia", "label": "Australia", "qid": "Q408", "ratio": 0, "flag": "exact"}
+{"query": "Damulla", "label": "Dambulla", "qid": "Q377343", "ratio": 0.93, "flag": "REVIEW:dambulla,damulla"}
+{"query": "Harrar", "label": "Harar", "qid": "Q190184", "ratio": 0.91, "flag": "REVIEW:harar,harrar"}
+{"query": "Rio-de-Janeiro", "label": "Rio de Janeiro", "qid": "Q8678", "ratio": 0, "flag": "exact"}
+{"query": "So. district of Bech. protectorate", "label": "Bechuanaland Protectorate (N. district; no separate QID)", "qid": "Q747314", "ratio": 0.9, "flag": "OK"}
+{"query": "Gilbert and Ellice Island Protectorate", "label": "Gilbert and Ellice Islands", "qid": "Q1050859", "ratio": 0.94, "flag": "OK"}
+{"query": "Nibong Tobal", "label": "Nibong Tebal", "qid": "Q848853", "ratio": 0.92, "flag": "REVIEW:tebal,tobal"}
+{"query": "Puttalam Kach.", "label": "Puttalam", "qid": "Q3088741", "ratio": 0, "flag": "exact"}
+{"query": "S. Stlnts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.94, "flag": "REVIEW:stlnts,sttlnts"}
+{"query": "Transvaal Prov. Divn.", "label": "Transvaal Province", "qid": "Q190959", "ratio": 0, "flag": "exact"}
+{"query": "Kurunegalla kach.", "label": "Kurunegala", "qid": "Q776887", "ratio": 0.97, "flag": "REVIEW:kurunegala,kurunegalla"}
+{"query": "Somali- land protectorate", "label": "British Somaliland", "qid": "Q662653", "ratio": 0.98, "flag": "REVIEW:land,somali,somaliland"}
+{"query": "Taveuni", "label": "Taveuni", "qid": "Q1138545", "ratio": 0, "flag": "exact"}
+{"query": "B. W. I.", "label": "British West Indies", "qid": "Q920396", "ratio": 0, "flag": "exact"}
+{"query": "Pahang. F.M.S.", "label": "Pahang", "qid": "Q191346", "ratio": 0, "flag": "exact"}
+{"query": "Cape Prov. divn.", "label": "Cape Province", "qid": "Q849164", "ratio": 0, "flag": "exact"}
+{"query": "Federation of Mal.", "label": "Federation of Malaya", "qid": "Q1479726", "ratio": 0.92, "flag": "REVIEW:mal,malaya"}
+{"query": "Harrispastoo", "label": "Harispattuwa Divisional Secretariat", "qid": "Q5657965", "ratio": 0.92, "flag": "REVIEW:harrispastoo,harrispattoo"}
+{"query": "Avisawalla", "label": "Avissawella", "qid": "Q3537406", "ratio": 0.9, "flag": "REVIEW:avisawalla,avisawella"}
+{"query": "Western province", "label": "Western Province", "qid": "Q856686", "ratio": 0, "flag": "exact"}
+{"query": "Aberdeen-shire", "label": "Aberdeenshire (historic county)", "qid": "Q3290674", "ratio": 0.96, "flag": "REVIEW:aberdeen,aberdeenshire,shire"}
+{"query": "Kingwilliams Town", "label": "Qonce", "qid": "Q1016100", "ratio": 0.97, "flag": "REVIEW:kingwilliams,kingwilliamstown"}
+{"query": "Pánadure", "label": "Panadura", "qid": "Q7129771", "ratio": 0, "flag": "exact"}
+{"query": "Queens-town", "label": "Queenstown", "qid": "Q610600", "ratio": 0.95, "flag": "REVIEW:queens,queenstown"}
+{"query": "Queen's-town", "label": "Queenstown", "qid": "Q610600", "ratio": 0.91, "flag": "REVIEW:queen,queenstown"}
+{"query": "Graham's-town", "label": "Makhanda (Grahamstown)", "qid": "Q951161", "ratio": 0, "flag": "exact"}
+{"query": "King William's-town", "label": "Qonce (King William's Town)", "qid": "Q1016100", "ratio": 0, "flag": "exact"}
+{"query": "Matara Kachocheri", "label": "Matara", "qid": "Q13360574", "ratio": 0.97, "flag": "REVIEW:kachocheri"}
+{"query": "Kalutera kach.", "label": "Kalutara", "qid": "Q1295530", "ratio": 0.92, "flag": "REVIEW:kalutara,kalutera"}
+{"query": "St. Anne Jamaica", "label": "Saint Ann Parish", "qid": "Q1326284", "ratio": 0.97, "flag": "REVIEW:ann,anne"}
+{"query": "Tangan'yika Territory", "label": "Tanganyika", "qid": "Q158725", "ratio": 0.98, "flag": "REVIEW:tangan,tanganyika,yika"}
+{"query": "E. Prov. Ceylon", "label": "Northern Province", "qid": "Q598745", "ratio": 0.92, "flag": "OK"}
+{"query": "Kota Bahru", "label": "Kota Bharu", "qid": "Q651131", "ratio": 0.9, "flag": "REVIEW:bahru,bharu"}
+{"query": "Endau", "label": "Endau", "qid": "Q5375966", "ratio": 0, "flag": "exact"}
+{"query": "Balik Pulan Penang", "label": "Balik Pulau", "qid": "Q4850899", "ratio": 0.94, "flag": "REVIEW:pulan,pulau"}
+{"query": "Pioketberg", "label": "Piketberg", "qid": "Q2006534", "ratio": 0.95, "flag": "REVIEW:piketberg,pioketberg"}
+{"query": "Kalahari Desert", "label": "Kalahari Desert", "qid": "Q47700", "ratio": 0, "flag": "exact"}
+{"query": "Harbor Grace", "label": "Harbour Grace", "qid": "Q3127313", "ratio": 0.96, "flag": "REVIEW:harbor,harbour"}
+{"query": "Prov. of Sabaragamuwn", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.95, "flag": "REVIEW:sabaragamuwa,sabaragamuwn"}
+{"query": "Suly-mah", "label": "Sulima", "qid": "Q2006220", "ratio": 0.93, "flag": "REVIEW:mah,suly,sulymah"}
+{"query": "Ripon", "label": "Ripon", "qid": "Q661529", "ratio": 0, "flag": "exact"}
+{"query": "E. Mediterranean", "label": "Mediterranean Sea", "qid": "Q4918", "ratio": 0.94, "flag": "OK"}
+{"query": "Straits Settlmts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.97, "flag": "REVIEW:settlmts,sttlmts"}
+{"query": "Belize City", "label": "Belize City", "qid": "Q108223", "ratio": 0, "flag": "exact"}
+{"query": "Eng'land", "label": "England", "qid": "Q21", "ratio": 0.93, "flag": "REVIEW:eng,england,land"}
+{"query": "Naparima Trinidad", "label": "Arima", "qid": "Q661405", "ratio": 0.9, "flag": "REVIEW:arima,naparima"}
+{"query": "Free-town district", "label": "Freetown", "qid": "Q3780", "ratio": 0.97, "flag": "REVIEW:free,freetown"}
+{"query": "Br. Sol. Is.", "label": "British Solomon Islands", "qid": "Q13410267", "ratio": 0.94, "flag": "OK"}
+{"query": "German E. Africa prov. admstn.", "label": "German East Africa", "qid": "Q153963", "ratio": 0.95, "flag": "REVIEW:adminstrn,admstn"}
+{"query": "S. Stltmts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.94, "flag": "REVIEW:stltmts,sttmts"}
+{"query": "Burimah", "label": "British rule in Burma", "qid": "Q2376315", "ratio": 0.92, "flag": "REVIEW:burimah,burmah"}
+{"query": "K. Salangor", "label": "Kuala Selangor", "qid": "Q3267302", "ratio": 0.9, "flag": "REVIEW:salangor,selangor"}
+{"query": "Tanganvika Territory", "label": "Tanganyika", "qid": "Q158725", "ratio": 0.95, "flag": "REVIEW:tanganvika,tanganyika"}
+{"query": "Visawella", "label": "Avissawella", "qid": "Q3537406", "ratio": 0.95, "flag": "REVIEW:avisawella,visawella"}
+{"query": "Carnaca district", "label": "Larnaca", "qid": "Q171882", "ratio": 0.94, "flag": "REVIEW:carnaca,larnaca"}
+{"query": "Bukit Merlajam", "label": "Bukit Mertajam", "qid": "Q2158697", "ratio": 0.93, "flag": "REVIEW:merlajam,mertajam"}
+{"query": "N. Islington", "label": "Islington", "qid": "Q125163", "ratio": 0.9, "flag": "OK"}
+{"query": "S. Prov. Nigeria", "label": "Southern Nigeria Protectorate", "qid": "Q2062030", "ratio": 0.97, "flag": "REVIEW:provs"}
+{"query": "Dambulla", "label": "Dambulla", "qid": "Q377343", "ratio": 0, "flag": "exact"}
+{"query": "Kelgalla", "label": "Kegalle", "qid": "Q1968268", "ratio": 0.93, "flag": "REVIEW:kegalla,kelgalla"}
+{"query": "Transvaal Prov. division", "label": "Transvaal Province", "qid": "Q190959", "ratio": 0, "flag": "exact"}
+{"query": "Pitcairn Island", "label": "Pitcairn Islands", "qid": "Q35672", "ratio": 0.97, "flag": "REVIEW:islands"}
+{"query": "S.W. African", "label": "South-West Africa", "qid": "Q953068", "ratio": 0.95, "flag": "REVIEW:africa,african"}
+{"query": "Essequeibo", "label": "Essequibo", "qid": "Q1368792", "ratio": 0.95, "flag": "REVIEW:essequeibo,essequibo"}
+{"query": "P. E. Africa", "label": "German East Africa", "qid": "Q153963", "ratio": 0.9, "flag": "OK"}
+{"query": "Prov. of Sabaragamawa", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.95, "flag": "REVIEW:sabaragamawa,sabaragamuwa"}
+{"query": "Jaffna Kach.", "label": "Jaffna", "qid": "Q215277", "ratio": 0, "flag": "exact"}
+{"query": "Kegalla Kach.", "label": "Kegalle", "qid": "Q1968268", "ratio": 0, "flag": "exact"}
+{"query": "Batticalva", "label": "Batticaloa", "qid": "Q810963", "ratio": 0.9, "flag": "REVIEW:batticaloa,batticalva"}
+{"query": "B.E. Africa", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0, "flag": "exact"}
+{"query": "Brit. N. Borneo", "label": "British North Borneo", "qid": "Q1147441", "ratio": 0.92, "flag": "REVIEW:brit"}
+{"query": "Prov. Wellesley", "label": "Seberang Perai (Province Wellesley)", "qid": "Q1861984", "ratio": 0, "flag": "exact"}
+{"query": "St. Catherine's", "label": "Saint Catherine Parish", "qid": "Q1473663", "ratio": 0.92, "flag": "OK"}
+{"query": "B.O.A. protectorate", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0.94, "flag": "OK"}
+{"query": "Barbice British Guiana", "label": "Berbice", "qid": "Q675322", "ratio": 0.95, "flag": "REVIEW:barbice,berbice"}
+{"query": "Pahang Straits Settlements", "label": "Penang", "qid": "Q188096", "ratio": 0.92, "flag": "REVIEW:pahang,penang"}
+{"query": "Swaziland adminstn.", "label": "Eswatini", "qid": "Q1050", "ratio": 0.97, "flag": "REVIEW:adminstn,adminstrn"}
+{"query": "Pine-town", "label": "Pinetown", "qid": "Q985839", "ratio": 0.94, "flag": "REVIEW:pine,pinetown"}
+{"query": "B. East Africa protectorate", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0.96, "flag": "OK"}
+{"query": "German W. Africa", "label": "German South-West Africa", "qid": "Q153665", "ratio": 0.94, "flag": "OK"}
+{"query": "Karunegala Kach.", "label": "Kurunegala", "qid": "Q776887", "ratio": 0.93, "flag": "REVIEW:karunegala,kurunegala"}
+{"query": "Alutara", "label": "Kalutara", "qid": "Q1295530", "ratio": 0.93, "flag": "REVIEW:alutara,kalutara"}
+{"query": "W. Central Africa", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0.93, "flag": "OK"}
+{"query": "N. Hebrides", "label": "New Hebrides", "qid": "Q752431", "ratio": 0.91, "flag": "OK"}
+{"query": "German E. African", "label": "German East Africa", "qid": "Q153963", "ratio": 0.97, "flag": "REVIEW:africa,african"}
+{"query": "King Williams Town", "label": "Qonce (King William's Town)", "qid": "Q1016100", "ratio": 0.97, "flag": "REVIEW:william,williams"}
+{"query": "Mahabatini", "label": "Mahlabatini", "qid": "Q6395826", "ratio": 0.95, "flag": "REVIEW:mahabatini,mahlabatini"}
+{"query": "eastern region", "label": "Eastern Region", "qid": "Q3509795", "ratio": 0, "flag": "exact"}
+{"query": "Seccondee", "label": "Sekondi-Takoradi", "qid": "Q243293", "ratio": 0.94, "flag": "REVIEW:seccondee,secondee"}
+{"query": "Secoondée", "label": "Sekondi-Takoradi", "qid": "Q243293", "ratio": 0.94, "flag": "REVIEW:secondee,secoondee"}
+{"query": "S. protectorate", "label": "British Somaliland", "qid": "Q662653", "ratio": 0.93, "flag": "REVIEW:som"}
+{"query": "Cent. Africa", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0.92, "flag": "OK"}
+{"query": "Pertu Western Australia", "label": "Perth", "qid": "Q3183", "ratio": 0.96, "flag": "REVIEW:perth,pertu"}
+{"query": "Ba.", "label": "Ba", "qid": "Q26713", "ratio": 0, "flag": "exact"}
+{"query": "King William's Town Br. Kaffraria", "label": "Qonce", "qid": "Q1016100", "ratio": 0.93, "flag": "REVIEW:british"}
+{"query": "S. Portsmouth", "label": "Portsmouth", "qid": "Q72259", "ratio": 0.91, "flag": "OK"}
+{"query": "Pt. Dickson", "label": "Port Dickson", "qid": "Q653801", "ratio": 0.91, "flag": "OK"}
+{"query": "Niger Coast protectorate (now So. Nigeria)", "label": "Niger Coast Protectorate", "qid": "Q2566427", "ratio": 0.99, "flag": "OK"}
+{"query": "Southern province", "label": "Southern Province", "qid": "Q876308", "ratio": 0, "flag": "exact"}
+{"query": "W. Transvaal", "label": "Transvaal Colony", "qid": "Q1187978", "ratio": 0.9, "flag": "OK"}
+{"query": "Riviere au Rempart", "label": "Rivière du Rempart District", "qid": "Q1053565", "ratio": 0.94, "flag": "OK"}
+{"query": "Prince of Wales Is.", "label": "Penang Island", "qid": "Q1150673", "ratio": 0.9, "flag": "OK"}
+{"query": "S. Sttlemts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.95, "flag": "REVIEW:sttlemts,sttlmts"}
+{"query": "Kalpitia", "label": "Kalpitiya", "qid": "Q14220105", "ratio": 0.94, "flag": "REVIEW:kalpitia,kalpitiya"}
+{"query": "Xmas. Is.", "label": "Christmas Island", "qid": "Q31063", "ratio": 0, "flag": "exact"}
+{"query": "Ratuapoora", "label": "Ratnapura", "qid": "Q508753", "ratio": 0.9, "flag": "REVIEW:ratnapoora,ratuapoora"}
+{"query": "E. Coast of Africa", "label": "West Africa", "qid": "Q4412", "ratio": 0.92, "flag": "OK"}
+{"query": "Eritrea.", "label": "Eritrea", "qid": "Q986", "ratio": 0, "flag": "exact"}
+{"query": "Sabaragamuna", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.92, "flag": "REVIEW:sabaragamuna,sabaragamuwa"}
+{"query": "Anuræhapura", "label": "Anuradhapura", "qid": "Q5724", "ratio": 0.91, "flag": "REVIEW:anuradhapura,anurhapura"}
+{"query": "S.E. Africa", "label": "South-West Africa", "qid": "Q953068", "ratio": 0.9, "flag": "OK"}
+{"query": "co. Pietermaritzburg", "label": "Pietermaritzburg", "qid": "Q185591", "ratio": 0.91, "flag": "OK"}
+{"query": "Lions river division", "label": "Lions River", "qid": "Q13035272", "ratio": 0, "flag": "exact"}
+{"query": "Maputaland", "label": "Maputaland", "qid": "Q4280999", "ratio": 0, "flag": "exact"}
+{"query": "co. Pietermaritzburg Natal", "label": "Pietermaritzburg", "qid": "Q185591", "ratio": 0.94, "flag": "OK"}
+{"query": "Quithin Basutoland", "label": "Quthing", "qid": "Q1003318", "ratio": 0.94, "flag": "REVIEW:quithin,quthing"}
+{"query": "Christmas I.", "label": "Christmas Island", "qid": "Q31063", "ratio": 0.96, "flag": "OK"}
+{"query": "Kinta.", "label": "Kinta District", "qid": "Q2781356", "ratio": 0, "flag": "exact"}
+{"query": "Saint-Hyacinthe", "label": "Saint-Hyacinthe", "qid": "Q141873", "ratio": 0, "flag": "exact"}
+{"query": "Bechuaná and protectorate", "label": "Bechuanaland Protectorate", "qid": "Q747314", "ratio": 0.96, "flag": "REVIEW:bechuana,bechuanaland"}
+{"query": "Bechwana and protectorate", "label": "Bechuanaland Protectorate", "qid": "Q747314", "ratio": 0.92, "flag": "REVIEW:bechuanaland,bechwana"}
+{"query": "Pietermaritzburg division", "label": "Pietermaritzburg", "qid": "Q185591", "ratio": 0.91, "flag": "OK"}
+{"query": "Lee-ward Islands", "label": "Federal Colony of the Leeward Islands", "qid": "Q1796551", "ratio": 0.97, "flag": "REVIEW:lee,leeward,ward"}
+{"query": "N. Kensington", "label": "South Kensington", "qid": "Q1045096", "ratio": 0.92, "flag": "OK"}
+{"query": "N. W. P.", "label": "North-Western Provinces", "qid": "Q138521", "ratio": 0, "flag": "exact"}
+{"query": "Victoria (B. C.)", "label": "Victoria", "qid": "Q2132", "ratio": 0, "flag": "exact"}
+{"query": "Hertfordshire", "label": "Hertfordshire", "qid": "Q3410", "ratio": 0, "flag": "exact"}
+{"query": "Haldammulla", "label": "Haldummulla", "qid": "Q5641318", "ratio": 0.91, "flag": "REVIEW:haldammulla,haldummulla"}
+{"query": "Oudshoorn", "label": "Oudtshoorn", "qid": "Q951049", "ratio": 0.95, "flag": "REVIEW:oudshoorn,oudtshoorn"}
+{"query": "Awisawella", "label": "Avissawella", "qid": "Q3537406", "ratio": 0.9, "flag": "REVIEW:avisawella,awisawella"}
+{"query": "Haldumnulla", "label": "Haldummulla", "qid": "Q5641318", "ratio": 0.91, "flag": "REVIEW:haldummulla,haldumnulla"}
+{"query": "Bathhurst", "label": "Banjul (formerly Bathurst)", "qid": "Q3726", "ratio": 0.94, "flag": "REVIEW:bathhurst,bathurst"}
+{"query": "Matalle", "label": "Matale", "qid": "Q1540498", "ratio": 0.92, "flag": "REVIEW:matale,matalle"}
+{"query": "Prov. of Nova Scotia", "label": "Nova Scotia (Province)", "qid": "Q1952", "ratio": 0.9, "flag": "OK"}
+{"query": "W. coast of Africa", "label": "West Africa", "qid": "Q4412", "ratio": 0.92, "flag": "OK"}
+{"query": "north-west territories", "label": "Northwest Territories", "qid": "Q2007", "ratio": 0.98, "flag": "REVIEW:northwest"}
+{"query": "Québec", "label": "Quebec", "qid": "Q176", "ratio": 0, "flag": "exact"}
+{"query": "Strs. Settlements", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.91, "flag": "REVIEW:straits,strs"}
+{"query": "Mulaittivu", "label": "Mullaitivu", "qid": "Q507144", "ratio": 0.95, "flag": "REVIEW:mulaittivu,mullaittivu"}
+{"query": "Selangore", "label": "Selangor", "qid": "Q189710", "ratio": 0.94, "flag": "REVIEW:selangor,selangore"}
+{"query": "Clau William", "label": "Clanwilliam", "qid": "Q1025657", "ratio": 0.92, "flag": "REVIEW:clan,clau"}
+{"query": "prov. Sabaragamuwa", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.92, "flag": "OK"}
+{"query": "Staffordshire N.", "label": "Staffordshire", "qid": "Q23105", "ratio": 0.93, "flag": "OK"}
+{"query": "Str. Settlements", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.93, "flag": "REVIEW:str"}
+{"query": "Cape Town district", "label": "Cape Town", "qid": "Q5465", "ratio": 0.9, "flag": "OK"}
+{"query": "Lagos-S. Nigeria", "label": "Lagos", "qid": "Q8673", "ratio": 0, "flag": "exact"}
+{"query": "Sabaragamuva", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.92, "flag": "REVIEW:sabaragamuva,sabaragamuwa"}
+{"query": "P. E. Is.", "label": "Prince Edward Island", "qid": "Q1978", "ratio": 0, "flag": "exact"}
+{"query": "Victorian", "label": "Victoria (Colony)", "qid": "Q56850459", "ratio": 0.94, "flag": "REVIEW:victoria,victorian"}
+{"query": "Br. Borneo", "label": "British North Borneo", "qid": "Q1147441", "ratio": 0.9, "flag": "OK"}
+{"query": "Mediterranean area", "label": "Mediterranean Sea", "qid": "Q4918", "ratio": 0.91, "flag": "REVIEW:area,sea"}
+{"query": "Balticaloa", "label": "Batticaloa", "qid": "Q810963", "ratio": 0.9, "flag": "REVIEW:balticaloa,batticaloa"}
+{"query": "Hambantoto", "label": "Hambantota", "qid": "Q1025283", "ratio": 0.9, "flag": "REVIEW:hambantota,hambantoto"}
+{"query": "Capetown and district", "label": "Cape Town", "qid": "Q5465", "ratio": 0.98, "flag": "REVIEW:capetown"}
+{"query": "Leribe District", "label": "Leribe District", "qid": "Q819987", "ratio": 0, "flag": "exact"}
+{"query": "Austrln. Commonwealth", "label": "Australia", "qid": "Q408", "ratio": 0.93, "flag": "REVIEW:australian,austrln"}
+{"query": "Lady-smith", "label": "Ladysmith", "qid": "Q874262", "ratio": 0.95, "flag": "REVIEW:lady,ladysmith,smith"}
+{"query": "Sungci Ujong", "label": "Sungai Ujong", "qid": "Q4857417", "ratio": 0.92, "flag": "REVIEW:sungci,sungei"}
+{"query": "Northern province", "label": "Northern Province", "qid": "Q598745", "ratio": 0, "flag": "exact"}
+{"query": "St. Helen", "label": "Saint Helena", "qid": "Q34497", "ratio": 0.94, "flag": "REVIEW:helen,helena"}
+{"query": "Turk's Island", "label": "Turks and Caicos Islands", "qid": "Q18221", "ratio": 0.96, "flag": "REVIEW:islands"}
+{"query": "North-West Territories", "label": "Northwest Territories", "qid": "Q2007", "ratio": 0.98, "flag": "REVIEW:northwest"}
+{"query": "Carriacou (Grenada)", "label": "Carriacou Island", "qid": "Q795647", "ratio": 0, "flag": "exact"}
+{"query": "Le. Perak", "label": "Hilir Perak", "qid": "Q2381489", "ratio": 0.93, "flag": "OK"}
+{"query": "St. Sttlmts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.95, "flag": "OK"}
+{"query": "Basuto-land", "label": "Basutoland", "qid": "Q2340665", "ratio": 0.95, "flag": "REVIEW:basuto,basutoland,land"}
+{"query": "Windward Isl.", "label": "British Windward Islands", "qid": "Q2660774", "ratio": 0.96, "flag": "REVIEW:isl"}
+{"query": "B.S.I. protectorate", "label": "British Solomon Islands", "qid": "Q13410267", "ratio": 0.92, "flag": "REVIEW:sol"}
+{"query": "Taganyika Territory", "label": "Tanganyika", "qid": "Q158725", "ratio": 0.97, "flag": "REVIEW:taganyika,tanganyika"}
+{"query": "Wei Hai Wei", "label": "Weihaiwei", "qid": "Q15939896", "ratio": 0.9, "flag": "REVIEW:hai,wei,weihaiwei"}
+{"query": "Roberts' Heights", "label": "Thaba Tshwane (Roberts Heights)", "qid": "Q7708831", "ratio": 0, "flag": "exact"}
+{"query": "Brit. Solomon Is.", "label": "British Solomon Islands", "qid": "Q13410267", "ratio": 0.93, "flag": "REVIEW:brit"}
+{"query": "Sabara-gamuwa", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.96, "flag": "REVIEW:gamuwa,sabara,sabaragamuwa"}
+{"query": "Brit. North Borneo", "label": "British North Borneo", "qid": "Q1147441", "ratio": 0.94, "flag": "REVIEW:brit"}
+{"query": "Gilbert and Ellice Is. colony", "label": "Gilbert and Ellice Islands", "qid": "Q1050859", "ratio": 0.96, "flag": "REVIEW:coly"}
+{"query": "Falkland Is.", "label": "Falkland Islands", "qid": "Q9648", "ratio": 0, "flag": "exact"}
+{"query": "Rivère du Rampart", "label": "Rivière du Rempart District", "qid": "Q1053565", "ratio": 0.91, "flag": "REVIEW:rampart,rempart,rivere,riviere"}
+{"query": "Dickoya", "label": "Dikoya", "qid": "Q5276565", "ratio": 0.92, "flag": "REVIEW:dickoya,dikoya"}
+{"query": "Nkandhla", "label": "Nkandla", "qid": "Q498225", "ratio": 0.93, "flag": "REVIEW:nkandhla,nkandla"}
+{"query": "B. O. Africa", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0.9, "flag": "OK"}
+{"query": "Sclángor Federated Malay States", "label": "Selangor", "qid": "Q189710", "ratio": 0.97, "flag": "REVIEW:sclangor,selangor"}
+{"query": "S.W. African protectorate", "label": "South West Africa", "qid": "Q953068", "ratio": 0.98, "flag": "REVIEW:africa,african"}
+{"query": "Ratnapura Kach.", "label": "Ratnapura", "qid": "Q508753", "ratio": 0, "flag": "exact"}
+{"query": "S. W. Africa protectorate", "label": "South West Africa", "qid": "Q953068", "ratio": 0, "flag": "exact"}
+{"query": "Barbadose", "label": "Barbados Colony", "qid": "Q63973349", "ratio": 0.94, "flag": "REVIEW:barbados,barbadose"}
+{"query": "Halifax N. S.", "label": "Halifax", "qid": "Q2141", "ratio": 0, "flag": "exact"}
+{"query": "Murraysburgh", "label": "Murraysburg", "qid": "Q2365106", "ratio": 0.96, "flag": "REVIEW:murraysburg,murraysburgh"}
+{"query": "Gilbert and Ellice Is. Colony", "label": "Gilbert and Ellice Islands", "qid": "Q1050859", "ratio": 0.96, "flag": "REVIEW:coly"}
+{"query": "British zone Togoland", "label": "British Togoland", "qid": "Q797527", "ratio": 0.93, "flag": "OK"}
+{"query": "O. Calabar", "label": "Calabar", "qid": "Q844091", "ratio": 0.9, "flag": "OK"}
+{"query": "Nuwara-kalawiya", "label": "North Central Province", "qid": "Q1057124", "ratio": 0.97, "flag": "REVIEW:kalawiya,nuwara,nuwarakalawiya"}
+{"query": "Virgin Isds.", "label": "British Virgin Islands", "qid": "Q25305", "ratio": 0.96, "flag": "REVIEW:isds,islds"}
+{"query": "S. Grenadines", "label": "Grenadines", "qid": "Q503482", "ratio": 0.91, "flag": "OK"}
+{"query": "Cariboo", "label": "Cariboo", "qid": "Q2938768", "ratio": 0, "flag": "exact"}
+{"query": "Nuwara Eliva", "label": "Nuwara Eliya", "qid": "Q1340579", "ratio": 0.92, "flag": "REVIEW:eliva,eliya"}
+{"query": "St. Kitts–Nevis", "label": "Saint Christopher-Nevis-Anguilla", "qid": "Q1637975", "ratio": 0.96, "flag": "REVIEW:kitts,kittsnevis,nevis"}
+{"query": "J'Bahru", "label": "Johor Bahru", "qid": "Q231318", "ratio": 0, "flag": "exact"}
+{"query": "Somali-land protectorate", "label": "British Somaliland", "qid": "Q662653", "ratio": 0.98, "flag": "REVIEW:land,somali,somaliland"}
+{"query": "N.Sembilan", "label": "Negeri Sembilan", "qid": "Q213893", "ratio": 0, "flag": "exact"}
+{"query": "Berbice River", "label": "Berbice River", "qid": "Q2896921", "ratio": 0, "flag": "exact"}
+{"query": "Batticaloa kach", "label": "Batticaloa", "qid": "Q810963", "ratio": 0, "flag": "exact"}
+{"query": "Kano prov. Nigeria", "label": "Northern Nigeria Protectorate", "qid": "Q585408", "ratio": 0.9, "flag": "REVIEW:kano"}
+{"query": "P. of Spain", "label": "Port of Spain", "qid": "Q39178", "ratio": 0.95, "flag": "OK"}
+{"query": "Ashantees", "label": "Ashanti Region", "qid": "Q398417", "ratio": 0.94, "flag": "REVIEW:ashantee,ashantees"}
+{"query": "Mazaruni river", "label": "Mazaruni River", "qid": "Q1487312", "ratio": 0, "flag": "exact"}
+{"query": "Gr. Britain", "label": "Great Britain", "qid": "Q23666", "ratio": 0.9, "flag": "OK"}
+{"query": "Trans. Jordan", "label": "Emirate of Transjordan", "qid": "Q1121819", "ratio": 0, "flag": "exact"}
+{"query": "Bagdad Iraq", "label": "Baghdad", "qid": "Q1530", "ratio": 0.96, "flag": "REVIEW:bagdad,baghdad"}
+{"query": "Galle kach", "label": "Galle", "qid": "Q319366", "ratio": 0, "flag": "exact"}
+{"query": "Sekondi/Takoradi", "label": "Sekondi-Takoradi", "qid": "Q243293", "ratio": 0, "flag": "exact"}
+{"query": "Jo. Bahru", "label": "Johor Bahru", "qid": "Q231318", "ratio": 0.93, "flag": "OK"}
+{"query": "Lincolns Inn", "label": "Lincoln's Inn", "qid": "Q69482", "ratio": 0.96, "flag": "REVIEW:lincoln,lincolns"}
+{"query": "Bahamas Is.", "label": "The Bahamas", "qid": "Q778", "ratio": 0.95, "flag": "REVIEW:bahama,bahamas"}
+{"query": "Liberian", "label": "Liberia", "qid": "Q1014", "ratio": 0.93, "flag": "REVIEW:liberia,liberian"}
+{"query": "Middlesborough", "label": "Middlesbrough", "qid": "Q171866", "ratio": 0.96, "flag": "REVIEW:middlesborough,middlesbrough"}
+{"query": "Craddock", "label": "Cradock", "qid": "Q1138465", "ratio": 0.93, "flag": "REVIEW:craddock,cradock"}
+{"query": "St. Christophers", "label": "Saint Kitts", "qid": "Q204989", "ratio": 0.97, "flag": "REVIEW:christopher,christophers"}
+{"query": "Laurenço Marques", "label": "Maputo (Lourenço Marques)", "qid": "Q3889", "ratio": 0.94, "flag": "REVIEW:laurenco,lourenco"}
+{"query": "Reitz.", "label": "Reitz", "qid": "Q2208947", "ratio": 0, "flag": "exact"}
+{"query": "Natal Prov. divn.", "label": "Natal Province", "qid": "Q917867", "ratio": 0, "flag": "exact"}
+{"query": "Jedda", "label": "Jeddah", "qid": "Q374365", "ratio": 0.91, "flag": "REVIEW:jedda,jeddah"}
+{"query": "B. Som.", "label": "British Somaliland", "qid": "Q662653", "ratio": 0.91, "flag": "OK"}
+{"query": "Johore Bharn", "label": "Johor Bahru", "qid": "Q231318", "ratio": 0.92, "flag": "REVIEW:bharn,bharu"}
+{"query": "Straits Settlments", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.97, "flag": "REVIEW:settlements,settlments"}
+{"query": "S. Africa (Transvaal prov. divn.)", "label": "Transvaal Province", "qid": "Q190959", "ratio": 0.92, "flag": "REVIEW:provl"}
+{"query": "E. Leicester", "label": "Leicester", "qid": "Q83065", "ratio": 0.9, "flag": "OK"}
+{"query": "Tamale", "label": "Tamale", "qid": "Q217040", "ratio": 0, "flag": "exact"}
+{"query": "Sengamat", "label": "Segamat", "qid": "Q12683412", "ratio": 0.93, "flag": "REVIEW:segamat,sengamat"}
+{"query": "East. Aden protectorate", "label": "Aden Protectorate (Eastern subdivision; no separate QID)", "qid": "Q1865132", "ratio": 0.93, "flag": "OK"}
+{"query": "Ipoh.", "label": "Ipoh", "qid": "Q271619", "ratio": 0, "flag": "exact"}
+{"query": "P. Louis", "label": "Port Louis", "qid": "Q3929", "ratio": 0.93, "flag": "OK"}
+{"query": "Central Province Ceylon", "label": "Central Province", "qid": "Q190716", "ratio": 0, "flag": "exact"}
+{"query": "New territories", "label": "New Territories", "qid": "Q596660", "ratio": 0, "flag": "exact"}
+{"query": "Nuwara Liya", "label": "Nuwara Eliya", "qid": "Q1340579", "ratio": 0.96, "flag": "REVIEW:eliya,liya"}
+{"query": "Oil Rivers protectorate (now So. Nigeria)", "label": "Niger Coast Protectorate", "qid": "Q2566427", "ratio": 0.99, "flag": "OK"}
+{"query": "S. Manchester", "label": "Manchester", "qid": "Q18125", "ratio": 0.91, "flag": "OK"}
+{"query": "Prov. of New Brunswick Canada", "label": "New Brunswick", "qid": "Q1965", "ratio": 0.93, "flag": "OK"}
+{"query": "South-West Africa", "label": "South-West Africa", "qid": "Q953068", "ratio": 0, "flag": "exact"}
+{"query": "Singapore pris. Straits Settlements", "label": "Singapore", "qid": "Q334", "ratio": 0.92, "flag": "REVIEW:pris"}
+{"query": "Paphos Cyprus", "label": "Paphos", "qid": "Q180918", "ratio": 0.96, "flag": "REVIEW:papho,paphos"}
+{"query": "Kurunegale", "label": "Kurunegala", "qid": "Q776887", "ratio": 0.9, "flag": "REVIEW:kurunegala,kurunegale"}
+{"query": "Herefordshire", "label": "Hertfordshire", "qid": "Q3410", "ratio": 0.92, "flag": "REVIEW:herefordshire,hertfordshire"}
+{"query": "Prov. of Manitoba Canada", "label": "Manitoba", "qid": "Q1948", "ratio": 0.92, "flag": "OK"}
+{"query": "Oil Rivers (now Niger Coast) Protectorate and adjoining native territories", "label": "Niger Coast Protectorate", "qid": "Q2566427", "ratio": 0.97, "flag": "REVIEW:now"}
+{"query": "Niger Coast Protectorate and adjoining native territories", "label": "Niger Coast Protectorate", "qid": "Q2566427", "ratio": 0.91, "flag": "REVIEW:oil,rivers"}
+{"query": "Salt Cay Turn and Caicos Is.", "label": "Salt Cay", "qid": "Q426843", "ratio": 0.95, "flag": "REVIEW:turks,turn"}
+{"query": "St. John's Newf'dld.", "label": "St. John's", "qid": "Q2082", "ratio": 0.94, "flag": "REVIEW:dld,newf,newfndld"}
+{"query": "E. Nyasaland", "label": "Nyasaland", "qid": "Q1649306", "ratio": 0.9, "flag": "OK"}
+{"query": "N. Bech. protectorate", "label": "Bechuanaland Protectorate", "qid": "Q747314", "ratio": 0.94, "flag": "OK"}
+{"query": "Westbury", "label": "Westbury", "qid": "Q385934", "ratio": 0, "flag": "exact"}
+{"query": "British Central African protectorate", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0.99, "flag": "REVIEW:africa,african"}
+{"query": "Haputale", "label": "Haputale", "qid": "Q3533257", "ratio": 0, "flag": "exact"}
+{"query": "Sabaragamawa", "label": "Sabaragamuwa Province", "qid": "Q853272", "ratio": 0.92, "flag": "REVIEW:sabaragamawa,sabaragamuwa"}
+{"query": "western province Ceylon", "label": "Western Province", "qid": "Q856686", "ratio": 0, "flag": "exact"}
+{"query": "Bentota", "label": "Bentota", "qid": "Q4890663", "ratio": 0, "flag": "exact"}
+{"query": "Trinomalee", "label": "Trincomalee", "qid": "Q323873", "ratio": 0.95, "flag": "REVIEW:trincomalee,trinomalee"}
+{"query": "S. Settlemts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.95, "flag": "REVIEW:settlemts,settlmts"}
+{"query": "N B.", "label": "New Brunswick (Province)", "qid": "Q1965", "ratio": 0, "flag": "exact"}
+{"query": "Bandon", "label": "Brandon", "qid": "Q61432", "ratio": 0.92, "flag": "REVIEW:bandon,brandon"}
+{"query": "North-Central Prov.", "label": "North Central Province", "qid": "Q1057124", "ratio": 0.9, "flag": "OK"}
+{"query": "North-Western Prov.", "label": "North-Western Territory", "qid": "Q1998931", "ratio": 0.9, "flag": "OK"}
+{"query": "Benin river", "label": "Benin River", "qid": "Q19543934", "ratio": 0, "flag": "exact"}
+{"query": "N.S W.", "label": "New South Wales (Original)", "qid": "Q18348382", "ratio": 0, "flag": "exact"}
+{"query": "Klang Selangor Federated Malay States", "label": "Selangor", "qid": "Q189710", "ratio": 0.91, "flag": "REVIEW:klang"}
+{"query": "ADELAIDE (AUSTRALIA)", "label": "Adelaide", "qid": "Q5112", "ratio": 0.95, "flag": "OK"}
+{"query": "Laurencio Marques", "label": "Maputo (Lourenço Marques)", "qid": "Q3889", "ratio": 0.91, "flag": "REVIEW:laurencio,lourenco"}
+{"query": "Khartum", "label": "Khartoum", "qid": "Q1963", "ratio": 0.93, "flag": "REVIEW:khartoum,khartum"}
+{"query": "Plaines Wilhelms District", "label": "Plaines Wilhems District", "qid": "Q1053595", "ratio": 0.98, "flag": "REVIEW:wilhelms,wilhems"}
+{"query": "Georgetown Demerary", "label": "Georgetown", "qid": "Q10717", "ratio": 0.95, "flag": "REVIEW:demerara,demerary"}
+{"query": "Plaines Wilhelma", "label": "Plaines Wilhems District", "qid": "Q1053595", "ratio": 0.94, "flag": "REVIEW:wilhelma,wilhelms"}
+{"query": "Taungs Brit. Bechuanaland", "label": "Taung", "qid": "Q2096879", "ratio": 0.96, "flag": "REVIEW:brit"}
+{"query": "Perim", "label": "Perim", "qid": "Q1160017", "ratio": 0, "flag": "exact"}
+{"query": "Caribboo", "label": "Cariboo", "qid": "Q2938768", "ratio": 0.93, "flag": "REVIEW:caribboo,cariboo"}
+{"query": "St. John's New Brunswick", "label": "Saint John", "qid": "Q203403", "ratio": 0.95, "flag": "OK"}
+{"query": "Cape Good Hope", "label": "Cape Colony", "qid": "Q370736", "ratio": 0.9, "flag": "OK"}
+{"query": "N.P Nig.", "label": "Northern Nigeria Protectorate", "qid": "Q585408", "ratio": 0, "flag": "exact"}
+{"query": "Khyber Pass", "label": "Khyber Pass", "qid": "Q191333", "ratio": 0, "flag": "exact"}
+{"query": "G. and E. I.C.", "label": "Gilbert and Ellice Islands", "qid": "Q1050859", "ratio": 0, "flag": "exact"}
+{"query": "Fed. N. Rhod. and Nyasa.", "label": "Federation of Rhodesia and Nyasaland", "qid": "Q654342", "ratio": 0.93, "flag": "OK"}
+{"query": "K. Trengganu", "label": "Terengganu", "qid": "Q189701", "ratio": 0.9, "flag": "OK"}
+{"query": "E. & Cent. Africa", "label": "British Central Africa Protectorate", "qid": "Q2642989", "ratio": 0.92, "flag": "OK"}
+{"query": "Larut and Metang", "label": "Larut, Matang and Selama", "qid": "Q2694747", "ratio": 0.94, "flag": "REVIEW:matang,metang"}
+{"query": "Lake Kyoga", "label": "Lake Kyoga", "qid": "Q124978", "ratio": 0, "flag": "exact"}
+{"query": "royal Observatory Hong Kong", "label": "Hong Kong Observatory", "qid": "Q1537282", "ratio": 0, "flag": "exact"}
+{"query": "Free-town", "label": "Freetown", "qid": "Q3780", "ratio": 0.94, "flag": "REVIEW:free,freetown"}
+{"query": "Rhodesian", "label": "Southern Rhodesia", "qid": "Q750583", "ratio": 0.94, "flag": "REVIEW:rhodesia,rhodesian"}
+{"query": "Cadiz", "label": "Cádiz", "qid": "Q15682", "ratio": 0, "flag": "exact"}
+{"query": "Pt. Elizabeth", "label": "Gqeberha (Port Elizabeth)", "qid": "Q125434", "ratio": 0.92, "flag": "OK"}
+{"query": "Pemba.", "label": "Pemba Island", "qid": "Q208664", "ratio": 0, "flag": "exact"}
+{"query": "Bridgetown Barbadoes", "label": "Bridgetown", "qid": "Q36168", "ratio": 0.97, "flag": "REVIEW:barbadoes,barbados"}
+{"query": "Mesopot.", "label": "Mesopotamia", "qid": "Q11767", "ratio": 0.92, "flag": "REVIEW:mesopot,mespot"}
+{"query": "S.P. Nig.", "label": "Southern Nigeria Protectorate", "qid": "Q2062030", "ratio": 0, "flag": "exact"}
+{"query": "Raub.", "label": "Raub", "qid": "Q2352205", "ratio": 0, "flag": "exact"}
+{"query": "Taung", "label": "Taung", "qid": "Q2096879", "ratio": 0, "flag": "exact"}
+{"query": "V.D. Federated Malay States", "label": "Federated Malay States", "qid": "Q1400154", "ratio": 0.92, "flag": "OK"}
+{"query": "Cameron Highlds.", "label": "Cameron Highlands District", "qid": "Q1028741", "ratio": 0.94, "flag": "REVIEW:highlands,highlds"}
+{"query": "E. a protectorate", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0, "flag": "exact"}
+{"query": "Cape of Good e", "label": "Cape Colony", "qid": "Q370736", "ratio": 0.9, "flag": "REVIEW:hope"}
+{"query": "Tanganyika Terri-", "label": "Tanganyika Territory", "qid": "Q158725", "ratio": 0.97, "flag": "REVIEW:terr,terri"}
+{"query": "dson's Straits", "label": "Hudson Strait", "qid": "Q207702", "ratio": 0.93, "flag": "REVIEW:dson,hudson"}
+{"query": "Auradhapura", "label": "Anuradhapura", "qid": "Q5724", "ratio": 0.96, "flag": "REVIEW:anuradhapura,auradhapura"}
+{"query": "auradhapura", "label": "Anuradhapura", "qid": "Q5724", "ratio": 0.96, "flag": "REVIEW:anuradhapura,auradhapura"}
+{"query": "Commonwealth of Aus- lia", "label": "Commonwealth of Australia", "qid": "Q408", "ratio": 0.92, "flag": "REVIEW:aus,australia,lia"}
+{"query": "Hampshire", "label": "Hampshire", "qid": "Q23204", "ratio": 0, "flag": "exact"}
+{"query": "Batticoloá", "label": "Batticaloa", "qid": "Q810963", "ratio": 0.9, "flag": "REVIEW:batticaloa,batticoloa"}
+{"query": "Batticoloa", "label": "Batticaloa", "qid": "Q810963", "ratio": 0.9, "flag": "REVIEW:batticaloa,batticoloa"}
+{"query": "Perák Straits Settlements", "label": "Penang", "qid": "Q188096", "ratio": 0.9, "flag": "REVIEW:penang,perak"}
+{"query": "King's County", "label": "Kings County", "qid": "Q1670967", "ratio": 0.96, "flag": "REVIEW:king,kings"}
+{"query": "central province Ceylon", "label": "Central Province", "qid": "Q190716", "ratio": 0, "flag": "exact"}
+{"query": "Mulaitivu", "label": "Mullaitivu", "qid": "Q507144", "ratio": 0.95, "flag": "REVIEW:mulaitivu,mullaitivu"}
+{"query": "PERTH (WESTERN AUSTRALIA)", "label": "Perth", "qid": "Q3183", "ratio": 0, "flag": "exact"}
+{"query": "Moultan", "label": "Multan", "qid": "Q185453", "ratio": 0.92, "flag": "REVIEW:moultan,multan"}
+{"query": "N.W. P.", "label": "North-Western Provinces", "qid": "Q138521", "ratio": 0, "flag": "exact"}
+{"query": "South African", "label": "British South Africa Company Territory", "qid": "Q5155572", "ratio": 0.96, "flag": "REVIEW:africa,african"}
+{"query": "Crimean", "label": "Crimea", "qid": "Q7835", "ratio": 0.92, "flag": "REVIEW:crimea,crimean"}
+{"query": "N.W. Australia", "label": "Western Australia", "qid": "Q57676556", "ratio": 0.92, "flag": "OK"}
+{"query": "Eastern provinces", "label": "Eastern Province", "qid": "Q1046126", "ratio": 0.97, "flag": "REVIEW:provinces"}
+{"query": "Eastern province", "label": "Eastern Province", "qid": "Q1046126", "ratio": 0, "flag": "exact"}
+{"query": "Kurunégalle", "label": "Kurunegala", "qid": "Q776887", "ratio": 0.95, "flag": "REVIEW:kurnegalle,kurunegalle"}
+{"query": "Mauritious", "label": "Mauritius", "qid": "Q12053604", "ratio": 0.95, "flag": "REVIEW:mauritious,mauritius"}
+{"query": "Galagadara", "label": "Galagedara", "qid": "Q5517872", "ratio": 0.9, "flag": "REVIEW:galagadara,galagedara"}
+{"query": "Manar", "label": "Mannar", "qid": "Q1280127", "ratio": 0.91, "flag": "REVIEW:manar,mannar"}
+{"query": "colony of the Cape of Good Hope", "label": "Cape Colony", "qid": "Q370736", "ratio": 0.93, "flag": "OK"}
+{"query": "Batticalo", "label": "Batticaloa", "qid": "Q810963", "ratio": 0.95, "flag": "REVIEW:batticalo,batticaloa"}
+{"query": "port Elizabeth", "label": "Gqeberha (Port Elizabeth)", "qid": "Q125434", "ratio": 0, "flag": "exact"}
+{"query": "Du Toits Pan", "label": "Du Toit's Pan", "qid": "Q5310079", "ratio": 0.96, "flag": "REVIEW:toit,toits"}
+{"query": "G. & E.I.", "label": "Gilbert and Ellice Islands", "qid": "Q1050859", "ratio": 0.91, "flag": "OK"}
+{"query": "(E.A.)", "label": "East Africa Protectorate", "qid": "Q876185", "ratio": 0, "flag": "exact"}
+{"query": "APE TOWN", "label": "Cape Town", "qid": "Q5465", "ratio": 0.94, "flag": "REVIEW:ape"}
+{"query": "mania", "label": "Manila", "qid": "Q1461", "ratio": 0.91, "flag": "REVIEW:mania,manila"}
+{"query": "Spanish n.", "label": "Spanish Town", "qid": "Q846939", "ratio": 0.9, "flag": "REVIEW:twn"}
+{"query": "Mandeville District of Manchester", "label": "Mandeville", "qid": "Q1807660", "ratio": 0.97, "flag": "REVIEW:mandeville,maudeville"}
+{"query": "eward Islands", "label": "Federal Colony of the Leeward Islands", "qid": "Q1796551", "ratio": 0.93, "flag": "REVIEW:eward,leeward"}
+{"query": "Kurnegalla", "label": "Kurunegala", "qid": "Q776887", "ratio": 0.95, "flag": "REVIEW:kurnegalla,kurunegalla"}
+{"query": "Lau Prov.", "label": "Lau", "qid": "Q513104", "ratio": 0, "flag": "exact"}
+{"query": "Gilbert and Ellice Islds.", "label": "Gilbert and Ellice Islands", "qid": "Q1050859", "ratio": 0.96, "flag": "REVIEW:islands,islds"}
+{"query": "Ankole", "label": "Ankole", "qid": "Q538636", "ratio": 0, "flag": "exact"}
+{"query": "new territorials", "label": "New Territories", "qid": "Q596660", "ratio": 0.9, "flag": "REVIEW:territorials,territories"}
+{"query": "Br. Cam.", "label": "British Cameroons", "qid": "Q1028835", "ratio": 0.92, "flag": "REVIEW:cam,cams"}
+{"query": "N.W. Africa", "label": "South-West Africa", "qid": "Q953068", "ratio": 0.9, "flag": "OK"}
+{"query": "West African settlements", "label": "British West Africa", "qid": "Q918150", "ratio": 0.98, "flag": "REVIEW:africa,african"}
+{"query": "Sarawāk", "label": "Sarawak", "qid": "Q1658411", "ratio": 0, "flag": "exact"}
+{"query": "western province of Ceylon", "label": "Western Province", "qid": "Q856686", "ratio": 0.94, "flag": "OK"}
+{"query": "Mulletvoe", "label": "Mullaitivu", "qid": "Q507144", "ratio": 0.95, "flag": "REVIEW:mulletivoe,mulletvoe"}
+{"query": "Gampolla Ceylon", "label": "Gampola", "qid": "Q8264065", "ratio": 0.97, "flag": "REVIEW:gampola,gampolla"}
+{"query": "Balaclava", "label": "Balaclava", "qid": "Q4849747", "ratio": 0, "flag": "exact"}
+{"query": "Harispattoo", "label": "Harispattuwa Divisional Secretariat", "qid": "Q5657965", "ratio": 0.96, "flag": "REVIEW:harispattoo,harrispattoo"}
+{"query": "Sherbro Country", "label": "Sherbro Island", "qid": "Q2001267", "ratio": 0, "flag": "exact"}
+{"query": "Vancouver's island", "label": "Vancouver Island", "qid": "Q170479", "ratio": 0, "flag": "exact"}
+{"query": "Vancouver's Islands", "label": "Vancouver Island", "qid": "Q170479", "ratio": 0.97, "flag": "REVIEW:islands"}
+{"query": "southern provinces", "label": "Southern Province", "qid": "Q876308", "ratio": 0.97, "flag": "REVIEW:provinces"}
+{"query": "United States of the Ionian Islands", "label": "United States of the Ionian Islands", "qid": "Q1063498", "ratio": 0, "flag": "exact"}
+{"query": "Swelendam district", "label": "Swellendam", "qid": "Q1023257", "ratio": 0.97, "flag": "REVIEW:swelendam,swellendam"}
+{"query": "St. Vincent's", "label": "Saint Vincent", "qid": "Q379656", "ratio": 0.91, "flag": "OK"}
+{"query": "S. Stlhts.", "label": "Straits Settlements", "qid": "Q376178", "ratio": 0.93, "flag": "REVIEW:stlhts,stlts"}
+{"query": "Massauri British Guiana", "label": "Cuyuni-Mazaruni (Mazaruni district)", "qid": "Q1146777", "ratio": 0.94, "flag": "REVIEW:massaruni,massauri"}
+{"query": "Somali l protectorate", "label": "British Somaliland", "qid": "Q662653", "ratio": 0.91, "flag": "REVIEW:somali,somaliland"}
+{"query": "county of Russell in the prov. of Ontario", "label": "United Counties of Prescott and Russell", "qid": "Q1815593", "ratio": 0.9, "flag": "OK"}
+{"query": "Nawara Eliya", "label": "Nuwara Eliya", "qid": "Q1340579", "ratio": 0.92, "flag": "REVIEW:nawara,nuwara"}
+{"query": "on of S. Africa", "label": "British South Africa Company Territory", "qid": "Q5155572", "ratio": 0.9, "flag": "REVIEW:union"}
+{"query": "ngor Federated Malay States", "label": "Selangor", "qid": "Q189710", "ratio": 0.93, "flag": "REVIEW:ngor,selangor"}
+{"query": "Kitts-Nevis", "label": "Saint Kitts and Nevis", "qid": "Q763", "ratio": 0.92, "flag": "OK"}
+{"query": "Witwatererand", "label": "Witwatersrand", "qid": "Q587808", "ratio": 0.92, "flag": "REVIEW:witwatererand,witwatersrand"}
+{"query": "Kington", "label": "Kingston", "qid": "Q34692", "ratio": 0.93, "flag": "REVIEW:kingston,kington"}
+{"query": "ong Kong", "label": "British Hong Kong", "qid": "Q1054923", "ratio": 0.94, "flag": "REVIEW:hong,ong"}
+{"query": "S'ore", "label": "Singapore Crown Colony", "qid": "Q4373718", "ratio": 0.91, "flag": "REVIEW:ore,pore"}
+{"query": "Gold Coast t.", "label": "British Gold Coast", "qid": "Q503623", "ratio": 0.91, "flag": "OK"}
+{"query": "N.-W. Territories", "label": "Northwest Territories", "qid": "Q2007", "ratio": 0, "flag": "exact"}
+{"query": "Indian", "label": "Dominion of India", "qid": "Q1775277", "ratio": 0.91, "flag": "REVIEW:india,indian"}
+{"query": "Murraysburg division Cape Col.", "label": "Murraysburg", "qid": "Q2365106", "ratio": 0.92, "flag": "REVIEW:col,colonial"}
+{"query": "ion of S. Africa", "label": "British South Africa Company Territory", "qid": "Q5155572", "ratio": 0.94, "flag": "REVIEW:ion,union"}
+{"query": "Lon", "label": "London", "qid": "Q84", "ratio": 0, "flag": "exact"}
+{"query": "S. Africa Repub.", "label": "South African Republic", "qid": "Q550374", "ratio": 0.97, "flag": "REVIEW:africa,african"}
+{"query": "South-East Asia", "label": "Southeast Asia", "qid": "Q11708", "ratio": 0.97, "flag": "REVIEW:southeast"}
+{"query": "rance", "label": "France", "qid": "Q142", "ratio": 0.91, "flag": "REVIEW:france,rance"}
+{"query": "Anurad- pura kach.", "label": "Anuradhapura", "qid": "Q5724", "ratio": 0.91, "flag": "REVIEW:anurad,anuradhapura,pura"}
+{"query": "allipoli", "label": "Gallipoli", "qid": "Q192860", "ratio": 0.94, "flag": "REVIEW:allipoli,gallipoli"}
+{"query": "omaliland protectorate", "label": "British Somaliland", "qid": "Q662653", "ratio": 0.98, "flag": "REVIEW:omaliland,somaliland"}
+{"query": "Northern Provinces, Ceylon", "label": "Northern Province", "qid": "Q598745", "ratio": 0.98, "flag": "REVIEW:provinces"}
+{"query": "Eastern Provinces, Nigeria", "label": "Eastern Region", "qid": "Q3509795", "ratio": 0.98, "flag": "REVIEW:provinces"}
+{"query": "Western Provinces, Nigeria", "label": "Western Region", "qid": "Q3509075", "ratio": 0.98, "flag": "REVIEW:provinces"}
