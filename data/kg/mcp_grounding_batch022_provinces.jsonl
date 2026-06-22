@@ -1,0 +1,21 @@
+{"query":"Western Province, Ceylon","qid":"Q856686","label":"Western Province","country_qid":"Q854","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Central Province, Ceylon","qid":"Q190716","label":"Central Province","country_qid":"Q854","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Northern Region, Nigeria","qid":"Q3509092","label":"Northern Region","country_qid":"Q1033","instance_of":["former autonomous division"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Southern Provinces, Nigeria","qid":"Q2062030","label":"Southern Nigeria Protectorate","country_qid":"Q1033","instance_of":["protectorate"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Northern Province, Ceylon","qid":"Q598745","label":"Northern Province","country_qid":"Q854","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Northern Provinces, Nigeria","qid":"Q585408","label":"Northern Nigeria Protectorate","country_qid":"Q1033","instance_of":["protectorate"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Eastern Province, Ceylon","qid":"Q1046126","label":"Eastern Province","country_qid":"Q854","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Southern Province, Ceylon","qid":"Q876308","label":"Southern Province","country_qid":"Q854","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Eastern Region, Nigeria","qid":"Q3509795","label":"Eastern Region","country_qid":"Q1033","instance_of":["former region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Western Region, Nigeria","qid":"Q3509075","label":"Western Region","country_qid":"Q1033","instance_of":["former region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Central Province, Gold Coast","qid":"Q846323","label":"Central Region","country_qid":"Q117","instance_of":["administrative region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Eastern Province, Nigeria","qid":"Q3509795","label":"Eastern Region","country_qid":"Q1033","instance_of":["former region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Western Province, Gold Coast","qid":"Q870155","label":"Western Region","country_qid":"Q117","instance_of":["administrative region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Northern Province, Sierra Leone","qid":"Q912359","label":"Northern Province","country_qid":"Q1044","instance_of":["province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Central Province, Nigeria","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Central Province, Sierra Leone","qid":null,"label":null,"country_qid":null,"instance_of":[],"has_coords":false,"match_type":"ungrounded"}
+{"query":"Eastern Province, Gold Coast","qid":"Q405670","label":"Eastern Region","country_qid":"Q117","instance_of":["administrative region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Western Province, Nigeria","qid":"Q3509075","label":"Western Region","country_qid":"Q1033","instance_of":["former region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Eastern Province, Kenya","qid":"Q328493","label":"Eastern Province","country_qid":"Q114","instance_of":["former province"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Western Province, Uganda","qid":"Q2559188","label":"Western Region","country_qid":"Q1036","instance_of":["region"],"has_coords":true,"match_type":"mcp_unverified"}
+{"query":"Eastern Province, Uganda","qid":"Q2559220","label":"Eastern Region","country_qid":"Q1036","instance_of":["region"],"has_coords":true,"match_type":"mcp_unverified"}
