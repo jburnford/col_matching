@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 021 done — coverage 90% of 168,301 mentions** (see detail below).
+- Latest: **batch 023 done — coverage 90.1% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -559,6 +559,44 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Leone (never existed — SL had N/S/E/Western Area only). NOTE: colonial Nigeria/Gold Coast/Uganda
   "Provinces" grounded to their modern Region successors (slight period conflation, but the only WD
   node for the geographic area). Coverage after: **90.0% (151,431/168,301); count>=5 pending now 0.**
+- Batch 023 done: 47 grounded / 53 skipped; coverage now **90.1%** of 168,301 mentions
+  (count-4 tail, FILE-ORDER batch — max pending count is now 4; verified no buried high-count
+  cluster by dumping all 7,731 pending sorted by count). World cities/regions: Enugu Q465022,
+  East London Q209537 (E. London Cape of Good Hope), Kuching Q220445, Benin River Q19543934,
+  North-Western Provinces Q138521 (N.W. Provinces and Oudh — the British-India period entity),
+  Haputale Q3533257, Karamoja Q2614835 (Uganda sub-region), Lower Egypt Q463871, County Durham
+  Q23082, Hilir Perak Q2381489 (lower Perak), Mumbai Q1156 (Bombay India), British Columbia
+  Q1973 (OCR "British Colombia"), Stuttgart Q1022 (Stuttgartt), Swan River Colony Q1162123
+  (Swan River W. Australia — period entity), Christchurch Q79990, Canterbury Region Q657004,
+  London Ontario Q92561, Teluk Intan Q1317145 (Telok Anson), Berbice River Q2896921, Ilorin
+  Q587085, Douala Q132830 (Duala), Kwahu Q3330858 (Ghana town), Nibong Tebal Q848853 (Nebong
+  Tebal), Mullaitivu Q507144 (Mulletivoe), Savusavu Q619440 (Savu Savu), Ireland Q27 (Eire),
+  Dublin Q1761 (Dub.), Coast Province Kenya Q185371 (coast Kenya), Repton Q1018787 (Derbyshire
+  village), Montreal Q340 (district of Montreal → city), Demerara Q1185346 (historic region of
+  the Guianas — the clean Demerara node, distinct from Demerara River/Demerara-Mahaica).
+  Institutions-as-place: Sarawak State Museum Q3329752, Kew Observatory Q3348489, Stormsrivier
+  settlement Q7620269. Historical polity (one entity for the compound name): Federation of
+  Rhodesia and Nyasaland Q654342. Reused prior-batch QIDs (no re-search): British Central Africa
+  Protectorate Q2642989 (Br. Cent. Africa), Australia Q408 (C. of Australia), Johannesburg Q34647
+  (J'burg), Pietermaritzburg Q185591 (city division P.M. Burg), Gold Coast Colony Q503623 (G.C.
+  Colony), Harispattuwa Q5657965 (Harrispattoo), Nuwara Eliya Q1340579 (Nuwera Ellia x2), Entebbe
+  Q211970, New Brunswick Q1965, Bunyoro Q889897 (Unyoro), Singapore Q334 (S'pore divn.). ENDPOINT
+  DROPPED one call (N.W. Provinces) and returned empty on several descriptive queries (Telok Anson,
+  Berbice River, Savusavu, Repton, Near East, Demerara, Storms River) — all resolved on bare-name
+  retries. Skips (53): compounds (Singapore and Malacca, Kenya Uganda, S.S. and N. Borneo, Antigua
+  and the Leeward Islands, Bridgetown and district A, Durban Greytown Newcastle Ixopo and Umlazi,
+  re-united provinces, Australian colonies), institutions/boards/offices (agriculture prod. and
+  settlement board, colonial geol. surveys, Gozo courts, minister of finance, M. Health, legislative
+  co., chief and D. Hong Kong, Accra sisal plantn., Chilungula/Masasi constrn.), railways (Ceylon
+  rlwys., Nigeria rlwys.), military/events (53rd Sikhs F.F., Igbo Patrol, Pal. conferences),
+  initialisms (B. D. and M., D.C.S., D.O.S., B.H.T.F., t. E. Africa), directional/generic fragments
+  (St. John's E., E. Newfndld., E. Newfld., W. Demerara, West Prov., 1st district Saint Lucia,
+  Northern Frontier, city, island, East), region-groupings w/ no clean WD node (Kavirondo [Nyanza],
+  Batoka district [Zambia plateau], Angoniland [Ngoni, Nyasaland], Ishan [Esan division], Benin
+  Terr., Asaba Hint., Near East [only Middle East Q7204 surfaces — already grounded separately],
+  Congo [Free State vs river vs country ambiguity], Northern Territories (Neutral Zone) [specific
+  Anglo-German zone, no distinct node]), ambiguous bare name (Ravensthorpe [WA town vs England
+  village]), OCR fragments (in, ne, g., St. ay, Virgin April, Br. Caribbean pre-fed. estab.).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
