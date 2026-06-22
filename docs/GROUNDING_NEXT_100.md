@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 028 done — coverage 90.55% of 168,301 mentions** (see detail below).
+- Latest: **batch 029 done — coverage 90.62% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -788,6 +788,42 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   John's River [Ceylon, per b018], Chin. Singapore), no-clean-entity/OCR frags (Nowbutpore, Kaihihi
   Pas, Chircop, Yilgarn gold fields [goldfield, per East Coolgardie precedent], Marimba district,
   Ryton-on-Dunsmore [only war-memorial node surfaced]).
+- Batch 029 done: 38 grounded / 62 skipped; coverage now **90.62%** of 168,301 mentions
+  (count-3 tail; HIGH skip rate — this slice was institution/military/initialism-heavy. Verified no
+  buried high-count cluster — max pending count is 3). New grounds: Bulgaria→Kingdom of Bulgaria
+  Q147909 (period entity, per Greece/Romania precedent), mandated Territory of New Guinea→Q1443945
+  (1920 Australian mandate), Mosul prov.→Mosul Vilayet Q1969497, Sulaimani→Sulaymaniyah Q191204,
+  Willowvale Q3644236 (E. Cape), Gilbert Is.→Gilbert Islands Q271876 (distinct from Gilbert+Ellice
+  colony Q1050859), Pitcairn Is.→Q35672, Dominion observatory Ottawa→Dominion Observatory Q266818
+  (institution-as-place, per observatory precedent), Warringah Q377295 (NSW former LGA), Wolmaransstad
+  Q3642582, Gunnedah Q1554825 (NSW), Kluang Q1200738 (Johor), Besut Q1884571 (Terengganu), Gibr.→
+  Gibraltar Q1410, Barking Q377720 (London), Sorrell→Sorell Q2118504 (Tas), Manchuria Q81126
+  (region), Hanbow→Hankou Q1208250 (Wuhan), Reitz Q2208947 (Free State), Concordia Q3642542
+  (Namaqualand). Reused QIDs (no re-search): N. Rhodesia (Fort Jameson)→Northern Rhodesia Q953903,
+  N.W.F.P.→Q4412467, Rhod. and Nyasa ×2→Federation of Rhodesia and Nyasaland Q654342, Kota Tinggi
+  Q935184, B. Malaya→British Malaya Q871091, Swellendam Q1023257, J'lem district→Jerusalem Q1218,
+  Chungking→Chongqing Q11725, Kingwilliamstown→Qonce Q1016100, Birm.→Birmingham Q2256, G. & E. Is.→
+  Gilbert and Ellice Islands Q1050859, B.C.A./Brit. Cent. Africa/Cent. Africa protectorate ×3→
+  British Central Africa Protectorate Q2642989, Fogo Q5464123, city of Halifax→Q2141, Cape Tn.→Cape
+  Town Q5465. ENDPOINT FLAKY (Warringah/Kigezi/Kluang/Besut/Concordia first-pass empty, resolved on
+  retries). Search-resistant (skipped, real but vector search wouldn't surface clean node): Robertson
+  district (3 attempts — only church/suburb/lake nodes return), Kigezi (Uganda sub-region — only
+  wildlife-reserve/school surface), Emtonjaneni (Zululand magistracy), Beautiful Plains (Manitoba RM
+  — only school-division/electoral surface). Skips (62, this tail is dense with them): institutions/
+  research-stns/observatory-adjacent (inst. for medical research, E.A. agric. res. inst. Amani,
+  Forest Products Inst., F.M.S. museums, Raffles Instn., Rothamsted exper. stn., Cameroons plantations,
+  H.M. dockyard Simon's Town, Fort instns. Saint Vincent, Crown Mines, Ken. prisons), military
+  (Durban Light Infy., Forth and Clyde Defences, Br. Guiana Militia Band, Arab Legion, Royal Navy,
+  Donegal Artillery, W.O. and Eastern Cmd., Hants and Isle of Wight Arty., B.M.A. (B. Borneo)),
+  railways (Nigerian Ry., K.U.R.), offices/govt (minister of health, Nigerian secrtn., Br. mission in
+  Czechoslovakia), initialisms (W.A.I.T.R., D.O. and C.O., E.A.P. & S.C., Ghan.), compounds (N. and S.
+  China, India and in Burma, Dominica and St. L., Aden and protectorate of S. Arabia, Lagos and S.
+  Cams., United Kingdom Normandy Holland and Germany, Kedah/Perlis, Macuata and Bua, S.W. Africa and
+  France, E. Africa and overseas, Manitoba and N.W.T., Br. Caribbean), directional/generic province
+  frags (N. Provs. Ashanti, Victoria W., N. Palestine, Northern Transvaal, North Perak, N. Nyasa,
+  Cross Riv. division, S. Prov. Western Australia, various areas, district "F", Corentyne judicial
+  district, U. of S.A. [Union vs University ambiguous], Nigerian [adjective], Prov. Alcock [per b028]),
+  ambiguous bare names (Mowbray, Granada [Spain vs Grenada WI], Delarey).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
