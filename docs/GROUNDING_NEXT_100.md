@@ -80,7 +80,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 018 done — coverage 89% of 168,301 mentions** (see detail below).
+- Latest: **batch 019 done — coverage 89% of 168,301 mentions** (see detail below).
 - Batch 001 done: 94 grounded / 6 skipped; coverage **80%** of 168,301 mentions.
 - Batch 002 (Penang/Saint Vincent/Malaya … set) recovered from a stale `/tmp/results.jsonl`
   and saved to disk (was already in the cache, provenance file was missing).
@@ -434,6 +434,43 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   [Cape division], St. Peter, St. Ann [parishes], Hay, West Indian, Niger Prov., Pondos [ethnonym]),
   district letters (District "C" Barbados), no-entity (St. John's River Ceylon), OCR fragments
   (st., W. Pacific ew Hebrides).
+- Batch 019 done: 64 grounded / 36 skipped; coverage holds at **89%** of 168,301 mentions
+  (count-4 tail). World cities/counties: Albania Q222, Norfolk Q23109, Kent Q23298, Hereford
+  Q204720, Sevenoaks Q939838 (Kent), Hull→Kingston upon Hull Q128147, Falmouth Q478029 (Cornwall,
+  Old-World default over Jamaica/Antigua), Chicago Q1297, Honolulu Q18094, Beijing Q956 (Peking),
+  Jeddah Q374365, Darfur Q46733 (region), Gedaref→Al Qadarif Q311199, Port Sudan Q208718, Jijiga
+  Q755763 (Jigjiga), Moudros Q1014244 (Mudros, Lemnos). Canada: Alberta Q1951 (Alta.), Edmonton
+  Q2096, Fogo Q5464123 + Harbour Grace Q3127313 (Newfoundland). SA/Rhodesia towns: Bulawayo
+  Q193250, Laingsburg Q927822, Kranskop Q1021915 (Krantzkop), Heidelberg Gauteng Q1594009
+  (Heidelberg Transvaal — disambiguates the earlier bare-"Heidelberg" skip), Durban Q5468,
+  Pinetown Q985839, Gaborone Q3919 (Gaberones). Malaya/Borneo/Fiji: Keningau Q1299852 (Keningan,
+  Sabah), Limbang Q2181642 (Sarawak), Kota Tinggi Q935184 (K. Tinggi), Penang Q188096 (Penang
+  division → state), Rewa Province Q1365257 (Fiji), Viti Levu Q208198 (reuse). Ceylon: Vavuniya
+  Q1191330, Nuwara Eliya Q1340579 (kach., reuse), Northern Province Q598745 (N. Prov.),
+  Nuwerakalawiya→North Central Province Q1057124. Caribbean: Dominica Q784, Sandy Point Town
+  Q1972542 (St. Kitts), Barbados Q244 (reuse), Limassol Q185632 (reuse). Regions grounded
+  (consistent w/ continents/Caribbean precedent): Middle East Q7204 (search only surfaced it via
+  "Middle East Asia"→empty; bare "Middle East" returned it), Melanesia Q37394, Central Queensland
+  Q5061728, Taranaki Region Q140207, Nandi County Q1964569 (Kenya), Ikot Ekpene Q680926 (Nigeria
+  LGA). Historical polities (mostly reused): Niger Coast Protectorate Q2566427, Southern Nigeria
+  Protectorate Q2062030 (South. Nigeria + S. Nigeria protectorate), British Bechuanaland Q4530733
+  (B. Bechuanaland), N.W. Frontier Province Q4412467, German East Africa Q153963 (Ger. E. Africa),
+  British Somaliland Q662653 (Som. protectorate), South West Africa Q953068 (S.W. Africa prot.),
+  Quthing Q1003318, Eswatini Q1050 (Swaziland admnstrn.), British Central Africa Protectorate
+  Q2642989 (Brit. Cent.), Sekondi-Takoradi Q243293 (Takoradi), Straits Settlements Q376178
+  (S. Settmts.), British Malaya Q871091 (Br. Malaya), Northern Rhodesia Q953903 (N.Rhod.).
+  ENDPOINT WAS VERY FLAKY this run — Beijing/Limbang/Jeddah/Bulawayo/Laingsburg/Kent/Penang/
+  Darfur/Heidelberg/Chicago/Durban/Hull/Falmouth/Jijiga all needed plain-query retries (many
+  returned "No matching items" on the descriptive first query). Skips: compounds (Praslin and
+  La Digue, France Belgium and Italy, India and Aden, Cork and Plymouth, S. Settlimts. and F.M.S.,
+  Malay States and Brunei, S'pore and Penang, fedl. government Rhod. and Nyasa.), forestry
+  conservancies (Eastern/Midland/Western Conservancy, Transkeian — per batch 018 precedent),
+  military/institutions (New Scotland Yard, Br. Guiana militia, government of Malta, W.A.I.F.O.R.,
+  Yallahs Valley land authy., army, public accts., Brandport refugee camp), initialisms (B.S.A.,
+  B.N.G. [British New Guinea — no clean colony entity surfaced], E. A. Y., Ind.), directional/
+  generic fragments (N. Selangor, South protectorate, No. 3 mining district, N. district New
+  Territories, Western Canada, S. African, W. African, Upper Rejang), ambiguous bare names
+  (Queen's Town, Queen's Co., Bethesda, Macedonia, Matabele [ethnonym]).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
