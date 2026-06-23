@@ -114,7 +114,7 @@ the search line has no description.
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 036 (count-prioritized, 300-entry) done — coverage 91.43% of 168,301 mentions**.
+- Latest: **batch 037 (count-prioritized, 300-entry) done — coverage 91.53% of 168,301 mentions**.
 - **SCOPE DECISION 2026-06-22 (Jim approved "reuse pass + prioritized batches"):** After 30
   file-order batches, per-batch ROI collapsed (famous places like Baghdad/New Delhi still appearing
   only because file-order interleaves them with singletons). Analysis: 6,930 pending = 8,724 mentions
@@ -1088,6 +1088,33 @@ the search line has no description.
   SKIPS: Hamilton Tasmania (bare too ambiguous), Brass (Nigeria town never surfaced), Yale district BC,
   Flat Island Mauritius, Georgetown St Vincent-style. Endpoint flaky as ever (bare-name retries resolve
   most). QID VERIFIER re-run (1,474 QIDs): all ~46 new picks OK; flagged set IDENTICAL (10 pre-existing).
+- Batch 037 done (count-prioritized, **300-entry triple batch**): 88 grounded / 212 skipped;
+  coverage now **91.53%**. **Skip rate 71% — the count-2 head is nearly exhausted and what remains is
+  noise-heavy** (this slice was dense with initialisms [E.A.*, B.M.A.*, S.S./F.M.S.], military,
+  research-institutes/exhibitions/asylums, compounds, OCR fragments [ia, ica, anyika Territory, S. its,
+  Kuala ur]). ~36 zero-MCP reuses + ~52 new MCP picks. New grounds: world cities (Athlone Q369911,
+  Galway Q129610, Salford Q47952, Dudley Q213832, Leven Q672948, Bari Q3519, Piraeus Q58976, Odesa
+  Q1874, Marseille prior, Moscow prior, Ramallah Q158119, Beirut prior, Shanghai Q8686, Hanoi prior,
+  Bahrain Q398, Manaus Q40236), counties (Middlesex prior, Huntingdonshire prior, Nottinghamshire
+  prior, Fifeshire→Fife Q67479974 reuse), Canada (Amherst NS Q470594, Port de Grave Q7231063, Bonne
+  Bay Q112039393), Australia (Darwin Q11568, Mackay Q704371, Hawthorn Q5685475, Greenough Q1544757),
+  SA towns (Okahandja Q597491, Vredefort Q1689721, Bothaville Q2795307, Zastron Q148289, Brakpan prior,
+  Bethal prior, Montagu Q1800611, Lichtenburg Q2671213, Rondebosch prior), Africa (Blantyre Q188693,
+  Kasama District Q600893, Francistown Q165422, Rabai Q7278489, Machakos Q693093, Bauchi Q811144, Ogoja
+  prior, Onitsha prior, Sapele prior, Bwamba County Q49298052, Teso Q7705542, Ukambani/Nyanza prior,
+  Yorubaland Q3752938), India/Asia (Roorkee Q1020718, Dehradun Q199528, Berar Province Q2983297,
+  Bombay Presidency Q891827, Bahrain Q398, Iran Q794, Changi Q1812824, Pontian District Q2452012),
+  islands/regions (Fiji Q712, Channel Islands Q42314, Grand Cayman Q737765, Hatton Q390564, Cat Island
+  prior, Harbour Island prior, Katanga Q217242, Mara Region prior). **Period/colonial picks**: French
+  Indochina Q185682 (Indo-China), Spanish Guinea Q1232509, Berar Province Q2983297, Rupert's Land prior.
+  Reuse highlights: Great Britain Q23666 (G.Britain/Gr.Br.), BCAP Q2642989 (3 spellings: Br.C./B.Cen./
+  B.Central Africa protectorate), N.Nigeria/Niger-Coast/Pahang/Transvaal Province/British Malaya.
+  FALSE-reuse avoided: "Dominica West Indies" normalizes to British West Indies (used Dominica Q784);
+  bare "Central"/"Central Division"/"Nile Prov."/"west coast of Africa" too ambiguous → skipped.
+  Search-resistant skips: Newcastle NB, Mikolongwe, York (Sierra Leone), Tasso Is, Prai/Perai, Pallai,
+  Kita, Grey Town, Hamilton Tasmania. QID VERIFIER re-run (1,518 QIDs): all new picks OK; flagged set
+  IDENTICAL (10 pre-existing). **STATE: count-2 head ~exhausted; remaining count-2 ≈196 (then it's all
+  count-1 singletons — expect very high skip rate, ROI collapse; ~93% target is close).**
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
