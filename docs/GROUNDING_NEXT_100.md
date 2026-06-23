@@ -114,7 +114,7 @@ the search line has no description.
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 034 (count-prioritized, 300-entry) done — coverage 91.12% of 168,301 mentions**.
+- Latest: **batch 035 (count-prioritized, 300-entry) done — coverage 91.30% of 168,301 mentions**.
 - **SCOPE DECISION 2026-06-22 (Jim approved "reuse pass + prioritized batches"):** After 30
   file-order batches, per-batch ROI collapsed (famous places like Baghdad/New Delhi still appearing
   only because file-order interleaves them with singletons). Analysis: 6,930 pending = 8,724 mentions
@@ -1026,6 +1026,41 @@ the search line has no description.
   bare (Lambton, Picton, Ivanhoe, Caroni, Queen's co., Ciskei [bantustan, wrong-era]). QID VERIFIER
   RUN after batch (1,369 QIDs, all 70+ new picks OK; the 10 flags are all pre-existing — Egypt manifest,
   Inns of Court, Naparima/N.Cameroons/NFD stubs).
+- Batch 035 done (count-prioritized, **300-entry triple batch**): 145 grounded / 155 skipped;
+  coverage now **91.30%** (count-2 tail — all pending now count<=2). **~77 of the 145 were zero-MCP
+  reuses** (this deep into the tail, reuse share keeps climbing — qualifier/OCR variants of grounded
+  QIDs: Maritzburg→Pietermaritzburg, Grahams-town→Makhanda, Komgha→Komga, Tembuland→Thembuland,
+  T'dad and Tob.→Trinidad and Tobago Q754, Argentine Republic→Argentina, Island of Réunion, many
+  "<town> Cape Colony/division" forms, S.Sttmts/Str.Settler/Strait Settlements→Straits Settlements,
+  Kong Kong→Hong Kong, S.Lumpur→Kuala Lumpur). New MCP grounds: UK towns/counties (Poole Q203349,
+  Deal Q1011096, Cardigan Q779813, Fareham Q1017943, Rotherham Q217039, Greenock Q217831, Holloway
+  Q124308, Marylebone-style; Middlesex Q19186 + Lancashire Q23077 ceremonial, Fife Q67479974 historic
+  [Scotland], Tower of London Q62378), Canada (Atlin Q2623078, Barrie Q34183, Simcoe County Q1437636,
+  Orillia-style, Prince County PEI Q2110336, Mackenzie River Q3411), Australia/NZ (New Norfolk
+  Q1982848, Ringarooma Q7334832, Springsure Q986664, Ravenswood Qld Q4392566, Kaiapoi Q1013339), SA
+  towns (Jansenville Q827295, Middledrift Q6841777, Zeerust Q184412, Tsomo Q7849847, Tsolo Q7849843,
+  Roodepoort Q2166182, Umzimkulu Q917011, Mafeteng Q1013379, Robben-style), Malaya/Borneo (Sungai
+  Ujong Q4857417, Jelebu District Q933043, Klang Q856003, Perak state Q188953), Africa (Tete city
+  Q388242, Aba Q202162, Tarkwa Q995439 [Tacquah], Koinadugu Q1778860, Port Loko Q1635196, Tooro
+  Kingdom Q889912 [Toro]), India/Pakistan (Darjeeling Q169997, Dum Dum Q649955, Garden Reach
+  Q11923781, Nawalapitiya Q3536138, Landi Kotal Q1803018 [Lundi Kotal], Rawalpindi-style), Caribbean/
+  Atlantic (Trelawny Parish Q1123340, Harbour Island Q2357510, Stann Creek District Q502652, Saint
+  Mary Cayon Parish Q1538034 [Cayon], Paxos Q719518, Kythira Q207239 [Cerigo], Terceira Q215074),
+  Europe/world (Tunis Q3572, Belgrade Q3711, Kiel Q1707, Switzerland Q39, Safi Q183405, Qrendi Q282203
+  [Crendi], Guadalcanal Q192767). **Historical/period & region picks**: Ruanda-Urundi Q590743,
+  Central India Agency Q1053874, Tirhut division Q2307495 [Tirhoot], Champaran District Q5069934
+  [Chumparun, British-India period node], Khuzestan Q241119 [Arabistan], West Falkland Q733338.
+  FALSE-reuse traps avoided this batch (norm() near-misses): "Georgetown Saint Vincent" is NOT Guyana
+  Georgetown (skipped, search-resistant); "Victoria county"/"Victoria Cape Colony"/"county Victoria
+  Trinidad" all normalize onto a cached `Q56850459 Victoria (Colony)` — looks like the Australian
+  colony, almost certainly a pre-existing mis-ground; did NOT propagate (skipped — FLAG candidate);
+  "St. Andrews" bare and "N.C./north-central prov." and "western prov." all too ambiguous (skipped per
+  precedent). Endpoint VERY flaky throughout (descriptive queries empty first pass; bare-name retries
+  resolve almost all). Search-resistant skips: New Hanover Natal, Ceres (Western Cape), Selama (Perak),
+  Ramsey (IoM), Mallagam, Herbert (Cape), Georgetown St Vincent. 155 skips = usual dense tail (compounds,
+  initialisms, military, asylums/prisons/exhibitions/museums, letter/directional districts, conservancies).
+  QID VERIFIER re-run (1,428 QIDs): all ~75 new picks OK; flagged set IDENTICAL to batch 034 (10
+  pre-existing — Egypt manifest, Inns of Court, Naparima/N.Cameroons/NFD stubs, Malacca/Belize/Royal Niger).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
