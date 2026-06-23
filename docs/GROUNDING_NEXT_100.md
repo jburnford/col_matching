@@ -90,7 +90,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 032 (count-prioritized) done — coverage 90.93% of 168,301 mentions**.
+- Latest: **batch 033 (count-prioritized) done — coverage 90.98% of 168,301 mentions**.
 - **SCOPE DECISION 2026-06-22 (Jim approved "reuse pass + prioritized batches"):** After 30
   file-order batches, per-batch ROI collapsed (famous places like Baghdad/New Delhi still appearing
   only because file-order interleaves them with singletons). Analysis: 6,930 pending = 8,724 mentions
@@ -930,6 +930,42 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   divisions (St. Ann's division Montreal City, Curragh district, Jerusalem-Jaffa district, Santa
   Cruz district of St. Elizabeth), ambiguous bare (St Mary, R. Guiana, Turkish Arabia,
   Russo-Afghan boundary), OCR frags (Seibu, Lavana, Saioniya, Ekel).
+- Batch 033 done (count-prioritized): 42 grounded / 58 skipped; coverage now **90.98%**
+  (count-2 head). New grounds: Eastbourne Q208262 (Old-World), Fortune Bay Q2879449 (Newfoundland),
+  Lindley Q3642967 (Free State), Kitchener Q200166 (Ontario — both bare + "Berlin (Kitchener)"),
+  Finland Q33, Nasinu Q26715 (Fiji), Port Dickson Q653801 (P. Dickson), Nadarivatu District
+  Q61713485 (Fiji), Parit Buntar Q1973063 (P. Buntar), Mongu Q644799 (Barotse, Zambia), Chipata
+  Q856151 (Fort Jameson — the town, distinct from b029 grounding "N. Rhodesia (Fort Jameson)" to
+  Northern Rhodesia), Banffshire Q806432 (historic county, Scotland-historic precedent), Reddersburg
+  Q2514168 (O.R.C.), Komga Q3644419 (Komgha), Dimbula Q5277189 (Ceylon village), Roebourne Q941071
+  (Pilbara WA), Road Town Q179431 (BVI capital), Nicaragua Q811, Tanga Q152902 (Tanzania), Dikoya
+  Q5276565 (Ceylon), Estcourt Q985827 (Natal, divn.→town), Gizo Q1236908 (Solomon Is. capital),
+  Malayan Union Q976099 (Mal. Union, 1946-48 polity), Rouen Q30974 (Rouen area), Ambepussa Q4064029
+  (Ambepusse, Ceylon). Reused QIDs (no re-search): Kew Gardens Q188617 (Royal Botanic Gardens Kew),
+  South Caicos Q1814473 (Cockburn Harbour Turks Island), Gilbert and Ellice Islands Q1050859,
+  Gilbert Islands Q271876 (Gilbert group — distinct from G&E colony), Straits Settlements Q376178
+  (Str. Settlts. + S. Sttlns.), Niger Coast Protectorate Q2566427 (H.B.M.'s ...), Kurunegala Q776887
+  (Kurunegalle), Haldummulla Q5641318 (Haldumulla), Mahlabatini Q6395826 (division), Northern Nigeria
+  Protectorate Q585408 (N. Provinces Nigeria), Zaria Q147975 (prov.), Mulanje Q1865092 (Mlanje +
+  Mlanji district), Downing Street Q192687 (Downing st.), Berbice Q675322 (county of Burbice).
+  ENDPOINT VERY FLAKY (almost every descriptive query empty first pass; all resolved on bare-name
+  retries). Ambiguous-bare SKIPS (multiple strong candidates, no corpus qualifier): Akim (only
+  Akyem ethnonym Q418389 surfaces — per Matabele/Pondos precedent), Bangor (Wales Q234178 vs N.
+  Ireland Q806551), Yarmouth (Great Yarmouth vs IoW vs Nova Scotia), Corangamite (shire/federal-
+  electorate/parish/lake — colonial county didn't surface), St. Andrew Trinidad, S. Arabia (Aden
+  vs Saudi). Skips (58, dense): compounds (S. and N. Rhod., Nigeria and Cameroons, Dominica and St.
+  Kitts, Gros Islet and Anse La Range, Ceylon...Java Sumatra and India, London and New York,
+  Bechuanaland...Swaziland, Gopang and Kampar, Bahamas and Br. Hond., N. and S. Rhodesia, Cape Colony
+  and Basutoland, Avisawalla and Pasyala, S.L. and Gam., G.C. and Lagos, Malta and Rome, Man. and
+  N.W.T., France and Mesopotamia, Br. N. Borneo and Labuan, Egypt and Suez defences, Fiji and W.
+  Pacific services, Perth to Adelaide route, Gascoyne and Lyons, Br. Somaliland-Ethiopia), institutions
+  (Impl./Tech. Inst., Admiralty Somerset house, Melbourne Intl Exhibition, Aden tech. inst., New
+  Providence asylum, concentration camp Wynburg, Br. residency New Hebrides), military (Salonika Front,
+  Johannesburg mtd. rifles, Egypt/Suez defences), directional/generic/letter (York West, So. district
+  Bechuanaland, Eastern Transvaal, North district, Eastern prov., home counties district, district D.
+  St. Kitts/Barbados, county of St. George, U. Kelantan [no entity, per b007], P. P. Vryheid [unclear
+  prefix], O. C.), ambiguous parishes (St. George's, St. Patrick, St. James' Barbados), OCR/obscure
+  (Malya Sukumaland, Millwood Knysna, Klipdam, Lytton, Estcourt aside).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
