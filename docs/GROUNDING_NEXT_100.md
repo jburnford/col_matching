@@ -88,6 +88,30 @@ git add -f data/kg/places_grounding.jsonl data/kg/mcp_grounding_batchNNN.jsonl
 git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambig)"
 ```
 
+## QID verification (run periodically, e.g. every ~5 batches)
+`verify_place_qids.py` validates EVERY distinct QID in `places_grounding.jsonl` against live
+Wikidata via batched SPARQL (read-only lookup of known QIDs — NOT REST disambiguation, so it's
+allowed). It fetches instance-of (P31) + country + coords and classifies each QID:
+- **OK** — has a P31 that is a subclass* of a geographic root (settlement/admin-entity/region/
+  country/feature). **OK_COORDS** — no P31 but carries coordinates (under-typed real point).
+- **NONPLACE** — resolves with a P31 but NONE geographic (event/ethnic-group/company/history-topic
+  → likely wrong entity). Coords do NOT rescue these (events carry coords too).
+- **STUB** — no P31, no coords (statement-less item / redirect / deleted → unverifiable).
+```
+python3 verify_place_qids.py            # -> report + flagged + summary
+```
+Outputs `qid_verification_report.jsonl` (all), `qid_verification_flagged.jsonl` (non-OK), and
+keep a hand-written `qid_verification_adjudication.jsonl` (verdict per flag) + append fixes to
+`qid_verification_corrections.jsonl`. **First full run (2026-06-23, 1,312 QIDs): 1,300 OK / 1
+OK_COORDS / 10 flagged.** Fixed 2 real errors (Matang Q61082734 ethnic-group→ungrounded; Sonthal
+Q132450366 stub→Santhal Pargana division Q7420152). Remaining flags adjudicated KEEP except
+**Egypt Q2474428** ('Egyptian history under the British', a manifest QID) → FLAG_FOR_JIM. NOTE: a
+few non-place QIDs (Egypt, Belize-settlement, Royal Niger Co) come from the **vetted manifest**, not
+MCP — the verifier checks manifest groundings too; don't unilaterally rewrite manifest QIDs.
+Lesson baked in: bare-name MCP picks with a thin/blank search line can land on stubs/wrong-type
+items — verification catches them after the fact; for new picks prefer a get_statements check when
+the search line has no description.
+
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
 - Latest: **batch 033 (count-prioritized) done — coverage 90.98% of 168,301 mentions**.
