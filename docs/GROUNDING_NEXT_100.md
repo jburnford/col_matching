@@ -114,7 +114,7 @@ the search line has no description.
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 033 (count-prioritized) done — coverage 90.98% of 168,301 mentions**.
+- Latest: **batch 034 (count-prioritized, 300-entry) done — coverage 91.12% of 168,301 mentions**.
 - **SCOPE DECISION 2026-06-22 (Jim approved "reuse pass + prioritized batches"):** After 30
   file-order batches, per-batch ROI collapsed (famous places like Baghdad/New Delhi still appearing
   only because file-order interleaves them with singletons). Analysis: 6,930 pending = 8,724 mentions
@@ -990,6 +990,42 @@ the search line has no description.
   St. Kitts/Barbados, county of St. George, U. Kelantan [no entity, per b007], P. P. Vryheid [unclear
   prefix], O. C.), ambiguous parishes (St. George's, St. Patrick, St. James' Barbados), OCR/obscure
   (Malya Sukumaland, Millwood Knysna, Klipdam, Lytton, Estcourt aside).
+- Batch 034 done (count-prioritized, **300-entry triple batch** = the user's "next 300" request):
+  123 grounded / 177 skipped; coverage now **91.12%** (count-2 head; all entries count 2 — the
+  count>=3 head is now exhausted). ~50 of the 123 were zero-MCP reuses of already-grounded QIDs
+  (kach./district/province/country-qualifier variants + OCR variants: N.Eliya/N'Eliya kach.→Nuwara
+  Eliya, Domincia→Dominica, S'pre/B.S.Sttlmts→Singapore/Straits Settlements, Inauda→Inanda,
+  Dindinga→Manjung, Malaya Negapatam→Nagapattinam, prov.Well.→Seberang Perai, etc.). New MCP grounds
+  span world cities (Warsaw Q270, Lahore Q11739, Rawalpindi Q93230, Bordeaux Q1479, Brazzaville Q3844,
+  Giza Q81788, Gaza City Q47492, Carlisle Q192896, Lincoln Q180057, Rugby Q623765, Toronto Q172),
+  SA/Natal towns (Dordrecht E.Cape Q652552, Koffiefontein Q2460230, Thaba'Nchu Q1256430, Barkly East
+  Q808291, Peddie Q3642191 [Fort Peddie], Ubombo Q7876579, uMlalazi LM Q311805 [Umlalazi district]),
+  Malaya/Borneo (Alor Gajah Q4734629, Pekan Q3235637, Raub Q2352205, Kapit Q2219731, Kuantan Q817578,
+  Kuala Kangsar Q1790832 [K.Kangear], Tanjong Pagar Q868368, Jerejak Q13639254, Kennedy Town Q3497036),
+  Africa (Iringa District Q1888339, Moyamba District Q597538, Lüderitz Q159325 [Luderitzbucht], Ebute
+  Metta Q5332126, Ilesa Q763595, Bende Q49101286, Harar Q190184, Magadi Q7193354, Mzimba District
+  Q1045435 [Mombera], Acholiland Q1779859, Kweneng District Q57599, MacCarthy Island Q224775), Fiji
+  (Namosi Q1365295, Nggela Islands Q513066), Canada (Orillia Q2373358, Carbonear Q2937956, Lunenburg
+  NS Q105441), Caribbean/Guyana (New Amsterdam Q923811, Cayo District Q508773 [Cayo+El Cayo], Crooked
+  Island Q1140993, New Providence Q858513, Curepipe Q1002525, Robben Island Q192493). **Historical-
+  entity-rule picks** (period node over modern): Tigray Province Q1974228 (not modern region), Phuket
+  former Siam circle Q108180040, Dutch East Indies Q188161 (Netherlands Indies + N.E.I. — NOT the
+  memorized Q188712), Surinam Dutch colony Q7646305 (Dutch Guiana), German South-West Africa colony
+  Q153665 (G.S.W.Africa), Upper Egypt region Q203751 (corrects memorized Q1810094 — ALWAYS search,
+  don't trust memory), Borno State Q130626 (Bornu, province→state successor), Pomeroon-Supenaam Q680382
+  (Pomeroon district, district→region). Geo features: North Sea Q1693. Endpoint VERY flaky again
+  (almost every descriptive query empty first pass; all resolved on bare-name retries). Search-resistant
+  SKIPS (real but no clean node surfaced): St. George's Bermuda (3 misses — Grenada's Q41547 is a
+  FALSE reuse, different place), Sussex New Brunswick (3 misses), Springlands Guyana (only NZ/Aus
+  surface), Gcalekaland (only insects+ruler, per Damaraland precedent). 177 skips are the usual dense
+  tail: compounds (Selangor and Penang, India and Ceylon, Mannar and Mullaitivu…), initialisms
+  (N.W., S.A., N.F.D., G.W.Rly., P.M.G., L.S.T.M…), military (Royal Engineers, K.S.L.I., Egyptian
+  army…), institutions/exhibitions (Australian Museum, Sydney/Melbourne/Calcutta Exhibition, Malta
+  public library…), forestry conservancies (Midland/Eastern Conservancy Cape Colony, per precedent),
+  letter/directional districts (district "D" Dominica, Larut Perak North, Umgeni division…), ambiguous
+  bare (Lambton, Picton, Ivanhoe, Caroni, Queen's co., Ciskei [bantustan, wrong-era]). QID VERIFIER
+  RUN after batch (1,369 QIDs, all 70+ new picks OK; the 10 flags are all pre-existing — Egypt manifest,
+  Inns of Court, Naparima/N.Cameroons/NFD stubs).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
