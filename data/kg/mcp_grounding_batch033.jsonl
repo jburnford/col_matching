@@ -35,7 +35,7 @@
 {"query": "Br. residency New Hebrides", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
 {"query": "Perth to Adelaide along the S. Coast", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
 {"query": "Gascoyne and Lyons district in N.W. Australia", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
-{"query": "Nadarivatu", "qid": "Q61713485", "label": "Nadarivatu District", "country_qid": null, "instance_of": ["district"], "has_coords": true, "match_type": "mcp_unverified"}
+{"query": "Nadarivatu", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
 {"query": "Gizo Br. Solomon Is.", "qid": "Q1236908", "label": "Gizo", "country_qid": null, "instance_of": ["city"], "has_coords": true, "match_type": "mcp_unverified"}
 {"query": "Nasinu Fiji", "qid": "Q26715", "label": "Nasinu", "country_qid": null, "instance_of": ["town"], "has_coords": true, "match_type": "mcp_unverified"}
 {"query": "St. Andrew Trinidad", "qid": null, "label": null, "country_qid": null, "instance_of": [], "has_coords": false, "match_type": "ungrounded"}
