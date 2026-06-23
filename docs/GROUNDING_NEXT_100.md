@@ -114,7 +114,7 @@ the search line has no description.
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 037 (count-prioritized, 300-entry) done — coverage 91.53% of 168,301 mentions**.
+- Latest: **batch 038 (final count-2 sweep) done — coverage 91.63%; COUNT-2 FULLY EXHAUSTED, all 5,068 remaining pending are count-1 singletons**.
 - **SCOPE DECISION 2026-06-22 (Jim approved "reuse pass + prioritized batches"):** After 30
   file-order batches, per-batch ROI collapsed (famous places like Baghdad/New Delhi still appearing
   only because file-order interleaves them with singletons). Analysis: 6,930 pending = 8,724 mentions
@@ -1115,6 +1115,28 @@ the search line has no description.
   Kita, Grey Town, Hamilton Tasmania. QID VERIFIER re-run (1,518 QIDs): all new picks OK; flagged set
   IDENTICAL (10 pre-existing). **STATE: count-2 head ~exhausted; remaining count-2 ≈196 (then it's all
   count-1 singletons — expect very high skip rate, ROI collapse; ~93% target is close).**
+- Batch 038 done (**final count-2 sweep — fed the remaining 196 count-2 entries alphabetically, not
+  the top-300**): 79 grounded / 117 skipped; coverage now **91.63%**. **This empties the count-2 head
+  entirely — all 5,068 remaining pending are now count-1 singletons.** ~50 zero-MCP reuses + ~29 new
+  MCP. New grounds: UK towns/counties (Ashford Q725261, Barrow-in-Furness Q671892, Clerkenwell Q124129,
+  Lichfield Q207371, Scarborough Q743521, Dudley prior, Salford prior, Mile End Q124004, Douglas IoM
+  Q18569, Derry Q163584 [Londonderry], Leven prior; Ayrshire Q793283, Shropshire Q23103 [Salop],
+  Wiltshire Q23183 [Wilts], West Riding of Yorkshire Q1934075), Canada (Alberni Q116042913, Brantford
+  Q34180, Lytton Q2957125), SA towns (Ladismith Q1800028, Lichtenburg prior), India/Pakistan (Dera
+  Ismail Khan Q1249888, Jamtara Q2594860, Roorkee prior, Sikkim Q1505, Berar prior, Malabar Coast
+  Q473181), Africa (Lokoja Q994085, Maseru District Q844921), islands/regions (Diego Garcia Q184851,
+  Tortola Q827604, Malay Peninsula Q18758, Bering Sea Q44725, North German Confederation Q150981,
+  Arakan Q40632742 [Arracan]). Big reuse batch (this is the lever now): Cape Colony/Cape Province
+  variants, Tanganyika Q158725 (×3 OCR frags: Uganyika/aganyika/nyika Territory), Galle/Puttalam/
+  Kurunegala/Harispattuwa/Nuwara-Eliya kachcheri spellings, BWI/Leeward/St Kitts, Northern Territory
+  (×2), Witwatersrand [Rand], Royal Arsenal [Woolwich], Sekondi [Secondee], Eastern Rumelia,
+  Yingkou [Newchwang], Adelaide, Bahamas. **STATE: count-2 = 100% done across batches 031-038.
+  Remaining = 5,068 count-1 singletons ONLY.** Per the 2026-06-22 scope decision the recommended stop
+  point is near (91.63% vs ~93% target / ~94% ceiling): singletons are dominated by OCR fragments,
+  compounds, initialisms, military/institutions — expect 70-85% skip and steep ROI collapse if pushed
+  further. Best remaining lever = zero-FP reuse-variant pass over singletons (no MCP cost); net-new
+  MCP search per singleton is low-value. QID VERIFIER re-run (1,544 QIDs): all new picks OK; flagged
+  set IDENTICAL (10 pre-existing).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
