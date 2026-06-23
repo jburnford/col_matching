@@ -114,7 +114,7 @@ the search line has no description.
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 035 (count-prioritized, 300-entry) done — coverage 91.30% of 168,301 mentions**.
+- Latest: **batch 036 (count-prioritized, 300-entry) done — coverage 91.43% of 168,301 mentions**.
 - **SCOPE DECISION 2026-06-22 (Jim approved "reuse pass + prioritized batches"):** After 30
   file-order batches, per-batch ROI collapsed (famous places like Baghdad/New Delhi still appearing
   only because file-order interleaves them with singletons). Analysis: 6,930 pending = 8,724 mentions
@@ -1061,6 +1061,33 @@ the search line has no description.
   initialisms, military, asylums/prisons/exhibitions/museums, letter/directional districts, conservancies).
   QID VERIFIER re-run (1,428 QIDs): all ~75 new picks OK; flagged set IDENTICAL to batch 034 (10
   pre-existing — Egypt manifest, Inns of Court, Naparima/N.Cameroons/NFD stubs, Malacca/Belize/Royal Niger).
+- Batch 036 done (count-prioritized, **300-entry triple batch**): 110 grounded / 190 skipped;
+  coverage now **91.43%** (count-2 tail). ~55 zero-MCP reuses + ~55 new MCP picks. Reuse share dipped
+  this slice (more genuinely-new singletons), skip rate up to 63% (tail getting noisier — more
+  compounds/military/institutions/letter-districts). New MCP grounds: UK/Channel-Is (Guernsey Q25230,
+  Poole-style Deal Q1011096 prior, Southwell Q1433341, Rotherham prior, Huntingdonshire Q67266168
+  historic + Nottinghamshire Q23092 ceremonial), Europe/world (Valletta Q23800, Marseille Q23482,
+  Danube Q1653, Moscow Q649, Belgrade prior, Kiel prior, Colombia Q739, Yemen Q805, Hungary Q28,
+  Hanoi Q1858, Miami Q8652, Fez Q80985, Safi prior, Yevpatoria Q33345 [Eupatoria], Beirut Q3820,
+  Bitlis city Q83531, Kifri Q2626532, As-Salt Q867586 [Es-Salt/Es Salt]), Canada (Rupert's Land
+  Q738395 [Hudson's Bay Territory], Fraser Valley Q3554074, Saint John-style, Prince County prior),
+  Australia (Katanning Q984146, New Norfolk prior, Ringarooma prior, Springsure prior), SA towns
+  (Vryburg Q1027291, Jacobsdal Q2607381, Mount Ayliff Q3642301, Brakpan Q897489, Bethal Q747174,
+  Edenburg Q3642342, Rondebosch Q3073398), Malaya (Klang prior, Jelebu prior, Perak state prior),
+  Africa (Mombasa Q225641, Eldoret Q322149, Zungeru Q8075286, Ogoja Q3509254, Onitsha Q852238, Sapele
+  Q3495356, Apam Q617438 [Appam], Mara Region Q458406, Kahama Q6346798, Chinde Q2261361, Piggs Peak
+  Q1950487, Murang'a Q974323 [Fort Hall], Buganda Q473748, Ukambani Q13125092 [Ukamba Prov], Nyanza
+  Province Q38589, Mahébourg Q1291379, Tarkwa prior), India/Pakistan (Bannu Q806916, Kohat Q1195983,
+  North Waziristan Q1915545, Darjeeling prior, Tirhut/Champaran prior), Pacific/Caribbean (Shortland
+  Islands Q1200493, Cat Island Q1050154, Wakenaam Q7961123 [Rio Essequibo], Guadalcanal prior),
+  features (Manchester Ship Canal Q935570). Reuse highlights: Cape Province Q849164 (Prov. of Cape of
+  Good Hope ×2 + "Cape Prov. division"), Southern Rhodesia Colony Q750583 [So. Rhodesia, was in cache],
+  Northern Rhodesia Q953903 [North Rhodesia], Rupert's Land for Hudson's Bay Territory, OFS Province
+  Q1971200, Onderstepoort Q7092170, Msinga LM Q278422. **Historical/period picks**: Rupert's Land
+  Q738395, Bitlis (used city Q83531 not the vilayet/district — consular post = city). Search-resistant
+  SKIPS: Hamilton Tasmania (bare too ambiguous), Brass (Nigeria town never surfaced), Yale district BC,
+  Flat Island Mauritius, Georgetown St Vincent-style. Endpoint flaky as ever (bare-name retries resolve
+  most). QID VERIFIER re-run (1,474 QIDs): all ~46 new picks OK; flagged set IDENTICAL (10 pre-existing).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
