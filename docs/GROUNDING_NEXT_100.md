@@ -90,7 +90,7 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
 
 ## State (update after each run)
 - Branch: `kg-place-canonicalization` (not pushed).
-- Latest: **batch 031 (count-prioritized) done — coverage 90.88% of 168,301 mentions**.
+- Latest: **batch 032 (count-prioritized) done — coverage 90.93% of 168,301 mentions**.
 - **SCOPE DECISION 2026-06-22 (Jim approved "reuse pass + prioritized batches"):** After 30
   file-order batches, per-batch ROI collapsed (famous places like Baghdad/New Delhi still appearing
   only because file-order interleaves them with singletons). Analysis: 6,930 pending = 8,724 mentions
@@ -892,6 +892,44 @@ git commit -m "Ground town-tail places batch NNN via Wikidata MCP (place-disambi
   Portsmouth Q72259, German E. Africa Q153963, Selangor Q189710, Tokio->Tokyo Q1490. Skips (56):
   institutions/military/railways, compounds, directional frags, OCR (Pantura, Bassema, Kologha),
   search-resistant (Hanover Square, Stockenstrom, Ndwandwe). Bucks. deferred (didn't verify QID).
+- Batch 032 done (count-prioritized): 42 grounded / 58 skipped; coverage now **90.93%**
+  (count-2 head). Real towns/regions cluster here. New grounds: Peterborough Q172438 (Old-World
+  default over Ontario), Poplar Q123360 (Tower Hamlets London), Saltcoats Q1018756 (N. Ayrshire,
+  Old-World default over Saskatchewan), Colesberg Q2232441 (Colesburg, N. Cape), Napier Q203380
+  (borough of Napier, NZ), Bhutan Q917 (Bhootan), Maputo Bay Q1134899 (Delagoa Bay), Belgaum
+  Q270176, Bajaur District Q804133 (colonial agency=modern district), Wakkerstroom Q1565776,
+  Berry Islands Q827173 (Bahamas), Galilee Q83241 (region), Upper Canada Q795427 (period colony,
+  distinct from Canada West=Province of Canada), Buxton Q971223 (Derbyshire, Old-World default),
+  Mysore Q10086 (city, not kingdom Q1165631), Euphrates Q34589 (river), Mussoorie Q668395,
+  Quebec City Q2145 (Queb. City), Kingdom of Nejd and Hejaz Q1756546 (Hejaz and Nejd, period
+  polity), Kuala Lumpur Q1865 (K. Lumpor), Sepang Q20460195 (Malaysia town — needed lang=ms to
+  surface past Indonesian Sepangs), Riversdale Q2120963 (C.P. = W. Cape town). Reused QIDs (no
+  re-search): Kota Bharu Q651131 (Kota Baharu), Teluk Intan Q1317145 (Teluk Anson), Hobart Q40191
+  (Hobart Town), Ratnagiri district Q1771768 (Rutnagherry), Kurunegala Q776887 (Kurune gala),
+  Mafia Island Q713391, San Francisco Q62 (San Fr'isco), South West Africa Q953068 (S.W.A.
+  admstn.), Bloemfontein Q37701 (Bloem. O.R.C.), Western Region Uganda Q2559188 (Western Prov.
+  Uganda), Transvaal Province Q190959 (Africa (Transvaal Provl. division)), Tanganyika Territory
+  Q158725 (Tanganyika Terry.), Gampola Q8264065 (Gampolla), Northern Frontier District Kenya
+  Q55643233, Galle Q319366 (Kachcheri), NWFP Q4412467 (N.W. Frontier Prov.), Quebec Q176 (Prov.
+  of Queb. + Quebec Canada), Hopetown Q618063 (Hopetown Division Cape Colony), Sherbro Island
+  Q2001267 (Sherbro district). ENDPOINT VERY FLAKY (Peterborough/Poplar/Napier/Belgaum/Cathcart/
+  Buxton/Sepang/Mysore/Mussoorie/Kuala Lumpur/Riversdale/Adelaide-obs all empty on first
+  descriptive query, most resolved on bare-name retries; Sepang needed lang=ms). Search-resistant
+  skips (real but no clean node surfaced): Cathcart (SA Eastern Cape town never surfaced — only
+  Glasgow/Victoria/NSW Cathcarts), Regency of Tunis (only French-protectorate Q2017684 + disambig
+  page — no clean Ottoman-Beylik period node), Adelaide observatory + Adel. obser. + Royal Alfred
+  Observ. Mauritius (observatory nodes wouldn't surface), Theopolis (obscure E. Cape mission).
+  Skips (58, dense): initialisms (B.M.P., F.S., C.A.C., S.A.M.C., T.P.D., H. of C., N. Terr.),
+  compounds (F.S. and F.M.S., Hejaz reuse aside / S.S. and Hong-Kong, S. Sttlmts. and Malay
+  States, Singapore and Labuan, France Belgium and Palestine, Seistan and Kain), military
+  (Argyll and Bute/Sutherland Rifles, Egyptian Army, Gold Coast Volunteers, Cape M.R., Glam.
+  Artil. Militia, 5th Roy. Dub. Fus., Trinidad Light Horse, Overseas Forces of Canada), institutions
+  (Dom. fuel board, Imp./Ottawa Confce., New Providence asylum, inland rev., U.F.O. government),
+  forestry conservancy (Eastern Conservancy), directional/generic frags (W. Afr., N.W. Can.,
+  West. Prov., N. Divn., Coast Negri Sembilan, S. Eastern division Papua, East Scotland),
+  divisions (St. Ann's division Montreal City, Curragh district, Jerusalem-Jaffa district, Santa
+  Cruz district of St. Elizabeth), ambiguous bare (St Mary, R. Guiana, Turkish Arabia,
+  Russo-Afghan boundary), OCR frags (Seibu, Lavana, Saioniya, Ekel).
 - NOTE: `kg_ground_mcp.py record` appends to `/tmp/results.jsonl`; before recording,
   confirm `wc -l` matches the batch size — a stale file from a prior session will
   double it. Record only the new tail (`tail -n +<N+1>`).
