@@ -1,0 +1,3 @@
+{"place": "Matang, Perak", "old_qid": "Q61082734", "new_qid": null, "reason": "verifier NONPLACE: Q61082734 is an ethnic group; no clean Matang/Perak settlement node surfaced -> ungrounded", "date": "2026-06-23"}
+{"place": "Sonthal", "old_qid": "Q132450366", "new_qid": "Q7420152", "reason": "verifier STUB: Q132450366 statement-less; re-grounded to Santhal Pargana division Q7420152 (admin division of Jharkhand)", "date": "2026-06-23"}
+{"place": "Santhal Pergunnahs, India", "old_qid": "Q132450366", "new_qid": "Q7420152", "reason": "verifier STUB: Q132450366 statement-less; re-grounded to Santhal Pargana division Q7420152 (admin division of Jharkhand)", "date": "2026-06-23"}
