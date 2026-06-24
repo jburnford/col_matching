@@ -98,3 +98,6 @@ if __name__ == "__main__":
                  "org_id", "org_label", dept_aware=True)
     canonicalize("institutions.jsonl", "education_edges.jsonl",
                  "institution_id", "institution_label", dept_aware=False)
+    if (GD / "roles.jsonl").exists():
+        canonicalize("roles.jsonl", "role_edges.jsonl",
+                     "role_id", "role_label", dept_aware=False)
