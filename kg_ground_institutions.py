@@ -76,12 +76,31 @@ def cmd_internal_tail(a):
         n += 1
     write_cache(cache); print(f"minted {n} internal ids (count<={a.max_count}); cache now {len(cache)}")
 
+def cmd_ambiguous(a):
+    # Mark a bare, multi-referent surface (e.g. "St. John's College", "King's College")
+    # as ambiguous: NOT grounded and NOT internal-minted (which would false-merge distinct
+    # institutions into one node). Excluded from emit; queued for a future per-mention
+    # context-disambiguation pass that resolves each mention by its surrounding location cue.
+    cache = load_cache(); work = {w["institution"]: w for w in load_work()}
+    src = sys.stdin if a.names == "-" else open(a.names)
+    n = 0
+    for line in src:
+        name = line.strip()
+        if not name: continue
+        cache[name] = {"institution": name, "type": work.get(name, {}).get("type", "other"),
+                       "id": None, "label": name, "instance_of": [],
+                       "country_qid": None, "source": "ambiguous",
+                       "match_type": "ambiguous_multi_referent"}
+        n += 1
+    write_cache(cache); print(f"marked {n} ambiguous; cache now {len(cache)}")
+
 def cmd_emit(a):
     cache = load_cache(); work = {w["institution"]: w for w in load_work()}
     out = Path("data/kg/graph_stage3")
-    # institution nodes
+    # institution nodes (skip ambiguous surfaces — they are not real single nodes)
     with (out / "institutions.jsonl").open("w") as fh:
         for inst, r in sorted(cache.items()):
+            if r.get("source") == "ambiguous": continue
             fh.write(json.dumps({**r, "n_people": work.get(inst, {}).get("count", 0)},
                                 ensure_ascii=False) + "\n")
     # education edges: person -> institution (one per (person,institution) mention)
@@ -89,7 +108,7 @@ def cmd_emit(a):
     with (out / "education_edges.jsonl").open("w") as fh:
         for inst, w in work.items():
             r = cache.get(inst)
-            if not r: continue
+            if not r or r.get("source") == "ambiguous": continue
             for pid in w["person_ids"]:
                 fh.write(json.dumps({"person_id": pid, "institution": inst, "institution_id": r["id"],
                                      "institution_label": r["label"], "type": r["type"]},
@@ -103,9 +122,14 @@ def cmd_stats(a):
     cov = sum(w["count"] for w in work if w["institution"] in cache)
     wd = sum(1 for r in cache.values() if str(r["id"]).startswith("Q"))
     intn = sum(1 for r in cache.values() if str(r["id"]).startswith("colkg:"))
+    amb = sum(1 for r in cache.values() if r.get("source") == "ambiguous")
+    amb_m = sum(w["count"] for w in work
+                if cache.get(w["institution"], {}).get("source") == "ambiguous")
+    grounded_m = cov - amb_m
     print(f"institutions: {len(work):,} distinct | cached {len(cache):,} "
-          f"(Wikidata {wd:,} / internal {intn:,})")
-    print(f"mention coverage: {cov:,}/{tot_m:,} ({100*cov/tot_m:.1f}%)")
+          f"(Wikidata {wd:,} / internal {intn:,} / ambiguous {amb:,})")
+    print(f"mention coverage (grounded+internal): {grounded_m:,}/{tot_m:,} "
+          f"({100*grounded_m/tot_m:.1f}%)  | ambiguous-flagged: {amb_m:,} mentions")
 
 ap = argparse.ArgumentParser()
 sub = ap.add_subparsers(dest="cmd", required=True)
@@ -113,6 +137,7 @@ p = sub.add_parser("pending"); p.add_argument("--n", type=int, default=20); p.ad
 p = sub.add_parser("record"); p.add_argument("rows"); p.set_defaults(f=cmd_record)
 p = sub.add_parser("internal"); p.add_argument("names"); p.set_defaults(f=cmd_internal)
 p = sub.add_parser("internal-tail"); p.add_argument("--max-count", type=int, default=1); p.set_defaults(f=cmd_internal_tail)
+p = sub.add_parser("ambiguous"); p.add_argument("names"); p.set_defaults(f=cmd_ambiguous)
 p = sub.add_parser("emit"); p.set_defaults(f=cmd_emit)
 p = sub.add_parser("stats"); p.set_defaults(f=cmd_stats)
 a = ap.parse_args(); a.f(a)
