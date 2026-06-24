@@ -1,0 +1,33 @@
+{
+  "persons": 30095,
+  "events": 189918,
+  "events_placed": 160307,
+  "events_grounded": 138766,
+  "events_resolved_via_map": 995,
+  "events_with_colony": 104663,
+  "events_org": 3489,
+  "honours": 16040,
+  "education": 20831,
+  "places_used": 3196,
+  "version": "v3",
+  "layers": {
+    "roles": {
+      "nodes": 32331,
+      "nodes_qid": 190,
+      "edges": 188826,
+      "edges_qid": 71314,
+      "edges_internal": 99686,
+      "edges_unlinked": 17826
+    },
+    "organisations": {
+      "nodes": 779,
+      "nodes_qid": 47,
+      "employment_edges": 4188
+    },
+    "education_institutions": {
+      "nodes": 3807,
+      "nodes_qid": 515,
+      "education_edges": 14505
+    }
+  }
+}
