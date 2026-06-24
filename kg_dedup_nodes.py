@@ -125,3 +125,6 @@ if __name__ == "__main__":
         # onto its QID node (cpm -> Q3195318).
         canonicalize("honour_nodes.jsonl", "honour_edges.jsonl",
                      "honour_id", "honour_label")
+    if (GD / "qualification_nodes.jsonl").exists():
+        canonicalize("qualification_nodes.jsonl", "qualification_edges.jsonl",
+                     "qualification_id", "qualification_label")

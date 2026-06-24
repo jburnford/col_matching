@@ -52,6 +52,43 @@ def _strip_dots(s: str) -> str:
     return " ".join(toks)
 
 
+# ---- layer classification: degrees + professional memberships vs true honours ----
+# Academic degrees. NB the normalizer keeps multi-letter tokens ("d sc", "b sc",
+# "ll d", "ch b") so these stay DISTINCT from same-letter decoration acronyms that
+# join ("dsc" = Distinguished Service Cross, "mm" = Military Medal) -- those are NOT
+# degrees and must stay in the honour layer.
+DEGREE = {
+    "ma", "ba", "bsc", "b sc", "msc", "m sc", "d sc", "ll d", "lld", "ll b", "llb",
+    "ll m", "llm", "dd", "dcl", "md", "mb", "ph d", "phd", "d phil", "dphil", "bs",
+    "ch b", "b ch", "b com", "bcom", "m com", "mcom", "b litt", "blitt", "m litt",
+    "mlitt", "b v sc", "bvsc", "d litt", "dlitt", "litt d", "bd", "std", "mus b",
+    "musb", "mus d", "musd", "b ed", "bed", "m ed", "b phil", "bphil", "m phil",
+    "mphil", "b sc agric", "b agr", "b a", "m a", "d d", "b d", "m d", "m b",
+}
+# Professional / learned-society qualifications (Fellow/Member/Licentiate/Associate
+# of a Royal College, Institution, or Society). Multi-word decoration phrases
+# ("french croix de guerre", "mily cross") are NOT here -- they are true honours.
+MEMBERSHIP = {
+    "frgs", "fgs", "fzs", "frs", "fras", "frsa", "frai", "fsa", "fcs", "fic",
+    "fres", "frsc", "frse", "frss", "frms", "frhs", "fgsa", "friba", "lriba",
+    "frics", "fric", "fiac", "fia", "fcis", "aca", "acis", "mras", "mrsi", "mrst",
+    "mims", "mim", "mina", "amina", "frfps", "lrfps", "lrfp&s",
+}
+_RC = re.compile(r"^a?[fml]rc[a-z]")          # *Royal College* (frcs/mrcs/lrcp/frcp/frcog)
+_MI = re.compile(r"^a?mi[a-z]{2,}$")          # Member of an *Institution* (mice/miee/mirse)
+
+def honour_class(base: str) -> str:
+    """Route a base honour to 'degree' | 'membership' | 'honour' so emit can split
+    academic/professional qualifications into a separate layer from state honours."""
+    if base in DEGREE:
+        return "degree"
+    if base in MEMBERSHIP:
+        return "membership"
+    if " " not in base and (_RC.match(base) or _MI.match(base)):
+        return "membership"
+    return "honour"
+
+
 def parse_honour(raw: str):
     """Return (base_honour, sorted_modifiers, category).
     base_honour is '_unknown' for empty/noise extractions."""

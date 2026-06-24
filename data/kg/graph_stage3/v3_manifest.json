@@ -30,12 +30,20 @@
       "education_edges": 14505
     },
     "honours": {
-      "nodes": 1608,
-      "nodes_qid": 21,
-      "edges": 16040,
-      "edges_qid": 10828,
-      "edges_internal": 4948,
+      "nodes": 1507,
+      "nodes_qid": 20,
+      "edges": 14684,
+      "edges_qid": 10646,
+      "edges_internal": 3774,
       "edges_unlinked": 264
+    },
+    "qualifications": {
+      "nodes": 101,
+      "nodes_qid": 16,
+      "edges": 1356,
+      "edges_qid": 668,
+      "edges_internal": 688,
+      "edges_unlinked": 0
     }
   }
 }

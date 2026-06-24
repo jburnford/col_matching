@@ -32,9 +32,16 @@ collapsed. Branch qualifiers (military / civil) ride on the EDGE, not the node.
    Use the **Wikidata MCP `search_items`** (≤5 calls/msg) — NOT the REST API.
    Cache rows: `{institution, type, id, label, instance_of, country_qid, source,
    match_type}`, id = `Q…` or `colkg:<Slug>`. source = mcp / reuse / internal.
-4. `kg_emit_honours.py` → `honour_nodes.jsonl` + `honour_edges.jsonl`. Auto-internal-
-   mints any uncached non-control honour (tail covered without a bulk pass).
-   Modifiers + year + award_raw emitted on each edge. `_unknown` → honour_id=null.
+4. `kg_emit_honours.py` → splits into TWO layers via `kg_honour_norm.honour_class`:
+   - `honour_nodes.jsonl` + `honour_edges.jsonl` — state honours (orders/decorations/
+     medals/appointments: CMG, MC, KC, PC...).
+   - `qualification_nodes.jsonl` + `qualification_edges.jsonl` — academic degrees
+     (MA/BSc/MD via curated DEGREE set) + professional memberships (FRCS/MICE via the
+     `*RC*`/`MI*` regex + curated MEMBERSHIP set). Same grounding cache + QIDs.
+   Auto-internal-mints any uncached non-control award. Modifiers + year + award_raw on
+   each edge. `_unknown` → id=null. **Classifier is curated, NOT pure-regex**: `mm`
+   (Military Medal), `dsc` (Distinguished Service Cross), `mbe`, "french croix de
+   guerre" must stay HONOURS — verify new tail entries don't misroute.
 5. `kg_dedup_nodes.py` — run after emit. Plain label-norm fold (QID wins) collapses
    spelled-out award strings ("Colonial Police Medal") onto their acronym QID.
 
@@ -45,29 +52,30 @@ collapsed. Branch qualifiers (military / civil) ride on the EDGE, not the node.
 - **reuse** — a variant of an already-grounded honour (QC ≡ KC → Q1533366;
   QPM ≡ KPM → Q2792177, monarch-renamed same award).
 - **internal** — a real honour/membership with NO distinct WD grade QID
-  (`colkg:mice` Member ICE, `colkg:mvo` 5th-class RVO member). Also academic
-  degrees if Jim wants them OUT of honours — see open question below.
+  (`colkg:mice` Member ICE, `colkg:mvo` 5th-class RVO member).
 - **_unknown** — noise, left ungrounded by the worklist (not your concern).
 
-## STATE — last updated 2026-06-24
+## STATE — last updated 2026-06-24 (after layer split)
 
-- **25 honours grounded → 68% of 16,040 mentions point to a Wikidata QID**
-  (21 distinct decoration QIDs; the rest internal/reuse).
+- **41 awards grounded.** Two layers now:
+  - **honours**: 14,684 edges, **72% to a Wikidata QID** (20 decoration QIDs).
+  - **qualifications**: 1,356 edges, **49% to a QID** (16 degree/fellowship QIDs):
+    MA Q2091008, BA Q1765120, BSc Q787674, MSc Q950900, DSc Q2248352, LLD Q959320,
+    DD Q1984623, MD Q913404 · FRCS Q3631327, MRCS Q6815098, FRS Q15631401,
+    FRAS Q26111565, FZS Q25513903, FRSE Q5438598, FRSA Q15271633, FRGS Q20006267.
 - Head done (count ≥ 60): cmg Q12177413 · obe Q10762848 · mbe Q12201526 ·
   kcmg Q12177415 · mc Q1335064 · cbe Q12201477 · knight bachelor Q833163 ·
   cpm Q3195318 · gcmg Q12177423 · cb Q12177472 · iso Q1810753 · dso Q615838 ·
   kc/qc Q1533366 · pc Q28841847 · kcb Q12177470 · frgs Q20006267 · kbe Q12201445 ·
   gcb Q12177451 · mice colkg · gcb · kpm/qpm Q2792177 · cvo Q12193183 ·
   dfc Q1229534 · mvo colkg.
-- **NEXT uncached head** (count-desc): ed (76, Efficiency Decoration?) ·
-  td (74, Territorial Decoration) · ma (67, Master of Arts — DEGREE) ·
-  b sc (52, Bachelor of Science — DEGREE) · then the count-30..50 band.
+- **NEXT uncached head** (count-desc): ed (76, Efficiency Decoration) ·
+  td (74, Territorial Decoration) · mm (43, Military Medal) · amice (46, → qual) ·
+  fgs (39, → qual) · lrcp (34, → qual) · then the count-20..40 band (mixed
+  honours + qual). dd/dcl/etc degrees and the *RC*/MI* memberships auto-route.
 
-## OPEN QUESTION for Jim
+## RESOLVED 2026-06-24
 
-The award field mixes true honours with **academic degrees** (M.A., B.Sc., LL.B.,
-M.D., Ph.D.) and **professional fellowships/memberships** (F.R.G.S., M.I.C.E.,
-M.R.C.S.). All ground to Wikidata QIDs, but degrees aren't really "honours."
-Options: (a) ground them in-place to degree QIDs; (b) route them to a separate
-`qualifications` layer; (c) leave internal-minted. Default so far: ground
-fellowships, internal-mint memberships, **degrees still pending a decision.**
+Jim chose a **separate qualifications layer**: degrees + professional memberships
+emit to `qualification_*.jsonl`, the honour layer keeps only state honours. Done.
+Remaining tail grounding (count-desc) feeds BOTH layers from the one cache/worklist.

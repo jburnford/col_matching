@@ -13,96 +13,63 @@
 {"id": "Q615838", "label": "Distinguished Service Order", "type": "decoration", "source": "mcp", "n_people": 258}
 {"id": "Q28841847", "label": "Member of the Privy Council of the United Kingdom", "type": "appointment", "source": "mcp", "n_people": 226}
 {"id": "Q2792177", "label": "King's Police Medal", "type": "decoration", "source": "reuse", "n_people": 204, "merged_from": ["colkg:king_s_police_medal"]}
-{"id": "Q20006267", "label": "Fellow of the Royal Geographical Society", "type": "fellowship", "source": "mcp", "n_people": 182, "merged_from": ["colkg:fellow_of_the_royal_geographical_society"]}
 {"id": "Q12177470", "label": "Knight Commander of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 175}
 {"id": "Q12201445", "label": "Knight Commander of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 140}
-{"id": "colkg:mice", "label": "Member of the Institution of Civil Engineers", "type": "membership", "source": "internal", "n_people": 101}
 {"id": "Q12177451", "label": "Knight Grand Cross of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 90}
 {"id": "colkg:mvo", "label": "Member of the Royal Victorian Order", "type": "order", "source": "internal", "n_people": 77}
 {"id": "colkg:ed", "label": "ed", "type": "order", "source": "internal", "n_people": 75}
 {"id": "colkg:td", "label": "td", "type": "order", "source": "internal", "n_people": 73}
 {"id": "Q12193183", "label": "Commander of the Royal Victorian Order", "type": "order", "source": "mcp", "n_people": 68}
-{"id": "colkg:ma", "label": "ma", "type": "order", "source": "internal", "n_people": 66}
 {"id": "Q1229534", "label": "Distinguished Flying Cross", "type": "decoration", "source": "mcp", "n_people": 59}
-{"id": "colkg:b_sc", "label": "b sc", "type": "honour", "source": "internal", "n_people": 52}
 {"id": "colkg:vd", "label": "vd", "type": "order", "source": "internal", "n_people": 48}
-{"id": "colkg:ll_d", "label": "ll d", "type": "honour", "source": "internal", "n_people": 47}
 {"id": "colkg:kcvo", "label": "kcvo", "type": "order", "source": "internal", "n_people": 47}
-{"id": "colkg:dd", "label": "dd", "type": "order", "source": "internal", "n_people": 46}
-{"id": "colkg:amice", "label": "amice", "type": "order", "source": "internal", "n_people": 45}
-{"id": "colkg:dcl", "label": "dcl", "type": "order", "source": "internal", "n_people": 43}
 {"id": "colkg:mm", "label": "mm", "type": "order", "source": "internal", "n_people": 43}
 {"id": "colkg:fls", "label": "fls", "type": "order", "source": "internal", "n_people": 42}
 {"id": "colkg:dsc", "label": "dsc", "type": "order", "source": "internal", "n_people": 40}
-{"id": "colkg:fgs", "label": "fgs", "type": "order", "source": "internal", "n_people": 39}
-{"id": "colkg:md", "label": "md", "type": "order", "source": "internal", "n_people": 37}
 {"id": "colkg:cie", "label": "cie", "type": "order", "source": "internal", "n_people": 36}
 {"id": "colkg:croix_de_guerre", "label": "croix-de-guerre", "type": "honour", "source": "internal", "n_people": 34}
 {"id": "colkg:1914_15_star", "label": "1914-15 star", "type": "honour", "source": "internal", "n_people": 34}
-{"id": "colkg:lrcp", "label": "lrcp", "type": "order", "source": "internal", "n_people": 34}
 {"id": "colkg:dtm_h", "label": "dtm&h", "type": "honour", "source": "internal", "n_people": 34}
 {"id": "colkg:knt_bachel", "label": "knt bachel", "type": "honour", "source": "internal", "n_people": 34}
-{"id": "colkg:frcs", "label": "frcs", "type": "order", "source": "internal", "n_people": 33}
-{"id": "colkg:mrcs", "label": "mrcs", "type": "order", "source": "internal", "n_people": 33}
-{"id": "colkg:frs", "label": "frs", "type": "order", "source": "internal", "n_people": 33}
 {"id": "colkg:ment_in_desps", "label": "ment in desps", "type": "honour", "source": "internal", "n_people": 33}
 {"id": "colkg:gcvo", "label": "gcvo", "type": "order", "source": "internal", "n_people": 31}
 {"id": "colkg:ce", "label": "ce", "type": "order", "source": "internal", "n_people": 31}
-{"id": "colkg:fras", "label": "fras", "type": "order", "source": "internal", "n_people": 30}
 {"id": "colkg:fsi", "label": "fsi", "type": "order", "source": "internal", "n_people": 30}
 {"id": "colkg:o_st_j", "label": "o st j", "type": "honour", "source": "internal", "n_people": 29}
-{"id": "colkg:fzs", "label": "fzs", "type": "order", "source": "internal", "n_people": 29}
 {"id": "colkg:jp", "label": "jp", "type": "order", "source": "internal", "n_people": 28}
 {"id": "colkg:queen_s_medal", "label": "queen's medal", "type": "honour", "source": "internal", "n_people": 28}
-{"id": "colkg:mrcvs", "label": "mrcvs", "type": "order", "source": "internal", "n_people": 27}
 {"id": "colkg:dph", "label": "dph", "type": "order", "source": "internal", "n_people": 27}
 {"id": "colkg:lms", "label": "lms", "type": "order", "source": "internal", "n_people": 26}
-{"id": "colkg:miee", "label": "miee", "type": "order", "source": "internal", "n_people": 25}
 {"id": "colkg:gbe", "label": "gbe", "type": "order", "source": "internal", "n_people": 25}
-{"id": "colkg:d_sc", "label": "d sc", "type": "honour", "source": "internal", "n_people": 24}
 {"id": "colkg:cm", "label": "cm", "type": "order", "source": "internal", "n_people": 24}
-{"id": "colkg:fcs", "label": "fcs", "type": "order", "source": "internal", "n_people": 23}
 {"id": "colkg:gcsi", "label": "gcsi", "type": "order", "source": "internal", "n_people": 23}
 {"id": "colkg:m_inst_c_e", "label": "m inst c e", "type": "honour", "source": "internal", "n_people": 22}
-{"id": "colkg:friba", "label": "friba", "type": "order", "source": "internal", "n_people": 21}
 {"id": "colkg:kg", "label": "kg", "type": "order", "source": "internal", "n_people": 21}
 {"id": "colkg:oag", "label": "oag", "type": "order", "source": "internal", "n_people": 20}
 {"id": "colkg:gcie", "label": "gcie", "type": "order", "source": "internal", "n_people": 20}
 {"id": "colkg:m_b_ch_b", "label": "m b , ch b", "type": "honour", "source": "internal", "n_people": 20}
-{"id": "colkg:ba", "label": "ba", "type": "order", "source": "internal", "n_people": 19}
 {"id": "colkg:acgi", "label": "acgi", "type": "order", "source": "internal", "n_people": 19}
-{"id": "colkg:mb", "label": "mb", "type": "order", "source": "internal", "n_people": 19}
 {"id": "colkg:privy_councillor", "label": "privy councillor", "type": "honour", "source": "internal", "n_people": 19}
 {"id": "colkg:bem", "label": "bem", "type": "order", "source": "internal", "n_people": 19}
 {"id": "colkg:a_m_i_mech_e", "label": "a m i mech e", "type": "honour", "source": "internal", "n_people": 18}
 {"id": "colkg:a_m_inst_c_e", "label": "a m inst c e", "type": "honour", "source": "internal", "n_people": 18}
-{"id": "colkg:mime", "label": "mime", "type": "order", "source": "internal", "n_people": 17}
 {"id": "colkg:coronation_medal", "label": "coronation medal", "type": "honour", "source": "internal", "n_people": 17}
 {"id": "colkg:dic", "label": "dic", "type": "order", "source": "internal", "n_people": 16}
-{"id": "colkg:m_sc", "label": "m sc", "type": "honour", "source": "internal", "n_people": 16}
 {"id": "colkg:vc", "label": "vc", "type": "order", "source": "internal", "n_people": 16}
 {"id": "colkg:king_s_medal", "label": "king's medal", "type": "honour", "source": "internal", "n_people": 16}
-{"id": "colkg:frsc", "label": "frsc", "type": "order", "source": "internal", "n_people": 15}
 {"id": "colkg:cda", "label": "cda", "type": "order", "source": "internal", "n_people": 15}
 {"id": "colkg:rd", "label": "rd", "type": "order", "source": "internal", "n_people": 15}
 {"id": "colkg:turkish_medal", "label": "turkish medal", "type": "honour", "source": "internal", "n_people": 15}
-{"id": "colkg:fic", "label": "fic", "type": "order", "source": "internal", "n_people": 14}
 {"id": "colkg:desps", "label": "desps", "type": "order", "source": "internal", "n_people": 14}
 {"id": "colkg:dcm", "label": "dcm", "type": "order", "source": "internal", "n_people": 14}
 {"id": "colkg:kcsi", "label": "kcsi", "type": "order", "source": "internal", "n_people": 13}
-{"id": "colkg:mimm", "label": "mimm", "type": "order", "source": "internal", "n_people": 13}
 {"id": "colkg:m_i_mar_e", "label": "m i mar e", "type": "honour", "source": "internal", "n_people": 13}
 {"id": "colkg:arsm", "label": "arsm", "type": "order", "source": "internal", "n_people": 13}
 {"id": "colkg:gm", "label": "gm", "type": "order", "source": "internal", "n_people": 12}
 {"id": "colkg:m_i_mech_e", "label": "m i mech e", "type": "honour", "source": "internal", "n_people": 12}
 {"id": "colkg:nda", "label": "nda", "type": "order", "source": "internal", "n_people": 12}
-{"id": "colkg:amiee", "label": "amiee", "type": "order", "source": "internal", "n_people": 12}
-{"id": "colkg:fres", "label": "fres", "type": "order", "source": "internal", "n_people": 12}
 {"id": "colkg:aicta", "label": "aicta", "type": "order", "source": "internal", "n_people": 12}
 {"id": "colkg:mg", "label": "mg", "type": "order", "source": "internal", "n_people": 11}
-{"id": "colkg:ph_d", "label": "ph d", "type": "honour", "source": "internal", "n_people": 11}
-{"id": "colkg:aca", "label": "aca", "type": "order", "source": "internal", "n_people": 11}
-{"id": "colkg:mrcp", "label": "mrcp", "type": "order", "source": "internal", "n_people": 11}
 {"id": "colkg:legion_of_honour", "label": "legion of honour", "type": "honour", "source": "internal", "n_people": 11}
 {"id": "colkg:mentioned_in_despatches", "label": "mentioned in despatches", "type": "honour", "source": "internal", "n_people": 11}
 {"id": "colkg:french_croix_de_guerre", "label": "french croix de guerre", "type": "honour", "source": "internal", "n_people": 11}
@@ -114,7 +81,6 @@
 {"id": "colkg:dtc", "label": "dtc", "type": "order", "source": "internal", "n_people": 10}
 {"id": "colkg:m_r_san_i", "label": "m r san i", "type": "honour", "source": "internal", "n_people": 10}
 {"id": "colkg:be", "label": "be", "type": "order", "source": "internal", "n_people": 10}
-{"id": "colkg:frsa", "label": "frsa", "type": "order", "source": "internal", "n_people": 10}
 {"id": "colkg:afc", "label": "afc", "type": "order", "source": "internal", "n_people": 10}
 {"id": "colkg:arcs", "label": "arcs", "type": "order", "source": "internal", "n_people": 10}
 {"id": "colkg:fss", "label": "fss", "type": "order", "source": "internal", "n_people": 10}
@@ -130,59 +96,45 @@
 {"id": "colkg:queen_s_medal_and_four", "label": "queen's medal and four", "type": "honour", "source": "internal", "n_people": 9}
 {"id": "colkg:kaffir_war_medal", "label": "kaffir war medal", "type": "honour", "source": "internal", "n_people": 9}
 {"id": "colkg:rnr", "label": "rnr", "type": "order", "source": "internal", "n_people": 9}
-{"id": "colkg:frai", "label": "frai", "type": "order", "source": "internal", "n_people": 9}
-{"id": "colkg:ll_b", "label": "ll b", "type": "honour", "source": "internal", "n_people": 8}
 {"id": "colkg:kb", "label": "kb", "type": "order", "source": "internal", "n_people": 8}
 {"id": "colkg:dtd", "label": "dtd", "type": "order", "source": "internal", "n_people": 8}
 {"id": "colkg:m_inst_t", "label": "m inst t", "type": "honour", "source": "internal", "n_people": 8}
 {"id": "colkg:dtm", "label": "dtm", "type": "order", "source": "internal", "n_people": 8}
-{"id": "colkg:mina", "label": "mina", "type": "order", "source": "internal", "n_people": 8}
 {"id": "colkg:a_m_i_struct_e", "label": "a m i struct e", "type": "honour", "source": "internal", "n_people": 7}
 {"id": "colkg:medal_and_five", "label": "medal and five", "type": "honour", "source": "internal", "n_people": 7}
 {"id": "colkg:dvsm", "label": "dvsm", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:medal_and_two", "label": "medal and two", "type": "honour", "source": "internal", "n_people": 7}
-{"id": "colkg:mras", "label": "mras", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:victory_medal", "label": "victory medal", "type": "honour", "source": "internal", "n_people": 7}
 {"id": "colkg:gc", "label": "gc", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:victory_meds", "label": "victory meds", "type": "honour", "source": "internal", "n_people": 7}
 {"id": "colkg:acsm", "label": "acsm", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:lm", "label": "lm", "type": "order", "source": "internal", "n_people": 7}
-{"id": "colkg:fric", "label": "fric", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:fes", "label": "fes", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:kp", "label": "kp", "type": "order", "source": "internal", "n_people": 7}
-{"id": "colkg:frcp", "label": "frcp", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:med", "label": "med", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:khedive_s_bronze_star", "label": "khedive's bronze star", "type": "honour", "source": "internal", "n_people": 7}
 {"id": "colkg:bma", "label": "bma", "type": "order", "source": "internal", "n_people": 6}
-{"id": "colkg:lld", "label": "lld", "type": "order", "source": "internal", "n_people": 6}
 {"id": "colkg:1914_star", "label": "\"1914\" star", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:mcs", "label": "mcs", "type": "order", "source": "internal", "n_people": 6}
 {"id": "colkg:m_i_struct_e", "label": "m i struct e", "type": "honour", "source": "internal", "n_people": 6}
-{"id": "colkg:bs", "label": "bs", "type": "order", "source": "internal", "n_people": 6}
 {"id": "colkg:f_r_met_soc", "label": "f r met soc", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:honorary_ll_d", "label": "honorary ll d", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:victory_medical", "label": "victory medical", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:king_s_medal_and_2", "label": "king's medal and 2", "type": "honour", "source": "internal", "n_people": 6}
-{"id": "colkg:frhs", "label": "frhs", "type": "order", "source": "internal", "n_people": 6}
 {"id": "colkg:queen_s_medical", "label": "queen's medical", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:order_of_the_nile", "label": "order of the nile", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:dc", "label": "dc", "type": "order", "source": "internal", "n_people": 6}
 {"id": "colkg:mb_bs", "label": "mb,bs", "type": "honour", "source": "internal", "n_people": 6}
-{"id": "colkg:frcvs", "label": "frcvs", "type": "order", "source": "internal", "n_people": 6}
 {"id": "colkg:crimean_medal", "label": "crimean medal", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:c_st_j", "label": "c st j", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:mia", "label": "mia", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:honorary_d_c_l", "label": "honorary d c l", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:medal_and_four", "label": "medal and four", "type": "honour", "source": "internal", "n_people": 5}
-{"id": "colkg:mirse", "label": "mirse", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:lds", "label": "lds", "type": "order", "source": "internal", "n_people": 5}
-{"id": "colkg:frse", "label": "frse", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:ls", "label": "ls", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:belgian_croix_de_guerre", "label": "belgian croix de guerre", "type": "honour", "source": "internal", "n_people": 5}
-{"id": "colkg:ch_b", "label": "ch b", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:medal_with_4", "label": "medal with 4", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:msm", "label": "msm", "type": "order", "source": "internal", "n_people": 5}
-{"id": "colkg:lriba", "label": "lriba", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:legion_of_merit", "label": "legion of merit", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:victory", "label": "victory", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:cent_africa_medal", "label": "cent africa medal", "type": "honour", "source": "internal", "n_people": 5}
@@ -214,16 +166,13 @@
 {"id": "colkg:qfsm", "label": "qfsm", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:a_g_s_medical", "label": "a g s medical", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:officer_of_legion_of_honour", "label": "officer of legion of honour", "type": "honour", "source": "internal", "n_people": 4}
-{"id": "colkg:frics", "label": "frics", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:war_medal", "label": "war medal", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:em", "label": "em", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:om", "label": "om", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:star", "label": "star", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:br_war", "label": "br war", "type": "honour", "source": "internal", "n_people": 4}
-{"id": "colkg:mrsi", "label": "mrsi", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:africa_general_service_medal", "label": "africa general service medal", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:star_of_zanz", "label": "star of zanz", "type": "honour", "source": "internal", "n_people": 4}
-{"id": "colkg:fsa", "label": "fsa", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:medal_and_5", "label": "medal and 5", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:f_r_met_s", "label": "f r met s", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:mtpi", "label": "mtpi", "type": "order", "source": "internal", "n_people": 4}
@@ -241,9 +190,7 @@
 {"id": "colkg:assoc_inst_m_m", "label": "assoc inst m m", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:w_african_medal", "label": "w african medal", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:victory_medals", "label": "victory medals", "type": "honour", "source": "internal", "n_people": 4}
-{"id": "colkg:amimm", "label": "amimm", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:pasi", "label": "pasi", "type": "order", "source": "internal", "n_people": 4}
-{"id": "colkg:frss", "label": "frss", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:aric", "label": "aric", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:chief", "label": "chief", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:amct", "label": "amct", "type": "order", "source": "internal", "n_people": 3}
@@ -260,43 +207,31 @@
 {"id": "colkg:br_war_medical", "label": "br war medical", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:queen_s_medal_and_three", "label": "queen's medal and three", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:m_am_soc_c_e", "label": "m am soc c e", "type": "honour", "source": "internal", "n_people": 3}
-{"id": "colkg:frcsi", "label": "frcsi", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:knight_of_grace_order_of_st_john_of_jerusalem", "label": "knight of grace, order of st john of jerusalem", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:mention_in_despatches", "label": "mention in despatches", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:medal_for_tel_el_kebir", "label": "medal for tel-el-kebir", "type": "honour", "source": "internal", "n_people": 3}
-{"id": "colkg:fgsa", "label": "fgsa", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:chevalier_of_the_legion_of_honour", "label": "chevalier of the legion of honour", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:ment_in_desp", "label": "ment in desp", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:officier_de_l_instruction_publique", "label": "officier de l'instruction publique", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:cs", "label": "cs", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:commander_of_the_legion_of_honour", "label": "commander of the legion of honour", "type": "honour", "source": "internal", "n_people": 3}
-{"id": "colkg:mise", "label": "mise", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:a_i_mech_e", "label": "a i mech e", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:m_i_min_e", "label": "m i min e", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:meritorious_service_medical", "label": "meritorious service medical", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:facs", "label": "facs", "type": "order", "source": "internal", "n_people": 3}
-{"id": "colkg:frci", "label": "frci", "type": "order", "source": "internal", "n_people": 3}
-{"id": "colkg:fiac", "label": "fiac", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:kcie", "label": "kcie", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:acp", "label": "acp", "type": "order", "source": "internal", "n_people": 3}
-{"id": "colkg:mrst", "label": "mrst", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:f_inst_p", "label": "f inst p", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:pjk", "label": "pjk", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:feis", "label": "feis", "type": "order", "source": "internal", "n_people": 3}
-{"id": "colkg:lrcs", "label": "lrcs", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:west_african_medal", "label": "west african medal", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:msa", "label": "msa", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:dip_agriculture", "label": "dip agriculture", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:medal_and_six", "label": "medal and six", "type": "honour", "source": "internal", "n_people": 3}
-{"id": "colkg:lrcp_s", "label": "lrcp&s", "type": "honour", "source": "internal", "n_people": 3}
-{"id": "colkg:fcis", "label": "fcis", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:s_african_war_medal", "label": "s african war medal", "type": "honour", "source": "internal", "n_people": 3}
-{"id": "colkg:b_ch", "label": "b ch", "type": "honour", "source": "internal", "n_people": 3}
-{"id": "colkg:amime", "label": "amime", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:ca", "label": "ca", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:comdr_legion_of_honour", "label": "comdr , legion of honour", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:aiee", "label": "aiee", "type": "order", "source": "internal", "n_people": 3}
-{"id": "colkg:frcpe", "label": "frcpe", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:queen_s_s_a_medical", "label": "queen's s a medical", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:amtpi", "label": "amtpi", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:a_r_san_i", "label": "a r san i", "type": "honour", "source": "internal", "n_people": 3}
@@ -306,7 +241,6 @@
 {"id": "colkg:bachel", "label": "bachel", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:mi", "label": "mi", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:jubilee_medal", "label": "jubilee medal", "type": "honour", "source": "internal", "n_people": 3}
-{"id": "colkg:frfps", "label": "frfps", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:msi", "label": "msi", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:ashanti_medal", "label": "ashanti medal", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:king_s_medal_two", "label": "king's medal, two", "type": "honour", "source": "internal", "n_people": 3}
@@ -323,15 +257,12 @@
 {"id": "colkg:brill_star_of_zanz_4th_class", "label": "brill star of zanz (4th class", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:cross_of_valour", "label": "cross of valour", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:mie", "label": "mie", "type": "order", "source": "internal", "n_people": 2}
-{"id": "colkg:frcse", "label": "frcse", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_ment_in_desps", "label": "medal, ment in desps", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:lg", "label": "lg", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:croix_de_guerre_avec_palme", "label": "croix de guerre avec palme", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:kt_comdr_of_the_crown_of_italy", "label": "kt comdr of the crown of italy", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_for_distinguished_conduct_in_the_field", "label": "medal for \"distinguished conduct in the field\"", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:italian_silver_medical_for_mily_valour", "label": "italian silver medical for mily valour", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:litt_d", "label": "litt d", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:fia", "label": "fia", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:m_i_m_cy_e", "label": "m i m & cy e", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:officer_legion_d_honneur", "label": "officer legion d'honneur", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:king_s_and_queen_s_medals", "label": "king's and queen's medals", "type": "honour", "source": "internal", "n_people": 2}
@@ -358,13 +289,11 @@
 {"id": "colkg:grand_cross_of_the_sardinian_order_of_savoy", "label": "grand cross of the sardinian order of savoy", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:lfpsg", "label": "lfpsg", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:a_f_r_ae_s", "label": "a f r ae s", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:mrcs_lrcp", "label": "mrcs,lrcp", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:m_b_lond", "label": "m b , lond", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:d_p_h_lond", "label": "d p h , lond", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:assoc_m_inst_c_e", "label": "assoc m inst c e", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:m_i_struc_e", "label": "m i struc e", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:indian_medal", "label": "indian medal", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:b_com", "label": "b com", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:omg", "label": "omg", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:aiaa", "label": "aiaa", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:sqdn_ldr", "label": "sqdn ldr", "type": "honour", "source": "internal", "n_people": 2}
@@ -374,12 +303,9 @@
 {"id": "colkg:indian_medal_with_perak", "label": "indian medal, with perak", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_and_3", "label": "medal and 3", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:order_of_st_m_and_st_g", "label": "order of st m and st g", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:lrfps", "label": "lrfps", "type": "order", "source": "internal", "n_people": 2}
-{"id": "colkg:miae", "label": "miae", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_and_2", "label": "medal and 2", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:queen_s_medal_and_two", "label": "queen's medal and two", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:mla", "label": "mla", "type": "order", "source": "internal", "n_people": 2}
-{"id": "colkg:amire", "label": "amire", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:b_eng", "label": "b eng", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:officer_of_public_instruction_of_france", "label": "officer of public instruction of france", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_bronze_star", "label": "medal , bronze star", "type": "honour", "source": "internal", "n_people": 2}
@@ -388,7 +314,6 @@
 {"id": "colkg:knight_of_grace_of_st_john_of_jerusalem", "label": "knight of grace of st john of jerusalem", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:3rd_class_medjidieh", "label": "3rd class medjidieh", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:oac", "label": "oac", "type": "order", "source": "internal", "n_people": 2}
-{"id": "colkg:frms", "label": "frms", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_with_3", "label": "medal with 3", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:2nd_class_medjidie", "label": "2nd class medjidie", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:king_s_medal_with_two", "label": "king's medal with two", "type": "honour", "source": "internal", "n_people": 2}
@@ -399,9 +324,7 @@
 {"id": "colkg:african_general_service_medical", "label": "african general service medical", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:bronze_medal_roy_hum_soc", "label": "bronze medal, roy hum soc", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:knight_grand_cross_of_the_order_of_the_conception", "label": "knight grand cross of the order of the conception", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:mims", "label": "mims", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:w_african_general_service_medal", "label": "w african general service medal", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:amina", "label": "amina", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:vo", "label": "vo", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:aice", "label": "aice", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:fellow_linn_soc", "label": "fellow linn soc", "type": "honour", "source": "internal", "n_people": 2}
@@ -415,8 +338,6 @@
 {"id": "colkg:1st_class_order_of_brilliant_star_zanzibar", "label": "1st class, order of brilliant star, zanzibar", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:u_s_bronze_star", "label": "u s bronze star", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:croix_d_officier_of_legion_of_honour", "label": "croix d'officier of legion of honour", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:amioe", "label": "amioe", "type": "order", "source": "internal", "n_people": 2}
-{"id": "colkg:mim", "label": "mim", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:f_r_met_a", "label": "f r met a", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:mic", "label": "mic", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:knight_of_grace_of_order_of_st_john_of_jerusalem", "label": "knight of grace of order of st john of jerusalem", "type": "honour", "source": "internal", "n_people": 2}
@@ -427,7 +348,6 @@
 {"id": "colkg:afia", "label": "afia", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:two_medals_with_five", "label": "two medals with five", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:m_cy_e", "label": "m cy e", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:lrfp_s", "label": "lrfp&s", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:cad", "label": "cad", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:mcm", "label": "mcm", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:ild", "label": "ild", "type": "order", "source": "internal", "n_people": 2}
@@ -437,7 +357,6 @@
 {"id": "colkg:queen_s_medal_four", "label": "queen's medal, four", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:mily_cross", "label": "mily cross", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:s_africa_medal_and_two", "label": "s africa medal and two", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:mies", "label": "mies", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:albert_medal_of_the_2nd_class", "label": "albert medal of the 2nd class", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:clarke_gold_medal_of_the_roy_hum_soc_of_australasia", "label": "clarke gold medal of the roy hum soc of australasia", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_for_india", "label": "medal for india", "type": "honour", "source": "internal", "n_people": 2}
@@ -445,7 +364,6 @@
 {"id": "colkg:mis", "label": "mis", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:royal_humane_society_s_medal", "label": "royal humane society's medal", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:a_d_c_to_the_queen", "label": "a d c to the queen", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:b_litt", "label": "b litt", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:m_inst_struct_e", "label": "m inst struct e", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:baron", "label": "baron", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:prelate_of_the_order_of_st_michael_and_st_george", "label": "prelate of the order of st michael and st george", "type": "honour", "source": "internal", "n_people": 2}
@@ -458,10 +376,8 @@
 {"id": "colkg:aic", "label": "aic", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:knight_of_the_legion_of_honour", "label": "knight of the legion of honour", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:ment_in_despa", "label": "ment in despa", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:b_v_sc", "label": "b v sc", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:mcqs", "label": "mcqs", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:order_of_st_john_of_jerusalem", "label": "order of st john of jerusalem", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:amiwe", "label": "amiwe", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:cp", "label": "cp", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_with_two", "label": "medal with two", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:to_d_s_o", "label": "to d s o", "type": "honour", "source": "internal", "n_people": 2}
@@ -469,7 +385,6 @@
 {"id": "colkg:dth", "label": "dth", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_for_jebu_war", "label": "medal for jebu war", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_and_4", "label": "medal and 4", "type": "honour", "source": "internal", "n_people": 2}
-{"id": "colkg:miwe", "label": "miwe", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:cross_of_officer_order_of_leopold", "label": "cross of officer, order of leopold", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:french_legion_of_honour", "label": "french legion of honour", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:f_r_i_br_architects", "label": "f r i br architects", "type": "honour", "source": "internal", "n_people": 2}
@@ -484,11 +399,9 @@
 {"id": "colkg:brill_star_zanz", "label": "brill star , zanz", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:order_of_the_brilliant_star_of_zanzibar_2nd_class", "label": "order of the brilliant star of zanzibar, 2nd class", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:1st_class_musketry_certificate", "label": "1st class, musketry certificate", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:lrcsi", "label": "lrcsi", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:lmrhd", "label": "lmrhd", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:knt_of_grace_of_the_order_of_st_john_of_jerusalem", "label": "knt of grace of the order of st john of jerusalem", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:cuthbert_peek_grant", "label": "cuthbert peek grant", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:miwt", "label": "miwt", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:rgs", "label": "rgs", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:n_d_a_dip_agriculture", "label": "n d a dip agriculture", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:rrc", "label": "rrc", "type": "order", "source": "internal", "n_people": 1}
@@ -524,7 +437,6 @@
 {"id": "colkg:m_i_c_e_ire", "label": "m i c e ire", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:amsa", "label": "amsa", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:inst_c_e", "label": "inst c e", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:mibae", "label": "mibae", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:medal_for_gaika_galeka_and_moirosi_wars", "label": "medal for gaika, galeka, and moirosi wars", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:fip", "label": "fip", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:medal_with_annuity_for_long_and_meritorious_service", "label": "medal with annuity for \"long and meritorious service\"", "type": "honour", "source": "internal", "n_people": 1}
@@ -545,7 +457,6 @@
 {"id": "colkg:hythe_musketry_certif", "label": "hythe musketry certif", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:cmdr_of_legion_of_honour", "label": "cmdr of legion of honour", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:mps", "label": "mps", "type": "order", "source": "internal", "n_people": 1}
-{"id": "colkg:micr", "label": "micr", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:srh", "label": "srh", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:br_war_medl", "label": "br war medl", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:dip_anthrop", "label": "dip anthrop", "type": "honour", "source": "internal", "n_people": 1}
@@ -623,7 +534,6 @@
 {"id": "colkg:cr", "label": "cr", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:king_s_police_medical", "label": "king's police medical", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:lsf", "label": "lsf", "type": "order", "source": "internal", "n_people": 1}
-{"id": "colkg:mire", "label": "mire", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:african_general_service_medal_and_4", "label": "african general service medal and 4", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:b_sc_gold_medalist_inst_of_mining_and_metallurgy", "label": "b sc , gold medalist, inst of mining and metallurgy", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:fellow_of_royal_socy", "label": "fellow of royal socy", "type": "honour", "source": "internal", "n_people": 1}
@@ -687,7 +597,6 @@
 {"id": "colkg:l_g_s_medal", "label": "l g s medal", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:fbms", "label": "fbms", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:mentd_in_desps", "label": "mentd in desps", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:amise", "label": "amise", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:aias", "label": "aias", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:mcp", "label": "mcp", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:ordre_of_st_anne_second_class_with_swords", "label": "ordre of st anne second class with swords", "type": "honour", "source": "internal", "n_people": 1}
@@ -700,7 +609,6 @@
 {"id": "colkg:a_inst_m_m", "label": "a inst m m", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:jubilee_gold_medal_of_ceylon", "label": "jubilee gold medal of ceylon", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:jub_gold_medical_of_ceylon", "label": "jub gold medical of ceylon", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:ll_m", "label": "ll m", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:commander_of_the_order_of_king_george_i_of_greece", "label": "commander of the order of king george i of greece", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:order_of_nahdhah", "label": "order of nahdhah", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:order_of_majidie", "label": "order of majidie", "type": "honour", "source": "internal", "n_people": 1}
@@ -956,7 +864,6 @@
 {"id": "colkg:m_am_i_m_m_e", "label": "m am i m m e", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:order_of_the_rising_sun", "label": "order of the rising sun", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:a_m_i_struct_eng", "label": "a m i struct eng", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:mile", "label": "mile", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:f_s_i_by_examination", "label": "f s i by examination", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:kt_of_grace_of_order_of_st_john_of_jerusalem", "label": "kt of grace of order of st john of jerusalem", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:slc", "label": "slc", "type": "order", "source": "internal", "n_people": 1}
@@ -971,7 +878,6 @@
 {"id": "colkg:japanese_order_3rd_class_of_the_sacred_treasure", "label": "japanese order, 3rd class, of the sacred treasure", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:3rd_class_of_the_order_of_the_rising_sun", "label": "3rd class of the order of the rising sun", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:2nd_class_of_tunisian_order_of_the_nichan", "label": "2nd class of tunisian order of the nichan", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:mita", "label": "mita", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:g_inst_t", "label": "g inst t", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:chev_of_order_of_crown_of_belgium", "label": "chev of order of crown of belgium", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:officer_d_academie", "label": "officer d'academie", "type": "honour", "source": "internal", "n_people": 1}
@@ -1019,7 +925,6 @@
 {"id": "colkg:g_c_r_s_with_nia", "label": "g c r s with nia", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:crimean_medals_alma_inkerman_and_sebastopol", "label": "crimean medals , alma, inkerman, and sebastopol", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:hirse", "label": "hirse", "type": "order", "source": "internal", "n_people": 1}
-{"id": "colkg:amier", "label": "amier", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:qrmr", "label": "qrmr", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:cross_of_guadaloupe", "label": "cross of \"guadaloupe\"", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:chevalier_brown_of_italy", "label": "chevalier brown of italy", "type": "honour", "source": "internal", "n_people": 1}
@@ -1096,7 +1001,6 @@
 {"id": "colkg:dm", "label": "dm", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:medal_ashanti_rising", "label": "medal, ashanti rising", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:knight_of_justice_of_the_order_of_st_john_of_jerusalem", "label": "knight of justice of the order of st john of jerusalem", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:d_litt", "label": "d litt", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:recd_thanks_of_admy", "label": "recd thanks of admy", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:italian_medical_for_mily_valour", "label": "italian medical for mily valour", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:medaille_de_la_reconnaissance_fran_aise", "label": "medaille de la reconnaissance française", "type": "honour", "source": "internal", "n_people": 1}
@@ -1125,7 +1029,6 @@
 {"id": "colkg:knight_of_grace_st_john_of_jerusalem", "label": "knight of grace, st john of jerusalem", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:komg", "label": "komg", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:r_h_s_medal", "label": "r h s medal", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:mipt", "label": "mipt", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:f_inst_pet", "label": "f inst pet", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:dpm", "label": "dpm", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:camc", "label": "camc", "type": "order", "source": "internal", "n_people": 1}
@@ -1172,7 +1075,6 @@
 {"id": "colkg:4th_class_of_the_zanzibar_order_of_el_aliyeh", "label": "4th class of the zanzibar order of el aliyeh", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:dpsa", "label": "dpsa", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:kt_of_sovereign_order_of_malta", "label": "kt of sovereign order of malta", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:frcps", "label": "frcps", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:dcii", "label": "dcii", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:fr", "label": "fr", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:honorary_f_r_o", "label": "honorary f r o", "type": "honour", "source": "internal", "n_people": 1}
@@ -1310,7 +1212,6 @@
 {"id": "colkg:b_sc_b_ham", "label": "b sc , b'ham", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:order_of_the_aliyeh_zanzibar_3rd_class", "label": "order of the aliyeh zanzibar, 3rd class", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:order_of_the_brilliant_star_zanzibar_3rd_class", "label": "order of the brilliant star, zanzibar, 3rd class", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:amiae", "label": "amiae", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:associate_instit_c_e", "label": "associate instit c e", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:fihe", "label": "fihe", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:fips", "label": "fips", "type": "order", "source": "internal", "n_people": 1}
@@ -1336,6 +1237,7 @@
 {"id": "colkg:medal_for_rebellion_of_1896_1897", "label": "medal for rebellion of 1896-1897", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:lmkqcpi", "label": "lmkqcpi", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:imperial_order_of_the_medjidi", "label": "imperial order of the medjidié", "type": "honour", "source": "internal", "n_people": 1}
+{"id": "colkg:fellow_of_the_royal_geographical_society", "label": "fellow of the royal geographical society", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:member_of_the_corporation_of_the_royal_literary_fund", "label": "member of the corporation of the royal literary fund", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:ilb", "label": "ilb", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:langley_member_prize", "label": "langley member prize", "type": "honour", "source": "internal", "n_people": 1}
@@ -1378,7 +1280,6 @@
 {"id": "colkg:knight_comdr_order_of_african_redemption", "label": "knight comdr , order of african redemption", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:thanks_of_the_secretary_of_state_for_the_colonies", "label": "thanks of the secretary of state for the colonies", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:cmp", "label": "cmp", "type": "order", "source": "internal", "n_people": 1}
-{"id": "colkg:mrcog", "label": "mrcog", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:4th_class_order_of_the_aliyah", "label": "4th class, order of the aliyah", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:brilliant_star_of_zanzibar", "label": "brilliant star of zanzibar", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:bdfd", "label": "bdfd", "type": "order", "source": "internal", "n_people": 1}
@@ -1408,7 +1309,6 @@
 {"id": "colkg:m_i_munic_e", "label": "m i munic e", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:opo", "label": "opo", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:medal_and_gratuity", "label": "medal and gratuity", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:acis", "label": "acis", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:f_r_aus_h_s", "label": "f r aus h s", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:cape_general_service_medal_bechuanaland", "label": "cape general service medal “bechuanaland”", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:order_of_white_elephant_3rd_class", "label": "order of white elephant, 3rd class", "type": "honour", "source": "internal", "n_people": 1}
@@ -1544,7 +1444,6 @@
 {"id": "colkg:matabele_rebellion", "label": "matabele rebellion", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:s_african_war", "label": "s african war", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:gr_a", "label": "gr a", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:frca", "label": "frca", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:dpmj", "label": "dpmj", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:fracp", "label": "fracp", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:dvtm", "label": "dvtm", "type": "order", "source": "internal", "n_people": 1}

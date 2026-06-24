@@ -23,3 +23,19 @@
 {"institution": "cvo", "type": "order", "id": "Q12193183", "label": "Commander of the Royal Victorian Order", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
 {"institution": "dfc", "type": "decoration", "id": "Q1229534", "label": "Distinguished Flying Cross", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
 {"institution": "mvo", "type": "order", "id": "colkg:mvo", "label": "Member of the Royal Victorian Order", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
+{"institution": "ma", "type": "degree", "id": "Q2091008", "label": "Master of Arts", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "b sc", "type": "degree", "id": "Q787674", "label": "Bachelor of Science", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "m sc", "type": "degree", "id": "Q950900", "label": "Master of Science", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "ll d", "type": "degree", "id": "Q959320", "label": "Doctor of Laws", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "lld", "type": "degree", "id": "Q959320", "label": "Doctor of Laws", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse_variant"}
+{"institution": "dd", "type": "degree", "id": "Q1984623", "label": "Doctor of Divinity", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "md", "type": "degree", "id": "Q913404", "label": "Doctor of Medicine", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "ba", "type": "degree", "id": "Q1765120", "label": "Bachelor of Arts", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "d sc", "type": "degree", "id": "Q2248352", "label": "Doctor of Science", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "frcs", "type": "membership", "id": "Q3631327", "label": "Fellowship of the Royal College of Surgeons", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "mrcs", "type": "membership", "id": "Q6815098", "label": "Membership of the Royal College of Surgeons", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "frs", "type": "membership", "id": "Q15631401", "label": "Fellow of the Royal Society", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "fras", "type": "membership", "id": "Q26111565", "label": "Fellow of the Royal Astronomical Society", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "fzs", "type": "membership", "id": "Q25513903", "label": "Fellow of the Zoological Society of London", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "frse", "type": "membership", "id": "Q5438598", "label": "Fellow of the Royal Society of Edinburgh", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "frsa", "type": "membership", "id": "Q15271633", "label": "Fellow of the Royal Society of Arts", "instance_of": [], "country_qid": null, "source": "mcp", "match_type": "mcp_exact"}

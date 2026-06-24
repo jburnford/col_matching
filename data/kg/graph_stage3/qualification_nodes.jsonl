@@ -1,0 +1,101 @@
+{"id": "Q20006267", "label": "Fellow of the Royal Geographical Society", "type": "fellowship", "source": "mcp", "n_people": 181}
+{"id": "colkg:mice", "label": "Member of the Institution of Civil Engineers", "type": "membership", "source": "internal", "n_people": 101}
+{"id": "Q2091008", "label": "Master of Arts", "type": "degree", "source": "mcp", "n_people": 66}
+{"id": "Q959320", "label": "Doctor of Laws", "type": "degree", "source": "mcp", "n_people": 53}
+{"id": "Q787674", "label": "Bachelor of Science", "type": "degree", "source": "mcp", "n_people": 52}
+{"id": "Q1984623", "label": "Doctor of Divinity", "type": "degree", "source": "mcp", "n_people": 46}
+{"id": "colkg:amice", "label": "amice", "type": "order", "source": "internal", "n_people": 45}
+{"id": "colkg:dcl", "label": "dcl", "type": "order", "source": "internal", "n_people": 43}
+{"id": "colkg:fgs", "label": "fgs", "type": "order", "source": "internal", "n_people": 39}
+{"id": "Q913404", "label": "Doctor of Medicine", "type": "degree", "source": "mcp", "n_people": 37}
+{"id": "colkg:lrcp", "label": "lrcp", "type": "order", "source": "internal", "n_people": 34}
+{"id": "Q3631327", "label": "Fellowship of the Royal College of Surgeons", "type": "membership", "source": "mcp", "n_people": 33}
+{"id": "Q6815098", "label": "Membership of the Royal College of Surgeons", "type": "membership", "source": "mcp", "n_people": 33}
+{"id": "Q15631401", "label": "Fellow of the Royal Society", "type": "membership", "source": "mcp", "n_people": 33}
+{"id": "Q26111565", "label": "Fellow of the Royal Astronomical Society", "type": "membership", "source": "mcp", "n_people": 30}
+{"id": "Q25513903", "label": "Fellow of the Zoological Society of London", "type": "membership", "source": "mcp", "n_people": 29}
+{"id": "colkg:mrcvs", "label": "mrcvs", "type": "order", "source": "internal", "n_people": 27}
+{"id": "colkg:miee", "label": "miee", "type": "order", "source": "internal", "n_people": 25}
+{"id": "Q2248352", "label": "Doctor of Science", "type": "degree", "source": "mcp", "n_people": 24}
+{"id": "colkg:fcs", "label": "fcs", "type": "order", "source": "internal", "n_people": 23}
+{"id": "colkg:friba", "label": "friba", "type": "order", "source": "internal", "n_people": 21}
+{"id": "Q1765120", "label": "Bachelor of Arts", "type": "degree", "source": "mcp", "n_people": 19}
+{"id": "colkg:mb", "label": "mb", "type": "order", "source": "internal", "n_people": 19}
+{"id": "colkg:mime", "label": "mime", "type": "order", "source": "internal", "n_people": 17}
+{"id": "Q950900", "label": "Master of Science", "type": "degree", "source": "mcp", "n_people": 16}
+{"id": "colkg:frsc", "label": "frsc", "type": "order", "source": "internal", "n_people": 15}
+{"id": "colkg:fic", "label": "fic", "type": "order", "source": "internal", "n_people": 14}
+{"id": "colkg:mimm", "label": "mimm", "type": "order", "source": "internal", "n_people": 13}
+{"id": "colkg:amiee", "label": "amiee", "type": "order", "source": "internal", "n_people": 12}
+{"id": "colkg:fres", "label": "fres", "type": "order", "source": "internal", "n_people": 12}
+{"id": "colkg:ph_d", "label": "ph d", "type": "honour", "source": "internal", "n_people": 11}
+{"id": "colkg:aca", "label": "aca", "type": "order", "source": "internal", "n_people": 11}
+{"id": "colkg:mrcp", "label": "mrcp", "type": "order", "source": "internal", "n_people": 11}
+{"id": "Q15271633", "label": "Fellow of the Royal Society of Arts", "type": "membership", "source": "mcp", "n_people": 10}
+{"id": "colkg:frai", "label": "frai", "type": "order", "source": "internal", "n_people": 9}
+{"id": "colkg:ll_b", "label": "ll b", "type": "honour", "source": "internal", "n_people": 8}
+{"id": "colkg:mina", "label": "mina", "type": "order", "source": "internal", "n_people": 8}
+{"id": "colkg:mras", "label": "mras", "type": "order", "source": "internal", "n_people": 7}
+{"id": "colkg:fric", "label": "fric", "type": "order", "source": "internal", "n_people": 7}
+{"id": "colkg:frcp", "label": "frcp", "type": "order", "source": "internal", "n_people": 7}
+{"id": "colkg:bs", "label": "bs", "type": "order", "source": "internal", "n_people": 6}
+{"id": "colkg:frhs", "label": "frhs", "type": "order", "source": "internal", "n_people": 6}
+{"id": "colkg:frcvs", "label": "frcvs", "type": "order", "source": "internal", "n_people": 6}
+{"id": "colkg:mirse", "label": "mirse", "type": "order", "source": "internal", "n_people": 5}
+{"id": "Q5438598", "label": "Fellow of the Royal Society of Edinburgh", "type": "membership", "source": "mcp", "n_people": 5}
+{"id": "colkg:ch_b", "label": "ch b", "type": "honour", "source": "internal", "n_people": 5}
+{"id": "colkg:lriba", "label": "lriba", "type": "order", "source": "internal", "n_people": 5}
+{"id": "colkg:frics", "label": "frics", "type": "order", "source": "internal", "n_people": 4}
+{"id": "colkg:mrsi", "label": "mrsi", "type": "order", "source": "internal", "n_people": 4}
+{"id": "colkg:fsa", "label": "fsa", "type": "order", "source": "internal", "n_people": 4}
+{"id": "colkg:amimm", "label": "amimm", "type": "order", "source": "internal", "n_people": 4}
+{"id": "colkg:frss", "label": "frss", "type": "order", "source": "internal", "n_people": 4}
+{"id": "colkg:frcsi", "label": "frcsi", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:fgsa", "label": "fgsa", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:mise", "label": "mise", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:frci", "label": "frci", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:fiac", "label": "fiac", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:mrst", "label": "mrst", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:lrcs", "label": "lrcs", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:lrcp_s", "label": "lrcp&s", "type": "honour", "source": "internal", "n_people": 3}
+{"id": "colkg:fcis", "label": "fcis", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:b_ch", "label": "b ch", "type": "honour", "source": "internal", "n_people": 3}
+{"id": "colkg:amime", "label": "amime", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:frcpe", "label": "frcpe", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:frfps", "label": "frfps", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:frcse", "label": "frcse", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:litt_d", "label": "litt d", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:fia", "label": "fia", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:mrcs_lrcp", "label": "mrcs,lrcp", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:b_com", "label": "b com", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:lrfps", "label": "lrfps", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:miae", "label": "miae", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:amire", "label": "amire", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:frms", "label": "frms", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:mims", "label": "mims", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:amina", "label": "amina", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:amioe", "label": "amioe", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:mim", "label": "mim", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:lrfp_s", "label": "lrfp&s", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:mies", "label": "mies", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:b_litt", "label": "b litt", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:b_v_sc", "label": "b v sc", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:amiwe", "label": "amiwe", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:miwe", "label": "miwe", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:lrcsi", "label": "lrcsi", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:miwt", "label": "miwt", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mibae", "label": "mibae", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:micr", "label": "micr", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mire", "label": "mire", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:amise", "label": "amise", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:ll_m", "label": "ll m", "type": "honour", "source": "internal", "n_people": 1}
+{"id": "colkg:mile", "label": "mile", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mita", "label": "mita", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:amier", "label": "amier", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:d_litt", "label": "d litt", "type": "honour", "source": "internal", "n_people": 1}
+{"id": "colkg:mipt", "label": "mipt", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:frcps", "label": "frcps", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:amiae", "label": "amiae", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mrcog", "label": "mrcog", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:acis", "label": "acis", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:frca", "label": "frca", "type": "order", "source": "internal", "n_people": 1}
