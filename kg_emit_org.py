@@ -85,6 +85,12 @@ def clean_colony(lbl: str) -> str:
 def slug(name: str) -> str:
     return "colkg:" + re.sub(r"_+", "_", re.sub(r"[^A-Za-z0-9]+", "_", name)).strip("_")
 
+def nrm(s: str) -> str:
+    """Match the worklist's surface normalisation (casefold, collapse whitespace,
+    drop trailing period) so case/punctuation variants of an event string -- e.g.
+    'E.A.R. & H.' -- resolve to the grounded cache row keyed 'E.A.R. & H'."""
+    return re.sub(r"\s+", " ", (s or "")).strip().rstrip(".").strip().casefold()
+
 def is_generic_dept(surface: str) -> bool:
     """Bare generic department: a department-type keyword and NO place qualifier."""
     return bool(DEPT_KW.search(surface)) and not PLACE_TOK.search(surface)
@@ -128,6 +134,23 @@ def main():
     work = {w["institution"]: w for w in load_jsonl(WORK)}
     events = load_jsonl(EVENTS)
 
+    # normalized-surface index so case/punctuation variants of an event string hit
+    # the grounded cache row (prefer a Wikidata QID row on collision)
+    ncache = {}
+    for r in cache.values():
+        k = nrm(r["institution"])
+        if k not in ncache or (str(r["id"]).startswith("Q") and not str(ncache[k]["id"]).startswith("Q")):
+            ncache[k] = r
+    # drop stale cache rows shadowed by a better row under the same normalized
+    # surface (e.g. an old colkg:E_A_R_H minted before the period-variant fix,
+    # now superseded by the grounded 'E.A.R. & H' -> Q1277719 row)
+    kept = {inst: r for inst, r in cache.items() if ncache[nrm(inst)] is r}
+    if len(kept) < len(cache):
+        cache = kept
+        with CACHE.open("w") as fh:
+            for r in cache.values():
+                fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+
     # ---- per-person colony track (seq -> colony) for back-tracking ---------------
     track = defaultdict(list)  # pid -> [(seq, colony_qid, colony_label)]
     for e in events:
@@ -155,19 +178,27 @@ def main():
         return None
 
     # ---- pass 1: internal-mint uncached, non-generic org surfaces ---------------
+    # Key by normalized surface so punctuation/case variants mint ONE node and
+    # don't shadow a grounded cache row.
     minted = 0
-    uncached = {e["place_raw"] for e in events
-                if e.get("place_raw") and not e.get("place_qid")
-                and ORG.search(e["place_raw"]) and e["place_raw"] not in cache}
-    for surface in sorted(uncached):
-        if is_generic_dept(surface):
-            continue  # handled per-mention by the resolver, not a fixed node
-        cache[surface] = {
+    uncached_norms = {}  # nrm -> representative raw surface
+    for e in events:
+        raw = e.get("place_raw")
+        if not raw or e.get("place_qid") or not ORG.search(raw):
+            continue
+        k = nrm(raw)
+        if k in ncache or is_generic_dept(raw):
+            continue
+        uncached_norms.setdefault(k, raw)
+    for k, surface in uncached_norms.items():
+        row = {
             "institution": surface, "type": work.get(surface, {}).get("type", "organisation"),
             "id": slug(surface), "label": surface.strip().rstrip("."),
             "instance_of": [], "country_qid": None,
             "source": "internal", "match_type": "internal_mint",
         }
+        cache[surface] = row
+        ncache[k] = row
         minted += 1
     if minted:
         with CACHE.open("w") as fh:
@@ -194,7 +225,7 @@ def main():
         edge = {"person_id": pid, "seq": seq, "position": e.get("position"),
                 "year_start": e.get("year_start"), "year_end": e.get("year_end"),
                 "surface": raw}
-        r = cache.get(raw)
+        r = cache.get(raw) or ncache.get(nrm(raw))
         if r and r.get("source") != "ambiguous":
             # 1. directly grounded / internal-minted org
             use_node(r["id"], r["label"], r.get("type", "organisation"),
