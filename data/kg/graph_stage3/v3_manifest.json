@@ -28,6 +28,14 @@
       "nodes": 3807,
       "nodes_qid": 515,
       "education_edges": 14505
+    },
+    "honours": {
+      "nodes": 1608,
+      "nodes_qid": 21,
+      "edges": 16040,
+      "edges_qid": 10828,
+      "edges_internal": 4948,
+      "edges_unlinked": 264
     }
   }
 }

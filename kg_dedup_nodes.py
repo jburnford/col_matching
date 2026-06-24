@@ -119,3 +119,9 @@ if __name__ == "__main__":
     if (GD / "roles.jsonl").exists():
         canonicalize("roles.jsonl", "role_edges.jsonl",
                      "role_id", "role_label", role_aware=True)
+    if (GD / "honour_nodes.jsonl").exists():
+        # plain label-norm fold (QID wins) so a spelled-out award string that
+        # bypassed the acronym-keyed cache ("Colonial Police Medal") collapses
+        # onto its QID node (cpm -> Q3195318).
+        canonicalize("honour_nodes.jsonl", "honour_edges.jsonl",
+                     "honour_id", "honour_label")

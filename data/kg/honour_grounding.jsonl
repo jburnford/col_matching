@@ -1,0 +1,25 @@
+{"institution": "cmg", "type": "order", "id": "Q12177413", "label": "Companion of the Order of St Michael and St George", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "obe", "type": "order", "id": "Q10762848", "label": "Officer of the Order of the British Empire", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "mbe", "type": "order", "id": "Q12201526", "label": "Member of the Order of the British Empire", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "kcmg", "type": "order", "id": "Q12177415", "label": "Knight Commander of the Order of St Michael and St George", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "mc", "type": "decoration", "id": "Q1335064", "label": "Military Cross", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "cbe", "type": "order", "id": "Q12201477", "label": "Commander of the Order of the British Empire", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "knight bachelor", "type": "honour", "id": "Q833163", "label": "Knight Bachelor", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "cpm", "type": "decoration", "id": "Q3195318", "label": "Colonial Police Medal", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "gcmg", "type": "order", "id": "Q12177423", "label": "Knight Grand Cross of the Order of St Michael and St George", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "cb", "type": "order", "id": "Q12177472", "label": "Companion of the Order of the Bath", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "iso", "type": "order", "id": "Q1810753", "label": "Imperial Service Order", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "dso", "type": "decoration", "id": "Q615838", "label": "Distinguished Service Order", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "kcb", "type": "order", "id": "Q12177470", "label": "Knight Commander of the Order of the Bath", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "kc", "type": "appointment", "id": "Q1533366", "label": "King's Counsel", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "pc", "type": "appointment", "id": "Q28841847", "label": "Member of the Privy Council of the United Kingdom", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "qc", "type": "appointment", "id": "Q1533366", "label": "King's Counsel", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse_variant"}
+{"institution": "kbe", "type": "order", "id": "Q12201445", "label": "Knight Commander of the Order of the British Empire", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "gcb", "type": "order", "id": "Q12177451", "label": "Knight Grand Cross of the Order of the Bath", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "frgs", "type": "fellowship", "id": "Q20006267", "label": "Fellow of the Royal Geographical Society", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "mice", "type": "membership", "id": "colkg:mice", "label": "Member of the Institution of Civil Engineers", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
+{"institution": "kpm", "type": "decoration", "id": "Q2792177", "label": "King's Police Medal", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "qpm", "type": "decoration", "id": "Q2792177", "label": "King's Police Medal", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse_variant"}
+{"institution": "cvo", "type": "order", "id": "Q12193183", "label": "Commander of the Royal Victorian Order", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "dfc", "type": "decoration", "id": "Q1229534", "label": "Distinguished Flying Cross", "instance_of": [], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_exact"}
+{"institution": "mvo", "type": "order", "id": "colkg:mvo", "label": "Member of the Royal Victorian Order", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
