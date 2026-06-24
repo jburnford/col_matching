@@ -212,10 +212,13 @@ def main():
     edges = []
     stat = Counter()
 
-    def use_node(id, label, typ, source, country_qid=None):
+    def use_node(id, label, typ, source, country_qid=None, extra=None):
         if id not in org_nodes:
-            org_nodes[id] = {"id": id, "label": label, "type": typ,
-                             "source": source, "country_qid": country_qid}
+            node = {"id": id, "label": label, "type": typ,
+                    "source": source, "country_qid": country_qid}
+            if extra:
+                node.update(extra)
+            org_nodes[id] = node
 
     for e in events:
         raw = e.get("place_raw")
@@ -229,7 +232,8 @@ def main():
         if r and r.get("source") != "ambiguous":
             # 1. directly grounded / internal-minted org
             use_node(r["id"], r["label"], r.get("type", "organisation"),
-                     r["source"], r.get("country_qid"))
+                     r["source"], r.get("country_qid"),
+                     extra={"related_qids": r["related_qids"]} if r.get("related_qids") else None)
             edge.update(org_id=r["id"], org_label=r["label"], org_type=r.get("type"),
                         source=r["source"])
             stat["cached_qid" if str(r["id"]).startswith("Q") else "cached_internal"] += 1
