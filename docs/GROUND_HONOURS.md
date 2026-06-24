@@ -57,12 +57,19 @@ collapsed. Branch qualifiers (military / civil) ride on the EDGE, not the node.
 
 ## STATE — last updated 2026-06-24 (after layer split)
 
-- **41 awards grounded.** Two layers now:
+- **81 awards grounded.** Two layers now:
   - **honours**: 14,684 edges, **72% to a Wikidata QID** (20 decoration QIDs).
-  - **qualifications**: 1,356 edges, **49% to a QID** (16 degree/fellowship QIDs):
-    MA Q2091008, BA Q1765120, BSc Q787674, MSc Q950900, DSc Q2248352, LLD Q959320,
-    DD Q1984623, MD Q913404 · FRCS Q3631327, MRCS Q6815098, FRS Q15631401,
-    FRAS Q26111565, FZS Q25513903, FRSE Q5438598, FRSA Q15271633, FRGS Q20006267.
+  - **qualifications**: 1,356 edges, **67% to a QID** (27 degree/fellowship QIDs);
+    the rest are nicely-labelled internal `colkg:` nodes (engineering-institution
+    memberships AMICE/MIEE/MIME, FSA, FRAI, ACA... — no membership-grade QID exists).
+    Only an **83-mention singleton tail (all count ≤ 3) auto-mints with acronym
+    labels** — the residual qualifications work, refinable but low-value.
+  - Degrees: MA Q2091008, BA Q1765120, BSc Q787674, MSc Q950900, DSc Q2248352,
+    LLD Q959320, DCL Q5287501, DD Q1984623, BD Q2085288, MD Q913404, MB/ChB Q13948235,
+    LLB Q798137, PhD Q752297. Fellowships w/ QIDs: FRS Q15631401, FRSE Q5438598,
+    FRSA Q15271633, FRAS Q26111565, FZS Q25513903, FRGS Q20006267, FRES Q20010681,
+    FGS Q24590727, FRSC Q5442487, FRIBA Q41942190, FRCS Q3631327, MRCS Q6815098,
+    FRCP Q26204035, MRCP Q6815097, MRCVS Q6717443.
 - Head done (count ≥ 60): cmg Q12177413 · obe Q10762848 · mbe Q12201526 ·
   kcmg Q12177415 · mc Q1335064 · cbe Q12201477 · knight bachelor Q833163 ·
   cpm Q3195318 · gcmg Q12177423 · cb Q12177472 · iso Q1810753 · dso Q615838 ·

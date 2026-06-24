@@ -38,11 +38,11 @@
       "edges_unlinked": 264
     },
     "qualifications": {
-      "nodes": 101,
-      "nodes_qid": 16,
+      "nodes": 95,
+      "nodes_qid": 27,
       "edges": 1356,
-      "edges_qid": 668,
-      "edges_internal": 688,
+      "edges_qid": 904,
+      "edges_internal": 452,
       "edges_unlinked": 0
     }
   }
