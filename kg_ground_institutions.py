@@ -16,12 +16,18 @@ Subcommands:
   stats
 """
 from __future__ import annotations
-import argparse, json, re, sys
+import argparse, json, os, re, sys
 from pathlib import Path
 from collections import defaultdict
 
-WORK = Path("data/kg/education_worklist.jsonl")
-CACHE = Path("data/kg/institutions_grounding.jsonl")
+# Paths are env-overridable so the same harness serves both the education layer
+# (defaults below) and the employer/org layer (COL_WORK=org_worklist.jsonl,
+# COL_CACHE=org_grounding.jsonl, COL_NODES=organisations.jsonl,
+# COL_EDGES=employment_edges.jsonl).
+WORK = Path(os.environ.get("COL_WORK", "data/kg/education_worklist.jsonl"))
+CACHE = Path(os.environ.get("COL_CACHE", "data/kg/institutions_grounding.jsonl"))
+EMIT_NODES = os.environ.get("COL_NODES", "institutions.jsonl")
+EMIT_EDGES = os.environ.get("COL_EDGES", "education_edges.jsonl")
 
 def load_work():
     return [json.loads(l) for l in WORK.open()] if WORK.exists() else []
@@ -98,14 +104,14 @@ def cmd_emit(a):
     cache = load_cache(); work = {w["institution"]: w for w in load_work()}
     out = Path("data/kg/graph_stage3")
     # institution nodes (skip ambiguous surfaces — they are not real single nodes)
-    with (out / "institutions.jsonl").open("w") as fh:
+    with (out / EMIT_NODES).open("w") as fh:
         for inst, r in sorted(cache.items()):
             if r.get("source") == "ambiguous": continue
             fh.write(json.dumps({**r, "n_people": work.get(inst, {}).get("count", 0)},
                                 ensure_ascii=False) + "\n")
-    # education edges: person -> institution (one per (person,institution) mention)
+    # edges: person -> institution (one per (person,institution) mention)
     n = 0
-    with (out / "education_edges.jsonl").open("w") as fh:
+    with (out / EMIT_EDGES).open("w") as fh:
         for inst, w in work.items():
             r = cache.get(inst)
             if not r or r.get("source") == "ambiguous": continue
@@ -114,7 +120,8 @@ def cmd_emit(a):
                                      "institution_label": r["label"], "type": r["type"]},
                                     ensure_ascii=False) + "\n")
                 n += 1
-    print(f"emitted {len(cache)} institution nodes, {n} education edges -> {out}/")
+    n_nodes = sum(1 for r in cache.values() if r.get("source") != "ambiguous")
+    print(f"emitted {n_nodes} {EMIT_NODES} nodes, {n} {EMIT_EDGES} -> {out}/")
 
 def cmd_stats(a):
     cache = load_cache(); work = load_work()
