@@ -92,6 +92,15 @@ def parse_position(raw: str):
     s = ABBR_FULL.get(s.rstrip("."), s)
     s = _expand_tokens(s)
 
+    # strip appointment-connector junk that leaked into position_norm
+    # ("to attorney general", "and district officer", "as governor")
+    s = re.sub(r"^(?:to|and|for|as|of|the)\b[\s,.]*", "", s).strip(" ,.")
+    s = re.sub(r"\b(?:to|a|an)$", "", s).strip(" ,.")
+    # collapse a doubled role ("district officer and district officer")
+    m = re.fullmatch(r"(.+?) and \1", s)
+    if m:
+        s = m.group(1)
+
     mods = set()
     changed = True
     while changed:

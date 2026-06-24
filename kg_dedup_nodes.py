@@ -44,13 +44,26 @@ def group_key(node):
             return ("dept", toks)
     return ("lbl", norm(lbl))
 
-def canonicalize(nodes_file, edges_file, id_field, label_field, dept_aware):
+ROLE_STOP = {"of", "the", "for", "and", "to", "a", "an", "in"}
+
+def role_key(label):
+    """Order-preserving but of/the-insensitive, so 'superintendent of police' and
+    'superintendent police' (and 'director of public works' / 'director public
+    works') fold to one role node."""
+    return ("role", " ".join(t for t in norm(label).split() if t not in ROLE_STOP))
+
+def canonicalize(nodes_file, edges_file, id_field, label_field, dept_aware=False, role_aware=False):
     nodes = [json.loads(l) for l in (GD / nodes_file).open()]
     edges = [json.loads(l) for l in (GD / edges_file).open()]
 
     groups = defaultdict(list)
     for n in nodes:
-        key = group_key(n) if dept_aware else ("lbl", norm(n["label"]))
+        if role_aware:
+            key = role_key(n["label"])
+        elif dept_aware:
+            key = group_key(n)
+        else:
+            key = ("lbl", norm(n["label"]))
         groups[key].append(n)
 
     idmap = {}            # old id -> (canonical id, canonical label)
@@ -65,6 +78,11 @@ def canonicalize(nodes_file, edges_file, id_field, label_field, dept_aware):
             # prefer the clean "<Colony> <Dept>" resolved label over a messy
             # internal surface like "audit department, Kenya"
             canon = max(rc, key=lambda n: n.get("n_people", 0))
+        elif role_aware:
+            # prefer the readable "X of Y" form ("superintendent of police") over
+            # the contracted "superintendent police", then by weight
+            canon = max(grp, key=lambda n: (" of " in f" {n['label'].lower()} ",
+                                            n.get("n_people", 0)))
         else:
             canon = max(grp, key=lambda n: n.get("n_people", 0))
         total = sum(n.get("n_people", 0) for n in grp)
@@ -100,4 +118,4 @@ if __name__ == "__main__":
                  "institution_id", "institution_label", dept_aware=False)
     if (GD / "roles.jsonl").exists():
         canonicalize("roles.jsonl", "role_edges.jsonl",
-                     "role_id", "role_label", dept_aware=False)
+                     "role_id", "role_label", role_aware=True)

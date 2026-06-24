@@ -39,7 +39,18 @@ senior, grade I) are NOT roles — they ride on the edge.
    uncached non-control role (so the tail is covered WITHOUT a bulk internal-tail
    pass — grounding only needs to record QIDs for the head). Modifiers emitted as
    `edge.modifiers` (list); one edge per career event with position_raw/year.
-5. `kg_dedup_nodes.py` — run after emit (folds case/spacing variants, remaps edges).
+5. `kg_dedup_nodes.py` — run after emit. For roles it uses an **of/the-insensitive
+   key** so word-order/"of" variants fold to one node ("superintendent of police"
+   ⊇ "superintendent police"/"police superintendent"; "director of public works" ⊇
+   "director public works"), preferring the readable "X of Y" label (or the QID if
+   grounded). ~3,000 role variants merge here.
+
+**Dedup already applied to the worklist:** `kg_role_norm.py` strips appointment-
+connector junk ("to/and/for/as governor", trailing "secretary a", doubled "X and X")
+so those don't appear as separate roles. The of/word-order merge happens post-emit
+(step 5) — so during grounding you may still see "superintendent of police" and
+"superintendent police" as two `pending` rows; ground EITHER to the QID and the
+canonicalizer folds the other into it (QID wins). No pre-grounding dedup pass needed.
 
 ## Disposition (per base-role)
 
