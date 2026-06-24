@@ -1,0 +1,12 @@
+{
+  "persons": 30095,
+  "events": 189918,
+  "events_placed": 160307,
+  "events_grounded": 138766,
+  "events_resolved_via_map": 995,
+  "events_with_colony": 104663,
+  "events_org": 3489,
+  "honours": 16040,
+  "education": 20831,
+  "places_used": 3196
+}
