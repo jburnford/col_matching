@@ -45,5 +45,14 @@
       "edges_internal": 452,
       "edges_unlinked": 0
     }
+  },
+  "career_facts": {
+    "count": 189918,
+    "role_qid": 71314,
+    "role_any": 171000,
+    "org": 3956,
+    "place": 138766,
+    "dated": 180325,
+    "role_place_time": 121160
   }
 }
