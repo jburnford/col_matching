@@ -18,15 +18,19 @@ from pathlib import Path
 WORLD = "/tmp/wmap/world.geojson"
 OUT = Path("docs/jervois_career.gif")
 
-# Jervois's career itinerary (from the KG), one representative posting per stop,
-# with a coordinate for the colony/territory he served in.
+# Jervois's career itinerary (from the KG, via EVENT_PLACE so the imperial
+# fortifications tour -- Malta/Gibraltar/Aden/Bombay -- is included, not just the
+# colony-rollup postings).
 ITIN = [
-    (1842, "Brigade Major",                         "Cape Colony",            -33.92,  18.42),
-    (1845, "Survey mission to Natal",               "Natal",                  -29.88,  31.05),
-    (1846, "Served in the Cape Frontier War",       "Cape Colony",            -33.92,  18.42),
-    (1852, "Imperial defence works (Alderney/London)", "United Kingdom",       51.51,  -0.13),
+    (1842, "Brigade Major",                          "Cape Colony",           -33.92,  18.42),
+    (1845, "Survey mission to Natal",                "Natal",                 -29.88,  31.05),
+    (1852, "Imperial defence works (Alderney)",      "Alderney / UK",          49.72,  -2.20),
     (1863, "Reported on the defences of Canada",     "Canada",                 44.65, -63.58),
+    (1865, "Defence report, Malta",                  "Malta",                  35.90,  14.51),
+    (1866, "Defence report, Gibraltar",              "Gibraltar",              36.14,  -5.35),
     (1869, "Defence reports, Bermuda",               "Bermuda",                32.29, -64.78),
+    (1871, "Defences of Aden & Perim",               "Aden",                   12.79,  45.04),
+    (1871, "Defences of Bombay, India",              "India (Bombay)",         19.08,  72.88),
     (1875, "Governor of the Straits Settlements",    "Straits Settlements",     1.29, 103.85),
     (1877, "Governor of South Australia",            "South Australia",       -34.93, 138.60),
     (1882, "Governor of New Zealand",                "New Zealand",           -41.29, 174.78),
@@ -98,7 +102,8 @@ def main():
                 fontsize=30, fontweight="bold", va="bottom")
         ax.text(0.012, 0.015, f"{role}", transform=ax.transAxes, color=TXT,
                 fontsize=11, va="bottom")
-        ax.text(0.985, 0.02, f"{upto+1} / {len(ITIN)} postings · {len(set(c for *_, c, _, _ in [(0,0,p[2],0,0) for p in ITIN[:upto+1]]))} colonies",
+        n_loc = len({p[2] for p in ITIN[:upto+1]})
+        ax.text(0.985, 0.02, f"{upto+1} / {len(ITIN)} postings · {n_loc} territories",
                 transform=ax.transAxes, ha="right", color="#94a3b8", fontsize=8)
 
     for i in range(len(ITIN)):
