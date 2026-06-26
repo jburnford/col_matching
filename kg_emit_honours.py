@@ -28,8 +28,9 @@ from pathlib import Path
 from collections import Counter
 from kg_honour_norm import parse_honour, honour_class
 
-GD = Path("data/kg/graph_stage3")
-CACHE = Path("data/kg/honour_grounding.jsonl")
+from col_match.kg.paths import kg_out
+GD = kg_out() / "graph_stage3"
+CACHE = kg_out() / "honour_grounding.jsonl"
 HON = GD / "honours.jsonl"
 
 def nrm(s: str) -> str:

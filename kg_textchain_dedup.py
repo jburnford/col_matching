@@ -13,18 +13,22 @@ from __future__ import annotations
 import argparse, json, glob, re
 from collections import defaultdict
 from col_match.services.dedup import surname_key, first_initial, _same_version
+from col_match.kg.paths import kg_out
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--write", default="")
 ap.add_argument("--review", default="")
 args = ap.parse_args()
 
+KG = str(kg_out())
 # load all bios + current person mapping
 bios = []
-for f in glob.glob("data/kg/bios/*.jsonl"):
+for f in glob.glob(f"{KG}/bios/*.jsonl"):
+    if ".xref" in f:
+        continue
     for l in open(f):
         bios.append(json.loads(l))
-P = [json.loads(l) for l in open("data/kg/persons.jsonl")]
+P = [json.loads(l) for l in open(f"{KG}/persons.jsonl")]
 bio2pid = {bid: p["person_id"] for p in P for bid in p.get("attestation_bio_ids", [])}
 pid_by = {p["person_id"]: p for p in P}
 

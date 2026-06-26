@@ -15,11 +15,12 @@ from pathlib import Path
 from col_match.kg import ground as ground_mod
 from col_match.kg import colony as colony_mod
 from col_match.kg.normalize import position_norm
+from col_match.kg.paths import KG_OUT
 from col_match.volume import status as status_mod
 
 ap = argparse.ArgumentParser()
-ap.add_argument("--corpus", default="data/kg/llm_struct_corpus.stage3.jsonl")
-ap.add_argument("--out", default="data/kg/graph_stage3")
+ap.add_argument("--corpus", default=str(KG_OUT / "llm_struct_corpus.stage3.jsonl"))
+ap.add_argument("--out", default=str(KG_OUT / "graph_stage3"))
 args = ap.parse_args()
 
 gdir = Path(args.out); gdir.mkdir(parents=True, exist_ok=True)
@@ -30,7 +31,8 @@ colony_of = {pl: colony_mod.resolve_colony(row) for pl, row in gcache.items()}
 from collections import Counter, defaultdict
 _per = {}                       # (person_id, place) -> resolved_query
 _glob = defaultdict(Counter)    # place -> Counter(resolved_query)
-for l in open("data/kg/places_resolution_map.jsonl"):
+_resmap = KG_OUT / "places_resolution_map.jsonl"
+for l in (_resmap.open(encoding="utf-8") if _resmap.exists() else []):
     rr = json.loads(l)
     _per[(rr["person_id"], rr["place"])] = rr["resolved_query"]
     _glob[rr["place"]][rr["resolved_query"]] += 1
@@ -40,10 +42,18 @@ _ORG = re.compile(r"\b(railway|R\. ?& ?H|posts|telegraph|tels|currency|administr
                   r"constabulary|secretariat|treasury|survey|board|commission|service|"
                   r"corps|command|brigade|K\.A\.R|R\.A\.F|R\.N)\b", re.I)
 
+from col_match.kg.place_canon import canonicalize as _canon
+
 def resolve_place(place, attestations):
-    """Return (grounding_row, resolved_via). Direct cache hit, else context map."""
+    """Return (grounding_row, resolved_via). Direct cache hit, else the
+    canonicalised surface (bridges abbreviations like 'United Provs.' to a
+    seeded 'United Provinces' QID), else the per-person context map."""
     g = gcache.get(place)
     if g and g.get("qid"): return g, None
+    cq = _canon(place)
+    if cq != place:
+        gc = gcache.get(cq)
+        if gc and gc.get("qid"): return gc, cq
     rq = next((_per[(a, place)] for a in attestations if (a, place) in _per), None) or _glob1.get(place)
     if rq:
         g2 = gcache.get(rq)
@@ -52,15 +62,29 @@ def resolve_place(place, attestations):
 
 # bios index for status-tail classification (by latest attestation)
 bio_txt = {}
-for f in Path("data/kg/bios").glob("*.jsonl"):
+for f in (KG_OUT / "bios").glob("*.jsonl"):
+    if f.name.endswith(".xref.jsonl"):
+        continue
     for l in f.open(encoding="utf-8"):
         b = json.loads(l); bio_txt[b["bio_id"]] = b.get("raw_text", "")
 
 def edition(pid):
-    m = re.search(r"(col|dol)(\d{4})", pid); return int(m.group(2)) if m else 0
+    m = re.search(r"(col|dol|iol)(\d{4})", pid); return int(m.group(2)) if m else 0
 def bioid(pid): return pid[4:] if pid.startswith("kgp_") else pid
 
 rows = [json.loads(l) for l in open(args.corpus)]
+
+# person -> Wikidata QID (verified, zero-FP grounding layer; produced by
+# kg_ground_persons.py -> verify_person_qids.py -> apply_person_verification.py)
+person_qid = {}
+_pgf = gdir / "person_grounding.final.jsonl"
+if not _pgf.exists():
+    _pgf = gdir / "person_grounding.verified.jsonl"
+if _pgf.exists():
+    for l in _pgf.open(encoding="utf-8"):
+        g = json.loads(l)
+        person_qid[g["person_id"]] = (g["qid"], g.get("wd_name"), g.get("tier"))
+
 f_persons = (gdir / "persons.jsonl").open("w", encoding="utf-8")
 f_events  = (gdir / "career_events.jsonl").open("w", encoding="utf-8")
 f_hon     = (gdir / "honours.jsonl").open("w", encoding="utf-8")
@@ -81,6 +105,9 @@ for r in rows:
         "birth_year": r.get("birth_year"),
         "editions": r.get("editions"), "n_attestations": r.get("n_attestations"),
         "attestations": r.get("attestations"), "flags": r.get("flags", []),
+        "wikidata_qid": person_qid.get(pid, (None, None, None))[0],
+        "wikidata_label": person_qid.get(pid, (None, None, None))[1],
+        "wikidata_tier": person_qid.get(pid, (None, None, None))[2],
     }, ensure_ascii=False) + "\n")
 
     atts = r.get("attestations") or [pid]

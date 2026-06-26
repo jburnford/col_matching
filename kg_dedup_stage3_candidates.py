@@ -40,7 +40,7 @@ args = ap.parse_args()
 NK = re.compile(r"[^a-z]")
 def nk(s): return NK.sub("", (s or "").lower())
 def edition(pid):
-    m = re.search(r"(col|dol)(\d{4})", pid or ""); return int(m.group(2)) if m else None
+    m = re.search(r"(col|dol|iol)(\d{4})", pid or ""); return int(m.group(2)) if m else None
 
 # place surface -> grounded qid
 gqid = {}
@@ -48,15 +48,38 @@ for l in open(args.grounding):
     r = json.loads(l)
     if r.get("qid"): gqid[r["place"]] = r["qid"]
 
+_PSTEM = re.compile(r"[^a-z]")
+def posstem(p): return _PSTEM.sub("", (p or "").lower())[:14]
+
+# Generic, high-frequency positions: a shared (generic-position, common-place) is
+# NOT person-identifying on its own. Such a posting is only conclusive when it
+# carries a matching YEAR (an exact appointment) or appears in a multi-posting chain.
+GENERIC_POS = {
+    "assistantcommi","assistantengin","executiveengin","assistantmagis","deputycommissi",
+    "assistantsuper","officiating","confirmed","assistant","engineer","clerk","magistrate",
+    "joinedtheservi","probationer","extraassistant","subdivisional","actingmagistr",
+    "superintenden","districtsuperi","executiveengi","assistantmagi",
+}
+
 def summarize(rec):
-    """Per-record dedup features: place_qids, year span, grounded place count."""
+    """Per-record dedup features: place_qids, year span, and POSTINGS.
+
+    postings_yr  = {(posstem, place_qid, year)}  exact appointment keys (strongest)
+    postings     = {(posstem, place_qid)}        job@place keys (chain signal)
+    """
     qids, years = set(), []
+    postings_yr, postings = set(), set()
     for e in rec.get("events") or []:
         pl = e.get("place")
         q = gqid.get(pl) if pl else None
+        ps = posstem(e.get("position") or e.get("position_norm"))
         if q: qids.add(q)
-        for y in (e.get("year_start"), e.get("year_end")):
+        ys, ye = e.get("year_start"), e.get("year_end")
+        for y in (ys, ye):
             if isinstance(y, int): years.append(y)
+        if ps and q:
+            postings.add((ps, q))
+            if isinstance(ys, int): postings_yr.add((ps, q, ys))
     return {
         "person_id": rec.get("person_id"),
         "edition": edition(rec.get("person_id")),
@@ -65,6 +88,8 @@ def summarize(rec):
         "education": (rec.get("education") or "")[:120],
         "n_events": len(rec.get("events") or []),
         "place_qids": sorted(qids),
+        "postings": postings,
+        "postings_yr": postings_yr,
         "year_lo": min(years) if years else None,
         "year_hi": max(years) if years else None,
     }
@@ -113,22 +138,45 @@ for (sk, gk), recs in groups.items():
     contig = year_contiguous(members)
     names_compatible = name_ok(members)
 
+    # --- POSTING signals (the appointment-chain lever): pairwise-shared job@place ---
+    shared_post_yr, shared_post = set(), set()
+    for i in range(len(members)):
+        for j in range(i + 1, len(members)):
+            shared_post_yr |= members[i]["postings_yr"] & members[j]["postings_yr"]
+            shared_post    |= members[i]["postings"]    & members[j]["postings"]
+    # a shared posting is "specific" if the position is not in the generic head
+    specific_post = {(ps, q) for (ps, q) in shared_post if ps not in GENERIC_POS}
+    # exact appointment (job@place@year) OR a multi-posting chain OR a specific shared post
+    strong_posting = bool(shared_post_yr) or len(shared_post) >= 2 or bool(specific_post)
+
     if len(births) >= 2:
-        tier = "CONFLICT"
+        # different birth years = namesakes, UNLESS a strong posting says same person
+        # (then it's an OCR birth-year error) -> route to review, never auto-split silently
+        tier = "CONFLICT_POSTING" if strong_posting else "CONFLICT"
     elif len(births) == 1:
         tier = "A_birth" if names_compatible else "CONFLICT"
-    else:  # no birth year anywhere
-        if any_shared and names_compatible and (contig is None or contig <= 2):
-            tier = "B_place"
-        else:
-            tier = "WEAK"
+    elif strong_posting and names_compatible and (contig is None or contig <= 5):
+        tier = "C_posting"                       # NEW: appointment-chain merge, no birth needed
+    elif names_compatible and len(any_shared) >= 2 and (contig is None or contig <= 2):
+        tier = "B_place"                         # non-thin: >=2 shared colonies + contiguous
+    elif any_shared and names_compatible and (contig is None or contig <= 2):
+        tier = "B_thin"                          # 1 common colony only, no shared posting -> HOLD
+    else:
+        tier = "WEAK"
 
+    for m in members:                            # make JSON-serializable; drop heavy sets
+        m["n_postings"] = len(m.pop("postings"))
+        m.pop("postings_yr", None)
     cands.append({
         "surname_key": sk, "given_key": gk, "tier": tier,
         "n_members": len(members),
         "births": births,
         "shared_qids_all": sorted(shared_qids),
         "shared_qids_any": sorted(any_shared),
+        "shared_postings": sorted(f"{ps}@{q}" for ps, q in shared_post),
+        "shared_postings_yr": sorted(f"{ps}@{q}:{y}" for ps, q, y in shared_post_yr),
+        "n_specific_postings": len(specific_post),
+        "strong_posting": strong_posting,
         "year_gap": contig,
         "names_compatible": names_compatible,
         "members": members,
@@ -145,14 +193,19 @@ tc = Counter(c["tier"] for c in cands)
 rec_in = Counter()
 for c in cands: rec_in[c["tier"]] += c["n_members"]
 print(f"corpus records: {n_records:,}  | same-name groups (both names present): {len(cands):,}\n")
-print(f"{'tier':<10}{'groups':>8}{'records':>9}{'-> merges_to':>13}")
-for t in ("A_birth", "B_place", "CONFLICT", "WEAK"):
+print(f"{'tier':<18}{'groups':>8}{'records':>9}{'-> merges_to':>13}")
+AUTO = ("A_birth", "C_posting", "B_place")          # auto-mergeable tiers
+HOLD = ("B_thin", "CONFLICT_POSTING")               # review (over-merge risk / OCR birth)
+for t in ("A_birth", "C_posting", "B_place", "B_thin", "CONFLICT_POSTING", "CONFLICT", "WEAK"):
     g = tc.get(t, 0); r = rec_in.get(t, 0)
-    print(f"{t:<10}{g:>8}{r:>9}{r-g:>13}")
-mergeable = tc.get("A_birth", 0) + tc.get("B_place", 0)
-recs_folded = (rec_in.get("A_birth", 0) - tc.get("A_birth", 0)) + (rec_in.get("B_place", 0) - tc.get("B_place", 0))
-print(f"\nif A_birth+B_place merged: {n_records:,} -> ~{n_records - recs_folded:,} persons "
+    print(f"{t:<18}{g:>8}{r:>9}{r-g:>13}")
+mergeable = sum(tc.get(t, 0) for t in AUTO)
+recs_folded = sum(rec_in.get(t, 0) - tc.get(t, 0) for t in AUTO)
+print(f"\nif AUTO ({'+'.join(AUTO)}) merged: {n_records:,} -> ~{n_records - recs_folded:,} persons "
       f"({recs_folded:,} records folded across {mergeable:,} groups)")
+held_folded = sum(rec_in.get(t, 0) - tc.get(t, 0) for t in HOLD)
+print(f"HOLD tiers ({'+'.join(HOLD)}): {sum(tc.get(t,0) for t in HOLD):,} groups / "
+      f"{held_folded:,} potential merges -> review before applying")
 
 def show(tier, k):
     rows = [c for c in cands if c["tier"] == tier]

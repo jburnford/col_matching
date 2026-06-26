@@ -1,0 +1,935 @@
+[
+ {
+  "group_id": "gilson|chashugh",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1909-p718b7",
+    "kgp_col1923-p820b8"
+   ]
+  ],
+  "reason": "Same B.S.A. police + Natal civil service trajectory, later edition extends earlier."
+ },
+ {
+  "group_id": "greene|georgeball",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1909-p722b20",
+    "kgp_col1919-p778b22",
+    "kgp_col1920-p830b2_s15"
+   ]
+  ],
+  "reason": "Identical Br. Guiana clerk/secretariat career across editions; differing birth = OCR."
+ },
+ {
+  "group_id": "hayes|jb",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1917-p774b17",
+    "kgp_col1922-p818b9"
+   ]
+  ],
+  "reason": "Same Tasmania minister of lands/works/agriculture 1916."
+ },
+ {
+  "group_id": "hoar|williamhenry",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1913-p708b2",
+    "kgp_col1922-p821b22"
+   ]
+  ],
+  "reason": "Identical St. Kitts gaoler -> Br. Honduras prisons career; b1884 is OCR error."
+ },
+ {
+  "group_id": "lemessurier|henrywm",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1908-p683b14",
+    "kgp_col1919-p813b10"
+   ]
+  ],
+  "reason": "Identical Newfoundland customs career; b1884 impossible vs M.H.A. 1885, OCR error."
+ },
+ {
+  "group_id": "macfeat|pd",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1924-p906b5",
+    "kgp_col1920-p874b2_s7"
+   ]
+  ],
+  "reason": "Identical executive engineer PWD E.A.P. 1913."
+ },
+ {
+  "group_id": "milthorp|bernardthomas",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1919-p833b18",
+    "kgp_col1912-p737b4"
+   ]
+  ],
+  "reason": "Same B.C.A. assistant collector from 1896; later edition extends."
+ },
+ {
+  "group_id": "petch|tom",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1925-p962b20",
+    "kgp_col1918-p821b11",
+    "kgp_col1921-p908b2_s11"
+   ]
+  ],
+  "reason": "Same Ceylon botanist/mycologist + acting director agriculture; OCR birth variance."
+ },
+ {
+  "group_id": "poole|thomasstanley",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1927-p1008b15",
+    "kgp_col1925-p964b22"
+   ]
+  ],
+  "reason": "Same S. Australia puisne judge 1919 + acting CJ 1925."
+ },
+ {
+  "group_id": "richardson|js",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p491b22",
+    "kgp_col1894-p533b6"
+   ]
+  ],
+  "reason": "Same senior NSW colonial forces commandant, C.B."
+ },
+ {
+  "group_id": "smith|maxwellhinds",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1917-p860b8",
+    "kgp_col1922-p912b3"
+   ]
+  ],
+  "reason": "Same Trinidad civil service + chief inspector of revenue 1912; later extends."
+ },
+ {
+  "group_id": "tanner|b",
+  "verdict": "PARTIAL",
+  "merge_sets": [
+   [
+    "kgp_col1908-p737b5",
+    "kgp_col1922-p922b4"
+   ]
+  ],
+  "reason": "Two distinct B. Tanners: Hong Kong Queen's College masters (1908/1922) merge; Gambia 1864 manager is an unrelated namesake."
+ },
+ {
+  "group_id": "sturman|edwardalbert",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1923-p936b4",
+    "kgp_col1913-p792b2_s4"
+   ]
+  ],
+  "reason": "Identical S. Africa posts & telegraphs career; later edition extends."
+ },
+ {
+  "group_id": "whitington|peter",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1922-p939b4",
+    "kgp_col1909-p817b4"
+   ]
+  ],
+  "reason": "Same S. Australia commissioner of audit."
+ },
+ {
+  "group_id": "wright|ws",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1910-p792b12",
+    "kgp_col1917-p890b9"
+   ]
+  ],
+  "reason": "Same registrar of high court E.A.P. 1909."
+ },
+ {
+  "group_id": "bland|henriseverin",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_dol1935-p834b13",
+    "kgp_col1933-p840b9"
+   ]
+  ],
+  "reason": "Same Quebec physician/MP/senator career; OCR birth variance."
+ },
+ {
+  "group_id": "elliot|charleswilfred",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1939-p982b14",
+    "kgp_col1948-p449b6"
+   ]
+  ],
+  "reason": "Same Kenya forestry (assistant conservator 1922), M.C.; OCR birth."
+ },
+ {
+  "group_id": "greaves|aubreyvernon",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1936-p903b3",
+    "kgp_col1939-p1005b1"
+   ]
+  ],
+  "reason": "Identical Bahamas/Hong Kong bacteriologist career, same degrees."
+ },
+ {
+  "group_id": "hartley|johnwhittam",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1909-p729b12",
+    "kgp_col1912-p695b3"
+   ]
+  ],
+  "reason": "Identical Hong Kong medical/railway officer career, same education."
+ },
+ {
+  "group_id": "hoskins|ronalddouglas",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1939-p1019b14",
+    "kgp_col1939-p1023b14"
+   ]
+  ],
+  "reason": "Same Kenya police + K.U.R.&H. mercantile marine career; OCR birth."
+ },
+ {
+  "group_id": "jobling|geoffreylionel",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_dol1935-p924b18",
+    "kgp_col1939-p1032b9",
+    "kgp_col1940-p971b15"
+   ]
+  ],
+  "reason": "Identical N. Rhodesia/Tanganyika legal career across 3 editions."
+ },
+ {
+  "group_id": "marlow|sydneyraymond",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1937-p973b24",
+    "kgp_col1940-p999b12"
+   ]
+  ],
+  "reason": "Same Nigeria treasury career; later edition extends."
+ },
+ {
+  "group_id": "parke|ls",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1937-p991b22",
+    "kgp_col1940-p1018b11"
+   ]
+  ],
+  "reason": "Same Hampshire regt/Coldstream/Zanzibar/Persian Gulf police career."
+ },
+ {
+  "group_id": "reece|cmansel",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1934-p990b14",
+    "kgp_col1937-p1003b16",
+    "kgp_col1939-p1086b20"
+   ]
+  ],
+  "reason": "Same Zanzibar/Uganda/Grenada/Gibraltar legal career across 3 editions."
+ },
+ {
+  "group_id": "todd|dc",
+  "verdict": "PARTIAL",
+  "merge_sets": [
+   [
+    "kgp_col1959-p479b21",
+    "kgp_col1966-p319b16"
+   ]
+  ],
+  "reason": "Two distinct D.C. Todds: b1924 Uganda agriculture officer (2 records) merge; b1906 St. Kitts/Montserrat career is a namesake, split out."
+ },
+ {
+  "group_id": "vanston|jamesjohn",
+  "verdict": "SPLIT",
+  "merge_sets": [],
+  "reason": "Different schooling (Aberdeen vs Hong Kong) and non-overlapping records; distinct namesake ship surveyors."
+ },
+ {
+  "group_id": "vigne|chidlow",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1937-p1041b18",
+    "kgp_col1939-p1125b7",
+    "kgp_col1948-p555b7"
+   ]
+  ],
+  "reason": "Same Gold Coast forestry career across 3 editions; OCR birth."
+ },
+ {
+  "group_id": "warren|johnjoseph",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1940-p1073b14",
+    "kgp_col1936-p1026b1_s9",
+    "kgp_col1937-p1045b11_s1"
+   ]
+  ],
+  "reason": "Identical FMS police -> S.S. excise career across 3 editions."
+ },
+ {
+  "group_id": "ragg|ha",
+  "verdict": "PARTIAL",
+  "merge_sets": [
+   [
+    "kgp_col1953-p307b17",
+    "kgp_col1957-p418b9"
+   ]
+  ],
+  "reason": "Two distinct H.A. Raggs: b1904 Fiji engineer (2 records) merge; b1910 Fiji/B.S.I.P. postal career is a namesake, split out."
+ },
+ {
+  "group_id": "deacon|pl",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1911-p661b16",
+    "kgp_col1915-p691b9"
+   ]
+  ],
+  "reason": "Same E.A.P. assistant district commissioner 1907."
+ },
+ {
+  "group_id": "denniston|johnedward",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1909-p666b16",
+    "kgp_col1909-p700b16",
+    "kgp_col1919-p751b6"
+   ]
+  ],
+  "reason": "Same N. Zealand puisne judge 1889 (senior near-unique); birth years OCR."
+ },
+ {
+  "group_id": "dyer|thostheodorerodney",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1909-p704b22",
+    "kgp_col1913-p675b17"
+   ]
+  ],
+  "reason": "Identical St. Lucia/Windward Is. clerk career; OCR birth."
+ },
+ {
+  "group_id": "lightbody|lj",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1910-p719b16",
+    "kgp_col1915-p756b5"
+   ]
+  ],
+  "reason": "Same E.A.P. assistant district commissioner 1908."
+ },
+ {
+  "group_id": "lowsley|lioneldewe",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1909-p753b5",
+    "kgp_col1914-p757b17"
+   ]
+  ],
+  "reason": "Same Uganda/E.A.P. medical officer 1902."
+ },
+ {
+  "group_id": "morgan|john",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p249b11",
+    "kgp_col1879-p434b4"
+   ]
+  ],
+  "reason": "Same Mauritius harbour-master career."
+ },
+ {
+  "group_id": "pryce|howardlloyd",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1917-p840b15",
+    "kgp_col1915-p792b17_s7"
+   ]
+  ],
+  "reason": "Same Gambia travelling commissioner career, C.M.G."
+ },
+ {
+  "group_id": "pugsley|william",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1925-p967b18",
+    "kgp_col1915-p793b4_s2"
+   ]
+  ],
+  "reason": "Identical New Brunswick premier/Lt-Gov career; b1850 vs 1860 OCR."
+ },
+ {
+  "group_id": "rind|walterlockhart",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1905-p702b6",
+    "kgp_col1909-p786b8",
+    "kgp_col1910-p754b20",
+    "kgp_col1912-p760b19"
+   ]
+  ],
+  "reason": "Same Seychelles private secretary career across 4 editions."
+ },
+ {
+  "group_id": "rogers|johnarthur",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1908-p720b3",
+    "kgp_col1912-p763b5"
+   ]
+  ],
+  "reason": "Same Gold Coast public works/volunteer career."
+ },
+ {
+  "group_id": "strickland|rb",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1905-p716b5",
+    "kgp_col1910-p772b20"
+   ]
+  ],
+  "reason": "Same Ceylon inspector of schools 1902, M.A. Dublin."
+ },
+ {
+  "group_id": "hemmant|ev",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1911-p695b16",
+    "kgp_col1918-p761b6"
+   ]
+  ],
+  "reason": "Same E.A.P. assistant district commissioner 1908."
+ },
+ {
+  "group_id": "seccombe|gs",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p497b8",
+    "kgp_col1897-p558b17"
+   ]
+  ],
+  "reason": "Same Trinidad lunatic asylum medical superintendent 1882."
+ },
+ {
+  "group_id": "morris|clementrobertson",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1932-p999b15",
+    "kgp_col1934-p969b19"
+   ]
+  ],
+  "reason": "Identical Cape post/customs clerk chain to 1914; later record extends (railways/customs)."
+ },
+ {
+  "group_id": "blanc|gb",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p212b20",
+    "kgp_col1886-p410b13"
+   ]
+  ],
+  "reason": "Same Dominica engineer/inspector of roads 1862."
+ },
+ {
+  "group_id": "boschreitz|guillaumeja",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p411b14",
+    "kgp_col1888-p442b17"
+   ]
+  ],
+  "reason": "Identical British Guiana clerk career."
+ },
+ {
+  "group_id": "court|henry",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1890-p468b18",
+    "kgp_col1896-p567b18"
+   ]
+  ],
+  "reason": "Same Trinidad puisne judge."
+ },
+ {
+  "group_id": "harding|gr",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p449b19",
+    "kgp_col1889-p489b22"
+   ]
+  ],
+  "reason": "Same Queensland senior puisne judge 1879."
+ },
+ {
+  "group_id": "keenan|patrickjoseph",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p459b7",
+    "kgp_col1889-p500b13"
+   ]
+  ],
+  "reason": "Same (Resident) Commissioner of national education, Ireland, K.C.M.G./C.B."
+ },
+ {
+  "group_id": "mure|andrew",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1883-p423b17",
+    "kgp_col1896-p624b12"
+   ]
+  ],
+  "reason": "Same Mauritius puisne judge 1880, M.A."
+ },
+ {
+  "group_id": "solomon|ae",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1912-p776b17",
+    "kgp_col1913-p788b5"
+   ]
+  ],
+  "reason": "Same Tasmania attorney-general/minister of education + premier."
+ },
+ {
+  "group_id": "norton|cuthberthugh",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1937-p987b20",
+    "kgp_col1939-p1070b12"
+   ]
+  ],
+  "reason": "Identical Br. Guiana taxation/district commissioner career; OCR birth."
+ },
+ {
+  "group_id": "hayward|arthuredwin",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1937-p931b15",
+    "kgp_col1939-p1015b9_s1"
+   ]
+  ],
+  "reason": "Identical Cape audit clerk career; OCR birth."
+ },
+ {
+  "group_id": "hutchinson|w",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1914-p737b10",
+    "kgp_col1917-p784b9"
+   ]
+  ],
+  "reason": "Same Victoria minister of agriculture 1913."
+ },
+ {
+  "group_id": "bannerman|samuel",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1889-p440b8",
+    "kgp_col1883-p355b16"
+   ]
+  ],
+  "reason": "Same Gold Coast (Secondee) district commissioner / customs."
+ },
+ {
+  "group_id": "baumgartner|ej",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p406b8",
+    "kgp_col1890-p448b20"
+   ]
+  ],
+  "reason": "Same Gibraltar registrar of Supreme Court 1867."
+ },
+ {
+  "group_id": "blackett|john",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p410b6",
+    "kgp_col1890-p452b10"
+   ]
+  ],
+  "reason": "Same New Zealand chief/engineer-in-chief PWD."
+ },
+ {
+  "group_id": "brownlee|charles",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1877-p355b8",
+    "kgp_col1888-p446b4",
+    "kgp_col1879-p381b8",
+    "kgp_col1890-p457b13"
+   ]
+  ],
+  "reason": "Same Cape Gaika commissioner 1846-68 / native minister across 4 editions."
+ },
+ {
+  "group_id": "hoffmeyr|januaryhendrik",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1890-p500b18",
+    "kgp_col1890-p500b19"
+   ]
+  ],
+  "reason": "Same Cape (Stellenbosch) legislative council member, consecutive entries."
+ },
+ {
+  "group_id": "hodgson|robert",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1888-p489b20",
+    "kgp_col1880-p386b17"
+   ]
+  ],
+  "reason": "Same Sir Robert Hodgson, CJ/Lt-Gov P.E.I. 1873-79; \"Nova Scotia\" is a place OCR slip."
+ },
+ {
+  "group_id": "irvine|ag",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p456b23",
+    "kgp_col1890-p503b8"
+   ]
+  ],
+  "reason": "Same NWMP commissioner / Lt-Col, Canada 1876."
+ },
+ {
+  "group_id": "jenner|g",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p457b16",
+    "kgp_col1889-p498b20"
+   ]
+  ],
+  "reason": "Same Mauritius sanitary warden 1875."
+ },
+ {
+  "group_id": "jewell|rr",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p240b6",
+    "kgp_col1886-p458b5"
+   ]
+  ],
+  "reason": "Same Western Australia clerk of works 1853."
+ },
+ {
+  "group_id": "lister|alfred",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p243b24",
+    "kgp_col1886-p465b12"
+   ]
+  ],
+  "reason": "Same Hong Kong civil service cadet 1865."
+ },
+ {
+  "group_id": "middleton|frederickdobson",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p475b9",
+    "kgp_col1888-p512b21"
+   ]
+  ],
+  "reason": "Same Canada militia command 1884 + NW expedition 1885, K.C.M.G."
+ },
+ {
+  "group_id": "patterson|andrew",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1886-p485b9",
+    "kgp_col1890-p533b7"
+   ]
+  ],
+  "reason": "Same Gibraltar assistant auditor 1883."
+ },
+ {
+  "group_id": "prime|c",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1877-p408b7",
+    "kgp_col1883-p434b15"
+   ]
+  ],
+  "reason": "Same Ceylon draughtsman/framer of estimates 1866."
+ },
+ {
+  "group_id": "robinson|bryan",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p257b26",
+    "kgp_col1878-p427b14"
+   ]
+  ],
+  "reason": "Same Newfoundland supreme court judge 1858."
+ },
+ {
+  "group_id": "walcott|stephen",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p269b3",
+    "kgp_col1879-p464b17"
+   ]
+  ],
+  "reason": "Same colonial land & emigration secretary / Canada civil secretary 1835."
+ },
+ {
+  "group_id": "bisset|alexander",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1877-p352b14",
+    "kgp_col1883-p359b17"
+   ]
+  ],
+  "reason": "Same New Zealand war + Cape (Kaffraria/Stockenstrom) magistrate career."
+ },
+ {
+  "group_id": "budge|william",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p215b11",
+    "kgp_col1877-p355b15"
+   ]
+  ],
+  "reason": "Same Trinidad registrar of courts career."
+ },
+ {
+  "group_id": "eales|charles",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1877-p368b14",
+    "kgp_col1878-p382b8"
+   ]
+  ],
+  "reason": "Same Calcutta/Mauritius emigration agent 1863."
+ },
+ {
+  "group_id": "gerrard|john",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1880-p376b3",
+    "kgp_col1877-p374b4"
+   ]
+  ],
+  "reason": "Same Hong Kong registrar-general clerk 1860."
+ },
+ {
+  "group_id": "kelly|lf",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p240b24",
+    "kgp_col1879-p419b10"
+   ]
+  ],
+  "reason": "Same Ceylon deputy assistant commissary-general."
+ },
+ {
+  "group_id": "langton|john",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p242b18",
+    "kgp_col1877-p389b21"
+   ]
+  ],
+  "reason": "Same Canada auditor of public accounts + vice-chancellor."
+ },
+ {
+  "group_id": "colenso|johnwilliam",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p250b17",
+    "kgp_col1867-p250b17_s1"
+   ]
+  ],
+  "reason": "Same 1st Bishop of Natal 1853 (two near-identical entries)."
+ },
+ {
+  "group_id": "sanders|edwardhoward",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p259b17",
+    "kgp_col1877-p412b3"
+   ]
+  ],
+  "reason": "Same British Columbia gold commissioner 1859 + Austrian/German Legion officer."
+ },
+ {
+  "group_id": "taylor|d",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1877-p419b5",
+    "kgp_col1879-p458b11"
+   ]
+  ],
+  "reason": "Same British Honduras clerk of courts 1874."
+ },
+ {
+  "group_id": "torrens|rr",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1867-p267b7",
+    "kgp_col1877-p420b15"
+   ]
+  ],
+  "reason": "Same South Australia registrar-general of lands."
+ },
+ {
+  "group_id": "attygale|j",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1899-p475b20",
+    "kgp_col1897-p457b10"
+   ]
+  ],
+  "reason": "Same Ceylon medical assistant 1866 -> colonial surgeon 1890."
+ },
+ {
+  "group_id": "cormack|ab",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1965-p231b2",
+    "kgp_col1959-p330b2_s1"
+   ]
+  ],
+  "reason": "Identical Nyasaland agriculture officer career; b1895 vs 1905 OCR."
+ },
+ {
+  "group_id": "koho|banwickremeas",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1939-p1036b11",
+    "kgp_col1939-p1040b11"
+   ]
+  ],
+  "reason": "Same Ceylon civil service cadet 1938."
+ },
+ {
+  "group_id": "giblin|wr",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1883-p388b20",
+    "kgp_col1886-p443b4"
+   ]
+  ],
+  "reason": "Same Tasmania premier/attorney-general."
+ },
+ {
+  "group_id": "henri|severin",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1925-p816b3_s1",
+    "kgp_col1923-p755b5_s1",
+    "kgp_col1933-p840b9_s2",
+    "kgp_dol1935-p834b13_s1"
+   ]
+  ],
+  "reason": "Same Quebec physician/MP/senator (Severin Henri/Bland) across 4 editions."
+ },
+ {
+  "group_id": "cowie|dd",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_col1888-p434b2_s1",
+    "kgp_col1900-p515b20_s1",
+    "kgp_col1898-p518b24_s1"
+   ]
+  ],
+  "reason": "Same Lucknow chaplain / chaplain to Viceroy 1863 across editions."
+ }
+]

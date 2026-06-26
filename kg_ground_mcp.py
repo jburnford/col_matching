@@ -25,8 +25,9 @@ import json
 from pathlib import Path
 
 from col_match.kg import ground as G
+from col_match.kg.paths import KG_OUT
 
-WORKLIST = Path("data/kg/places_worklist.grounding.jsonl")
+WORKLIST = KG_OUT / "places_worklist.grounding.jsonl"
 
 
 def _load_worklist():
@@ -35,13 +36,17 @@ def _load_worklist():
 
 
 def _grounded_queries() -> set[str]:
-    """Queries already in the cache (tracked via the `query` field we write)."""
+    """Queries/places already grounded in the cache. Tracks both the `query`
+    field (written by the MCP loop) AND the `place` key (so seeded canonical
+    names, e.g. the 1937-KG seed, are not re-grounded by the loop)."""
     done = set()
     if G.CACHE.exists():
         for l in G.CACHE.open(encoding="utf-8"):
             r = json.loads(l)
             if r.get("query"):
                 done.add(r["query"])
+            if r.get("place") and r.get("qid"):
+                done.add(r["place"])
     return done
 
 

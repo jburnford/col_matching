@@ -44,6 +44,18 @@
       "edges_qid": 904,
       "edges_internal": 452,
       "edges_unlinked": 0
+    },
+    "person_wikidata": {
+      "method": "Layer1 harvest-match + WDQS verify; Layer2 colony+position via QLever",
+      "persons_grounded": 1201,
+      "distinct_qids": 1095,
+      "tiers": {
+        "A": 898,
+        "B": 133,
+        "C": 32,
+        "L2": 138
+      },
+      "layer2_senior_officials": 138
     }
   },
   "career_facts": {

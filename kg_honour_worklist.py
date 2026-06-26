@@ -20,8 +20,9 @@ from pathlib import Path
 from collections import defaultdict, Counter
 from kg_honour_norm import parse_honour
 
-HON = Path("data/kg/graph_stage3/honours.jsonl")
-OUT = Path("data/kg/honour_worklist.jsonl")
+from col_match.kg.paths import kg_out
+HON = kg_out() / "graph_stage3" / "honours.jsonl"
+OUT = kg_out() / "honour_worklist.jsonl"
 
 def main():
     groups = defaultdict(lambda: {"count": 0, "person_ids": set(),

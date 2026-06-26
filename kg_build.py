@@ -28,8 +28,9 @@ from pathlib import Path
 
 from col_match.config import Config
 from col_match.kg import persons as P
+from col_match.kg.paths import KG_OUT
 
-OUT = Path("data/kg")
+OUT = KG_OUT
 
 
 def _dump_jsonl(path: Path, rows) -> None:
@@ -40,8 +41,14 @@ def _dump_jsonl(path: Path, rows) -> None:
 
 
 def cmd_persons(args, cfg) -> None:
-    bios = P.load_all_bios(tuple(args.docs.split(",")), cfg.data_dir, refresh=args.refresh)
-    people = P.build_persons(bios)
+    if args.corpus == "iol":
+        from col_match.volume import iol_bios
+        bios = iol_bios.extract_all_editions(cfg.data_dir, cache_dir=OUT / "bios",
+                                             refresh=args.refresh)
+    else:
+        bios = P.load_all_bios(tuple(args.docs.split(",")), cfg.data_dir,
+                               cache_dir=OUT / "bios", refresh=args.refresh)
+    people = P.build_persons(bios, corpus=args.corpus)
     _dump_jsonl(OUT / "persons.jsonl", people)
     multi = sum(1 for p in people if len(p.attestations) > 1)
     print(f"raw bios {len(bios)} -> persons {len(people)} ({multi} multi-edition); "
@@ -58,7 +65,7 @@ def cmd_validate(args, cfg) -> None:
     sdir = OUT / "struct_in"
     structs = [json.loads(l) for f in sorted(sdir.glob("*.jsonl"))
                for l in f.open(encoding="utf-8")]
-    bios = {b["bio_id"]: b for f in Path("data/kg/bios").glob("*.jsonl")
+    bios = {b["bio_id"]: b for f in (OUT / "bios").glob("*.jsonl")
             for b in (json.loads(l) for l in f.open(encoding="utf-8"))}
     pid2canon = {p["person_id"]: p["canonical_bio_id"]
                  for p in (json.loads(l) for l in (OUT / "persons.jsonl").open(encoding="utf-8"))}
@@ -113,6 +120,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     sub = ap.add_subparsers(dest="cmd", required=True)
     p = sub.add_parser("persons"); p.add_argument("--docs", default="col,dol")
+    p.add_argument("--corpus", default="col", choices=["col", "iol"])
     p.add_argument("--refresh", action="store_true")
     d = sub.add_parser("dump"); d.add_argument("--n", type=int, default=30); d.add_argument("--seed", type=int, default=0)
     sub.add_parser("validate")

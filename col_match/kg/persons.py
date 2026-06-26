@@ -28,6 +28,8 @@ from ..volume.bios import VolumeBio, extract_bios
 
 _SURKEY = re.compile(r"[^A-Z]")
 _CONDENSE_CUTOFF = 1940   # entries from <= this year are the rich era; later ones condense
+_BIG_BUCKET = 150         # IOL guard: surname-key buckets >= this size are name-collision
+                          # prone (ABDUL/MUHAMMAD/SINGH) -> require a birth year to merge
 
 
 def surname_key(b: dict) -> str:
@@ -92,8 +94,12 @@ def _birth(b: dict) -> int | None:
     return b.get("birth_year")
 
 
-def _same_person(a: dict, b: dict) -> bool:
-    """Strong, conservative same-person test within a surname bucket."""
+def _same_person(a: dict, b: dict, strict: bool = False) -> bool:
+    """Strong, conservative same-person test within a surname bucket.
+
+    ``strict`` (IOL oversized buckets): never merge on spelled-given-name alone;
+    a confirming birth year is required. Two distinct men named "ABDUL, RAHMAN"
+    indexed by first name otherwise collapse vacuously."""
     if not _names_compatible(a.get("given_names"), b.get("given_names")):
         return False
     ba, bb = _birth(a), _birth(b)
@@ -101,23 +107,31 @@ def _same_person(a: dict, b: dict) -> bool:
         if abs(ba - bb) <= 1:                       # birth year (OCR-tolerant)
             return _first_initial(a) == _first_initial(b) or not (_first_initial(a) and _first_initial(b))
         return False                                # different birth years -> different people
+    if strict:
+        return False                                # oversized bucket: birth year mandatory
     # at least one lacks a birth year: require identical spelled given names
     sa, sb = _spelled_given(a), _spelled_given(b)
     return bool(sa) and sa == sb
 
 
-def cluster_bios(bios: list[dict]) -> list[list[dict]]:
+def cluster_bios(bios: list[dict], corpus: str = "col") -> list[list[dict]]:
     """Union-find clustering within surname buckets."""
     buckets: dict[str, list[int]] = defaultdict(list)
     for i, b in enumerate(bios):
         buckets[surname_key(b)].append(i)
     uf = _UF(len(bios))
-    for idxs in buckets.values():
+    # IOL: Indian given-name compounds (ABDUL, MUHAMMAD, SINGH …) collide far
+    # more than English surnames, so large buckets over-merge on the
+    # "identical spelled given names" path. Require a birth year to merge inside
+    # an oversized bucket (see _same_person's strict flag).
+    big = {k for k, v in buckets.items() if len(v) >= _BIG_BUCKET} if corpus == "iol" else set()
+    for key, idxs in buckets.items():
+        strict = key in big
         # O(k^2) within a surname bucket; buckets are small (rare-surname) to
         # moderate. Pairwise is fine at this corpus scale.
         for x in range(len(idxs)):
             for y in range(x + 1, len(idxs)):
-                if _same_person(bios[idxs[x]], bios[idxs[y]]):
+                if _same_person(bios[idxs[x]], bios[idxs[y]], strict=strict):
                     uf.union(idxs[x], idxs[y])
     groups: dict[int, list[dict]] = defaultdict(list)
     for i, b in enumerate(bios):
@@ -139,9 +153,9 @@ def select_canonical(cluster: list[dict]) -> dict:
     return max(finalists, key=_richness)
 
 
-def build_persons(bios: list[dict]) -> list[Person]:
+def build_persons(bios: list[dict], corpus: str = "col") -> list[Person]:
     persons: list[Person] = []
-    for cluster in cluster_bios(bios):
+    for cluster in cluster_bios(bios, corpus=corpus):
         canon = select_canonical(cluster)
         births = [b["birth_year"] for b in cluster if b.get("birth_year")]
         persons.append(Person(

@@ -18,9 +18,10 @@ import json
 from pathlib import Path
 from collections import defaultdict, Counter
 from kg_role_norm import parse_position
+from col_match.kg.paths import kg_out
 
-EVENTS = Path("data/kg/graph_stage3/career_events.jsonl")
-OUT = Path("data/kg/position_worklist.jsonl")
+EVENTS = kg_out() / "graph_stage3" / "career_events.jsonl"
+OUT = kg_out() / "position_worklist.jsonl"
 
 def main():
     groups = defaultdict(lambda: {"count": 0, "person_ids": set(),

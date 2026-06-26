@@ -42,6 +42,16 @@ def main():
     qual_e  = L("qualification_edges.jsonl")
     edu_e   = L("education_edges.jsonl")
 
+    # person -> Wikidata grounding (zero-FP). Prefer the merged Layer1+Layer2 final set.
+    pgf = GD / "person_grounding.final.jsonl"
+    if not pgf.exists():
+        pgf = GD / "person_grounding.verified.jsonl"
+    pground = {}
+    if pgf.exists():
+        for l in pgf.open():
+            g = json.loads(l)
+            pground[g["person_id"]] = (g["qid"], g.get("wd_name") or "", g.get("tier") or "")
+
     # ---- node frames -----------------------------------------------------
     df_person = pd.DataFrame([{
         "person_id": p["person_id"],
@@ -49,6 +59,9 @@ def main():
         "given_names": p.get("given_names") or "",
         "birth_year": p.get("birth_year"),
         "n_attestations": p.get("n_attestations") or 0,
+        "wikidata_qid": pground.get(p["person_id"], ("", "", ""))[0],
+        "wikidata_label": pground.get(p["person_id"], ("", "", ""))[1],
+        "wikidata_tier": pground.get(p["person_id"], ("", "", ""))[2],
     } for p in persons]).astype({"birth_year": "Int64", "n_attestations": "Int64"})
     person_ids = set(df_person["person_id"])
 
@@ -132,7 +145,7 @@ def main():
     conn = ladybug.Connection(db)
 
     ddl = [
-        "CREATE NODE TABLE Person(person_id STRING, surname STRING, given_names STRING, birth_year INT64, n_attestations INT64, PRIMARY KEY(person_id))",
+        "CREATE NODE TABLE Person(person_id STRING, surname STRING, given_names STRING, birth_year INT64, n_attestations INT64, wikidata_qid STRING, wikidata_label STRING, wikidata_tier STRING, PRIMARY KEY(person_id))",
         "CREATE NODE TABLE Place(qid STRING, label STRING, country_qid STRING, PRIMARY KEY(qid))",
         "CREATE NODE TABLE Role(id STRING, label STRING, category STRING, source STRING, PRIMARY KEY(id))",
         "CREATE NODE TABLE Organisation(id STRING, label STRING, type STRING, source STRING, PRIMARY KEY(id))",
@@ -185,6 +198,10 @@ def main():
          "MATCH (:CareerEvent)-[:EVENT_ROLE]->(r:Role) RETURN r.label, count(*) AS n ORDER BY n DESC LIMIT 1"),
         ("CMG recipients",
          "MATCH (p:Person)-[:RECEIVED]->(h:Honour {id:'Q12177413'}) RETURN count(p)"),
+        ("persons grounded to Wikidata",
+         "MATCH (p:Person) WHERE p.wikidata_qid <> '' RETURN count(p)"),
+        ("sample grounded official",
+         "MATCH (p:Person) WHERE p.wikidata_qid <> '' RETURN p.surname, p.given_names, p.wikidata_qid, p.wikidata_label ORDER BY p.n_attestations DESC LIMIT 1"),
     ]
     for name, q in checks:
         res = conn.execute(q)

@@ -22,8 +22,9 @@ from collections import defaultdict
 from pathlib import Path
 
 from col_match.kg.resolve_context import is_ambiguous
+from col_match.kg.paths import KG_OUT
 
-OUT = Path("data/kg")
+OUT = KG_OUT
 FLAT = OUT / "places_worklist.jsonl"
 CONTEXT = OUT / "places_worklist.context.jsonl"
 GROUNDING = OUT / "places_worklist.grounding.jsonl"

@@ -25,9 +25,10 @@ from __future__ import annotations
 import json, re
 from pathlib import Path
 from collections import defaultdict, Counter
+from col_match.kg.paths import kg_out
 
-EVENTS = Path("data/kg/graph_stage3/career_events.jsonl")
-OUT = Path("data/kg/org_worklist.jsonl")
+EVENTS = kg_out() / "graph_stage3" / "career_events.jsonl"
+OUT = kg_out() / "org_worklist.jsonl"
 
 # A place_raw is an ORG (employer) when it names an administrative body, service,
 # department, force or unit rather than a settlement/territory.

@@ -102,7 +102,7 @@ def cmd_ambiguous(a):
 
 def cmd_emit(a):
     cache = load_cache(); work = {w["institution"]: w for w in load_work()}
-    out = Path("data/kg/graph_stage3")
+    out = Path(os.environ.get("COL_KG_OUT", "data/kg")) / "graph_stage3"
     # institution nodes (skip ambiguous surfaces — they are not real single nodes)
     with (out / EMIT_NODES).open("w") as fh:
         for inst, r in sorted(cache.items()):

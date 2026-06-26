@@ -101,9 +101,34 @@ _TERRITORY = {
     "se asia": "South East Asia",
     # --- Ceylon (places stay distinct; kachcheris keep their town) ---
     "cey": "Ceylon", "ceylon": "Ceylon",
-    # --- India / Asia ---
+    # --- India (presidencies, provinces, agencies; India Office List) ---
+    # Presidencies / major provinces of British India 1886-1947.
     "burma": "Burma", "bengal": "Bengal", "madras": "Madras",
     "bombay": "Bombay", "punjab": "Punjab",
+    "e bengal": "Eastern Bengal", "e bengal and assam": "Eastern Bengal and Assam",
+    "united provs": "United Provinces", "united provinces": "United Provinces",
+    "u provs": "United Provinces", "up": "United Provinces",
+    "united provinces of agra and oudh": "United Provinces",
+    "central provs": "Central Provinces", "central provinces": "Central Provinces",
+    "central provinces and berar": "Central Provinces and Berar",
+    "bihar and orissa": "Bihar and Orissa", "bihar": "Bihar", "orissa": "Orissa",
+    "assam": "Assam", "sind": "Sind", "sindh": "Sind", "berar": "Berar",
+    "coorg": "Coorg", "baluchistan": "Baluchistan", "delhi": "Delhi",
+    "ajmer": "Ajmer-Merwara", "ajmer merwara": "Ajmer-Merwara",
+    "nwfp": "North-West Frontier Province", "n w f p": "North-West Frontier Province",
+    "n w frontier province": "North-West Frontier Province",
+    "north west frontier province": "North-West Frontier Province",
+    # Agencies / residencies and the larger princely states.
+    "rajputana": "Rajputana", "central india": "Central India Agency",
+    "hyderabad": "Hyderabad State", "mysore": "Mysore", "baroda": "Baroda",
+    "gwalior": "Gwalior", "kashmir": "Jammu and Kashmir",
+    "jammu and kashmir": "Jammu and Kashmir", "travancore": "Travancore",
+    "cochin": "Cochin", "indore": "Indore", "bhopal": "Bhopal State",
+    "kolhapur": "Kolhapur", "kathiawar": "Kathiawar",
+    # High-frequency stations whose OCR/old spelling needs steering to the QID.
+    "calcutta": "Calcutta", "rangoon": "Rangoon", "karachi": "Karachi",
+    "cawnpore": "Kanpur", "lahore": "Lahore", "simla": "Simla",
+    # --- China coast / HK / Malaya tail ---
     "hk": "Hong Kong", "h kong": "Hong Kong", "hong kong": "Hong Kong",
     "kowloon": "Kowloon",
     "fed of mal states": "Federation of Malaya",
@@ -225,6 +250,11 @@ _OFFICE_ABBR = {
     "hct": "High Commission Territories",
     "mcs": "Malayan Civil Service", "mal cs": "Malayan Civil Service",
     "sarawak cs": "Sarawak Civil Service", "cey cs": "Ceylon Civil Service",
+    # India Office services / departments mislabelled as a place (flag, never ground).
+    "ics": "Indian Civil Service", "indian cs": "Indian Civil Service",
+    "ips": "Indian Police", "ims": "Indian Medical Service",
+    "ifs": "Indian Forest Service", "ise": "Indian Service of Engineers",
+    "iccs": "Indian Civil Service", "ipd": "Indian Political Department",
 }
 # Word-level signals that a value is an institution/office, not a place.
 _INSTITUTION_RE = re.compile(

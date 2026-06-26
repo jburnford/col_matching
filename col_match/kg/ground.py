@@ -29,8 +29,9 @@ from pathlib import Path
 
 from ..services import gazetteer
 from . import place_canon
+from .paths import KG_OUT
 
-CACHE = Path("data/kg/places_grounding.jsonl")
+CACHE = KG_OUT / "places_grounding.jsonl"
 
 # light, deterministic query cleanups (NOT colony guessing — just better search
 # strings). Abbreviation expansion + variant collapse live in place_canon.

@@ -27,7 +27,9 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-OUT = Path("data/kg")
+from col_match.kg.paths import KG_OUT
+
+OUT = KG_OUT
 
 # Reuse the locked output contract the bake-off settled on (keys prompt). Import
 # is safe: kg_bench_openrouter only runs argparse under its __main__ guard.
@@ -47,9 +49,11 @@ def _bio_index(want: set[str]) -> dict[str, str]:
     """bio_id -> raw_text, loaded once from data/kg/bios/*.jsonl."""
     idx = {}
     for f in sorted((OUT / "bios").glob("*.jsonl")):
+        if f.name.endswith(".xref.jsonl"):   # alias side-files carry no bio_id
+            continue
         for l in f.open(encoding="utf-8"):
             b = json.loads(l)
-            if b["bio_id"] in want:
+            if b.get("bio_id") in want:
                 idx[b["bio_id"]] = b["raw_text"]
     return idx
 
@@ -66,9 +70,13 @@ def cmd_run(args) -> None:
     if out_path.exists():
         for l in out_path.open(encoding="utf-8"):
             try:
-                done.add(json.loads(l)["person_id"])
+                o = json.loads(l)
             except Exception:
-                pass
+                continue
+            # only SUCCESSFUL structs count as done — a row with _error (e.g. the
+            # server died mid-run) must be retried on resume, not skipped.
+            if "_error" not in o:
+                done.add(o["person_id"])
 
     todo = [(pid, bid) for pid, bid in persons if pid not in done]
     if args.limit:

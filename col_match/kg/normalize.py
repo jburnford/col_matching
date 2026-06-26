@@ -116,6 +116,19 @@ _POS_EXTRA = {
     "promtd": "promoted", "promd": "promoted",
     "seconded": "seconded", "transfd": "transferred", "transf": "transferred",
     "retd": "retired", "resd": "resigned", "pensd": "pensioned",
+    # --- India Office List vocabulary ---
+    "offg": "officiating", "offcg": "officiating",
+    "confd": "confirmed", "confmd": "confirmed",
+    "dy": "deputy", "depy": "deputy",
+    "consvr": "conservator", "consvtr": "conservator",
+    "settlt": "settlement", "settl": "settlement",
+    "presdy": "presidency", "presidy": "presidency",
+    "jt": "joint", "irrign": "irrigation", "irrig": "irrigation",
+    "finl": "financial", "revl": "revenue",
+    "divl": "divisional", "subdivl": "sub-divisional",
+    "estabt": "establishment", "estabmt": "establishment",
+    "ry": "railway", "rys": "railways", "polit": "political", "politl": "political",
+    "magte": "magistrate", "collctr": "collector", "comr": "commissioner",
 }
 
 POS_ABBREV: dict[str, str] = {**_BASE_POS, **_POS_EXTRA}
@@ -134,7 +147,9 @@ _MILITARY_CUES = re.compile(
     r"\b(regt|regiment|batt|battalion|brigade|squadron|R\.?A\.?|R\.?E\.?|R\.?N\.?"
     r"|R\.?A\.?M\.?C|R\.?G\.?A|R\.?F\.?A|W\.?A\.?F\.?F|K\.?A\.?R|hussars|fusiliers"
     r"|lancers|dragoons|rifles|yeomanry|militia|expdn|expedn|expeditionary"
-    r"|campaign|despatches|men\. in desp|ensign|subaltern|brevet|A\.D\.C)\b",
+    r"|campaign|despatches|men\. in desp|ensign|subaltern|brevet|A\.D\.C"
+    r"|gurkha|gurkhas|sappers|sepoy|sowar|risaldar|subadar|sirdar|jemadar"
+    r"|staff corps|Indian Army|I\.A\.R\.O|cavalry|infantry)\b",
     re.I,
 )
 _ACTING = re.compile(r"\b(ag|actg|act)\.?\b", re.I)
@@ -148,7 +163,9 @@ _TOKEN = re.compile(r"[A-Za-z][A-Za-z'&.]*")
 # disambiguate from context; position_norm still expands them downstream.
 #   off  -> office / officer       gov/govt -> government / governor / governing
 #   col  -> colony / colonial / colonel    min -> ministry / minister
-_PRE_AMBIGUOUS = {"off", "gov", "govt", "col", "min"}
+#   pol  -> police / political (India Office: "pol. agent/dept" is usually POLITICAL,
+#           not police — leave raw so the LLM resolves from context)
+_PRE_AMBIGUOUS = {"off", "gov", "govt", "col", "min", "pol"}
 
 
 def _expand_token(tok: str) -> str:

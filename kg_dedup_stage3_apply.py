@@ -26,10 +26,13 @@ mmap = {r["person_id"]: r["canonical_person_id"]
 # Stage-2 bio-level provenance: structured person_id -> (editions, bio_ids).
 # A structured record is one Stage-2 cluster, attested across many edition bios;
 # carry that through so `editions` reflects the true span, not just Stage-3 folds.
+import os
 prov = {}
-for l in open("data/kg/persons.deduped2.jsonl"):
-    d = json.loads(l)
-    prov[d["person_id"]] = (d.get("editions") or [], d.get("attestation_bio_ids") or [])
+_provf = os.environ.get("COL_PROV", "data/kg/persons.deduped2.jsonl")
+if os.path.exists(_provf):
+    for l in open(_provf):
+        d = json.loads(l)
+        prov[d["person_id"]] = (d.get("editions") or [], d.get("attestation_bio_ids") or [])
 
 recs = [json.loads(l) for l in open(args.corpus)]
 def canon(pid): return mmap.get(pid, pid)

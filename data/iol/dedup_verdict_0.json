@@ -1,0 +1,878 @@
+[
+ {
+  "group_id": "allen|charlesgeorgehillersden",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c923153",
+    "kgp_iol1895_supp-c1082063",
+    "kgp_iol1910-c2313205"
+   ]
+  ],
+  "reason": "Same Haileybury/Balliol edu, Bengal CS, identical 1893 joint magistrate chain"
+ },
+ {
+  "group_id": "allen|william",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1896-c1844806",
+    "kgp_iol1889_supp-c924792",
+    "kgp_iol1895_supp-c1084303"
+   ]
+  ],
+  "reason": "Same edu, Sind/Bombay collector chain with identical 1868/1882/1889/1891 dates"
+ },
+ {
+  "group_id": "amirtalalchatterjee|bl",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1906-c2124761",
+    "kgp_iol1893_supp-c1036372"
+   ]
+  ],
+  "reason": "Bengal subordinate judicial service 1862 + subordinate judge 1873, same career"
+ },
+ {
+  "group_id": "anderson|john",
+  "verdict": "PARTIAL",
+  "merge_sets": [
+   [
+    "kgp_iol1902-c2015169",
+    "kgp_iol1919-c2834709"
+   ],
+   [
+    "kgp_iol1945-c643710",
+    "kgp_iol1938-c1060984"
+   ]
+  ],
+  "reason": "Two civil-surgeons(1878/Bijnor) merge; two Govr-of-Bengal(1932) merge; 1932 Hazara surgeon distinct"
+ },
+ {
+  "group_id": "arthur|sigismundraynor",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c941993",
+    "kgp_iol1894_supp-c1058171",
+    "kgp_iol1916-c2679480"
+   ]
+  ],
+  "reason": "Charterhouse/New College edu, Bombay CS, forest settlement officer chain"
+ },
+ {
+  "group_id": "banerjee|durgagati",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1125762",
+    "kgp_iol1902-c2046823"
+   ]
+  ],
+  "reason": "CIE, joined 1865, Calcutta excise/collector 1889 identical"
+ },
+ {
+  "group_id": "batchelor|stanleylockhart",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1890_supp-c1070246",
+    "kgp_iol1894_supp-c1093953",
+    "kgp_iol1933-c2669240"
+   ]
+  ],
+  "reason": "St Edmund's Ware/UCL edu, Bombay CS 1887, continuous to High Court judge"
+ },
+ {
+  "group_id": "batten|henryhallet",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1945-c718829",
+    "kgp_iol1937-c2911357"
+   ]
+  ],
+  "reason": "Henry Hallet Batten, Burma commission, Lieut-Col I.A., same Burma career"
+ },
+ {
+  "group_id": "bate|thomaselwoodlindsay",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1893_supp-c1088322",
+    "kgp_iol1919-c2915192"
+   ]
+  ],
+  "reason": "Joined 1875, military dept->civil surgeon->IG prisons Punjab 1891 same"
+ },
+ {
+  "group_id": "beyts|clementayerst",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1899-c1850846",
+    "kgp_iol1926-c2633853"
+   ]
+  ],
+  "reason": "St Paul's/Pembroke/UCL edu, Bombay CS 1897 identical"
+ },
+ {
+  "group_id": "bilderbeck|jamesbourdillon",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1894_supp-c1139776",
+    "kgp_iol1921-c2718513"
+   ]
+  ],
+  "reason": "Madras educl dept 1875, prof English literature Presidency College 1884 same"
+ },
+ {
+  "group_id": "bolster|johnabraham",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1901-c2093810",
+    "kgp_iol1908-c2379894"
+   ]
+  ],
+  "reason": "India Office, 2nd class clerk from 1872, same person"
+ },
+ {
+  "group_id": "bomford|gerald",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1215204",
+    "kgp_iol1910-c2451245"
+   ]
+  ],
+  "reason": "Joined 1874, Calcutta medical college, principal 1893 same career"
+ },
+ {
+  "group_id": "brandis|dietrich",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1049779",
+    "kgp_iol1907-c2349243"
+   ]
+  ],
+  "reason": "Dietrich Brandis, Inspector-General of forests India 1864, unique"
+ },
+ {
+  "group_id": "bridges|albert",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1055378",
+    "kgp_iol1901-c2116919",
+    "kgp_iol1892_supp-c1151651"
+   ]
+  ],
+  "reason": "St Peter's Cambridge, Bengal CS, Punjab asst commissioner->district judge (1835 = OCR for 1885)"
+ },
+ {
+  "group_id": "brown|richardcecil",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1251315",
+    "kgp_iol1935-c3119018"
+   ]
+  ],
+  "reason": "Clergy Orphan School/Keble edu, Bombay CS 1887, forest settlement officer chain"
+ },
+ {
+  "group_id": "brown|williambarclay",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1892_supp-c1161715",
+    "kgp_iol1889_supp-c1063652"
+   ]
+  ],
+  "reason": "Ayr Academy/Balliol edu, Bengal CS 1883/1886 same person"
+ },
+ {
+  "group_id": "browne|williamrichard",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1894_supp-c1201844",
+    "kgp_iol1923-c2522431"
+   ]
+  ],
+  "reason": "Joined 1873, Madras medical college pathology prof, Surgeon-Gen IMS same"
+ },
+ {
+  "group_id": "buckley|robertburton",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1894_supp-c1211091",
+    "kgp_iol1909-c2540840"
+   ]
+  ],
+  "reason": "Asst engineer 1869, PWD under-sec India 1887-89, suptg engineer 1892 same"
+ },
+ {
+  "group_id": "campbell|alexanderwilliamdennistown",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1903-c2227203",
+    "kgp_iol1893_supp-c1225983"
+   ]
+  ],
+  "reason": "Joined 1871, military dept->cantonment magistrate NWP 1882 same"
+ },
+ {
+  "group_id": "chapman|robertalexanderboswell",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1118534",
+    "kgp_iol1895_supp-c1319054",
+    "kgp_iol1921-c2882841"
+   ]
+  ],
+  "reason": "Haileybury/St Peter's edu, Bengal CS 1885, NWP->Central Prov asst comm 1891"
+ },
+ {
+  "group_id": "chitty|charleswilliam",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1905-c2280350",
+    "kgp_iol1927-c2987344"
+   ]
+  ],
+  "reason": "Barr Inner Temple 1884, Bombay small cause chief judge 1892, Lower Burma 1903 same"
+ },
+ {
+  "group_id": "christie|jamesthomas",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1125747",
+    "kgp_iol1899-c1965530"
+   ]
+  ],
+  "reason": "CIE, police dept 1861, foreign dept Afghanistan, DSP 1886 same career"
+ },
+ {
+  "group_id": "clarke|edwardhenryscamander",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1896-c2022654",
+    "kgp_iol1929-c2980864"
+   ]
+  ],
+  "reason": "Non-gazetted 1875, Kabul, asst sec foreign dept India 1894 same"
+ },
+ {
+  "group_id": "cook|henrydavid",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1371777",
+    "kgp_iol1902-c2257074"
+   ]
+  ],
+  "reason": "MB CM, asst surgeon 1870, Madras 1st district surgeon 1888 same"
+ },
+ {
+  "group_id": "cooke|gordonhenry",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1906-c2400075",
+    "kgp_iol1894_supp-c1310277"
+   ]
+  ],
+  "reason": "Survey dept 1866, asst supt 1871, Lushai force 1871-72, deputy supt 1885 same"
+ },
+ {
+  "group_id": "courtney|davidcharles",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1388853",
+    "kgp_iol1899-c2010862"
+   ]
+  ],
+  "reason": "RE 1866, S.African/Soudan, India store depot asst supt 1887 same"
+ },
+ {
+  "group_id": "crawley|georgeburridge",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1901-c2251486",
+    "kgp_iol1892_supp-c1295133",
+    "kgp_iol1912-c2761139"
+   ]
+  ],
+  "reason": "Military, cantonment magistrate NWP/United Prov 1885 same"
+ },
+ {
+  "group_id": "cuttle|george",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1901-c2276428",
+    "kgp_iol1920-c2913083",
+    "kgp_iol1923-c2727010"
+   ]
+  ],
+  "reason": "India store depot 2nd class clerk 1882, supervisor 1901 same"
+ },
+ {
+  "group_id": "dickinson|fritzgeorge",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1927-c3182019",
+    "kgp_iol1945-c1032984",
+    "kgp_iol1932-c3263672"
+   ]
+  ],
+  "reason": "Fritz George Dickinson, Madras engr, MC BE AMICE, asst exec engineer 1919 (1891/1894 OCR)"
+ },
+ {
+  "group_id": "duke|frederickwilliam",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1260481",
+    "kgp_iol1895_supp-c1492533",
+    "kgp_iol1920-c3003202"
+   ]
+  ],
+  "reason": "Arbroath HS/UCL, Bengal CS 1882, asst mag 1884->chief sec Bengal (1834 OCR for 1884)"
+ },
+ {
+  "group_id": "edge|john",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1894_supp-c1437417",
+    "kgp_iol1911-c2809932"
+   ]
+  ],
+  "reason": "Sir John Edge, Chief Justice NWP 1886 + VC Allahabad 1887, unique senior posts"
+ },
+ {
+  "group_id": "edgerley|steyningwilliam",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1270245",
+    "kgp_iol1931-c3481974"
+   ]
+  ],
+  "reason": "Shrewsbury/Balliol, asst collector 1879, Sind 1881-86, chief sec Bombay chain same"
+ },
+ {
+  "group_id": "ellenor|thomasralph",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1900-c2165854",
+    "kgp_iol1904-c2448162",
+    "kgp_iol1921-c3155662"
+   ]
+  ],
+  "reason": "India Office 2nd class clerk 1872, staff clerk 1901, junior clerk 1903 same"
+ },
+ {
+  "group_id": "ellercamp|herbertmcdonald",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1900-c2165984",
+    "kgp_iol1921-c3155934"
+   ]
+  ],
+  "reason": "India Office 2nd class clerk 1879, same person"
+ },
+ {
+  "group_id": "elphinstone|grahamwarburton",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1278406",
+    "kgp_iol1894_supp-c1446459"
+   ]
+  ],
+  "reason": "Eton/Trinity edu, Madras CS 1885, asst collector same"
+ },
+ {
+  "group_id": "ewbank|alfredlloydvandyke",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1899-c2120627",
+    "kgp_iol1892_supp-c1406988"
+   ]
+  ],
+  "reason": "MA, Bengal educl dept 1868, Patna/Dacca college prof/principal same"
+ },
+ {
+  "group_id": "fagan|patrickjames",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1287442",
+    "kgp_iol1895_supp-c1526735",
+    "kgp_iol1927-c3271305"
+   ]
+  ],
+  "reason": "Blundell's/St John's, Bengal CS 1885, Punjab asst comm->financial comm same"
+ },
+ {
+  "group_id": "fell|godfreybutlerhunter",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1945-c1103567",
+    "kgp_iol1935-c3584796"
+   ]
+  ],
+  "reason": "Godfrey Butler Hunter Fell, KCIE CSI, Indian CS Burma 1895 same"
+ },
+ {
+  "group_id": "fox|georgejamesbuscall",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1900-c2215944",
+    "kgp_iol1905-c2509886"
+   ]
+  ],
+  "reason": "India Office Store dept 2nd class clerk 1877 same"
+ },
+ {
+  "group_id": "franklin|benjamin",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1330745",
+    "kgp_iol1890_supp-c1434218",
+    "kgp_iol1906-c2598383"
+   ]
+  ],
+  "reason": "Surgeon-Major 1869, special duty viceroy 1880, DG IMS, same career"
+ },
+ {
+  "group_id": "fry|henryjameswakely",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1900-c2225560",
+    "kgp_iol1915-c3154261",
+    "kgp_iol1919-c3455068"
+   ]
+  ],
+  "reason": "BA London, India Office jun clerk 1873, DG of stores 1912 same"
+ },
+ {
+  "group_id": "fry|thomasburgess",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1900-c2225763",
+    "kgp_iol1904-c2515994",
+    "kgp_iol1906-c2607890"
+   ]
+  ],
+  "reason": "Bombay forest service 1873, conservator 1899 same"
+ },
+ {
+  "group_id": "fryer|williamherbert",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1900-c2227095",
+    "kgp_iol1912-c2971909"
+   ]
+  ],
+  "reason": "India Office 2nd class clerk 1892 same"
+ },
+ {
+  "group_id": "garth|richard",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1606484",
+    "kgp_iol1889_supp-c1351783"
+   ]
+  ],
+  "reason": "Sir Richard Garth, MP Guildford + Chief Justice Calcutta 1875, unique"
+ },
+ {
+  "group_id": "gibbons|jamesbarry",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1614258",
+    "kgp_iol1910-c2874893"
+   ]
+  ],
+  "reason": "Bengal Medical, civil surgeon 1884, Campbell medical school supt 1893 same"
+ },
+ {
+  "group_id": "glass|jamesgeorgehenry",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1623081",
+    "kgp_iol1905-c2552750"
+   ]
+  ],
+  "reason": "CIE MICE, 2nd asst engineer Central Prov 1867, chief engineer NWP 1894 same"
+ },
+ {
+  "group_id": "goldsmith|septimusjesse",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1366669",
+    "kgp_iol1900-c2256088"
+   ]
+  ],
+  "reason": "Bombay medical 1873, agency surgeon Baghelkhand 1875, tutor Maharaja Rewah 1883 same"
+ },
+ {
+  "group_id": "gopaldas|raibahadur",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1890_supp-c1478815",
+    "kgp_iol1899-c2197682"
+   ]
+  ],
+  "reason": "Rai Bahadur Gopaldas, Punjab 1851 settlement/judicial dept same"
+ },
+ {
+  "group_id": "grantduff|mountstuartelphinstone",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1390297",
+    "kgp_iol1906-c2668113"
+   ]
+  ],
+  "reason": "M.E. Grant Duff, MP Elgin + Governor Madras 1881, identical career (1820/1829 OCR)"
+ },
+ {
+  "group_id": "griffiths|william",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1668383",
+    "kgp_iol1900-c2286777"
+   ]
+  ],
+  "reason": "MA BL, Presidency college prof, principal Hooghly 1880/Presidency 1892 same"
+ },
+ {
+  "group_id": "harvey|john",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1915-c3306038",
+    "kgp_iol1895_supp-c1722032"
+   ]
+  ],
+  "reason": "Punjab education 1869, tutor Raja of Chamba 1879, inspector schools 1883 same"
+ },
+ {
+  "group_id": "hathorntwaite|jamesthomas",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1902-c2556388",
+    "kgp_iol1894_supp-c1645548"
+   ]
+  ],
+  "reason": "St John's, prof mathematics Elphinstone College Bombay 1872, principal same"
+ },
+ {
+  "group_id": "hayward|mauricehenryweston",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1452823",
+    "kgp_iol1894_supp-c1647420",
+    "kgp_iol1947-c1300182",
+    "kgp_iol1922-c3089467"
+   ]
+  ],
+  "reason": "Harrow/St John's, Bombay CS 1886, asst collector 1889->High Court judge same"
+ },
+ {
+  "group_id": "hewett|williamselwood",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1905-c2661419",
+    "kgp_iol1908-c2918473"
+   ]
+  ],
+  "reason": "First commission 1871, cantonment magistrate 1887 same"
+ },
+ {
+  "group_id": "hill|fg",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1890_supp-c1578168",
+    "kgp_iol1889_supp-c1468023"
+   ]
+  ],
+  "reason": "India Office clerk 1882, same F.G. Hill"
+ },
+ {
+  "group_id": "home|walter",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1926-c3318100",
+    "kgp_iol1907-c2883103"
+   ]
+  ],
+  "reason": "RIE college, State Railways engineer 1877, Jodhpur 1881, identical chain"
+ },
+ {
+  "group_id": "hope|hughrichard",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1899-c2302284",
+    "kgp_iol1893_supp-c1670655"
+   ]
+  ],
+  "reason": "Joined 1860, ADC to Gov Madras 1863-64, sec military dept Madras 1891 same"
+ },
+ {
+  "group_id": "hopkins|es",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1886_supp-c487788",
+    "kgp_iol1889_supp-c1491753"
+   ]
+  ],
+  "reason": "India Office clerk 1883, same E.S. Hopkins"
+ },
+ {
+  "group_id": "hudson|charlestilson",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1902-c2613251",
+    "kgp_iol1907-c2899290",
+    "kgp_iol1916-c3498534",
+    "kgp_iol1936-c3862016"
+   ]
+  ],
+  "reason": "Entered 1889, deputy assay master Bombay Mint 1900, civil surgeon same"
+ },
+ {
+  "group_id": "hutchinson|henrynorton",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1903-c2672503",
+    "kgp_iol1932-c3786491"
+   ]
+  ],
+  "reason": "Lancing/Clare, asst mag NWP 1897, postmaster-general chain same"
+ },
+ {
+  "group_id": "ilbert|courtenayperegrine",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1886_supp-c509352",
+    "kgp_iol1921-c3533467"
+   ]
+  ],
+  "reason": "Sir C.P. Ilbert, law member council Gov-Gen India 1882, unique senior post"
+ },
+ {
+  "group_id": "johnston|charles",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1547603",
+    "kgp_iol1893_supp-c1739381"
+   ]
+  ],
+  "reason": "High School/Trinity Dublin, Bengal CS 1886, asst mag Bengal (1836 OCR for 1886)"
+ },
+ {
+  "group_id": "jolliffe|edwinwilliam",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1901-c2621562",
+    "kgp_iol1915-c3455131"
+   ]
+  ],
+  "reason": "India Office 2nd class clerk 1885, staff clerk 1914 same"
+ },
+ {
+  "group_id": "jones|thomas",
+  "verdict": "PARTIAL",
+  "merge_sets": [
+   [
+    "kgp_iol1905-c2761508",
+    "kgp_iol1889_supp-c1551166"
+   ]
+  ],
+  "reason": "Two Calcutta small-cause-court judges(1866/1873/1884) merge; 1947 India Office clerk(b1900) distinct namesake"
+ },
+ {
+  "group_id": "knapp|arthurrowland",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1945-c1460410",
+    "kgp_iol1936-c4051226"
+   ]
+  ],
+  "reason": "Arthur Rowland Knapp KCIE, Madras CS 1891, chief sec Madras same"
+ },
+ {
+  "group_id": "krishnachunderchatterjee|ba",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1900-c2470689",
+    "kgp_iol1895_supp-c1903538"
+   ]
+  ],
+  "reason": "BA BL, Bengal subordinate judicial 1865, subordinate judge 1877 same"
+ },
+ {
+  "group_id": "lang|basil",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1895_supp-c1910818",
+    "kgp_iol1900-c2476250",
+    "kgp_iol1908-c3082311"
+   ]
+  ],
+  "reason": "Basil Lang, advocate-general Bombay high court 1891-1901 same"
+ },
+ {
+  "group_id": "latham|francislaw",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1919-c3864356",
+    "kgp_iol1895_supp-c1915672"
+   ]
+  ],
+  "reason": "Francis Law Latham, advocate-general Bombay 1880-93, same"
+ },
+ {
+  "group_id": "logan|alexandercochrane",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1633231",
+    "kgp_iol1894_supp-c1866155",
+    "kgp_iol1910-c3225132"
+   ]
+  ],
+  "reason": "Cheltenham/Balliol, Bombay asst collector 1881, forest settlement->commissioner same"
+ },
+ {
+  "group_id": "longe|francisbacon",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1905-c2855190",
+    "kgp_iol1912-c3370661"
+   ]
+  ],
+  "reason": "Lieut-Col RE, first commission 1876, Survey of India, surveyor general 1904 same"
+ },
+ {
+  "group_id": "lowis|ecilchampain",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1889_supp-c1638621",
+    "kgp_iol1896-c2460556"
+   ]
+  ],
+  "reason": "Newton College, Bengal CS Burma 1885/88, Mandalay, registrar jud commr Burma same"
+ },
+ {
+  "group_id": "lyon|isidorebernadotte",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1896-c2471449",
+    "kgp_iol1889_supp-c1651181",
+    "kgp_iol1893_supp-c1863733"
+   ]
+  ],
+  "reason": "Indian medical service 1865, Grant Medical College chemistry prof 1867, petroleum 1882 same"
+ },
+ {
+  "group_id": "mcarthur|alexanderdonald",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1917-c3754007",
+    "kgp_iol1895_supp-c2058350"
+   ]
+  ],
+  "reason": "RE, asst engineer Bengal 1869, PWD under-sec 1885/87, suptg 1891 same"
+ },
+ {
+  "group_id": "macdonald|alexander",
+  "verdict": "PARTIAL",
+  "merge_sets": [
+   [
+    "kgp_iol1927-c3881740",
+    "kgp_iol1928-c3920615",
+    "kgp_iol1945-c1538904",
+    "kgp_iol1940-c2355769"
+   ]
+  ],
+  "reason": "Four Indian Educl Service(Dacca/Sibpur,b1883) merge; 1934 Central Prov ICS(Emmanuel,b1885) distinct"
+ },
+ {
+  "group_id": "macdonald|robertgraham",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1898-c2473340",
+    "kgp_iol1894_supp-c1893810"
+   ]
+  ],
+  "reason": "Subord accounts 1863, examiner railway accounts, deputy accountant-gen India 1888 same"
+ },
+ {
+  "group_id": "mcdowall|arthurcarlaw",
+  "verdict": "MERGE",
+  "merge_sets": [
+   [
+    "kgp_iol1903-c2833072",
+    "kgp_iol1920-c3635635",
+    "kgp_iol1921-c3767043"
+   ]
+  ],
+  "reason": "India Office Store dept 2nd class clerk 1891, junior 1907, senior 1913 same"
+ }
+]

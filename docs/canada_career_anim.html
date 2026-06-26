@@ -1,0 +1,99 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+ html,body{margin:0;height:100%;background:#0b1722;overflow:hidden;
+   font-family:Georgia,'Times New Roman',serif}
+ #map{height:100%;background:#0b1722}
+ #title{position:absolute;z-index:1000;top:26px;left:36px;color:#f3e7c9;
+   text-shadow:0 2px 10px #000;max-width:640px}
+ #title h1{margin:0;font-size:34px;letter-spacing:.3px;color:#ffd98a}
+ #title p{margin:8px 0 0;font-size:18px;color:#dfe7ef;font-family:system-ui,sans-serif;line-height:1.35}
+ #counter{position:absolute;z-index:1000;bottom:30px;left:36px;color:#fff;
+   font-family:system-ui,sans-serif;text-shadow:0 2px 8px #000}
+ #counter .big{font-size:46px;font-weight:700;color:#ffd98a}
+ #counter .sub{font-size:16px;color:#cfdae6}
+ #credit{position:absolute;z-index:1000;bottom:14px;right:14px;color:#7e8ea0;
+   font-size:12px;font-family:system-ui,sans-serif}
+ .leaflet-control-attribution{display:none}
+ .clbl{background:none;border:none;box-shadow:none;color:#ffcaa8;font-size:12px;
+   font-family:system-ui,sans-serif;text-shadow:0 1px 4px #000;font-weight:600}
+</style></head><body>
+<div id="title"><h1>Canada in the British Empire</h1>
+ <p id="sub"></p></div>
+<div id="counter"><div class="big" id="cnum">0</div>
+ <div class="sub">colonies that shared officials with Canada</div></div>
+<div id="credit">Colonial Office List career data &middot; Wikidata</div>
+<div id="map"></div>
+<script>
+const CAN=[56.0, -109.0], ARCS=[{"q": "Q678", "label": "Tonga", "lat": -20.587778, "lon": -174.810278, "w": 2}, {"q": "Q683", "label": "Samoa", "lat": -13.745, "lon": -172.2175, "w": 1}, {"q": "Q30", "label": "United States", "lat": 39.828175, "lon": -98.5795, "w": 2}, {"q": "Q242", "label": "British Honduras", "lat": 17.066667, "lon": -88.7, "w": 11}, {"q": "Q107987587", "label": "Bay Islands", "lat": 16.3, "lon": -86.5, "w": 1}, {"q": "Q766", "label": "Jamaica", "lat": 18.18, "lon": -77.4, "w": 15}, {"q": "Q21815597", "label": "Bahamas Colony", "lat": 25.06, "lon": -77.35, "w": 17}, {"q": "Q18221", "label": "Turks and Caicos Islands", "lat": 21.78, "lon": -71.8, "w": 7}, {"q": "Q23635", "label": "Bermuda", "lat": 32.32, "lon": -64.74, "w": 12}, {"q": "Q25305", "label": "British Virgin Islands", "lat": 18.445, "lon": -64.54, "w": 4}, {"q": "Q13353", "label": "Montserrat", "lat": 16.75, "lon": -62.2, "w": 7}, {"q": "Q1796551", "label": "British Leeward Islands", "lat": 17.083333, "lon": -61.8, "w": 20}, {"q": "Q130386222", "label": "Antigua Colony", "lat": 17.1, "lon": -61.8, "w": 6}, {"q": "Q3116419", "label": "Grenada Colony", "lat": 12.128611, "lon": -61.686945, "w": 7}, {"q": "Q784", "label": "Dominica Colony", "lat": 15.416667, "lon": -61.333333, "w": 9}, {"q": "Q116282722", "label": "Trinidad and Tobago", "lat": 10.5, "lon": -61.3, "w": 33}, {"q": "Q760", "label": "Saint Lucia Colony", "lat": 13.883333, "lon": -60.966667, "w": 16}, {"q": "Q244", "label": "Barbados", "lat": 13.17, "lon": -59.5525, "w": 8}, {"q": "Q734", "label": "British Guiana", "lat": 5.733333, "lon": -59.316667, "w": 18}, {"q": "Q9648", "label": "Falkland Islands", "lat": -51.73, "lon": -59.22, "w": 4}, {"q": "Q1185346", "label": "Demerara", "lat": 6.8121, "lon": -58.1701, "w": 1}, {"q": "Q3557236", "label": "Gambia Colony", "lat": 13.4531, "lon": -16.5775, "w": 10}, {"q": "Q30059027", "label": "Sierra Leone Colony", "lat": 8.5, "lon": -11.5, "w": 12}, {"q": "Q1410", "label": "Gibraltar", "lat": 36.14, "lon": -5.35, "w": 10}, {"q": "Q117", "label": "Ghana", "lat": 7.9465, "lon": -1.0232, "w": 6}, {"q": "Q503623", "label": "British Gold Coast", "lat": 5.55, "lon": -0.2167, "w": 14}, {"q": "Q3129772", "label": "Heligoland", "lat": 54.1825, "lon": 7.885278, "w": 2}, {"q": "Q1033", "label": "Northern Nigeria", "lat": 9.0, "lon": 8.0, "w": 6}, {"q": "Q233", "label": "Malta", "lat": 35.9, "lon": 14.4, "w": 11}, {"q": "Q4806993", "label": "Cape Colony (British)", "lat": -32.0, "lon": 22.0, "w": 11}, {"q": "Q41", "label": "Greece", "lat": 38.5, "lon": 23.0, "w": 4}, {"q": "Q963", "label": "Bechuanaland Protectorate", "lat": -22.2, "lon": 23.7, "w": 1}, {"q": "Q258", "label": "Colony of Natal", "lat": -29.0, "lon": 24.0, "w": 29}, {"q": "Q953903", "label": "Northern Rhodesia", "lat": -14.5, "lon": 27.5, "w": 2}, {"q": "Q550374", "label": "South African Republic", "lat": -25.716667, "lon": 28.233333, "w": 1}, {"q": "Q79", "label": "Egypt", "lat": 27.0, "lon": 29.0, "w": 6}, {"q": "Q1187978", "label": "Transvaal Colony", "lat": -25.0, "lon": 30.0, "w": 4}, {"q": "Q750583", "label": "Southern Rhodesia Colony", "lat": -19.016667, "lon": 30.016667, "w": 2}, {"q": "Q1050", "label": "Eswatini (Swaziland)", "lat": -26.483333, "lon": 31.433333, "w": 1}, {"q": "Q1036", "label": "Uganda", "lat": 1.28, "lon": 32.39, "w": 2}, {"q": "Q229", "label": "Cyprus", "lat": 35.0, "lon": 33.0, "w": 6}, {"q": "Q1649306", "label": "Nyasaland", "lat": -13.5, "lon": 34.0, "w": 2}, {"q": "Q1020", "label": "Malawi", "lat": -13.0, "lon": 34.0, "w": 1}, {"q": "Q924", "label": "Tanzania", "lat": -6.306945, "lon": 34.853889, "w": 1}, {"q": "Q219060", "label": "Palestine", "lat": 32.0, "lon": 35.25, "w": 2}, {"q": "Q114", "label": "Kenya, Colony & Protectorate of", "lat": 0.1, "lon": 38.0, "w": 7}, {"q": "Q158725", "label": "Tanganyika", "lat": -6.8, "lon": 39.283333, "w": 5}, {"q": "Q1045", "label": "Somalia", "lat": 6.0, "lon": 47.0, "w": 1}, {"q": "Q805", "label": "Yemen", "lat": 15.5, "lon": 48.0, "w": 2}, {"q": "Q21821453", "label": "Seychelles", "lat": -4.62, "lon": 55.45, "w": 3}, {"q": "Q12053604", "label": "Mauritius", "lat": -20.2, "lon": 57.5, "w": 20}, {"q": "Q1027", "label": "Rodrigues", "lat": -20.2, "lon": 57.5, "w": 1}, {"q": "Q843", "label": "Baluchistan", "lat": 30.0, "lon": 71.0, "w": 1}, {"q": "Q891827", "label": "Bombay Presidency (Company)", "lat": 18.966667, "lon": 72.833333, "w": 2}, {"q": "Q1772596", "label": "Madras Presidency (Company)", "lat": 13.08, "lon": 80.27, "w": 1}, {"q": "Q854", "label": "Ceylon", "lat": 7.0, "lon": 81.0, "w": 19}, {"q": "Q668", "label": "Dominion of India", "lat": 22.8, "lon": 83.0, "w": 18}, {"q": "Q817165", "label": "Bengal Presidency", "lat": 22.541111, "lon": 88.337778, "w": 1}, {"q": "Q2376315", "label": "British rule in Burma", "lat": 21.9, "lon": 96.0, "w": 3}, {"q": "Q833", "label": "Malaysia", "lat": 3.780511, "lon": 102.314362, "w": 16}, {"q": "Q334", "label": "Singapore", "lat": 1.3, "lon": 103.8, "w": 4}, {"q": "Q8646", "label": "Hong Kong", "lat": 22.278333, "lon": 114.158611, "w": 2}, {"q": "Q921", "label": "Brunei Protectorate", "lat": 4.4, "lon": 114.566667, "w": 1}, {"q": "Q252", "label": "Java (British Occupation)", "lat": -2.0, "lon": 118.0, "w": 1}, {"q": "Q408", "label": "Commonwealth of Australia", "lat": -25.0, "lon": 133.0, "w": 30}, {"q": "Q691", "label": "British New Guinea", "lat": -6.3, "lon": 147.0, "w": 4}, {"q": "Q664", "label": "Dominion of New Zealand", "lat": -41.2, "lon": 174.0, "w": 12}, {"q": "Q712", "label": "Fiji", "lat": -18.0, "lon": 178.0, "w": 12}], MAXW=33, TOTAL=148;
+const map=L.map('map',{zoomControl:false,attributionControl:false,
+  worldCopyJump:false}).setView([18,8],2.4);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+ {subdomains:'abcd',maxZoom:8}).addTo(map);
+
+function arcPts(a,b,n){
+ const dlat=b[0]-a[0], dlon=b[1]-a[1], len=Math.hypot(dlat,dlon)||1;
+ const lift=Math.min(len*0.16, 22);
+ const pts=[];
+ for(let i=0;i<=n;i++){const t=i/n, s=Math.sin(Math.PI*t);
+  pts.push([a[0]+dlat*t + lift*s*(-dlon)/len, a[1]+dlon*t + lift*s*(dlat)/len]);}
+ return pts;
+}
+const FULL=ARCS.map((A,i)=>({A,pts:arcPts(CAN,[A.lat,A.lon],44),
+  off:(i*0.37)%1}));            // phase offset so particles aren't synced
+let baseLayer=L.layerGroup().addTo(map);   // arcs + dest markers (rebuilt on reveal change)
+let dotLayer =L.layerGroup().addTo(map);   // particles (rebuilt every frame)
+const N=ARCS.length;
+
+function reveal(p,i){const A0=0.08,A1=0.80,dur=0.16;
+ const st=A0+(A1-A0)*(i/Math.max(1,N-1));
+ return Math.max(0,Math.min(1,(p-st)/dur));}
+
+// renderFrame(p=build progress 0..1, t=seconds for particle flow)
+window.renderFrame=function(p,t){
+ baseLayer.clearLayers(); dotLayer.clearLayers();
+ const sub=document.getElementById('sub');
+ sub.style.opacity=Math.min(1,p/0.06);
+ sub.textContent=TOTAL+" colonial officials served in Canada — incl. the pre-Confederation "
+   +"colonies & Newfoundland — and in two or more other colonies. They circulated through "
+   +"the imperial system; movement ran both ways.";
+ let done=0;
+ FULL.forEach((f,i)=>{
+  const rv=reveal(p,i); if(rv<=0) return;
+  // faint connecting arc (fades in place -- no directional draw)
+  L.polyline(f.pts,{color:'#9ec9ff',weight:0.5+2.4*f.A.w/MAXW,
+    opacity:(0.10+0.32*f.A.w/MAXW)*rv,lineCap:'round'}).addTo(baseLayer);
+  if(rv>=0.99){
+   done++;
+   const r=3+9*Math.sqrt(f.A.w/MAXW);
+   L.circleMarker([f.A.lat,f.A.lon],{radius:r,color:'#ff8a5c',weight:1.2,
+     fillColor:'#ff8a5c',fillOpacity:0.85}).addTo(baseLayer);
+   if(f.A.w>=14) L.marker([f.A.lat,f.A.lon],{opacity:0}).addTo(baseLayer)
+     .bindTooltip(f.A.label,{permanent:true,direction:'right',className:'clbl',offset:[8,0]});
+  }
+  // BIDIRECTIONAL particles once the link is mostly established
+  if(rv>0.4){
+   const L0=f.pts.length-1, speed=0.22, np=2;
+   for(let d=0; d<np; d++){
+    for(const dir of [1,-1]){
+     let ph=((t*speed)+f.off+d/np)%1; if(ph<0)ph+=1;
+     const pos=dir>0?ph:1-ph;
+     const pt=f.pts[Math.max(0,Math.min(L0,Math.floor(pos*L0)))];
+     L.circleMarker(pt,{radius:2.4,weight:0,
+       fillColor: dir>0?'#fff1c9':'#bfe0ff',fillOpacity:0.85*rv}).addTo(dotLayer);
+    }
+   }
+  }
+ });
+ // Canada hub (steady, prominent -- a node in the web, not a launch pad)
+ const cr=6+14*Math.min(1,p/0.06);
+ L.circleMarker(CAN,{radius:cr,color:'#ffd98a',weight:2,fillColor:'#ffd98a',
+   fillOpacity:0.92}).addTo(baseLayer);
+ L.marker(CAN,{opacity:0}).addTo(baseLayer).bindTooltip('CANADA',
+   {permanent:true,direction:'top',className:'clbl',offset:[0,-6]});
+ document.getElementById('cnum').textContent=done;
+};
+window.renderFrame(0,0);
+window.__ready=true;
+</script></body></html>

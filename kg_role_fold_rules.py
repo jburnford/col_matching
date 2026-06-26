@@ -121,12 +121,14 @@ AMBIG=set([
 
 def slug(s): return 'colkg:'+re.sub(r'[^a-z0-9]+','_',s.strip().lower()).strip('_')
 
-cache=set(json.loads(l)['institution'] for l in open('data/kg/role_grounding.jsonl'))
+from col_match.kg.paths import kg_out
+_ROOT=kg_out()
+cache=set(json.loads(l)['institution'] for l in open(_ROOT/'role_grounding.jsonl'))
 rows=[]
-for l in open('data/kg/position_worklist.jsonl'):
+for l in open(_ROOT/'position_worklist.jsonl'):
     r=json.loads(l); inst=r['institution']
     if inst.startswith('_') or inst in cache: continue
-    if r['count']>=2: rows.append(r)
+    if r['count']>=1: rows.append(r)
 print('uncached count>=2 rows:',len(rows))
 
 out=[]; counts={'mcp':0,'reuse':0,'internal':0,'ambiguous':0}
@@ -142,7 +144,8 @@ for r in rows:
                 'country_qid':None,'source':src,'match_type':mt})
     counts[src]+=1
 
-with open('/tmp/roles_h.jsonl','w') as f:
+_OUTP=str(_ROOT/'role_folds_rules.jsonl')
+with open(_OUTP,'w') as f:
     for o in out: f.write(json.dumps(o)+'\n')
 print('counts:',counts)
 from collections import Counter

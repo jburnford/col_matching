@@ -37,6 +37,17 @@ _W_AFRICA = {
     "Eastern Region Nigeria", "Gold Coast", "Sierra Leone", "Gambia", "Lagos",
     "British West Africa",
 }
+# India Office List: presidencies/provinces/agencies. Used to disambiguate
+# India-vs-Africa initialisms (C.P. = Central Provinces vs Cape Province) and as
+# parent-colony candidates for directional sub-units.
+_INDIA = {
+    "Bengal", "Bombay", "Madras", "Punjab", "United Provinces",
+    "Central Provinces", "Central Provinces and Berar", "Bihar and Orissa",
+    "Bihar", "Orissa", "Assam", "Burma", "Sind", "Berar", "Coorg",
+    "Ajmer-Merwara", "Baluchistan", "Delhi", "North-West Frontier Province",
+    "Rajputana", "Central India Agency", "Hyderabad State", "Mysore", "Baroda",
+    "Gwalior", "Jammu and Kashmir", "Travancore", "Cochin", "Eastern Bengal",
+}
 
 # --- directional province/region parsing ----------------------------------
 _DIR = re.compile(
@@ -59,6 +70,10 @@ _PROV_COUNTRIES = {
     "Sierra Leone", "Nyasaland", "Northern Rhodesia", "Southern Rhodesia",
     "Natal", "Cape Colony", "Fiji", "Zanzibar", "British Guiana",
     "Federated Malay States", "Sudan", "Palestine",
+    # India Office List presidencies/provinces (parents of directional districts)
+    "Bengal", "Bombay", "Madras", "Punjab", "United Provinces",
+    "Central Provinces", "Bihar and Orissa", "Assam", "Burma", "Sind",
+    "North-West Frontier Province", "Rajputana",
 }
 
 
@@ -69,12 +84,12 @@ def _frags(place: str):
 def is_ambiguous(place: str) -> bool:
     """Does this surface form need per-person context to ground?"""
     p = (place or "").strip()
-    return bool(_DIR.match(p)) or canon_key(p) in ("sa", "wa")
+    return bool(_DIR.match(p)) or canon_key(p) in ("sa", "wa", "cp")
 
 
 def _region_hit(siblings):
     qs = {canonicalize(f) for p in siblings for f in _frags(p)}
-    return qs & _S_AFRICA, qs & _AUSTRALIA, qs & _W_AFRICA
+    return qs & _S_AFRICA, qs & _AUSTRALIA, qs & _W_AFRICA, qs & _INDIA
 
 
 def _parent_country(siblings):
@@ -107,7 +122,15 @@ def resolve(place: str, siblings: list[str]) -> tuple[str | None, str]:
     """Resolve an ambiguous place from a person's other postings.
     Returns (resolved_query | None, evidence). None => keep flagged."""
     p = (place or "").strip()
-    sa, au, wafr = _region_hit(siblings)
+    sa, au, wafr, india = _region_hit(siblings)
+
+    if canon_key(p) == "cp":
+        # Central Provinces (India) vs Cape Province (South Africa)
+        if india and not sa:
+            return "Central Provinces", f"india postings: {sorted(india)[:3]}"
+        if sa and not india:
+            return "Cape Province", f"southern-africa postings: {sorted(sa)[:3]}"
+        return None, "no single-region signal"
 
     if canon_key(p) == "sa":
         if sa and not au:

@@ -22,9 +22,10 @@ from pathlib import Path
 from collections import Counter
 from kg_role_norm import parse_position
 
-GD = Path("data/kg/graph_stage3")
-CACHE = Path("data/kg/role_grounding.jsonl")
-WORK = Path("data/kg/position_worklist.jsonl")
+from col_match.kg.paths import kg_out
+GD = kg_out() / "graph_stage3"
+CACHE = kg_out() / "role_grounding.jsonl"
+WORK = kg_out() / "position_worklist.jsonl"
 EVENTS = GD / "career_events.jsonl"
 
 def nrm(s: str) -> str:

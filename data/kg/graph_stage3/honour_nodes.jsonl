@@ -1,36 +1,36 @@
-{"id": "Q12177413", "label": "Companion of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 2139}
-{"id": "Q10762848", "label": "Officer of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 1712}
-{"id": "Q12201526", "label": "Member of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 1091}
-{"id": "Q12177415", "label": "Knight Commander of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 969}
+{"id": "Q12177413", "label": "Companion of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 2124}
+{"id": "Q10762848", "label": "Officer of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 1713}
+{"id": "Q12201526", "label": "Member of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 1092}
+{"id": "Q12177415", "label": "Knight Commander of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 961}
 {"id": "Q1335064", "label": "Military Cross", "type": "decoration", "source": "mcp", "n_people": 582}
 {"id": "Q12201477", "label": "Commander of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 572}
-{"id": "Q833163", "label": "Knight Bachelor", "type": "honour", "source": "mcp", "n_people": 485}
-{"id": "Q3195318", "label": "Colonial Police Medal", "type": "decoration", "source": "mcp", "n_people": 381, "merged_from": ["colkg:colonial_police_medal"]}
-{"id": "Q1533366", "label": "King's Counsel", "type": "appointment", "source": "reuse", "n_people": 373}
-{"id": "Q12177423", "label": "Knight Grand Cross of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 328}
-{"id": "Q12177472", "label": "Companion of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 324}
+{"id": "Q833163", "label": "Knight Bachelor", "type": "honour", "source": "mcp", "n_people": 487}
+{"id": "Q3195318", "label": "Colonial Police Medal", "type": "decoration", "source": "mcp", "n_people": 378}
+{"id": "Q1533366", "label": "King's Counsel", "type": "appointment", "source": "reuse", "n_people": 374}
+{"id": "Q12177423", "label": "Knight Grand Cross of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 333}
+{"id": "Q12177472", "label": "Companion of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 323}
 {"id": "Q1810753", "label": "Imperial Service Order", "type": "order", "source": "mcp", "n_people": 304}
-{"id": "Q615838", "label": "Distinguished Service Order", "type": "decoration", "source": "mcp", "n_people": 258}
-{"id": "Q28841847", "label": "Member of the Privy Council of the United Kingdom", "type": "appointment", "source": "mcp", "n_people": 226}
-{"id": "Q2792177", "label": "King's Police Medal", "type": "decoration", "source": "reuse", "n_people": 204, "merged_from": ["colkg:king_s_police_medal"]}
-{"id": "Q12177470", "label": "Knight Commander of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 175}
-{"id": "Q12201445", "label": "Knight Commander of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 140}
-{"id": "Q12177451", "label": "Knight Grand Cross of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 90}
+{"id": "Q615838", "label": "Distinguished Service Order", "type": "decoration", "source": "mcp", "n_people": 259}
+{"id": "Q28841847", "label": "Member of the Privy Council of the United Kingdom", "type": "appointment", "source": "mcp", "n_people": 230}
+{"id": "Q2792177", "label": "King's Police Medal", "type": "decoration", "source": "reuse", "n_people": 192}
+{"id": "Q12177470", "label": "Knight Commander of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 176}
+{"id": "Q12201445", "label": "Knight Commander of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 138}
+{"id": "Q12177451", "label": "Knight Grand Cross of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 94}
 {"id": "colkg:mvo", "label": "Member of the Royal Victorian Order", "type": "order", "source": "internal", "n_people": 77}
 {"id": "colkg:ed", "label": "ed", "type": "order", "source": "internal", "n_people": 75}
 {"id": "colkg:td", "label": "td", "type": "order", "source": "internal", "n_people": 73}
-{"id": "Q12193183", "label": "Commander of the Royal Victorian Order", "type": "order", "source": "mcp", "n_people": 68}
+{"id": "Q12193183", "label": "Commander of the Royal Victorian Order", "type": "order", "source": "mcp", "n_people": 67}
 {"id": "Q1229534", "label": "Distinguished Flying Cross", "type": "decoration", "source": "mcp", "n_people": 59}
 {"id": "colkg:vd", "label": "vd", "type": "order", "source": "internal", "n_people": 48}
 {"id": "colkg:kcvo", "label": "kcvo", "type": "order", "source": "internal", "n_people": 47}
 {"id": "colkg:mm", "label": "mm", "type": "order", "source": "internal", "n_people": 43}
 {"id": "colkg:fls", "label": "fls", "type": "order", "source": "internal", "n_people": 42}
 {"id": "colkg:dsc", "label": "dsc", "type": "order", "source": "internal", "n_people": 40}
-{"id": "colkg:cie", "label": "cie", "type": "order", "source": "internal", "n_people": 36}
+{"id": "colkg:cie", "label": "cie", "type": "order", "source": "internal", "n_people": 37}
+{"id": "colkg:knt_bachel", "label": "knt bachel", "type": "honour", "source": "internal", "n_people": 35}
 {"id": "colkg:croix_de_guerre", "label": "croix-de-guerre", "type": "honour", "source": "internal", "n_people": 34}
 {"id": "colkg:1914_15_star", "label": "1914-15 star", "type": "honour", "source": "internal", "n_people": 34}
 {"id": "colkg:dtm_h", "label": "dtm&h", "type": "honour", "source": "internal", "n_people": 34}
-{"id": "colkg:knt_bachel", "label": "knt bachel", "type": "honour", "source": "internal", "n_people": 34}
 {"id": "colkg:ment_in_desps", "label": "ment in desps", "type": "honour", "source": "internal", "n_people": 33}
 {"id": "colkg:gcvo", "label": "gcvo", "type": "order", "source": "internal", "n_people": 31}
 {"id": "colkg:ce", "label": "ce", "type": "order", "source": "internal", "n_people": 31}
@@ -59,13 +59,14 @@
 {"id": "colkg:king_s_medal", "label": "king's medal", "type": "honour", "source": "internal", "n_people": 16}
 {"id": "colkg:cda", "label": "cda", "type": "order", "source": "internal", "n_people": 15}
 {"id": "colkg:rd", "label": "rd", "type": "order", "source": "internal", "n_people": 15}
-{"id": "colkg:turkish_medal", "label": "turkish medal", "type": "honour", "source": "internal", "n_people": 15}
 {"id": "colkg:desps", "label": "desps", "type": "order", "source": "internal", "n_people": 14}
+{"id": "colkg:turkish_medal", "label": "turkish medal", "type": "honour", "source": "internal", "n_people": 14}
 {"id": "colkg:dcm", "label": "dcm", "type": "order", "source": "internal", "n_people": 14}
 {"id": "colkg:kcsi", "label": "kcsi", "type": "order", "source": "internal", "n_people": 13}
 {"id": "colkg:m_i_mar_e", "label": "m i mar e", "type": "honour", "source": "internal", "n_people": 13}
 {"id": "colkg:arsm", "label": "arsm", "type": "order", "source": "internal", "n_people": 13}
 {"id": "colkg:gm", "label": "gm", "type": "order", "source": "internal", "n_people": 12}
+{"id": "colkg:king_s_police_medal", "label": "king's police medal", "type": "honour", "source": "internal", "n_people": 12}
 {"id": "colkg:m_i_mech_e", "label": "m i mech e", "type": "honour", "source": "internal", "n_people": 12}
 {"id": "colkg:nda", "label": "nda", "type": "order", "source": "internal", "n_people": 12}
 {"id": "colkg:aicta", "label": "aicta", "type": "order", "source": "internal", "n_people": 12}
@@ -112,7 +113,6 @@
 {"id": "colkg:fes", "label": "fes", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:kp", "label": "kp", "type": "order", "source": "internal", "n_people": 7}
 {"id": "colkg:med", "label": "med", "type": "order", "source": "internal", "n_people": 7}
-{"id": "colkg:khedive_s_bronze_star", "label": "khedive's bronze star", "type": "honour", "source": "internal", "n_people": 7}
 {"id": "colkg:bma", "label": "bma", "type": "order", "source": "internal", "n_people": 6}
 {"id": "colkg:1914_star", "label": "\"1914\" star", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:mcs", "label": "mcs", "type": "order", "source": "internal", "n_people": 6}
@@ -125,8 +125,8 @@
 {"id": "colkg:order_of_the_nile", "label": "order of the nile", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:dc", "label": "dc", "type": "order", "source": "internal", "n_people": 6}
 {"id": "colkg:mb_bs", "label": "mb,bs", "type": "honour", "source": "internal", "n_people": 6}
-{"id": "colkg:crimean_medal", "label": "crimean medal", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:c_st_j", "label": "c st j", "type": "honour", "source": "internal", "n_people": 6}
+{"id": "colkg:khedive_s_bronze_star", "label": "khedive's bronze star", "type": "honour", "source": "internal", "n_people": 6}
 {"id": "colkg:mia", "label": "mia", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:honorary_d_c_l", "label": "honorary d c l", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:medal_and_four", "label": "medal and four", "type": "honour", "source": "internal", "n_people": 5}
@@ -145,6 +145,7 @@
 {"id": "colkg:american_d_s_m", "label": "american d s m", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:s_african_medal", "label": "s african medal", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:f_r_econ_s", "label": "f r econ s", "type": "honour", "source": "internal", "n_people": 5}
+{"id": "colkg:crimean_medal", "label": "crimean medal", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:brill_star_of_zanz", "label": "brill star of zanz", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:a_m_inst_t", "label": "a m inst t", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:cc", "label": "cc", "type": "order", "source": "internal", "n_people": 5}
@@ -197,6 +198,7 @@
 {"id": "colkg:lsa", "label": "lsa", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:medal_and_turkish_medal", "label": "medal and turkish medal", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:order_of_the_brilliant_star_of_zanzibar_class_iii", "label": "order of the brilliant star of zanzibar, class iii", "type": "honour", "source": "internal", "n_people": 3}
+{"id": "colkg:colonial_police_medal", "label": "colonial police medal", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:medal_and_three", "label": "medal and three", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:im", "label": "im", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:msr", "label": "msr", "type": "order", "source": "internal", "n_people": 3}
@@ -269,6 +271,7 @@
 {"id": "colkg:whitworth_scholar", "label": "whitworth scholar", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:adc", "label": "adc", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:received_thanks_of_admiralty", "label": "received thanks of admiralty", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:comdr_of_the_legion_of_honour", "label": "comdr of the legion of honour", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_anglo_boer_oorlog", "label": "medal, anglo-boer oorlog", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:bronze_star_medal", "label": "bronze star medal", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:chevalier_de_l_ordre_royal_du_lion", "label": "chevalier de l'ordre royal du lion", "type": "honour", "source": "internal", "n_people": 2}
@@ -497,7 +500,6 @@
 {"id": "colkg:king_and_queen_s_medals_with_five", "label": "king and queen's medals with five", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:croix_de_guerre_with_palm_leaves", "label": "croix de guerre with palm leaves", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:meds", "label": "meds", "type": "order", "source": "internal", "n_people": 1}
-{"id": "colkg:comdr_of_the_legion_of_honour", "label": "comdr of the legion of honour", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:g_s_medl", "label": "g s medl", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:g_s_medal", "label": "g s medal", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:queen_s_medical_4", "label": "queen's medical 4", "type": "honour", "source": "internal", "n_people": 1}
