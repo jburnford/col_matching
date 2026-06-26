@@ -1,0 +1,75 @@
+{"query":"Kotah state","qid":"Q1785349","label":"Kota State","country_qid":"Q129286","p131_qid":"Q2604565","instance_of":["Q188509"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Allahabad district","qid":"Q1773426","label":"Prayagraj district","country_qid":"Q668","p131_qid":"Q41279","instance_of":["Q1149652"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"N.I.","qid":null,"match_type":"ungrounded"}
+{"query":"Cabul and Northern Afghanistan","qid":null,"match_type":"ambiguous"}
+{"query":"high commissioner for India","qid":null,"match_type":"ungrounded"}
+{"query":"Burma Circle","qid":null,"match_type":"ungrounded"}
+{"query":"Rajamundry","qid":"Q1639492","label":"Rajahmundry","country_qid":"Q668","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"R.A.","qid":null,"match_type":"ungrounded"}
+{"query":"Northern Bengal and Tirhoot","qid":null,"match_type":"ambiguous"}
+{"query":"Madras Diocese","qid":null,"match_type":"ungrounded"}
+{"query":"Panch Mahāls","qid":"Q1781463","label":"Panchmahal district","country_qid":"Q668","p131_qid":null,"instance_of":["Q1149652"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Colombo","qid":"Q35381","label":"Colombo","country_qid":"Q854","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"board of trade","qid":null,"match_type":"ungrounded"}
+{"query":"Bombay Presy.","qid":"Q891827","label":"Bombay Presidency","country_qid":"Q129286","p131_qid":null,"instance_of":["Q1763302"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Cent. Provs. and Behar","qid":"Q521864","label":"Central Provinces","country_qid":"Q129286","p131_qid":null,"instance_of":["Q1763302"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Punjab Circle","qid":null,"match_type":"ungrounded"}
+{"query":"Dhulia","qid":"Q773603","label":"Dhule","country_qid":"Q668","p131_qid":"Q1797383","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Somaliland","qid":"Q662653","label":"British Somaliland","country_qid":"Q145","p131_qid":null,"instance_of":["Q161243"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Rhodesia","qid":"Q1226918","label":"Rhodesia","country_qid":null,"p131_qid":null,"instance_of":["Q3024240"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"N.E. Frontier","qid":"Q4056876","label":"North-East Frontier Agency","country_qid":"Q129286","p131_qid":null,"instance_of":["Q15642541"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Orissa states","qid":"Q5330498","label":"Eastern States Agency","country_qid":"Q668","p131_qid":null,"instance_of":["Q15642541"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"En. Cd.","qid":null,"match_type":"ungrounded"}
+{"query":"Yervada","qid":"Q142526","label":"Yerawada","country_qid":"Q668","p131_qid":"Q1538","instance_of":["Q123705"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"communications","qid":null,"match_type":"ungrounded"}
+{"query":"Sivaganga estate","qid":null,"match_type":"ungrounded"}
+{"query":"South Bihar","qid":null,"match_type":"ambiguous"}
+{"query":"W.C.","qid":null,"match_type":"ungrounded"}
+{"query":"Bombay dev. scheme","qid":null,"match_type":"ungrounded"}
+{"query":"All-India Radio","qid":null,"match_type":"ungrounded"}
+{"query":"I.B.","qid":null,"match_type":"ungrounded"}
+{"query":"Bombay Presby.","qid":null,"match_type":"ungrounded"}
+{"query":"Trucial Coast","qid":"Q1852345","label":"Trucial States","country_qid":"Q145","p131_qid":null,"instance_of":["Q164142"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Singapore","qid":"Q334","label":"Singapore","country_qid":"Q334","p131_qid":null,"instance_of":["Q3024240"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Baln","qid":null,"match_type":"ungrounded"}
+{"query":"eastern states","qid":"Q5330498","label":"Eastern States Agency","country_qid":"Q668","p131_qid":null,"instance_of":["Q15642541"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Namtu","qid":"Q3335495","label":"Namtu","country_qid":"Q836","p131_qid":null,"instance_of":["Q3957"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bihar Provl.","qid":"Q4907077","label":"Bihar Province","country_qid":"Q129286","p131_qid":null,"instance_of":["Q1763302"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Indian State Ryis. (Eastern Bengal)","qid":null,"match_type":"ungrounded"}
+{"query":"Bombay bacteriological laby.","qid":null,"match_type":"ungrounded"}
+{"query":"Nassick","qid":"Q200235","label":"Nashik","country_qid":"Q668","p131_qid":"Q1797269","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Pegu division","qid":"Q800124","label":"Bago Region","country_qid":"Q836","p131_qid":null,"instance_of":["Q15072454"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bihar and Orissa Provl.","qid":"Q4907084","label":"Bihar and Orissa Province","country_qid":"Q129286","p131_qid":"Q129286","instance_of":["Q1763302"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"N.W. Provinces and Ajmere","qid":"Q138521","label":"North-Western Provinces","country_qid":"Q129286","p131_qid":null,"instance_of":["Q1763302"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Upper Scinde and Beloochistan","qid":null,"match_type":"ambiguous"}
+{"query":"South Australia","qid":"Q35715","label":"South Australia","country_qid":"Q408","p131_qid":null,"instance_of":["Q5852411"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Rajputana-Malwa","qid":null,"match_type":"ambiguous"}
+{"query":"Manpura","qid":null,"match_type":"ungrounded"}
+{"query":"Maunpoor","qid":null,"match_type":"ungrounded"}
+{"query":"Fatehpur and Moradabad","qid":null,"match_type":"ambiguous"}
+{"query":"Bulgaria","qid":"Q219","label":"Bulgaria","country_qid":"Q219","p131_qid":null,"instance_of":["Q6256"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Greek frontier","qid":null,"match_type":"ambiguous"}
+{"query":"Nile","qid":"Q3392","label":"Nile","country_qid":null,"p131_qid":null,"instance_of":["Q4022"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Bengal and the Punjab","qid":null,"match_type":"ambiguous"}
+{"query":"N. division","qid":null,"match_type":"ambiguous"}
+{"query":"Kuram valley","qid":"Q2378590","label":"Kurram District","country_qid":"Q843","p131_qid":null,"instance_of":["Q13415927"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Lahore and Rawulpindi","qid":null,"match_type":"ambiguous"}
+{"query":"Kuram Valley","qid":"Q2378590","label":"Kurram District","country_qid":"Q843","p131_qid":null,"instance_of":["Q13415927"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Thal sub-divn.","qid":null,"match_type":"ungrounded"}
+{"query":"Malakand","qid":"Q1820054","label":"Malakand Agency","country_qid":"Q843","p131_qid":null,"instance_of":["Q15642541"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Great Britain","qid":"Q145","label":"United Kingdom","country_qid":"Q145","p131_qid":null,"instance_of":["Q6256"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Chengalpat","qid":"Q1069918","label":"Chingleput District","country_qid":"Q129286","p131_qid":null,"instance_of":["Q1149652"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Indus-Sind rev. survey","qid":null,"match_type":"ungrounded"}
+{"query":"Jeypoor","qid":null,"match_type":"ambiguous"}
+{"query":"western states of Rajputana","qid":null,"match_type":"ambiguous"}
+{"query":"Dacca divn.","qid":"Q330158","label":"Dhaka Division","country_qid":"Q902","p131_qid":null,"instance_of":["Q14764848"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Southern Afghanistan","qid":null,"match_type":"ambiguous"}
+{"query":"Haraoiti and Tonk","qid":null,"match_type":"ambiguous"}
+{"query":"India store dépôt","qid":null,"match_type":"ungrounded"}
+{"query":"Guntoor","qid":"Q3120966","label":"Guntur","country_qid":"Q668","p131_qid":"Q15341","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Looshai","qid":"Q11917394","label":"Lushai Hills District","country_qid":"Q668","p131_qid":null,"instance_of":["Q1149652"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"South Kensington","qid":"Q1045096","label":"South Kensington","country_qid":"Q145","p131_qid":"Q188801","instance_of":["Q3957"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Madras district","qid":null,"match_type":"ambiguous"}
+{"query":"Sind section","qid":null,"match_type":"ungrounded"}
+{"query":"Cocanada","qid":"Q59018","label":"Kakinada","country_qid":"Q668","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Madras and Bombay","qid":null,"match_type":"ambiguous"}

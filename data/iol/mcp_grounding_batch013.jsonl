@@ -1,0 +1,75 @@
+{"query":"Chicago","qid":"Q1297","label":"Chicago","country_qid":"Q30","p131_qid":null,"instance_of":["Q1093829"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Magdala","qid":"Q2279371","label":"Amba Mariam","country_qid":"Q115","p131_qid":"Q2919962","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"central system","qid":null,"match_type":"ungrounded"}
+{"query":"Afghan","qid":null,"match_type":"ungrounded"}
+{"query":"N.W. Prov. irrigation","qid":null,"match_type":"ungrounded"}
+{"query":"Ganges Canal","qid":"Q2671536","label":"Ganges Canal","country_qid":"Q668","p131_qid":null,"instance_of":["Q2935978"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"W. India","qid":null,"match_type":"ambiguous"}
+{"query":"Sirhind division","qid":"Q2672955","label":"Sirhind-Fategarh","country_qid":"Q668","p131_qid":"Q172485","instance_of":["Q3957"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"N.W.Rly.","qid":null,"match_type":"ungrounded"}
+{"query":"Bombay C.S.","qid":null,"match_type":"ungrounded"}
+{"query":"Gond and Fyzabad","qid":null,"match_type":"ambiguous"}
+{"query":"Nuddea division","qid":"Q139099436","label":"Nadia District (1787–1947)","country_qid":"Q668","p131_qid":null,"instance_of":["Q56061"],"has_coords":false,"match_type":"mcp_verified"}
+{"query":"Leh","qid":"Q230818","label":"Leh","country_qid":"Q668","p131_qid":"Q200667","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"N.W. Province","qid":"Q138521","label":"North-Western Provinces","country_qid":"Q129286","p131_qid":null,"instance_of":["Q15646712"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"wards' estate Patna","qid":"Q80484","label":"Patna","country_qid":"Q668","p131_qid":null,"instance_of":["Q1549591"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bakarganj","qid":"Q4849247","label":"Bakerganj District","country_qid":"Q902","p131_qid":"Q817165","instance_of":["Q17507349"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Rohilkund division","qid":"Q41275","label":"Bareilly division","country_qid":"Q668","p131_qid":"Q1498","instance_of":["Q125907346"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Khelat","qid":"Q2581527","label":"Kalat","country_qid":"Q843","p131_qid":"Q99818132","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Partabgarh","qid":null,"match_type":"ambiguous"}
+{"query":"Suakim","qid":"Q571215","label":"Suakin","country_qid":"Q1049","p131_qid":"Q33637935","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Madras engineers","qid":null,"match_type":"ungrounded"}
+{"query":"Fyzabad division","qid":"Q842411","label":"Faizabad","country_qid":"Q668","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"St. Petersburg and London","qid":null,"match_type":"ambiguous"}
+{"query":"Burmese","qid":null,"match_type":"ungrounded"}
+{"query":"Ferozepore","qid":"Q652098","label":"Firozpur","country_qid":"Q668","p131_qid":"Q172385","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Lahore district","qid":"Q11739","label":"Lahore","country_qid":"Q843","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Rawal Pindi Durbar","qid":"Q93230","label":"Rawalpindi","country_qid":"Q843","p131_qid":"Q24440","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bombay light cavalry","qid":null,"match_type":"ungrounded"}
+{"query":"North-Western Provinces (Oudh)","qid":"Q138521","label":"North-Western Provinces","country_qid":"Q129286","p131_qid":null,"instance_of":["Q15646712"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Etah","qid":"Q1773429","label":"Etah district","country_qid":"Q668","p131_qid":null,"instance_of":["Q1149652"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Patiala state","qid":"Q917553","label":"Patiala State","country_qid":"Q668","p131_qid":null,"instance_of":["Q1336152"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"E. states of Rajputana","qid":null,"match_type":"ambiguous"}
+{"query":"Nilgiri Hills","qid":"Q10094","label":"Nilgiri Mountains","country_qid":"Q668","p131_qid":"Q1445","instance_of":["Q46831"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Dum-Dum","qid":"Q649955","label":"Dum Dum","country_qid":"Q668","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Calcutta Madrassa","qid":null,"match_type":"ungrounded"}
+{"query":"Deccan states","qid":null,"match_type":"ambiguous"}
+{"query":"Kooshtea","qid":"Q1897952","label":"Kushtia","country_qid":"Q902","p131_qid":"Q956895","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Delhi division","qid":"Q1353","label":"Delhi","country_qid":"Q668","p131_qid":null,"instance_of":["Q1093829"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Delhi divn.","qid":"Q1353","label":"Delhi","country_qid":"Q668","p131_qid":null,"instance_of":["Q1093829"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Jullundur Umballa and Amritsar divisions","qid":null,"match_type":"ambiguous"}
+{"query":"Nee-much","qid":null,"match_type":"ungrounded"}
+{"query":"Kattywar","qid":"Q1408929","label":"Kathiawar","country_qid":"Q668","p131_qid":"Q1069636","instance_of":["Q34763"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bengal Circle","qid":null,"match_type":"ungrounded"}
+{"query":"S. Canara","qid":"Q7566496","label":"South Canara District","country_qid":"Q668","p131_qid":"Q1772596","instance_of":["Q17507349","Q82794"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bengal Infantry","qid":null,"match_type":"ungrounded"}
+{"query":"N.W. Prov. and in Oudh","qid":"Q138521","label":"North-Western Provinces","country_qid":"Q129286","p131_qid":null,"instance_of":["Q15646712"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bengal Artillery","qid":null,"match_type":"ungrounded"}
+{"query":"House of Commons","qid":null,"match_type":"ungrounded"}
+{"query":"Irrawaddy division","qid":"Q47047","label":"Ayeyarwady Region","country_qid":"Q836","p131_qid":"Q836","instance_of":["Q15072454"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Madras Town","qid":"Q1352","label":"Chennai","country_qid":"Q668","p131_qid":null,"instance_of":["Q1093829"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Candahar","qid":"Q45604","label":"Kandahar","country_qid":"Q889","p131_qid":"Q173808","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Akola","qid":"Q213014","label":"Akola","country_qid":"Q668","p131_qid":"Q520510","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Jalaun","qid":"Q2089115","label":"Jalaun district","country_qid":"Q668","p131_qid":null,"instance_of":["Q1149652"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bhaunagar","qid":"Q242992","label":"Bhavnagar","country_qid":"Q668","p131_qid":"Q854963","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Jhānsi","qid":"Q242995","label":"Jhansi","country_qid":"Q668","p131_qid":"Q1937885","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Banswara and Partabgarh","qid":null,"match_type":"ambiguous"}
+{"query":"Chiengme","qid":"Q52028","label":"Chiang Mai","country_qid":"Q869","p131_qid":"Q476008","instance_of":["Q1549591"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Western Jumna canal N.W. Provinces","qid":"Q26777758","label":"Western Yamuna Canal","country_qid":"Q668","p131_qid":null,"instance_of":["Q2935978"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Australian Colonies","qid":null,"match_type":"ambiguous"}
+{"query":"Rewa Durbar","qid":"Q1000495","label":"Rewa","country_qid":"Q668","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Bombay city","qid":"Q1156","label":"Mumbai","country_qid":"Q668","p131_qid":null,"instance_of":["Q1549591"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Darjiling","qid":"Q169997","label":"Darjeeling","country_qid":"Q668","p131_qid":"Q1134759","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Khairpur state","qid":"Q3249587","label":"Khairpur State","country_qid":"Q843","p131_qid":null,"instance_of":["Q1336152"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Sultanpore","qid":"Q1356154","label":"Sultanpur district","country_qid":"Q668","p131_qid":null,"instance_of":["Q1149652"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Deesa","qid":"Q1192618","label":"Deesa","country_qid":"Q668","p131_qid":"Q806125","instance_of":["Q3957"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Goalundo","qid":"Q5575238","label":"Goalundo Ghat","country_qid":"Q902","p131_qid":"Q2348762","instance_of":["Q486972"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Delhi Prov.","qid":"Q1353","label":"Delhi","country_qid":"Q668","p131_qid":null,"instance_of":["Q1093829"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Berhampore","qid":"Q633530","label":"Berhampore","country_qid":"Q668","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Lucknow divn.","qid":"Q47916","label":"Lucknow","country_qid":"Q668","p131_qid":null,"instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Central India and Rajputana agencies","qid":null,"match_type":"ambiguous"}
+{"query":"Nusserabad","qid":"Q3870501","label":"Nasirabad","country_qid":"Q668","p131_qid":"Q413037","instance_of":["Q57178953"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Krishnaghur","qid":"Q1006338","label":"Krishnanagar","country_qid":"Q668","p131_qid":"Q1143880","instance_of":["Q515"],"has_coords":true,"match_type":"mcp_verified"}
+{"query":"Kabul legation","qid":null,"match_type":"ungrounded"}
+{"query":"Okhamandal district","qid":null,"match_type":"ambiguous"}
+{"query":"Sholapur-Bijapur","qid":null,"match_type":"ambiguous"}
