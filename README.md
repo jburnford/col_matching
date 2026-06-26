@@ -75,3 +75,78 @@ cp .env.example .env   # or rely on ~/textasdatacolonialofficelist/.env (auto-lo
 Credentials resolve the same way as `col_pipeline` (`NEO4J_PROD_URI` /
 `NEO4J_URI`, `NEO4J_PASSWORD`, …), falling back to the sibling repo's `.env`,
 so there's a single credential source.
+
+## Knowledge graph (LadybugDB)
+
+The grounded person-career knowledge graph for **two corpora** — the Colonial
+Office List (`data/kg`) and the India Office List (`data/iol`) — is emitted as
+JSONL layers under `data/<corpus>/graph_stage3/` and loaded into an embedded
+**LadybugDB** (a Kuzu-fork, Cypher) database.
+
+Every corpus roots its outputs on the `COL_KG_OUT` environment variable
+(default `data/kg`), so the same scripts build either graph. The JSONL graph
+layers are committed; the `*/ladybug_db` directories are **not** (they're
+~50–70 MB binaries, regenerated deterministically from the JSONL).
+
+### Build the database
+
+```bash
+# loader deps (in addition to `pip install -e .`).
+# NB: `ladybug` here is the embeddable graph DB (github.com/lbugdb/lbug, a Kuzu fork),
+# NOT the "Ladybug Tools" architecture package of the same import name.
+pip install ladybug pandas pyarrow
+
+# Colonial Office List  -> data/kg/ladybug_db
+COL_KG_OUT=data/kg  python3 kg_load_ladybug.py
+
+# India Office List     -> data/iol/ladybug_db
+COL_KG_OUT=data/iol python3 kg_load_ladybug.py
+```
+
+Each run drops any existing DB and rebuilds from scratch via Parquet `COPY FROM`,
+then prints node/edge counts and runs validation queries. Current scale:
+
+| corpus | persons | career events | persons→Wikidata |
+|--------|--------:|--------------:|-----------------:|
+| Colonial Office List (`data/kg`) | 30,080 | 189,775 | 925 |
+| India Office List (`data/iol`)   | 20,362 | 129,090 | 0 *(person grounding deferred)* |
+
+### Graph model (reified career events)
+
+```
+(Person)-[:HAS_EVENT]->(CareerEvent)-[:EVENT_ROLE]->(Role)
+                        (CareerEvent)-[:EVENT_PLACE]->(Place)
+                        (CareerEvent)-[:EVENT_COLONY]->(Place)
+(Person)-[:EDUCATED_AT]->(Institution)
+(Person)-[:EMPLOYED_BY]->(Organisation)
+(Person)-[:RECEIVED]->(Honour)
+(Person)-[:HOLDS_QUAL]->(Qualification)
+```
+
+Nodes carry their grounded id (a Wikidata `Q…` QID where grounded, else a stable
+internal `colkg:<slug>`) plus a label. `CareerEvent` carries
+`year_start`/`year_end`/`is_acting`/`position_raw`. The loader synthesizes each
+reified event from `career_events.jsonl` joined to `role_edges.jsonl` (on
+`person_id`+`seq`); employers are person-level (`employment_edges.jsonl`).
+
+### Query it
+
+```python
+import ladybug
+conn = ladybug.Connection(ladybug.Database("data/iol/ladybug_db"))
+print(conn.execute(
+    "MATCH (p:Person)-[:EMPLOYED_BY]->(o:Organisation) "
+    "RETURN o.label, count(*) AS n ORDER BY n DESC LIMIT 5"
+).get_as_df())
+```
+
+### Regenerating the JSONL from scratch (optional)
+
+Rebuilding the DB needs only the committed `graph_stage3/*.jsonl`. To regenerate
+those layers from the structured corpus (after re-grounding or re-dedup), re-run
+the emit chain rooted on the same `COL_KG_OUT`: `kg_emit_stage3.py` (core graph)
+then the per-layer worklist+emit scripts (`kg_org_worklist.py` →
+`kg_ground_institutions.py emit`, `kg_position_worklist.py` → `kg_emit_roles.py`,
+`kg_parse_education.py worklist` → `kg_ground_institutions.py emit`,
+`kg_honour_worklist.py` → `kg_emit_honours.py`). Grounding caches
+(`*_grounding.jsonl`) are committed and reused — no re-grounding needed.
