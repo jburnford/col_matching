@@ -21,12 +21,38 @@ import json, shutil, tempfile
 from pathlib import Path
 import pandas as pd
 import ladybug
+from col_match.kg.paths import kg_out
 
-GD = Path("data/kg/graph_stage3")
-DB = Path("data/kg/ladybug_db")
+GD = kg_out() / "graph_stage3"
+DB = kg_out() / "ladybug_db"
 
 def L(f):
     return [json.loads(l) for l in (GD / f).open()]
+
+def load_facts():
+    """Synthesize old-schema career_facts from the current emit's career_events
+    (event spine) joined with role_edges (grounded role per person+seq). Orgs are
+    person-level in the current emit (employment_edges), wired separately as
+    EMPLOYED_BY rather than per-event EVENT_ORG."""
+    if (GD / "career_facts.jsonl").exists() and not (GD / "career_events.jsonl").exists():
+        return L("career_facts.jsonl")                      # legacy graph
+    rng = {}
+    for r in L("role_edges.jsonl"):
+        rng[(r["person_id"], r.get("seq"))] = r
+    facts = []
+    for e in L("career_events.jsonl"):
+        r = rng.get((e["person_id"], e.get("seq")), {})
+        facts.append({
+            "person_id": e["person_id"], "seq": e.get("seq"),
+            "role_id": r.get("role_id"), "role_label": r.get("role_label") or e.get("position_norm"),
+            "role_modifiers": r.get("modifiers") or [], "role_source": r.get("source") or "",
+            "org_id": None, "org_label": None, "org_type": e.get("org_type"),
+            "place_qid": e.get("place_qid"), "place_label": e.get("place_label"),
+            "colony_qid": e.get("colony_qid"), "colony_label": e.get("colony_label"),
+            "year_start": e.get("year_start"), "year_end": e.get("year_end"),
+            "is_acting": e.get("is_acting"), "position_raw": e.get("position"),
+        })
+    return facts
 
 def main():
     # ---- read layers -----------------------------------------------------
@@ -37,10 +63,11 @@ def main():
     insts   = L("institutions.jsonl")
     hons    = L("honour_nodes.jsonl")
     quals   = L("qualification_nodes.jsonl")
-    facts   = L("career_facts.jsonl")
+    facts   = load_facts()
     hon_e   = L("honour_edges.jsonl")
     qual_e  = L("qualification_edges.jsonl")
     edu_e   = L("education_edges.jsonl")
+    emp_e   = L("employment_edges.jsonl") if (GD / "employment_edges.jsonl").exists() else []
 
     # person -> Wikidata grounding (zero-FP). Prefer the merged Layer1+Layer2 final set.
     pgf = GD / "person_grounding.final.jsonl"
@@ -133,6 +160,10 @@ def main():
                               "edu_type": e.get("type") or ""}
                              for e in edu_e
                              if e["person_id"] in person_ids and e.get("institution_id") in inst_ids])
+    employed = pd.DataFrame([{"from": e["person_id"], "to": e["institution_id"]}
+                             for e in emp_e
+                             if e["person_id"] in person_ids and e.get("institution_id") in org_ids]
+                            ) if emp_e else pd.DataFrame(columns=["from", "to"])
 
     # ---- create db -------------------------------------------------------
     # clean any prior db (single-file or directory layout) + WAL/lock siblings
@@ -161,6 +192,7 @@ def main():
         "CREATE REL TABLE RECEIVED(FROM Person TO Honour, year INT64, modifiers STRING)",
         "CREATE REL TABLE HOLDS_QUAL(FROM Person TO Qualification, year INT64)",
         "CREATE REL TABLE EDUCATED_AT(FROM Person TO Institution, edu_type STRING)",
+        "CREATE REL TABLE EMPLOYED_BY(FROM Person TO Organisation)",
     ]
     for q in ddl:
         conn.execute(q)
@@ -171,6 +203,8 @@ def main():
         # node tables need a unique PK: two surfaces can share one QID, so collapse.
         if pk is not None:
             df = df.drop_duplicates(subset=[pk], keep="first")
+        if len(df) == 0:
+            print(f"  {table:14} {0:>7,} (skipped empty)"); return
         p = tmp / f"{table}.parquet"
         df.to_parquet(p, index=False)
         conn.execute(f"COPY {table} FROM '{p}'")
@@ -185,6 +219,7 @@ def main():
     copy("HAS_EVENT", has_event); copy("EVENT_ROLE", ev_role); copy("EVENT_ORG", ev_org)
     copy("EVENT_PLACE", ev_place); copy("EVENT_COLONY", ev_colony)
     copy("RECEIVED", received); copy("HOLDS_QUAL", holds_qual); copy("EDUCATED_AT", educated)
+    copy("EMPLOYED_BY", employed)
     shutil.rmtree(tmp)
 
     # ---- validation -------------------------------------------------------
