@@ -12,7 +12,20 @@ Legend: **viz-patched** = worked around in `build_static_atlas.py` for display o
 
 ## Place grounding
 
-### 1. Pre-federation colonies grounded to the MODERN entity (state/nation), inconsistently across corpora  ⚠️ needs re-ground
+### 1. Pre-federation colonies grounded to the MODERN entity (state/nation), inconsistently across corpora  ✅ MOSTLY FIXED 2026-06-27
+**FIX (2026-06-27):** `kg_reground_colonies.py` re-grounds already-cached colony
+surfaces per a PERIOD-CORRECT, PLACE-TYPED rule (Jim), both corpora. IOL 42 / CO 13
+surfaces. Verified on the atlas: Victoria→Q56850459 (Melbourne), India→British Raj
+Q129286, Jodhpur→Q6207845, Baluchistan→Q3303188, Central Provinces→Q521864. The
+colony layer (`resolve_colony`) auto-de-collapses since the new place_qid IS itself
+a manifest polity (colony_qid = itself, not Q408). NB **India: IOL was already right
+(British Raj); fixed CO to match** (opposite of "CO is reference"). Egypt: manifest
+Q2474428 is a non-place "aspect of history" → forced Q79. Excluded city/annexed
+false-matches (South Africa→BSAC, Patna/Surat/Benares cities, Oudh/Satara/Jhansi
+annexed, etc.). STILL OPEN: Penang (deferred — Straits Settlements would mislocate to
+Singapore), upstream manifest patches (Egypt entity, Cape Q4806993→Q370736, India
+join), LadybugDB rebuild, LABEL_FIX trim. Original diagnosis below.
+
 **Corrected diagnosis 2026-06-27.** There IS a foundational authority for this: the
 **empire-evolution KG** `/home/jic823/empire-evolution-wpcs/data/qid_manifest.tsv`
 (740 colonies; cols: colony_id, name, **wikidata_id** = the pre-federation entity,
@@ -50,6 +63,23 @@ The real problem is **inconsistency + modern-collapse stragglers**:
 A single `colony_qid` can carry multiple `colony_label` values across events; the
 emit/labels step keeps an arbitrary one. Prefer the QID's canonical Wikidata label,
 or the most frequent consistent colony_label, when emitting place labels.
+
+### 8. Ceylon "North-Western Province" → Canadian North-Western Territory  ✅ FIXED 2026-06-27
+Surfaced from the atlas (HALL W.G., a Ceylon roads engineer, looked like he ended
+up in Canada). The spelled-out form "North-Western Province" / bare "N.W.P." was not
+recognised by the directional-abbreviation resolver, so it fell through to a flat
+cache hit: `Q1998931` (Canadian *North-Western Territory*, 20 CO events — ALL Ceylon
+officials) or `Q138521` (the *India* North-Western Provinces, 66 of 70 CO events
+Ceylon). Correct Ceylon entity = **Q876339**.
+- **Fix:** `resolve_context.py` now parses spelled-out directional forms and treats
+  "North-Western Province"/"N.W.P." (spacing-tolerant) as a Ceylon-vs-India ambiguous
+  case (like the existing C.P. = Central Provinces vs Cape Province). Added a Ceylon
+  town set so context resolves even when the only siblings are Ceylon towns. CO-only
+  cache surgery removed the bad flat NWP rows + seeded the resolved-query rows; IOL
+  left alone (there N.W.P.→Q138521 is correctly India). Re-ran resolve+emit.
+- **Result:** Q1998931 (Canada) 20→0; Q876339 (Ceylon NWP) 0→106; Q138521 remaining
+  = 2, both genuinely India. Bonus: many previously-ungrounded spelled-out Ceylon
+  province events (southern/northern/western) now grounded via the same extension.
 
 ---
 

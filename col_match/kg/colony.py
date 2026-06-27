@@ -94,13 +94,31 @@ def _index(ttl_path: str, manifest_path: str) -> tuple[dict, dict]:
     return qid2node, label2node
 
 
+# Curated modern-equivalent groundings (Jim 2026-06-27): where no clean colonial
+# Wikidata entity exists, we ground to the modern equivalent because it gives the
+# better/more-specific geography than rolling up to the parent colony. Such places
+# are their OWN colony marker (not collapsed to the modern nation), with a note.
+#   Penang: grounded to Q188096 (modern state) -> George Town; the empire KG would
+#   otherwise roll it up to Q833 (Malaysia/Malaya) via skos:relatedMatch, pooling
+#   1,400+ Penang careers under the national capital. The colonial referent is the
+#   Penang settlement of the Straits Settlements (1826-1946).
+CURATED_COLONY = {
+    "Q188096": {"colony_qid": "Q188096", "colony_label": "Penang",
+                "method": "curated_modern_equiv",
+                "note": "modern-equivalent QID for geography; colonial Penang = a "
+                        "settlement of the Straits Settlements"},
+}
+
+
 def resolve_colony(place_row: dict, ttl_path: str | None = None,
                    manifest_path: str | None = None) -> dict:
     """Map a grounding-cache row to a colony. Returns
-    {colony_qid, colony_label, method}. method = {ttl,manifest}_{qid,label} or
-    unresolved, recording which source matched."""
-    qid2, lab2 = _index(str(ttl_path or KG_TTL), str(manifest_path or KG_MANIFEST))
+    {colony_qid, colony_label, method}. method = {ttl,manifest}_{qid,label},
+    curated_modern_equiv, or unresolved, recording which source matched."""
     qid = place_row.get("qid")
+    if qid in CURATED_COLONY:
+        return dict(CURATED_COLONY[qid])
+    qid2, lab2 = _index(str(ttl_path or KG_TTL), str(manifest_path or KG_MANIFEST))
     label = place_row.get("label") or place_row.get("place") or ""
     if qid and qid in qid2:
         n = qid2[qid]

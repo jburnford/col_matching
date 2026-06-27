@@ -50,6 +50,10 @@ def _strip_type(s: str) -> str:
 # Keyed by lowercased query string. Reviewable in manifest_picks_review.jsonl.
 MANUAL_PICK = {
     "singapore": "Q4373718",                 # Singapore Crown Colony (not modern city)
+    # India: bare surface else matches "Dominion of India" Q1775277 (1947). The
+    # corpus is the Raj era -> British Raj. (manifest "Indian Empire (British Raj)")
+    "india": "Q129286", "british india": "Q129286",
+    "dominion of india": "Q129286",
     "canada": "Q16", "dominion of canada": "Q16",
     "province of canada": "Q1121436",
     "sarawak": "Q1658411",                   # Raj of Sarawak (Brooke, 1841-1946)

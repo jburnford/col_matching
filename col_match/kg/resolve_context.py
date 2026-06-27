@@ -48,17 +48,64 @@ _INDIA = {
     "Rajputana", "Central India Agency", "Hyderabad State", "Mysore", "Baroda",
     "Gwalior", "Jammu and Kashmir", "Travancore", "Cochin", "Eastern Bengal",
 }
+# Ceylon postings (the island's districts/towns/provinces). A directional
+# province ("North-Western Province") attaches to Ceylon when the rest of the
+# career sits here. Names are canonical forms produced by place_canon.
+_CEYLON = {
+    "Ceylon", "Colombo", "Kandy", "Galle", "Jaffna", "Trincomalee",
+    "Kurunegala", "Ratnapura", "Anuradhapura", "Batticaloa", "Badulla",
+    "Matara", "Matale", "Negombo", "Puttalam", "Hambantota", "Kalpitiya",
+    "Mullaittivu", "Chilaw", "Mannar", "Nuwara Eliya", "Kegalla", "Uva",
+    "Sabaragamuwa", "Dambulla", "Point Pedro", "Tangalle", "Gampola",
+    "Nuwarakalawiya", "Dikoya", "Avissawella",
+}
 
 # --- directional province/region parsing ----------------------------------
-_DIR = re.compile(
-    r"^(n|s|e|w|cent|central|nw|ne|sw|se|nc)\.?\s*\.?\s*"
-    r"(prov|provs|province|provinces|regn|region|district)\.?$", re.I)
+# Accept both abbreviations ("N.W. Prov.", "N.W.P.") and spelled-out forms
+# ("North-Western Province", "north western provinces"). The leading direction
+# token is normalised by stripping spaces/dots/hyphens, e.g. "north-western",
+# "north western", "n. w." and "nw" all collapse to "northwestern"/"nw".
+_DIR_TOKENS = {
+    "n": "n", "north": "n", "northern": "n",
+    "s": "s", "south": "s", "southern": "s",
+    "e": "e", "east": "e", "eastern": "e",
+    "w": "w", "west": "w", "western": "w",
+    "nw": "nw", "northwest": "nw", "northwestern": "nw",
+    "ne": "ne", "northeast": "ne", "northeastern": "ne",
+    "sw": "sw", "southwest": "sw", "southwestern": "sw",
+    "se": "se", "southeast": "se", "southeastern": "se",
+    "cent": "central", "central": "central",
+    "nc": "nc", "northcentral": "nc",
+}
 _DIRNAME = {
     "n": "Northern", "s": "Southern", "e": "Eastern", "w": "Western",
-    "cent": "Central", "central": "Central", "nw": "North-Western",
-    "ne": "North-Eastern", "sw": "South-Western", "se": "South-Eastern",
-    "nc": "North-Central",
+    "central": "Central", "nw": "North-Western", "ne": "North-Eastern",
+    "sw": "South-Western", "se": "South-Eastern", "nc": "North-Central",
 }
+_UNIT_RE = re.compile(
+    r"^(.*?)[\s.]+(prov|provs|province|provinces|regn|region|district)s?\.?$", re.I)
+
+
+def _parse_directional(place: str):
+    """(label, dir_key) for a directional province/region/district, else None.
+
+    e.g. "North-Western Province" -> ("North-Western Province", "nw");
+         "N.W. Prov." -> ("North-Western Province", "nw")."""
+    p = (place or "").strip().rstrip(".")
+    m = _UNIT_RE.match(p)
+    if not m:
+        return None
+    dirpart, unit = m.group(1), m.group(2).lower()
+    dk = _DIR_TOKENS.get(re.sub(r"[\s.\-]+", "", dirpart.lower()))
+    if not dk:
+        return None
+    if unit.startswith("prov"):
+        base = "Provinces" if p.lower().endswith("s") else "Province"
+    elif unit.startswith("reg"):
+        base = "Region"
+    else:
+        base = "District"
+    return f"{_DIRNAME[dk]} {base}", dk
 # Colonies that have named provinces/regions/districts (the parent set). Regional
 # Nigerias collapse to Nigeria so a directional province attaches to the country.
 _COUNTRY_COLLAPSE = {
@@ -81,10 +128,16 @@ def _frags(place: str):
     return [f.strip() for f in re.split(r",| and | & ", place) if f.strip()]
 
 
+def _is_nwp(place: str) -> bool:
+    """North-Western Province initialism, tolerant of spacing: N.W.P. / N. W. P."""
+    return canon_key(place).replace(" ", "") == "nwp"
+
+
 def is_ambiguous(place: str) -> bool:
     """Does this surface form need per-person context to ground?"""
     p = (place or "").strip()
-    return bool(_DIR.match(p)) or canon_key(p) in ("sa", "wa", "cp")
+    return (_parse_directional(p) is not None
+            or _is_nwp(p) or canon_key(p) in ("sa", "wa", "cp"))
 
 
 def _region_hit(siblings):
@@ -100,22 +153,9 @@ def _parent_country(siblings):
             q = _COUNTRY_COLLAPSE.get(q, q)
             if q in _PROV_COUNTRIES:
                 c[q] += 1
+            elif q in _CEYLON:           # Ceylon towns/districts imply Ceylon
+                c["Ceylon"] += 1
     return c
-
-
-def _dir_label(place: str):
-    m = _DIR.match(place.strip())
-    if not m:
-        return None
-    d = m.group(1).lower().replace(".", "")
-    word = m.group(2).lower()
-    if word.startswith("prov"):
-        base = "Provinces" if word.endswith("s") and word != "province" else "Province"
-    elif word.startswith("reg"):
-        base = "Region"
-    else:
-        base = "District"
-    return f"{_DIRNAME.get(d, d.title())} {base}"
 
 
 def resolve(place: str, siblings: list[str]) -> tuple[str | None, str]:
@@ -146,8 +186,22 @@ def resolve(place: str, siblings: list[str]) -> tuple[str | None, str]:
             return "Western Australia", f"australia postings: {sorted(au)[:3]}"
         return None, "no single-region signal"
 
-    if _DIR.match(p):
-        label = _dir_label(p)
+    pd = _parse_directional(p)
+
+    # "North-Western Province" / "N.W.P.": Ceylon's North Western Province
+    # (Q876339) vs the India North-Western Provinces presidency (Q138521). The
+    # bare surface otherwise mis-attracts the Canadian North-Western Territory.
+    if _is_nwp(p) or (pd and pd[1] == "nw"):
+        countries = _parent_country(siblings)
+        ceylon = countries.get("Ceylon", 0)
+        if ceylon and not india:
+            return "North-Western Province, Ceylon", f"ceylon postings ({ceylon})"
+        if india and not ceylon:
+            return "North-Western Provinces, India", f"india postings: {sorted(india)[:3]}"
+        return None, f"no single-region signal for N.-W. Province: {dict(countries)}"
+
+    if pd:
+        label = pd[0]
         countries = _parent_country(siblings)
         if not countries:
             return None, "no parent-colony sibling"

@@ -54,7 +54,7 @@
 {"place": "Cutch", "qid": "Q1720882", "label": "Cutch State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Kolhapur", "qid": "Q657946", "label": "Kolhapur State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Central Provinces and Berar", "qid": "Q5061723", "label": "Central Provinces and Berar", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Central Provinces", "qid": "Q5061723", "label": "Central Provinces and Berar", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Central Provinces", "qid": "Q521864", "label": "Central Provinces", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Province"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Calcutta", "qid": "Q1348", "label": "Kolkata", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Jalpaiguri", "qid": "Q1351487", "label": "Jalpaiguri district", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Mardan", "qid": "Q993859", "label": "Mardan", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -81,8 +81,8 @@
 {"place": "West Kathiawar agency", "qid": "Q1139314", "label": "Kathiawar Agency", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Kathiawar Political Agency", "qid": "Q1139314", "label": "Kathiawar Agency", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Western Kathiawar Agency", "qid": "Q1139314", "label": "Kathiawar Agency", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "British Baluchistan", "qid": "Q2336399", "label": "Baluchistan", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Baluchistan", "qid": "Q2336399", "label": "Baluchistan", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "British Baluchistan", "qid": "Q3303188", "label": "Baluchistan", "country_qid": "Q843", "p131_qid": null, "instance_of": ["Province"], "has_coords": false, "match_type": "manifest_reground"}
+{"place": "Baluchistan", "qid": "Q3303188", "label": "Baluchistan", "country_qid": "Q843", "p131_qid": null, "instance_of": ["Province"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Hyderabad State", "qid": "Q1240096", "label": "Hyderabad State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Hyderabad", "qid": "Q1240096", "label": "Hyderabad State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Hyderabad (Sind)", "qid": "Q1240096", "label": "Hyderabad State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -191,7 +191,7 @@
 {"place": "Simla", "qid": "Q83786", "label": "Shimla", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Cambay", "qid": "Q1028095", "label": "Cambay State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Cambay State", "qid": "Q1028095", "label": "Cambay State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Egypt", "qid": "Q79", "label": "Egypt", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Egypt", "qid": "Q127861", "label": "Egypt", "country_qid": "Q79", "p131_qid": null, "instance_of": ["Occupation/Protectorate"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Gilgit", "qid": "Q1459552", "label": "Gilgit Agency", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Khyber", "qid": "Q191333", "label": "Khyber Pass", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Charsada", "qid": "Q1642808", "label": "Charsadda", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -282,7 +282,7 @@
 {"place": "Bhagalpur", "qid": "Q760714", "label": "Bhagalpur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Aligarh", "qid": "Q201832", "label": "Aligarh", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Ranchi", "qid": "Q174461", "label": "Ranchi", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Jodhpur", "qid": "Q200019", "label": "Jodhpur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Jodhpur", "qid": "Q6207845", "label": "Jodhpur State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Europe", "qid": "Q46", "label": "Europe", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "England", "qid": "Q21", "label": "England", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Burdwan", "qid": "Q808023", "label": "Bardhaman district", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -315,7 +315,7 @@
 {"place": "Kotah and Jhalawar", "qid": "Q1785349", "label": "Kota State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Kotah State", "qid": "Q1785349", "label": "Kota State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Amritsar", "qid": "Q48403", "label": "Amritsar", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Bahrain", "qid": "Q398", "label": "Bahrain", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Bahrain", "qid": "Q21816225", "label": "Bahrain Protectorate", "country_qid": "Q398", "p131_qid": null, "instance_of": ["Protectorate"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Bahrein", "qid": "Q398", "label": "Bahrain", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "South Waziristan", "qid": "Q1798701", "label": "South Waziristan", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Sistan and Kain", "qid": "Q757169", "label": "Sistan", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -392,7 +392,7 @@
 {"place": "Bhor", "qid": "Q855058", "label": "Bhor State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "British Honduras", "qid": "Q1643555", "label": "British Honduras", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Leeward Islands", "qid": "Q1796551", "label": "British Leeward Islands", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Jamaica", "qid": "Q766", "label": "Jamaica", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Jamaica", "qid": "Q2526023", "label": "Jamaica", "country_qid": "Q766", "p131_qid": null, "instance_of": ["Crown Colony"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Kandahar", "qid": "Q45604", "label": "Kandahar", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Jubbulpore", "qid": "Q200878", "label": "Jabalpur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Jubbulpore, Central Provinces", "qid": "Q200878", "label": "Jabalpur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -414,7 +414,7 @@
 {"place": "Khairpur", "qid": "Q3249587", "label": "Khairpur State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Khairpur State", "qid": "Q3249587", "label": "Khairpur State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Miraj (junior)", "qid": "Q3315863", "label": "Miraj Junior", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Porbandar", "qid": "Q6419912", "label": "Porbandar", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Porbandar", "qid": "Q14552167", "label": "Porbandar State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Rayapuram", "qid": "Q7375147", "label": "Royapuram", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Chittagong Division", "qid": "Q158087", "label": "Chattogram Division", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Kanara", "qid": "Q3010684", "label": "Kanara", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -447,7 +447,7 @@
 {"place": "Southampton", "qid": "Q8842", "label": "Southampton", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Abbottabad", "qid": "Q170315", "label": "Abbottabad", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Moulmein", "qid": "Q685941", "label": "Mawlamyine", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Uganda", "qid": "Q1036", "label": "Uganda", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Uganda", "qid": "Q1097943", "label": "Uganda", "country_qid": "Q1036", "p131_qid": null, "instance_of": ["Protectorate"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Raipur", "qid": "Q372773", "label": "Raipur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Ganhati", "qid": "Q199605", "label": "Guwahati", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Gauhati, Assam", "qid": "Q199605", "label": "Guwahati", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -470,7 +470,7 @@
 {"place": "Chittagong", "qid": "Q376749", "label": "Chittagong", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Wigan", "qid": "Q151588", "label": "Wigan", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Delhi Province", "qid": "Q11917377", "label": "Delhi District", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Sangli", "qid": "Q429215", "label": "Sangli", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Sangli", "qid": "Q2221701", "label": "Sangli State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Dacca", "qid": "Q1354", "label": "Dhaka", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Mekran", "qid": "Q695111", "label": "Makran", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Meikran", "qid": "Q695111", "label": "Makran", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -491,9 +491,9 @@
 {"place": "Dumbartonshire", "qid": "Q140090", "label": "Dunbartonshire", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Gurdaspur", "qid": "Q146708", "label": "Gurdaspur district", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Kennington Division", "qid": "Q146696", "label": "Kennington", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Bharatpur", "qid": "Q559834", "label": "Bharatpur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "New South Wales", "qid": "Q3224", "label": "New South Wales", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Queensland", "qid": "Q36074", "label": "Queensland", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Bharatpur", "qid": "Q854850", "label": "Bharatpur State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "has_coords": false, "match_type": "manifest_reground"}
+{"place": "New South Wales", "qid": "Q18348382", "label": "New South Wales (Original)", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Penal Colony"], "has_coords": false, "match_type": "manifest_reground"}
+{"place": "Queensland", "qid": "Q28401203", "label": "Queensland", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Crown Colony"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Stockholm", "qid": "Q1754", "label": "Stockholm", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Yanam", "qid": "Q277322", "label": "Yanam", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Sibpur", "qid": "Q7496073", "label": "Shibpur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -504,7 +504,7 @@
 {"place": "Dooars", "qid": "Q2975243", "label": "Dooars", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Baltistan", "qid": "Q805804", "label": "Baltistan", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Kodaikanal", "qid": "Q253851", "label": "Kodaikanal", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Victoria", "qid": "Q36687", "label": "Victoria", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Victoria", "qid": "Q56850459", "label": "Victoria (Colony)", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Crown Colony"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Cinque Ports", "qid": "Q748895", "label": "Cinque Ports", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "England and Wales", "qid": "Q1156248", "label": "England and Wales", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Mercara", "qid": "Q298416", "label": "Madikeri", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -547,7 +547,7 @@
 {"place": "Porbandhar State", "qid": "Q14552167", "label": "Porbandar State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Palanpur", "qid": "Q7126720", "label": "Palanpur State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Ripon Division", "qid": "Q379382", "label": "Rajshahi Division", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Bahawalpur", "qid": "Q318156", "label": "Bahawalpur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Bahawalpur", "qid": "Q800236", "label": "Bahawalpur State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Banas Kuntha", "qid": "Q806125", "label": "Banaskantha district", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Ootacamund", "qid": "Q9888", "label": "Ooty", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Tanganyika Territory", "qid": "Q158725", "label": "Tanganyika Territory", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -569,7 +569,7 @@
 {"place": "Polghat", "qid": "Q1006240", "label": "Palakkad", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Palghat", "qid": "Q1006240", "label": "Palakkad", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Sangli State", "qid": "Q2221701", "label": "Sangli State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Bhavnagar", "qid": "Q242992", "label": "Bhavnagar", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Bhavnagar", "qid": "Q854917", "label": "Bhavnagar State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Baster state", "qid": "Q810557", "label": "Bastar State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Bastar State", "qid": "Q810557", "label": "Bastar State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Bijapur", "qid": "Q83108", "label": "Vijaypura District", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -584,7 +584,7 @@
 {"place": "Federated Malay States", "qid": "Q1400154", "label": "Federated Malay States", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Perth City", "qid": "Q3183", "label": "Perth", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Koweit", "qid": "Q817", "label": "Kuwait", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Kuwait", "qid": "Q817", "label": "Kuwait", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Kuwait", "qid": "Q3480281", "label": "Kuwait", "country_qid": "Q817", "p131_qid": null, "instance_of": ["Protectorate"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "British Guiana", "qid": "Q918126", "label": "British Guiana", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Karikal", "qid": "Q277258", "label": "Karaikal", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Dhubri", "qid": "Q42485", "label": "Dhubri district", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -609,11 +609,11 @@
 {"place": "Dera Ghazi Khan", "qid": "Q2315476", "label": "Dera Ghazi Khan District", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Guindy", "qid": "Q5616433", "label": "Guindy", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Bhopawar", "qid": "Q3777255", "label": "Bhopawar Agency", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Bundi", "qid": "Q862612", "label": "Bundi", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Bundi", "qid": "Q4997536", "label": "Bundi State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Berhampur", "qid": "Q860210", "label": "Brahmapur", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Muktesar", "qid": "Q3634952", "label": "Mukteshwar", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Straits Settlements", "qid": "Q376178", "label": "Straits Settlements", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
-{"place": "Mauritius", "qid": "Q1027", "label": "Mauritius", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
+{"place": "Mauritius", "qid": "Q12053604", "label": "Mauritius", "country_qid": "Q1027", "p131_qid": null, "instance_of": ["Crown Colony"], "has_coords": false, "match_type": "manifest_reground"}
 {"place": "Khasi and Jaintia Hills", "qid": "Q11929778", "label": "Khasi and Jaintia Hills District", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Rampur State", "qid": "Q3454186", "label": "Rampur State", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
 {"place": "Herat", "qid": "Q45313", "label": "Herat", "country_qid": null, "p131_qid": null, "instance_of": [], "has_coords": false, "match_type": "seed_iol1937"}
@@ -707,7 +707,7 @@
 {"place": "Nellore", "qid": "Q15383", "label": "Sri Potti Sri Ramulu Nellore district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district of Andhra Pradesh"], "match_type": "mcp_verified", "query": "Nellore", "count": 28, "has_coords": true}
 {"place": "Junagadh State", "qid": "Q14491604", "label": "Junagadh State", "country_qid": "Q129286", "p131_qid": null, "instance_of": ["former princely state in India"], "match_type": "mcp_verified", "query": "Junagadh State", "count": 28, "has_coords": true}
 {"place": "Nuddea", "qid": "Q1143880", "label": "Nadia district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district in West Bengal"], "match_type": "mcp_verified", "query": "Nuddea", "count": 27, "has_coords": true}
-{"place": "Zanzibar", "qid": "Q157904", "label": "Sultanate of Zanzibar", "country_qid": null, "p131_qid": null, "instance_of": ["1856-1964 monarchy in the Indian Ocean"], "match_type": "mcp_verified", "query": "Zanzibar", "count": 27, "has_coords": true}
+{"place": "Zanzibar", "qid": "Q3574782", "label": "Zanzibar", "country_qid": "Q924", "p131_qid": null, "instance_of": ["Protectorate"], "match_type": "manifest_reground", "query": "Zanzibar", "count": 27, "has_coords": true}
 {"place": "Dacca division", "qid": "Q330158", "label": "Dhaka Division", "country_qid": "Q902", "p131_qid": null, "instance_of": ["administrative division"], "match_type": "mcp_verified", "query": "Dacca division", "count": 26, "has_coords": true}
 {"place": "Ratnagiri", "qid": "Q1771768", "label": "Ratnagiri district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district of Maharashtra"], "match_type": "mcp_verified", "query": "Ratnagiri", "count": 26, "has_coords": true}
 {"place": "Kapurthala state", "qid": "Q1728782", "label": "Kapurthala State", "country_qid": "Q129286", "p131_qid": null, "instance_of": ["former princely state of Punjab"], "match_type": "mcp_verified", "query": "Kapurthala state", "count": 26, "has_coords": true}
@@ -850,7 +850,7 @@
 {"place": "East India House", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "East India House", "count": 12, "has_coords": null}
 {"place": "Jhansi division", "qid": "Q2171766", "label": "Jhansi division", "country_qid": "Q668", "p131_qid": null, "instance_of": ["division of Uttar Pradesh"], "match_type": "mcp_verified", "query": "Jhansi division", "count": 12, "has_coords": true}
 {"place": "Rae Bareli division", "qid": "Q1321157", "label": "Raebareli district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district of Uttar Pradesh"], "match_type": "mcp_verified", "query": "Rae Bareli division", "count": 12, "has_coords": true}
-{"place": "Chamba", "qid": "Q1060614", "label": "Chamba district", "country_qid": "Q129286", "p131_qid": null, "instance_of": ["district of Himachal Pradesh (former Chamba State)"], "match_type": "mcp_verified", "query": "Chamba", "count": 12, "has_coords": true}
+{"place": "Chamba", "qid": "Q1060520", "label": "Chamba State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Chamba", "count": 12, "has_coords": true}
 {"place": "Upper Sind frontier", "qid": "Q3308204", "label": "Upper Sind Frontier District", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district of Sindh"], "match_type": "mcp_verified", "query": "Upper Sind frontier", "count": 12, "has_coords": true}
 {"place": "Dinapore", "qid": "Q1266998", "label": "Danapur Cantonment", "country_qid": "Q668", "p131_qid": null, "instance_of": ["cantonment town in Patna district, Bihar"], "match_type": "mcp_verified", "query": "Dinapore", "count": 12, "has_coords": true}
 {"place": "Tirhut", "qid": "Q2307495", "label": "Tirhut division", "country_qid": "Q668", "p131_qid": null, "instance_of": ["division of Bihar"], "match_type": "mcp_verified", "query": "Tirhut", "count": 12, "has_coords": true}
@@ -966,7 +966,7 @@
 {"place": "Punjab hill states", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Punjab hill states", "count": 9, "has_coords": null}
 {"place": "Hull", "qid": "Q128147", "label": "Kingston upon Hull", "country_qid": "Q145", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Hull", "count": 9, "has_coords": true}
 {"place": "Baghalkhand", "qid": "Q3628827", "label": "Bagelkhand", "country_qid": "Q668", "p131_qid": null, "instance_of": ["region"], "match_type": "mcp_verified", "query": "Baghalkhand", "count": 9, "has_coords": true}
-{"place": "Kapurthala", "qid": "Q781354", "label": "Kapurthala", "country_qid": "Q668", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Kapurthala", "count": 9, "has_coords": true}
+{"place": "Kapurthala", "qid": "Q1728782", "label": "Kapurthala State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Kapurthala", "count": 9, "has_coords": true}
 {"place": "Pudukota boundary", "qid": "Q921719", "label": "Pudukkottai", "country_qid": "Q668", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Pudukota boundary", "count": 9, "has_coords": true}
 {"place": "Bhowani Patna", "qid": "Q759348", "label": "Bhawanipatna", "country_qid": "Q668", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Bhowani Patna", "count": 9, "has_coords": true}
 {"place": "Australia", "qid": "Q408", "label": "Australia", "country_qid": "Q408", "p131_qid": null, "instance_of": ["country"], "match_type": "mcp_verified", "query": "Australia", "count": 9, "has_coords": true}
@@ -983,7 +983,7 @@
 {"place": "Rewah", "qid": "Q176466", "label": "Rewa State", "country_qid": "Q668", "p131_qid": null, "instance_of": ["princely state"], "match_type": "mcp_verified", "query": "Rewah", "count": 8, "has_coords": true}
 {"place": "Janjira", "qid": "Q18126222", "label": "Janjira State", "country_qid": "Q668", "p131_qid": null, "instance_of": ["princely state"], "match_type": "mcp_verified", "query": "Janjira", "count": 8, "has_coords": true}
 {"place": "Venice", "qid": "Q641", "label": "Venice", "country_qid": "Q38", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Venice", "count": 8, "has_coords": true}
-{"place": "Malta", "qid": "Q233", "label": "Malta", "country_qid": "Q233", "p131_qid": null, "instance_of": ["country"], "match_type": "mcp_verified", "query": "Malta", "count": 8, "has_coords": true}
+{"place": "Malta", "qid": "Q6744657", "label": "Malta", "country_qid": "Q233", "p131_qid": null, "instance_of": ["Crown Colony"], "match_type": "manifest_reground", "query": "Malta", "count": 8, "has_coords": true}
 {"place": "Sawantwari", "qid": "Q18164343", "label": "Sawantwadi State", "country_qid": "Q668", "p131_qid": null, "instance_of": ["princely state"], "match_type": "mcp_verified", "query": "Sawantwari", "count": 8, "has_coords": true}
 {"place": "Yarkand", "qid": "Q12832321", "label": "Yarkand", "country_qid": "Q148", "p131_qid": null, "instance_of": ["county seat"], "match_type": "mcp_verified", "query": "Yarkand", "count": 8, "has_coords": true}
 {"place": "Madras famine relief works", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Madras famine relief works", "count": 8, "has_coords": null}
@@ -1052,10 +1052,10 @@
 {"place": "Cape of Good Hope", "qid": "Q370736", "label": "Cape Colony", "country_qid": "Q258", "p131_qid": null, "instance_of": ["British colony"], "match_type": "mcp_verified", "query": "Cape of Good Hope", "count": 7, "has_coords": true}
 {"place": "Azimgarh", "qid": "Q793553", "label": "Azamgarh district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Azimgarh", "count": 7, "has_coords": true}
 {"place": "Mirzapur", "qid": "Q1143894", "label": "Mirzapur district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Mirzapur", "count": 7, "has_coords": true}
-{"place": "Rampur", "qid": "Q1815331", "label": "Rampur district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Rampur", "count": 7, "has_coords": true}
+{"place": "Rampur", "qid": "Q3454186", "label": "Rampur State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Rampur", "count": 7, "has_coords": true}
 {"place": "W.I. States", "qid": "Q2564950", "label": "Western India States Agency", "country_qid": "Q668", "p131_qid": null, "instance_of": ["agency of British India"], "match_type": "mcp_verified", "query": "W.I. States", "count": 7, "has_coords": true}
 {"place": "Gujerat", "qid": "Q1061", "label": "Gujarat", "country_qid": "Q668", "p131_qid": null, "instance_of": ["state of India"], "match_type": "mcp_verified", "query": "Gujerat", "count": 7, "has_coords": true}
-{"place": "British India", "qid": "Q112660052", "label": "British India", "country_qid": "Q668", "p131_qid": null, "instance_of": ["former colony"], "match_type": "mcp_verified", "query": "British India", "count": 7, "has_coords": true}
+{"place": "British India", "qid": "Q129286", "label": "Indian Empire (British Raj)", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Colony/Empire"], "match_type": "manifest_reground", "query": "British India", "count": 7, "has_coords": true}
 {"place": "central jail", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "central jail", "count": 7, "has_coords": null}
 {"place": "Chittoor", "qid": "Q15213", "label": "Chittoor district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Chittoor", "count": 7, "has_coords": true}
 {"place": "N. Lushai", "qid": "Q11917394", "label": "Lushai Hills District", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district of British India"], "match_type": "mcp_verified", "query": "N. Lushai", "count": 7, "has_coords": true}
@@ -1096,7 +1096,7 @@
 {"place": "Cent. India", "qid": "Q1053874", "label": "Central India Agency", "country_qid": "Q668", "p131_qid": null, "instance_of": ["agency of British India"], "match_type": "mcp_verified", "query": "Cent. India", "count": 7, "has_coords": true}
 {"place": "Eastern states", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Eastern states", "count": 7, "has_coords": null}
 {"place": "W. Kathiawar agency", "qid": "Q1139314", "label": "Kathiawar Agency", "country_qid": "Q668", "p131_qid": null, "instance_of": ["agency of British Raj"], "match_type": "mcp_verified", "query": "W. Kathiawar agency", "count": 7, "has_coords": true}
-{"place": "Faridkot", "qid": "Q1780350", "label": "Faridkot", "country_qid": "Q668", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Faridkot", "count": 7, "has_coords": true}
+{"place": "Faridkot", "qid": "Q1396700", "label": "Faridkot State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Faridkot", "count": 7, "has_coords": true}
 {"place": "northern circle", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "northern circle", "count": 7, "has_coords": null}
 {"place": "central revenues", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "central revenues", "count": 7, "has_coords": null}
 {"place": "Athens", "qid": "Q1524", "label": "Athens", "country_qid": "Q41", "p131_qid": null, "instance_of": ["capital city"], "match_type": "mcp_verified", "query": "Athens", "count": 7, "has_coords": true}
@@ -1131,7 +1131,7 @@
 {"place": "Sibsagar", "qid": "Q42768", "label": "Sivasagar district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Sibsagar", "count": 6, "has_coords": true}
 {"place": "Budaun", "qid": "Q1815262", "label": "Budaun district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Budaun", "count": 6, "has_coords": true}
 {"place": "Karáchi", "qid": "Q8660", "label": "Karachi", "country_qid": "Q843", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Karáchi", "count": 6, "has_coords": true}
-{"place": "Rampur state", "qid": "Q1815331", "label": "Rampur district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Rampur state", "count": 6, "has_coords": true}
+{"place": "Rampur state", "qid": "Q3454186", "label": "Rampur State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Rampur state", "count": 6, "has_coords": true}
 {"place": "1st circle", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "1st circle", "count": 6, "has_coords": null}
 {"place": "Sandoway", "qid": "Q3826754", "label": "Thandwe District", "country_qid": "Q836", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Sandoway", "count": 6, "has_coords": true}
 {"place": "Baroda territory", "qid": "Q808575", "label": "Baroda State", "country_qid": "Q668", "p131_qid": null, "instance_of": ["princely state"], "match_type": "mcp_verified", "query": "Baroda territory", "count": 6, "has_coords": true}
@@ -1172,11 +1172,11 @@
 {"place": "Scotland Yard", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Scotland Yard", "count": 6, "has_coords": null}
 {"place": "S.E. Baluchistan", "qid": "Q2336399", "label": "Baluchistan (British India)", "country_qid": "Q843", "p131_qid": null, "instance_of": ["province of British India"], "match_type": "mcp_verified", "query": "S.E. Baluchistan", "count": 6, "has_coords": true}
 {"place": "Aliwal", "qid": "Q4727495", "label": "Aliwal", "country_qid": "Q668", "p131_qid": null, "instance_of": ["village"], "match_type": "mcp_verified", "query": "Aliwal", "count": 6, "has_coords": true}
-{"place": "Kota", "qid": "Q330531", "label": "Kota", "country_qid": "Q668", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Kota", "count": 6, "has_coords": true}
+{"place": "Kota", "qid": "Q1785349", "label": "Kota State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Kota", "count": 6, "has_coords": true}
 {"place": "Bhagulpore division", "qid": "Q854693", "label": "Bhagalpur division", "country_qid": "Q668", "p131_qid": null, "instance_of": ["administrative division"], "match_type": "mcp_verified", "query": "Bhagulpore division", "count": 6, "has_coords": true}
 {"place": "Mount Abu", "qid": "Q695221", "label": "Mount Abu", "country_qid": "Q668", "p131_qid": null, "instance_of": ["hill station"], "match_type": "mcp_verified", "query": "Mount Abu", "count": 6, "has_coords": true}
 {"place": "Bundelkhund", "qid": "Q851955", "label": "Bundelkhand", "country_qid": "Q668", "p131_qid": null, "instance_of": ["region"], "match_type": "mcp_verified", "query": "Bundelkhund", "count": 6, "has_coords": true}
-{"place": "Gondal", "qid": "Q1536978", "label": "Gondal", "country_qid": "Q668", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Gondal", "count": 6, "has_coords": true}
+{"place": "Gondal", "qid": "Q16839606", "label": "Gondal State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Gondal", "count": 6, "has_coords": true}
 {"place": "N. Bengal", "qid": "Q13395623", "label": "North Bengal", "country_qid": "Q668", "p131_qid": null, "instance_of": ["region"], "match_type": "mcp_verified", "query": "N. Bengal", "count": 6, "has_coords": true}
 {"place": "Khandwa", "qid": "Q1648551", "label": "Khandwa", "country_qid": "Q668", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_verified", "query": "Khandwa", "count": 6, "has_coords": true}
 {"place": "Tipperah", "qid": "Q1480778", "label": "Cumilla District (Tippera)", "country_qid": "Q902", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_verified", "query": "Tipperah", "count": 6, "has_coords": true}
@@ -1390,7 +1390,7 @@
 {"place": "Kashmir and Kumaon and Garhwal", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ambiguous", "query": "Kashmir and Kumaon and Garhwal", "count": 4, "has_coords": null}
 {"place": "Bengal and the N.W. Prov.", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ambiguous", "query": "Bengal and the N.W. Prov.", "count": 4, "has_coords": null}
 {"place": "Rurki", "qid": "Q1020718", "label": "Roorkee", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Rurki", "count": 4, "has_coords": true}
-{"place": "Tasmania", "qid": "Q34366", "label": "Tasmania", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Q5852411"], "match_type": "mcp_verified", "query": "Tasmania", "count": 4, "has_coords": true}
+{"place": "Tasmania", "qid": "Q5148519", "label": "Tasmania", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Self-governing Colony"], "match_type": "manifest_reground", "query": "Tasmania", "count": 4, "has_coords": true}
 {"place": "Western range, Madras", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Western range Madras", "count": 4, "has_coords": null}
 {"place": "headquarters", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "headquarters", "count": 4, "has_coords": null}
 {"place": "Manbhum", "qid": "Q6747189", "label": "Manbhum district", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q56061"], "match_type": "mcp_verified", "query": "Manbhum", "count": 4, "has_coords": true}
@@ -1445,7 +1445,7 @@
 {"place": "Hackney (central division)", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ambiguous", "query": "Hackney (central division)", "count": 4, "has_coords": null}
 {"place": "Dwárka", "qid": "Q817247", "label": "Dwarka", "country_qid": "Q668", "p131_qid": "Q14594717", "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Dwárka", "count": 4, "has_coords": true}
 {"place": "Dthala", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Dthala", "count": 4, "has_coords": null}
-{"place": "Jaipur state", "qid": "Q66485", "label": "Jaipur", "country_qid": "Q668", "p131_qid": "Q1437", "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Jaipur state", "count": 4, "has_coords": true}
+{"place": "Jaipur state", "qid": "Q6124144", "label": "Jaipur State", "country_qid": null, "p131_qid": "Q1437", "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Jaipur state", "count": 4, "has_coords": true}
 {"place": "Rasul", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Rasul", "count": 4, "has_coords": null}
 {"place": "States of Western India", "qid": "Q2564950", "label": "Western India States Agency", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q15642541"], "match_type": "mcp_verified", "query": "States of Western India", "count": 4, "has_coords": false}
 {"place": "Punjab and Central Prov.", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ambiguous", "query": "Punjab and Central Prov.", "count": 4, "has_coords": null}
@@ -1485,7 +1485,7 @@
 {"place": "Dublin", "qid": "Q1761", "label": "Dublin", "country_qid": "Q27", "p131_qid": null, "instance_of": ["Q5119"], "match_type": "mcp_verified", "query": "Dublin", "count": 4, "has_coords": true}
 {"place": "Arrah", "qid": "Q588587", "label": "Arrah", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Arrah", "count": 4, "has_coords": true}
 {"place": "marine survey of India", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "marine survey of India", "count": 4, "has_coords": null}
-{"place": "Karauli", "qid": "Q378646", "label": "Karauli", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q3957"], "match_type": "mcp_verified", "query": "Karauli", "count": 4, "has_coords": true}
+{"place": "Karauli", "qid": "Q6368814", "label": "Karauli State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Karauli", "count": 4, "has_coords": true}
 {"place": "S. Malabar", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "S. Malabar", "count": 4, "has_coords": null}
 {"place": "Ajmer, Merwara", "qid": "Q412980", "label": "Ajmer-Merwara", "country_qid": "Q129286", "p131_qid": null, "instance_of": ["Q3024240"], "match_type": "mcp_verified", "query": "Ajmer-Merwara Merwara", "count": 4, "has_coords": true}
 {"place": "Indian State Ryls.", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Indian State Ryls.", "count": 4, "has_coords": null}
@@ -1497,8 +1497,8 @@
 {"place": "geological survey of India", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "geological survey of India", "count": 4, "has_coords": null}
 {"place": "Mysore Durbar", "qid": "Q10086", "label": "Mysore", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Mysore Durbar", "count": 4, "has_coords": true}
 {"place": "Black Mountain", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ambiguous", "query": "Black Mountain", "count": 4, "has_coords": null}
-{"place": "Jaora", "qid": "Q1287117", "label": "Jaora", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Jaora", "count": 4, "has_coords": true}
-{"place": "Udaipur state", "qid": "Q200340", "label": "Udaipur", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Udaipur state", "count": 4, "has_coords": true}
+{"place": "Jaora", "qid": "Q1683106", "label": "Jaora State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Jaora", "count": 4, "has_coords": true}
+{"place": "Udaipur state", "qid": "Q130642141", "label": "Udaipur State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Udaipur state", "count": 4, "has_coords": true}
 {"place": "N.C.", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "N.C.", "count": 4, "has_coords": null}
 {"place": "Japan", "qid": "Q17", "label": "Japan", "country_qid": "Q17", "p131_qid": null, "instance_of": ["Q6256"], "match_type": "mcp_verified", "query": "Japan", "count": 4, "has_coords": true}
 {"place": "Khorassan and Seistan", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ambiguous", "query": "Khorassan and Seistan", "count": 4, "has_coords": null}
@@ -1508,7 +1508,7 @@
 {"place": "Madras Prov. C.S.", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Madras Prov. C.S.", "count": 4, "has_coords": null}
 {"place": "Allahabad municipality", "qid": "Q162442", "label": "Prayagraj", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Allahabad municipality", "count": 4, "has_coords": true}
 {"place": "Madras circle", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Madras circle", "count": 4, "has_coords": null}
-{"place": "Jammu and Kashmir", "qid": "Q1180", "label": "Jammu and Kashmir", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q15634554"], "match_type": "mcp_verified", "query": "Jammu and Kashmir", "count": 4, "has_coords": true}
+{"place": "Jammu and Kashmir", "qid": "Q2571484", "label": "Jammu and Kashmir", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Jammu and Kashmir", "count": 4, "has_coords": true}
 {"place": "Mewar Durbar", "qid": "Q200340", "label": "Udaipur", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Mewar Durbar", "count": 4, "has_coords": true}
 {"place": "Parel", "qid": "Q4856263", "label": "Parel", "country_qid": "Q668", "p131_qid": "Q1156", "instance_of": ["Q123705"], "match_type": "mcp_verified", "query": "Parel", "count": 4, "has_coords": true}
 {"place": "Tezpur", "qid": "Q1021162", "label": "Tezpur", "country_qid": "Q668", "p131_qid": null, "instance_of": ["Q515"], "match_type": "mcp_verified", "query": "Tezpur", "count": 4, "has_coords": true}
@@ -1535,7 +1535,7 @@
 {"place": "Balrampur", "qid": "Q612328", "label": "Balrampur", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Balrampur", "count": 3, "has_coords": true}
 {"place": "Mahābaleshwar", "qid": "Q463273", "label": "Mahabaleshwar", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Mahābaleshwar", "count": 3, "has_coords": true}
 {"place": "Burdwan District", "qid": "Q808013", "label": "Burdwan division", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Burdwan District", "count": 3, "has_coords": true}
-{"place": "Gondal state", "qid": "Q1536978", "label": "Gondal", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Gondal state", "count": 3, "has_coords": true}
+{"place": "Gondal state", "qid": "Q16839606", "label": "Gondal State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Gondal state", "count": 3, "has_coords": true}
 {"place": "Kalahandi state", "qid": "Q1535236", "label": "Kalahandi State", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Kalahandi state", "count": 3, "has_coords": true}
 {"place": "Rawal Pindi Division", "qid": "Q93230", "label": "Rawalpindi", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Rawal Pindi Division", "count": 3, "has_coords": true}
 {"place": "Gwalior state", "qid": "Q1557792", "label": "Gwalior State", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Gwalior state", "count": 3, "has_coords": true}
@@ -1561,8 +1561,8 @@
 {"place": "Poona division", "qid": "Q1797336", "label": "Pune district", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Poona division", "count": 3, "has_coords": true}
 {"place": "Khāndeish", "qid": "Q6400241", "label": "Khandesh District", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Khāndeish", "count": 3, "has_coords": true}
 {"place": "Rājkot", "qid": "Q11854", "label": "Rajkot", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Rājkot", "count": 3, "has_coords": true}
-{"place": "Faridkot, State", "qid": "Q1780350", "label": "Faridkot", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Faridkot State", "count": 3, "has_coords": true}
-{"place": "Faridkot State", "qid": "Q1780350", "label": "Faridkot", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Faridkot State", "count": 3, "has_coords": true}
+{"place": "Faridkot, State", "qid": "Q1396700", "label": "Faridkot State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Faridkot State", "count": 3, "has_coords": true}
+{"place": "Faridkot State", "qid": "Q1396700", "label": "Faridkot State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Faridkot State", "count": 3, "has_coords": true}
 {"place": "Rangpur", "qid": "Q2344570", "label": "Rangpur District", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Rangpur", "count": 2, "has_coords": true}
 {"place": "Guntur", "qid": "Q3120966", "label": "Guntur", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Guntur", "count": 2, "has_coords": true}
 {"place": "Sirhind", "qid": "Q2672955", "label": "Sirhind-Fategarh", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Sirhind", "count": 2, "has_coords": true}
@@ -1620,7 +1620,7 @@
 {"place": "Dholpur", "qid": "Q657861", "label": "Dholpur State", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Dholpur", "count": 2, "has_coords": true}
 {"place": "Calcutta corpn.", "qid": "Q1348", "label": "Kolkata", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Calcutta corpn.", "count": 2, "has_coords": true}
 {"place": "Sirhind circle", "qid": "Q2672955", "label": "Sirhind-Fategarh", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Sirhind circle", "count": 2, "has_coords": true}
-{"place": "zanzibar", "qid": "Q157904", "label": "Sultanate of Zanzibar", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "zanzibar", "count": 2, "has_coords": true}
+{"place": "zanzibar", "qid": "Q3574782", "label": "Zanzibar", "country_qid": "Q924", "p131_qid": null, "instance_of": ["Protectorate"], "match_type": "manifest_reground", "query": "zanzibar", "count": 2, "has_coords": true}
 {"place": "Kalat State", "qid": "Q2581527", "label": "Kalat", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Kalat State", "count": 2, "has_coords": true}
 {"place": "Bengal, and Bihar and Orissa", "qid": "Q817165", "label": "Bengal Presidency", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Bengal and Bihar and Orissa", "count": 2, "has_coords": true}
 {"place": "Kalahandi State", "qid": "Q1535236", "label": "Kalahandi State", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Kalahandi State", "count": 2, "has_coords": true}
@@ -1631,7 +1631,7 @@
 {"place": "Dublin district", "qid": "Q1761", "label": "Dublin", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Dublin district", "count": 2, "has_coords": true}
 {"place": "Dehra Dun.", "qid": "Q199528", "label": "Dehradun", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Dehra Dun.", "count": 1, "has_coords": true}
 {"place": "Quetta Tahsil", "qid": "Q185458", "label": "Quetta", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Quetta Tahsil", "count": 1, "has_coords": true}
-{"place": "Udaipur", "qid": "Q200340", "label": "Udaipur", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Udaipur", "count": 1, "has_coords": true}
+{"place": "Udaipur", "qid": "Q130642141", "label": "Udaipur State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Udaipur", "count": 1, "has_coords": true}
 {"place": "Arakan divn.", "qid": "Q48725482", "label": "Arakan Division", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Arakan divn.", "count": 1, "has_coords": true}
 {"place": "Pegu Divn.", "qid": "Q800124", "label": "Bago Region", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Pegu Divn.", "count": 1, "has_coords": true}
 {"place": "Sirhind divn.", "qid": "Q2672955", "label": "Sirhind-Fategarh", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Sirhind divn.", "count": 1, "has_coords": true}
@@ -1718,7 +1718,7 @@
 {"place": "Kalat states", "qid": "Q2581527", "label": "Kalat", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Kalat states", "count": 1, "has_coords": true}
 {"place": "Dehra-Dun", "qid": "Q199528", "label": "Dehradun", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Dehra-Dun", "count": 1, "has_coords": true}
 {"place": "Savántvádi", "qid": "Q18164343", "label": "Sawantwadi State", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Savántvádi", "count": 1, "has_coords": true}
-{"place": "Gondal State", "qid": "Q1536978", "label": "Gondal", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Gondal State", "count": 1, "has_coords": true}
+{"place": "Gondal State", "qid": "Q16839606", "label": "Gondal State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Gondal State", "count": 1, "has_coords": true}
 {"place": "Rajputana states", "qid": "Q2604565", "label": "Rajputana Agency", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Rajputana states", "count": 1, "has_coords": true}
 {"place": "Nepal Durbar", "qid": "Q837", "label": "Nepal", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Nepal Durbar", "count": 1, "has_coords": true}
 {"place": "Mandalay division", "qid": "Q185518", "label": "Mandalay", "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "reuse_variant", "query": "Mandalay division", "count": 1, "has_coords": true}
@@ -1858,7 +1858,7 @@
 {"place": "Hoogly", "qid": "Q548518", "label": "Hooghly district", "country_qid": "Q668", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Hoogly", "count": 3, "has_coords": true}
 {"place": "Hughli", "qid": "Q548518", "label": "Hooghly district", "country_qid": "Q668", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Hughli", "count": 3, "has_coords": true}
 {"place": "Impl.", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Impl.", "count": 3, "has_coords": null}
-{"place": "Ionian Islands", "qid": "Q170295", "label": "Ionian Islands", "country_qid": "Q41", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Ionian Islands", "count": 3, "has_coords": true}
+{"place": "Ionian Islands", "qid": "Q1063498", "label": "Ionian Islands", "country_qid": "Q41", "p131_qid": null, "instance_of": ["Protectorate"], "match_type": "manifest_reground", "query": "Ionian Islands", "count": 3, "has_coords": true}
 {"place": "Jhansi divn.", "qid": "Q242995", "label": "Jhansi", "country_qid": "Q668", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Jhansi divn.", "count": 3, "has_coords": true}
 {"place": "Jhind", "qid": "Q1807935", "label": "Jind", "country_qid": "Q668", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Jhind", "count": 3, "has_coords": true}
 {"place": "Khorassan", "qid": "Q2352322", "label": "Khorasan", "country_qid": "Q794", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Khorassan", "count": 3, "has_coords": true}
@@ -1937,7 +1937,7 @@
 {"place": "South Eastern Baluchistan", "qid": "Q3303188", "label": "Baluchistan Agency", "country_qid": "Q668", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "South Eastern Baluchistan", "count": 3, "has_coords": false}
 {"place": "Sth. Waziristan", "qid": "Q1798701", "label": "South Waziristan", "country_qid": "Q794", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Sth. Waziristan", "count": 3, "has_coords": true}
 {"place": "store depôt", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "store depôt", "count": 3, "has_coords": null}
-{"place": "Swat", "qid": "Q389161", "label": "Swat District", "country_qid": "Q794", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Swat", "count": 3, "has_coords": true}
+{"place": "Swat", "qid": "Q3246260", "label": "Swat State", "country_qid": null, "p131_qid": null, "instance_of": ["Princely State"], "match_type": "manifest_reground", "query": "Swat", "count": 3, "has_coords": true}
 {"place": "Switzerland", "qid": "Q39", "label": "Switzerland", "country_qid": "Q39", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "Switzerland", "count": 3, "has_coords": true}
 {"place": "town of Bombay", "qid": "Q1156", "label": "Mumbai", "country_qid": "Q668", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "town of Bombay", "count": 3, "has_coords": true}
 {"place": "United States", "qid": "Q30", "label": "United States", "country_qid": "Q30", "p131_qid": null, "instance_of": [], "match_type": "mcp_verified", "query": "United States", "count": 3, "has_coords": true}

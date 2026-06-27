@@ -21,8 +21,9 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from col_match.kg.resolve_context import is_ambiguous, resolve
+from col_match.kg.paths import KG_OUT
 
-OUT = Path("data/kg")
+OUT = KG_OUT
 CORPUS = OUT / "llm_struct_corpus.reviewed.jsonl"
 MAP = OUT / "places_resolution_map.jsonl"
 CONTEXT = OUT / "places_worklist.context.jsonl"
