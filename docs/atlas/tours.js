@@ -49,7 +49,7 @@
     // ---- a guided tour (Willingdon by default) -------------------------
     start(i) {
       if (ATLAS.Timeline.timer) ATLAS.Timeline.stop();
-      this.t = this.tours[i]; this.k = -1;
+      this.t = this.tours[i]; this.k = -1; this._wk = null;
       this.wrap.hidden = false;
       el('tour-title').textContent = this.t.title;
       el('tour-next').style.display = '';
@@ -57,6 +57,11 @@
       el('tour-dots').innerHTML = this.t.steps.map(() => '<i></i>').join('');
       // leave the full web standing for a beat, then fade to the single thread
       this.next();
+    },
+    // toggle which corpus webs are drawn, only rebuilding when it changes
+    setWeb(co, io) {
+      const k = (co ? 1 : 0) + '' + (io ? 1 : 0);
+      if (this._wk !== k) { this._wk = k; ATLAS.Arcs.setCorpus({ 0: co, 1: io }); }
     },
     next() {
       this.k++;
@@ -66,9 +71,18 @@
       el('tour-caption').textContent = s.caption;
       [...el('tour-dots').children].forEach((d, j) => d.classList.toggle('on', j <= this.k));
       el('tour-next').textContent = this.k === steps.length - 1 ? 'Finish' : 'Next';
-      if (s.yr) ATLAS.Timeline.setYear(s.yr, false);     // year clock follows the story (web is dimmed)
+      if (s.yr) ATLAS.Timeline.setYear(s.yr, false);     // year clock follows the story
 
-      // cumulative curated path, dimmed so only this career shows
+      // CONTEXT slide: introduce a whole web (one corpus or both), no synthetic path
+      if (s.web) {
+        this.setWeb(s.web !== 'io', s.web !== 'co');     // 'co' | 'io' | 'both'
+        ATLAS.Arcs.clearHighlight();                     // show the real web, undimmed
+        if (p) ATLAS.App.map.flyTo([p.lat, p.lon], s.zoom || 3.4, { duration: 1.1 });
+        return;
+      }
+
+      // CAREER step: both webs available, dimmed so only this career's thread shows
+      this.setWeb(true, true);
       const pairs = [];
       for (let j = 1; j <= this.k; j++) {
         const a = ATLAS.App.places[steps[j - 1].qid], b = ATLAS.App.places[steps[j].qid];
@@ -85,10 +99,12 @@
     dismiss() {                                   // user interacted — get the overlay out of the way
       if (this.wrap.hidden) return;
       if (ATLAS.Timeline.timer) ATLAS.Timeline.stop();
+      this.setWeb(true, true);                    // restore both webs if a context slide hid one
       this.wrap.hidden = true;
     },
     end() {
       if (ATLAS.Timeline.timer) ATLAS.Timeline.stop();
+      this.setWeb(true, true);                    // both webs back on for free exploration
       this.wrap.hidden = true;
       ATLAS.Timeline.setYear(ATLAS.Timeline.y1, false);   // full web, full span
       if (this.t && this.t.pids && this.t.pids.length) ATLAS.App.selectPerson(this.t.pids[0]);

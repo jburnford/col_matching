@@ -1,5 +1,58 @@
 [
  {
+  "id": "two-services",
+  "title": "Two services, one empire",
+  "blurb": "Britain ran its empire through two civil services, each published as a thick annual register. Meet the two Lists this atlas is built from, and watch each web build before you explore.",
+  "pids": [],
+  "steps": [
+   {
+    "web": "both",
+    "yr": 1966,
+    "caption": "Britain governed its empire through two separate civil services, and each printed a fat annual book of names — who held which post, where, and when. From the 1820s to the 1960s those registers track tens of thousands of careers. This atlas plots every posting that changed hands."
+   },
+   {
+    "web": "io",
+    "qid": "Q129286",
+    "yr": 1911,
+    "zoom": 3.6,
+    "caption": "The India Office List (gold) recorded the Indian Empire — the Indian Civil Service, the army, the presidencies and the princely states. It was a world of its own, run from Calcutta and Delhi."
+   },
+   {
+    "web": "io",
+    "qid": "Q2629708",
+    "yr": 1911,
+    "zoom": 4.0,
+    "caption": "Its officials circulated within the subcontinent — Bengal, Bombay, Madras, the Punjab, Burma and the frontier — and rarely served anywhere else."
+   },
+   {
+    "web": "co",
+    "qid": "Q2046345",
+    "yr": 1935,
+    "zoom": 3.4,
+    "caption": "The Colonial Office List (blue) recorded everyone else: the dependent empire. West Africa first — Nigeria, the Gold Coast, Sierra Leone."
+   },
+   {
+    "web": "co",
+    "qid": "Q116282722",
+    "yr": 1935,
+    "zoom": 3.4,
+    "caption": "Then the Caribbean — Trinidad, Jamaica, British Guiana — the Mediterranean, and the islands of the Pacific."
+   },
+   {
+    "web": "co",
+    "qid": "Q16",
+    "yr": 1910,
+    "zoom": 3.2,
+    "caption": "And the self-governing dominions, Canada among them — their own parliaments, but still names in the register."
+   },
+   {
+    "web": "both",
+    "yr": 1966,
+    "caption": "Two services, one empire. They almost never mixed — but a handful of officials cross from one List to the other. Explore either web, or follow a single crossing career in ‘One career, both services.’"
+   }
+  ]
+ },
+ {
   "id": "willingdon",
   "title": "One career, both services",
   "blurb": "Freeman Freeman-Thomas, Marquess of Willingdon, is the rare official whose record runs through both the Colonial Office and India Office Lists — the career that stitches the two datasets together.",
@@ -8,6 +61,11 @@
    "kgp_col1933-p1033b14"
   ],
   "steps": [
+   {
+    "web": "both",
+    "yr": 1966,
+    "caption": "Two annual registers recorded the people who ran the British Empire. The Colonial Office List — here in blue — named the officials of the dependent empire: Africa, the Caribbean, the Pacific, Canada. The India Office List — in gold — did the same for the Indian Empire. A few careers run through both at once. Here is one."
+   },
    {
     "qid": "Q408",
     "yr": 1895,
@@ -32,29 +90,6 @@
     "qid": "Q129286",
     "yr": 1931,
     "caption": "And returns to India as Viceroy. His service runs through both Lists — the single thread this atlas was built to follow."
-   }
-  ]
- },
- {
-  "id": "two-services",
-  "title": "Two services, one empire",
-  "blurb": "The Colonial Office (blue) ran the dependent empire — Africa, the Caribbean, the Pacific, Canada. The India Office (gold) ran the Raj as a world of its own. Watch both webs build, then explore either.",
-  "pids": [],
-  "steps": [
-   {
-    "qid": "Q129286",
-    "yr": 1858,
-    "caption": "Calcutta — the hub of the Indian service."
-   },
-   {
-    "qid": "Q16",
-    "yr": 1867,
-    "caption": "Canada — a self-governing dominion within the Colonial web."
-   },
-   {
-    "qid": "Q263",
-    "yr": 1910,
-    "caption": "The Cape — where colonial careers crossed southern Africa."
    }
   ]
  }
