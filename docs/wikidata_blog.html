@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Computational Historians Need Wikidata</title>
+<meta name="description" content="In structuring 46,000 colonial and India Office careers and grounding their places to Wikidata so they could be mapped, I built a linked-open-data resource other historians can build on. An argument for grounding, not hosting.">
+<meta property="og:title" content="Why Computational Historians Need Wikidata">
+<meta property="og:description" content="Grounding ~46,000 imperial careers to Wikidata turned digitised prose into linked open data others can build on.">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://jimclifford.ca/col_matching/grounded_places_map.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f4ecd8;        /* reading parchment */
+    --paper-edge:#e7dcc4;
+    --ink:#1b2330;          /* night-atlas ground, lightened for body text */
+    --ink-soft:#46505f;
+    --oxblood:#7A2E2A;      /* printers' red */
+    --serif:"Newsreader",Georgia,"Times New Roman",serif;
+    --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--serif);font-weight:400;
+    font-size:20px;line-height:1.62;
+    font-optical-sizing:auto;
+    background-image:repeating-linear-gradient(180deg,transparent 0 31px,rgba(122,46,42,.028) 31px 32px);
+  }
+  .wrap{max-width:40rem;margin:0 auto;padding:0 22px 6rem}
+  header.masthead{padding:3.2rem 0 0}
+  .kicker{
+    font-family:var(--mono);font-size:11px;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--oxblood);opacity:.92;margin:0 0 1.1rem}
+  h1{
+    font-family:var(--serif);font-weight:500;line-height:1.08;letter-spacing:.005em;
+    font-size:clamp(30px,5.2vw,46px);margin:0 0 .5rem;color:#14110d}
+  .byline{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--ink-soft);margin:0 0 2rem}
+  .byline a{color:var(--ink-soft)}
+  figure{margin:2.2rem 0;}
+  figure.hero{margin:1.4rem 0 2.4rem}
+  video{width:100%;height:auto;display:block;border:1px solid var(--paper-edge);
+    box-shadow:0 18px 50px rgba(20,17,13,.28);background:#0E1622}
+  figcaption{font-family:var(--serif);font-style:italic;font-size:15.5px;line-height:1.5;
+    color:var(--ink-soft);margin-top:.7rem}
+  figcaption a{color:var(--oxblood)}
+  p{margin:0 0 1.3rem}
+  h2{
+    font-family:var(--serif);font-weight:600;font-size:24px;letter-spacing:.005em;
+    color:#14110d;margin:2.9rem 0 1.1rem;line-height:1.2}
+  h2::before{content:"";display:block;width:2.4rem;height:2px;background:var(--oxblood);
+    opacity:.55;margin:0 0 1.1rem}
+  a{color:var(--oxblood);text-decoration:underline;text-decoration-thickness:1px;
+    text-underline-offset:2px;text-decoration-color:rgba(122,46,42,.4)}
+  a:hover{text-decoration-color:var(--oxblood)}
+  em{font-style:italic}
+  hr{border:0;border-top:1px solid var(--paper-edge);margin:3.2rem 0}
+  footer{font-family:var(--mono);font-size:12.5px;line-height:1.7;color:var(--ink-soft)}
+  footer a{color:var(--oxblood)}
+  footer .links{margin-top:.4rem}
+  @media (max-width:640px){
+    body{font-size:18px}
+    .wrap{padding:0 18px 4rem}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="masthead">
+  <div class="kicker">Colonial Office &amp; India Office Lists · A working note</div>
+  <h1>Why Computational Historians Need Wikidata</h1>
+  <p class="byline">Jim Clifford · University of Saskatchewan</p>
+</header>
+
+<figure class="hero">
+  <video src="combined_mobility.mp4" autoplay muted loop playsinline controls
+         poster="">
+    <a href="combined_mobility.mp4">Watch the career-mobility animation</a>
+  </video>
+  <figcaption><em>Two Services, One Empire</em>: career transfers of British colonial and
+    India Office officials, from the 1820s to the 1960s, drawn from the
+    <a href="https://jimclifford.ca/col_matching/">interactive atlas</a>. Every arc lands
+    where it does because the place was grounded to Wikidata.</figcaption>
+</figure>
+
+<p>Over the past several months I extracted several hundred thousand biographical statements from
+  two Victorian reference works, the <em>Colonial Office List</em> and the <em>India Office
+  List</em>, printed almost every year from the 1860s into the 1960s. Each volume reprints terse
+  career notices for the men who staffed two civil services: where they were born and schooled,
+  every posting and promotion, every honour. The raw material was a mess of the kind historians
+  know well. The same official recurs in forty annual editions, his notice growing a line at a
+  time; the OCR still garbles the occasional name; two different men who share a surname, one in
+  each service, threaten to collapse into a single phantom career. What turned that pile into a
+  usable dataset, roughly 46,000 distinct officials and some 300,000 dated career events, was
+  grounding it to Wikidata. Its shared identifiers let me structure the notices into typed facts,
+  recognise the same man across editions and across both services, and tell two different officials
+  apart. I did this only because my own atlas needed it. But grounding has a public side effect: it
+  turned my prose into linked open data that anyone working on a neighbouring subject can build on.
+  Most historians do not ground their data yet, and that is what this post is about. If we all start
+  using Wikidata unique identifiers to ground our data, we start collaborating at scale without
+  needing to schedule a single meeting or apply for any grants.</p>
+
+<p>A few digital humanities scholars have been saying that linked open data is the right idea for
+  historical research for fifteen years, and it has under-delivered on its promise. The reason isn't
+  that the standards were wrong or the vision was misguided. It's that the practical cost of
+  grounding unstructured historical sources to shared identifiers was too high. Grounding, in this
+  context, means linking the people, places, organizations, and concepts named in your sources to
+  permanent identifiers that other researchers also use, so that your &ldquo;Philip Wodehouse&rdquo;
+  and my &ldquo;Philip Wodehouse&rdquo; are demonstrably the same colonial governor, not just the
+  same string of letters. You either invested in hand-curating those links and stayed small, or you
+  skipped the work and produced a dataset that couldn't talk to anyone else's. Most of us did the
+  second thing.</p>
+
+<p>That constraint is loosening. Large language models combined with retrieval against Wikidata, the
+  open identifier system that now contains over 120 million items, including millions of historical
+  figures and places, make grounding tractable at the scale of a single researcher with a corpus.
+  The bottleneck has moved from labor to judgment. The clearest way to show what that buys is the
+  part of my own project that should have been hardest: putting every posting on a map.</p>
+
+<h2>An atlas built on borrowed coordinates</h2>
+
+<p>The structured corpus became
+  <a href="https://jimclifford.ca/col_matching/">an interactive atlas of imperial careers</a>, which
+  plays the more than twenty-two thousand recorded moves between one colony, presidency, or province
+  and another out across a map and through time. To draw a single arc on that map, I needed a
+  latitude and longitude for every place an official was ever posted to. That is the part historians
+  underestimate. The places in these volumes are not modern cities with tidy coordinates. They are
+  nineteenth-century polities: the Colony of Victoria, the Central Provinces, Baluchistan, British
+  Guiana, a princely state like Jodhpur or Chamba. A modern gazetteer either does not contain them
+  or quietly mislocates them to whatever shares the name today.</p>
+
+<p>Wikidata solved this almost for free, and it solved it in two ways. Many of the places I named
+  carry a coordinate location directly, so grounding the surface string to the right Wikidata item
+  handed me the coordinates in the same step. The polities that do not carry their own coordinates
+  almost always link to the place that does: their capital.
+  <a href="https://www.wikidata.org/wiki/Q129286">British Raj</a> resolves to Calcutta and then
+  Delhi; <a href="https://www.wikidata.org/wiki/Q16">Canada</a> to Ottawa; a princely state to its
+  seat. Once each place in my vocabulary was grounded to a QID, a single query returned coordinates
+  for the entire set, either from the item itself or from its capital. Weeks of manual gazetteer work
+  that I had budgeted for never happened. The technical specifics of how the grounding pipeline
+  disambiguates against millions of candidates, and how I kept the model from inventing identifiers,
+  are in a
+  <a href="https://working-papers-in-critical-search.github.io/paper-002-empire-evolution/">companion
+  working paper</a>; the point here is the result. The map exists because the coordinates were
+  already in the commons, attached to identifiers I could borrow.</p>
+
+<p>It is worth pausing on how different this is from how I used to work. Trading Consequences, a
+  project I was part of in the early 2010s, processed ten million pages of nineteenth-century
+  commodity sources and located the places in them with the Edinburgh Geoparser, a deterministic
+  system built on a fixed gazetteer. It was the right tool at the time and the team was strong. It
+  was also brittle in the ways historical sources punish: a modern gazetteer, poor OCR, ambiguous
+  toponyms. That took a two-year grant and a big team. The atlas took one historian, Claude Code, and
+  a method that leans on Wikidata for the part that used to be the bottleneck.</p>
+
+<h2>What individual scale costs us</h2>
+
+<p>Computational history is now possible for individual scholars without grant-funded labs. That is
+  the headline most readers take away, and it is correct. The harder question is what we do with the
+  freedom.</p>
+
+<p>Coding agents are empowering thousands of historians to build new datasets, but this risks a
+  flourishing of data silos. If we all assign different identifiers to distinguish Victoria the Queen
+  from Victoria, British Columbia, we end up rebuilding the same disambiguation work in every project,
+  and losing the chance for our datasets to compose into anything larger than themselves.</p>
+
+<p>This is the problem linked open data was designed to solve. The idea is straightforward: if every
+  dataset attaches the same persistent identifier to the same entity, then datasets compose. Wikidata
+  has already done much of this work, and my own place vocabulary shows why that matters. Take
+  &ldquo;Victoria,&rdquo; a posting that turns up constantly in these volumes. It might be the
+  <a href="https://www.wikidata.org/wiki/Q56850459">Colony of Victoria</a> an official governed,
+  <a href="https://www.wikidata.org/wiki/Q2132">Victoria in British Columbia</a> he was transferred
+  to, Victoria on Hong Kong Island, a district at the Cape, or a station on Lake Victoria, before we
+  even reach <a href="https://www.wikidata.org/wiki/Q9439">the queen</a> the rest were named for.
+  String matching cannot tell these apart, and a wrong guess drops an official's whole career in the
+  wrong hemisphere. Wikidata has already done the disambiguation: each Victoria is a distinct item
+  with a permanent identifier, and the colony, which carries no coordinates of its own, points to its
+  capital at Melbourne, which does. Grounding the right Victoria is what put each posting in the right
+  place.</p>
+
+<p>My atlas already shows what composition buys. It surfaces 178 officials who served in both the
+  colonial and the Indian services, the kind of figure who falls between two literatures because no
+  single archive holds the whole career.
+  <a href="https://www.wikidata.org/wiki/Q1800510">Philip Edmond Wodehouse</a> is one of them:
+  Governor of British Guiana, then Governor of the Cape Colony, then Governor of Bombay. A historian
+  of the Cape and a historian of British India are unlikely to know each other's work; their archives
+  are in different buildings and their conferences do not overlap. But if both ground their data to
+  Q1800510, their datasets join automatically. A query about Wodehouse's career reaches across one
+  historian's records in Cape Town and another's in Bombay, without either of them having planned for
+  the integration. The promise of computational history is not that everyone produces their own
+  dataset. It is that many small datasets compose into a research commons larger than any of them.</p>
+
+<h2>Ground, do not host</h2>
+
+<p>There have been concerns in our community about using Wikidata as scholarly infrastructure, and
+  the worry has a real history. Wikidata is crowdsourced; its data model is determined by its
+  community of editors; some of its modeling decisions, the
+  <a href="http://academic.oup.com/ccc/article/17/3/200/7739141">handling of gender is the canonical
+  case</a>, have been incompatible with the priorities of researchers working on people whose lives
+  the standard categories misrepresent. The response, in projects like LINCS (Linked Infrastructure
+  for Networked Cultural Scholarship), was to build proper scholarly infrastructure with controlled
+  vocabularies, considered ontological commitments, and editorial accountability. Those choices were
+  correct, and I remain hesitant about building knowledge graphs on the Wikidata platform.</p>
+
+<p>But the worry applies to <em>hosting</em> scholarship on Wikidata: treating Wikidata itself as the
+  place where your conclusions live, where your interpretations are subject to revision by anyone who
+  edits the relevant pages. It does not apply to <em>grounding</em> scholarship to Wikidata, which is
+  a different operation entirely. LINCS already works this way. The graph LINCS publishes is its own
+  linked open data, carefully modelled, with editorial accountability to the scholars who contribute
+  to it. It uses Wikidata QIDs directly as the identifiers for entities Wikidata already covers, and
+  mints its own only when no alternative exists. The model is sovereign; the identifiers are
+  shared.</p>
+
+<p>That is exactly the line my atlas walks. The career graph behind it is mine: my OCR, my
+  extraction, my judgments about which biography matches which annual record. Wikidata never sees it.
+  What I took from Wikidata was the identifiers, and through them the coordinates. The data is
+  sovereign; the entities are addressable. This implies periodic verification rather than
+  set-and-forget: QIDs are durable, but the data behind them can be merged, split, or revised, and
+  grounding is a relationship that needs occasional maintenance.</p>
+
+<p>The reason this matters is that the alternative does not scale. No scholarly project, however
+  well-funded, can produce identifiers and coordinates for over 120 million historical people,
+  places, organisms, events, and concepts on its own. Wikidata has done that work. Its coverage is
+  uneven and its modeling has problems, but it is the only system at the right scale for historical
+  research as actually practiced. Ignoring it produces silos. Grounding to it, while keeping your own
+  dataset, is the move that gets us out of this.</p>
+
+<h2>Teamwork without teams</h2>
+
+<p>The conventional model assumes that data-intensive history requires a team: a principal
+  investigator, a postdoc, a developer, a project manager, a grant. That model still works for some
+  projects, and the funding agencies are organized around it. But the recent shift means a great deal
+  of useful work can now happen at an individual scale. The question is whether that individual work
+  is connected to anyone else's.</p>
+
+<p>If we ground our work to shared identifiers, it is. A historian working on Bengal in 1850 and a
+  historian working on Jamaica in 1840 do not need to coordinate, share infrastructure, or even know
+  each other to produce datasets that interoperate. They need to use Wikidata identifiers for the
+  people, places, and institutions in their sources. That is teamwork without a team, and it is
+  exactly the kind of distributed, low-overhead collaboration historians have always done at the
+  level of citation and footnote, now extended to structured data.</p>
+
+<p>This is not a call for centralized infrastructure. It is the opposite. It is a call for a small set
+  of shared conventions: use shared identifiers; ground to Wikidata; create new Wikidata entries when
+  the substrate is thin. This lets individuals and small groups produce work that connects to a
+  research commons without anyone having to build the commons explicitly. The commons is the
+  consequence of the convention.</p>
+
+<h2>What this requires</h2>
+
+<p>Three things, and they are small.</p>
+
+<p>Add Wikidata identifiers to the entities in your datasets. If you have a spreadsheet of historical
+  figures, add a column for their Wikidata identifier. If you cannot find an identifier for an entity,
+  create one. The lift is hours, not weeks, and the tools to do it are now within reach of any
+  researcher with a corpus.</p>
+
+<p>Publish your data with the identifiers attached. A project website, a Zenodo deposit, a GitHub
+  repository: the venue matters less than the principle that the identifiers are present and durable,
+  so that someone reading your work in ten years can still find them.</p>
+
+<p>Treat Wikidata-editing as part of historical practice. When you find that a colonial administrator,
+  a rural township, or an eighteenth-century concept lacks an entry, contribute one with sources. We
+  need to make this an evolving standard of methodological rigor, on the same continuum as proper
+  archival citation: a small permanent addition to the substrate that makes everyone else's work more
+  findable, including yours.</p>
+
+<p>The technology has changed. Computational history at an individual scale is real now; my atlas is
+  one ordinary historian's proof of it. Whether the field produces a research commons or a thousand
+  silos depends on whether we adopt shared identifiers. We can. The conventions are small enough that
+  no one needs permission, and large enough that they would change the field.</p>
+
+<hr>
+
+<footer>
+  Jim Clifford, University of Saskatchewan.
+  <div class="links">
+    <a href="https://jimclifford.ca/col_matching/">Interactive atlas of imperial careers</a> ·
+    <a href="https://working-papers-in-critical-search.github.io/paper-002-empire-evolution/">Companion working paper</a> ·
+    <a href="grounded_places_map.html">Grounded-places map</a>
+  </div>
+</footer>
+
+</div>
+</body>
+</html>
