@@ -56,14 +56,21 @@
     // a cross-corpus bridge across TIME + SPACE: one person's CO career (blue) and IO
     // career (gold), merged chronologically, with a two-lane career strip + a year
     // cursor, and "Trace career" to play the whole arc of postings through time.
-    BR: ['#6f97cf', '#d59a3a'],
+    BR: ['#6f97cf', '#d59a3a', '#6f6acb'],   // CO blue · IO gold · both-Lists purple
     bridge(b) {
       const C = ATLAS.App.careers; if (!C) return;
       const co = C.persons[b.co], io = C.persons[b.io], places = ATLAS.App.places;
-      const legs = [];
-      if (co) co.st.forEach(s => legs.push({ s, corp: 0 }));
-      if (io) io.st.forEach(s => legs.push({ s, corp: 1 }));
-      legs.sort((a, x) => (a.s[1] || 0) - (x.s[1] || 0) || a.corp - x.corp);
+      // dedup postings recorded in BOTH Lists (a Secretary/Under-Secretary of State's
+      // colonial career is reproduced in the India Office List bio, and vice versa) —
+      // show each once, marked which List(s) carry it.
+      const seen = new Map();
+      const mark = (s, key) => { const e = seen.get(s.join('|')) || { s, co: false, io: false }; e[key] = true; seen.set(s.join('|'), e); };
+      if (co) co.st.forEach(s => mark(s, 'co'));
+      if (io) io.st.forEach(s => mark(s, 'io'));
+      const legs = [...seen.values()]
+        .map(e => ({ s: e.s, corp: e.co && e.io ? 2 : e.io ? 1 : 0 }))
+        .sort((a, x) => (a.s[1] || 0) - (x.s[1] || 0) || a.corp - x.corp);
+      const nShared = legs.filter(l => l.corp === 2).length;
       const ys = legs.flatMap(l => [l.s[1], l.s[2] || l.s[1]]).filter(Boolean);
       const minY = Math.min(...ys), maxY = Math.max(...ys);
 
@@ -86,6 +93,7 @@
         <div class="br-legend">
           <span><i style="background:${this.BR[0]}"></i>Colonial Office <b>${co ? co.st.length : 0}</b></span>
           <span><i style="background:${this.BR[1]}"></i>India Office <b>${io ? io.st.length : 0}</b></span>
+          ${nShared ? `<span><i style="background:${this.BR[2]}"></i>in both Lists <b>${nShared}</b></span>` : ''}
           <button id="br-trace" title="Play this career through time">▶ Trace career</button></div>
         ${this.careerStrip(legs, minY, maxY)}
         <ul class="ros-list" style="margin-top:10px">${rows}</ul>
@@ -112,7 +120,9 @@
       const span = Math.max(1, maxY - minY), X = y => ((y - minY) / span) * 100;
       const segs = legs.map(l => {
         const x = X(l.s[1]), w = Math.max(0.7, X(Math.max(l.s[2] || l.s[1], l.s[1] + 0.7)) - x);
-        return `<rect x="${x.toFixed(2)}" y="${l.corp ? 9.5 : 1}" width="${w.toFixed(2)}" height="6" rx="0.8" fill="${this.BR[l.corp]}"/>`;
+        // both-Lists postings span both lanes; CO=top, IO=bottom
+        const y = l.corp === 2 ? 1 : l.corp ? 9.5 : 1, h = l.corp === 2 ? 14.5 : 6;
+        return `<rect x="${x.toFixed(2)}" y="${y}" width="${w.toFixed(2)}" height="${h}" rx="0.8" fill="${this.BR[l.corp]}"/>`;
       }).join('');
       let grid = '';
       for (let d = Math.ceil(minY / 10) * 10; d < maxY; d += 10)
