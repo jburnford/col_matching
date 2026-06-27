@@ -1,0 +1,61 @@
+[
+ {
+  "id": "willingdon",
+  "title": "One career, both services",
+  "blurb": "Freeman Freeman-Thomas, Marquess of Willingdon, is the rare official whose record runs through both the Colonial Office and India Office Lists — the career that stitches the two datasets together.",
+  "pids": [
+   "kgp_iol1937-c5481176",
+   "kgp_col1933-p1033b14"
+  ],
+  "steps": [
+   {
+    "qid": "Q408",
+    "yr": 1895,
+    "caption": "Freeman Freeman-Thomas — the future Lord Willingdon — begins his public life as aide-de-camp to the Governor of Victoria, in Australia."
+   },
+   {
+    "qid": "Q891827",
+    "yr": 1913,
+    "caption": "Eighteen years later he is Governor of Bombay, a presidency of the Indian Empire."
+   },
+   {
+    "qid": "Q1772596",
+    "yr": 1919,
+    "caption": "He moves south to govern Madras."
+   },
+   {
+    "qid": "Q16",
+    "yr": 1926,
+    "caption": "Then he crosses the world to become Governor-General of Canada — a Colonial Office appointment."
+   },
+   {
+    "qid": "Q129286",
+    "yr": 1931,
+    "caption": "And returns to India as Viceroy. His service runs through both Lists — the single thread this atlas was built to follow."
+   }
+  ]
+ },
+ {
+  "id": "two-services",
+  "title": "Two services, one empire",
+  "blurb": "The Colonial Office (blue) ran the dependent empire — Africa, the Caribbean, the Pacific, Canada. The India Office (gold) ran the Raj as a world of its own. Watch both webs build, then explore either.",
+  "pids": [],
+  "steps": [
+   {
+    "qid": "Q129286",
+    "yr": 1858,
+    "caption": "Calcutta — the hub of the Indian service."
+   },
+   {
+    "qid": "Q16",
+    "yr": 1867,
+    "caption": "Canada — a self-governing dominion within the Colonial web."
+   },
+   {
+    "qid": "Q263",
+    "yr": 1910,
+    "caption": "The Cape — where colonial careers crossed southern Africa."
+   }
+  ]
+ }
+]

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>An Atlas of Imperial Careers · Colonial Office &amp; India Office, 1820–1966</title>
+<meta name="description" content="An interactive atlas of the career mobility of ~50,000 British colonial and Indian administrative officials, 1820–1966, reconstructed from the printed Office Lists.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="atlas/style.css">
+</head>
+<body>
+
+<div id="map"></div>
+<canvas id="arc-canvas"></canvas>
+
+<!-- masthead over the map -->
+<header id="masthead">
+  <div class="kicker">Colonial Office &amp; India Office Lists · 1820–1966</div>
+  <h1>An Atlas of Imperial Careers</h1>
+  <p class="standfirst"><span id="m-officials">50,442</span> officials of two civil services —
+     mapped by the <span id="m-transfers">23,334</span> times one changed post.</p>
+</header>
+
+<!-- service / filter rail -->
+<div id="rail">
+  <button class="svc svc-co on" data-corpus="0"><i></i>Colonial Office<em id="rail-co" title="officials">0</em></button>
+  <button class="svc svc-io on" data-corpus="1"><i></i>India Office<em id="rail-io" title="officials">0</em></button>
+  <button id="rail-reset" title="Clear selection &amp; show all">Reset view</button>
+</div>
+
+<!-- timeline -->
+<div id="timeline">
+  <button id="tl-play" aria-label="Play through time">▶</button>
+  <div id="tl-track">
+    <canvas id="tl-hist"></canvas>
+    <input id="tl-range" type="range" min="1820" max="1966" value="1966" step="1" aria-label="Year">
+  </div>
+  <output id="tl-year">1966</output>
+</div>
+
+<!-- parchment register -->
+<aside id="register">
+  <div id="reg-search">
+    <input id="search-box" type="search" placeholder="Search an official by name…" autocomplete="off" spellcheck="false">
+    <ul id="search-results" hidden></ul>
+  </div>
+  <div id="reg-body"><!-- filled by register.js --></div>
+  <footer id="reg-foot">
+    <span id="neo-badge" class="off" title="Live graph database">deep query: offline</span>
+    <a href="#" id="reg-about">About &amp; sources</a>
+  </footer>
+</aside>
+
+<!-- guided-tour overlay -->
+<div id="tour" hidden>
+  <div id="tour-card">
+    <div id="tour-title"></div>
+    <p id="tour-caption"></p>
+    <div id="tour-nav">
+      <span id="tour-dots"></span>
+      <button id="tour-next">Next</button>
+      <button id="tour-skip">Explore the full atlas →</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="atlas/arcs.js"></script>
+<script src="atlas/places.js"></script>
+<script src="atlas/timeline.js"></script>
+<script src="atlas/register.js"></script>
+<script src="atlas/search.js"></script>
+<script src="atlas/tours.js"></script>
+<script src="atlas/deepquery.js"></script>
+<script src="atlas/app.js"></script>
+</body>
+</html>

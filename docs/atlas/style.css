@@ -1,0 +1,188 @@
+/* ============================================================================
+   An Atlas of Imperial Careers — night-atlas + blue-book register
+   Two surfaces, one method: the dark map is the data/territory; the parchment
+   panel is the printed List it was drawn from.
+   ========================================================================== */
+:root{
+  --ink:#0E1622;        /* night-atlas ground */
+  --ink-2:#0a1019;      /* deeper wells */
+  --paper:#E7DCC4;      /* blue-book parchment */
+  --paper-2:#DBCDAE;    /* parchment shadow/edge */
+  --co:#8FB8EE;         /* Colonial Office steel-blue */
+  --io:#E8B24C;         /* India Office gold */
+  --oxblood:#7A2E2A;    /* printers' red — year-rail, active */
+  --slate:#2A3340;      /* ink-on-paper text */
+  --slate-2:#5b6675;    /* secondary ink */
+  --gold-soft:#ffd98a;  /* luminous HUD gold (from the videos) */
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;overflow:hidden;background:var(--ink);color:#e7eef6;font-family:var(--sans)}
+button{font-family:inherit;cursor:pointer}
+
+/* ---- map + arc canvas ---------------------------------------------------- */
+#map{position:absolute;inset:0;background:var(--ink);z-index:1}
+#arc-canvas{position:absolute;inset:0;z-index:400;pointer-events:none}
+.leaflet-control-attribution{font-size:10px;background:rgba(14,22,34,.6)!important;color:#6b7889!important}
+.leaflet-control-attribution a{color:#8794a6!important}
+.leaflet-control-zoom{display:none}
+
+/* ---- masthead ------------------------------------------------------------ */
+#masthead{position:absolute;z-index:600;top:22px;left:28px;max-width:540px;
+  text-shadow:0 2px 14px rgba(0,0,0,.8);pointer-events:none}
+#masthead .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--gold-soft);opacity:.85}
+#masthead h1{margin:.18em 0 0;font-family:var(--serif);font-weight:400;
+  font-size:clamp(26px,3.4vw,42px);letter-spacing:.01em;color:#fbf4e3;line-height:1.02}
+#masthead .standfirst{margin:.5em 0 0;font-family:var(--serif);font-size:16px;
+  font-weight:300;color:#d7e0ea;max-width:30em;line-height:1.4}
+#masthead .standfirst span{color:var(--gold-soft);font-variant-numeric:tabular-nums}
+
+/* ---- service / filter rail ---------------------------------------------- */
+#rail{position:absolute;z-index:600;left:28px;bottom:96px;display:flex;flex-direction:column;
+  gap:8px;align-items:flex-start}
+.svc{display:flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.14);
+  background:rgba(12,20,32,.72);backdrop-filter:blur(6px);color:#cdd7e3;
+  padding:8px 13px 8px 11px;border-radius:3px;font-size:13px;letter-spacing:.01em;
+  transition:opacity .15s,border-color .15s}
+.svc i{width:11px;height:11px;border-radius:2px;display:inline-block}
+.svc-co i{background:var(--co)} .svc-io i{background:var(--io)}
+.svc em{font-family:var(--mono);font-style:normal;font-size:11px;color:#8b97a7;margin-left:4px;
+  font-variant-numeric:tabular-nums}
+.svc:not(.on){opacity:.38}
+.svc-co.on{border-color:rgba(143,184,238,.55)} .svc-io.on{border-color:rgba(232,178,76,.55)}
+#rail-reset{background:none;border:none;color:#8794a6;font-size:12px;
+  padding:2px 4px;text-decoration:underline;text-underline-offset:3px;opacity:.8}
+#rail-reset:hover{opacity:1;color:#cdd7e3}
+
+/* ---- timeline ------------------------------------------------------------ */
+#timeline{position:absolute;z-index:600;left:28px;right:392px;bottom:26px;
+  display:flex;align-items:center;gap:14px}
+#tl-play{width:40px;height:40px;flex:0 0 auto;border-radius:50%;border:1px solid rgba(255,255,255,.22);
+  background:rgba(12,20,32,.8);color:var(--gold-soft);font-size:14px;line-height:1}
+#tl-play:hover{border-color:var(--gold-soft)}
+#tl-track{position:relative;flex:1 1 auto;height:54px}
+#tl-hist{position:absolute;inset:0;width:100%;height:100%}
+#tl-range{position:absolute;left:0;right:0;bottom:-2px;width:100%;margin:0;background:transparent;
+  -webkit-appearance:none;appearance:none}
+#tl-range::-webkit-slider-runnable-track{height:2px;background:rgba(255,255,255,.22)}
+#tl-range::-moz-range-track{height:2px;background:rgba(255,255,255,.22)}
+#tl-range::-webkit-slider-thumb{-webkit-appearance:none;width:3px;height:54px;margin-top:-52px;
+  background:var(--gold-soft);box-shadow:0 0 10px rgba(255,217,138,.7);border:0;border-radius:0;cursor:ew-resize}
+#tl-range::-moz-range-thumb{width:3px;height:54px;background:var(--gold-soft);border:0;border-radius:0;cursor:ew-resize}
+#tl-year{font-family:var(--mono);font-size:30px;font-weight:600;color:var(--gold-soft);
+  flex:0 0 auto;width:2.8em;text-align:right;font-variant-numeric:tabular-nums;
+  text-shadow:0 2px 10px rgba(0,0,0,.7)}
+
+/* ============================================================================
+   PARCHMENT REGISTER — the signature surface
+   ========================================================================== */
+#register{position:absolute;z-index:650;top:0;right:0;bottom:0;width:392px;
+  background:
+    radial-gradient(120% 80% at 80% -10%, rgba(255,255,255,.35), transparent 60%),
+    linear-gradient(180deg,var(--paper) 0%, var(--paper-2) 100%);
+  color:var(--slate);box-shadow:-14px 0 40px rgba(0,0,0,.45);
+  display:flex;flex-direction:column;border-left:1px solid #c9b994}
+#register::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:repeating-linear-gradient(180deg,transparent 0 27px,rgba(122,46,42,.045) 27px 28px)}
+
+#reg-search{position:relative;padding:16px 20px 12px;border-bottom:1px solid #cbbc98;flex:0 0 auto}
+#search-box{width:100%;padding:9px 12px;border:1px solid #b6a47e;border-radius:3px;
+  background:rgba(255,255,255,.4);font-family:var(--serif);font-size:15px;color:var(--slate)}
+#search-box::placeholder{color:#8a7f66;font-style:italic}
+#search-box:focus{outline:none;border-color:var(--oxblood);box-shadow:0 0 0 2px rgba(122,46,42,.15)}
+#search-results{position:absolute;left:20px;right:20px;top:58px;z-index:5;margin:0;padding:0;
+  list-style:none;background:#f3ecda;border:1px solid #b6a47e;border-radius:3px;max-height:320px;
+  overflow:auto;box-shadow:0 12px 28px rgba(0,0,0,.25)}
+#search-results li{padding:7px 12px;font-size:13.5px;border-bottom:1px solid #e3d8bf;cursor:pointer;
+  display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+#search-results li:hover,#search-results li.sel{background:#e7dcc0}
+#search-results li .nm{font-family:var(--serif)}
+#search-results li .tag{font-family:var(--mono);font-size:10px;padding:1px 5px;border-radius:2px;color:#fff;flex:0 0 auto}
+.tag.co{background:#4f76ad}.tag.io{background:#b07d24}
+
+#reg-body{flex:1 1 auto;overflow-y:auto;padding:18px 20px 24px}
+#reg-foot{flex:0 0 auto;display:flex;justify-content:space-between;align-items:center;
+  padding:9px 20px;border-top:1px solid #cbbc98;font-family:var(--mono);font-size:10.5px;color:#7d7257}
+#neo-badge{display:inline-flex;align-items:center;gap:6px}
+#neo-badge::before{content:"";width:7px;height:7px;border-radius:50%;background:#b3322c}
+#neo-badge.on::before{background:#3f8a4a}
+#reg-foot a{color:#7d7257;text-decoration:underline;text-underline-offset:2px}
+
+/* ---- register: default / summary state ---------------------------------- */
+.reg-h{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--oxblood);margin:0 0 10px;padding-bottom:6px;border-bottom:1.5px solid var(--oxblood)}
+.reg-lede{font-family:var(--serif);font-size:15.5px;line-height:1.5;color:#3c4452;margin:0 0 16px}
+.stat-row{display:flex;gap:18px;margin:14px 0 18px;font-variant-numeric:tabular-nums}
+.stat{flex:1}
+.stat b{display:block;font-family:var(--mono);font-size:23px;color:var(--slate);font-weight:600}
+.stat span{font-size:11px;color:var(--slate-2);text-transform:uppercase;letter-spacing:.06em}
+.tour-list{list-style:none;margin:6px 0 0;padding:0}
+.tour-list li{padding:12px 0;border-top:1px solid #cbbc98;cursor:pointer}
+.tour-list li:hover .tl-t{color:var(--oxblood)}
+.tl-t{font-family:var(--serif);font-size:17px;color:var(--slate);margin-bottom:2px}
+.tl-b{font-size:12.5px;color:var(--slate-2);line-height:1.4}
+
+/* ---- register: Record of Services (signature) --------------------------- */
+.ros-name{font-family:var(--serif);font-weight:500;font-size:23px;letter-spacing:.04em;
+  line-height:1.1;color:var(--slate);margin:0}
+.ros-name .giv{display:block;font-size:15px;font-weight:400;letter-spacing:.02em;color:#4a5260;margin-top:2px}
+.ros-meta{font-family:var(--mono);font-size:11px;color:var(--slate-2);margin:8px 0 4px;
+  display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.ros-meta .corp{padding:1px 6px;border-radius:2px;color:#fff;font-size:10px}
+.ros-meta a{color:var(--oxblood)}
+.ros-rule{border:0;border-top:1.5px solid var(--oxblood);margin:10px 0 4px}
+.ros-list{margin:0;padding:0;list-style:none}
+.ros-entry{display:grid;grid-template-columns:3.4em 1fr;gap:12px;padding:7px 0;
+  border-left:2px solid var(--oxblood);padding-left:13px;margin-left:2px;position:relative;cursor:pointer}
+.ros-entry:hover,.ros-entry.on{background:rgba(122,46,42,.07)}
+.ros-entry .yr{font-family:var(--mono);font-size:13px;color:var(--oxblood);font-weight:500;
+  padding-top:1px;font-variant-numeric:tabular-nums}
+.ros-entry .pos{font-family:var(--serif);font-size:15px;color:#2c333f;line-height:1.32}
+.ros-entry .pl{display:block;font-size:12px;font-variant:small-caps;letter-spacing:.04em;color:var(--slate-2)}
+.ros-entry .pos em{font-style:italic;color:#7a6a3f}
+.ros-note{font-size:12px;color:var(--slate-2);font-style:italic;margin-top:12px;padding-top:10px;
+  border-top:1px dotted #b6a47e}
+
+/* ---- register: place corridor view -------------------------------------- */
+.reg-hint{font-family:var(--sans);font-size:10px;letter-spacing:0;text-transform:none;color:var(--slate-2);font-weight:400}
+.cor-list{list-style:none;margin:6px 0 0;padding:0;font-size:13px}
+.cor-list li{display:flex;justify-content:space-between;gap:10px;padding:6px 8px;margin:0 -8px;border-top:1px solid #d6c9a9}
+.cor-list .ct{font-family:var(--mono);color:var(--oxblood);font-variant-numeric:tabular-nums}
+.cor-row{cursor:pointer;border-radius:3px}
+.cor-row:hover{background:rgba(122,46,42,.08)}
+.cor-row.on{background:rgba(122,46,42,.14)}
+.ppl-list{list-style:none;margin:8px 0 0;padding:0;font-size:13.5px}
+.ppl-list li{padding:5px 8px;margin:0 -8px;cursor:pointer;font-family:var(--serif);
+  display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #e0d4b8}
+.ppl-list li:hover{color:var(--oxblood);background:rgba(122,46,42,.06)}
+.ppl-list .py{font-family:var(--mono);font-size:11px;color:var(--slate-2);font-variant-numeric:tabular-nums}
+
+/* ---- guided-tour overlay ------------------------------------------------ */
+#tour{position:absolute;inset:0;z-index:800;background:rgba(8,13,22,.35);
+  display:flex;align-items:flex-end;justify-content:flex-start;pointer-events:none}
+#tour[hidden]{display:none}
+#tour-card{pointer-events:auto}
+#tour-card{margin:0 0 120px 28px;max-width:430px;
+  background:linear-gradient(180deg,var(--paper),var(--paper-2));color:var(--slate);
+  padding:22px 24px;border-radius:4px;box-shadow:0 20px 50px rgba(0,0,0,.55);border:1px solid #c9b994}
+#tour-title{font-family:var(--serif);font-size:22px;color:var(--slate);margin-bottom:8px}
+#tour-caption{font-family:var(--serif);font-size:16px;line-height:1.5;color:#3c4452;margin:0 0 18px;min-height:3em}
+#tour-nav{display:flex;align-items:center;gap:14px}
+#tour-dots{flex:1 1 auto;display:flex;gap:6px}
+#tour-dots i{width:7px;height:7px;border-radius:50%;background:#bcab85;display:inline-block}
+#tour-dots i.on{background:var(--oxblood)}
+#tour-next{background:var(--oxblood);color:#fff;border:0;padding:8px 16px;border-radius:3px;font-size:13px}
+#tour-skip{background:none;border:0;color:var(--slate-2);font-size:12.5px;text-decoration:underline;text-underline-offset:3px}
+
+/* ---- responsive --------------------------------------------------------- */
+@media (max-width:820px){
+  #register{top:auto;bottom:0;width:100%;height:46%;box-shadow:0 -14px 40px rgba(0,0,0,.5);border-left:0;border-top:1px solid #c9b994}
+  #timeline{right:28px;bottom:calc(46% + 14px)}
+  #rail{bottom:calc(46% + 70px)}
+  #masthead{max-width:64%}
+  #tour-card{margin-bottom:calc(46% + 24px);max-width:80%}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
