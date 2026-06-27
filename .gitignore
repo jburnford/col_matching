@@ -11,3 +11,5 @@ out/
 *.jsonl
 data/
 !data/services/gold/*.jsonl
+# raw OCR source images (951MB) — regenerable, never push to GitHub
+iol_ocr_1860-1940/
