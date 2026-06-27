@@ -19,8 +19,9 @@ from __future__ import annotations
 import json
 from pathlib import Path
 from collections import Counter
+from col_match.kg.paths import kg_out
 
-GD = Path("data/kg/graph_stage3")
+GD = kg_out() / "graph_stage3"     # COL_KG_OUT switches CO (data/kg) <-> IOL (data/iol)
 
 def load(p):
     return [json.loads(l) for l in (GD / p).open()]
@@ -34,13 +35,16 @@ def index(rows):
 def main():
     spine = load("career_events.jsonl")
     roles = index(load("role_edges.jsonl"))
-    orgs = index(load("employment_edges.jsonl"))
+    # NB employment/org is now PERSON-LEVEL (EMPLOYED_BY, no seq) since the
+    # 2026-06-26 re-dedup, so it is NOT joined per-event here (mirrors
+    # kg_load_ladybug.load_facts, which sets org_id=None and wires EMPLOYED_BY
+    # separately). career_facts therefore carries no per-event employer.
 
     out, stat = [], Counter()
     for e in spine:
         k = (e["person_id"], e["seq"])
         r = roles.get(k) or {}
-        o = orgs.get(k) or {}
+        o = {}
         fact = {
             "person_id": e["person_id"],
             "seq": e["seq"],
@@ -49,9 +53,9 @@ def main():
             "role_label": r.get("role_label"),
             "role_modifiers": r.get("modifiers", []),
             "is_acting": e.get("is_acting", False),
-            # employer organisation (grounded where the bio named one)
-            "org_id": o.get("org_id"),
-            "org_label": o.get("org_label"),
+            # employer organisation: person-level now (see note above)
+            "org_id": None,
+            "org_label": None,
             "org_type": e.get("org_type"),
             # place / colony
             "place_qid": e.get("place_qid"),
