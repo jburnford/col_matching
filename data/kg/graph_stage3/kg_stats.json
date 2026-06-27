@@ -1,12 +1,12 @@
 {
-  "persons": 28216,
-  "events": 182764,
-  "events_placed": 153790,
-  "events_grounded": 132787,
+  "persons": 27841,
+  "events": 181129,
+  "events_placed": 152414,
+  "events_grounded": 131506,
   "events_resolved_via_map": 1257,
-  "events_with_colony": 105511,
-  "events_org": 3460,
-  "honours": 15499,
-  "education": 19621,
+  "events_with_colony": 104475,
+  "events_org": 3459,
+  "honours": 15275,
+  "education": 19392,
   "places_used": 3187
 }
