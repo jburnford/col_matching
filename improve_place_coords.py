@@ -56,6 +56,22 @@ SEATS = {
     "Q4807130": ([-33.9249, 18.4241], "Cape Town"),      # Cape Colony (Dutch period)
     "Q3303188": ([30.1798, 66.9750],  "Quetta"),         # Baluchistan (alt QID)
     "Q3129772": ([54.1797, 7.8851],   "Heligoland"),     # Heligoland
+    # colony entities (mostly from the 2026-06-27 reground) Wikidata lacks P36/P625 for
+    "Q18348382": ([-33.8680, 151.2090], "Sydney"),       # New South Wales (colony)
+    "Q28401203": ([-27.4680, 153.0280], "Brisbane"),     # Queensland (colony)
+    "Q63973349": ([13.1070, -59.6130],  "Bridgetown"),   # Barbados
+    "Q15240384": ([13.1570, -61.2250],  "Kingstown"),    # St Vincent
+    "Q15238409": ([14.0110, -60.9870],  "Castries"),     # St Lucia
+    "Q3574782":  ([-6.1650, 39.1990],   "Zanzibar"),     # Zanzibar Protectorate
+    "Q21816225": ([26.2250, 50.5860],   "Manama"),       # Bahrain Protectorate
+    "Q105633777":([25.2860, 51.5340],   "Doha"),         # Qatar Protectorate
+    "Q1865132":  ([12.7900, 45.0200],   "Aden"),         # Aden Protectorate
+    "Q6420545":  ([5.2810, 115.2410],   "Victoria, Labuan"),  # Labuan
+    "Q7621163":  ([2.1960, 102.2490],   "Malacca"),      # Malacca Settlement
+    "Q1973084":  ([5.0000, 102.5000],   "Unfederated Malay States"),
+    "Q3593530":  ([-8.5200, 179.1980],  "Funafuti"),     # Ellice Islands
+    "Q96372444": ([6.6880, -1.6240],    "Kumasi"),       # Ashanti
+    "Q1806380":  ([7.8020, 6.7440],     "Lokoja"),       # Royal Niger Company
 }
 
 def qlever(query):
