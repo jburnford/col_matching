@@ -61,13 +61,28 @@ facts from `career_events` at load, not from this file).
 - The atlas's `build_canon()` attestation-fold is now redundant but kept as a
   defensive guard against future staleness.
 
-### 7. Residual person duplication the attestation-fold can't fix  ⚠️ dedup/grounding
-After #6, **389 names still have >1 record** (1.1% of entries):
-- **282 within-corpus** — same name, two *canonical* person ids the Stage-3 dedup
-  failed to merge (e.g. Sir Henry Wylie Norman = `kgp_iol1889_supp-c1804179` +
-  `kgp_iol1904-c3020189`, his 1889-supplement and 1904 editions). → tighten dedup.
-- **107 cross-corpus** — same official in BOTH CO and IOL, unjoined (Norman is also
-  in CO; Willingdon too). → person grounding / cross-corpus link (see #3).
+### 7. Residual within-corpus person duplication  ✅ MOSTLY FIXED 2026-06-26 (cross-form dedup)
+**Root cause:** `kg_dedup_stage3_candidates.py` blocks same-name groups on
+(surname, FULL given_names), so two records of one person whose given-name *form*
+differs — initials-vs-full (MACKAY "I. V. G." / "Iaan Vandin Gordon") or a 1-char
+OCR token slip (PREVOST "...DE TEISSIER" / "...DE TRISSIER") — never land in the same
+block and are never compared. The atlas corridor view surfaced this as inflated
+counts (British N. Borneo⇄Gold Coast showed 9 officials, really 7).
+- **Fix:** new `kg_dedup_crossform.py` — blocks on **surname only** and lets a
+  STRONG SHARED CAREER EVENT drive the merge (Jim's steer). Name gate = initials↔full
+  (`_names_compatible`) + OCR-tolerant token alignment (Levenshtein≤1 on tokens ≥5 ch).
+  Safety gate = a shared exact appointment **(job@place@YEAR)** or a shared birth year
+  — both defeat the **father/son dynasty** trap (e.g. the two George Leakes of WA, who
+  share WA law offices in *different* years; `gap<0` overlap is NOT safe, since
+  father/son careers overlap too). No-year/no-birth pairs go to a `.held.jsonl` review
+  file, not auto-merged.
+- **Applied both corpora, 0 new over-merges, 0 grounding-QID conflicts:**
+  **CO 30,080 → 28,864** (1,216 merges), **IOL 20,362 → 19,981** (381 merges). All
+  edge layers re-emitted/remapped (0 orphans), both LadybugDBs + the atlas rebuilt.
+  HELD for later review: CO 67 + IOL 24 no-year/no-birth pairs (mostly true but
+  unconfirmable initials-vs-full; a handful of genuine father/son to keep split).
+- **Still open:** **107 cross-corpus** dupes — same official in BOTH CO and IOL,
+  unjoined (Norman, Willingdon). → person grounding / cross-corpus link (see #3).
 
 ### 3. Peerage-titled top appointees not grounded to Wikidata  (from earlier session)
 Viceroys / GGs appear under peerage titles (DUFFERIN, WILLINGDON, MARQUESS OF…) and

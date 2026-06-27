@@ -160,9 +160,12 @@ def main():
                               "edu_type": e.get("type") or ""}
                              for e in edu_e
                              if e["person_id"] in person_ids and e.get("institution_id") in inst_ids])
-    employed = pd.DataFrame([{"from": e["person_id"], "to": e["institution_id"]}
+    # employment_edges (from kg_emit_org.py) key the org as `org_id`; older runs used
+    # `institution_id` -- accept either so the EMPLOYED_BY rel survives a schema change.
+    def _empl_org(e): return e.get("org_id") or e.get("institution_id")
+    employed = pd.DataFrame([{"from": e["person_id"], "to": _empl_org(e)}
                              for e in emp_e
-                             if e["person_id"] in person_ids and e.get("institution_id") in org_ids]
+                             if e["person_id"] in person_ids and _empl_org(e) in org_ids]
                             ) if emp_e else pd.DataFrame(columns=["from", "to"])
 
     # ---- create db -------------------------------------------------------
