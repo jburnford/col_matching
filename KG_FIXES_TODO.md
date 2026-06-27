@@ -12,27 +12,39 @@ Legend: **viz-patched** = worked around in `build_static_atlas.py` for display o
 
 ## Place grounding
 
-### 1. Country over-collapse — colonies pooled into the modern sovereign country  ⚠️ needs re-ground
-Several distinct colonies were grounded to one **country** QID, so their careers
-all land at that country's capital instead of the real colonial seat.
+### 1. Pre-federation colonies grounded to the MODERN entity (state/nation), inconsistently across corpora  ⚠️ needs re-ground
+**Corrected diagnosis 2026-06-27.** There IS a foundational authority for this: the
+**empire-evolution KG** `/home/jic823/empire-evolution-wpcs/data/qid_manifest.tsv`
+(740 colonies; cols: colony_id, name, **wikidata_id** = the pre-federation entity,
+**modern_nation_qids**, established_year, end_date, region, colony_type, capital,
+successor_dominion). So `Q56850459` = "Victoria (Colony) 1851–1901" → modern Q408 is the
+**CORRECT** historical entity, not a bug — the manifest deliberately models the colony,
+not the modern state.
 
-| QID | true entity | wrongly absorbed (colony_label × count) | effect |
-|-----|-------------|------------------------------------------|--------|
-| **Q408** | Australia | Australia 434, Western Australia 82, Victoria 19, NSW 9, Swan River 7, Queensland 7, Tasmania 3 | all AUS colonies → Canberra |
-| **Q833** | Malaysia | **Penang 1178**, Straits Settlements 2 (also shows "Sarawak") | Penang/Straits → Kuala Lumpur |
-| **Q30** | United States | "New Hampshire Colony" 29, "Baker Island" 20 (raw = U.S.A./United States/America) | minor; refs really are the USA |
-| **Q16** | Canada | Upper Canada 1623, New Brunswick 8 | Upper Canada / NB → Ottawa |
-| **Q148** | China (PRoC) | "Weihaiwei" 58 (raw = "China") | China consular posts → Beijing |
+The real problem is **inconsistency + modern-collapse stragglers**:
+- **CO** mostly joins the manifest correctly (match_type=`manifest`): Victoria→Q56850459,
+  NSW→Q18348382, Queensland→Q28401203, Tasmania→Q5148519, WA→Q57676556, Upper Canada→Q795427,
+  Straits Settlements→Q376178, South Australia→Q35715. **These are RIGHT (the colony entities).**
+- **IOL** did NOT join the manifest → grounded the SAME colonies to **modern states**:
+  Victoria→Q36687, NSW→Q3224, Queensland→Q36074, Tasmania→Q34366 (and Australia→Q408,
+  China/Weihaiwei→Q148, Canada→Q16). **These are WRONG (modern, post-federation).**
+- **CO MCP stragglers** that bypassed the manifest: **Penang→Q188096** (modern *state of
+  Malaysia*, mcp_unverified) — manifest says penang_prince_of_wales_island = **Q1150673**
+  (pre-1826 trading post) and post-1826 Penang ⊂ Straits Settlements Q376178.
+- Generic country surfaces ("Australia" 427 ev→Q408, "Canada" 1557→Q16, "China" 54→Q148)
+  are genuinely the nation in those bios — leave as nation OR flag ambiguous; not the bug.
 
-> Note: Wikidata canonical labels are **anachronistic** for 1820–1966 (Q148 = "People's
-> Republic of China", 1949) and P1813 short-names are ISO codes ("MYS"), so labels
-> must be **curated by hand** (LABEL_FIX), not auto-pulled. Current curated set:
-> Q16→Canada, Q30→United States, Q408→Australia, Q833→Malaya, Q148→China. The
-> single-but-wrong cases (China→"Weihaiwei") are NOT caught by the >1-label detector.
-
-- **Atlas workaround:** `LABEL_FIX` restores the canonical Wikidata label (Canada / United States / Australia / Malaysia) so markers are honest. Coordinates already correct *for the country* (capital seat).
-- **Proper fix:** re-ground the absorbed surfaces to their own colony QIDs — e.g. Victoria → Q36687, New South Wales → Q3224, Western Australia → Q3206, Queensland → Q36074, Tasmania → Q34366, Penang → Q4730, Straits Settlements → Q1163660, Upper Canada → Q221045. Then each gets its own seat (Melbourne, Sydney, Perth, Brisbane, Hobart, George Town, Singapore, Toronto).
-- **Detection query:** place QIDs with >1 distinct `colony_label` in `career_events.jsonl` (10 found; the 6 not listed here are benign era-variants — Bengal/Bombay/Madras Crown-vs-Company, Cape, Burma, Mesopotamia/Iraq).
+- **Proper fix:** make BOTH corpora ground colony surfaces to the **foundational-KG
+  manifest** entities (the pre-federation colony QIDs), date-aware where a surface spans
+  the federation/cession boundary. CO is the reference; bring IOL into line + fix the CO
+  Penang straggler. Re-run `kg_join_manifest.py` for IOL (check it's COL_KG_OUT-aware),
+  patch the few MCP stragglers, re-emit both corpora, rebuild atlas, **drop LABEL_FIX**
+  (entities will then be correct, so the display patch is no longer needed).
+- **Secondary (surface-ambiguity, harder):** the bare surface "Victoria" has 5+ referents
+  (Victoria BC / Australia / Cape / Hong Kong / Lake Victoria); grounding ALL "Victoria"→
+  Q56850459 mis-attracts the non-Australian ones. Needs per-mention context (the official's
+  other postings / colony) to disambiguate. Flagged earlier as Q56850459 attractor.
+- **Atlas workaround still in place:** `LABEL_FIX` in build_static_atlas (display-only).
 
 ### 2. `colony_label` is noisy / last-write-wins  (contributing cause of #1)
 A single `colony_qid` can carry multiple `colony_label` values across events; the
