@@ -16,12 +16,13 @@
       ATLAS.Tours.dismiss();
       const d = await this.load();
       await ATLAS.App.loadCareers();
+      ATLAS.Timeline.onYear = null;
       ATLAS.Arcs.clearHighlight(); ATLAS.Places.clearEmphasis();
       // only those actually mapped in BOTH services are worth drawing
       this.items = d.bridges.filter(b => b.co_stints && b.io_stints);
       const body = ATLAS.Register.body;
       const row = (b, i) => `<li class="br-row" data-i="${i}">
-          <span class="br-nm">${esc(b.surname)}<span class="giv">, ${esc(b.name)}</span></span>
+          <span class="br-nm">${esc(b.surname)}<span class="giv">, ${esc(b.name)}</span>${b.birth ? ` <span class="br-b">b.${b.birth}</span>` : ''}${b.ambiguous ? ' <span class="br-amb" title="matches more than one record — verify">±</span>' : ''}</span>
           <span class="br-meta"><span class="cf cf-${b.conf}" title="${CONF[b.conf]}">${b.conf}</span>
             <span class="br-st" title="located postings — Colonial / India"><b class="co">${b.co_stints}</b><i>·</i><b class="io">${b.io_stints}</b></span></span>
         </li>`;

@@ -26,6 +26,7 @@
       this.year = y; this.out.textContent = Math.floor(y);
       if (!fromPlay) this.range.value = y;
       ATLAS.Arcs.setYear(y);
+      if (this.onYear) this.onYear(y);          // hook: e.g. the bridge career strip cursor
       // only repaint the histogram when the lit decade actually changes (not every frame)
       const dec = Math.floor((y + 0.5) / 10);
       if (dec !== this._dec) { this._dec = dec; this.drawHist(); }
@@ -58,6 +59,21 @@
       if (this.year >= this.y1) this.setYear(this.y0, false);   // restart from the top
       this.playBtn.textContent = '❚❚'; ATLAS.Arcs.playing = true;
       const t0 = performance.now(), startY = this.year, span = this.y1 + 2 - startY;
+      this._done = onDone || null;
+      const tick = (t) => {
+        const k = Math.min(1, (t - t0) / dur);
+        this.setYear(startY + span * k, true);
+        if (k < 1) { this.raf = requestAnimationFrame(tick); }
+        else { const cb = this._done; this.stop(); if (cb) cb(); }
+      };
+      this.timer = true; this.raf = requestAnimationFrame(tick);
+    },
+    // play a bounded window (one person's career start..end) rather than the whole century
+    playWindow(startY, endY, dur, onDone) {
+      if (this.timer) this.stop();
+      this.setYear(startY, false);
+      this.playBtn.textContent = '❚❚'; ATLAS.Arcs.playing = true;
+      const t0 = performance.now(), span = Math.max(1, endY + 0.5 - startY);
       this._done = onDone || null;
       const tick = (t) => {
         const k = Math.min(1, (t - t0) / dur);

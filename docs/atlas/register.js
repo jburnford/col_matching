@@ -10,6 +10,7 @@
     init() { this.body = el('reg-body'); },
 
     summary() {
+      ATLAS.Timeline.onYear = null;
       const m = ATLAS.App.meta, c = m.counts;
       const tours = ATLAS.App.tours.map((t, i) =>
         `<li data-tour="${i}"><div class="tl-t">${esc(t.title)}</div><div class="tl-b">${esc(t.blurb)}</div></li>`).join('');
@@ -48,35 +49,82 @@
       }).join('');
     },
 
-    // a cross-corpus bridge: one person's CO career (blue) + IO career (gold) together
+    // a cross-corpus bridge across TIME + SPACE: one person's CO career (blue) and IO
+    // career (gold), merged chronologically, with a two-lane career strip + a year
+    // cursor, and "Trace career" to play the whole arc of postings through time.
+    BR: ['#6f97cf', '#d59a3a'],
     bridge(b) {
       const C = ATLAS.App.careers; if (!C) return;
-      const co = C.persons[b.co], io = C.persons[b.io];
-      const sec = (rec, label, color) => rec ? `
-        <div class="br-sec"><div class="br-svc" style="color:${color}">${label}
-          <span class="br-svc-n">${rec.st.length} located posting${rec.st.length !== 1 ? 's' : ''}</span></div>
-        <ul class="ros-list">${this.legRows(rec)}</ul></div>` : '';
+      const co = C.persons[b.co], io = C.persons[b.io], pos = C.positions, places = ATLAS.App.places;
+      const legs = [];
+      if (co) co.st.forEach(s => legs.push({ s, corp: 0 }));
+      if (io) io.st.forEach(s => legs.push({ s, corp: 1 }));
+      legs.sort((a, x) => (a.s[1] || 0) - (x.s[1] || 0) || a.corp - x.corp);
+      const ys = legs.flatMap(l => [l.s[1], l.s[2] || l.s[1]]).filter(Boolean);
+      const minY = Math.min(...ys), maxY = Math.max(...ys);
+
+      const rows = legs.map((l, k) => {
+        const [col, y0, y1, pi, ac] = l.s;
+        const yr = y1 && y1 !== y0 ? `${y0}–${String(y1).slice(2)}` : `${y0}`;
+        const place = places[col] ? places[col].label : col;
+        return `<li class="ros-entry br-leg" data-qid="${col}" data-y="${y1 || y0}"
+            style="border-left-color:${this.BR[l.corp]}">
+            <span class="yr" style="color:${this.BR[l.corp]}">${yr}</span>
+            <span class="pos">${ac ? '<em>acting </em>' : ''}${esc(pos[pi] || 'in service')}<span class="pl">${esc(place)}</span></span>
+          </li>`;
+      }).join('');
       const qlink = b.co_qid ? ` · <a href="https://www.wikidata.org/wiki/${b.co_qid}" target="_blank" rel="noopener">${b.co_qid}</a>` : '';
       this.body.innerHTML = `
         <p class="ros-name">${esc(b.surname)}<span class="giv">${esc(b.name)}</span></p>
         <div class="ros-meta"><span class="corp" style="background:#6f6acb">Two services</span>
           <span>${b.birth ? 'b. ' + b.birth + ' · ' : ''}<span class="cf cf-${b.conf}">${b.conf}</span> ${esc(b.ev || '')}${qlink}</span></div>
-        <hr class="ros-rule">
-        ${sec(co, 'Colonial Office', '#6f97cf')}
-        ${sec(io, 'India Office', '#d59a3a')}
-        <p style="margin-top:14px"><a href="#" id="br-back" style="color:var(--oxblood)">← all bridge careers</a></p>`;
+        <div class="br-legend">
+          <span><i style="background:${this.BR[0]}"></i>Colonial Office <b>${co ? co.st.length : 0}</b></span>
+          <span><i style="background:${this.BR[1]}"></i>India Office <b>${io ? io.st.length : 0}</b></span>
+          <button id="br-trace" title="Play this career through time">▶ Trace career</button></div>
+        ${this.careerStrip(legs, minY, maxY)}
+        <ul class="ros-list" style="margin-top:10px">${rows}</ul>
+        <p style="margin-top:12px"><a href="#" id="br-back" style="color:var(--oxblood)">← all bridge careers</a></p>`;
+
       const idx = [...ATLAS.Arcs.indicesForPerson(b.co), ...ATLAS.Arcs.indicesForPerson(b.io)];
-      ATLAS.Arcs.setHighlight(idx, true);                 // dim the web; arcs self-color by corpus
-      this.body.querySelectorAll('.ros-entry').forEach(li => {
-        li.onmouseenter = () => ATLAS.Places.emphasize(li.dataset.qid);
-        li.onmouseleave = () => ATLAS.Places.clearEmphasis();
+      ATLAS.Arcs.setHighlight(idx, true, true);            // dim web + reveal up to timeline year
+      ATLAS.Timeline.setYear(maxY, false);                 // show the full career to start
+      ATLAS.Timeline.onYear = y => this.moveCursor(y, minY, maxY);
+      this.moveCursor(maxY, minY, maxY);
+      this.body.querySelectorAll('.br-leg').forEach(li => {
+        li.onmouseenter = () => { ATLAS.Places.emphasize(li.dataset.qid); ATLAS.Timeline.setYear(+li.dataset.y, false); };
+        li.onmouseleave = () => { ATLAS.Places.clearEmphasis(); ATLAS.Timeline.setYear(maxY, false); };
         li.onclick = () => { const p = ATLAS.App.places[li.dataset.qid]; if (p) ATLAS.App.map.panTo([p.lat, p.lon]); };
       });
+      document.getElementById('br-trace').onclick = () =>
+        ATLAS.Timeline.playWindow(minY, maxY, Math.max(4500, (maxY - minY) * 340));
       document.getElementById('br-back').onclick = e => { e.preventDefault(); ATLAS.Bridges.open(); };
       this.fitTo(idx);
     },
+    careerStrip(legs, minY, maxY) {
+      const span = Math.max(1, maxY - minY), X = y => ((y - minY) / span) * 100;
+      const segs = legs.map(l => {
+        const x = X(l.s[1]), w = Math.max(0.7, X(Math.max(l.s[2] || l.s[1], l.s[1] + 0.7)) - x);
+        return `<rect x="${x.toFixed(2)}" y="${l.corp ? 9.5 : 1}" width="${w.toFixed(2)}" height="6" rx="0.8" fill="${this.BR[l.corp]}"/>`;
+      }).join('');
+      let grid = '';
+      for (let d = Math.ceil(minY / 10) * 10; d < maxY; d += 10)
+        grid += `<line x1="${X(d).toFixed(2)}" y1="0" x2="${X(d).toFixed(2)}" y2="16.5" stroke="rgba(42,51,64,.13)" stroke-width="0.25"/>`;
+      return `<div class="br-strip"><svg viewBox="0 0 100 16.5" preserveAspectRatio="none">${grid}${segs}
+        <line id="br-cursor" x1="100" y1="0" x2="100" y2="16.5" stroke="var(--oxblood)" stroke-width="0.45"/></svg>
+        <span class="br-cyr" id="br-cyr"></span>
+        <span class="br-yr l">${minY}</span><span class="br-yr r">${maxY}</span></div>`;
+    },
+    moveCursor(y, minY, maxY) {
+      const cur = document.getElementById('br-cursor'); if (!cur) return;
+      const xn = Math.max(0, Math.min(100, ((y - minY) / Math.max(1, maxY - minY)) * 100));
+      cur.setAttribute('x1', xn.toFixed(2)); cur.setAttribute('x2', xn.toFixed(2));
+      const lbl = document.getElementById('br-cyr');
+      if (lbl) { lbl.style.left = xn + '%'; lbl.textContent = Math.round(y); }
+    },
 
     person(pid) {
+      ATLAS.Timeline.onYear = null;
       const C = ATLAS.App.careers; if (!C) return;
       const rec = C.persons[pid]; if (!rec) return;
       const [sur, giv] = splitName(rec.nm || '');
@@ -109,6 +157,7 @@
     },
 
     place(qid) {
+      ATLAS.Timeline.onYear = null;
       const p = ATLAS.App.places[qid]; if (!p) return;
       this.placeQid = qid;
       const arcs = ATLAS.Arcs.arcs, idx = ATLAS.Arcs.indicesForPlace(qid);
