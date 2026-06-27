@@ -12,14 +12,12 @@
 {"person_id": "kgp_col1928-p977b17", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "mcp"}
 {"person_id": "kgp_col1928-p977b17", "award_raw": "F.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fic", "qualification_label": "Fellow of the Institute of Chemistry", "source": "internal"}
 {"person_id": "kgp_col1928-p977b17", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "internal"}
-{"person_id": "kgp_col1900-p513b22", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
-{"person_id": "kgp_col1900-p513b22", "award_raw": "F.Z.S.", "year": null, "modifiers": [], "qualification_id": "Q25513903", "qualification_label": "Fellow of the Zoological Society of London", "source": "mcp"}
 {"person_id": "kgp_col1896-p542b18", "award_raw": "D.C.L.", "year": null, "modifiers": [], "qualification_id": "Q5287501", "qualification_label": "Doctor of Civil Law", "source": "mcp"}
 {"person_id": "kgp_col1940-p865b12", "award_raw": "M.D.", "year": 1920, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "mcp"}
 {"person_id": "kgp_col1888-p431b18", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1888-p431b18", "award_raw": "L.R.C.S.I.", "year": 1879, "modifiers": [], "qualification_id": "colkg:lrcsi", "qualification_label": "lrcsi", "source": "internal"}
-{"person_id": "kgp_col1894-p438b23", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
-{"person_id": "kgp_col1894-p438b23", "award_raw": "F.Z.S.", "year": null, "modifiers": [], "qualification_id": "Q25513903", "qualification_label": "Fellow of the Zoological Society of London", "source": "mcp"}
+{"person_id": "kgp_col1900-p513b22", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
+{"person_id": "kgp_col1900-p513b22", "award_raw": "F.Z.S.", "year": null, "modifiers": [], "qualification_id": "Q25513903", "qualification_label": "Fellow of the Zoological Society of London", "source": "mcp"}
 {"person_id": "kgp_col1889-p436b19", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1940-p866b12", "award_raw": "M.I.W.T.", "year": null, "modifiers": [], "qualification_id": "colkg:miwt", "qualification_label": "miwt", "source": "internal"}
 {"person_id": "kgp_col1940-p866b17", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
@@ -33,7 +31,6 @@
 {"person_id": "kgp_col1897-p473b10", "award_raw": "L.L.D.", "year": 1862, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "reuse"}
 {"person_id": "kgp_col1929-p870b7", "award_raw": "F.R.I.B.A.", "year": null, "modifiers": [], "qualification_id": "Q41942190", "qualification_label": "Fellow of the Royal Institute of British Architects", "source": "mcp"}
 {"person_id": "kgp_col1934-p980b3", "award_raw": "F.R.I.B.A.", "year": null, "modifiers": [], "qualification_id": "Q41942190", "qualification_label": "Fellow of the Royal Institute of British Architects", "source": "mcp"}
-{"person_id": "kgp_col1934-p980b7", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1934-p980b11", "award_raw": "M.A.", "year": 1910, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "mcp"}
 {"person_id": "kgp_col1939-p927b6", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "mcp"}
 {"person_id": "kgp_col1950-p451b18", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "mcp"}
@@ -204,9 +201,8 @@
 {"person_id": "kgp_col1911-p645b11", "award_raw": "LL.D.", "year": 1862, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1913-p652b3", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1934-p865b11", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
-{"person_id": "kgp_col1897-p473b16", "award_raw": "F.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fic", "qualification_label": "Fellow of the Institute of Chemistry", "source": "internal"}
-{"person_id": "kgp_col1897-p473b16", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "internal"}
-{"person_id": "kgp_col1923-p776b7", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
+{"person_id": "kgp_col1899-p491b13", "award_raw": "F.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fic", "qualification_label": "Fellow of the Institute of Chemistry", "source": "internal"}
+{"person_id": "kgp_col1899-p491b13", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "internal"}
 {"person_id": "kgp_col1927-p877b6", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1930-p933b8", "award_raw": "F.Z.S.", "year": null, "modifiers": [], "qualification_id": "Q25513903", "qualification_label": "Fellow of the Zoological Society of London", "source": "mcp"}
 {"person_id": "kgp_col1897-p473b20", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "mcp"}
@@ -219,11 +215,10 @@
 {"person_id": "kgp_col1899-p482b17", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1888-p451b20", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1889-p456b13", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
-{"person_id": "kgp_col1930-p938b6", "award_raw": "L.R.I.B.A.", "year": null, "modifiers": [], "qualification_id": "colkg:lriba", "qualification_label": "Licentiate of the Royal Institute of British Architects", "source": "internal"}
 {"person_id": "kgp_col1897-p475b11", "award_raw": "LL.D. (Camb.)", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1923-p778b4", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "internal"}
-{"person_id": "kgp_col1928-p1012b14", "award_raw": "B.A.", "year": null, "modifiers": [], "qualification_id": "Q1765120", "qualification_label": "Bachelor of Arts", "source": "mcp"}
-{"person_id": "kgp_col1928-p1012b14", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
+{"person_id": "kgp_col1937-p876b11", "award_raw": "B.A.", "year": null, "modifiers": [], "qualification_id": "Q1765120", "qualification_label": "Bachelor of Arts", "source": "mcp"}
+{"person_id": "kgp_col1937-p876b11", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1897-p476b6", "award_raw": "D.C.L.", "year": null, "modifiers": [], "qualification_id": "Q5287501", "qualification_label": "Doctor of Civil Law", "source": "mcp"}
 {"person_id": "kgp_col1910-p654b8", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1877-p414b12", "award_raw": "D.D.", "year": null, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
@@ -242,6 +237,7 @@
 {"person_id": "kgp_col1933-p864b18", "award_raw": "F.R.A.S.", "year": null, "modifiers": [], "qualification_id": "Q26111565", "qualification_label": "Fellow of the Royal Astronomical Society", "source": "mcp"}
 {"person_id": "kgp_col1951-p511b18", "award_raw": "F.R.E.S.", "year": null, "modifiers": [], "qualification_id": "Q20010681", "qualification_label": "Fellow of the Royal Entomological Society", "source": "mcp"}
 {"person_id": "kgp_col1933-p865b3", "award_raw": "F.R.I.B.A.", "year": null, "modifiers": [], "qualification_id": "Q41942190", "qualification_label": "Fellow of the Royal Institute of British Architects", "source": "mcp"}
+{"person_id": "kgp_col1933-p865b3", "award_raw": "L.R.I.B.A.", "year": null, "modifiers": [], "qualification_id": "colkg:lriba", "qualification_label": "Licentiate of the Royal Institute of British Architects", "source": "internal"}
 {"person_id": "kgp_col1940-p903b13", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1940-p903b13", "award_raw": "M.I.S.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mise", "qualification_label": "mise", "source": "internal"}
 {"person_id": "kgp_col1939-p964b15", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
@@ -310,7 +306,6 @@
 {"person_id": "kgp_col1955-p295b2", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_dol1935-p868b18", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1912-p658b18", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
-{"person_id": "kgp_col1911-p659b7", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1929-p915b3", "award_raw": "M.D.", "year": 1903, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "mcp"}
 {"person_id": "kgp_col1936-p872b14", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1933-p875b14", "award_raw": "F.R.C.S.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "mcp"}
@@ -415,7 +410,6 @@
 {"person_id": "kgp_col1948-p449b19", "award_raw": "Ch.B. (Edin.)", "year": null, "modifiers": [], "qualification_id": "Q13948235", "qualification_label": "Bachelor of Medicine, Bachelor of Surgery", "source": "reuse"}
 {"person_id": "kgp_col1948-p449b19", "award_raw": "F.R.C.P. (Edin.)", "year": null, "modifiers": [], "qualification_id": "Q26204035", "qualification_label": "Fellow of the Royal College of Physicians of London", "source": "mcp"}
 {"person_id": "kgp_col1937-p974b3", "award_raw": "D.Sc.", "year": 1918, "modifiers": [], "qualification_id": "Q2248352", "qualification_label": "Doctor of Science", "source": "mcp"}
-{"person_id": "kgp_col1937-p996b4", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1931-p1054b19_s1", "award_raw": "F.R.A.S.", "year": null, "modifiers": [], "qualification_id": "Q26111565", "qualification_label": "Fellow of the Royal Astronomical Society", "source": "mcp"}
 {"person_id": "kgp_col1937-p996b6", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1948-p450b11", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "internal"}
@@ -503,7 +497,7 @@
 {"person_id": "kgp_col1919-p776b5", "award_raw": "B.Sc.", "year": 1908, "modifiers": [], "qualification_id": "Q787674", "qualification_label": "Bachelor of Science", "source": "mcp"}
 {"person_id": "kgp_col1919-p776b5", "award_raw": "F.Z.S.", "year": null, "modifiers": [], "qualification_id": "Q25513903", "qualification_label": "Fellow of the Zoological Society of London", "source": "mcp"}
 {"person_id": "kgp_col1950-p515b13", "award_raw": "M.I.N.A.", "year": null, "modifiers": [], "qualification_id": "colkg:mina", "qualification_label": "Member of the Institution of Naval Architects", "source": "internal"}
-{"person_id": "kgp_col1932-p938b17", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
+{"person_id": "kgp_col1934-p910b7", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1948-p462b12", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1951-p550b18", "award_raw": "A.M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amiee", "qualification_label": "Associate Member of the Institution of Electrical Engineers", "source": "internal"}
 {"person_id": "kgp_col1883-p392b21", "award_raw": "D.C.L.", "year": 1868, "modifiers": [], "qualification_id": "Q5287501", "qualification_label": "Doctor of Civil Law", "source": "mcp"}
@@ -519,7 +513,7 @@
 {"person_id": "kgp_col1939-p1006b16", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "mcp"}
 {"person_id": "kgp_col1939-p1006b16", "award_raw": "M.R.C.S. (Eng.)", "year": null, "modifiers": [], "qualification_id": "Q6815098", "qualification_label": "Membership of the Royal College of Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1939-p1006b16", "award_raw": "L.R.C.P. (Lond.)", "year": null, "modifiers": [], "qualification_id": "colkg:lrcp", "qualification_label": "Licentiate of the Royal College of Physicians", "source": "internal"}
-{"person_id": "kgp_col1889-p486b17", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
+{"person_id": "kgp_col1890-p492b14", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1917-p768b12", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1931-p1031b17", "award_raw": "F.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "colkg:frcvs", "qualification_label": "Fellow of the Royal College of Veterinary Surgeons", "source": "internal"}
 {"person_id": "kgp_col1931-p1031b17", "award_raw": "F.Z.S.", "year": null, "modifiers": [], "qualification_id": "Q25513903", "qualification_label": "Fellow of the Zoological Society of London", "source": "mcp"}
@@ -600,7 +594,7 @@
 {"person_id": "kgp_col1867-p251b21_s1", "award_raw": "D.D.", "year": null, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
 {"person_id": "kgp_col1940-p957b7", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "mcp"}
 {"person_id": "kgp_col1940-p957b12", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "mcp"}
-{"person_id": "kgp_col1917-p777b8", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
+{"person_id": "kgp_col1922-p821b12", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1950-p529b2", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "mcp"}
 {"person_id": "kgp_col1950-p529b2", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1917-p777b13", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
@@ -648,9 +642,6 @@
 {"person_id": "kgp_col1915-p737b20", "award_raw": "M.I.N.A.", "year": null, "modifiers": [], "qualification_id": "colkg:mina", "qualification_label": "Member of the Institution of Naval Architects", "source": "internal"}
 {"person_id": "kgp_col1915-p737b20", "award_raw": "M.I.M.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mime", "qualification_label": "Member of the Institution of Mining Engineers", "source": "internal"}
 {"person_id": "kgp_col1937-p986b8", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
-{"person_id": "kgp_col1925-p945b3", "award_raw": "A.M.I.O.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amioe", "qualification_label": "amioe", "source": "internal"}
-{"person_id": "kgp_col1925-p945b3", "award_raw": "M.I.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mim", "qualification_label": "mim", "source": "internal"}
-{"person_id": "kgp_col1925-p945b3", "award_raw": "M.R.S.I.", "year": null, "modifiers": [], "qualification_id": "colkg:mrsi", "qualification_label": "Member of the Royal Sanitary Institute", "source": "internal"}
 {"person_id": "kgp_col1934-p947b17_s15", "award_raw": "M.I.M.E", "year": null, "modifiers": [], "qualification_id": "colkg:mime", "qualification_label": "Member of the Institution of Mining Engineers", "source": "internal"}
 {"person_id": "kgp_col1920-p850b9", "award_raw": "F.R.S.E.", "year": null, "modifiers": [], "qualification_id": "Q5438598", "qualification_label": "Fellow of the Royal Society of Edinburgh", "source": "mcp"}
 {"person_id": "kgp_col1920-p850b9", "award_raw": "F.R.A.S.", "year": null, "modifiers": [], "qualification_id": "Q26111565", "qualification_label": "Fellow of the Royal Astronomical Society", "source": "mcp"}
@@ -780,8 +771,8 @@
 {"person_id": "kgp_col1899-p538b12", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1951-p595b22", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1951-p595b22", "award_raw": "B.Sc. (Lond.)", "year": null, "modifiers": [], "qualification_id": "Q787674", "qualification_label": "Bachelor of Science", "source": "mcp"}
-{"person_id": "kgp_col1937-p967b7", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "mcp"}
-{"person_id": "kgp_col1937-p967b7", "award_raw": "M.I.M.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mimm", "qualification_label": "Member of the Institution of Mining and Metallurgy", "source": "internal"}
+{"person_id": "kgp_col1940-p991b8", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "mcp"}
+{"person_id": "kgp_col1940-p991b8", "award_raw": "M.I.M.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mimm", "qualification_label": "Member of the Institution of Mining and Metallurgy", "source": "internal"}
 {"person_id": "kgp_col1925-p930b18", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1880-p398b18", "award_raw": "D.C.L. (Oxon)", "year": null, "modifiers": [], "qualification_id": "Q5287501", "qualification_label": "Doctor of Civil Law", "source": "mcp"}
 {"person_id": "kgp_col1880-p398b18", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
@@ -794,9 +785,8 @@
 {"person_id": "kgp_col1924-p906b19", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1924-p906b19", "award_raw": "F.R.S.C.", "year": null, "modifiers": [], "qualification_id": "Q5442487", "qualification_label": "Fellow of the Royal Society of Chemistry", "source": "mcp"}
 {"person_id": "kgp_col1936-p951b5", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "mcp"}
-{"person_id": "kgp_col1939-p1055b15", "award_raw": "M.I.M.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mimm", "qualification_label": "Member of the Institution of Mining and Metallurgy", "source": "internal"}
-{"person_id": "kgp_col1939-p1055b15", "award_raw": "M.I.P.T.", "year": null, "modifiers": [], "qualification_id": "colkg:mipt", "qualification_label": "mipt", "source": "internal"}
 {"person_id": "kgp_col1940-p995b5", "award_raw": "M.I.M.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mimm", "qualification_label": "Member of the Institution of Mining and Metallurgy", "source": "internal"}
+{"person_id": "kgp_col1940-p995b5", "award_raw": "M.I.P.T.", "year": null, "modifiers": [], "qualification_id": "colkg:mipt", "qualification_label": "mipt", "source": "internal"}
 {"person_id": "kgp_col1949-p512b18", "award_raw": "A.M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amiee", "qualification_label": "Associate Member of the Institution of Electrical Engineers", "source": "internal"}
 {"person_id": "kgp_col1934-p958b14", "award_raw": "A.M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amiee", "qualification_label": "Associate Member of the Institution of Electrical Engineers", "source": "internal"}
 {"person_id": "kgp_col1951-p600b10", "award_raw": "M.R.C.P.", "year": null, "modifiers": [], "qualification_id": "Q6815097", "qualification_label": "Membership of the Royal College of Physicians", "source": "mcp"}
@@ -827,11 +817,8 @@
 {"person_id": "kgp_col1894-p514b7", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1913-p744b7", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1913-p744b7", "award_raw": "F.R.H.S.", "year": null, "modifiers": [], "qualification_id": "colkg:frhs", "qualification_label": "Fellow of the Royal Horticultural Society", "source": "internal"}
-{"person_id": "kgp_col1940-p991b8", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "mcp"}
-{"person_id": "kgp_col1940-p991b8", "award_raw": "M.I.M.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mimm", "qualification_label": "Member of the Institution of Mining and Metallurgy", "source": "internal"}
-{"person_id": "kgp_col1915-p761b6", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1923-p870b14", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "mcp"}
-{"person_id": "kgp_col1894-p510b7", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
+{"person_id": "kgp_col1897-p529b7", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1934-p958b5", "award_raw": "A.M.I.C.E. (Lond.)", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1886-p470b14", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1933-p958b12", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
@@ -857,6 +844,9 @@
 {"person_id": "kgp_col1948-p507b16", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1933-p961b8", "award_raw": "M.Sc. (Leeds)", "year": null, "modifiers": [], "qualification_id": "Q950900", "qualification_label": "Master of Science", "source": "mcp"}
 {"person_id": "kgp_col1933-p961b8", "award_raw": "F.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fic", "qualification_label": "Fellow of the Institute of Chemistry", "source": "internal"}
+{"person_id": "kgp_col1929-p1007b4", "award_raw": "A.M.I.O.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amioe", "qualification_label": "amioe", "source": "internal"}
+{"person_id": "kgp_col1929-p1007b4", "award_raw": "M.I.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mim", "qualification_label": "mim", "source": "internal"}
+{"person_id": "kgp_col1929-p1007b4", "award_raw": "M.R.S.I.", "year": null, "modifiers": [], "qualification_id": "colkg:mrsi", "qualification_label": "Member of the Royal Sanitary Institute", "source": "internal"}
 {"person_id": "kgp_col1932-p997b3", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1950-p570b20", "award_raw": "M.I.M.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mimm", "qualification_label": "Member of the Institution of Mining and Metallurgy", "source": "internal"}
 {"person_id": "kgp_col1880-p346b19", "award_raw": "D.D.", "year": 1873, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
@@ -913,8 +903,6 @@
 {"person_id": "kgp_col1940-p1011b10", "award_raw": "F.C.I.S. (Eng.)", "year": null, "modifiers": [], "qualification_id": "colkg:fcis", "qualification_label": "fcis", "source": "internal"}
 {"person_id": "kgp_col1905-p688b14", "award_raw": "F.R.A.S.", "year": null, "modifiers": [], "qualification_id": "Q26111565", "qualification_label": "Fellow of the Royal Astronomical Society", "source": "mcp"}
 {"person_id": "kgp_col1905-p688b14", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "internal"}
-{"person_id": "kgp_col1889-p522b16", "award_raw": "F.R.A.S.", "year": null, "modifiers": [], "qualification_id": "Q26111565", "qualification_label": "Fellow of the Royal Astronomical Society", "source": "mcp"}
-{"person_id": "kgp_col1889-p522b16", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "internal"}
 {"person_id": "kgp_col1877-p367b21", "award_raw": "D.D.", "year": null, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
 {"person_id": "kgp_col1897-p538b27", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1940-p1012b5", "award_raw": "F.R.C.S.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "mcp"}
@@ -955,7 +943,7 @@
 {"person_id": "kgp_col1939-p1074b4", "award_raw": "M.R.C.P.", "year": null, "modifiers": [], "qualification_id": "Q6815097", "qualification_label": "Membership of the Royal College of Physicians", "source": "mcp"}
 {"person_id": "kgp_col1913-p759b3", "award_raw": "M.I C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_dol1935-p967b21", "award_raw": "F.R.I.B.A.", "year": null, "modifiers": [], "qualification_id": "Q41942190", "qualification_label": "Fellow of the Royal Institute of British Architects", "source": "mcp"}
-{"person_id": "kgp_col1931-p1103b10", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
+{"person_id": "kgp_col1934-p980b7", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1912-p748b4", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1912-p748b4", "award_raw": "M.R.A.S.", "year": null, "modifiers": [], "qualification_id": "colkg:mras", "qualification_label": "Member of the Royal Asiatic Society", "source": "internal"}
 {"person_id": "kgp_col1879-p442b22", "award_raw": "D.D.", "year": null, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
@@ -993,7 +981,7 @@
 {"person_id": "kgp_col1906-p722b12", "award_raw": "F.R.S.", "year": null, "modifiers": [], "qualification_id": "Q15631401", "qualification_label": "Fellow of the Royal Society", "source": "mcp"}
 {"person_id": "kgp_col1897-p546b10", "award_raw": "M.B.", "year": null, "modifiers": [], "qualification_id": "Q13948235", "qualification_label": "Bachelor of Medicine, Bachelor of Surgery", "source": "mcp"}
 {"person_id": "kgp_col1897-p546b10", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
-{"person_id": "kgp_col1928-p1144b10", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
+{"person_id": "kgp_col1937-p996b4", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1951-p627b18", "award_raw": "F.R.C.S. (E.)", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1939-p1079b18", "award_raw": "B.A.", "year": null, "modifiers": [], "qualification_id": "Q1765120", "qualification_label": "Bachelor of Arts", "source": "mcp"}
 {"person_id": "kgp_col1939-p1079b18", "award_raw": "LL.B.", "year": null, "modifiers": [], "qualification_id": "Q798137", "qualification_label": "Bachelor of Laws", "source": "mcp"}
@@ -1030,7 +1018,6 @@
 {"person_id": "kgp_col1951-p632b9", "award_raw": "D.Sc.", "year": null, "modifiers": [], "qualification_id": "Q2248352", "qualification_label": "Doctor of Science", "source": "mcp"}
 {"person_id": "kgp_col1951-p632b9", "award_raw": "M.I.M.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mimm", "qualification_label": "Member of the Institution of Mining and Metallurgy", "source": "internal"}
 {"person_id": "kgp_col1951-p632b9", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "mcp"}
-{"person_id": "kgp_col1934-p910b7", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "mcp"}
 {"person_id": "kgp_col1930-p1065b12", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1930-p1065b12", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "internal"}
 {"person_id": "kgp_col1940-p1029b8", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
@@ -1172,14 +1159,12 @@
 {"person_id": "kgp_col1867-p263b12", "award_raw": "F.R.C.S.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1931-p1140b4", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "mcp"}
 {"person_id": "kgp_col1931-p1140b4", "award_raw": "F.R.C.S. (Edin)", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "mcp"}
-{"person_id": "kgp_col1929-p1058b13", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "mcp"}
-{"person_id": "kgp_col1929-p1058b13", "award_raw": "F.R.C.S. (Edin)", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1940-p1054b22", "award_raw": "F.R.S.A.", "year": null, "modifiers": [], "qualification_id": "Q15271633", "qualification_label": "Fellow of the Royal Society of Arts", "source": "mcp"}
 {"person_id": "kgp_col1900-p609b5", "award_raw": "D.D.", "year": null, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
 {"person_id": "kgp_col1956-p398b22", "award_raw": "M.I.M.M.", "year": null, "modifiers": [], "qualification_id": "colkg:mimm", "qualification_label": "Member of the Institution of Mining and Metallurgy", "source": "internal"}
 {"person_id": "kgp_col1956-p398b22", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "mcp"}
-{"person_id": "kgp_col1939-p1111b3", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
-{"person_id": "kgp_col1939-p1111b3", "award_raw": "F.R.A.I.", "year": null, "modifiers": [], "qualification_id": "colkg:frai", "qualification_label": "Fellow of the Royal Anthropological Institute", "source": "internal"}
+{"person_id": "kgp_col1948-p544b16", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
+{"person_id": "kgp_col1948-p544b16", "award_raw": "F.R.A.I.", "year": null, "modifiers": [], "qualification_id": "colkg:frai", "qualification_label": "Fellow of the Royal Anthropological Institute", "source": "internal"}
 {"person_id": "kgp_col1929-p1060b8", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1929-p1060b8", "award_raw": "D.D.", "year": null, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
 {"person_id": "kgp_col1958-p438b15", "award_raw": "A.M.(S.A.)I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amiee", "qualification_label": "Associate Member of the Institution of Electrical Engineers", "source": "internal"}
@@ -1226,7 +1211,6 @@
 {"person_id": "kgp_col1905-p720b4", "award_raw": "D.D.", "year": null, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
 {"person_id": "kgp_col1934-p868b13", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1937-p1036b5", "award_raw": "F.R.I.B.A.", "year": null, "modifiers": [], "qualification_id": "Q41942190", "qualification_label": "Fellow of the Royal Institute of British Architects", "source": "mcp"}
-{"person_id": "kgp_col1934-p1022b11", "award_raw": "F.R.I.B.A.", "year": null, "modifiers": [], "qualification_id": "Q41942190", "qualification_label": "Fellow of the Royal Institute of British Architects", "source": "mcp"}
 {"person_id": "kgp_col1925-p1003b17", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1920-p941b19", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
 {"person_id": "kgp_col1920-p941b19", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "mcp"}
@@ -1256,12 +1240,10 @@
 {"person_id": "kgp_col1937-p1039b20", "award_raw": "M.R.C.S. (Eng.)", "year": null, "modifiers": [], "qualification_id": "Q6815098", "qualification_label": "Membership of the Royal College of Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1937-p1039b20", "award_raw": "L.R.C.P. (Lond.)", "year": null, "modifiers": [], "qualification_id": "colkg:lrcp", "qualification_label": "Licentiate of the Royal College of Physicians", "source": "internal"}
 {"person_id": "kgp_col1950-p627b8", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "internal"}
-{"person_id": "kgp_col1925-p1011b3", "award_raw": "F.R.A.S.", "year": null, "modifiers": [], "qualification_id": "Q26111565", "qualification_label": "Fellow of the Royal Astronomical Society", "source": "mcp"}
 {"person_id": "kgp_dol1935-p1015b5", "award_raw": "F.R.G.S.", "year": 1929, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1929-p1074b5", "award_raw": "M.B.", "year": null, "modifiers": [], "qualification_id": "Q13948235", "qualification_label": "Bachelor of Medicine, Bachelor of Surgery", "source": "mcp"}
 {"person_id": "kgp_col1939-p1124b15", "award_raw": "F.R.C.S. (Edin.)", "year": 1928, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1915-p828b19", "award_raw": "F.R.C.P. (Eng.)", "year": 1901, "modifiers": [], "qualification_id": "Q26204035", "qualification_label": "Fellow of the Royal College of Physicians of London", "source": "mcp"}
-{"person_id": "kgp_col1925-p1015b9", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1940-p1069b18", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1929-p1075b19", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "mcp"}
 {"person_id": "kgp_col1950-p628b15", "award_raw": "F.R.E.S.", "year": null, "modifiers": [], "qualification_id": "Q20010681", "qualification_label": "Fellow of the Royal Entomological Society", "source": "mcp"}
