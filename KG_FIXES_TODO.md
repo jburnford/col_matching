@@ -160,3 +160,16 @@ The atlas resolves each place to its capital (Wikidata **P36 → P625**) so offi
 land at the administrative seat, not the geographic centroid (`improve_place_coords.py`).
 17 tiny princely states still fall back to centroid (seat ≈ centroid there). If the
 KG/LadybugDB ever needs coordinates, reuse `resolve_seats()` rather than raw P625.
+
+### 9. "Victoria" — British Columbia vs the Australian colony  ✅ FIXED 2026-06-27
+Surfaced from the atlas (BREWSTER, premier of British Columbia, showed "legislative
+ass. for Victoria" in Australia). The bare surface "Victoria" was flat-grounded to the
+Australian colony Q56850459, so BC officials (Brewster, Elliott, Pearse — Victoria is
+the BC capital + an electoral district) were mislocated. **Fix:** `resolve_context.py`
+treats "Victoria" as context-dependent (BC/Vancouver-Island signal → Q1973 British
+Columbia, which geolocates to its seat Victoria, BC; else the Australian colony).
+**Also fixed a latent per-person-resolution bug:** the resolution map keyed persons as
+`kgp_<bio>` while the spine's `attestations` are bare bio-ids, so per-person overrides
+never matched and everything fell back to the global majority — `kg_emit_stage3` now
+strips the prefix. This repaired Victoria→BC and the India-vs-Ceylon N.-W. Province
+minority split. Both corpora re-emitted.
