@@ -34,17 +34,21 @@
         li.onclick = () => ATLAS.Tours.start(+li.dataset.tour));
     },
 
-    // one career's postings as a year-railed list (shared by person + bridge views)
+    // one career's postings as a year-railed list (shared by person + bridge views).
+    // The post name is the GROUNDED role label and is a click target -> everyone who
+    // held that role at that colony.
+    roleName(ri) { const r = ATLAS.App.careers.roles[ri]; return (r && r[1]) || 'in service'; },
     legRows(rec) {
-      const pos = ATLAS.App.careers.positions, places = ATLAS.App.places;
+      const places = ATLAS.App.places;
       return rec.st.map((st, i) => {
-        const [col, y0, y1, pi, ac] = st;
+        const [col, y0, y1, ri, ac] = st;
         const yr = y1 && y1 !== y0 ? `${y0}–${String(y1).slice(2)}` : `${y0}`;
         const place = places[col] ? places[col].label : col;
         const acting = ac ? '<em>acting </em>' : '';
         return `<li class="ros-entry" data-leg="${i}" data-qid="${col}">
             <span class="yr">${yr}</span>
-            <span class="pos">${acting}${esc(pos[pi] || 'in service')}<span class="pl">${esc(place)}</span></span>
+            <span class="pos">${acting}<a class="role-link" data-role="${ri}" data-col="${col}"
+               title="who else held this post here">${esc(this.roleName(ri))}</a><span class="pl">${esc(place)}</span></span>
           </li>`;
       }).join('');
     },
@@ -55,7 +59,7 @@
     BR: ['#6f97cf', '#d59a3a'],
     bridge(b) {
       const C = ATLAS.App.careers; if (!C) return;
-      const co = C.persons[b.co], io = C.persons[b.io], pos = C.positions, places = ATLAS.App.places;
+      const co = C.persons[b.co], io = C.persons[b.io], places = ATLAS.App.places;
       const legs = [];
       if (co) co.st.forEach(s => legs.push({ s, corp: 0 }));
       if (io) io.st.forEach(s => legs.push({ s, corp: 1 }));
@@ -64,13 +68,14 @@
       const minY = Math.min(...ys), maxY = Math.max(...ys);
 
       const rows = legs.map((l, k) => {
-        const [col, y0, y1, pi, ac] = l.s;
+        const [col, y0, y1, ri, ac] = l.s;
         const yr = y1 && y1 !== y0 ? `${y0}–${String(y1).slice(2)}` : `${y0}`;
         const place = places[col] ? places[col].label : col;
         return `<li class="ros-entry br-leg" data-qid="${col}" data-y="${y1 || y0}"
             style="border-left-color:${this.BR[l.corp]}">
             <span class="yr" style="color:${this.BR[l.corp]}">${yr}</span>
-            <span class="pos">${ac ? '<em>acting </em>' : ''}${esc(pos[pi] || 'in service')}<span class="pl">${esc(place)}</span></span>
+            <span class="pos">${ac ? '<em>acting </em>' : ''}<a class="role-link" data-role="${ri}" data-col="${col}"
+               title="who else held this post here">${esc(this.roleName(ri))}</a><span class="pl">${esc(place)}</span></span>
           </li>`;
       }).join('');
       const qlink = b.co_qid ? ` · <a href="https://www.wikidata.org/wiki/${b.co_qid}" target="_blank" rel="noopener">${b.co_qid}</a>` : '';
@@ -84,7 +89,9 @@
           <button id="br-trace" title="Play this career through time">▶ Trace career</button></div>
         ${this.careerStrip(legs, minY, maxY)}
         <ul class="ros-list" style="margin-top:10px">${rows}</ul>
+        <div id="role-people"></div>
         <p style="margin-top:12px"><a href="#" id="br-back" style="color:var(--oxblood)">← all bridge careers</a></p>`;
+      this.wireRoleLinks();
 
       const idx = [...ATLAS.Arcs.indicesForPerson(b.co), ...ATLAS.Arcs.indicesForPerson(b.io)];
       ATLAS.Arcs.setHighlight(idx, true, true);            // dim web + reveal up to timeline year
@@ -138,7 +145,9 @@
           <span>${legs.length} located posting${legs.length !== 1 ? 's' : ''}${qlink}</span></div>
         <hr class="ros-rule">
         <ul class="ros-list">${rows}</ul>
-        ${hidden > 0 ? `<p class="ros-note">${hidden} further posting${hidden !== 1 ? 's' : ''} in the record had no mapped location (UK, at sea, unplaced).</p>` : ''}`;
+        ${hidden > 0 ? `<p class="ros-note">${hidden} further posting${hidden !== 1 ? 's' : ''} in the record had no mapped location (UK, at sea, unplaced).</p>` : ''}
+        <div id="role-people"></div>`;
+      this.wireRoleLinks();
 
       const idx = ATLAS.Arcs.indicesForPerson(pid);
       const lastYr = legs.length ? Math.max(...legs.map(s => s[1] || s[0])) : ATLAS.Timeline.y1;
@@ -212,6 +221,43 @@
       box.innerHTML = `<div class="reg-h" style="margin-top:16px">${esc(a)} ⇄ ${esc(b)} · ${list.length} official${list.length !== 1 ? 's' : ''}</div>
         <ul class="ppl-list">${list.map(([pid, v]) =>
           `<li data-pid="${pid}">${esc(v.nm)} <span class="py">${Math.min(...v.yrs)}</span></li>`).join('')}</ul>`;
+      box.querySelectorAll('li[data-pid]').forEach(li =>
+        li.onclick = () => ATLAS.App.selectPerson(li.dataset.pid));
+      box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    },
+
+    // role label -> everyone who held that role at that colony. Clicks are wired
+    // for both the person and the bridge view; stop propagation so the row's
+    // pan-to-place handler doesn't also fire.
+    wireRoleLinks() {
+      this.body.querySelectorAll('.role-link').forEach(a =>
+        a.onclick = e => {
+          e.preventDefault(); e.stopPropagation();
+          this.rolePeople(+a.dataset.role, a.dataset.col, a);
+        });
+    },
+    rolePeople(ri, colQid, anchor) {
+      const C = ATLAS.App.careers; if (!C) return;
+      this.body.querySelectorAll('.role-link').forEach(a => a.classList.toggle('on', a === anchor));
+      const role = this.roleName(ri);
+      const colLabel = ATLAS.App.places[colQid] ? ATLAS.App.places[colQid].label : colQid;
+      const seen = new Map();                         // pid -> earliest year
+      for (const pid in C.persons) {
+        for (const s of C.persons[pid].st) {
+          if (s[3] === ri && s[0] === colQid) {
+            const y = s[1] || s[2];
+            if (!seen.has(pid) || y < seen.get(pid)) seen.set(pid, y);
+          }
+        }
+      }
+      const list = [...seen.entries()]
+        .map(([pid, y]) => ({ pid, nm: (C.persons[pid].nm || pid), y }))
+        .sort((a, b) => (a.y || 9999) - (b.y || 9999) || a.nm.localeCompare(b.nm));
+      const box = document.getElementById('role-people');
+      box.innerHTML = `<div class="reg-h" style="margin-top:16px">${esc(role)} · ${esc(colLabel)}
+          <span class="reg-hint">— ${list.length} official${list.length !== 1 ? 's' : ''}</span></div>
+        <ul class="ppl-list">${list.map(v =>
+          `<li data-pid="${v.pid}">${esc(v.nm)}${v.y ? ` <span class="py">${v.y}</span>` : ''}</li>`).join('')}</ul>`;
       box.querySelectorAll('li[data-pid]').forEach(li =>
         li.onclick = () => ATLAS.App.selectPerson(li.dataset.pid));
       box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });

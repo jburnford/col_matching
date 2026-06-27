@@ -101,19 +101,19 @@ def build_arcs_places(coords, seats, canon):
     return arcs
 
 # ---------------------------------------------------------------- careers + search
-def co_events():
-    """CO: career_facts already fuses role+place; use raw position for the ledger line."""
-    for l in (CO / "career_facts.jsonl").open():
+def _facts(path):
+    """career_facts fuses the GROUNDED role (role_id/role_label) with place+time.
+    Yield the grounded role so the register shows the canonical name ('Governor')
+    rather than the bio abbreviation ('Govr.'); fall back to the raw position when
+    a role wasn't grounded."""
+    for l in path.open():
         d = json.loads(l)
         yield (d["person_id"], d.get("colony_qid"), d.get("year_start"),
-               d.get("year_end"), d.get("position_raw"), d.get("is_acting"))
+               d.get("year_end"), d.get("role_id"), d.get("role_label"),
+               d.get("position_raw"), d.get("is_acting"))
 
-def io_events():
-    """IOL: join career_events spine (place/year/position) — role label not needed for the ledger."""
-    for l in (IO / "career_events.jsonl").open():
-        d = json.loads(l)
-        yield (d["person_id"], d.get("colony_qid"), d.get("year_start"),
-               d.get("year_end"), d.get("position"), d.get("is_acting"))
+def co_events(): yield from _facts(CO / "career_facts.jsonl")
+def io_events(): yield from _facts(IO / "career_facts.jsonl")
 
 def load_persons(path):
     p = {}
@@ -144,19 +144,24 @@ def build_canon():
 def build_careers_search(canon):
     persons = load_persons(CO / "persons.jsonl"); persons.update(load_persons(IO / "persons.jsonl"))
 
-    pos_tbl, pos_idx = [], {}
-    def intern(t):
-        t = (t or "").strip()
-        if t not in pos_idx:
-            pos_idx[t] = len(pos_tbl); pos_tbl.append(t)
-        return pos_idx[t]
+    # intern the GROUNDED role (id + canonical label), keyed by role identity so
+    # every spelling of "Governor" folds to one row — that shared index is also what
+    # lets the client list everyone who held a role at a colony.
+    role_tbl, role_idx = [], {}
+    def intern_role(rid, label, raw):
+        disp = (label or raw or "in service").strip()
+        key = rid or ("L:" + disp.lower())
+        if key not in role_idx:
+            role_idx[key] = len(role_tbl); role_tbl.append([rid, disp])
+        return role_idx[key]
 
     # gather DEDUPED events per canonical person (a person re-attested across editions
     # produces identical events under merged ids — collapse them to a set)
-    evset = collections.defaultdict(set)       # cpid -> {(y0,y1,colonyQid,posIdx,acting)}
+    evset = collections.defaultdict(set)       # cpid -> {(y0,y1,colonyQid,roleIdx,acting)}
     for corpus, gen in ((0, co_events()), (1, io_events())):
-        for pid, col, y0, y1, pos, acting in gen:
-            evset[canon(pid)].add((y0, (y1 or y0) if y0 else None, col, intern(pos), 1 if acting else 0))
+        for pid, col, y0, y1, rid, rlabel, raw, acting in gen:
+            evset[canon(pid)].add((y0, (y1 or y0) if y0 else None, col,
+                                   intern_role(rid, rlabel, raw), 1 if acting else 0))
 
     careers, search = {}, []
     for cpid, evs in evset.items():
@@ -175,10 +180,10 @@ def build_careers_search(canon):
         careers[cpid] = {"q": qid, "c": corpus, "na": len(evs), "nm": disp, "st": st}
         search.append([cpid, disp, corpus, len(st)])
 
-    json.dump({"positions": pos_tbl, "persons": careers},
+    json.dump({"roles": role_tbl, "persons": careers},
               (OUT / "careers.json").open("w"), separators=(",", ":"), ensure_ascii=False)
     json.dump(search, (OUT / "search.json").open("w"), separators=(",", ":"), ensure_ascii=False)
-    print(f"· careers.json {len(careers):,} officials, {len(pos_tbl):,} interned positions   search.json {len(search):,}")
+    print(f"· careers.json {len(careers):,} officials, {len(role_tbl):,} grounded roles   search.json {len(search):,}")
 
 # ---------------------------------------------------------------- meta + tours
 def build_meta(arcs):
