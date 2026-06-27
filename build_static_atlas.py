@@ -252,6 +252,9 @@ def main():
     build_careers_search(canon)
     build_meta(arcs)
     build_tours()
+    # cross-corpus "Two Services" bridges (reads the careers.json just written)
+    import subprocess, sys
+    subprocess.run([sys.executable, "build_bridges.py"], check=True)
     print("done →", OUT)
 
 if __name__ == "__main__":

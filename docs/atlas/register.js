@@ -33,15 +33,10 @@
         li.onclick = () => ATLAS.Tours.start(+li.dataset.tour));
     },
 
-    person(pid) {
-      const C = ATLAS.App.careers; if (!C) return;
-      const rec = C.persons[pid]; if (!rec) return;
-      const [sur, giv] = splitName(rec.nm || '');
-      const pos = C.positions, places = ATLAS.App.places;
-      const legs = rec.st;
-      const hidden = rec.na - legs.length;
-
-      const rows = legs.map((st, i) => {
+    // one career's postings as a year-railed list (shared by person + bridge views)
+    legRows(rec) {
+      const pos = ATLAS.App.careers.positions, places = ATLAS.App.places;
+      return rec.st.map((st, i) => {
         const [col, y0, y1, pi, ac] = st;
         const yr = y1 && y1 !== y0 ? `${y0}–${String(y1).slice(2)}` : `${y0}`;
         const place = places[col] ? places[col].label : col;
@@ -51,7 +46,43 @@
             <span class="pos">${acting}${esc(pos[pi] || 'in service')}<span class="pl">${esc(place)}</span></span>
           </li>`;
       }).join('');
+    },
 
+    // a cross-corpus bridge: one person's CO career (blue) + IO career (gold) together
+    bridge(b) {
+      const C = ATLAS.App.careers; if (!C) return;
+      const co = C.persons[b.co], io = C.persons[b.io];
+      const sec = (rec, label, color) => rec ? `
+        <div class="br-sec"><div class="br-svc" style="color:${color}">${label}
+          <span class="br-svc-n">${rec.st.length} located posting${rec.st.length !== 1 ? 's' : ''}</span></div>
+        <ul class="ros-list">${this.legRows(rec)}</ul></div>` : '';
+      const qlink = b.co_qid ? ` · <a href="https://www.wikidata.org/wiki/${b.co_qid}" target="_blank" rel="noopener">${b.co_qid}</a>` : '';
+      this.body.innerHTML = `
+        <p class="ros-name">${esc(b.surname)}<span class="giv">${esc(b.name)}</span></p>
+        <div class="ros-meta"><span class="corp" style="background:#6f6acb">Two services</span>
+          <span>${b.birth ? 'b. ' + b.birth + ' · ' : ''}<span class="cf cf-${b.conf}">${b.conf}</span> ${esc(b.ev || '')}${qlink}</span></div>
+        <hr class="ros-rule">
+        ${sec(co, 'Colonial Office', '#6f97cf')}
+        ${sec(io, 'India Office', '#d59a3a')}
+        <p style="margin-top:14px"><a href="#" id="br-back" style="color:var(--oxblood)">← all bridge careers</a></p>`;
+      const idx = [...ATLAS.Arcs.indicesForPerson(b.co), ...ATLAS.Arcs.indicesForPerson(b.io)];
+      ATLAS.Arcs.setHighlight(idx, true);                 // dim the web; arcs self-color by corpus
+      this.body.querySelectorAll('.ros-entry').forEach(li => {
+        li.onmouseenter = () => ATLAS.Places.emphasize(li.dataset.qid);
+        li.onmouseleave = () => ATLAS.Places.clearEmphasis();
+        li.onclick = () => { const p = ATLAS.App.places[li.dataset.qid]; if (p) ATLAS.App.map.panTo([p.lat, p.lon]); };
+      });
+      document.getElementById('br-back').onclick = e => { e.preventDefault(); ATLAS.Bridges.open(); };
+      this.fitTo(idx);
+    },
+
+    person(pid) {
+      const C = ATLAS.App.careers; if (!C) return;
+      const rec = C.persons[pid]; if (!rec) return;
+      const [sur, giv] = splitName(rec.nm || '');
+      const legs = rec.st;
+      const hidden = rec.na - legs.length;
+      const rows = this.legRows(rec);
       const qlink = rec.q ? ` · <a href="https://www.wikidata.org/wiki/${rec.q}" target="_blank" rel="noopener">${rec.q}</a>` : '';
       this.body.innerHTML = `
         <p class="ros-name">${esc(sur) || '—'}<span class="giv">${esc(giv)}</span></p>

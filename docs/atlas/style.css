@@ -186,3 +186,26 @@ button{font-family:inherit;cursor:pointer}
   #tour-card{margin-bottom:calc(46% + 24px);max-width:80%}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+
+/* ---- Two Services (cross-corpus bridge) view ----------------------------- */
+#rail-bridges{background:linear-gradient(90deg,rgba(143,184,238,.16),rgba(232,178,76,.16));
+  border:1px solid rgba(255,255,255,.18);color:#dfe7f1;font-size:12px;font-weight:500;
+  padding:7px 12px;border-radius:5px;letter-spacing:.02em;transition:.15s}
+#rail-bridges:hover{border-color:rgba(255,255,255,.4);color:#fff}
+.br-list{list-style:none;margin:8px 0 4px;padding:0}
+.br-row{display:flex;align-items:baseline;justify-content:space-between;gap:10px;
+  padding:6px 8px;margin:0 -8px;cursor:pointer;border-bottom:1px solid rgba(42,51,64,.08)}
+.br-row:hover{background:rgba(122,46,42,.06)}
+.br-nm{font-family:var(--serif);font-size:14.5px;color:var(--slate);font-weight:500}
+.br-row:hover .br-nm{color:var(--oxblood)}
+.br-nm .giv{color:var(--slate-2);font-weight:400}
+.br-meta{display:flex;align-items:center;gap:8px;flex:none;white-space:nowrap}
+.cf{font-family:var(--mono);font-size:10px;font-weight:600;width:15px;height:15px;line-height:15px;
+  text-align:center;border-radius:50%;color:#fff}
+.cf-A{background:#3f7d4e} .cf-B{background:#9a7d2c} .cf-C{background:#8a8f99}
+.br-st{font-family:var(--mono);font-size:12px;color:var(--slate-2);font-variant-numeric:tabular-nums}
+.br-st b{font-weight:600} .br-st b.co{color:#3b62a0} .br-st b.io{color:#9a6c14} .br-st i{color:#aab;font-style:normal;margin:0 1px}
+.br-sec{margin:6px 0 2px}
+.br-svc{font-family:var(--mono);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;
+  margin:12px 0 6px;display:flex;align-items:baseline;gap:8px}
+.br-svc-n{font-family:var(--sans);font-size:10.5px;font-weight:400;text-transform:none;letter-spacing:0;color:var(--slate-2)}

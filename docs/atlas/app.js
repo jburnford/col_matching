@@ -34,6 +34,7 @@
       ATLAS.Register.init();
       ATLAS.Search.init();
       ATLAS.Tours.init(tours);
+      ATLAS.Bridges.init();
       ATLAS.DeepQuery.init(meta);
 
       this.wireRail();
@@ -58,6 +59,7 @@
         };
       });
       document.getElementById('rail-reset').onclick = () => this.reset();
+      document.getElementById('rail-bridges').onclick = () => ATLAS.Bridges.open();
     },
 
     async loadCareers() { if (!this.careers) this.careers = await getJSON('careers.json'); return this.careers; },
@@ -69,6 +71,7 @@
       ATLAS.Register.person(pid);
     },
     selectPlace(qid) { ATLAS.Tours.dismiss(); ATLAS.Register.place(qid); },
+    async selectBridge(b) { ATLAS.Tours.dismiss(); await this.loadCareers(); ATLAS.Register.bridge(b); },
     reset() {
       ATLAS.Arcs.clearHighlight(); ATLAS.Places.clearEmphasis(); ATLAS.Register.summary();
     },
