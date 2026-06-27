@@ -13,11 +13,18 @@ Every candidate cluster was hand-reviewed; EXCLUDE holds the few adjudicated as
 distinct people. Composes onto the existing merge map; apply with
 kg_dedup_stage3_apply.py.  Env: COL_KG_OUT selects the corpus.
 """
-import json, re, sys
+import json, re, sys, unicodedata
 from collections import defaultdict
 from rapidfuzz.distance import Levenshtein
 from col_match.kg.paths import KG_OUT
 lev = Levenshtein.distance
+
+# fold ligatures + accents to ASCII so "Des Vœux" == "Des Voeux", "Frémont" == "Fremont"
+_LIG = {"œ": "oe", "Œ": "oe", "æ": "ae", "Æ": "ae", "ø": "o", "Ø": "o", "ß": "ss"}
+def _fold(s):
+    for k, v in _LIG.items():
+        s = s.replace(k, v)
+    return "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
 
 RANK={"earl","marquess","marquis","viscount","viscountess","baron","baroness","baronet",
  "bart","lord","lady","duke","duchess","count","countess","of","the","sir","dame","rt",
@@ -41,7 +48,7 @@ EXCLUDE={
  "kgp_iol1947-c2129463","kgp_iol1947-c1770988",                                                # Burmese SOE/NYUN
 }
 def toks(p):
-    s=((p.get("surname") or "")+" "+(p.get("given_names") or "")).lower()
+    s=_fold(((p.get("surname") or "")+" "+(p.get("given_names") or ""))).lower()
     return [t for t in re.split(r"[^a-z0-9]+",s) if t and t not in RANK and len(t)>1]
 def tin(t,S): return any(t==u or (len(t)>=4 and len(u)>=4 and lev(t,u)<=1) for u in S)
 def match(A,B):
@@ -83,8 +90,10 @@ clusters={r:m for r,m in clusters.items() if len(m)>1}
 kept=[m for m in clusters.values() if not any(x in EXCLUDE for x in m)]
 dropped=len(clusters)-len(kept)
 
-# compose onto existing crossform map
-mapf=KG_OUT/"dedup_stage3_merge_map.crossform.jsonl"
+# compose onto the latest full map (roleyear if a prior pass exists, else crossform)
+mapf=KG_OUT/"dedup_stage3_merge_map.roleyear.jsonl"
+if not mapf.exists():
+    mapf=KG_OUT/"dedup_stage3_merge_map.crossform.jsonl"
 uf={}
 def f2(x):
     uf.setdefault(x,x)
