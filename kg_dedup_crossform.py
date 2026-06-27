@@ -220,6 +220,85 @@ for sk, canons in by_surname.items():
             if auto:
                 union(canons[i], canons[j])
 
+# ---- SECOND PASS: appointment-keyed blocking (catches SURNAME OCR variants) ----
+# A surname OCR slip (GREG/GREIG, THOMPSON/THOMSON, MAC/Mc) lands the two records in
+# different surname blocks, so pass 1 never compares them. Block instead on a shared
+# SPECIFIC exact appointment (job@place@YEAR) -- two people virtually never share one --
+# then require the surnames to be OCR-near and the given names compatible.
+def surname_ocr_ok(sa, sb):
+    if sa == sb: return True
+    return min(len(sa), len(sb)) >= 4 and Levenshtein.distance(sa, sb) <= 1
+
+def has_full_given(g):
+    return len([t for t in re.split(r"[ .]+", g or "") if len(t) >= 2]) >= 2
+
+def full_given_match(ga, gb):
+    for a in ga:
+        if not has_full_given(a): continue
+        for b in gb:
+            if has_full_given(b) and name_pair_ok({a}, {b}): return True
+    return False
+
+# re-aggregate per CURRENT root (so pass-1 merges are reflected)
+root_agg = {}
+for c, a in agg.items():
+    r = find(c)
+    ra = root_agg.setdefault(r, {"qids": set(), "years": [], "postings_yr": set(),
+                                 "givens": set(), "births": set(), "surnames": set()})
+    ra["qids"] |= a["qids"]; ra["years"] += a["years"]; ra["postings_yr"] |= a["postings_yr"]
+    ra["givens"] |= a["givens"]; ra["births"] |= a["births"]
+    if a["surname"]: ra["surnames"].add(a["surname"])
+
+appt_idx = defaultdict(set)
+for r, ra in root_agg.items():
+    for (ps, q, y) in ra["postings_yr"]:
+        if ps not in GENERIC_POS:
+            appt_idx[(ps, q, y)].add(r)
+
+seen_pairs = set()
+for key, rset in appt_idx.items():
+    rs = sorted(rset)
+    if len(rs) < 2: continue
+    for i in range(len(rs)):
+        for j in range(i + 1, len(rs)):
+            r1, r2 = rs[i], rs[j]
+            if find(r1) == find(r2): continue
+            pk = (r1, r2)
+            if pk in seen_pairs: continue
+            seen_pairs.add(pk)
+            a1, a2 = root_agg[r1], root_agg[r2]
+            # surnames must be DIFFERENT-but-OCR-near (same-surname pairs are pass 1's job)
+            sn_ok = any(s1 != s2 and surname_ocr_ok(s1, s2)
+                        for s1 in a1["surnames"] for s2 in a2["surnames"])
+            if not sn_ok: continue
+            if not name_pair_ok(a1["givens"], a2["givens"]): continue
+            b1, b2 = a1["births"], a2["births"]
+            if b1 and b2 and not (b1 & b2): continue          # birth conflict: never for surname class
+            g = gap_between(a1, a2)
+            if g is not None and g > GAP_MAX: continue
+            if merged_span(a1, a2) > SPAN_MAX: continue
+            shared_spec = sorted((ps, q, y) for (ps, q, y) in (a1["postings_yr"] & a2["postings_yr"])
+                                 if ps not in GENERIC_POS)
+            # distinct (job@place) -- a role attested across two editions (same job@place,
+            # different year) is ONE appointment, not two independent coincidences.
+            distinct_appts = {(ps, q) for (ps, q, y) in shared_spec}
+            # STRICTER auto-gate for surname variation (surname is the primary key): need
+            # >=2 DISTINCT shared appointments, OR a full (non-initials) given-name match,
+            # OR a shared birth year. Otherwise -> HOLD for review.
+            auto = (len(distinct_appts) >= 2 or full_given_match(a1["givens"], a2["givens"])
+                    or bool(b1 & b2))
+            edge = {
+                "surname": "/".join(sorted(a1["surnames"] | a2["surnames"])),
+                "kind": "surname_ocr", "auto": auto, "a": r1, "b": r2,
+                "a_given": sorted(a1["givens"]), "b_given": sorted(a2["givens"]),
+                "a_births": sorted(b1), "b_births": sorted(b2),
+                "a_span": span(a1), "b_span": span(a2), "gap": g,
+                "evidence": [f"{ps}@{q}:{y}" for ps, q, y in shared_spec[:4]],
+            }
+            new_edges.append(edge)
+            if auto:
+                union(r1, r2)
+
 auto_edges = [e for e in new_edges if e["auto"]]
 held_edges = [e for e in new_edges if not e["auto"]]
 with open(args.out, "w") as fh:
@@ -237,7 +316,7 @@ hc = Counter(e["kind"] for e in held_edges)
 print(f"canonicals scanned: {len(agg):,} | surname blocks (>=2 canon): "
       f"{sum(1 for s in by_surname.values() if len(s)>=2):,}")
 print(f"AUTO merge edges: {len(auto_edges):,}   HELD (review): {len(held_edges):,}")
-for k in ("appt_yr", "genericyr_contig", "specific_contig", "chain2"):
+for k in ("appt_yr", "genericyr_contig", "specific_contig", "chain2", "surname_ocr"):
     print(f"   {k:<18} auto={kc.get(k,0):>5}  held={hc.get(k,0):>4}")
 print(f"\nAUTO sample (up to {args.sample}):")
 for e in auto_edges[:args.sample]:

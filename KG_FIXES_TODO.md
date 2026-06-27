@@ -76,11 +76,22 @@ counts (British N. Borneo⇄Gold Coast showed 9 officials, really 7).
   share WA law offices in *different* years; `gap<0` overlap is NOT safe, since
   father/son careers overlap too). No-year/no-birth pairs go to a `.held.jsonl` review
   file, not auto-merged.
+- **+ SURNAME OCR variants (2nd pass):** GREG/GREIG, THOMPSON/THOMSON, Mac/Mc, dropped
+  headword letters (erguson/ferguson, alpy/valpy) land in *different* surname blocks,
+  so block instead on a shared SPECIFIC appointment (job@place@YEAR) and require the
+  surnames OCR-near (Levenshtein≤1, len≥4) + given names compatible. Stricter auto-gate
+  (surname is the primary key): need ≥2 DISTINCT shared appointments OR a full
+  (non-initials) given-name match OR a shared birth year; else HELD.
+- **CANONICAL NAME selection (kg_dedup_stage3_apply.py):** the surviving record now
+  takes the surname spelling carried by the MOST attestations (an OCR slip recurs in
+  fewer editions) + the FULLEST given-name form (expands "I. V. G." → "Iaan Vandin
+  Gordon"), instead of the old "member with most events". Surname and given may come
+  from different members = best reconstruction.
 - **Applied both corpora, 0 new over-merges, 0 grounding-QID conflicts:**
-  **CO 30,080 → 28,864** (1,216 merges), **IOL 20,362 → 19,981** (381 merges). All
+  **CO 30,080 → 28,216** (1,864 merges), **IOL 20,362 → 19,144** (1,218 merges). All
   edge layers re-emitted/remapped (0 orphans), both LadybugDBs + the atlas rebuilt.
-  HELD for later review: CO 67 + IOL 24 no-year/no-birth pairs (mostly true but
-  unconfirmable initials-vs-full; a handful of genuine father/son to keep split).
+  HELD for later review: CO 155 + IOL 64 weak pairs (no-year/no-birth, or surname-OCR
+  initials-only with a single shared appointment; a few genuine father/son to keep split).
 - **Still open:** **107 cross-corpus** dupes — same official in BOTH CO and IOL,
   unjoined (Norman, Willingdon). → person grounding / cross-corpus link (see #3).
 

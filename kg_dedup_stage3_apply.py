@@ -99,6 +99,34 @@ def longest(strs):
     strs = [s for s in strs if s]
     return max(strs, key=len) if strs else None
 
+from collections import Counter
+def member_atts(m):
+    """how many edition-bios attest this member (OCR-error spellings appear in fewer)."""
+    _, pb = prov.get(m["person_id"], (None, None))
+    return len(pb) if pb else (m.get("n_attestations") or 1)
+
+def _given_fullness(g):
+    toks = [t for t in re.split(r"[ .]+", g or "") if t]
+    return (sum(1 for t in toks if len(t) >= 2), len(toks), len(g or ""))  # #full-tokens, #tokens, len
+
+def pick_name(members):
+    """Canonical display name across merged members:
+    - surname = the spelling carried by the MOST attestations (an OCR slip like
+      GREG/GREIG or THOMPSON/THOMSON is usually a single edition, the correct form
+      recurs), tie-break to the longer spelling.
+    - given_names = the FULLEST form (expand initials 'I. V. G.' -> 'Iaan Vandin
+      Gordon'), tie-break by attestations then length.
+    Surname and given may come from different members -- that is the best
+    reconstruction of one person, not a contradiction."""
+    sc = Counter()
+    for m in members:
+        if m.get("surname"): sc[m["surname"]] += member_atts(m)
+    surname = max(sc, key=lambda s: (sc[s], len(s))) if sc else (members[0].get("surname"))
+    cand = [m for m in members if m.get("given_names")]
+    given = (max(cand, key=lambda m: (_given_fullness(m["given_names"]), member_atts(m)))
+             ["given_names"] if cand else None)
+    return surname, given
+
 out = []
 for cpid, members in groups.items():
     spine = max(members, key=lambda r: len(r.get("events") or []))
@@ -119,10 +147,11 @@ for cpid, members in groups.items():
         for h in (m.get("honours") or []):
             hk = json.dumps(h, sort_keys=True, ensure_ascii=False)
             if hk not in seenh: seenh.add(hk); honours.append(h)
+    canon_surname, canon_given = pick_name(members)
     rec = {
         "person_id": cpid,
-        "surname": spine.get("surname"),
-        "given_names": spine.get("given_names"),
+        "surname": canon_surname,
+        "given_names": canon_given,
         "birth_year": next((m.get("birth_year") for m in members if m.get("birth_year")), None),
         "education": longest([m.get("education") for m in members]),
         "honours": honours,
