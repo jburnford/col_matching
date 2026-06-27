@@ -2,11 +2,11 @@
   "persons": 27841,
   "events": 181129,
   "events_placed": 152414,
-  "events_grounded": 131506,
-  "events_resolved_via_map": 1257,
-  "events_with_colony": 104475,
+  "events_grounded": 131483,
+  "events_resolved_via_map": 1963,
+  "events_with_colony": 104489,
   "events_org": 3459,
   "honours": 15275,
   "education": 19392,
-  "places_used": 3187
+  "places_used": 3198
 }

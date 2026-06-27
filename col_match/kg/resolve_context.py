@@ -59,6 +59,10 @@ _CEYLON = {
     "Sabaragamuwa", "Dambulla", "Point Pedro", "Tangalle", "Gampola",
     "Nuwarakalawiya", "Dikoya", "Avissawella",
 }
+# British Columbia / Vancouver Island — to disambiguate "Victoria" (the BC capital
+# and electoral district) from the Australian colony of Victoria. Canonical forms.
+_BC = {"British Columbia", "Vancouver Island", "Colony of Vancouver Island",
+       "British Columbia (Colony)"}
 
 # --- directional province/region parsing ----------------------------------
 # Accept both abbreviations ("N.W. Prov.", "N.W.P.") and spelled-out forms
@@ -137,7 +141,7 @@ def is_ambiguous(place: str) -> bool:
     """Does this surface form need per-person context to ground?"""
     p = (place or "").strip()
     return (_parse_directional(p) is not None
-            or _is_nwp(p) or canon_key(p) in ("sa", "wa", "cp"))
+            or _is_nwp(p) or canon_key(p) in ("sa", "wa", "cp", "victoria"))
 
 
 def _region_hit(siblings):
@@ -185,6 +189,15 @@ def resolve(place: str, siblings: list[str]) -> tuple[str | None, str]:
         if au and not wafr:
             return "Western Australia", f"australia postings: {sorted(au)[:3]}"
         return None, "no single-region signal"
+
+    if canon_key(p) == "victoria":
+        # the Australian colony of Victoria vs Victoria, British Columbia (the BC
+        # capital). Only a British-Columbia/Vancouver-Island signal flips it off the
+        # default; everything else stays the (far more common) Australian colony.
+        bc = any(canonicalize(f) in _BC for s in siblings for f in _frags(s))
+        if bc:
+            return "Victoria, British Columbia", "british columbia / vancouver island postings"
+        return "Victoria, Australia", "default: the Australian colony of Victoria"
 
     pd = _parse_directional(p)
 

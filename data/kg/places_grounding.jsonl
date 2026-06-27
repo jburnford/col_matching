@@ -160,7 +160,6 @@
 {"place": "W. Aust.", "qid": "Q57676556", "label": "Western Australia", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Crown Colony"], "match_type": "manifest", "query": "Western Australia", "count": 964}
 {"place": "W Australia", "qid": "Q57676556", "label": "Western Australia", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Crown Colony"], "match_type": "manifest", "query": "Western Australia", "count": 964}
 {"place": "W. Australia.", "qid": "Q57676556", "label": "Western Australia", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Crown Colony"], "match_type": "manifest", "query": "Western Australia", "count": 964}
-{"place": "Victoria", "qid": "Q56850459", "label": "Victoria (Colony)", "country_qid": "Q408", "p131_qid": null, "instance_of": ["Crown Colony"], "match_type": "manifest", "query": "Victoria", "count": 943}
 {"place": "St. Lucia", "qid": "Q15238409", "label": "Saint Lucia Colony", "country_qid": "Q760", "p131_qid": null, "instance_of": ["Crown Colony"], "match_type": "manifest", "query": "Saint Lucia", "count": 904}
 {"place": "St. L.", "qid": "Q15238409", "label": "Saint Lucia Colony", "country_qid": "Q760", "p131_qid": null, "instance_of": ["Crown Colony"], "match_type": "manifest", "query": "Saint Lucia", "count": 904}
 {"place": "Saint Lucia", "qid": "Q15238409", "label": "Saint Lucia Colony", "country_qid": "Q760", "p131_qid": null, "instance_of": ["Crown Colony"], "match_type": "manifest", "query": "Saint Lucia", "count": 904}
@@ -1741,7 +1740,7 @@
 {"place": "W. Samoa", "qid": "Q7988268", "label": "Western Samoa Trust Territory", "country_qid": null, "p131_qid": null, "instance_of": ["historical polity"], "match_type": "mcp_unverified", "query": "W. Samoa", "count": 6, "has_coords": true}
 {"place": "Ibadan, S. Nigeria", "qid": "Q183298", "label": "Ibadan", "country_qid": "Q1033", "p131_qid": null, "instance_of": ["city"], "match_type": "mcp_unverified", "query": "Ibadan Southern Nigeria", "count": 6, "has_coords": true}
 {"place": "Chavagacherry", "qid": "Q1068504", "label": "Chavakacheri", "country_qid": "Q854", "p131_qid": null, "instance_of": ["human settlement"], "match_type": "mcp_unverified", "query": "Chavagacherry", "count": 6, "has_coords": true}
-{"place": "Victoria, Australia", "qid": "Q36687", "label": "Victoria", "country_qid": "Q408", "p131_qid": null, "instance_of": ["state"], "match_type": "mcp_unverified", "query": "Victoria Australia", "count": 6, "has_coords": true}
+{"place": "Victoria, Australia", "qid": "Q56850459", "label": "Victoria (Colony)", "country_qid": "Q408", "p131_qid": null, "instance_of": ["state"], "match_type": "context_fix", "query": "Victoria Australia", "count": 6, "has_coords": true}
 {"place": "district of Flacq", "qid": "Q911651", "label": "Flacq District", "country_qid": "Q1027", "p131_qid": null, "instance_of": ["district"], "match_type": "mcp_unverified", "query": "district of Flacq", "count": 6, "has_coords": true}
 {"place": "Argentine", "qid": "Q414", "label": "Argentina", "country_qid": "Q414", "p131_qid": null, "instance_of": ["country"], "match_type": "mcp_unverified", "query": "Argentine", "count": 6, "has_coords": true}
 {"place": "Midland conservancy", "qid": null, "label": null, "country_qid": null, "p131_qid": null, "instance_of": [], "match_type": "ungrounded", "query": "Midland conservancy", "count": 6, "has_coords": false}
@@ -5357,3 +5356,4 @@
 {"place": "North-Western Province, Ceylon", "qid": "Q876339", "label": "North Western Province", "country_qid": "Q854", "p131_qid": null, "instance_of": ["province of Sri Lanka"], "has_coords": true, "match_type": "context_fix"}
 {"place": "North-Western Provinces, India", "qid": "Q138521", "label": "North-Western Provinces", "country_qid": "Q129286", "p131_qid": null, "instance_of": ["province of British Raj"], "has_coords": true, "match_type": "context_fix"}
 {"place": "North-Central Province, Ceylon", "qid": "Q1057124", "label": "North Central Province", "country_qid": "Q854", "p131_qid": null, "instance_of": ["province of Sri Lanka"], "has_coords": true, "match_type": "context_fix"}
+{"place": "Victoria, British Columbia", "qid": "Q1973", "label": "British Columbia", "country_qid": "Q16", "p131_qid": null, "instance_of": ["province of Canada"], "has_coords": true, "match_type": "context_fix"}

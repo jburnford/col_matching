@@ -34,7 +34,12 @@ _glob = defaultdict(Counter)    # place -> Counter(resolved_query)
 _resmap = KG_OUT / "places_resolution_map.jsonl"
 for l in (_resmap.open(encoding="utf-8") if _resmap.exists() else []):
     rr = json.loads(l)
-    _per[(rr["person_id"], rr["place"])] = rr["resolved_query"]
+    # the map keys persons by the reviewed-corpus id ("kgp_<bio>"); the spine's
+    # `attestations` are bare bio-ids — strip the prefix so per-person resolution
+    # (the minority-context override, e.g. Victoria→BC) actually matches.
+    pid = rr["person_id"]
+    pid = pid[4:] if pid.startswith("kgp_") else pid
+    _per[(pid, rr["place"])] = rr["resolved_query"]
     _glob[rr["place"]][rr["resolved_query"]] += 1
 _glob1 = {p: c.most_common(1)[0][0] for p, c in _glob.items()}
 _ORG = re.compile(r"\b(railway|R\. ?& ?H|posts|telegraph|tels|currency|administration|"
