@@ -2,9 +2,9 @@
 {"person_id": "kgp_iol1934-c2567294", "award": "B.A.", "year": null}
 {"person_id": "kgp_iol1934-c2567294", "award": "F.S.S.", "year": null}
 {"person_id": "kgp_iol1934-c2567294", "award": "M.A.", "year": null}
-{"person_id": "kgp_iol1916-c2629981", "award": "C.S.I.", "year": 1912}
 {"person_id": "kgp_iol1924-c2335473", "award": "K.C.I.E.", "year": 1917}
 {"person_id": "kgp_iol1924-c2335473", "award": "C.S.I.", "year": 1912}
+{"person_id": "kgp_iol1916-c2629981", "award": "C.S.I.", "year": 1912}
 {"person_id": "kgp_iol1947-c635157", "award": "O.B.E.", "year": 1946}
 {"person_id": "kgp_iol1935-c2783711", "award": "C.B.E.", "year": 1919}
 {"person_id": "kgp_iol1935-c2784074", "award": "C.I.E.", "year": 1921}
@@ -34,13 +34,13 @@
 {"person_id": "kgp_iol1939-c1015689", "award": "KHAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1947-c639714", "award": "KHAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1938-c1005531", "award": "C.B.E.", "year": 1917}
-{"person_id": "kgp_iol1928-c2582312", "award": "C.B.E.", "year": 1917}
 {"person_id": "kgp_iol1916-c2633710", "award": "Khan Bahadur", "year": null}
+{"person_id": "kgp_iol1928-c2582312", "award": "C.B.E.", "year": 1917}
 {"person_id": "kgp_iol1947-c641855", "award": "K.B.", "year": null}
 {"person_id": "kgp_iol1947-c641855", "award": "O.B.E.", "year": 1946}
-{"person_id": "kgp_iol1938-c1006806", "award": "K.C.S.I.", "year": 1925}
 {"person_id": "kgp_iol1945-c597056", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1945-c597056", "award": "K.C.S.I.", "year": 1925}
+{"person_id": "kgp_iol1938-c1006806", "award": "K.C.S.I.", "year": 1925}
 {"person_id": "kgp_iol1934-c2578963", "award": "KHAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1939-c1017707", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1939-c1017707", "award": "O.B.E.", "year": 1934}
@@ -83,8 +83,8 @@
 {"person_id": "kgp_iol1922-c2295202", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1921-c2558533", "award": "K.-i-H. medal (1st class)", "year": 1919}
 {"person_id": "kgp_iol1945-c610706", "award": "O.B.E.", "year": 1944}
-{"person_id": "kgp_iol1931-c2772383", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1937-c2762266", "award": "Khan Bahadur", "year": null}
+{"person_id": "kgp_iol1931-c2772383", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1934-c2595264", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1945-c1471892", "award": "M.B.E.", "year": 1941}
 {"person_id": "kgp_iol1924-c2351124", "award": "K.R.E.", "year": null}
@@ -107,8 +107,6 @@
 {"person_id": "kgp_iol1929-c2584223", "award": "C.I.E.", "year": 1912}
 {"person_id": "kgp_iol1929-c2584703", "award": "M.B.", "year": null}
 {"person_id": "kgp_iol1929-c2584703", "award": "F.R.C.S.", "year": null}
-{"person_id": "kgp_iol1889_supp-c917043", "award": "K.C.S.I.", "year": null}
-{"person_id": "kgp_iol1889_supp-c917043", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1896-c1838213", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1896-c1838213", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1939-c1043806", "award": "C.I.E.", "year": 1934}
@@ -116,7 +114,6 @@
 {"person_id": "kgp_iol1947-c664552", "award": "C.I.E.", "year": 1941}
 {"person_id": "kgp_iol1945-c1878779", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1945-c1878779", "award": "Rao Bahadur", "year": 1938}
-{"person_id": "kgp_iol1903-c2036510", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1912-c2406711", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1940-c1068009", "award": "O.B.E.", "year": 1941}
 {"person_id": "kgp_iol1945-c623829", "award": "O.B.E.", "year": 1941}
@@ -142,12 +139,12 @@
 {"person_id": "kgp_iol1905-c2051165", "award": "Barr.", "year": 1893}
 {"person_id": "kgp_iol1931-c2785684", "award": "C.S.I.", "year": 1911}
 {"person_id": "kgp_iol1931-c2785684", "award": "K.C.S.I.", "year": 1914}
-{"person_id": "kgp_iol1915-c2570027", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1947-c671198", "award": "C.I.E.", "year": 1944}
+{"person_id": "kgp_iol1915-c2570027", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1903-c2040277", "award": "Barr.", "year": 1893}
 {"person_id": "kgp_iol1912-c2410753", "award": "Barr.", "year": 1893}
-{"person_id": "kgp_iol1904-c2058067", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1914-c2544849", "award": "M.I.C.E.", "year": null}
+{"person_id": "kgp_iol1904-c2058067", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1936-c2713501", "award": "Indian police medal", "year": 1932}
 {"person_id": "kgp_iol1917-c2677409", "award": "C.S.I.", "year": 1911}
 {"person_id": "kgp_iol1917-c2677409", "award": "K.C.S.I.", "year": 1914}
@@ -180,7 +177,6 @@
 {"person_id": "kgp_iol1926-c2520948", "award": "privy councillor", "year": 1909}
 {"person_id": "kgp_iol1894_supp-c1039950", "award": "C.I.E.", "year": 1887}
 {"person_id": "kgp_iol1894_supp-c1040450", "award": "C.I.E.", "year": 1888}
-{"person_id": "kgp_iol1895_supp-c1086454", "award": "C.I.E.", "year": 1888}
 {"person_id": "kgp_iol1898-c1803510", "award": "C.I.E.", "year": 1888}
 {"person_id": "kgp_iol1909-c2356198", "award": "C.I.E.", "year": 1888}
 {"person_id": "kgp_iol1901-c1990963", "award": "C.I.E.", "year": 1887}
@@ -238,13 +234,11 @@
 {"person_id": "kgp_iol1890_supp-c1020406", "award": "Barr.", "year": 1885}
 {"person_id": "kgp_iol1947-c688021", "award": "C.B.E.", "year": 1946}
 {"person_id": "kgp_iol1931-c2808714", "award": "M.B.E.", "year": 1918}
-{"person_id": "kgp_iol1889_jan-c927541", "award": "medal", "year": null}
-{"person_id": "kgp_iol1889_jan-c927541", "award": "Khedive's star", "year": null}
+{"person_id": "kgp_iol1892_supp-c1012824", "award": "medal", "year": null}
+{"person_id": "kgp_iol1892_supp-c1012824", "award": "Khedive's star", "year": null}
 {"person_id": "kgp_iol1945-c645079", "award": "C.I.E.", "year": 1946}
 {"person_id": "kgp_iol1945-c645079", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1931-c2809635", "award": "C.I.E.", "year": 1919}
-{"person_id": "kgp_iol1892_supp-c1012824", "award": "medal", "year": null}
-{"person_id": "kgp_iol1892_supp-c1012824", "award": "Khedive's star", "year": null}
 {"person_id": "kgp_iol1940-c1096501", "award": "O.B.E.", "year": 1939}
 {"person_id": "kgp_iol1947-c690318", "award": "M.C.", "year": null}
 {"person_id": "kgp_iol1939-c1077695", "award": "O.B.E.", "year": null}
@@ -442,7 +436,6 @@
 {"person_id": "kgp_iol1915-c2613837", "award": "K.C.S.I.", "year": 1914}
 {"person_id": "kgp_iol1915-c2613837", "award": "C.S.I.", "year": 1910}
 {"person_id": "kgp_iol1929-c2652974", "award": "C.I.E.", "year": 1918}
-{"person_id": "kgp_iol1895_supp-c1119603", "award": "C.S.I.", "year": 1894}
 {"person_id": "kgp_iol1923-c2357577", "award": "C.S.I.", "year": 1894}
 {"person_id": "kgp_iol1947-c719404", "award": "O.B.E.", "year": 1942}
 {"person_id": "kgp_iol1947-c719404", "award": "F.R.S.E.", "year": null}
@@ -637,7 +630,6 @@
 {"person_id": "kgp_iol1947-c746529", "award": "O.B.E.", "year": 1946}
 {"person_id": "kgp_iol1934-c2714876", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1934-c2714876", "award": "O.B.E.", "year": 1920}
-{"person_id": "kgp_iol1889_supp-c970614", "award": "medal", "year": null}
 {"person_id": "kgp_iol1916-c2724720", "award": "medal", "year": null}
 {"person_id": "kgp_iol1916-c2724720", "award": "C.S.I.", "year": 1896}
 {"person_id": "kgp_iol1916-c2724720", "award": "K.C.S.I.", "year": 1902}
@@ -768,7 +760,7 @@
 {"person_id": "kgp_iol1939-c1189194", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1939-c1189194", "award": "C.S.I.", "year": 1934}
 {"person_id": "kgp_iol1939-c1189194", "award": "C.I.E.", "year": 1928}
-{"person_id": "kgp_iol1893_supp-c1770208", "award": "RAO BAHADUR", "year": null}
+{"person_id": "kgp_iol1895_supp-c1881764", "award": "RAO BAHADUR", "year": null}
 {"person_id": "kgp_iol1895_supp-c1881764", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1931-c2928997", "award": "D.C.L.", "year": null}
 {"person_id": "kgp_iol1931-c2928997", "award": "LL.D.", "year": null}
@@ -962,7 +954,6 @@
 {"person_id": "kgp_iol1932-c2815071", "award": "I.S.O.", "year": 1911}
 {"person_id": "kgp_iol1919-c2960975", "award": "C.I.E.", "year": 1918}
 {"person_id": "kgp_iol1919-c2960975", "award": "I.S.O.", "year": 1911}
-{"person_id": "kgp_iol1916-c2782360", "award": "I.S.O.", "year": 1911}
 {"person_id": "kgp_iol1915-c2695948", "award": "knighted", "year": 1909}
 {"person_id": "kgp_iol1945-c765282", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1945-c765282", "award": "A.M.I.C.E.", "year": null}
@@ -1005,28 +996,20 @@
 {"person_id": "kgp_iol1939-c1241744", "award": "D.S.O.", "year": 1908}
 {"person_id": "kgp_iol1939-c1241744", "award": "K.C.M.G.", "year": 1915}
 {"person_id": "kgp_iol1939-c1241744", "award": "K.C.B.", "year": 1917}
-{"person_id": "kgp_iol1889_supp-c1018100", "award": "C.S.I.", "year": 1877}
-{"person_id": "kgp_iol1889_supp-c1018100", "award": "K.C.I.E.", "year": 1887}
 {"person_id": "kgp_iol1913-c2585127", "award": "C.S.I.", "year": 1877}
 {"person_id": "kgp_iol1913-c2585127", "award": "K.C.I.E.", "year": 1887}
 {"person_id": "kgp_iol1913-c2585127", "award": "LL.D.", "year": 1886}
 {"person_id": "kgp_iol1894_supp-c1147833", "award": "C.S.I.", "year": 1893}
-{"person_id": "kgp_iol1928-c2778295", "award": "K.C.S.I.", "year": null}
-{"person_id": "kgp_iol1928-c2778295", "award": "K.C.M.G.", "year": 1915}
-{"person_id": "kgp_iol1928-c2778295", "award": "C.B.", "year": null}
-{"person_id": "kgp_iol1928-c2778295", "award": "C.I.E.", "year": null}
-{"person_id": "kgp_iol1928-c2778295", "award": "D.S.O.", "year": null}
-{"person_id": "kgp_iol1928-c2778295", "award": "G.C.B.", "year": 1923}
-{"person_id": "kgp_iol1928-c2778295", "award": "G.C.M.G.", "year": 1919}
-{"person_id": "kgp_iol1928-c2778295", "award": "C.I.E.", "year": 1908}
-{"person_id": "kgp_iol1928-c2778295", "award": "K.C.B.", "year": 1917}
+{"person_id": "kgp_iol1934-c2807933", "award": "K.C.S.I.", "year": null}
+{"person_id": "kgp_iol1934-c2807933", "award": "K.C.M.G.", "year": 1915}
+{"person_id": "kgp_iol1934-c2807933", "award": "C.B.", "year": null}
+{"person_id": "kgp_iol1934-c2807933", "award": "C.I.E.", "year": null}
+{"person_id": "kgp_iol1934-c2807933", "award": "D.S.O.", "year": null}
 {"person_id": "kgp_iol1934-c2807933", "award": "G.C.B.", "year": 1923}
-{"person_id": "kgp_iol1934-c2807933", "award": "G.C.S.I.", "year": 1930}
 {"person_id": "kgp_iol1934-c2807933", "award": "G.C.M.G.", "year": 1919}
 {"person_id": "kgp_iol1934-c2807933", "award": "C.I.E.", "year": 1908}
-{"person_id": "kgp_iol1934-c2807933", "award": "D.S.O.", "year": null}
-{"person_id": "kgp_iol1934-c2807933", "award": "K.C.M.G.", "year": 1915}
 {"person_id": "kgp_iol1934-c2807933", "award": "K.C.B.", "year": 1917}
+{"person_id": "kgp_iol1934-c2807933", "award": "G.C.S.I.", "year": 1930}
 {"person_id": "kgp_iol1929-c2771353", "award": "P.C.", "year": null}
 {"person_id": "kgp_iol1929-c2771353", "award": "G.C.S.I.", "year": 1928}
 {"person_id": "kgp_iol1929-c2771353", "award": "D.C.L.", "year": null}
@@ -1072,10 +1055,9 @@
 {"person_id": "kgp_iol1939-c1253613", "award": "C.I.E.", "year": 1937}
 {"person_id": "kgp_iol1890_supp-c1120695", "award": "K.C.V.O.", "year": 1901}
 {"person_id": "kgp_iol1890_supp-c1120695", "award": "medal", "year": null}
-{"person_id": "kgp_iol1889_supp-c1025112", "award": "M.D.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1025112", "award": "F.R.C.P.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1025112", "award": "M.R.C.S. (Lon.)", "year": null}
-{"person_id": "kgp_iol1889_supp-c1025112", "award": "medal", "year": null}
+{"person_id": "kgp_iol1890_supp-c1120695", "award": "M.D.", "year": null}
+{"person_id": "kgp_iol1890_supp-c1120695", "award": "F.R.C.P.", "year": null}
+{"person_id": "kgp_iol1890_supp-c1120695", "award": "M.R.C.S. (Lon.)", "year": null}
 {"person_id": "kgp_iol1940-c1267343", "award": "C.S.I.", "year": 1939}
 {"person_id": "kgp_iol1940-c1267343", "award": "C.I.E.", "year": 1933}
 {"person_id": "kgp_iol1940-c1268584", "award": "O.B.E.", "year": null}
@@ -1173,9 +1155,9 @@
 {"person_id": "kgp_iol1945-c790742", "award": "C.I.E.", "year": 1937}
 {"person_id": "kgp_iol1947-c829449", "award": "O.B.E.", "year": 1944}
 {"person_id": "kgp_iol1904-c2185189", "award": "C.S.I.", "year": 1896}
-{"person_id": "kgp_iol1894_supp-c1166377", "award": "medal and clasp", "year": null}
-{"person_id": "kgp_iol1894_supp-c1166377", "award": "medal", "year": null}
-{"person_id": "kgp_iol1894_supp-c1166377", "award": "medal & clasp", "year": null}
+{"person_id": "kgp_iol1904-c2185189", "award": "medal and clasp", "year": null}
+{"person_id": "kgp_iol1904-c2185189", "award": "medal", "year": null}
+{"person_id": "kgp_iol1904-c2185189", "award": "medal & clasp", "year": null}
 {"person_id": "kgp_iol1929-c2807488", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1947-c830298", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1945-c793138", "award": "K.C.M.G.", "year": 1934}
@@ -1250,8 +1232,6 @@
 {"person_id": "kgp_iol1910-c2468349", "award": "G.C.V.O.", "year": 1902}
 {"person_id": "kgp_iol1910-c2468349", "award": "K.C.S.I.", "year": 1885}
 {"person_id": "kgp_iol1910-c2468349", "award": "K.C.B.", "year": 1890}
-{"person_id": "kgp_iol1886_supp-c148063", "award": "K.C.S.I.", "year": null}
-{"person_id": "kgp_iol1886_supp-c148063", "award": "M.S.C.", "year": null}
 {"person_id": "kgp_iol1910-c2469194", "award": "C.S.I.", "year": 1906}
 {"person_id": "kgp_iol1937-c3041471", "award": "C.I.E.", "year": 1931}
 {"person_id": "kgp_iol1933-c2801782", "award": "L.M.S.", "year": null}
@@ -1302,7 +1282,6 @@
 {"person_id": "kgp_iol1937-c3054446", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_iol1937-c3054446", "award": "M.B.E.", "year": 1919}
 {"person_id": "kgp_iol1931-c3047611", "award": "C.I.E.", "year": 1910}
-{"person_id": "kgp_iol1917-c2867534", "award": "C.I.E.", "year": 1910}
 {"person_id": "kgp_iol1917-c2867992", "award": "Military Medal", "year": null}
 {"person_id": "kgp_iol1919-c3013857", "award": "C.S.I.", "year": 1904}
 {"person_id": "kgp_iol1919-c3013857", "award": "M.I.C.E.", "year": null}
@@ -1310,8 +1289,8 @@
 {"person_id": "kgp_iol1894_supp-c1186955", "award": "C.S.I.", "year": 1906}
 {"person_id": "kgp_iol1945-c811571", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1945-c811571", "award": "C.I.E.", "year": 1931}
-{"person_id": "kgp_iol1923-c2503611", "award": "C.S.I.", "year": null}
-{"person_id": "kgp_iol1923-c2503611", "award": "C.I.E.", "year": null}
+{"person_id": "kgp_iol1945-c811984", "award": "C.S.I.", "year": null}
+{"person_id": "kgp_iol1945-c811984", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1945-c811984", "award": "C.S.I.", "year": 1937}
 {"person_id": "kgp_iol1945-c811984", "award": "C.I.E.", "year": 1933}
 {"person_id": "kgp_iol1945-c812671", "award": "M.B.E.", "year": null}
@@ -1320,9 +1299,6 @@
 {"person_id": "kgp_iol1937-c3060072", "award": "C.I.E.", "year": 1929}
 {"person_id": "kgp_iol1934-c2883740", "award": "C.I.E.", "year": 1927}
 {"person_id": "kgp_iol1945-c813871", "award": "C.I.E.", "year": 1946}
-{"person_id": "kgp_iol1889_supp-c1056108", "award": "medal and clasp", "year": null}
-{"person_id": "kgp_iol1889_supp-c1056108", "award": "medal", "year": null}
-{"person_id": "kgp_iol1889_supp-c1056108", "award": "medal and clasps and Khedive's star", "year": null}
 {"person_id": "kgp_iol1898-c1920123", "award": "medal and clasp", "year": null}
 {"person_id": "kgp_iol1898-c1920123", "award": "medal", "year": null}
 {"person_id": "kgp_iol1898-c1920123", "award": "medal and clasps and Khedive's star", "year": null}
@@ -1534,8 +1510,6 @@
 {"person_id": "kgp_iol1938-c1335163", "award": "C.I.E.", "year": 1929}
 {"person_id": "kgp_iol1938-c1335163", "award": "C.B.E.", "year": 1919}
 {"person_id": "kgp_iol1907-c2393962", "award": "India medal and Samana clasp", "year": 1891}
-{"person_id": "kgp_iol1886_supp-c172135", "award": "K.C.S.I.", "year": null}
-{"person_id": "kgp_iol1886_supp-c172135", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1895_supp-c1275662", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1895_supp-c1275662", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1895_supp-c1275662", "award": "G.C.I.E.", "year": 1897}
@@ -1711,7 +1685,7 @@
 {"person_id": "kgp_iol1895_supp-c1295680", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1927-c2937037", "award": "K.-i.-H. medal, 1st class", "year": 1902}
 {"person_id": "kgp_iol1934-c2966081", "award": "O.B.E.", "year": 1928}
-{"person_id": "kgp_iol1889_supp-c1102000", "award": "C.S.I.", "year": 1903}
+{"person_id": "kgp_iol1893_supp-c1233280", "award": "C.S.I.", "year": 1903}
 {"person_id": "kgp_iol1939-c1375776", "award": "C.I.E.", "year": 1937}
 {"person_id": "kgp_iol1927-c2938004", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1939-c1376158", "award": "C.I.E.", "year": null}
@@ -1914,7 +1888,6 @@
 {"person_id": "kgp_iol1928-c2959679", "award": "C.I.E.", "year": 1919}
 {"person_id": "kgp_iol1939-c1416785", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1932-c3026086", "award": "Rai Bahadur", "year": null}
-{"person_id": "kgp_iol1928-c2960512", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1939-c1417346", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1915-c2851592", "award": "D.D.", "year": null}
 {"person_id": "kgp_iol1915-c2851592", "award": "F.R.G.S.", "year": null}
@@ -1969,14 +1942,13 @@
 {"person_id": "kgp_iol1947-c923531", "award": "C.I.E.", "year": 1946}
 {"person_id": "kgp_iol1925-c2725269", "award": "D.S.O.", "year": null}
 {"person_id": "kgp_iol1931-c3188828", "award": "D.S.O.", "year": null}
-{"person_id": "kgp_iol1895_supp-c1323407", "award": "K.C.B.", "year": 1890}
+{"person_id": "kgp_iol1895_supp-c1323407", "award": "C.B.", "year": null}
 {"person_id": "kgp_iol1895_supp-c1323407", "award": "C.S.I.", "year": null}
+{"person_id": "kgp_iol1895_supp-c1323407", "award": "K.C.B.", "year": 1890}
 {"person_id": "kgp_iol1895_supp-c1323407", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1896-c2991486", "award": "K.C.B.", "year": null}
 {"person_id": "kgp_iol1896-c2991486", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1896-c2991486", "award": "C.I.E.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1121770", "award": "C.B.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1121770", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1947-c924155", "award": "O.B.E.", "year": 1943}
 {"person_id": "kgp_iol1947-c924155", "award": "King's police medal", "year": 1932}
 {"person_id": "kgp_iol1933-c2958216", "award": "King's police medal", "year": 1932}
@@ -2024,10 +1996,10 @@
 {"person_id": "kgp_iol1938-c1422858", "award": "O.B.E.", "year": 1918}
 {"person_id": "kgp_iol1938-c1422858", "award": "C.I.E.", "year": 1915}
 {"person_id": "kgp_iol1938-c1422858", "award": "K.H.P.", "year": 1927}
+{"person_id": "kgp_iol1919-c3138923", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1947-c933834", "award": "Rai Bahadur", "year": 1945}
 {"person_id": "kgp_iol1945-c905499", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1945-c905125", "award": "RAI BAHADUR", "year": null}
-{"person_id": "kgp_iol1919-c3138923", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1922-c2608620", "award": "C.I.E.", "year": 1921}
 {"person_id": "kgp_iol1947-c934228", "award": "King's police medal", "year": 1946}
 {"person_id": "kgp_iol1947-c934535", "award": "O.B.E.", "year": 1945}
@@ -2380,9 +2352,6 @@
 {"person_id": "kgp_iol1939-c1511885", "award": "D.S.O.", "year": null}
 {"person_id": "kgp_iol1939-c1511885", "award": "M.C.", "year": null}
 {"person_id": "kgp_iol1929-c3057726", "award": "C.S.I.", "year": 1925}
-{"person_id": "kgp_iol1889_jan-c1169460", "award": "K.C.S.I.", "year": null}
-{"person_id": "kgp_iol1889_jan-c1169460", "award": "C.B.", "year": null}
-{"person_id": "kgp_iol1889_jan-c1169460", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1172963", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1172963", "award": "C.B.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1172963", "award": "C.I.E.", "year": null}
@@ -2527,7 +2496,7 @@
 {"person_id": "kgp_iol1920-c2886358", "award": "K.H.P.", "year": 1916}
 {"person_id": "kgp_iol1945-c965651", "award": "M.B.E.", "year": 1918}
 {"person_id": "kgp_iol1945-c965651", "award": "M.B.E.", "year": null}
-{"person_id": "kgp_iol1886_supp-c254151", "award": "C.I.E.", "year": null}
+{"person_id": "kgp_iol1889_supp-c1190651", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1190651", "award": "C.I.E.", "year": 1884}
 {"person_id": "kgp_iol1889_supp-c1190651", "award": "K.C.I.E.", "year": 1887}
 {"person_id": "kgp_iol1947-c990729", "award": "K.B.E.", "year": 1943}
@@ -2636,7 +2605,6 @@
 {"person_id": "kgp_iol1947-c998258", "award": "C.I.E.", "year": 1925}
 {"person_id": "kgp_iol1947-c998258", "award": "C.S.I.", "year": 1931}
 {"person_id": "kgp_iol1947-c998258", "award": "K.C.I.E.", "year": 1935}
-{"person_id": "kgp_iol1889_supp-c1208940", "award": "K.C.I.E.", "year": 1889}
 {"person_id": "kgp_iol1913-c2838004", "award": "K.C.I.E.", "year": 1889}
 {"person_id": "kgp_iol1937-c3340783", "award": "C.I.E.", "year": 1928}
 {"person_id": "kgp_iol1932-c3184014", "award": "C.I.E.", "year": 1921}
@@ -2689,10 +2657,9 @@
 {"person_id": "kgp_iol1940-c1569577", "award": "K.-i.-H. medal (2nd class)", "year": 1923}
 {"person_id": "kgp_iol1940-c1569577", "award": "C.I.E.", "year": 1936}
 {"person_id": "kgp_iol1940-c1569577", "award": "K.-I.-H. medal (2nd class)", "year": 1923}
-{"person_id": "kgp_iol1939-c1557209", "award": "K.C.S.I.", "year": null}
-{"person_id": "kgp_iol1917-c3095899", "award": "C.S.I.", "year": 1914}
-{"person_id": "kgp_iol1947-c1004833", "award": "K.B.E.", "year": 1919}
+{"person_id": "kgp_iol1947-c1004140", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1947-c1004833", "award": "C.S.I.", "year": 1914}
+{"person_id": "kgp_iol1947-c1004833", "award": "K.B.E.", "year": 1919}
 {"person_id": "kgp_iol1916-c3066427", "award": "C.S.I.", "year": 1914}
 {"person_id": "kgp_iol1889_supp-c1212543", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1899-c2044074", "award": "C.I.E.", "year": null}
@@ -2737,7 +2704,6 @@
 {"person_id": "kgp_iol1889_supp-c1220664", "award": "fellow of Calcutta university", "year": 1883}
 {"person_id": "kgp_iol1947-c1008245", "award": "O.B.E.", "year": 1934}
 {"person_id": "kgp_iol1947-c1008925", "award": "O.B.E.", "year": 1946}
-{"person_id": "kgp_iol1889_supp-c1221350", "award": "Society's silver medal", "year": 1878}
 {"person_id": "kgp_iol1895_supp-c1439945", "award": "Society's silver medal", "year": 1878}
 {"person_id": "kgp_iol1895_supp-c1439945", "award": "Society's silver medal", "year": 1889}
 {"person_id": "kgp_iol1895_supp-c1439945", "award": "corresponding member of the Royal Geographical Society of Lisbon", "year": 1894}
@@ -2894,8 +2860,8 @@
 {"person_id": "kgp_iol1929-c3149850", "award": "C.I.E.", "year": 1921}
 {"person_id": "kgp_iol1921-c3067721", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1900-c2250913", "award": "KUMAR", "year": null}
-{"person_id": "kgp_iol1894_supp-c1545217", "award": "K.C.S.I.", "year": null}
-{"person_id": "kgp_iol1903-c2528273", "award": "K.C.S.I.", "year": null}
+{"person_id": "kgp_iol1900-c2250913", "award": "K.C.S.I.", "year": null}
+{"person_id": "kgp_iol1921-c3068579", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1928-c3155018", "award": "Frontier medal, with clasp", "year": null}
 {"person_id": "kgp_iol1906-c2479525", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1947-c1038341", "award": "M.B.E.", "year": 1938}
@@ -3033,7 +2999,7 @@
 {"person_id": "kgp_iol1945-c1045638", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1945-c1045638", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1945-c1045638", "award": "C.I.E.", "year": 1941}
-{"person_id": "kgp_iol1889_supp-c1251313", "award": "M.C.H.", "year": null}
+{"person_id": "kgp_iol1895_supp-c1480646", "award": "M.C.H.", "year": null}
 {"person_id": "kgp_iol1932-c3288812", "award": "C.I.E.", "year": 1931}
 {"person_id": "kgp_iol1932-c3288812", "award": "D.S.O.", "year": null}
 {"person_id": "kgp_iol1945-c1046737", "award": "O.B.E.", "year": null}
@@ -3071,8 +3037,6 @@
 {"person_id": "kgp_iol1937-c3458347", "award": "C.I.E.", "year": 1906}
 {"person_id": "kgp_iol1947-c1071382", "award": "O.B.E.", "year": 1932}
 {"person_id": "kgp_iol1947-c1071382", "award": "C.I.E.", "year": 1943}
-{"person_id": "kgp_iol1939-c1660329", "award": "Rai Bahadur", "year": null}
-{"person_id": "kgp_iol1939-c1660329", "award": "I.S.O.", "year": 1938}
 {"person_id": "kgp_iol1945-c1051398", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1945-c1051398", "award": "I.S.O.", "year": 1938}
 {"person_id": "kgp_iol1921-c3123098", "award": "M.B.", "year": null}
@@ -3303,7 +3267,7 @@
 {"person_id": "kgp_iol1947-c1104029", "award": "G.C.S.I.", "year": null}
 {"person_id": "kgp_iol1947-c1104029", "award": "G.C.I.E.", "year": 1934}
 {"person_id": "kgp_iol1947-c1104029", "award": "G.C.S.I.", "year": 1940}
-{"person_id": "kgp_iol1889_supp-c1282363", "award": "medal for services during the mutiny", "year": null}
+{"person_id": "kgp_iol1908-c2704914", "award": "medal for services during the mutiny", "year": null}
 {"person_id": "kgp_iol1908-c2704914", "award": "C.B.", "year": 1907}
 {"person_id": "kgp_iol1894_supp-c1450561", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1894_supp-c1450561", "award": "C.S.I.", "year": 1872}
@@ -3434,9 +3398,6 @@
 {"person_id": "kgp_iol1906-c2564228", "award": "G.C.S.I.", "year": null}
 {"person_id": "kgp_iol1906-c2564228", "award": "K.C.M.G.", "year": null}
 {"person_id": "kgp_iol1906-c2564228", "award": "C.I.E.", "year": null}
-{"person_id": "kgp_iol1895_supp-c1539553", "award": "G.C.S.I.", "year": null}
-{"person_id": "kgp_iol1895_supp-c1539553", "award": "K.C.M.G.", "year": null}
-{"person_id": "kgp_iol1895_supp-c1539553", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1935-c3589197", "award": "O.B.E.", "year": 1919}
 {"person_id": "kgp_iol1897-c2128254", "award": "G.C.S.I.", "year": null}
 {"person_id": "kgp_iol1897-c2128254", "award": "K.C.M.G.", "year": null}
@@ -3500,10 +3461,8 @@
 {"person_id": "kgp_iol1886_supp-c348452", "award": "medal and clasp", "year": null}
 {"person_id": "kgp_iol1886_supp-c348452", "award": "medal and two clasps", "year": null}
 {"person_id": "kgp_iol1911-c2864103", "award": "C.S.I.", "year": 1906}
-{"person_id": "kgp_iol1889_supp-c1314488", "award": "C.S.I.", "year": 1887}
-{"person_id": "kgp_iol1889_supp-c1314488", "award": "K.C.I.E.", "year": 1887}
-{"person_id": "kgp_iol1908-c2736998", "award": "K.C.I.E.", "year": 1887}
 {"person_id": "kgp_iol1908-c2736998", "award": "C.S.I.", "year": 1887}
+{"person_id": "kgp_iol1908-c2736998", "award": "K.C.I.E.", "year": 1887}
 {"person_id": "kgp_iol1945-c1112825", "award": "A.C.G.I.", "year": null}
 {"person_id": "kgp_iol1945-c1112825", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1945-c1112825", "award": "A.M.I.C.A.", "year": null}
@@ -3660,8 +3619,6 @@
 {"person_id": "kgp_iol1945-c1129401", "award": "M.B.E.", "year": 1944}
 {"person_id": "kgp_iol1906-c2608469", "award": "C.S.I.", "year": 1890}
 {"person_id": "kgp_iol1906-c2608469", "award": "K.C.S.I.", "year": 1895}
-{"person_id": "kgp_iol1895_supp-c1589902", "award": "K.C.S.I.", "year": 1895}
-{"person_id": "kgp_iol1895_supp-c1589902", "award": "C.S.I.", "year": 1890}
 {"person_id": "kgp_iol1931-c3598508", "award": "O.B.E.", "year": 1921}
 {"person_id": "kgp_iol1931-c3598508", "award": "K.-i-H. medal, 2nd class", "year": 1915}
 {"person_id": "kgp_iol1927-c3334276", "award": "C.I.E.", "year": 1892}
@@ -3834,10 +3791,10 @@
 {"person_id": "kgp_iol1925-c3167084", "award": "Raja", "year": null}
 {"person_id": "kgp_iol1925-c3167084", "award": "M.A.", "year": null}
 {"person_id": "kgp_iol1933-c3401315", "award": "M.B.E.", "year": null}
-{"person_id": "kgp_iol1935-c3687218", "award": "C.I.E.", "year": 1932}
-{"person_id": "kgp_iol1935-c3687218", "award": "O.B.E.", "year": 1918}
 {"person_id": "kgp_iol1929-c3382178", "award": "O.B.E.", "year": 1918}
 {"person_id": "kgp_iol1931-c3631805", "award": "O.B.E.", "year": 1918}
+{"person_id": "kgp_iol1935-c3687218", "award": "C.I.E.", "year": 1932}
+{"person_id": "kgp_iol1935-c3687218", "award": "O.B.E.", "year": 1918}
 {"person_id": "kgp_iol1947-c1170015", "award": "C.I.E.", "year": 1946}
 {"person_id": "kgp_iol1936-c3573784", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1936-c3573784", "award": "C.I.E.", "year": null}
@@ -3978,7 +3935,6 @@
 {"person_id": "kgp_iol1899-c2197682", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1928-c3410928", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1912-c3021117", "award": "Diwan Bahadur", "year": null}
-{"person_id": "kgp_iol1903-c2528120", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1908-c2812812", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1945-c1181886", "award": "O.B.E.", "year": 1945}
 {"person_id": "kgp_iol1939-c1855494", "award": "C.S.I.", "year": null}
@@ -4310,16 +4266,11 @@
 {"person_id": "kgp_iol1925-c3140153", "award": "C.I.E.", "year": 1916}
 {"person_id": "kgp_iol1925-c3140153", "award": "C.B.E.", "year": 1919}
 {"person_id": "kgp_iol1947-c1247571", "award": "O.B.E.", "year": 1946}
-{"person_id": "kgp_iol1935-c3812664", "award": "G.C.S.I.", "year": 1932}
-{"person_id": "kgp_iol1935-c3812664", "award": "G.C.I.E.", "year": 1928}
-{"person_id": "kgp_iol1935-c3812664", "award": "K.C.S.I.", "year": 1922}
-{"person_id": "kgp_iol1935-c3812664", "award": "C.S.I.", "year": 1915}
-{"person_id": "kgp_iol1935-c3812664", "award": "C.I.E.", "year": 1911}
-{"person_id": "kgp_iol1940-c1934524", "award": "C.I.E.", "year": 1911}
-{"person_id": "kgp_iol1940-c1934524", "award": "C.S.I.", "year": 1915}
-{"person_id": "kgp_iol1940-c1934524", "award": "K.C.S.I.", "year": 1922}
-{"person_id": "kgp_iol1940-c1934524", "award": "G.C.I.E.", "year": 1928}
 {"person_id": "kgp_iol1940-c1934524", "award": "G.C.S.I.", "year": 1932}
+{"person_id": "kgp_iol1940-c1934524", "award": "G.C.I.E.", "year": 1928}
+{"person_id": "kgp_iol1940-c1934524", "award": "K.C.S.I.", "year": 1922}
+{"person_id": "kgp_iol1940-c1934524", "award": "C.S.I.", "year": 1915}
+{"person_id": "kgp_iol1940-c1934524", "award": "C.I.E.", "year": 1911}
 {"person_id": "kgp_iol1940-c1934524", "award": "G.C.M.G.", "year": 1939}
 {"person_id": "kgp_iol1889_supp-c1415675", "award": "G.C.B.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1415675", "award": "G.C.S.I.", "year": null}
@@ -4368,7 +4319,7 @@
 {"person_id": "kgp_iol1940-c1944254", "award": "O.B.E.", "year": 1918}
 {"person_id": "kgp_iol1895_supp-c1685266", "award": "C.I.E.", "year": 1893}
 {"person_id": "kgp_iol1933-c3534962", "award": "C.I.E.", "year": 1930}
-{"person_id": "kgp_iol1889_supp-c1418144", "award": "M.S.C.", "year": null}
+{"person_id": "kgp_iol1895_supp-c1686018", "award": "M.S.C.", "year": null}
 {"person_id": "kgp_iol1947-c1256227", "award": "G.C.I.E.", "year": 1943}
 {"person_id": "kgp_iol1947-c1256227", "award": "K.C.S.I.", "year": 1937}
 {"person_id": "kgp_iol1947-c1256227", "award": "C.I.E.", "year": 1930}
@@ -4531,11 +4482,10 @@
 {"person_id": "kgp_iol1947-c1278941", "award": "Knighted", "year": 1939}
 {"person_id": "kgp_iol1928-c3522260", "award": "C.S.I.", "year": 1911}
 {"person_id": "kgp_iol1928-c3522260", "award": "C.I.E.", "year": null}
-{"person_id": "kgp_iol1925-c3171373", "award": "M.I.E. (Ind.)", "year": null}
+{"person_id": "kgp_iol1945-c1265288", "award": "M.I.E. (Ind.)", "year": null}
 {"person_id": "kgp_iol1945-c1265288", "award": "K.B.E.", "year": 1942}
 {"person_id": "kgp_iol1945-c1265288", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1945-c1265288", "award": "C.I.E.", "year": null}
-{"person_id": "kgp_iol1945-c1265288", "award": "M.I.E. (Ind.)", "year": null}
 {"person_id": "kgp_iol1945-c1265288", "award": "C.S.I.", "year": 1932}
 {"person_id": "kgp_iol1945-c1265288", "award": "C.I.E.", "year": 1925}
 {"person_id": "kgp_iol1927-c3503448", "award": "D.S.O.", "year": null}
@@ -4760,7 +4710,7 @@
 {"person_id": "kgp_iol1947-c1314908", "award": "C.I.E.", "year": 1944}
 {"person_id": "kgp_iol1947-c1314908", "award": "O.B.E.", "year": 1939}
 {"person_id": "kgp_iol1937-c3866759", "award": "V.D.", "year": null}
-{"person_id": "kgp_iol1927-c3554071", "award": "G.", "year": null}
+{"person_id": "kgp_iol1938-c2005366", "award": "G.", "year": null}
 {"person_id": "kgp_iol1945-c1302889", "award": "O.B.E.", "year": 1935}
 {"person_id": "kgp_iol1938-c2005822", "award": "K.C.S.I.", "year": 1933}
 {"person_id": "kgp_iol1938-c2006188", "award": "C.I.E.", "year": 1926}
@@ -5360,9 +5310,9 @@
 {"person_id": "kgp_iol1947-c1391376", "award": "C.I.E.", "year": 1938}
 {"person_id": "kgp_iol1947-c1391376", "award": "D.S.O.", "year": null}
 {"person_id": "kgp_iol1927-c4141935", "award": "D.S.O.", "year": null}
-{"person_id": "kgp_iol1889_supp-c2012042", "award": "C.I.E.", "year": 1894}
-{"person_id": "kgp_iol1915-c4108025", "award": "C.I.E.", "year": 1894}
+{"person_id": "kgp_iol1892_supp-c2224421", "award": "C.I.E.", "year": 1894}
 {"person_id": "kgp_iol1892_supp-c2224421", "award": "Rao Bahadur", "year": null}
+{"person_id": "kgp_iol1915-c4108025", "award": "C.I.E.", "year": 1894}
 {"person_id": "kgp_iol1921-c3565533", "award": "C.I.E.", "year": 1917}
 {"person_id": "kgp_iol1945-c1380011", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1945-c1380011", "award": "C.I.E.", "year": 1936}
@@ -5425,10 +5375,9 @@
 {"person_id": "kgp_iol1936-c3952986", "award": "King's police medal", "year": null}
 {"person_id": "kgp_iol1917-c3591789", "award": "C.B.", "year": 1917}
 {"person_id": "kgp_iol1917-c3591789", "award": "C.I.E.", "year": 1910}
-{"person_id": "kgp_iol1889_supp-c1544937", "award": "C.B.", "year": 1881}
+{"person_id": "kgp_iol1894_supp-c1756074", "award": "C.B.", "year": 1881}
 {"person_id": "kgp_iol1894_supp-c1756074", "award": "K.C.B.", "year": 1889}
 {"person_id": "kgp_iol1894_supp-c1756074", "award": "I.S.C.", "year": null}
-{"person_id": "kgp_iol1894_supp-c1756074", "award": "C.B.", "year": 1881}
 {"person_id": "kgp_iol1937-c4021439", "award": "C.I.E.", "year": 1933}
 {"person_id": "kgp_iol1886_supp-c529272", "award": "D.D.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1545733", "award": "K.C.B.", "year": null}
@@ -5545,7 +5494,6 @@
 {"person_id": "kgp_iol1908-c3032315", "award": "K-i-H. medal", "year": 1903}
 {"person_id": "kgp_iol1927-c3705992", "award": "knighted", "year": 1922}
 {"person_id": "kgp_iol1947-c1403597", "award": "M.B.E.", "year": 1946}
-{"person_id": "kgp_iol1908-c3010093", "award": "Statutory C.S.", "year": null}
 {"person_id": "kgp_iol1913-c3303691", "award": "Statutory C.S.", "year": null}
 {"person_id": "kgp_iol1916-c3579441", "award": "I.S.O.", "year": 1912}
 {"person_id": "kgp_iol1937-c4047008", "award": "O.B.E.", "year": 1924}
@@ -5573,8 +5521,8 @@
 {"person_id": "kgp_iol1947-c1435822", "award": "DIWAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1945-c1421996", "award": "CHETTUR RAO BAHADUR", "year": null}
 {"person_id": "kgp_iol1910-c3122951", "award": "Rao Bahadur", "year": null}
-{"person_id": "kgp_iol1917-c3610667", "award": "I.S.O.", "year": 1912}
 {"person_id": "kgp_iol1909-c3158009", "award": "Rao Bahadur", "year": null}
+{"person_id": "kgp_iol1917-c3610667", "award": "I.S.O.", "year": 1912}
 {"person_id": "kgp_iol1934-c3644715", "award": "C.S.I.", "year": 1922}
 {"person_id": "kgp_iol1934-c3644715", "award": "C.I.E.", "year": 1912}
 {"person_id": "kgp_iol1912-c3098195", "award": "Rai Bahadur", "year": null}
@@ -5753,9 +5701,7 @@
 {"person_id": "kgp_iol1934-c4349608", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1897-c2536987", "award": "C.S.I.", "year": 1872}
 {"person_id": "kgp_iol1894_supp-c2030323", "award": "C.S.I.", "year": 1872}
-{"person_id": "kgp_iol1889_jan-c1767036", "award": "C.M.G.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1771953", "award": "C.M.G.", "year": null}
-{"person_id": "kgp_iol1901-c2840579", "award": "C.M.G.", "year": null}
 {"person_id": "kgp_iol1904-c2985732", "award": "C.M.G.", "year": null}
 {"person_id": "kgp_iol1919-c3741089", "award": "Khan Bahadur", "year": 1906}
 {"person_id": "kgp_iol1919-c3741089", "award": "C.I.E.", "year": 1912}
@@ -5768,8 +5714,8 @@
 {"person_id": "kgp_iol1940-c3539697", "award": "KHAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1936-c3938113", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1936-c3938113", "award": "Madras C.S.", "year": null}
-{"person_id": "kgp_iol1906-c2881696", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1905-c2788110", "award": "Rao Bahadur", "year": null}
+{"person_id": "kgp_iol1906-c2881696", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1900-c2453306", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1947-c1455588", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1947-c1838698", "award": "C.I.E.", "year": 1935}
@@ -5777,8 +5723,8 @@
 {"person_id": "kgp_iol1935-c4469895", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1908-c3054132", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1886_supp-c550582", "award": "KHAN BAHADUR", "year": null}
-{"person_id": "kgp_iol1893_supp-c1770597", "award": "KHAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1904-c2775180", "award": "Khan Bahadur", "year": null}
+{"person_id": "kgp_iol1893_supp-c1770597", "award": "KHAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1911-c3201743", "award": "Statutory C.S.", "year": null}
 {"person_id": "kgp_iol1907-c2988915", "award": "Statutory C.S.", "year": null}
 {"person_id": "kgp_iol1947-c1460695", "award": "Indian Police Medal", "year": 1943}
@@ -5941,8 +5887,8 @@
 {"person_id": "kgp_iol1915-c3516098", "award": "I.S.O.", "year": 1912}
 {"person_id": "kgp_iol1940-c2250975", "award": "K. S.", "year": null}
 {"person_id": "kgp_iol1938-c2232205", "award": "O.B.E.", "year": 1939}
-{"person_id": "kgp_iol1921-c3656134", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1923-c3275665", "award": "Rao Bahadur", "year": null}
+{"person_id": "kgp_iol1921-c3656134", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1947-c1487008", "award": "O.B.E.", "year": 1946}
 {"person_id": "kgp_iol1911-c3222714", "award": "C.I.E.", "year": 1911}
 {"person_id": "kgp_iol1947-c1487488", "award": "C.I.E.", "year": 1946}
@@ -5955,7 +5901,6 @@
 {"person_id": "kgp_iol1931-c4114569", "award": "M.B.E.", "year": 1941}
 {"person_id": "kgp_iol1931-c4114569", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_iol1947-c1492440", "award": "O.B.E.", "year": 1946}
-{"person_id": "kgp_iol1900-c2419644", "award": "Statutory C.S.", "year": null}
 {"person_id": "kgp_iol1947-c1493884", "award": "King's police medal", "year": 1942}
 {"person_id": "kgp_iol1934-c4010489", "award": "O.B.E.", "year": 1919}
 {"person_id": "kgp_iol1919-c3868210", "award": "F.G.S.", "year": null}
@@ -6184,7 +6129,6 @@
 {"person_id": "kgp_iol1928-c3865065", "award": "O.B.E.", "year": 1919}
 {"person_id": "kgp_iol1928-c3865065", "award": "K.-i.-H. medal, 2nd class", "year": 1900}
 {"person_id": "kgp_iol1919-c3892298", "award": "M.I.C.E.", "year": null}
-{"person_id": "kgp_iol1910-c3205831", "award": "medal and star", "year": 1882}
 {"person_id": "kgp_iol1911-c3264676", "award": "medal and star", "year": 1882}
 {"person_id": "kgp_iol1931-c4174635", "award": "C.B.E.", "year": 1919}
 {"person_id": "kgp_iol1935-c4245171", "award": "O.B.E.", "year": 1919}
@@ -6400,8 +6344,6 @@
 {"person_id": "kgp_iol1938-c2326918", "award": "J.P.", "year": null}
 {"person_id": "kgp_iol1938-c2326918", "award": "D.L.", "year": null}
 {"person_id": "kgp_iol1938-c2326918", "award": "G.C.S.I.", "year": 1943}
-{"person_id": "kgp_iol1886_supp-c604892", "award": "G.C.B.", "year": null}
-{"person_id": "kgp_iol1886_supp-c604892", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1894_supp-c1879343", "award": "G.C.B.", "year": null}
 {"person_id": "kgp_iol1894_supp-c1879343", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1932-c4069307", "award": "O.B.E.", "year": 1919}
@@ -6486,16 +6428,6 @@
 {"person_id": "kgp_iol1939-c2353484", "award": "D.S.O.", "year": null}
 {"person_id": "kgp_iol1939-c2353484", "award": "King's police medal", "year": 1927}
 {"person_id": "kgp_iol1889_supp-c1660110", "award": "C.S.I.", "year": 1888}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "C.S.I.", "year": 1888}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "K.C.S.I.", "year": 1893}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "G.C.S.I.", "year": null}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "K.C.V.O.", "year": null}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "P.C.", "year": null}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "M.A.", "year": null}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "D.C.L.", "year": null}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "G.C.S.I.", "year": 1897}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "K.C.V.O.", "year": 1903}
-{"person_id": "kgp_iol1894_supp-c1895071", "award": "honorary D.C.L., Oxford", "year": 1907}
 {"person_id": "kgp_iol1911-c3318687", "award": "G.C.S.I.", "year": null}
 {"person_id": "kgp_iol1911-c3318687", "award": "K.C.V.O.", "year": 1903}
 {"person_id": "kgp_iol1911-c3318687", "award": "P.C.", "year": null}
@@ -6503,6 +6435,10 @@
 {"person_id": "kgp_iol1911-c3318687", "award": "K.C.S.I.", "year": 1893}
 {"person_id": "kgp_iol1911-c3318687", "award": "G.C.S.I.", "year": 1897}
 {"person_id": "kgp_iol1911-c3318687", "award": "P.C. of Ireland", "year": 1903}
+{"person_id": "kgp_iol1911-c3318687", "award": "K.C.V.O.", "year": null}
+{"person_id": "kgp_iol1911-c3318687", "award": "M.A.", "year": null}
+{"person_id": "kgp_iol1911-c3318687", "award": "D.C.L.", "year": null}
+{"person_id": "kgp_iol1911-c3318687", "award": "honorary D.C.L., Oxford", "year": 1907}
 {"person_id": "kgp_iol1910-c3260970", "award": "C.I.E.", "year": 1905}
 {"person_id": "kgp_iol1886_supp-c617102", "award": "M.S.C.", "year": null}
 {"person_id": "kgp_iol1945-c1542608", "award": "K.C.M.G.", "year": 1945}
@@ -6581,8 +6517,6 @@
 {"person_id": "kgp_iol1921-c3787057", "award": "C.B.", "year": 1911}
 {"person_id": "kgp_iol1921-c3787057", "award": "C.S.I.", "year": 1911}
 {"person_id": "kgp_iol1921-c3787057", "award": "C.I.E.", "year": 1919}
-{"person_id": "kgp_iol1913-c3492247", "award": "C.B.", "year": 1911}
-{"person_id": "kgp_iol1913-c3492247", "award": "C.S.I.", "year": 1911}
 {"person_id": "kgp_iol1901-c2745438", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1912-c3421117", "award": "M.B.", "year": null}
 {"person_id": "kgp_iol1945-c1558939", "award": "M.B.E.", "year": null}
@@ -6773,7 +6707,6 @@
 {"person_id": "kgp_iol1928-c4000501", "award": "C.I.E.", "year": 1893}
 {"person_id": "kgp_iol1945-c1585777", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1945-c1585777", "award": "C.I.E.", "year": 1943}
-{"person_id": "kgp_iol1939-c2427006", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1934-c4186535", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1939-c2427578", "award": "C.B.E.", "year": null}
 {"person_id": "kgp_iol1939-c2427578", "award": "C.B.E.", "year": 1932}
@@ -6820,9 +6753,8 @@
 {"person_id": "kgp_iol1931-c4331918", "award": "K.C.I.E.", "year": 1928}
 {"person_id": "kgp_iol1931-c4331918", "award": "C.S.I.", "year": 1922}
 {"person_id": "kgp_iol1931-c4331918", "award": "C.I.E.", "year": 1919}
-{"person_id": "kgp_iol1889_supp-c1693563", "award": "K.C.I.E.", "year": 1889}
+{"person_id": "kgp_iol1898-c2511338", "award": "K.C.I.E.", "year": 1889}
 {"person_id": "kgp_iol1898-c2511338", "award": "K.C.I.E.", "year": 1880}
-{"person_id": "kgp_iol1895_supp-c2032168", "award": "K.C.I.E.", "year": 1889}
 {"person_id": "kgp_iol1896-c2517104", "award": "K.C.I.E.", "year": 1889}
 {"person_id": "kgp_iol1896-c2517104", "award": "D.C.L.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1694015", "award": "F.R.G.S.", "year": null}
@@ -6922,8 +6854,8 @@
 {"person_id": "kgp_iol1917-c3843897", "award": "C.S.I.", "year": 1911}
 {"person_id": "kgp_iol1937-c4374632", "award": "C.I.E.", "year": 1932}
 {"person_id": "kgp_iol1894_supp-c1954457", "award": "B.S.C.", "year": null}
-{"person_id": "kgp_iol1945-c1608978", "award": "DIWAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1934-c4226719", "award": "Rai Bahadur", "year": null}
+{"person_id": "kgp_iol1945-c1608978", "award": "DIWAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1947-c1620850", "award": "O.B.E.", "year": 1941}
 {"person_id": "kgp_iol1947-c1621518", "award": "O.B.E.", "year": 1933}
 {"person_id": "kgp_iol1947-c1622421", "award": "RAI BAHADUR", "year": null}
@@ -6951,11 +6883,10 @@
 {"person_id": "kgp_iol1910-c3333947", "award": "C.I.E.", "year": 1906}
 {"person_id": "kgp_iol1894_supp-c1957095", "award": "medal", "year": null}
 {"person_id": "kgp_iol1894_supp-c1957095", "award": "C.S.I.", "year": 1892}
+{"person_id": "kgp_iol1945-c1618446", "award": "C.I.E.", "year": 1923}
 {"person_id": "kgp_iol1945-c1618446", "award": "K.C.S.I.", "year": 1939}
 {"person_id": "kgp_iol1945-c1618446", "award": "K.C.I.E.", "year": 1944}
-{"person_id": "kgp_iol1945-c1618446", "award": "C.I.E.", "year": 1923}
 {"person_id": "kgp_iol1945-c1618446", "award": "C.S.I.", "year": 1933}
-{"person_id": "kgp_iol1927-c3995646", "award": "C.I.E.", "year": 1923}
 {"person_id": "kgp_iol1927-c3996336", "award": "K.C.I.E.", "year": null}
 {"person_id": "kgp_iol1927-c3996336", "award": "M.V.O.", "year": null}
 {"person_id": "kgp_iol1927-c3996336", "award": "C.I.E.", "year": 1909}
@@ -7070,12 +7001,10 @@
 {"person_id": "kgp_iol1938-c2381185", "award": "C.I.E.", "year": 1933}
 {"person_id": "kgp_iol1938-c2381734", "award": "C.I.E.", "year": 1922}
 {"person_id": "kgp_iol1924-c3438828", "award": "M.B.E.", "year": 1919}
-{"person_id": "kgp_iol1889_supp-c1726075", "award": "C.B.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1726075", "award": "B.S.C.", "year": null}
-{"person_id": "kgp_iol1894_supp-c1975746", "award": "K.C.B.", "year": 1889}
-{"person_id": "kgp_iol1894_supp-c1975746", "award": "C.B.", "year": 1880}
 {"person_id": "kgp_iol1909-c3327211", "award": "C.B.", "year": null}
+{"person_id": "kgp_iol1909-c3327211", "award": "B.S.C.", "year": null}
 {"person_id": "kgp_iol1909-c3327211", "award": "K.C.B.", "year": 1889}
+{"person_id": "kgp_iol1909-c3327211", "award": "C.B.", "year": 1880}
 {"person_id": "kgp_iol1945-c1566153", "award": "M.B.E.", "year": 1945}
 {"person_id": "kgp_iol1937-c4307330", "award": "C.I.E.", "year": 1934}
 {"person_id": "kgp_iol1945-c1567223", "award": "C.I.E.", "year": null}
@@ -7180,13 +7109,10 @@
 {"person_id": "kgp_iol1945-c1638313", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_iol1910-c3349365", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1927-c4019210", "award": "A.M.I.C.E.", "year": null}
-{"person_id": "kgp_iol1919-c4063633", "award": "K.C.S.I.", "year": 1911}
-{"person_id": "kgp_iol1919-c4063633", "award": "C.S.I.", "year": 1908}
-{"person_id": "kgp_iol1919-c4063633", "award": "V.D.", "year": null}
-{"person_id": "kgp_iol1935-c4470225", "award": "K.C.S.I.", "year": null}
-{"person_id": "kgp_iol1935-c4470225", "award": "V.D.", "year": null}
-{"person_id": "kgp_iol1935-c4470225", "award": "C.S.I.", "year": 1908}
 {"person_id": "kgp_iol1935-c4470225", "award": "K.C.S.I.", "year": 1911}
+{"person_id": "kgp_iol1935-c4470225", "award": "C.S.I.", "year": 1908}
+{"person_id": "kgp_iol1935-c4470225", "award": "V.D.", "year": null}
+{"person_id": "kgp_iol1935-c4470225", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1890_supp-c1861597", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1945-c1638452", "award": "K.C.I.E.", "year": null}
 {"person_id": "kgp_iol1945-c1638452", "award": "C.S.I.", "year": null}
@@ -7319,9 +7245,9 @@
 {"person_id": "kgp_iol1932-c4284170", "award": "K.C.I.E.", "year": 1929}
 {"person_id": "kgp_iol1932-c4284170", "award": "C.S.I.", "year": 1922}
 {"person_id": "kgp_iol1932-c4284170", "award": "C.I.E.", "year": 1917}
-{"person_id": "kgp_iol1910-c3371807", "award": "K.-i-H. medal, 2nd class", "year": 1906}
 {"person_id": "kgp_iol1913-c3599608", "award": "C.I.E.", "year": 1911}
 {"person_id": "kgp_iol1913-c3599608", "award": "K.-i-H. medal, 2nd class", "year": 1906}
+{"person_id": "kgp_iol1910-c3371807", "award": "K.-i-H. medal, 2nd class", "year": 1906}
 {"person_id": "kgp_iol1889_supp-c1751205", "award": "K.C.I.E.", "year": 1888}
 {"person_id": "kgp_iol1905-c2977470", "award": "K.C.I.E.", "year": 1888}
 {"person_id": "kgp_iol1928-c4099881", "award": "C.I.E.", "year": 1914}
@@ -7412,7 +7338,6 @@
 {"person_id": "kgp_iol1935-c4538050", "award": "C.S.I.", "year": 1931}
 {"person_id": "kgp_iol1935-c4538050", "award": "C.I.E.", "year": 1925}
 {"person_id": "kgp_iol1935-c4538050", "award": "King's police medal", "year": 1918}
-{"person_id": "kgp_iol1889_supp-c1763854", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1904-c2974217", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1931-c4459981", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_iol1931-c4459981", "award": "M.B.E.", "year": 1935}
@@ -7703,8 +7628,7 @@
 {"person_id": "kgp_iol1947-c1744739", "award": "M.B.E.", "year": 1941}
 {"person_id": "kgp_iol1937-c4051987", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1927-c4119141", "award": "RAI BAHADUR", "year": null}
-{"person_id": "kgp_iol1939-c2622338", "award": "Rai Bahadur", "year": null}
-{"person_id": "kgp_iol1939-c2622338", "award": "RAI BAHADUR", "year": null}
+{"person_id": "kgp_iol1940-c2626450", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1940-c2626450", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1920-c3841499", "award": "K.C.S.I.", "year": 1919}
 {"person_id": "kgp_iol1920-c3841499", "award": "C.I.E.", "year": 1903}
@@ -7870,8 +7794,6 @@
 {"person_id": "kgp_iol1940-c2669180", "award": "A.M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1940-c2669180", "award": "C.I.E.", "year": 1938}
 {"person_id": "kgp_iol1919-c4186757", "award": "K.-i-H. medal, 1st class", "year": 1917}
-{"person_id": "kgp_iol1889_supp-c1812168", "award": "C.S.I.", "year": 1888}
-{"person_id": "kgp_iol1889_supp-c1812168", "award": "C.I.E.", "year": 1883}
 {"person_id": "kgp_iol1909-c3475952", "award": "K.C.M.G.", "year": 1902}
 {"person_id": "kgp_iol1909-c3475952", "award": "C.S.I.", "year": 1888}
 {"person_id": "kgp_iol1909-c3475952", "award": "C.I.E.", "year": 1883}
@@ -8041,9 +7963,8 @@
 {"person_id": "kgp_iol1938-c2668824", "award": "K.C.", "year": null}
 {"person_id": "kgp_iol1932-c4449589", "award": "O.B.E.", "year": 1919}
 {"person_id": "kgp_iol1937-c4627012", "award": "A.R.I.B.A.", "year": null}
-{"person_id": "kgp_iol1940-c2698539", "award": "O.B.E.", "year": 1939}
-{"person_id": "kgp_iol1947-c1791406", "award": "C.I.E.", "year": 1946}
 {"person_id": "kgp_iol1947-c1791406", "award": "O.B.E.", "year": 1939}
+{"person_id": "kgp_iol1947-c1791406", "award": "C.I.E.", "year": 1946}
 {"person_id": "kgp_iol1947-c1793716", "award": "M.B.E.", "year": 1946}
 {"person_id": "kgp_iol1940-c2701473", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1940-c2701473", "award": "F.R.C.S.E.", "year": null}
@@ -8063,8 +7984,8 @@
 {"person_id": "kgp_iol1900-c2753058", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1935-c4700240", "award": "B.A.", "year": null}
 {"person_id": "kgp_iol1935-c4700240", "award": "Barr.", "year": 1904}
-{"person_id": "kgp_iol1909-c3500880", "award": "B.A.", "year": 1904}
-{"person_id": "kgp_iol1909-c3500880", "award": "Barr.", "year": null}
+{"person_id": "kgp_iol1935-c4700240", "award": "B.A.", "year": 1904}
+{"person_id": "kgp_iol1935-c4700240", "award": "Barr.", "year": null}
 {"person_id": "kgp_iol1945-c1790455", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1945-c1790455", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1945-c1790455", "award": "C.S.I.", "year": 1942}
@@ -8073,17 +7994,16 @@
 {"person_id": "kgp_iol1940-c2711517", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1940-c2711517", "award": "P.M.S.", "year": null}
 {"person_id": "kgp_iol1893_supp-c2067444", "award": "C.I.E.", "year": 1887}
-{"person_id": "kgp_iol1889_supp-c1827853", "award": "C.I.E.", "year": 1887}
 {"person_id": "kgp_iol1945-c1791981", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1945-c1791981", "award": "O.B.E.", "year": 1941}
 {"person_id": "kgp_iol1889_supp-c1241458", "award": "medal and clasp", "year": null}
 {"person_id": "kgp_iol1947-c1801447", "award": "O.B.E.", "year": 1946}
 {"person_id": "kgp_iol1945-c1793001", "award": "Kaisar-i-Hind medal, 1st class", "year": 1916}
 {"person_id": "kgp_iol1945-c1793001", "award": "K.-i.-H. medal, 1st class", "year": 1916}
-{"person_id": "kgp_iol1919-c4219180", "award": "I.S.O.", "year": 1916}
-{"person_id": "kgp_iol1919-c4219180", "award": "L.C.E.", "year": null}
 {"person_id": "kgp_iol1921-c4047824", "award": "I.S.O.", "year": 1916}
 {"person_id": "kgp_iol1921-c4047824", "award": "L.C.E.", "year": null}
+{"person_id": "kgp_iol1919-c4219180", "award": "I.S.O.", "year": 1916}
+{"person_id": "kgp_iol1919-c4219180", "award": "L.C.E.", "year": null}
 {"person_id": "kgp_iol1925-c3737210", "award": "I.S.O.", "year": 1916}
 {"person_id": "kgp_iol1925-c3737210", "award": "L.C.E.", "year": null}
 {"person_id": "kgp_iol1947-c1803552", "award": "O.B.E.", "year": 1944}
@@ -8153,7 +8073,6 @@
 {"person_id": "kgp_iol1947-c1817205", "award": "C.S.I.", "year": 1934}
 {"person_id": "kgp_iol1947-c1817205", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1947-c1818625", "award": "M.B.E.", "year": 1944}
-{"person_id": "kgp_iol1914-c3810310", "award": "C.I.E.", "year": 1910}
 {"person_id": "kgp_iol1936-c4603719", "award": "C.I.E.", "year": 1910}
 {"person_id": "kgp_iol1936-c4603719", "award": "K.C.I.E.", "year": 1915}
 {"person_id": "kgp_iol1945-c1810187", "award": "C.S.I.", "year": null}
@@ -8165,7 +8084,6 @@
 {"person_id": "kgp_iol1919-c4234016", "award": "I.S.O.", "year": 1917}
 {"person_id": "kgp_iol1939-c2739807", "award": "C.I.E.", "year": 1943}
 {"person_id": "kgp_iol1921-c4064277", "award": "M.B.E.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1836982", "award": "C.I.E.", "year": 1889}
 {"person_id": "kgp_iol1893_supp-c2078957", "award": "C.I.E.", "year": 1889}
 {"person_id": "kgp_iol1945-c1812969", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1900-c3113112", "award": "K.C.I.E.", "year": null}
@@ -8186,8 +8104,7 @@
 {"person_id": "kgp_iol1945-c1816035", "award": "O.B.E.", "year": 1944}
 {"person_id": "kgp_iol1945-c1816035", "award": "F.I.C.", "year": null}
 {"person_id": "kgp_iol1945-c1816035", "award": "F.R.A.S.", "year": null}
-{"person_id": "kgp_iol1889_jan-c1833037", "award": "queen's counsel", "year": 1850}
-{"person_id": "kgp_iol1889_jan-c1833037", "award": "privy councillor", "year": 1870}
+{"person_id": "kgp_iol1889_supp-c1838103", "award": "queen's counsel", "year": 1850}
 {"person_id": "kgp_iol1889_supp-c1838103", "award": "privy councillor", "year": 1870}
 {"person_id": "kgp_iol1937-c4672966", "award": "F.I.C.", "year": null}
 {"person_id": "kgp_iol1937-c4672966", "award": "F.C.S.", "year": null}
@@ -8282,9 +8199,8 @@
 {"person_id": "kgp_iol1934-c4539004", "award": "C.I.E.", "year": 1924}
 {"person_id": "kgp_iol1933-c4435387", "award": "M.B.E.", "year": 1933}
 {"person_id": "kgp_iol1945-c1826038", "award": "C.I.E.", "year": 1937}
-{"person_id": "kgp_iol1893_supp-c2094740", "award": "C.B.", "year": 1879}
-{"person_id": "kgp_iol1893_supp-c2094740", "award": "K.C.B.", "year": 1897}
 {"person_id": "kgp_iol1895_supp-c2234390", "award": "C.B.", "year": 1879}
+{"person_id": "kgp_iol1895_supp-c2234390", "award": "K.C.B.", "year": 1897}
 {"person_id": "kgp_iol1913-c3736767", "award": "medal and clasp", "year": null}
 {"person_id": "kgp_iol1894_supp-c2126175", "award": "C.B.", "year": 1879}
 {"person_id": "kgp_iol1894_supp-c2126175", "award": "K.C.B.", "year": 1897}
@@ -8309,7 +8225,6 @@
 {"person_id": "kgp_iol1904-c3076604", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1896-c2641259", "award": "medal", "year": null}
 {"person_id": "kgp_iol1931-c4661459", "award": "C.I.E.", "year": 1919}
-{"person_id": "kgp_iol1886_supp-c761130", "award": "Q.C.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1858006", "award": "Q.C.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1858006", "award": "K.C.", "year": null}
 {"person_id": "kgp_iol1938-c2728946", "award": "KHAN BAHADUR", "year": null}
@@ -8485,10 +8400,9 @@
 {"person_id": "kgp_iol1895_supp-c2266998", "award": "C.M.", "year": null}
 {"person_id": "kgp_iol1895_supp-c2266998", "award": "medal", "year": null}
 {"person_id": "kgp_iol1907-c3332203", "award": "C.I.E.", "year": 1902}
-{"person_id": "kgp_iol1889_supp-c1880999", "award": "medal and two clasps", "year": null}
+{"person_id": "kgp_iol1906-c3216975", "award": "M.S.C.", "year": null}
+{"person_id": "kgp_iol1906-c3216975", "award": "medal and two clasps", "year": null}
 {"person_id": "kgp_iol1906-c3216975", "award": "C.I.E.", "year": 1895}
-{"person_id": "kgp_iol1895_supp-c2268359", "award": "medal and two clasps", "year": null}
-{"person_id": "kgp_iol1886_supp-c777776", "award": "M.S.C.", "year": null}
 {"person_id": "kgp_iol1895_supp-c2270067", "award": "M.D.", "year": null}
 {"person_id": "kgp_iol1895_supp-c2270067", "award": "F.R.C.S.I.", "year": null}
 {"person_id": "kgp_iol1895_supp-c2270067", "award": "M.R.I.A.", "year": null}
@@ -8586,7 +8500,7 @@
 {"person_id": "kgp_iol1947-c1867216", "award": "K.C.I.E.", "year": 1946}
 {"person_id": "kgp_iol1947-c1867216", "award": "C.I.E.", "year": 1944}
 {"person_id": "kgp_iol1945-c1863301", "award": "M.B.E.", "year": 1944}
-{"person_id": "kgp_iol1889_supp-c1896107", "award": "K.C.I.E.", "year": 1904}
+{"person_id": "kgp_iol1895_supp-c2288278", "award": "K.C.I.E.", "year": 1904}
 {"person_id": "kgp_iol1895_supp-c2288278", "award": "Indian C.S. (Bengal)", "year": null}
 {"person_id": "kgp_iol1947-c1868949", "award": "K.C.I.E.", "year": 1943}
 {"person_id": "kgp_iol1947-c1868949", "award": "C.I.E.", "year": 1936}
@@ -8700,7 +8614,7 @@
 {"person_id": "kgp_iol1929-c4425263", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_iol1932-c4601858", "award": "M.A.", "year": null}
 {"person_id": "kgp_iol1932-c4601858", "award": "C.S.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1907276", "award": "RAI BAHADUR", "year": null}
+{"person_id": "kgp_iol1892_supp-c2104846", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1892_supp-c2104846", "award": "Dewan Bahadur", "year": null}
 {"person_id": "kgp_iol1892_supp-c2104846", "award": "DEWAN BAHADUR", "year": null}
 {"person_id": "kgp_iol1892_supp-c2104846", "award": "C.I.E.", "year": 1900}
@@ -8716,8 +8630,8 @@
 {"person_id": "kgp_iol1947-c1901772", "award": "C.I.E.", "year": 1933}
 {"person_id": "kgp_iol1947-c1901772", "award": "M.B.E.", "year": 1919}
 {"person_id": "kgp_iol1932-c4604156", "award": "M.B.E.", "year": 1919}
-{"person_id": "kgp_iol1898-c2685133", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1900-c3113424", "award": "Rai Bahadur", "year": null}
+{"person_id": "kgp_iol1898-c2685133", "award": "RAI BAHADUR", "year": null}
 {"person_id": "kgp_iol1947-c1902901", "award": "C.I.E.", "year": 1944}
 {"person_id": "kgp_iol1940-c2851675", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1934-c4642727", "award": "M.B.E.", "year": 1921}
@@ -8762,8 +8676,8 @@
 {"person_id": "kgp_iol1947-c1920811", "award": "C.I.E.", "year": 1942}
 {"person_id": "kgp_iol1937-c4810072", "award": "Khan Bahadur", "year": null}
 {"person_id": "kgp_iol1939-c2873118", "award": "Rai Bahadur", "year": null}
-{"person_id": "kgp_iol1886_supp-c635959", "award": "Rao Bahurdur", "year": null}
 {"person_id": "kgp_iol1889_supp-c1683948", "award": "C.I.E.", "year": 1887}
+{"person_id": "kgp_iol1889_supp-c1683948", "award": "Rao Bahurdur", "year": null}
 {"person_id": "kgp_iol1897-c2475031", "award": "C.I.E.", "year": 1887}
 {"person_id": "kgp_iol1947-c1921974", "award": "G.B.E.", "year": null}
 {"person_id": "kgp_iol1947-c1921974", "award": "C.B.", "year": null}
@@ -8794,28 +8708,21 @@
 {"person_id": "kgp_iol1892_supp-c2112983", "award": "C.S.I.", "year": null}
 {"person_id": "kgp_iol1913-c3812336", "award": "C.I.E.", "year": 1905}
 {"person_id": "kgp_iol1896-c2993822", "award": "G.C.B.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "K.C.B.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "F.R.S.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "C.B.", "year": 1844}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "K.L.S., 1st class", "year": 1844}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "K.C.B.", "year": 1856}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "D.C.L. of Oxford", "year": null}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "LL.D. of Cambridge", "year": null}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "LL.D. of Edinburgh", "year": null}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "chevalier of the 'Order of Merit' in Prussia", "year": null}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "associate member of the French Institute", "year": null}
-{"person_id": "kgp_iol1889_supp-c1916534", "award": "associate member of academy of Munich", "year": null}
-{"person_id": "kgp_iol1894_supp-c2199102", "award": "G.C.B.", "year": null}
+{"person_id": "kgp_iol1894_supp-c2199102", "award": "K.C.B.", "year": null}
 {"person_id": "kgp_iol1894_supp-c2199102", "award": "F.R.S.", "year": null}
-{"person_id": "kgp_iol1894_supp-c2199102", "award": "military C.B.", "year": 1844}
+{"person_id": "kgp_iol1894_supp-c2199102", "award": "C.B.", "year": 1844}
 {"person_id": "kgp_iol1894_supp-c2199102", "award": "K.L.S., 1st class", "year": 1844}
-{"person_id": "kgp_iol1894_supp-c2199102", "award": "civil K.C.B.", "year": 1856}
-{"person_id": "kgp_iol1894_supp-c2199102", "award": "honorary D.C.L. of Oxford", "year": null}
+{"person_id": "kgp_iol1894_supp-c2199102", "award": "K.C.B.", "year": 1856}
+{"person_id": "kgp_iol1894_supp-c2199102", "award": "D.C.L. of Oxford", "year": null}
 {"person_id": "kgp_iol1894_supp-c2199102", "award": "LL.D. of Cambridge", "year": null}
 {"person_id": "kgp_iol1894_supp-c2199102", "award": "LL.D. of Edinburgh", "year": null}
 {"person_id": "kgp_iol1894_supp-c2199102", "award": "chevalier of the 'Order of Merit' in Prussia", "year": null}
 {"person_id": "kgp_iol1894_supp-c2199102", "award": "associate member of the French Institute", "year": null}
 {"person_id": "kgp_iol1894_supp-c2199102", "award": "associate member of academy of Munich", "year": null}
+{"person_id": "kgp_iol1894_supp-c2199102", "award": "G.C.B.", "year": null}
+{"person_id": "kgp_iol1894_supp-c2199102", "award": "military C.B.", "year": 1844}
+{"person_id": "kgp_iol1894_supp-c2199102", "award": "civil K.C.B.", "year": 1856}
+{"person_id": "kgp_iol1894_supp-c2199102", "award": "honorary D.C.L. of Oxford", "year": null}
 {"person_id": "kgp_iol1924-c3751570", "award": "G.C.B.", "year": null}
 {"person_id": "kgp_iol1924-c3751570", "award": "G.C.S.I.", "year": 1924}
 {"person_id": "kgp_iol1924-c3751570", "award": "G.C.V.O.", "year": null}
@@ -8913,8 +8820,7 @@
 {"person_id": "kgp_iol1934-c4693769", "award": "I.S.O.", "year": 1925}
 {"person_id": "kgp_iol1914-c3919316", "award": "B.S.C.", "year": null}
 {"person_id": "kgp_iol1914-c3919316", "award": "Barr.", "year": 1886}
-{"person_id": "kgp_iol1892_supp-c2126753", "award": "Barr.", "year": 1886}
-{"person_id": "kgp_iol1892_supp-c2126753", "award": "V.S.C.", "year": null}
+{"person_id": "kgp_iol1914-c3919316", "award": "V.S.C.", "year": null}
 {"person_id": "kgp_iol1934-c4693955", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_iol1892_supp-c2127158", "award": "medal", "year": null}
 {"person_id": "kgp_iol1924-c3766540", "award": "C.I.E.", "year": 1922}
@@ -9086,7 +8992,6 @@
 {"person_id": "kgp_iol1931-c4830522", "award": "C.S.I.", "year": 1916}
 {"person_id": "kgp_iol1919-c4380815", "award": "India medal and two clasps", "year": 1897}
 {"person_id": "kgp_iol1934-c4731679", "award": "F.R.G.S.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1953556", "award": "M.R.A.C.", "year": null}
 {"person_id": "kgp_iol1893_supp-c2210960", "award": "M.R.A.C.", "year": null}
 {"person_id": "kgp_iol1947-c1961367", "award": "M.I.E.E.", "year": null}
 {"person_id": "kgp_iol1906-c3283510", "award": "K.G.", "year": 1869}
@@ -9135,11 +9040,9 @@
 {"person_id": "kgp_iol1936-c4832600", "award": "F.R.C.S.", "year": null}
 {"person_id": "kgp_iol1936-c4832600", "award": "K.C.S.I.", "year": 1932}
 {"person_id": "kgp_iol1936-c4832600", "award": "C.I.E.", "year": 1911}
-{"person_id": "kgp_iol1900-c2817158", "award": "medal", "year": null}
 {"person_id": "kgp_iol1895_supp-c2366193", "award": "medal", "year": null}
 {"person_id": "kgp_iol1895_supp-c2366193", "award": "brevet of major", "year": null}
-{"person_id": "kgp_iol1889_supp-c1957017", "award": "medal", "year": null}
-{"person_id": "kgp_iol1889_supp-c1957017", "award": "brevet of major", "year": null}
+{"person_id": "kgp_iol1900-c2817158", "award": "medal", "year": null}
 {"person_id": "kgp_iol1931-c4840682", "award": "C.I.E.", "year": 1924}
 {"person_id": "kgp_iol1947-c1965619", "award": "M.B.E.", "year": 1945}
 {"person_id": "kgp_iol1938-c1660774", "award": "Rai Bahadur", "year": 1939}
@@ -9363,7 +9266,6 @@
 {"person_id": "kgp_iol1931-c4898363", "award": "C.I.E.", "year": 1943}
 {"person_id": "kgp_iol1920-c4117580", "award": "C.I.E.", "year": 1918}
 {"person_id": "kgp_iol1935-c5014509", "award": "O.B.E.", "year": null}
-{"person_id": "kgp_iol1889_supp-c1977943", "award": "medal", "year": 1868}
 {"person_id": "kgp_iol1893_supp-c2238879", "award": "medal", "year": 1868}
 {"person_id": "kgp_iol1889_supp-c1978780", "award": "K.C.S.I.", "year": null}
 {"person_id": "kgp_iol1889_supp-c1978780", "award": "K.C.S.I.", "year": 1879}
@@ -9624,7 +9526,7 @@
 {"person_id": "kgp_iol1917-c4255682", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1939-c3067531", "award": "Rai Bahadur", "year": null}
 {"person_id": "kgp_iol1939-c3067531", "award": "P.C.", "year": 1934}
-{"person_id": "kgp_iol1935-c5077044", "award": "P.C.", "year": null}
+{"person_id": "kgp_iol1939-c3067531", "award": "P.C.", "year": null}
 {"person_id": "kgp_iol1947-c2059189", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1923-c3857025", "award": "K.C.S.I.", "year": 1922}
 {"person_id": "kgp_iol1923-c3857025", "award": "C.I.E.", "year": null}
@@ -9976,11 +9878,10 @@
 {"person_id": "kgp_iol1919-c4524861", "award": "K.C.V.O.", "year": 1916}
 {"person_id": "kgp_iol1919-c4524861", "award": "C.I.E.", "year": 1901}
 {"person_id": "kgp_iol1919-c4524861", "award": "C.S.I.", "year": 1909}
-{"person_id": "kgp_iol1928-c4637746", "award": "C.B.", "year": 1918}
+{"person_id": "kgp_iol1928-c4637746", "award": "C.B.", "year": null}
 {"person_id": "kgp_iol1928-c4637746", "award": "C.I.E.", "year": 1922}
-{"person_id": "kgp_iol1925-c4015755", "award": "C.B.", "year": null}
-{"person_id": "kgp_iol1925-c4015755", "award": "C.I.E.", "year": 1922}
-{"person_id": "kgp_iol1889_supp-c2032162", "award": "M.S.C.", "year": null}
+{"person_id": "kgp_iol1928-c4637746", "award": "C.B.", "year": 1918}
+{"person_id": "kgp_iol1894_supp-c2334870", "award": "M.S.C.", "year": null}
 {"person_id": "kgp_iol1926-c4104050", "award": "C.I.E.", "year": 1894}
 {"person_id": "kgp_iol1926-c4104050", "award": "V.C.", "year": null}
 {"person_id": "kgp_iol1926-c4104050", "award": "C.V.O.", "year": 1911}
@@ -10119,7 +10020,6 @@
 {"person_id": "kgp_iol1947-c2143965", "award": "C.I.E.", "year": 1946}
 {"person_id": "kgp_iol1947-c2143965", "award": "O.B.E.", "year": 1938}
 {"person_id": "kgp_iol1895_supp-c2472344", "award": "C.B.", "year": null}
-{"person_id": "kgp_iol1923-c3933834", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1931-c5071058", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1931-c5071058", "award": "O.B.E.", "year": 1920}
 {"person_id": "kgp_iol1947-c2145156", "award": "M.B.E.", "year": 1942}
@@ -10277,9 +10177,6 @@
 {"person_id": "kgp_iol1895_supp-c2489495", "award": "C.B.", "year": 1868}
 {"person_id": "kgp_iol1895_supp-c2489495", "award": "K.C.B.", "year": 1880}
 {"person_id": "kgp_iol1895_supp-c2489495", "award": "K.C.B.", "year": null}
-{"person_id": "kgp_iol1886_supp-c911232", "award": "G.C.B.", "year": null}
-{"person_id": "kgp_iol1886_supp-c911232", "award": "G.C.S.I.", "year": null}
-{"person_id": "kgp_iol1886_supp-c911232", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1945-c2153301", "award": "M.C.", "year": null}
 {"person_id": "kgp_iol1945-c2153540", "award": "C.I.E.", "year": 1931}
 {"person_id": "kgp_iol1945-c2153540", "award": "M.C.", "year": null}
@@ -10623,8 +10520,8 @@
 {"person_id": "kgp_iol1933-c4968675", "award": "King's Police Medal", "year": 1928}
 {"person_id": "kgp_iol1945-c2200961", "award": "C.I.E.", "year": 1932}
 {"person_id": "kgp_iol1945-c2200961", "award": "O.B.E.", "year": 1919}
+{"person_id": "kgp_iol1933-c4969582", "award": "M.B.", "year": null}
 {"person_id": "kgp_iol1933-c4969582", "award": "C.I.E.", "year": 1930}
-{"person_id": "kgp_iol1922-c4043462", "award": "M.B.", "year": null}
 {"person_id": "kgp_iol1901-c3148441", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1912-c3980137", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_iol1940-c3276592", "award": "C.S.I.", "year": null}
@@ -10695,8 +10592,6 @@
 {"person_id": "kgp_iol1898-c2861983", "award": "LL.D. (Cantab.)", "year": null}
 {"person_id": "kgp_iol1928-c4763568", "award": "C.B.", "year": 1916}
 {"person_id": "kgp_iol1928-c4763568", "award": "C.I.E.", "year": 1894}
-{"person_id": "kgp_iol1889_supp-c2100857", "award": "G.C.S.I.", "year": null}
-{"person_id": "kgp_iol1889_supp-c2100857", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_iol1934-c5101055", "award": "M.C.", "year": null}
 {"person_id": "kgp_iol1947-c2211953", "award": "C.I.E.", "year": 1946}
 {"person_id": "kgp_iol1947-c2211953", "award": "M.C.", "year": null}
@@ -10712,8 +10607,8 @@
 {"person_id": "kgp_iol1913-c3327473", "award": "I.S.O.", "year": 1912}
 {"person_id": "kgp_iol1904-c2756112", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1933-c4985266", "award": "RAI BAHADUR THAKUR", "year": null}
+{"person_id": "kgp_iol1934-c5104529", "award": "T.D.M.", "year": null}
 {"person_id": "kgp_iol1934-c5104529", "award": "Bahadur", "year": null}
-{"person_id": "kgp_iol1927-c4659232", "award": "T.D.M.", "year": null}
 {"person_id": "kgp_iol1947-c2215506", "award": "C.I.E.", "year": 1944}
 {"person_id": "kgp_iol1933-c4985987", "award": "M.B.E.", "year": 1917}
 {"person_id": "kgp_iol1933-c4985987", "award": "O.B.E.", "year": 1929}
@@ -10728,7 +10623,7 @@
 {"person_id": "kgp_iol1920-c2781162", "award": "G.M.S.I.", "year": 1916}
 {"person_id": "kgp_iol1920-c2781162", "award": "G.M.I.E.", "year": 1916}
 {"person_id": "kgp_iol1907-c3594891", "award": "C.I.E.", "year": 1906}
-{"person_id": "kgp_iol1927-c4660180", "award": "K.S.M.", "year": null}
+{"person_id": "kgp_iol1934-c5106627", "award": "K.S.M.", "year": null}
 {"person_id": "kgp_iol1945-c2215693", "award": "M.C.", "year": null}
 {"person_id": "kgp_iol1945-c2215693", "award": "C.I.E.", "year": 1943}
 {"person_id": "kgp_iol1937-c5261953", "award": "D.S.O.", "year": null}
@@ -10848,7 +10743,6 @@
 {"person_id": "kgp_iol1933-c5013712", "award": "C.I.E.", "year": 1925}
 {"person_id": "kgp_iol1947-c2233058", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1886_supp-c953858", "award": "C.I.E.", "year": null}
-{"person_id": "kgp_iol1928-c4794233", "award": "Diwan Bahadur", "year": null}
 {"person_id": "kgp_iol1920-c4360974", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1933-c5014479", "award": "Diwan Bahadur", "year": null}
 {"person_id": "kgp_iol1939-c3352145", "award": "D.S.O.", "year": null}
@@ -10959,7 +10853,6 @@
 {"person_id": "kgp_iol1932-c5104692", "award": "medal and clasp", "year": 1904}
 {"person_id": "kgp_iol1920-c4380503", "award": "C.I.E.", "year": 1901}
 {"person_id": "kgp_iol1911-c3926803", "award": "C.I.E.", "year": 1891}
-{"person_id": "kgp_iol1895_supp-c2584257", "award": "C.I.E.", "year": 1891}
 {"person_id": "kgp_iol1940-c3341680", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1940-c3341680", "award": "O.B.E.", "year": 1938}
 {"person_id": "kgp_iol1945-c2248824", "award": "K.I.H. medal", "year": 1938}
@@ -11052,7 +10945,7 @@
 {"person_id": "kgp_iol1939-c3364551", "award": "V.D.", "year": null}
 {"person_id": "kgp_iol1910-c3870954", "award": "C.I.E.", "year": 1898}
 {"person_id": "kgp_iol1912-c4046628", "award": "C.I.E.", "year": 1898}
-{"person_id": "kgp_iol1939-c3365306", "award": "Rao Bahadur", "year": null}
+{"person_id": "kgp_iol1940-c3365865", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1919-c4700411", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1922-c4117319", "award": "Rao Bahadur", "year": null}
 {"person_id": "kgp_iol1913-c4130165", "award": "M.A.", "year": null}
@@ -11370,7 +11263,6 @@
 {"person_id": "kgp_iol1933-c5143883", "award": "C.B.E.", "year": 1929}
 {"person_id": "kgp_iol1945-c2318246", "award": "O.B.E.", "year": 1944}
 {"person_id": "kgp_iol1945-c2318246", "award": "N.D.A.", "year": null}
-{"person_id": "kgp_iol1889_supp-c2195525", "award": "C.I.E.", "year": 1886}
 {"person_id": "kgp_iol1927-c4791658", "award": "C.I.E.", "year": 1886}
 {"person_id": "kgp_iol1894_supp-c2515086", "award": "C.I.E.", "year": 1886}
 {"person_id": "kgp_iol1947-c2321340", "award": "O.B.E.", "year": 1939}
@@ -11576,8 +11468,6 @@
 {"person_id": "kgp_iol1945-c2347516", "award": "M.C.", "year": null}
 {"person_id": "kgp_iol1924-c4175479", "award": "M.I.E.E.", "year": null}
 {"person_id": "kgp_iol1947-c2348860", "award": "V.D.", "year": null}
-{"person_id": "kgp_iol1894_supp-c2553135", "award": "C.I.E.", "year": 1878}
-{"person_id": "kgp_iol1894_supp-c2553135", "award": "K.C.I.E.", "year": 1893}
 {"person_id": "kgp_iol1895_supp-c2684497", "award": "K.C.I.E.", "year": 1893}
 {"person_id": "kgp_iol1895_supp-c2684497", "award": "C.I.E.", "year": 1878}
 {"person_id": "kgp_iol1947-c2349592", "award": "M.B.E.", "year": 1944}
@@ -11751,9 +11641,8 @@
 {"person_id": "kgp_iol1940-c3503640", "award": "M.B.E.", "year": 1918}
 {"person_id": "kgp_iol1940-c3503640", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_iol1915-c4404726", "award": "M.S.M.", "year": null}
-{"person_id": "kgp_iol1889_supp-c2249545", "award": "C.I.E.", "year": 1886}
-{"person_id": "kgp_iol1910-c3981723", "award": "K.C.I.E.", "year": null}
 {"person_id": "kgp_iol1910-c3981723", "award": "C.I.E.", "year": 1886}
+{"person_id": "kgp_iol1910-c3981723", "award": "K.C.I.E.", "year": null}
 {"person_id": "kgp_iol1936-c3695325", "award": "D.S.O.", "year": null}
 {"person_id": "kgp_iol1930-c5213182", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_iol1930-c5213182", "award": "D.D.", "year": null}
