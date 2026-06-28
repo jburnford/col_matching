@@ -60,7 +60,8 @@ COUNTRY_COLONY = {
     "Q754":  ("Q116282722", "Trinidad and Tobago"),       # Trinidad and Tobago
     "Q769":  ("Q3116419", "Grenada Colony"),              # Grenada
     "Q784":  ("Q784", "Dominica Colony"),                 # Dominica
-    "Q757":  ("Q15240466", "Saint Lucia Colony"),         # Saint Lucia
+    "Q757":  ("Q15240384", "St. Vincent Colony"),         # St Vincent & the Grenadines
+    "Q760":  ("Q15238409", "Saint Lucia Colony"),         # Saint Lucia
     "Q1011": ("Q3557236", "Gambia Colony and Protectorate"),  # Cape Verde? no -> skip below; Gambia=Q1005
     "Q1005": ("Q3557236", "Gambia Colony and Protectorate"),  # Gambia
     "Q1037": ("Q30059027", "Sierra Leone Colony"),        # Sierra Leone
@@ -188,7 +189,12 @@ def fetch_geo(qids):
     return out
 
 
-def ungrounded_place_qids():
+def all_place_qids():
+    """Every grounded place_qid in either corpus. The crosswalk must be COMPLETE,
+    not just over currently-ungrounded places: resolve_colony recomputes colonies
+    on every emit, so a place dropped from the crosswalk would lose the colony it
+    was previously given (re-emit must be idempotent). Polity places that resolve
+    earlier via the empire-KG index simply never consult their crosswalk entry."""
     qids = set()
     for path in ("data/kg/graph_stage3/places.jsonl", "data/iol/graph_stage3/places.jsonl"):
         p = ROOT / path
@@ -196,7 +202,7 @@ def ungrounded_place_qids():
             continue
         for l in p.open():
             d = json.loads(l)
-            if d.get("qid") and not d.get("colony_qid"):
+            if d.get("qid"):
                 qids.add(d["qid"])
     return sorted(qids)
 
@@ -298,7 +304,7 @@ def country_to_colony(country_qid):
 def main():
     global _COL_QIDS, _COL_ALIAS, _NORM
     _COL_QIDS, _COL_ALIAS, _NORM = load_existing_colonies()
-    qids = ungrounded_place_qids()
+    qids = all_place_qids()
     if GEO_CACHE.exists():
         geo = json.loads(GEO_CACHE.read_text())
         missing = [q for q in qids if q not in geo]
