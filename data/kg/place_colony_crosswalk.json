@@ -380,9 +380,9 @@
 "method": "self_colony"
 },
 "Q1042": {
-"colony_qid": "Q1042",
-"colony_label": "Farquhar Islands",
-"method": "self_colony"
+"colony_qid": "Q21821453",
+"colony_label": "Seychelles",
+"method": "override"
 },
 "Q1045": {
 "colony_qid": "Q1045",
@@ -2015,8 +2015,8 @@
 "method": "country_walk"
 },
 "Q1635196": {
-"colony_qid": "Q662653",
-"colony_label": "British Somaliland",
+"colony_qid": "Q30059027",
+"colony_label": "Sierra Leone Colony and Protectorate",
 "method": "country_walk"
 },
 "Q163584": {
@@ -2385,8 +2385,8 @@
 "method": "admin_walk"
 },
 "Q1778860": {
-"colony_qid": "Q662653",
-"colony_label": "British Somaliland",
+"colony_qid": "Q30059027",
+"colony_label": "Sierra Leone Colony and Protectorate",
 "method": "country_walk"
 },
 "Q1779859": {
@@ -3205,8 +3205,8 @@
 "method": "country_walk"
 },
 "Q2001267": {
-"colony_qid": "Q662653",
-"colony_label": "British Somaliland",
+"colony_qid": "Q30059027",
+"colony_label": "Sierra Leone Colony and Protectorate",
 "method": "country_walk"
 },
 "Q200166": {
@@ -3255,8 +3255,8 @@
 "method": "country_fallback"
 },
 "Q2006220": {
-"colony_qid": "Q662653",
-"colony_label": "British Somaliland",
+"colony_qid": "Q30059027",
+"colony_label": "Sierra Leone Colony and Protectorate",
 "method": "country_walk"
 },
 "Q2006534": {
@@ -3438,6 +3438,11 @@
 "colony_qid": "Q2056970",
 "colony_label": "Patna State",
 "method": "self_colony"
+},
+"Q20618539": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "override"
 },
 "Q2062030": {
 "colony_qid": "Q2062030",
@@ -5920,8 +5925,8 @@
 "method": "country_is_colony"
 },
 "Q3780": {
-"colony_qid": "Q662653",
-"colony_label": "British Somaliland",
+"colony_qid": "Q30059027",
+"colony_label": "Sierra Leone Colony and Protectorate",
 "method": "country_walk"
 },
 "Q379656": {
@@ -6038,6 +6043,11 @@
 "colony_qid": "Q12053604",
 "colony_label": "Isle de France (British Occupation)",
 "method": "country_walk"
+},
+"Q3940": {
+"colony_qid": "Q21821453",
+"colony_label": "Seychelles",
+"method": "override"
 },
 "Q3960459": {
 "colony_qid": "Q3960459",
@@ -6919,6 +6929,11 @@
 "colony_label": "United Kingdom (metropole)",
 "method": "metropole_uk"
 },
+"Q5505": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
 "Q550691": {
 "colony_qid": "Q129286",
 "colony_label": "Indian Empire (British Raj)",
@@ -7115,8 +7130,8 @@
 "method": "admin_walk"
 },
 "Q597538": {
-"colony_qid": "Q662653",
-"colony_label": "British Somaliland",
+"colony_qid": "Q30059027",
+"colony_label": "Sierra Leone Colony and Protectorate",
 "method": "country_walk"
 },
 "Q598658": {
@@ -8080,8 +8095,8 @@
 "method": "province_walk"
 },
 "Q772185": {
-"colony_qid": "Q662653",
-"colony_label": "British Somaliland",
+"colony_qid": "Q30059027",
+"colony_label": "Sierra Leone Colony and Protectorate",
 "method": "country_walk"
 },
 "Q773213": {
@@ -8183,6 +8198,11 @@
 "colony_qid": "Q117",
 "colony_label": "Cape Coast Castle",
 "method": "country_is_colony"
+},
+"Q7926662": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
 },
 "Q793283": {
 "colony_qid": "Q84",
@@ -8835,8 +8855,8 @@
 "method": "country_is_colony"
 },
 "Q912359": {
-"colony_qid": "Q662653",
-"colony_label": "British Somaliland",
+"colony_qid": "Q30059027",
+"colony_label": "Sierra Leone Colony and Protectorate",
 "method": "country_walk"
 },
 "Q913399": {

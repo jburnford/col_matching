@@ -176,11 +176,20 @@ def resolve_colony(place_row: dict, ttl_path: str | None = None,
         n = qid2[qid]
         return _out(n["qid"], n["label"], f"{n.get('source', 'ttl')}_qid")
     n = lab2.get(_norm(label.split("(")[0]))
-    if n:
-        return _out(n["qid"], n["label"], f"{n.get('source', 'ttl')}_label")
     # Locality not a polity itself: roll up via the lineage-walk crosswalk.
     cw = _crosswalk(str(crosswalk_path or _CROSSWALK_PATH))
     m = cw.get(qid) if qid else None
+    if n:
+        # A precise QID-anchored sub-national rollup (admin_walk / province_walk)
+        # beats a bare label-string match: reused toponyms ("Victoria" = the
+        # Australian colony's name AND Victoria, BC) otherwise misroute a
+        # correctly-grounded QID to the wrong continent. Coarse crosswalk methods
+        # (country_walk / metropole_uk) do NOT override — they are less specific
+        # than the curated label index (keeps e.g. Assam->Bengal, Ireland->UK).
+        if (m and m["colony_qid"] != n["qid"]
+                and m.get("method") in ("admin_walk", "province_walk")):
+            return _out(m["colony_qid"], m["colony_label"], m["method"])
+        return _out(n["qid"], n["label"], f"{n.get('source', 'ttl')}_label")
     if m:
         return _out(m["colony_qid"], m["colony_label"], m.get("method", "crosswalk"))
     return {"colony_qid": None, "colony_label": None, "method": "unresolved"}

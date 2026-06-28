@@ -1,0 +1,4601 @@
+[
+ {
+  "person_id": "kgp_col1958-p273b4",
+  "qid": "Q25930035",
+  "wd_name": "Arthur Abbott",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Attorney-General of Western Australia",
+    "place": "Western Australia",
+    "start": "1948",
+    "end": "1953",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the Western Australian Legislative Assembly",
+    "place": "Western Australia",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p863b15",
+  "qid": "Q25930035",
+  "wd_name": "Arthur Abbott",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Attorney-General of Western Australia",
+    "place": "Western Australia",
+    "start": "1948",
+    "end": "1953",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the Western Australian Legislative Assembly",
+    "place": "Western Australia",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p201b10",
+  "qid": "Q22980469",
+  "wd_name": "Anthony Abell",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Brunei",
+    "place": "the United Kingdom to Brunei",
+    "start": "1950",
+    "end": "1958",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1953-p247b10",
+  "qid": "Q1300807",
+  "wd_name": "Sidney Abrahams",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Chief Justice of Sri Lanka",
+    "place": "Sri Lanka",
+    "start": "1936",
+    "end": "1939",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1889-p436b8",
+  "qid": "Q1680212",
+  "wd_name": "James Cox Aikins",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the Senate of Canada",
+    "place": "Ontario",
+    "start": "1896",
+    "end": "1900",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p254b19",
+  "qid": "Q5144843",
+  "wd_name": "Colin Allan",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Seychelles",
+    "place": "the Seychelles",
+    "start": "1973",
+    "end": "1975",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1883-p352b8",
+  "qid": "Q5546254",
+  "wd_name": "George Wigram Allen",
+  "tier": "C",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Mayor of The Glebe",
+    "place": "Municipality of The Glebe",
+    "start": "1859",
+    "end": "1878",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1929-p869b3",
+  "qid": "Q5541059",
+  "wd_name": "George James Anderson",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Minister of Internal Affairs",
+    "place": "New Zealand",
+    "start": "1920",
+    "end": "1921",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the New Zealand Parliament",
+    "place": "New Zealand",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1880-p344b10",
+  "qid": "Q6218961",
+  "wd_name": "John Anderson",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of British Ceylon",
+    "place": "British Ceylon",
+    "start": "1916",
+    "end": "1918",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1930-p905b16",
+  "qid": "Q104636428",
+  "wd_name": "Edward John Arnett",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Resident",
+    "place": "spy base",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1925-p810b16",
+  "qid": "Q4731549",
+  "wd_name": "Allen Bristol Aylesworth",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the Senate of Canada",
+    "place": "Ontario",
+    "start": "1945",
+    "end": "1949",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1914-p655b3",
+  "qid": "Q5536850",
+  "wd_name": "George Beeby",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "chief judge",
+    "place": "United States",
+    "start": "1939",
+    "end": "1941",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1917-p699b13",
+  "qid": "Q5536850",
+  "wd_name": "George Beeby",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "chief judge",
+    "place": "United States",
+    "start": "1939",
+    "end": "1941",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_dol1935-p835b4",
+  "qid": "Q742508",
+  "wd_name": "Francis Bell",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Mayor of Wellington",
+    "place": "Wellington City",
+    "start": "1897",
+    "end": "1897",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1928-p991b16",
+  "qid": "Q108454478",
+  "wd_name": "Louis Benjamin",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "King's Counsel",
+    "place": "Cape Colony",
+    "start": "1907",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p877b16",
+  "qid": "Q128641",
+  "wd_name": "Richard Bedford Bennett",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1918-p688b4",
+  "qid": "Q9310734",
+  "wd_name": "Robert Best",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the Victorian Legislative Assembly",
+    "place": "Victoria",
+    "start": "1889",
+    "end": "1901",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1923-p759b6",
+  "qid": "Q1356587",
+  "wd_name": "Ernest Woodford Birch",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of North Borneo",
+    "place": "British North Borneo",
+    "start": "1901",
+    "end": "1903",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_dol1935-p838b2",
+  "qid": "Q6222012",
+  "wd_name": "John Bitchener",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the New Zealand Parliament",
+    "place": "New Zealand",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p215b2",
+  "qid": "Q29843583",
+  "wd_name": "Jack Boles",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Sheriff of Devon",
+    "place": "Devon",
+    "start": "1993",
+    "end": "1994",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1927-p863b10",
+  "qid": "Q657712",
+  "wd_name": "Hewitt Bostock",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1896",
+    "end": "1900",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Speaker of the Senate",
+    "place": "Canada",
+    "start": "1922",
+    "end": "1930",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p209b13",
+  "qid": "Q11178760",
+  "wd_name": "Denis Bray",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "justice of the peace",
+    "place": "the peace",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1917-p712b24",
+  "qid": "Q5075843",
+  "wd_name": "Charles Bruce",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "justice of the peace",
+    "place": "the peace",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "rector",
+    "place": "educational institution",
+    "start": "1868",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1948-p426b3",
+  "qid": "Q1445926",
+  "wd_name": "Alan Burns",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1942",
+    "end": "1947",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1878-p369b7",
+  "qid": "Q602067",
+  "wd_name": "Isaac Burpee",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1878",
+    "end": "1882",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1914-p672b9",
+  "qid": "Q334449",
+  "wd_name": "Thomas Fowell Buxton",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "member of the 19th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1865",
+    "end": "1868",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "High Sheriff of Norfolk",
+    "place": "Norfolk",
+    "start": "1875",
+    "end": "1876",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1927-p876b15",
+  "qid": "Q2578236",
+  "wd_name": "William Campion",
+  "tier": "A",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "member of the 29th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1910",
+    "end": "1910",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 31st Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1918",
+    "end": "1922",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 32nd Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1922",
+    "end": "1923",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 33rd Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1923",
+    "end": "1924",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 30th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1910",
+    "end": "1918",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1912-p646b5",
+  "qid": "Q7326872",
+  "wd_name": "Richard John Cartwright",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the Senate of Canada",
+    "place": "Ontario",
+    "start": "1904",
+    "end": "1908",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1917-p721b11",
+  "qid": "Q3815649",
+  "wd_name": "Robert Chalmers, 1st Baron Chalmers",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p901b3",
+  "qid": "Q8011937",
+  "wd_name": "William Henry Clark",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to South Africa",
+    "place": "the United Kingdom to South Africa",
+    "start": "1934",
+    "end": "1939",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1920-p789b5",
+  "qid": "Q957756",
+  "wd_name": "Hugh Clifford",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1912",
+    "end": "1919",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of North Borneo",
+    "place": "British North Borneo",
+    "start": "1900",
+    "end": "1901",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1924-p818b20",
+  "qid": "Q267820",
+  "wd_name": "Wilfred Collet",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of British Guiana",
+    "place": "British Guiana",
+    "start": "1917",
+    "end": "1923",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1909-p658b14",
+  "qid": "Q6226756",
+  "wd_name": "John Colomb",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "member of the 24th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1886",
+    "end": "1892",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 26th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1895",
+    "end": "1900",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 27th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1900",
+    "end": "1906",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p230b10",
+  "qid": "Q107340153",
+  "wd_name": "Alexander Cools-Lartigue",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "puisne judge",
+    "place": "Colony of Jamaica",
+    "start": "1953",
+    "end": "1964",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1950-p486b21",
+  "qid": "Q5549036",
+  "wd_name": "Gerald Creasy",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1948",
+    "end": "1949",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1883-p373b9",
+  "qid": "Q601187",
+  "wd_name": "Donald Currie",
+  "tier": "A",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "member of the 26th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1895",
+    "end": "1900",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 23rd Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1885",
+    "end": "1886",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 22nd Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1880",
+    "end": "1885",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 24th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1886",
+    "end": "1892",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 25th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1892",
+    "end": "1895",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1879-p390b13",
+  "qid": "Q1237685",
+  "wd_name": "Dominick Daly",
+  "tier": "B",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "Governor of Tobago",
+    "place": "Tobago",
+    "start": "1852",
+    "end": "1852",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the Legislative Assembly of the Province of Canada",
+    "place": "Province of Canada",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Lieutenant Governor of Prince Edward Island",
+    "place": "Prince Edward Island",
+    "start": "1854",
+    "end": "1858",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1910-p664b7",
+  "qid": "Q6740851",
+  "wd_name": "Malachy Bowes Daly",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1878",
+    "end": "1882",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1906-p659b11",
+  "qid": "Q15937439",
+  "wd_name": "Walter Meredith Deane",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "justice of the peace",
+    "place": "the peace",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p302b24",
+  "qid": "Q97253212",
+  "wd_name": "Arthur Dickson",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "high court judge",
+    "place": "Uganda",
+    "start": "1967",
+    "end": "1971",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "King's Counsel",
+    "place": "Belize",
+    "start": "1979",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Chief Justice of Belize",
+    "place": "Belize",
+    "start": "1973",
+    "end": "1974",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1951-p526b13",
+  "qid": "Q97253212",
+  "wd_name": "Arthur Dickson",
+  "tier": "A",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "high court judge",
+    "place": "Lagos",
+    "start": "1958",
+    "end": "1962",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "high court judge",
+    "place": "Uganda",
+    "start": "1967",
+    "end": "1971",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "King's Counsel",
+    "place": "Belize",
+    "start": "1979",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Chief Justice of Belize",
+    "place": "Belize",
+    "start": "1973",
+    "end": "1974",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "magistrate",
+    "place": "Colonial Nigeria",
+    "start": "1952",
+    "end": "1962",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1883-p378b17",
+  "qid": "Q3181373",
+  "wd_name": "John Douglas",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the New South Wales Legislative Assembly",
+    "place": "New South Wales",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1905-p641b17",
+  "qid": "Q137138",
+  "wd_name": "Hector Fabre",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the Senate of Canada",
+    "place": "Quebec",
+    "start": "1875",
+    "end": "1878",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p928b17",
+  "qid": "Q125468619",
+  "wd_name": "Charles Fannin",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "director",
+    "place": "Colony of Trinidad",
+    "start": "1942",
+    "end": "1945",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1918-p738b20",
+  "qid": "Q432816",
+  "wd_name": "Francis Fleming",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Attorney General of Sri Lanka",
+    "place": "Sri Lanka",
+    "start": "1883",
+    "end": "1886",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1921-p820b12",
+  "qid": "Q648593",
+  "wd_name": "Edmund James Flynn",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Bâtonnier de Québec",
+    "place": "Capitale-Nationale",
+    "start": "1907",
+    "end": "1909",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1909-p712b11",
+  "qid": "Q482172",
+  "wd_name": "Amédée E. Forget",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the Senate of Canada",
+    "place": "Alberta",
+    "start": "1911",
+    "end": "1911",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1924-p848b20",
+  "qid": "Q3101555",
+  "wd_name": "George Eulas Foster",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the Senate of Canada",
+    "place": "Ontario",
+    "start": "1925",
+    "end": "1926",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p249b12",
+  "qid": "Q7349788",
+  "wd_name": "Robert Sidney Foster",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "Governor of Fiji",
+    "place": "Colony of Fiji",
+    "start": "1968",
+    "end": "1970",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor-General of Fiji",
+    "place": "Fiji",
+    "start": "1970",
+    "end": "1973",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of the Solomon Islands",
+    "place": "the Solomon Islands",
+    "start": "1964",
+    "end": "1968",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1937-p913b10",
+  "qid": "Q107340555",
+  "wd_name": "Cecil Furness-Smith",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Chief Justice of Trinidad and Tobago",
+    "place": "Trinidad and Tobago",
+    "start": "1946",
+    "end": "1953",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p240b10",
+  "qid": "Q4798781",
+  "wd_name": "Arthur Galsworthy",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to New Zealand",
+    "place": "the United Kingdom to New Zealand",
+    "start": "1969",
+    "end": "1973",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "Governor of Pitcairn",
+    "place": "Pitcairn Islands",
+    "start": "1970",
+    "end": "1973",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1948-p457b7",
+  "qid": "Q4798781",
+  "wd_name": "Arthur Galsworthy",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to New Zealand",
+    "place": "the United Kingdom to New Zealand",
+    "start": "1969",
+    "end": "1973",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "Governor of Pitcairn",
+    "place": "Pitcairn Islands",
+    "start": "1970",
+    "end": "1973",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1867-p230b19",
+  "qid": "Q1302087",
+  "wd_name": "Alexander Tilloch Galt",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commission of Canada to the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1880",
+    "end": "1883",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p241b7",
+  "qid": "Q6829734",
+  "wd_name": "Michael David Irving Gass",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Solomon Islands",
+    "place": "the Solomon Islands",
+    "start": "1969",
+    "end": "1973",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p940b9",
+  "qid": "Q5491361",
+  "wd_name": "Franklin Gimson",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Hong Kong",
+    "place": "British Hong Kong",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1932-p937b16",
+  "qid": "Q7087522",
+  "wd_name": "Oliver Ernest Goonetilleke",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Minister of Finance of Sri Lanka",
+    "place": "Sri Lanka",
+    "start": "1953",
+    "end": "1954",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Ministry of Public Administration and Home Affairs",
+    "place": "Sri Lanka",
+    "start": "1947",
+    "end": "1953",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1909-p719b16",
+  "qid": "Q6237639",
+  "wd_name": "John Hannah Gordon",
+  "tier": "A",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "Justice of the South Australian Supreme Court",
+    "place": "South Australia",
+    "start": "1903",
+    "end": "1923",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the South Australian Legislative Council",
+    "place": "South Australia",
+    "start": "1893",
+    "end": "1903",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Minister of Education",
+    "place": "South Australia",
+    "start": "1889",
+    "end": "1890",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Chief Secretary of South Australia",
+    "place": "South Australia",
+    "start": "1893",
+    "end": "1896",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Attorney-General of South Australia",
+    "place": "South Australia",
+    "start": "1899",
+    "end": "1903",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1925-p883b20",
+  "qid": "Q764557",
+  "wd_name": "Lomer Gouin",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1922",
+    "end": "1925",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1889-p485b16",
+  "qid": "Q977758",
+  "wd_name": "John Hamilton Gray",
+  "tier": "C",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1867",
+    "end": "1872",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p257b15",
+  "qid": "Q4149749",
+  "wd_name": "Bruce Greatbatch",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Seychelles",
+    "place": "the Seychelles",
+    "start": "1969",
+    "end": "1973",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1889-p486b10",
+  "qid": "Q20823179",
+  "wd_name": "William Henry Gregory",
+  "tier": "B",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "member of the 19th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1865",
+    "end": "1868",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 18th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1859",
+    "end": "1865",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 14th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1842",
+    "end": "1847",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 20th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1868",
+    "end": "1872",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 17th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1857",
+    "end": "1859",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p947b3",
+  "qid": "Q651599",
+  "wd_name": "Arthur Grimble",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Windward Islands",
+    "place": "British Windward Islands",
+    "start": "1942",
+    "end": "1948",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1939-p1008b6",
+  "qid": "Q15998099",
+  "wd_name": "Laurence Guillemard",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Malaysia",
+    "place": "the United Kingdom to Malaysia",
+    "start": "",
+    "end": "",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1948-p465b15",
+  "qid": "Q15998099",
+  "wd_name": "Laurence Guillemard",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Malaysia",
+    "place": "the United Kingdom to Malaysia",
+    "start": "",
+    "end": "",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1907-p661b2",
+  "qid": "Q8005851",
+  "wd_name": "William Brampton Gurdon",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "member of the 27th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1900",
+    "end": "1906",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 26th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1899",
+    "end": "1900",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 28th Parliament of the United Kingdom",
+    "place": "United Kingdom of Great Britain and Ireland",
+    "start": "1906",
+    "end": "1910",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p950b19",
+  "qid": "Q57834134",
+  "wd_name": "Walter Hankinson",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Sri Lanka",
+    "place": "the United Kingdom to Sri Lanka",
+    "start": "1948",
+    "end": "1951",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p951b4",
+  "qid": "Q5343781",
+  "wd_name": "Edward John Harding",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to South Africa",
+    "place": "the United Kingdom to South Africa",
+    "start": "1940",
+    "end": "1941",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1909-p728b17",
+  "qid": "Q5075044",
+  "wd_name": "Charles Alexander Harris",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Newfoundland",
+    "place": "Newfoundland",
+    "start": "1917",
+    "end": "1922",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1937-p931b20_s5",
+  "qid": "Q10863034",
+  "wd_name": "Henry Heath",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Commissioner of Police",
+    "place": "Hong Kong",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p955b22",
+  "qid": "Q108047659",
+  "wd_name": "Guy Henderson",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "Solicitor-General of British Singapore",
+    "place": "Colony of Singapore",
+    "start": "1946",
+    "end": "1948",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "King's Counsel",
+    "place": "Uganda Protectorate",
+    "start": "1949",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Attorney General of Uganda",
+    "place": "Uganda",
+    "start": "1948",
+    "end": "1951",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p251b13",
+  "qid": "Q15967634",
+  "wd_name": "James Hennessy",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "His Majesty's Chief Inspector of Prisons",
+    "place": "Wales",
+    "start": "1982",
+    "end": "1987",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "His Majesty's Chief Inspector of Prisons",
+    "place": "England",
+    "start": "1982",
+    "end": "1987",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Uganda",
+    "place": "the United Kingdom to Uganda",
+    "start": "1973",
+    "end": "1976",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1877-p381b16",
+  "qid": "Q2607815",
+  "wd_name": "John Pope Hennessy",
+  "tier": "B",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1872",
+    "end": "1872",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of Sierra Leone",
+    "place": "Sierra Leone",
+    "start": "1872",
+    "end": "1873",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of Barbados",
+    "place": "Barbados",
+    "start": "1875",
+    "end": "1876",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1964-p296b9",
+  "qid": "Q10863030",
+  "wd_name": "Robert Henry",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Commissioner of Police",
+    "place": "Hong Kong",
+    "start": "1979",
+    "end": "1985",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1867-p236b20",
+  "qid": "Q108052540",
+  "wd_name": "Furcy Herchenroder",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "chief justice",
+    "place": "Crown Colony of Seychelles",
+    "start": "1903",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1886-p453b10",
+  "qid": "Q5925808",
+  "wd_name": "James Macaulay Higginson",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Antigua",
+    "place": "Colony of Antigua",
+    "start": "1847",
+    "end": "1850",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1878-p397b6",
+  "qid": "Q5481296",
+  "wd_name": "Francis Hincks",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Barbados",
+    "place": "Barbados",
+    "start": "1856",
+    "end": "1862",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1897-p510b7",
+  "qid": "Q7795149",
+  "wd_name": "Thomas William Hislop",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Mayor of Wellington",
+    "place": "Wellington City",
+    "start": "1905",
+    "end": "1908",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p253b13",
+  "qid": "Q8967560",
+  "wd_name": "Eric Peter Ho",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "justice of the peace",
+    "place": "the peace",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_dol1935-p913b15",
+  "qid": "Q4795308",
+  "wd_name": "Arnold Wienholt Hodson",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1934",
+    "end": "1941",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of the Falkland Islands",
+    "place": "the Falkland Islands",
+    "start": "1927",
+    "end": "1930",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p963b8",
+  "qid": "Q373508",
+  "wd_name": "C. D. Howe",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Minister of Railways and Canals",
+    "place": "Railways and Canals",
+    "start": "1935",
+    "end": "1936",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1939-p1025b7",
+  "qid": "Q30716129",
+  "wd_name": "Walter Huggard",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the Legislative Council of Kenya",
+    "place": "East Africa Protectorate",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1923-p844b2",
+  "qid": "Q5540872",
+  "wd_name": "George Hunter",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the New Zealand Parliament",
+    "place": "New Zealand",
+    "start": "1896",
+    "end": "1930",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1939-p1026b9",
+  "qid": "Q1252358",
+  "wd_name": "Douglas James Jardine",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Leeward Islands",
+    "place": "British Leeward Islands",
+    "start": "1941",
+    "end": "1943",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p969b18",
+  "qid": "Q107394062",
+  "wd_name": "James Jarrett",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "chief justice",
+    "place": "Leeward Islands",
+    "start": "1940",
+    "end": "1943",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "chief justice",
+    "place": "Windward Islands",
+    "start": "1940",
+    "end": "1943",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p970b10",
+  "qid": "Q125575197",
+  "wd_name": "Cecil Jeffery",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Secretary of the Cabinet",
+    "place": "the Cabinet",
+    "start": "1935",
+    "end": "1946",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1964-p309b11",
+  "qid": "Q4497273",
+  "wd_name": "Charles Hepburn Johnston",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Australia",
+    "place": "the United Kingdom to Australia",
+    "start": "1965",
+    "end": "1971",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1956-p346b20",
+  "qid": "Q6220320",
+  "wd_name": "John Baines Johnston",
+  "tier": "A",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Sierra Leone",
+    "place": "the United Kingdom to Sierra Leone",
+    "start": "1961",
+    "end": "1963",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Malaysia",
+    "place": "the United Kingdom to Malaysia",
+    "start": "1971",
+    "end": "1974",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Southern Rhodesia",
+    "place": "the United Kingdom to Southern Rhodesia",
+    "start": "1964",
+    "end": "1965",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Canada",
+    "place": "the United Kingdom to Canada",
+    "start": "1974",
+    "end": "1978",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Rhodesia and Nyasaland",
+    "place": "the United Kingdom to Rhodesia and Nyasaland",
+    "start": "1963",
+    "end": "1963",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1962-p372b23",
+  "qid": "Q17404010",
+  "wd_name": "Derek Jones",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "justice of the peace",
+    "place": "the peace",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p261b16",
+  "qid": "Q17404010",
+  "wd_name": "Derek Jones",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "justice of the peace",
+    "place": "the peace",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1961-p377b24",
+  "qid": "Q17404010",
+  "wd_name": "Derek Jones",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "justice of the peace",
+    "place": "the peace",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1932-p972b15",
+  "qid": "Q6243236",
+  "wd_name": "John Kirwan",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "Member of the Western Australian Legislative Council",
+    "place": "Western Australia",
+    "start": "1908",
+    "end": "1946",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "President of the Western Australian Legislative Council",
+    "place": "Western Australia",
+    "start": "1926",
+    "end": "1946",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the Australian House of Representatives",
+    "place": "Australia",
+    "start": "1901",
+    "end": "1903",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1897-p522b18",
+  "qid": "Q128664",
+  "wd_name": "Wilfrid Laurier",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the National Assembly of Quebec",
+    "place": "Quebec",
+    "start": "1871",
+    "end": "1874",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1936-p940b9",
+  "qid": "Q5670487",
+  "wd_name": "Harry Lawson",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the Australian Senate",
+    "place": "Australia",
+    "start": "1929",
+    "end": "1935",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p984b5",
+  "qid": "Q1483872",
+  "wd_name": "John A. Lee",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the New Zealand Parliament",
+    "place": "New Zealand",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1896-p610b5",
+  "qid": "Q4101390",
+  "wd_name": "Charles Lees",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1876",
+    "end": "1876",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p271b23",
+  "qid": "Q1028861",
+  "wd_name": "Donald Luddington",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Solomon Islands",
+    "place": "the Solomon Islands",
+    "start": "1973",
+    "end": "1976",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1911-p721b16",
+  "qid": "Q1158950",
+  "wd_name": "William Lyne",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "member of the Australian House of Representatives",
+    "place": "Australia",
+    "start": "1901",
+    "end": "1913",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Treasurer of Australia",
+    "place": "Australia",
+    "start": "1907",
+    "end": "1908",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p996b3",
+  "qid": "Q57832832",
+  "wd_name": "Ian Maclennan",
+  "tier": "A",
+  "n_extra": 4,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Ghana",
+    "place": "the United Kingdom to Ghana",
+    "start": "1957",
+    "end": "1959",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to New Zealand",
+    "place": "the United Kingdom to New Zealand",
+    "start": "1964",
+    "end": "1969",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Rhodesia and Nyasaland",
+    "place": "the United Kingdom to Rhodesia and Nyasaland",
+    "start": "1951",
+    "end": "1953",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Southern Rhodesia",
+    "place": "the United Kingdom to Southern Rhodesia",
+    "start": "1953",
+    "end": "1955",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1933-p953b6",
+  "qid": "Q5080539",
+  "wd_name": "Charles Macmillan",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Member of the New Zealand Parliament",
+    "place": "New Zealand",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Minister of Agriculture",
+    "place": "New Zealand",
+    "start": "1932",
+    "end": "1935",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1886-p470b11",
+  "qid": "Q1175226",
+  "wd_name": "David Lewis Macpherson",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the Senate of Canada",
+    "place": "Ontario",
+    "start": "1896",
+    "end": "1896",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1962-p396b19",
+  "qid": "Q76266455",
+  "wd_name": "Edward Walter Moyle Magor",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Sheriff of Cornwall",
+    "place": "Cornwall",
+    "start": "1981",
+    "end": "1982",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1928-p1116b13",
+  "qid": "Q3133487",
+  "wd_name": "Herbert Meredith Marler",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "Canadian ambassador to the United States",
+    "place": "United States",
+    "start": "",
+    "end": "",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "Canadian ambassador to the United States",
+    "place": "Canada",
+    "start": "",
+    "end": "",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1921",
+    "end": "1925",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1931-p1083b7",
+  "qid": "Q966669",
+  "wd_name": "Vincent Massey",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Canadian ambassador to the United States",
+    "place": "Canada",
+    "start": "",
+    "end": "",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "Governor General of Canada",
+    "place": "Canada",
+    "start": "1952",
+    "end": "1959",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p1004b8",
+  "qid": "Q1396581",
+  "wd_name": "Ugo Pasquale Mifsud",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "justice minister",
+    "place": " minister",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1964-p339b2",
+  "qid": "Q4718998",
+  "wd_name": "Alexander Graham Mitchell",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Turks and Caicos Islands",
+    "place": "Turks and Caicos Islands",
+    "start": "1973",
+    "end": "1975",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1879-p433b4",
+  "qid": "Q2090332",
+  "wd_name": "Peter Mitchell",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1887",
+    "end": "1891",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1961-p412b16",
+  "qid": "Q6249382",
+  "wd_name": "John Moreton",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Malta",
+    "place": "the United Kingdom to Malta",
+    "start": "1972",
+    "end": "1974",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1937-p983b6",
+  "qid": "Q8015915",
+  "wd_name": "William Mulock",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1900",
+    "end": "1904",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_dol1935-p959b17",
+  "qid": "Q8014579",
+  "wd_name": "William Lindsay Murphy",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor-General of the Federation of Rhodesia and Nyasaland",
+    "place": "the Federation of Rhodesia and Nyasaland",
+    "start": "1957",
+    "end": "1957",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p293b20",
+  "qid": "Q57832868",
+  "wd_name": "Angus Mackintosh",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Sri Lanka",
+    "place": "the United Kingdom to Sri Lanka",
+    "start": "1969",
+    "end": "1973",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1920-p882b14",
+  "qid": "Q2607962",
+  "wd_name": "Francis Henry May",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "justice of the peace",
+    "place": "the peace",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "High Commissioner for the Western Pacific",
+    "place": "British Western Pacific Territories",
+    "start": "1911",
+    "end": "1912",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1912-p736b22_s1",
+  "qid": "Q356361",
+  "wd_name": "Alfred Milner, 1st Viscount Milner",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "Secretary of State for the Colonies",
+    "place": "Kingdom of Great Britain",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Secretary of State for War",
+    "place": "Kingdom of Great Britain",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p1010b13",
+  "qid": "Q721770",
+  "wd_name": "Walter Nash",
+  "tier": "A",
+  "n_extra": 7,
+  "extra": [
+   {
+    "pos": "Minister for Māori Development",
+    "place": "New Zealand",
+    "start": "1957",
+    "end": "1960",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Prime Minister of New Zealand",
+    "place": "New Zealand",
+    "start": "1957",
+    "end": "1960",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Minister of Foreign Affairs",
+    "place": "New Zealand",
+    "start": "1957",
+    "end": "1960",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Leader of the Opposition",
+    "place": "New Zealand",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Minister of Social Development",
+    "place": "New Zealand",
+    "start": "1938",
+    "end": "1940",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the New Zealand Parliament",
+    "place": "New Zealand",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Minister of Finance",
+    "place": "New Zealand",
+    "start": "1935",
+    "end": "1949",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_dol1935-p960b22",
+  "qid": "Q973005",
+  "wd_name": "Matthew Nathan",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "High Sheriff of Somerset",
+    "place": "Somerset",
+    "start": "1934",
+    "end": "1935",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1900",
+    "end": "1904",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1925-p951b8",
+  "qid": "Q1441667",
+  "wd_name": "Francis Newdegate",
+  "tier": "A",
+  "n_extra": 6,
+  "extra": [
+   {
+    "pos": "member of the 30th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1910",
+    "end": "1917",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 26th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1895",
+    "end": "1900",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 25th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1892",
+    "end": "1895",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 28th Parliament of the United Kingdom",
+    "place": "United Kingdom of Great Britain and Ireland",
+    "start": "1909",
+    "end": "1910",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 29th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1910",
+    "end": "1910",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 27th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1900",
+    "end": "1906",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1948-p514b13",
+  "qid": "Q5344645",
+  "wd_name": "Edward Northey",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Kenya",
+    "place": "Kenya",
+    "start": "1919",
+    "end": "1922",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p1014b18",
+  "qid": "Q59533735",
+  "wd_name": "Max Nurock",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "ambassador of Israel to New Zealand",
+    "place": "New Zealand",
+    "start": "1953",
+    "end": "",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "ambassador of Israel to Australia",
+    "place": "Australia",
+    "start": "1953",
+    "end": "1958",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p286b24",
+  "qid": "Q108047074",
+  "wd_name": "Cornelius O'Beirne",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Attorney General of Gibraltar",
+    "place": "Gibraltar",
+    "start": "1966",
+    "end": "1970",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "King's Counsel",
+    "place": "Gibraltar",
+    "start": "1967",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1897-p540b16",
+  "qid": "Q3101960",
+  "wd_name": "George O'Brien",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner for the Western Pacific",
+    "place": "British Western Pacific Territories",
+    "start": "1897",
+    "end": "1901",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1925-p956b3",
+  "qid": "Q1611293",
+  "wd_name": "James O'Grady",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Falkland Islands",
+    "place": "the Falkland Islands",
+    "start": "1931",
+    "end": "1934",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1930-p1053b6",
+  "qid": "Q1810503",
+  "wd_name": "Sydney Olivier, 1st Baron Olivier",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "1924",
+    "end": "1943",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1906-p718b11",
+  "qid": "Q4719784",
+  "wd_name": "Alexander Onslow",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Attorney-General of Belize",
+    "place": "Belize",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p1017b13",
+  "qid": "Q370926",
+  "wd_name": "Earle Page",
+  "tier": "A",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "Minister for Health",
+    "place": "Australia",
+    "start": "1949",
+    "end": "1956",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Australian Minister for Agriculture",
+    "place": "Australia",
+    "start": "1940",
+    "end": "1941",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Treasurer of Australia",
+    "place": "Australia",
+    "start": "1923",
+    "end": "1929",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Prime Minister of Australia",
+    "place": "Australia",
+    "start": "1939",
+    "end": "1939",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the Australian House of Representatives",
+    "place": "Australia",
+    "start": "1919",
+    "end": "1961",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p311b15",
+  "qid": "Q713388",
+  "wd_name": "John Warburton Paul",
+  "tier": "A",
+  "n_extra": 4,
+  "extra": [
+   {
+    "pos": "Governor-General of the Bahamas",
+    "place": "The Bahamas",
+    "start": "1973",
+    "end": "1973",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of the Bahamas",
+    "place": "the Bahamas",
+    "start": "1972",
+    "end": "1973",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of British Honduras",
+    "place": "British Honduras",
+    "start": "1966",
+    "end": "1972",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Lieutenant Governor of the Isle of Man",
+    "place": "Isle of Man",
+    "start": "1974",
+    "end": "1980",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1961-p428b21",
+  "qid": "Q4484231",
+  "wd_name": "Horace Phillips",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Tanzania",
+    "place": "the United Kingdom to Tanzania",
+    "start": "1968",
+    "end": "1972",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1948-p521b10",
+  "qid": "Q6141350",
+  "wd_name": "James Pollock",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the Senate of Northern Ireland",
+    "place": "Northern Ireland",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1964-p357b22",
+  "qid": "Q24004677",
+  "wd_name": "Richard Posnett",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Bermuda",
+    "place": "Bermuda",
+    "start": "1981",
+    "end": "1983",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1927-p1010b18",
+  "qid": "Q6531083",
+  "wd_name": "Leslie Probyn",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Attorney-General of Belize",
+    "place": "Belize",
+    "start": "1893",
+    "end": "1896",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1939-p1077b14",
+  "qid": "Q10887766",
+  "wd_name": "John Pennefather-Evans",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Commissioner of Police",
+    "place": "Hong Kong",
+    "start": "1940",
+    "end": "1941",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1958-p414b4",
+  "qid": "Q608167",
+  "wd_name": "James Ramsay",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Queensland",
+    "place": "Queensland",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p412b16",
+  "qid": "Q6257500",
+  "wd_name": "John Shaw Rennie",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Commissioner-General for United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+    "place": "-General for United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+    "start": "1971",
+    "end": "1977",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1898-p528b22_s18",
+  "qid": "Q1909527",
+  "wd_name": "Matthew Henry Richey",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1882",
+    "end": "1883",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p298b19",
+  "qid": "Q5239114",
+  "wd_name": "David Roberts",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Barbados",
+    "place": "the United Kingdom to Barbados",
+    "start": "1971",
+    "end": "1973",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Sierra Leone",
+    "place": "the United Kingdom to Sierra Leone",
+    "start": "1976",
+    "end": "1977",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1928-p1156b17",
+  "qid": "Q6255218",
+  "wd_name": "John Robertson",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the New Zealand Parliament",
+    "place": "New Zealand",
+    "start": "1911",
+    "end": "1914",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1910-p756b3",
+  "qid": "Q839215",
+  "wd_name": "William Robinson",
+  "tier": "C",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Barbados",
+    "place": "Barbados",
+    "start": "1880",
+    "end": "1885",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1908-p719b6",
+  "qid": "Q839215",
+  "wd_name": "William Robinson",
+  "tier": "A",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "Governor of the Bahamas",
+    "place": "the Bahamas",
+    "start": "1874",
+    "end": "1880",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of Trinidad",
+    "place": "Trinidad",
+    "start": "1885",
+    "end": "1889",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of Trinidad and Tobago",
+    "place": "Trinidad and Tobago",
+    "start": "1889",
+    "end": "1891",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of Barbados",
+    "place": "Barbados",
+    "start": "1880",
+    "end": "1885",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of Hong Kong",
+    "place": "British Hong Kong",
+    "start": "1891",
+    "end": "1898",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1897-p553b12",
+  "qid": "Q6252868",
+  "wd_name": "John Pickersgill Rodger",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1904",
+    "end": "1910",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p301b13",
+  "qid": "Q530042",
+  "wd_name": "June Rowlands",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "mayor of Toronto",
+    "place": "Toronto",
+    "start": "1991",
+    "end": "1994",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1910-p761b16",
+  "qid": "Q7329994",
+  "wd_name": "Richard William Scott",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "mayor of Ottawa",
+    "place": "Ottawa",
+    "start": "1852",
+    "end": "1852",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1905-p708b12",
+  "qid": "Q559640",
+  "wd_name": "Richard Seddon",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "mayor",
+    "place": "Kumara",
+    "start": "1877",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1907-p718b18",
+  "qid": "Q2401446",
+  "wd_name": "John See",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Mayor of Randwick",
+    "place": "City of Randwick",
+    "start": "1886",
+    "end": "1887",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1948-p536b20",
+  "qid": "Q1699991",
+  "wd_name": "John Evelyn Shuckburgh",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Nigeria",
+    "place": "Nigeria",
+    "start": "1940",
+    "end": "1942",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1910-p764b15",
+  "qid": "Q363738",
+  "wd_name": "Arthur Sifton",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "member of Alberta Legislative Assembly",
+    "place": "Alberta",
+    "start": "1917",
+    "end": "1917",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "chief justice of Alberta",
+    "place": "Alberta",
+    "start": "1907",
+    "end": "1910",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Premier of Alberta",
+    "place": "Alberta",
+    "start": "1910",
+    "end": "1917",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1921-p930b19_s9",
+  "qid": "Q2979100",
+  "wd_name": "Clifford Sifton",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Minister of the Interior of Canada",
+    "place": "Canada",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1904",
+    "end": "1908",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1961-p452b22",
+  "qid": "Q5544571",
+  "wd_name": "George Sinclair",
+  "tier": "A",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "member of the 44th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1966",
+    "end": "1970",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 45th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1970",
+    "end": "1974",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 43rd Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1964",
+    "end": "1966",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 47th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1974",
+    "end": "1979",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 46th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1974",
+    "end": "1974",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1879-p453b15",
+  "qid": "Q2831273",
+  "wd_name": "Albert James Smith",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1874",
+    "end": "1878",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p308b12",
+  "qid": "Q125387502",
+  "wd_name": "Allan Smith",
+  "tier": "C",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "puisne judge",
+    "place": "Gold Coast Colony",
+    "start": "1944",
+    "end": "1950",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Chief Justice of Ghana",
+    "place": "Ghana",
+    "start": "1948",
+    "end": "1950",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1915-p810b13",
+  "qid": "Q125387502",
+  "wd_name": "Allan Smith",
+  "tier": "C",
+  "n_extra": 4,
+  "extra": [
+   {
+    "pos": "puisne judge",
+    "place": "Gold Coast Colony",
+    "start": "1944",
+    "end": "1950",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Chief Justice of Ghana",
+    "place": "Ghana",
+    "start": "1948",
+    "end": "1950",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "supreme court judge",
+    "place": "Colony of Trinidad",
+    "start": "1938",
+    "end": "1944",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "chief justice",
+    "place": "Sierra Leone Colony and Protectorate",
+    "start": "1951",
+    "end": "1955",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p1050b16",
+  "qid": "Q1065925",
+  "wd_name": "Robert Smith",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of North Borneo",
+    "place": "British North Borneo",
+    "start": "1945",
+    "end": "1946",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1906-p740b20",
+  "qid": "Q16037897",
+  "wd_name": "Robert Murray Smith",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the Victorian Legislative Assembly",
+    "place": "Victoria",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1888-p542b7",
+  "qid": "Q16062504",
+  "wd_name": "Leicester Smyth",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Gibraltar",
+    "place": "Gibraltar",
+    "start": "1890",
+    "end": "1891",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p335b20",
+  "qid": "Q107337917",
+  "wd_name": "Frederick Southworth",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "chief justice",
+    "place": "Malawi",
+    "start": "1964",
+    "end": "1970",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1955-p356b20",
+  "qid": "Q107333436",
+  "wd_name": "Antony Spurling",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "King's Counsel",
+    "place": "Sierra Leone",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "attorney general",
+    "place": "Colony of Sierra Leone",
+    "start": "1955",
+    "end": "1961",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1927-p1039b7",
+  "qid": "Q6742650",
+  "wd_name": "Malcolm Stevenson",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Seychelles",
+    "place": "the Seychelles",
+    "start": "1927",
+    "end": "1927",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p338b3",
+  "qid": "Q20672051",
+  "wd_name": "John Stewart",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "ambassador of the United Kingdom to Vietnam",
+    "place": "United Kingdom",
+    "start": "1975",
+    "end": "1976",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Mozambique",
+    "place": "the United Kingdom to Mozambique",
+    "start": "1980",
+    "end": "1984",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Sri Lanka",
+    "place": "the United Kingdom to Sri Lanka",
+    "start": "1984",
+    "end": "1987",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1867-p263b25",
+  "qid": "Q3132884",
+  "wd_name": "Henry Knight Storks",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the 20th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1871",
+    "end": "1874",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1948-p545b2",
+  "qid": "Q2748699",
+  "wd_name": "Ronald Storrs",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of London County Council",
+    "place": "County of London",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p1056b10",
+  "qid": "Q333979",
+  "wd_name": "Gerald Strickland, 1st Baron Strickland",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "member of the 34th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1924",
+    "end": "1928",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "1928",
+    "end": "1940",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p437b21",
+  "qid": "Q6226384",
+  "wd_name": "John Clifford Strong",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Turks and Caicos Islands",
+    "place": "Turks and Caicos Islands",
+    "start": "1978",
+    "end": "1982",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1964-p386b9",
+  "qid": "Q6226384",
+  "wd_name": "John Clifford Strong",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Turks and Caicos Islands",
+    "place": "Turks and Caicos Islands",
+    "start": "1978",
+    "end": "1982",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p316b16",
+  "qid": "Q25189800",
+  "wd_name": "Don Taylor",
+  "tier": "C",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the Western Australian Legislative Assembly",
+    "place": "Western Australia",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1954-p344b15",
+  "qid": "Q2531866",
+  "wd_name": "Gerald Templer",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Lord Lieutenant of Greater London",
+    "place": "Greater London",
+    "start": "1966",
+    "end": "1973",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p344b5",
+  "qid": "Q4761392",
+  "wd_name": "Andy Thompson",
+  "tier": "A",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "member of the Senate of Canada",
+    "place": "Ontario",
+    "start": "1974",
+    "end": "1979",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Leader of the Opposition",
+    "place": "Ontario",
+    "start": "1964",
+    "end": "1966",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the Ontario Provincial Parliament",
+    "place": "Ontario",
+    "start": "1959",
+    "end": "1967",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p344b21",
+  "qid": "Q26244085",
+  "wd_name": "Ian Thomson",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the British Virgin Islands",
+    "place": "the British Virgin Islands",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1867-p266b18",
+  "qid": "Q780032",
+  "wd_name": "Samuel Leonard Tilley",
+  "tier": "B",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Minister of Finance",
+    "place": "Canada",
+    "start": "1878",
+    "end": "1885",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1867",
+    "end": "1872",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1877-p420b15",
+  "qid": "Q7350436",
+  "wd_name": "Robert Torrens",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the 20th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1868",
+    "end": "1874",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1936-p1017b17",
+  "qid": "Q24649891",
+  "wd_name": "Geofroy Tory",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "High Commissioner of the United Kingdom to Malta",
+    "place": "the United Kingdom to Malta",
+    "start": "1967",
+    "end": "1970",
+    "kind": "diplomatic"
+   },
+   {
+    "pos": "High Commissioner of the United Kingdom to Malaysia",
+    "place": "the United Kingdom to Malaysia",
+    "start": "1957",
+    "end": "1963",
+    "kind": "diplomatic"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1914-p826b9",
+  "qid": "Q5545367",
+  "wd_name": "George Turner",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Treasurer of Australia",
+    "place": "Australia",
+    "start": "1901",
+    "end": "1904",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the Australian House of Representatives",
+    "place": "Australia",
+    "start": "1901",
+    "end": "1906",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1953-p320b20",
+  "qid": "Q1293920",
+  "wd_name": "Edward Twining, Baron Twining",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "1958",
+    "end": "1967",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1961-p472b22",
+  "qid": "Q5337499",
+  "wd_name": "Edgar Unsworth",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the National Assembly of Zambia",
+    "place": "Zambia",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1955-p364b10",
+  "qid": "Q16011042",
+  "wd_name": "Ernest Albert Vasey",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Mayor of Nairobi",
+    "place": "Nairobi",
+    "start": "1941",
+    "end": "1942",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p450b14",
+  "qid": "Q107333341",
+  "wd_name": "Gerald Waddington",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "King's Counsel",
+    "place": "Cayman Islands",
+    "start": "1971",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Attorney General of the Cayman Islands",
+    "place": "Cayman Islands",
+    "start": "1970",
+    "end": "1977",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1917-p879b9",
+  "qid": "Q15492102",
+  "wd_name": "Thomas Walker",
+  "tier": "C",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Member of the New South Wales Legislative Assembly",
+    "place": "New South Wales",
+    "start": "1887",
+    "end": "1894",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p451b22",
+  "qid": "Q7308768",
+  "wd_name": "Reginald James Wallace",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gilbert and Ellice Islands",
+    "place": "the Gilbert and Ellice Islands",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p324b8",
+  "qid": "Q26244101",
+  "wd_name": "Walter Wilkinson Wallace",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the British Virgin Islands",
+    "place": "the British Virgin Islands",
+    "start": "1974",
+    "end": "1978",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1888-p555b9",
+  "qid": "Q5083372",
+  "wd_name": "Charles Warton",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the 22nd Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1880",
+    "end": "1885",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p453b25",
+  "qid": "Q2865052",
+  "wd_name": "Arthur Christopher Watson",
+  "tier": "C",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Governor of the Turks and Caicos Islands",
+    "place": "Turks and Caicos Islands",
+    "start": "1975",
+    "end": "1978",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of Montserrat",
+    "place": "Montserrat",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1939-p1133b8",
+  "qid": "Q7600043",
+  "wd_name": "Stanley Whitford",
+  "tier": "A",
+  "n_extra": 10,
+  "extra": [
+   {
+    "pos": "Minister of Immigration",
+    "place": "South Australia",
+    "start": "1930",
+    "end": "1930",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Minister of Repatriation",
+    "place": "South Australia",
+    "start": "1930",
+    "end": "1930",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the Corporation of the City of Adelaide",
+    "place": "Adelaide",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the South Australian Legislative Council",
+    "place": "South Australia",
+    "start": "1929",
+    "end": "1941",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Chief Secretary of South Australia",
+    "place": "South Australia",
+    "start": "1930",
+    "end": "1933",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Commissioner of Forest Lands",
+    "place": "South Australia",
+    "start": "1930",
+    "end": "1933",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Justice of the Peace for South Australia",
+    "place": "South Australia",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Minister of Agriculture",
+    "place": "South Australia",
+    "start": "1930",
+    "end": "1933",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the South Australian House of Assembly",
+    "place": "South Australia",
+    "start": "1921",
+    "end": "1927",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Minister of Irrigation",
+    "place": "South Australia",
+    "start": "1930",
+    "end": "1930",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p460b5",
+  "qid": "Q125387523",
+  "wd_name": "Donald Williams",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "school inspector",
+    "place": "Bermuda",
+    "start": "1950",
+    "end": "1956",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "director",
+    "place": "Bermuda",
+    "start": "1956",
+    "end": "1971",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1932-p1075b7",
+  "qid": "Q1820832",
+  "wd_name": "Leslie Wilson",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Bombay",
+    "place": "Mumbai",
+    "start": "1923",
+    "end": "1928",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1961-p486b15",
+  "qid": "Q7365399",
+  "wd_name": "Ronald Wilson",
+  "tier": "A",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "President of the Uniting Church in Australia",
+    "place": "Uniting Church in Australia",
+    "start": "1988",
+    "end": "1991",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Justice of the High Court of Australia",
+    "place": "Australia",
+    "start": "1979",
+    "end": "1989",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1954-p354b15",
+  "qid": "Q125387813",
+  "wd_name": "George Wisdom",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Resident Commissioner",
+    "place": "British Malaya",
+    "start": "1946",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1878-p447b3",
+  "qid": "Q1800510",
+  "wd_name": "Philip Edmond Wodehouse",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Bombay",
+    "place": "Mumbai",
+    "start": "1872",
+    "end": "1877",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1889-p565b10",
+  "qid": "Q5480048",
+  "wd_name": "Francis Augustus Wright",
+  "tier": "B",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Mayor of Redfern",
+    "place": "Municipality of Redfern",
+    "start": "1882",
+    "end": "1885",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1883-p461b17",
+  "qid": "Q8020690",
+  "wd_name": "William Young",
+  "tier": "C",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "member of the Nova Scotia House of Assembly",
+    "place": "Nova Scotia",
+    "start": "1836",
+    "end": "1860",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Speaker of the House of Assembly of Nova Scotia",
+    "place": "Nova Scotia",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Premier of Nova Scotia",
+    "place": "Nova Scotia",
+    "start": "1854",
+    "end": "1860",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1933-p1039b16",
+  "qid": "Q911040",
+  "wd_name": "Themistocles Zammit",
+  "tier": "A",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "rector",
+    "place": "educational institution",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p936b10",
+  "qid": "Q5542564",
+  "wd_name": "George Monckton-Arundell, 8th Viscount Galway",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1889-p531b17",
+  "qid": "Q4889129",
+  "wd_name": "Benjamin Pine",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1857",
+    "end": "1858",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of Western Australia",
+    "place": "Western Australia",
+    "start": "1868",
+    "end": "1869",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1897-p554b10",
+  "qid": "Q336750",
+  "wd_name": "Hercules Robinson, 1st Baron Rosmead",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "High Commissioner for Southern Africa",
+    "place": "Southern Africa",
+    "start": "1881",
+    "end": "1889",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1955-p278b3",
+  "qid": "Q1381701",
+  "wd_name": "Evelyn Baring, 1st Baron Howick of Glendale",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p921b17",
+  "qid": "Q512172",
+  "wd_name": "Winston Dugan, 1st Baron Dugan of Victoria",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1897-p503b16",
+  "qid": "Q8005856",
+  "wd_name": "William Brandford Griffith",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1885",
+    "end": "1895",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1877-p381b27",
+  "qid": "Q9079870",
+  "wd_name": "Stephen John Hill",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Governor of Antigua",
+    "place": "Colony of Antigua",
+    "start": "1863",
+    "end": "1869",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1851",
+    "end": "1854",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1919-p850b8",
+  "qid": "Q336040",
+  "wd_name": "Herbert Plumer, 1st Viscount Plumer",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1912-p785b15",
+  "qid": "Q6144235",
+  "wd_name": "James Thorburn",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1910",
+    "end": "1912",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1880-p436b10",
+  "qid": "Q11862382",
+  "wd_name": "Herbert Taylor Ussher",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1879",
+    "end": "1880",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1879-p396b5",
+  "qid": "Q5538670",
+  "wd_name": "George Dundas",
+  "tier": "L2",
+  "n_extra": 3,
+  "extra": [
+   {
+    "pos": "member of the 15th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1847",
+    "end": "1852",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 16th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1852",
+    "end": "1857",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 17th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1857",
+    "end": "1859",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1883-p437b4",
+  "qid": "Q1699331",
+  "wd_name": "John Beverley Robinson",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1875",
+    "end": "1878",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "mayor of Toronto",
+    "place": "Toronto",
+    "start": "1856",
+    "end": "1857",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1883-p407b11",
+  "qid": "Q1133823",
+  "wd_name": "Cornelius Hendricksen Kortright",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of Sierra Leone",
+    "place": "Sierra Leone",
+    "start": "1876",
+    "end": "1877",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1950-p495b20",
+  "qid": "Q5480756",
+  "wd_name": "Francis Douglas, 1st Baron Douglas of Barloch",
+  "tier": "L2",
+  "n_extra": 4,
+  "extra": [
+   {
+    "pos": "member of the 37th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1940",
+    "end": "1945",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of London County Council",
+    "place": "County of London",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 38th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1945",
+    "end": "1946",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1963-p316b9",
+  "qid": "Q1634339",
+  "wd_name": "Hugh Foot, Baron Caradon",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "1964",
+    "end": "1990",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1965-p258b16",
+  "qid": "Q2129622",
+  "wd_name": "Ralph Grey, Baron Grey of Naunton",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Governor of Northern Ireland",
+    "place": "Northern Ireland",
+    "start": "1968",
+    "end": "1973",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "1968",
+    "end": "1999",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1931-p1055b4",
+  "qid": "Q335028",
+  "wd_name": "John Jellicoe, 1st Earl Jellicoe",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1886-p473b16",
+  "qid": "Q15854649",
+  "wd_name": "William Edward Maxwell",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1895",
+    "end": "1897",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1918-p744b10",
+  "qid": "Q3105889",
+  "wd_name": "Gilbert Ganong",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1904",
+    "end": "1908",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1906-p705b13",
+  "qid": "Q1725206",
+  "wd_name": "Peter Adolphus McIntyre",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1887",
+    "end": "1891",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1898-p501b5",
+  "qid": "Q5536102",
+  "wd_name": "George Airey Kirkpatrick",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Speaker of the House of Commons",
+    "place": "Canada",
+    "start": "1883",
+    "end": "1887",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1872",
+    "end": "1874",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1966-p272b7",
+  "qid": "Q7327509",
+  "wd_name": "Richard Edmonds Luyt",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Governor-general of Guyana",
+    "place": "Guyana",
+    "start": "1966",
+    "end": "1966",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Member of the National Assembly of Zambia",
+    "place": "Zambia",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1888-p534b13",
+  "qid": "Q18672314",
+  "wd_name": "Samuel Rowe",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "Governor of Sierra Leone",
+    "place": "Sierra Leone",
+    "start": "1877",
+    "end": "1880",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "Governor of the Gold Coast",
+    "place": "Ghana",
+    "start": "1881",
+    "end": "1884",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1928-p977b11",
+  "qid": "Q1679927",
+  "wd_name": "James Albert Manning Aikins",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1911",
+    "end": "1917",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "President of the Canadian Bar Association",
+    "place": "Canada",
+    "start": "1914",
+    "end": "1927",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1917-p808b5",
+  "qid": "Q768248",
+  "wd_name": "Augustine Colin Macdonald",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1883",
+    "end": "1887",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1894-p506b15",
+  "qid": "Q3642855",
+  "wd_name": "Henry Loch, 1st Baron Loch",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "High Commissioner for Southern Africa",
+    "place": "Southern Africa",
+    "start": "1889",
+    "end": "1895",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1940-p942b22",
+  "qid": "Q336465",
+  "wd_name": "Alexander Hore-Ruthven, 1st Earl of Gowrie",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1894-p482b13_s1",
+  "qid": "Q1686848",
+  "wd_name": "Jenico Preston, 14th Viscount Gormanston",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1937-p877b7",
+  "qid": "Q336268",
+  "wd_name": "Frederic Thesiger, 1st Viscount Chelmsford",
+  "tier": "L2",
+  "n_extra": 2,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of London County Council",
+    "place": "County of London",
+    "start": "",
+    "end": "",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1928-p1008b12",
+  "qid": "Q334974",
+  "wd_name": "Julian Byng, 1st Viscount Byng of Vimy",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "",
+    "end": "http",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1918-p875b7",
+  "qid": "Q3186049",
+  "wd_name": "Josiah Wood",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1882",
+    "end": "1887",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_dol1935-p888b3",
+  "qid": "Q443059",
+  "wd_name": "Charles Fitzpatrick",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Bâtonnier de Québec",
+    "place": "Capitale-Nationale",
+    "start": "1897",
+    "end": "1900",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1908-p731b8",
+  "qid": "Q3157019",
+  "wd_name": "Jabez Bunting Snowball",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1878",
+    "end": "1882",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1897-p538b20",
+  "qid": "Q222810",
+  "wd_name": "Hugh Nelson",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1872",
+    "end": "1874",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1950-p520b19",
+  "qid": "Q333426",
+  "wd_name": "Edward Wood, 1st Earl of Halifax",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "Secretary of State for Education",
+    "place": "England",
+    "start": "1922",
+    "end": "1924",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1913-p625b15",
+  "qid": "Q334971",
+  "wd_name": "John Campbell, 9th Duke of Argyll",
+  "tier": "L2",
+  "n_extra": 5,
+  "extra": [
+   {
+    "pos": "member of the House of Lords",
+    "place": "United Kingdom",
+    "start": "1900",
+    "end": "1914",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 20th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1868",
+    "end": "1874",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 26th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1895",
+    "end": "1900",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 19th Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1868",
+    "end": "1868",
+    "kind": "colonial/other"
+   },
+   {
+    "pos": "member of the 21st Parliament of the United Kingdom",
+    "place": "United Kingdom",
+    "start": "1874",
+    "end": "1878",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1896-p572b15",
+  "qid": "Q222458",
+  "wd_name": "Frederick Stanley, 16th Earl of Derby",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "President of the Board of Trade",
+    "place": "the Board of Trade",
+    "start": "1886",
+    "end": "1888",
+    "kind": "colonial/other"
+   }
+  ]
+ },
+ {
+  "person_id": "kgp_col1896-p644b11",
+  "qid": "Q1486983",
+  "wd_name": "John Christian Schultz",
+  "tier": "L2",
+  "n_extra": 1,
+  "extra": [
+   {
+    "pos": "member of the House of Commons of Canada",
+    "place": "Canada",
+    "start": "1872",
+    "end": "1874",
+    "kind": "colonial/other"
+   }
+  ]
+ }
+]

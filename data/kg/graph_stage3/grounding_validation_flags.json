@@ -1,0 +1,66 @@
+{
+ "method": "Cross-checked all 1127 Wikidata-grounded person records against live Wikidata P39 (positions held) jurisdictions+dates via QLever; name-token overlap of our career colonies vs WD jurisdictions.",
+ "headline": {
+  "grounded_records": 1127,
+  "distinct_qids": 1095,
+  "with_wd_positions": 870,
+  "comparable_both_have_place": 791,
+  "jurisdiction_overlap_ge1": 723,
+  "overlap_pct": 91.4,
+  "disjoint": 68,
+  "birth_both_present": 929,
+  "birth_exact": 862,
+  "birth_within2": 929
+ },
+ "caveat": "Most disjoints are NOT errors: Wikidata records a different slice of the career than our bios (later UK High-Commissioner/diplomatic posts, capstone governorships) or a coarser jurisdiction (country vs province). Per Jim: WD can have more/less than our bios.",
+ "confirmed_wrong_grounding_namesake_birthcoincidence": [
+  {
+   "qid": "Q515889",
+   "wd": "Roma Mitchell (FEMALE Australian judge 1913-2000)",
+   "our": "R. W. L. MITCHELL, Trinidad",
+   "why": "sex+initials mismatch; birth 1913 coincidence"
+  },
+  {
+   "qid": "Q7369417",
+   "wd": "Ross Hutchinson (Australian-rules footballer/politician)",
+   "our": "R. A. HUTCHINSON, Sierra Leone"
+  },
+  {
+   "qid": "Q7816364",
+   "wd": "Tom Jones (Australian trade-union politician)",
+   "our": "T. S. JONES, Sierra Leone"
+  },
+  {
+   "qid": "Q21538082",
+   "wd": "John Morris (Chief Justice of Tasmania)",
+   "our": "John Cecil MORRIS, Nigeria"
+  },
+  {
+   "qid": "Q1680532",
+   "wd": "James Harrison (South Australia)",
+   "our": "J. N. D. HARRISON, Malaya"
+  },
+  {
+   "qid": "Q5341702",
+   "wd": "Edward Bagot (South Australian politician/businessman)",
+   "our": "Edward BAGOT, Malaya"
+  },
+  {
+   "qid": "Q1397679",
+   "wd": "Joseph Howard (Maltese PM 1862-1925)",
+   "our": "Joseph Albert HOWARD, China/Malaya colonial officer"
+  }
+ ],
+ "our_side_recall_miss": [
+  {
+   "qid": "Q6218961",
+   "wd": "Sir John Anderson, Governor of Straits Settlements & Ceylon",
+   "our_colony": "United Kingdom (metropole) ONLY",
+   "why": "grounding CORRECT but our career rollup dropped his real colonies to metropole fallback"
+  }
+ ],
+ "under_merge_signal_31_qids": "31 QIDs each map to 2+ distinct person records = dedup misses (same WD person split across our records). Independent confirmation; worth a targeted merge pass.",
+ "key_lesson": "Birth-year match alone is NOT zero-FP for common Anglo surname + initials of the same generation. All 7 namesake errors had birth within 1yr. A jurisdiction-disjointness + sex/occupation veto would catch them.",
+ "status": "2026-06-28: 7 namesake mis-groundings REMOVED (8 rows) from person_grounding.final.jsonl + persons.jsonl nulled. Grounded 1127->1119 / 1095->1088 QIDs. Backups: *.prenamesakefix_bak.jsonl.",
+ "wikidata_has_more": "224 grounded persons where WD records jurisdictions/positions absent from our bios -> wikidata_has_more.json; flag wired into kg_emit_stage3.py (wikidata_has_more / wikidata_extra_count) + live in persons.jsonl. NOT imported, per Jim (WD coverage too sparse vs our full set)."
+}

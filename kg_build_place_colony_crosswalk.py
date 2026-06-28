@@ -64,14 +64,15 @@ COUNTRY_COLONY = {
     "Q760":  ("Q15238409", "Saint Lucia Colony"),         # Saint Lucia
     "Q1011": ("Q3557236", "Gambia Colony and Protectorate"),  # Cape Verde? no -> skip below; Gambia=Q1005
     "Q1005": ("Q3557236", "Gambia Colony and Protectorate"),  # Gambia
-    "Q1037": ("Q30059027", "Sierra Leone Colony"),        # Sierra Leone
-    "Q967":  ("Q953903", "Northern Rhodesia Colony"),     # Zambia
+    # NOTE: Q1037 is RWANDA (not Sierra Leone) and Q967 is BURUNDI (not Zambia);
+    # both removed — neither was a British colony. Sierra Leone = Q1044 (below),
+    # Zambia = Q953 (below). These were QID-transposition errors.
     "Q954":  ("Q750583", "Southern Rhodesia (Restored)"), # Zimbabwe
     "Q1020": ("Q1649306", "Nyasaland (Post-Federation)"), # Malawi
-    "Q1042": ("Q3574782", "Zanzibar"),                    # (Zanzibar place)
+    "Q1042": ("Q21821453", "Seychelles"),                 # Seychelles (Q1042 is Seychelles, NOT Zanzibar — was wrongly mapped to Zanzibar Protectorate)
     "Q1027": ("Q12053604", "Isle de France (British Occupation)"),  # Mauritius
-    "Q1044": ("Q662653", "British Somaliland"),           # Somalia
-    "Q1045": ("Q662653", "British Somaliland"),           # Somaliland
+    "Q1044": ("Q30059027", "Sierra Leone Colony and Protectorate"),  # Sierra Leone (Q1044 is Sierra Leone, NOT Somalia — was wrongly mapped to British Somaliland)
+    "Q1045": ("Q662653", "British Somaliland"),           # Somalia / Somaliland (correct)
     "Q241":  ("Q15240466", "Saint Lucia Colony"),         # (guard) -- overwritten if wrong
     "Q233":  ("Q6744657", "Malta"),                       # Malta
     "Q229":  ("Q15240466", "Cyprus"),                     # placeholder, fixed below
@@ -149,6 +150,9 @@ PLACE_OVERRIDE = {
     "Q953068":  ("Q953068", "South-West Africa"),          # SA-administered mandate; ground to itself
     "Q4765854": ("Q2376315", "Burma (Separate Colony)"),  # Shan States -> Burma
     "Q918121":  ("Q370736", "Cape Colony"),               # British Kaffraria -> Cape
+    "Q20618539": ("Q370736", "Cape Colony"),              # Victoria East (Victoria-Oos), Eastern Cape -> Cape (no P17 on WD)
+    "Q1042":  ("Q21821453", "Seychelles"),                # Seychelles country -> canonical Seychelles colony node (NOT the stray 'Farquhar Islands' Q1042 node)
+    "Q3940":  ("Q21821453", "Seychelles"),                # Victoria, capital of Seychelles -> Seychelles
 }
 
 # country-level fallback for the multi-colony countries (admin unknown)

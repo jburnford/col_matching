@@ -90,6 +90,15 @@ if _pgf.exists():
         g = json.loads(l)
         person_qid[g["person_id"]] = (g["qid"], g.get("wd_name"), g.get("tier"))
 
+# person -> Wikidata-has-more flag: grounded persons for whom Wikidata records
+# jurisdictions/positions absent from our bios (research signal, NOT imported).
+# Produced by /tmp/wd_has_more.py -> wikidata_has_more.json.
+person_has_more = {}
+_pwm = gdir / "wikidata_has_more.json"
+if _pwm.exists():
+    for g in json.loads(_pwm.read_text(encoding="utf-8")):
+        person_has_more[g["person_id"]] = g.get("n_extra", True)
+
 f_persons = (gdir / "persons.jsonl").open("w", encoding="utf-8")
 f_events  = (gdir / "career_events.jsonl").open("w", encoding="utf-8")
 f_hon     = (gdir / "honours.jsonl").open("w", encoding="utf-8")
@@ -113,6 +122,8 @@ for r in rows:
         "wikidata_qid": person_qid.get(pid, (None, None, None))[0],
         "wikidata_label": person_qid.get(pid, (None, None, None))[1],
         "wikidata_tier": person_qid.get(pid, (None, None, None))[2],
+        "wikidata_has_more": bool(person_has_more.get(pid)),
+        "wikidata_extra_count": person_has_more.get(pid) or 0,
     }, ensure_ascii=False) + "\n")
 
     atts = r.get("attestations") or [pid]
