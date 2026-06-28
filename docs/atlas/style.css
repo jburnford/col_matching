@@ -183,15 +183,71 @@ button{font-family:inherit;cursor:pointer}
 #tour-next{background:var(--oxblood);color:#fff;border:0;padding:8px 16px;border-radius:3px;font-size:13px}
 #tour-skip{background:none;border:0;color:var(--slate-2);font-size:12.5px;text-decoration:underline;text-underline-offset:3px}
 
-/* ---- responsive --------------------------------------------------------- */
+/* ============================================================================
+   MOBILE — the chrome folds down for phones; the map (and its arcs) keep most
+   of the screen, and the parchment register becomes a draggable bottom sheet
+   (peek → half → full), driven by mobile-sheet.js.
+   ========================================================================== */
 @media (max-width:820px){
-  #register{top:auto;bottom:0;width:100%;height:46%;box-shadow:0 -14px 40px rgba(0,0,0,.5);border-left:0;border-top:1px solid #c9b994}
-  #timeline{right:28px;bottom:calc(46% + 14px)}
-  #rail{bottom:calc(46% + 70px)}
-  #masthead{max-width:64%}
-  #tour-card{margin-bottom:calc(46% + 24px);max-width:80%}
+  :root{--peek:58px}
+
+  /* compact masthead, full bleed, never blocking taps */
+  #masthead{top:12px;left:16px;right:16px;max-width:none}
+  #masthead h1{font-size:clamp(21px,6.6vw,30px)}
+  #masthead .standfirst{font-size:13px;line-height:1.35;max-width:26em}
+
+  /* service filters: one horizontally-scrollable row of chips, above the timeline */
+  #rail{left:10px;right:10px;bottom:calc(var(--peek) + 64px);flex-direction:row;flex-wrap:nowrap;
+    gap:8px;align-items:center;overflow-x:auto;padding:2px 2px 4px;-webkit-overflow-scrolling:touch;
+    scrollbar-width:none}
+  #rail::-webkit-scrollbar{display:none}
+  .svc,#rail-bridges,#rail-reset{flex:0 0 auto;white-space:nowrap}
+  .svc{padding:9px 13px}
+
+  /* timeline: full width, sitting just above the peeking sheet */
+  #timeline{left:12px;right:12px;bottom:calc(var(--peek) + 8px);gap:10px}
+  #tl-play{width:38px;height:38px}
+  #tl-track{height:46px}
+  #tl-range::-webkit-slider-thumb{height:46px;margin-top:-44px;width:4px}
+  #tl-range::-moz-range-thumb{height:46px;width:4px}
+  #tl-year{font-size:21px;width:2.5em}
+
+  /* ---- the bottom sheet (only once mobile-sheet.js has upgraded it) ------- */
+  body.mobile-sheet #register{top:auto;left:0;right:0;bottom:0;width:100%;height:var(--peek);
+    border-left:0;border-top:1px solid #c9b994;box-shadow:0 -16px 44px rgba(0,0,0,.55);
+    transition:height .26s cubic-bezier(.4,0,.2,1);z-index:700;overflow:hidden}
+  body.mobile-sheet #register.sheet-half{height:54vh}
+  body.mobile-sheet #register.sheet-full{height:92vh}
+  /* in the peek state only the grab handle shows */
+  body.mobile-sheet #register.sheet-peek>*:not(.sheet-handle){display:none}
+
+  .sheet-handle{flex:0 0 auto;display:flex;align-items:center;justify-content:center;gap:12px;
+    position:relative;height:var(--peek);cursor:grab;touch-action:none;user-select:none;
+    border-bottom:1px solid #cbbc98}
+  .sheet-handle:active{cursor:grabbing}
+  .sheet-grip{position:absolute;top:9px;left:50%;transform:translateX(-50%);
+    width:42px;height:4px;border-radius:3px;background:#b6a47e}
+  .sheet-hint{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--oxblood);margin-top:6px}
+
+  /* bigger touch targets inside the register */
+  #search-box{padding:11px 12px;font-size:16px}   /* 16px keeps iOS from zooming on focus */
+  #search-results{max-height:50vh}
+  #search-results li{padding:11px 12px}
+  .ros-entry{padding:10px 0 10px 13px}
+  .tour-list li,.cor-list li,.ppl-list li,.br-row{padding-top:11px;padding-bottom:11px}
+
+  /* guided tour card sits above the peeking sheet, full width */
+  #tour{align-items:flex-end}
+  #tour-card{margin:0 14px calc(var(--peek) + 16px);max-width:none;width:auto;padding:18px 18px 16px}
+  #tour-caption{min-height:0}
 }
-@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
+/* very short screens (landscape phones): drop the standfirst to free the map */
+@media (max-width:820px) and (max-height:560px){
+  #masthead .standfirst{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto}
+  body.mobile-sheet #register{transition:none}}
 
 /* ---- Two Services (cross-corpus bridge) view ----------------------------- */
 #rail-bridges{background:linear-gradient(90deg,rgba(143,184,238,.16),rgba(232,178,76,.16));
