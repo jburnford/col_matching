@@ -110,11 +110,31 @@ CURATED_COLONY = {
 }
 
 
+# The "country+year lineage walk" the module docstring promised: a place_qid ->
+# colony crosswalk for grounded localities that are NOT themselves polities
+# (Calcutta, Cape Town, North-Western Provinces). Built by
+# kg_build_place_colony_crosswalk.py from Wikidata P17/P131; consulted as the
+# final fallback so sub-localities roll up to their colony instead of null.
+_CROSSWALK_PATH = Path(__file__).resolve().parents[2] / "data/kg/place_colony_crosswalk.json"
+
+
+@lru_cache(maxsize=1)
+def _crosswalk(path: str) -> dict:
+    import json
+    p = Path(path)
+    if not p.exists():
+        return {}
+    return json.loads(p.read_text())
+
+
 def resolve_colony(place_row: dict, ttl_path: str | None = None,
-                   manifest_path: str | None = None) -> dict:
+                   manifest_path: str | None = None,
+                   crosswalk_path: str | None = None) -> dict:
     """Map a grounding-cache row to a colony. Returns
     {colony_qid, colony_label, method}. method = {ttl,manifest}_{qid,label},
-    curated_modern_equiv, or unresolved, recording which source matched."""
+    curated_modern_equiv, a crosswalk method (country_walk/province_walk/
+    admin_walk/country_is_colony/self_colony/metropole_uk/override), or
+    unresolved, recording which source matched."""
     qid = place_row.get("qid")
     if qid in CURATED_COLONY:
         return dict(CURATED_COLONY[qid])
@@ -128,4 +148,10 @@ def resolve_colony(place_row: dict, ttl_path: str | None = None,
     if n:
         return {"colony_qid": n["qid"], "colony_label": n["label"],
                 "method": f"{n.get('source', 'ttl')}_label"}
+    # Locality not a polity itself: roll up via the lineage-walk crosswalk.
+    cw = _crosswalk(str(crosswalk_path or _CROSSWALK_PATH))
+    m = cw.get(qid) if qid else None
+    if m:
+        return {"colony_qid": m["colony_qid"], "colony_label": m["colony_label"],
+                "method": m.get("method", "crosswalk")}
     return {"colony_qid": None, "colony_label": None, "method": "unresolved"}

@@ -1,0 +1,7742 @@
+{
+"Q100": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q1000495": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q100082": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q100157": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1002140": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "province_walk"
+},
+"Q1002525": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q1003502": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1004048": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1004667": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1006232": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1006240": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1006321": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1006338": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1006355": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1007647": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q10086": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1009235": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1009253": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q10094": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1010810": {
+"colony_qid": "Q763",
+"colony_label": "St. Kitts-Nevis-Anguilla",
+"method": "country_is_colony"
+},
+"Q1011096": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1011190": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1011955": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1013339": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q1013370": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q1013421": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1014244": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q1014580": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1015647": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1015727": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q1016100": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q1017696": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1017943": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1018144": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1018159": {
+"colony_qid": "Q188096",
+"colony_label": "Penang",
+"method": "province_walk"
+},
+"Q1018163": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q1018756": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1018787": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1019496": {
+"colony_qid": "Q1989",
+"colony_label": "Saskatchewan",
+"method": "admin_walk"
+},
+"Q1020192": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q1020224": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1020266": {
+"colony_qid": "Q28401203",
+"colony_label": "Queensland",
+"method": "admin_walk"
+},
+"Q1020718": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1020914": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1021162": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1021731": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1021742": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1021884": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1021891": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1021900": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1021915": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1022541": {
+"colony_qid": "Q1020",
+"colony_label": "British Central Africa Protectorate",
+"method": "country_is_colony"
+},
+"Q1023254": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1023257": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1023671": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1023703": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q1023712": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "admin_walk"
+},
+"Q1023726": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q1024667": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1025283": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q1025286": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1025396": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1025475": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1025649": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1025657": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1025965": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1026391": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1026635": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1027291": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1027294": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q1027521": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1027757": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1028741": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q1045096": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1045435": {
+"colony_qid": "Q1020",
+"colony_label": "British Central Africa Protectorate",
+"method": "country_is_colony"
+},
+"Q1046126": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q1050154": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q10535281": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1053565": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q1053595": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q1053600": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q1053874": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q105441": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q1057124": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q1058785": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1061": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1061665": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q1062438": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q106610908": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q10676708": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1068504": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q10686": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q10690": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1069918": {
+"colony_qid": "Q1772596",
+"colony_label": "Madras Presidency (Company)",
+"method": "admin_walk"
+},
+"Q1070": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q10717": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q107283722": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1075566": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q10773634": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q108223": {
+"colony_qid": "Q1643555",
+"colony_label": "British Honduras",
+"method": "country_walk"
+},
+"Q1082602": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q10925601": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q10930180": {
+"colony_qid": "Q1054923",
+"colony_label": "Hong Kong",
+"method": "country_is_colony"
+},
+"Q109322776": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q1095557": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q1103923": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q11058133": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q111207687": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q1113311": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q11155122": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q112039393": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q1122041": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1123340": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q1130797": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q1132340": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1135612": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1135616": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1136189": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1138465": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1138545": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q1138837": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q1139314": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1140993": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q1141700": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q1142402": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1143880": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1143894": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1143935": {
+"colony_qid": "Q924",
+"colony_label": "Zanzibar (Independent)",
+"method": "country_is_colony"
+},
+"Q1144349": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1146777": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q1156": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1156248": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q11568": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q1160017": {
+"colony_qid": "Q805",
+"colony_label": "Socotra Island",
+"method": "country_is_colony"
+},
+"Q116042913": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q1165": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q11708": {
+"colony_qid": "Q2645837",
+"colony_label": "British New Guinea",
+"method": "country_walk"
+},
+"Q1171": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q117196": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q11725": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "admin_walk"
+},
+"Q11739": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1185131": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q1185369": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q11854": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q11883435": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q1188560": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q11904443": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q11904451": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1191330": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q11917385": {
+"colony_qid": "Q1772596",
+"colony_label": "Madras Presidency (Company)",
+"method": "admin_walk"
+},
+"Q11917451": {
+"colony_qid": "Q521864",
+"colony_label": "Central Provinces",
+"method": "admin_walk"
+},
+"Q11923781": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1192618": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1195983": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1196481": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q1197824": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1199713": {
+"colony_qid": "Q252",
+"colony_label": "Java (British Occupation)",
+"method": "admin_walk"
+},
+"Q1200738": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1208350": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q121378": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "admin_walk"
+},
+"Q1218": {
+"colony_qid": "Q801",
+"colony_label": "State of Israel",
+"method": "country_is_colony"
+},
+"Q1220518": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q12245": {
+"colony_qid": "Q9648",
+"colony_label": "Falkland Islands",
+"method": "country_is_colony"
+},
+"Q1231673": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q1232322": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q1233509": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q123360": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1233784": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q123634": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q123709": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q124004": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q124129": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1242441": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q124308": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q124371650": {
+"colony_qid": "Q801",
+"colony_label": "State of Israel",
+"method": "country_is_colony"
+},
+"Q124385": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q124394": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1245018": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q124978": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q1249888": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1250069": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1250340": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q125148": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q125163": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q125434": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q1256430": {
+"colony_qid": "Q1142179",
+"colony_label": "Orange River Colony",
+"method": "province_walk"
+},
+"Q125905": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q126269": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1265538": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1266371": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1266775": {
+"colony_qid": "Q954",
+"colony_label": "Rhodesia (UDI)",
+"method": "country_is_colony"
+},
+"Q1266998": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1267306": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q12683412": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q127041": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q12730377": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q1280127": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q128147": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q12832321": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q1286223": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1290313": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q1291379": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q1295530": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q1297": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q1299852": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q130191": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q13035272": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q130626": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q13125092": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q131555": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q131662": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q131686477": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q131694": {
+"colony_qid": "Q805",
+"colony_label": "Socotra Island",
+"method": "country_is_colony"
+},
+"Q1317145": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q1321157": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1326284": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q133073": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q13360574": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q13395623": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1340579": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q1344889": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1345": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q134672": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1348": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1351487": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1352": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1353": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1354": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1355": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1356060": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1356154": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1357083": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1360318": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q1362696": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q13639254": {
+"colony_qid": "Q188096",
+"colony_label": "Penang",
+"method": "admin_walk"
+},
+"Q1365257": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q1365265": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q1365284": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q1365295": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q1365304": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q1365322": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q1367652": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q137203": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1375997": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q138521": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q1385577": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q1395427": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q139918": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "admin_walk"
+},
+"Q1400119": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q140207": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "admin_walk"
+},
+"Q1408929": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1414040": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q141627": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q141873": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q142010": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q14220105": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q142526": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1425428": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1429976": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1432726": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q1433341": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1437636": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q1438739": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1440250": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q145": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1453180": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1453196": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q14555010": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q1460406": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q146690": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q146696": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q146708": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q146858": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1472049": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1473646": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q1473663": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q1473924": {
+"colony_qid": "Q18221",
+"colony_label": "Turks and Caicos Islands",
+"method": "admin_walk"
+},
+"Q1478937": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q147975": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q1480778": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q148289": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1487312": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q15045728": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q1505": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q15068796": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q15116": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1513": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1517159": {
+"colony_qid": "Q805",
+"colony_label": "Socotra Island",
+"method": "country_is_colony"
+},
+"Q1517251": {
+"colony_qid": "Q176",
+"colony_label": "Quebec",
+"method": "province_walk"
+},
+"Q15188": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q15200": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q15213": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q15229419": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1524": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q1526531": {
+"colony_qid": "Q56850459",
+"colony_label": "Victoria (Colony)",
+"method": "province_walk"
+},
+"Q152902": {
+"colony_qid": "Q924",
+"colony_label": "Zanzibar (Independent)",
+"method": "country_is_colony"
+},
+"Q1530": {
+"colony_qid": "Q796",
+"colony_label": "Mesopotamia (British Occupied)",
+"method": "country_is_colony"
+},
+"Q1532634": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q15342": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1535683": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q1537282": {
+"colony_qid": "Q1054923",
+"colony_label": "Hong Kong",
+"method": "admin_walk"
+},
+"Q1538": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1538034": {
+"colony_qid": "Q763",
+"colony_label": "St. Kitts-Nevis-Anguilla",
+"method": "country_is_colony"
+},
+"Q15381": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q15382": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q15383": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1538311": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1540498": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q1544757": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q1546240": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1554825": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "province_walk"
+},
+"Q1565776": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q157286": {
+"colony_qid": "Q40888",
+"colony_label": "Andaman and Nicobar Islands",
+"method": "admin_walk"
+},
+"Q157412": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1575544": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q157800": {
+"colony_qid": "Q1045",
+"colony_label": "British Somaliland",
+"method": "country_is_colony"
+},
+"Q1579737": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q158087": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1581002": {
+"colony_qid": "Q817165",
+"colony_label": "Assam (Bengal Presidency)",
+"method": "admin_walk"
+},
+"Q1586262": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1594009": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q161491": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q162442": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q162782": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q163": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1633078": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q1635196": {
+"colony_qid": "Q662653",
+"colony_label": "British Somaliland",
+"method": "country_walk"
+},
+"Q163584": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1639492": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1640898": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1640913": {
+"colony_qid": "Q954",
+"colony_label": "Rhodesia (UDI)",
+"method": "country_is_colony"
+},
+"Q1642808": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1648551": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q16572": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q1658159": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q16666": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q1668626": {
+"colony_qid": "Q891827",
+"colony_label": "Bombay Presidency (Company)",
+"method": "admin_walk"
+},
+"Q1670967": {
+"colony_qid": "Q1965",
+"colony_label": "New Brunswick (Province)",
+"method": "admin_walk"
+},
+"Q1671256": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1683488": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1689721": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q16901745": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q16931806": {
+"colony_qid": "Q817165",
+"colony_label": "Assam (Bengal Presidency)",
+"method": "admin_walk"
+},
+"Q1693203": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1693384": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q16969039": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q169966": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q169997": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q170315": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q170479": {
+"colony_qid": "Q1973",
+"colony_label": "British Columbia",
+"method": "admin_walk"
+},
+"Q170488": {
+"colony_qid": "Q233",
+"colony_label": "Malta",
+"method": "country_is_colony"
+},
+"Q170521": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q1707857": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1708143": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q17088933": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q17151": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q171675": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1717872": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q171866": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q171882": {
+"colony_qid": "Q15240466",
+"colony_label": "Cyprus",
+"method": "country_walk"
+},
+"Q172": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q172157": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q172438": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q17252": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q1732099": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q1734011": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q173985": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q174461": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q17515032": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1752038": {
+"colony_qid": "Q1965",
+"colony_label": "New Brunswick (Province)",
+"method": "admin_walk"
+},
+"Q1752328": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1755447": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1755463": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1757189": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1758870": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q1763301": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1764797": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q1771768": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1772825": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1772856": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1773426": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1773429": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q177690": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q1778860": {
+"colony_qid": "Q662653",
+"colony_label": "British Somaliland",
+"method": "country_walk"
+},
+"Q1779859": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q1781463": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q17856": {
+"colony_qid": "Q56850459",
+"colony_label": "Victoria (Colony)",
+"method": "province_walk"
+},
+"Q179029": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1790832": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q1790904": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q179224": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q179351": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q179385": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q179431": {
+"colony_qid": "Q25305",
+"colony_label": "British Virgin Islands",
+"method": "admin_walk"
+},
+"Q1795328": {
+"colony_qid": "Q1772596",
+"colony_label": "Madras Presidency (Company)",
+"method": "admin_walk"
+},
+"Q1797254": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1797274": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1797326": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1797336": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1797367": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q179815": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1798701": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1800": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1800028": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q180057": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1800611": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q180294": {
+"colony_qid": "Q801",
+"colony_label": "State of Israel",
+"method": "country_is_colony"
+},
+"Q1803018": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1807660": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q1807935": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q180918": {
+"colony_qid": "Q15240466",
+"colony_label": "Cyprus",
+"method": "country_walk"
+},
+"Q180921": {
+"colony_qid": "Q1049",
+"colony_label": "Sudan, Anglo-Egyptian",
+"method": "country_is_colony"
+},
+"Q18094": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q18125": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1812539": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1812557": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q18126372": {
+"colony_qid": "Q521864",
+"colony_label": "Central Provinces",
+"method": "admin_walk"
+},
+"Q1812824": {
+"colony_qid": "Q334",
+"colony_label": "Singapore Settlement",
+"method": "country_is_colony"
+},
+"Q1814473": {
+"colony_qid": "Q18221",
+"colony_label": "Turks and Caicos Islands",
+"method": "admin_walk"
+},
+"Q1815262": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1815279": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1815288": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1815593": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q1816657": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1817425": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1820054": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q182049": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q182059": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q1827701": {
+"colony_qid": "Q1973084",
+"colony_label": "Unfederated Malay States",
+"method": "province_walk"
+},
+"Q182984": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q183032": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1832033": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1832744": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q183292": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q183298": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q1836921": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q184090": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q184412": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q184851": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q185111": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q1853310": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q185371": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q185453": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q185458": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q185518": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q185591": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q185632": {
+"colony_qid": "Q15240466",
+"colony_label": "Cyprus",
+"method": "country_walk"
+},
+"Q185944": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1859950": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q1861984": {
+"colony_qid": "Q188096",
+"colony_label": "Penang",
+"method": "admin_walk"
+},
+"Q1862981": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1865": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1865092": {
+"colony_qid": "Q1020",
+"colony_label": "British Central Africa Protectorate",
+"method": "country_is_colony"
+},
+"Q1866604": {
+"colony_qid": "Q953903",
+"colony_label": "Northern Rhodesia Colony",
+"method": "country_walk"
+},
+"Q18758": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q188020": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1884571": {
+"colony_qid": "Q1973084",
+"colony_label": "Unfederated Malay States",
+"method": "province_walk"
+},
+"Q188617": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q188693": {
+"colony_qid": "Q1020",
+"colony_label": "British Central Africa Protectorate",
+"method": "country_is_colony"
+},
+"Q1888339": {
+"colony_qid": "Q924",
+"colony_label": "Zanzibar (Independent)",
+"method": "country_is_colony"
+},
+"Q188947": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q188953": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1890257": {
+"colony_qid": "Q1020",
+"colony_label": "British Central Africa Protectorate",
+"method": "country_is_colony"
+},
+"Q1892042": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q189592": {
+"colony_qid": "Q26",
+"colony_label": "Northern Ireland",
+"method": "admin_walk"
+},
+"Q189701": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q189710": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1897251": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1897952": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q190021": {
+"colony_qid": "Q28401203",
+"colony_label": "Queensland",
+"method": "province_walk"
+},
+"Q190217": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q190716": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "admin_walk"
+},
+"Q190959": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q191204": {
+"colony_qid": "Q796",
+"colony_label": "Mesopotamia (British Occupied)",
+"method": "country_is_colony"
+},
+"Q191333": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q191346": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q1915545": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q1917064": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q191718": {
+"colony_qid": "Q1045",
+"colony_label": "British Somaliland",
+"method": "country_is_colony"
+},
+"Q19186": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q192229": {
+"colony_qid": "Q26",
+"colony_label": "Northern Ireland",
+"method": "admin_walk"
+},
+"Q192493": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q1925370": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q192687": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q192896": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1930": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q193190": {
+"colony_qid": "Q15240466",
+"colony_label": "Cyprus",
+"method": "country_walk"
+},
+"Q193250": {
+"colony_qid": "Q954",
+"colony_label": "Rhodesia (UDI)",
+"method": "country_is_colony"
+},
+"Q1934075": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1936648": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "admin_walk"
+},
+"Q1937242": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1937857": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1937865": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1938723": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q1945304": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1945416": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1946482": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q1946829": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1948": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q1949462": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1950487": {
+"colony_qid": "Q1050",
+"colony_label": "Swaziland",
+"method": "country_is_colony"
+},
+"Q19543934": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q195955": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1960": {
+"colony_qid": "Q924",
+"colony_label": "Zanzibar (Independent)",
+"method": "country_is_colony"
+},
+"Q1963": {
+"colony_qid": "Q1049",
+"colony_label": "Sudan, Anglo-Egyptian",
+"method": "country_is_colony"
+},
+"Q1964569": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q1968268": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q1971200": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q1972542": {
+"colony_qid": "Q763",
+"colony_label": "St. Kitts-Nevis-Anguilla",
+"method": "country_is_colony"
+},
+"Q1973063": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q1982217": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q1982848": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q1993670": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q199528": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q199605": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q1999606": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q200016": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q200017": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q200049": {
+"colony_qid": "Q412980",
+"colony_label": "Ajmer-Merwara",
+"method": "admin_walk"
+},
+"Q200123": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2001267": {
+"colony_qid": "Q662653",
+"colony_label": "British Somaliland",
+"method": "country_walk"
+},
+"Q200166": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q200235": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q200237": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q200311": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q200340": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2003745": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2003928": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q2003963": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2006220": {
+"colony_qid": "Q662653",
+"colony_label": "British Somaliland",
+"method": "country_walk"
+},
+"Q2006534": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q200667": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2007": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q2007857": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q200878": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q20118773": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q20119033": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q2016369": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q201812": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q201832": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2019683": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q201970": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2019757": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2019908": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q202162": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q202628": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q202973": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q203000": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q203197": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q203301": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q2033487": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q203349": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q203380": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q203403": {
+"colony_qid": "Q1965",
+"colony_label": "New Brunswick (Province)",
+"method": "province_walk"
+},
+"Q203476": {
+"colony_qid": "Q40888",
+"colony_label": "Andaman and Nicobar Islands",
+"method": "admin_walk"
+},
+"Q203751": {
+"colony_qid": "Q127861",
+"colony_label": "Egypt",
+"method": "country_walk"
+},
+"Q20460195": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q204720": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2049820": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q204989": {
+"colony_qid": "Q763",
+"colony_label": "St. Kitts-Nevis-Anguilla",
+"method": "admin_walk"
+},
+"Q206484": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q206687": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q206760": {
+"colony_qid": "Q15240466",
+"colony_label": "Cyprus",
+"method": "country_walk"
+},
+"Q206988": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2072124": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q207239": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q207324": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q207371": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q207702": {
+"colony_qid": "Q176",
+"colony_label": "Quebec",
+"method": "admin_walk"
+},
+"Q207749": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q207752": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q207754": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q207794": {
+"colony_qid": "Q763",
+"colony_label": "St. Kitts-Nevis-Anguilla",
+"method": "admin_walk"
+},
+"Q207799": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2081818": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q208198": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q2082": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q208262": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q208318": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q2085421": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2085436": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2086226": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q208664": {
+"colony_qid": "Q924",
+"colony_label": "Zanzibar (Independent)",
+"method": "country_is_colony"
+},
+"Q208718": {
+"colony_qid": "Q1049",
+"colony_label": "Sudan, Anglo-Egyptian",
+"method": "country_is_colony"
+},
+"Q2088440": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2088458": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2088474": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2089115": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q209537": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q2096": {
+"colony_qid": "Q1951",
+"colony_label": "Alberta",
+"method": "admin_walk"
+},
+"Q2096823": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2096873": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q2096879": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q209698": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q21": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q21052035": {
+"colony_qid": "Q781",
+"colony_label": "Antigua-Barbuda-Montserrat",
+"method": "country_is_colony"
+},
+"Q2110336": {
+"colony_qid": "Q1978",
+"colony_label": "Prince Edward Island (Province)",
+"method": "admin_walk"
+},
+"Q211055": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2118504": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q2119634": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2119644": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q211970": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q2120963": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2123": {
+"colony_qid": "Q1989",
+"colony_label": "Saskatchewan",
+"method": "admin_walk"
+},
+"Q2127": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q213014": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q213026": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2131759": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q21319": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "province_walk"
+},
+"Q213361": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q213465": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q213467": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q2135": {
+"colony_qid": "Q1948",
+"colony_label": "Manitoba",
+"method": "province_walk"
+},
+"Q2138": {
+"colony_qid": "Q1965",
+"colony_label": "New Brunswick (Province)",
+"method": "admin_walk"
+},
+"Q213832": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q213893": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q2141": {
+"colony_qid": "Q1952",
+"colony_label": "Nova Scotia (Province)",
+"method": "admin_walk"
+},
+"Q2143142": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q214485": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q2144922": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q2145": {
+"colony_qid": "Q176",
+"colony_label": "Quebec",
+"method": "admin_walk"
+},
+"Q2147037": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q214820": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q215277": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q2158697": {
+"colony_qid": "Q188096",
+"colony_label": "Penang",
+"method": "admin_walk"
+},
+"Q2166182": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q216638": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q216982": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q217039": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q217040": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q2170996": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2171766": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q217432": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q217831": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2181642": {
+"colony_qid": "Q1658411",
+"colony_label": "Sarawak",
+"method": "admin_walk"
+},
+"Q21903105": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "province_walk"
+},
+"Q219117": {
+"colony_qid": "Q1020",
+"colony_label": "British Central Africa Protectorate",
+"method": "country_is_colony"
+},
+"Q22": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q220445": {
+"colony_qid": "Q1658411",
+"colony_label": "Sarawak",
+"method": "admin_walk"
+},
+"Q22048": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2208947": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q221283": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q2218824": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2219146": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q2219158": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q2219254": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q2219731": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q2222026": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2232441": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2232843": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q2234392": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q223517": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2240615": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2240800": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q22424": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q224775": {
+"colony_qid": "Q3557236",
+"colony_label": "Gambia Colony and Protectorate",
+"method": "country_walk"
+},
+"Q2256": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q225641": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q2256832": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q22694790": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q2281172": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2281313": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2283184": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2283203": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q228405": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2287036": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q22889": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q22890": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q22905": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2299057": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2302576": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q23041": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q23064": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2307495": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q23077": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2307889": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q23079": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q230818": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q23082": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23090": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23092": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23098": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23103": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23105": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23109": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23111": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q231318": {
+"colony_qid": "Q1973084",
+"colony_label": "Unfederated Malay States",
+"method": "province_walk"
+},
+"Q23135": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23143": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23154": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2315476": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2315507": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q23156": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23157": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23159": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23165": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23169": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q231765": {
+"colony_qid": "Q56850459",
+"colony_label": "Victoria (Colony)",
+"method": "province_walk"
+},
+"Q23183": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23204": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23240": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23276": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2329181": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q23298": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2330535": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q23326": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q23346": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q233467": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q2341786": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q23436": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2344570": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2344697": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2352168": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2352205": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q2357510": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q2362035": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q2364754": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2365106": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2365710": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q23661": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q23666": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2368626": {
+"colony_qid": "Q1973084",
+"colony_label": "Unfederated Malay States",
+"method": "province_walk"
+},
+"Q237253": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2373358": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q2373383": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2374743": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q237847": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2378590": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q23800": {
+"colony_qid": "Q233",
+"colony_label": "Malta",
+"method": "country_is_colony"
+},
+"Q2381489": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q238508": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q238752": {
+"colony_qid": "Q781",
+"colony_label": "Antigua-Barbuda-Montserrat",
+"method": "admin_walk"
+},
+"Q238991": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q239143": {
+"colony_qid": "Q1054923",
+"colony_label": "Hong Kong",
+"method": "admin_walk"
+},
+"Q239462": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2414959": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2416685": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q242992": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q242995": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q243293": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q243322": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2437966": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q243846": {
+"colony_qid": "Q796",
+"colony_label": "Mesopotamia (British Occupied)",
+"method": "country_is_colony"
+},
+"Q244159": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q24440": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q24462": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q2452012": {
+"colony_qid": "Q1973084",
+"colony_label": "Unfederated Malay States",
+"method": "province_walk"
+},
+"Q2460230": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2460233": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q24639": {
+"colony_qid": "Q1973",
+"colony_label": "British Columbia",
+"method": "province_walk"
+},
+"Q2467": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q24826": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2483088": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2483390": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2486": {
+"colony_qid": "Q271876",
+"colony_label": "Gilbert Islands",
+"method": "admin_walk"
+},
+"Q248705": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2495639": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q2499366": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q25": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2500974": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2506033": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q251137": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q2512323": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q251329": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2514168": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q25230": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q253851": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q254505": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2553018": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2553777": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2559188": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "admin_walk"
+},
+"Q2559220": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "admin_walk"
+},
+"Q25610": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q256194": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q256711": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q2571434": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2574863": {
+"colony_qid": "Q796",
+"colony_label": "Mesopotamia (British Occupied)",
+"method": "country_is_colony"
+},
+"Q2575156": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q257622": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2578921": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q2581527": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2593519": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q2594860": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2597340": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q2602007": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q2604565": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q2605521": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2607381": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2607939": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q2609896": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2614835": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q2623078": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q2626532": {
+"colony_qid": "Q796",
+"colony_label": "Mesopotamia (British Occupied)",
+"method": "country_is_colony"
+},
+"Q264014": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q265115": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q2662991": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2663236": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q266818": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "province_walk"
+},
+"Q26692": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q2671213": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q26713": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q26715": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q2671536": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2672955": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2674376": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q26777758": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2694747": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q269899": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q270176": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2702334": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q270821": {
+"colony_qid": "Q796",
+"colony_label": "Mesopotamia (British Occupied)",
+"method": "country_is_colony"
+},
+"Q271619": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q2719352": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2725698": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2727978": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2734136": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2741737": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q276717": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q277258": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q277322": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2775160": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q27763597": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q2781356": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q278422": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q278964": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2795307": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q279951": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q281749": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q282203": {
+"colony_qid": "Q233",
+"colony_label": "Malta",
+"method": "country_is_colony"
+},
+"Q284210": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q2866207": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q28729": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2879449": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q2884709": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2891912": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q2892176": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q2896921": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q2909951": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q29245": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q29303": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q2935301": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q2937956": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q2938768": {
+"colony_qid": "Q1973",
+"colony_label": "British Columbia",
+"method": "admin_walk"
+},
+"Q2957125": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q2975243": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2983297": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q298416": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q2991091": {
+"colony_qid": "Q176",
+"colony_label": "Quebec",
+"method": "admin_walk"
+},
+"Q2991146": {
+"colony_qid": "Q176",
+"colony_label": "Quebec",
+"method": "admin_walk"
+},
+"Q2999039": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q300577": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3010684": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q304371": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q305259": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3056690": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q30651": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q30671991": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q3069819": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q3073398": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q3086678": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q3088741": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q309469": {
+"colony_qid": "Q1049",
+"colony_label": "Sudan, Anglo-Egyptian",
+"method": "admin_walk"
+},
+"Q310772": {
+"colony_qid": "Q805",
+"colony_label": "Socotra Island",
+"method": "country_is_colony"
+},
+"Q311199": {
+"colony_qid": "Q1049",
+"colony_label": "Sudan, Anglo-Egyptian",
+"method": "country_is_colony"
+},
+"Q3113320": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3114": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q3115958": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q311805": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3120966": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3127313": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q3130": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "province_walk"
+},
+"Q3132595": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q3139162": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q3141": {
+"colony_qid": "Q56850459",
+"colony_label": "Victoria (Colony)",
+"method": "province_walk"
+},
+"Q316390": {
+"colony_qid": "Q781",
+"colony_label": "Antigua-Barbuda-Montserrat",
+"method": "admin_walk"
+},
+"Q3166683": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3181037": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q318156": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q3183": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q319366": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q320704": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q322149": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q322155": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3235": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q3235603": {
+"colony_qid": "Q1050",
+"colony_label": "Swaziland",
+"method": "country_is_colony"
+},
+"Q3235637": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q323873": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q3238928": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q32429": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q3246880": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q3249446": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q3267302": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q327348": {
+"colony_qid": "Q35715",
+"colony_label": "South Australia",
+"method": "admin_walk"
+},
+"Q328493": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q3290674": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q330158": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q330643": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3308170": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q3308204": {
+"colony_qid": "Q891827",
+"colony_label": "Bombay Presidency (Company)",
+"method": "admin_walk"
+},
+"Q331764": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "province_walk"
+},
+"Q3329752": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q3330858": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q3335495": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q3348489": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q3352699": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q336350": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q339527": {
+"colony_qid": "Q5148519",
+"colony_label": "Tasmania",
+"method": "province_walk"
+},
+"Q340": {
+"colony_qid": "Q176",
+"colony_label": "Quebec",
+"method": "province_walk"
+},
+"Q340149": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q34047": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q3410": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q3411": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q34180": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q34183": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q34217": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q34374": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q34404": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q345860": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q34647": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q34692": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q3492": {
+"colony_qid": "Q252",
+"colony_label": "Java (British Occupation)",
+"method": "admin_walk"
+},
+"Q34932": {
+"colony_qid": "Q28401203",
+"colony_label": "Queensland",
+"method": "admin_walk"
+},
+"Q3495356": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q3497036": {
+"colony_qid": "Q1054923",
+"colony_label": "Hong Kong",
+"method": "admin_walk"
+},
+"Q350": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q3509075": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q3509092": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q3509254": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q3509639": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q3509795": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q3510599": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q3522720": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3523772": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q3533257": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q3536138": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q3537158": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q3537406": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q35381": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q35425260": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q3554074": {
+"colony_qid": "Q1973",
+"colony_label": "British Columbia",
+"method": "admin_walk"
+},
+"Q36117": {
+"colony_qid": "Q252",
+"colony_label": "Java (British Occupation)",
+"method": "country_is_colony"
+},
+"Q36168": {
+"colony_qid": "Q244",
+"colony_label": "Barbados Colony",
+"method": "country_is_colony"
+},
+"Q3619248": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q36262": {
+"colony_qid": "Q781",
+"colony_label": "Antigua-Barbuda-Montserrat",
+"method": "country_is_colony"
+},
+"Q36281": {
+"colony_qid": "Q784",
+"colony_label": "Dominica Colony",
+"method": "country_is_colony"
+},
+"Q3628827": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3630848": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q36312": {
+"colony_qid": "Q1951",
+"colony_label": "Alberta",
+"method": "admin_walk"
+},
+"Q3632559": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3634952": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3635276": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3636023": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q36405": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q3642180": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3642191": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3642193": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3642301": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3642303": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3642342": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3642478": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q3642542": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3642582": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3642967": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3643099": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3644236": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3644419": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q3644445": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q367354": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q367465": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q36823": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "admin_walk"
+},
+"Q370456": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q3705234": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q37100": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q37211": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "admin_walk"
+},
+"Q3726": {
+"colony_qid": "Q3557236",
+"colony_label": "Gambia Colony and Protectorate",
+"method": "country_walk"
+},
+"Q372773": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3752938": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q375314": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q3761": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q376749": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q37701": {
+"colony_qid": "Q1142179",
+"colony_label": "Orange River Colony",
+"method": "province_walk"
+},
+"Q377295": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "province_walk"
+},
+"Q377343": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q377588": {
+"colony_qid": "Q805",
+"colony_label": "Socotra Island",
+"method": "country_is_colony"
+},
+"Q377720": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q3777255": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q377814": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q3780": {
+"colony_qid": "Q662653",
+"colony_label": "British Somaliland",
+"method": "country_walk"
+},
+"Q379656": {
+"colony_qid": "Q15240466",
+"colony_label": "Saint Lucia Colony",
+"method": "country_walk"
+},
+"Q37995": {
+"colony_qid": "Q2376315",
+"colony_label": "Burma (Separate Colony)",
+"method": "country_is_colony"
+},
+"Q3812391": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q3821954": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3826754": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q3852743": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q385394": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q3856": {
+"colony_qid": "Q15240466",
+"colony_label": "Cyprus",
+"method": "country_walk"
+},
+"Q38589": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q385934": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q3870": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q3870501": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q38807": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q3894": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q390096": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q3904": {
+"colony_qid": "Q1050",
+"colony_label": "Swaziland",
+"method": "country_is_colony"
+},
+"Q390564": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q3908652": {
+"colony_qid": "Q35715",
+"colony_label": "South Australia",
+"method": "admin_walk"
+},
+"Q39121": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q39178": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "admin_walk"
+},
+"Q3926": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q3929": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q398417": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "admin_walk"
+},
+"Q401686": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q401744": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q40191": {
+"colony_qid": "Q5148519",
+"colony_label": "Tasmania",
+"method": "admin_walk"
+},
+"Q40285": {
+"colony_qid": "Q252",
+"colony_label": "Java (British Occupation)",
+"method": "admin_walk"
+},
+"Q405670": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "admin_walk"
+},
+"Q4056876": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q4064029": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q4076412": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q4093": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q4116309": {
+"colony_qid": "Q127861",
+"colony_label": "Egypt",
+"method": "country_walk"
+},
+"Q41275": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q41277": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q41295": {
+"colony_qid": "Q763",
+"colony_label": "St. Kitts-Nevis-Anguilla",
+"method": "country_is_colony"
+},
+"Q41474": {
+"colony_qid": "Q15240466",
+"colony_label": "Saint Lucia Colony",
+"method": "country_walk"
+},
+"Q41496": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q41547": {
+"colony_qid": "Q3116419",
+"colony_label": "Grenada Colony",
+"method": "country_walk"
+},
+"Q41562": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q416098": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q4161769": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q41621": {
+"colony_qid": "Q801",
+"colony_label": "State of Israel",
+"method": "country_is_colony"
+},
+"Q41843": {
+"colony_qid": "Q801",
+"colony_label": "State of Israel",
+"method": "country_is_colony"
+},
+"Q42209": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q42448": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q42462": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q42485": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q4251470": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q4261446": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q426843": {
+"colony_qid": "Q18221",
+"colony_label": "Turks and Caicos Islands",
+"method": "admin_walk"
+},
+"Q42686": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q42743": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q42768": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q4280999": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q429063": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q42941": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q43382": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q43475": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q4392566": {
+"colony_qid": "Q28401203",
+"colony_label": "Queensland",
+"method": "admin_walk"
+},
+"Q44012": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q44725": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q4504150": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "province_walk"
+},
+"Q45256": {
+"colony_qid": "Q252",
+"colony_label": "Java (British Occupation)",
+"method": "country_is_colony"
+},
+"Q4526": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q45403": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q456624": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q458406": {
+"colony_qid": "Q924",
+"colony_label": "Zanzibar (Independent)",
+"method": "admin_walk"
+},
+"Q459763": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "admin_walk"
+},
+"Q4629": {
+"colony_qid": "Q891827",
+"colony_label": "Bombay Presidency (Company)",
+"method": "admin_walk"
+},
+"Q463273": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q463526": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q463871": {
+"colony_qid": "Q127861",
+"colony_label": "Egypt",
+"method": "country_walk"
+},
+"Q465022": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q466221": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q466551": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q46733": {
+"colony_qid": "Q1049",
+"colony_label": "Sudan, Anglo-Egyptian",
+"method": "admin_walk"
+},
+"Q4673778": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q4701715": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q4701984": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q47047": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "admin_walk"
+},
+"Q470594": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q4727495": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q473181": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q473216": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q4734629": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q473748": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q474868": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q476317": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q4765854": {
+"colony_qid": "Q2376315",
+"colony_label": "Burma (Separate Colony)",
+"method": "override"
+},
+"Q47700": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q477835": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q478029": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q47822": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q478302": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q4789666": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q47916": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q47952": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q48195": {
+"colony_qid": "Q796",
+"colony_label": "Mesopotamia (British Occupied)",
+"method": "country_is_colony"
+},
+"Q48403": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q4849247": {
+"colony_qid": "Q4126447",
+"colony_label": "Eastern Bengal and Assam",
+"method": "admin_walk"
+},
+"Q4849747": {
+"colony_qid": "Q56850459",
+"colony_label": "Victoria (Colony)",
+"method": "province_walk"
+},
+"Q4850899": {
+"colony_qid": "Q188096",
+"colony_label": "Penang",
+"method": "admin_walk"
+},
+"Q485186": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q4856263": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q4857417": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q48725482": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q4886236": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q4890663": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q489744": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q4900952": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q4907077": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "admin_walk"
+},
+"Q490886": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q49101286": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q49155": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q492350": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q49298052": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q498225": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q49940": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q4997518": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q5003979": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5021973": {
+"colony_qid": "Q15240466",
+"colony_label": "Saint Lucia Colony",
+"method": "country_walk"
+},
+"Q502531": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q502652": {
+"colony_qid": "Q1643555",
+"colony_label": "British Honduras",
+"method": "country_walk"
+},
+"Q503056": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q503331": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q503482": {
+"colony_qid": "Q3116419",
+"colony_label": "Grenada Colony",
+"method": "country_walk"
+},
+"Q504678": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q5057178": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q506049": {
+"colony_qid": "Q1643555",
+"colony_label": "British Honduras",
+"method": "country_walk"
+},
+"Q506056": {
+"colony_qid": "Q1643555",
+"colony_label": "British Honduras",
+"method": "country_walk"
+},
+"Q5061723": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "admin_walk"
+},
+"Q5061728": {
+"colony_qid": "Q28401203",
+"colony_label": "Queensland",
+"method": "admin_walk"
+},
+"Q5069934": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q507144": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q508753": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q508773": {
+"colony_qid": "Q1643555",
+"colony_label": "British Honduras",
+"method": "country_walk"
+},
+"Q5101966": {
+"colony_qid": "Q1020",
+"colony_label": "British Central Africa Protectorate",
+"method": "admin_walk"
+},
+"Q5105374": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5112": {
+"colony_qid": "Q35715",
+"colony_label": "South Australia",
+"method": "admin_walk"
+},
+"Q513104": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q5138677": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q5157575": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q5170698": {
+"colony_qid": "Q56850459",
+"colony_label": "Victoria (Colony)",
+"method": "province_walk"
+},
+"Q5177825": {
+"colony_qid": "Q56850459",
+"colony_label": "Victoria (Colony)",
+"method": "province_walk"
+},
+"Q52162031": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5251767": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q5261305": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q526862": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q527085": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q5273898": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q5276565": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q5277189": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q5283393": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q5310079": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q531909": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q5330498": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5332126": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q5375966": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q538636": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q5389285": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q54212": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q5431953": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q5460": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q5464123": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q5465": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q546635": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q5468": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q548518": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q549467": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q549761": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q550424": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q550691": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5517872": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q5532": {
+"colony_qid": "Q1020",
+"colony_label": "British Central Africa Protectorate",
+"method": "country_is_colony"
+},
+"Q55613482": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5575238": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5616433": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5622877": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q5641318": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q56508194": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q5657965": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q567542": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q5685475": {
+"colony_qid": "Q56850459",
+"colony_label": "Victoria (Colony)",
+"method": "province_walk"
+},
+"Q571215": {
+"colony_qid": "Q1049",
+"colony_label": "Sudan, Anglo-Egyptian",
+"method": "country_is_colony"
+},
+"Q5724": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q579205": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q579556": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q581562": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q584458": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q584644": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q585317": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q58560": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q585963": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q587085": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q587808": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q588587": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q588817": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q588930": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q589163": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q58976": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q589911": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q59018": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q593434": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q593890": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q594209": {
+"colony_qid": "Q1658411",
+"colony_label": "Sarawak",
+"method": "admin_walk"
+},
+"Q596660": {
+"colony_qid": "Q1054923",
+"colony_label": "Hong Kong",
+"method": "admin_walk"
+},
+"Q597538": {
+"colony_qid": "Q662653",
+"colony_label": "British Somaliland",
+"method": "country_walk"
+},
+"Q598658": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q598745": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q60": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q600893": {
+"colony_qid": "Q953903",
+"colony_label": "Northern Rhodesia Colony",
+"method": "country_walk"
+},
+"Q6037306": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q604978": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q605167": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q605235": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "province_walk"
+},
+"Q605267": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "province_walk"
+},
+"Q606212": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "province_walk"
+},
+"Q60770124": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "admin_walk"
+},
+"Q608877": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q61": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q610600": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q61089": {
+"colony_qid": "Q7621163",
+"colony_label": "Malacca Settlement",
+"method": "province_walk"
+},
+"Q61092": {
+"colony_qid": "Q188096",
+"colony_label": "Penang",
+"method": "admin_walk"
+},
+"Q612328": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q61432": {
+"colony_qid": "Q1948",
+"colony_label": "Manitoba",
+"method": "province_walk"
+},
+"Q61434": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q617438": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q618045": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q618063": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q619440": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q619443": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q62": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q620801": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q623765": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q62378": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q625378": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q62923": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q630692": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q632093": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q632993": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q633114": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q633530": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q633565": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q6346798": {
+"colony_qid": "Q924",
+"colony_label": "Zanzibar (Independent)",
+"method": "country_is_colony"
+},
+"Q6373": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q637555": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q6380719": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q639421": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q6395826": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q6400241": {
+"colony_qid": "Q891827",
+"colony_label": "Bombay Presidency (Company)",
+"method": "admin_walk"
+},
+"Q640943": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q641098": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q64116": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q641274": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q643883": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q6442600": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q644506": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q644799": {
+"colony_qid": "Q953903",
+"colony_label": "Northern Rhodesia Colony",
+"method": "country_walk"
+},
+"Q646067": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q646980": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q648810": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q649955": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q651131": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q652098": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q652552": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q653801": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q657004": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "admin_walk"
+},
+"Q661405": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "admin_walk"
+},
+"Q661529": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q6628756": {
+"colony_qid": "Q193714",
+"colony_label": "Palestine",
+"method": "country_is_colony"
+},
+"Q66568": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q667463": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q668262": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q668395": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q668616": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q6704167": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q671431": {
+"colony_qid": "Q1989",
+"colony_label": "Saskatchewan",
+"method": "admin_walk"
+},
+"Q671557": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q671892": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q672089": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q67266168": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q672948": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q67317221": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q6747189": {
+"colony_qid": "Q4907084",
+"colony_label": "Bihar and Orissa",
+"method": "admin_walk"
+},
+"Q67479974": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q6796869": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q680382": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q680926": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q6826746": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q684062": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q6841777": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q685315": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q68585": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q685941": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q68744": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q6905724": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q691037": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q691747": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q692912": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "admin_walk"
+},
+"Q693093": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q69482": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q695221": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q695585": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q695852": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q698920": {
+"colony_qid": "Q35715",
+"colony_label": "South Australia",
+"method": "admin_walk"
+},
+"Q704257": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "province_walk"
+},
+"Q704371": {
+"colony_qid": "Q28401203",
+"colony_label": "Queensland",
+"method": "admin_walk"
+},
+"Q704864": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7054188": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7056031": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7067519": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q7092170": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q709267": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q709298": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7102849": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q71037": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q712832": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "admin_walk"
+},
+"Q7129771": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q713391": {
+"colony_qid": "Q924",
+"colony_label": "Zanzibar (Independent)",
+"method": "country_is_colony"
+},
+"Q715267": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7193354": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q719518": {
+"colony_qid": "Q41",
+"colony_label": "Ionian Islands",
+"method": "country_is_colony"
+},
+"Q72259": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7231063": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q725261": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7260263": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7260301": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_is_colony"
+},
+"Q727232": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7278489": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q729006": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7311426": {
+"colony_qid": "Q1658411",
+"colony_label": "Sarawak",
+"method": "admin_walk"
+},
+"Q731613": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q733338": {
+"colony_qid": "Q9648",
+"colony_label": "Falkland Islands",
+"method": "admin_walk"
+},
+"Q7334832": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q736439": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7375147": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q737765": {
+"colony_qid": "Q5785",
+"colony_label": "Cayman Islands",
+"method": "admin_walk"
+},
+"Q738748": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q739687": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7397977": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q740418": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q741400": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7420152": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q742514": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q743069": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q743521": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q743535": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7461412": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7461864": {
+"colony_qid": "Q2629708",
+"colony_label": "Punjab Province",
+"method": "admin_walk"
+},
+"Q746718": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q747174": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q748494": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q748895": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7496073": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q75150": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q7531901": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q7566496": {
+"colony_qid": "Q1772596",
+"colony_label": "Madras Presidency (Company)",
+"method": "admin_walk"
+},
+"Q759348": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q760144": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q760714": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7620269": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q763595": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q763616": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q7688753": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q769779": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q77021": {
+"colony_qid": "Q116282722",
+"colony_label": "Trinidad and Tobago",
+"method": "country_walk"
+},
+"Q7705542": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q7708831": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q772185": {
+"colony_qid": "Q662653",
+"colony_label": "British Somaliland",
+"method": "country_walk"
+},
+"Q773213": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q773603": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q77452": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q776213": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q776887": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q777884": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q778": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q7781208": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "province_walk"
+},
+"Q779813": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7809086": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q782": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "admin_walk"
+},
+"Q7849843": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q7849847": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q785": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q7876579": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q7889082": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "admin_walk"
+},
+"Q7916922": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q792509": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q793283": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q793553": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q795647": {
+"colony_qid": "Q3116419",
+"colony_label": "Grenada Colony",
+"method": "country_walk"
+},
+"Q7961123": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q7983017": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q79848": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q79980": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q79990": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q800124": {
+"colony_qid": "Q2376315",
+"colony_label": "Burma (Separate Colony)",
+"method": "admin_walk"
+},
+"Q80338": {
+"colony_qid": "Q17342164",
+"colony_label": "Tripura",
+"method": "admin_walk"
+},
+"Q804133": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q80484": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q805804": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q806125": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q806160": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q806432": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q806916": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q8075286": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q807828": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q808013": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q808023": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q808291": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q808304": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q808750": {
+"colony_qid": "Q953903",
+"colony_label": "Northern Rhodesia Colony",
+"method": "country_walk"
+},
+"Q809428": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q810196": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q810963": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q811144": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q81126": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "country_is_colony"
+},
+"Q813395": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q813857": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q817247": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q817578": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q81788": {
+"colony_qid": "Q127861",
+"colony_label": "Egypt",
+"method": "country_walk"
+},
+"Q818106": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q818344": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q820535": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q8264065": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q826782": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q827173": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q827279": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q827295": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q827319": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q827604": {
+"colony_qid": "Q25305",
+"colony_label": "British Virgin Islands",
+"method": "admin_walk"
+},
+"Q83065": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q83108": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q83241": {
+"colony_qid": "Q801",
+"colony_label": "State of Israel",
+"method": "country_is_colony"
+},
+"Q83726": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q83786": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q84": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q841619": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q842411": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q843954": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "admin_walk"
+},
+"Q844091": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q845540": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q845662": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q846323": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "admin_walk"
+},
+"Q846502": {
+"colony_qid": "Q1973084",
+"colony_label": "Unfederated Malay States",
+"method": "province_walk"
+},
+"Q846939": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q847610": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q848853": {
+"colony_qid": "Q188096",
+"colony_label": "Penang",
+"method": "admin_walk"
+},
+"Q849164": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "admin_walk"
+},
+"Q849888": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q85": {
+"colony_qid": "Q127861",
+"colony_label": "Egypt",
+"method": "country_walk"
+},
+"Q851955": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q852238": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q852772": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q853012": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q853272": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q854693": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q854900": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q856003": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q856151": {
+"colony_qid": "Q953903",
+"colony_label": "Northern Rhodesia Colony",
+"method": "country_walk"
+},
+"Q856662": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q856686": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q858513": {
+"colony_qid": "Q21815597",
+"colony_label": "Bahamas Colony",
+"method": "country_walk"
+},
+"Q858555": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q860210": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q8652": {
+"colony_qid": "Q30",
+"colony_label": "Baker Island",
+"method": "country_is_colony"
+},
+"Q8660": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q8673": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q868368": {
+"colony_qid": "Q334",
+"colony_label": "Singapore Settlement",
+"method": "country_is_colony"
+},
+"Q8686": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "admin_walk"
+},
+"Q868631": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q87": {
+"colony_qid": "Q127861",
+"colony_label": "Egypt",
+"method": "country_walk"
+},
+"Q870103": {
+"colony_qid": "Q836",
+"colony_label": "British Territories in Burma",
+"method": "country_is_colony"
+},
+"Q870155": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "admin_walk"
+},
+"Q871091": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "override"
+},
+"Q873740": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q874262": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q876122": {
+"colony_qid": "Q1973",
+"colony_label": "British Columbia",
+"method": "province_walk"
+},
+"Q876293": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q876308": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q876339": {
+"colony_qid": "Q918153",
+"colony_label": "Ceylon",
+"method": "country_walk"
+},
+"Q880512": {
+"colony_qid": "Q2526023",
+"colony_label": "Jamaica",
+"method": "country_walk"
+},
+"Q882907": {
+"colony_qid": "Q1643555",
+"colony_label": "British Honduras",
+"method": "country_walk"
+},
+"Q882964": {
+"colony_qid": "Q1643555",
+"colony_label": "British Honduras",
+"method": "country_walk"
+},
+"Q889897": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q889912": {
+"colony_qid": "Q1097943",
+"colony_label": "Uganda",
+"method": "country_walk"
+},
+"Q891229": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q891257": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q897489": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q899": {
+"colony_qid": "Q127861",
+"colony_label": "Egypt",
+"method": "country_walk"
+},
+"Q911635": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q911643": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q911651": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q911909": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q912359": {
+"colony_qid": "Q662653",
+"colony_label": "British Somaliland",
+"method": "country_walk"
+},
+"Q913399": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q917011": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q917867": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q918121": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "override"
+},
+"Q918150": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q920396": {
+"colony_qid": "Q920396",
+"colony_label": "British West Indies",
+"method": "override"
+},
+"Q920947": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q921719": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q922701": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q923811": {
+"colony_qid": "Q918126",
+"colony_label": "British Guiana",
+"method": "country_walk"
+},
+"Q92561": {
+"colony_qid": "Q1904",
+"colony_label": "Ontario",
+"method": "admin_walk"
+},
+"Q925942": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q927822": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q927864": {
+"colony_qid": "Q2003",
+"colony_label": "Newfoundland and Labrador",
+"method": "admin_walk"
+},
+"Q929062": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q93230": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q933043": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "province_walk"
+},
+"Q934126": {
+"colony_qid": "Q12053604",
+"colony_label": "Isle de France (British Occupation)",
+"method": "country_walk"
+},
+"Q934790": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q935184": {
+"colony_qid": "Q1400154",
+"colony_label": "Federated Malay States",
+"method": "country_fallback"
+},
+"Q935570": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q935702": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q937487": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q939610": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q939838": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q941071": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q941901": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q949280": {
+"colony_qid": "Q1045",
+"colony_label": "British Somaliland",
+"method": "country_is_colony"
+},
+"Q951049": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q951161": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q952528": {
+"colony_qid": "Q712",
+"colony_label": "Fiji",
+"method": "country_is_colony"
+},
+"Q953": {
+"colony_qid": "Q953903",
+"colony_label": "Northern Rhodesia Colony",
+"method": "country_walk"
+},
+"Q953068": {
+"colony_qid": "Q953068",
+"colony_label": "South-West Africa",
+"method": "override"
+},
+"Q955977": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q956": {
+"colony_qid": "Q148",
+"colony_label": "Weihaiwei",
+"method": "admin_walk"
+},
+"Q967166": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q9679": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q968662": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q971223": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q974323": {
+"colony_qid": "Q2538511",
+"colony_label": "Kenya, Colony & Protectorate of",
+"method": "country_walk"
+},
+"Q977183": {
+"colony_qid": "Q3116419",
+"colony_label": "Grenada Colony",
+"method": "country_walk"
+},
+"Q980608": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q984028": {
+"colony_qid": "Q16",
+"colony_label": "Dominion of Canada",
+"method": "country_fallback"
+},
+"Q984146": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q985813": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q985827": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q985839": {
+"colony_qid": "Q1301901",
+"colony_label": "Colony of Natal",
+"method": "province_walk"
+},
+"Q986198": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+},
+"Q9863": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q986654": {
+"colony_qid": "Q408",
+"colony_label": "Commonwealth of Australia",
+"method": "country_fallback"
+},
+"Q986664": {
+"colony_qid": "Q28401203",
+"colony_label": "Queensland",
+"method": "admin_walk"
+},
+"Q987": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q9885": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q9888": {
+"colony_qid": "Q129286",
+"colony_label": "Indian Empire (British Raj)",
+"method": "country_walk"
+},
+"Q989418": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q990616": {
+"colony_qid": "Q84",
+"colony_label": "United Kingdom (metropole)",
+"method": "metropole_uk"
+},
+"Q993170": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q993721": {
+"colony_qid": "Q1187978",
+"colony_label": "Transvaal Colony (Second British)",
+"method": "province_walk"
+},
+"Q993859": {
+"colony_qid": "Q843",
+"colony_label": "Baluchistan",
+"method": "country_is_colony"
+},
+"Q994000": {
+"colony_qid": "Q57676556",
+"colony_label": "Western Australia",
+"method": "admin_walk"
+},
+"Q994085": {
+"colony_qid": "Q2046345",
+"colony_label": "Colony and Protectorate of Nigeria",
+"method": "country_walk"
+},
+"Q995439": {
+"colony_qid": "Q117",
+"colony_label": "Cape Coast Castle",
+"method": "country_is_colony"
+},
+"Q995615": {
+"colony_qid": "Q193619",
+"colony_label": "Union of South Africa",
+"method": "country_fallback"
+},
+"Q998452": {
+"colony_qid": "Q664",
+"colony_label": "New Zealand",
+"method": "country_is_colony"
+}
+}
