@@ -155,6 +155,30 @@ def _crosswalk(path: str) -> dict:
     return json.loads(p.read_text())
 
 
+# Some colony_qids are duplicate representations of the same colonial polity:
+# a modern-country QID or a sub-place QID that admin_walk reaches separately from
+# the canonical colony node. E.g. Ghana Q117 and the Cape Coast Castle fort
+# Q1254826 both denote the Gold Coast colony whose canonical node is Q503623.
+# This map folds them onto the canonical colony_qid so places don't split across
+# parallel nodes. Applied in _out (before lock_label) so EVERY resolution path
+# (curated / ttl / label / crosswalk) canonicalises. data/kg/colony_canon.json.
+_CANON_PATH = Path(__file__).resolve().parents[2] / "data/kg/colony_canon.json"
+
+
+@lru_cache(maxsize=1)
+def _canon(path: str) -> dict:
+    import json
+    p = Path(path)
+    return json.loads(p.read_text()) if p.exists() else {}
+
+
+def canon_colony(colony_qid: str, canon_path: str | None = None):
+    """Canonical colony_qid (folds duplicate colony nodes; see _canon)."""
+    if not colony_qid:
+        return colony_qid
+    return _canon(str(canon_path or _CANON_PATH)).get(colony_qid, colony_qid)
+
+
 def resolve_colony(place_row: dict, ttl_path: str | None = None,
                    manifest_path: str | None = None,
                    crosswalk_path: str | None = None) -> dict:
@@ -164,6 +188,7 @@ def resolve_colony(place_row: dict, ttl_path: str | None = None,
     admin_walk/country_is_colony/self_colony/metropole_uk/override), or
     unresolved, recording which source matched."""
     def _out(cq, cl, method):
+        cq = canon_colony(cq)
         return {"colony_qid": cq, "colony_label": lock_label(cq, cl), "method": method}
 
     qid = place_row.get("qid")
