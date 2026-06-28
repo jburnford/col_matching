@@ -173,3 +173,67 @@ Columbia, which geolocates to its seat Victoria, BC; else the Australian colony)
 never matched and everything fell back to the global majority — `kg_emit_stage3` now
 strips the prefix. This repaired Victoria→BC and the India-vs-Ceylon N.-W. Province
 minority split. Both corpora re-emitted.
+
+---
+
+## Session 2026-06-28 — Wikidata cross-validation + geography/label audit
+
+Context: validated the KG against the ~1,100 Wikidata-grounded officials (independent
+gold standard) and audited the place→colony layer by coordinates + WD-label identity.
+Fixed at root (committed 845a67d and earlier): 7 namesake person mis-groundings; 4
+country→colony QID transpositions (Sierra Leone→Somaliland etc.); the resolve_colony
+label-before-crosswalk precedence bug; 8 reused-QID colony mislabels (Weihaiwei→China,
+Baluchistan→North-West Frontier, Baker Island→United States, Cape Coast Castle→British
+Gold Coast …); merged the duplicate Gold Coast nodes via `data/kg/colony_canon.json`.
+See memory `kg-geography-transposition-fixes`, `kg-grounding-validation`. Remaining:
+
+### 10. Vague-region surfaces mis-attributed to a specific colony  **needs re-ground**
+`Q252 'Dutch East Indies (British Occupation)'` (79 facts) attracts surfaces that the
+1811–16 British occupation never covered: **"New Guinea" (12)** and **"Australasia" (11)**
+— vague regional toponyms the LLM/grounder mapped to Java/DEI. Same class as the old
+"Southeast Asia → British New Guinea". Fix: re-ground these vague regional surfaces
+(ideally drop colony, or split to the right entity); don't let a region collapse onto a
+specific colony. ~23 facts.
+
+### 11. Coarse country-QID nodes co-exist with the proper sub-colony — **CORRECT, do NOT merge**
+After the label fixes, several *modern-country* colony nodes sit beside the *specific*
+colonial entity, and **this is intentional** — they hold different things:
+`Q148 China`(99, consular/treaty-port postings: Shanghai, Beijing, Canton) vs
+`Q15939896 Weihaiwei`(36, the leased territory); `Q41 Greece`(65, mainland/WWI Salonika)
+vs `Q1063498 United States of the Ionian Islands`(50, the protectorate); `Q843
+North-West Frontier`(52) vs `Q3303188 Baluchistan`(10). **Note for future cleanup: do
+NOT fold these into colony_canon.json** the way Gold Coast was — China ≠ Weihaiwei. Open
+*modeling* question only: China/United States/Greece/France are "place of service abroad",
+not British colonies; the colony layer conflates "colony" with "where served". By design
+for now.
+
+### 12. Correctly-grounded officials whose career rolled up to metropole only  **needs re-ground**
+`John Anderson` (Q6218961) is correctly grounded (Governor of the Straits Settlements &
+Ceylon) but his KG career events resolve to **"United Kingdom (metropole)" only** — his
+real colonies were dropped to the metropole fallback. Representative of a residual class
+of the placeless-officials problem (see `placeless-officials-diagnosis`): the WD-has-more
+audit (`data/kg/graph_stage3/wikidata_has_more.json`, 224 persons) is the lead list for
+finding these. Fix: for grounded persons, reconcile career colonies against WD P39
+jurisdictions; recover the dropped colonies.
+
+### 13. Person under-merge — 30 Wikidata QIDs map to ≥2 KG person records  **needs dedup**
+30 QIDs each ground 2+ distinct `person_id`s = the same real person split across records
+that the surname/given-name + role/year dedup never joined (often peerage-title vs
+family-name, or OCR variants across edition gaps). This is an *independent* dedup signal
+from the grounding. Fix: a QID-blocked merge pass (block on shared wikidata_qid, then the
+usual name/career compatibility gate). List derivable from `person_grounding.final.jsonl`.
+
+### 14. Per-person-ambiguous "Victoria" surfaces left ungrounded (by design)  **needs per-person ground**
+The Victoria re-grounding (this session) deliberately did NOT blanket-ground surfaces that
+mean different places for different people, to avoid mislocating one: **"Victoria district"**
+= Western Australia (ELIOT) vs Cape (HAW); **"Victoria county"** = Mauritius (D'HOTMAN);
+bare Cape East/West and the Australian multi-colony lists. A single cache QID would be
+wrong for someone. Fix: route these through the per-person context resolver
+(`resolve_context.py`), not the surface-keyed grounding cache. ~6 facts.
+
+### 15. Remote British territories on metropole fallback + 1-use context noise  (minor)
+Coordinate audit residue, all benign: `Falkland Islands Dependencies` and `Diego Garcia`
+roll to "United Kingdom (metropole)" (legitimately British, just no own colony node);
+single-use context places attach to the person's colony (Versailles→Bechuanaland,
+France→Northern Rhodesia, Syria→metropole) — extraction artifacts, ~1 fact each. Low
+priority; could drop sub-1-use foreign context places from the colony layer.
