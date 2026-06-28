@@ -22,6 +22,7 @@ from __future__ import annotations
 import json, collections
 from pathlib import Path
 from col_match.kg.paths import kg_out
+from col_match.kg.colony import lock_label
 from kg_build_place_colony_crosswalk import country_to_colony
 
 GD = kg_out() / "graph_stage3"
@@ -71,6 +72,7 @@ def main():
             stat["still_placeless"] += 1
             continue
         cq, cl, method = col
+        cl = lock_label(cq, cl)            # one canonical label per colony_qid
         for ev in by_person[pid]:
             ev["colony_qid"] = cq
             ev["colony_label"] = cl

@@ -76,7 +76,11 @@ def _index(ttl_path: str, manifest_path: str) -> tuple[dict, dict]:
         g = rdflib.Graph()
         g.parse(str(p), format="turtle")
         related = rdflib.URIRef(_SKOS_RELATED)
-        for subj in set(g.subjects()):
+        # sorted(): rdflib subject iteration order is nondeterministic, and the TTL
+        # maps several period entities onto one reused nation qid (Q664 carries both
+        # 'Campbell Island Whaling' and 'New Zealand'); last-write-wins must at least
+        # be stable across runs so the manifest correction below is deterministic.
+        for subj in sorted(set(g.subjects()), key=str):
             label = next((str(o) for o in g.objects(subj, rdflib.RDFS.label)), None)
             if not label:
                 continue
@@ -110,6 +114,30 @@ CURATED_COLONY = {
 }
 
 
+# A reused Wikidata QID can carry several period polities in the empire KG (Q664 =
+# NZ colony/dominion/independent + 'Campbell Island Whaling'; Q16 = Canada +
+# Vancouver Island; Q408 = Australia + Van Diemen's Land), so a colony_qid ends up
+# with conflicting labels across the graph and the TTL picks one at random. This
+# lock pins ONE canonical label per colony_qid: the graph's dominant label, with
+# the wrong-majority cases corrected. Applied last in resolve_colony so every path
+# (qid / label / crosswalk) yields the same name. data/kg/colony_label_lock.json.
+_LOCK_PATH = Path(__file__).resolve().parents[2] / "data/kg/colony_label_lock.json"
+
+
+@lru_cache(maxsize=1)
+def _lock(path: str) -> dict:
+    import json
+    p = Path(path)
+    return json.loads(p.read_text()) if p.exists() else {}
+
+
+def lock_label(colony_qid: str, fallback: str | None, lock_path: str | None = None):
+    """Canonical display label for a colony_qid (see _lock)."""
+    if not colony_qid:
+        return fallback
+    return _lock(str(lock_path or _LOCK_PATH)).get(colony_qid, fallback)
+
+
 # The "country+year lineage walk" the module docstring promised: a place_qid ->
 # colony crosswalk for grounded localities that are NOT themselves polities
 # (Calcutta, Cape Town, North-Western Provinces). Built by
@@ -135,23 +163,24 @@ def resolve_colony(place_row: dict, ttl_path: str | None = None,
     curated_modern_equiv, a crosswalk method (country_walk/province_walk/
     admin_walk/country_is_colony/self_colony/metropole_uk/override), or
     unresolved, recording which source matched."""
+    def _out(cq, cl, method):
+        return {"colony_qid": cq, "colony_label": lock_label(cq, cl), "method": method}
+
     qid = place_row.get("qid")
     if qid in CURATED_COLONY:
-        return dict(CURATED_COLONY[qid])
+        c = dict(CURATED_COLONY[qid])
+        return _out(c["colony_qid"], c["colony_label"], c["method"])
     qid2, lab2 = _index(str(ttl_path or KG_TTL), str(manifest_path or KG_MANIFEST))
     label = place_row.get("label") or place_row.get("place") or ""
     if qid and qid in qid2:
         n = qid2[qid]
-        return {"colony_qid": n["qid"], "colony_label": n["label"],
-                "method": f"{n.get('source', 'ttl')}_qid"}
+        return _out(n["qid"], n["label"], f"{n.get('source', 'ttl')}_qid")
     n = lab2.get(_norm(label.split("(")[0]))
     if n:
-        return {"colony_qid": n["qid"], "colony_label": n["label"],
-                "method": f"{n.get('source', 'ttl')}_label"}
+        return _out(n["qid"], n["label"], f"{n.get('source', 'ttl')}_label")
     # Locality not a polity itself: roll up via the lineage-walk crosswalk.
     cw = _crosswalk(str(crosswalk_path or _CROSSWALK_PATH))
     m = cw.get(qid) if qid else None
     if m:
-        return {"colony_qid": m["colony_qid"], "colony_label": m["colony_label"],
-                "method": m.get("method", "crosswalk")}
+        return _out(m["colony_qid"], m["colony_label"], m.get("method", "crosswalk"))
     return {"colony_qid": None, "colony_label": None, "method": "unresolved"}
