@@ -47,6 +47,7 @@ LABEL_FIX = {
     "Q408": "Australia",       # absorbed Victoria/NSW/WA/Queensland/Tasmania/Swan River
     "Q833": "Malaya",          # absorbed Penang/Straits Settlements/Sarawak (not "Malaysia", 1963)
     "Q148": "China",           # had "Weihaiwei"; NOT "People's Republic of China" (1949)
+    "Q117": "Gold Coast",      # had "British Togoland"; the Gold Coast / Ghana (seat Accra)
 }
 
 def resolve_coords(all_qids, labels):
@@ -163,22 +164,35 @@ def build_careers_search(canon):
             evset[canon(pid)].add((y0, (y1 or y0) if y0 else None, col,
                                    intern_role(rid, rlabel, raw), 1 if acting else 0))
 
-    careers, search = {}, []
+    careers, search, no_colony = {}, [], 0
     for cpid, evs in evset.items():
         corpus = 0 if cpid.startswith("kgp_col") else 1
         sur, giv, qid = persons.get(cpid, (None, None, None))
-        placed = sorted(e for e in evs if e[2] and e[0])          # has colony + start year
+        evs = sorted((e for e in evs if e[0]),                    # all events with a start year
+                     key=lambda e: (e[0], e[2] or "", e[3], e[1] or e[0]))
+        # "default to the colony capital if we know the colony": jobs the lists record
+        # only by EMPLOYER (e.g. 'G.C. railways', a public works department) never
+        # grounded to a place, so a whole railway/department career used to collapse to
+        # the one posting that named a colony. Carry each colony-less event to the
+        # person's temporally-nearest KNOWN colony so every job by year is mapped+listed.
+        known = [(e[0], e[2]) for e in evs if e[2]]               # (year, colonyQid)
+        near = lambda y: min(known, key=lambda kc: abs((kc[0] or 0) - (y or 0)))[1]
         st = []
-        for y0, y1, col, pi, ac in placed:
-            if st and st[-1][0] == col and st[-1][3] == pi:
+        for y0, y1, col, pi, ac in evs:
+            c = col or (near(y0) if known else None)
+            if not c:
+                continue                                          # no colony anywhere
+            if st and st[-1][0] == c and st[-1][3] == pi:
                 st[-1][2] = max(st[-1][2], y1 or y0)
             else:
-                st.append([col, y0, y1 or y0, pi, ac])
+                st.append([c, y0, y1 or y0, pi, ac])
         if not st:                                                # map-able officials only
+            no_colony += 1
             continue
         disp = f"{sur or '?'}, {giv or ''}".strip().rstrip(",")
         careers[cpid] = {"q": qid, "c": corpus, "na": len(evs), "nm": disp, "st": st}
         search.append([cpid, disp, corpus, len(st)])
+    print(f"· careers: {len(careers):,} mapped persons  ({no_colony:,} dropped — no colony on any event)")
 
     json.dump({"roles": role_tbl, "persons": careers},
               (OUT / "careers.json").open("w"), separators=(",", ":"), ensure_ascii=False)
