@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About · An Atlas of Imperial Careers</title>
+<meta name="description" content="About the Atlas of Imperial Careers — sources, method, and tooling behind an interactive map of ~46,000 Colonial Office and India Office officials, 1820–1966.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E1622; --paper:#E7DCC4; --paper-2:#DBCDAE;
+    --co:#8FB8EE; --io:#E8B24C; --oxblood:#7A2E2A;
+    --slate:#2A3340; --slate-2:#5b6675;
+    --serif:"Newsreader",Georgia,"Times New Roman",serif;
+    --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--ink);color:var(--slate);
+    font-family:var(--serif);-webkit-font-smoothing:antialiased}
+  body{min-height:100vh;display:flex;justify-content:center;
+    padding:clamp(28px,6vw,80px) 22px;
+    background:
+      radial-gradient(120% 80% at 50% -10%, #15202e 0%, var(--ink) 60%);}
+  main{width:100%;max-width:680px;background:var(--paper);
+    border:1px solid var(--paper-2);border-radius:3px;
+    box-shadow:0 18px 60px rgba(0,0,0,.55), 0 2px 0 var(--paper-2) inset;
+    padding:clamp(30px,5vw,58px) clamp(26px,5vw,60px) 44px}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--oxblood);margin:0 0 .5em}
+  h1{font-weight:400;font-size:clamp(28px,4.6vw,40px);line-height:1.05;
+    margin:0 0 .1em;color:#1c2531;letter-spacing:.01em}
+  .sub{font-style:italic;color:var(--slate-2);font-size:18px;margin:0 0 1.7em}
+  .rule{border:0;border-top:1px solid var(--paper-2);margin:0 0 1.7em}
+  h2{font-family:var(--mono);font-size:11px;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--slate-2);font-weight:600;
+    margin:2.1em 0 .55em}
+  p{font-size:17px;line-height:1.62;margin:0 0 1.1em}
+  p.lede{font-size:19px;line-height:1.55}
+  b{font-weight:600;color:#1c2531}
+  a{color:var(--oxblood);text-decoration:none;border-bottom:1px solid rgba(122,46,42,.35)}
+  a:hover{border-bottom-color:var(--oxblood)}
+  .src{display:flex;gap:14px;margin:0 0 .8em;align-items:baseline}
+  .src .tag{flex:0 0 auto;font-family:var(--mono);font-size:11px;letter-spacing:.04em;
+    color:#fff;background:var(--slate);padding:2px 7px;border-radius:2px}
+  .src.io .tag{background:#9a7a25}
+  .src .txt{font-size:16px;line-height:1.5}
+  .nav{margin-top:2.6em;padding-top:1.4em;border-top:1px solid var(--paper-2);
+    font-family:var(--mono);font-size:12.5px;letter-spacing:.03em;
+    display:flex;flex-wrap:wrap;gap:6px 20px}
+  .colophon{margin-top:2.3em;font-size:13.5px;font-style:italic;color:var(--slate-2);line-height:1.5}
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">About &amp; sources · Colonial Office &amp; India Office Lists</p>
+  <h1>An Atlas of Imperial Careers</h1>
+  <p class="sub">The working lives of roughly 46,000 officials of two civil services, 1820–1966.</p>
+  <hr class="rule">
+
+  <p class="lede">This atlas reconstructs the careers of the officials of two British administrative
+    services — the <b>Colonial Office</b> and the <b>India Office</b> — and maps each official by the
+    moves they made between colonies, presidencies and provinces. Each arc is one recorded transfer;
+    follow a single name and you can watch a working life travel the empire, decade by decade.</p>
+
+  <p>It is a solo project by <b><a href="https://jimclifford.ca/" target="_blank" rel="noopener">Jim
+    Clifford</a></b>, a historian of the British Empire and the environment in the Department of History
+    at the University of Saskatchewan. The atlas grew out of a wider interest in how the administrative
+    machinery of empire actually moved people around the globe — who circulated between which colonies,
+    how careers were built across the Colonial and Indian services, and how often the two worlds met.
+    Two companion views extend it: <a href="education.html"><b>Schools of Empire</b></a>, on the
+    institutions that trained each service, and a set of short
+    <a href="combined_mobility.mp4" target="_blank" rel="noopener">time-lapse films</a> of the empire
+    in motion.</p>
+
+  <h2>The sources</h2>
+  <p>The records behind the atlas are two printed serials. Across their many annual editions both
+    volumes carried a “Record of Services” for each serving official — a terse paragraph of postings,
+    dates, honours and schooling — and that paragraph is the raw material for everything shown here.</p>
+  <div class="src co"><span class="tag">CO</span><span class="txt"><b>The Colonial Office List</b>,
+    digitised from the <a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a>.</span></div>
+  <div class="src io"><span class="tag">IO</span><span class="txt"><b>The India Office List</b>,
+    digitised from the <a href="https://www.bl.uk/" target="_blank" rel="noopener">British Library</a>.</span></div>
+
+  <h2>The method</h2>
+  <p>Each volume was OCR'd and every biographical paragraph parsed into structured career events —
+    person, position, place, employer, year. The duplicate entries an official accumulates across
+    decades of editions were then resolved into a single life. Places, roles, institutions and people
+    were grounded to <b>Wikidata</b>, so that “Calcutta”, “C.O.” and “the N.W. Provinces” resolve to
+    stable entities and coordinates (via QLever, property P625). Only located postings appear on the
+    map; the fuller record — roles, honours, education — lives in an underlying knowledge graph.</p>
+
+  <h2>How it was built</h2>
+  <p>Work at this scale — tens of thousands of biographies across more than a century of editions —
+    was possible because <b>Claude Code</b> orchestrated the pipeline end to end: running the
+    <b>Chandra 2</b> OCR model on the <b>Nibi cluster</b> (Digital Research Alliance of Canada),
+    driving local language models for the parsing, deduplication and entity-grounding, and building the
+    interactive visualisation itself. What would once have been years of manual transcription and
+    record linkage became a tractable solo project — a small illustration of how AI tooling is changing
+    what a single historian can attempt.</p>
+
+  <p class="colophon">This is research-in-progress built from imperfect OCR of nineteenth- and
+    twentieth-century print; names, dates and places carry error, and the coverage is uneven. A fuller
+    account of the sources, models and method will appear in a forthcoming journal article.</p>
+
+  <nav class="nav">
+    <a href="index.html">← The atlas</a>
+    <a href="education.html">Schools of Empire ↗</a>
+    <a href="combined_mobility.mp4" target="_blank" rel="noopener">Two Services, One Empire ↗</a>
+    <a href="iol_mobility.mp4" target="_blank" rel="noopener">Moving the Raj ↗</a>
+    <a href="grounded_places_map.html">Grounded-places map ↗</a>
+    <a href="https://jimclifford.ca/" target="_blank" rel="noopener">jimclifford.ca ↗</a>
+  </nav>
+</main>
+</body>
+</html>

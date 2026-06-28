@@ -68,8 +68,8 @@ button{font-family:inherit;cursor:pointer}
 #rail-arcs{background:rgba(12,20,32,.72);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.16);
   color:#aeb9c7;padding:6px 11px;border-radius:4px;font-size:11.5px;letter-spacing:.01em}
 #rail-arcs.on{background:rgba(143,184,238,.18);color:#eaf1fb;border-color:rgba(143,184,238,.5)}
-#to-careers{color:#8794a6;font-size:11.5px;text-decoration:underline;text-underline-offset:3px}
-#to-careers:hover{color:#cdd7e3}
+#to-careers,#to-about{color:#8794a6;font-size:11.5px;text-decoration:underline;text-underline-offset:3px}
+#to-careers:hover,#to-about:hover{color:#cdd7e3}
 
 /* ---- decade streamgraph ------------------------------------------------- */
 #stream{position:absolute;z-index:600;left:28px;right:412px;bottom:20px;height:150px;

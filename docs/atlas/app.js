@@ -49,8 +49,6 @@
         ATLAS.Timeline.setYear(meta.yearRange[0], false);      // start empty — the intro builds it
         setTimeout(() => ATLAS.Tours.startIntro(), 500);       // cinematic build, then Willingdon
       }
-
-      document.getElementById('reg-about').onclick = e => { e.preventDefault(); this.about(); };
     },
 
     wireRail() {
@@ -86,27 +84,6 @@
     async selectBridge(b) { ATLAS.Tours.dismiss(); await this.loadCareers(); ATLAS.Register.bridge(b); },
     reset() {
       ATLAS.Arcs.clearHighlight(); ATLAS.Places.clearEmphasis(); ATLAS.Register.summary();
-    },
-    about() {
-      ATLAS.Register.body.innerHTML = `
-        <div class="reg-h">About &amp; sources</div>
-        <p class="reg-lede">This atlas plots career transfers extracted from two printed serials —
-          the <b>Colonial Office List</b> and the <b>India Office List</b> — digitised, OCR'd, and
-          structured into a knowledge graph of officials, postings, places and dates.</p>
-        <p class="reg-lede" style="font-size:14px">A “transfer” is one official's recorded move from
-          one colony, presidency or province to another. Places are grounded to Wikidata; coordinates
-          via QLever (P625). Only located postings appear here; the full record — roles, honours,
-          education — lives in the live graph database behind the deep-query layer.</p>
-        <p class="reg-lede" style="font-size:14px">Companion view:
-          <a href="education.html"><b>Schools of Empire</b></a> — which institutions trained
-          which kind of official, by decade.</p>
-        <p class="reg-lede" style="font-size:14px">Companion films:
-          <a href="combined_mobility.mp4" target="_blank">Two Services, One Empire</a> ·
-          <a href="iol_mobility.mp4" target="_blank">Moving the Raj</a> ·
-          <a href="empire_mobility.mp4" target="_blank">Moving the Empire</a> ·
-          <a href="grounded_places_map.html" target="_blank">grounded-places map</a>.</p>
-        <p style="margin-top:18px"><a href="#" id="reg-back" style="color:var(--oxblood)">← back</a></p>`;
-      document.getElementById('reg-back').onclick = e => { e.preventDefault(); this.reset(); };
     },
   };
   ATLAS.App = App;
