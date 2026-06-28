@@ -111,6 +111,55 @@ def coords_of(qids):
             if q not in out: out[q] = wkt_latlon(b["c"]["value"])
     return out
 
+def parent_locations(qids):
+    """institution QID -> [parent place QIDs] via located-in admin (P131) or HQ
+    location (P159) — used to give a campus-less or defunct institution its CITY's
+    coordinate when it has no P625 of its own. NOTE: P276 ("location") is
+    deliberately excluded — it is noisy (e.g. East India Company College's P276
+    points to "Hailey, Idaho" instead of Haileybury, England). Better unmapped
+    than mislocated."""
+    out = {}
+    for i in range(0, len(qids), 150):
+        vals = " ".join(f"wd:{q}" for q in qids[i:i+150])
+        rows = qlever("PREFIX wd: <http://www.wikidata.org/entity/>\n"
+                      "PREFIX wdt: <http://www.wikidata.org/prop/direct/>\n"
+                      f"SELECT ?i ?p WHERE {{ VALUES ?i {{ {vals} }} "
+                      "{ ?i wdt:P131 ?p } UNION { ?i wdt:P159 ?p } }")
+        for b in rows:
+            out.setdefault(qid_of(b["i"]["value"]), []).append(qid_of(b["p"]["value"]))
+    return out
+
+
+def resolve_inst_coords(qids):
+    """{qid: [lat, lon, approx]} — own P625 (approx=False) else the coord of its
+    located-in city/admin (P131/P159/P276), recursing one level if the parent
+    itself lacks P625 (approx=True). Institutions with no resolvable location are
+    omitted (they stay in the unmapped tail)."""
+    qids = list(qids)
+    out = {q: [*c, False] for q, c in coords_of(qids).items()}
+    missing = [q for q in qids if q not in out]
+    if not missing:
+        return out
+    parents = parent_locations(missing)
+    pset = sorted({p for ps in parents.values() for p in ps})
+    pcoord = coords_of(pset)
+    # one more hop: parents that are themselves campus-less (e.g. a federal body)
+    p_missing = [p for p in pset if p not in pcoord]
+    if p_missing:
+        gp = parent_locations(p_missing)
+        gset = sorted({g for gs in gp.values() for g in gs if g not in pcoord})
+        gcoord = coords_of(gset)
+        for p in p_missing:
+            for g in gp.get(p, []):
+                if g in gcoord:
+                    pcoord[p] = gcoord[g]; break
+    for q in missing:
+        for p in parents.get(q, []):
+            if p in pcoord:
+                out[q] = [*pcoord[p], True]; break
+    return out
+
+
 def labels_of(qids):
     out = {}
     for i in range(0, len(qids), 200):

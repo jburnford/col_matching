@@ -1,0 +1,452 @@
+{
+ "builtAt": "2026-06-27",
+ "mapped": 641,
+ "local": 4141,
+ "edges_total": 20832,
+ "edges_attributed": 20832,
+ "grounded_no_coord": 0,
+ "decades": [
+  1800,
+  1810,
+  1820,
+  1830,
+  1840,
+  1850,
+  1860,
+  1870,
+  1880,
+  1890,
+  1900,
+  1910,
+  1920,
+  1930,
+  1940,
+  1950,
+  1960
+ ],
+ "cat_color": {
+  "administrative": "#4E79A7",
+  "judicial": "#59A14F",
+  "technical": "#F28E2B",
+  "military": "#E15759",
+  "police": "#76B7B2",
+  "financial": "#EDC948",
+  "clerical": "#9C755F",
+  "medical": "#B07AA1",
+  "education": "#FF9DA7",
+  "religious": "#86BCB6",
+  "other": "#A99F8E",
+  "unknown": "#7A736B"
+ },
+ "cat_order": [
+  "administrative",
+  "judicial",
+  "technical",
+  "military",
+  "police",
+  "financial",
+  "clerical",
+  "medical",
+  "education",
+  "religious",
+  "other",
+  "unknown"
+ ],
+ "type_color": {
+  "school": "#4E79A7",
+  "university": "#59A14F",
+  "university_college": "#8CD17D",
+  "military_academy": "#E15759",
+  "professional": "#F28E2B",
+  "inn_of_court": "#B07AA1",
+  "other": "#79706E"
+ },
+ "top": [
+  {
+   "id": "Q258464",
+   "label": "Trinity College, Dublin",
+   "type": "university_college",
+   "grounded": true,
+   "co": 99,
+   "io": 75,
+   "total": 174
+  },
+  {
+   "id": "Q5639263",
+   "label": "Haileybury and Imperial Service College",
+   "type": "school",
+   "grounded": true,
+   "co": 56,
+   "io": 105,
+   "total": 161
+  },
+  {
+   "id": "Q3760670",
+   "label": "George Watson's College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 90,
+   "io": 35,
+   "total": 125
+  },
+  {
+   "id": "Q691283",
+   "label": "St John's College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 50,
+   "io": 67,
+   "total": 117
+  },
+  {
+   "id": "Q189022",
+   "label": "Imperial College London",
+   "type": "university",
+   "grounded": true,
+   "co": 106,
+   "io": 7,
+   "total": 113
+  },
+  {
+   "id": "Q863940",
+   "label": "Gonville and Caius College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 55,
+   "io": 57,
+   "total": 112
+  },
+  {
+   "id": "Q951305",
+   "label": "University of Cape Town",
+   "type": "university",
+   "grounded": true,
+   "co": 111,
+   "io": 0,
+   "total": 111
+  },
+  {
+   "id": "Q765642",
+   "label": "Queens' College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 80,
+   "io": 30,
+   "total": 110
+  },
+  {
+   "id": "Q1227526",
+   "label": "St Paul's School",
+   "type": "school",
+   "grounded": true,
+   "co": 50,
+   "io": 56,
+   "total": 106
+  },
+  {
+   "id": "Q81162",
+   "label": "Magdalen College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 64,
+   "io": 42,
+   "total": 106
+  },
+  {
+   "id": "Q5133190",
+   "label": "Clifton College",
+   "type": "school",
+   "grounded": true,
+   "co": 61,
+   "io": 44,
+   "total": 105
+  },
+  {
+   "id": "Q1067870",
+   "label": "Charterhouse School",
+   "type": "school",
+   "grounded": true,
+   "co": 61,
+   "io": 43,
+   "total": 104
+  },
+  {
+   "id": "Q805285",
+   "label": "Balliol College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 55,
+   "io": 46,
+   "total": 101
+  },
+  {
+   "id": "Q3140484",
+   "label": "Bedford School",
+   "type": "school",
+   "grounded": true,
+   "co": 51,
+   "io": 49,
+   "total": 100
+  },
+  {
+   "id": "Q81173",
+   "label": "Exeter College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 55,
+   "io": 44,
+   "total": 99
+  },
+  {
+   "id": "Q2537765",
+   "label": "Wadham College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 55,
+   "io": 44,
+   "total": 99
+  },
+  {
+   "id": "Q81090",
+   "label": "Hertford College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 55,
+   "io": 44,
+   "total": 99
+  },
+  {
+   "id": "Q467269",
+   "label": "Cheltenham College",
+   "type": "school",
+   "grounded": true,
+   "co": 58,
+   "io": 40,
+   "total": 98
+  },
+  {
+   "id": "Q245247",
+   "label": "King's College London",
+   "type": "university_college",
+   "grounded": true,
+   "co": 50,
+   "io": 48,
+   "total": 98
+  },
+  {
+   "id": "Q609646",
+   "label": "St John's College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 50,
+   "io": 48,
+   "total": 98
+  },
+  {
+   "id": "Q81170",
+   "label": "Oriel College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 50,
+   "io": 47,
+   "total": 97
+  },
+  {
+   "id": "Q114306",
+   "label": "Wellington College",
+   "type": "school",
+   "grounded": true,
+   "co": 50,
+   "io": 46,
+   "total": 96
+  },
+  {
+   "id": "Q270532",
+   "label": "University of Aberdeen",
+   "type": "university",
+   "grounded": true,
+   "co": 50,
+   "io": 46,
+   "total": 96
+  },
+  {
+   "id": "Q73094",
+   "label": "The Queen's College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 53,
+   "io": 43,
+   "total": 96
+  },
+  {
+   "id": "Q170027",
+   "label": "University of London",
+   "type": "university",
+   "grounded": true,
+   "co": 50,
+   "io": 45,
+   "total": 95
+  },
+  {
+   "id": "Q160302",
+   "label": "University of Edinburgh",
+   "type": "university",
+   "grounded": true,
+   "co": 50,
+   "io": 45,
+   "total": 95
+  },
+  {
+   "id": "Q192088",
+   "label": "Eton College",
+   "type": "school",
+   "grounded": true,
+   "co": 50,
+   "io": 45,
+   "total": 95
+  },
+  {
+   "id": "Q899030",
+   "label": "Brasenose College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 54,
+   "io": 41,
+   "total": 95
+  },
+  {
+   "id": "Q797892",
+   "label": "Emmanuel College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 52,
+   "io": 43,
+   "total": 95
+  },
+  {
+   "id": "Q332342",
+   "label": "Trinity College, Cambridge",
+   "type": "university_college",
+   "grounded": true,
+   "co": 50,
+   "io": 44,
+   "total": 94
+  },
+  {
+   "id": "Q924289",
+   "label": "King's College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 50,
+   "io": 44,
+   "total": 94
+  },
+  {
+   "id": "Q174570",
+   "label": "London School of Economics and Political Science",
+   "type": "university",
+   "grounded": true,
+   "co": 58,
+   "io": 36,
+   "total": 94
+  },
+  {
+   "id": "Q192775",
+   "label": "University of Glasgow",
+   "type": "university",
+   "grounded": true,
+   "co": 50,
+   "io": 43,
+   "total": 93
+  },
+  {
+   "id": "Q73079",
+   "label": "Trinity College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 50,
+   "io": 43,
+   "total": 93
+  },
+  {
+   "id": "Q780745",
+   "label": "Worcester College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 58,
+   "io": 35,
+   "total": 93
+  },
+  {
+   "id": "Q1902016",
+   "label": "Marlborough College",
+   "type": "school",
+   "grounded": true,
+   "co": 50,
+   "io": 42,
+   "total": 92
+  },
+  {
+   "id": "Q34433",
+   "label": "University of Oxford",
+   "type": "university",
+   "grounded": true,
+   "co": 50,
+   "io": 42,
+   "total": 92
+  },
+  {
+   "id": "Q256754",
+   "label": "St Catharine's College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 65,
+   "io": 27,
+   "total": 92
+  },
+  {
+   "id": "Q82513",
+   "label": "Merton College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 53,
+   "io": 39,
+   "total": 92
+  },
+  {
+   "id": "Q81153",
+   "label": "Lincoln College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 51,
+   "io": 41,
+   "total": 92
+  }
+ ],
+ "tail": {
+  "singletons": 3633,
+  "hist": {
+   "1": 3633,
+   "2": 305,
+   "3": 102,
+   "4": 49,
+   "5": 23,
+   "6": 12,
+   "7": 5,
+   "8": 4,
+   "9": 3,
+   "10": 5
+  },
+  "by_type": {
+   "school": 3650,
+   "university_college": 310,
+   "professional": 102,
+   "university": 30,
+   "college": 26,
+   "other": 12,
+   "military_academy": 10,
+   "inn_of_court": 1
+  }
+ },
+ "feeder_arcs": 611
+}

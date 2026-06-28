@@ -1,70 +1,70 @@
 {
-  "persons": 30095,
-  "events": 189918,
-  "events_placed": 160307,
-  "events_grounded": 138766,
-  "events_resolved_via_map": 995,
-  "events_with_colony": 104663,
-  "events_org": 3489,
-  "honours": 16040,
-  "education": 20831,
-  "places_used": 3196,
+  "persons": 27750,
+  "events": 180925,
+  "events_placed": 152329,
+  "events_grounded": 131443,
+  "events_resolved_via_map": 1963,
+  "events_with_colony": 104458,
+  "events_org": 3454,
+  "honours": 15226,
+  "education": 19303,
+  "places_used": 3198,
   "version": "v3",
   "layers": {
     "roles": {
-      "nodes": 32331,
+      "nodes": 31961,
       "nodes_qid": 190,
-      "edges": 188826,
-      "edges_qid": 71314,
-      "edges_internal": 99686,
-      "edges_unlinked": 17826
+      "edges": 179856,
+      "edges_qid": 67531,
+      "edges_internal": 95372,
+      "edges_unlinked": 16953
     },
     "organisations": {
-      "nodes": 779,
+      "nodes": 778,
       "nodes_qid": 47,
-      "employment_edges": 4188
+      "employment_edges": 4139
     },
     "education_institutions": {
-      "nodes": 3807,
-      "nodes_qid": 515,
-      "education_edges": 14505
+      "nodes": 5981,
+      "nodes_qid": 1518,
+      "education_edges": 14575
     },
     "honours": {
       "nodes": 1507,
       "nodes_qid": 20,
-      "edges": 14684,
-      "edges_qid": 10646,
-      "edges_internal": 3774,
-      "edges_unlinked": 264
+      "edges": 13913,
+      "edges_qid": 10025,
+      "edges_internal": 3640,
+      "edges_unlinked": 248
     },
     "qualifications": {
       "nodes": 95,
       "nodes_qid": 27,
-      "edges": 1356,
-      "edges_qid": 904,
-      "edges_internal": 452,
+      "edges": 1313,
+      "edges_qid": 874,
+      "edges_internal": 439,
       "edges_unlinked": 0
     },
     "person_wikidata": {
       "method": "Layer1 harvest-match + WDQS verify; Layer2 colony+position via QLever",
-      "persons_grounded": 1201,
+      "persons_grounded": 1127,
       "distinct_qids": 1095,
       "tiers": {
-        "A": 898,
-        "B": 133,
-        "C": 32,
-        "L2": 138
+        "A": 843,
+        "B": 128,
+        "C": 29,
+        "L2": 127
       },
-      "layer2_senior_officials": 138
+      "layer2_senior_officials": 127
     }
   },
   "career_facts": {
-    "count": 189918,
-    "role_qid": 71314,
-    "role_any": 171000,
-    "org": 3956,
-    "place": 138766,
-    "dated": 180325,
-    "role_place_time": 121160
+    "count": 180925,
+    "role_qid": 67110,
+    "role_any": 162903,
+    "org": 0,
+    "place": 131443,
+    "dated": 171642,
+    "role_place_time": 114613
   }
 }

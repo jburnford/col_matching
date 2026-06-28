@@ -25,10 +25,11 @@ from __future__ import annotations
 import json, re
 from pathlib import Path
 from collections import defaultdict, Counter
+from col_match.kg.paths import kg_out   # COL_KG_OUT switches CO (data/kg) <-> IOL (data/iol)
 
-GD = Path("data/kg/graph_stage3")
-CACHE = Path("data/kg/org_grounding.jsonl")
-WORK = Path("data/kg/org_worklist.jsonl")
+GD = kg_out() / "graph_stage3"
+CACHE = kg_out() / "org_grounding.jsonl"
+WORK = kg_out() / "org_worklist.jsonl"
 EVENTS = GD / "career_events.jsonl"
 
 # Same ORG detector used to build the worklist (a place_raw that is an employer).

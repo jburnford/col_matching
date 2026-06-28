@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schools of Empire · who trained the Colonial &amp; India Office, 1820–1966</title>
+<meta name="description" content="An interactive view of the schools, universities and military academies that trained ~46,000 British colonial and Indian administrative officials — which institutions produced which kind of official, how it changed by decade, and the long tail of local schools.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="edu/style.css">
+</head>
+<body>
+
+<div id="map"></div>
+<canvas id="arc-canvas"></canvas>
+
+<!-- masthead -->
+<header id="masthead">
+  <div class="kicker">Colonial Office &amp; India Office Lists · 1820–1966</div>
+  <h1>Schools of Empire</h1>
+  <p class="standfirst">The institutions that trained two civil services —
+     <span id="m-mapped">0</span> on the map, a tail of <span id="m-local">0</span>
+     local schools beyond it.</p>
+</header>
+
+<!-- legend + colour-by toggle (bottom-left) -->
+<div id="rail">
+  <div id="colorby">
+    <button class="cb on" data-by="kind">Kind of official</button>
+    <button class="cb" data-by="type">Institution type</button>
+  </div>
+  <ul id="legend"></ul>
+  <button id="rail-arcs" title="Show schools that share alumni — the prep-school → university pipelines">⤳ Feeder links</button>
+  <a href="index.html" id="to-careers" title="The companion atlas of career mobility">↗ Atlas of Imperial Careers</a>
+</div>
+
+<!-- decade streamgraph (doubles as the decade selector) -->
+<div id="stream">
+  <div id="stream-head">
+    <span id="stream-title">What kind of official, by decade</span>
+    <span id="stream-sel"></span>
+    <button id="stream-reset" hidden>all decades ✕</button>
+  </div>
+  <svg id="stream-svg"></svg>
+</div>
+
+<!-- parchment panel -->
+<aside id="panel">
+  <div id="tabs">
+    <button class="tab on" data-tab="mapped">Mapped institutions</button>
+    <button class="tab" data-tab="local">Local schools <em id="tab-local-n">0</em></button>
+  </div>
+  <div id="panel-search">
+    <input id="search-box" type="search" placeholder="Search an institution…" autocomplete="off" spellcheck="false">
+    <ul id="search-results" hidden></ul>
+  </div>
+  <div id="panel-body"><!-- filled by panel.js --></div>
+  <footer id="panel-foot">
+    <span id="foot-note">role grounded to Wikidata occupations · coords via QLever (P625)</span>
+  </footer>
+</aside>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<script src="edu/markers.js"></script>
+<script src="edu/arcs.js"></script>
+<script src="edu/stream.js"></script>
+<script src="edu/panel.js"></script>
+<script src="edu/app.js"></script>
+</body>
+</html>

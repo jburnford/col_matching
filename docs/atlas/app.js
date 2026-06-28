@@ -38,11 +38,17 @@
       ATLAS.DeepQuery.init(meta);
 
       this.wireRail();
-      ATLAS.Register.summary();
-      ATLAS.Timeline.setYear(meta.yearRange[0], false);        // start empty — the intro builds it
 
-      // guided entry: cinematic build of the whole century, then Willingdon
-      setTimeout(() => ATLAS.Tours.startIntro(), 500);
+      // deep link from the Education Atlas: ?p=<person_id> opens that career
+      const want = new URLSearchParams(location.search).get('p');
+      if (want) {
+        ATLAS.Timeline.setYear(meta.yearRange[1], false);      // show the full web
+        this.openPerson(want);
+      } else {
+        ATLAS.Register.summary();
+        ATLAS.Timeline.setYear(meta.yearRange[0], false);      // start empty — the intro builds it
+        setTimeout(() => ATLAS.Tours.startIntro(), 500);       // cinematic build, then Willingdon
+      }
 
       document.getElementById('reg-about').onclick = e => { e.preventDefault(); this.about(); };
     },
@@ -70,6 +76,12 @@
       await this.loadCareers();
       ATLAS.Register.person(pid);
     },
+    // entry point for the ?p= deep link — verify the id exists, else fall back
+    async openPerson(pid) {
+      await this.loadCareers();
+      if (this.careers.persons && this.careers.persons[pid]) ATLAS.Register.person(pid);
+      else ATLAS.Register.summary();
+    },
     selectPlace(qid) { ATLAS.Tours.dismiss(); ATLAS.Register.place(qid); },
     async selectBridge(b) { ATLAS.Tours.dismiss(); await this.loadCareers(); ATLAS.Register.bridge(b); },
     reset() {
@@ -85,6 +97,9 @@
           one colony, presidency or province to another. Places are grounded to Wikidata; coordinates
           via QLever (P625). Only located postings appear here; the full record — roles, honours,
           education — lives in the live graph database behind the deep-query layer.</p>
+        <p class="reg-lede" style="font-size:14px">Companion view:
+          <a href="education.html"><b>Schools of Empire</b></a> — which institutions trained
+          which kind of official, by decade.</p>
         <p class="reg-lede" style="font-size:14px">Companion films:
           <a href="combined_mobility.mp4" target="_blank">Two Services, One Empire</a> ·
           <a href="iol_mobility.mp4" target="_blank">Moving the Raj</a> ·

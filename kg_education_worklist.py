@@ -20,6 +20,7 @@ ABBR = [
     (r"\bcoll?\.", "college"), (r"\bschl?\.", "school"), (r"\bsch\.", "school"),
     (r"\bunivs?\.", "university"), (r"\bacad\.", "academy"), (r"\bgram\.", "grammar"),
     (r"\binst\.", "institute"), (r"\bgr\.\s*school", "grammar school"),
+    (r"\bC\.\s*of\s*E\.", "Church of England"),
     (r"\bR\.\s*M\.\s*Academy", "Royal Military Academy"),
     (r"\bR\.\s*M\.\s*C\.?", "Royal Military College"),
     (r"\bR\.\s*N\.\s*College", "Royal Naval College"),
@@ -40,7 +41,13 @@ MILITARY = {"sandhurst": "Royal Military College, Sandhurst",
             "dartmouth": "Britannia Royal Naval College, Dartmouth"}
 INNS = {"inner temple": "Inner Temple", "middle temple": "Middle Temple",
         "lincoln's inn": "Lincoln's Inn", "gray's inn": "Gray's Inn"}
-NAME = r"[A-Z][\w'’.&-]*(?:\s+[A-Z][\w'’.&-]*){0,3}"
+# A name is a run of Capitalised words. It may begin with one of a few fixed
+# prefixes that legitimately take a lowercase "of" joiner ("City of London",
+# "Prince of Wales", "Isle of Wight", "Duke of York's", "West of Scotland") —
+# whitelisted so we capture those whole instead of truncating to the word before
+# the keyword, WITHOUT swallowing a genitive "of" ("Fellow of X", "scholar of X").
+_OFPFX = r"(?:City|Prince|Isle|Duke|Church|West|East|North|South|Our Lady)"
+NAME = rf"(?:{_OFPFX}\s+of\s+)?[A-Z][\w'’.&-]*(?:\s+[A-Z][\w'’.&-]*){{0,3}}"
 
 # famous schools written BARE (no "school/college" keyword) -> canonical name.
 # keyed by lowercase head token(s); value is the canonical institution label.

@@ -20,8 +20,9 @@ from __future__ import annotations
 import json, re
 from pathlib import Path
 from collections import defaultdict
+from col_match.kg.paths import kg_out   # COL_KG_OUT switches CO (data/kg) <-> IOL (data/iol)
 
-GD = Path("data/kg/graph_stage3")
+GD = kg_out() / "graph_stage3"
 
 DEPTKW = re.compile(r"treasury|secretariat|customs|public works|\baudit\b|education depart|"
                     r"medical depart|judicial|survey depart|\bfinance\b|\bstores\b|\bmines\b|"

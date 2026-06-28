@@ -24,13 +24,19 @@ Outputs:
   data/kg/inst_qid_verification_report.jsonl   # one row per distinct QID
   data/kg/inst_qid_verification_flagged.jsonl  # NONINST + STUB only
 """
-import json, sys, time, subprocess, collections
+import json, os, re, sys, time, subprocess, collections
 
 CACHE = sys.argv[1] if len(sys.argv) > 1 else "data/kg/institutions_grounding.jsonl"
-REPORT = "data/kg/inst_qid_verification_report.jsonl"
-FLAGGED = "data/kg/inst_qid_verification_flagged.jsonl"
+_DIR = os.path.dirname(CACHE) or "."
+REPORT = os.path.join(_DIR, "inst_qid_verification_report.jsonl")
+FLAGGED = os.path.join(_DIR, "inst_qid_verification_flagged.jsonl")
 WDQS = "https://query.wikidata.org/sparql"
 UA = "col_matching-inst-verify/1.0 (cljim22@gmail.com)"
+
+# Countries implausible for a British-Empire education corpus -> geo-flag for review.
+# US is the dominant error magnet (string-similarity twins: St Andrews NC, Kent CT).
+SUSPECT_COUNTRY = {"Q30"}                      # United States
+US_BOX = (24.0, 49.0, -125.0, -66.0)          # continental US lat/lon (excl Canada via P17)
 
 # A P31 type counts as an institution if it is a subclass* of any of these.
 INST_ROOTS = [
@@ -92,18 +98,40 @@ for r in rows:
 qids = sorted(qmap)
 print(f"distinct institution QIDs to verify: {len(qids)}", file=sys.stderr)
 
-# --- stage 1: per-item P31 ---
+# --- stage 1: per-item P31 (type) + P17 (country) + P625 (coord) ---
 item_p31 = collections.defaultdict(set)
+item_country = collections.defaultdict(set)
+item_coord = {}
 seen = collections.Counter()
 for ci, ch in enumerate(chunks(qids, 150)):
     vals = " ".join("wd:" + q for q in ch)
-    q = (f"SELECT ?item ?p31 WHERE {{ VALUES ?item {{ {vals} }} "
-         f"OPTIONAL {{ ?item wdt:P31 ?p31 }} }}")
+    q = (f"SELECT ?item ?p31 ?country ?coord WHERE {{ VALUES ?item {{ {vals} }} "
+         f"OPTIONAL {{ ?item wdt:P31 ?p31 }} "
+         f"OPTIONAL {{ ?item wdt:P17 ?country }} "
+         f"OPTIONAL {{ ?item wdt:P625 ?coord }} }}")
     for b in sparql(q):
         it = qid(b["item"]["value"]); seen[it] += 1
         if "p31" in b: item_p31[it].add(qid(b["p31"]["value"]))
+        if "country" in b: item_country[it].add(qid(b["country"]["value"]))
+        if "coord" in b and it not in item_coord:
+            m = re.match(r"Point\(([-\d.]+) ([-\d.]+)\)", b["coord"]["value"])
+            if m: item_coord[it] = [round(float(m.group(2)), 4), round(float(m.group(1)), 4)]
     print(f"  stage1 chunk {ci+1}: items seen {len(seen)}", file=sys.stderr)
     time.sleep(1)
+
+def in_us(it):
+    c = item_coord.get(it)
+    if not c: return False
+    lat, lon = c
+    return US_BOX[0] <= lat <= US_BOX[1] and US_BOX[2] <= lon <= US_BOX[3] \
+        and "Q16" not in item_country.get(it, set())   # exclude legit Canada points
+
+# surface-name normaliser for same-name-twin detection (St Andrews class)
+def norm_surface(s):
+    s = (s or "").lower()
+    s = re.sub(r"[^a-z0-9 ]", " ", s)
+    s = re.sub(r"\buniversity of\b|\buniversity\b|\bcollege\b|\bschool\b|\bthe\b", " ", s)
+    return " ".join(s.split())
 
 # --- stage 2: classify P31 types as institutional or not ---
 all_types = sorted({t for s in item_p31.values() for t in s})
@@ -121,9 +149,26 @@ for ch in chunks(all_types, 150):
         type_label[t] = b.get("typeLabel", {}).get("value", t)
     time.sleep(1)
 
+# --- same-name-twin detection: a normalised surface grounded to >1 QID in
+# different countries (e.g. "University of St Andrews" Q216273 UK vs
+# "St. Andrews University" Q7586947 US). ---
+norm_to_qids = collections.defaultdict(set)
+for q in qids:
+    for i, _ in qmap[q]:
+        if i:
+            norm_to_qids[norm_surface(i)].add(q)
+twin_of = collections.defaultdict(set)
+for nrm, qs in norm_to_qids.items():
+    if len(qs) > 1:
+        countries = {c for q in qs for c in item_country.get(q, set())}
+        if len(countries) > 1:                # same name, different countries
+            for q in qs:
+                twin_of[q] |= (qs - {q})
+
 # --- classify each item ---
 report, flagged = [], []
 status_ct = collections.Counter()
+geo_ct = collections.Counter()
 for q in qids:
     p31s = item_p31.get(q, set())
     if q in CLASS_QIDS:
@@ -135,14 +180,23 @@ for q in qids:
     else:
         status = "STUB"
     status_ct[status] += 1
+    countries = sorted(item_country.get(q, set()))
+    geo = ""
+    if SUSPECT_COUNTRY & set(countries):
+        geo = "US_COUNTRY"
+    elif in_us(q):
+        geo = "US_COORD"
+    if geo: geo_ct[geo] += 1
     insts = sorted({i for i, _ in qmap[q] if i})
     srcs = sorted({s for _, s in qmap[q] if s})
-    rec = {"qid": q, "status": status,
+    rec = {"qid": q, "status": status, "geo_flag": geo,
+           "twin_qids": sorted(twin_of.get(q, set())),
+           "country": countries, "coord": item_coord.get(q),
            "instance_of": sorted(p31s),
            "instance_of_labels": [type_label.get(t, t) for t in sorted(p31s)],
            "n_surfaces": len(insts), "surfaces": insts[:8], "sources": srcs}
     report.append(rec)
-    if status != "OK":
+    if status != "OK" or geo or twin_of.get(q):
         flagged.append(rec)
 
 with open(REPORT, "w") as f:
@@ -152,11 +206,20 @@ with open(FLAGGED, "w") as f:
 
 print("\n=== institution QID verification summary ===")
 print("distinct QIDs:", len(qids), "| by status:", dict(status_ct))
+print("geo flags (REVIEW, not auto-error — e.g. Harvard Law is a legit US degree):",
+      dict(geo_ct))
+n_twin = sum(1 for r in report if r["twin_qids"])
+print(f"same-name twins (different-country namesakes, St Andrews class): {n_twin} QIDs")
 flag_qids = {r["qid"] for r in flagged}
 impact = sum(1 for r in rows if (r.get("id") or r.get("qid")) in flag_qids)
 print(f"surface rows on flagged QIDs: {impact}")
 print(f"report  -> {REPORT}")
 print(f"flagged -> {FLAGGED}  ({len(flagged)} QIDs)")
+print("US-flagged (review these by hand):")
+for r in sorted(flagged, key=lambda r: -r["n_surfaces"]):
+    if r["geo_flag"]:
+        tw = f"  TWIN->{r['twin_qids']}" if r["twin_qids"] else ""
+        print(f"  {r['qid']} {r['country']} {r['coord']}  {r['surfaces'][:2]}{tw}")
 noninst = collections.Counter()
 for r in flagged:
     if r["status"] == "NONINST":
