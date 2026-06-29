@@ -28,10 +28,47 @@
           <div class="stat"><b style="color:#b07d24">${m.roster.io.toLocaleString()}</b><span>India Office</span></div>
           <div class="stat"><b>${c.arcs.toLocaleString()}</b><span>transfers mapped</span></div>
         </div>
+        <div class="reg-h">Busiest corridors <span class="reg-hint">— click to trace who travelled it</span></div>
+        <ul class="cor-list">${this.topCorridors(8).map(c => {
+          const a = ATLAS.App.places[c.x], b = ATLAS.App.places[c.y];
+          return `<li class="cor-row" data-a="${c.x}" data-b="${c.y}"><span>${esc(a.label)} ⇄ ${esc(b.label)}</span><span class="ct">${c.n}</span></li>`;
+        }).join('')}</ul>
         <div class="reg-h">Guided tours</div>
         <ul class="tour-list">${tours}</ul>`;
+      this.body.querySelectorAll('.cor-row').forEach(li =>
+        li.onclick = () => ATLAS.App.selectCorridor(li.dataset.a, li.dataset.b));
       this.body.querySelectorAll('[data-tour]').forEach(li =>
         li.onclick = () => ATLAS.Tours.start(+li.dataset.tour));
+    },
+
+    // global ranking of place-to-place corridors by number of transfers (cached);
+    // only pairs where both endpoints are mapped places are counted.
+    topCorridors(n) {
+      if (!this._topCorr) {
+        const places = ATLAS.App.places, m = {};
+        for (const a of ATLAS.Arcs.arcs) {
+          const x = a[1], y = a[2];
+          if (!x || !y || x === y || !places[x] || !places[y]) continue;
+          const k = x < y ? x + '|' + y : y + '|' + x;
+          m[k] = (m[k] || 0) + 1;
+        }
+        this._topCorr = Object.entries(m)
+          .map(([k, count]) => { const [x, y] = k.split('|'); return { x, y, n: count }; })
+          .sort((p, q) => q.n - p.n);
+      }
+      return this._topCorr.slice(0, n);
+    },
+
+    // open one corridor straight from the summary: load the busier endpoint's
+    // corridor view, then activate the row for the other endpoint (reusing place()).
+    openCorridor(a, b) {
+      const places = ATLAS.App.places;
+      const ta = (places[a] ? places[a].co_in + places[a].co_out + places[a].io_in + places[a].io_out : 0);
+      const tb = (places[b] ? places[b].co_in + places[b].co_out + places[b].io_in + places[b].io_out : 0);
+      const hub = ta >= tb ? a : b, other = hub === a ? b : a;
+      this.place(hub);
+      const row = this.body.querySelector(`.cor-row[data-other="${other}"]`);
+      if (row) row.click();
     },
 
     // one career's postings as a year-railed list (shared by person + bridge views).
