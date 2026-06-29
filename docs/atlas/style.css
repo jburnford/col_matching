@@ -201,7 +201,7 @@ button{font-family:inherit;cursor:pointer}
     gap:8px;align-items:center;overflow-x:auto;padding:2px 2px 4px;-webkit-overflow-scrolling:touch;
     scrollbar-width:none}
   #rail::-webkit-scrollbar{display:none}
-  .svc,#rail-bridges,#rail-reset{flex:0 0 auto;white-space:nowrap}
+  .svc,#rail-bridges,#rail-schools,#rail-reset{flex:0 0 auto;white-space:nowrap}
   .svc{padding:9px 13px}
 
   /* timeline: full width, sitting just above the peeking sheet */
@@ -254,6 +254,10 @@ button{font-family:inherit;cursor:pointer}
   border:1px solid rgba(255,255,255,.18);color:#dfe7f1;font-size:12px;font-weight:500;
   padding:7px 12px;border-radius:5px;letter-spacing:.02em;transition:.15s}
 #rail-bridges:hover{border-color:rgba(255,255,255,.4);color:#fff}
+#rail-schools{background:rgba(12,20,32,.72);backdrop-filter:blur(6px);
+  border:1px solid rgba(208,150,63,.4);color:#e3c891;font-size:12px;font-weight:500;
+  padding:7px 12px;border-radius:5px;letter-spacing:.02em;text-decoration:none;transition:.15s}
+#rail-schools:hover{border-color:rgba(208,150,63,.75);color:#f3dcab}
 .br-list{list-style:none;margin:8px 0 4px;padding:0}
 .br-row{display:flex;align-items:baseline;justify-content:space-between;gap:10px;
   padding:6px 8px;margin:0 -8px;cursor:pointer;border-bottom:1px solid rgba(42,51,64,.08)}

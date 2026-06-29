@@ -81,9 +81,14 @@
       else ATLAS.Register.summary();
     },
     selectPlace(qid) { ATLAS.Tours.dismiss(); ATLAS.Register.place(qid); },
+    async selectCorridor(a, b) { ATLAS.Tours.dismiss(); await this.loadCareers(); ATLAS.Register.openCorridor(a, b); },
     async selectBridge(b) { ATLAS.Tours.dismiss(); await this.loadCareers(); ATLAS.Register.bridge(b); },
     reset() {
-      ATLAS.Arcs.clearHighlight(); ATLAS.Places.clearEmphasis(); ATLAS.Register.summary();
+      ATLAS.Timeline.onYear = null;
+      if (ATLAS.Timeline.timer) ATLAS.Timeline.stop();
+      ATLAS.Arcs.clearHighlight(); ATLAS.Places.clearEmphasis();
+      ATLAS.Timeline.setYear(ATLAS.Timeline.y1, false);   // restore the full-span web, not just the sidebar
+      ATLAS.Register.summary();
     },
   };
   ATLAS.App = App;
