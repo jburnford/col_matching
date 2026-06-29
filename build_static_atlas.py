@@ -120,7 +120,8 @@ def load_persons(path):
     p = {}
     for l in open(path):
         d = json.loads(l)
-        p[d["person_id"]] = (d.get("surname"), d.get("given_names"), d.get("wikidata_qid"))
+        p[d["person_id"]] = (d.get("surname"), d.get("given_names"), d.get("wikidata_qid"),
+                             d.get("wikidata_label"))
     return p
 
 def build_canon():
@@ -167,7 +168,7 @@ def build_careers_search(canon):
     careers, search, no_colony = {}, [], 0
     for cpid, evs in evset.items():
         corpus = 0 if cpid.startswith("kgp_col") else 1
-        sur, giv, qid = persons.get(cpid, (None, None, None))
+        sur, giv, qid, wlabel = persons.get(cpid, (None, None, None, None))
         evs = sorted((e for e in evs if e[0]),                    # all events with a start year
                      key=lambda e: (e[0], e[2] or "", e[3], e[1] or e[0]))
         # "default to the colony capital if we know the colony": jobs the lists record
@@ -189,7 +190,9 @@ def build_careers_search(canon):
         if not st:                                                # map-able officials only
             no_colony += 1
             continue
-        disp = f"{sur or '?'}, {giv or ''}".strip().rstrip(",")
+        # Prefer the verified Wikidata label (full real name, e.g. "Charles
+        # Tupper") over the abbreviated bio form ("TUPPER, C., BART.").
+        disp = wlabel or f"{sur or '?'}, {giv or ''}".strip().rstrip(",")
         careers[cpid] = {"q": qid, "c": corpus, "na": len(evs), "nm": disp, "st": st}
         search.append([cpid, disp, corpus, len(st)])
     print(f"· careers: {len(careers):,} mapped persons  ({no_colony:,} dropped — no colony on any event)")

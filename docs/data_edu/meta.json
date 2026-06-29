@@ -1,9 +1,9 @@
 {
  "builtAt": "2026-06-27",
- "mapped": 641,
- "local": 4141,
- "edges_total": 20832,
- "edges_attributed": 20832,
+ "mapped": 643,
+ "local": 4111,
+ "edges_total": 20825,
+ "edges_attributed": 20824,
  "grounded_no_coord": 0,
  "decades": [
   1800,
@@ -64,7 +64,7 @@
  "top": [
   {
    "id": "Q258464",
-   "label": "Trinity College, Dublin",
+   "label": "Trinity College Dublin",
    "type": "university_college",
    "grounded": true,
    "co": 99,
@@ -81,6 +81,42 @@
    "total": 161
   },
   {
+   "id": "Q609646",
+   "label": "St John's College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 100,
+   "io": 48,
+   "total": 148
+  },
+  {
+   "id": "Q81174",
+   "label": "Jesus College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 100,
+   "io": 41,
+   "total": 141
+  },
+  {
+   "id": "Q82606",
+   "label": "Pembroke College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 99,
+   "io": 36,
+   "total": 135
+  },
+  {
+   "id": "Q536282",
+   "label": "Corpus Christi College",
+   "type": "university_college",
+   "grounded": true,
+   "co": 91,
+   "io": 39,
+   "total": 130
+  },
+  {
    "id": "Q3760670",
    "label": "George Watson's College",
    "type": "university_college",
@@ -88,15 +124,6 @@
    "co": 90,
    "io": 35,
    "total": 125
-  },
-  {
-   "id": "Q691283",
-   "label": "St John's College",
-   "type": "university_college",
-   "grounded": true,
-   "co": 50,
-   "io": 67,
-   "total": 117
   },
   {
    "id": "Q189022",
@@ -130,9 +157,9 @@
    "label": "Queens' College",
    "type": "university_college",
    "grounded": true,
-   "co": 80,
+   "co": 79,
    "io": 30,
-   "total": 110
+   "total": 109
   },
   {
    "id": "Q1227526",
@@ -189,6 +216,24 @@
    "total": 100
   },
   {
+   "id": "Q114306",
+   "label": "Wellington College",
+   "type": "school",
+   "grounded": true,
+   "co": 53,
+   "io": 46,
+   "total": 99
+  },
+  {
+   "id": "Q245247",
+   "label": "King's College London",
+   "type": "university_college",
+   "grounded": true,
+   "co": 51,
+   "io": 48,
+   "total": 99
+  },
+  {
    "id": "Q81173",
    "label": "Exeter College",
    "type": "university_college",
@@ -225,24 +270,6 @@
    "total": 98
   },
   {
-   "id": "Q245247",
-   "label": "King's College London",
-   "type": "university_college",
-   "grounded": true,
-   "co": 50,
-   "io": 48,
-   "total": 98
-  },
-  {
-   "id": "Q609646",
-   "label": "St John's College",
-   "type": "university_college",
-   "grounded": true,
-   "co": 50,
-   "io": 48,
-   "total": 98
-  },
-  {
    "id": "Q81170",
    "label": "Oriel College",
    "type": "university_college",
@@ -250,15 +277,6 @@
    "co": 50,
    "io": 47,
    "total": 97
-  },
-  {
-   "id": "Q114306",
-   "label": "Wellington College",
-   "type": "school",
-   "grounded": true,
-   "co": 50,
-   "io": 46,
-   "total": 96
   },
   {
    "id": "Q270532",
@@ -324,6 +342,15 @@
    "total": 95
   },
   {
+   "id": "Q174570",
+   "label": "London School of Economics",
+   "type": "university",
+   "grounded": true,
+   "co": 59,
+   "io": 36,
+   "total": 95
+  },
+  {
    "id": "Q332342",
    "label": "Trinity College, Cambridge",
    "type": "university_college",
@@ -339,15 +366,6 @@
    "grounded": true,
    "co": 50,
    "io": 44,
-   "total": 94
-  },
-  {
-   "id": "Q174570",
-   "label": "London School of Economics and Political Science",
-   "type": "university",
-   "grounded": true,
-   "co": 58,
-   "io": 36,
    "total": 94
   },
   {
@@ -403,44 +421,26 @@
    "co": 65,
    "io": 27,
    "total": 92
-  },
-  {
-   "id": "Q82513",
-   "label": "Merton College",
-   "type": "university_college",
-   "grounded": true,
-   "co": 53,
-   "io": 39,
-   "total": 92
-  },
-  {
-   "id": "Q81153",
-   "label": "Lincoln College",
-   "type": "university_college",
-   "grounded": true,
-   "co": 51,
-   "io": 41,
-   "total": 92
   }
  ],
  "tail": {
-  "singletons": 3633,
+  "singletons": 3607,
   "hist": {
-   "1": 3633,
-   "2": 305,
-   "3": 102,
+   "1": 3607,
+   "2": 303,
+   "3": 101,
    "4": 49,
    "5": 23,
    "6": 12,
    "7": 5,
-   "8": 4,
+   "8": 3,
    "9": 3,
    "10": 5
   },
   "by_type": {
-   "school": 3650,
-   "university_college": 310,
-   "professional": 102,
+   "school": 3622,
+   "university_college": 309,
+   "professional": 101,
    "university": 30,
    "college": 26,
    "other": 12,
@@ -448,5 +448,5 @@
    "inn_of_court": 1
   }
  },
- "feeder_arcs": 611
+ "feeder_arcs": 609
 }

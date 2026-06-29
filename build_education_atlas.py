@@ -89,9 +89,12 @@ def load_names():
     names, qids = {}, {}
     for path in (CO / "persons.jsonl", IO / "persons.jsonl"):
         for d in rows(path):
-            nm = " ".join(x for x in [(d.get("given_names") or "").strip(),
-                                      (d.get("surname") or "").strip()] if x)
-            names[d["person_id"]] = nm or d["person_id"]
+            bio = " ".join(x for x in [(d.get("given_names") or "").strip(),
+                                       (d.get("surname") or "").strip()] if x)
+            # Prefer the verified Wikidata label for grounded persons: the full
+            # real name (e.g. "Charles Tupper") instead of the abbreviated bio
+            # form ("C., BART."). Falls back to the bio name, then the id.
+            names[d["person_id"]] = d.get("wikidata_label") or bio or d["person_id"]
             if d.get("wikidata_qid"):
                 qids[d["person_id"]] = d["wikidata_qid"]
     return names, qids
