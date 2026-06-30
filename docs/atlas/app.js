@@ -10,7 +10,7 @@
       const map = L.map('map', {
         zoomControl: false, attributionControl: true, worldCopyJump: true,
         minZoom: 2, maxZoom: 7, zoomSnap: 0.25,
-      }).setView([24, 52], 3);
+      }).setView([24, 52], 2);   // open zoomed out on the whole web
       L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
         subdomains: 'abcd', maxZoom: 8,
         attribution: '&copy; OpenStreetMap, &copy; CARTO · Office List career data &amp; Wikidata',

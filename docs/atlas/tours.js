@@ -78,7 +78,7 @@
         this.setWeb(s.web !== 'io', s.web !== 'co');     // 'co' | 'io' | 'both'
         ATLAS.Arcs.clearHighlight();                     // show the real web, undimmed
         if (p) ATLAS.App.map.flyTo([p.lat, p.lon], s.zoom || 3.4, { duration: 1.1 });
-        else if (s.home) ATLAS.App.map.flyTo([24, 52], 3, { duration: 1.1 });  // pull back to the whole web for the hand-off
+        else if (s.home) ATLAS.App.map.flyTo([24, 52], 2, { duration: 1.1 });  // pull back to the whole web for the hand-off
         return;
       }
 
