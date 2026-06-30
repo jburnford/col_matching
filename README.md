@@ -8,6 +8,9 @@ places, roles and institutions linked to **Wikidata** wherever possible.
 
 🌍 **Explore the interactive atlas:** <http://jimclifford.ca/col_matching/>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21079938.svg)](https://doi.org/10.5281/zenodo.21079938)
+&nbsp;Data: [CC0 1.0](LICENSE-DATA) · Code: [MIT](LICENSE)
+
 ## Open data — free for anyone to use
 
 The data in this repository is dedicated to the **public domain under
@@ -144,12 +147,12 @@ If you use this in research or teaching, please cite the archived snapshot
 (which carries a DOI):
 
 > Jim Clifford. *Imperial Careers: a grounded person-career knowledge graph of
-> the Colonial Office List and India Office List.* Dataset.
-> Zenodo DOI: **`<add after first release>`**
+> the Colonial Office List and India Office List.* Dataset. Zenodo.
+> <https://doi.org/10.5281/zenodo.21079938>
 
-Each tagged GitHub release is automatically archived to Zenodo and minted a DOI
-(see [Releasing a citable snapshot](#releasing-a-citable-snapshot)). Until the
-first release, cite this repository URL.
+That DOI (a Zenodo *concept* DOI) always resolves to the latest version. Each
+tagged GitHub release is archived to Zenodo and gets its own version DOI too
+(see [Releasing a citable snapshot](#releasing-a-citable-snapshot)).
 
 ---
 
