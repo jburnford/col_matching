@@ -31,8 +31,20 @@ EMIT_EDGES = os.environ.get("COL_EDGES", "education_edges.jsonl")
 
 def load_work():
     return [json.loads(l) for l in WORK.open()] if WORK.exists() else []
+# Period-appropriate display labels for institutions whose Wikidata label is a
+# POST-1966 rename (e.g. "Schulich School of Law" 2009 -> "Dalhousie Law School").
+# The QID is correct; only the modern label is anachronistic for a 1815-1966 atlas.
+# Applied at load so emitted nodes + edges carry the historical name. Skips QIDs
+# whose modern name is ALSO valid in-period (UCT 1918, Manchester 1904).
+_LABEL_LOCK_PATH = Path("data/kg/institution_label_lock.json")
+_LABEL_LOCK = json.loads(_LABEL_LOCK_PATH.read_text()) if _LABEL_LOCK_PATH.exists() else {}
+
 def load_cache():
-    return {r["institution"]: r for r in (json.loads(l) for l in CACHE.open())} if CACHE.exists() else {}
+    cache = {r["institution"]: r for r in (json.loads(l) for l in CACHE.open())} if CACHE.exists() else {}
+    for r in cache.values():
+        if r.get("id") in _LABEL_LOCK:
+            r["label"] = _LABEL_LOCK[r["id"]]
+    return cache
 def write_cache(cache):
     with CACHE.open("w") as fh:
         for r in cache.values(): fh.write(json.dumps(r, ensure_ascii=False) + "\n")
