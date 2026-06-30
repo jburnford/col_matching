@@ -1,0 +1,13 @@
+{
+  "_doc": "Manual corrections for OCR / source-text errors in career-event YEARS, surfaced by reviewing the live atlas. Applied in build_static_atlas.py::_facts() so every rebuild stays corrected (the spine career_facts.jsonl is regenerable and must not be hand-edited). Each entry matches one fact by person_id + colony_qid + the wrong year, and overrides year_start/year_end.",
+  "corrections": [
+    {
+      "person_id": "kgp_col1930-p986b8",
+      "colony_qid": "Q918126",
+      "match_year_start": 1923,
+      "year_start": 1928,
+      "year_end": 1928,
+      "note": "Guggisberg, British Guiana governorship. The 1930-edition bio paragraph OCR'd 'Br. Guiana, 1928' as '1923' (8->3); the British Guiana governors table in the 1929/1930/1931 editions all print 7 Nov 1928, and he was in fact appointed 30 Aug 1928 (Gold Coast governor 1919-1927 before that). Found via atlas review 2026-06-29."
+    }
+  ]
+}

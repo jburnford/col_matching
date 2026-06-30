@@ -102,6 +102,20 @@ def build_arcs_places(coords, seats, canon):
     return arcs
 
 # ---------------------------------------------------------------- careers + search
+# OCR/source YEAR fixes found by reviewing the live atlas; keyed (person_id,
+# colony_qid, wrong_year) -> {year_start,year_end}. The spine is regenerable, so
+# corrections live in data/kg/career_event_corrections.json and are re-applied on
+# every build rather than hand-edited into the spine (see that file's _doc).
+def _load_year_corrections():
+    p = ROOT / "data" / "kg" / "career_event_corrections.json"
+    idx = {}
+    if p.exists():
+        for c in json.load(p.open()).get("corrections", []):
+            idx[(c["person_id"], c.get("colony_qid"), c.get("match_year_start"))] = c
+    return idx
+
+_YEAR_FIX = _load_year_corrections()
+
 def _facts(path):
     """career_facts fuses the GROUNDED role (role_id/role_label) with place+time.
     Yield the grounded role so the register shows the canonical name ('Governor')
@@ -109,8 +123,13 @@ def _facts(path):
     a role wasn't grounded."""
     for l in path.open():
         d = json.loads(l)
-        yield (d["person_id"], d.get("colony_qid"), d.get("year_start"),
-               d.get("year_end"), d.get("role_id"), d.get("role_label"),
+        y0, y1 = d.get("year_start"), d.get("year_end")
+        fix = _YEAR_FIX.get((d["person_id"], d.get("colony_qid"), y0))
+        if fix:
+            y0 = fix.get("year_start", y0)
+            y1 = fix.get("year_end", y1)
+        yield (d["person_id"], d.get("colony_qid"), y0, y1,
+               d.get("role_id"), d.get("role_label"),
                d.get("position_raw"), d.get("is_acting"))
 
 def co_events(): yield from _facts(CO / "career_facts.jsonl")
@@ -270,7 +289,7 @@ def build_tours():
          "blurb": "Freeman Freeman-Thomas, Marquess of Willingdon, is the rare official whose "
                   "record runs through both the Colonial Office and India Office Lists — the "
                   "career that stitches the two datasets together.",
-         "pids": ["kgp_iol1937-c5481176", "kgp_col1933-p1033b14"],
+         "pids": ["kgp_iol1931-c5407596", "kgp_col1933-p1033b14"],
          "steps": [
             {"web": "both", "yr": 1966, "caption":
              "Two annual registers recorded the people who ran the British Empire. The Colonial "
@@ -283,6 +302,7 @@ def build_tours():
             {"qid": "Q1772596", "yr": 1919, "caption": "He moves south to govern Madras."},
             {"qid": "Q16",      "yr": 1926, "caption": "Then he crosses the world to become Governor-General of Canada — a Colonial Office appointment."},
             {"qid": "Q129286",  "yr": 1931, "caption": "And returns to India as Viceroy. His service runs through both Lists — the single thread this atlas was built to follow."},
+            {"web": "both", "home": True, "yr": 1966, "caption": "One thread among nearly fifty thousand. The whole web is yours now. Search any official by name in the panel on the right; click a busy corridor there to trace who travelled it; switch between the two services — or the schools that trained them — from the buttons at lower left; and drag the year along the bottom to watch the empire fill in. Press Finish to open Willingdon's own record."},
          ]},
     ]
     json.dump(tours, (OUT / "tours.json").open("w"), indent=1, ensure_ascii=False)
