@@ -302,7 +302,7 @@ def build_tours():
             {"qid": "Q1772596", "yr": 1919, "caption": "He moves south to govern Madras."},
             {"qid": "Q16",      "yr": 1926, "caption": "Then he crosses the world to become Governor-General of Canada — a Colonial Office appointment."},
             {"qid": "Q129286",  "yr": 1931, "caption": "And returns to India as Viceroy. His service runs through both Lists — the single thread this atlas was built to follow."},
-            {"web": "both", "home": True, "yr": 1966, "caption": "One thread among nearly fifty thousand. The whole web is yours now. Search any official by name in the panel on the right; click a busy corridor there to trace who travelled it; switch between the two services — or the schools that trained them — from the buttons at lower left; and drag the year along the bottom to watch the empire fill in. Press Finish to open Willingdon's own record."},
+            {"web": "both", "home": True, "yr": 1966, "caption": "One thread among the sixteen thousand officials who ever changed post. The whole web is yours now: search an official by name in the panel on the right, or click any circle on the map to see the careers that ran through that place. Click a busy corridor in the panel to trace who travelled it; switch between the two services — or the schools that trained them — from the buttons at lower left; and drag the year along the bottom to watch the empire fill in. Press Finish to open Willingdon's own record."},
          ]},
     ]
     json.dump(tours, (OUT / "tours.json").open("w"), indent=1, ensure_ascii=False)
