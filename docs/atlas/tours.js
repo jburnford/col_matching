@@ -78,6 +78,7 @@
         this.setWeb(s.web !== 'io', s.web !== 'co');     // 'co' | 'io' | 'both'
         ATLAS.Arcs.clearHighlight();                     // show the real web, undimmed
         if (p) ATLAS.App.map.flyTo([p.lat, p.lon], s.zoom || 3.4, { duration: 1.1 });
+        else if (s.home) ATLAS.App.map.flyTo([24, 52], 3, { duration: 1.1 });  // pull back to the whole web for the hand-off
         return;
       }
 
@@ -107,7 +108,7 @@
       this.setWeb(true, true);                    // both webs back on for free exploration
       this.wrap.hidden = true;
       ATLAS.Timeline.setYear(ATLAS.Timeline.y1, false);   // full web, full span
-      if (this.t && this.t.pids && this.t.pids.length) ATLAS.App.selectPerson(this.t.pids[0]);
+      if (this.t && this.t.pids && this.t.pids.length) ATLAS.App.selectPerson(this.t.pids);
       else { ATLAS.Arcs.clearHighlight(); ATLAS.App.reset(); }
     },
   };

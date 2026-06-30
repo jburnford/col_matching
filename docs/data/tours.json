@@ -57,7 +57,7 @@
   "title": "One career, both services",
   "blurb": "Freeman Freeman-Thomas, Marquess of Willingdon, is the rare official whose record runs through both the Colonial Office and India Office Lists — the career that stitches the two datasets together.",
   "pids": [
-   "kgp_iol1937-c5481176",
+   "kgp_iol1931-c5407596",
    "kgp_col1933-p1033b14"
   ],
   "steps": [
@@ -90,6 +90,12 @@
     "qid": "Q129286",
     "yr": 1931,
     "caption": "And returns to India as Viceroy. His service runs through both Lists — the single thread this atlas was built to follow."
+   },
+   {
+    "web": "both",
+    "home": true,
+    "yr": 1966,
+    "caption": "One thread among nearly fifty thousand. The whole web is yours now. Search any official by name in the panel on the right; click a busy corridor there to trace who travelled it; switch between the two services — or the schools that trained them — from the buttons at lower left; and drag the year along the bottom to watch the empire fill in. Press Finish to open Willingdon's own record."
    }
   ]
  }

@@ -12,6 +12,9 @@
   --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
   --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --panel-w:412px;     /* parchment panel; streamgraph tracks its edge */
+  --edge:28px;         /* gutter for masthead / rail / streamgraph */
+  --stream-h:150px;    /* decade streamgraph height */
 }
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;overflow:hidden;background:var(--ink);color:#e7eef6;font-family:var(--sans)}
@@ -23,6 +26,8 @@ button{font-family:inherit;cursor:pointer}
 .leaflet-control-attribution{font-size:10px;background:rgba(14,22,34,.6)!important;color:#6b7889!important}
 .leaflet-control-attribution a{color:#8794a6!important}
 .leaflet-control-zoom{border:0!important;box-shadow:none!important}
+/* drop the zoom buttons clear of the masthead title block (top-left) */
+.leaflet-top.leaflet-left{margin-top:128px}
 .leaflet-control-zoom a{background:rgba(12,20,32,.8)!important;color:#cdd7e3!important;
   border:1px solid rgba(255,255,255,.16)!important;width:30px;height:30px;line-height:28px}
 .leaflet-control-zoom a:hover{background:rgba(20,30,44,.92)!important;color:#fbf4e3!important;
@@ -41,7 +46,7 @@ button{font-family:inherit;cursor:pointer}
 .im-cluster:hover .imc{filter:brightness(1.12)}
 
 /* ---- masthead ----------------------------------------------------------- */
-#masthead{position:absolute;z-index:600;top:22px;left:28px;max-width:520px;
+#masthead{position:absolute;z-index:600;top:22px;left:var(--edge);max-width:520px;
   text-shadow:0 2px 14px rgba(0,0,0,.8);pointer-events:none}
 #masthead .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.16em;
   text-transform:uppercase;color:var(--gold-soft);opacity:.85}
@@ -52,8 +57,8 @@ button{font-family:inherit;cursor:pointer}
 #masthead .standfirst span{color:var(--gold-soft);font-variant-numeric:tabular-nums}
 
 /* ---- legend + colour-by (bottom-left) ----------------------------------- */
-#rail{position:absolute;z-index:600;left:28px;bottom:188px;display:flex;flex-direction:column;
-  gap:10px;align-items:flex-start;max-width:230px}
+#rail{position:absolute;z-index:600;left:var(--edge);bottom:calc(var(--stream-h) + 38px);
+  display:flex;flex-direction:column;gap:10px;align-items:flex-start;max-width:230px}
 #colorby{display:flex;gap:0;border:1px solid rgba(255,255,255,.16);border-radius:4px;overflow:hidden}
 .cb{background:rgba(12,20,32,.72);backdrop-filter:blur(6px);color:#aeb9c7;border:0;
   padding:6px 11px;font-size:11.5px;letter-spacing:.01em}
@@ -72,7 +77,7 @@ button{font-family:inherit;cursor:pointer}
 #to-careers:hover,#to-about:hover{color:#cdd7e3}
 
 /* ---- decade streamgraph ------------------------------------------------- */
-#stream{position:absolute;z-index:600;left:28px;right:412px;bottom:20px;height:150px;
+#stream{position:absolute;z-index:600;left:var(--edge);right:var(--panel-w);bottom:20px;height:var(--stream-h);
   background:rgba(10,16,26,.62);backdrop-filter:blur(7px);border:1px solid rgba(255,255,255,.1);
   border-radius:6px;padding:8px 12px 6px;display:flex;flex-direction:column}
 #stream-head{display:flex;align-items:baseline;gap:12px;margin-bottom:2px}
@@ -91,7 +96,7 @@ button{font-family:inherit;cursor:pointer}
 /* ============================================================================
    PARCHMENT PANEL
    ========================================================================== */
-#panel{position:absolute;z-index:650;top:0;right:0;bottom:0;width:412px;
+#panel{position:absolute;z-index:650;top:0;right:0;bottom:0;width:var(--panel-w);
   background:
     radial-gradient(120% 80% at 80% -10%, rgba(255,255,255,.35), transparent 60%),
     linear-gradient(180deg,var(--paper) 0%, var(--paper-2) 100%);
@@ -187,6 +192,54 @@ button{font-family:inherit;cursor:pointer}
 .tail-hist .hb{flex:1;background:#9a8a64;border-radius:1px 1px 0 0;min-height:1px}
 .tail-hist .hb.one{background:var(--oxblood)}
 .tail-x{display:flex;justify-content:space-between;font-family:var(--mono);font-size:9px;color:var(--slate-2);margin-bottom:8px}
+
+/* ============================================================================
+   MEDIUM — laptops (≈13–16"). Same surfaces as the desktop, drawn tighter: a
+   narrower panel, a shorter streamgraph, a more compact legend, so the
+   institution map and its discs aren't boxed in. Disjoint from mobile (min 861).
+   ========================================================================== */
+@media (min-width:861px) and (max-width:1536px){
+  :root{--panel-w:clamp(320px,26vw,372px);--edge:20px;--stream-h:122px}
+
+  #masthead{top:16px;max-width:44vw}
+  #masthead h1{font-size:clamp(23px,2.7vw,33px)}
+  #masthead .standfirst{font-size:14px;margin-top:.4em;line-height:1.35}
+
+  /* colour-by + legend: trim swatches/type so the 10-row legend stops
+     elbowing into the map markers */
+  .cb{padding:5px 10px;font-size:11px}
+  #legend{padding:8px 10px;gap:4px;font-size:11px}
+  #legend i{width:10px;height:10px}
+  #rail-arcs{padding:5px 10px;font-size:11px}
+  #to-careers,#to-about{font-size:11px}
+
+  #stream{padding:7px 11px 5px}
+  #stream-title{font-size:10px}
+
+  /* panel interior: trim padding + step the type scale down a notch */
+  #tabs .tab{padding:11px 8px;font-size:10.5px}
+  #panel-search{padding:11px 16px}
+  #search-box{font-size:14px}
+  #panel-body{padding:14px 16px 20px}
+  .reg-h{font-size:10px;margin-bottom:8px;padding-bottom:5px}
+  .reg-lede{font-size:14px;line-height:1.45;margin-bottom:12px}
+  .stat-row{gap:12px;margin:8px 0 14px}
+  .stat b{font-size:19px}
+  .stat span{font-size:10px}
+  .rank .nm{font-size:13px}
+  .rank li{padding:5px 8px}
+  .det-name{font-size:19px}
+  #panel-foot{padding:8px 16px}
+}
+
+/* Short laptops (≤860px tall): squeeze the top/bottom chrome a touch more. */
+@media (min-width:861px) and (max-height:860px){
+  :root{--stream-h:112px}
+  #masthead{top:14px}
+  #masthead h1{font-size:clamp(22px,2.4vw,30px)}
+  #masthead .standfirst{font-size:13.5px;margin-top:.35em}
+  #legend{gap:3.5px}
+}
 
 /* ============================================================================
    MOBILE — fold the chrome for phones; the institution map keeps the screen and

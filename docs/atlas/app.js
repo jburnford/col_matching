@@ -72,7 +72,11 @@
     async selectPerson(pid) {
       ATLAS.Tours.dismiss();
       await this.loadCareers();
-      ATLAS.Register.person(pid);
+      // a tour may list several editions of one official; show the first that
+      // survived into the careers index rather than silently falling to summary
+      const pids = Array.isArray(pid) ? pid : [pid];
+      const found = pids.find(p => this.careers.persons && this.careers.persons[p]);
+      ATLAS.Register.person(found || pids[0]);
     },
     // entry point for the ?p= deep link — verify the id exists, else fall back
     async openPerson(pid) {
