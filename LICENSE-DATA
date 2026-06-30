@@ -1,0 +1,28 @@
+Data license: Creative Commons CC0 1.0 Universal (Public Domain Dedication)
+
+This license covers the DATA in this repository — the knowledge-graph layers
+under `data/*/graph_stage3/`, the raw OCR text under `raw_ocr/`, and any
+dataset derived and published from them, including the archived snapshot on
+Zenodo. (The source code is licensed separately under the MIT License; see
+LICENSE.)
+
+To the extent possible under law, Jim Clifford has waived all copyright and
+related or neighbouring rights to this data. The data is dedicated to the
+public domain. You can copy, modify, distribute, and use the data, even for
+commercial purposes, all without asking permission.
+
+Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Summary:         https://creativecommons.org/publicdomain/zero/1.0/
+
+Attribution is requested but NOT required
+-----------------------------------------
+CC0 places no legal conditions on reuse. As a courtesy to the scholarship that
+produced it, we ask (but do not require) that you cite the dataset when you use
+it in research or teaching:
+
+    Jim Clifford, "Imperial Careers: a grounded person-career knowledge graph
+    of the Colonial Office List and India Office List." Dataset.
+    https://github.com/jburnford/col_matching  (Zenodo DOI: <add after release>)
+
+The underlying sources — the printed Colonial Office List (1862–1966) and India
+Office List (1886–1947) — are themselves public-domain historical documents.

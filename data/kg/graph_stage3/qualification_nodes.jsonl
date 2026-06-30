@@ -1,0 +1,95 @@
+{"id": "Q20006267", "label": "Fellow of the Royal Geographical Society", "type": "fellowship", "source": "mcp", "n_people": 171}
+{"id": "colkg:mice", "label": "Member of the Institution of Civil Engineers", "type": "membership", "source": "internal", "n_people": 96}
+{"id": "Q2091008", "label": "Master of Arts", "type": "degree", "source": "mcp", "n_people": 66}
+{"id": "Q787674", "label": "Bachelor of Science", "type": "degree", "source": "mcp", "n_people": 57}
+{"id": "Q959320", "label": "Doctor of Laws", "type": "degree", "source": "mcp", "n_people": 52}
+{"id": "colkg:amice", "label": "Associate Member of the Institution of Civil Engineers", "type": "membership", "source": "internal", "n_people": 45}
+{"id": "Q1984623", "label": "Doctor of Divinity", "type": "degree", "source": "mcp", "n_people": 43}
+{"id": "Q5287501", "label": "Doctor of Civil Law", "type": "degree", "source": "mcp", "n_people": 41}
+{"id": "Q3631327", "label": "Fellowship of the Royal College of Surgeons", "type": "membership", "source": "mcp", "n_people": 37}
+{"id": "Q24590727", "label": "Fellow of the Geological Society of London", "type": "membership", "source": "mcp", "n_people": 37}
+{"id": "Q913404", "label": "Doctor of Medicine", "type": "degree", "source": "mcp", "n_people": 35}
+{"id": "colkg:lrcp", "label": "Licentiate of the Royal College of Physicians", "type": "membership", "source": "internal", "n_people": 34}
+{"id": "Q6815098", "label": "Membership of the Royal College of Surgeons", "type": "membership", "source": "mcp", "n_people": 33}
+{"id": "Q15631401", "label": "Fellow of the Royal Society", "type": "membership", "source": "mcp", "n_people": 32}
+{"id": "Q25513903", "label": "Fellow of the Zoological Society of London", "type": "membership", "source": "mcp", "n_people": 28}
+{"id": "Q26111565", "label": "Fellow of the Royal Astronomical Society", "type": "membership", "source": "mcp", "n_people": 27}
+{"id": "Q6717443", "label": "Member of the Royal College of Veterinary Surgeons", "type": "membership", "source": "mcp", "n_people": 25}
+{"id": "Q2248352", "label": "Doctor of Science", "type": "degree", "source": "mcp", "n_people": 23}
+{"id": "colkg:miee", "label": "Member of the Institution of Electrical Engineers", "type": "membership", "source": "internal", "n_people": 23}
+{"id": "Q13948235", "label": "Bachelor of Medicine, Bachelor of Surgery", "type": "degree", "source": "mcp", "n_people": 22}
+{"id": "colkg:fcs", "label": "Fellow of the Chemical Society", "type": "membership", "source": "internal", "n_people": 21}
+{"id": "Q41942190", "label": "Fellow of the Royal Institute of British Architects", "type": "membership", "source": "mcp", "n_people": 20}
+{"id": "Q1765120", "label": "Bachelor of Arts", "type": "degree", "source": "mcp", "n_people": 19}
+{"id": "colkg:mime", "label": "Member of the Institution of Mining Engineers", "type": "membership", "source": "internal", "n_people": 17}
+{"id": "Q950900", "label": "Master of Science", "type": "degree", "source": "mcp", "n_people": 16}
+{"id": "Q5442487", "label": "Fellow of the Royal Society of Chemistry", "type": "membership", "source": "mcp", "n_people": 15}
+{"id": "colkg:fic", "label": "Fellow of the Institute of Chemistry", "type": "membership", "source": "internal", "n_people": 14}
+{"id": "colkg:amiee", "label": "Associate Member of the Institution of Electrical Engineers", "type": "membership", "source": "internal", "n_people": 12}
+{"id": "Q20010681", "label": "Fellow of the Royal Entomological Society", "type": "membership", "source": "mcp", "n_people": 12}
+{"id": "Q752297", "label": "Doctor of Philosophy", "type": "degree", "source": "mcp", "n_people": 11}
+{"id": "colkg:aca", "label": "Associate of the Institute of Chartered Accountants", "type": "membership", "source": "internal", "n_people": 11}
+{"id": "Q6815097", "label": "Membership of the Royal College of Physicians", "type": "membership", "source": "mcp", "n_people": 11}
+{"id": "colkg:mimm", "label": "Member of the Institution of Mining and Metallurgy", "type": "membership", "source": "internal", "n_people": 11}
+{"id": "Q15271633", "label": "Fellow of the Royal Society of Arts", "type": "membership", "source": "mcp", "n_people": 10}
+{"id": "Q26204035", "label": "Fellow of the Royal College of Physicians of London", "type": "membership", "source": "mcp", "n_people": 9}
+{"id": "Q798137", "label": "Bachelor of Laws", "type": "degree", "source": "mcp", "n_people": 8}
+{"id": "colkg:mina", "label": "Member of the Institution of Naval Architects", "type": "membership", "source": "internal", "n_people": 8}
+{"id": "colkg:frai", "label": "Fellow of the Royal Anthropological Institute", "type": "membership", "source": "internal", "n_people": 8}
+{"id": "colkg:mras", "label": "Member of the Royal Asiatic Society", "type": "membership", "source": "internal", "n_people": 7}
+{"id": "colkg:fric", "label": "Fellow of the Royal Institute of Chemistry", "type": "membership", "source": "internal", "n_people": 7}
+{"id": "colkg:frhs", "label": "Fellow of the Royal Horticultural Society", "type": "membership", "source": "internal", "n_people": 6}
+{"id": "colkg:frcvs", "label": "Fellow of the Royal College of Veterinary Surgeons", "type": "membership", "source": "internal", "n_people": 6}
+{"id": "colkg:mirse", "label": "Member of the Institution of Railway Signal Engineers", "type": "membership", "source": "internal", "n_people": 5}
+{"id": "colkg:lriba", "label": "Licentiate of the Royal Institute of British Architects", "type": "membership", "source": "internal", "n_people": 5}
+{"id": "Q5438598", "label": "Fellow of the Royal Society of Edinburgh", "type": "membership", "source": "mcp", "n_people": 4}
+{"id": "colkg:frics", "label": "Fellow of the Royal Institution of Chartered Surveyors", "type": "membership", "source": "internal", "n_people": 4}
+{"id": "colkg:mrsi", "label": "Member of the Royal Sanitary Institute", "type": "membership", "source": "internal", "n_people": 4}
+{"id": "colkg:fsa", "label": "Fellow of the Society of Antiquaries of London", "type": "membership", "source": "internal", "n_people": 4}
+{"id": "colkg:amimm", "label": "Associate Member of the Institution of Mining and Metallurgy", "type": "membership", "source": "internal", "n_people": 4}
+{"id": "colkg:frss", "label": "Fellow of the Royal Statistical Society", "type": "membership", "source": "internal", "n_people": 4}
+{"id": "colkg:fgsa", "label": "fgsa", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:mise", "label": "mise", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:frci", "label": "frci", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:fiac", "label": "fiac", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:mrst", "label": "mrst", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:lrcs", "label": "lrcs", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:lrcp_s", "label": "lrcp&s", "type": "honour", "source": "internal", "n_people": 3}
+{"id": "colkg:fcis", "label": "fcis", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:amime", "label": "amime", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:frfps", "label": "frfps", "type": "order", "source": "internal", "n_people": 3}
+{"id": "colkg:litt_d", "label": "litt d", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:fia", "label": "fia", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:b_com", "label": "b com", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:lrfps", "label": "lrfps", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:miae", "label": "miae", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:amire", "label": "amire", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:frms", "label": "frms", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:mims", "label": "mims", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:amina", "label": "amina", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:mim", "label": "mim", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:lrfp_s", "label": "lrfp&s", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:mies", "label": "mies", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:b_litt", "label": "b litt", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:amioe", "label": "amioe", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:b_v_sc", "label": "b v sc", "type": "honour", "source": "internal", "n_people": 2}
+{"id": "colkg:amiwe", "label": "amiwe", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:miwe", "label": "miwe", "type": "order", "source": "internal", "n_people": 2}
+{"id": "colkg:lrcsi", "label": "lrcsi", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:miwt", "label": "miwt", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mibae", "label": "mibae", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:micr", "label": "micr", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mire", "label": "mire", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:amise", "label": "amise", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mrcs_lrcp", "label": "mrcs,lrcp", "type": "honour", "source": "internal", "n_people": 1}
+{"id": "colkg:ll_m", "label": "ll m", "type": "honour", "source": "internal", "n_people": 1}
+{"id": "colkg:mile", "label": "mile", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mita", "label": "mita", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:amier", "label": "amier", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:d_litt", "label": "d litt", "type": "honour", "source": "internal", "n_people": 1}
+{"id": "colkg:mipt", "label": "mipt", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:frcps", "label": "frcps", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:amiae", "label": "amiae", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:mrcog", "label": "mrcog", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:acis", "label": "acis", "type": "order", "source": "internal", "n_people": 1}
+{"id": "colkg:frca", "label": "frca", "type": "order", "source": "internal", "n_people": 1}

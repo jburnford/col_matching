@@ -11,5 +11,14 @@ out/
 *.jsonl
 data/
 !data/services/gold/*.jsonl
-# raw OCR source images (951MB) — regenerable, never push to GitHub
+
+# --- PUBLISHED KNOWLEDGE GRAPH ---------------------------------------------
+# The two grounded KG corpora under data/{kg,iol}/graph_stage3 are committed
+# (force-added) so historians can clone & build — see README → "Open data".
+# git keeps them tracked despite the broad data/ ignore above. These safety
+# patterns just stop the rolling backups / built DB binary from being added:
+data/*/graph_stage3/*bak*.jsonl
+data/*/ladybug_db
+
+# raw OCR source images (951MB) — regenerable, available on request / via Zenodo
 iol_ocr_1860-1940/

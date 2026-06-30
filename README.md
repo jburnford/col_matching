@@ -1,152 +1,195 @@
-# col_matching
+# Imperial Careers — an open knowledge graph of the Colonial & India Office Lists
 
-Experimental repo for **person-matching / career-chain resolution** in the
-Colonial Office List corpus, isolated from OCR and relationship extraction so
-it can iterate on its own cadence (including LLM-assisted matching with Fable).
+A grounded, person-career **knowledge graph** built from the printed
+*Colonial Office List* (1862–1966) and *India Office List* (1886–1947): tens of
+thousands of imperial officials, the posts they held, where and when they
+served, where they were educated, and the honours they received — with people,
+places, roles and institutions linked to **Wikidata** wherever possible.
 
-This repo **reads** from the same production Neo4j graph that `~/col_pipeline`
-builds, at the `COL_Official` seam. It is **read-only** against that graph: it
-never writes nodes, edges, or properties to production. Any matches it produces
-are written to a *separate* experiment store or exported as files for review —
-never committed back to the publication graph without explicit sign-off.
+🌍 **Explore the interactive atlas:** <http://jimclifford.ca/col_matching/>
 
-## Boundary
+## Open data — free for anyone to use
 
-```
-OCR  (archive-olm-pipeline)            pixels → text
-  │
-Extraction (col_pipeline: col.extract) text → COL_PersonRecord + institutions
-  │
-  ▼  ── seam: COL_Official + its records + POSSIBLE_MATCH edges (read-only)
-Matching (THIS REPO)                   stints → coherent careers → (later) Wikidata
-```
+The data in this repository is dedicated to the **public domain under
+[CC0 1.0](LICENSE-DATA)** — copy it, remix it, build on it, for any purpose,
+no permission needed. The source code is **[MIT](LICENSE)** licensed.
 
-`col_pipeline` stays the single, publication-ready, end-to-end repo and the
-source of truth for the graph. This repo is downstream of its `COL_Official`
-layer and depends on nothing in its extraction/OCR code — the contract is the
-graph schema, not a Python import.
+Attribution is *requested but not required*. If it helps your research or
+teaching, a citation is appreciated (see [Citing this data](#citing-this-data)).
 
-## What it consumes
+**You do not need to run any pipeline to use the data.** The finished graph is
+committed directly to this repo under `data/{kg,iol}/graph_stage3/` as plain
+JSONL — clone it and you have everything. Two ready-to-load databases are
+documented below; or just read the JSONL files directly in Python, R, pandas,
+DuckDB, etc.
 
-See [`docs/data_contract.md`](docs/data_contract.md) for the exact nodes,
-edges, properties, and quarantine filters. In short: each candidate cluster is
-a connected component of `POSSIBLE_MATCH` edges over `COL_Official` stints;
-each stint's evidence is gathered by traversing `RECORD_OF` back to its
-(non-quarantined) `COL_PersonRecord`s.
+| corpus | persons | career events | grounded to Wikidata |
+|--------|--------:|--------------:|---------------------:|
+| Colonial Office List (`data/kg`) | 27,739 | 180,830 | 1,119 persons |
+| India Office List (`data/iol`)   | 18,233 | 120,307 | *(person grounding deferred)* |
 
-## Status
+Places, roles, organisations, schools and honours are grounded too: e.g. the CO
+graph resolves ~131k events to a Wikidata place QID and links 1,518 schools and
+20 honour types to Wikidata.
 
-Phase 1 (services-section pipeline) is built and run; see
-`docs/approach.md` and `data/services/reports/full_run_report.md`.
+---
 
-The printed "Record of Services" biographical sections (1883–1966) are
-segmented, deduplicated across editions, parsed (rules tier ~77%, Gemini
-batch fallback for the rest), and compiled into ~30k per-person biographies
-with per-fact edition provenance. Careers are then built by **record-level
-attachment**: each biography claims the annual staff-list records it predicts,
-year by year, in the same volumes (`col_match/services/attach.py`). Stint
-matching (`match.py`) is retained as an independent cross-check. Both run at
-zero measured false positives against 543 hand-verified careers.
-
-```
-col-services segment      # locate + split the services sections (62 volumes)
-col-services dedup        # 199k entry instances -> 42k distinct versions
-col-services parse_rules  # deterministic tier (77%)
-col-services llm_submit / llm_poll / llm_escalate   # Gemini batch fallback
-col-services compile      # versions -> biographies (conservative merging)
-col-services fetch_graph  # read-only cache of officials + records + edges
-col-services attach       # biographies claim annual records (primary)
-col-services match        # stint-level cross-check
-col-services coverage     # coverage report
-col-services eval_gold / check_twins                # evaluation harness
-```
-
-Not present yet (by design): the Fable dossier adjudication harness for the
-~13k below-evidence-bar candidates, and any write path anywhere.
-
-## Setup
+## Quick start: load the graph
 
 ```bash
-cd ~/col_matching
+git clone <this repo> && cd col_matching
 pip install -e .
-cp .env.example .env   # or rely on ~/textasdatacolonialofficelist/.env (auto-loaded)
 ```
 
-Credentials resolve the same way as `col_pipeline` (`NEO4J_PROD_URI` /
-`NEO4J_URI`, `NEO4J_PASSWORD`, …), falling back to the sibling repo's `.env`,
-so there's a single credential source.
+`COL_KG_OUT` selects which corpus to load (`data/kg` = Colonial Office List,
+`data/iol` = India Office List). Everything below works for either.
 
-## Knowledge graph (LadybugDB)
+### Option A — LadybugDB (embedded, zero setup)
 
-The grounded person-career knowledge graph for **two corpora** — the Colonial
-Office List (`data/kg`) and the India Office List (`data/iol`) — is emitted as
-JSONL layers under `data/<corpus>/graph_stage3/` and loaded into an embedded
-**LadybugDB** (a Kuzu-fork, Cypher) database.
+LadybugDB is an embeddable Cypher graph database (a Kuzu fork) — no server, the
+database is a single local file. This is the fastest way to start querying.
 
-Every corpus roots its outputs on the `COL_KG_OUT` environment variable
-(default `data/kg`), so the same scripts build either graph. The JSONL graph
-layers are committed; the `*/ladybug_db` directories are **not** (they're
-~50–70 MB binaries, regenerated deterministically from the JSONL).
-
-### Build the database
+> ⚠️ `pip install ladybug` here gets the **graph database**
+> (github.com/lbugdb/lbug), *not* the unrelated "Ladybug Tools" package of the
+> same import name.
 
 ```bash
-# loader deps (in addition to `pip install -e .`).
-# NB: `ladybug` here is the embeddable graph DB (github.com/lbugdb/lbug, a Kuzu fork),
-# NOT the "Ladybug Tools" architecture package of the same import name.
 pip install ladybug pandas pyarrow
 
-# Colonial Office List  -> data/kg/ladybug_db
-COL_KG_OUT=data/kg  python3 kg_load_ladybug.py
-
-# India Office List     -> data/iol/ladybug_db
-COL_KG_OUT=data/iol python3 kg_load_ladybug.py
+COL_KG_OUT=data/kg  python3 kg_load_ladybug.py     # -> data/kg/ladybug_db
+COL_KG_OUT=data/iol python3 kg_load_ladybug.py     # -> data/iol/ladybug_db
 ```
 
-Each run drops any existing DB and rebuilds from scratch via Parquet `COPY FROM`,
-then prints node/edge counts and runs validation queries. Current scale:
+```python
+import ladybug
+conn = ladybug.Connection(ladybug.Database("data/kg/ladybug_db"))
+print(conn.execute(
+    "MATCH (p:Person)-[:HAS_EVENT]->(e:CareerEvent)-[:EVENT_PLACE]->(pl:Place) "
+    "RETURN pl.label, count(*) AS n ORDER BY n DESC LIMIT 5"
+).get_as_df())
+```
 
-| corpus | persons | career events | persons→Wikidata |
-|--------|--------:|--------------:|-----------------:|
-| Colonial Office List (`data/kg`) | 30,080 | 189,775 | 925 |
-| India Office List (`data/iol`)   | 20,362 | 129,090 | 0 *(person grounding deferred)* |
+### Option B — Neo4j
 
-### Graph model (reified career events)
+Loads the same graph into any Neo4j over Bolt. **It targets a local Neo4j
+(`bolt://localhost:7687`) by default and only ever creates nodes carrying an
+`:ICKG` marker label**, so it is safe to run against a shared database — it will
+not disturb other data, and the two corpora coexist (each tagged
+`ICKG_corpus = "co" | "iol"`).
+
+```bash
+pip install neo4j      # already a dependency of `pip install -e .`
+
+# point at your Neo4j (defaults shown):
+export KG_NEO4J_URI=bolt://localhost:7687
+export KG_NEO4J_USER=neo4j
+export KG_NEO4J_PASSWORD=neo4j
+
+COL_KG_OUT=data/kg  python3 kg_load_neo4j.py       # Colonial Office List
+COL_KG_OUT=data/iol python3 kg_load_neo4j.py       # India Office List
+```
+
+Re-running clears and reloads that corpus; pass `--keep` to append instead. In
+Neo4j the node labels are prefixed (`:ICKG_Person`, `:ICKG_Place`, …):
+
+```cypher
+MATCH (p:ICKG_Person {ICKG_corpus:'co'})-[:HAS_EVENT]->(e:ICKG_CareerEvent)-[:EVENT_PLACE]->(pl:ICKG_Place)
+RETURN pl.label, count(*) AS n ORDER BY n DESC LIMIT 5
+```
+
+Both loaders print node/edge counts and run validation queries when they finish.
+
+---
+
+## Graph model (reified career events)
+
+Each career event is reified as its own node, so people, roles, places and time
+are all independently traversable:
 
 ```
 (Person)-[:HAS_EVENT]->(CareerEvent)-[:EVENT_ROLE]->(Role)
-                        (CareerEvent)-[:EVENT_PLACE]->(Place)
-                        (CareerEvent)-[:EVENT_COLONY]->(Place)
+                        (CareerEvent)-[:EVENT_PLACE]->(Place)     // where served
+                        (CareerEvent)-[:EVENT_COLONY]->(Place)    // colony/jurisdiction
 (Person)-[:EDUCATED_AT]->(Institution)
 (Person)-[:EMPLOYED_BY]->(Organisation)
 (Person)-[:RECEIVED]->(Honour)
 (Person)-[:HOLDS_QUAL]->(Qualification)
 ```
 
-Nodes carry their grounded id (a Wikidata `Q…` QID where grounded, else a stable
-internal `colkg:<slug>`) plus a label. `CareerEvent` carries
-`year_start`/`year_end`/`is_acting`/`position_raw`. The loader synthesizes each
-reified event from `career_events.jsonl` joined to `role_edges.jsonl` (on
-`person_id`+`seq`); employers are person-level (`employment_edges.jsonl`).
+`CareerEvent` carries `year_start` / `year_end` / `is_acting` / `position_raw`.
+Every node carries a grounded id — a Wikidata `Q…` QID where grounded, otherwise
+a stable internal `colkg:<slug>` — plus a human-readable label. `Person` nodes
+additionally carry `wikidata_qid` / `wikidata_label` when grounded.
 
-### Query it
+### The data files (`data/{kg,iol}/graph_stage3/`)
 
-```python
-import ladybug
-conn = ladybug.Connection(ladybug.Database("data/iol/ladybug_db"))
-print(conn.execute(
-    "MATCH (p:Person)-[:EMPLOYED_BY]->(o:Organisation) "
-    "RETURN o.label, count(*) AS n ORDER BY n DESC LIMIT 5"
-).get_as_df())
-```
+One JSON object per line. The loaders read these; you can too.
 
-### Regenerating the JSONL from scratch (optional)
+| file | what it is |
+|------|------------|
+| `persons.jsonl` | one row per resolved person (surname, given names, birth year, # attestations) |
+| `career_events.jsonl` | the event spine — one row per person-posting, with year/place/colony |
+| `role_edges.jsonl` | grounded role/position per event (`person_id` + `seq`) |
+| `career_facts.jsonl` | denormalised flat view (event ⋈ role) — handy for a quick read |
+| `places.jsonl` / `roles.jsonl` / `organisations.jsonl` / `institutions.jsonl` / `honour_nodes.jsonl` | grounded node tables |
+| `employment_edges.jsonl` / `education_edges.jsonl` / `honour_edges.jsonl` / `qualification_edges.jsonl` | person-level edges |
+| `person_grounding.final.jsonl` | person → Wikidata QID (zero-false-positive set) |
+| `kg_stats.json` / `v3_manifest.json` | counts and per-layer grounding coverage |
 
-Rebuilding the DB needs only the committed `graph_stage3/*.jsonl`. To regenerate
-those layers from the structured corpus (after re-grounding or re-dedup), re-run
-the emit chain rooted on the same `COL_KG_OUT`: `kg_emit_stage3.py` (core graph)
-then the per-layer worklist+emit scripts (`kg_org_worklist.py` →
-`kg_ground_institutions.py emit`, `kg_position_worklist.py` → `kg_emit_roles.py`,
-`kg_parse_education.py worklist` → `kg_ground_institutions.py emit`,
-`kg_honour_worklist.py` → `kg_emit_honours.py`). Grounding caches
-(`*_grounding.jsonl`) are committed and reused — no re-grounding needed.
+---
+
+## Citing this data
+
+If you use this in research or teaching, please cite the archived snapshot
+(which carries a DOI):
+
+> Jim Clifford. *Imperial Careers: a grounded person-career knowledge graph of
+> the Colonial Office List and India Office List.* Dataset.
+> Zenodo DOI: **`<add after first release>`**
+
+Each tagged GitHub release is automatically archived to Zenodo and minted a DOI
+(see [Releasing a citable snapshot](#releasing-a-citable-snapshot)). Until the
+first release, cite this repository URL.
+
+---
+
+## How the graph was built (provenance)
+
+The graph is the downstream product of a longer pipeline; you don't need any of
+it to *use* the data, but here is the lineage:
+
+1. **OCR** of the printed Lists (raw CO text is committed under `raw_ocr/`).
+2. **Person resolution** — the printed "Record of Services" biographies are
+   segmented, deduplicated across editions, and compiled into per-person
+   biographies with per-fact edition provenance (`col_match/services/`).
+3. **Structuring** — each biography is parsed (rules tier + LLM fallback) into
+   structured career events.
+4. **Grounding** — people, places, roles, schools, organisations and honours
+   are linked to Wikidata using semantic (vector) search plus zero-false-
+   positive verification gates (`kg_ground_*.py`, `verify_*_qids.py`).
+5. **Emit** — the grounded graph is written as the `graph_stage3/*.jsonl`
+   layers (`kg_emit_stage3.py` and the per-layer emit scripts).
+
+`COL_KG_OUT` reroots the entire pipeline, so the same scripts build either
+corpus. The grounding caches (`*_grounding.jsonl`) are committed and reused, so
+rebuilding the JSONL needs no re-grounding. Design notes and per-stage loops are
+in [`docs/`](docs/) (start with `docs/LADYBUG_DB.md`, `docs/CAREER_FACTS.md`).
+
+### Relationship to the production pipeline
+
+This repo is the *matching / knowledge-graph* layer. It is **read-only** against
+the separate `col_pipeline` production Neo4j graph that supplies the extracted
+`COL_Official` records — it never writes to that graph. See
+[`docs/data_contract.md`](docs/data_contract.md) for that seam. (The `kg_load_*`
+loaders here build a *separate* database from the published JSONL and never
+touch production.)
+
+## Releasing a citable snapshot
+
+To mint a DOI for a version of the data:
+
+1. Connect the GitHub repo to <https://zenodo.org> once (Zenodo → GitHub, flip
+   the repo on).
+2. Cut a GitHub release / tag (e.g. `v1.0-data`). Zenodo archives the repo
+   (data included) and mints a DOI automatically.
+3. Paste the DOI into the badge above and the citation block.

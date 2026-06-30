@@ -1,0 +1,65 @@
+{
+  "persons": 18233,
+  "events": 120307,
+  "events_placed": 89553,
+  "events_grounded": 75494,
+  "events_resolved_via_map": 4719,
+  "events_with_colony": 52570,
+  "events_org": 3878,
+  "honours": 11165,
+  "education": 10146,
+  "places_used": 1537,
+  "version": "v3",
+  "layers": {
+    "roles": {
+      "nodes": 14199,
+      "nodes_qid": 131,
+      "edges": 120035,
+      "edges_qid": 41138,
+      "edges_internal": 63673,
+      "edges_unlinked": 15224
+    },
+    "organisations": {
+      "nodes": 448,
+      "nodes_qid": 48,
+      "employment_edges": 5085
+    },
+    "education_institutions": {
+      "nodes": 1585,
+      "nodes_qid": 898,
+      "education_edges": 6257
+    },
+    "honours": {
+      "nodes": 544,
+      "nodes_qid": 23,
+      "edges": 10127,
+      "edges_qid": 7767,
+      "edges_internal": 2082,
+      "edges_unlinked": 278
+    },
+    "qualifications": {
+      "nodes": 67,
+      "nodes_qid": 26,
+      "edges": 1038,
+      "edges_qid": 438,
+      "edges_internal": 600,
+      "edges_unlinked": 0
+    },
+    "person_wikidata": {
+      "method": "Layer1 harvest-match + WDQS verify; Layer2 colony+position via QLever",
+      "persons_grounded": 0,
+      "distinct_qids": 0,
+      "tiers": {},
+      "layer2_senior_officials": 0
+    }
+  },
+  "career_facts": {
+    "count": 120307,
+    "role_qid": 41086,
+    "role_any": 104811,
+    "org": 0,
+    "place": 75494,
+    "dated": 113809,
+    "role_place_time": 64523
+  }
+}
