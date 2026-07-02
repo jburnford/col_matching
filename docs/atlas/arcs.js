@@ -26,6 +26,7 @@
       this.arcs = []; this.ll = []; this.pix = null;
       this.idx = 0; this.curYear = 0; this.hl = null; this.playing = false;
       this.corpus = { 0: true, 1: true };
+      this.window = null;               // [y0, y1) — only moves in this window burn in
       const resize = () => this.resize();
       window.addEventListener('resize', resize);
       // during a pan/fly: invalidate projection; cheaply re-track the curated tour
@@ -62,6 +63,7 @@
       this.draw();
     },
     setCorpus(c) { this.corpus = c; this.rebuild(); this.draw(); },
+    setWindow(win) { this.window = win; this.rebuild(); this.draw(); },   // decade isolation
     rebuild(year) {                                              // full rebuild of the web
       if (year != null) this._target = year; else year = this._target ?? this.curYear;
       this.pctx.clearRect(0, 0, this.W, this.H);
@@ -72,7 +74,7 @@
       this._target = year;
       while (this.idx < this.arcs.length && this.arcs[this.idx][0] <= year) {
         const a = this.arcs[this.idx], p = this.pix[this.idx];
-        if (p && this.corpus[a[4]]) {
+        if (p && this.corpus[a[4]] && (!this.window || (a[0] >= this.window[0] && a[0] < this.window[1]))) {
           const [cx, cy] = arcCurve(p[0], p[1], p[2], p[3]);
           this.pctx.strokeStyle = WEB[a[4]]; this.pctx.lineWidth = 0.7;
           this.pctx.beginPath(); this.pctx.moveTo(p[0], p[1]);
@@ -106,6 +108,7 @@
         for (; i < this.arcs.length; i++) {
           const a = this.arcs[i]; if (a[0] > this.curYear) break;
           if (!this.corpus[a[4]] || !this.pix[i]) continue;
+          if (this.window && (a[0] < this.window[0] || a[0] >= this.window[1])) continue;
           const f = (this.curYear - a[0]) / FLIGHT; if (f < 0 || f > 1) continue;
           this._fly(this.pix[i], a[4], f);
         }

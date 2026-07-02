@@ -90,6 +90,7 @@
     reset() {
       ATLAS.Timeline.onYear = null;
       if (ATLAS.Timeline.timer) ATLAS.Timeline.stop();
+      ATLAS.Timeline.setSpan(null); ATLAS.Timeline.clearWindow();
       ATLAS.Arcs.clearHighlight(); ATLAS.Places.clearEmphasis();
       ATLAS.Timeline.setYear(ATLAS.Timeline.y1, false);   // restore the full-span web, not just the sidebar
       ATLAS.Register.summary();

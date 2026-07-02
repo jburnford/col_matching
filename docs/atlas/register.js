@@ -11,6 +11,7 @@
 
     summary() {
       ATLAS.Timeline.onYear = null;
+      ATLAS.Timeline.setSpan(null);
       const m = ATLAS.App.meta, c = m.counts;
       const tours = ATLAS.App.tours.map((t, i) =>
         `<li data-tour="${i}"><div class="tl-t">${esc(t.title)}</div><div class="tl-b">${esc(t.blurb)}</div></li>`).join('');
@@ -139,6 +140,7 @@
       this.wireRoleLinks();
 
       const idx = [...ATLAS.Arcs.indicesForPerson(b.co), ...ATLAS.Arcs.indicesForPerson(b.io)];
+      ATLAS.Timeline.setSpan(ys.length ? [minY, maxY] : null);   // light only the active decades
       ATLAS.Arcs.setHighlight(idx, true, true);            // dim web + reveal up to timeline year
       ATLAS.Timeline.setYear(maxY, false);                 // show the full career to start
       ATLAS.Timeline.onYear = y => this.moveCursor(y, minY, maxY);
@@ -198,6 +200,9 @@
 
       const idx = ATLAS.Arcs.indicesForPerson(pid);
       const lastYr = legs.length ? Math.max(...legs.map(s => s[1] || s[0])) : ATLAS.Timeline.y1;
+      // light only this official's active decades on the histogram
+      const ys = legs.flatMap(s => [s[1], s[2]]).filter(Boolean);
+      ATLAS.Timeline.setSpan(ys.length ? [Math.min(...ys), Math.max(...ys)] : null);
       ATLAS.Arcs.setHighlight(idx, true, true);           // focus + reveal by timeline year
       ATLAS.Timeline.setYear(lastYr, false);              // clock to the end of the career
       this.body.querySelectorAll('.ros-entry').forEach(li => {
@@ -214,6 +219,7 @@
 
     place(qid) {
       ATLAS.Timeline.onYear = null;
+      ATLAS.Timeline.setSpan(null);
       const p = ATLAS.App.places[qid]; if (!p) return;
       this.placeQid = qid;
       const arcs = ATLAS.Arcs.arcs, idx = ATLAS.Arcs.indicesForPlace(qid);

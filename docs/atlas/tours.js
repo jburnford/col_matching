@@ -28,6 +28,7 @@
     startIntro() {
       const reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
       this.wrap.hidden = false;
+      ATLAS.Timeline.setSpan(null); ATLAS.Timeline.clearWindow();
       ATLAS.Arcs.setCorpus({ 0: true, 1: true });
       if (reduce) { ATLAS.Timeline.setYear(ATLAS.Timeline.y1, false); this.startWillingdon(); return; }
       // BUILD phase
@@ -49,6 +50,7 @@
     // ---- a guided tour (Willingdon by default) -------------------------
     start(i) {
       if (ATLAS.Timeline.timer) ATLAS.Timeline.stop();
+      ATLAS.Timeline.setSpan(null); ATLAS.Timeline.clearWindow();
       this.t = this.tours[i]; this.k = -1; this._wk = null;
       this.wrap.hidden = false;
       el('tour-title').textContent = this.t.title;
