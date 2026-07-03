@@ -1639,3 +1639,5 @@
 {"institution": "Smith's School", "type": "other", "id": null, "label": "Smith's School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
 {"institution": "St. George's College, London", "type": "other", "id": null, "label": "St. George's College, London", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
 {"institution": "Cork School", "type": "other", "id": null, "label": "Cork School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "Frankfort, Geneva", "type": "school", "id": "colkg:Frankfort_Geneva", "label": "Frankfort, Geneva", "instance_of": [], "country_qid": null, "source": "mention_mint", "match_type": "cue_reconstructed"}
+{"institution": "Godolphin School, Hammersmith", "type": "school", "id": "colkg:Godolphin_School_Hammersmith", "label": "Godolphin School, Hammersmith", "instance_of": [], "country_qid": null, "source": "mention_mint", "match_type": "cue_reconstructed"}

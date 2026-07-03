@@ -132,8 +132,21 @@ def cmd_emit(a):
                                      "institution_label": r["label"], "type": r["type"]},
                                     ensure_ascii=False) + "\n")
                 n += 1
+    # per-mention overrides: ambiguous surfaces resolved mention-by-mention from
+    # the raw string's own cue (kg_disambiguate_mentions.py) — appended as edges
+    ovp = out / "education_mention_overrides.jsonl"
+    n_ov = 0
+    if ovp.exists():
+        with (out / EMIT_EDGES).open("a") as fh:
+            for l in ovp.open():
+                r = json.loads(l)
+                fh.write(json.dumps({"person_id": r["person_id"], "institution": r["institution"],
+                                     "institution_id": r["institution_id"],
+                                     "institution_label": r["institution_label"],
+                                     "type": r.get("type")}, ensure_ascii=False) + "\n")
+                n_ov += 1
     n_nodes = sum(1 for r in cache.values() if r.get("source") != "ambiguous")
-    print(f"emitted {n_nodes} {EMIT_NODES} nodes, {n} {EMIT_EDGES} -> {out}/")
+    print(f"emitted {n_nodes} {EMIT_NODES} nodes, {n} {EMIT_EDGES} (+{n_ov} mention overrides) -> {out}/")
 
 def cmd_stats(a):
     cache = load_cache(); work = load_work()

@@ -6249,3 +6249,5 @@
 {"person_id": "kgp_iol1926-c4421610", "institution": "University of New Zealand", "institution_id": "Q864860", "institution_label": "University of New Zealand", "type": "university"}
 {"person_id": "kgp_iol1947-c2392877", "institution": "Haberdashers' Aske's Hampstead School", "institution_id": "colkg:Haberdashers_Askes_Hampstead_School", "institution_label": "Haberdashers' Aske's Hampstead School", "type": "school"}
 {"person_id": "kgp_iol1947-c2393175", "institution": "St. John's College, Agra", "institution_id": "colkg:St_Johns_College_Agra", "institution_label": "St. John's College, Agra", "type": "university_college"}
+{"person_id": "kgp_iol1927-c4438770", "institution": "Frankfort, Geneva", "institution_id": "colkg:Frankfort_Geneva", "institution_label": "Frankfort, Geneva", "type": "school"}
+{"person_id": "kgp_iol1903-c3380023", "institution": "Godolphin School, Hammersmith", "institution_id": "colkg:Godolphin_School_Hammersmith", "institution_label": "Godolphin School, Hammersmith", "type": "school"}
