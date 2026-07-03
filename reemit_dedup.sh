@@ -55,3 +55,6 @@ for f in ("role_edges", "employment_edges", "honour_edges", "qualification_edges
 g = sum(1 for l in open(GD + "/persons.jsonl") if json.loads(l).get("wikidata_qid"))
 print(f"   persons {len(pers)}  grounded {g}")
 PY
+
+echo "── colony fixups (year/person-aware rules the crosswalk cannot express)"
+python3 kg_apply_colony_fixups.py

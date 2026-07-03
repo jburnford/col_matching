@@ -91,7 +91,7 @@
 {"id": "colkg:Royal_Niger_constabulary", "label": "Royal Niger constabulary", "type": "police", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "colkg:S_Provs_secretariat", "label": "S. Provs., secretariat", "type": "secretariat", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "Q7842422", "label": "Trinidad and Tobago Police Service", "type": "police", "source": "mcp", "country_qid": "Q754", "n_people": 2}
-{"id": "colkg:St_Kitts_Nevis_Anguilla_Treasury", "label": "St. Kitts-Nevis-Anguilla Treasury", "type": "treasury", "source": "resolved_colony", "country_qid": "Q763", "n_people": 2}
+{"id": "colkg:Saint_Kitts_and_Nevis_Treasury", "label": "Saint Kitts and Nevis Treasury", "type": "treasury", "source": "resolved_colony", "country_qid": "Q1637975", "n_people": 2}
 {"id": "colkg:Houssa_constabulary", "label": "Houssa constabulary", "type": "police", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "colkg:Kowloon_Canton_railway", "label": "Kowloon Canton railway", "type": "railway", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "colkg:colonial_office_at_the_Cape_of_Good_Hope", "label": "colonial office at the Cape of Good Hope", "type": "colonial_office", "source": "internal", "country_qid": null, "n_people": 2}
@@ -335,7 +335,7 @@
 {"id": "colkg:Ceylon_government_railway", "label": "Ceylon government railway", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:E_African_medical_service", "label": "E. African medical service", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:h_protectorate_police", "label": "h. protectorate police", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
-{"id": "colkg:Burma_Separate_Marine_Department", "label": "Burma (Separate ) Marine Department", "type": "marine", "source": "resolved_colony", "country_qid": "Q2376315", "n_people": 1}
+{"id": "colkg:Burma_Marine_Department", "label": "Burma Marine Department", "type": "marine", "source": "resolved_colony", "country_qid": "Q2376315", "n_people": 1}
 {"id": "colkg:Imp_Mily_railways", "label": "Imp. Mily. railways", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:refugees_aid_department", "label": "refugees' aid department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:C_S_A_railways", "label": "C.S.A. railways", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
@@ -657,7 +657,6 @@
 {"id": "colkg:posts_and_tels_Nigeria", "label": "posts and tels., Nigeria", "type": "posts_telegraphs", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Cyrenaica_police", "label": "Cyrenaica police", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Zanzibar_Secretariat", "label": "Zanzibar Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q3574782", "n_people": 1}
-{"id": "colkg:Zanzibar_Independent_Secretariat", "label": "Zanzibar (Independent) Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q924", "n_people": 1}
 {"id": "colkg:Transjordan_Secretariat", "label": "Transjordan Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q1121819", "n_people": 1}
 {"id": "colkg:Dominion_police", "label": "Dominion police", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Togoland_Mily_railway", "label": "Togoland Mily. railway", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}

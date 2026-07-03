@@ -8,8 +8,8 @@
 {"person_id": "kgp_col1963-p251b3", "award_raw": "O.B.E.", "year": 1960, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1951-p473b10", "award_raw": "O.B.E.", "year": 1933, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1951-p473b10", "award_raw": "Kt. of O. St. J.", "year": 1941, "modifiers": [], "honour_id": "colkg:kt_of_o_st_j", "honour_label": "kt of o st j", "source": "internal"}
-{"person_id": "kgp_col1958-p273b4", "award_raw": "C.M.G.", "year": 1956, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1958-p273b4", "award_raw": "C.B.E.", "year": 1949, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "mcp"}
+{"person_id": "kgp_col1940-p863b15", "award_raw": "C.M.G.", "year": 1956, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
+{"person_id": "kgp_col1940-p863b15", "award_raw": "C.B.E.", "year": 1949, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1965-p201b3", "award_raw": "O.B.E.", "year": 1957, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1964-p215b4", "award_raw": "O.B.E.", "year": 1962, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1894-p437b9", "award_raw": "KT., BART.", "year": 1892, "modifiers": [], "honour_id": "colkg:kt_bart", "honour_label": "kt , bart", "source": "internal"}
@@ -1130,7 +1130,7 @@
 {"person_id": "kgp_col1939-p939b3", "award_raw": "P.C.", "year": 1926, "modifiers": [], "honour_id": "Q28841847", "honour_label": "Member of the Privy Council of the United Kingdom", "source": "mcp"}
 {"person_id": "kgp_col1939-p939b3", "award_raw": "G.C.M.G.", "year": 1930, "modifiers": [], "honour_id": "Q12177423", "honour_label": "Knight Grand Cross of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1939-p939b3", "award_raw": "K.B.E.", "year": 1917, "modifiers": [], "honour_id": "Q12201445", "honour_label": "Knight Commander of the Order of the British Empire", "source": "mcp"}
-{"person_id": "kgp_col1957-p299b3", "award_raw": "C.M.G.", "year": 1955, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
+{"person_id": "kgp_col1939-p939b4", "award_raw": "C.M.G.", "year": 1955, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1930-p918b5", "award_raw": "I.S.O.", "year": 1928, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "mcp"}
 {"person_id": "kgp_col1930-p918b5", "award_raw": "M.V.O.", "year": 1920, "modifiers": [], "honour_id": "colkg:mvo", "honour_label": "Member of the Royal Victorian Order", "source": "internal"}
 {"person_id": "kgp_col1886-p410b16", "award_raw": "C.M.G.", "year": 1874, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
@@ -1442,7 +1442,7 @@
 {"person_id": "kgp_col1927-p867b9", "award_raw": "K.C.M.G.", "year": 1919, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1927-p867b9", "award_raw": "C.B.", "year": 1918, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "mcp"}
 {"person_id": "kgp_col1927-p867b9", "award_raw": "D.S.O.", "year": 1904, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "mcp"}
-{"person_id": "kgp_col1964-p236b2", "award_raw": "M.B.E.", "year": 1959, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "mcp"}
+{"person_id": "kgp_col1966-p210b2", "award_raw": "M.B.E.", "year": 1959, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1940-p887b12", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "mcp"}
 {"person_id": "kgp_col1964-p236b4", "award_raw": "O.B.E.", "year": 1959, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1897-p541b4", "award_raw": "G.C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177423", "honour_label": "Knight Grand Cross of the Order of St Michael and St George", "source": "mcp"}
@@ -1932,8 +1932,8 @@
 {"person_id": "kgp_col1963-p281b11", "award_raw": "O.B.E.", "year": 1962, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1950-p473b18", "award_raw": "C.M.G.", "year": 1950, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1950-p473b18", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
-{"person_id": "kgp_col1957-p309b23", "award_raw": "Knight Bachelor", "year": 1954, "modifiers": [], "honour_id": "Q833163", "honour_label": "Knight Bachelor", "source": "mcp"}
-{"person_id": "kgp_col1957-p309b23", "award_raw": "Knight of the Sovereign military Order of Malta", "year": 1952, "modifiers": [], "honour_id": "colkg:knight_of_the_sovereign_military_order_of_malta", "honour_label": "knight of the sovereign military order of malta", "source": "internal"}
+{"person_id": "kgp_dol1935-p853b3", "award_raw": "Knight Bachelor", "year": 1954, "modifiers": [], "honour_id": "Q833163", "honour_label": "Knight Bachelor", "source": "mcp"}
+{"person_id": "kgp_dol1935-p853b3", "award_raw": "Knight of the Sovereign military Order of Malta", "year": 1952, "modifiers": [], "honour_id": "colkg:knight_of_the_sovereign_military_order_of_malta", "honour_label": "knight of the sovereign military order of malta", "source": "internal"}
 {"person_id": "kgp_col1948-p428b11", "award_raw": "O.B.E.", "year": 1947, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1888-p449b6", "award_raw": "K.C.M.G.", "year": 1879, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1915-p673b10", "award_raw": "I.S.O.", "year": 1914, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "mcp"}
@@ -2495,13 +2495,10 @@
 {"person_id": "kgp_col1924-p817b15", "award_raw": "K.C.M.G.", "year": 1918, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1924-p817b15", "award_raw": "Knight Bachelor", "year": 1914, "modifiers": [], "honour_id": "Q833163", "honour_label": "Knight Bachelor", "source": "mcp"}
 {"person_id": "kgp_col1924-p817b15", "award_raw": "I.S.O.", "year": 1903, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "mcp"}
-{"person_id": "kgp_col1965-p228b22", "award_raw": "K.C.M.G.", "year": 1952, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1965-p228b22", "award_raw": "K.C.V.O.", "year": 1954, "modifiers": [], "honour_id": "colkg:kcvo", "honour_label": "kcvo", "source": "internal"}
-{"person_id": "kgp_col1965-p228b22", "award_raw": "C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1965-p228b22", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
-{"person_id": "kgp_col1965-p228b22", "award_raw": "K.C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1948-p434b18", "award_raw": "C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1948-p434b18", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
+{"person_id": "kgp_col1948-p434b18", "award_raw": "K.C.M.G.", "year": 1952, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
+{"person_id": "kgp_col1948-p434b18", "award_raw": "K.C.V.O.", "year": 1954, "modifiers": [], "honour_id": "colkg:kcvo", "honour_label": "kcvo", "source": "internal"}
 {"person_id": "kgp_col1948-p434b18", "award_raw": "K.C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1937-p882b7", "award_raw": "M.B.E.", "year": 1924, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1937-p882b7", "award_raw": "I.S.O.", "year": 1936, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "mcp"}
@@ -2966,6 +2963,8 @@
 {"person_id": "kgp_dol1935-p868b18", "award_raw": "A.C.P.", "year": null, "modifiers": [], "honour_id": "colkg:acp", "honour_label": "acp", "source": "internal"}
 {"person_id": "kgp_col1940-p912b8", "award_raw": "medal and five clasps", "year": null, "modifiers": [], "honour_id": "colkg:medal_and_five", "honour_label": "medal and five", "source": "internal"}
 {"person_id": "kgp_col1950-p486b8", "award_raw": "P.C.", "year": 1940, "modifiers": [], "honour_id": "Q28841847", "honour_label": "Member of the Privy Council of the United Kingdom", "source": "mcp"}
+{"person_id": "kgp_col1965-p228b22", "award_raw": "K.C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
+{"person_id": "kgp_col1965-p228b22", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1953-p11b4_s12", "award_raw": "K.C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1948-p397b58", "award_raw": "M.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1912-p658b18", "award_raw": "I.S.O.", "year": 1910, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "mcp"}
@@ -4435,8 +4434,6 @@
 {"person_id": "kgp_col1883-p387b3", "award_raw": "G.C.B.", "year": null, "modifiers": [], "honour_id": "Q12177451", "honour_label": "Knight Grand Cross of the Order of the Bath", "source": "mcp"}
 {"person_id": "kgp_col1883-p387b3", "award_raw": "C.M.G.", "year": 1874, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1883-p387b3", "award_raw": "C.B.", "year": null, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "mcp"}
-{"person_id": "kgp_col1918-p742b6", "award_raw": "G.C.B.", "year": null, "modifiers": [], "honour_id": "Q12177451", "honour_label": "Knight Grand Cross of the Order of the Bath", "source": "mcp"}
-{"person_id": "kgp_col1918-p742b6", "award_raw": "C.M.G.", "year": 1874, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1928-p1055b17", "award_raw": "C.M.G.", "year": 1927, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1928-p1055b17", "award_raw": "M.B.E.", "year": 1918, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1928-p1055b17", "award_raw": "Distinguished Conduct Medal", "year": null, "modifiers": [], "honour_id": "colkg:distinguished_conduct_medal", "honour_label": "distinguished conduct medal", "source": "internal"}
@@ -4534,7 +4531,7 @@
 {"person_id": "kgp_col1908-p649b19", "award_raw": "C.M.G.", "year": 1883, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1908-p649b19", "award_raw": "K.C.M.G.", "year": 1888, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1905-p646b22", "award_raw": "K.C.M.G.", "year": 1889, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1966-p240b10", "award_raw": "C.M.G.", "year": 1953, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
+{"person_id": "kgp_col1948-p457b7", "award_raw": "C.M.G.", "year": 1953, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1888-p476b13", "award_raw": "G.C.M.G.", "year": 1878, "modifiers": [], "honour_id": "Q12177423", "honour_label": "Knight Grand Cross of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1888-p476b13", "award_raw": "K.C.M.G.", "year": 1869, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1896-p584b21", "award_raw": "Knight Bachelor", "year": 1888, "modifiers": [], "honour_id": "Q833163", "honour_label": "Knight Bachelor", "source": "mcp"}
@@ -5232,10 +5229,6 @@
 {"person_id": "kgp_col1939-p1008b6", "award_raw": "K.C.B.", "year": 1910, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "mcp"}
 {"person_id": "kgp_col1939-p1008b6", "award_raw": "K.C.M.G.", "year": 1923, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1939-p1008b6", "award_raw": "C.B.", "year": 1905, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "mcp"}
-{"person_id": "kgp_col1948-p465b15", "award_raw": "G.C.M.G.", "year": 1927, "modifiers": [], "honour_id": "Q12177423", "honour_label": "Knight Grand Cross of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1948-p465b15", "award_raw": "K.C.B.", "year": 1910, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "mcp"}
-{"person_id": "kgp_col1948-p465b15", "award_raw": "K.C.M.G.", "year": 1923, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1948-p465b15", "award_raw": "C.B.", "year": 1905, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "mcp"}
 {"person_id": "kgp_col1913-p699b13", "award_raw": "Knight Bachelor", "year": 1911, "modifiers": [], "honour_id": "Q833163", "honour_label": "Knight Bachelor", "source": "mcp"}
 {"person_id": "kgp_col1958-p346b13", "award_raw": "M.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1940-p947b12", "award_raw": "K.C.M.G.", "year": 1933, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
@@ -5454,8 +5447,8 @@
 {"person_id": "kgp_col1957-p356b10", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "mcp"}
 {"person_id": "kgp_col1963-p335b12", "award_raw": "C.M.G.", "year": 1958, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1949-p479b8", "award_raw": "D.T.M. & H.", "year": null, "modifiers": [], "honour_id": "colkg:dtm_h", "honour_label": "dtm&h", "source": "internal"}
-{"person_id": "kgp_col1960-p370b24", "award_raw": "C.B.E.", "year": 1959, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "mcp"}
-{"person_id": "kgp_col1960-p370b24", "award_raw": "K.St.J.", "year": 1953, "modifiers": [], "honour_id": "colkg:k_st_j", "honour_label": "k st j", "source": "internal"}
+{"person_id": "kgp_col1939-p1011b16", "award_raw": "C.B.E.", "year": 1959, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "mcp"}
+{"person_id": "kgp_col1939-p1011b16", "award_raw": "K.St.J.", "year": 1953, "modifiers": [], "honour_id": "colkg:k_st_j", "honour_label": "k st j", "source": "internal"}
 {"person_id": "kgp_col1890-p495b19", "award_raw": "K.C.B.", "year": 1886, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "mcp"}
 {"person_id": "kgp_col1890-p495b19", "award_raw": "C.B.", "year": 1857, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "mcp"}
 {"person_id": "kgp_col1890-p495b19", "award_raw": "C.I.E.", "year": 1886, "modifiers": [], "honour_id": "colkg:cie", "honour_label": "cie", "source": "internal"}
@@ -5680,9 +5673,9 @@
 {"person_id": "kgp_col1937-p931b20_s1", "award_raw": "Q.C.", "year": null, "modifiers": [], "honour_id": "Q1533366", "honour_label": "King's Counsel", "source": "reuse"}
 {"person_id": "kgp_col1919-p787b10", "award_raw": "O.B.E.", "year": 1918, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1932-p950b8", "award_raw": "K.C.M.G.", "year": 1917, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1964-p295b6", "award_raw": "C.M.G.", "year": 1963, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1964-p295b6", "award_raw": "Q.P.M.", "year": 1957, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "reuse"}
-{"person_id": "kgp_col1964-p295b6", "award_raw": "C.P.M.", "year": null, "modifiers": [], "honour_id": "Q3195318", "honour_label": "Colonial Police Medal", "source": "mcp"}
+{"person_id": "kgp_col1937-p931b20_s5", "award_raw": "C.M.G.", "year": 1963, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
+{"person_id": "kgp_col1937-p931b20_s5", "award_raw": "Q.P.M.", "year": 1957, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "reuse"}
+{"person_id": "kgp_col1937-p931b20_s5", "award_raw": "C.P.M.", "year": null, "modifiers": [], "honour_id": "Q3195318", "honour_label": "Colonial Police Medal", "source": "mcp"}
 {"person_id": "kgp_col1932-p950b10", "award_raw": "M.B.E.", "year": 1930, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1951-p562b13", "award_raw": "O.B.E.", "year": 1951, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1940-p955b10", "award_raw": "M.G.", "year": 1928, "modifiers": [], "honour_id": "colkg:mg", "honour_label": "mg", "source": "internal"}
@@ -5694,8 +5687,8 @@
 {"person_id": "kgp_col1962-p357b3", "award_raw": "C.B.E.", "year": 1962, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1930-p993b15", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1937-p932b4", "award_raw": "C.B.E.", "year": 1937, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "mcp"}
-{"person_id": "kgp_col1966-p251b5", "award_raw": "C.M.G.", "year": 1966, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1948-p471b9", "award_raw": "M.I.D.", "year": null, "modifiers": [], "honour_id": "colkg:mid", "honour_label": "mid", "source": "internal"}
+{"person_id": "kgp_col1948-p471b9", "award_raw": "C.M.G.", "year": 1966, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1883-p398b13", "award_raw": "C.M.G.", "year": 1884, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1961-p361b2", "award_raw": "O.B.E.", "year": 1961, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1877-p381b10", "award_raw": "C.M.G.", "year": 1874, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
@@ -5718,7 +5711,7 @@
 {"person_id": "kgp_col1966-p251b8", "award_raw": "O.B.E.", "year": 1965, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1940-p955b21", "award_raw": "M.C.", "year": 1917, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "mcp"}
 {"person_id": "kgp_col1940-p955b21", "award_raw": "M.M.", "year": 1915, "modifiers": [], "honour_id": "colkg:mm", "honour_label": "mm", "source": "internal"}
-{"person_id": "kgp_col1957-p360b10", "award_raw": "Q.C.", "year": null, "modifiers": [], "honour_id": "Q1533366", "honour_label": "King's Counsel", "source": "reuse"}
+{"person_id": "kgp_col1940-p955b22", "award_raw": "Q.C.", "year": null, "modifiers": [], "honour_id": "Q1533366", "honour_label": "King's Counsel", "source": "reuse"}
 {"person_id": "kgp_col1939-p1012b15", "award_raw": "officer, Order St. John of Jerusalem", "year": null, "modifiers": [], "honour_id": "colkg:officer_order_st_john_of_jerusalem", "honour_label": "officer, order st john of jerusalem", "source": "internal"}
 {"person_id": "kgp_col1937-p932b12", "award_raw": "A.O.S.M.", "year": null, "modifiers": [], "honour_id": "colkg:aosm", "honour_label": "aosm", "source": "internal"}
 {"person_id": "kgp_col1937-p932b12", "award_raw": "F.R.S.N.Z.", "year": null, "modifiers": [], "honour_id": "colkg:frsnz", "honour_label": "frsnz", "source": "internal"}
@@ -7455,8 +7448,8 @@
 {"person_id": "kgp_col1896-p611b6", "award_raw": "coronation medal", "year": 1902, "modifiers": [], "honour_id": "colkg:coronation_medal", "honour_label": "coronation medal", "source": "internal"}
 {"person_id": "kgp_col1966-p269b13", "award_raw": "O.B.E.", "year": 1965, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1961-p390b14", "award_raw": "C.B.E.", "year": 1958, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "mcp"}
-{"person_id": "kgp_col1965-p286b19", "award_raw": "C.M.G.", "year": 1955, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1965-p286b19", "award_raw": "O.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
+{"person_id": "kgp_col1933-p944b12", "award_raw": "C.M.G.", "year": 1955, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
+{"person_id": "kgp_col1933-p944b12", "award_raw": "O.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1929-p987b16", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1954-p313b16", "award_raw": "C.B.E.", "year": 1948, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1954-p313b16", "award_raw": "O.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
@@ -13683,10 +13676,9 @@
 {"person_id": "kgp_col1963-p463b2", "award_raw": "M.B.E.", "year": 1963, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "mcp"}
 {"person_id": "kgp_col1949-p583b19", "award_raw": "C.M.G.", "year": 1947, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1949-p583b19", "award_raw": "O.B.E.", "year": 1943, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "mcp"}
-{"person_id": "kgp_col1905-p730b6", "award_raw": "I.S.O.", "year": 1903, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "mcp"}
+{"person_id": "kgp_col1917-p888b6", "award_raw": "I.S.O.", "year": 1903, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "mcp"}
 {"person_id": "kgp_col1917-p888b6", "award_raw": "K.C.M.G.", "year": 1912, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1917-p888b6", "award_raw": "C.M.G.", "year": 1907, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "mcp"}
-{"person_id": "kgp_col1917-p888b6", "award_raw": "I.S.O.", "year": 1903, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "mcp"}
 {"person_id": "kgp_col1897-p580b5", "award_raw": "G.C.B.", "year": 1880, "modifiers": [], "honour_id": "Q12177451", "honour_label": "Knight Grand Cross of the Order of the Bath", "source": "mcp"}
 {"person_id": "kgp_col1897-p580b5", "award_raw": "K.C.M.G.", "year": 1870, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "mcp"}
 {"person_id": "kgp_col1897-p580b5", "award_raw": "G.C.M.G.", "year": 1874, "modifiers": [], "honour_id": "Q12177423", "honour_label": "Knight Grand Cross of the Order of St Michael and St George", "source": "mcp"}

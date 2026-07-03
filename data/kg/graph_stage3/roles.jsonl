@@ -1,32 +1,32 @@
-{"id": "colkg:military_service", "label": "military service", "category": "military", "source": "internal", "n_people": 5503}
-{"id": "Q738142", "label": "clerk", "category": "police", "source": "reuse", "n_people": 4392}
-{"id": "colkg:cadet", "label": "cadet", "category": "administrative", "source": "internal", "n_people": 2035}
+{"id": "colkg:military_service", "label": "military service", "category": "military", "source": "internal", "n_people": 5501}
+{"id": "Q738142", "label": "clerk", "category": "police", "source": "reuse", "n_people": 4391}
+{"id": "colkg:cadet", "label": "cadet", "category": "administrative", "source": "internal", "n_people": 2032}
 {"id": "Q1162163", "label": "director", "category": "other", "source": "mcp", "n_people": 1825}
-{"id": "Q27214348", "label": "inspector", "category": "police", "source": "reuse", "n_people": 1804}
-{"id": "Q4594605", "label": "magistrate", "category": "judicial", "source": "reuse", "n_people": 1643}
+{"id": "Q27214348", "label": "inspector", "category": "police", "source": "reuse", "n_people": 1803}
+{"id": "Q4594605", "label": "magistrate", "category": "judicial", "source": "reuse", "n_people": 1640}
 {"id": "Q81096", "label": "engineer", "category": "technical", "source": "reuse", "n_people": 1515}
 {"id": "Q186024", "label": "lieutenant", "category": "military", "source": "mcp", "n_people": 1414}
-{"id": "Q11129049", "label": "district officer", "category": "administrative", "source": "mcp", "n_people": 1363, "merged_from": ["colkg:and_district_officer", "colkg:district_for_officer"]}
-{"id": "Q83307", "label": "minister", "category": "other", "source": "reuse", "n_people": 1325}
+{"id": "Q11129049", "label": "district officer", "category": "administrative", "source": "mcp", "n_people": 1362, "merged_from": ["colkg:and_district_officer", "colkg:district_for_officer"]}
+{"id": "Q83307", "label": "minister", "category": "other", "source": "reuse", "n_people": 1324}
 {"id": "colkg:medical_officer", "label": "medical officer", "category": "medical", "source": "internal", "n_people": 1262}
 {"id": "Q6104047", "label": "registrar", "category": "judicial", "source": "reuse", "n_people": 1233}
 {"id": "Q19100", "label": "captain", "category": "military", "source": "mcp", "n_people": 1174}
 {"id": "colkg:district_commissioner", "label": "district commissioner", "category": "administrative", "source": "internal", "n_people": 1171, "merged_from": ["colkg:to_district_commissioner"]}
-{"id": "Q80687", "label": "secretary", "category": "administrative", "source": "mcp", "n_people": 1151, "merged_from": ["colkg:secretary_for"]}
+{"id": "Q80687", "label": "secretary", "category": "administrative", "source": "mcp", "n_people": 1148, "merged_from": ["colkg:secretary_for"]}
 {"id": "colkg:administration_officer", "label": "administration officer", "category": "administrative", "source": "internal", "n_people": 1000}
-{"id": "Q16533", "label": "judge", "category": "judicial", "source": "mcp", "n_people": 996}
+{"id": "Q16533", "label": "judge", "category": "judicial", "source": "mcp", "n_people": 995}
 {"id": "colkg:superintendent", "label": "superintendent", "category": "other", "source": "internal", "n_people": 971, "merged_from": ["colkg:to_superintendent"]}
 {"id": "Q524778", "label": "commissioner", "category": "administrative", "source": "mcp", "n_people": 965, "merged_from": ["colkg:to_commissioner"]}
 {"id": "Q3929433", "label": "accountant", "category": "other", "source": "reuse", "n_people": 945}
 {"id": "Q294126", "label": "surveyor", "category": "technical", "source": "reuse", "n_people": 915}
 {"id": "colkg:colonial_secretary", "label": "colonial secretary", "category": "administrative", "source": "reuse", "n_people": 886}
-{"id": "Q140686", "label": "chairperson", "category": "other", "source": "reuse", "n_people": 814}
-{"id": "Q1501926", "label": "attorney general", "category": "judicial", "source": "mcp", "n_people": 809}
+{"id": "Q140686", "label": "chairperson", "category": "other", "source": "reuse", "n_people": 813}
 {"id": "Q388338", "label": "treasurer", "category": "financial", "source": "reuse", "n_people": 807}
-{"id": "Q131408743", "label": "private secretary", "category": "administrative", "source": "reuse", "n_people": 772, "merged_from": ["colkg:private_secretary"]}
+{"id": "Q1501926", "label": "attorney general", "category": "judicial", "source": "mcp", "n_people": 807}
+{"id": "Q131408743", "label": "private secretary", "category": "administrative", "source": "reuse", "n_people": 771, "merged_from": ["colkg:private_secretary"]}
 {"id": "Q673633", "label": "comptroller", "category": "other", "source": "reuse", "n_people": 692, "merged_from": ["colkg:comptroller"]}
 {"id": "Q132050", "label": "governor", "category": "administrative", "source": "reuse", "n_people": 690, "merged_from": ["colkg:to_governor", "colkg:to_the_governor"]}
-{"id": "Q247797", "label": "customs officer", "category": "financial", "source": "reuse", "n_people": 676}
+{"id": "Q247797", "label": "customs officer", "category": "financial", "source": "reuse", "n_people": 674}
 {"id": "Q3188089", "label": "chief justice", "category": "judicial", "source": "mcp", "n_people": 648}
 {"id": "colkg:puisne_judge", "label": "puisne judge", "category": "judicial", "source": "internal", "n_people": 633}
 {"id": "colkg:education_officer", "label": "education officer", "category": "education", "source": "internal", "n_people": 625}
@@ -44,7 +44,7 @@
 {"id": "colkg:resident_magistrate", "label": "resident magistrate", "category": "judicial", "source": "internal", "n_people": 426}
 {"id": "Q1958649", "label": "school inspector", "category": "administrative", "source": "reuse", "n_people": 411}
 {"id": "colkg:resident", "label": "resident", "category": "administrative", "source": "internal", "n_people": 398, "merged_from": ["colkg:for_resident"]}
-{"id": "Q7557772", "label": "solicitor general", "category": "judicial", "source": "mcp", "n_people": 380}
+{"id": "Q7557772", "label": "solicitor general", "category": "judicial", "source": "mcp", "n_people": 379}
 {"id": "Q1416611", "label": "postmaster", "category": "other", "source": "mcp", "n_people": 379}
 {"id": "colkg:postmaster_general", "label": "postmaster general", "category": "military", "source": "internal", "n_people": 357}
 {"id": "colkg:chief_of_secretary", "label": "chief of secretary", "category": "administrative", "source": "internal", "n_people": 354, "merged_from": ["colkg:chief_secretary", "colkg:to_chief_secretary", "colkg:to_the_chief_secretary"]}
@@ -60,7 +60,7 @@
 {"id": "colkg:government_agent", "label": "government agent", "category": "administrative", "source": "internal", "n_people": 295}
 {"id": "colkg:member_of_executive_council", "label": "member of the executive council", "category": "administrative", "source": "internal", "n_people": 287, "merged_from": ["colkg:a_member_of_the_executive_council"]}
 {"id": "Q16707842", "label": "Member of Parliament", "category": "other", "source": "reuse", "n_people": 278}
-{"id": "colkg:crown_counsel", "label": "crown counsel", "category": "administrative", "source": "reuse", "n_people": 278}
+{"id": "colkg:crown_counsel", "label": "crown counsel", "category": "administrative", "source": "reuse", "n_people": 276}
 {"id": "colkg:commissioner_of_police", "label": "commissioner of police", "category": "administrative", "source": "internal", "n_people": 276}
 {"id": "colkg:director_of_agriculture", "label": "director of agriculture", "category": "other", "source": "internal", "n_people": 263}
 {"id": "Q384593", "label": "police officer", "category": "police", "source": "mcp", "n_people": 261}
@@ -122,7 +122,7 @@
 {"id": "colkg:receiver_general", "label": "receiver general", "category": "financial", "source": "internal", "n_people": 111}
 {"id": "colkg:resident_commissioner", "label": "resident commissioner", "category": "administrative", "source": "internal", "n_people": 109}
 {"id": "colkg:civil_commissioner_and_resident_magistrate", "label": "civil commissioner and resident magistrate", "category": "judicial", "source": "internal", "n_people": 108}
-{"id": "colkg:principal", "label": "principal", "category": "education", "source": "internal", "n_people": 106}
+{"id": "colkg:principal", "label": "principal", "category": "education", "source": "internal", "n_people": 105}
 {"id": "colkg:collector_of_land_revenue", "label": "collector of land revenue", "category": "financial", "source": "internal", "n_people": 104, "merged_from": ["colkg:collector_land_revenue"]}
 {"id": "colkg:member_of_house_of_assembly", "label": "member of the house of assembly", "category": "administrative", "source": "internal", "n_people": 103, "merged_from": ["colkg:member_house_of_assembly"]}
 {"id": "colkg:labour_officer", "label": "labour officer", "category": "other", "source": "internal", "n_people": 102}
@@ -177,9 +177,9 @@
 {"id": "colkg:sheriff", "label": "sheriff", "category": "other", "source": "internal", "n_people": 70}
 {"id": "Q157148", "label": "major general", "category": "military", "source": "mcp", "n_people": 70}
 {"id": "colkg:marine_officer", "label": "marine officer", "category": "other", "source": "internal", "n_people": 70}
-{"id": "colkg:under_secretary_of_state", "label": "under secretary of state", "category": "administrative", "source": "internal", "n_people": 69}
 {"id": "colkg:queens_advocate", "label": "Queen's Advocate", "category": "judicial", "source": "internal", "n_people": 69}
 {"id": "Q27349", "label": "dentist", "category": "medical", "source": "reuse", "n_people": 69, "merged_from": ["colkg:dentist"]}
+{"id": "colkg:under_secretary_of_state", "label": "under secretary of state", "category": "administrative", "source": "internal", "n_people": 68}
 {"id": "colkg:engineer_in_chief", "label": "engineer-in-chief", "category": "technical", "source": "internal", "n_people": 68}
 {"id": "colkg:administration_secretary", "label": "administration secretary", "category": "administrative", "source": "internal", "n_people": 67}
 {"id": "colkg:locomotive_superintendent", "label": "locomotive superintendent", "category": "technical", "source": "internal", "n_people": 67}
@@ -216,8 +216,8 @@
 {"id": "colkg:principal_officer", "label": "principal officer", "category": "education", "source": "internal", "n_people": 54}
 {"id": "Q3055126", "label": "entomologist", "category": "other", "source": "mcp", "n_people": 54}
 {"id": "Q2374149", "label": "botanist", "category": "other", "source": "reuse", "n_people": 54}
-{"id": "colkg:provincial_secretary", "label": "provincial secretary", "category": "administrative", "source": "internal", "n_people": 54}
 {"id": "colkg:president_of_district_court", "label": "president of district court", "category": "judicial", "source": "internal", "n_people": 53}
+{"id": "colkg:provincial_secretary", "label": "provincial secretary", "category": "administrative", "source": "internal", "n_people": 53}
 {"id": "Q493898", "label": "lieutenant colonel", "category": "military", "source": "reuse", "n_people": 52}
 {"id": "colkg:agent", "label": "agent", "category": "administrative", "source": "internal", "n_people": 51}
 {"id": "colkg:minister_of_justice", "label": "minister of justice", "category": "judicial", "source": "internal", "n_people": 51}
@@ -892,7 +892,6 @@
 {"id": "colkg:nominated_member_of_the_legislative_assembly", "label": "nominated member of the legislative assembly", "category": "other", "source": "internal", "n_people": 6, "merged_from": ["colkg:nominated_member_legislative_assembly", "colkg:nominated_member_of_legislative_assembly"]}
 {"id": "colkg:secretary_of_the_board_of_health", "label": "secretary of the board of health", "category": "administrative", "source": "internal", "n_people": 6, "merged_from": ["colkg:secretary_board_of_health", "colkg:secretary_to_board_of_health", "colkg:secretary_to_the_board_of_health"]}
 {"id": "colkg:command_of_the_troops", "label": "command of the troops", "category": "other", "source": "internal", "n_people": 6, "merged_from": ["colkg:command_of_troops", "colkg:in_command_of_the_troops", "colkg:in_command_of_troops"]}
-{"id": "colkg:hd_fin_department", "label": "hd fin department", "category": "other", "source": "internal", "n_people": 5}
 {"id": "colkg:legal_officer", "label": "legal officer", "category": "other", "source": "internal", "n_people": 5}
 {"id": "colkg:administration_secretary_medical_department", "label": "administration secretary medical department", "category": "administrative", "source": "internal", "n_people": 5}
 {"id": "colkg:man_government_savings_bank", "label": "man government savings bank", "category": "other", "source": "internal", "n_people": 5}
@@ -1144,6 +1143,7 @@
 {"id": "colkg:electoral_commissioner", "label": "electoral commissioner", "category": "administrative", "source": "internal", "n_people": 4}
 {"id": "colkg:principal_soc_welfare_officer", "label": "principal soc welfare officer", "category": "education", "source": "internal", "n_people": 4}
 {"id": "colkg:st_district_officer", "label": "st district officer", "category": "administrative", "source": "internal", "n_people": 4}
+{"id": "colkg:hd_fin_department", "label": "hd fin department", "category": "other", "source": "internal", "n_people": 4}
 {"id": "colkg:demarcation_officer", "label": "demarcation officer", "category": "other", "source": "internal", "n_people": 4}
 {"id": "colkg:provincial_member_legislative_council", "label": "provincial member legislative council", "category": "administrative", "source": "internal", "n_people": 4}
 {"id": "colkg:ps_to_oag", "label": "ps to oag", "category": "other", "source": "internal", "n_people": 4}
@@ -1933,7 +1933,6 @@
 {"id": "colkg:justice_of_the_peace_and_commissioner_of_the_court_of_requests", "label": "justice of the peace and commissioner of the court of requests", "category": "judicial", "source": "internal", "n_people": 3}
 {"id": "colkg:mcs_class_v", "label": "mcs class v", "category": "other", "source": "internal", "n_people": 3}
 {"id": "colkg:imperial_postal_service", "label": "imperial postal service", "category": "other", "source": "internal", "n_people": 3}
-{"id": "colkg:medical_resident_council_junior_fellow_in_tm", "label": "medical resident council junior fellow in tm", "category": "administrative", "source": "internal", "n_people": 3}
 {"id": "colkg:br_constable", "label": "br constable", "category": "police", "source": "internal", "n_people": 3}
 {"id": "colkg:adjt_fms_police", "label": "adjt fms police", "category": "police", "source": "internal", "n_people": 3}
 {"id": "colkg:par_us_of_s_cols", "label": "par us of s cols", "category": "other", "source": "internal", "n_people": 3}
@@ -2917,7 +2916,6 @@
 {"id": "colkg:dpw_ss", "label": "dpw ss", "category": "other", "source": "internal", "n_people": 2}
 {"id": "colkg:superintendent_do", "label": "superintendent do", "category": "other", "source": "internal", "n_people": 2}
 {"id": "colkg:agent_general_for_ns_wales", "label": "agent general for ns wales", "category": "military", "source": "internal", "n_people": 2}
-{"id": "colkg:principal_inland_rev", "label": "principal inland rev", "category": "education", "source": "internal", "n_people": 2}
 {"id": "colkg:permanent_uk_rep_on_trusteeship_council_un", "label": "permanent uk rep on trusteeship council un", "category": "administrative", "source": "internal", "n_people": 2}
 {"id": "colkg:superintendent_sarawak_constabulary", "label": "superintendent sarawak constabulary", "category": "police", "source": "internal", "n_people": 2}
 {"id": "colkg:government_and_c_in_c", "label": "government and c in c", "category": "other", "source": "internal", "n_people": 2}
@@ -3487,7 +3485,6 @@
 {"id": "colkg:master_at_grammar_school", "label": "master at grammar school", "category": "other", "source": "internal", "n_people": 2}
 {"id": "colkg:commissioner_mines_and_geol", "label": "commissioner mines and geol", "category": "administrative", "source": "internal", "n_people": 2}
 {"id": "colkg:vet_investn_officer", "label": "vet investn officer", "category": "other", "source": "internal", "n_people": 2}
-{"id": "colkg:governor_s_sttlmts", "label": "governor s sttlmts", "category": "administrative", "source": "internal", "n_people": 2}
 {"id": "colkg:mhr_cwealth_of_australia", "label": "mhr cwealth of australia", "category": "other", "source": "internal", "n_people": 2}
 {"id": "colkg:comptlr", "label": "comptlr", "category": "other", "source": "internal", "n_people": 2}
 {"id": "colkg:legislative_co_reporter", "label": "legislative co reporter", "category": "other", "source": "internal", "n_people": 2}
@@ -3500,6 +3497,7 @@
 {"id": "colkg:parly_under_secretary_ho", "label": "parly under secretary ho", "category": "administrative", "source": "internal", "n_people": 2}
 {"id": "colkg:nd_assistant_government_analyst", "label": "nd assistant government analyst", "category": "other", "source": "internal", "n_people": 2}
 {"id": "colkg:inspector_general_and_sheriff", "label": "inspector general and sheriff", "category": "police", "source": "internal", "n_people": 2}
+{"id": "colkg:medical_resident_council_junior_fellow_in_tm", "label": "medical resident council junior fellow in tm", "category": "administrative", "source": "internal", "n_people": 2}
 {"id": "colkg:in_charge_yellow_fever_field_station", "label": "in charge yellow fever field station", "category": "other", "source": "internal", "n_people": 2}
 {"id": "colkg:retrenched", "label": "retrenched", "category": "other", "source": "internal", "n_people": 2}
 {"id": "colkg:cid", "label": "cid", "category": "other", "source": "internal", "n_people": 2}
@@ -4672,8 +4670,8 @@
 {"id": "colkg:n_nig_government_service", "label": "n nig government service", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:zambia_government_service", "label": "zambia government service", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:principal_officer_secrt", "label": "principal officer secrt", "category": "education", "source": "internal", "n_people": 1}
-{"id": "colkg:supnmy_secretary", "label": "supnmy secretary", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:compiler_of_summary_conviction_ordinances_of_the_colonial", "label": "compiler of summary conviction ordinances of the colonial", "category": "administrative", "source": "internal", "n_people": 1}
+{"id": "colkg:supnmy_secretary", "label": "supnmy secretary", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:secretary_to_commission_on_the_public_service", "label": "secretary to commission on the public service", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:i_c_local_government_wing_inst_of_administration", "label": "i c local government wing inst of administration", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:land_officer_and_drm", "label": "land officer and drm", "category": "other", "source": "internal", "n_people": 1}
@@ -9656,8 +9654,9 @@
 {"id": "colkg:president_of_the_confec_of_australian_statisticians_to_determine_the_population_of_the_colonies_and_to_arrange_for_a_uniform_census_of_australasia", "label": "president of the confec of australian statisticians to determine the population of the colonies and to arrange for a uniform census of australasia", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:agent_general_for_ns_wales_in_london", "label": "agent general for ns wales in london", "category": "military", "source": "internal", "n_people": 1}
 {"id": "colkg:member_of_committee_for_estmt_of_ex_service_men_within_the_empire", "label": "member of committee for estmt of ex service men within the empire", "category": "other", "source": "internal", "n_people": 1}
-{"id": "colkg:permanent_secretary_odm", "label": "permanent secretary odm", "category": "administrative", "source": "internal", "n_people": 1}
+{"id": "colkg:principal_inland_rev", "label": "principal inland rev", "category": "education", "source": "internal", "n_people": 1}
 {"id": "colkg:superintendent_assistant_secretary", "label": "superintendent assistant secretary", "category": "administrative", "source": "internal", "n_people": 1}
+{"id": "colkg:permanent_secretary_odm", "label": "permanent secretary odm", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:high_commissioner_for_uk_in_pakistan", "label": "high commissioner for uk in pakistan", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:nat_savings_committee", "label": "nat savings committee", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:officer_of_agent_general", "label": "officer of agent general", "category": "military", "source": "internal", "n_people": 1}
@@ -15170,6 +15169,7 @@
 {"id": "colkg:reverser_registrn_dues", "label": "reverser registrn dues", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:passed_nd_grade_secwana_examination", "label": "passed nd grade secwana examination", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:department_superintendent", "label": "department superintendent", "category": "other", "source": "internal", "n_people": 1}
+{"id": "colkg:governor_s_sttlmts", "label": "governor s sttlmts", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:secon_principal_assistant_secretary", "label": "secon principal assistant secretary", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:ottawa_confce", "label": "ottawa confce", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:secretary_rida", "label": "secretary rida", "category": "administrative", "source": "internal", "n_people": 1}
@@ -15592,10 +15592,10 @@
 {"id": "colkg:chief_commandant_burgher_forces", "label": "chief commandant burgher forces", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:sent_on_special_mission_to_emigrant_boers", "label": "sent on special mission to emigrant boers", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:on_special_duty_to_the_amaponda_chief_faku", "label": "on special duty to the amaponda chief faku", "category": "other", "source": "internal", "n_people": 1}
-{"id": "colkg:legal_advr_hm_forces", "label": "legal advr hm forces", "category": "other", "source": "internal", "n_people": 1}
-{"id": "colkg:statute_law_rev_commission", "label": "statute law rev commission", "category": "judicial", "source": "internal", "n_people": 1}
 {"id": "colkg:messenger_to_emigrn_commission", "label": "messenger to emigrn commission", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:queens_messenger", "label": "queens messenger", "category": "other", "source": "internal", "n_people": 1}
+{"id": "colkg:legal_advr_hm_forces", "label": "legal advr hm forces", "category": "other", "source": "internal", "n_people": 1}
+{"id": "colkg:statute_law_rev_commission", "label": "statute law rev commission", "category": "judicial", "source": "internal", "n_people": 1}
 {"id": "colkg:secretary_civil_def_department", "label": "secretary civil def department", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:retired_from_ics", "label": "retired from ics", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:in_charge_of_collegiate_church_of_st_paul_valletta_and_holy_trinity", "label": "in charge of collegiate church of st paul valletta and holy trinity", "category": "other", "source": "internal", "n_people": 1}
@@ -16095,8 +16095,8 @@
 {"id": "colkg:secon_vice_principal", "label": "secon vice principal", "category": "education", "source": "internal", "n_people": 1}
 {"id": "colkg:union_government_vety_service", "label": "union government vety service", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:seconded_to_nyasaland", "label": "seconded to nyasaland", "category": "other", "source": "internal", "n_people": 1}
-{"id": "colkg:served_in_great_war_with_rfa", "label": "served in great war with rfa", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:legislative_dtfsman", "label": "legislative dtfsman", "category": "other", "source": "internal", "n_people": 1}
+{"id": "colkg:served_in_great_war_with_rfa", "label": "served in great war with rfa", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:shorthand_reporter_of_debates_legislative_council", "label": "shorthand reporter of debates legislative council", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:sany_officer_eef_dadms", "label": "sany officer eef dadms", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:commissioner_to_inquire_into_the_finances_of_the_transvaal", "label": "commissioner to inquire into the finances of the transvaal", "category": "administrative", "source": "internal", "n_people": 1}
@@ -19638,8 +19638,8 @@
 {"id": "colkg:queens_college", "label": "queens college", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:redesign_chief_education_officer", "label": "redesign chief education officer", "category": "education", "source": "internal", "n_people": 1}
 {"id": "colkg:served_in_eamr_and_nd_kar", "label": "served in eamr and nd kar", "category": "other", "source": "internal", "n_people": 1}
-{"id": "colkg:resident_student_in_trop_medical", "label": "resident student in trop medical", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:resch_student", "label": "resch student", "category": "other", "source": "internal", "n_people": 1}
+{"id": "colkg:resident_student_in_trop_medical", "label": "resident student in trop medical", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:pathologist_i", "label": "pathologist i", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:passed_od_greek", "label": "passed od greek", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:commission_in_r_engnrs", "label": "commission in r engnrs", "category": "other", "source": "internal", "n_people": 1}
@@ -31509,13 +31509,12 @@
 {"id": "colkg:high_commissioner_in_egypt", "label": "high commissioner in egypt", "category": "administrative", "source": "internal", "n_people": 1}
 {"id": "colkg:charge_daffaires", "label": "charge daffaires", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:liquidator_of_enemy_property", "label": "liquidator of enemy property", "category": "other", "source": "internal", "n_people": 1}
-{"id": "colkg:appointed_to_department_of_trade_and_customs_after_examination", "label": "appointed to department of trade and customs after examination", "category": "financial", "source": "internal", "n_people": 1}
-{"id": "colkg:paid_counsel_to_marine_board_of_victoria", "label": "paid counsel to marine board of victoria", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:appointed_after_examination_to_department_of_trade_and_customs", "label": "appointed after examination to department of trade and customs", "category": "financial", "source": "internal", "n_people": 1}
 {"id": "colkg:appointed_counsel_to_marine_board_victoria", "label": "appointed counsel to marine board victoria", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:appointed_permanent_head_of_victorian_department_of_trade_and_customs", "label": "appointed permanent head of victorian department of trade and customs", "category": "financial", "source": "internal", "n_people": 1}
 {"id": "colkg:promoted_to_be_chief_clerk_of_department", "label": "promoted to be chief clerk of department", "category": "clerical", "source": "internal", "n_people": 1}
 {"id": "colkg:represented_australia_at_impl_shipping_conference", "label": "represented australia at impl shipping conference", "category": "other", "source": "internal", "n_people": 1}
+{"id": "colkg:paid_counsel_to_marine_board_of_victoria", "label": "paid counsel to marine board of victoria", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:served_with_the_th_foot_in_the_burmese_war", "label": "served with the th foot in the burmese war", "category": "other", "source": "internal", "n_people": 1}
 {"id": "colkg:served_in_china_on_the_staff_of_the_quartermaster_general", "label": "served in china on the staff of the quartermaster general", "category": "military", "source": "internal", "n_people": 1}
 {"id": "colkg:adjutant_general_at_head_quarters", "label": "adjutant general at head quarters", "category": "military", "source": "internal", "n_people": 1}
