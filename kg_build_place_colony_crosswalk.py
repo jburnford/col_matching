@@ -85,6 +85,14 @@ COUNTRY_COLONY = {
     "Q734":  ("Q918126", "British Guiana"),               # Guyana
     "Q79":   ("Q127861", "Egypt"),                        # Egypt
     "Q23681": ("Q15240466", "Cyprus"),                    # Northern Cyprus -> Cyprus
+    # audit 2026-07-02: modern-country QIDs that had leaked in as colony nodes via
+    # country_is_colony; curated to the canonical period polity the graph uses
+    "Q763":  ("Q1637975", "Saint Kitts and Nevis Colony"),
+    "Q781":  ("Q130386222", "Antigua Colony"),
+    "Q398":  ("Q21816225", "Bahrain Protectorate"),
+    "Q817":  ("Q3480281", "Kuwait"),
+    "Q678":  ("Q17197946", "Tonga Protectorate"),
+    "Q805":  ("Q49910", "Aden Colony"),
     "Q34":   None,  # Sweden -> foreign
     "Q794":  None, "Q142": None, "Q183": None, "Q30": None, "Q148": None,
     "Q801":  None,  # Israel/Palestine handled elsewhere
@@ -132,6 +140,24 @@ PROVINCE_COLONY = {
         (("prince edward", "charlottetown"), ("Q1978", "Prince Edward Island (Province)")),
         (("newfoundland", "labrador", "st. john"), ("Q2984260", "Colony of Newfoundland")),
     ],
+    "Q843": [  # Pakistan -> British-Indian provinces (audit 2026-07-02; year-blind
+        # majority period per region — the fact-level patch was year-aware)
+        (("khyber pakhtunkhwa", "peshawar", "bannu", "kohat", "dera ismail khan",
+          "charsadda", "mardan", "nowshera", "thall", "wana", "hazara", "malakand",
+          "waziristan", "swat", "abbottabad", "kurram", "khyber"),
+         ("Q4412467", "North-West Frontier Province")),
+        (("punjab", "lahore", "multan", "rawalpindi", "attock", "mianwali", "jhelum",
+          "sialkot", "gujranwala", "bahawalpur", "dera ghazi khan"),
+         ("Q2629708", "Punjab Province")),
+        (("sindh", "karachi", "hyderabad", "sukkur", "larkana", "shikarpur", "thatta"),
+         ("Q891827", "Bombay Presidency (Company)")),
+        (("balochistan", "quetta", "zhob", "sibi", "rakhshan", "chagai", "pishin",
+          "kalat", "loralai", "makran"),
+         ("Q3303188", "Baluchistan")),
+    ],
+    "Q924": [  # Tanzania: Pemba/Zanzibar isles vs the mainland
+        (("pemba", "zanzibar"), ("Q3574782", "Zanzibar")),
+    ],
     "Q833": [  # Malaysia
         (("penang", "george town", "seberang perai", "prince of wales"), ("Q188096", "Penang")),
         (("malacca", "melaka"), ("Q7621163", "Malacca Settlement")),
@@ -153,6 +179,7 @@ PLACE_OVERRIDE = {
     "Q20618539": ("Q370736", "Cape Colony"),              # Victoria East (Victoria-Oos), Eastern Cape -> Cape (no P17 on WD)
     "Q1042":  ("Q21821453", "Seychelles"),                # Seychelles country -> canonical Seychelles colony node (NOT the stray 'Farquhar Islands' Q1042 node)
     "Q3940":  ("Q21821453", "Seychelles"),                # Victoria, capital of Seychelles -> Seychelles
+    "Q781":   ("Q130386222", "Antigua Colony"),           # Antigua & Barbuda country (no P17-self in geo chain)
 }
 
 # country-level fallback for the multi-colony countries (admin unknown)
@@ -161,6 +188,8 @@ COUNTRY_FALLBACK = {
     "Q408": ("Q408", "Commonwealth of Australia"),
     "Q16":  ("Q16", "Dominion of Canada"),
     "Q833": ("Q1400154", "Federated Malay States"),
+    "Q843": ("Q129286", "Indian Empire (British Raj)"),   # Pakistan, admin unknown
+    "Q924": ("Q158725", "Tanganyika Territory"),          # Tanzania mainland default
 }
 
 
