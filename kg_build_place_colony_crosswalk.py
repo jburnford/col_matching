@@ -93,6 +93,9 @@ COUNTRY_COLONY = {
     "Q817":  ("Q3480281", "Kuwait"),
     "Q678":  ("Q17197946", "Tonga Protectorate"),
     "Q805":  ("Q49910", "Aden Colony"),
+    "Q963":  ("Q747314", "Bechuanaland Protectorate"),   # Botswana localities fell through
+    "Q219060": ("Q193714", "Palestine"),                  # Palestinian territories -> mandate
+    "Q801":  ("Q193714", "Palestine"),                    # Israel localities (corpus is pre-1948)
     "Q34":   None,  # Sweden -> foreign
     "Q794":  None, "Q142": None, "Q183": None, "Q30": None, "Q148": None,
     "Q801":  None,  # Israel/Palestine handled elsewhere
@@ -180,6 +183,12 @@ PLACE_OVERRIDE = {
     "Q1042":  ("Q21821453", "Seychelles"),                # Seychelles country -> canonical Seychelles colony node (NOT the stray 'Farquhar Islands' Q1042 node)
     "Q3940":  ("Q21821453", "Seychelles"),                # Victoria, capital of Seychelles -> Seychelles
     "Q781":   ("Q130386222", "Antigua Colony"),           # Antigua & Barbuda country (no P17-self in geo chain)
+    "Q2261361": ("Q1649306", "Nyasaland"),                # Chinde: British concession port, admin'd with Nyasaland
+    "Q3935":   ("Q953068", "South-West Africa"),          # Windhoek — SWA mandate administration
+    "Q597491": ("Q953068", "South-West Africa"),          # Okahandja
+    "Q159325": ("Q953068", "South-West Africa"),          # Lüderitz
+    "Q3826":   ("Q157734", "Muscat and Oman"),            # Muscat consulate/residency -> protected sultanate
+    "Q617646": ("Q370736", "Cape Colony"),                # Namakwa (Little Namaqualand) division
 }
 
 # country-level fallback for the multi-colony countries (admin unknown)

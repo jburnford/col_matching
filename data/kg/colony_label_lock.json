@@ -32,7 +32,7 @@
  "Q817165": "Bengal Presidency (Company)",
  "Q41": "Greece",
  "Q408": "Commonwealth of Australia",
- "Q252": "Dutch East Indies (British Occupation)",
+ "Q252": "Dutch East Indies",
  "Q1643555": "British Honduras",
  "Q376178": "Straits Settlements",
  "Q4530733": "British Bechuanaland",
@@ -173,7 +173,7 @@
  "Q953068": "South-West Africa",
  "Q34497": "St. Helena",
  "Q15238409": "Saint Lucia Colony",
- "Q683": "Western Samoa",
+ "Q683": "Samoa",
  "Q21821453": "Seychelles",
  "Q7522091": "Sind Province",
  "Q1637975": "Saint Kitts and Nevis Colony",
@@ -187,7 +187,6 @@
  "Q1780114": "Van Diemen's Land",
  "Q2510000": "Colony of Vancouver Island",
  "Q1545934": "British Western Pacific Territories",
- "Q7988268": "Western Samoa",
  "Q15939896": "Weihaiwei",
  "Q2660774": "British Windward Islands",
  "Q2009": "Yukon Territory",
@@ -278,5 +277,6 @@
  "Q1381495": "Garhwal Kingdom",
  "Q150058": "Travancore",
  "Q1852345": "Trucial States",
- "Q130642141": "Udaipur State (Mewar)"
+ "Q130642141": "Udaipur State (Mewar)",
+ "Q157734": "Muscat and Oman"
 }

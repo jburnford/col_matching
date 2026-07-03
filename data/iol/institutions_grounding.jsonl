@@ -47,7 +47,7 @@
 {"institution": "St. Xavier's College, Calcutta", "type": "college", "id": "Q7592175", "label": "St. Xavier's College, Kolkata", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "St. John's College, Oxford", "type": "college", "id": "Q609646", "label": "St John's College", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Bradford Grammar School", "type": "school", "id": "Q4954686", "label": "Bradford Grammar School", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
-{"institution": "Bombay University", "type": "university", "id": "Q406402", "label": "University of Mumbai", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
+{"institution": "Bombay University", "type": "university", "id": "Q406402", "label": "University of Bombay", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Khalsa College, Amritsar", "type": "college", "id": "Q6399851", "label": "Khalsa College Amritsar", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Punjab University", "type": "university", "id": "Q1549932", "label": "University of the Punjab", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Oxford University", "type": "university", "id": "Q34433", "label": "University of Oxford", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
@@ -75,7 +75,7 @@
 {"institution": "Jesus College, Oxford", "type": "college", "id": "Q81174", "label": "Jesus College", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Blundell's School, Tiverton", "type": "school", "id": "Q4930752", "label": "Blundell's School", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Dulwich College", "type": "college", "id": "Q1264867", "label": "Dulwich College", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
-{"institution": "University College of Wales, Aberystwyth", "type": "college", "id": "Q319761", "label": "Aberystwyth University", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
+{"institution": "University College of Wales, Aberystwyth", "type": "college", "id": "Q319761", "label": "University College of Wales", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Queen's College, Cork", "type": "college", "id": "Q1574185", "label": "University College Cork", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Ruthin School", "type": "school", "id": "Q7383390", "label": "Ruthin School", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Presidency College, Calcutta", "type": "college", "id": "Q2749583", "label": "Presidency University", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
@@ -218,7 +218,7 @@
 {"institution": "West Leeds High School", "type": "school", "id": "Q16903080", "label": "West Leeds High School", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Londonderry School", "type": "school", "id": "Q5477388", "label": "Foyle and Londonderry College", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Bedford Modern School", "type": "school", "id": "Q4879170", "label": "Bedford Modern School", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
-{"institution": "University College, Bangor", "type": "college", "id": "Q790029", "label": "Bangor University", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
+{"institution": "University College, Bangor", "type": "college", "id": "Q790029", "label": "University College of North Wales", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Burnley Grammar School", "type": "school", "id": "Q5000018", "label": "Burnley Grammar School", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Elgin Academy", "type": "school", "id": "Q5360010", "label": "Elgin Academy", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
 {"institution": "Bihar National College", "type": "college", "id": "Q4907072", "label": "Bihar National College", "instance_of": [], "country_qid": null, "source": "seed_iol1937", "match_type": "mcp_verified"}
@@ -571,10 +571,10 @@
 {"institution": "Christ's College, Christchurch", "type": "university_college", "id": "Q5108634", "label": "Christ's College, Christchurch", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse_variant"}
 {"institution": "St. Columb's College, Derry", "type": "school", "id": "Q7592850", "label": "St Columb's College, Derry", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse_variant"}
 {"institution": "Polytechnikum Brunswick", "type": "university", "id": "Q734324", "label": "TU Braunschweig", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse_variant"}
-{"institution": "University College Bangor", "type": "university_college", "id": "Q790029", "label": "Bangor University", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse_variant"}
+{"institution": "University College Bangor", "type": "university_college", "id": "Q790029", "label": "University College of North Wales", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse_variant"}
 {"institution": "Methodist College Belfast", "type": "university_college", "id": "Q3307357", "label": "Methodist College Belfast", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse_variant"}
 {"institution": "Haileybury College", "type": "school", "id": "Q5639263", "label": "Haileybury and Imperial Service College", "instance_of": ["Q269770", "Q2418495"], "country_qid": "Q145", "source": "mcp_verified", "match_type": "mcp_verified"}
-{"institution": "University of Bombay", "type": "university", "id": "Q406402", "label": "University of Mumbai", "instance_of": [], "country_qid": "Q668", "source": "reuse", "match_type": "reuse"}
+{"institution": "University of Bombay", "type": "university", "id": "Q406402", "label": "University of Bombay", "instance_of": [], "country_qid": "Q668", "source": "reuse", "match_type": "reuse"}
 {"institution": "Thomason College", "type": "professional", "id": "Q3366382", "label": "Indian Institute of Technology Roorkee", "instance_of": ["Q1371037"], "country_qid": "Q668", "source": "mcp_verified", "match_type": "mcp_verified"}
 {"institution": "Inner Temple", "type": "inn_of_court", "id": "Q1233784", "label": "Inner Temple", "instance_of": [], "country_qid": "Q145", "source": "mcp_verified", "match_type": "mcp_verified"}
 {"institution": "University of Rangoon", "type": "university", "id": "Q1185947", "label": "University of Yangon", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse"}
@@ -597,7 +597,7 @@
 {"institution": "University of Nagpur", "type": "university", "id": "Q2628297", "label": "Rashtrasant Tukadoji Maharaj Nagpur University", "instance_of": [], "country_qid": "Q668", "source": "reuse", "match_type": "reuse"}
 {"institution": "University of Patna", "type": "university", "id": "Q506277", "label": "Patna University", "instance_of": [], "country_qid": "Q668", "source": "reuse", "match_type": "reuse"}
 {"institution": "Magdalen College, Cambridge", "type": "university_college", "id": "Q776807", "label": "Magdalene College", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
-{"institution": "Rathmines School", "type": "school", "id": "colkg:Rathmines_School", "label": "Rathmines School", "instance_of": [], "country_qid": null, "source": "internal", "match_type": "internal_mint"}
+{"institution": "Rathmines School", "type": "school", "id": "Q28823219", "label": "Rathmines School", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
 {"institution": "Glasgow High School", "type": "school", "id": "Q386695", "label": "High School of Glasgow", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Christ's College, Finchley", "type": "school", "id": "Q5108635", "label": "Christ's College, Finchley", "instance_of": ["Q159334"], "country_qid": "Q145", "source": "mcp_verified", "match_type": "mcp_verified"}
 {"institution": "St. Peter's College, Radley", "type": "school", "id": "Q3417076", "label": "Radley College", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
@@ -620,7 +620,7 @@
 {"institution": "Wimborne Grammar School", "type": "school", "id": "colkg:Wimborne_Grammar_School", "label": "Wimborne Grammar School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "St Peter's College, Cambridge", "type": "university_college", "id": "Q650068", "label": "Peterhouse", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Uppingham Grammar School", "type": "school", "id": "Q3403302", "label": "Uppingham School", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
-{"institution": "Enniskillen Royal School", "type": "school", "id": "colkg:Enniskillen_Royal_School", "label": "Enniskillen Royal School", "instance_of": [], "country_qid": null, "source": "internal", "match_type": "internal_mint"}
+{"institution": "Enniskillen Royal School", "type": "school", "id": "Q3909328", "label": "Portora Royal School", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
 {"institution": "Wesleyan Connexional School", "type": "school", "id": "colkg:Wesleyan_Connexional_School", "label": "Wesleyan Connexional School", "instance_of": [], "country_qid": null, "source": "internal", "match_type": "internal_mint"}
 {"institution": "Watson's College, Edinburgh", "type": "university_college", "id": "Q3760670", "label": "George Watson's College", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Addiscombe Military Seminary", "type": "military_academy", "id": "Q142575", "label": "Addiscombe Military Seminary", "instance_of": ["Q917182"], "country_qid": "Q145", "source": "mcp_verified", "match_type": "mcp_verified"}
@@ -629,7 +629,7 @@
 {"institution": "Clapham Grammar School", "type": "school", "id": "colkg:Clapham_Grammar_School", "label": "Clapham Grammar School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Belfast Methodist College", "type": "school", "id": "Q3307357", "label": "Methodist College Belfast", "instance_of": [], "country_qid": null, "source": "reuse", "match_type": "reuse"}
 {"institution": "Kilkenny College", "type": "school", "id": "Q6407035", "label": "Kilkenny College", "instance_of": [], "country_qid": null, "source": "mcp_verified", "match_type": "mcp_verified"}
-{"institution": "Godolphin School", "type": "school", "id": "colkg:Godolphin_School", "label": "Godolphin School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
+{"institution": "Godolphin School", "type": "school", "id": null, "label": "Godolphin School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
 {"institution": "Sibpur College", "type": "university_college", "id": "Q3348743", "label": "Indian Institute of Engineering Science and Technology, Shibpur", "instance_of": [], "country_qid": "Q668", "source": "reuse", "match_type": "reuse"}
 {"institution": "Edinburgh College School", "type": "school", "id": "colkg:Edinburgh_College_School", "label": "Edinburgh College School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Middlesbrough High School", "type": "school", "id": "Q6411009", "label": "Middlesbrough High School", "instance_of": [], "country_qid": "Q145", "source": "successor", "match_type": "successor_ground_lowconf"}
@@ -643,7 +643,7 @@
 {"institution": "Repton Grammar School", "type": "school", "id": "Q3933220", "label": "Repton School", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Kingstown Grammar School", "type": "school", "id": "colkg:Kingstown_Grammar_School", "label": "Kingstown Grammar School", "instance_of": [], "country_qid": null, "source": "internal", "match_type": "internal_mint"}
 {"institution": "Somersetshire College, Bath", "type": "school", "id": "colkg:Somersetshire_College__Bath", "label": "Somersetshire College, Bath", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
-{"institution": "Edinburgh Collegiate School", "type": "school", "id": "colkg:Edinburgh_Collegiate_School", "label": "Edinburgh Collegiate School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
+{"institution": "Edinburgh Collegiate School", "type": "school", "id": "Q24969911", "label": "Edinburgh Collegiate School", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
 {"institution": "Colootola Branch School", "type": "school", "id": "colkg:Colootola_Branch_School", "label": "Colootola Branch School", "instance_of": [], "country_qid": "Q668", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Royal Naval College, Gosport", "type": "military_academy", "id": "colkg:Royal_Naval_College__Gosport", "label": "Royal Naval College, Gosport", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Old Trafford School", "type": "school", "id": "colkg:Old_Trafford_School", "label": "Old Trafford School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
@@ -822,7 +822,7 @@
 {"institution": "Royal Academical Institution", "type": "school", "id": "Q7373798", "label": "Royal Belfast Academical Institution", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Kilmarnock Grammar School", "type": "school", "id": "colkg:Kilmarnock_Grammar_School", "label": "Kilmarnock Grammar School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Royal Institution School, Liverpool", "type": "school", "id": "colkg:Royal_Institution_School_Liverpool", "label": "Royal Institution School, Liverpool", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
-{"institution": "St. Ignatius' College", "type": "school", "id": "colkg:St_Ignatius_College", "label": "St. Ignatius' College", "instance_of": [], "country_qid": null, "source": "internal", "match_type": "internal_mint"}
+{"institution": "St. Ignatius' College", "type": "school", "id": "Q7593393", "label": "St Ignatius College", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
 {"institution": "Galway Grammar School", "type": "school", "id": "colkg:Galway_Grammar_School", "label": "Galway Grammar School", "instance_of": [], "country_qid": "Q27", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Nottingham Grammar School", "type": "school", "id": "Q7063652", "label": "Nottingham High School", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Amersham Hall School", "type": "school", "id": "colkg:Amersham_Hall_School", "label": "Amersham Hall School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
@@ -880,7 +880,7 @@
 {"institution": "County Secretary School, West Bridgeford", "type": "school", "id": "colkg:County_Secretary_School_West_Bridgeford", "label": "County Secondary School, West Bridgford", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Wellington College, India", "type": "school", "id": "colkg:Wellington_College_India", "label": "Wellington College, India", "instance_of": [], "country_qid": "Q668", "source": "internal", "match_type": "internal_mint"}
 {"institution": "St. Thomas' College, Colombo", "type": "school", "id": "Q19699410", "label": "S. Thomas' College, Mount Lavinia", "instance_of": [], "country_qid": "Q854", "source": "reuse", "match_type": "reuse"}
-{"institution": "University of Aberystwyth", "type": "university", "id": "Q319761", "label": "Aberystwyth University", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
+{"institution": "University of Aberystwyth", "type": "university", "id": "Q319761", "label": "University College of Wales", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Bristol Infirmary", "type": "professional", "id": "colkg:Bristol_Infirmary", "label": "Bristol Infirmary", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Guy's Hospital, London", "type": "professional", "id": "colkg:Guy_s_Hospital_London", "label": "Guy's Hospital, London", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "St. Andrew's University", "type": "university", "id": "Q216273", "label": "University of St Andrews", "instance_of": ["public university"], "country_qid": "Q145", "source": "mcp", "match_type": "mcp_verified"}
@@ -1390,7 +1390,7 @@
 {"institution": "Royal Indian Institute of Science", "type": "professional", "id": "Q948720", "label": "Indian Institute of Science, Bengaluru", "instance_of": ["Q31855", "Q38723"], "country_qid": "Q668", "source": "mcp_verified", "match_type": "mcp_verified"}
 {"institution": "Modern High School, Delhi", "type": "school", "id": "colkg:Modern_High_School_Delhi", "label": "Modern High School, Delhi", "instance_of": [], "country_qid": "Q668", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Mayo School of Arts", "type": "professional", "id": "colkg:Mayo_School_of_Arts_Lahore", "label": "Mayo School of Arts, Lahore", "instance_of": [], "country_qid": "Q843", "source": "internal", "match_type": "internal_mint"}
-{"institution": "University College, Aberystwyth", "type": "university_college", "id": "Q319761", "label": "Aberystwyth University", "instance_of": ["Q3918"], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
+{"institution": "University College, Aberystwyth", "type": "university_college", "id": "Q319761", "label": "University College of Wales", "instance_of": ["Q3918"], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "St Paul's School, London", "type": "school", "id": "Q1227526", "label": "St Paul's School", "instance_of": ["Q9826"], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Greenock High School", "type": "school", "id": "colkg:Greenock_High_School", "label": "Greenock High School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Muslim High School, Lyallpur", "type": "school", "id": "colkg:Muslim_High_School_Lyallpur", "label": "Muslim High School, Lyallpur", "instance_of": [], "country_qid": "Q843", "source": "internal", "match_type": "internal_mint"}
@@ -1495,7 +1495,7 @@
 {"institution": "Muhammad College, Aligarh", "type": "university_college", "id": "Q196544", "label": "Aligarh Muslim University", "instance_of": [], "country_qid": "Q668", "source": "reuse", "match_type": "reuse"}
 {"institution": "Roundhay School", "type": "school", "id": "colkg:Roundhay_School_Leeds", "label": "Roundhay School, Leeds", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Llanfyllin County School", "type": "school", "id": "colkg:Llanfyllin_County_School", "label": "Llanfyllin County School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
-{"institution": "University College of North Wales, Bangor", "type": "university_college", "id": "Q790029", "label": "Bangor University", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
+{"institution": "University College of North Wales, Bangor", "type": "university_college", "id": "Q790029", "label": "University College of North Wales", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Victoria School, Kurseong", "type": "school", "id": "colkg:Victoria_School_Kurseong", "label": "Victoria School, Kurseong", "instance_of": [], "country_qid": "Q668", "source": "internal", "match_type": "internal_mint"}
 {"institution": "Wyggeston Grammar School", "type": "school", "id": "Q60286109", "label": "Wyggeston Grammar School for Boys", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Wanstead County High School", "type": "school", "id": "colkg:Wanstead_County_High_School", "label": "Wanstead County High School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
@@ -1622,3 +1622,20 @@
 {"institution": "Santosh Jahnavi School", "type": "school", "id": "colkg:Santosh_Jahnavi_School_Bengal", "label": "Santosh Jahnavi School, Bengal", "instance_of": [], "country_qid": "Q668", "source": "internal", "match_type": "internal_mint"}
 {"institution": "East India Company College, Addiscombe", "type": "professional", "id": "Q142575", "label": "Addiscombe Military Seminary", "instance_of": [], "country_qid": "Q145", "source": "reuse", "match_type": "reuse"}
 {"institution": "Worcester Grammar School", "type": "school", "id": "colkg:Worcester_Grammar_School", "label": "Worcester Grammar School", "instance_of": [], "country_qid": "Q145", "source": "internal", "match_type": "internal_mint"}
+{"institution": "Skerry's College", "type": "school", "id": "Q7534700", "label": "Skerry's College", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
+{"institution": "Rondebosch Boys' High School", "type": "school", "id": "Q5108658", "label": "Rondebosch Boys' High School", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
+{"institution": "London Day Training College", "type": "school", "id": "Q904416", "label": "London Day Training College", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
+{"institution": "John Ruskin School", "type": "school", "id": "Q6255947", "label": "John Ruskin School", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
+{"institution": "Sutton County School", "type": "school", "id": "Q7650263", "label": "Sutton County School", "instance_of": ["school"], "country_qid": null, "source": "mcp", "match_type": "mcp_verified"}
+{"institution": "Modern High School", "type": "other", "id": null, "label": "Modern High School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "Potchefstroom College", "type": "other", "id": null, "label": "Potchefstroom College", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "St. Aidan's College", "type": "other", "id": null, "label": "St. Aidan's College", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "J'ca School", "type": "other", "id": null, "label": "J'ca School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "St. Simon's College", "type": "other", "id": null, "label": "St. Simon's College", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "Canton High School", "type": "other", "id": null, "label": "Canton High School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "Preston School", "type": "other", "id": null, "label": "Preston School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "Hastings School", "type": "other", "id": null, "label": "Hastings School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "Grove Pk. School", "type": "other", "id": null, "label": "Grove Pk. School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "Smith's School", "type": "other", "id": null, "label": "Smith's School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "St. George's College, London", "type": "other", "id": null, "label": "St. George's College, London", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
+{"institution": "Cork School", "type": "other", "id": null, "label": "Cork School", "instance_of": [], "country_qid": null, "source": "ambiguous", "match_type": "ambiguous_multi_referent"}
