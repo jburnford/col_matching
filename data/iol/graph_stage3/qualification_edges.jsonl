@@ -66,7 +66,7 @@
 {"person_id": "kgp_iol1928-c2750939", "award_raw": "B.S.", "year": null, "modifiers": [], "qualification_id": "Q787674", "qualification_label": "Bachelor of Science", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1928-c2750939", "award_raw": "F.R.C.S.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1894_supp-c1122302", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1909-c2451723", "award_raw": "M.I.E.C.", "year": null, "modifiers": [], "qualification_id": "colkg:miec", "qualification_label": "miec", "source": "internal"}
+{"person_id": "kgp_iol1916-c2776633", "award_raw": "M.I.E.C.", "year": null, "modifiers": [], "qualification_id": "colkg:miec", "qualification_label": "miec", "source": "internal"}
 {"person_id": "kgp_iol1916-c2776633", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1927-c2792590", "award_raw": "M.I.M.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mime", "qualification_label": "Member of the Institution of Mining Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c800039", "award_raw": "D.Sc.", "year": null, "modifiers": [], "qualification_id": "Q2248352", "qualification_label": "Doctor of Science", "source": "seed_co_honour"}
@@ -82,7 +82,6 @@
 {"person_id": "kgp_iol1890_supp-c1120695", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1890_supp-c1120695", "award_raw": "F.R.C.P.", "year": null, "modifiers": [], "qualification_id": "Q26204035", "qualification_label": "Fellow of the Royal College of Physicians of London", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1890_supp-c1120695", "award_raw": "M.R.C.S. (Lon.)", "year": null, "modifiers": [], "qualification_id": "Q6815098", "qualification_label": "Membership of the Royal College of Surgeons", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1894_supp-c1156229", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1896-c1930645", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1894_supp-c1156580", "award_raw": "B.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:bsc", "qualification_label": "bsc", "source": "internal"}
 {"person_id": "kgp_iol1889_supp-c1031737", "award_raw": "B.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:bsc", "qualification_label": "bsc", "source": "internal"}
@@ -107,7 +106,6 @@
 {"person_id": "kgp_iol1935-c3123577", "award_raw": "M.I.M.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mime", "qualification_label": "Member of the Institution of Mining Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1935-c3123577", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1923-c2522431", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1892_supp-c1165941", "award_raw": "F.I.A.", "year": null, "modifiers": [], "qualification_id": "colkg:fia", "qualification_label": "fia", "source": "internal"}
 {"person_id": "kgp_iol1900-c1952623", "award_raw": "F.I.A.", "year": null, "modifiers": [], "qualification_id": "colkg:fia", "qualification_label": "fia", "source": "internal"}
 {"person_id": "kgp_iol1947-c861681", "award_raw": "M.I.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:mics", "qualification_label": "mics", "source": "internal"}
 {"person_id": "kgp_iol1947-c861681", "award_raw": "M.(Am.)I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
@@ -127,10 +125,7 @@
 {"person_id": "kgp_iol1889_supp-c1078670", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1078670", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1078670", "award_raw": "M.R.A.S.", "year": null, "modifiers": [], "qualification_id": "colkg:mras", "qualification_label": "Member of the Royal Asiatic Society", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1897-c1925597", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c1269829", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1917-c2902097", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1893_supp-c1209696", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1899-c1917859", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1934-c2937146", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c845301", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
@@ -142,7 +137,6 @@
 {"person_id": "kgp_iol1936-c3059654", "award_raw": "F.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fic", "qualification_label": "Fellow of the Institute of Chemistry", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1936-c3059654", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1933-c2891033", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1923-c2559325", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1922-c2551952", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c883508", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1919-c3080207", "award_raw": "B.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:bsc", "qualification_label": "bsc", "source": "internal"}
@@ -247,7 +241,7 @@
 {"person_id": "kgp_iol1895_supp-c1466040", "award_raw": "D.C.L.", "year": null, "modifiers": [], "qualification_id": "Q5287501", "qualification_label": "Doctor of Civil Law", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1895_supp-c1466040", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1932-c3263672", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1889_supp-c1249837", "award_raw": "M.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:msc", "qualification_label": "msc", "source": "internal"}
+{"person_id": "kgp_iol1914-c2992004", "award_raw": "M.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:msc", "qualification_label": "msc", "source": "internal"}
 {"person_id": "kgp_iol1945-c1045638", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1893_supp-c1402206", "award_raw": "F.R.C.S.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1893_supp-c1402206", "award_raw": "L.R.C.P.", "year": null, "modifiers": [], "qualification_id": "colkg:lrcp", "qualification_label": "Licentiate of the Royal College of Physicians", "source": "seed_co_honour"}
@@ -323,7 +317,6 @@
 {"person_id": "kgp_iol1902-c2463228", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c3167084", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1907-c2732827", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c1617250", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1898-c2201980", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1931-c3651585", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1931-c3651585", "award_raw": "F.R.C.S. (Eng.)", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
@@ -382,7 +375,6 @@
 {"person_id": "kgp_iol1939-c1978841", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1886_supp-c455476", "award_raw": "M.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:msc", "qualification_label": "msc", "source": "internal"}
 {"person_id": "kgp_iol1919-c3625029", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1916-c3422665", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1933-c3595140", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1938-c1978365", "award_raw": "F.R.C.S.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1938-c1978365", "award_raw": "F.R.C.S. (E.)", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
@@ -393,7 +385,7 @@
 {"person_id": "kgp_iol1925-c3202768", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1919-c3642591", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1919-c3642591", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1929-c3579321", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1940-c2013853", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1460298", "award_raw": "F.R.S.", "year": null, "modifiers": [], "qualification_id": "Q15631401", "qualification_label": "Fellow of the Royal Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1933-c3620989", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1894_supp-c1662597", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
@@ -404,7 +396,6 @@
 {"person_id": "kgp_iol1889_supp-c1469623", "award_raw": "M.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:msc", "qualification_label": "msc", "source": "internal"}
 {"person_id": "kgp_iol1895_supp-c1751268", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1905-c2674494", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c1755777", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1907-c2868210", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1907-c2870167", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1934-c3739278", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "seed_co_honour"}
@@ -414,7 +405,6 @@
 {"person_id": "kgp_iol1905-c2697060", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c1326572", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1904-c2691309", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c1788004", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1895_supp-c1790069", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1929-c3647751", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1909-c3089624", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
@@ -436,7 +426,6 @@
 {"person_id": "kgp_iol1909-c3124734", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c1368314", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1905-c2739830", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1906-c2832004", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1535324", "award_raw": "M.R.A.S.", "year": null, "modifiers": [], "qualification_id": "colkg:mras", "qualification_label": "Member of the Royal Asiatic Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1906-c2833917", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1393731", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
@@ -454,9 +443,7 @@
 {"person_id": "kgp_iol1913-c3318664", "award_raw": "M.I.M.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mime", "qualification_label": "Member of the Institution of Mining Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c1404018", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1911-c3173280", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1912-c3257629", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1911-c3176627", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1898-c2376035", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1912-c3261223", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1921-c3595110", "award_raw": "M.B.", "year": null, "modifiers": [], "qualification_id": "Q13948235", "qualification_label": "Bachelor of Medicine, Bachelor of Surgery", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1923-c3230796", "award_raw": "M.I.M.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mime", "qualification_label": "Member of the Institution of Mining Engineers", "source": "seed_co_honour"}
@@ -533,7 +520,6 @@
 {"person_id": "kgp_iol1890_supp-c1755991", "award_raw": "M.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:msc", "qualification_label": "msc", "source": "internal"}
 {"person_id": "kgp_iol1894_supp-c1877340", "award_raw": "M.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:msc", "qualification_label": "msc", "source": "internal"}
 {"person_id": "kgp_iol1915-c3594672", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1894_supp-c1877857", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1646282", "award_raw": "D.C.L.", "year": 1889, "modifiers": [], "qualification_id": "Q5287501", "qualification_label": "Doctor of Civil Law", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1913-c3456965", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1913-c3456965", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "seed_co_honour"}
@@ -556,7 +542,7 @@
 {"person_id": "kgp_iol1908-c3171158", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1901-c2745438", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1912-c3421117", "award_raw": "M.B.", "year": null, "modifiers": [], "qualification_id": "Q13948235", "qualification_label": "Bachelor of Medicine, Bachelor of Surgery", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1894_supp-c1907184", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1904-c2882694", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1904-c2882694", "award_raw": "M. I. E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1895_supp-c2004076", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1894_supp-c1912814", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "seed_co_honour"}
@@ -570,7 +556,7 @@
 {"person_id": "kgp_iol1886_supp-c636753", "award_raw": "F.R.S.", "year": null, "modifiers": [], "qualification_id": "Q15631401", "qualification_label": "Fellow of the Royal Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1685586", "award_raw": "F.G.S.", "year": null, "modifiers": [], "qualification_id": "Q24590727", "qualification_label": "Fellow of the Geological Society of London", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1685586", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1889_supp-c1687720", "award_raw": "B.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:bsc", "qualification_label": "bsc", "source": "internal"}
+{"person_id": "kgp_iol1904-c2908242", "award_raw": "B.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:bsc", "qualification_label": "bsc", "source": "internal"}
 {"person_id": "kgp_iol1940-c2436646", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1898-c2511338", "award_raw": "D.C.L.", "year": null, "modifiers": [], "qualification_id": "Q5287501", "qualification_label": "Doctor of Civil Law", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1694015", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "seed_co_honour"}
@@ -626,11 +612,9 @@
 {"person_id": "kgp_iol1894_supp-c2003799", "award_raw": "M.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:msc", "qualification_label": "msc", "source": "internal"}
 {"person_id": "kgp_iol1932-c4282555", "award_raw": "F.R.C.S.I.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1940-c2537201", "award_raw": "F.R.C.S.I.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1893_supp-c1984613", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1905-c2982169", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1908-c3273928", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1908-c3273928", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c2115980", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1901-c2825433", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1919-c4113371", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1919-c4113371", "award_raw": "F.R.S.", "year": null, "modifiers": [], "qualification_id": "Q15631401", "qualification_label": "Fellow of the Royal Society", "source": "seed_co_honour"}
@@ -641,7 +625,6 @@
 {"person_id": "kgp_iol1935-c4544136", "award_raw": "F.R.C.S.E.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1937-c4483543", "award_raw": "A.M.I.S.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amise", "qualification_label": "amise", "source": "internal"}
 {"person_id": "kgp_iol1936-c4425240", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1899-c2559079", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1923-c3546797", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1773537", "award_raw": "D.C.L.", "year": null, "modifiers": [], "qualification_id": "Q5287501", "qualification_label": "Doctor of Civil Law", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1773537", "award_raw": "LL.D.", "year": null, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "seed_co_honour"}
@@ -663,7 +646,6 @@
 {"person_id": "kgp_iol1931-c4555451", "award_raw": "F.R.C.S.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1940-c2669180", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1909-c3475952", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c2183628", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1916-c3956490", "award_raw": "M.I.S.I.", "year": null, "modifiers": [], "qualification_id": "colkg:misi", "qualification_label": "misi", "source": "internal"}
 {"person_id": "kgp_iol1930-c4372407", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1895_supp-c2185894", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
@@ -700,9 +682,9 @@
 {"person_id": "kgp_iol1926-c3842349", "award_raw": "F.Z.S.", "year": null, "modifiers": [], "qualification_id": "Q25513903", "qualification_label": "Fellow of the Zoological Society of London", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1843123", "award_raw": "F.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fic", "qualification_label": "Fellow of the Institute of Chemistry", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1843123", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c2224775", "award_raw": "F.R.S.", "year": null, "modifiers": [], "qualification_id": "Q15631401", "qualification_label": "Fellow of the Royal Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1895_supp-c2224775", "award_raw": "F.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fic", "qualification_label": "Fellow of the Institute of Chemistry", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1895_supp-c2224775", "award_raw": "F.C.S.", "year": null, "modifiers": [], "qualification_id": "colkg:fcs", "qualification_label": "Fellow of the Chemical Society", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1895_supp-c2224775", "award_raw": "F.R.S.", "year": null, "modifiers": [], "qualification_id": "Q15631401", "qualification_label": "Fellow of the Royal Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1921-c4075469", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1940-c2753828", "award_raw": "D.Sc.", "year": null, "modifiers": [], "qualification_id": "Q2248352", "qualification_label": "Doctor of Science", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1912-c3657263", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
@@ -752,7 +734,6 @@
 {"person_id": "kgp_iol1939-c2908022", "award_raw": "F.R.C.S.B.", "year": null, "modifiers": [], "qualification_id": "colkg:frcsb", "qualification_label": "frcsb", "source": "internal"}
 {"person_id": "kgp_iol1914-c3919316", "award_raw": "B.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:bsc", "qualification_label": "bsc", "source": "internal"}
 {"person_id": "kgp_iol1900-c2787026", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c2325553", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1912-c3755584", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1930548", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1950580", "award_raw": "M.I.F.S.", "year": null, "modifiers": [], "qualification_id": "colkg:mifs", "qualification_label": "mifs", "source": "internal"}
@@ -831,7 +812,6 @@
 {"person_id": "kgp_iol1921-c4306216", "award_raw": "F.R.A.S.", "year": null, "modifiers": [], "qualification_id": "Q26111565", "qualification_label": "Fellow of the Royal Astronomical Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1912-c3853425", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1895_supp-c2421654", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1923-c3856113", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1917-c4255682", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1894_supp-c2305516", "award_raw": "B.S.C.", "year": null, "modifiers": [], "qualification_id": "colkg:bsc", "qualification_label": "bsc", "source": "internal"}
 {"person_id": "kgp_iol1945-c2068638", "award_raw": "B.Sc.", "year": null, "modifiers": [], "qualification_id": "Q787674", "qualification_label": "Bachelor of Science", "source": "seed_co_honour"}
@@ -852,7 +832,7 @@
 {"person_id": "kgp_iol1933-c4798562", "award_raw": "D.Sc.", "year": null, "modifiers": [], "qualification_id": "Q2248352", "qualification_label": "Doctor of Science", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1933-c4798562", "award_raw": "F.R.S.", "year": null, "modifiers": [], "qualification_id": "Q15631401", "qualification_label": "Fellow of the Royal Society", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1910-c3714839", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1912-c3881214", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1936-c5006513", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c2091194", "award_raw": "M.I.B.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mibe", "qualification_label": "mibe", "source": "internal"}
 {"person_id": "kgp_iol1889_supp-c2019135", "award_raw": "M.B.", "year": null, "modifiers": [], "qualification_id": "Q13948235", "qualification_label": "Bachelor of Medicine, Bachelor of Surgery", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1912-c3882771", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
@@ -908,11 +888,9 @@
 {"person_id": "kgp_iol1933-c4968266", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1933-c4968266", "award_raw": "F.R.C.S.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1933-c4969582", "award_raw": "M.B.", "year": null, "modifiers": [], "qualification_id": "Q13948235", "qualification_label": "Bachelor of Medicine, Bachelor of Surgery", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1901-c3148441", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1912-c3980137", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1940-c3276592", "award_raw": "A.M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amice", "qualification_label": "Associate Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1917-c4401474", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c2528480", "award_raw": "M.A.", "year": null, "modifiers": [], "qualification_id": "Q2091008", "qualification_label": "Master of Arts", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c2205143", "award_raw": "F.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fic", "qualification_label": "Fellow of the Institute of Chemistry", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1924-c4021534", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c2210339", "award_raw": "M.R.C.V.S.", "year": null, "modifiers": [], "qualification_id": "Q6717443", "qualification_label": "Member of the Royal College of Veterinary Surgeons", "source": "seed_co_honour"}
@@ -959,8 +937,6 @@
 {"person_id": "kgp_iol1895_supp-c2610832", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c2286517", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1916-c4452948", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1889_supp-c2167026", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1894_supp-c2486027", "award_raw": "M.I.C.E.", "year": null, "modifiers": [], "qualification_id": "colkg:mice", "qualification_label": "Member of the Institution of Civil Engineers", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1901-c3222929", "award_raw": "M.D.", "year": null, "modifiers": [], "qualification_id": "Q913404", "qualification_label": "Doctor of Medicine", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c2170302", "award_raw": "LL.D.", "year": 1885, "modifiers": [], "qualification_id": "Q959320", "qualification_label": "Doctor of Laws", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c2170302", "award_raw": "F.R.S.", "year": null, "modifiers": [], "qualification_id": "Q15631401", "qualification_label": "Fellow of the Royal Society", "source": "seed_co_honour"}

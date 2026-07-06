@@ -69,11 +69,9 @@
 {"person_id": "kgp_col1956-p276b7", "award": "K.B.E.", "year": 1955}
 {"person_id": "kgp_col1956-p276b7", "award": "C.M.G.", "year": 1948}
 {"person_id": "kgp_col1956-p276b7", "award": "Brill. Star (3rd class), Zanz.", "year": 1946}
-{"person_id": "kgp_col1928-p977b4", "award": "M.V.O.", "year": null}
-{"person_id": "kgp_col1928-p977b4", "award": "I.S.O.", "year": null}
-{"person_id": "kgp_col1933-p828b22", "award": "C.M.G.", "year": 1928}
 {"person_id": "kgp_col1933-p828b22", "award": "M.V.O.", "year": null}
 {"person_id": "kgp_col1933-p828b22", "award": "I.S.O.", "year": null}
+{"person_id": "kgp_col1933-p828b22", "award": "C.M.G.", "year": 1928}
 {"person_id": "kgp_col1927-p845b2", "award": "M.B.E.", "year": 1918}
 {"person_id": "kgp_col1917-p689b7", "award": "I.S.O.", "year": 1914}
 {"person_id": "kgp_col1964-p216b20", "award": "M.B.E.", "year": 1956}
@@ -987,8 +985,8 @@
 {"person_id": "kgp_col1951-p489b15", "award": "C.M.B.", "year": null}
 {"person_id": "kgp_col1905-p611b15", "award": "Knight Bachelor", "year": 1889}
 {"person_id": "kgp_col1963-p266b18", "award": "O.B.E.", "year": null}
-{"person_id": "kgp_col1956-p286b5", "award": "C.M.G.", "year": 1955}
 {"person_id": "kgp_col1930-p914b9", "award": "K.B.E.", "year": 1916}
+{"person_id": "kgp_col1956-p286b5", "award": "C.M.G.", "year": 1955}
 {"person_id": "kgp_col1966-p205b8", "award": "C.M.G.", "year": 1966}
 {"person_id": "kgp_col1963-p267b2", "award": "M.B.E.", "year": 1962}
 {"person_id": "kgp_col1940-p877b16", "award": "P.C.", "year": 1930}
@@ -1674,8 +1672,8 @@
 {"person_id": "kgp_col1963-p275b15", "award": "T.D.", "year": null}
 {"person_id": "kgp_col1890-p456b25", "award": "C.M.G.", "year": 1889}
 {"person_id": "kgp_col1890-p456b25", "award": "K.C.M.G.", "year": 1897}
-{"person_id": "kgp_col1958-p296b23", "award": "C.B.E.", "year": 1957}
 {"person_id": "kgp_col1948-p423b11", "award": "twice in desps.", "year": null}
+{"person_id": "kgp_col1958-p296b23", "award": "C.B.E.", "year": 1957}
 {"person_id": "kgp_col1955-p285b12", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1951-p498b8", "award": "M.B.E.", "year": 1951}
 {"person_id": "kgp_col1951-p498b9", "award": "C.M.G.", "year": 1945}
@@ -1743,9 +1741,9 @@
 {"person_id": "kgp_col1965-p219b14", "award": "M.B.E. (mil.)", "year": 1964}
 {"person_id": "kgp_col1922-p752b15", "award": "D.S.O.", "year": 1906}
 {"person_id": "kgp_col1886-p414b9", "award": "C.M.G.", "year": 1883}
+{"person_id": "kgp_col1963-p276b18", "award": "C.P.M.", "year": 1950}
 {"person_id": "kgp_col1963-p276b18", "award": "Q.P.M.", "year": null}
 {"person_id": "kgp_col1963-p276b18", "award": "C.P.M.", "year": null}
-{"person_id": "kgp_col1951-p499b15", "award": "C.P.M.", "year": 1950}
 {"person_id": "kgp_col1890-p457b13", "award": "C.M.G.", "year": 1883}
 {"person_id": "kgp_col1917-p712b24", "award": "C.M.G.", "year": 1881}
 {"person_id": "kgp_col1917-p712b24", "award": "G.C.M.G.", "year": 1901}
@@ -1772,7 +1770,7 @@
 {"person_id": "kgp_col1927-p870b12", "award": "D.S.O.", "year": 1917}
 {"person_id": "kgp_col1927-p870b12", "award": "C.M.G.", "year": 1906}
 {"person_id": "kgp_col1956-p293b24", "award": "O.B.E.", "year": 1956}
-{"person_id": "kgp_col1951-p499b19", "award": "C.B.E.", "year": 1950}
+{"person_id": "kgp_col1948-p424b15", "award": "C.B.E.", "year": 1950}
 {"person_id": "kgp_col1963-p277b2", "award": "O.B.E.", "year": 1953}
 {"person_id": "kgp_col1963-p277b5", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1940-p890b6", "award": "O.B.E.", "year": 1938}
@@ -2274,7 +2272,6 @@
 {"person_id": "kgp_col1918-p706b12", "award": "K.C.M.G.", "year": 1908}
 {"person_id": "kgp_col1966-p215b15", "award": "C.B.E.", "year": 1965}
 {"person_id": "kgp_col1965-p223b24", "award": "C.M.G.", "year": 1950}
-{"person_id": "kgp_col1951-p506b7", "award": "C.M.G.", "year": 1950}
 {"person_id": "kgp_col1940-p896b19", "award": "M.Inst. C.E.", "year": null}
 {"person_id": "kgp_col1940-p896b19", "award": "M. Int. Nav. C.", "year": null}
 {"person_id": "kgp_col1899-p492b6", "award": "K.C.M.G.", "year": 1878}
@@ -2947,11 +2944,11 @@
 {"person_id": "kgp_col1959-p329b21", "award": "M.B.E.", "year": 1958}
 {"person_id": "kgp_col1922-p770b18", "award": "F.R.G.S.", "year": null}
 {"person_id": "kgp_col1879-p388b3_s1", "award": "D.D.", "year": null}
-{"person_id": "kgp_col1915-p684b10", "award": "Jubilee Gold Medal of Ceylon", "year": 1897}
 {"person_id": "kgp_col1896-p567b8", "award": "jub. gold medical of Ceylon", "year": 1897}
 {"person_id": "kgp_col1896-p567b8", "award": "M.R.A.S.", "year": null}
 {"person_id": "kgp_col1896-p567b8", "award": "F.R.C.I.", "year": null}
 {"person_id": "kgp_col1896-p567b8", "award": "F.Z.S.", "year": null}
+{"person_id": "kgp_col1896-p567b8", "award": "Jubilee Gold Medal of Ceylon", "year": 1897}
 {"person_id": "kgp_col1937-p884b16", "award": "B.Sc.", "year": null}
 {"person_id": "kgp_col1937-p884b16", "award": "F.R.E.S.", "year": null}
 {"person_id": "kgp_col1914-p714b11", "award": "D.D.", "year": null}
@@ -3407,9 +3404,9 @@
 {"person_id": "kgp_col1963-p298b13", "award": "D.P.H. (Lond.)", "year": null}
 {"person_id": "kgp_col1963-p298b13", "award": "C.M.G.", "year": 1962}
 {"person_id": "kgp_col1965-p235b14", "award": "O.B.E.", "year": 1962}
-{"person_id": "kgp_col1951-p522b13", "award": "M.Sc.", "year": null}
-{"person_id": "kgp_col1951-p522b13", "award": "F.Inst.P.", "year": null}
-{"person_id": "kgp_col1951-p522b13", "award": "F.R.Met.S.", "year": null}
+{"person_id": "kgp_col1954-p286b5", "award": "M.Sc.", "year": null}
+{"person_id": "kgp_col1954-p286b5", "award": "F.Inst.P.", "year": null}
+{"person_id": "kgp_col1954-p286b5", "award": "F.R.Met.S.", "year": null}
 {"person_id": "kgp_col1950-p490b13", "award": "A.I.A.A.", "year": null}
 {"person_id": "kgp_col1950-p490b13", "award": "A.E.A.Inst.A.", "year": null}
 {"person_id": "kgp_col1950-p490b14", "award": "O.B.E.", "year": 1945}
@@ -3595,7 +3592,6 @@
 {"person_id": "kgp_col1966-p227b2", "award": "C.B.E.", "year": 1960}
 {"person_id": "kgp_col1966-p227b2", "award": "M.V.O.", "year": 1954}
 {"person_id": "kgp_col1886-p428b11", "award": "C.M.G.", "year": 1881}
-{"person_id": "kgp_col1898-p470b8", "award": "C.M.G.", "year": 1881}
 {"person_id": "kgp_col1917-p736b17", "award": "Inter. Arts (Lond.)", "year": null}
 {"person_id": "kgp_col1917-p736b17", "award": "D.A.F. (Paris)", "year": null}
 {"person_id": "kgp_col1917-p736b17", "award": "F.E.I.S.", "year": null}
@@ -3887,9 +3883,7 @@
 {"person_id": "kgp_col1940-p920b11", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1939-p981b2_s7", "award": "C.M.G.", "year": 1939}
 {"person_id": "kgp_col1939-p981b2_s7", "award": "O.B.E.", "year": 1934}
-{"person_id": "kgp_col1951-p528b13", "award": "K.B.E.", "year": 1951}
-{"person_id": "kgp_col1951-p528b13", "award": "C.M.G.", "year": 1939}
-{"person_id": "kgp_col1951-p528b13", "award": "O.B.E.", "year": 1934}
+{"person_id": "kgp_col1939-p981b2_s7", "award": "K.B.E.", "year": 1951}
 {"person_id": "kgp_dol1935-p876b16", "award": "J.P.", "year": null}
 {"person_id": "kgp_dol1935-p876b16", "award": "LL.D. (Aberdeen)", "year": null}
 {"person_id": "kgp_dol1935-p876b16", "award": "F.R.S.", "year": null}
@@ -3958,7 +3952,6 @@
 {"person_id": "kgp_col1905-p637b16", "award": "C.I.E.", "year": null}
 {"person_id": "kgp_col1905-p637b16", "award": "F.R.S.", "year": 1880}
 {"person_id": "kgp_col1905-p637b16", "award": "P.C.", "year": 1880}
-{"person_id": "kgp_col1917-p742b7", "award": "C.M.G.", "year": 1915}
 {"person_id": "kgp_col1948-p446b11", "award": "K.B.E.", "year": 1918}
 {"person_id": "kgp_col1948-p446b11", "award": "C.M.G.", "year": 1915}
 {"person_id": "kgp_dol1935-p878b3", "award": "G.C.M.G.", "year": 1934}
@@ -5547,15 +5540,12 @@
 {"person_id": "kgp_col1937-p921b14", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1937-p921b14", "award": "BAR", "year": null}
 {"person_id": "kgp_col1950-p517b2", "award": "D.F.C.", "year": null}
-{"person_id": "kgp_col1956-p328b4", "award": "C.B.E.", "year": 1955}
 {"person_id": "kgp_col1940-p945b5", "award": "Milne Medal, Liv. S. of T.M.", "year": 1930}
+{"person_id": "kgp_col1940-p945b5", "award": "C.B.E.", "year": 1955}
 {"person_id": "kgp_col1923-p825b9", "award": "medal with 4 clasps", "year": null}
 {"person_id": "kgp_col1900-p553b20", "award": "C.B.", "year": 1897}
 {"person_id": "kgp_col1922-p809b4", "award": "C.M.G.", "year": 1909}
 {"person_id": "kgp_col1922-p809b4", "award": "V.D.", "year": null}
-{"person_id": "kgp_col1939-p1005b15", "award": "C.M.G.", "year": 1909}
-{"person_id": "kgp_col1939-p1005b15", "award": "V.D.", "year": null}
-{"person_id": "kgp_col1920-p830b2_s13", "award": "C.M.G.", "year": 1909}
 {"person_id": "kgp_col1961-p351b9", "award": "Star (4th class), Zanz.", "year": null}
 {"person_id": "kgp_col1894-p484b3", "award": "M.I.C.E.", "year": null}
 {"person_id": "kgp_col1909-p723b3", "award": "M.I.C.E.", "year": null}
@@ -5687,8 +5677,6 @@
 {"person_id": "kgp_col1908-p658b4", "award": "I.S.O.", "year": 1903}
 {"person_id": "kgp_col1931-p1031b17", "award": "F.R.C.V.S.", "year": null}
 {"person_id": "kgp_col1931-p1031b17", "award": "F.Z.S.", "year": null}
-{"person_id": "kgp_col1960-p366b13", "award": "C.M.G.", "year": 1959}
-{"person_id": "kgp_col1960-p366b13", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1962-p349b13", "award": "O.B.E.", "year": 1962}
 {"person_id": "kgp_col1965-p259b6", "award": "I.S.O.", "year": 1961}
 {"person_id": "kgp_col1924-p863b5", "award": "ment. in desps. (gallantry in action) South Africa", "year": 1901}
@@ -5696,7 +5684,8 @@
 {"person_id": "kgp_col1924-p863b5", "award": "ment. in desps., services with Field Force, Nyassaland", "year": 1917}
 {"person_id": "kgp_col1936-p905b13", "award": "O.B.E.", "year": 1935}
 {"person_id": "kgp_col1951-p553b20", "award": "P.C.", "year": 1945}
-{"person_id": "kgp_col1951-p554b2", "award": "M.B.E.", "year": null}
+{"person_id": "kgp_col1960-p366b13", "award": "M.B.E.", "year": null}
+{"person_id": "kgp_col1960-p366b13", "award": "C.M.G.", "year": 1959}
 {"person_id": "kgp_col1962-p349b15", "award": "O.B.E.", "year": 1962}
 {"person_id": "kgp_col1957-p352b12", "award": "O.B.E.", "year": 1956}
 {"person_id": "kgp_col1957-p352b12", "award": "K.P.M.", "year": 1952}
@@ -5873,8 +5862,8 @@
 {"person_id": "kgp_col1936-p908b3", "award": "C.B.E.", "year": 1932}
 {"person_id": "kgp_col1936-p908b3", "award": "O.B.E.", "year": 1924}
 {"person_id": "kgp_col1879-p409b20", "award": "C.M.G.", "year": 1878}
-{"person_id": "kgp_col1958-p348b14", "award": "Q.P.M.", "year": null}
-{"person_id": "kgp_col1958-p348b14", "award": "C.P.M.", "year": null}
+{"person_id": "kgp_col1951-p557b3", "award": "Q.P.M.", "year": null}
+{"person_id": "kgp_col1951-p557b3", "award": "C.P.M.", "year": null}
 {"person_id": "kgp_col1965-p261b2", "award": "O.B.E.", "year": 1961}
 {"person_id": "kgp_col1965-p261b2", "award": "M.B.E.", "year": 1950}
 {"person_id": "kgp_col1965-p261b2", "award": "K.P.M.", "year": 1954}
@@ -6056,11 +6045,9 @@
 {"person_id": "kgp_col1933-p913b9", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1951-p559b15", "award": "M.B.E.", "year": 1950}
 {"person_id": "kgp_col1963-p336b7", "award": "O.B.E.", "year": 1957}
-{"person_id": "kgp_col1909-p728b17", "award": "C.B.", "year": 1904}
-{"person_id": "kgp_col1909-p728b17", "award": "C.M.G.", "year": 1900}
-{"person_id": "kgp_col1927-p935b5", "award": "K.C.M.G.", "year": 1917}
 {"person_id": "kgp_col1927-p935b5", "award": "C.B.", "year": 1904}
 {"person_id": "kgp_col1927-p935b5", "award": "C.M.G.", "year": 1900}
+{"person_id": "kgp_col1927-p935b5", "award": "K.C.M.G.", "year": 1917}
 {"person_id": "kgp_col1927-p935b5", "award": "C.V.O.", "year": 1917}
 {"person_id": "kgp_col1927-p935b5", "award": "M.V.O.", "year": 1911}
 {"person_id": "kgp_col1949-p480b9", "award": "K.B.E.", "year": 1942}
@@ -6305,6 +6292,7 @@
 {"person_id": "kgp_col1921-p843b15", "award": "Queen's medal", "year": null}
 {"person_id": "kgp_col1961-p361b11", "award": "I.S.O.", "year": 1962}
 {"person_id": "kgp_col1961-p361b11", "award": "M.B.E.", "year": 1949}
+{"person_id": "kgp_col1948-p471b16", "award": "M.B.E.", "year": 1949}
 {"person_id": "kgp_col1965-p265b5", "award": "Q.P.M.", "year": 1963}
 {"person_id": "kgp_col1965-p265b5", "award": "C.P.M.", "year": 1951}
 {"person_id": "kgp_col1966-p251b13", "award": "M.B.E.", "year": 1959}
@@ -7538,15 +7526,13 @@
 {"person_id": "kgp_col1966-p263b5", "award": "C.B.E.", "year": 1964}
 {"person_id": "kgp_col1917-p793b8", "award": "Knight Bachelor", "year": 1909}
 {"person_id": "kgp_col1917-p793b8", "award": "C.M.G.", "year": 1891}
-{"person_id": "kgp_col1867-p240b28", "award": "C.B.", "year": 1862}
 {"person_id": "kgp_col1879-p419b12", "award": "G.C.M.G.", "year": 1881}
 {"person_id": "kgp_col1879-p419b12", "award": "BACHEL.", "year": 1867}
 {"person_id": "kgp_col1879-p419b12", "award": "K.C.M.G.", "year": 1871}
 {"person_id": "kgp_col1879-p419b12", "award": "C.B.", "year": 1862}
-{"person_id": "kgp_col1958-p370b6", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1948-p484b22", "award": "C.M.G.", "year": 1947}
 {"person_id": "kgp_col1948-p484b22", "award": "O.B.E.", "year": 1937}
-{"person_id": "kgp_col1948-p484b23", "award": "O.B.E.", "year": null}
+{"person_id": "kgp_col1958-p370b6", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1937-p952b14", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1953-p288b18", "award": "C.B.E.", "year": 1949}
 {"person_id": "kgp_col1890-p442b23_s1", "award": "D.D.", "year": null}
@@ -7618,10 +7604,10 @@
 {"person_id": "kgp_col1931-p1062b4", "award": "C.M.G.", "year": 1917}
 {"person_id": "kgp_col1933-p937b2", "award": "I.S.O.", "year": 1932}
 {"person_id": "kgp_col1966-p264b2", "award": "O.B.E.", "year": 1966}
-{"person_id": "kgp_col1961-p382b4", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1964-p313b24", "award": "C.M.G.", "year": 1959}
 {"person_id": "kgp_col1964-p313b24", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1912-p712b20", "award": "I.S.O.", "year": 1911}
+{"person_id": "kgp_col1929-p979b16", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1923-p855b10", "award": "C.B.E.", "year": 1923}
 {"person_id": "kgp_col1923-p855b10", "award": "C.B.E.", "year": 1922}
 {"person_id": "kgp_col1950-p544b11", "award": "M.I.E.E.", "year": null}
@@ -8218,7 +8204,7 @@
 {"person_id": "kgp_col1939-p1047b3", "award": "L.R.F.P. & S. (Glas.)", "year": 1916}
 {"person_id": "kgp_col1939-p1047b3", "award": "D.T.M. & H. (Camb.)", "year": 1923}
 {"person_id": "kgp_col1939-p1047b3", "award": "D.P.H. (Glas.)", "year": 1932}
-{"person_id": "kgp_col1950-p551b19", "award": "I.S.O.", "year": 1948}
+{"person_id": "kgp_col1932-p979b14", "award": "I.S.O.", "year": 1948}
 {"person_id": "kgp_col1950-p551b20", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1963-p367b17", "award": "C.M.G.", "year": 1959}
 {"person_id": "kgp_col1963-p367b16", "award": "M.B.E.", "year": 1956}
@@ -8465,9 +8451,8 @@
 {"person_id": "kgp_col1939-p1050b5", "award": "Italian medical for mily. valour", "year": null}
 {"person_id": "kgp_col1922-p851b3", "award": "C.M.G.", "year": 1917}
 {"person_id": "kgp_col1922-p851b3", "award": "Medaille de la Reconnaissance Française (3rd class)", "year": null}
-{"person_id": "kgp_col1964-p325b2", "award": "K.C.M.G.", "year": 1953}
 {"person_id": "kgp_col1964-p325b2", "award": "C.M.G.", "year": 1946}
-{"person_id": "kgp_col1948-p495b3", "award": "C.M.G.", "year": 1946}
+{"person_id": "kgp_col1964-p325b2", "award": "K.C.M.G.", "year": 1953}
 {"person_id": "kgp_col1963-p371b10", "award": "O.B.E.", "year": 1956}
 {"person_id": "kgp_col1963-p371b10", "award": "M.B.E.", "year": 1946}
 {"person_id": "kgp_col1925-p928b5", "award": "K.C.B.", "year": 1918}
@@ -8925,11 +8910,10 @@
 {"person_id": "kgp_dol1935-p950b5", "award": "R.N.R.", "year": null}
 {"person_id": "kgp_col1963-p381b18", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1963-p381b18", "award": "Q.C.", "year": null}
-{"person_id": "kgp_col1965-p297b2", "award": "C.M.G.", "year": 1955}
+{"person_id": "kgp_col1951-p604b15", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1965-p297b2", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1965-p297b2", "award": "T.D.", "year": null}
-{"person_id": "kgp_col1951-p604b15", "award": "M.C.", "year": null}
-{"person_id": "kgp_col1951-p604b15", "award": "T.D.", "year": null}
+{"person_id": "kgp_col1965-p297b2", "award": "C.M.G.", "year": 1955}
 {"person_id": "kgp_col1937-p973b25", "award": "K.C.V.O.", "year": 1934}
 {"person_id": "kgp_col1937-p973b25", "award": "D.S.O.", "year": null}
 {"person_id": "kgp_col1937-p973b25", "award": "V.D.", "year": null}
@@ -9051,9 +9035,8 @@
 {"person_id": "kgp_col1951-p606b9", "award": "C.P.M.", "year": 1948}
 {"person_id": "kgp_col1954-p320b12", "award": "C.M.G.", "year": 1953}
 {"person_id": "kgp_col1923-p878b5", "award": "K.C.", "year": 1905}
-{"person_id": "kgp_col1965-p298b12", "award": "C.M.G.", "year": 1955}
 {"person_id": "kgp_col1965-p298b12", "award": "M.B.E.", "year": null}
-{"person_id": "kgp_col1950-p567b3", "award": "M.B.E.", "year": null}
+{"person_id": "kgp_col1965-p298b12", "award": "C.M.G.", "year": 1955}
 {"person_id": "kgp_col1956-p365b13", "award": "Knight Bachelor", "year": 1955}
 {"person_id": "kgp_col1956-p365b13", "award": "Q.C.", "year": null}
 {"person_id": "kgp_col1950-p567b4", "award": "O.B.E.", "year": 1949}
@@ -10420,11 +10403,10 @@
 {"person_id": "kgp_col1927-p999b15", "award": "O.B.E.", "year": 1924}
 {"person_id": "kgp_col1927-p999b15", "award": "V.D.", "year": 1923}
 {"person_id": "kgp_col1963-p397b24", "award": "M.B.E.", "year": 1960}
-{"person_id": "kgp_col1888-p521b14", "award": "C.M.G.", "year": 1882}
+{"person_id": "kgp_col1913-p757b6", "award": "C.M.G.", "year": 1882}
 {"person_id": "kgp_col1913-p757b6", "award": "G.C.M.G.", "year": 1904}
 {"person_id": "kgp_col1913-p757b6", "award": "K.C.B.", "year": 1901}
 {"person_id": "kgp_col1913-p757b6", "award": "K.C.M.G.", "year": 1890}
-{"person_id": "kgp_col1913-p757b6", "award": "C.M.G.", "year": 1882}
 {"person_id": "kgp_col1913-p757b6", "award": "I.S.O.", "year": 1903}
 {"person_id": "kgp_col1931-p1089b7", "award": "K.C.M.G.", "year": 1903}
 {"person_id": "kgp_col1931-p1089b7", "award": "D.", "year": 1910}
@@ -10844,7 +10826,7 @@
 {"person_id": "kgp_col1910-p746b6", "award": "C.M.G.", "year": 1905}
 {"person_id": "kgp_col1950-p584b20", "award": "C.P.M.", "year": null}
 {"person_id": "kgp_col1890-p534b10", "award": "C.M.G.", "year": 1886}
-{"person_id": "kgp_col1955-p342b9", "award": "C.B.E.", "year": 1948}
+{"person_id": "kgp_col1951-p626b10", "award": "C.B.E.", "year": 1948}
 {"person_id": "kgp_col1951-p626b10", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1951-p626b11", "award": "C.P.M.", "year": null}
 {"person_id": "kgp_col1937-p995b3", "award": "M.C.", "year": null}
@@ -11373,7 +11355,6 @@
 {"person_id": "kgp_col1965-p319b4", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1965-p319b4", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1963-p410b25", "award": "D.F.C.", "year": null}
-{"person_id": "kgp_col1889-p534b11_s1", "award": "D.D.", "year": 1857}
 {"person_id": "kgp_col1896-p636b15", "award": "D.D.", "year": 1857}
 {"person_id": "kgp_col1889-p534b14", "award": "C.M.G.", "year": 1886}
 {"person_id": "kgp_col1927-p1013b8", "award": "M.T.P.I.", "year": null}
@@ -12200,13 +12181,11 @@
 {"person_id": "kgp_col1886-p497b5", "award": "C.M.G.", "year": 1869}
 {"person_id": "kgp_col1877-p413b6", "award": "medal and clasp", "year": null}
 {"person_id": "kgp_col1877-p413b6", "award": "Turkish medal", "year": null}
-{"person_id": "kgp_col1906-p736b3", "award": "medal and clasps", "year": null}
-{"person_id": "kgp_col1906-p736b3", "award": "Khedive's star and clasp", "year": null}
-{"person_id": "kgp_col1906-p736b3", "award": "med. and clasp", "year": 1895}
-{"person_id": "kgp_col1906-p736b3", "award": "clasp", "year": 1897}
-{"person_id": "kgp_col1906-p736b3", "award": "medal with clasp", "year": 1902}
 {"person_id": "kgp_col1899-p565b13", "award": "medal and clasps", "year": null}
 {"person_id": "kgp_col1899-p565b13", "award": "Khedive's star and clasp", "year": null}
+{"person_id": "kgp_col1899-p565b13", "award": "med. and clasp", "year": 1895}
+{"person_id": "kgp_col1899-p565b13", "award": "clasp", "year": 1897}
+{"person_id": "kgp_col1899-p565b13", "award": "medal with clasp", "year": 1902}
 {"person_id": "kgp_col1899-p565b13", "award": "medical and clasp", "year": null}
 {"person_id": "kgp_col1924-p956b14", "award": "Knight Bachelor", "year": 1923}
 {"person_id": "kgp_col1962-p441b13", "award": "C.M.G.", "year": 1961}
@@ -12435,7 +12414,7 @@
 {"person_id": "kgp_col1964-p376b21", "award": "M.C.", "year": null}
 {"person_id": "kgp_col1913-p782b18", "award": "C.M.G.", "year": 1911}
 {"person_id": "kgp_col1913-p782b18", "award": "I.S.O.", "year": 1903}
-{"person_id": "kgp_col1905-p710b8", "award": "I.S.O.", "year": 1903}
+{"person_id": "kgp_col1896-p646b18", "award": "I.S.O.", "year": 1903}
 {"person_id": "kgp_col1948-p536b17", "award": "M.I.Loco.E.", "year": null}
 {"person_id": "kgp_col1920-p924b13", "award": "I.S.O.", "year": 1919}
 {"person_id": "kgp_col1948-p536b18", "award": "B.D.F.D.", "year": null}
@@ -12514,17 +12493,14 @@
 {"person_id": "kgp_col1961-p453b3", "award": "I.S.O.", "year": 1960}
 {"person_id": "kgp_col1961-p453b3", "award": "K.P.M.", "year": 1933}
 {"person_id": "kgp_col1961-p453b3", "award": "C.P.M.", "year": 1947}
-{"person_id": "kgp_col1937-p1019b19", "award": "Knight Bachelor", "year": 1934}
-{"person_id": "kgp_col1937-p1019b19", "award": "C.B.", "year": null}
-{"person_id": "kgp_col1937-p1019b19", "award": "C.D.", "year": null}
-{"person_id": "kgp_col1937-p1019b19", "award": "D.S.O.", "year": 1916}
-{"person_id": "kgp_col1937-p1019b19", "award": "Croix d'officier du Mérite", "year": null}
-{"person_id": "kgp_col1937-p1019b19", "award": "American Distinguished Service Medal", "year": null}
-{"person_id": "kgp_col1939-p1102b15", "award": "K.B.E.", "year": 1935}
 {"person_id": "kgp_col1939-p1102b15", "award": "Knight Bachelor", "year": 1934}
 {"person_id": "kgp_col1939-p1102b15", "award": "C.B.", "year": null}
-{"person_id": "kgp_col1939-p1102b15", "award": "C.M.G.", "year": 1918}
+{"person_id": "kgp_col1939-p1102b15", "award": "C.D.", "year": null}
 {"person_id": "kgp_col1939-p1102b15", "award": "D.S.O.", "year": 1916}
+{"person_id": "kgp_col1939-p1102b15", "award": "Croix d'officier du Mérite", "year": null}
+{"person_id": "kgp_col1939-p1102b15", "award": "American Distinguished Service Medal", "year": null}
+{"person_id": "kgp_col1939-p1102b15", "award": "K.B.E.", "year": 1935}
+{"person_id": "kgp_col1939-p1102b15", "award": "C.M.G.", "year": 1918}
 {"person_id": "kgp_col1939-p1102b15", "award": "Croix d'officier of Legion of Honour", "year": null}
 {"person_id": "kgp_col1939-p1102b15", "award": "American D.S.M.", "year": null}
 {"person_id": "kgp_col1940-p1046b20", "award": "A.R.A.N.Z.", "year": null}
@@ -12725,8 +12701,8 @@
 {"person_id": "kgp_col1956-p395b13", "award": "O.B.E.", "year": 1956}
 {"person_id": "kgp_col1950-p610b4", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1963-p432b2", "award": "C.M.G.", "year": 1952}
-{"person_id": "kgp_col1956-p395b15", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1951-p653b8", "award": "M.B.E.", "year": 1950}
+{"person_id": "kgp_col1951-p653b8", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1958-p433b8", "award": "O.B.E.", "year": 1958}
 {"person_id": "kgp_col1963-p432b4", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1963-p432b4", "award": "M.C.", "year": null}
@@ -13106,7 +13082,6 @@
 {"person_id": "kgp_col1948-p544b16", "award": "F.R.A.I.", "year": null}
 {"person_id": "kgp_col1948-p544b16", "award": "K.C.M.G.", "year": 1948}
 {"person_id": "kgp_col1919-p878b6", "award": "D.S.O.", "year": 1915}
-{"person_id": "kgp_col1957-p441b8", "award": "C.M.G.", "year": 1948}
 {"person_id": "kgp_col1951-p658b7", "award": "C.M.G.", "year": 1948}
 {"person_id": "kgp_col1867-p263b25", "award": "G.C.M.G.", "year": null}
 {"person_id": "kgp_col1867-p263b25", "award": "G.C.B.", "year": null}
@@ -13121,11 +13096,10 @@
 {"person_id": "kgp_col1965-p338b22", "award": "M.B.E.", "year": 1965}
 {"person_id": "kgp_col1964-p385b18", "award": "O.B.E.", "year": 1963}
 {"person_id": "kgp_col1940-p1055b11", "award": "O.B.E.", "year": 1939}
+{"person_id": "kgp_col1965-p338b25", "award": "O.B.E. (civ.)", "year": 1939}
+{"person_id": "kgp_col1965-p338b25", "award": "K.P.M.", "year": 1949}
 {"person_id": "kgp_col1965-p338b25", "award": "C.M.G.", "year": 1951}
 {"person_id": "kgp_col1965-p338b25", "award": "O.B.E.", "year": 1939}
-{"person_id": "kgp_col1965-p338b25", "award": "K.P.M.", "year": 1949}
-{"person_id": "kgp_col1951-p658b14", "award": "O.B.E. (civ.)", "year": 1939}
-{"person_id": "kgp_col1951-p658b14", "award": "K.P.M.", "year": 1949}
 {"person_id": "kgp_col1894-p546b15", "award": "K.C.M.G.", "year": 1886}
 {"person_id": "kgp_col1894-p546b15", "award": "P.C.", "year": 1921}
 {"person_id": "kgp_col1960-p473b2", "award": "Q.P.M.", "year": 1959}
@@ -13436,7 +13410,6 @@
 {"person_id": "kgp_col1920-p938b18", "award": "Khedive's bronze star", "year": null}
 {"person_id": "kgp_col1964-p389b18", "award": "C.P.M.", "year": null}
 {"person_id": "kgp_col1962-p457b10", "award": "M.B.E.", "year": 1961}
-{"person_id": "kgp_col1905-p718b14", "award": "C.M.G.", "year": 1884}
 {"person_id": "kgp_col1886-p505b9", "award": "C.M.G.", "year": 1884}
 {"person_id": "kgp_col1937-p1032b15", "award": "C.M.G.", "year": 1936}
 {"person_id": "kgp_col1934-p1018b12", "award": "I.S.O.", "year": 1929}
@@ -14596,9 +14569,9 @@
 {"person_id": "kgp_col1955-p367b21", "award": "M.B.E.", "year": null}
 {"person_id": "kgp_col1958-p454b25", "award": "O.B.E.", "year": 1958}
 {"person_id": "kgp_col1963-p457b15", "award": "C.P.M.", "year": null}
-{"person_id": "kgp_col1958-p455b2", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1925-p1015b15", "award": "F.R.G.S.", "year": null}
 {"person_id": "kgp_col1961-p482b2", "award": "C.B.E.", "year": 1957}
+{"person_id": "kgp_col1958-p455b2", "award": "O.B.E.", "year": null}
 {"person_id": "kgp_col1966-p327b17", "award": "C.P.M.", "year": 1965}
 {"person_id": "kgp_col1954-p351b12", "award": "K.P.M.", "year": null}
 {"person_id": "kgp_col1954-p351b12", "award": "C.P.M.", "year": null}

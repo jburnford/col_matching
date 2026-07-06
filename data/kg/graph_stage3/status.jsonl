@@ -243,7 +243,6 @@
 {"person_id": "kgp_col1956-p276b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "Sey."}
 {"person_id": "kgp_col1956-p276b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "G.C."}
 {"person_id": "kgp_col1911-p618b2", "status": "resigned", "expect_record": false, "reason": "resigned marker", "last_year": 1909, "last_place": "S. Australia"}
-{"person_id": "kgp_col1928-p977b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1933-p828b22", "status": "transferred_out:England", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1930, "last_place": "England"}
 {"person_id": "kgp_col1956-p276b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "S'pore"}
 {"person_id": "kgp_col1890-p442b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1882, "last_place": "Sydney"}
@@ -776,8 +775,7 @@
 {"person_id": "kgp_col1897-p456b2_s4", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1879, "last_place": "Straits Settlements"}
 {"person_id": "kgp_col1880-p344b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1877, "last_place": "Penang"}
 {"person_id": "kgp_col1949-p415b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Nyasa."}
-{"person_id": "kgp_col1907-p608b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1901, "last_place": "Corentyne coast district"}
-{"person_id": "kgp_col1911-p620b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1907, "last_place": "Berbice district"}
+{"person_id": "kgp_col1907-p608b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1907, "last_place": "Berbice district"}
 {"person_id": "kgp_col1912-p619b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1909, "last_place": "Lagos"}
 {"person_id": "kgp_col1867-p208b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1859, "last_place": "Mauritius"}
 {"person_id": "kgp_col1888-p432b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1884, "last_place": "Mauritius"}
@@ -1674,7 +1672,6 @@
 {"person_id": "kgp_col1958-p285b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1948, "last_place": "Sarawak"}
 {"person_id": "kgp_dol1935-p832b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "Tanganyika Territory"}
 {"person_id": "kgp_col1965-p210b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1964, "last_place": "Gib."}
-{"person_id": "kgp_col1951-p486b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "Seychelles"}
 {"person_id": "kgp_col1963-p264b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "Trin."}
 {"person_id": "kgp_col1905-p609b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1903, "last_place": "St. Lucia"}
 {"person_id": "kgp_col1961-p283b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "Nig."}
@@ -1877,9 +1874,7 @@
 {"person_id": "kgp_col1917-p699b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1916, "last_place": "New South Wales"}
 {"person_id": "kgp_col1915-p654b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1914, "last_place": "E.A.P."}
 {"person_id": "kgp_col1908-p603b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "B.C. Africa protectorate"}
-{"person_id": "kgp_col1925-p816b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1923, "last_place": "Bechuanaland protectorate police"}
 {"person_id": "kgp_col1931-p957b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "Bech. protectorate police"}
-{"person_id": "kgp_col1933-p840b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "Bech. protectorate police"}
 {"person_id": "kgp_col1950-p457b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Nig."}
 {"person_id": "kgp_col1897-p497b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1893, "last_place": "Malacca"}
 {"person_id": "kgp_col1963-p265b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "S.L."}
@@ -2029,11 +2024,11 @@
 {"person_id": "kgp_col1951-p489b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1914-p656b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1890, "last_place": "Devonport, Devon"}
 {"person_id": "kgp_col1918-p687b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1918, "last_place": "Newfoundland"}
-{"person_id": "kgp_col1956-p286b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1943, "last_place": "M.E."}
 {"person_id": "kgp_col1889-p443b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1886, "last_place": "British Guiana"}
 {"person_id": "kgp_col1930-p914b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1917, "last_place": "Newf'dld."}
-{"person_id": "kgp_col1951-p489b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "Nig."}
 {"person_id": "kgp_col1948-p416b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1951-p489b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "Nig."}
+{"person_id": "kgp_col1956-p286b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1943, "last_place": "M.E."}
 {"person_id": "kgp_col1966-p205b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "Uga."}
 {"person_id": "kgp_col1936-p837b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1920, "last_place": "Palestine"}
 {"person_id": "kgp_col1956-p286b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "C.O."}
@@ -2420,7 +2415,6 @@
 {"person_id": "kgp_col1948-p419b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1942, "last_place": "Pal."}
 {"person_id": "kgp_col1940-p881b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1937, "last_place": "F.M.S."}
 {"person_id": "kgp_col1905-p613b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1901, "last_place": "Lagos; Northern Nigeria"}
-{"person_id": "kgp_col1908-p606b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1900, "last_place": "Lagos-Northern Nigeria"}
 {"person_id": "kgp_col1867-p212b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_dol1935-p838b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1932, "last_place": "Tanganyika Territory"}
 {"person_id": "kgp_col1928-p994b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
@@ -2520,8 +2514,8 @@
 {"person_id": "kgp_col1888-p441b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1885, "last_place": "British Honduras"}
 {"person_id": "kgp_col1949-p426b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "G.C."}
 {"person_id": "kgp_col1948-p419b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "Ken."}
-{"person_id": "kgp_col1960-p304b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "city"}
 {"person_id": "kgp_col1948-p568b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1960-p304b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "city"}
 {"person_id": "kgp_col1963-p270b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "Aden"}
 {"person_id": "kgp_col1931-p962b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "Canada"}
 {"person_id": "kgp_col1954-p273b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "Maur."}
@@ -3293,11 +3287,10 @@
 {"person_id": "kgp_col1931-p969b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1929, "last_place": "Kedah"}
 {"person_id": "kgp_col1890-p456b25", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1966-p210b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "Uga."}
-{"person_id": "kgp_col1958-p296b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "C.A."}
 {"person_id": "kgp_col1966-p210b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1964-p237b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "J'ca"}
 {"person_id": "kgp_col1948-p423b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Maur."}
-{"person_id": "kgp_col1951-p498b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1945, "last_place": "C.A."}
+{"person_id": "kgp_col1958-p296b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "C.A."}
 {"person_id": "kgp_col1951-p498b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Nig."}
 {"person_id": "kgp_col1958-p296b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "Uga."}
 {"person_id": "kgp_col1955-p285b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "J'ca"}
@@ -3443,7 +3436,6 @@
 {"person_id": "kgp_col1925-p829b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1923, "last_place": "Prov. of Sabaragamuwa"}
 {"person_id": "kgp_col1910-p646b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1896, "last_place": "Selangor, Malay States"}
 {"person_id": "kgp_col1963-p276b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "J'ca"}
-{"person_id": "kgp_col1951-p499b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "J'ca. constabulary"}
 {"person_id": "kgp_col1963-p276b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Ken."}
 {"person_id": "kgp_col1965-p219b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1914-p668b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1911, "last_place": "Uganda protectorate"}
@@ -3498,9 +3490,8 @@
 {"person_id": "kgp_col1956-p293b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "Paya Lebar airport, S'pore"}
 {"person_id": "kgp_col1931-p970b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "N. Rhodesia"}
 {"person_id": "kgp_col1919-p726b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1912, "last_place": "Johore"}
-{"person_id": "kgp_col1948-p424b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1918, "last_place": "C.O."}
 {"person_id": "kgp_col1936-p850b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "res. council, Malacca"}
-{"person_id": "kgp_col1951-p499b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1940, "last_place": "C.O."}
+{"person_id": "kgp_col1948-p424b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1940, "last_place": "C.O."}
 {"person_id": "kgp_col1965-p219b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "E.A. posts and tels. department"}
 {"person_id": "kgp_col1963-p277b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "Nig."}
 {"person_id": "kgp_col1965-p219b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "Ken."}
@@ -4331,8 +4322,7 @@
 {"person_id": "kgp_col1960-p317b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "Ken."}
 {"person_id": "kgp_col1940-p896b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Kedah"}
 {"person_id": "kgp_col1949-p437b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "Ken."}
-{"person_id": "kgp_col1965-p223b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1951-p506b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "C.O."}
+{"person_id": "kgp_col1965-p223b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "C.O."}
 {"person_id": "kgp_col1899-p482b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1963-p283b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "J'ca"}
 {"person_id": "kgp_col1956-p298b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "Mal."}
@@ -5065,7 +5055,6 @@
 {"person_id": "kgp_col1940-p902b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "Lagos"}
 {"person_id": "kgp_col1922-p765b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1918, "last_place": "Newfoundland"}
 {"person_id": "kgp_col1867-p218b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "Western Australia"}
-{"person_id": "kgp_col1889-p459b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "West Australia"}
 {"person_id": "kgp_col1907-p631b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1891, "last_place": "land and survey department"}
 {"person_id": "kgp_col1877-p360b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1865, "last_place": "Western Australia"}
 {"person_id": "kgp_col1877-p360b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1870, "last_place": "Western Australia"}
@@ -5185,7 +5174,6 @@
 {"person_id": "kgp_col1899-p495b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1898, "last_place": "Newfoundland"}
 {"person_id": "kgp_col1950-p481b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "Ken."}
 {"person_id": "kgp_col1888-p455b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1885, "last_place": "Toledo district"}
-{"person_id": "kgp_col1883-p370b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1881, "last_place": "Belize"}
 {"person_id": "kgp_col1890-p466b21", "status": "resigned", "expect_record": false, "reason": "resigned marker", "last_year": 1897, "last_place": "Dominion"}
 {"person_id": "kgp_col1877-p360b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1873, "last_place": "district of Montreal"}
 {"person_id": "kgp_col1951-p513b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "G.C."}
@@ -5270,8 +5258,6 @@
 {"person_id": "kgp_col1878-p374b11", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1877, "last_place": "Mauritius"}
 {"person_id": "kgp_col1867-p219b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1857, "last_place": "Rivière du Rempart, Mauritius"}
 {"person_id": "kgp_col1948-p435b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1925, "last_place": "Maur. and Rodrigues"}
-{"person_id": "kgp_col1898-p465b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1897-p478b29", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1900-p532b29", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1911, "last_place": "Jamaica"}
 {"person_id": "kgp_col1963-p290b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "Nyasa"}
 {"person_id": "kgp_col1897-p478b29_s1", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1879, "last_place": "Cape of Good Hope"}
@@ -5573,8 +5559,7 @@
 {"person_id": "kgp_col1951-p516b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1945, "last_place": "Barb."}
 {"person_id": "kgp_col1966-p221b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1965, "last_place": "Tang."}
 {"person_id": "kgp_col1939-p968b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1937, "last_place": "Siam"}
-{"person_id": "kgp_col1915-p684b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1912, "last_place": "Madras Presidency"}
-{"person_id": "kgp_col1896-p567b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1897, "last_place": "Gray's Inn"}
+{"person_id": "kgp_col1896-p567b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1912, "last_place": "Madras Presidency"}
 {"person_id": "kgp_col1931-p987b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1929, "last_place": "Germiston"}
 {"person_id": "kgp_col1959-p329b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "Tang."}
 {"person_id": "kgp_col1966-p221b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1964, "last_place": "Fiji"}
@@ -5669,9 +5654,8 @@
 {"person_id": "kgp_col1889-p461b29", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1884, "last_place": "Victoria"}
 {"person_id": "kgp_col1948-p436b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1942, "last_place": "Nig."}
 {"person_id": "kgp_col1867-p220b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1864, "last_place": "Antigua"}
-{"person_id": "kgp_col1886-p424b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1895, "last_place": "Dominica"}
 {"person_id": "kgp_col1890-p468b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1888, "last_place": "Leeward Islands"}
-{"person_id": "kgp_col1909-p660b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "Antigua"}
+{"person_id": "kgp_col1886-p424b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "Antigua"}
 {"person_id": "kgp_col1949-p445b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1942, "last_place": "Pal."}
 {"person_id": "kgp_col1879-p388b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1872, "last_place": "Ceylon"}
 {"person_id": "kgp_col1950-p484b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1945, "last_place": "Nig."}
@@ -6431,12 +6415,11 @@
 {"person_id": "kgp_col1920-p799b15", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1924, "last_place": "Trinidad"}
 {"person_id": "kgp_col1963-p298b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "Uga."}
 {"person_id": "kgp_col1948-p441b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1945, "last_place": "N. Rhod."}
-{"person_id": "kgp_col1954-p286b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "N. Atlantic"}
 {"person_id": "kgp_col1923-p793b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1916, "last_place": "Accra"}
 {"person_id": "kgp_col1965-p235b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "Tang."}
 {"person_id": "kgp_col1961-p319b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "Swaz."}
 {"person_id": "kgp_col1936-p873b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "Hong Kong"}
-{"person_id": "kgp_col1951-p522b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "N. Atlantic ocean"}
+{"person_id": "kgp_col1954-p286b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "N. Atlantic"}
 {"person_id": "kgp_col1948-p441b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1940, "last_place": "Pal."}
 {"person_id": "kgp_col1936-p873b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1935, "last_place": "Natal"}
 {"person_id": "kgp_col1939-p975b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Colombo"}
@@ -6547,7 +6530,6 @@
 {"person_id": "kgp_col1963-p299b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "Maur."}
 {"person_id": "kgp_col1931-p995b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "Nyasaland"}
 {"person_id": "kgp_col1951-p523b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "G.C."}
-{"person_id": "kgp_col1923-p794b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1948-p442b8", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1933, "last_place": "Malta"}
 {"person_id": "kgp_col1908-p633b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "Newfoundland"}
 {"person_id": "kgp_col1954-p286b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "Tang."}
@@ -6764,9 +6746,7 @@
 {"person_id": "kgp_col1939-p972b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1932, "last_place": "Achimota"}
 {"person_id": "kgp_col1957-p326b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "Ghana"}
 {"person_id": "kgp_col1966-p227b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1966, "last_place": "Bah."}
-{"person_id": "kgp_col1877-p364b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1886-p428b11", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1898-p470b8", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1917-p736b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1914, "last_place": "Hong Kong"}
 {"person_id": "kgp_col1948-p442b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "Nig."}
 {"person_id": "kgp_col1883-p375b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1867, "last_place": "Perth, Western Australia"}
@@ -7293,7 +7273,6 @@
 {"person_id": "kgp_col1966-p230b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "Fiji"}
 {"person_id": "kgp_col1940-p920b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Nigeria"}
 {"person_id": "kgp_col1939-p981b2_s7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1927, "last_place": "Sudan, Uganda, Kenya, Tanganyika, Nyasaland, N. and S. Rhodesia and S. Africa"}
-{"person_id": "kgp_col1951-p528b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1959-p342b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_dol1935-p876b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1929, "last_place": "Barbuda"}
 {"person_id": "kgp_col1959-p342b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "H.K."}
@@ -7434,8 +7413,8 @@
 {"person_id": "kgp_col1936-p881b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1932, "last_place": "Gray's Inn"}
 {"person_id": "kgp_col1957-p330b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "Ghana"}
 {"person_id": "kgp_col1905-p637b16", "status": "transferred_out:Madras", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1881, "last_place": "Madras"}
-{"person_id": "kgp_col1917-p742b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1916, "last_place": "German East Africa"}
-{"person_id": "kgp_col1948-p446b11", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1918, "last_place": "Nyassaland protectorate"}
+{"person_id": "kgp_col1948-p446b11", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1918, "last_place": "Nyasa."}
+{"person_id": "kgp_col1917-p742b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "Mlanje district"}
 {"person_id": "kgp_col1915-p696b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1914, "last_place": "West Simcoe"}
 {"person_id": "kgp_col1965-p241b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "Tang."}
 {"person_id": "kgp_dol1935-p878b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1933, "last_place": "Canada"}
@@ -7721,8 +7700,6 @@
 {"person_id": "kgp_col1912-p794b9_s6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1891, "last_place": "N.S. Wales"}
 {"person_id": "kgp_col1966-p232b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1964, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1918-p731b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1911, "last_place": "F.M.S."}
-{"person_id": "kgp_col1867-p226b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1880-p369b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1894-p472b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1936-p883b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1935, "last_place": "S.S."}
 {"person_id": "kgp_col1867-p226b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1858, "last_place": "Ceylon"}
@@ -9082,8 +9059,7 @@
 {"person_id": "kgp_col1936-p894b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1920, "last_place": "Victoria Gaol, Hong Kong"}
 {"person_id": "kgp_col1959-p355b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "B. Hond."}
 {"person_id": "kgp_col1928-p1054b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "O.F.S."}
-{"person_id": "kgp_col1956-p321b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "G.C. railway"}
-{"person_id": "kgp_col1951-p541b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "G.C."}
+{"person_id": "kgp_col1951-p541b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "G.C. railway"}
 {"person_id": "kgp_col1928-p1054b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1924, "last_place": "Achimota, Gold Coast"}
 {"person_id": "kgp_col1888-p474b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1879, "last_place": "Essequibo"}
 {"person_id": "kgp_col1931-p1017b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1924, "last_place": "Prince of Wales college, Achimota, Gold Coast"}
@@ -9156,7 +9132,6 @@
 {"person_id": "kgp_col1907-p737b2_s23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1905, "last_place": "N. W. Territories"}
 {"person_id": "kgp_col1962-p337b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "St. Vin."}
 {"person_id": "kgp_col1960-p354b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "Ken. and Uga."}
-{"person_id": "kgp_col1950-p508b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1945, "last_place": "Ken. and Uga."}
 {"person_id": "kgp_col1957-p341b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "Bech. protectorate"}
 {"person_id": "kgp_col1965-p250b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1963, "last_place": "N. Heb."}
 {"person_id": "kgp_col1886-p441b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1871, "last_place": "Antigua"}
@@ -9209,7 +9184,6 @@
 {"person_id": "kgp_col1914-p711b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1911, "last_place": "Uganda railway"}
 {"person_id": "kgp_col1900-p546b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1881, "last_place": "Port Maria, Jamaica"}
 {"person_id": "kgp_col1960-p354b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "S'pore"}
-{"person_id": "kgp_col1950-p508b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Trengganu"}
 {"person_id": "kgp_col1906-p671b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1894, "last_place": "Sarawak"}
 {"person_id": "kgp_col1950-p508b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "Norfolk"}
 {"person_id": "kgp_col1921-p823b14", "status": "resigned", "expect_record": false, "reason": "resigned marker", "last_year": 1915, "last_place": "Mazaruni"}
@@ -9348,7 +9322,6 @@
 {"person_id": "kgp_col1963-p320b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "J'ca"}
 {"person_id": "kgp_col1965-p251b16", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1959, "last_place": "Nyas."}
 {"person_id": "kgp_col1960-p355b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "Nig."}
-{"person_id": "kgp_col1894-p479b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1891, "last_place": "West Aust."}
 {"person_id": "kgp_col1921-p824b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1917, "last_place": "Commonwealth government"}
 {"person_id": "kgp_dol1935-p892b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "Malta"}
 {"person_id": "kgp_col1907-p652b25", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1899, "last_place": "Mauritius"}
@@ -10426,8 +10399,7 @@
 {"person_id": "kgp_col1963-p329b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "Nig."}
 {"person_id": "kgp_col1965-p257b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1963, "last_place": "Som."}
 {"person_id": "kgp_col1960-p364b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "N. Rhod."}
-{"person_id": "kgp_col1956-p328b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Amsterdam"}
-{"person_id": "kgp_col1940-p945b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1937, "last_place": "F.M.S."}
+{"person_id": "kgp_col1940-p945b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Amsterdam"}
 {"person_id": "kgp_col1951-p552b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "Uga."}
 {"person_id": "kgp_col1933-p906b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1931, "last_place": "S.S. and F.M.S."}
 {"person_id": "kgp_col1929-p948b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "Cape of Good Hope"}
@@ -10435,9 +10407,7 @@
 {"person_id": "kgp_col1965-p257b25", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1939-p1001b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Transvaal Prov. divn."}
 {"person_id": "kgp_col1900-p553b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1896, "last_place": "Pretoria"}
-{"person_id": "kgp_col1922-p809b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1939-p1005b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1920-p830b2_s13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1910, "last_place": "Union of S. Africa"}
+{"person_id": "kgp_col1922-p809b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1910, "last_place": "Union of S. Africa"}
 {"person_id": "kgp_col1920-p830b2_s14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1901, "last_place": "Ceylon"}
 {"person_id": "kgp_col1919-p778b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1917, "last_place": "B. Guiana"}
 {"person_id": "kgp_col1936-p903b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "Gold Coast"}
@@ -10629,7 +10599,6 @@
 {"person_id": "kgp_col1867-p233b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "Falkland Islands"}
 {"person_id": "kgp_col1908-p658b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "Seychelles"}
 {"person_id": "kgp_col1931-p1031b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1929, "last_place": "Nigeria"}
-{"person_id": "kgp_col1960-p366b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "Tang."}
 {"person_id": "kgp_col1962-p349b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "E.A. met. department"}
 {"person_id": "kgp_col1962-p349b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "Fiji"}
 {"person_id": "kgp_col1965-p259b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "Tang."}
@@ -10637,7 +10606,7 @@
 {"person_id": "kgp_col1930-p985b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "Penang"}
 {"person_id": "kgp_col1936-p905b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1935, "last_place": "N. Rhodesia"}
 {"person_id": "kgp_col1951-p553b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1951-p554b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "Malya Sukumaland"}
+{"person_id": "kgp_col1960-p366b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "Tang."}
 {"person_id": "kgp_col1962-p349b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "Uga."}
 {"person_id": "kgp_col1951-p554b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1957-p352b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "Ken."}
@@ -10760,8 +10729,7 @@
 {"person_id": "kgp_col1965-p259b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1963, "last_place": "H.K."}
 {"person_id": "kgp_col1932-p943b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "St. George"}
 {"person_id": "kgp_col1867-p233b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "Trinidad"}
-{"person_id": "kgp_col1867-p233b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1866, "last_place": "Trinidad"}
-{"person_id": "kgp_col1894-p486b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1894-p486b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1866, "last_place": "Trinidad"}
 {"person_id": "kgp_col1905-p654b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1900, "last_place": "G. Coast"}
 {"person_id": "kgp_col1963-p332b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "S.Pac.H.S."}
 {"person_id": "kgp_col1907-p661b2", "status": "resigned", "expect_record": false, "reason": "resigned marker", "last_year": null, "last_place": null}
@@ -10967,8 +10935,7 @@
 {"person_id": "kgp_col1940-p949b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Hong Kong"}
 {"person_id": "kgp_col1966-p248b8", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1964, "last_place": "E.A.P. & T. administration"}
 {"person_id": "kgp_col1897-p475b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1880, "last_place": "Cape Colony"}
-{"person_id": "kgp_col1958-p348b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "N. Rhod."}
-{"person_id": "kgp_col1951-p557b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "N. Rhod."}
+{"person_id": "kgp_col1951-p557b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1965-p261b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1940-p949b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "N.S. Wales"}
 {"person_id": "kgp_col1960-p369b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "N. Nig."}
@@ -11294,8 +11261,6 @@
 {"person_id": "kgp_col1966-p249b25", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "E.A.R. & H."}
 {"person_id": "kgp_col1963-p336b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1963-p336b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "Tang."}
-{"person_id": "kgp_col1899-p520b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1909-p728b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1909, "last_place": "C.O."}
 {"person_id": "kgp_col1927-p935b5", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1917, "last_place": "Newfoundland"}
 {"person_id": "kgp_dol1935-p907b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1949-p480b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Uga."}
@@ -11577,7 +11542,6 @@
 {"person_id": "kgp_col1877-p381b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1868, "last_place": "Newfoundland"}
 {"person_id": "kgp_col1966-p250b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1964, "last_place": "Uga."}
 {"person_id": "kgp_col1957-p359b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "Pahang"}
-{"person_id": "kgp_col1940-p954b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1939-p1015b9_s2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1950-p525b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "Fiji"}
 {"person_id": "kgp_col1908-p663b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1905, "last_place": "E. Africa protectorate"}
@@ -11741,8 +11705,8 @@
 {"person_id": "kgp_col1962-p357b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "E.A.R. & H."}
 {"person_id": "kgp_col1900-p559b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1889, "last_place": "Transkeian territories, Cape colonial"}
 {"person_id": "kgp_col1921-p843b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1920, "last_place": "Rhodesian forest service"}
-{"person_id": "kgp_col1961-p361b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "C.O."}
-{"person_id": "kgp_col1948-p471b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "U.S. of S."}
+{"person_id": "kgp_col1961-p361b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "U.S. of S."}
+{"person_id": "kgp_col1948-p471b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "C.O."}
 {"person_id": "kgp_col1958-p354b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "B. Guiana"}
 {"person_id": "kgp_col1965-p265b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "Ken."}
 {"person_id": "kgp_col1966-p251b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1963, "last_place": "Basuto."}
@@ -12904,7 +12868,6 @@
 {"person_id": "kgp_col1934-p882b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1934-p882b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1923, "last_place": "Nyassaland protectorate"}
 {"person_id": "kgp_col1965-p273b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "E.A. posts and tels. department"}
-{"person_id": "kgp_col1951-p573b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Ken., Uga. and T.T."}
 {"person_id": "kgp_col1905-p662b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1902, "last_place": "Ceylon"}
 {"person_id": "kgp_col1928-p1085b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1921, "last_place": "Tanganyika Territory"}
 {"person_id": "kgp_col1939-p1042b20", "status": "resigned", "expect_record": false, "reason": "resigned marker", "last_year": 1935, "last_place": "tara"}
@@ -13694,7 +13657,6 @@
 {"person_id": "kgp_col1965-p278b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "Nyasa"}
 {"person_id": "kgp_col1936-p931b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1905-p667b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1899, "last_place": "Montserrat"}
-{"person_id": "kgp_col1937-p949b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "N. Selangor"}
 {"person_id": "kgp_col1932-p967b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1931, "last_place": "F.M.S."}
 {"person_id": "kgp_col1964-p311b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "H.K."}
 {"person_id": "kgp_col1939-p1030b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "N.S. Wales"}
@@ -13760,9 +13722,8 @@
 {"person_id": "kgp_col1957-p375b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "B. Guiana"}
 {"person_id": "kgp_col1898-p499b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1897, "last_place": "Cape"}
 {"person_id": "kgp_col1921-p859b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1918, "last_place": "Kuala Lumpur"}
-{"person_id": "kgp_col1925-p913b6", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1914, "last_place": "Australia and New Zealand"}
 {"person_id": "kgp_col1883-p405b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1894-p499b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1925-p913b6", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1914, "last_place": "Australia and New Zealand"}
 {"person_id": "kgp_col1948-p484b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1941, "last_place": "Mauritius"}
 {"person_id": "kgp_col1886-p459b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1897-p517b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1893, "last_place": "Ceylon"}
@@ -13945,15 +13906,13 @@
 {"person_id": "kgp_col1966-p263b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1963, "last_place": "B. Guiana"}
 {"person_id": "kgp_col1956-p348b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "Ken."}
 {"person_id": "kgp_col1917-p793b8", "status": "transferred_out:London", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1874, "last_place": "London"}
-{"person_id": "kgp_col1867-p240b28", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "Vancouver's Island"}
 {"person_id": "kgp_col1879-p419b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1877, "last_place": "Queensland"}
 {"person_id": "kgp_col1879-p419b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1875, "last_place": "Jamaica"}
 {"person_id": "kgp_col1936-p933b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "Ellice Is."}
 {"person_id": "kgp_col1958-p370b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "W.A.P."}
-{"person_id": "kgp_col1958-p370b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "C.O."}
 {"person_id": "kgp_col1889-p500b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1888, "last_place": "Mauritius"}
 {"person_id": "kgp_col1948-p484b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Uga."}
-{"person_id": "kgp_col1948-p484b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Ber."}
+{"person_id": "kgp_col1958-p370b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "C.O."}
 {"person_id": "kgp_col1958-p370b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "G. and E.I.C."}
 {"person_id": "kgp_col1951-p580b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1948, "last_place": "Gam."}
 {"person_id": "kgp_col1937-p952b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1935, "last_place": "Ceylon"}
@@ -14131,7 +14090,6 @@
 {"person_id": "kgp_col1917-p794b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1907, "last_place": "N.W. district"}
 {"person_id": "kgp_col1948-p485b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "S.L."}
 {"person_id": "kgp_col1966-p264b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "Barb."}
-{"person_id": "kgp_col1961-p382b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1964-p313b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "N. Nig."}
 {"person_id": "kgp_col1964-p313b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "Swaz."}
 {"person_id": "kgp_col1877-p388b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1875, "last_place": "British Guiana"}
@@ -14268,7 +14226,6 @@
 {"person_id": "kgp_col1965-p281b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "Uga."}
 {"person_id": "kgp_col1897-p517b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1892, "last_place": "Cape"}
 {"person_id": "kgp_col1966-p264b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "Ken."}
-{"person_id": "kgp_col1950-p545b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1964-p314b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "Basuto"}
 {"person_id": "kgp_col1964-p314b20_s1", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1964, "last_place": "Treasury"}
 {"person_id": "kgp_col1912-p713b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1908, "last_place": "Western system"}
@@ -14814,7 +14771,6 @@
 {"person_id": "kgp_col1914-p754b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1904, "last_place": "Mauritius"}
 {"person_id": "kgp_col1953-p291b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "Noumea"}
 {"person_id": "kgp_col1939-p1045b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1937, "last_place": "Nigeria"}
-{"person_id": "kgp_col1907-p682b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1898, "last_place": "Newfndl."}
 {"person_id": "kgp_col1908-p683b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1905, "last_place": "Newfndld."}
 {"person_id": "kgp_col1886-p464b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1887, "last_place": "Kalutara"}
 {"person_id": "kgp_col1961-p388b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "Nyasa."}
@@ -15067,7 +15023,6 @@
 {"person_id": "kgp_col1950-p550b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "bankruptcy department"}
 {"person_id": "kgp_col1959-p403b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Nig. rlwy."}
 {"person_id": "kgp_col1950-p550b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "Nig."}
-{"person_id": "kgp_col1867-p243b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1877-p391b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1872, "last_place": "colonial office"}
 {"person_id": "kgp_col1955-p326b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1940-p985b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1937, "last_place": "N. Rhodesia"}
@@ -15181,9 +15136,8 @@
 {"person_id": "kgp_col1964-p321b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "Bah."}
 {"person_id": "kgp_col1939-p1047b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "S.L."}
 {"person_id": "kgp_col1888-p501b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1876, "last_place": "Bahamas"}
-{"person_id": "kgp_col1932-p979b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1931, "last_place": "audit department"}
 {"person_id": "kgp_col1910-p719b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1895, "last_place": "Bahamas"}
-{"person_id": "kgp_col1950-p551b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "public acctns., Bah."}
+{"person_id": "kgp_col1932-p979b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "public acctns., Bah."}
 {"person_id": "kgp_col1950-p551b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1948, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1963-p367b17", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1957, "last_place": "S.L."}
 {"person_id": "kgp_col1963-p367b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "S.L."}
@@ -15240,7 +15194,6 @@
 {"person_id": "kgp_col1937-p962b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "F.M.S."}
 {"person_id": "kgp_col1964-p322b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "H.K."}
 {"person_id": "kgp_col1960-p404b3_s1", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "H.K."}
-{"person_id": "kgp_col1960-p404b3_s2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "E.A. posts and tels. department"}
 {"person_id": "kgp_col1963-p368b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "E.A. posts and tels. department"}
 {"person_id": "kgp_col1899-p536b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1892, "last_place": "Grenada"}
 {"person_id": "kgp_col1954-p314b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "G.C."}
@@ -15612,7 +15565,6 @@
 {"person_id": "kgp_col1922-p851b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1913, "last_place": "Wellington"}
 {"person_id": "kgp_col1939-p1050b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "Palestine"}
 {"person_id": "kgp_col1964-p325b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "W.I."}
-{"person_id": "kgp_col1948-p495b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Cabinet officer"}
 {"person_id": "kgp_col1963-p371b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "S.L."}
 {"person_id": "kgp_col1964-p325b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1942, "last_place": "Ken."}
 {"person_id": "kgp_col1925-p928b5", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1924, "last_place": "Union of S. Africa"}
@@ -15664,7 +15616,6 @@
 {"person_id": "kgp_col1927-p972b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "Kenya"}
 {"person_id": "kgp_col1933-p948b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "Nairobi"}
 {"person_id": "kgp_col1963-p372b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "S. Trin."}
-{"person_id": "kgp_col1951-p595b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "Trin."}
 {"person_id": "kgp_col1963-p372b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "Trin."}
 {"person_id": "kgp_col1956-p358b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "gr. E"}
 {"person_id": "kgp_col1963-p372b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1948, "last_place": "Uga."}
@@ -16328,8 +16279,8 @@
 {"person_id": "kgp_col1966-p277b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "Nyas."}
 {"person_id": "kgp_col1940-p999b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "Nigeria"}
 {"person_id": "kgp_col1963-p381b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "T.W.I."}
-{"person_id": "kgp_col1965-p297b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1951-p604b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Caribbean"}
+{"person_id": "kgp_col1951-p604b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1965-p297b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Caribbean"}
 {"person_id": "kgp_col1886-p471b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1963-p381b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "Uga."}
 {"person_id": "kgp_col1867-p246b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1857, "last_place": "Mauritius"}
@@ -16363,7 +16314,6 @@
 {"person_id": "kgp_col1966-p278b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "Chilungula/Masasi constrn."}
 {"person_id": "kgp_col1964-p334b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "Tang."}
 {"person_id": "kgp_col1957-p395b25", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "Kelantan"}
-{"person_id": "kgp_col1951-p604b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1948, "last_place": "S'pore."}
 {"person_id": "kgp_col1951-p604b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1942, "last_place": "Ken."}
 {"person_id": "kgp_col1940-p999b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "F.M.S."}
 {"person_id": "kgp_col1905-p681b11", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1881, "last_place": "Cyprus"}
@@ -16557,7 +16507,6 @@
 {"person_id": "kgp_col1954-p320b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "Uga."}
 {"person_id": "kgp_col1923-p878b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1917, "last_place": "P.E.I."}
 {"person_id": "kgp_col1965-p298b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "Ken."}
-{"person_id": "kgp_col1950-p567b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Pal. conf."}
 {"person_id": "kgp_col1886-p473b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1881, "last_place": "Quebec"}
 {"person_id": "kgp_col1956-p365b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "Trin."}
 {"person_id": "kgp_col1950-p567b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "Seychelles"}
@@ -16740,7 +16689,6 @@
 {"person_id": "kgp_col1939-p1051b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Somaliland"}
 {"person_id": "kgp_col1940-p995b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "B. Somaliland"}
 {"person_id": "kgp_col1940-p995b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Nig."}
-{"person_id": "kgp_col1908-p690b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "Glendairy prison"}
 {"person_id": "kgp_col1921-p879b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1919, "last_place": "Br. Hond."}
 {"person_id": "kgp_col1900-p578b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1927-p976b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1919, "last_place": "Accra"}
@@ -17153,8 +17101,7 @@
 {"person_id": "kgp_col1958-p395b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "S'pore"}
 {"person_id": "kgp_col1960-p422b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "Uga."}
 {"person_id": "kgp_col1950-p570b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1937-p979b17_s1", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1922, "last_place": "st."}
-{"person_id": "kgp_col1948-p508b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1948-p508b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1922, "last_place": "st."}
 {"person_id": "kgp_col1913-p748b6", "status": "transferred_out:India", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1905, "last_place": "India"}
 {"person_id": "kgp_col1961-p410b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "H.K."}
 {"person_id": "kgp_col1956-p368b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "H.K."}
@@ -17251,8 +17198,7 @@
 {"person_id": "kgp_col1878-p414b20", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1872, "last_place": "St. Kitts"}
 {"person_id": "kgp_col1912-p737b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "St. Kitts"}
 {"person_id": "kgp_dol1935-p956b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "B. Hond."}
-{"person_id": "kgp_col1888-p514b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1886, "last_place": "southern province"}
-{"person_id": "kgp_col1886-p476b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1883, "last_place": "N.W. province"}
+{"person_id": "kgp_col1886-p476b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1886, "last_place": "southern province"}
 {"person_id": "kgp_col1937-p980b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "Dominica"}
 {"person_id": "kgp_col1937-p980b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "N. Sembilan"}
 {"person_id": "kgp_col1953-p299b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "Bah."}
@@ -17457,7 +17403,6 @@
 {"person_id": "kgp_col1965-p302b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1964, "last_place": "Uga."}
 {"person_id": "kgp_col1939-p1063b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "Kenya"}
 {"person_id": "kgp_col1958-p396b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "W. Nig."}
-{"person_id": "kgp_col1877-p399b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1867, "last_place": "Midland circuit"}
 {"person_id": "kgp_col1880-p407b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1884, "last_place": "Colombo"}
 {"person_id": "kgp_col1919-p835b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1916, "last_place": "N. Zealand"}
 {"person_id": "kgp_col1867-p249b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "Ceylon"}
@@ -17926,8 +17871,8 @@
 {"person_id": "kgp_col1915-p770b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1905, "last_place": "Zanzibar"}
 {"person_id": "kgp_col1920-p882b14", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1912, "last_place": "Hong Kong"}
 {"person_id": "kgp_col1917-p817b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1919, "last_place": "Trinidad"}
-{"person_id": "kgp_col1905-p683b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1895, "last_place": "Br. Guiana"}
-{"person_id": "kgp_col1907-p692b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1888, "last_place": "Suddie"}
+{"person_id": "kgp_col1905-p683b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1887, "last_place": "British Guiana"}
+{"person_id": "kgp_col1907-p692b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1895, "last_place": "Br. Guiana"}
 {"person_id": "kgp_col1936-p957b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "Gold Coast"}
 {"person_id": "kgp_col1966-p279b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1965, "last_place": "E.A.P. & T. administration"}
 {"person_id": "kgp_col1936-p957b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1933, "last_place": "S'pore"}
@@ -18309,7 +18254,6 @@
 {"person_id": "kgp_col1940-p1010b13", "status": "transferred_out:London", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1939, "last_place": "London"}
 {"person_id": "kgp_col1948-p512b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Pal."}
 {"person_id": "kgp_col1965-p305b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "B.G."}
-{"person_id": "kgp_col1956-p371b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "Gib."}
 {"person_id": "kgp_col1948-p512b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "Gib."}
 {"person_id": "kgp_col1909-p769b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1904, "last_place": "C.O."}
 {"person_id": "kgp_col1951-p616b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "Ken."}
@@ -18454,7 +18398,6 @@
 {"person_id": "kgp_col1934-p974b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1932, "last_place": "Hong Kong"}
 {"person_id": "kgp_dol1935-p962b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "Hong Kong"}
 {"person_id": "kgp_col1956-p371b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "E.A.P. & T."}
-{"person_id": "kgp_col1951-p617b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Ken., Uga. and T.T."}
 {"person_id": "kgp_col1948-p513b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1929, "last_place": "Nig."}
 {"person_id": "kgp_col1920-p893b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1918, "last_place": "E. Africa protectorate"}
 {"person_id": "kgp_col1867-p251b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1862, "last_place": "Western Australia"}
@@ -19015,7 +18958,6 @@
 {"person_id": "kgp_col1963-p397b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "U.K."}
 {"person_id": "kgp_col1880-p412b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1879, "last_place": "Province Wellesley"}
 {"person_id": "kgp_col1886-p482b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1875, "last_place": "Trinidad"}
-{"person_id": "kgp_col1888-p521b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1913-p757b6", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1948-p515b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "T.T."}
 {"person_id": "kgp_col1934-p892b2_s1", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1932, "last_place": "Jaffna"}
@@ -19719,8 +19661,7 @@
 {"person_id": "kgp_col1906-p722b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1905, "last_place": "Malacca"}
 {"person_id": "kgp_col1890-p534b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1887, "last_place": "Kandy"}
 {"person_id": "kgp_col1915-p787b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1912, "last_place": "Sandakan"}
-{"person_id": "kgp_col1955-p342b9", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1954, "last_place": "Uga."}
-{"person_id": "kgp_col1951-p626b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1951-p626b10", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1954, "last_place": "Uga."}
 {"person_id": "kgp_col1867-p254b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1856, "last_place": "war department"}
 {"person_id": "kgp_col1951-p626b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1948, "last_place": "J'ca."}
 {"person_id": "kgp_col1900-p591b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1899, "last_place": "Ceylon"}
@@ -20797,7 +20738,6 @@
 {"person_id": "kgp_col1958-p415b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "Fed. of Mal."}
 {"person_id": "kgp_col1963-p410b25", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "B.G."}
 {"person_id": "kgp_col1965-p319b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "Zanz."}
-{"person_id": "kgp_col1889-p534b11_s1", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1865, "last_place": "Milton"}
 {"person_id": "kgp_col1896-p636b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1865, "last_place": "Milton"}
 {"person_id": "kgp_col1889-p534b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1867, "last_place": "Straits Settlements"}
 {"person_id": "kgp_col1927-p1013b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1921, "last_place": "F.M.S."}
@@ -21259,10 +21199,9 @@
 {"person_id": "kgp_col1940-p1034b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "Zanzibar"}
 {"person_id": "kgp_col1966-p298b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1965, "last_place": "Nyasa."}
 {"person_id": "kgp_col1888-p531b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1887, "last_place": "New South Wales"}
-{"person_id": "kgp_col1963-p414b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1963, "last_place": "C.O."}
 {"person_id": "kgp_col1930-p1071b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1927, "last_place": "Uganda"}
 {"person_id": "kgp_col1889-p536b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1888, "last_place": "N.S.W."}
-{"person_id": "kgp_col1951-p637b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1963-p414b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1963, "last_place": "C.O."}
 {"person_id": "kgp_col1949-p543b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "Zanz."}
 {"person_id": "kgp_col1951-p637b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1948-p527b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Uga."}
@@ -21463,7 +21402,6 @@
 {"person_id": "kgp_col1950-p597b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Negri Sembilan"}
 {"person_id": "kgp_col1948-p529b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "W.I."}
 {"person_id": "kgp_col1965-p323b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "C.O."}
-{"person_id": "kgp_col1951-p639b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "Nyasa."}
 {"person_id": "kgp_col1949-p545b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "T.T."}
 {"person_id": "kgp_col1912-p762b17", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1918, "last_place": "Br. Honduras"}
 {"person_id": "kgp_col1922-p897b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1917, "last_place": "Singapore"}
@@ -21716,7 +21654,6 @@
 {"person_id": "kgp_col1913-p776b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1911, "last_place": "N. Nigeria"}
 {"person_id": "kgp_col1933-p990b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "F.M.S. railways"}
 {"person_id": "kgp_col1960-p454b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "Oxford university"}
-{"person_id": "kgp_col1951-p640b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1966-p301b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1965, "last_place": "H.K."}
 {"person_id": "kgp_col1933-p990b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1966-p301b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "H.K."}
@@ -21833,8 +21770,7 @@
 {"person_id": "kgp_col1939-p1094b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1937, "last_place": "Fiji"}
 {"person_id": "kgp_col1909-p789b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1897, "last_place": "S. Australia"}
 {"person_id": "kgp_col1886-p495b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1894-p536b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1898-p533b4", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1892, "last_place": "colonial office"}
+{"person_id": "kgp_col1894-p536b19", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1892, "last_place": "colonial office"}
 {"person_id": "kgp_col1914-p802b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1905, "last_place": "Uganda"}
 {"person_id": "kgp_col1956-p387b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Tang."}
 {"person_id": "kgp_col1939-p1094b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "N. Rhodesia"}
@@ -21946,8 +21882,6 @@
 {"person_id": "kgp_col1962-p437b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "Lagos and S. Cams."}
 {"person_id": "kgp_col1955-p350b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "Barb."}
 {"person_id": "kgp_col1919-p863b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1925-p978b15", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1920-p918b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1966-p302b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "Fiji"}
 {"person_id": "kgp_col1951-p642b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "Nig."}
 {"person_id": "kgp_col1940-p1039b9", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1937, "last_place": "Barbados"}
@@ -21995,7 +21929,6 @@
 {"person_id": "kgp_col1948-p531b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Haifa"}
 {"person_id": "kgp_col1951-p642b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1931, "last_place": "Pal."}
 {"person_id": "kgp_col1894-p537b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1879, "last_place": "Jamaica"}
-{"person_id": "kgp_col1888-p535b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1879, "last_place": "Port Antonio (now eastern) district court"}
 {"person_id": "kgp_col1898-p533b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1887, "last_place": "N.S.W."}
 {"person_id": "kgp_col1929-p1042b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1904, "last_place": "Ilesha"}
 {"person_id": "kgp_col1928-p1162b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1904, "last_place": "Ilesha, interior department"}
@@ -22361,8 +22294,7 @@
 {"person_id": "kgp_col1959-p458b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "Uga."}
 {"person_id": "kgp_col1923-p921b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1914, "last_place": "S. Aust."}
 {"person_id": "kgp_col1950-p602b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Trin."}
-{"person_id": "kgp_col1906-p736b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1900, "last_place": "Southern Nigeria"}
-{"person_id": "kgp_col1899-p565b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1899-p565b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1900, "last_place": "Southern Nigeria"}
 {"person_id": "kgp_col1950-p602b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "H.K."}
 {"person_id": "kgp_col1924-p956b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1922, "last_place": "S. Africa (Cape Prov. division)"}
 {"person_id": "kgp_col1962-p441b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "C.O."}
@@ -22727,10 +22659,10 @@
 {"person_id": "kgp_col1953-p312b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1951, "last_place": "Som."}
 {"person_id": "kgp_col1948-p536b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1941, "last_place": "Nig."}
 {"person_id": "kgp_col1964-p376b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1962, "last_place": "Ken."}
+{"person_id": "kgp_col1905-p710b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1889, "last_place": "W. Australia"}
 {"person_id": "kgp_col1894-p540b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1890, "last_place": "S. Australia"}
 {"person_id": "kgp_col1913-p782b18", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1908, "last_place": "S. Australia"}
-{"person_id": "kgp_col1896-p646b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1889, "last_place": "West Australia"}
-{"person_id": "kgp_col1905-p710b8", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1889, "last_place": "W. Australia"}
+{"person_id": "kgp_col1896-p646b18", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1889, "last_place": "West Australia"}
 {"person_id": "kgp_col1960-p463b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1959, "last_place": "N. Rhod."}
 {"person_id": "kgp_col1948-p536b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Uga."}
 {"person_id": "kgp_col1939-p1101b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "Kedah"}
@@ -22872,7 +22804,6 @@
 {"person_id": "kgp_col1961-p453b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "Tang."}
 {"person_id": "kgp_col1927-p1031b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "Palestine"}
 {"person_id": "kgp_col1909-p796b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1907, "last_place": "Transvaal agt.-gen.'s office, London"}
-{"person_id": "kgp_col1937-p1019b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1939-p1102b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1940-p1046b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "N.Z."}
 {"person_id": "kgp_col1966-p307b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1964, "last_place": "E.A.P. & T. administration"}
@@ -23255,8 +23186,7 @@
 {"person_id": "kgp_col1950-p610b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "Nig."}
 {"person_id": "kgp_col1963-p432b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "Malta"}
 {"person_id": "kgp_col1963-p432b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "J'ca"}
-{"person_id": "kgp_col1956-p395b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "S.L."}
-{"person_id": "kgp_col1951-p653b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "S.L."}
+{"person_id": "kgp_col1951-p653b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "S.L."}
 {"person_id": "kgp_col1957-p436b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "Ghana"}
 {"person_id": "kgp_col1966-p309b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1954, "last_place": "Fiji"}
 {"person_id": "kgp_col1958-p433b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
@@ -23594,7 +23524,6 @@
 {"person_id": "kgp_col1894-p544b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1892, "last_place": "Lagos"}
 {"person_id": "kgp_col1867-p262b27", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1848, "last_place": "Lancashire"}
 {"person_id": "kgp_col1913-p789b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1912, "last_place": "Uganda railway"}
-{"person_id": "kgp_col1917-p862b2_s10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1912, "last_place": "Uganda railway"}
 {"person_id": "kgp_col1889-p547b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1872, "last_place": "Queensland"}
 {"person_id": "kgp_col1936-p1005b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1935, "last_place": "S. Rhodesia"}
 {"person_id": "kgp_col1964-p383b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "Ken."}
@@ -23925,8 +23854,7 @@
 {"person_id": "kgp_col1919-p878b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1901, "last_place": "E. Africa and Uganda Protos."}
 {"person_id": "kgp_col1966-p313b5", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1965, "last_place": "Nyas."}
 {"person_id": "kgp_col1917-p865b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1916, "last_place": "New South Wales"}
-{"person_id": "kgp_col1957-p441b8", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1950, "last_place": "Kongwa"}
-{"person_id": "kgp_col1951-p658b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "commission on Zanz. clove ind."}
+{"person_id": "kgp_col1951-p658b7", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1950, "last_place": "Kongwa"}
 {"person_id": "kgp_col1958-p437b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "Sarawak"}
 {"person_id": "kgp_col1921-p941b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1920, "last_place": "New S. Wales"}
 {"person_id": "kgp_col1867-p263b25", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1866, "last_place": "Malta"}
@@ -23949,7 +23877,6 @@
 {"person_id": "kgp_col1957-p441b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "Cyp."}
 {"person_id": "kgp_col1940-p1055b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "Zanzibar"}
 {"person_id": "kgp_col1965-p338b25", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1953, "last_place": "C.O."}
-{"person_id": "kgp_col1951-p658b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "Nig."}
 {"person_id": "kgp_col1959-p471b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "Fed. of Nig."}
 {"person_id": "kgp_col1894-p546b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "N.Z."}
 {"person_id": "kgp_col1931-p1141b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "Barbados"}
@@ -24183,7 +24110,6 @@
 {"person_id": "kgp_col1911-p777b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1897, "last_place": "Singapore"}
 {"person_id": "kgp_col1883-p448b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_dol1935-p1005b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "English schls."}
-{"person_id": "kgp_col1913-p792b2_s9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1912, "last_place": "police school"}
 {"person_id": "kgp_col1918-p852b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1910, "last_place": "Union of S. Africa"}
 {"person_id": "kgp_col1934-p1016b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1925, "last_place": "Tanganyika Territory"}
 {"person_id": "kgp_col1963-p438b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "S. Leone"}
@@ -24457,8 +24383,7 @@
 {"person_id": "kgp_col1867-p265b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1924-p974b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1923, "last_place": "E.A.P."}
 {"person_id": "kgp_col1923-p939b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1930, "last_place": "Ashanti and N. Territories"}
-{"person_id": "kgp_col1905-p718b14", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1853, "last_place": "New Providence"}
-{"person_id": "kgp_col1886-p505b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1881, "last_place": "Bahamas"}
+{"person_id": "kgp_col1886-p505b9", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1881, "last_place": "Bahamas"}
 {"person_id": "kgp_col1937-p1032b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1931, "last_place": "Hong Kong"}
 {"person_id": "kgp_col1934-p1018b12", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "Freetown"}
 {"person_id": "kgp_col1955-p360b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1953, "last_place": "S'pore"}
@@ -25673,7 +25598,6 @@
 {"person_id": "kgp_col1951-p510b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1931, "last_place": "Union of S. Africa"}
 {"person_id": "kgp_col1921-p955b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1916, "last_place": "Basutoland"}
 {"person_id": "kgp_col1964-p397b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "E.A. posts and tels. department"}
-{"person_id": "kgp_col1951-p672b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "Ken., Uga. and T.T. posts and tels. department"}
 {"person_id": "kgp_col1888-p553b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1886, "last_place": "British Bechuanaland"}
 {"person_id": "kgp_col1897-p574b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1893, "last_place": "Lagos Prison"}
 {"person_id": "kgp_col1877-p423b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "Western Australia"}
@@ -25803,7 +25727,6 @@
 {"person_id": "kgp_col1951-p673b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "Barb."}
 {"person_id": "kgp_col1963-p450b25", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1962, "last_place": "W.I. Fed."}
 {"person_id": "kgp_col1890-p562b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1888, "last_place": "Saint James, Jamaica"}
-{"person_id": "kgp_col1890-p562b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1861, "last_place": "Barbados"}
 {"person_id": "kgp_col1867-p268b29", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1861, "last_place": "Island of Barbados"}
 {"person_id": "kgp_col1879-p464b17", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1877, "last_place": "Canada"}
 {"person_id": "kgp_col1966-p323b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "Montserrat"}
@@ -26318,7 +26241,6 @@
 {"person_id": "kgp_col1867-p270b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "Bahamas"}
 {"person_id": "kgp_col1937-p1047b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1935, "last_place": "S.S."}
 {"person_id": "kgp_col1940-p1075b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_col1883-p456b28", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1881, "last_place": "Colonial Office"}
 {"person_id": "kgp_col1886-p512b29", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1881, "last_place": "Colonial Office"}
 {"person_id": "kgp_col1933-p1028b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1932, "last_place": "Tanganyika Territory"}
 {"person_id": "kgp_col1889-p560b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1885, "last_place": "Victoria"}
@@ -26518,8 +26440,6 @@
 {"person_id": "kgp_col1953-p324b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1950, "last_place": "E.A."}
 {"person_id": "kgp_col1937-p1049b3", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "Penang"}
 {"person_id": "kgp_col1963-p457b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1961, "last_place": "Tristan"}
-{"person_id": "kgp_col1905-p726b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1902, "last_place": "O.R.C."}
-{"person_id": "kgp_col1907-p737b2_s21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1902, "last_place": "treasury"}
 {"person_id": "kgp_col1928-p1206b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1920, "last_place": "Kenya"}
 {"person_id": "kgp_col1912-p795b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1906, "last_place": "treasury, O.R.C."}
 {"person_id": "kgp_col1961-p481b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1957, "last_place": "S. Leone"}
@@ -26566,11 +26486,10 @@
 {"person_id": "kgp_col1940-p1076b22", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1939, "last_place": "W.P."}
 {"person_id": "kgp_col1963-p457b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "H.K."}
 {"person_id": "kgp_col1894-p558b8", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1880, "last_place": "government stock farm"}
-{"person_id": "kgp_col1958-p455b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "E. regn."}
 {"person_id": "kgp_col1925-p1015b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1909, "last_place": "Canada"}
 {"person_id": "kgp_col1961-p482b2", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1956, "last_place": "Uga."}
 {"person_id": "kgp_col1867-p270b14", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1863, "last_place": "Cariboo, British Columbia"}
-{"person_id": "kgp_col1950-p634b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "eastern region"}
+{"person_id": "kgp_col1958-p455b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "E. regn."}
 {"person_id": "kgp_col1950-p634b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "S.L."}
 {"person_id": "kgp_col1960-p492b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1945, "last_place": "Maur."}
 {"person_id": "kgp_col1966-p327b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1958, "last_place": "N. Rhod."}
@@ -26717,7 +26636,7 @@
 {"person_id": "kgp_col1927-p1064b7", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1923, "last_place": "N. Nigeria"}
 {"person_id": "kgp_col1907-p738b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1901, "last_place": "St. Kitts"}
 {"person_id": "kgp_col1963-p458b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1956, "last_place": "Fiji"}
-{"person_id": "kgp_col1888-p557b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1886, "last_place": "St. Kitts"}
+{"person_id": "kgp_col1888-p557b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1865, "last_place": "Basseterre"}
 {"person_id": "kgp_col1898-p551b26", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1893, "last_place": "Lagos"}
 {"person_id": "kgp_col1925-p1017b4", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1937, "last_place": "Leeward Is."}
 {"person_id": "kgp_col1963-p458b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1948, "last_place": "Uga."}
@@ -26845,7 +26764,6 @@
 {"person_id": "kgp_col1957-p460b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1949, "last_place": "Basuto."}
 {"person_id": "kgp_col1957-p460b15", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "Trin."}
 {"person_id": "kgp_col1957-p460b16", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1952, "last_place": "Trin."}
-{"person_id": "kgp_col1890-p565b20", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1887, "last_place": "Gold Coast Colony"}
 {"person_id": "kgp_col1934-p1037b24", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1931, "last_place": "Gold Coast"}
 {"person_id": "kgp_col1963-p460b2", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "Nig."}
 {"person_id": "kgp_col1890-p565b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1887, "last_place": "Cape of Good Hope"}
@@ -26882,7 +26800,6 @@
 {"person_id": "kgp_col1960-p495b19", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1941, "last_place": "Nig."}
 {"person_id": "kgp_col1957-p461b10", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1947, "last_place": "Nig."}
 {"person_id": "kgp_col1963-p460b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "Uga."}
-{"person_id": "kgp_col1937-p1051b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1936, "last_place": "Malaya"}
 {"person_id": "kgp_col1939-p1135b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1938, "last_place": "F.M.S."}
 {"person_id": "kgp_col1936-p1032b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1935, "last_place": "Nyasaland"}
 {"person_id": "kgp_col1886-p514b8", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1889, "last_place": "Mauritius"}
@@ -27586,8 +27503,8 @@
 {"person_id": "kgp_col1939-p1141b6", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1934, "last_place": "Gold Coast"}
 {"person_id": "kgp_col1950-p643b9", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1957-p465b23", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1955, "last_place": "G.C."}
-{"person_id": "kgp_col1953-p328b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1948-p568b21", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
+{"person_id": "kgp_col1953-p328b13", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_col1965-p360b11", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1960, "last_place": "N. Borneo"}
 {"person_id": "kgp_col1867-p272b17", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1862, "last_place": "Tobago"}
 {"person_id": "kgp_col1867-p272b18", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1866, "last_place": "Tobago"}

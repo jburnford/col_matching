@@ -12,6 +12,10 @@ data/kg/career_event_corrections.json.
 
 Pass 1 (this run): parse the governors tables into (colony, name, year) rows.
 Pass 2: join to the careers spine by surname+colony and flag year mismatches.
+
+Corrections are folded UPSTREAM into data/kg/career_year_fixups.json (applied by
+kg_apply_year_fixups.py, the final step of reemit_dedup.sh) — NOT the retired
+downstream data/kg/career_event_corrections.json.
 """
 import json, re, glob, collections, sys
 from pathlib import Path

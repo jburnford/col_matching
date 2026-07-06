@@ -1,18 +1,18 @@
 {"id": "Q1277719", "label": "East African Railways and Harbours Corporation", "type": "railway", "source": "mcp", "country_qid": null, "n_people": 175}
-{"id": "colkg:East_African_Posts_and_Telegraphs", "label": "East African Posts and Telegraphs", "type": "posts_telegraphs", "source": "internal", "country_qid": null, "related_qids": {"successor_kenya": "Q6392684", "admin_parent": "Q63616623"}, "n_people": 169}
+{"id": "colkg:East_African_Posts_and_Telegraphs", "label": "East African Posts and Telegraphs", "type": "posts_telegraphs", "source": "internal", "country_qid": null, "related_qids": {"successor_kenya": "Q6392684", "admin_parent": "Q63616623"}, "n_people": 167}
 {"id": "Q6392758", "label": "Kenya and Uganda Railways and Harbours", "type": "railway", "source": "mcp", "country_qid": null, "n_people": 79}
-{"id": "Q1110907", "label": "Colonial Office", "type": "colonial_office", "source": "mcp", "country_qid": "Q145", "n_people": 68}
-{"id": "Q500115", "label": "Uganda Railway", "type": "railway", "source": "mcp", "country_qid": null, "n_people": 55}
+{"id": "Q1110907", "label": "Colonial Office", "type": "colonial_office", "source": "mcp", "country_qid": "Q145", "n_people": 67}
+{"id": "Q500115", "label": "Uganda Railway", "type": "railway", "source": "mcp", "country_qid": null, "n_people": 54}
 {"id": "Q5440688", "label": "Federated Malay States Railways", "type": "railway", "source": "mcp", "country_qid": null, "n_people": 53}
 {"id": "Q1334063", "label": "Nigerian Railway Corporation", "type": "railway", "source": "mcp", "country_qid": "Q1033", "n_people": 32}
 {"id": "Q3109989", "label": "Gold Coast Government Railways", "type": "railway", "source": "reuse", "country_qid": null, "n_people": 32}
 {"id": "Q26128885", "label": "Tanganyika Railway", "type": "railway", "source": "mcp", "country_qid": null, "n_people": 30}
-{"id": "Q2060703", "label": "British War Office", "type": "organisation", "source": "mcp", "country_qid": "Q145", "n_people": 23}
+{"id": "Q2060703", "label": "British War Office", "type": "organisation", "source": "mcp", "country_qid": "Q145", "n_people": 22}
 {"id": "Q2920352", "label": "Palestine Police Force", "type": "police", "source": "mcp", "country_qid": "Q193714", "n_people": 19}
 {"id": "colkg:East_African_Customs", "label": "East African Customs and Excise Department", "type": "customs", "source": "internal", "country_qid": null, "n_people": 14}
-{"id": "colkg:Bechuanaland_Protectorate_Police", "label": "Bechuanaland Protectorate Police", "type": "police", "source": "internal", "country_qid": "Q747314", "n_people": 14}
 {"id": "Q396266", "label": "British Admiralty Office", "type": "organisation", "source": "mcp", "country_qid": "Q145", "n_people": 14}
 {"id": "Q1034433", "label": "Cape Government Railways", "type": "railway", "source": "reuse", "country_qid": null, "n_people": 14}
+{"id": "colkg:Bechuanaland_Protectorate_Police", "label": "Bechuanaland Protectorate Police", "type": "police", "source": "internal", "country_qid": "Q747314", "n_people": 12}
 {"id": "colkg:Basutoland_Mounted_Police", "label": "Basutoland Mounted Police", "type": "police", "source": "internal", "country_qid": null, "n_people": 11}
 {"id": "colkg:Sarawak_Constabulary", "label": "Sarawak Constabulary", "type": "police", "source": "internal", "country_qid": null, "n_people": 9}
 {"id": "Q2047733", "label": "Palestine Railways", "type": "railway", "source": "reuse", "country_qid": "Q193714", "n_people": 9}
@@ -22,15 +22,14 @@
 {"id": "colkg:Swaziland_Police", "label": "Swaziland Police", "type": "police", "source": "internal", "country_qid": "Q1050", "n_people": 7}
 {"id": "Q3160777", "label": "Jamaica Constabulary Force", "type": "police", "source": "reuse", "country_qid": "Q766", "n_people": 7}
 {"id": "colkg:E_A_met_department", "label": "E.A. met. department", "type": "department", "source": "internal", "country_qid": null, "n_people": 6}
-{"id": "Q7353256", "label": "Institute for Medical Research (Malaysia)", "type": "department", "source": "reuse", "country_qid": null, "n_people": 6}
 {"id": "colkg:Trinidad_and_Tobago_District_Administration", "label": "Trinidad and Tobago District Administration", "type": "administration", "source": "resolved_colony", "country_qid": "Q116282722", "n_people": 6}
 {"id": "colkg:Federated_Malay_States_Medical_Department", "label": "Federated Malay States Medical Department", "type": "medical", "source": "resolved_colony", "country_qid": "Q1400154", "n_people": 6}
 {"id": "Q1162114", "label": "Victorian Railways", "type": "railway", "source": "mcp", "country_qid": "Q408", "n_people": 5}
 {"id": "colkg:East_African_Income_Tax_Department", "label": "East African Income Tax Department", "type": "customs", "source": "internal", "country_qid": null, "n_people": 5}
+{"id": "Q7353256", "label": "Institute for Medical Research (Malaysia)", "type": "department", "source": "reuse", "country_qid": null, "n_people": 5}
 {"id": "Q1666820", "label": "Natal Government Railways", "type": "railway", "source": "reuse", "country_qid": null, "n_people": 5}
 {"id": "colkg:Federated_Malay_States_Secretariat", "label": "Federated Malay States Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q1400154", "n_people": 5}
 {"id": "colkg:Colombo_customs", "label": "Colombo customs", "type": "customs", "source": "internal", "country_qid": null, "n_people": 5}
-{"id": "Q15715077", "label": "Hong Kong College of Medicine for Chinese", "type": "department", "source": "mcp", "country_qid": "Q8646", "n_people": 5}
 {"id": "colkg:Bechuanaland_Border_Police", "label": "Bechuanaland Border Police", "type": "police", "source": "internal", "country_qid": "Q747314", "n_people": 5}
 {"id": "colkg:Kenya_Secretariat", "label": "Kenya Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q2538511", "n_people": 5}
 {"id": "Q114516272", "label": "Baro-Kano Railway", "type": "railway", "source": "mcp", "country_qid": "Q1033", "n_people": 5, "merged_from": ["colkg:Baro_Kano_railway"]}
@@ -41,6 +40,7 @@
 {"id": "colkg:Nigerian_Marine", "label": "Nigerian Marine", "type": "military", "source": "internal", "country_qid": "Q1033", "n_people": 4}
 {"id": "colkg:Mal_medical_service", "label": "Mal. medical service", "type": "department", "source": "internal", "country_qid": null, "n_people": 4}
 {"id": "Q838436", "label": "Kowloon-Canton Railway Corporation", "type": "railway", "source": "mcp", "country_qid": null, "n_people": 4}
+{"id": "Q15715077", "label": "Hong Kong College of Medicine for Chinese", "type": "department", "source": "mcp", "country_qid": "Q8646", "n_people": 4}
 {"id": "Q1139213", "label": "Metropolitan Police", "type": "police", "source": "mcp", "country_qid": "Q145", "n_people": 4}
 {"id": "colkg:Ceylon_Customs", "label": "Ceylon Customs", "type": "customs", "source": "resolved_colony", "country_qid": "Q918153", "n_people": 4}
 {"id": "Q578269", "label": "HM Treasury", "type": "treasury", "source": "mcp", "country_qid": "Q145", "n_people": 4}
@@ -149,9 +149,7 @@
 {"id": "colkg:Federated_Malay_States_Public_Works_Department", "label": "Federated Malay States Public Works Department", "type": "public_works", "source": "resolved_colony", "country_qid": "Q1400154", "n_people": 2}
 {"id": "colkg:Indian_guaranteed_railways_Scinde_Punjab_and_Delhi", "label": "Indian guaranteed railways (Scinde, Punjab, and Delhi)", "type": "railway", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "colkg:Uganda_medical_service", "label": "Uganda medical service", "type": "department", "source": "internal", "country_qid": null, "n_people": 2}
-{"id": "colkg:police_school", "label": "police school", "type": "police", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "colkg:Mal_regiment", "label": "Mal. regiment", "type": "military", "source": "internal", "country_qid": null, "n_people": 2}
-{"id": "colkg:Imperial_military_railways_O_R_C", "label": "Imperial military railways, O.R.C", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "colkg:Kowloon_Canton_railway_British_section", "label": "Kowloon-Canton railway (British section)", "type": "railway", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "colkg:Kenya_Audit_Department", "label": "Kenya Audit Department", "type": "audit", "source": "resolved_colony", "country_qid": "Q2538511", "n_people": 2, "merged_from": ["colkg:audit_department_Kenya"]}
 {"id": "colkg:Central_Police_Court_Sydney", "label": "Central Police Court, Sydney", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
@@ -367,6 +365,7 @@
 {"id": "colkg:Champion_Bay_on_the_W_Coast_to_the_overland_telegraph_between_Adelaide_and_Port_Darwin", "label": "Champion Bay, on the W. Coast; to the overland telegraph between Adelaide and Port Darwin", "type": "posts_telegraphs", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:from_Champion_Bay_on_the_W_Coast_to_the_overland_telegraph_between_Adelaide_and_Port_Darwin", "label": "from Champion Bay, on the W. Coast; to the overland telegraph between Adelaide and Port Darwin", "type": "posts_telegraphs", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Champion_Bay_on_the_west_coast_to_the_overland_telegraph_between_Adelaide_and_Port_Darwin", "label": "Champion Bay, on the west coast, to the overland telegraph between Adelaide and Port Darwin", "type": "posts_telegraphs", "source": "internal", "country_qid": null, "n_people": 1}
+{"id": "colkg:British_Gold_Coast_Medical_Department", "label": "British Gold Coast Medical Department", "type": "medical", "source": "resolved_colony", "country_qid": "Q503623", "n_people": 1}
 {"id": "colkg:Trin_constabulary", "label": "Trin. constabulary", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Federated_Malay_States_Survey_Department", "label": "Federated Malay States Survey Department", "type": "survey", "source": "resolved_colony", "country_qid": "Q1400154", "n_people": 1}
 {"id": "colkg:Canadian_National_railway", "label": "Canadian National railway", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
@@ -497,8 +496,8 @@
 {"id": "colkg:N_A_department", "label": "N.A. department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:defence_department", "label": "defence department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Imp_department_of_Agr_W_I", "label": "Imp. department of Agr., W.I", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
-{"id": "colkg:police_commission", "label": "police commission", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Out_Island_administration", "label": "Out Island administration", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
+{"id": "colkg:police_commission", "label": "police commission", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:police_commissioner", "label": "police commissioner", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Kano_native_administration_Nig", "label": "Kano native administration, Nig", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:United_Kingdom_metropole_Medical_Department", "label": "United Kingdom (metropole) Medical Department", "type": "medical", "source": "resolved_colony", "country_qid": "Q84", "n_people": 1}
@@ -700,6 +699,7 @@
 {"id": "colkg:Cyprus_Medical_Department", "label": "Cyprus Medical Department", "type": "medical", "source": "resolved_colony", "country_qid": "Q15240466", "n_people": 1}
 {"id": "colkg:board_of_examrs_do", "label": "board of examrs., do", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:N_Lancs_regiment", "label": "N. Lancs. regiment", "type": "military", "source": "internal", "country_qid": null, "n_people": 1}
+{"id": "colkg:police_school", "label": "police school", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Scottish_board_of_Health", "label": "Scottish board of Health", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:J_ca_secretariat", "label": "J'ca secretariat", "type": "secretariat", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:inl_rev_department", "label": "inl. rev. department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
@@ -760,6 +760,8 @@
 {"id": "colkg:posts_and_tels_department_Pal", "label": "posts and tels. department, Pal", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Uganda_Treasury", "label": "Uganda Treasury", "type": "treasury", "source": "resolved_colony", "country_qid": "Q1097943", "n_people": 1}
 {"id": "colkg:crown_lands_and_surveys", "label": "crown lands and surveys", "type": "survey", "source": "internal", "country_qid": null, "n_people": 1}
+{"id": "colkg:Imperial_military_railways_O_R_C", "label": "Imperial military railways, O.R.C", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
+{"id": "colkg:Orange_River_Treasury", "label": "Orange River Treasury", "type": "treasury", "source": "resolved_colony", "country_qid": "Q1142179", "n_people": 1}
 {"id": "colkg:treasury_O_R_C", "label": "treasury, O.R.C", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Nigerian_marine_department", "label": "Nigerian marine department", "type": "military", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Zanzibar_agrl_department", "label": "Zanzibar agrl. department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}

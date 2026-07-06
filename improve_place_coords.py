@@ -29,7 +29,7 @@ SEATS = {
     "Q7522091": ([24.8607, 67.0011], "Karachi"),         # Sind Province
     "Q17513379":([26.1445, 91.7362], "Shillong"),        # Assam Province
     "Q4907084": ([25.5941, 85.1376], "Patna"),           # Bihar and Orissa
-    "Q4126447": ([21.1458, 79.0882], "Nagpur"),          # Central Provinces and Berar
+    "Q4126447": ([23.7289, 90.3944], "Dacca"),           # Eastern Bengal and Assam (capital P36=Dhaka Q1354); WRONG QID before — Nagpur is the Central Provinces (Q521864) capital, which resolves via P36 on its own
     "Q2376315": ([16.8409, 96.1735], "Rangoon"),         # Burma
     "Q4412467": ([34.0151, 71.5249], "Peshawar"),        # North-West Frontier Province
     "Q843":     ([30.1798, 66.9750], "Quetta"),          # Baluchistan (Br. administered)

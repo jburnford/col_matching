@@ -4,7 +4,7 @@
 {"id": "Q787674", "label": "Bachelor of Science", "type": "degree", "source": "mcp", "n_people": 57}
 {"id": "Q959320", "label": "Doctor of Laws", "type": "degree", "source": "mcp", "n_people": 52}
 {"id": "colkg:amice", "label": "Associate Member of the Institution of Civil Engineers", "type": "membership", "source": "internal", "n_people": 45}
-{"id": "Q1984623", "label": "Doctor of Divinity", "type": "degree", "source": "mcp", "n_people": 43}
+{"id": "Q1984623", "label": "Doctor of Divinity", "type": "degree", "source": "mcp", "n_people": 42}
 {"id": "Q5287501", "label": "Doctor of Civil Law", "type": "degree", "source": "mcp", "n_people": 41}
 {"id": "Q3631327", "label": "Fellowship of the Royal College of Surgeons", "type": "membership", "source": "mcp", "n_people": 37}
 {"id": "Q24590727", "label": "Fellow of the Geological Society of London", "type": "membership", "source": "mcp", "n_people": 37}

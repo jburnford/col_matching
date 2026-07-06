@@ -1,10 +1,10 @@
-{"id": "colkg:mice", "label": "Member of the Institution of Civil Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 230}
-{"id": "colkg:amice", "label": "Associate Member of the Institution of Civil Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 88}
+{"id": "colkg:mice", "label": "Member of the Institution of Civil Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 214}
+{"id": "colkg:amice", "label": "Associate Member of the Institution of Civil Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 87}
 {"id": "Q13948235", "label": "Bachelor of Medicine, Bachelor of Surgery", "type": "degree", "source": "seed_co_honour", "n_people": 74}
-{"id": "colkg:miee", "label": "Member of the Institution of Electrical Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 59}
+{"id": "colkg:miee", "label": "Member of the Institution of Electrical Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 53}
 {"id": "colkg:msc", "label": "msc", "type": "order", "source": "internal", "n_people": 52}
 {"id": "Q3631327", "label": "Fellowship of the Royal College of Surgeons", "type": "membership", "source": "seed_co_honour", "n_people": 50}
-{"id": "Q2091008", "label": "Master of Arts", "type": "degree", "source": "seed_co_honour", "n_people": 46}
+{"id": "Q2091008", "label": "Master of Arts", "type": "degree", "source": "seed_co_honour", "n_people": 45}
 {"id": "Q20006267", "label": "Fellow of the Royal Geographical Society", "type": "fellowship", "source": "seed_co_honour", "n_people": 43}
 {"id": "colkg:bsc", "label": "bsc", "type": "order", "source": "internal", "n_people": 34}
 {"id": "colkg:mime", "label": "Member of the Institution of Mining Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 27}
@@ -27,8 +27,8 @@
 {"id": "Q752297", "label": "Doctor of Philosophy", "type": "degree", "source": "seed_co_honour", "n_people": 7}
 {"id": "Q787674", "label": "Bachelor of Science", "type": "degree", "source": "seed_co_honour", "n_people": 6}
 {"id": "Q26204035", "label": "Fellow of the Royal College of Physicians of London", "type": "membership", "source": "seed_co_honour", "n_people": 6}
-{"id": "colkg:fia", "label": "fia", "type": "order", "source": "internal", "n_people": 6}
 {"id": "Q5438598", "label": "Fellow of the Royal Society of Edinburgh", "type": "membership", "source": "seed_co_honour", "n_people": 5}
+{"id": "colkg:fia", "label": "fia", "type": "order", "source": "internal", "n_people": 5}
 {"id": "Q15271633", "label": "Fellow of the Royal Society of Arts", "type": "membership", "source": "seed_co_honour", "n_people": 5}
 {"id": "colkg:aca", "label": "Associate of the Institute of Chartered Accountants", "type": "membership", "source": "seed_co_honour", "n_people": 5}
 {"id": "colkg:fsa", "label": "Fellow of the Society of Antiquaries of London", "type": "membership", "source": "seed_co_honour", "n_people": 5}

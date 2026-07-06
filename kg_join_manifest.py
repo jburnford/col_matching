@@ -39,7 +39,13 @@ _TYPE = re.compile(
 
 
 def _norm(s: str) -> str:
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", (s or "").lower())).strip()
+    # Drop the possessive 's BEFORE punctuation is blanked, so the OCR/period form
+    # "Vancouver's Island" folds onto the manifest name "Vancouver Island" instead of
+    # tokenising to "vancouver s island" (a stray "s"), missing the manifest, and
+    # falling through to MCP — which grounded it to the modern island Q170479 (rolled
+    # up to British Columbia) rather than the Colony of Vancouver Island Q2510000.
+    s = re.sub(r"['’]s\b", "", (s or "").lower())
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", s)).strip()
 
 
 def _strip_type(s: str) -> str:

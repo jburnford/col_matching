@@ -1,0 +1,77 @@
+{
+  "_doc": "Upstream career-event YEAR corrections, applied post-emit by kg_apply_year_fixups.py (final step of reemit_dedup.sh, mirroring kg_apply_colony_fixups.py). The spine career years are OCR/source-copied and cannot self-correct (the List copies bios forward, so a wrong year rides across editions and majority-vote fails). These 8 were surfaced by audit_career_years.py (earliest-mention-wins, zero-FP gates) at tiers T1:unanimous_override and T2:printed_variant_late, and each is corrected to the year the EARLIEST mentioning edition printed. Each rule matches one event by person_id + seq + the wrong year_start (match_year_start guard: if a future re-emit shifts seq or changes the spine year, the rule no-ops instead of mis-targeting). Applies to every emitted layer carrying an event year keyed by person_id+seq: career_events, career_facts, employment_edges, role_edges. This SUPERSEDES the downstream data/kg/career_event_corrections.json Guggisberg entry (now retired from build_static_atlas.py).",
+  "corrections": [
+    {
+      "person_id": "kgp_col1949-p425b20",
+      "seq": 5,
+      "match_year_start": 1932,
+      "year_start": 1930,
+      "surname": "BLACKALL",
+      "tier": "T2:printed_variant_late",
+      "note": "member, commission on riots S.E. provs., Nigeria. Eds 1931-1940 all print 1930; only the post-war eds (1948-1951) print 1932. Earliest-report-fresh -> 1930."
+    },
+    {
+      "person_id": "kgp_col1930-p986b8",
+      "seq": 24,
+      "match_year_start": 1923,
+      "year_start": 1928,
+      "surname": "GUGGISBERG",
+      "tier": "T2:printed_variant_late",
+      "note": "governor & commdr.-in-ch., British Guiana. 1930-ed bio OCR'd 'Br. Guiana, 1928' as '1923' (8->3); 1929 ed prints 1928, and the British Guiana governors table prints 7 Nov 1928 (Gold Coast governor 1919-1927 before). Supersedes the downstream career_event_corrections.json entry."
+    },
+    {
+      "person_id": "kgp_col1966-p248b17",
+      "seq": 2,
+      "match_year_start": 1956,
+      "year_start": 1960,
+      "surname": "HAMLETT",
+      "tier": "T2:printed_variant_late",
+      "note": "senior examiner, St. Vincent. First mentioning ed (1960) prints 1960; later eds (1962-1966) print 1956. Earliest-mention-wins -> 1960."
+    },
+    {
+      "person_id": "kgp_col1915-p735b24",
+      "seq": 3,
+      "match_year_start": 1906,
+      "year_start": 1912,
+      "surname": "HUGHES",
+      "tier": "T1:unanimous_override",
+      "note": "secretary for lands, Transvaal. Eds 1914-1923 unanimously print 1912; 1906 appears in no edition. Anachronistic-silence override -> 1912."
+    },
+    {
+      "person_id": "kgp_col1930-p1007b9",
+      "seq": 3,
+      "match_year_start": 1921,
+      "year_start": 1903,
+      "surname": "JEFFERY",
+      "tier": "T2:printed_variant_late",
+      "note": "curator of ancient monuments, Cyprus. Eds 1905-1928 print 1903 (long run); only 1929 prints 1921. Earliest-report-fresh -> 1903."
+    },
+    {
+      "person_id": "kgp_col1937-p950b16",
+      "seq": 10,
+      "match_year_start": 1931,
+      "year_start": 1935,
+      "surname": "KAUFMANN",
+      "tier": "T1:unanimous_override",
+      "note": "chairman munic. council, Colombo. Eds 1937/1939/1940 unanimously print 1935; 1931 appears in no edition. Anachronistic-silence override -> 1935."
+    },
+    {
+      "person_id": "kgp_col1937-p986b18",
+      "seq": 4,
+      "match_year_start": 1918,
+      "year_start": 1908,
+      "surname": "NOALL",
+      "tier": "T2:printed_variant_late",
+      "note": "secretary to visual instruction committee. Eds 1908-1936 print 1908 (long run); only post-war eds (1937-1940) print 1918. Earliest-report-fresh -> 1908."
+    },
+    {
+      "person_id": "kgp_col1966-p293b4",
+      "seq": 3,
+      "match_year_start": 1950,
+      "year_start": 1960,
+      "surname": "POLLARD",
+      "tier": "T1:unanimous_override",
+      "note": "senior gr. II, Nyasaland. Eds 1960-1965 unanimously print 1960; 1950 appears in no edition. Anachronistic-silence override -> 1960."
+    }
+  ]
+}

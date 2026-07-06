@@ -209,7 +209,7 @@
 {"person_id": "kgp_iol1939-c1077695", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1939-c1077695", "award_raw": "O.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c691046", "award_raw": "M.B.E.", "year": 1938, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1927-c2666581", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1923-c2331265", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1923-c2331265", "award_raw": "C.I.E.", "year": 1923, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1923-c2331265", "award_raw": "C.M.Z.S.", "year": null, "modifiers": [], "honour_id": "colkg:cmzs", "honour_label": "cmzs", "source": "internal"}
 {"person_id": "kgp_iol1923-c2331265", "award_raw": "F.L.S.", "year": null, "modifiers": [], "honour_id": "colkg:fls", "honour_label": "fls", "source": "internal"}
@@ -698,8 +698,6 @@
 {"person_id": "kgp_iol1889_supp-c994514", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1939-c1200155", "award_raw": "K-i-H medal, 2nd class", "year": 1931, "modifiers": [], "honour_id": "colkg:k_i_h_medal_2nd_class", "honour_label": "k -i -h medal, 2nd class", "source": "internal"}
 {"person_id": "kgp_iol1934-c2767781", "award_raw": "C.I.E.", "year": 1904, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1931-c2943049", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1931-c2943049", "award_raw": "D.F.C.", "year": null, "modifiers": [], "honour_id": "Q1229534", "honour_label": "Distinguished Flying Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1934-c2768348", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1934-c2768348", "award_raw": "D.F.C.", "year": null, "modifiers": [], "honour_id": "Q1229534", "honour_label": "Distinguished Flying Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c736849", "award_raw": "knighted", "year": 1939, "modifiers": [], "honour_id": "colkg:knighted", "honour_label": "knighted", "source": "internal"}
@@ -717,7 +715,6 @@
 {"person_id": "kgp_iol1927-c2779859", "award_raw": "C.S.I.", "year": 1912, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c1190263", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1937-c2946172", "award_raw": "C.I.E.", "year": 1925, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1893_supp-c1112008", "award_raw": "M.R.A.C.", "year": null, "modifiers": [], "honour_id": "colkg:mrac", "honour_label": "mrac", "source": "internal"}
 {"person_id": "kgp_iol1907-c2290956", "award_raw": "M.R.A.C.", "year": null, "modifiers": [], "honour_id": "colkg:mrac", "honour_label": "mrac", "source": "internal"}
 {"person_id": "kgp_iol1947-c781546", "award_raw": "K.C.S.I.", "year": 1945, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1936-c2878759", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -731,15 +728,11 @@
 {"person_id": "kgp_iol1894_supp-c1122302", "award_raw": "C.I.E.", "year": 1900, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1894_supp-c1122302", "award_raw": "M.E.", "year": null, "modifiers": [], "honour_id": "colkg:me", "honour_label": "me", "source": "internal"}
 {"person_id": "kgp_iol1886_supp-c115401", "award_raw": "V.C.", "year": null, "modifiers": [], "honour_id": "colkg:vc", "honour_label": "vc", "source": "internal"}
-{"person_id": "kgp_iol1889_supp-c1000486", "award_raw": "V.C.", "year": null, "modifiers": [], "honour_id": "colkg:vc", "honour_label": "vc", "source": "internal"}
-{"person_id": "kgp_iol1889_supp-c1000486", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1894_supp-c1122914", "award_raw": "K.C.I.E.", "year": 1894, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1894_supp-c1122914", "award_raw": "V.C.", "year": null, "modifiers": [], "honour_id": "colkg:vc", "honour_label": "vc", "source": "internal"}
-{"person_id": "kgp_iol1896-c1907281", "award_raw": "K.C.I.E.", "year": 1894, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1896-c1907281", "award_raw": "V.C.", "year": null, "modifiers": [], "honour_id": "colkg:vc", "honour_label": "vc", "source": "internal"}
+{"person_id": "kgp_iol1894_supp-c1122914", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1894_supp-c1122914", "award_raw": "K.C.I.E.", "year": 1894, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1907-c2294309", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1896-c1908404", "award_raw": "K.C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1909-c2451723", "award_raw": "Indian war medal", "year": null, "modifiers": [], "honour_id": "colkg:indian_war_medal", "honour_label": "indian war medal", "source": "internal"}
 {"person_id": "kgp_iol1916-c2776633", "award_raw": "Indian war medal", "year": null, "modifiers": [], "honour_id": "colkg:indian_war_medal", "honour_label": "indian war medal", "source": "internal"}
 {"person_id": "kgp_iol1889_supp-c1003939", "award_raw": "C.I.E.", "year": 1883, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c783500", "award_raw": "M.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
@@ -798,8 +791,8 @@
 {"person_id": "kgp_iol1947-c800039", "award_raw": "F.N.I.", "year": null, "modifiers": [], "honour_id": "colkg:fni", "honour_label": "fni", "source": "internal"}
 {"person_id": "kgp_iol1947-c800531", "award_raw": "Indian Police Medal", "year": 1941, "modifiers": [], "honour_id": "colkg:indian_police_medal", "honour_label": "indian police medal", "source": "internal"}
 {"person_id": "kgp_iol1937-c2969251", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
-{"person_id": "kgp_iol1945-c759537", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1939-c1229970", "award_raw": "O.B.E.", "year": 1934, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1945-c759537", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1937-c2970188", "award_raw": "Dwan Bahadur", "year": 1939, "modifiers": [], "honour_id": "colkg:dwan_bahadur", "honour_label": "dwan bahadur", "source": "internal"}
 {"person_id": "kgp_iol1947-c802066", "award_raw": "O.B.E.", "year": 1941, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c803150", "award_raw": "C.I.E.", "year": 1946, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -849,7 +842,6 @@
 {"person_id": "kgp_iol1929-c2768498", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1894_supp-c1142387", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1919-c2966499", "award_raw": "I.S.O.", "year": 1915, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1909-c2466505", "award_raw": "C.I.E.", "year": 1905, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1917-c2817056", "award_raw": "C.I.E.", "year": 1905, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1917-c2817056", "award_raw": "M.V.O.", "year": 1912, "modifiers": [], "honour_id": "colkg:mvo", "honour_label": "Member of the Royal Victorian Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1939-c1241744", "award_raw": "G.C.B.", "year": null, "modifiers": [], "honour_id": "Q12177451", "honour_label": "Knight Grand Cross of the Order of the Bath", "source": "seed_co_honour"}
@@ -897,7 +889,7 @@
 {"person_id": "kgp_iol1909-c2472743", "award_raw": "medal", "year": 1880, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1935-c3031982", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1947-c815607", "award_raw": "M.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1937-c2989871", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
+{"person_id": "kgp_iol1945-c774138", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1945-c774138", "award_raw": "M.B.E.", "year": 1939, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1023565", "award_raw": "Knt.", "year": null, "modifiers": [], "honour_id": "Q833163", "honour_label": "Knight Bachelor", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1024479", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
@@ -1041,7 +1033,7 @@
 {"person_id": "kgp_iol1889_supp-c1043746", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c834864", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c834864", "award_raw": "C.I.E.", "year": 1942, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1903-c2171519", "award_raw": "F.C.H.", "year": null, "modifiers": [], "honour_id": "colkg:fch", "honour_label": "fch", "source": "internal"}
+{"person_id": "kgp_iol1922-c2476200", "award_raw": "F.C.H.", "year": null, "modifiers": [], "honour_id": "colkg:fch", "honour_label": "fch", "source": "internal"}
 {"person_id": "kgp_iol1922-c2476200", "award_raw": "F.C.II.", "year": null, "modifiers": [], "honour_id": "colkg:f_c_ii", "honour_label": "f c ii", "source": "internal"}
 {"person_id": "kgp_iol1938-c1268258", "award_raw": "K.C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c1268258", "award_raw": "K.C.I.E.", "year": 1936, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -1168,7 +1160,7 @@
 {"person_id": "kgp_iol1894_supp-c1194064", "award_raw": "K.C.I.E.", "year": 1895, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c853929", "award_raw": "C.I.E.", "year": 1945, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1937-c3070752", "award_raw": "C.I.E.", "year": 1929, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1919-c3026357", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1925-c2631402", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c2631402", "award_raw": "C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c2631402", "award_raw": "C.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c2631402", "award_raw": "D.S.O.", "year": 1915, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
@@ -1238,7 +1230,7 @@
 {"person_id": "kgp_iol1938-c1319768", "award_raw": "knighted", "year": 1937, "modifiers": [], "honour_id": "colkg:knighted", "honour_label": "knighted", "source": "internal"}
 {"person_id": "kgp_iol1947-c863958", "award_raw": "O.B.E.", "year": 1943, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1916-c2865656", "award_raw": "C.I.E.", "year": 1913, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1921-c2805056", "award_raw": "K.C.I.E.", "year": 1918, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1916-c2865656", "award_raw": "K.C.I.E.", "year": 1918, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c1260997", "award_raw": "K.C.S.I.", "year": 1897, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c1260997", "award_raw": "C.S.I.", "year": 1892, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c1261763", "award_raw": "C.I.E.", "year": 1895, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -1280,8 +1272,6 @@
 {"person_id": "kgp_iol1889_supp-c1078670", "award_raw": "M. Soc. As. , Paris", "year": null, "modifiers": [], "honour_id": "colkg:m_soc_as_paris", "honour_label": "m soc as , paris", "source": "internal"}
 {"person_id": "kgp_iol1889_supp-c1078670", "award_raw": "honorary A.R.I.B.A.", "year": null, "modifiers": [], "honour_id": "colkg:honorary_a_r_i_b_a", "honour_label": "honorary a r i b a", "source": "internal"}
 {"person_id": "kgp_iol1889_supp-c1078670", "award_raw": "M. Soc. As. Paris", "year": null, "modifiers": [], "honour_id": "colkg:m_soc_as_paris", "honour_label": "m soc as , paris", "source": "internal"}
-{"person_id": "kgp_iol1897-c1925597", "award_raw": "B.E.", "year": null, "modifiers": [], "honour_id": "colkg:be", "honour_label": "be", "source": "internal"}
-{"person_id": "kgp_iol1895_supp-c1269829", "award_raw": "B.E.", "year": null, "modifiers": [], "honour_id": "colkg:be", "honour_label": "be", "source": "internal"}
 {"person_id": "kgp_iol1917-c2902097", "award_raw": "B.E.", "year": null, "modifiers": [], "honour_id": "colkg:be", "honour_label": "be", "source": "internal"}
 {"person_id": "kgp_iol1938-c1328819", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c1328819", "award_raw": "C.I.E.", "year": 1936, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -1415,7 +1405,6 @@
 {"person_id": "kgp_iol1939-c1369631", "award_raw": "C.I.E.", "year": 1918, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1939-c1369970", "award_raw": "C.S.I.", "year": 1932, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1939-c1369970", "award_raw": "C.I.E.", "year": 1923, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1923-c2559325", "award_raw": "C.S.I.", "year": 1909, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1922-c2551952", "award_raw": "C.S.I.", "year": 1909, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c883508", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1892_supp-c1195084", "award_raw": "medal and clasp", "year": 1865, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
@@ -1564,13 +1553,9 @@
 {"person_id": "kgp_iol1947-c900793", "award_raw": "O.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c872110", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1899-c1954473", "award_raw": "C.S.I.", "year": 1898, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1907-c2431208", "award_raw": "C.B.", "year": 1904, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1907-c2431208", "award_raw": "C.S.I.", "year": 1898, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1905-c2269164", "award_raw": "C.B.", "year": 1904, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1905-c2269164", "award_raw": "C.S.I.", "year": 1898, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1921-c2875197", "award_raw": "K.C.B.", "year": 1906, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1921-c2875197", "award_raw": "C.S.I.", "year": 1898, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1921-c2875197", "award_raw": "C.B.", "year": 1904, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1921-c2875197", "award_raw": "C.S.I.", "year": 1898, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
+{"person_id": "kgp_iol1921-c2875197", "award_raw": "K.C.B.", "year": 1906, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1936-c3101088", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1935-c3211571", "award_raw": "K.G.", "year": 1925, "modifiers": [], "honour_id": "colkg:kg", "honour_label": "kg", "source": "internal"}
 {"person_id": "kgp_iol1935-c3211571", "award_raw": "P.C.", "year": null, "modifiers": [], "honour_id": "Q28841847", "honour_label": "Member of the Privy Council of the United Kingdom", "source": "seed_co_honour"}
@@ -1632,7 +1617,6 @@
 {"person_id": "kgp_iol1926-c2793812", "award_raw": "C.I.E.", "year": 1919, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1919-c3124925", "award_raw": "I.S.O.", "year": 1918, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1917-c2970598", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
-{"person_id": "kgp_iol1907-c2440331", "award_raw": "C.I.E.", "year": 1903, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1917-c2971090", "award_raw": "C.I.E.", "year": 1903, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1937-c3185227", "award_raw": "M.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c886278", "award_raw": "King's police medal", "year": 1937, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
@@ -1837,7 +1821,6 @@
 {"person_id": "kgp_iol1947-c948578", "award_raw": "O.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c949078", "award_raw": "C.S.I.", "year": 1941, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c949078", "award_raw": "C.I.E.", "year": 1938, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1917-c3004277", "award_raw": "F.C.H.", "year": null, "modifiers": [], "honour_id": "colkg:fch", "honour_label": "fch", "source": "internal"}
 {"person_id": "kgp_iol1937-c3238442", "award_raw": "F.C.H.", "year": null, "modifiers": [], "honour_id": "colkg:fch", "honour_label": "fch", "source": "internal"}
 {"person_id": "kgp_iol1937-c3238902", "award_raw": "King's police medal", "year": 1916, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1937-c3238902", "award_raw": "C.I.E.", "year": 1929, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -1886,12 +1869,10 @@
 {"person_id": "kgp_iol1939-c1472165", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1939-c1472165", "award_raw": "K.C.B.", "year": 1933, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1939-c1472165", "award_raw": "C.B.", "year": null, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c1352050", "award_raw": "K.C.I.E.", "year": 1893, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1895_supp-c1352050", "award_raw": "C.I.E.", "year": 1889, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1889_supp-c1144109", "award_raw": "C.I.E.", "year": 1889, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1909-c2636559", "award_raw": "K.C.I.E.", "year": 1893, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1909-c2636559", "award_raw": "C.I.E.", "year": 1889, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1909-c2636559", "award_raw": "G.C.I.E.", "year": 1893, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1909-c2636559", "award_raw": "C.B.", "year": null, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1909-c2636559", "award_raw": "C.I.E.", "year": 1889, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1909-c2636559", "award_raw": "G.C.I.E.", "year": 1901, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1945-c932103", "award_raw": "O.B.E.", "year": 1941, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1937-c3253801", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
@@ -2025,10 +2006,6 @@
 {"person_id": "kgp_iol1939-c1513036", "award_raw": "C.S.I.", "year": 1931, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1931-c3289372", "award_raw": "King's police medal", "year": 1928, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1889_supp-c1173988", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1889_supp-c1175092", "award_raw": "medal with clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
-{"person_id": "kgp_iol1889_supp-c1175092", "award_raw": "brevet of major", "year": null, "modifiers": [], "honour_id": "colkg:brevet_of_major", "honour_label": "brevet of major", "source": "internal"}
-{"person_id": "kgp_iol1889_supp-c1175092", "award_raw": "medal with two clasps", "year": null, "modifiers": [], "honour_id": "colkg:medal_with_two", "honour_label": "medal with two", "source": "internal"}
-{"person_id": "kgp_iol1889_supp-c1175092", "award_raw": "bronze star", "year": null, "modifiers": [], "honour_id": "colkg:bronze_star", "honour_label": "bronze star", "source": "internal"}
 {"person_id": "kgp_iol1895_supp-c1388853", "award_raw": "medal with clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1895_supp-c1388853", "award_raw": "brevet of major", "year": null, "modifiers": [], "honour_id": "colkg:brevet_of_major", "honour_label": "brevet of major", "source": "internal"}
 {"person_id": "kgp_iol1895_supp-c1388853", "award_raw": "medal with two clasps", "year": null, "modifiers": [], "honour_id": "colkg:medal_with_two", "honour_label": "medal with two", "source": "internal"}
@@ -2051,8 +2028,6 @@
 {"person_id": "kgp_iol1931-c3297366", "award_raw": "C.I.E.", "year": 1915, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1929-c3068023", "award_raw": "C.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1929-c3068023", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1931-c3298076", "award_raw": "C.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1931-c3298076", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1922-c2683856", "award_raw": "medal with clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1933-c3064704", "award_raw": "M.B.E.", "year": 1941, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1923-c2685558", "award_raw": "C.I.E.", "year": 1920, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -2181,8 +2156,6 @@
 {"person_id": "kgp_iol1935-c3373568", "award_raw": "O.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1907-c2527782", "award_raw": "K.C.S.I.", "year": 1888, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1907-c2527782", "award_raw": "C.S.I.", "year": 1887, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1895_supp-c1411019", "award_raw": "K.C.S.I.", "year": 1888, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1895_supp-c1411019", "award_raw": "C.S.I.", "year": 1887, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1928-c3090971", "award_raw": "C.I.E.", "year": 1917, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1928-c3090971", "award_raw": "C.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1932-c3170040", "award_raw": "C.I.E.", "year": 1921, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -2226,8 +2199,8 @@
 {"person_id": "kgp_iol1895_supp-c1423778", "award_raw": "C.I.E.", "year": 1881, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c1531656", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c1531656", "award_raw": "C.S.I.", "year": 1931, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1912-c2784582", "award_raw": "C.I.E.", "year": 1893, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c1425045", "award_raw": "C.I.E.", "year": 1893, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1912-c2784582", "award_raw": "C.I.E.", "year": 1893, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c998258", "award_raw": "G.C.I.E.", "year": 1946, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c998258", "award_raw": "K.C.S.I.", "year": 1937, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c998258", "award_raw": "O.B.E.", "year": 1920, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
@@ -2301,7 +2274,6 @@
 {"person_id": "kgp_iol1939-c1559305", "award_raw": "C.I.E.", "year": 1892, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1939-c1559305", "award_raw": "C.S.I.", "year": 1903, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c1433256", "award_raw": "C.I.E.", "year": 1891, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1899-c2046630", "award_raw": "C.I.E.", "year": 1891, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1889_jan-c1211611", "award_raw": "K.C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1889_jan-c1211611", "award_raw": "C.S.I.", "year": 1879, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1889_jan-c1211611", "award_raw": "honorary LL.D. of the University of St. Andrew's", "year": 1885, "modifiers": [], "honour_id": "colkg:honorary_ll_d_of_the_university_of_st_andrew_s", "honour_label": "honorary ll d of the university of st andrew's", "source": "internal"}
@@ -2329,7 +2301,6 @@
 {"person_id": "kgp_iol1899-c2051100", "award_raw": "corresponding member of the royal geographical society of Lisbon", "year": 1894, "modifiers": [], "honour_id": "colkg:corresponding_member_of_the_royal_geographical_society_of_lisbon", "honour_label": "corresponding member of the royal geographical society of lisbon", "source": "internal"}
 {"person_id": "kgp_iol1899-c2051100", "award_raw": "corresponding member of the international colonial institute, Brussels", "year": 1895, "modifiers": [], "honour_id": "colkg:corresponding_member_of_the_international_colonial_institute_brussels", "honour_label": "corresponding member of the international colonial institute, brussels", "source": "internal"}
 {"person_id": "kgp_iol1893_supp-c1365540", "award_raw": "K.C.S.I.", "year": 1886, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1896-c2098627", "award_raw": "K.C.S.I.", "year": 1886, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1929-c3119780", "award_raw": "G.C.I.E.", "year": 1915, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1929-c3119780", "award_raw": "K.B.E.", "year": 1918, "modifiers": [], "honour_id": "Q12201445", "honour_label": "Knight Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1940-c1577340", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
@@ -2501,8 +2472,8 @@
 {"person_id": "kgp_iol1940-c1636868", "award_raw": "M.B.E.", "year": 1939, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1049841", "award_raw": "C.I.E.", "year": 1942, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1050511", "award_raw": "R.B.", "year": null, "modifiers": [], "honour_id": "colkg:rb", "honour_label": "rb", "source": "internal"}
-{"person_id": "kgp_iol1945-c1024076", "award_raw": "Rai Bahadur Lala", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur_lala", "honour_label": "rai bahadur lala", "source": "internal"}
 {"person_id": "kgp_iol1938-c1605644", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
+{"person_id": "kgp_iol1938-c1605644", "award_raw": "Rai Bahadur Lala", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur_lala", "honour_label": "rai bahadur lala", "source": "internal"}
 {"person_id": "kgp_iol1945-c1028250", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1945-c1028250", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1945-c1028250", "award_raw": "C.I.E.", "year": 1939, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -2993,9 +2964,9 @@
 {"person_id": "kgp_iol1945-c1112825", "award_raw": "A.C.G.I.", "year": null, "modifiers": [], "honour_id": "colkg:acgi", "honour_label": "acgi", "source": "internal"}
 {"person_id": "kgp_iol1947-c1130102", "award_raw": "C.I.E.", "year": 1941, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1894_supp-c1487757", "award_raw": "C.S.I.", "year": 1887, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1894_supp-c1487757", "award_raw": "K.C.S.I.", "year": 1890, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1911-c2865145", "award_raw": "G.C.S.I.", "year": 1911, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1911-c2865145", "award_raw": "K.C.S.I.", "year": 1890, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
+{"person_id": "kgp_iol1911-c2865145", "award_raw": "C.S.I.", "year": 1887, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
+{"person_id": "kgp_iol1911-c2865145", "award_raw": "G.C.S.I.", "year": 1911, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1911-c2865145", "award_raw": "C.S.I.", "year": 1837, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1935-c3608269", "award_raw": "K.C.I.E.", "year": 1933, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1935-c3608269", "award_raw": "C.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
@@ -3053,7 +3024,7 @@
 {"person_id": "kgp_iol1917-c3272967", "award_raw": "C.S.I.", "year": 1909, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1937-c3578099", "award_raw": "C.S.I.", "year": 1909, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1928-c3324831", "award_raw": "C.I.E.", "year": 1926, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1947-c1139350", "award_raw": "C.I.E.", "year": 1945, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1936-c3515353", "award_raw": "C.I.E.", "year": 1945, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1139910", "award_raw": "M.B.E.", "year": 1943, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1140133", "award_raw": "C.I.E.", "year": 1941, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1140133", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
@@ -3087,14 +3058,12 @@
 {"person_id": "kgp_iol1945-c1127754", "award_raw": "C.B.", "year": null, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c1127754", "award_raw": "M.V.O.", "year": null, "modifiers": [], "honour_id": "colkg:mvo", "honour_label": "Member of the Royal Victorian Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c1127754", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1917-c3281319", "award_raw": "M.V.O.", "year": 1911, "modifiers": [], "honour_id": "colkg:mvo", "honour_label": "Member of the Royal Victorian Order", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1917-c3281319", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1925-c3021817", "award_raw": "M.V.O.", "year": 1911, "modifiers": [], "honour_id": "colkg:mvo", "honour_label": "Member of the Royal Victorian Order", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1925-c3021817", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c3021817", "award_raw": "K.C.I.E.", "year": 1919, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1925-c3021817", "award_raw": "C.B.", "year": 1918, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1925-c3021817", "award_raw": "M.V.O.", "year": 1911, "modifiers": [], "honour_id": "colkg:mvo", "honour_label": "Member of the Royal Victorian Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c3021817", "award_raw": "D.S.O.", "year": 1918, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c3021817", "award_raw": "C.B.", "year": null, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1925-c3021817", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c3021817", "award_raw": "officer of Legion of Honour", "year": null, "modifiers": [], "honour_id": "colkg:officer_of_legion_of_honour", "honour_label": "officer of legion of honour", "source": "internal"}
 {"person_id": "kgp_iol1940-c1782718", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c1782718", "award_raw": "C.I.E.", "year": 1937, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -3110,11 +3079,9 @@
 {"person_id": "kgp_iol1914-c3111755", "award_raw": "C.I.E.", "year": 1911, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1146048", "award_raw": "C.I.E.", "year": 1945, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1146048", "award_raw": "D.F.C.", "year": null, "modifiers": [], "honour_id": "Q1229534", "honour_label": "Distinguished Flying Cross", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1921-c3244092", "award_raw": "C.I.E.", "year": 1919, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1921-c3244092", "award_raw": "D.S.O.", "year": 1917, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1938-c1765887", "award_raw": "C.B.", "year": 1930, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1938-c1765887", "award_raw": "C.I.E.", "year": 1919, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c1765887", "award_raw": "D.S.O.", "year": 1917, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1938-c1765887", "award_raw": "C.B.", "year": 1930, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1146528", "award_raw": "C.I.E.", "year": 1944, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1919-c3455068", "award_raw": "C.I.E.", "year": 1914, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1945-c1129401", "award_raw": "M.B.E.", "year": 1944, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
@@ -3284,7 +3251,6 @@
 {"person_id": "kgp_iol1909-c2905975", "award_raw": "D.L.", "year": null, "modifiers": [], "honour_id": "colkg:dl", "honour_label": "dl", "source": "internal"}
 {"person_id": "kgp_iol1940-c1825737", "award_raw": "knighted", "year": 1938, "modifiers": [], "honour_id": "colkg:knighted", "honour_label": "knighted", "source": "internal"}
 {"person_id": "kgp_iol1926-c3134714", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
-{"person_id": "kgp_iol1927-c3368016", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1919-c3488563", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1913-c3051615", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1947-c1173295", "award_raw": "O.B.E.", "year": 1942, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
@@ -3671,7 +3637,7 @@
 {"person_id": "kgp_iol1940-c1931366", "award_raw": "Khan Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:khan_bahadur", "honour_label": "khan bahadur", "source": "internal"}
 {"person_id": "kgp_iol1940-c1931366", "award_raw": "P.M.S.", "year": null, "modifiers": [], "honour_id": "colkg:pms", "honour_label": "pms", "source": "internal"}
 {"person_id": "kgp_iol1898-c2246618", "award_raw": "medal and clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
-{"person_id": "kgp_iol1947-c1246345", "award_raw": "O.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1940-c1931503", "award_raw": "O.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c1232821", "award_raw": "K.C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1945-c1232821", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1945-c1232821", "award_raw": "K.C.S.I.", "year": 1933, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
@@ -3925,10 +3891,7 @@
 {"person_id": "kgp_iol1915-c3304830", "award_raw": "medal and clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1915-c3304830", "award_raw": "clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1915-c3304830", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
-{"person_id": "kgp_iol1895_supp-c1721523", "award_raw": "medal and clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
-{"person_id": "kgp_iol1895_supp-c1721523", "award_raw": "clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
-{"person_id": "kgp_iol1895_supp-c1721523", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
-{"person_id": "kgp_iol1895_supp-c1721523", "award_raw": "brevet of major", "year": null, "modifiers": [], "honour_id": "colkg:brevet_of_major", "honour_label": "brevet of major", "source": "internal"}
+{"person_id": "kgp_iol1915-c3304830", "award_raw": "brevet of major", "year": null, "modifiers": [], "honour_id": "colkg:brevet_of_major", "honour_label": "brevet of major", "source": "internal"}
 {"person_id": "kgp_iol1939-c1978634", "award_raw": "King's police medal", "year": 1932, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c1722435", "award_raw": "C.B.", "year": 1898, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1895_supp-c1722435", "award_raw": "D.S.O.", "year": null, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
@@ -4030,9 +3993,7 @@
 {"person_id": "kgp_iol1929-c3576392", "award_raw": "C.V.O.", "year": 1905, "modifiers": [], "honour_id": "Q12193183", "honour_label": "Commander of the Royal Victorian Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1929-c3576392", "award_raw": "K.C.V.O.", "year": 1906, "modifiers": [], "honour_id": "Q12192712", "honour_label": "Knight Commander of the Royal Victorian Order", "source": "mcp_verified"}
 {"person_id": "kgp_iol1929-c3576392", "award_raw": "Knight of Grace, St. John of Jerusalem", "year": null, "modifiers": [], "honour_id": "colkg:knight_of_grace_st_john_of_jerusalem", "honour_label": "knight of grace, st john of jerusalem", "source": "internal"}
-{"person_id": "kgp_iol1910-c2998281", "award_raw": "medal and clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1914-c3279585", "award_raw": "medal and clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
-{"person_id": "kgp_iol1903-c2615309", "award_raw": "medal and clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1925-c3204176", "award_raw": "medal and clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1904-c2645697", "award_raw": "medal and clasp", "year": 1883, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1902-c2567808", "award_raw": "I.S.C.", "year": null, "modifiers": [], "honour_id": "colkg:isc", "honour_label": "isc", "source": "internal"}
@@ -4043,7 +4004,6 @@
 {"person_id": "kgp_iol1919-c3642591", "award_raw": "M.S.I.", "year": null, "modifiers": [], "honour_id": "colkg:msi", "honour_label": "msi", "source": "internal"}
 {"person_id": "kgp_iol1929-c3578661", "award_raw": "medal and clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1940-c2013714", "award_raw": "G.C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1929-c3579321", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1940-c2013853", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1932-c3693982", "award_raw": "King's police medal", "year": 1928, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1931-c3849859", "award_raw": "C.I.E.", "year": 1918, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -4211,9 +4171,8 @@
 {"person_id": "kgp_iol1907-c2877676", "award_raw": "Barr.", "year": 1892, "modifiers": [], "honour_id": "colkg:barr", "honour_label": "barr", "source": "internal"}
 {"person_id": "kgp_iol1945-c1316237", "award_raw": "King's police medal", "year": 1938, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1928-c3609842", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
-{"person_id": "kgp_iol1917-c3503183", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
-{"person_id": "kgp_iol1928-c3610064", "award_raw": "C.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1928-c3610064", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
+{"person_id": "kgp_iol1928-c3610064", "award_raw": "C.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1914-c3315709", "award_raw": "C.I.E.", "year": 1914, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1935-c3950700", "award_raw": "C.S.I.", "year": 1906, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1933-c3663951", "award_raw": "C.I.E.", "year": 1918, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -4323,8 +4282,7 @@
 {"person_id": "kgp_iol1945-c1335060", "award_raw": "C.B.E.", "year": 1943, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1922-c3170889", "award_raw": "C.I.E.", "year": 1900, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1927-c3613551", "award_raw": "C.I.E.", "year": 1908, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1931-c3926983", "award_raw": "King's police medal", "year": 1917, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
-{"person_id": "kgp_iol1919-c3710181", "award_raw": "King's police medal", "year": 1917, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
+{"person_id": "kgp_iol1911-c3112587", "award_raw": "King's police medal", "year": 1917, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1932-c3771551", "award_raw": "King's police medal", "year": 1917, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1347300", "award_raw": "O.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1932-c3771959", "award_raw": "C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "seed_co_honour"}
@@ -4737,7 +4695,6 @@
 {"person_id": "kgp_iol1923-c3221799", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1947-c1421284", "award_raw": "C.I.E.", "year": 1943, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1421284", "award_raw": "O.B.E.", "year": 1938, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1898-c2376035", "award_raw": "C.I.E.", "year": 1898, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1912-c3261223", "award_raw": "C.I.E.", "year": 1898, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1945-c1409863", "award_raw": "King's police medal", "year": 1943, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1935-c4097321", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
@@ -4781,7 +4738,7 @@
 {"person_id": "kgp_iol1917-c3610667", "award_raw": "I.S.O.", "year": 1912, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1934-c3644715", "award_raw": "C.S.I.", "year": 1922, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1934-c3644715", "award_raw": "C.I.E.", "year": 1912, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1912-c3098195", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
+{"person_id": "kgp_iol1934-c3644715", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1947-c1437225", "award_raw": "RAI BAHADUR", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1945-c1423740", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1945-c1423740", "award_raw": "C.I.E.", "year": 1930, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -4816,7 +4773,6 @@
 {"person_id": "kgp_iol1931-c4048936", "award_raw": "C.I.E.", "year": 1916, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1931-c4048936", "award_raw": "C.B.E.", "year": 1920, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1904-c2761167", "award_raw": "C.I.E.", "year": 1903, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1906-c2866618", "award_raw": "C.I.E.", "year": 1903, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1889_supp-c1559179", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1889_supp-c1559179", "award_raw": "medal from the zoological society", "year": null, "modifiers": [], "honour_id": "colkg:medal_from_the_zoological_society", "honour_label": "medal from the zoological society", "source": "internal"}
 {"person_id": "kgp_iol1889_supp-c1559179", "award_raw": "medal and diploma from the Austrian Exhibition of 1863", "year": 1863, "modifiers": [], "honour_id": "colkg:medal_and_diploma_from_the_austrian_exhibition_of_1863", "honour_label": "medal and diploma from the austrian exhibition of 1863", "source": "internal"}
@@ -4862,7 +4818,7 @@
 {"person_id": "kgp_iol1925-c3358686", "award_raw": "clasp", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1925-c3358686", "award_raw": "China, relief of Pekin, medal and clasp", "year": null, "modifiers": [], "honour_id": "colkg:china_relief_of_pekin_medal", "honour_label": "china, relief of pekin, medal", "source": "internal"}
 {"person_id": "kgp_iol1927-c3733506", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1929-c3787734", "award_raw": "O.B.E.", "year": 1918, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1927-c3733506", "award_raw": "O.B.E.", "year": 1918, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1446866", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1446866", "award_raw": "M.B.E.", "year": 1939, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1446866", "award_raw": "O.B.E.", "year": 1944, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
@@ -5111,7 +5067,6 @@
 {"person_id": "kgp_iol1936-c2918419", "award_raw": "O.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1927-c3780955", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1927-c3780955", "award_raw": "King's police medal", "year": 1911, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
-{"person_id": "kgp_iol1916-c3636845", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1926-c3474698", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1945-c1479980", "award_raw": "Rai Bahadur", "year": 1940, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1938-c2243636", "award_raw": "K.C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -5365,7 +5320,6 @@
 {"person_id": "kgp_iol1913-c3431808", "award_raw": "C.I.E.", "year": 1913, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1889_supp-c1627609", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1910-c3219195", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1895_supp-c1955033", "award_raw": "C.I.E.", "year": 1895, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1899-c2432324", "award_raw": "C.I.E.", "year": 1895, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1935-c4267783", "award_raw": "C.I.E.", "year": 1927, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c2324320", "award_raw": "M.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
@@ -5448,7 +5402,6 @@
 {"person_id": "kgp_iol1890_supp-c1758466", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1931-c4218236", "award_raw": "O.B.E.", "year": 1927, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1915-c3594672", "award_raw": "C.I.E.", "year": 1880, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1894_supp-c1877857", "award_raw": "C.I.E.", "year": 1880, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1915-c3595064", "award_raw": "I.S.O.", "year": 1914, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1917-c3742942", "award_raw": "K.C.S.I.", "year": 1911, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1917-c3742942", "award_raw": "C.S.I.", "year": 1910, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
@@ -5760,8 +5713,6 @@
 {"person_id": "kgp_iol1937-c4337253", "award_raw": "Rao Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rao_bahadur", "honour_label": "rao bahadur", "source": "internal"}
 {"person_id": "kgp_iol1932-c4169848", "award_raw": "RAI BAHADUR", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1894_supp-c1929534", "award_raw": "C.I.E.", "year": 1883, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1889_supp-c1689243", "award_raw": "C.I.E.", "year": 1883, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1919-c4011842", "award_raw": "C.I.E.", "year": 1883, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1906-c3024584", "award_raw": "C.I.E.", "year": 1883, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1934-c4188276", "award_raw": "RAI BAHADUR", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1945-c1588439", "award_raw": "O.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
@@ -5870,7 +5821,6 @@
 {"person_id": "kgp_iol1947-c1619079", "award_raw": "M.B.E.", "year": 1930, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1619079", "award_raw": "O.B.E.", "year": 1937, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1914-c3637582", "award_raw": "C.I.E.", "year": 1882, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1889_supp-c1707932", "award_raw": "C.I.E.", "year": 1882, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1894_supp-c1952881", "award_raw": "C.I.E.", "year": 1882, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1620286", "award_raw": "C.I.E.", "year": 1944, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1889_supp-c1708446", "award_raw": "C.I.E.", "year": 1887, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -6036,7 +5986,7 @@
 {"person_id": "kgp_iol1889_supp-c1733243", "award_raw": "K.C.B.", "year": 1850, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1733243", "award_raw": "K.C.B.", "year": 1860, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1890_supp-c1856163", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1919-c4057519", "award_raw": "C.I.E.", "year": 1918, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1917-c3862223", "award_raw": "C.I.E.", "year": 1918, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1923-c3474246", "award_raw": "C.M.", "year": null, "modifiers": [], "honour_id": "colkg:cm", "honour_label": "cm", "source": "internal"}
 {"person_id": "kgp_iol1904-c2938670", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c2395847", "award_raw": "King's police medal", "year": 1931, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
@@ -6247,8 +6197,6 @@
 {"person_id": "kgp_iol1919-c4109779", "award_raw": "Tochi clasp", "year": null, "modifiers": [], "honour_id": "colkg:tochi", "honour_label": "tochi", "source": "internal"}
 {"person_id": "kgp_iol1924-c3551525", "award_raw": "D.S.O.", "year": 1917, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1924-c3551525", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
-{"person_id": "kgp_iol1922-c3562118", "award_raw": "D.S.O.", "year": 1917, "modifiers": [], "honour_id": "Q615838", "honour_label": "Distinguished Service Order", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1922-c3562118", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c2534685", "award_raw": "C.I.E.", "year": 1932, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1925-c3639298", "award_raw": "K.C.S.I.", "year": 1917, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1925-c3639298", "award_raw": "K.C.I.E.", "year": 1910, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -6419,7 +6367,6 @@
 {"person_id": "kgp_iol1927-c4107068", "award_raw": "C.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1930-c4296342", "award_raw": "C.I.E.", "year": 1919, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1917-c3945414", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
-{"person_id": "kgp_iol1921-c3970617", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1725867", "award_raw": "O.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1889_supp-c1781719", "award_raw": "C.S.I.", "year": 1884, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1929-c4198435", "award_raw": "K.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201445", "honour_label": "Knight Commander of the Order of the British Empire", "source": "seed_co_honour"}
@@ -6505,7 +6452,7 @@
 {"person_id": "kgp_iol1947-c1737880", "award_raw": "O.B.E.", "year": 1942, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1738734", "award_raw": "C.S.I.", "year": 1946, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1738734", "award_raw": "C.I.E.", "year": 1937, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1940-c2619751", "award_raw": "C.I.E.", "year": 1937, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1937-c4542841", "award_raw": "C.I.E.", "year": 1937, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1925-c3671495", "award_raw": "M.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1739987", "award_raw": "M.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c1727617", "award_raw": "Rao Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rao_bahadur", "honour_label": "rao bahadur", "source": "internal"}
@@ -6566,7 +6513,6 @@
 {"person_id": "kgp_iol1947-c1756162", "award_raw": "O.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1756396", "award_raw": "M.B.E.", "year": 1942, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1922-c3606739", "award_raw": "C.I.E.", "year": 1920, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1926-c3764380", "award_raw": "C.I.E.", "year": 1920, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1919-c4164531", "award_raw": "C.S.I.", "year": 1914, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1756699", "award_raw": "C.S.I.", "year": 1946, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1756699", "award_raw": "C.I.E.", "year": 1942, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -6673,11 +6619,11 @@
 {"person_id": "kgp_iol1940-c2669180", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c2669180", "award_raw": "C.I.E.", "year": 1938, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1919-c4186757", "award_raw": "K.-i-H. medal, 1st class", "year": 1917, "modifiers": [], "honour_id": "colkg:k_i_h_medal_1st_class", "honour_label": "k -i -h medal, 1st class", "source": "internal"}
+{"person_id": "kgp_iol1895_supp-c2183628", "award_raw": "C.S.I.", "year": 1888, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
+{"person_id": "kgp_iol1895_supp-c2183628", "award_raw": "C.I.E.", "year": 1883, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1909-c3475952", "award_raw": "K.C.M.G.", "year": 1902, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1909-c3475952", "award_raw": "C.S.I.", "year": 1888, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1909-c3475952", "award_raw": "C.I.E.", "year": 1883, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1895_supp-c2183628", "award_raw": "C.S.I.", "year": 1888, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1895_supp-c2183628", "award_raw": "C.I.E.", "year": 1883, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c2670150", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c2670150", "award_raw": "C.I.E.", "year": 1933, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1937-c4595268", "award_raw": "King's police medal", "year": 1927, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
@@ -6896,10 +6842,10 @@
 {"person_id": "kgp_iol1936-c4594578", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1936-c4594578", "award_raw": "C.I.E.", "year": 1931, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1936-c4595488", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1934-c4508365", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1895_supp-c2216537", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1936-c4596209", "award_raw": "C.I.E.", "year": 1931, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1813537", "award_raw": "C.I.E.", "year": 1946, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1945-c1805655", "award_raw": "C.I.E.", "year": 1941, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1936-c4597901", "award_raw": "C.I.E.", "year": 1941, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1814348", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c2730031", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c2730031", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
@@ -7063,8 +7009,8 @@
 {"person_id": "kgp_iol1904-c3079761", "award_raw": "KNT", "year": 1877, "modifiers": [], "honour_id": "Q833163", "honour_label": "Knight Bachelor", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1837711", "award_raw": "O.B.E.", "year": 1943, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1937-c4697362", "award_raw": "K.-i-H. medal, 1st class", "year": 1915, "modifiers": [], "honour_id": "colkg:k_i_h_medal_1st_class", "honour_label": "k -i -h medal, 1st class", "source": "internal"}
-{"person_id": "kgp_iol1921-c4089469", "award_raw": "I.S.O.", "year": 1912, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1925-c3773380", "award_raw": "I.S.O.", "year": 1912, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1921-c4089469", "award_raw": "I.S.O.", "year": 1912, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1934-c4551428", "award_raw": "C.I.E.", "year": 1917, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c2764400", "award_raw": "C.I.E.", "year": 1939, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c2732693", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -7386,9 +7332,8 @@
 {"person_id": "kgp_iol1917-c4114057", "award_raw": "K.C.S.I.", "year": 1904, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1917-c4114057", "award_raw": "K.C.", "year": null, "modifiers": [], "honour_id": "Q1533366", "honour_label": "King's Counsel", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1917-c4114057", "award_raw": "C.S.I.", "year": 1902, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1916-c4082805", "award_raw": "I.S.O.", "year": 1911, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1921-c4154117", "award_raw": "C.I.E.", "year": 1919, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1921-c4154117", "award_raw": "I.S.O.", "year": 1911, "modifiers": [], "honour_id": "Q1810753", "honour_label": "Imperial Service Order", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1921-c4154117", "award_raw": "C.I.E.", "year": 1919, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1932-c4604156", "award_raw": "C.I.E.", "year": 1933, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1932-c4604156", "award_raw": "M.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1900-c3113424", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
@@ -7484,7 +7429,6 @@
 {"person_id": "kgp_iol1924-c3751570", "award_raw": "Grand Officer, Legion of Honour", "year": null, "modifiers": [], "honour_id": "colkg:grand_officer_legion_of_honour", "honour_label": "grand officer, legion of honour", "source": "internal"}
 {"person_id": "kgp_iol1939-c2887606", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1939-c2887606", "award_raw": "C.I.E.", "year": 1933, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1893_supp-c2167481", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1917-c4126382", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1938-c2854204", "award_raw": "knighted", "year": 1937, "modifiers": [], "honour_id": "colkg:knighted", "honour_label": "knighted", "source": "internal"}
 {"person_id": "kgp_iol1934-c4672930", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
@@ -7743,7 +7687,6 @@
 {"person_id": "kgp_iol1936-c4832600", "award_raw": "C.I.E.", "year": 1911, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c2366193", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1895_supp-c2366193", "award_raw": "brevet of major", "year": null, "modifiers": [], "honour_id": "colkg:brevet_of_major", "honour_label": "brevet of major", "source": "internal"}
-{"person_id": "kgp_iol1900-c2817158", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1931-c4840682", "award_raw": "C.I.E.", "year": 1924, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c1965619", "award_raw": "M.B.E.", "year": 1945, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1938-c1660774", "award_raw": "Rai Bahadur", "year": 1939, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
@@ -7797,7 +7740,6 @@
 {"person_id": "kgp_iol1940-c2961335", "award_raw": "King's police medal", "year": 1938, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1945-c1972487", "award_raw": "M.B.E.", "year": 1942, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1934-c4758231", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
-{"person_id": "kgp_iol1929-c4527498", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
 {"person_id": "kgp_iol1939-c2963823", "award_raw": "M.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1975131", "award_raw": "K.C.B.", "year": 1941, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1975131", "award_raw": "M.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
@@ -7808,7 +7750,7 @@
 {"person_id": "kgp_iol1929-c4529521", "award_raw": "M.B.E.", "year": null, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1929-c4529521", "award_raw": "M.B.E.", "year": 1919, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1938-c2932005", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
-{"person_id": "kgp_iol1896-c2369653", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
+{"person_id": "kgp_iol1895_supp-c1831269", "award_raw": "Rai Bahadur", "year": null, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1930-c4651760", "award_raw": "C.I.E.", "year": 1929, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1930-c4651760", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c1978654", "award_raw": "M.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
@@ -8095,11 +8037,9 @@
 {"person_id": "kgp_iol1947-c2038462", "award_raw": "O.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1932-c4799533", "award_raw": "King's Police Medal", "year": null, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2040020", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1889_supp-c1997093", "award_raw": "C.B.", "year": 1869, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1889_supp-c1997093", "award_raw": "K.C.S.I.", "year": 1877, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1894_supp-c2296384", "award_raw": "G.C.I.E.", "year": 1892, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1894_supp-c2296384", "award_raw": "K.C.S.I.", "year": 1877, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1894_supp-c2296384", "award_raw": "C.B.", "year": 1869, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1894_supp-c2296384", "award_raw": "K.C.S.I.", "year": 1877, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
+{"person_id": "kgp_iol1894_supp-c2296384", "award_raw": "G.C.I.E.", "year": 1892, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1927-c4457275", "award_raw": "M.I.E. (Ind.)", "year": null, "modifiers": [], "honour_id": "colkg:mie", "honour_label": "mie", "source": "internal"}
 {"person_id": "kgp_iol1926-c4035612", "award_raw": "C.B.E.", "year": 1920, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1926-c4035612", "award_raw": "C.B.E.", "year": 1918, "modifiers": [], "honour_id": "Q12201477", "honour_label": "Commander of the Order of the British Empire", "source": "seed_co_honour"}
@@ -8329,8 +8269,8 @@
 {"person_id": "kgp_iol1938-c3076913", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1938-c3076913", "award_raw": "K.B.E.", "year": 1937, "modifiers": [], "honour_id": "Q12201445", "honour_label": "Knight Commander of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1938-c3076913", "award_raw": "C.I.E.", "year": 1913, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1945-c2091194", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1936-c5006513", "award_raw": "C.S.I.", "year": 1928, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
+{"person_id": "kgp_iol1945-c2091194", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2095924", "award_raw": "Indian police medal", "year": 1942, "modifiers": [], "honour_id": "colkg:indian_police_medal", "honour_label": "indian police medal", "source": "internal"}
 {"person_id": "kgp_iol1936-c5007285", "award_raw": "C.I.E.", "year": 1930, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1927-c4511599", "award_raw": "King's Police Medal", "year": 1916, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
@@ -8469,7 +8409,6 @@
 {"person_id": "kgp_iol1947-c2124271", "award_raw": "O.B.E.", "year": 1941, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c2121679", "award_raw": "M.B.E.", "year": 1943, "modifiers": [], "honour_id": "Q12201526", "honour_label": "Member of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1892_supp-c2246354", "award_raw": "K.C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "seed_co_honour"}
-{"person_id": "kgp_iol1889_supp-c2033538", "award_raw": "K.C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1898-c2802099", "award_raw": "K.C.M.G.", "year": null, "modifiers": [], "honour_id": "Q12177415", "honour_label": "Knight Commander of the Order of St Michael and St George", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1896-c2795095", "award_raw": "medal, clasp and star", "year": 1882, "modifiers": [], "honour_id": "colkg:medal_and_star", "honour_label": "medal and star", "source": "internal"}
 {"person_id": "kgp_iol1896-c2795095", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
@@ -8541,7 +8480,6 @@
 {"person_id": "kgp_iol1932-c4922661", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
 {"person_id": "kgp_iol1894_supp-c2343986", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1900-c2898655", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
-{"person_id": "kgp_iol1901-c3099321", "award_raw": "medal", "year": null, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1939-c3171568", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2135789", "award_raw": "K.C.I.E.", "year": 1943, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2135789", "award_raw": "C.S.I.", "year": 1937, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
@@ -8709,7 +8647,6 @@
 {"person_id": "kgp_iol1927-c4583837", "award_raw": "K.I.H. medal, 2nd class", "year": 1900, "modifiers": [], "honour_id": "colkg:k_i_h_medal_2nd_class", "honour_label": "k -i -h medal, 2nd class", "source": "internal"}
 {"person_id": "kgp_iol1927-c4583837", "award_raw": "K.-i-H. medal, 2nd class", "year": 1900, "modifiers": [], "honour_id": "colkg:k_i_h_medal_2nd_class", "honour_label": "k -i -h medal, 2nd class", "source": "internal"}
 {"person_id": "kgp_iol1927-c4583837", "award_raw": "C.S.I.", "year": 1912, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1920-c4265049", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1927-c4584618", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1927-c4585091", "award_raw": "K.C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1927-c4585091", "award_raw": "C.V.O.", "year": null, "modifiers": [], "honour_id": "Q12193183", "honour_label": "Commander of the Royal Victorian Order", "source": "seed_co_honour"}
@@ -8884,7 +8821,6 @@
 {"person_id": "kgp_iol1940-c3240355", "award_raw": "C.I.E.", "year": 1937, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c3240621", "award_raw": "King's police medal", "year": null, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1892_supp-c2302059", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
-{"person_id": "kgp_iol1927-c4621273", "award_raw": "C.I.E.", "year": 1914, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1924-c3998049", "award_raw": "C.I.E.", "year": 1914, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1936-c5143373", "award_raw": "Rai Bahadur", "year": 1945, "modifiers": [], "honour_id": "colkg:rai_bahadur", "honour_label": "rai bahadur", "source": "internal"}
 {"person_id": "kgp_iol1911-c3864342", "award_raw": "C.I.E.", "year": 1907, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -9004,7 +8940,7 @@
 {"person_id": "kgp_iol1932-c5031899", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1945-c2197960", "award_raw": "O.B.E.", "year": 1946, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1933-c4965832", "award_raw": "A.I.A.", "year": null, "modifiers": [], "honour_id": "colkg:aia", "honour_label": "aia", "source": "internal"}
-{"person_id": "kgp_iol1897-c2816129", "award_raw": "medal and clasp", "year": 1856, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
+{"person_id": "kgp_iol1892_supp-c2311021", "award_raw": "medal and clasp", "year": 1856, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1892_supp-c2311021", "award_raw": "medal and clasp", "year": 1855, "modifiers": [], "honour_id": null, "honour_label": null, "source": null}
 {"person_id": "kgp_iol1931-c5168191", "award_raw": "King's police medal", "year": 1929, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
 {"person_id": "kgp_iol1931-c5168191", "award_raw": "O.B.E.", "year": 1935, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
@@ -9023,9 +8959,7 @@
 {"person_id": "kgp_iol1940-c3276592", "award_raw": "C.S.I.", "year": null, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1940-c3276592", "award_raw": "C.S.I.", "year": 1937, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2203548", "award_raw": "C.I.E.", "year": 1941, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1889_supp-c2093354", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1917-c4401474", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1895_supp-c2528480", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2204766", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c2204766", "award_raw": "B.G.M.", "year": null, "modifiers": [], "honour_id": "colkg:bgm", "honour_label": "bgm", "source": "internal"}
 {"person_id": "kgp_iol1932-c5038790", "award_raw": "M.C.", "year": null, "modifiers": [], "honour_id": "Q1335064", "honour_label": "Military Cross", "source": "seed_co_honour"}
@@ -9564,8 +9498,8 @@
 {"person_id": "kgp_iol1905-c3428830", "award_raw": "Afghan medal", "year": null, "modifiers": [], "honour_id": "colkg:afghan_medal", "honour_label": "afghan medal", "source": "internal"}
 {"person_id": "kgp_iol1905-c3428830", "award_raw": "Punjab Frontier medal and clasp", "year": null, "modifiers": [], "honour_id": "colkg:punjab_frontier_medal", "honour_label": "punjab frontier medal", "source": "internal"}
 {"person_id": "kgp_iol1940-c3412368", "award_raw": "C.I.E.", "year": 1945, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1886_supp-c994458", "award_raw": "C.B.", "year": null, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1886_supp-c994458", "award_raw": "C.B.", "year": 1880, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
+{"person_id": "kgp_iol1911-c3969579", "award_raw": "C.B.", "year": null, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1911-c3969579", "award_raw": "K.C.B.", "year": 1892, "modifiers": [], "honour_id": "Q12177470", "honour_label": "Knight Commander of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1911-c3969579", "award_raw": "C.B.", "year": 1880, "modifiers": [], "honour_id": "Q12177472", "honour_label": "Companion of the Order of the Bath", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1934-c5240904", "award_raw": "K.C.", "year": null, "modifiers": [], "honour_id": "Q1533366", "honour_label": "King's Counsel", "source": "seed_co_honour"}
@@ -9698,10 +9632,9 @@
 {"person_id": "kgp_iol1889_supp-c2196621", "award_raw": "C.I.E.", "year": 1888, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1928-c4912858", "award_raw": "C.S.I.", "year": 1922, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1928-c4912858", "award_raw": "C.I.E.", "year": 1916, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1927-c4799459", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
-{"person_id": "kgp_iol1927-c4799459", "award_raw": "King's police medal", "year": 1926, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
-{"person_id": "kgp_iol1936-c5365100", "award_raw": "C.I.E.", "year": 1926, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1936-c5365100", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1936-c5365100", "award_raw": "King's police medal", "year": 1926, "modifiers": [], "honour_id": "Q2792177", "honour_label": "King's Police Medal", "source": "mcp_verified"}
+{"person_id": "kgp_iol1936-c5365100", "award_raw": "C.I.E.", "year": 1926, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2327705", "award_raw": "C.S.I.", "year": 1946, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2327705", "award_raw": "C.I.E.", "year": 1941, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1939-c3439906", "award_raw": "C.I.E.", "year": null, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -9766,7 +9699,6 @@
 {"person_id": "kgp_iol1939-c3455295", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1939-c3455295", "award_raw": "O.B.E.", "year": 1938, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1937-c5442235", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
-{"person_id": "kgp_iol1928-c4928046", "award_raw": "V.D.", "year": null, "modifiers": [], "honour_id": "Q20982076", "honour_label": "Volunteer Officers' Decoration for India and the Colonies", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c2668994", "award_raw": "C.I.E.", "year": 1892, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1895_supp-c2668994", "award_raw": "K.C.I.E.", "year": 1903, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1911-c4011439", "award_raw": "C.I.E.", "year": 1904, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
@@ -10063,7 +9995,7 @@
 {"person_id": "kgp_iol1934-c5387266", "award_raw": "C.S.I.", "year": 1887, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1934-c5387266", "award_raw": "C.M.G.", "year": 1888, "modifiers": [], "honour_id": "Q12177413", "honour_label": "Companion of the Order of St Michael and St George", "source": "seed_co_honour"}
 {"person_id": "kgp_iol1947-c2382702", "award_raw": "Indian police medal", "year": 1941, "modifiers": [], "honour_id": "colkg:indian_police_medal", "honour_label": "indian police medal", "source": "internal"}
-{"person_id": "kgp_iol1915-c4427748", "award_raw": "C.I.E.", "year": 1912, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
+{"person_id": "kgp_iol1909-c4008408", "award_raw": "C.I.E.", "year": 1912, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2383103", "award_raw": "C.S.I.", "year": 1946, "modifiers": [], "honour_id": "Q1330936", "honour_label": "Order of the Star of India", "source": "mcp_verified"}
 {"person_id": "kgp_iol1947-c2383103", "award_raw": "C.I.E.", "year": 1938, "modifiers": [], "honour_id": "Q93710", "honour_label": "Order of the Indian Empire", "source": "mcp_verified"}
 {"person_id": "kgp_iol1927-c4899341", "award_raw": "O.B.E.", "year": null, "modifiers": [], "honour_id": "Q10762848", "honour_label": "Officer of the Order of the British Empire", "source": "seed_co_honour"}

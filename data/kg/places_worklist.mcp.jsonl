@@ -1,4 +1,4 @@
-# 9753 queries with no manifest match -> ground via MCP (place-disambig)
+# 9749 queries with no manifest match -> ground via MCP (place-disambig)
 {"query": "Penang", "count": 1425, "n_variants": 2, "variants": [["Penang", 1424], ["Penang.", 1]]}
 {"query": "Saint Vincent", "count": 1146, "n_variants": 3, "variants": [["St. Vincent", 913], ["St. V.", 217], ["Saint Vincent", 16]]}
 {"query": "Malaya", "count": 1129, "n_variants": 4, "variants": [["Mal.", 985], ["Malaya", 142], ["Malaya.", 1], ["Mal", 1]]}
@@ -374,7 +374,6 @@
 {"query": "Balapitiya", "count": 18, "n_variants": 1, "variants": [["Balapitiya", 18]]}
 {"query": "France and Italy", "count": 18, "n_variants": 1, "variants": [["France and Italy", 18]]}
 {"query": "Roseau", "count": 18, "n_variants": 1, "variants": [["Roseau", 18]]}
-{"query": "Vancouver's Island", "count": 18, "n_variants": 1, "variants": [["Vancouver's Island", 18]]}
 {"query": "D.T.C.", "count": 18, "n_variants": 1, "variants": [["D.T.C.", 18]]}
 {"query": "Zomba", "count": 18, "n_variants": 1, "variants": [["Zomba", 18]]}
 {"query": "West Coast", "count": 18, "n_variants": 1, "variants": [["West Coast", 18]]}
@@ -558,7 +557,6 @@
 {"query": "Taipo in addn.", "count": 13, "n_variants": 1, "variants": [["Taipo in addn.", 13]]}
 {"query": "Manaar", "count": 13, "n_variants": 1, "variants": [["Manaar", 13]]}
 {"query": "East Griqualand", "count": 13, "n_variants": 1, "variants": [["East Griqualand", 13]]}
-{"query": "Prince Edward's Island", "count": 13, "n_variants": 1, "variants": [["Prince Edward's Island", 13]]}
 {"query": "Lucknow", "count": 13, "n_variants": 1, "variants": [["Lucknow", 13]]}
 {"query": "district B", "count": 13, "n_variants": 1, "variants": [["district B", 13]]}
 {"query": "Bredasdorp", "count": 13, "n_variants": 1, "variants": [["Bredasdorp", 13]]}
@@ -9457,7 +9455,6 @@
 {"query": "English-Bicknor Gloucestershire", "count": 1, "n_variants": 1, "variants": [["English-Bicknor, Gloucestershire", 1]]}
 {"query": "parish of St. Andrew's", "count": 1, "n_variants": 1, "variants": [["parish of St. Andrew's", 1]]}
 {"query": "England and Scotland", "count": 1, "n_variants": 1, "variants": [["England and Scotland", 1]]}
-{"query": "Vancouver's island", "count": 1, "n_variants": 1, "variants": [["Vancouver's island", 1]]}
 {"query": "Vancouver's Islands", "count": 1, "n_variants": 1, "variants": [["Vancouver's Islands", 1]]}
 {"query": "America and the Mediterranean", "count": 1, "n_variants": 1, "variants": [["America and the Mediterranean", 1]]}
 {"query": "Shaftesbury", "count": 1, "n_variants": 1, "variants": [["Shaftesbury", 1]]}
@@ -9486,7 +9483,6 @@
 {"query": "Worcester division of the Cape Colony", "count": 1, "n_variants": 1, "variants": [["the Worcester division of the Cape Colony", 1]]}
 {"query": "St. Peter's", "count": 1, "n_variants": 1, "variants": [["St. Peter's", 1]]}
 {"query": "Lisburn", "count": 1, "n_variants": 1, "variants": [["Lisburn", 1]]}
-{"query": "St. Vincent's", "count": 1, "n_variants": 1, "variants": [["St. Vincent's", 1]]}
 {"query": "Glamorganshire", "count": 1, "n_variants": 1, "variants": [["Glamorganshire", 1]]}
 {"query": "Taunton", "count": 1, "n_variants": 1, "variants": [["Taunton", 1]]}
 {"query": "St. Lucy Barbados", "count": 1, "n_variants": 1, "variants": [["St. Lucy, Barbados", 1]]}

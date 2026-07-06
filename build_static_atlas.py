@@ -102,20 +102,11 @@ def build_arcs_places(coords, seats, canon):
     return arcs
 
 # ---------------------------------------------------------------- careers + search
-# OCR/source YEAR fixes found by reviewing the live atlas; keyed (person_id,
-# colony_qid, wrong_year) -> {year_start,year_end}. The spine is regenerable, so
-# corrections live in data/kg/career_event_corrections.json and are re-applied on
-# every build rather than hand-edited into the spine (see that file's _doc).
-def _load_year_corrections():
-    p = ROOT / "data" / "kg" / "career_event_corrections.json"
-    idx = {}
-    if p.exists():
-        for c in json.load(p.open()).get("corrections", []):
-            idx[(c["person_id"], c.get("colony_qid"), c.get("match_year_start"))] = c
-    return idx
-
-_YEAR_FIX = _load_year_corrections()
-
+# NOTE: OCR/source career-YEAR fixes now live UPSTREAM in data/kg/career_year_fixups.json,
+# applied by kg_apply_year_fixups.py as the final step of reemit_dedup.sh (mirroring the
+# colony fixups). career_facts.jsonl therefore already carries the corrected years, so the
+# atlas reads them straight through — no downstream override here. (The old downstream
+# data/kg/career_event_corrections.json Guggisberg entry has been superseded by that fixup.)
 def _facts(path):
     """career_facts fuses the GROUNDED role (role_id/role_label) with place+time.
     Yield the grounded role so the register shows the canonical name ('Governor')
@@ -123,12 +114,8 @@ def _facts(path):
     a role wasn't grounded."""
     for l in path.open():
         d = json.loads(l)
-        y0, y1 = d.get("year_start"), d.get("year_end")
-        fix = _YEAR_FIX.get((d["person_id"], d.get("colony_qid"), y0))
-        if fix:
-            y0 = fix.get("year_start", y0)
-            y1 = fix.get("year_end", y1)
-        yield (d["person_id"], d.get("colony_qid"), y0, y1,
+        yield (d["person_id"], d.get("colony_qid"),
+               d.get("year_start"), d.get("year_end"),
                d.get("role_id"), d.get("role_label"),
                d.get("position_raw"), d.get("is_acting"))
 

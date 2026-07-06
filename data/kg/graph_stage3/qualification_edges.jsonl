@@ -315,7 +315,7 @@
 {"person_id": "kgp_col1900-p537b17", "award_raw": "F.R.G.S.", "year": null, "modifiers": [], "qualification_id": "Q20006267", "qualification_label": "Fellow of the Royal Geographical Society", "source": "mcp"}
 {"person_id": "kgp_col1963-p298b13", "award_raw": "M.R.C.S. (Lond.)", "year": null, "modifiers": [], "qualification_id": "Q6815098", "qualification_label": "Membership of the Royal College of Surgeons", "source": "mcp"}
 {"person_id": "kgp_col1963-p298b13", "award_raw": "L.R.C.P. (Eng.)", "year": null, "modifiers": [], "qualification_id": "colkg:lrcp", "qualification_label": "Licentiate of the Royal College of Physicians", "source": "internal"}
-{"person_id": "kgp_col1951-p522b13", "award_raw": "M.Sc.", "year": null, "modifiers": [], "qualification_id": "Q950900", "qualification_label": "Master of Science", "source": "mcp"}
+{"person_id": "kgp_col1954-p286b5", "award_raw": "M.Sc.", "year": null, "modifiers": [], "qualification_id": "Q950900", "qualification_label": "Master of Science", "source": "mcp"}
 {"person_id": "kgp_dol1935-p870b9", "award_raw": "M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:miee", "qualification_label": "Member of the Institution of Electrical Engineers", "source": "internal"}
 {"person_id": "kgp_col1951-p523b5", "award_raw": "B.Sc. (Lond.)", "year": null, "modifiers": [], "qualification_id": "Q787674", "qualification_label": "Bachelor of Science", "source": "mcp"}
 {"person_id": "kgp_col1951-p523b5", "award_raw": "F.R.I.C.", "year": null, "modifiers": [], "qualification_id": "colkg:fric", "qualification_label": "Fellow of the Royal Institute of Chemistry", "source": "internal"}
@@ -1019,7 +1019,6 @@
 {"person_id": "kgp_col1921-p915b7", "award_raw": "F.R.A.I.", "year": null, "modifiers": [], "qualification_id": "colkg:frai", "qualification_label": "Fellow of the Royal Anthropological Institute", "source": "internal"}
 {"person_id": "kgp_col1888-p550b20", "award_raw": "D.D.", "year": null, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
 {"person_id": "kgp_col1911-p755b5", "award_raw": "F.R.C.S.I.", "year": null, "modifiers": [], "qualification_id": "Q3631327", "qualification_label": "Fellowship of the Royal College of Surgeons", "source": "reuse"}
-{"person_id": "kgp_col1889-p534b11_s1", "award_raw": "D.D.", "year": 1857, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
 {"person_id": "kgp_col1896-p636b15", "award_raw": "D.D.", "year": 1857, "modifiers": [], "qualification_id": "Q1984623", "qualification_label": "Doctor of Divinity", "source": "mcp"}
 {"person_id": "kgp_dol1935-p979b4", "award_raw": "A.M.I.E.E.", "year": null, "modifiers": [], "qualification_id": "colkg:amiee", "qualification_label": "Associate Member of the Institution of Electrical Engineers", "source": "internal"}
 {"person_id": "kgp_col1949-p540b15", "award_raw": "B.Sc. (Tech.)", "year": null, "modifiers": [], "qualification_id": "Q787674", "qualification_label": "Bachelor of Science", "source": "mcp"}

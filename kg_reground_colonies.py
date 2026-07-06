@@ -73,7 +73,11 @@ KEEP_CACHED = {
 
 
 def _norm(s: str) -> str:
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", (s or "").lower())).strip()
+    # Strip possessive 's before blanking punctuation, so "Vancouver's Island" folds
+    # onto manifest "Vancouver Island" (Q2510000 Colony of Vancouver Island) instead of
+    # tokenising to a stray "s" and missing it. Mirrors kg_join_manifest._norm.
+    s = re.sub(r"['’]s\b", "", (s or "").lower())
+    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9 ]", " ", s)).strip()
 
 
 def _strip_type(s: str) -> str:

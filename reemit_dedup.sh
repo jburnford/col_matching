@@ -56,5 +56,12 @@ g = sum(1 for l in open(GD + "/persons.jsonl") if json.loads(l).get("wikidata_qi
 print(f"   persons {len(pers)}  grounded {g}")
 PY
 
+echo "── backfill colony for still-placeless officials (org->colony rollup + IOL->British Raj)"
+# NOT optional: without this, IOL career_facts colony coverage collapses ~100%->78%
+# (3,965 India-Office officials go placeless and drop off the atlas). See kg_backfill_colony.py.
+python3 kg_backfill_colony.py
+python3 kg_emit_career_facts.py >/dev/null
 echo "── colony fixups (year/person-aware rules the crosswalk cannot express)"
 python3 kg_apply_colony_fixups.py
+echo "── career-year fixups (OCR/source year errors the spine cannot self-correct)"
+python3 kg_apply_year_fixups.py
