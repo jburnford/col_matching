@@ -125,15 +125,37 @@ def _find_section_by_density(blocks: list[Block]) -> tuple[int, int] | None:
     return in_run[0], min(in_run[-1] + 30, len(blocks))
 
 
+def _headword_dense_after(blocks: list[Block], start: int,
+                          probe: int = 150, need: int = 10) -> bool:
+    """True if the text blocks right after ``start`` read like bio entries.
+    Guards against _SECTION_START matching a table-of-contents line or a
+    preface *mention* of the section ('the Record of Services section has had
+    to be restricted', 1948/1952/1953) hundreds of pages before the real one."""
+    seen = hits = 0
+    for b in blocks[start + 1:]:
+        if b.category != "text":
+            continue
+        seen += 1
+        if _is_headword(b.text):
+            hits += 1
+            if hits >= need:
+                return True
+        if seen >= probe:
+            break
+    return False
+
+
 def find_services_section(blocks: list[Block]) -> tuple[int, int] | None:
     """Return (start_idx, end_idx) into ``blocks`` bounding the services run,
-    or None. Start = first block whose text matches the section header; end =
-    an INDEX/ERRATA stop, else end of volume. Falls back to headword-block
+    or None. Start = first block whose text matches the section header AND is
+    followed by headword-dense text (rejects TOC/preface mentions); end = an
+    INDEX/ERRATA stop, else end of volume. Falls back to headword-block
     density when the header wording isn't recognized (header text varies by
     era and one variant zeroed out 1939)."""
     start = None
     for i, b in enumerate(blocks):
-        if b.category in ("title", "header", "text") and _SECTION_START.search(b.text):
+        if b.category in ("title", "header", "text") and _SECTION_START.search(b.text) \
+                and _headword_dense_after(blocks, i):
             start = i
             break
     if start is None:
