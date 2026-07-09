@@ -85,19 +85,23 @@ def index_volume(year: int, out_fh) -> list[dict]:
     vocab = roster.colony_vocab(blocks)
     colony = None
     title = None
+    zone = None      # back-matter section name (the reset header): OBITUARY,
+    #                  ORDER OF ST MICHAEL AND ST GEORGE, INDEX, ...
     rows = []
     for i, b in enumerate(blocks):
         if b.category == "header":
             sig, h = roster._colony_signal(b.text)
             if sig == "reset":
                 colony, title = None, None
+                zone = re.sub(r"\s+", " ", b.text.strip().strip(". "))
             elif sig == "set" and h != colony:
-                colony, title = h, None
+                colony, title, zone = h, None, None
             continue
         if b.category == "title":
             sig, _ = roster._colony_signal(b.text)
             if sig == "reset":
                 colony, title = None, None
+                zone = re.sub(r"\s+", " ", b.text.strip().strip(". "))
                 continue
             tcol = roster._title_colony(b.text, vocab)
             if tcol is not None:
@@ -114,11 +118,17 @@ def index_volume(year: int, out_fh) -> list[dict]:
             if section == "establishment" or (section == "councils" and b.category == "text"):
                 section = "establishment"
             elif section is None:
-                section = "untitled" if title is None else "other_titled"
+                # back-matter zone rescues title-less blocks (the zone header
+                # RESETS the title, so obituaries/honours rolls landed untitled)
+                zsec = classify_title(zone)
+                if zsec in ("obituary", "honours_roll"):
+                    section = zsec
+                else:
+                    section = "untitled" if title is None else "other_titled"
         rows.append({"year": year, "page": b.page, "block": b.index,
                      "category": b.category, "colony": colony,
                      "section": section, "title": (title or "")[:80],
-                     "chars": len(b.text)})
+                     "zone": zone, "chars": len(b.text)})
     for r in rows:
         out_fh.write(json.dumps(r, ensure_ascii=False) + "\n")
     return rows
