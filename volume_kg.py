@@ -99,10 +99,14 @@ def main() -> None:
     for g in _load(ROOT / "governors/governors.jsonl"):
         m = match_career(g["colony"], g["surname"], g.get("given"), g["year"])
         gov_rows.append({**g, "source": "succession", "match": m})
+    from volume_careers import canon_colony
     for g in _load(CTX / "governor_panel.jsonl"):
-        m = match_career(None, g["surname"], g.get("given"),
-                         g.get("commission_year"))
-        gov_rows.append({"colony": g["colony_raw"], "office": g["office"],
+        col = canon_colony(g["colony_raw"])
+        m = (match_career(col, g["surname"], g.get("given"),
+                          g.get("commission_year"), window=6)
+             or match_career(None, g["surname"], g.get("given"),
+                             g.get("commission_year")))
+        gov_rows.append({"colony": col or g["colony_raw"], "office": g["office"],
                          "given": g["given"], "surname": g["surname"],
                          "honours": g["honours"], "year": g.get("commission_year"),
                          "salary": g.get("salary"), "edition": g["edition"],
