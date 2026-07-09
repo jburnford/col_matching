@@ -27,6 +27,19 @@ def main():
         b = json.loads(line)
         worklist_text[b["id"]] = b["text"].lower()
 
+    # colony/department as CURRENTLY assigned by the header tracker — the
+    # values stored in the qwen results were captured at worklist time and go
+    # stale whenever roster.py's colony assignment improves. Keyed on block
+    # provenance; a block no longer in any roster region (e.g. back matter
+    # that now resets colony) drops its qwen records.
+    block_ctx = {}
+    for d in ROOT.glob("col[0-9]*"):
+        for line in open(d / "roster_blocks.jsonl"):
+            blk = json.loads(line)
+            p = blk["provenance"]
+            block_ctx[(p["edition_year"], p["page"], p["block"])] = (
+                blk["colony"], blk["department"])
+
     existing = defaultdict(set)          # year -> qwen record_ids already merged
     for d in ROOT.glob("col[0-9]*"):
         year = int(d.name[3:])
@@ -59,12 +72,18 @@ def main():
             if rid in existing[year]:
                 stats["already_merged"] += 1
                 continue
+            prov = res["provenance"]
+            ctx = block_ctx.get((prov["edition_year"], prov["page"], prov["block"]))
+            if ctx is None:
+                stats["block_no_longer_roster"] += 1
+                continue
+            colony, department = ctx
             pos = r.get("position")
             if pos and len(pos) > MAX_POSITION:
                 pos = pos[:MAX_POSITION]
             rec = {
                 "record_id": rid, "edition_year": year,
-                "colony": res.get("colony"), "department": res.get("department"),
+                "colony": colony, "department": department,
                 "position": pos, "name_raw": ((r.get("given_names") or "") + " " + sur).strip(),
                 "surname": sur, "given_names": r.get("given_names"),
                 "honours": r.get("honours") or [], "salary": r.get("salary"),

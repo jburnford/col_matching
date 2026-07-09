@@ -32,23 +32,103 @@ _SALARY = re.compile(
     rf"|\b\d[\d,]*\s?{_SALARY_UNIT}"
     rf"(?:\s*(?:to|by|plus|and|[-–—])\s*[\d,]+\s?{_SALARY_UNIT})*)"
 )
-# Colony-name shaped running header (all-caps words, &, hyphen, apostrophe).
-_COLONY_HEADER = re.compile(r"^[A-Z][A-Z'’.&\- ]{2,40}\.?$")
-# Headers that are NOT colonies.
-_NOT_COLONY = {
-    "COLONIAL OFFICE LIST", "DOMINIONS OFFICE LIST",
-    "COMMONWEALTH RELATIONS OFFICE LIST", "CONTENTS", "INDEX", "ERRATA",
-    "ADVERTISEMENTS", "ADVERTISER",
-    # back-matter / printer sections whose running headers pass the shape test
+# Colony-name shaped running header (all-caps words, &, hyphen, apostrophe;
+# matched AFTER _header_norm, so page-spread compounds appear as "A--B").
+_COLONY_HEADER = re.compile(r"^[A-Z][A-Z'’.&\- ]{2,70}\.?$")
+_DASHES = re.compile(r"\s*(?:[—–]|--+)\s*")
+_EDGE_NUM = re.compile(r"^\d+\s+|\s+\d+$")
+# 1946-53 restructured staff lists run under "STAFFS : NIGERIA" headers.
+_STAFFS = re.compile(r"^STAFFS?\s*[:;]\s*(.+)$", re.I)
+
+
+def _header_norm(text: str) -> str:
+    """Strip edge page numbers, normalize em/en dashes to '--', tidy spaces."""
+    t = re.sub(r"\s+", " ", text.strip()).strip(". ")
+    t = _EDGE_NUM.sub("", t).strip()
+    return _DASHES.sub("--", t)
+
+
+def _set_key(t: str) -> str:
+    return re.sub(r"\s+", " ", t.upper().replace(".", "")).strip()
+
+
+# Volume running titles that ALTERNATE with colony headers page-by-page:
+# ignore them, the current colony stays in force on the facing page.
+_IGNORE_HEADERS = {_set_key(k) for k in (
+    "COLONIAL OFFICE LIST", "THE COLONIAL OFFICE LIST",
+    "DOMINIONS OFFICE LIST", "THE DOMINIONS OFFICE LIST",
+    "DOMINIONS OFFICE AND COLONIAL OFFICE LIST",
+    "DOMINIONS OFFICE AND COLONIAL OFFICE LIS",           # OCR truncation
+    "COMMONWEALTH RELATIONS OFFICE LIST",
+    "THE COMMONWEALTH RELATIONS OFFICE LIST", "THE COLONIAL OFFICE",
+)}
+# Back-matter / front-matter sections: the colony scope ENDS here. Without the
+# reset, everything after the last chapter (index, honours rolls, obituaries,
+# adverts) inherited that chapter's colony — e.g. 8.5k phantom "ZANZIBAR"
+# records in col1946.
+_RESET_HEADERS = {_set_key(k) for k in (
+    "CONTENTS", "INDEX", "ERRATA", "ADDENDA", "CORRIGENDA", "PREFACE",
+    "APPENDIX", "APPENDICES", "OBITUARY", "ADVERTISEMENTS", "ADVERTISER",
     "WATERLOW & SONS LIMITED", "ORDER OF THE BRITISH EMPIRE",
     "COLONIAL ASSOCIATIONS", "INFORMATION AS TO COLONIAL APPOINTMENTS",
-    "THE COLONIAL OFFICE LIST", "THE COLONIAL OFFICE", "COLONIAL REGULATIONS",
-    "APPENDIX", "INSTITUTIONS", "OBITUARY", "GENERAL INFORMATION",
-    "COLONIAL AGENTS IN LONDON", "CROWN AGENTS FOR THE COLONIES",
+    "COLONIAL REGULATIONS", "INSTITUTIONS", "GENERAL INFORMATION",
     "IMPERIAL INSTITUTE", "ROYAL COLONIAL INSTITUTE",
-    "ORDER OF ST. MICHAEL AND ST. GEORGE",
-    "THE MOST DISTINGUISHED ORDER OF ST. MICHAEL AND ST. GEORGE",
-}
+    "IMPERIAL SERVICE ORDER", "KNIGHTS BACHELORS", "EMIGRATION",
+    "ORDER OF ST MICHAEL AND ST GEORGE",
+    "THE MOST DISTINGUISHED ORDER OF ST MICHAEL AND ST GEORGE",
+    "TABLE OF PRECEDENCE", "EXPLANATION OF CERTAIN ABBREVIATIONS",
+    "HARRISON AND SONS", "PUBLIC REVENUE AND EXPENDITURE",
+    "LIST OF PARLIAMENTARY PAPERS ON COLONIAL AFFAIRS", "GEOGRAPHICAL INDEX",
+    "LOCAL AND IMPERIAL ACTS OF GENERAL IMPORTANCE",
+)}
+
+
+def _colony_signal(text: str) -> tuple[str, str | None]:
+    """Classify a header/title string: ('set', colony) | ('reset', None) |
+    ('ignore', None)."""
+    t = _header_norm(text)
+    key = _set_key(t)
+    if key in _RESET_HEADERS:
+        return "reset", None
+    if key in _IGNORE_HEADERS or not t:
+        return "ignore", None
+    m = _STAFFS.match(t)
+    if m:
+        t = m.group(1).strip().strip(". ")
+    # colon hierarchy headers ("MALAYA: STRAITS SETTLEMENTS.", "LEEWARD
+    # ISLANDS: DOMINICA.", 1930s editions) — same compound semantics as "--"
+    t = re.sub(r"\s*:\s*", "--", t).strip("- ")
+    if _COLONY_HEADER.match(t) and not any(ch.isdigit() for ch in t) and len(t) >= 3:
+        return "set", t
+    return "ignore", None
+
+
+def colony_vocab(blocks) -> set[str]:
+    """Colony names attested by this volume's running headers (compound
+    segments included) — gates title-based chapter starts so a stray all-caps
+    title can't invent a colony."""
+    vocab: set[str] = set()
+    for b in blocks:
+        if b.category != "header":
+            continue
+        sig, col = _colony_signal(b.text)
+        if sig == "set" and col:
+            for seg in col.split("--"):
+                seg = re.sub(r"^THE\s+", "", seg.strip(), flags=re.I)
+                if seg:
+                    vocab.add(_set_key(seg))
+    return vocab
+
+
+def _title_colony(text: str, vocab: set[str]) -> str | None:
+    """Chapter-start titles ('WESTERN AUSTRALIA.', 'BARBADOS') mark the real
+    boundary pages before the running header catches up — accept them only
+    when the volume's own headers corroborate the name."""
+    sig, col = _colony_signal(text)
+    if sig != "set" or not col or "--" in col:
+        return None
+    key = _set_key(re.sub(r"^THE\s+", "", col, flags=re.I))
+    return col if key in vocab else None
 # Titles that open / belong to a roster region.
 _ROSTER_TITLE = re.compile(
     r"establishment|government|gov(?:ernment)? agenc|judicial|legislat|executive"
@@ -257,19 +337,29 @@ def extract_records(
     seen_colonies: set[str] = set()
     upper = stop_at if stop_at is not None else len(blocks)
 
+    vocab = colony_vocab(blocks[:upper])
     for b in blocks[:upper]:
         stats["blocks_scanned"] += 1
         if b.category == "header":
-            h = b.text.strip().rstrip(".").strip()
-            if _COLONY_HEADER.match(b.text) and h.upper() not in _NOT_COLONY \
-                    and not any(ch.isdigit() for ch in h) and len(h) >= 3:
-                if h != colony:
-                    colony = h
-                    department = None
-                    in_roster = False
-                    seen_colonies.add(h)
+            sig, h = _colony_signal(b.text)
+            if sig == "reset":
+                colony, department, in_roster = None, None, False
+            elif sig == "set" and h != colony:
+                colony = h
+                department = None
+                in_roster = False
+                seen_colonies.add(h)
             continue
         if b.category == "title":
+            sig, _ = _colony_signal(b.text)
+            if sig == "reset":
+                colony, department, in_roster = None, None, False
+                continue
+            tcol = _title_colony(b.text, vocab)
+            if tcol is not None and tcol != colony:
+                colony, department, in_roster = tcol, None, False
+                seen_colonies.add(tcol)
+                continue
             if _PROFILE_TITLE.search(b.text):
                 in_roster = False
             elif _ROSTER_TITLE.search(b.text):
@@ -322,14 +412,24 @@ def collect_roster_blocks(
     department: str | None = None
     in_roster = False
     upper = stop_at if stop_at is not None else len(blocks)
+    vocab = colony_vocab(blocks[:upper])
     for b in blocks[:upper]:
         if b.category == "header":
-            h = b.text.strip().rstrip(".").strip()
-            if _COLONY_HEADER.match(b.text) and h.upper() not in _NOT_COLONY \
-                    and not any(ch.isdigit() for ch in h) and len(h) >= 3 and h != colony:
+            sig, h = _colony_signal(b.text)
+            if sig == "reset":
+                colony, department, in_roster = None, None, False
+            elif sig == "set" and h != colony:
                 colony, department, in_roster = h, None, False
             continue
         if b.category == "title":
+            sig, _ = _colony_signal(b.text)
+            if sig == "reset":
+                colony, department, in_roster = None, None, False
+                continue
+            tcol = _title_colony(b.text, vocab)
+            if tcol is not None and tcol != colony:
+                colony, department, in_roster = tcol, None, False
+                continue
             if _PROFILE_TITLE.search(b.text):
                 in_roster = False
             elif _ROSTER_TITLE.search(b.text):

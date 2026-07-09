@@ -4,44 +4,44 @@
   "pages": 521,
   "bios": {
     "section": [
-      7539,
+      7954,
       13977
     ],
-    "n_blocks": 5547,
-    "n_bios": 5021,
+    "n_blocks": 5266,
+    "n_bios": 5020,
     "rules_ok": 4747,
-    "unparsed": 274
+    "unparsed": 273
   },
   "roster": {
-    "blocks_scanned": 7539,
-    "roster_blocks": 339,
-    "n_records": 1832,
-    "colonies": 30
+    "blocks_scanned": 7954,
+    "roster_blocks": 319,
+    "n_records": 1700,
+    "colonies": 77
   },
   "match": {
-    "bios_in": 5021,
-    "records_in": 1832,
-    "bios_linked": 172,
-    "links": 173,
-    "ambiguous_dropped": 1,
+    "bios_in": 5020,
+    "records_in": 1700,
+    "bios_linked": 106,
+    "links": 106,
+    "ambiguous_dropped": 0,
     "by_strength": {
-      "strong": 169,
-      "weak": 4
+      "strong": 97,
+      "weak": 9
     },
     "by_surname_match": {
-      "exact": 170,
+      "exact": 103,
       "fuzzy": 3
     },
     "links_by_record_source": {
-      "rules": 25,
-      "qwen": 148
+      "rules": 16,
+      "qwen": 90
     }
   },
-  "bio_link_rate": 0.0343,
+  "bio_link_rate": 0.0211,
   "relink": {
-    "old_bio_link_rate": 0.0343,
-    "old_links": 173,
-    "records_rules": 650,
-    "records_qwen": 1182
+    "old_bio_link_rate": 0.0032,
+    "old_links": 16,
+    "records_rules": 600,
+    "records_qwen": 1100
   }
 }

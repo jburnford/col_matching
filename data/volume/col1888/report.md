@@ -2,11 +2,11 @@
 
 - pages: 661
 - **bios**: 2379 (1333 rules-parsed, 1046 unparsed→Qwen)
-- **roster records**: 8364 across 42 colonies (1781 roster blocks)
-- **links**: 578  |  bios linked: 562 (**23.6%** of bios)
-- ambiguous dropped: 31
-- by strength: {'strong': 486, 'weak': 40, 'medium': 52}
-- by surname match: {'exact': 564, 'fuzzy': 14}
+- **roster records**: 7429 across 116 colonies (1626 roster blocks)
+- **links**: 596  |  bios linked: 564 (**23.7%** of bios)
+- ambiguous dropped: 24
+- by strength: {'strong': 496, 'weak': 44, 'medium': 56}
+- by surname match: {'exact': 580, 'fuzzy': 16}
 
 ## Sample links (verify against raw OCR bbox)
 
@@ -25,18 +25,18 @@
 - **ANGOVE, THOMAS** → *WESTERN AUSTRALIA* [strong, pos~71.4] rec: T Angove (2nd Clerk) | bio p432 · rec p270
 - **ANTHONISZ, JAMES OLIVER** → *STRAITS SETTLEMENTS* [strong, pos~100.0] rec: J. O. Authonisz (Passed Cadet) | bio p432 · rec p289
 - **ASHMORE, ALEX. MURRAY** → *CEYLON* [strong, pos~84.2] rec: A. M Ashmore (Office Assistant, Kandy) | bio p433 · rec p151
-- **AUSTIN, HENRY WILLIAM** → *BAHAMAS* [strong, pos~0.0] rec: Henry W Austin (?) | bio p434 · rec p48
+- **AUSTIN, HENRY WILLIAM** → *BAHAMAS--BARBADOS* [strong, pos~0.0] rec: Henry W Austin (?) | bio p434 · rec p48
 - **AUSTIN, WM. GEO. GARDINER** → *BRITISH GUIANA* [strong, pos~100.0] rec: W. G. G Austin (Inspector of Schools) | bio p434 · rec p77
-- **BAKER, WILLIAM** → *LEEWARD ISLANDS* [weak, pos~45.9] rec: W. A. B Baker (Chairman, Jos. Briggs. Clerk) | bio p434 · rec p201
+- **BAKER, WILLIAM** → *LEEWARD ISLANDS--NEVIS* [weak, pos~45.9] rec: W. A. B Baker (Chairman, Jos. Briggs. Clerk) | bio p434 · rec p201
 - **BAMBERGER, A. N** → *CAPE OF GOOD HOPE* [strong, pos~74.4] rec: A. N. Bamberger (Civil Commissioner and Resident Magistrate) | bio p435 · rec p137
-- **BANNERMAN, C. J** → *THE GOLD COAST COLONY* [strong, pos~100.0] rec: C. J Bannerman (allowance. Clerk to Chief Justice and Interpreter) | bio p435 · rec p170
+- **BANNERMAN, C. J** → *THE GOLD COAST COLONY* [weak, pos~50.0] rec: J Bannerman (Amedica, Out-door Officer) | bio p435 · rec p169
+- **BANNERMAN, C. J** → *THE GOLD COAST COLONY--HELIGOLAND* [strong, pos~100.0] rec: C. J Bannerman (allowance. Clerk to Chief Justice and Interpreter) | bio p435 · rec p170
 - **BARRY, JACOB DIRK** → *CAPE OF GOOD HOPE* [medium, pos~53.3] rec: J. D Barry (Judge President) | bio p436 · rec p139
 - **BASCOM, HENRY SARSFIELD** → *THE GOLD COAST COLONY* [strong, pos~100.0] rec: H. S Bascom (Chief Clerk) | bio p436 · rec p169
 - **BAUDOT, ERNEST** → *MAURITIUS* [strong, pos~100.0] rec: E Baudot (District Magistrate, Pamplemousses) | bio p436 · rec p221
+- **BAUMGARTNER, E. J** → *GIBRALTAR--THE GOLD COAST COLONY* [strong, pos~100.0] rec: E. J. Baumgartner (Registrar of the Supreme Court, &c.) | bio p436 · rec p165
 - **BAUMGARTNER, HARRY PERCY** → *CEYLON* [strong, pos~82.4] rec: H. P Baumgartner (Landing Surveyor, Colombo) | bio p436 · rec p151
 - **BAXTER, ERNEST CHARLES** → *BRITISH BECHUANALAND* [medium, pos~9.8] rec: E. C Baxter (Clerks) | bio p436 · rec p68
 - **BEAL, J. C** → *QUEENSLAND* [strong, pos~0.0] rec: J. C Beal (?) | bio p437 · rec p265
 - **BEDDOME, SAMUEL** → *SOUTH AUSTRALIA* [strong, pos~100.0] rec: S Beddome (Police Magistrate) | bio p437 · rec p281
 - **BELL, H. C. P** → *CEYLON* [strong, pos~40.0] rec: H. C. P Bell (Ditto, ditto, Kégalla) | bio p437 · rec p150
-- **BELL, WILLIAM** → *QUEENSLAND* [strong, pos~86.4] rec: W Bell (Registrar of Supreme Court, Clerk of the Peace, Prothonotary, &c) | bio p437 · rec p265
-- **BELSTEAD, FRANCIS** → *TASMANIA* [strong, pos~100.0] rec: Francis Belstead (Secretary of Mines) | bio p438 · rec p298

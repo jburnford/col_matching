@@ -90,6 +90,14 @@ _FOLD: dict[str, str | None] = {
     # DESIGN CALL: the CO's own "Distribution of Business" org pages = London
     # Colonial Office staff
     "DISTRIBUTION OF BUSINESS": "COLONIAL OFFICE (LONDON)",
+    "COLONIAL OFFICE": "COLONIAL OFFICE (LONDON)",
+    # headers surfaced by the em-dash/back-matter header fix
+    "NYASALAND": "NYASALAND PROTECTORATE",
+    "WESTERN PACIFIC HIGH COMMISSION": "WESTERN PACIFIC",
+    # DESIGN CALL: bare "HIGH COMMISSION" header is WPHC-vs-SA-ambiguous
+    "HIGH COMMISSION": None,
+    # DESIGN CALL: Orange Free State appears as the ORC chapter's alt header
+    "ORANGE FREE STATE": "ORANGE RIVER COLONY",
     # --- federation sub-chapters folded UP (continuity beats granularity;
     # DESIGN CALL — the sub-unit is preserved in `department`/`position`)
     "AUSTRALIA - QUEENSLAND": "AUSTRALIA", "AUSTRALIA SOUTH AUSTRALIA": "AUSTRALIA",
@@ -142,11 +150,43 @@ _FOLD: dict[str, str | None] = {
 }
 
 
+# Federations/unions whose sub-chapter compounds ("LEEWARD ISLANDS--ANTIGUA",
+# "SOUTH AFRICA--NATAL") fold UP to the federation. A compound whose FIRST
+# segment is not one of these joins unrelated colonies — a page-spread index
+# header — and maps to None. DESIGN CALLS flagged.
+_FEDERATIONS = {"AUSTRALIA", "CANADA", "LEEWARD ISLANDS", "WINDWARD ISLANDS",
+                "SOUTH AFRICA", "WEST AFRICA SETTLEMENTS"}
+_COMPOUND_OVERRIDE = {
+    # DESIGN CALL: pre-1885 Barbados sat inside the Windwards chapter but is
+    # the dominant continuous identity — fold to BARBADOS, not the federation
+    "WINDWARD ISLANDS--BARBADOS": "BARBADOS",
+}
+
+
 def canon_colony(raw: str) -> str | None:
     c = re.sub(r"\s+", " ", raw.strip().strip(".")).upper()
-    c = re.sub(r"^THE\s+(?=(GOLD|GAMBIA|GAMBLA|TRANSVAAL|LEEWARD))", "", c)
+    c = re.sub(r"^THE\s+(?=(GOLD|GAMBIA|GAMBLA|TRANSVAAL|LEEWARD|WINDWARD))", "", c)
     if c in _FOLD:
         return _FOLD[c]
+    # letter-soup OCR garble ("S S S W E T N S L V")
+    toks = c.replace("--", " ").split()
+    if toks and all(len(t) <= 2 for t in toks):
+        return None
+    if "--" in c:
+        if c in _COMPOUND_OVERRIDE:
+            return _COMPOUND_OVERRIDE[c]
+        parts = [re.sub(r"^THE\s+", "", p.strip(" .")) for p in c.split("--")
+                 if p.strip(" .")]
+        if len(parts) == 1:
+            return canon_colony(parts[0])
+        # DESIGN CALL: 1930s "MALAYA: <unit>" hierarchy headers fold DOWN to
+        # the unit (Straits Settlements, F.M.S., State of Johore) so the
+        # series stays continuous with the pre-1930 chapter identities
+        if parts[0] == "MALAYA":
+            return canon_colony("--".join(parts[1:]))
+        if parts[0] in _FEDERATIONS:
+            return canon_colony(parts[0])
+        return None                       # page-spread header: side unknown
     return c
 
 
