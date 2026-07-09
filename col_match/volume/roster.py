@@ -22,10 +22,15 @@ from dataclasses import dataclass, field
 from ..services import rules_parse
 from .reader import Block
 
-# Salary tokens that terminate a roster record.
+# Salary tokens that terminate a roster record. The layout-aware OCR renders
+# the pound-sterling "l." as "/" on many pages ("1,600/, and duty allowance,
+# 320/."), so both spellings are salary delimiters; "to/–/plus/by" chains are
+# swallowed so scale tails don't spawn junk chunks.
+_SALARY_UNIT = r"(?:l\.|/(?!\d))"
 _SALARY = re.compile(
     r"(?:Rs\.?\s?[\d,]+(?:\.\d+)?|£\s?[\d,]+|\$\s?[\d,]+"
-    r"|\b\d[\d,]*l\.(?:\s*(?:to|[-–—])\s*[\d,]*l\.)?)"
+    rf"|\b\d[\d,]*\s?{_SALARY_UNIT}"
+    rf"(?:\s*(?:to|by|plus|and|[-–—])\s*[\d,]+\s?{_SALARY_UNIT})*)"
 )
 # Colony-name shaped running header (all-caps words, &, hyphen, apostrophe).
 _COLONY_HEADER = re.compile(r"^[A-Z][A-Z'’.&\- ]{2,40}\.?$")
@@ -34,6 +39,15 @@ _NOT_COLONY = {
     "COLONIAL OFFICE LIST", "DOMINIONS OFFICE LIST",
     "COMMONWEALTH RELATIONS OFFICE LIST", "CONTENTS", "INDEX", "ERRATA",
     "ADVERTISEMENTS", "ADVERTISER",
+    # back-matter / printer sections whose running headers pass the shape test
+    "WATERLOW & SONS LIMITED", "ORDER OF THE BRITISH EMPIRE",
+    "COLONIAL ASSOCIATIONS", "INFORMATION AS TO COLONIAL APPOINTMENTS",
+    "THE COLONIAL OFFICE LIST", "THE COLONIAL OFFICE", "COLONIAL REGULATIONS",
+    "APPENDIX", "INSTITUTIONS", "OBITUARY", "GENERAL INFORMATION",
+    "COLONIAL AGENTS IN LONDON", "CROWN AGENTS FOR THE COLONIES",
+    "IMPERIAL INSTITUTE", "ROYAL COLONIAL INSTITUTE",
+    "ORDER OF ST. MICHAEL AND ST. GEORGE",
+    "THE MOST DISTINGUISHED ORDER OF ST. MICHAEL AND ST. GEORGE",
 }
 # Titles that open / belong to a roster region.
 _ROSTER_TITLE = re.compile(
@@ -57,10 +71,23 @@ _POSITION_WORD = {
     "member", "president", "chairman", "engineer", "principal", "warden",
     "department", "establishment", "province", "district", "council", "office",
     "service", "vacant", "acting",
+    # geographic/administrative words that pair into name-shaped bigrams
+    # ("Northern Territories", "Eastern Province") — never person names here
+    "territory", "territories", "provincial", "northern", "southern",
+    "eastern", "western", "central", "colony", "protectorate", "division",
 }
+
+
+def _is_position_word(tok: str) -> bool:
+    t = tok.lower().strip(".,")
+    return t in _POSITION_WORD or t.rstrip("s") in _POSITION_WORD
 _PARTICLES = {"de", "del", "della", "di", "da", "van", "von", "le", "la", "du",
               "des", "den", "ter", "st", "st.", "mac", "mc", "o'"}
-_TRAIL_PAREN = re.compile(r"\((?:acting|vacant|on leave|temp\.?|ag\.?)\)\.?", re.I)
+_TRAIL_PAREN = re.compile(
+    r"\((?:acting|vacant|on leave|temp\.?|ag\.?|supernumerary|seconded|retired"
+    r"|[^)]*designate[^)]*)\)\.?", re.I)
+_LEAD_AND = re.compile(r"^(?:and|&)\s+", re.I)
+_INITIALS = re.compile(r"\b[A-Z]\.")
 
 
 @dataclass
@@ -112,11 +139,11 @@ def _parse_name(seg: str) -> tuple[str, str | None, list[str]] | None:
     core = surname.split()[-1]
     if not re.match(r"^[A-Z][A-Za-z'’.\-]{1,}$", core):
         return None
-    if core.lower().strip(".") in _POSITION_WORD:
+    if _is_position_word(core):
         return None
     given = " ".join(given_toks).strip(" .,") or None
     # a name should not itself read as a position phrase
-    if given and all(g.lower().strip(".") in _POSITION_WORD for g in given.split()):
+    if given and all(_is_position_word(g) for g in given.split()):
         return None
     return surname, given, honours
 
@@ -155,25 +182,66 @@ def _split_records_emdash(text: str) -> list[tuple[str, str | None]]:
     return out
 
 
-def _parse_record_chunk(chunk: str) -> tuple[str | None, str, str | None, list[str]] | None:
-    """chunk (position + name + honours, salary already stripped) ->
-    (position, surname, given, honours) or None."""
+def _seg_is_person(seg: str) -> tuple[str, str | None, list[str]] | None:
+    """Stricter person test for name-run splitting: a segment is a person only
+    if it parses as a name AND shows person morphology — a title prefix
+    ("Capt. …"), initials ("C. F. D. O. Rew"), or >=2 mixed-case tokens
+    ("John Maxwell"). A single bare capitalised word ("Ashanti") is NOT a
+    person; it stays with the position text."""
+    raw = _LEAD_AND.sub("", seg.strip())
+    parsed = _parse_name(raw)
+    if parsed is None:
+        return None
+    first_tok = raw.split()[0] if raw.split() else ""
+    if rules_parse._is_title(first_tok) or _INITIALS.search(raw):
+        return parsed
+    toks = [t for t in raw.split() if t.strip(".,")]
+    if len(toks) >= 2 and all(re.match(r"^[A-Z][a-z'’\-]", t) for t in toks[:2]) \
+            and not any(_is_position_word(t) for t in toks):
+        return parsed
+    return None
+
+
+def _parse_record_chunk(chunk: str) -> list[tuple[str | None, str, str | None, list[str]]]:
+    """chunk (position + name-run + honours, salary already stripped) ->
+    list of (position, surname, given, honours). Period rosters bind ONE
+    position to a RUN of names ("Provincial Commissioners, A, B, C, … salary"),
+    so every person-shaped segment after the position becomes its own record,
+    all sharing the position; honour-only segments attach to the record they
+    follow."""
     segs = [s.strip() for s in chunk.split(",") if s.strip()]
     if not segs:
-        return None
-    # drop trailing honour-only segments, remember them
-    honours: list[str] = []
-    while segs and _is_honour_seg(segs[-1]):
-        honours.insert(0, segs.pop().rstrip("."))
-    if not segs:
-        return None
-    # right-most remaining segment is the name; the rest is the position
-    name = _parse_name(segs[-1])
-    if name is None:
-        return None
-    surname, given, name_honours = name
-    position = ", ".join(segs[:-1]).strip(" .:—–-") or None
-    return position, surname, given, honours + name_honours
+        return []
+    out: list[tuple[str | None, str, str | None, list[str]]] = []
+    position_parts: list[str] = []
+    for seg in segs:
+        if _is_honour_seg(_TRAIL_PAREN.sub("", seg).strip()):
+            if out:                       # honour rides with the preceding name
+                out[-1][3].append(_TRAIL_PAREN.sub("", seg).strip().rstrip("."))
+            continue
+        person = _seg_is_person(seg)
+        if person is not None:
+            surname, given, honours = person
+            out.append((None, surname, given, list(honours)))
+        elif not out:
+            position_parts.append(seg)    # still reading the position
+        # else: trailing junk between/after names ("and duty allowance") — skip
+    if not out:
+        # fall back to the permissive right-most-name rule so simple
+        # "Position, Name." records without person morphology still parse
+        honours = []
+        while segs and _is_honour_seg(segs[-1]):
+            honours.insert(0, segs.pop().rstrip("."))
+        if not segs:
+            return []
+        name = _parse_name(segs[-1])
+        if name is None:
+            return []
+        surname, given, name_honours = name
+        position = ", ".join(segs[:-1]).strip(" .:—–-") or None
+        return [(position, surname, given, honours + name_honours)]
+    position = ", ".join(position_parts).strip(" .:—–-") or None
+    return [(position, s, g, h) for _, s, g, h in out]
 
 
 def extract_records(
@@ -221,20 +289,19 @@ def extract_records(
         if not chunks:
             continue
         block_had = 0
-        for ci, (chunk, salary) in enumerate(chunks):
-            parsed = _parse_record_chunk(chunk)
-            if parsed is None:
-                continue
-            position, surname, given, honours = parsed
-            block_had += 1
-            rid = f"{b.doc}{b.edition_year}-p{b.page}b{b.index}r{ci}"
-            records.append(VolumeRecord(
-                record_id=rid, edition_year=b.edition_year, colony=colony,
-                department=department, position=position,
-                name_raw=(given + " " if given else "") + surname,
-                surname=surname, given_names=given, honours=honours,
-                salary=salary, snippet=chunk[:160], provenance=b.prov,
-            ))
+        rec_no = 0
+        for chunk, salary in chunks:
+            for position, surname, given, honours in _parse_record_chunk(chunk):
+                block_had += 1
+                rid = f"{b.doc}{b.edition_year}-p{b.page}b{b.index}r{rec_no}"
+                rec_no += 1
+                records.append(VolumeRecord(
+                    record_id=rid, edition_year=b.edition_year, colony=colony,
+                    department=department, position=position,
+                    name_raw=(given + " " if given else "") + surname,
+                    surname=surname, given_names=given, honours=honours,
+                    salary=salary, snippet=chunk[:160], provenance=b.prov,
+                ))
         if block_had:
             stats["roster_blocks"] += 1
 
