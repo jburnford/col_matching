@@ -58,6 +58,9 @@ pip install "$SLURM_TMPDIR/opencv_stub/"
 pip install --no-index "$WHEEL_CACHE/vllm-0.12.0+computecanada-cp38-abi3-linux_x86_64.whl"
 
 echo "=== starting vLLM: $MODEL_DIR ==="
+# NOTE: no `| tee` here — in `cmd | tee &`, $! is tee's PID, so the shutdown
+# kill hit tee and left vLLM holding the GPU for the rest of the walltime
+# (job 17384633 idled ~7h after the worker finished).
 python -m vllm.entrypoints.openai.api_server \
     --model "$MODEL_DIR" \
     --served-model-name qwen3-30b-a3b \
@@ -65,7 +68,7 @@ python -m vllm.entrypoints.openai.api_server \
     --max-model-len 8192 \
     --gpu-memory-utilization 0.90 \
     --disable-log-requests \
-    2>&1 | tee "$JOB_DIR/vllm_$SLURM_JOB_ID.log" &
+    > "$JOB_DIR/vllm_$SLURM_JOB_ID.log" 2>&1 &
 VLLM_PID=$!
 
 for i in $(seq 1 40); do
@@ -87,5 +90,10 @@ python3 "$JOB_DIR/qwen_roster_worker.py" \
 
 echo "=== worker done ==="; date
 kill $VLLM_PID 2>/dev/null
+for i in $(seq 1 12); do
+    kill -0 $VLLM_PID 2>/dev/null || break
+    sleep 5
+done
+kill -9 $VLLM_PID 2>/dev/null
 wait $VLLM_PID 2>/dev/null
 echo "job complete"
