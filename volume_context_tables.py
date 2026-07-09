@@ -27,7 +27,9 @@ from volume_careers import canon_colony
 
 ROOT = Path("data/volume")
 OUT = ROOT / "context"
-SECTIONS = {"finance", "trade", "population", "currency_banking"}
+SECTIONS = {"finance", "trade", "population", "currency_banking",
+            "infrastructure", "social", "geography", "land_labour",
+            "defence", "justice"}
 
 _ROW = re.compile(r"<tr[^>]*>(.*?)</tr>", re.S)
 _CELL = re.compile(r"<(t[dh])([^>]*)>(.*?)</t[dh]>", re.S)
