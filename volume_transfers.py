@@ -124,7 +124,10 @@ def score_pair(a: dict, b: dict, surfreq: Counter) -> dict:
         tier = "rejected"
     elif name_strong and rarity <= 25 and corrobs >= 2:
         tier = "confirmed"
-    elif name_strong and corrobs >= 2:
+    elif name_strong and corrobs >= 2 and (rarity <= 100 or pos_sim >= 55):
+        # salary/rank continuity alone is near-vacuous (usually true); demand
+        # a rare surname or real position affinity — calibration showed
+        # common-surname pairs riding on salary alone are ~60% namesakes
         tier = "probable"
     elif name_strong or corrobs >= 2:
         tier = "possible"

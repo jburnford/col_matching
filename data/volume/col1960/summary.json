@@ -15,33 +15,33 @@
   "roster": {
     "blocks_scanned": 7954,
     "roster_blocks": 319,
-    "n_records": 1700,
+    "n_records": 1781,
     "colonies": 77
   },
   "match": {
     "bios_in": 5020,
-    "records_in": 1700,
-    "bios_linked": 106,
-    "links": 106,
-    "ambiguous_dropped": 0,
+    "records_in": 1781,
+    "bios_linked": 123,
+    "links": 123,
+    "ambiguous_dropped": 2,
     "by_strength": {
-      "strong": 97,
-      "weak": 9
+      "strong": 109,
+      "weak": 14
     },
     "by_surname_match": {
-      "exact": 103,
+      "exact": 120,
       "fuzzy": 3
     },
     "links_by_record_source": {
-      "rules": 16,
-      "qwen": 90
+      "rules": 20,
+      "qwen": 103
     }
   },
-  "bio_link_rate": 0.0211,
+  "bio_link_rate": 0.0245,
   "relink": {
-    "old_bio_link_rate": 0.0032,
-    "old_links": 16,
+    "old_bio_link_rate": 0.0211,
+    "old_links": 106,
     "records_rules": 600,
-    "records_qwen": 1100
+    "records_qwen": 1181
   }
 }

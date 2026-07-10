@@ -2,22 +2,26 @@
 
 - pages: 521
 - **bios**: 5020 (4747 rules-parsed, 273 unparsed→Qwen)
-- **roster records**: 1700 across 77 colonies (319 roster blocks)
-- **links**: 106  |  bios linked: 106 (**2.1%** of bios)
-- ambiguous dropped: 0
-- by strength: {'strong': 97, 'weak': 9}
-- by surname match: {'exact': 103, 'fuzzy': 3}
+- **roster records**: 1781 across 77 colonies (319 roster blocks)
+- **links**: 123  |  bios linked: 123 (**2.5%** of bios)
+- ambiguous dropped: 2
+- by strength: {'strong': 109, 'weak': 14}
+- by surname match: {'exact': 120, 'fuzzy': 3}
 
 ## Sample links (verify against raw OCR bbox)
 
 - **ABBOTT, S. H** → *THE WEST INDIES--MONTSERRAT* [strong, pos~94.3] rec: S. H. Abbott (Agricultural Superintendent) | bio p283 · rec p238
+- **ANGOY, ** → *BRITISH GUIANA--BRITISH HONDURAS* [weak, pos~39.0] rec: W. A. Angoy (District Commissioners) | bio p289 · rec p91
 - **ANGOY, W. A** → *BRITISH GUIANA--BRITISH HONDURAS* [strong, pos~70.0] rec: W. A. Angoy (District Commissioners) | bio p289 · rec p91
 - **ARTHUR, Raynor** → *BAHAMAS* [strong, pos~75.0] rec: Raynor Arthur (CIVIL ESTABLISHMENT GOVERNOR AND COMMANDER-IN-CHIEF) | bio p291 · rec p81
 - **BEETHAM, Edward** → *THE WEST INDIES--TRINIDAD AND TOBAGO* [strong, pos~75.0] rec: Edward Beetham (GOVERNOR AND COMMANDER-IN-CHIEF) | bio p298 · rec p248
 - **BELL, G. T** → *TANGANYIKA* [strong, pos~85.0] rec: G. T. Bell (Provincial Commissioner) | bio p299 · rec p195
+- **BLACK, ** → *HONG KONG* [strong, pos~28.6] rec: Robert Black (GOVERNOR AND COMMANDER-IN-CHIEF) | bio p303 · rec p121
 - **BRADLEY, J** → *TANGANYIKA* [strong, pos~85.0] rec: J. Bradley (Provincial Commissioner) | bio p307 · rec p195
 - **BRIANT, A. K** → *ZANZIBAR* [strong, pos~100.0] rec: A. K. Briant (Director of Agriculture) | bio p308 · rec p261
+- **BROWN, ** → *KENYA* [weak, pos~34.5] rec: F. H. Brown (Joint Secretaries) | bio p310 · rec p38
 - **BROWNE, R. E** → *THE WEST INDIES--MONTSERRAT* [strong, pos~16.0] rec: R. E. Browne (Senior Medical Officer) | bio p310 · rec p236
+- **BUCHANAN, ** → *KENYA* [strong, pos~0.0] rec: J. C. R. Buchanan (?) | bio p311 · rec p39
 - **CAMACHO, R. F** → *BRITISH GUIANA--BRITISH HONDURAS* [strong, pos~100.0] rec: R. F. Camacho (Director of Drainage and Irrigation) | bio p315 · rec p91
 - **CAMERON, W. S** → *BRITISH GUIANA--BRITISH HONDURAS* [strong, pos~97.7] rec: W. S. Cameron (District Commissioners) | bio p315 · rec p91
 - **COOPER, W. J. D** → *KENYA* [weak, pos~0.0] rec: J. Cooper (?) | bio p327 · rec p39
@@ -35,8 +39,4 @@
 - **DAVIES, M. J** → *TANGANYIKA* [weak, pos~0.0] rec: John Davies (?) | bio p334 · rec p195
 - **DAVIES, R. F** → *ZANZIBAR* [strong, pos~100.0] rec: R. F. Davies (Clerk) | bio p334 · rec p261
 - **DEAL, W. J** → *ADEN--BAHAMAS* [strong, pos~22.2] rec: W. J. Deal (Director of Public Works) | bio p335 · rec p77
-- **De MONTBRUN, V. J. L** → *THE WEST INDIES--TRINIDAD AND TOBAGO* [strong, pos~100.0] rec: V. J. L. de Montbrun (Warden) | bio p336 · rec p248
-- **De VERTEUIL, Y. J** → *THE WEST INDIES--TRINIDAD AND TOBAGO* [strong, pos~100.0] rec: Y. J. de Verteuil (Warden) | bio p337 · rec p248
-- **DOUGLAS, J. A. S** → *BRITISH GUIANA--BRITISH HONDURAS* [strong, pos~97.7] rec: J. A. S. Douglas (District Commissioners) | bio p339 · rec p91
-- **DUKE, E. M** → *THE WEST INDIES--TRINIDAD AND TOBAGO* [strong, pos~100.0] rec: E. M. Duke (Speaker) | bio p341 · rec p248
-- **ELLIOTT, T. M** → *ADEN--BAHAMAS* [strong, pos~100.0] rec: T. M. Elliott (Chief Engineer and Manager (Electricity)) | bio p344 · rec p77
+- **DEEGAN, ** → *KENYA* [strong, pos~0.0] rec: J. W. Deegan (?) | bio p335 · rec p41
