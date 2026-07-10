@@ -26,8 +26,10 @@ What this script adds on top of the spine:
      (posstem, year) appointments or equal birth year); else new singletons.
   5. Under-merge candidates from the new Qwen events: distinct persons in the
      same surname block sharing >=3 exact (posstem, year_start) appointments,
-     given-compatible, edition-disjoint, birth-compatible — REVIEW file, not
-     auto-applied (0-FP discipline, as kg_dedup_apptchain_candidates.py).
+     given-compatible, edition-disjoint, birth-compatible — candidates go to
+     a REVIEW file; adjudicated decisions (undermerge_decisions.jsonl) are
+     applied at build time, absorbed ids recorded in person_id_merges.jsonl
+     so graph_stage3 keys remain resolvable.
 
 Outputs (data/volume/bio_persons/):
   bio_person_map.jsonl        bio_id -> person_id (+role: primary/seeref/
@@ -542,18 +544,63 @@ def write_report(persons: dict[str, dict], bios: dict[str, dict],
     (OUTDIR / "BIO_PERSONS.md").write_text("\n".join(lines), encoding="utf-8")
 
 
+def load_approved_merges() -> dict[str, str]:
+    """Union-find roots for adjudicated under-merge decisions (approve only).
+    File: undermerge_decisions.jsonl — written from a close review of every
+    candidate; regenerating candidates after a merge round may surface new
+    pairs (bridged chains), so decisions accumulate across rounds."""
+    path = OUTDIR / "undermerge_decisions.jsonl"
+    parent: dict[str, str] = {}
+
+    def find(x: str) -> str:
+        while parent.get(x, x) != x:
+            parent[x] = parent.get(parent[x], parent[x])
+            x = parent[x]
+        return x
+
+    if path.exists():
+        for line in path.open(encoding="utf-8"):
+            d = json.loads(line)
+            if d.get("decision") != "approve":
+                continue
+            ra, rb = find(d["person_a"]), find(d["person_b"])
+            if ra != rb:
+                parent[max(ra, rb)] = min(ra, rb)
+    return {x: find(x) for x in list(parent)}
+
+
 def main() -> None:
     OUTDIR.mkdir(parents=True, exist_ok=True)
     bios = load_bios()
     spine = load_spine()
+    roots = load_approved_merges()
+
+    # group spine records by merge root; primary id = most attestations
+    groups: dict[str, list[dict]] = defaultdict(list)
+    for sp in spine:
+        groups[roots.get(sp["person_id"], sp["person_id"])].append(sp)
 
     persons: dict[str, dict] = {}
     claimed: set[str] = set()
-    for sp in spine:
-        atts = [a for a in (sp.get("attestations") or [])]
+    id_merges: list[dict] = []
+    for _, members in groups.items():
+        members.sort(key=lambda s: (-len(s.get("attestations") or []),
+                                    s["person_id"]))
+        base = members[0]
+        pid = base["person_id"]
+        atts = [a for sp in members for a in (sp.get("attestations") or [])]
         roles = classify_members(atts, bios)
-        persons[sp["person_id"]] = build_person(sp["person_id"], sp, atts, roles, bios)
+        p = build_person(pid, base, atts, roles, bios)
+        if len(members) > 1:
+            p["absorbed_ids"] = [m["person_id"] for m in members[1:]]
+            p["flags"].append("undermerge_applied")
+            id_merges.extend({"absorbed_id": m["person_id"], "person_id": pid}
+                             for m in members[1:])
+        persons[pid] = p
         claimed.update(a for a in atts if a in bios)
+    with (OUTDIR / "person_id_merges.jsonl").open("w", encoding="utf-8") as fh:
+        for m in id_merges:
+            fh.write(json.dumps(m) + "\n")
 
     orphans = [b for b, r in bios.items()
                if b not in claimed and r.get("parser") != "not_a_bio"]

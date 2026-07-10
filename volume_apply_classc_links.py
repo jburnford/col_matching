@@ -74,6 +74,13 @@ def main() -> None:
     for l in (VOLROOT / "bio_persons" / "bio_persons.jsonl").open(encoding="utf-8"):
         p = json.loads(l)
         persons[p["person_id"]] = p
+    # worklist/results may predate applied under-merges: absorbed -> canonical
+    canon: dict[str, str] = {}
+    merges = VOLROOT / "bio_persons" / "person_id_merges.jsonl"
+    if merges.exists():
+        for l in merges.open(encoding="utf-8"):
+            m = json.loads(l)
+            canon[m["absorbed_id"]] = m["person_id"]
     surfreq = Counter(re.sub(r"[^a-z]", "", (p.get("surname") or "").lower())
                       for p in persons.values())
 
@@ -86,6 +93,7 @@ def main() -> None:
     scored = []
     for v in sames:
         pr = pairs[v["id"]]
+        v["person_id"] = canon.get(v["person_id"], v["person_id"])
         car, per = pr["career"], persons[v["person_id"]]
         y0, y1 = car["roster_years"][0], car["roster_years"][-1]
         ct = targets(car["colony"])
@@ -132,7 +140,15 @@ def main() -> None:
         if s["career_id"] in ambiguous and s["policy"].startswith("apply"):
             s["policy"] = "review_ambiguous"
 
-    applied = [s for s in scored if s["policy"].startswith("apply")]
+    applied, seen = [], set()
+    for s in scored:
+        if not s["policy"].startswith("apply"):
+            continue
+        key = (s["career_id"], s["person_id"])   # merged persons can collapse
+        if key in seen:                          # two pairs into one link
+            continue
+        seen.add(key)
+        applied.append(s)
     review = [s for s in scored if not s["policy"].startswith("apply")]
     review.sort(key=lambda s: (s["policy"], -(s["pos_sim"] or 0)))
 
