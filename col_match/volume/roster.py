@@ -241,24 +241,39 @@ def _split_records(text: str) -> list[tuple[str, str | None]]:
 
 
 _EMDASH = re.compile(r"\s*[—–]\s*")
+# The post phrase heading an entry carries NO periods — periods live in the
+# name runs (initials "E. B. David", honours "C.M.G.", "( Acting ).") — so
+# the position is the longest period-free suffix before the dash. The old
+# clause-based splitter broke names at the first initial ("E. B. David" ->
+# "E."), which is why post-1952 editions parsed at ~1/5 of their yield.
+_POST_PHRASE = re.compile(r"[*(]?[0-9A-Z][A-Za-z0-9()&',/ -]{1,70}$")
+_NOT_A_NAME = {"vacant", "nil"}
 
 
 def _split_records_emdash(text: str) -> list[tuple[str, str | None]]:
-    """Late-era rosters print ``Position—Name, honours.`` (em-dash, usually no
-    salary). Bind each position (tail before a dash) to the name run after it,
-    up to the next position-dash. Returns (record_text, None)."""
-    parts = _EMDASH.split(text)
-    if len(parts) < 2:
+    """Late-era establishments print run-together ``Post—Name[, honours]
+    [( Acting )][; Name…]. Post—Name.`` paragraphs (post-1952 volumes carry
+    only this senior roster — western name order, no salaries). Anchor each
+    entry on the period-free post phrase before a dash; its name run extends
+    to the next entry's post phrase; semicolons separate multiple holders.
+    Returns (record_text, None) chunks."""
+    dashes = list(_EMDASH.finditer(text))
+    if not dashes:
         return []
+    posts: list[tuple[int, int, str]] = []      # (post_start, names_start, post)
+    for m in dashes:
+        pm = _POST_PHRASE.search(text[:m.start()])
+        if pm is None:
+            continue
+        posts.append((pm.start(), m.end(), pm.group().strip(" *(")))
     out: list[tuple[str, str | None]] = []
-    for k in range(len(parts) - 1):
-        # position = last clause of parts[k]; name run = first clause of parts[k+1]
-        position = re.split(r"(?<=[.])\s+|;\s+", parts[k].strip())[-1]
-        nxt = parts[k + 1].strip()
-        name_run = re.split(r"(?<=[.])\s+|;\s+", nxt)[0]
-        chunk = f"{position}, {name_run}".strip(" ,")
-        if chunk:
-            out.append((chunk, None))
+    for k, (_, names_start, position) in enumerate(posts):
+        names_end = posts[k + 1][0] if k + 1 < len(posts) else len(text)
+        for nm in re.split(r";\s*", text[names_start:names_end]):
+            nm = nm.strip(" .,;")
+            if not nm or nm.lower().rstrip(".") in _NOT_A_NAME:
+                continue
+            out.append((f"{position}, {nm}", None))
     return out
 
 

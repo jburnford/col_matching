@@ -57,6 +57,16 @@ def main():
                            if not f.name.endswith("Zone.Identifier")}
 
     out = ["# Volume roster extraction — cross-edition audit\n"]
+    out.append(
+        "Era notes (verified against the printed volumes, July 2026): 1946 and\n"
+        "1952 print NO Record of Services — 1946 was the restricted first\n"
+        "post-war edition and 1952 says so explicitly (\"Staff lists have been\n"
+        "restricted generally, and the Record of Services section has had to\n"
+        "[be omitted]\"; the section is a note only) — so bios=0 there is the\n"
+        "volume, not the parser. From 1952 on, colony chapters carry only a\n"
+        "compact senior CIVIL ESTABLISHMENT in run-together \"Post—Name\"\n"
+        "paragraphs (western name order, no salaries): post-war record counts\n"
+        "are genuinely an order of magnitude below interwar establishments.\n")
     out.append("| year | pages | bios | records | roster blocks | residue blocks | link rate | colonies | missing vs old corpus |")
     out.append("|---|---|---|---|---|---|---|---|---|")
     tot_rec = tot_res = tot_blk = 0

@@ -22,10 +22,16 @@ SURNAME_OK = re.compile(r"^[A-Za-z][A-Za-z'’.\- ]{1,40}$")
 MAX_POSITION = 120
 
 def main():
+    # results span more than one worklist generation (qwen_worklist_run1 was
+    # the first pass) — load them all, else the anti-hallucination gate sees
+    # "" for older ids and silently rejects every record from those blocks
     worklist_text = {}
-    for line in open(ROOT / "qwen_worklist.jsonl"):
-        b = json.loads(line)
-        worklist_text[b["id"]] = b["text"].lower()
+    for wl in sorted(ROOT.glob("qwen_worklist*.jsonl")):
+        if "title" in wl.name:
+            continue
+        for line in wl.open(encoding="utf-8"):
+            b = json.loads(line)
+            worklist_text.setdefault(b["id"], b["text"].lower())
 
     # colony/department as CURRENTLY assigned by the header tracker — the
     # values stored in the qwen results were captured at worklist time and go
@@ -41,12 +47,18 @@ def main():
                 blk["colony"], blk["department"])
 
     existing = defaultdict(set)          # year -> qwen record_ids already merged
+    rules_blocks = set()                 # blocks the rules tier NOW parses —
+    #                                      their qwen results (captured when
+    #                                      they were residue) would duplicate
     for d in ROOT.glob("col[0-9]*"):
         year = int(d.name[3:])
         for line in open(d / "records.jsonl"):
             r = json.loads(line)
             if r.get("source") == "qwen":
                 existing[year].add(r["record_id"])
+            else:
+                p = r["provenance"]
+                rules_blocks.add((p["edition_year"], p["page"], p["block"]))
 
     stats = Counter()
     out_fh = {}
@@ -73,7 +85,11 @@ def main():
                 stats["already_merged"] += 1
                 continue
             prov = res["provenance"]
-            ctx = block_ctx.get((prov["edition_year"], prov["page"], prov["block"]))
+            bkey = (prov["edition_year"], prov["page"], prov["block"])
+            if bkey in rules_blocks:
+                stats["block_now_rules_parsed"] += 1
+                continue
+            ctx = block_ctx.get(bkey)
             if ctx is None:
                 stats["block_no_longer_roster"] += 1
                 continue

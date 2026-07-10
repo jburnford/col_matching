@@ -89,10 +89,10 @@ across editions, merges event chains, and QA-flags conflicts.
 
 ## Roster-career join (careers.jsonl bio links -> persons)
 
-- non-suspect roster careers: 171,180; bio-linked: 20,482 — all resolve to a person (the partition is total over bios)
-- distinct persons behind bio-linked careers: 12,130
-- persons with roster careers in >1 colony: 2,319
-- careers whose bios map to >1 person (link noise / residual under-merge): 672
+- non-suspect roster careers: 179,148; bio-linked: 23,152 — all resolve to a person (the partition is total over bios)
+- distinct persons behind bio-linked careers: 13,858
+- persons with roster careers in >1 colony: 2,650
+- careers whose bios map to >1 person (link noise / residual under-merge): 696
 
 ## Under-merge candidates (new-event appointment chains)
 
