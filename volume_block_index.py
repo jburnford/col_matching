@@ -10,7 +10,10 @@ Rules-first: the profile chapters are internally signposted by printed
 section titles ("Revenue and Expenditure.", "Population.", "Governors."), so
 classification is keyword-on-title; the roster/bios machinery supplies the
 establishment and services classes. Blocks with no governing title (or an
-unrecognized one) are the residue a Qwen indexing pass could label later.
+unrecognized one) are the residue; when the Qwen title-classification pass
+has run (data/volume/qwen_title_results.jsonl from nibi/qwen_title_worker.py)
+its per-title labels apply as a fallback tier — rows carry
+section_source = "rules" | "qwen_title" so the tiers stay distinguishable.
 
 Outputs:
   data/volume/block_index.jsonl   one line per text/table block
@@ -79,6 +82,25 @@ def classify_title(title: str | None) -> str | None:
     return None
 
 
+_QWEN_TITLES: dict[str, str] | None = None
+
+
+def _qwen_title_map() -> dict[str, str]:
+    """title[:80] -> section from the GPU title-classification pass; 'other'
+    and 'garbled' verdicts stay residue (they are labels, not sections)."""
+    global _QWEN_TITLES
+    if _QWEN_TITLES is None:
+        _QWEN_TITLES = {}
+        p = ROOT / "qwen_title_results.jsonl"
+        if p.exists():
+            for line in p.open(encoding="utf-8"):
+                r = json.loads(line)
+                cls = r.get("class")
+                if cls and cls not in ("other", "garbled"):
+                    _QWEN_TITLES[r["title"]] = cls
+    return _QWEN_TITLES
+
+
 def index_volume(year: int, out_fh) -> list[dict]:
     blocks = reader.load_volume(year, "col")
     sec = bios_mod.find_services_section(blocks)
@@ -111,6 +133,7 @@ def index_volume(year: int, out_fh) -> list[dict]:
             continue
         if b.category not in ("text", "table"):
             continue
+        source = "rules"
         if sec and sec[0] <= i < sec[1]:
             section = "services_bios"
         else:
@@ -123,11 +146,15 @@ def index_volume(year: int, out_fh) -> list[dict]:
                 zsec = classify_title(zone)
                 if zsec in ("obituary", "honours_roll"):
                     section = zsec
+                elif title is not None and (title or "")[:80] in _qwen_title_map():
+                    section = _qwen_title_map()[(title or "")[:80]]
+                    source = "qwen_title"
                 else:
                     section = "untitled" if title is None else "other_titled"
         rows.append({"year": year, "page": b.page, "block": b.index,
                      "category": b.category, "colony": colony,
-                     "section": section, "title": (title or "")[:80],
+                     "section": section, "section_source": source,
+                     "title": (title or "")[:80],
                      "zone": zone, "chars": len(b.text)})
     for r in rows:
         out_fh.write(json.dumps(r, ensure_ascii=False) + "\n")
