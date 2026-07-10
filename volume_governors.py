@@ -64,9 +64,20 @@ _OFFICE = re.compile(
     r"\s*[,.:]?\s*", re.I)
 
 
+_DOT_LEADER = re.compile(r"\s*(?:\.\s+){2,}|\.{3,}")
+_TRAIL_OFFICE = re.compile(
+    r"\s*[,;]?\s*(?:Acting\s*[-–]?\s*Governor|Administrator|Officer\s+Admin\w*"
+    r"|Lieut\.?-Gov\w*)\b.*$"
+    rf"|\s+(?:{_MONTH})\s*(?:to|[-–])\s*(?:{_MONTH}).*$", re.I)
+
+
 def _parse_person(seg: str) -> tuple[str | None, str | None, str, list[str]] | None:
     """'Gen. Sir H. W. Norman, G.C.B., G.C.M.G.' ->
     (office, given, surname, honours); None if no name-shaped content."""
+    # table cells glue dot-leaders + trailing office/month text onto the name
+    # ("G. R. Le Hunte . . . Acting - Governor Aug. to Dec") — cut both
+    seg = _DOT_LEADER.split(seg)[0]
+    seg = _TRAIL_OFFICE.sub("", seg)
     seg = seg.strip(" ,;—–-")
     office = None
     m = _OFFICE.match(seg)
@@ -101,7 +112,20 @@ def _parse_person(seg: str) -> tuple[str | None, str | None, str, list[str]] | N
     given = " ".join(toks[:-1]).strip(" .,") or None
     if len(surname) < 2 or not re.match(r"^[A-Za-z'’\-]+$", surname):
         return None
+    if surname.lower() in _NOT_SURNAME:
+        return None
     return office, given, surname, honours
+
+
+# words that survive parsing but are never governor surnames (ditto marks,
+# stray table labels, ranks, months)
+_NOT_SURNAME = {
+    "gov", "governor", "general", "revenue", "capt", "captain", "confirmed",
+    "sir", "ditto", "population", "vacant", "thos", "wm", "jas", "chas",
+    "january", "february", "march", "april", "may", "june", "july", "august",
+    "september", "october", "november", "december", "lieutenant-governor",
+    "administrator", "acting", "office", "commission",
+}
 
 
 def parse_text_block(text: str) -> list[dict]:

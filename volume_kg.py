@@ -95,10 +95,21 @@ def main() -> None:
     report.append(f"- colony-year nodes: {len(panel):,}")
 
     # ---- governed edges (successions + annual panel), person-matched
+    # peers are listed by TITLE in the volumes but by FAMILY NAME in bios —
+    # hand-curated map (pending Wikidata verification, see grounding queue)
+    peer_map = {}
+    pf = Path("data/services/peer_family_names.json")
+    if pf.exists():
+        peer_map = {k: v["family"] for k, v in json.loads(pf.read_text()).items()}
+
     gov_rows = []
     for g in _load(ROOT / "governors/governors.jsonl"):
         m = match_career(g["colony"], g["surname"], g.get("given"), g["year"])
-        gov_rows.append({**g, "source": "succession", "match": m})
+        fam = peer_map.get(g["surname"].lower())
+        if m is None and fam:
+            m = match_career(g["colony"], fam, None, g["year"])
+        gov_rows.append({**g, "source": "succession", "match": m,
+                         **({"family_name": fam} if fam else {})})
     from volume_careers import canon_colony
     for g in _load(CTX / "governor_panel.jsonl"):
         col = canon_colony(g["colony_raw"])
