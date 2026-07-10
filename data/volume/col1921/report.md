@@ -3,10 +3,10 @@
 - pages: 1021
 - **bios**: 3490 (2384 rules-parsed, 1106 unparsed→Qwen)
 - **roster records**: 14949 across 178 colonies (2859 roster blocks)
-- **links**: 1519  |  bios linked: 1393 (**39.9%** of bios)
-- ambiguous dropped: 171
-- by strength: {'strong': 1046, 'medium': 198, 'weak': 275}
-- by surname match: {'exact': 1492, 'fuzzy': 27}
+- **links**: 1607  |  bios linked: 1476 (**42.3%** of bios)
+- ambiguous dropped: 173
+- by strength: {'strong': 1049, 'medium': 200, 'unique': 69, 'weak': 289}
+- by surname match: {'exact': 1580, 'fuzzy': 27}
 
 ## Sample links (verify against raw OCR bbox)
 
@@ -17,9 +17,11 @@
 - **ADAMS, ** → *THE GAMBIA* [strong, pos~89.5] rec: E. V Adams (Assistant Receivers-General) | bio p752 · rec p340
 - **ADAMSON, JOHN ERNEST** → *SOUTH AFRICA--TRANSVAAL--SOUTH-WEST AFRICA* [strong, pos~89.5] rec: J. E Adamson (Director of Education) | bio p752 · rec p534
 - **ADDISON, JOSEPH BARTLETT** → *SEYCHELLES* [strong, pos~100.0] rec: J. B Addison (Chief Medical Officer) | bio p752 · rec p487
+- **AGAR, ARTHUR KIRWAN** → *LEEWARD ISLANDS--MONTSERRAT* [unique, pos~66.7] rec: Registrar for District A. A. K Agar (Registrar-General of Births, Deaths and Marriages) | bio p752 · rec p413
 - **AINSWORTH, ** → *KENYA* [strong, pos~100.0] rec: J Ainsworth (Chief Native Commissioner) | bio p753 · rec p388
 - **AINSWORTH, THOMAS WILLIAM** → *HONG KONG* [strong, pos~92.3] rec: T. W Ainsworth (Second Assistant to Secretary for Chinese Affairs) | bio p753 · rec p367
 - **AITKEN, JOHN** → *THE GOLD COAST* [strong, pos~100.0] rec: J Aitken (duty allowance. 3 Crown Counsel) | bio p753 · rec p355
+- **ALBURY, G. A** → *BAHAMAS* [unique, pos~46.5] rec: G. A. Albury (1st Division) | bio p753 · rec p222
 - **ALBURY, JOSEPH JOHNSON** → *BAHAMAS* [medium, pos~56.2] rec: J. J. Albury (3rd Division) | bio p753 · rec p222
 - **ALBURY, STANLEY VICTOR STRATHMERE** → *BAHAMAS* [strong, pos~100.0] rec: S. V. S Albury (Superintendent) | bio p753 · rec p222
 - **ALBURY, WILTON GRANT** → *BAHAMAS* [medium, pos~0.0] rec: Inspector and General Superintendent of Schools W. G Albury (?) | bio p753 · rec p222
@@ -38,5 +40,3 @@
 - **ANDERSON, ROBERT MOWBRAY** → *WINDWARD ISLANDS--ST. VINCENT* [medium, pos~50.8] rec: R. M Anderson (Chief Clerk to Attorney General, etc) | bio p755 · rec p621
 - **ANDERSON, R. T. H** → *KENYA* [strong, pos~81.4] rec: R. T. H Anderson (Assistant Superintendents) | bio p755 · rec p389
 - **ANDERSON, ** → *BRITISH HONDURAS* [weak, pos~0.0] rec: T. E Anderson (?) | bio p755 · rec p253
-- **ANDERSON, T. J** → *KENYA* [weak, pos~50.0] rec: J Anderson (Chief Engineers) | bio p755 · rec p391
-- **ANDERSON, W. J** → *NEW ZEALAND* [strong, pos~47.4] rec: W. J Anderson (Minister of Education) | bio p755 · rec p457

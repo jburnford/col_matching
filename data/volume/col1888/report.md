@@ -3,15 +3,16 @@
 - pages: 661
 - **bios**: 2379 (1333 rules-parsed, 1046 unparsed→Qwen)
 - **roster records**: 7429 across 116 colonies (1626 roster blocks)
-- **links**: 1079  |  bios linked: 958 (**40.3%** of bios)
-- ambiguous dropped: 123
-- by strength: {'strong': 769, 'weak': 254, 'medium': 56}
-- by surname match: {'exact': 1058, 'fuzzy': 21}
+- **links**: 1170  |  bios linked: 1048 (**44.0%** of bios)
+- ambiguous dropped: 124
+- by strength: {'strong': 776, 'unique': 81, 'weak': 257, 'medium': 56}
+- by surname match: {'exact': 1148, 'fuzzy': 22}
 
 ## Sample links (verify against raw OCR bbox)
 
 - **AITCHISON, G. W** → *CAPE OF GOOD HOPE* [strong, pos~100.0] rec: G. W. Aitchison (Postmaster-General) | bio p431 · rec p134
 - **AITKEN, C. CORQUHOUN** → *JAMAICA* [strong, pos~62.5] rec: C. C Aitken (First Clerk) | bio p431 · rec p185
+- **AKERMAN, JOHN WILLIAM** → *NATAL-NEWFOUNDLAND* [unique, pos~100.0] rec: J. W Akerman (Speaker, Legislative Council) | bio p431 · rec p231
 - **ALEXANDER, THOMAS** → *JAMAICA* [strong, pos~100.0] rec: T Alexander (2nd Class Inspector) | bio p431 · rec p185
 - **ALLAN, ** → *CANADA* [strong, pos~0.0] rec: George W. Allan (?) | bio p431 · rec p102
 - **ALLAN, GORDON** → *BRITISH HONDURAS* [strong, pos~100.0] rec: G Allan (Surveyor-General) | bio p431 · rec p83
@@ -39,4 +40,3 @@
 - **AUSTIN, ** → *BRITISH GUIANA* [strong, pos~100.0] rec: C. P Austin (Receiver-General) | bio p434 · rec p75
 - **AUSTIN, HENRY WILLIAM** → *BAHAMAS--BARBADOS* [strong, pos~0.0] rec: Henry W Austin (?) | bio p434 · rec p48
 - **AUSTIN, ** → *BRITISH GUIANA* [strong, pos~60.9] rec: C. P Austin (Receiver-General) | bio p434 · rec p75
-- **AUSTIN, WM. GEO. GARDINER** → *BRITISH GUIANA* [strong, pos~100.0] rec: W. G. G Austin (Inspector of Schools) | bio p434 · rec p77

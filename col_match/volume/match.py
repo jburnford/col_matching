@@ -35,6 +35,23 @@ POSITION_SIM = 60
 AMBIGUITY_MARGIN = 20
 
 
+_city_aliases: dict | None = None
+
+
+def _load_city_aliases(data_dir: str) -> dict:
+    """Capital/city -> colony aliases bootstrapped from the governor panel's
+    'Place of Residence' column (data/services/city_colony_aliases.json) —
+    bios often name the seat ('Bloemfontein', 'Ottawa') where rosters carry
+    the colony header."""
+    global _city_aliases
+    if _city_aliases is None:
+        import json
+        from pathlib import Path
+        p = Path(data_dir) / "city_colony_aliases.json"
+        _city_aliases = json.loads(p.read_text()) if p.exists() else {}
+    return _city_aliases
+
+
 def _colony_target_set(raw: str | None, data_dir: str) -> set[str]:
     """Normalized graph-colony targets for a roster header or bio place,
     splitting compound headers ('AUSTRALIA--VICTORIA', 'THE GOLD COAST')."""
@@ -43,10 +60,13 @@ def _colony_target_set(raw: str | None, data_dir: str) -> set[str]:
     out: set[str] = set()
     cleaned = re.sub(r"^the\s+", "", raw.strip(), flags=re.I)
     parts = re.split(r"--|—|–|\s*-\s*-\s*", cleaned)
+    aliases = _load_city_aliases(data_dir)
     for part in [cleaned] + parts:
         part = part.strip(" .,")
         if part:
             out |= gazetteer.colony_targets(part, data_dir)
+            for col in aliases.get(part.lower(), []):
+                out |= gazetteer.colony_targets(col, data_dir)
     return out
 
 
@@ -149,13 +169,67 @@ def _evaluate(bio: VolumeBio, rec: VolumeRecord, data_dir: str,
     )
 
 
-_STRENGTH_RANK = {"strong": 3, "medium": 2, "weak": 1}
+_STRENGTH_RANK = {"strong": 3, "medium": 2, "unique": 2, "weak": 1}
+
+
+def _unique_fallback(bio: VolumeBio, cand_idx, records, bio_by_key,
+                     data_dir: str) -> VolumeLink | None:
+    """When the gated evaluation yields nothing: the colony lists often print
+    NO initials, but if exactly ONE record is name-compatible with this bio —
+    and, symmetrically, this bio is the only one compatible with that record —
+    uniqueness plus a job/honour corroborator substitutes for the name detail.
+    Colony gate still applies when the bio has placed events; strength is
+    labelled 'unique' so analysts can filter these links."""
+    exact = [records[i] for i, d in cand_idx if d == 0
+             and _names_compatible(bio.given_names, records[i].given_names)]
+    if len(exact) != 1:
+        return None
+    rec = exact[0]
+    rkey = _norm(rec.surname.split()[-1]) if rec.surname else ""
+    rivals = [b for b in bio_by_key.get(rkey, [])
+              if b is not bio and b.events
+              and _names_compatible(b.given_names, rec.given_names)]
+    if rivals:
+        return None
+    # timing: a long-retired bio must not grab a sitting officer's row
+    yrs = [ev.get("year_start") for ev in bio.events if ev.get("year_start")]
+    if yrs and max(yrs) < bio.edition_year - 15:
+        return None
+    rec_targets = _colony_target_set(rec.colony, data_dir)
+    placed = [ev for ev in bio.events if ev.get("place")]
+    best_sim = max((fuzz.token_set_ratio(_pos_norm(ev.get("position")) or "",
+                                         _pos_norm(rec.position) or "")
+                    for ev in bio.events), default=0.0) if rec.position else 0.0
+    shared = sorted({h.rstrip(".") for h in rec.honours}
+                    & {h["award"].rstrip(".") for h in bio.honours})
+    if placed:
+        if not rec_targets or not any(
+                _colony_target_set(ev["place"], data_dir) & rec_targets
+                for ev in placed):
+            return None
+    if best_sim < 45 and not shared:
+        return None
+    return VolumeLink(
+        bio_id=bio.bio_id, record_id=rec.record_id, edition_year=bio.edition_year,
+        surname_match="exact", strength="unique", colony=rec.colony,
+        position_sim=round(best_sim, 1), shared_honours=shared,
+        bio_event_index=-1, bio_surname=bio.surname, bio_given=bio.given_names,
+        rec_surname=rec.surname, rec_given=rec.given_names,
+        rec_position=rec.position,
+        bio_prov=bio.provenance[0] if bio.provenance else {}, rec_prov=rec.provenance,
+        notes="unique-fallback")
 
 
 def link_volume(
     bios: list[VolumeBio], records: list[VolumeRecord], data_dir: str
 ) -> tuple[list[VolumeLink], dict]:
     by_surname, surname_keys = _surname_index(records)
+    bio_by_key: dict[str, list[VolumeBio]] = defaultdict(list)
+    for b in bios:
+        if b.surname and b.events:
+            k = _norm(b.surname.split()[-1])
+            if k:
+                bio_by_key[k].append(b)
     links: list[VolumeLink] = []
     stats = {"bios_in": len(bios), "records_in": len(records),
              "bios_linked": 0, "links": 0, "ambiguous_dropped": 0,
@@ -181,7 +255,10 @@ def link_volume(
             if link is not None:
                 bio_links.append(link)
         if not bio_links:
-            continue
+            fb = _unique_fallback(bio, cand_idx, records, bio_by_key, data_dir)
+            if fb is None:
+                continue
+            bio_links = [fb]
 
         # ambiguity guard: per colony, keep the uniquely strongest candidate.
         kept: list[VolumeLink] = []
