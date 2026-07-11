@@ -209,10 +209,35 @@ absence of printed birth years bites. Refutation reasons are substantive
 (entry-age impossibilities, non-overlapping trajectories, jurisdiction
 conflicts), with the usual LLM-judge caveat — e.g. one sampled refutation
 splits a Bombay high-court judge from a Sind one in 1887, when Sind was
-administratively part of Bombay. Per-edge verdicts ledger:
-`data/iol/identity/merge_audit_verdicts.jsonl`. Next: full-corpus
-adjudication of all 12,540 edges (~15 min on one H100), then a drop
-ledger + map flatten + rebuild, mirroring the COL B1 apply cycle.
+administratively part of Bombay.
+
+### APPLIED (Nibi job 17505330: full census + rebuild, same day)
+
+All 12,540 edges then adjudicated in full (census keep rate 87.6%,
+matching the sample estimate): **1,557 drops, 10,982 keeps, 1 error**;
+the 35 A6 under-merge pairs judged alongside (28 same → unions).
+
+**The judge over-splits, and the honours layer catches it**: rerunning
+screen A6 on the first rebuilt table found 158 same-honour duplicate
+pairs, of which **117 were edges the judge had just dropped** — identical
+full names, identical birth years, same award+year (e.g. HARPER-NELSON,
+JOHN JOSEPH, b. 1882, O.B.E. 1919 on both sides). Terse-vs-rich record
+pairs (a 1945/1947 one-liner vs a full pre-war bio) read as "different
+trajectories" to a strict judge. Per COL discipline the deterministic
+fingerprint outranks a single judged verdict: **86 no-birth-conflict
+drops were reinstated** by an `a6-honour-override` ledger entry.
+
+Final state (all in `data/iol/identity/merge_decisions.jsonl`, an
+append-only accumulative ledger; map `dedup_stage3_merge_map.audited
+.jsonl`, flattened — the 16 broken chains are gone):
+12,540 school edges − 1,557 drops + 113 unions (27 A6 + 86 reinstated)
+= 11,095 flattened rows → **19,351 canonical persons** (was 17,922;
++1,429 net splits). Full KG re-emitted (career events, roles, orgs,
+honours, career facts, education edges re-fanned from the LLM parse —
+not remapped in place, which is lossy for split persons).
+`iol_identity_check.py` green on the rebuilt table: unflattened 0,
+age invariants 117→105, A6 residue 15 pairs (10 strong, the genuinely
+new under-merge candidates for the next adjudication batch).
 
 ## 5. Rupee salaries (Q4)
 

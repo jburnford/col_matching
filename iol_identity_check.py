@@ -25,15 +25,10 @@ from iol_identity_screens import load_persons
 ROOT = Path("data/iol")
 
 BASELINES = {
-    # ---- structural invariants ----
-    # KNOWN DEFECT (measured 2026-07-11): kg_dedup_school_apply.py composed
-    # its 548 edges without re-flattening rows that pointed at ids the new
-    # edges absorb — 16 chains X->K, K->C, so X's records sit under a
-    # canonical (K) that itself folded into C: 16 persons split from their
-    # true canonical in the shipped table. Fix = flatten the map
-    # (pointer-jump to termination) + re-run kg_dedup_stage3_apply + KG
-    # rebuild, together with the post-audit apply. Must not GROW.
-    "map_unflattened": 16,         # map key also appears as another's canonical
+    # ---- structural invariants (must stay 0) ----
+    # (the school-pass compose's 16 unflattened chains were fixed by the
+    # audited-map rebuild of 2026-07-11 — iol_merge_apply.py flattens)
+    "map_unflattened": 0,          # map key also appears as another's canonical
     "map_self_rows": 0,            # person_id == canonical_person_id rows
     "map_key_not_in_corpus": 0,    # merge-map key absent from valid corpus
     "map_canon_not_in_corpus": 0,  # merge-map canonical absent from valid corpus
@@ -44,12 +39,15 @@ BASELINES = {
     "dup_person_ids": 0,           # duplicate person_id in deduped corpus
     # ---- corpus census (exact — a change means a rebuild happened;
     #      re-measure and update in the same commit) ----
+    # post-audit rebuild 2026-07-11 (Nibi 17505330 + a6-honour-override):
+    # 12,540 school edges - 1,557 judged drops + 113 unions (27 A6-confirmed
+    # + 86 honour-key reinstatements of judged drops), flattened
     "valid_records": 30446,
-    "merge_edges": 12540,
-    "canonical_persons": 17922,
-    # ---- screen ceilings (measured 2026-07-11, iol_identity_screens.py) ----
+    "merge_edges": 11095,
+    "canonical_persons": 19351,
+    # ---- screen ceilings (re-measured post-rebuild 2026-07-11) ----
     "honour_precedence": 1,
-    "age_invariants": 117,
+    "age_invariants": 105,
     "birth_from_honour": 0,
 }
 
