@@ -229,6 +229,24 @@ a salary column the way COL rosters do. Consequences:
    re-OCR candidate; currently a silent bio gap between 1917 and 1919.
 4. Honours dating is thin (56% of honour entries carry a year) — A1/A6
    screens run on the dated subset.
+5. **The shipped merge map is unflattened in 16 chains** (found by
+   `iol_identity_check.py` on its first run): `kg_dedup_school_apply.py`
+   composed its 548 edges without rewriting older rows that point at ids
+   the new edges absorb, so 16 X→K, K→C chains leave X's records under a
+   canonical that itself folded away — 16 persons split from their true
+   canonical in `llm_struct_corpus.stage3.deduped.jsonl` /
+   `graph_stage3/`. Fix (flatten + re-apply + KG rebuild) is deferred to
+   the post-audit apply cycle; pinned at 16 in the check baselines.
+
+**Tier-A screen results on the shipped table** (`iol_identity_screens.py`,
+outputs in `data/iol/identity/`): A1 = 1 person (Evan Jenkins, KCIE 1920 <
+CIE 1936 — garbled year or fusion); A2 = 117 (104 one-digit birth repairs —
+century flips like ADVANI b.1796/entry 1922 — 13 two-digit, **0 dynastic
+candidates**); birth-from-honour = 0; A6 = 37 duplicate pairs, 31 strong
+(e.g. COBURN "M. R." vs "MARMADUKE ROBERT", same OBE 1919 + birth 1885,
+edition-disjoint — the initials-vs-full split crossform was built to catch).
+An order of magnitude cleaner than the COL's first screen run (661 age
+hits), consistent with typed late-era birth years and LLM-structured events.
 
 ## 7. Cross-corpus overlap: India → colonial careers (Q5)
 
