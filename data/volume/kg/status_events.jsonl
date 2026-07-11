@@ -1,0 +1,184 @@
+{"colony": "ADEN", "edition": 1939, "chars": 3987, "sim_prev": 0.013, "revision": true, "status": ["crown_colony", "protectorate"], "gained": ["crown_colony"], "lost": []}
+{"colony": "ADEN", "edition": 1946, "chars": 1955, "sim_prev": 0.015, "revision": true, "status": ["protectorate"], "gained": [], "lost": ["crown_colony"]}
+{"colony": "ADEN", "edition": 1956, "chars": 3053, "sim_prev": 0.721, "revision": false, "status": ["elected_members", "protectorate"], "gained": ["elected_members"], "lost": []}
+{"colony": "AUSTRALIA", "edition": 1907, "chars": 34496, "sim_prev": 0.654, "revision": false, "status": ["elected_members", "internal_self_government", "responsible_government"], "gained": [], "lost": ["crown_colony"]}
+{"colony": "AUSTRALIA", "edition": 1910, "chars": 31672, "sim_prev": 0.714, "revision": false, "status": ["elected_members", "internal_self_government", "responsible_government", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "BAHAMAS", "edition": 1946, "chars": 3037, "sim_prev": 0.022, "revision": true, "status": ["representative_government"], "gained": ["representative_government"], "lost": []}
+{"colony": "BAHAMAS", "edition": 1954, "chars": 2100, "sim_prev": 0.391, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": ["representative_government"]}
+{"colony": "BAHAMAS", "edition": 1962, "chars": 3043, "sim_prev": 0.353, "revision": true, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "BARBADOS", "edition": 1888, "chars": 1511, "sim_prev": 0.0, "revision": true, "status": ["representative_government", "responsible_government"], "gained": ["representative_government", "responsible_government"], "lost": []}
+{"colony": "BARBADOS", "edition": 1952, "chars": 157, "sim_prev": 0.0, "revision": true, "status": ["responsible_government"], "gained": [], "lost": ["representative_government"]}
+{"colony": "BARBADOS", "edition": 1954, "chars": 1838, "sim_prev": 0.0, "revision": true, "status": ["ministerial_system", "responsible_government"], "gained": ["ministerial_system"], "lost": []}
+{"colony": "BARBADOS", "edition": 1963, "chars": 2532, "sim_prev": 0.019, "revision": true, "status": ["internal_self_government", "universal_suffrage"], "gained": ["internal_self_government", "universal_suffrage"], "lost": ["ministerial_system", "responsible_government"]}
+{"colony": "BASUTOLAND", "edition": 1965, "chars": 13160, "sim_prev": 0.0, "revision": true, "status": ["universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "BERMUDA", "edition": 1883, "chars": 860, "sim_prev": 0.017, "revision": true, "status": ["representative_government"], "gained": ["representative_government"], "lost": []}
+{"colony": "BERMUDA", "edition": 1951, "chars": 966, "sim_prev": 0.394, "revision": true, "status": [], "gained": [], "lost": ["representative_government"]}
+{"colony": "BERMUDA", "edition": 1954, "chars": 1042, "sim_prev": 0.0, "revision": true, "status": ["representative_government"], "gained": ["representative_government"], "lost": []}
+{"colony": "BRITISH COLUMBIA", "edition": 1918, "chars": 618, "sim_prev": 0.038, "revision": true, "status": [], "gained": [], "lost": ["responsible_government"]}
+{"colony": "BRITISH GUIANA", "edition": 1952, "chars": 993, "sim_prev": 0.013, "revision": true, "status": ["universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "BRITISH GUIANA", "edition": 1954, "chars": 1550, "sim_prev": 0.0, "revision": true, "status": ["ministerial_system", "universal_suffrage"], "gained": ["ministerial_system"], "lost": []}
+{"colony": "BRITISH GUIANA", "edition": 1955, "chars": 1835, "sim_prev": 0.536, "revision": false, "status": ["internal_self_government", "ministerial_system", "universal_suffrage"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "BRITISH GUIANA", "edition": 1957, "chars": 2308, "sim_prev": 0.786, "revision": false, "status": ["elected_members", "internal_self_government", "ministerial_system", "universal_suffrage"], "gained": ["elected_members"], "lost": []}
+{"colony": "BRITISH GUIANA", "edition": 1966, "chars": 5508, "sim_prev": 0.407, "revision": true, "status": ["internal_self_government", "universal_suffrage"], "gained": [], "lost": ["elected_members", "ministerial_system"]}
+{"colony": "BRITISH HONDURAS", "edition": 1946, "chars": 3445, "sim_prev": 0.764, "revision": false, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "BRITISH HONDURAS", "edition": 1954, "chars": 840, "sim_prev": 0.0, "revision": true, "status": ["elected_members", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "BRITISH HONDURAS", "edition": 1964, "chars": 5792, "sim_prev": 0.534, "revision": false, "status": ["elected_members", "internal_self_government", "ministerial_system", "universal_suffrage"], "gained": ["internal_self_government", "ministerial_system"], "lost": []}
+{"colony": "BRUNEI", "edition": 1960, "chars": 1813, "sim_prev": 0.0, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "CANADA", "edition": 1888, "chars": 5461, "sim_prev": 0.03, "revision": true, "status": ["internal_self_government", "responsible_government"], "gained": ["internal_self_government", "responsible_government"], "lost": []}
+{"colony": "CANADA", "edition": 1889, "chars": 5183, "sim_prev": 0.507, "revision": false, "status": ["elected_members", "internal_self_government", "responsible_government"], "gained": ["elected_members"], "lost": []}
+{"colony": "CANADA", "edition": 1917, "chars": 12417, "sim_prev": 0.734, "revision": false, "status": ["elected_members", "internal_self_government"], "gained": [], "lost": ["responsible_government"]}
+{"colony": "CANADA", "edition": 1923, "chars": 12225, "sim_prev": 0.74, "revision": false, "status": ["elected_members", "internal_self_government", "responsible_government"], "gained": ["responsible_government"], "lost": []}
+{"colony": "CAPE OF GOOD HOPE", "edition": 1883, "chars": 3625, "sim_prev": 0.486, "revision": true, "status": ["elected_members", "ministerial_system", "representative_government", "responsible_government"], "gained": ["ministerial_system"], "lost": []}
+{"colony": "CAYMAN ISLANDS", "edition": 1963, "chars": 1762, "sim_prev": 0.0, "revision": true, "status": ["universal_suffrage"], "gained": ["universal_suffrage"], "lost": ["elected_members"]}
+{"colony": "CEYLON", "edition": 1911, "chars": 1928, "sim_prev": 0.286, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "CEYLON", "edition": 1932, "chars": 5769, "sim_prev": 0.141, "revision": true, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "COLONIAL GOVERNMENT AGENCIES IN LONDON", "edition": 1965, "chars": 618, "sim_prev": 0.239, "revision": true, "status": [], "gained": [], "lost": ["internal_self_government"]}
+{"colony": "FALKLAND ISLANDS", "edition": 1950, "chars": 476, "sim_prev": 0.468, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "FALKLAND ISLANDS", "edition": 1954, "chars": 317, "sim_prev": 0.084, "revision": true, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "FALKLAND ISLANDS", "edition": 1965, "chars": 400, "sim_prev": 0.103, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "FEDERATION OF MALAYA", "edition": 1956, "chars": 4018, "sim_prev": 0.214, "revision": true, "status": ["elected_members", "internal_self_government"], "gained": ["elected_members"], "lost": []}
+{"colony": "FIJI", "edition": 1888, "chars": 3760, "sim_prev": 0.0, "revision": true, "status": ["internal_self_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "FIJI", "edition": 1905, "chars": 3878, "sim_prev": 0.573, "revision": false, "status": ["elected_members", "internal_self_government"], "gained": ["elected_members"], "lost": []}
+{"colony": "FIJI", "edition": 1937, "chars": 1563, "sim_prev": 0.116, "revision": true, "status": [], "gained": [], "lost": ["elected_members", "internal_self_government"]}
+{"colony": "FIJI", "edition": 1946, "chars": 5095, "sim_prev": 0.036, "revision": true, "status": ["internal_self_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "FIJI", "edition": 1954, "chars": 2200, "sim_prev": 0.007, "revision": true, "status": [], "gained": [], "lost": ["internal_self_government"]}
+{"colony": "GAMBIA", "edition": 1946, "chars": 3573, "sim_prev": 0.0, "revision": true, "status": ["elected_members", "protectorate"], "gained": ["elected_members", "protectorate"], "lost": []}
+{"colony": "GAMBIA", "edition": 1960, "chars": 2512, "sim_prev": 0.8, "revision": false, "status": ["elected_members", "protectorate", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "GAMBIA", "edition": 1963, "chars": 1109, "sim_prev": 0.056, "revision": true, "status": ["elected_members", "protectorate"], "gained": [], "lost": ["universal_suffrage"]}
+{"colony": "GAMBIA", "edition": 1964, "chars": 1786, "sim_prev": 0.023, "revision": true, "status": ["elected_members", "internal_self_government", "protectorate"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "GIBRALTAR", "edition": 1949, "chars": 1176, "sim_prev": 0.524, "revision": false, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "GIBRALTAR", "edition": 1965, "chars": 1454, "sim_prev": 0.0, "revision": true, "status": ["elected_members", "internal_self_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "GOLD COAST", "edition": 1879, "chars": 1237, "sim_prev": 0.525, "revision": false, "status": [], "gained": [], "lost": ["protectorate"]}
+{"colony": "GOLD COAST", "edition": 1883, "chars": 1868, "sim_prev": 0.506, "revision": false, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "GOLD COAST", "edition": 1888, "chars": 1490, "sim_prev": 0.147, "revision": true, "status": [], "gained": [], "lost": ["protectorate"]}
+{"colony": "GOLD COAST", "edition": 1946, "chars": 1334, "sim_prev": 0.003, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "GOLD COAST", "edition": 1951, "chars": 6786, "sim_prev": 0.197, "revision": true, "status": ["elected_members", "trusteeship"], "gained": ["trusteeship"], "lost": []}
+{"colony": "GOLD COAST", "edition": 1955, "chars": 1801, "sim_prev": 0.0, "revision": true, "status": [], "gained": [], "lost": ["elected_members", "trusteeship"]}
+{"colony": "GOVERNORS", "edition": 1957, "chars": 3746, "sim_prev": 0.0, "revision": true, "status": ["elected_members", "ministerial_system"], "gained": ["elected_members", "ministerial_system"], "lost": []}
+{"colony": "GOVERNORS", "edition": 1962, "chars": 2303, "sim_prev": 0.0, "revision": true, "status": [], "gained": [], "lost": ["elected_members", "ministerial_system"]}
+{"colony": "GOVERNORS", "edition": 1964, "chars": 3841, "sim_prev": 0.607, "revision": false, "status": ["internal_self_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "GRENADA", "edition": 1963, "chars": 73, "sim_prev": 0.0, "revision": true, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "KENYA", "edition": 1922, "chars": 11644, "sim_prev": 0.201, "revision": true, "status": ["elected_members", "protectorate"], "gained": ["elected_members"], "lost": []}
+{"colony": "KENYA", "edition": 1925, "chars": 11228, "sim_prev": 0.242, "revision": true, "status": ["elected_members", "mandate", "protectorate"], "gained": ["mandate"], "lost": []}
+{"colony": "KENYA", "edition": 1927, "chars": 10184, "sim_prev": 0.402, "revision": true, "status": ["elected_members", "internal_self_government", "mandate", "protectorate"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "KENYA", "edition": 1928, "chars": 5905, "sim_prev": 0.401, "revision": true, "status": ["elected_members", "internal_self_government", "protectorate"], "gained": [], "lost": ["mandate"]}
+{"colony": "KENYA", "edition": 1931, "chars": 11026, "sim_prev": 0.272, "revision": true, "status": ["elected_members", "internal_self_government", "mandate", "protectorate"], "gained": ["mandate"], "lost": []}
+{"colony": "KENYA", "edition": 1934, "chars": 6285, "sim_prev": 0.425, "revision": true, "status": ["elected_members", "internal_self_government", "protectorate"], "gained": [], "lost": ["mandate"]}
+{"colony": "KENYA", "edition": 1937, "chars": 9602, "sim_prev": 0.364, "revision": true, "status": ["elected_members", "internal_self_government", "mandate", "protectorate"], "gained": ["mandate"], "lost": []}
+{"colony": "KENYA", "edition": 1940, "chars": 5288, "sim_prev": 0.391, "revision": true, "status": ["elected_members", "internal_self_government", "protectorate"], "gained": [], "lost": ["mandate"]}
+{"colony": "KENYA", "edition": 1952, "chars": 212, "sim_prev": 0.0, "revision": true, "status": ["elected_members", "protectorate"], "gained": [], "lost": ["internal_self_government"]}
+{"colony": "KENYA", "edition": 1962, "chars": 4964, "sim_prev": 0.06, "revision": true, "status": ["elected_members", "internal_self_government", "protectorate"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "KENYA", "edition": 1963, "chars": 4319, "sim_prev": 0.241, "revision": true, "status": ["elected_members", "internal_self_government"], "gained": [], "lost": ["protectorate"]}
+{"colony": "LEEWARD ISLANDS", "edition": 1925, "chars": 6728, "sim_prev": 0.348, "revision": true, "status": ["crown_colony"], "gained": ["crown_colony"], "lost": []}
+{"colony": "LEEWARD ISLANDS", "edition": 1927, "chars": 6644, "sim_prev": 0.946, "revision": false, "status": ["crown_colony", "elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "LEEWARD ISLANDS", "edition": 1928, "chars": 2817, "sim_prev": 0.431, "revision": true, "status": ["elected_members"], "gained": [], "lost": ["crown_colony"]}
+{"colony": "LEEWARD ISLANDS", "edition": 1940, "chars": 6945, "sim_prev": 0.035, "revision": true, "status": ["crown_colony", "elected_members"], "gained": ["crown_colony"], "lost": []}
+{"colony": "LEEWARD ISLANDS", "edition": 1954, "chars": 5933, "sim_prev": 0.093, "revision": true, "status": ["elected_members"], "gained": [], "lost": ["crown_colony"]}
+{"colony": "LEEWARD ISLANDS", "edition": 1955, "chars": 5427, "sim_prev": 0.486, "revision": true, "status": ["elected_members", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "LEEWARD ISLANDS", "edition": 1956, "chars": 4452, "sim_prev": 0.625, "revision": false, "status": ["elected_members", "ministerial_system", "universal_suffrage"], "gained": ["ministerial_system"], "lost": []}
+{"colony": "LEEWARD ISLANDS", "edition": 1957, "chars": 3636, "sim_prev": 0.302, "revision": true, "status": ["elected_members", "universal_suffrage"], "gained": [], "lost": ["ministerial_system"]}
+{"colony": "MALTA", "edition": 1912, "chars": 2409, "sim_prev": 0.481, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "MALTA", "edition": 1918, "chars": 2629, "sim_prev": 0.747, "revision": false, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "MALTA", "edition": 1919, "chars": 2578, "sim_prev": 0.621, "revision": false, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "MALTA", "edition": 1922, "chars": 8320, "sim_prev": 0.0, "revision": true, "status": ["responsible_government"], "gained": ["responsible_government"], "lost": ["elected_members"]}
+{"colony": "MALTA", "edition": 1939, "chars": 2148, "sim_prev": 0.599, "revision": false, "status": ["elected_members", "responsible_government"], "gained": ["elected_members"], "lost": []}
+{"colony": "MALTA", "edition": 1940, "chars": 2360, "sim_prev": 0.548, "revision": false, "status": ["elected_members", "representative_government", "responsible_government"], "gained": ["representative_government"], "lost": []}
+{"colony": "MALTA", "edition": 1948, "chars": 2484, "sim_prev": 0.144, "revision": true, "status": ["representative_government", "responsible_government", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": ["elected_members"]}
+{"colony": "MALTA", "edition": 1952, "chars": 1966, "sim_prev": 0.0, "revision": true, "status": [], "gained": [], "lost": ["representative_government", "responsible_government", "universal_suffrage"]}
+{"colony": "MALTA", "edition": 1954, "chars": 1194, "sim_prev": 0.0, "revision": true, "status": ["internal_self_government", "universal_suffrage"], "gained": ["internal_self_government", "universal_suffrage"], "lost": []}
+{"colony": "MALTA", "edition": 1959, "chars": 4370, "sim_prev": 0.019, "revision": true, "status": ["universal_suffrage"], "gained": [], "lost": ["internal_self_government"]}
+{"colony": "MALTA", "edition": 1960, "chars": 81, "sim_prev": 0.0, "revision": true, "status": [], "gained": [], "lost": ["universal_suffrage"]}
+{"colony": "MALTA", "edition": 1961, "chars": 1101, "sim_prev": 0.036, "revision": true, "status": ["representative_government"], "gained": ["representative_government"], "lost": []}
+{"colony": "MALTA", "edition": 1963, "chars": 3601, "sim_prev": 0.021, "revision": true, "status": ["internal_self_government"], "gained": ["internal_self_government"], "lost": ["representative_government"]}
+{"colony": "MAURITIUS", "edition": 1890, "chars": 6923, "sim_prev": 0.528, "revision": false, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "MAURITIUS", "edition": 1912, "chars": 1330, "sim_prev": 0.62, "revision": false, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "MAURITIUS", "edition": 1954, "chars": 1559, "sim_prev": 0.003, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "MAURITIUS", "edition": 1958, "chars": 1543, "sim_prev": 0.481, "revision": true, "status": ["elected_members", "ministerial_system"], "gained": ["ministerial_system"], "lost": []}
+{"colony": "MAURITIUS", "edition": 1964, "chars": 1941, "sim_prev": 0.233, "revision": true, "status": ["elected_members"], "gained": [], "lost": ["ministerial_system"]}
+{"colony": "NATAL", "edition": 1894, "chars": 5121, "sim_prev": 0.272, "revision": true, "status": ["elected_members", "responsible_government"], "gained": ["responsible_government"], "lost": []}
+{"colony": "NATAL", "edition": 1896, "chars": 4063, "sim_prev": 0.372, "revision": true, "status": ["responsible_government"], "gained": [], "lost": ["elected_members"]}
+{"colony": "NEW ZEALAND", "edition": 1888, "chars": 2852, "sim_prev": 0.131, "revision": true, "status": [], "gained": [], "lost": ["internal_self_government"]}
+{"colony": "NEW ZEALAND", "edition": 1890, "chars": 3736, "sim_prev": 0.466, "revision": true, "status": ["internal_self_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "NIGERIA", "edition": 1946, "chars": 6444, "sim_prev": 0.221, "revision": true, "status": ["elected_members", "protectorate"], "gained": ["elected_members"], "lost": []}
+{"colony": "NIGERIA", "edition": 1948, "chars": 9043, "sim_prev": 0.215, "revision": true, "status": ["elected_members", "protectorate", "trusteeship"], "gained": ["trusteeship"], "lost": []}
+{"colony": "NIGERIA", "edition": 1952, "chars": 6563, "sim_prev": 0.04, "revision": true, "status": ["elected_members", "trusteeship"], "gained": [], "lost": ["protectorate"]}
+{"colony": "NIGERIA", "edition": 1954, "chars": 2149, "sim_prev": 0.002, "revision": true, "status": ["elected_members"], "gained": [], "lost": ["trusteeship"]}
+{"colony": "NIGERIA", "edition": 1955, "chars": 4166, "sim_prev": 0.004, "revision": true, "status": ["elected_members", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "NIGERIA", "edition": 1957, "chars": 5460, "sim_prev": 0.81, "revision": false, "status": ["elected_members", "internal_self_government", "universal_suffrage"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "NIGERIA", "edition": 1958, "chars": 6352, "sim_prev": 0.262, "revision": true, "status": ["elected_members", "internal_self_government"], "gained": [], "lost": ["universal_suffrage"]}
+{"colony": "NIGERIA", "edition": 1959, "chars": 12803, "sim_prev": 0.16, "revision": true, "status": ["elected_members", "internal_self_government", "trusteeship"], "gained": ["trusteeship"], "lost": []}
+{"colony": "NORTHERN RHODESIA", "edition": 1949, "chars": 4838, "sim_prev": 0.353, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "NORTHERN RHODESIA", "edition": 1955, "chars": 635, "sim_prev": 0.0, "revision": true, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "NORTHERN RHODESIA", "edition": 1956, "chars": 772, "sim_prev": 0.43, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "NORTHERN RHODESIA", "edition": 1959, "chars": 1858, "sim_prev": 0.012, "revision": true, "status": ["elected_members", "protectorate"], "gained": ["elected_members"], "lost": []}
+{"colony": "NORTHERN RHODESIA", "edition": 1964, "chars": 2871, "sim_prev": 0.001, "revision": true, "status": ["internal_self_government"], "gained": ["internal_self_government"], "lost": ["elected_members", "protectorate"]}
+{"colony": "NYASALAND PROTECTORATE", "edition": 1960, "chars": 1921, "sim_prev": 0.346, "revision": true, "status": ["elected_members", "protectorate"], "gained": ["elected_members"], "lost": []}
+{"colony": "NYASALAND PROTECTORATE", "edition": 1963, "chars": 1625, "sim_prev": 0.01, "revision": true, "status": ["protectorate"], "gained": [], "lost": ["elected_members"]}
+{"colony": "NYASALAND PROTECTORATE", "edition": 1964, "chars": 300, "sim_prev": 0.089, "revision": true, "status": [], "gained": [], "lost": ["protectorate"]}
+{"colony": "ORANGE RIVER COLONY", "edition": 1908, "chars": 6213, "sim_prev": 0.005, "revision": true, "status": ["crown_colony", "responsible_government"], "gained": ["crown_colony", "responsible_government"], "lost": []}
+{"colony": "PALESTINE", "edition": 1922, "chars": 5634, "sim_prev": 0.038, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "PALESTINE", "edition": 1933, "chars": 1003, "sim_prev": 0.119, "revision": true, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "PAPUA", "edition": 1899, "chars": 2314, "sim_prev": 0.175, "revision": true, "status": ["crown_colony"], "gained": ["crown_colony"], "lost": []}
+{"colony": "REGIONAL ORGANISATIONS", "edition": 1957, "chars": 6873, "sim_prev": 0.55, "revision": false, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "REGIONAL ORGANISATIONS", "edition": 1962, "chars": 8364, "sim_prev": 0.087, "revision": true, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "SARAWAK", "edition": 1957, "chars": 1541, "sim_prev": 0.0, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "SIERRA LEONE", "edition": 1914, "chars": 3709, "sim_prev": 0.378, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "SIERRA LEONE", "edition": 1952, "chars": 1741, "sim_prev": 0.0, "revision": true, "status": ["elected_members", "protectorate"], "gained": ["elected_members"], "lost": []}
+{"colony": "SINGAPORE", "edition": 1949, "chars": 3103, "sim_prev": 0.202, "revision": true, "status": ["crown_colony", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": ["elected_members"]}
+{"colony": "SINGAPORE", "edition": 1952, "chars": 197, "sim_prev": 0.0, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": ["crown_colony", "universal_suffrage"]}
+{"colony": "SINGAPORE", "edition": 1956, "chars": 1731, "sim_prev": 0.034, "revision": true, "status": ["elected_members", "internal_self_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "SINGAPORE", "edition": 1957, "chars": 3066, "sim_prev": 0.01, "revision": true, "status": ["elected_members", "internal_self_government", "ministerial_system"], "gained": ["ministerial_system"], "lost": []}
+{"colony": "SINGAPORE", "edition": 1959, "chars": 4464, "sim_prev": 0.415, "revision": true, "status": ["elected_members", "internal_self_government"], "gained": [], "lost": ["ministerial_system"]}
+{"colony": "SOMALILAND PROTECTORATE", "edition": 1946, "chars": 787, "sim_prev": 0.0, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "SOMALILAND PROTECTORATE", "edition": 1959, "chars": 1781, "sim_prev": 0.473, "revision": true, "status": ["elected_members", "protectorate"], "gained": ["elected_members"], "lost": []}
+{"colony": "SOMALILAND PROTECTORATE", "edition": 1960, "chars": 2313, "sim_prev": 0.012, "revision": true, "status": ["elected_members", "internal_self_government", "ministerial_system", "protectorate"], "gained": ["internal_self_government", "ministerial_system"], "lost": []}
+{"colony": "SOUTH AFRICA", "edition": 1911, "chars": 19023, "sim_prev": 0.279, "revision": true, "status": ["ministerial_system", "representative_government", "responsible_government"], "gained": ["ministerial_system", "representative_government", "responsible_government"], "lost": []}
+{"colony": "SOUTH AFRICA", "edition": 1913, "chars": 21960, "sim_prev": 0.505, "revision": false, "status": ["internal_self_government", "ministerial_system", "representative_government", "responsible_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "SOUTH AFRICA", "edition": 1914, "chars": 17847, "sim_prev": 0.322, "revision": true, "status": ["internal_self_government", "representative_government", "responsible_government"], "gained": [], "lost": ["ministerial_system"]}
+{"colony": "SOUTH AFRICA", "edition": 1922, "chars": 22312, "sim_prev": 0.615, "revision": false, "status": ["elected_members", "internal_self_government", "representative_government", "responsible_government"], "gained": ["elected_members"], "lost": []}
+{"colony": "SOUTH AFRICA", "edition": 1925, "chars": 16228, "sim_prev": 0.405, "revision": true, "status": ["internal_self_government", "representative_government", "responsible_government"], "gained": [], "lost": ["elected_members"]}
+{"colony": "SOUTH AFRICA", "edition": 1927, "chars": 20326, "sim_prev": 0.403, "revision": true, "status": ["internal_self_government", "mandate", "representative_government", "responsible_government"], "gained": ["mandate"], "lost": []}
+{"colony": "SOUTH AFRICA", "edition": 1936, "chars": 22468, "sim_prev": 0.501, "revision": false, "status": ["internal_self_government", "mandate", "protectorate", "representative_government", "responsible_government"], "gained": ["protectorate"], "lost": []}
+{"colony": "SOUTH AUSTRALIA", "edition": 1878, "chars": 3457, "sim_prev": 0.005, "revision": true, "status": ["responsible_government"], "gained": ["responsible_government"], "lost": []}
+{"colony": "SOUTH AUSTRALIA", "edition": 1905, "chars": 2157, "sim_prev": 0.214, "revision": true, "status": [], "gained": [], "lost": ["responsible_government"]}
+{"colony": "SOUTH AUSTRALIA", "edition": 1912, "chars": 3938, "sim_prev": 0.137, "revision": true, "status": ["responsible_government"], "gained": ["responsible_government"], "lost": []}
+{"colony": "SOUTH AUSTRALIA", "edition": 1915, "chars": 2058, "sim_prev": 0.51, "revision": false, "status": [], "gained": [], "lost": ["responsible_government"]}
+{"colony": "SOUTH AUSTRALIA", "edition": 1920, "chars": 3730, "sim_prev": 0.187, "revision": true, "status": ["responsible_government"], "gained": ["responsible_government"], "lost": []}
+{"colony": "SOUTH AUSTRALIA", "edition": 1936, "chars": 2993, "sim_prev": 0.728, "revision": false, "status": [], "gained": [], "lost": ["responsible_government"]}
+{"colony": "SOUTHERN NIGERIA", "edition": 1905, "chars": 1739, "sim_prev": 0.0, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "SOUTHERN RHODESIA", "edition": 1939, "chars": 11028, "sim_prev": 0.563, "revision": false, "status": ["elected_members", "responsible_government", "trusteeship"], "gained": ["trusteeship"], "lost": []}
+{"colony": "ST. CHRISTOPHER AND NEVIS", "edition": 1911, "chars": 3712, "sim_prev": 0.245, "revision": true, "status": ["crown_colony"], "gained": ["crown_colony"], "lost": []}
+{"colony": "ST. CHRISTOPHER AND NEVIS", "edition": 1928, "chars": 393, "sim_prev": 0.088, "revision": true, "status": [], "gained": [], "lost": ["crown_colony"]}
+{"colony": "ST. CHRISTOPHER AND NEVIS", "edition": 1932, "chars": 3679, "sim_prev": 0.245, "revision": true, "status": ["crown_colony"], "gained": ["crown_colony"], "lost": []}
+{"colony": "ST. CHRISTOPHER AND NEVIS", "edition": 1939, "chars": 3388, "sim_prev": 0.557, "revision": false, "status": ["crown_colony", "elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "ST. HELENA", "edition": 1964, "chars": 755, "sim_prev": 0.199, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "TANGANYIKA", "edition": 1946, "chars": 3737, "sim_prev": 0.0, "revision": true, "status": ["internal_self_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "TANGANYIKA", "edition": 1949, "chars": 6451, "sim_prev": 0.214, "revision": true, "status": ["trusteeship"], "gained": ["trusteeship"], "lost": ["internal_self_government"]}
+{"colony": "TANGANYIKA", "edition": 1960, "chars": 5165, "sim_prev": 0.003, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": ["trusteeship"]}
+{"colony": "TASMANIA", "edition": 1888, "chars": 2592, "sim_prev": 0.497, "revision": true, "status": ["elected_members", "responsible_government"], "gained": ["elected_members", "responsible_government"], "lost": []}
+{"colony": "THE HIGH COMMISSION TERRITORIES", "edition": 1964, "chars": 13250, "sim_prev": 0.435, "revision": true, "status": ["elected_members", "protectorate", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "TRANSVAAL", "edition": 1907, "chars": 8793, "sim_prev": 0.035, "revision": true, "status": ["crown_colony", "internal_self_government", "responsible_government"], "gained": ["crown_colony", "internal_self_government", "responsible_government"], "lost": []}
+{"colony": "TRANSVAAL", "edition": 1910, "chars": 8671, "sim_prev": 0.536, "revision": false, "status": ["crown_colony", "responsible_government"], "gained": [], "lost": ["internal_self_government"]}
+{"colony": "TRINIDAD AND TOBAGO", "edition": 1925, "chars": 2831, "sim_prev": 0.386, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "TRINIDAD AND TOBAGO", "edition": 1929, "chars": 5396, "sim_prev": 0.539, "revision": false, "status": [], "gained": [], "lost": ["elected_members"]}
+{"colony": "TRINIDAD AND TOBAGO", "edition": 1931, "chars": 10921, "sim_prev": 0.222, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "TURKS AND CAICOS ISLANDS", "edition": 1963, "chars": 1233, "sim_prev": 0.0, "revision": true, "status": ["crown_colony", "elected_members", "universal_suffrage"], "gained": ["crown_colony", "elected_members", "universal_suffrage"], "lost": []}
+{"colony": "UGANDA", "edition": 1946, "chars": 4538, "sim_prev": 0.186, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "UGANDA", "edition": 1962, "chars": 2553, "sim_prev": 0.414, "revision": true, "status": ["elected_members", "protectorate"], "gained": ["elected_members"], "lost": []}
+{"colony": "VICTORIA", "edition": 1883, "chars": 3450, "sim_prev": 0.272, "revision": true, "status": ["internal_self_government"], "gained": ["internal_self_government"], "lost": []}
+{"colony": "WESTERN AUSTRALIA", "edition": 1888, "chars": 2321, "sim_prev": 0.0, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "WESTERN AUSTRALIA", "edition": 1889, "chars": 2965, "sim_prev": 0.464, "revision": true, "status": ["elected_members", "responsible_government"], "gained": ["responsible_government"], "lost": []}
+{"colony": "WESTERN PACIFIC", "edition": 1946, "chars": 3416, "sim_prev": 0.0, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "WESTERN PACIFIC", "edition": 1955, "chars": 1156, "sim_prev": 0.527, "revision": false, "status": [], "gained": [], "lost": ["protectorate"]}
+{"colony": "WESTERN PACIFIC", "edition": 1958, "chars": 2017, "sim_prev": 0.446, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "WINDWARD ISLANDS", "edition": 1890, "chars": 6600, "sim_prev": 0.245, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "WINDWARD ISLANDS", "edition": 1912, "chars": 6247, "sim_prev": 0.786, "revision": false, "status": ["crown_colony", "elected_members"], "gained": ["crown_colony"], "lost": []}
+{"colony": "WINDWARD ISLANDS", "edition": 1951, "chars": 10539, "sim_prev": 0.812, "revision": false, "status": ["crown_colony", "elected_members", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "WINDWARD ISLANDS", "edition": 1952, "chars": 4848, "sim_prev": 0.041, "revision": true, "status": ["elected_members", "universal_suffrage"], "gained": [], "lost": ["crown_colony"]}
+{"colony": "WINDWARD ISLANDS", "edition": 1956, "chars": 10825, "sim_prev": 0.376, "revision": true, "status": ["elected_members", "ministerial_system", "universal_suffrage"], "gained": ["ministerial_system"], "lost": []}
+{"colony": "ZANZIBAR", "edition": 1927, "chars": 2081, "sim_prev": 0.01, "revision": true, "status": [], "gained": [], "lost": ["protectorate"]}
+{"colony": "ZANZIBAR", "edition": 1936, "chars": 2063, "sim_prev": 0.43, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}
+{"colony": "ZANZIBAR", "edition": 1954, "chars": 727, "sim_prev": 0.003, "revision": true, "status": [], "gained": [], "lost": ["protectorate"]}
+{"colony": "ZANZIBAR", "edition": 1961, "chars": 1083, "sim_prev": 0.091, "revision": true, "status": ["elected_members"], "gained": ["elected_members"], "lost": []}
+{"colony": "ZANZIBAR", "edition": 1963, "chars": 1104, "sim_prev": 0.747, "revision": false, "status": ["elected_members", "universal_suffrage"], "gained": ["universal_suffrage"], "lost": []}
+{"colony": "ZULULAND", "edition": 1898, "chars": 2605, "sim_prev": 0.392, "revision": true, "status": ["protectorate"], "gained": ["protectorate"], "lost": []}

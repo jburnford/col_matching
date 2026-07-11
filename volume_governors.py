@@ -36,6 +36,15 @@ from volume_careers import canon_colony
 ROOT = Path("data/volume")
 OUT = ROOT / "governors"
 
+# head-of-territory commissioner successions ("High Commissioners since
+# 1878", "COMMISSIONERS", "List of Commissioners since 1893") sit under
+# roster-shaped titles the block index classes as `establishment`, so they
+# are admitted by TITLE; the prefix guard excludes District/Native/Land
+# Commissioners (subordinate cadres, not heads of territory).
+_COMMISSIONER_TITLE = re.compile(
+    r"^(LIST OF (PRESIDENTS AND )?)?(HIGH )?COMMISSIONERS"
+    r"( AND GOVERNORS)?( SINCE \d{4})?\s*\.?$", re.I)
+
 _SNAPSHOT_TITLE = re.compile(
     r"COLONIAL GOVERNORS|DOMINION GOVERNORS"      # cross-colony snapshot panel
     r"|BOARD OF|^§|CLASSES OF GOVERNORS",         # school boards / regulations
@@ -191,7 +200,9 @@ def main() -> None:
     locs = defaultdict(list)                    # year -> [(page, block, ...)]
     for line in open(ROOT / "block_index.jsonl", encoding="utf-8"):
         r = json.loads(line)
-        if r["section"] == "governors_list" and not _SNAPSHOT_TITLE.search(r["title"]):
+        if ((r["section"] == "governors_list"
+             and not _SNAPSHOT_TITLE.search(r["title"]))
+                or _COMMISSIONER_TITLE.match((r["title"] or "").strip())):
             locs[r["year"]].append(r)
 
     raw = []

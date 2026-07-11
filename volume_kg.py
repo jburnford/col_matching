@@ -141,22 +141,112 @@ def main() -> None:
             fh.write(json.dumps(t, ensure_ascii=False) + "\n")
     report.append(f"- status events: {len(events)}")
 
-    # ---- honour events, person-matched (no colony constraint -> stricter
-    #      name demand: >=2 initials or a shared full forename)
+    # ---- honour events: PERSON-first matching. The unified bio-persons
+    #      carry their own header-parsed honours, so award(+year) agreement
+    #      is near-exact evidence; full given names on both sides make the
+    #      name gate strict. Careers attach via the person's linked careers
+    #      (direct bio links + the adjudicated overlay); the old career-only
+    #      match stays as a fallback for persons the bios never carried.
+    import re as _re
+
+    def _norm_award(a):
+        return _re.sub(r"[^A-Z]", "", (a or "").upper())
+
+    persons = [p for p in _load(ROOT / "bio_persons/bio_persons.jsonl")
+               if "not_a_person" not in p["flags"]]
+    pers_by_sur = defaultdict(list)
+    for p in persons:
+        pers_by_sur[(p.get("surname") or "").lower()].append(p)
+    pmap = {}
+    for r in _load(ROOT / "bio_persons/bio_person_map.jsonl"):
+        pmap[r["bio_id"]] = r["person_id"]
+    person_careers = defaultdict(set)
+    for c in careers:
+        for b in c.get("bio_ids") or []:
+            if b in pmap:
+                person_careers[pmap[b]].add(c["career_id"])
+    for lk in _load(ROOT / "classc/career_person_links.jsonl"):
+        person_careers[lk["person_id"]].add(lk["career_id"])
+
+    _TITLE_TOKS = {"the", "hon", "sir", "dame", "mrs", "miss", "lady", "rev",
+                   "dr", "col", "capt", "captain", "lieut", "major", "gen",
+                   "prof", "ven", "mr"}
+
+    def _detitle(g):
+        return " ".join(t for t in (g or "").split()
+                        if t.lower().strip(".,") not in _TITLE_TOKS)
+
+    def _strict_name(g, pg):
+        """Exact-initials equality, OR a shared spelled forename that is
+        ALSO initials-order compatible. Subsequence alone matched 'Mary' to
+        'Robt Malcolm'; a bare shared forename matched 'Kenneth Skelton' to
+        'Kenneth Arthur Noel' — both guards are needed."""
+        g, pg = _detitle(g), _detitle(pg)
+        ti, pi = _initials(g), _initials(pg)
+        if ti and pi and ti == pi:
+            return True
+        gt = {t.lower().strip(".,") for t in g.split() if len(t) > 2}
+        pt = {t.lower().strip(".,") for t in pg.split() if len(t) > 2}
+        return bool(gt & pt) and _names_compatible(g, pg)
+
+    def match_person(h):
+        g = h.get("given_names")
+        cands = [p for p in pers_by_sur.get((h["surname"] or "").lower(), ())
+                 if _strict_name(g, p.get("given_names"))]
+        if not cands:
+            return None, None
+        aw = _norm_award(h.get("award"))
+        strong = [p for p in cands if any(
+            _norm_award(x.get("award")) == aw
+            and (x.get("year") == h.get("year") or x.get("year") is None
+                 or h.get("year") is None)
+            for x in p.get("honours") or [])]
+        if strong and len({p["person_id"] for p in strong}) == 1:
+            return strong[0], "award_agreement"
+        # unique name+time match, strict name demand (>=2 initials or a
+        # spelled forename); window: an award can long postdate service
+        if not (g and (len(_initials(g)) >= 2
+                       or any(len(t) > 2 for t in g.split()))):
+            return None, None
+        y = h.get("year")
+        timed = [p for p in cands
+                 if y is None or ((p.get("career_start") or 9999) - 10 <= y
+                                  <= (p.get("career_end") or 0) + 25)]
+        if timed and len({p["person_id"] for p in timed}) == 1:
+            return timed[0], "name_time"
+        return None, None
+
     hon = _load(CTX / "honours_roll.jsonl")
-    matched = 0
+    matched_p = matched_c = 0
+    by_basis = defaultdict(int)
     with (KG / "honour_events.jsonl").open("w", encoding="utf-8") as fh:
         for h in hon:
+            p, basis = match_person(h)
             m = None
-            g = h.get("given_names")
-            if g and (len(_initials(g)) >= 2 or
-                      any(len(t) > 2 for t in g.split())):
-                m = match_career(None, h["surname"], g, h["year"], window=15)
-            if m:
-                matched += 1
+            if p is not None:
+                matched_p += 1
+                by_basis[basis] += 1
+                cids = sorted(person_careers.get(p["person_id"], ()))
+                if cids:
+                    matched_c += 1
+                m = {"person_id": p["person_id"], "basis": basis,
+                     "career_ids": cids}
+            else:
+                g = h.get("given_names")
+                if g and (len(_initials(g)) >= 2 or
+                          any(len(t) > 2 for t in g.split())):
+                    mc = match_career(None, h["surname"], g, h["year"], window=15)
+                    if mc:
+                        matched_c += 1
+                        by_basis["career_only"] += 1
+                        m = {"basis": "career_only", **mc}
             fh.write(json.dumps({**h, "match": m}, ensure_ascii=False) + "\n")
-    report.append(f"- honour events: {len(hon):,}; matched to a career: "
-                  f"{matched:,} ({100*matched/max(len(hon),1):.0f}%)")
+    report.append(
+        f"- honour events: {len(hon):,}; matched to a PERSON: {matched_p:,} "
+        f"({100*matched_p/max(len(hon),1):.0f}%; "
+        + ", ".join(f"{k} {v:,}" for k, v in sorted(by_basis.items()))
+        + f"); reaching a career: {matched_c:,} "
+        f"({100*matched_c/max(len(hon),1):.0f}%)")
 
     # ---- CO appointments
     co = _load(CTX / "co_succession.jsonl") + _load(CTX / "co_staff.jsonl")

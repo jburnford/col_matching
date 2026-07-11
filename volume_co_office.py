@@ -55,17 +55,22 @@ def _cl(s: str) -> str:
     return re.sub(r"\s+", " ", _TAGRE.sub(" ", s)).strip()
 
 
-def _yy(tok: str) -> int | None:
-    """'98' -> 1898, '07' -> 1907, '1907' -> 1907."""
+def _yy(tok: str, edition: int | None = None) -> int | None:
+    """'98' -> 1898, '07' -> 1907, '1907' -> 1907. With an edition year the
+    century pivot is edition-aware — a promotion date cannot postdate the
+    volume, so '29' in an 1878 edition is 1829, in a 1930 edition 1929
+    (the fixed >=50 pivot mis-dated every pre-1850 appointment)."""
     if len(tok) == 4 and tok.isdigit():
         return int(tok)
     if len(tok) == 2 and tok.isdigit():
         v = int(tok)
+        if edition:
+            return 1900 + v if 1900 + v <= edition + 1 else 1800 + v
         return 1800 + v if v >= 50 else 1900 + v
     return None
 
 
-def parse_succession_table(html: str) -> list[dict]:
+def parse_succession_table(html: str, edition: int | None = None) -> list[dict]:
     """Paired-cell succession tables: <td>1854, June 10.</td><td>Right Hon.
     Sir G. Grey, Bart.</td> — possibly two pairs per row (two columns)."""
     from volume_governors import _parse_person
@@ -79,7 +84,7 @@ def parse_succession_table(html: str) -> list[dict]:
                 person = _parse_person(cells[i + 1])
                 if person is not None:
                     _office, given, surname, honours = person
-                    y2 = _yy(m.group(2)) if m.group(2) else None
+                    y2 = _yy(m.group(2), edition) if m.group(2) else None
                     out.append({"given": given, "surname": surname,
                                 "honours": honours, "year": int(m.group(1)),
                                 "year2": y2, "date": cells[i][:30]})
@@ -89,7 +94,7 @@ def parse_succession_table(html: str) -> list[dict]:
     return out
 
 
-def parse_promotion_matrix(html: str) -> list[dict]:
+def parse_promotion_matrix(html: str, edition: int | None = None) -> list[dict]:
     """The CO establishment matrix: rows = person, columns = grade, cells =
     promotion date into that grade -> per-person promotion ladders."""
     from volume_governors import _parse_person
@@ -113,7 +118,7 @@ def parse_promotion_matrix(html: str) -> list[dict]:
         for g, cell in zip(grades, cells[1:]):
             dm = _DATECELL.search(cell)
             if dm:
-                y = _yy(dm.group(2))
+                y = _yy(dm.group(2), edition)
                 if y:
                     promotions.append({"grade": g, "date": cell.strip(" ."),
                                        "year": y})
@@ -165,7 +170,7 @@ def extract_edition(year: int) -> tuple[list[dict], list[dict]]:
             continue
         if mode in ("sos", "uss"):
             if b.category == "table":
-                recs = parse_succession_table(b.text)
+                recs = parse_succession_table(b.text, year)
             else:
                 a = parse_text_block(b.text)
                 z = parse_text_yearfirst(b.text)
@@ -175,7 +180,7 @@ def extract_edition(year: int) -> tuple[list[dict], list[dict]]:
                 succession.append(rec)
         elif mode == "staff":
             if b.category == "table":
-                matrix = parse_promotion_matrix(b.text)
+                matrix = parse_promotion_matrix(b.text, year)
                 if matrix:
                     for m in matrix:
                         staff.append({"edition": year, "department": department,

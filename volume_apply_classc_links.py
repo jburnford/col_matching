@@ -98,6 +98,8 @@ def main() -> None:
 
     scored = []
     for v in sames:
+        if v["id"] not in pairs:      # verdict from a superseded worklist
+            continue                  # generation (results files accumulate)
         pr = pairs[v["id"]]
         v["person_id"] = canon.get(v["person_id"], v["person_id"])
         car, per = pr["career"], persons[v["person_id"]]
