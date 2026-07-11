@@ -89,6 +89,16 @@ def main() -> None:
             weighted_num += strata_n[st] * prec
             weighted_den += strata_n[st]
     corpus_precision = weighted_num / weighted_den if weighted_den else None
+    # split the headline by weak vs non-weak (the tiers behave differently)
+    parts = {}
+    for grp, pred in [("weak", lambda s: s.startswith("weak")),
+                      ("nonweak", lambda s: not s.startswith("weak"))]:
+        gn = gp = 0
+        for t in table:
+            if pred(t["stratum"]) and t["precision"] is not None:
+                gn += t["links"]
+                gp += t["links"] * t["precision"]
+        parts[grp] = {"links": gn, "precision": gp / gn if gn else None}
 
     # ---- contested records -> decisions --------------------------------
     contested = load(IDD / "b1_contested_results.jsonl")
@@ -128,14 +138,43 @@ def main() -> None:
                              f" conf={conf}", "reason": reason[:200]})
     acts = Counter(d["action"] for d in decisions)
 
+    # cascade: two bios BOTH judged 'same' against one roster record are
+    # very likely one person — those in different bio-persons are
+    # under-merge candidates (feeds the same ledger as screen A6)
+    bio2p = {r["bio_id"]: r["person_id"] for r in map(
+        json.loads, open(ROOT / "bio_persons/bio_person_map.jsonl",
+                         encoding="utf-8"))}
+    multisame, seen_pairs = [], set()
+    for rec_id, votes in by_record.items():
+        sames = [v for v in votes if v[1] == "same"]
+        for i in range(len(sames)):
+            for j in range(i + 1, len(sames)):
+                a, b = sorted([sames[i][0], sames[j][0]])
+                if (a, b) in seen_pairs:
+                    continue
+                seen_pairs.add((a, b))
+                pa, pb = bio2p.get(a), bio2p.get(b)
+                if pa and pb and pa != pb:
+                    multisame.append({
+                        "person_a": pa, "person_b": pb,
+                        "bio_a": a, "bio_b": b, "record_id": rec_id,
+                        "basis": "contested_record_both_same",
+                    })
+    with open(IDD / "b1_multisame_person_candidates.jsonl", "w",
+              encoding="utf-8") as fh:
+        for d in multisame:
+            fh.write(json.dumps(d, ensure_ascii=False) + "\n")
+
     with open(IDD / "b1_contested_decisions.jsonl", "w",
               encoding="utf-8") as fh:
         for d in decisions:
             fh.write(json.dumps(d, ensure_ascii=False) + "\n")
     (IDD / "b1_measured.json").write_text(json.dumps({
         "corpus_precision_weighted": corpus_precision,
+        "by_group": parts,
         "strata": table, "contested_outcomes": dict(outcome),
         "contested_actions": dict(acts),
+        "n_multisame_person_candidates": len(multisame),
         "n_sample_judged": len(sample), "n_contested_judged": len(contested),
     }, indent=2), encoding="utf-8")
 
@@ -146,6 +185,15 @@ def main() -> None:
         f" stratum-weighted precision: **{corpus_precision:.1%}**"
         if corpus_precision is not None else "no sample results",
         "(unsure verdicts excluded from the denominator).",
+        "",
+        f"- non-weak links ({parts['nonweak']['links']:,}):"
+        f" **{parts['nonweak']['precision']:.1%}**",
+        f"- weak links ({parts['weak']['links']:,}):"
+        f" **{parts['weak']['precision']:.1%}** — est."
+        f" {parts['weak']['links'] * (1 - parts['weak']['precision']):,.0f}"
+        " bad links; treat the tier as untrusted (filter from analyses,"
+        " re-adjudicate in bulk)."
+        if parts.get("weak", {}).get("precision") is not None else "",
         "",
         "| stratum | links | judged | same | diff | unsure | precision"
         " | 95% CI |",
@@ -163,6 +211,10 @@ def main() -> None:
         "",
         f"{len(by_record):,} records judged: {dict(outcome)}",
         f"Per-link actions: {dict(acts)}",
+        "",
+        f"Cascade: **{len(multisame):,}** cross-person bio pairs where both"
+        " bios were judged 'same' for one record — under-merge candidates"
+        " (b1_multisame_person_candidates.jsonl).",
         "",
         "Decisions in b1_contested_decisions.jsonl (keep/drop/review);",
         "apply drops in the next volume_relink cycle.",
