@@ -184,8 +184,35 @@ unit is the merge edge (pair of structured records united), stratified by:
 
 Adjudication renders each member's structured record (name, birth,
 education, honours, dated events) into `nibi/qwen_classc_worker.py --mode
-merge` pair format — the person-vs-person prompt needs only its
-"shared roster row" framing swapped for an IOL edition-pair framing.
+ioldedup` pair format (an IOL-specific merge prompt added this session).
+
+### MEASURED (Nibi job 17504437, 1,800-pair stratified sample)
+
+**Corpus-wide stratum-weighted merge precision: 87.2%** — meaningfully
+below the COL's 93.2% non-weak link precision. Full table in
+`data/iol/identity/MERGE_MEASURED.md`; evidence-class rollups:
+
+| class | edges | precision | note |
+|---|---|---|---|
+| base:A_birth | 4,477 | 91.7% | birth-anchored merges hold best |
+| base:C_posting | 5,274 | 83.7% | **the weak class**; its high-risk tercile is 80.0% |
+| base:B_other | 333 | 86.0% | |
+| crossform | 1,218 | 85.9% | mid tercile 80.0%, low 94.0% |
+| roleyear | 690 | 88.0% | |
+| school | 548 | 88.0% | |
+
+Extrapolating (1−precision)×edges per stratum: **~1,600 of the 12,540
+merge edges are bad** (12.8%) — on the order of 1,400+ over-merged persons
+in the 17,922-person table. Shared-posting evidence without birth-year
+corroboration is the dominant failure mode, exactly where the pre-1929
+absence of printed birth years bites. Refutation reasons are substantive
+(entry-age impossibilities, non-overlapping trajectories, jurisdiction
+conflicts), with the usual LLM-judge caveat — e.g. one sampled refutation
+splits a Bombay high-court judge from a Sind one in 1887, when Sind was
+administratively part of Bombay. Per-edge verdicts ledger:
+`data/iol/identity/merge_audit_verdicts.jsonl`. Next: full-corpus
+adjudication of all 12,540 edges (~15 min on one H100), then a drop
+ledger + map flatten + rebuild, mirroring the COL B1 apply cycle.
 
 ## 5. Rupee salaries (Q4)
 
