@@ -208,12 +208,16 @@ def main() -> None:
         for f in scored:
             fh.write(json.dumps(f, ensure_ascii=False) + "\n")
 
-    # stratified sample -> worker pair worklist (--mode ioldedup)
+    # stratified sample -> worker pair worklist (--mode ioldedup);
+    # --full emits EVERY edge instead (same ids, so a worker pointed at the
+    # sample's results file resumes past the 1,800 already judged)
+    import sys
+    full = "--full" in sys.argv
     rng = random.Random(SEED)
     rows = []
     for st in sorted(pools):
         pool = pools[st]
-        take = pool if len(pool) <= SAMPLE_PER_STRATUM \
+        take = pool if full or len(pool) <= SAMPLE_PER_STRATUM \
             else rng.sample(pool, SAMPLE_PER_STRATUM)
         for f in take:
             def side(pid: str) -> dict:
@@ -236,9 +240,13 @@ def main() -> None:
                 "person_a": f["person_a"], "person_b": f["person_b"],
                 "a": side(f["person_a"]), "b": side(f["person_b"]),
             })
-    with open(OUT / "merge_audit_worklist.jsonl", "w", encoding="utf-8") as fh:
+    wl = "merge_full_worklist.jsonl" if full else "merge_audit_worklist.jsonl"
+    with open(OUT / wl, "w", encoding="utf-8") as fh:
         for r in rows:
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+    if full:
+        print(f"full worklist: {len(rows):,} edges -> {OUT / wl}")
+        return
 
     # report
     lines = [
