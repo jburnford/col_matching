@@ -58,6 +58,46 @@ SKEPTIC_SYSTEM = (
     '"reason": "<=150 chars"}'
 )
 
+MERGE_SYSTEM = (
+    "You compare two biographical entries ('Record of Services') from "
+    "different editions of the British Colonial Office List and judge "
+    "whether they describe the SAME person. Both entries were "
+    "independently matched to the same staff-roster row (shown as "
+    "context), so they are strong candidates — but same-family namesakes "
+    "(father/son, brothers) also produce this signature.\n"
+    "Judge ONLY on the printed evidence:\n"
+    "- Names: initials matching a fuller name is compatible; contradictory "
+    "full forenames mean different people.\n"
+    "- Birth years: agreement is strong support; disagreement can be OCR "
+    "(one digit) but >15 years apart means different people.\n"
+    "- Careers: the appointment histories should be the same trajectory "
+    "(one may be a longer, later snapshot of the other). Parallel careers "
+    "in different places at the same time mean different people.\n"
+    "- Honours: the same award in the same year is near-conclusive.\n"
+    'Return strictly: {"verdict": "same"|"different"|"unsure", '
+    '"confidence": 0-100, "reason": "<=200 chars, cite the deciding '
+    'facts"}'
+)
+
+
+def render_merge(pair):
+    lines = []
+    for tag, p in (("RECORD 1", pair["a"]), ("RECORD 2", pair["b"])):
+        lines += [
+            f"{tag} — biographical entry: {p['name']}"
+            + (f", b. {p['birth_year']}" if p.get("birth_year") else ""),
+            (f"honours: {', '.join(p['honours'])}" if p.get("honours")
+             else ""),
+            (f"appears in editions {p['editions'][0]}-{p['editions'][1]}"
+             if p.get("editions") else ""),
+            *p["lines"],
+            "",
+        ]
+    lines += ["Shared roster row(s) both entries matched:",
+              *pair.get("shared_records", []), "", "Same person?"]
+    return "\n".join(l for l in lines if l != "")
+
+
 def render(pair):
     c, p = pair["career"], pair["person"]
     lines = [
@@ -131,8 +171,10 @@ def main():
     ap.add_argument("--workers", type=int, default=16)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--skeptic", action="store_true")
+    ap.add_argument("--mode", choices=["link", "merge"], default="link")
     args = ap.parse_args()
-    system = SKEPTIC_SYSTEM if args.skeptic else SYSTEM
+    system = MERGE_SYSTEM if args.mode == "merge" \
+        else SKEPTIC_SYSTEM if args.skeptic else SYSTEM
 
     done = set()
     try:
@@ -154,13 +196,15 @@ def main():
     out_fh = open(args.out, "a")
     stats = {"same": 0, "different": 0, "unsure": 0, "confirm": 0, "reject": 0, "err": 0}
 
+    renderer = render_merge if args.mode == "merge" else render
+
     def one(b):
         base = {"id": b["id"], "career_id": b["career_id"],
                 "person_id": b["person_id"], "cand_rank": b.get("cand_rank")}
         for attempt in (1, 2):
             try:
                 v = valid_verdict(extract_json(
-                    chat(args.url, args.model, system, render(b))))
+                    chat(args.url, args.model, system, renderer(b))))
                 if v is None:
                     raise ValueError("no valid verdict JSON in response")
                 return {**base, **v}
