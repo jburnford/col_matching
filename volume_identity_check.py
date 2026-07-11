@@ -25,11 +25,13 @@ lower the constant here in the same commit.
 from __future__ import annotations
 
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
 
-from volume_identity_screens import screen_a1, screen_a2_invariants
+from volume_identity_screens import (screen_a1, screen_a2_birth_from_honour,
+                                     screen_a2_invariants)
 
 ROOT = Path("data/volume")
 
@@ -43,7 +45,14 @@ BASELINES = {
     "contested_records": 2907,
     "honour_precedence": 13,
     "age_invariants": 661,
+    "birth_from_honour": 211,
+    "nonword_surname_careers": 302,
+    "multiname_given_careers": 1888,
 }
+
+_NONWORD = re.compile(
+    r"^(the|and|of|for|to|in|on|by|at|per|ditto|do|vacant|office|department"
+    r"|board|total|salary|allowance)$", re.I)
 
 
 def jload(path: Path):
@@ -100,6 +109,16 @@ def main() -> None:
     # Tier-A screens as regression counters
     measured["honour_precedence"] = len(screen_a1(live))
     measured["age_invariants"] = len(screen_a2_invariants(live))
+    measured["birth_from_honour"] = len(screen_a2_birth_from_honour(live))
+
+    # roster-parser leakage into careers (spot-check finds, 2026-07-11):
+    # 'ditto'-style surnames and un-split "A and B" multi-person rows
+    measured["nonword_surname_careers"] = sum(
+        1 for c in careers if not c.get("suspect")
+        and _NONWORD.match(c.get("surname") or ""))
+    measured["multiname_given_careers"] = sum(
+        1 for c in careers if not c.get("suspect")
+        and re.search(r"\band\b", c.get("given_names") or ""))
 
     failed = []
     print(f"{'invariant':28} {'measured':>9} {'baseline':>9}")

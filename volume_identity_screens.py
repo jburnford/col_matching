@@ -211,6 +211,32 @@ def screen_a2_invariants(persons: list[dict]) -> list[dict]:
     return hits
 
 
+def screen_a2_birth_from_honour(persons: list[dict]) -> list[dict]:
+    """Spot-check find (2026-07-11): the bio parser sometimes absorbs an
+    honour year as the birth year (HENNESSY 'b.1880' = his K.C.M.G. year;
+    career from 1859). Signature: birth_year equals an honour year AND the
+    career starts >5 years before it. Repair: null the birth year — do NOT
+    digit-repair it."""
+    out = []
+    for p in persons:
+        by = p.get("birth_year")
+        if not by:
+            continue
+        if by not in {h.get("year") for h in p["honours"]}:
+            continue
+        ys = event_years(p)
+        if ys and min(ys) < by - 5:
+            out.append({
+                "person_id": p["person_id"], "surname": p["surname"],
+                "given_names": p["given_names"], "birth_year": by,
+                "matching_honours": [h for h in p["honours"]
+                                     if h.get("year") == by],
+                "entry_year": min(ys),
+                "action": "null_birth_year_absorbed_honour",
+            })
+    return out
+
+
 def screen_a2_conflicts(persons: list[dict]) -> list[dict]:
     """Auto-adjudicate flagged birth-year conflicts: prefer the vote whose
     reading lands entry age in the plausible band."""
@@ -322,11 +348,13 @@ def main() -> None:
     a1 = screen_a1(persons)
     a2 = screen_a2_invariants(persons)
     a2c = screen_a2_conflicts(persons)
+    a2h = screen_a2_birth_from_honour(persons)
     a6 = screen_a6(persons)
 
     for name, rows in [("a1_honour_precedence", a1),
                        ("a2_age_invariants", a2),
                        ("a2_birthyear_resolutions", a2c),
+                       ("a2_birth_from_honour", a2h),
                        ("a6_honour_duplicates", a6)]:
         with open(OUT / f"{name}.jsonl", "w", encoding="utf-8") as f:
             for r in rows:
@@ -362,6 +390,10 @@ def main() -> None:
         "## A2 birth-year conflict auto-adjudication "
         f"({len(a2c)} flagged persons)",
         f"- resolutions: {dict(res)}",
+        "",
+        "## A2 birth year absorbed from an honour year (parser bug)",
+        f"- persons flagged: **{len(a2h)}** — null the birth year, do not"
+        " digit-repair.",
         "",
         "## A6 same-honour duplicate persons (under-merge)",
         f"- candidate pairs: **{len(a6)}**; strong (edition-disjoint, no"
