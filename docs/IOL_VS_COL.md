@@ -81,6 +81,23 @@ a COL-roster-scale project (weeks not days), family-by-family; the 1896+
 civil lists alone would be a fast first tranche. **Out of scope this
 session**, as directed.
 
+**UPDATE (same day): the civil-list tranche is BUILT.**
+`col_match/volume/iol_civil.py` + `iol_extract_civil.py` extract
+**79,121 office—holder records across 48 annual editions (1896–1947)**
+into `data/iol/civil/` (report: `CIVIL_EXTRACTION.md`). The parser
+absorbs the era drift (comma vs em-dash separators, italics-dropped OCR
+in 1896/1925, bare-text section headings, bare province names that
+double as sub-groupings — gated on a head-of-government lookahead) and
+carries government/department/branch context, honours, service tags
+(I.C.S./I.M.S./…), rank + Indian-honorific prefixes, acting flags and
+tenure dates per record. QA: 1.4% suspicious names, 0.5% overlong
+offices; known residue: name-first political-agent lines, "Ditto"
+offices, sticky departments in the GoI section. Value check: 54% of
+1935 records match exactly ONE 1935-attested bio person on
+surname+initials alone — the B2-style roster↔bio linker (position
+agreement at the listed year) is now buildable. Pre-1896 semiannual
+volumes and the gradation NAME lists remain unparsed.
+
 ## 3. Bio schema vs COL bios (Q2)
 
 `data/iol/bios/` — 123 edition files, **258,103 bios** (plus `.xref.jsonl`
