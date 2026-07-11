@@ -42,7 +42,7 @@ from col_match.services.match import _initials, _names_compatible, _norm
 
 ROOT = Path("data/volume")
 OUT = ROOT / "identity"
-SAMPLE_PER_STRATUM = 45
+SAMPLE_PER_STRATUM = 150
 SEED = 20260711
 
 
@@ -178,46 +178,63 @@ def main() -> None:
     for st in sorted(by_stratum_pool):
         pool = by_stratum_pool[st]
         sample += rng.sample(pool, min(len(pool), SAMPLE_PER_STRATUM))
-    need = {(f["edition_year"], f["bio_id"], f["record_id"], f["stratum"],
-             f["link_id"]) for f in sample}
-    by_year = defaultdict(list)
-    for t in need:
-        by_year[t[0]].append(t)
-    rows = []
-    for year, items in sorted(by_year.items()):
-        ed = ROOT / f"col{year}"
-        bios = {b["bio_id"]: b for b in map(
-            json.loads, open(ed / "bios.jsonl", encoding="utf-8"))}
-        records = {r["record_id"]: r for r in map(
-            json.loads, open(ed / "records.jsonl", encoding="utf-8"))}
-        for _, bio_id, record_id, stratum, link_id in items:
-            bio, rec = bios[bio_id], records[record_id]
-            line = f"  {year} | {rec.get('position') or '?'}"
-            if rec.get("department"):
-                line += f" | dept: {rec['department']}"
-            if rec.get("salary"):
-                line += f" | salary: {rec['salary']}"
-            rows.append({
-                "id": f"b1::{link_id}", "stratum": stratum,
-                "career_id": record_id, "person_id": bio_id,
-                "cand_rank": 0,
-                "career": {
-                    "colony": rec.get("colony"),
-                    "name": f"{rec.get('surname')}, {rec.get('given_names')}",
-                    "roster_years": [year],
-                    "lines": [line],
-                },
-                "person": {
-                    "name": f"{bio['surname']}, {bio.get('given_names')}",
-                    "birth_year": bio.get("birth_year"),
-                    "honours": [h["award"] for h in bio.get("honours", [])],
-                    "editions": [year, year],
-                    "lines": bio_lines(bio),
-                },
-            })
-    rng.shuffle(rows)
+
+    # contested records: every link sharing its record with another link —
+    # at most one rival can be right, so adjudicate them ALL (the standing
+    # error queue found by volume_identity_check)
+    rec_claims = Counter(f["record_id"] for f in scores)
+    contested = [f for f in scores if rec_claims[f["record_id"]] > 1]
+
+    def build_rows(feats: list[dict], prefix: str) -> list[dict]:
+        by_year = defaultdict(list)
+        for f in feats:
+            by_year[f["edition_year"]].append(f)
+        rows = []
+        for year, items in sorted(by_year.items()):
+            ed = ROOT / f"col{year}"
+            bios = {b["bio_id"]: b for b in map(
+                json.loads, open(ed / "bios.jsonl", encoding="utf-8"))}
+            records = {r["record_id"]: r for r in map(
+                json.loads, open(ed / "records.jsonl", encoding="utf-8"))}
+            for f in items:
+                bio, rec = bios[f["bio_id"]], records[f["record_id"]]
+                line = f"  {year} | {rec.get('position') or '?'}"
+                if rec.get("department"):
+                    line += f" | dept: {rec['department']}"
+                if rec.get("salary"):
+                    line += f" | salary: {rec['salary']}"
+                rows.append({
+                    "id": f"{prefix}::{f['link_id']}",
+                    "stratum": f["stratum"],
+                    "career_id": f["record_id"], "person_id": f["bio_id"],
+                    "cand_rank": 0,
+                    "career": {
+                        "colony": rec.get("colony"),
+                        "name":
+                            f"{rec.get('surname')}, {rec.get('given_names')}",
+                        "roster_years": [year],
+                        "lines": [line],
+                    },
+                    "person": {
+                        "name": f"{bio['surname']}, {bio.get('given_names')}",
+                        "birth_year": bio.get("birth_year"),
+                        "honours":
+                            [h["award"] for h in bio.get("honours", [])],
+                        "editions": [year, year],
+                        "lines": bio_lines(bio),
+                    },
+                })
+        rng.shuffle(rows)
+        return rows
+
+    rows = build_rows(sample, "b1")
     with open(OUT / "b1_audit_worklist.jsonl", "w", encoding="utf-8") as fh:
         for r in rows:
+            fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+    crows = build_rows(contested, "b1c")
+    with open(OUT / "b1_contested_worklist.jsonl", "w",
+              encoding="utf-8") as fh:
+        for r in crows:
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")
 
     # report
@@ -227,7 +244,9 @@ def main() -> None:
         "# B1 within-volume link audit",
         "",
         f"{n:,} links scored over {len(editions)} editions; sample of"
-        f" {len(rows)} drawn ({SAMPLE_PER_STRATUM}/stratum, seed {SEED}).",
+        f" {len(rows)} drawn ({SAMPLE_PER_STRATUM}/stratum, seed {SEED});"
+        f" {len(crows):,} contested-record links (record claimed by >1 bio)"
+        " emitted in full as b1_contested_worklist.jsonl.",
         "",
         "| stratum | links | sampled | median sim | rivals>0 | thin names |",
         "|---|---|---|---|---|---|",
