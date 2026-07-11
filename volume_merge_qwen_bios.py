@@ -50,6 +50,18 @@ def main():
                 continue
             q = res["bio"]
             b["events"] = q["events"]
+            # carry-forward place inheritance, as in the rules tier: a career
+            # clause without a printed place continues at the previous posting
+            # (the linker's colony gate can never pass on a placeless event;
+            # 103k of 135k placeless qwen events inherit)
+            last_place = None
+            for ev in b["events"]:
+                if ev.get("place"):
+                    last_place = ev["place"]
+                elif last_place:
+                    ev["place"] = last_place
+                    ev["place_inherited"] = True
+                    stats["places_inherited"] += 1
             b["honours"] = q["honours"]
             if q.get("birth_year") and not b.get("birth_year"):
                 b["birth_year"] = q["birth_year"]

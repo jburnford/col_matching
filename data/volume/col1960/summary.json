@@ -25,9 +25,9 @@
     "links": 699,
     "ambiguous_dropped": 8,
     "by_strength": {
-      "strong": 562,
+      "strong": 563,
       "unique": 112,
-      "weak": 21,
+      "weak": 20,
       "medium": 4
     },
     "by_surname_match": {
@@ -41,8 +41,8 @@
   },
   "bio_link_rate": 0.139,
   "relink": {
-    "old_bio_link_rate": 0.1279,
-    "old_links": 642,
+    "old_bio_link_rate": 0.139,
+    "old_links": 699,
     "records_rules": 2933,
     "records_qwen": 606
   }

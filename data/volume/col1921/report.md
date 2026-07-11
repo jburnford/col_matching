@@ -3,10 +3,10 @@
 - pages: 1021
 - **bios**: 3490 (2384 rules-parsed, 1106 unparsed→Qwen)
 - **roster records**: 14947 across 178 colonies (2815 roster blocks)
-- **links**: 1609  |  bios linked: 1475 (**42.3%** of bios)
+- **links**: 1613  |  bios linked: 1477 (**42.3%** of bios)
 - ambiguous dropped: 175
-- by strength: {'strong': 1049, 'medium': 200, 'unique': 69, 'weak': 291}
-- by surname match: {'exact': 1583, 'fuzzy': 26}
+- by strength: {'strong': 1064, 'medium': 200, 'unique': 69, 'weak': 280}
+- by surname match: {'exact': 1586, 'fuzzy': 27}
 
 ## Sample links (verify against raw OCR bbox)
 

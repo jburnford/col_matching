@@ -5,7 +5,7 @@
 - **roster records**: 3539 across 77 colonies (781 roster blocks)
 - **links**: 699  |  bios linked: 698 (**13.9%** of bios)
 - ambiguous dropped: 8
-- by strength: {'strong': 562, 'unique': 112, 'weak': 21, 'medium': 4}
+- by strength: {'strong': 563, 'unique': 112, 'weak': 20, 'medium': 4}
 - by surname match: {'exact': 693, 'fuzzy': 6}
 
 ## Sample links (verify against raw OCR bbox)

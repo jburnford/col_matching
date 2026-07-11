@@ -21,28 +21,28 @@
   "match": {
     "bios_in": 3490,
     "records_in": 14947,
-    "bios_linked": 1475,
-    "links": 1609,
+    "bios_linked": 1477,
+    "links": 1613,
     "ambiguous_dropped": 175,
     "by_strength": {
-      "strong": 1049,
+      "strong": 1064,
       "medium": 200,
       "unique": 69,
-      "weak": 291
+      "weak": 280
     },
     "by_surname_match": {
-      "exact": 1583,
-      "fuzzy": 26
+      "exact": 1586,
+      "fuzzy": 27
     },
     "links_by_record_source": {
-      "rules": 1271,
-      "qwen": 338
+      "rules": 1273,
+      "qwen": 340
     }
   },
-  "bio_link_rate": 0.4226,
+  "bio_link_rate": 0.4232,
   "relink": {
-    "old_bio_link_rate": 0.257,
-    "old_links": 927,
+    "old_bio_link_rate": 0.4226,
+    "old_links": 1609,
     "records_rules": 11253,
     "records_qwen": 3694
   }
