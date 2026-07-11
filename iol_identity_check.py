@@ -65,7 +65,12 @@ def main() -> None:
 
     valid_ids = [r["person_id"]
                  for r in jload(ROOT / "llm_struct_corpus.valid.jsonl")]
-    mrows = list(jload(ROOT / "dedup_stage3_merge_map.school.jsonl"))
+    # the audited (post-adjudication, flattened) map supersedes the school
+    # compose once it exists
+    live_map = ROOT / "dedup_stage3_merge_map.audited.jsonl"
+    if not live_map.exists():
+        live_map = ROOT / "dedup_stage3_merge_map.school.jsonl"
+    mrows = list(jload(live_map))
     mmap = {r["person_id"]: r["canonical_person_id"] for r in mrows}
     deduped_ids = [r["person_id"] for r in
                    jload(ROOT / "llm_struct_corpus.stage3.deduped.jsonl")]

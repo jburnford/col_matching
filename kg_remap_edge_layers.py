@@ -20,9 +20,14 @@ TIER = {"A": 0, "B": 1, "C": 2, "L2": 3}
 
 def resolver():
     m = {}
-    for f in KG_OUT.glob("dedup_stage3_merge_map*.jsonl"):
-        if "bak" in f.name or "_v2" in f.name:
-            continue
+    # An AUDITED map (post-adjudication, flattened, contains DROPS relative
+    # to the compose chain) supersedes the pass variants — unioning it with
+    # the older maps would resurrect the dropped edges.
+    audited = KG_OUT / "dedup_stage3_merge_map.audited.jsonl"
+    files = [audited] if audited.exists() else [
+        f for f in KG_OUT.glob("dedup_stage3_merge_map*.jsonl")
+        if "bak" not in f.name and "_v2" not in f.name]
+    for f in files:
         for l in f.open():
             d = json.loads(l)
             if d["person_id"] != d["canonical_person_id"]:
