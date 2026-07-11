@@ -18,9 +18,15 @@ Deterministic corroboration tiers (recomputed here, no LLM trust needed):
 Auto-apply policy (0 observed FPs in sample):
   tier1  exact initials + hard/place/possim corroboration
   tier2  exact initials + llm_only + rare surname (<30 bio persons)
+  tier3  skeptic-pass promotion: held pairs re-judged by a reject-by-default
+         prompt (classc_skeptic_results.jsonl) that must QUOTE the matching
+         appointment; promoted only when the quote grounds in the person's
+         events AND colony/position corroborates (10/10 sample-verified —
+         mostly used-middle-name cases the exact-initials guard rightly held)
   Careers matching >1 distinct person are demoted to review.
-Everything else -> classc_review_queue.jsonl (non-exact initials, common-
-surname llm_only, ambiguous careers).
+Everything else -> classc_review_queue.jsonl, resolution "not_linked" —
+FINAL under this policy, no human review required (unlinked is the
+conservative direction).
 
 Outputs (data/volume/classc/):
   career_person_links.jsonl   applied links (career_id -> person_id + evidence)
@@ -130,6 +136,25 @@ def main() -> None:
             "llm_reason": v.get("reason"),
         })
 
+    # tier3: skeptic-pass promotion of held pairs (grounded quote + corroboration)
+    skeptic = CLASSDIR / "classc_skeptic_results.jsonl"
+    if skeptic.exists():
+        by_id = {s["id"]: s for s in scored}
+        for line in skeptic.open(encoding="utf-8"):
+            r = json.loads(line)
+            s = by_id.get(r["id"])
+            if s is None or s["policy"] != "review" or r.get("verdict") != "confirm":
+                continue
+            evd = (r.get("evidence") or "").strip().lower()
+            per = persons[s["person_id"]]
+            grounded = len(evd) >= 8 and any(
+                fuzz.partial_ratio(evd, ((e.get("position") or "") + " " +
+                                         (e.get("place") or "")).lower()) >= 75
+                for e in per["events"])
+            if grounded and (s["det_tier"] in ("hard", "place") or s["pos_sim"] >= 75):
+                s["policy"] = "apply_t3"
+                s["skeptic_evidence"] = r.get("evidence")
+
     # careers matched to >1 distinct person -> all their pairs go to review
     per_car = defaultdict(set)
     for s in scored:
@@ -176,17 +201,20 @@ def main() -> None:
         "",
         f"- 'same' verdicts scored: {len(scored):,}",
         f"- applied: {len(applied):,} pairs / {len(linked_careers):,} careers "
-        f"(tier1 {pol['apply_t1']:,}, tier2 {pol['apply_t2']:,}); "
-        f"corroboration {dict(det)}",
-        f"- held for review: {len(review):,} "
-        f"(ambiguous careers: {len(ambiguous):,})",
+        f"(tier1 {pol['apply_t1']:,}, tier2 {pol['apply_t2']:,}, "
+        f"tier3 skeptic {pol['apply_t3']:,}); corroboration {dict(det)}",
+        f"- not linked (FINAL under this policy — no review required): "
+        f"{len(review):,} (ambiguous careers: {len(ambiguous):,})",
         "",
         "## Verification basis",
         "",
-        "34 pairs read closely across strata (July 2026). Every false positive",
-        "failed the exact-initials test; every policy-passing pair was correct",
-        "(0 observed FPs in the applied strata). LLM confidence is uniform",
-        "(90-95) and was NOT used; corroboration is recomputed deterministically.",
+        "34 pairs read closely across strata + 10/10 skeptic-tier promotions",
+        "verified (July 2026). Every false positive failed the exact-initials",
+        "test; every policy-passing pair was correct (0 observed FPs in the",
+        "applied strata). LLM confidence is uniform (90-95) and was NOT used;",
+        "corroboration is recomputed deterministically; tier3 additionally",
+        "requires the skeptic's quoted appointment to ground in the person's",
+        "events.",
         "",
         "## Link-rate lift (roster careers with a bio identity)",
         "",

@@ -41,6 +41,23 @@ SYSTEM = (
 )
 
 
+
+SKEPTIC_SYSTEM = (
+    "You audit a PROPOSED identity match between a staff-roster career and a "
+    "biographical entry from the British Colonial Office List. The match is "
+    "SUSPECT: the names are only loosely compatible (initials do not match "
+    "exactly) or the only support is name similarity. Namesakes are common in "
+    "this corpus.\n"
+    "Default to reject. Confirm ONLY if the biography contains an explicit "
+    "appointment that places this person in the roster's colony, during the "
+    "roster years, in the same position or position family — and QUOTE that "
+    "appointment. Name compatibility, plausibility, or absence of "
+    "contradiction are NOT sufficient.\n"
+    'Return strictly: {"verdict": "confirm"|"reject", '
+    '"evidence": "<the quoted appointment, or empty>", '
+    '"reason": "<=150 chars"}'
+)
+
 def render(pair):
     c, p = pair["career"], pair["person"]
     lines = [
@@ -95,12 +112,13 @@ def valid_verdict(out):
     if not isinstance(out, dict):
         return None
     v = out.get("verdict")
-    if v not in ("same", "different", "unsure"):
+    if v not in ("same", "different", "unsure", "confirm", "reject"):
         return None
     conf = out.get("confidence")
     if not isinstance(conf, (int, float)) or not 0 <= conf <= 100:
         conf = None
     return {"verdict": v, "confidence": conf,
+            "evidence": str(out.get("evidence") or "")[:300],
             "reason": str(out.get("reason") or "")[:250]}
 
 
@@ -112,7 +130,9 @@ def main():
     ap.add_argument("--model", default="qwen3-30b-a3b")
     ap.add_argument("--workers", type=int, default=16)
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--skeptic", action="store_true")
     args = ap.parse_args()
+    system = SKEPTIC_SYSTEM if args.skeptic else SYSTEM
 
     done = set()
     try:
@@ -132,7 +152,7 @@ def main():
 
     lock = threading.Lock()
     out_fh = open(args.out, "a")
-    stats = {"same": 0, "different": 0, "unsure": 0, "err": 0}
+    stats = {"same": 0, "different": 0, "unsure": 0, "confirm": 0, "reject": 0, "err": 0}
 
     def one(b):
         base = {"id": b["id"], "career_id": b["career_id"],
@@ -140,7 +160,7 @@ def main():
         for attempt in (1, 2):
             try:
                 v = valid_verdict(extract_json(
-                    chat(args.url, args.model, SYSTEM, render(b))))
+                    chat(args.url, args.model, system, render(b))))
                 if v is None:
                     raise ValueError("no valid verdict JSON in response")
                 return {**base, **v}
