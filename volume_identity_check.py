@@ -47,8 +47,10 @@ BASELINES = {
     # keep-keep duplicates (dupprint bios of one person claiming one row)
     "contested_records": 1412,
     "honour_precedence": 13,
-    "age_invariants": 661,
-    "birth_from_honour": 211,
+    # 661 -> 323 after the birth-year override ledger (2026-07-11):
+    # remainder = 268 ambiguous digit repairs + dynastic candidates
+    "age_invariants": 323,
+    "birth_from_honour": 0,
     "nonword_surname_careers": 302,
     "multiname_given_careers": 1869,
 }

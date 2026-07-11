@@ -569,6 +569,37 @@ def load_approved_merges() -> dict[str, str]:
     return {x: find(x) for x in list(parent)}
 
 
+def apply_birth_overrides(persons: dict[str, dict],
+                          absorbed: dict[str, str]) -> int:
+    """Adjudicated birth-year repairs (birth_year_overrides.jsonl, built by
+    volume_birthyear_overrides.py from the Tier-A screens): OCR digit
+    fixes, vote-conflict resolutions, and honour-absorption nulls. Applied
+    at build time so repairs survive rebuilds; a resolved override clears
+    the birth_year_conflict flag but keeps the votes for provenance.
+    `absorbed` maps absorbed ids to their surviving person id (NOT the
+    union-find root — the survivor is the most-attested member, whose id
+    can differ from the root)."""
+    path = OUTDIR / "birth_year_overrides.jsonl"
+    if not path.exists():
+        return 0
+    n = 0
+    for r in map(json.loads, path.open(encoding="utf-8")):
+        pid = r["person_id"]
+        if pid not in persons:
+            pid = absorbed.get(pid, pid)
+        p = persons.get(pid)
+        if p is None:
+            continue
+        p["birth_year"] = r["birth_year"]
+        p["birth_year_basis"] = r["basis"]
+        if "birth_year_conflict" in p["flags"]:
+            p["flags"].remove("birth_year_conflict")
+        if "birth_year_overridden" not in p["flags"]:
+            p["flags"].append("birth_year_overridden")
+        n += 1
+    return n
+
+
 def main() -> None:
     OUTDIR.mkdir(parents=True, exist_ok=True)
     bios = load_bios()
@@ -606,6 +637,9 @@ def main() -> None:
                if b not in claimed and r.get("parser") != "not_a_bio"]
     attached, created = attach_orphans(sorted(orphans), persons, bios)
 
+    n_overrides = apply_birth_overrides(
+        persons, {m["absorbed_id"]: m["person_id"] for m in id_merges})
+
     cands = undermerge_candidates(persons)
 
     with (OUTDIR / "bio_persons.jsonl").open("w", encoding="utf-8") as fh:
@@ -625,7 +659,8 @@ def main() -> None:
     write_report(persons, bios, cands, attached, created)
     real = sum(1 for p in persons.values() if "not_a_person" not in p["flags"])
     print(f"persons={len(persons)} real={real} orphans attached={attached} "
-          f"created={created} undermerge_candidates={len(cands)}")
+          f"created={created} undermerge_candidates={len(cands)} "
+          f"birth_overrides={n_overrides}")
     print(f"-> {OUTDIR}/")
 
 

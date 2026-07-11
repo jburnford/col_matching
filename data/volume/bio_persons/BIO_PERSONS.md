@@ -29,7 +29,8 @@ across editions, merges event chains, and QA-flags conflicts.
 
 - no_primary_members: 1,090
 - surname_variants: 1,057
-- birth_year_conflict: 862
+- birth_year_conflict: 680
+- birth_year_overridden: 385
 - undermerge_applied: 121
 - namesake_same_edition: 115
 - not_a_person: 54
@@ -89,10 +90,10 @@ across editions, merges event chains, and QA-flags conflicts.
 
 ## Roster-career join (careers.jsonl bio links -> persons)
 
-- non-suspect roster careers: 179,147; bio-linked: 23,226 — all resolve to a person (the partition is total over bios)
-- distinct persons behind bio-linked careers: 13,858
-- persons with roster careers in >1 colony: 2,652
-- careers whose bios map to >1 person (link noise / residual under-merge): 689
+- non-suspect roster careers: 179,033; bio-linked: 20,516 — all resolve to a person (the partition is total over bios)
+- distinct persons behind bio-linked careers: 13,354
+- persons with roster careers in >1 colony: 2,257
+- careers whose bios map to >1 person (link noise / residual under-merge): 433
 
 ## Under-merge candidates (new-event appointment chains)
 
