@@ -6,21 +6,21 @@ re-derives names from the new volume parses (Qwen bios had none), votes
 across editions, merges event chains, and QA-flags conflicts.
 
 - volume bios (excl. not_a_bio): 202,100
-- persons: 27,525 (27,471 real; 54 junk chains flagged not_a_person)
-- multi-edition persons: 23,186 (84.4% of real)
+- persons: 27,511 (27,457 real; 54 junk chains flagged not_a_person)
+- multi-edition persons: 23,179 (84.4% of real)
 - orphan bios attached to existing persons: 25; new singletons: 1
 
 ## Member roles
 
-- primary: 200,686
+- primary: 200,680
 - junk: 6,320
 - legacy: 5,064
-- dupprint: 1,395
+- dupprint: 1,401
 - seeref: 19
 
 ## Name sources (per primary member)
 
-- rules: 156,122
+- rules: 156,116
 - header: 44,528
 - spine: 983
 - none: 11
@@ -28,10 +28,10 @@ across editions, merges event chains, and QA-flags conflicts.
 ## Flags
 
 - no_primary_members: 1,090
-- surname_variants: 1,056
+- surname_variants: 1,057
 - birth_year_conflict: 862
-- namesake_same_edition: 108
-- undermerge_applied: 107
+- undermerge_applied: 121
+- namesake_same_edition: 115
 - not_a_person: 54
 - orphan_attached: 25
 - suspect_surname: 19
@@ -41,40 +41,40 @@ across editions, merges event chains, and QA-flags conflicts.
 
 | editions attested | persons |
 |---|---|
-| 1 | 4,285 |
+| 1 | 4,278 |
 | 2 | 2,487 |
-| 3 | 2,168 |
-| 4 | 3,015 |
+| 3 | 2,167 |
+| 4 | 3,014 |
 | 5 | 1,916 |
-| 6 | 1,733 |
+| 6 | 1,732 |
 | 7 | 1,454 |
-| 8 | 1,505 |
-| 9 | 1,312 |
+| 8 | 1,504 |
+| 9 | 1,311 |
 | 10 | 1,097 |
 | 11 | 890 |
 | 12 | 753 |
 | 13 | 623 |
 | 14 | 583 |
 | 15 | 504 |
-| 16 | 481 |
+| 16 | 480 |
 | 17 | 377 |
 | 18 | 314 |
 | 19 | 246 |
 | 20 | 235 |
 | 21 | 239 |
 | 22 | 204 |
-| 23 | 159 |
+| 23 | 158 |
 | 24 | 148 |
-| 25 | 129 |
+| 25 | 128 |
 | 26 | 120 |
 | 27 | 92 |
 | 28 | 83 |
 | 29 | 74 |
-| 30 | 54 |
+| 30 | 53 |
 | 31 | 42 |
-| 32 | 27 |
+| 32 | 28 |
 | 33 | 24 |
-| 34 | 16 |
+| 34 | 17 |
 | 35 | 21 |
 | 36 | 16 |
 | 37 | 6 |
@@ -90,9 +90,9 @@ across editions, merges event chains, and QA-flags conflicts.
 ## Roster-career join (careers.jsonl bio links -> persons)
 
 - non-suspect roster careers: 179,147; bio-linked: 23,226 — all resolve to a person (the partition is total over bios)
-- distinct persons behind bio-linked careers: 13,869
-- persons with roster careers in >1 colony: 2,654
-- careers whose bios map to >1 person (link noise / residual under-merge): 699
+- distinct persons behind bio-linked careers: 13,858
+- persons with roster careers in >1 colony: 2,652
+- careers whose bios map to >1 person (link noise / residual under-merge): 689
 
 ## Under-merge candidates (new-event appointment chains)
 

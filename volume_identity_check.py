@@ -42,12 +42,15 @@ BASELINES = {
     "same_ed_primary_unflagged": 0,
     "classc_bad_refs": 0,
     "career_bad_bio_refs": 0,
-    "contested_records": 2907,
+    # lowered 2026-07-11 after the B1 apply (11,248 refuted links dropped,
+    # 14 under-merges folded in); remaining contested records are the
+    # keep-keep duplicates (dupprint bios of one person claiming one row)
+    "contested_records": 1412,
     "honour_precedence": 13,
     "age_invariants": 661,
     "birth_from_honour": 211,
     "nonword_surname_careers": 302,
-    "multiname_given_careers": 1888,
+    "multiname_given_careers": 1869,
 }
 
 _NONWORD = re.compile(
