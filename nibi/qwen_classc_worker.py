@@ -80,6 +80,34 @@ MERGE_SYSTEM = (
 )
 
 
+IOL_MERGE_SYSTEM = (
+    "You compare two biographical entries ('Record of Services') from "
+    "different editions of the India Office List and judge whether they "
+    "describe the SAME person. A dedup pass proposed merging them — your "
+    "verdict measures whether that merge is right. Same-family namesakes "
+    "(father/son, brothers) and same-name Indian officers are the failure "
+    "modes.\n"
+    "Judge ONLY on the printed evidence:\n"
+    "- Names: initials matching a fuller name is compatible; contradictory "
+    "full forenames mean different people. Indian honorific titles (Khan "
+    "Bahadur, Rai Bahadur) are not name evidence.\n"
+    "- Birth years: agreement is strong support; disagreement can be OCR "
+    "(one digit) but >15 years apart means different people. Most pre-1929 "
+    "entries print no birth year — absence is not evidence.\n"
+    "- Careers: the appointment histories should be the same trajectory "
+    "(one may be a longer, later snapshot of the other — entries are "
+    "cumulative across editions). The same specific appointment (office, "
+    "place, year) is near-conclusive. Parallel careers in different "
+    "provinces at the same time mean different people.\n"
+    "- Education: the same school/college + exam year is strong support; "
+    "different universities at overlapping ages means different people.\n"
+    "- Honours: the same award in the same year is near-conclusive.\n"
+    'Return strictly: {"verdict": "same"|"different"|"unsure", '
+    '"confidence": 0-100, "reason": "<=200 chars, cite the deciding '
+    'facts"}'
+)
+
+
 def render_merge(pair):
     lines = []
     for tag, p in (("RECORD 1", pair["a"]), ("RECORD 2", pair["b"])):
@@ -93,8 +121,10 @@ def render_merge(pair):
             *p["lines"],
             "",
         ]
-    lines += ["Shared roster row(s) both entries matched:",
-              *pair.get("shared_records", []), "", "Same person?"]
+    if pair.get("shared_records"):
+        lines += ["Shared roster row(s) both entries matched:",
+                  *pair["shared_records"], ""]
+    lines += ["Same person?"]
     return "\n".join(l for l in lines if l != "")
 
 
@@ -171,9 +201,11 @@ def main():
     ap.add_argument("--workers", type=int, default=16)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--skeptic", action="store_true")
-    ap.add_argument("--mode", choices=["link", "merge"], default="link")
+    ap.add_argument("--mode", choices=["link", "merge", "ioldedup"],
+                    default="link")
     args = ap.parse_args()
-    system = MERGE_SYSTEM if args.mode == "merge" \
+    system = IOL_MERGE_SYSTEM if args.mode == "ioldedup" \
+        else MERGE_SYSTEM if args.mode == "merge" \
         else SKEPTIC_SYSTEM if args.skeptic else SYSTEM
 
     done = set()
@@ -196,11 +228,14 @@ def main():
     out_fh = open(args.out, "a")
     stats = {"same": 0, "different": 0, "unsure": 0, "confirm": 0, "reject": 0, "err": 0}
 
-    renderer = render_merge if args.mode == "merge" else render
+    renderer = render_merge if args.mode in ("merge", "ioldedup") else render
 
     def one(b):
-        base = {"id": b["id"], "career_id": b["career_id"],
-                "person_id": b["person_id"], "cand_rank": b.get("cand_rank")}
+        base = {"id": b["id"]}
+        for k in ("career_id", "person_id", "person_a", "person_b",
+                  "stratum", "evidence_class", "cand_rank"):
+            if k in b:
+                base[k] = b[k]
         for attempt in (1, 2):
             try:
                 v = valid_verdict(extract_json(
