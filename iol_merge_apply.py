@@ -92,13 +92,25 @@ def main() -> None:
           f"({len(new_rows):,} appended this run): {dict(acts)}")
 
     # ---- 2. audited flattened map ------------------------------------------
+    # After a bios rebuild + rechain, some person_ids leave the corpus
+    # (chains reorganize). Edges citing vanished ids are moot — prune
+    # them or the map fails the *_not_in_corpus invariants.
+    corpus_ids = {r["person_id"] for r in
+                  jload(ROOT / "llm_struct_corpus.valid.jsonl")}
     school = {(r["person_id"], r["canonical_person_id"])
               for r in jload(ROOT / "dedup_stage3_merge_map.school.jsonl")}
+    n_school_raw = len(school)
+    school = {(a, b) for a, b in school
+              if a in corpus_ids and b in corpus_ids}
+    if len(school) != n_school_raw:
+        print(f"pruned {n_school_raw - len(school):,} school edges citing "
+              "ids no longer in the corpus (post-rechain)")
     old_canon = Counter(c for _, c in school)
     drops = {(r["person_a"], r["person_b"])
              for r in ledger if r["action"] == "drop"}
     adds = [(r["person_a"], r["person_b"])
-            for r in ledger if r["action"] == "add"]
+            for r in ledger if r["action"] == "add"
+            and r["person_a"] in corpus_ids and r["person_b"] in corpus_ids]
     kept = [e for e in school if e not in drops]
     dropped = len(school) - len(kept)
 
@@ -150,7 +162,7 @@ def main() -> None:
     keys = {r["person_id"] for r in rows_out}
     canons = {r["canonical_person_id"] for r in rows_out}
     assert not keys & canons, "audited map is not flattened"
-    n_persons = 30446 - len(rows_out)
+    n_persons = len(corpus_ids) - len(rows_out)
     print(f"map: {len(school):,} school edges - {dropped:,} dropped "
           f"+ {len(adds)} A6 unions -> {len(rows_out):,} flattened rows "
           f"({outp})")

@@ -63,7 +63,8 @@ def main() -> None:
 
     # ---- 1. merge decisions (A6 unions + override + review marker) -----
     rows = []
-    for r in jload(ADJ / "res_dedup.jsonl"):
+    for r in list(jload(ADJ / "res_dedup.jsonl")) \
+            + list(jload(ADJ / "res_delta_dedup.jsonl")):
         if r.get("verdict") not in ("same", "different"):
             continue
         # 'split' records a judged refutation so the A6 screen stops

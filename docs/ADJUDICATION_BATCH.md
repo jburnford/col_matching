@@ -118,3 +118,21 @@ commit as any rebuild):
   (`data/iol/civil/residue_records.jsonl` maps lines → records).
 - Rerun `iol_link_exits.py` + all screens + `iol_identity_check.py`
   after the person-table overlay apply.
+
+## Bios-fix cycle (2026-07-12, follow-on)
+
+Three extractor fixes (max-span section rule, no-comma headwords,
+mid-text splits — commit 5817c47) recovered 7,856 bios: 5,851 from the
+iliol_1930/1911 truncations, 266 + 1,755 de-swallowed (the mid-text pass
+recovers the swallowed VICEROY peerage entries: Ampthill, Cromer,
+Cranbrook...). Corpus 265,959 bios -> 30,257 stage-2 chains. Structuring
+delta was small — cumulative bios mean recovered attestations mostly
+extend existing chains — 2,066 chains re-structured on Nibi (17538390 /
+17539777 / 17539820), 1,438 never-deduped delta pairs judged
+(17539869: 1,247 same), all folded through the accumulative ledgers.
+Final: **19,513 persons, 125,297 events**, roll agreement 99%, check
+green on baselines 30,252 / 10,739 / 19,513 (A2 8, A7 4 = next batch's
+pools, arrivals from the recovered bios). 5 monster segments (170-330KB
+accumulator run-aways) remain unstructurable — segmentation cap queued.
+GOTCHA for reruns: `kg_textchain_dedup.py --write` is CWD-relative;
+pass the full data/iol path.

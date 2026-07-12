@@ -39,24 +39,27 @@ BASELINES = {
     "dup_person_ids": 0,           # duplicate person_id in deduped corpus
     # ---- corpus census (exact — a change means a rebuild happened;
     #      re-measure and update in the same commit) ----
-    # consolidated-batch rebuild 2026-07-11 (Nibi 17521812): 11,095 rows
-    # + 9 unions (8 A6-judged + 1 a6-honour-override) -> 11,104; overlays
-    # applied in-build (105 birth repairs, 479 roll honour dates, 2,064
-    # casualty death dates) — see docs/ADJUDICATION_BATCH.md
-    "valid_records": 30446,
-    "merge_edges": 11104,
-    "canonical_persons": 19342,
-    # ---- screen ceilings (re-measured post-rebuild 2026-07-11 late) ----
+    # bios-fix rebuild 2026-07-12 (section max-span + no-comma headwords
+    # + mid-text splits; 265,959 bios, stage-2 30,257 chains, 5
+    # unstructurable monster segments): corpus 30,252; map = 11,118
+    # surviving school edges - 1,398 drops + 1,343 delta/A6 unions
+    # (Nibi 17539869: 1,247 judged same of 1,438 delta pairs) -> 10,739;
+    # overlays re-applied in-build (100 births, 487 roll honour dates,
+    # 2,076 deaths; 104 rows target vanished pre-rechain ids)
+    "valid_records": 30252,
+    "merge_edges": 10739,
+    "canonical_persons": 19513,
+    # ---- screen ceilings (re-measured post-rebuild 2026-07-12) ----
     "honour_precedence": 1,
-    # 105 -> 0: every age-invariant birth year repaired via the overlay
-    "age_invariants": 0,
+    # 8 fresh garbled birth years arrived with the 6.1k recovered bios —
+    # the next adjudication batch's A2 pool
+    "age_invariants": 8,
     "birth_from_honour": 0,
     # A7 (events after linked death, iol_link_exits.py) — read from the
     # screen's output file; RERUN iol_link_exits.py after any person-table
-    # change or this pins a stale count. 15 -> 2 after the adjudicated
-    # suppressions; the 2 = one benign edition-lag singleton + one
-    # hand-review fusion candidate (see merge_decisions review rows)
-    "events_after_death": 2,
+    # change or this pins a stale count. 2 pinned (edition-lag singleton +
+    # hand-review fusion candidate) + 2 new from reorganized chains
+    "events_after_death": 4,
 }
 
 
