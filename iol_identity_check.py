@@ -62,14 +62,17 @@ BASELINES = {
     "events_after_death": 4,
     # ---- no-bio layer (steps 1-3 build 2026-07-12; exact — the
     #      judged apply will change these in its own commit) ----
-    "nobio_union": 32641,          # census: chains + gradation - overlap
-    "nobio_chains": 18168,
+    # (re-measured after the silver-audit fixes: plural office nouns,
+    #  commissariat + function-word junk rules, grad_exit rank gate,
+    #  content-derived chain ids)
+    "nobio_union": 32287,          # census: chains + gradation - overlap
+    "nobio_chains": 17816,
     "nobio_gradation_unlinked": 14984,
-    "nobio_class_A": 19149,
-    "nobio_class_B": 2360,
-    "nobio_class_C": 7955,
+    "nobio_class_A": 18804,
+    "nobio_class_B": 2368,
+    "nobio_class_C": 7940,
     "nobio_class_U": 3688,
-    "nobio_det_edges": 1925,
+    "nobio_det_edges": 1860,
     # structural (must stay 0)
     "nobio_edge_orphans": 0,       # unify edge endpoint in no layer
     "nobio_member_dups": 0,        # identity in >1 nobio component

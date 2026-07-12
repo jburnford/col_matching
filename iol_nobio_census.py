@@ -75,13 +75,28 @@ _OFFICE_WORDS = {
     "GAZETTE", "MINT", "OPIUM", "INDUSTRIES", "COMMERCE",
     "AGRICULTURE", "EDUCATION", "REVENUE", "FINANCE", "JUSTICE",
     "MARINE", "IRRIGATION", "SANITARY", "DEPARTMENTS", "ENGINEERING",
+    "EST", "BUREAU",
+    # plural office nouns + commissariat family (silver-standard audit
+    # found "Deputy Assistant Commissaries" chains); singular ENGINEER/
+    # SURGEON/JUDGE stay out — they are real surnames
+    "COMMISSARY", "COMMISSARIES", "COMMISSARIAT", "ENGINEERS",
+    "SUPERINTENDENTS", "EXAMINERS", "JUDGES", "SECRETARIES",
+    "ASSISTANTS", "SURGEONS", "OFFICERS", "COLLECTORS", "MAGISTRATES",
+    "SETTLEMENTS", "INSPECTORS", "AUDITORS", "TRANSLATORS", "WRITERS",
+    "APPRENTICES", "PROFESSORS", "INSTRUCTORS", "CONSERVATORS",
+    "CHAPLAINS", "MEMBERS",
 }
 _TITLE_WORDS = _OFFICE_WORDS | {
     "MR", "ESQ", "ESQR", "SIR", "HON", "HONBLE", "REV", "REVD", "DR",
     "LORD", "MAJOR", "COL", "CAPT", "CAPTAIN", "LIEUT", "LT", "GEN",
     "COLONEL", "SURG", "SURGEON", "BRIG", "RAI", "RAO", "KHAN",
-    "BAHADUR", "SAHIB", "THE",
+    "BAHADUR", "SAHIB", "THE", "CHIEF", "ENGINEER",
 }
+
+# Real names never contain standalone lowercase function words;
+# office phrases do ("Master and Registrar in Equity", "In the Civil
+# Leave Code") and they dodge any word list.
+_FUNCTION_WORDS = {"and", "of", "in", "the", "for", "to", "on", "with"}
 
 
 def norm_gov(gov):
@@ -125,9 +140,15 @@ def main() -> None:
                                         # coholders on one line
             nm = r.get("name") or ""
             nm = re.sub(r"\(.*$", "", nm)   # trailing "(S. Waziristan"
+            # supp lists print SURNAME-first ("COATES, JOHN MARTIN",
+            # "ALI AUSAT, MUHAMMAD") — reorder before keying
+            m = re.match(r"^([A-Z][A-Z'`.\- ]{2,}),\s*(.+)$", nm)
+            if m:
+                nm = f"{m.group(2)} {m.group(1)}"
             toks = [t for t in nm.split() if any(c.isalpha() for c in t)]
             if len(toks) < 2 or len(toks[-1]) < 3 \
-                    or sk(toks[-1]) in _OFFICE_WORDS:
+                    or sk(toks[-1]) in _OFFICE_WORDS \
+                    or any(t in _FUNCTION_WORDS for t in toks):
                 stats["unusable_name"] += 1
                 continue
             given = toks[:-1]
@@ -151,10 +172,14 @@ def main() -> None:
 
     with open(IDD / "nobio_civil_chains.jsonl", "w",
               encoding="utf-8") as fh:
-        for n, ((s, ini, gov), rows) in enumerate(chains):
+        for (s, ini, gov), rows in chains:
             years = sorted({r["edition_year"] for r in rows})
+            # id from the first record's provenance, NOT enumeration —
+            # stable across rebuilds so ledgers/silver labels keep
             fh.write(json.dumps({
-                "chain_id": f"nbc_{s}_{ini or 'X'}_{years[0]}_{n}",
+                "chain_id": f"nbc_{s}_{ini or 'X'}_"
+                            f"{rows[0]['edition_tag']}_"
+                            f"{rows[0]['_line_no']}",
                 "surname_key": s, "initials": ini, "government": gov,
                 "name": max((r.get("name") or "" for r in rows), key=len),
                 "years": [years[0], years[-1]], "n_records": len(rows),

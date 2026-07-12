@@ -101,6 +101,37 @@ def forename_conflict(a_given: str | None, b_given: str | None) -> bool:
     return bool(aw and bw and aw[0] != bw[0])
 
 
+# most-specific first: GENERAL is a substring of LIEUT.-GENERALS
+_RANK_ORDER = [("LIEUTGENERAL", 7), ("LTGENERAL", 7),
+               ("MAJORGENERAL", 6), ("MAJGENERAL", 6),
+               ("LIEUTCOLONEL", 4), ("LTCOLONEL", 4),
+               ("LIEUTCOL", 4), ("LTCOL", 4),
+               ("GENERAL", 8), ("COLONEL", 5), ("COL", 5),
+               ("MAJOR", 3), ("MAJ", 3), ("CAPTAIN", 2), ("CAPT", 2),
+               ("LIEUTENANT", 1), ("LIEUT", 1), ("LT", 1),
+               ("ENSIGN", 0), ("CORNET", 0)]
+
+
+def name_rank(nm: str | None) -> int | None:
+    """Rank carried in a casualty-name prefix ('Lt.Col. R. G. ...')."""
+    head = sk("".join((nm or "").split()[:2]))
+    for key, r in _RANK_ORDER:
+        if head.startswith(key):
+            return r
+    return None
+
+
+def section_ranks(sections: list[str]) -> set[int]:
+    out = set()
+    for s in sections or []:
+        k = sk(s)
+        for key, r in _RANK_ORDER:
+            if key in k:
+                out.add(r)
+                break
+    return out
+
+
 def gov_side(gov: str | None) -> str | None:
     for pres, govs in _SIDE.items():
         if gov in govs:
@@ -314,6 +345,12 @@ def main() -> None:
             cands.append((g, dis, comp))
         for g, dis, comp in cands:
             fn = forename_agree(e["given"], g.get("given"))
+            # rank gate (silver audit: a COLONELS-list man cannot die
+            # a Capt. — namesake): >1 grade off demotes to the judge
+            er = name_rank(e.get("name"))
+            gr = section_ranks(g.get("sections"))
+            rank_ok = (er is None or not gr
+                       or min(gr) - 1 <= er <= max(gr) + 1)
             score = 20 + (15 if fn else 0) + (20 if dis else 0) \
                 + (10 if comp else 0) + (15 if len(cands) == 1 else 0)
             ev = {"event": e["event"], "year": e["year"],
@@ -322,8 +359,12 @@ def main() -> None:
                   "last_ed": max(g["editions"]),
                   "presidency": e.get("presidency"),
                   "establishment": e.get("establishment"),
-                  "disappearance": dis, "n_cands": len(cands)}
-            if len(cands) == 1 and dis and score >= 60:
+                  "disappearance": dis, "n_cands": len(cands),
+                  "rank_conflict": not rank_ok}
+            if not rank_ok:
+                emit("grad_exit", g["gradation_id"], e["event_id"],
+                     "llm", score, ev)
+            elif len(cands) == 1 and dis and score >= 60:
                 emit("grad_exit", g["gradation_id"], e["event_id"],
                      "det_strong" if e["event"] == "death" else "det_std",
                      score, ev)
