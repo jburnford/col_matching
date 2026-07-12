@@ -71,11 +71,66 @@ def _lead_bold(para_inner: str) -> str | None:
     return head if _caps_first(head) else None
 
 
+# No-comma headwords the shared COL pattern misses: Indian names and titles
+# printed as an ALL-CAPS run straight into a parenthesis or the career dash
+# ("ABDUL GHAFUR KHAN OF ZAIDA (dist. judge…", "NAWAB OF DACCA—…").
+# First token fully uppercase (>=3 alpha), 1-7 further capitalized tokens,
+# then ( or the dash. Systematically Indian-biased when missed (doc §3).
+_NOCOMMA_HEAD = re.compile(
+    r"^([A-Z][A-Z'’\-]{2,}(?: [A-Z][A-Za-z'’\-]+){1,7})\s*[—–(]")
+
+
+# Mid-text swallowed headwords: OCR merges the next bio's paragraph into
+# the current one, so the headword appears after a sentence end INSIDE the
+# text (~0.6% of bios; peerage entries — the viceroys! — dominate).
+# P1: peerage form  "AMPTHILL (Baron)…", "CONNAUGHT AND STRATHEARN (DUKE OF)…"
+# P2: general form  sentence end + 2-7-token ALL-CAPS run + comma/paren
+_MID_PEERAGE = re.compile(
+    r"[.;)]\s+([A-Z][A-Z'’\-]{2,}(?: (?:AND )?[A-Z][A-Z'’\-]{2,}){0,3})\s*"
+    r"\(\s*(?i:baron|earl|viscount|duke|marquess|lord|countess)")
+_MID_GENERAL = re.compile(
+    r"[.;)]\s+([A-Z][A-Z'’\-]{2,}(?: [A-Z][A-Za-z'’\-]+){1,6})\s*[,(]")
+_MID_STOP = {"THE", "OF", "AND", "LATE", "HON", "SIR", "REV", "EDUC",
+             "APPTD", "TRANS", "RETD", "BORN", "CIE", "CSI", "KCSI"}
+
+
+def _midtext_splits(text: str) -> list[int]:
+    """Char offsets (into text) where a swallowed bio begins; skips the
+    headword region itself (first 40 chars)."""
+    pts = []
+    for pat, strict in ((_MID_PEERAGE, False), (_MID_GENERAL, True)):
+        for m in pat.finditer(text, 40):
+            run = m.group(1)
+            toks = run.split()
+            if toks[0].upper() in _MID_STOP:
+                continue
+            alpha = [c for c in run if c.isalpha()]
+            if strict and sum(c.isupper() for c in alpha) / len(alpha) < 0.8:
+                continue
+            pts.append(m.start(1))
+    pts.sort()
+    out = []
+    for p in pts:
+        if not out or p - out[-1] > 30:
+            out.append(p)
+    return out
+
+
+def _iol_headword(text: str) -> bool:
+    if _is_headword(text):
+        return True
+    m = _NOCOMMA_HEAD.match(text)
+    if not m:
+        return False
+    alpha = [c for c in m.group(1) if c.isalpha()]
+    return bool(alpha) and sum(c.isupper() for c in alpha) / len(alpha) >= 0.7
+
+
 def _bio_shaped(para_inner: str) -> bool:
     """A paragraph opens a biography if its text starts with a headword surname.
     (``<b>`` is unreliable — present early, gone later — so segment on the
     headword shape of the paragraph text, like the markdown path.)"""
-    return _is_headword(_text(para_inner))
+    return _iol_headword(_text(para_inner))
 
 
 def find_services_section(html: str) -> tuple[int, int] | None:
@@ -87,23 +142,32 @@ def find_services_section(html: str) -> tuple[int, int] | None:
     heads = [(m.start(), m.end(), _text(m.group(1))) for m in _HEAD.finditer(html)]
     svc = [_SERVICES.search(h[2]) is not None for h in heads]
     # qualifying services headings = those followed by a dense run of bios.
-    # The real section heading is the LAST such (earlier copies are
-    # table-of-contents entries), so its body isn't truncated at the next copy.
-    qualifying = []
+    # Running headers ("RECORD OF SERVICES." atop each page) are OCR'd as
+    # real headings mid-section in some editions (iliol_1911/1930), so
+    # picking the LAST qualifying heading truncated the section at the
+    # final running-header copy (~6k bios lost). Instead pick the
+    # qualifying heading with the LARGEST span to the next NON-services
+    # heading — running headers match _SERVICES, so the true section
+    # start sees through them, while a table-of-contents copy is cut off
+    # by whatever heading follows it.
+    non_svc_starts = [h[0] for h, is_svc in zip(heads, svc) if not is_svc]
+    best: tuple[int, int, int] | None = None   # (span, -end, end)
     for (start, end, _), is_svc in zip(heads, svc):
         if not is_svc:
             continue
         window = html[end:end + _DENSITY_WIN]
         density = sum(_bio_shaped(m.group(1)) for m in _PARA.finditer(window))
-        if density >= _DENSITY_MIN:
-            qualifying.append(end)
-    if not qualifying:
+        if density < _DENSITY_MIN:
+            continue
+        i = bisect.bisect_left(non_svc_starts, end)
+        stop = non_svc_starts[i] if i < len(non_svc_starts) else len(html)
+        cand = (stop - end, -end, end)
+        if best is None or cand > best:
+            best = cand
+    if best is None:
         return None
-    sec_start = max(qualifying)
-    # end at the next non-services heading after the section start
-    nxt = [h[0] for h, is_svc in zip(heads, svc)
-           if h[0] >= sec_start and not is_svc]
-    return sec_start, (min(nxt) if nxt else len(html))
+    sec_start = best[2]
+    return sec_start, sec_start + best[0]
 
 
 def _parse_headword(head: str, body: str) -> tuple[str, str | None, int | None]:
@@ -111,10 +175,13 @@ def _parse_headword(head: str, body: str) -> tuple[str, str | None, int | None]:
 
     ``head`` is the bold span when present, else the body up to the career dash."""
     head = head.split("—", 1)[0].split("--", 1)[0]
-    surname = head.split(",", 1)[0].strip()
+    # no-comma (Indian/peerage) headwords run straight into a parenthesis:
+    # the surname is the full name up to the first comma OR paren
+    surname = re.split(r"[,(]", head, 1)[0].strip()
     given = None
-    if "," in head:
-        field = re.split(r"[,(]", head.split(",", 1)[1], 1)[0].strip(" .")
+    pre_paren = head.split("(", 1)[0]
+    if "," in pre_paren:
+        field = re.split(r"[,(]", pre_paren.split(",", 1)[1], 1)[0].strip(" .")
         given = field or None
     bm = _BIRTH.search(body)
     return surname, given, (int(bm.group(1)) if bm else None)
@@ -166,6 +233,24 @@ def extract_edition(ek: iol_reader.EditionKey, data_dir: str):
         text = " ".join(p for p in parts if p).strip()
         if len(text) < 12:
             return
+        # OCR-merged paragraphs: a swallowed headword mid-text starts a
+        # second bio — split and emit each fragment separately
+        splits = _midtext_splits(text)
+        if splits:
+            frags = []
+            prev = 0
+            for s in splits:
+                frags.append((prev, text[prev:s].strip()))
+                prev = s
+            frags.append((prev, text[prev:].strip()))
+            for off, frag in frags:
+                if len(frag) < 12:
+                    continue
+                _emit(bold if off == 0 else "", frag, cur_pos + off)
+            return
+        _emit(bold, text, cur_pos)
+
+    def _emit(bold: str, text: str, pos: int) -> None:
         # headword = the bold span if present, else the text up to the career dash
         head = bold or text.split("—", 1)[0].split("--", 1)[0]
         # cross-reference alias: "(see X)" headword, no career body
@@ -179,10 +264,10 @@ def extract_edition(ek: iol_reader.EditionKey, data_dir: str):
         surname, given, birth = _parse_headword(head, text)
         if not surname:
             return
-        bio_id = f"iol{ek.tag}-c{cur_pos}"
+        bio_id = f"iol{ek.tag}-c{pos}"
         prov = [{"family": ek.family, "year": year, "month": ek.month,
-                 "char_offset": cur_pos,
-                 "page_est": _page_index(cur_pos, total_chars, page_tokens)}]
+                 "char_offset": pos,
+                 "page_est": _page_index(pos, total_chars, page_tokens)}]
         events, honours, parser, flags = [], [], "headword", []
         version = EntryVersion(
             version_id=bio_id + ".v", surname_key=_surname_key(text),
@@ -209,7 +294,7 @@ def extract_edition(ek: iol_reader.EditionKey, data_dir: str):
         text = _text(inner)
         if not text:
             continue
-        if _is_headword(text):        # new biography (headword surname start)
+        if _iol_headword(text):       # new biography (headword surname start)
             close()
             cur_bold = _lead_bold(inner) or ""   # bonus clean headword when bolded
             cur_pos = pm.start()
