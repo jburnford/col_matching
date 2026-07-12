@@ -60,6 +60,19 @@ BASELINES = {
     # change or this pins a stale count. 2 pinned (edition-lag singleton +
     # hand-review fusion candidate) + 2 new from reorganized chains
     "events_after_death": 4,
+    # ---- no-bio layer (steps 1-3 build 2026-07-12; exact — the
+    #      judged apply will change these in its own commit) ----
+    "nobio_union": 32641,          # census: chains + gradation - overlap
+    "nobio_chains": 18168,
+    "nobio_gradation_unlinked": 14984,
+    "nobio_class_A": 19149,
+    "nobio_class_B": 2360,
+    "nobio_class_C": 7955,
+    "nobio_class_U": 3688,
+    "nobio_det_edges": 1925,
+    # structural (must stay 0)
+    "nobio_edge_orphans": 0,       # unify edge endpoint in no layer
+    "nobio_member_dups": 0,        # identity in >1 nobio component
 }
 
 
@@ -125,7 +138,36 @@ def main() -> None:
     measured["events_after_death"] = \
         sum(1 for _ in open(a7, encoding="utf-8")) if a7.exists() else 0
 
-    exact = {"valid_records", "merge_edges", "canonical_persons"}
+    # no-bio layer (iol_nobio_census/_unify/_classes/_apply outputs)
+    idd = ROOT / "identity"
+    census = json.load(open(idd / "nobio_census.json"))
+    measured["nobio_union"] = census["nobio_union"]
+    chain_ids = {r["chain_id"]
+                 for r in jload(idd / "nobio_civil_chains.jsonl")}
+    measured["nobio_chains"] = len(chain_ids)
+    measured["nobio_gradation_unlinked"] = census["gradation_unlinked"]
+    cls = Counter(r["cls"] for r in jload(idd / "nobio_classes.jsonl"))
+    for k in "ABCU":
+        measured[f"nobio_class_{k}"] = cls[k]
+    grad_ids = {r["gradation_id"] for r in
+                jload(ROOT / "gradation/gradation_identities.jsonl")}
+    edges = list(jload(idd / "nobio_unify_edges.jsonl"))
+    measured["nobio_det_edges"] = len(edges)
+    known = chain_ids | grad_ids
+    measured["nobio_edge_orphans"] = sum(
+        1 for e in edges
+        if e["a"] not in known
+        or (e["edge_type"] in ("chain_grad", "chain_chain")
+            and e["b"] not in known))
+    members = [m for r in jload(idd / "nobio_persons.jsonl")
+               for m in r["members"]]
+    measured["nobio_member_dups"] = sum(
+        1 for _, c in Counter(members).items() if c > 1)
+
+    exact = {"valid_records", "merge_edges", "canonical_persons",
+             "nobio_union", "nobio_chains", "nobio_gradation_unlinked",
+             "nobio_class_A", "nobio_class_B", "nobio_class_C",
+             "nobio_class_U", "nobio_det_edges"}
     failures = []
     for key, base in BASELINES.items():
         got = measured[key]
