@@ -404,6 +404,66 @@ def _unwrap_lines(inner: str) -> list[str]:
     return out
 
 
+# --------------------------------------------------------------- ditto --
+# "Assistant Do.", "Clerk to ditto", "Professors, ditto", "Deputy
+# Directors of Do." — the office abbreviates against the PRECEDING office
+# line in the same block. Resolution is deterministic: the token before
+# the ditto word picks the splice rule.
+_DITTO = re.compile(r"\b(?:ditto|do)\b\.?,?", re.I)
+
+
+def _singular(w: str) -> str:
+    w = re.sub(r"[^a-z]", "", w.lower())
+    if w.endswith("ies"):
+        return w[:-3] + "y"
+    if w.endswith("s") and not w.endswith("ss"):
+        return w[:-1]
+    return w
+
+
+def _resolve_ditto(office: str, last: str | None) -> str | None:
+    """Expand a ditto office against the previous resolved office;
+    None when it cannot be resolved."""
+    if not last:
+        return None
+    m = _DITTO.search(office)
+    if not m:
+        return None
+    head = office[:m.start()].rstrip()
+    tail_extra = office[m.end():].strip(" .")
+    last = last.rstrip(". ")
+
+    def out(s: str) -> str:
+        s = re.sub(r"\s+", " ", s).strip(" ,")
+        return (s + (" " + tail_extra if tail_extra else "")).strip()
+
+    if not head:                       # bare "Ditto." — same office
+        return out(last)
+    # connector before the ditto word: "to"/"of" or a comma
+    for conn, pat in ((" to ", r"\bto$"), (" of ", r"\bof$")):
+        if re.search(pat, head, re.I):
+            i = last.lower().find(conn)
+            rep = last[i + len(conn):] if i >= 0 else last
+            return out(head + " " + rep)
+    if head.endswith(","):
+        i = last.find(", ")
+        rep = last[i + 2:] if i >= 0 else last
+        return out(head + " " + rep)
+    # no connector: align the head's final role noun with a word of the
+    # previous office ("Under Secretaries do." after "Secretary to Govt,
+    # X" -> "Under Secretaries to Govt, X"); else prepend the whole office
+    hw = _singular(head.split()[-1])
+    if hw:
+        words = last.split()
+        for i, w in enumerate(words):
+            if _singular(w) == hw:
+                rest = " ".join(words[i + 1:])
+                if w.endswith(",") and rest:
+                    return out(head + ", " + rest)
+                return out(head + (" " + rest if rest else ""))
+    return out(head + " " + last)
+
+
 def extract_civil(ek) -> list[CivilRecord]:
     """All civil-list records for one edition (an iol_reader.EditionKey)."""
     from . import iol_reader
@@ -436,6 +496,7 @@ def extract_civil(ek) -> list[CivilRecord]:
     started = False        # no records until a real government heading
     records: list[CivilRecord] = []
     pos = 0
+    last_office, last_ctx = None, None   # ditto resolution state per block
     for m in _PARA.finditer(html):
         if m.start() >= limit:
             break
@@ -502,6 +563,20 @@ def extract_civil(ek) -> list[CivilRecord]:
             if not so:
                 continue
             office, rest = so
+            line_flags: list[str] = []
+            ctx = (government, department, branch)
+            if ctx != last_ctx:
+                last_office, last_ctx = None, ctx
+            if _DITTO.search(office):
+                resolved = _resolve_ditto(office, last_office)
+                if resolved:
+                    office = resolved
+                    line_flags.append("ditto_resolved")
+                else:
+                    line_flags.append("ditto_unresolved")
+                    last_office = None   # never chain onto a failure
+            if "ditto_unresolved" not in line_flags:
+                last_office = office
             base_words = office.split("(")[0].strip().lower().split()
             plural = bool(base_words and re.search(
                 r"(ies|ers|ors|ants|als|ents|ates|hes|members|aides)$",
@@ -516,8 +591,8 @@ def extract_civil(ek) -> list[CivilRecord]:
                     acting=any(f.startswith(("offg", "actg", "acting",
                                              "officiating"))
                                for f in h["flags"]),
-                    flags=sorted(set(h["flags"])),
-                    raw_line=_text(line)[:300],
+                    flags=sorted(set(h["flags"] + line_flags)),
+                    raw_line=_text(line)[:1200],
                     char_offset=m.start(), page_est=page_of(m.start())))
                 if not plural and len(records) >= 2 \
                         and records[-2].raw_line == records[-1].raw_line:

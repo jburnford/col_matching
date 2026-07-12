@@ -108,6 +108,65 @@ IOL_MERGE_SYSTEM = (
 )
 
 
+IOL_EXIT_SYSTEM = (
+    "You compare a casualty-table exit event from the India Office List "
+    "(a printed death or retirement notice with an exact date) with a "
+    "biographical entry ('Record of Services') and judge whether they "
+    "describe the SAME person. Namesakes are the failure mode; a matched "
+    "DEATH is decisive — the biography's attestation should STOP at the "
+    "death year.\n"
+    "Judge ONLY on the printed evidence:\n"
+    "- Names: initials matching a fuller name is compatible; contradictory "
+    "full forenames mean different people.\n"
+    "- Timing: for a death, career events or edition appearances more than "
+    "a year AFTER the death date mean this is NOT the dead person (or the "
+    "biography fuses two people — still answer 'different' and say so in "
+    "the reason). For a retirement, the career should reach the "
+    "retirement year and active appointments should stop near it.\n"
+    "- Place/service: the event's place or establishment should fit the "
+    "career's provinces and service.\n"
+    'Return strictly: {"verdict": "same"|"different"|"unsure", '
+    '"confidence": 0-100, "reason": "<=200 chars, cite the deciding '
+    'facts"}'
+)
+
+IOL_ROLL_SYSTEM = (
+    "You compare an honours-roll entry from the India Office List (the "
+    "printed grade roll of the Star of India / Indian Empire / Crown of "
+    "India, with an exact appointment date) with a biographical entry "
+    "('Record of Services') that claims the same grade in a DIFFERENT "
+    "year. Judge whether they are the SAME person.\n"
+    "The roll is typeset from the order's official list, so when the two "
+    "are the same person the roll date is authoritative and the "
+    "biography's year is a garble (OCR or parse). When they are "
+    "namesakes, the biography keeps its year.\n"
+    "Judge ONLY on the printed evidence: name compatibility (initials vs "
+    "full forms), whether the career's seniority fits the roll date (a "
+    "man appointed C.I.E. in 1920 should be mid-career around 1920, not "
+    "a new entrant), and whether the biography's own honours sequence "
+    "fits better with the roll date than its printed year.\n"
+    'Return strictly: {"verdict": "same"|"different"|"unsure", '
+    '"confidence": 0-100, "reason": "<=200 chars, cite the deciding '
+    'facts"}'
+)
+
+IOL_BIRTH_SYSTEM = (
+    "You repair a garbled birth year in a biographical entry from the "
+    "India Office List. The printed birth year is IMPOSSIBLE against the "
+    "career (entry age too young/old or negative). Candidate repairs are "
+    "single-digit or two-digit OCR fixes of the printed year.\n"
+    "Pick the candidate that makes the career plausible: appointment to "
+    "the civil service or army normally at age 17-30 (competitive-exam "
+    "ICS entry clusters at 21-24); last attested activity before age 75; "
+    "honours mid-to-late career.\n"
+    "If exactly one candidate fits, verdict 'repair' with that year. If "
+    "several fit or none do, verdict 'unsure' and explain.\n"
+    'Return strictly: {"verdict": "repair"|"unsure", '
+    '"birth_year": <int or null>, "confidence": 0-100, '
+    '"reason": "<=200 chars, cite entry age and last-activity age"}'
+)
+
+
 def render_merge(pair):
     lines = []
     for tag, p in (("RECORD 1", pair["a"]), ("RECORD 2", pair["b"])):
@@ -125,6 +184,65 @@ def render_merge(pair):
         lines += ["Shared roster row(s) both entries matched:",
                   *pair["shared_records"], ""]
     lines += ["Same person?"]
+    return "\n".join(l for l in lines if l != "")
+
+
+def _bio_lines(tag, p):
+    return [
+        f"{tag} — biographical entry: {p['name']}"
+        + (f", b. {p['birth_year']}" if p.get("birth_year") else ""),
+        (f"honours: {', '.join(p['honours'])}" if p.get("honours") else ""),
+        (f"appears in editions {p['editions'][0]}-{p['editions'][1]}"
+         if p.get("editions") else ""),
+        *p["lines"],
+        "",
+    ]
+
+
+def _dmy(d, m, y):
+    return ".".join(str(x) for x in (d, m) if x) + (f".{y}" if y else "")
+
+
+def render_exit(pair):
+    ev = pair["exit"]
+    lines = [
+        f"RECORD 1 — casualty-table {ev['event']} notice: {ev['name']}",
+        f"date: {_dmy(ev.get('day'), ev.get('month'), ev.get('year'))}",
+        f"place: {ev['place']}" if ev.get("place") else "",
+        f"establishment: {ev['establishment']}"
+        if ev.get("establishment") else "",
+        "",
+        *_bio_lines("RECORD 2", pair["person"]),
+        "Same person?",
+    ]
+    return "\n".join(l for l in lines if l != "")
+
+
+def render_roll(pair):
+    r = pair["roll"]
+    lines = [
+        f"RECORD 1 — {r['grade']} roll entry: {r['name']}",
+        "appointed: "
+        f"{_dmy(r.get('roll_day'), r.get('roll_month'), r['roll_year'])}",
+        "",
+        *_bio_lines("RECORD 2", pair["person"]),
+        f"RECORD 2 prints the same grade ({r['grade']}) dated "
+        f"{r['bio_year']} — {abs(r['bio_year'] - r['roll_year'])} years "
+        "from the roll date.",
+        "Same person?",
+    ]
+    return "\n".join(l for l in lines if l != "")
+
+
+def render_birth(row):
+    lines = [
+        *_bio_lines("RECORD", row["person"]),
+        f"Printed birth year: {row['current_birth']} — impossible "
+        f"({row.get('anomaly') or 'entry/last age out of range'}).",
+        "Candidate OCR repairs: "
+        + ", ".join(str(y) for y in row["candidates"]),
+        "Which repair (if any) makes the career plausible?",
+    ]
     return "\n".join(l for l in lines if l != "")
 
 
@@ -178,18 +296,26 @@ def chat(url, model, system, user, timeout=180):
         return json.load(r)["choices"][0]["message"]["content"] or ""
 
 
-def valid_verdict(out):
+def valid_verdict(out, mode="link"):
     if not isinstance(out, dict):
         return None
     v = out.get("verdict")
-    if v not in ("same", "different", "unsure", "confirm", "reject"):
+    allowed = ("repair", "unsure") if mode == "iolbirth" \
+        else ("same", "different", "unsure", "confirm", "reject")
+    if v not in allowed:
         return None
     conf = out.get("confidence")
     if not isinstance(conf, (int, float)) or not 0 <= conf <= 100:
         conf = None
-    return {"verdict": v, "confidence": conf,
-            "evidence": str(out.get("evidence") or "")[:300],
-            "reason": str(out.get("reason") or "")[:250]}
+    res = {"verdict": v, "confidence": conf,
+           "evidence": str(out.get("evidence") or "")[:300],
+           "reason": str(out.get("reason") or "")[:250]}
+    if mode == "iolbirth":
+        by = out.get("birth_year")
+        res["birth_year"] = by if isinstance(by, int) else None
+        if v == "repair" and res["birth_year"] is None:
+            return None
+    return res
 
 
 def main():
@@ -201,12 +327,14 @@ def main():
     ap.add_argument("--workers", type=int, default=16)
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--skeptic", action="store_true")
-    ap.add_argument("--mode", choices=["link", "merge", "ioldedup"],
+    ap.add_argument("--mode", choices=["link", "merge", "ioldedup",
+                                       "iolexit", "iolroll", "iolbirth"],
                     default="link")
     args = ap.parse_args()
-    system = IOL_MERGE_SYSTEM if args.mode == "ioldedup" \
-        else MERGE_SYSTEM if args.mode == "merge" \
-        else SKEPTIC_SYSTEM if args.skeptic else SYSTEM
+    system = {"ioldedup": IOL_MERGE_SYSTEM, "merge": MERGE_SYSTEM,
+              "iolexit": IOL_EXIT_SYSTEM, "iolroll": IOL_ROLL_SYSTEM,
+              "iolbirth": IOL_BIRTH_SYSTEM}.get(
+        args.mode, SKEPTIC_SYSTEM if args.skeptic else SYSTEM)
 
     done = set()
     try:
@@ -226,20 +354,25 @@ def main():
 
     lock = threading.Lock()
     out_fh = open(args.out, "a")
-    stats = {"same": 0, "different": 0, "unsure": 0, "confirm": 0, "reject": 0, "err": 0}
+    from collections import Counter
+    stats = Counter()
 
-    renderer = render_merge if args.mode in ("merge", "ioldedup") else render
+    renderer = {"merge": render_merge, "ioldedup": render_merge,
+                "iolexit": render_exit, "iolroll": render_roll,
+                "iolbirth": render_birth}.get(args.mode, render)
 
     def one(b):
         base = {"id": b["id"]}
         for k in ("career_id", "person_id", "person_a", "person_b",
-                  "stratum", "evidence_class", "cand_rank"):
+                  "stratum", "evidence_class", "cand_rank", "event_id",
+                  "pool"):
             if k in b:
                 base[k] = b[k]
         for attempt in (1, 2):
             try:
                 v = valid_verdict(extract_json(
-                    chat(args.url, args.model, system, renderer(b))))
+                    chat(args.url, args.model, system, renderer(b))),
+                    args.mode)
                 if v is None:
                     raise ValueError("no valid verdict JSON in response")
                 return {**base, **v}
