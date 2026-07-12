@@ -5,22 +5,24 @@
 #SBATCH --gpus-per-node=h100:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
-#SBATCH --time=1:00:00
+#SBATCH --time=3:00:00
 #SBATCH --output=/home/jic823/projects/def-jic823/qwen_roster/qwen_iolnobio_%j.out
 #SBATCH --error=/home/jic823/projects/def-jic823/qwen_roster/qwen_iolnobio_%j.err
 
 # ============================================================
-# No-bio unification residue (docs/NOBIO_DEDUP_KICKOFF.md step 1):
+# No-bio dedup cycle (docs/NOBIO_DEDUP_KICKOFF.md steps 1+2):
 #   wl_nobio.jsonl  ~2.0k roster-vs-roster pairs  --mode iolnobio
-#     chain_grad / chain_chain / grad_exit / chain_exit
-# Minutes of GPU after model load. Resumable — resubmit to continue.
+#     (chain_grad / chain_chain / grad_exit / chain_exit residue)
+#   wl_abc.jsonl   ~12k class-C identity-vs-bio   --mode iolabc
+# ~1-2h GPU after model load. Resumable — resubmit to continue.
 #
 # Before submitting, copy inputs up (from the col_matching root):
 #   scp data/iol/identity/adjudicate/wl_nobio.jsonl \
+#       data/iol/identity/adjudicate/wl_abc.jsonl \
 #       nibi:~/projects/def-jic823/qwen_roster/
 #   scp nibi/qwen_classc_worker.py \
 #       nibi:~/projects/def-jic823/qwen_roster/
-# Afterwards, fetch res_nobio.jsonl back into
+# Afterwards, fetch res_nobio.jsonl + res_abc.jsonl back into
 #   data/iol/identity/adjudicate/ for the apply step.
 # ============================================================
 set -u
@@ -93,6 +95,15 @@ python3 "$JOB_DIR/qwen_classc_worker.py" \
     --url http://localhost:8000/v1 \
     --model qwen3-30b-a3b \
     --mode iolnobio \
+    --workers 16
+
+echo "=== wl_abc (--mode iolabc) ==="; date
+python3 "$JOB_DIR/qwen_classc_worker.py" \
+    --worklist "$JOB_DIR/wl_abc.jsonl" \
+    --out "$JOB_DIR/res_abc.jsonl" \
+    --url http://localhost:8000/v1 \
+    --model qwen3-30b-a3b \
+    --mode iolabc \
     --workers 16
 
 echo "=== workers done ==="; date

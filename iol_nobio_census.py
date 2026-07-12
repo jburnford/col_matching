@@ -74,7 +74,7 @@ _OFFICE_WORDS = {
     "FORESTS", "JAILS", "STORES", "PENSIONS", "LIBRARY", "MUSEUM",
     "GAZETTE", "MINT", "OPIUM", "INDUSTRIES", "COMMERCE",
     "AGRICULTURE", "EDUCATION", "REVENUE", "FINANCE", "JUSTICE",
-    "MARINE", "IRRIGATION", "SANITARY", "DEPARTMENTS",
+    "MARINE", "IRRIGATION", "SANITARY", "DEPARTMENTS", "ENGINEERING",
 }
 _TITLE_WORDS = _OFFICE_WORDS | {
     "MR", "ESQ", "ESQR", "SIR", "HON", "HONBLE", "REV", "REVD", "DR",
@@ -122,6 +122,7 @@ def main() -> None:
                 stats["linked"] += 1
                 continue
             nm = r.get("name") or ""
+            nm = re.sub(r"\(.*$", "", nm)   # trailing "(S. Waziristan"
             toks = [t for t in nm.split() if any(c.isalpha() for c in t)]
             if len(toks) < 2 or len(toks[-1]) < 3 \
                     or sk(toks[-1]) in _OFFICE_WORDS:

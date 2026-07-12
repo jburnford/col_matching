@@ -138,6 +138,35 @@ IOL_NOBIO_SYSTEM = (
 )
 
 
+IOL_ABC_SYSTEM = (
+    "You compare two records from the India Office List and judge "
+    "whether they describe the SAME person.\n"
+    "Record 1 is a roster identity with NO biography: either a "
+    "civil-list office chain (the years a name was printed holding "
+    "offices under one government) or a gradation seniority trace "
+    "(army commission or civil covenant year, ranks, corps).\n"
+    "Record 2 is a biographical entry ('Record of Services'): a "
+    "person's appointment history, possibly with birth year and "
+    "honours.\n"
+    "Judge ONLY on the printed evidence:\n"
+    "- Timing: the biography's appointments should cover or plausibly "
+    "explain the roster years (biographies lag a year or two); a "
+    "covenant/commission year must match the biography's entry.\n"
+    "- Place: the biography should put the person under that "
+    "government or establishment side (Bengal/Madras/Bombay; "
+    "Government of India and India Office posts draw from all).\n"
+    "- Rank: the roster office should fit the biography's trajectory "
+    "at that date (allow promotion over time).\n"
+    "Initials matching a fuller name is compatible, but a name match "
+    "alone is NOT evidence — namesakes are common; different "
+    "concurrent careers in different provinces mean different "
+    "people.\n"
+    'Return strictly: {"verdict": "same"|"different"|"unsure", '
+    '"confidence": 0-100, "reason": "<=200 chars, cite the deciding '
+    'year/place/rank facts"}'
+)
+
+
 IOL_EXIT_SYSTEM = (
     "You compare a casualty-table exit event from the India Office List "
     "(a printed death or retirement notice with an exact date) with a "
@@ -368,13 +397,14 @@ def main():
     ap.add_argument("--skeptic", action="store_true")
     ap.add_argument("--mode", choices=["link", "merge", "ioldedup",
                                        "iolexit", "iolroll", "iolbirth",
-                                       "iolnobio"],
+                                       "iolnobio", "iolabc"],
                     default="link")
     args = ap.parse_args()
     system = {"ioldedup": IOL_MERGE_SYSTEM, "merge": MERGE_SYSTEM,
               "iolexit": IOL_EXIT_SYSTEM, "iolroll": IOL_ROLL_SYSTEM,
               "iolbirth": IOL_BIRTH_SYSTEM,
-              "iolnobio": IOL_NOBIO_SYSTEM}.get(
+              "iolnobio": IOL_NOBIO_SYSTEM,
+              "iolabc": IOL_ABC_SYSTEM}.get(
         args.mode, SKEPTIC_SYSTEM if args.skeptic else SYSTEM)
 
     done = set()
