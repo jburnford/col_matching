@@ -49,6 +49,10 @@ BASELINES = {
     "honour_precedence": 1,
     "age_invariants": 105,
     "birth_from_honour": 0,
+    # A7 (events after linked death, iol_link_exits.py) — read from the
+    # screen's output file; RERUN iol_link_exits.py after any person-table
+    # change or this pins a stale count
+    "events_after_death": 15,
 }
 
 
@@ -109,6 +113,10 @@ def main() -> None:
     measured["honour_precedence"] = len(screen_a1(persons))
     measured["age_invariants"] = len(screen_a2_invariants(persons))
     measured["birth_from_honour"] = len(screen_a2_birth_from_honour(persons))
+
+    a7 = ROOT / "identity/a7_events_after_death.jsonl"
+    measured["events_after_death"] = \
+        sum(1 for _ in open(a7, encoding="utf-8")) if a7.exists() else 0
 
     exact = {"valid_records", "merge_edges", "canonical_persons"}
     failures = []
