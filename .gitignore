@@ -22,3 +22,4 @@ data/*/ladybug_db
 
 # raw OCR source images (951MB) — regenerable, available on request / via Zenodo
 iol_ocr_1860-1940/
+viz_private/
