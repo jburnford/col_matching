@@ -164,13 +164,20 @@ _GOVT = re.compile(
     r"|(THE )?SECRETARY OF STATE FOR INDIA( IN COUNCIL)?[ ,.]*.{0,25}"
     r"|THE INDIA (OFFICE )?LIST( AND OFFICE LIST)?)\.?$")
 
-# back-matter sections that always follow the establishment lists — stop
-# parsing there (chronological head-of-administration lists, honours rolls,
-# precedence tables all contain office-shaped lines that are NOT rosters)
-_STOP = re.compile(
+# sections whose office-shaped lines are NOT establishment rosters —
+# chronological head-of-administration lists, honours rolls, precedence
+# tables, gradation/army seniority lists, annuitant/retired/casualty lists.
+# They RESET the government context (suppress records) rather than stop the
+# scan: in pre-1896 volumes several of these are FRONT matter and the civil
+# lists resume after them.
+_SUPPRESS = re.compile(
     r"^(CHRONOLOGICAL LISTS?\b.*|THE MOST EXALTED ORDER\b.*|THE MOST EMINENT"
     r" ORDER\b.*|ORDER OF THE INDIAN EMPIRE.*|IMPERIAL ORDER OF THE CROWN.*"
-    r"|WARRANT OF PRECEDENCE.*|TABLE OF PRECEDENCE.*)\.?$")
+    r"|ORDER OF THE STAR OF INDIA.*|ORDER OF THE BATH.*"
+    r"|WARRANT OF PRECEDENCE.*|TABLE OF PRECEDENCE.*"
+    r"|GRADATION LISTS?\b.*|ARMY LIST.*|STAFF CORPS.*|.*ANNUITANTS.*"
+    r"|RETIRED (LIST|OFFICERS).*|OFFICERS RETIRED.*|CASUALTIES.*"
+    r"|INVALID AND REDUCED PENSIONERS.*|.*PENSION (LIST|FUND).*)\.?$")
 
 # bare-caps province headings (1896-1920s layout). Keep tight: known units.
 _PROVINCES = (
@@ -456,8 +463,9 @@ def extract_civil(ek) -> list[CivilRecord]:
         for gline in _TAG.sub("\n", html[pos:m.start()]).split("\n"):
             g = _WS.sub(" ", _html.unescape(gline)).strip()
             if g and len(g) < 90:
-                if started and _STOP.match(g.rstrip(". ")):
-                    return records
+                if _SUPPRESS.match(g.rstrip(". ")):
+                    government, department, branch = None, None, None
+                    continue
                 gh = _classify_heading(g, "gap")
                 if gh:
                     _apply(gh, m.start())
@@ -466,8 +474,9 @@ def extract_civil(ek) -> list[CivilRecord]:
         txt = _text(inner)
         if not txt:
             continue
-        if started and tag != "p" and _STOP.match(txt.rstrip(". ")):
-            return records
+        if tag != "p" and _SUPPRESS.match(txt.rstrip(". ")):
+            government, department, branch = None, None, None
+            continue
         head = _classify_heading(txt, tag) \
             if (tag != "p" or len(txt) < 90) else None
         if head:
@@ -486,7 +495,7 @@ def extract_civil(ek) -> list[CivilRecord]:
             else:
                 branch = val
             continue
-        if tag != "p" or not started:
+        if tag != "p" or not started or government is None:
             continue
         for line in _unwrap_lines(inner):
             so = _split_office(line)
