@@ -18,6 +18,10 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--corpus", default="data/kg/llm_struct_corpus.reviewed.jsonl")
 ap.add_argument("--map", default="data/kg/dedup_stage3_merge_map.jsonl")
 ap.add_argument("--out", default="data/kg/llm_struct_corpus.stage3.jsonl")
+ap.add_argument("--overlay", default=None,
+                help="accumulative person-overlay ledger (birth_year / "
+                     "death_date / honour_year rows) applied to the "
+                     "folded records; ids resolve through the merge map")
 args = ap.parse_args()
 
 mmap = {r["person_id"]: r["canonical_person_id"]
@@ -165,6 +169,50 @@ for cpid, members in groups.items():
         "flags": sorted({f for m in members for f in (m.get("flags") or [])}),
     }
     out.append(rec)
+
+# ---- overlays (IOL enrichment cycle): applied AFTER the fold so ledger
+# rows keyed by any absorbed person_id land on the canonical record
+if args.overlay and os.path.exists(args.overlay):
+    def awk(a): return re.sub(r"[^A-Z]", "", (a or "").upper())
+    by_pid = {r["person_id"]: r for r in out}
+    ostats = Counter()
+    for l in open(args.overlay):
+        row = json.loads(l)
+        rec = by_pid.get(canon(row["person_id"]))
+        if rec is None:
+            ostats["target_missing"] += 1
+            continue
+        f = row["field"]
+        applied = False
+        if f == "birth_year":
+            rec["birth_year"] = row["value"]
+            ostats["birth_year"] += 1
+            applied = True
+        elif f == "death_date":
+            rec["death_year"] = row["value"]
+            if row.get("month"): rec["death_month"] = row["month"]
+            if row.get("day"): rec["death_day"] = row["day"]
+            ostats["death_date"] += 1
+            applied = True
+        elif f == "honour_year":
+            hit = 0
+            for h in rec.get("honours") or []:
+                if awk(h.get("award")) != row.get("award_key"):
+                    continue
+                if h.get("year") is None or row.get("replace"):
+                    h["year"] = row["value"]
+                    if row.get("month"): h["month"] = row["month"]
+                    if row.get("day"): h["day"] = row["day"]
+                    h["year_source"] = "honours-roll"
+                    hit += 1
+            ostats["honour_year" if hit else "honour_no_slot"] += 1
+            applied = hit > 0
+        else:
+            ostats["unknown_field"] += 1
+        if applied:
+            fl = set(rec.get("flags") or []); fl.add("overlay")
+            rec["flags"] = sorted(fl)
+    print(f"overlays applied: {dict(ostats)}")
 
 out.sort(key=lambda r: (r.get("surname") or "", r.get("given_names") or ""))
 with open(args.out, "w") as fh:

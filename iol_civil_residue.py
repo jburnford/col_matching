@@ -68,7 +68,8 @@ def main() -> None:
     by_key: dict[str, dict] = {}
     key_records: Counter = Counter()
     stats = Counter()
-    for f in sorted(glob(str(CIVIL / "civil_*.jsonl"))):
+    # edition files only (civil_person_links etc. share the directory)
+    for f in sorted(glob(str(CIVIL / "civil_1[89]*.jsonl"))):
         for line in open(f, encoding="utf-8"):
             r = json.loads(line)
             stats["records"] += 1

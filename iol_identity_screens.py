@@ -65,6 +65,19 @@ def main() -> None:
     a2h = screen_a2_birth_from_honour(persons)
     a6 = screen_a6(persons)
 
+    # drop A6 pairs already adjudicated (ledger actions add/split) —
+    # a judged refutation must not re-flag on every rebuild
+    dec_path = OUT / "merge_decisions.jsonl"
+    if dec_path.exists():
+        judged = set()
+        for line in open(dec_path, encoding="utf-8"):
+            d = json.loads(line)
+            if d.get("action") in ("add", "split"):
+                judged.add((d["person_a"], d["person_b"]))
+                judged.add((d["person_b"], d["person_a"]))
+        a6 = [r for r in a6
+              if (r["person_a"], r["person_b"]) not in judged]
+
     for name, rows in [("a1_honour_precedence", a1),
                        ("a2_age_invariants", a2),
                        ("a2_birth_from_honour", a2h),

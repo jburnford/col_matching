@@ -1,7 +1,35 @@
-# Consolidated Nibi adjudication batch — built, ready to submit
+# Consolidated Nibi adjudication batch — RUN AND APPLIED
 
-*2026-07-11. Executes docs/IOL_NEXT_SESSION.md items 1 and 3 (build side).
-Person table untouched; `iol_identity_check.py` green throughout.*
+*2026-07-11. Executes docs/IOL_NEXT_SESSION.md items 1-3. Batch ran as
+Nibi job 17521812 (10 min: 6 model load + ~3.5 inference) and the full
+apply cycle is DONE — see "Applied" at the bottom. Check green on the
+new baselines.*
+
+## Applied (same day, job 17521812)
+
+- **Verdicts**: A6 9 same / 6 different (4 recorded as ledger `split`
+  rows so the screen stops re-flagging; the GHAZANFAR ALI KHAN refutation
+  was overridden — same name+birth+O.B.E. 1918, judge split on "Cent.
+  Provs vs Nagpur", Nagpur *is* the Cent. Provs capital); exits 13
+  namesake death-links suppressed, 129 ambiguous events promoted, 2
+  events-after-death confirmed (1 benign edition-lag singleton, 1 fusion
+  candidate parked as a `review` ledger row); roll conflicts 9 adopted /
+  23 namesakes; births 94/94 repaired on-menu.
+- **Ledgers**: `merge_decisions.jsonl` (+14: 8 add, 1 override-add, 4
+  split, 1 review), `exit_link_overrides.jsonl` (142, consumed by the
+  now-override-aware `iol_link_exits.py`), `person_overlays.jsonl`
+  (2,648: 105 birth_year, 479 honour_year, 2,064 death_date) consumed by
+  `kg_dedup_stage3_apply.py --overlay` (new flag; ids resolve through
+  the map so absorbed targets land on canonicals).
+- **Rebuilt**: map 11,104 rows → **19,342 persons**, KG re-emitted,
+  education worklist re-fanned. Screens post-apply: **A2 105→0, A7
+  15→2, A6 residue 1 pair** (genuinely new; next batch). Baselines
+  updated in-commit; `iol_identity_check.py` green.
+- **Civil**: res_civil applied at extraction (`llm_reparse` 4,440
+  records, `llm_unparseable` 1,246 kept+flagged); layer now **115,571
+  records**, residue 4,228→1,135 flagged (1.0%), 522 unique lines left.
+  Civil linker on rebuilt everything: 38,214 links / 6,383 persons;
+  gradation linker: 3,152 identities linked, 1,097 pre-1886 extensions.
 
 ## What was built this session
 

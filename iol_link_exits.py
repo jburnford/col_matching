@@ -135,6 +135,25 @@ def name_class(cas_toks: list[str], given: str | None) -> str | None:
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
+    # adjudicated overrides (accumulative ledger; regenerating this
+    # linker's outputs must NOT revert judged decisions):
+    #   suppress = link judged a namesake -> never emit
+    #   promote  = ambiguous candidate judged same -> accept directly
+    suppress, promote = set(), {}
+    ov_path = OUT / "exit_link_overrides.jsonl"
+    if ov_path.exists():
+        for line in open(ov_path, encoding="utf-8"):
+            r = json.loads(line)
+            if r["action"] == "suppress":
+                suppress.add((r["event_id"], r["person_id"]))
+            elif r["action"] == "promote":
+                promote[r["event_id"]] = r["person_id"]
+    # override rows may cite absorbed ids — resolve through the live map
+    mmap = {r["person_id"]: r["canonical_person_id"] for r in
+            (json.loads(l) for l in
+             open(ROOT / "dedup_stage3_merge_map.audited.jsonl"))}
+    suppress = {(e, mmap.get(p, p)) for e, p in suppress}
+    promote = {e: mmap.get(p, p) for e, p in promote.items()}
     persons = [json.loads(l) for l in
                open(ROOT / "llm_struct_corpus.stage3.deduped.jsonl")]
     by_surname: dict[str, list[dict]] = defaultdict(list)
@@ -199,6 +218,15 @@ def main() -> None:
             cands.append({**c, "name_class": nc, "score": score,
                           "after_eds": bool(after_eds),
                           "after_event_years": after_evs[:6]})
+        # adjudicated overrides: drop judged namesakes, accept judged sames
+        cands = [c for c in cands
+                 if (ev["event_id"], c["person_id"]) not in suppress]
+        forced = [c for c in cands
+                  if promote.get(ev["event_id"]) == c["person_id"]]
+        if forced:
+            cands = [dict(forced[0], score=max(forced[0]["score"],
+                                               MIN_SCORE))]
+            stats["promoted"] += 1
         cands = [c for c in cands if c["score"] >= MIN_SCORE]
         if not cands:
             stats["no_candidate"] += 1

@@ -39,20 +39,24 @@ BASELINES = {
     "dup_person_ids": 0,           # duplicate person_id in deduped corpus
     # ---- corpus census (exact — a change means a rebuild happened;
     #      re-measure and update in the same commit) ----
-    # post-audit rebuild 2026-07-11 (Nibi 17505330 + a6-honour-override):
-    # 12,540 school edges - 1,557 judged drops + 113 unions (27 A6-confirmed
-    # + 86 honour-key reinstatements of judged drops), flattened
+    # consolidated-batch rebuild 2026-07-11 (Nibi 17521812): 11,095 rows
+    # + 9 unions (8 A6-judged + 1 a6-honour-override) -> 11,104; overlays
+    # applied in-build (105 birth repairs, 479 roll honour dates, 2,064
+    # casualty death dates) — see docs/ADJUDICATION_BATCH.md
     "valid_records": 30446,
-    "merge_edges": 11095,
-    "canonical_persons": 19351,
-    # ---- screen ceilings (re-measured post-rebuild 2026-07-11) ----
+    "merge_edges": 11104,
+    "canonical_persons": 19342,
+    # ---- screen ceilings (re-measured post-rebuild 2026-07-11 late) ----
     "honour_precedence": 1,
-    "age_invariants": 105,
+    # 105 -> 0: every age-invariant birth year repaired via the overlay
+    "age_invariants": 0,
     "birth_from_honour": 0,
     # A7 (events after linked death, iol_link_exits.py) — read from the
     # screen's output file; RERUN iol_link_exits.py after any person-table
-    # change or this pins a stale count
-    "events_after_death": 15,
+    # change or this pins a stale count. 15 -> 2 after the adjudicated
+    # suppressions; the 2 = one benign edition-lag singleton + one
+    # hand-review fusion candidate (see merge_decisions review rows)
+    "events_after_death": 2,
 }
 
 

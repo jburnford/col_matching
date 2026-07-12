@@ -3949,7 +3949,6 @@
 {"person_id": "kgp_iol1923-c2709897", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1916, "last_place": "Kurnah"}
 {"person_id": "kgp_iol1889_supp-c1196872", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1885, "last_place": "Central Provinces"}
 {"person_id": "kgp_iol1907-c2529115", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1895, "last_place": "Rajputana"}
-{"person_id": "kgp_iol1894_supp-c1348919", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1891, "last_place": "Central India"}
 {"person_id": "kgp_iol1933-c3094512", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1920, "last_place": "Madras"}
 {"person_id": "kgp_iol1912-c2773059", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1911, "last_place": "Central Prov."}
 {"person_id": "kgp_iol1912-c2773580", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1895, "last_place": "Rajputana"}
@@ -6052,8 +6051,7 @@
 {"person_id": "kgp_iol1933-c3401782", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1928, "last_place": "Central Provs."}
 {"person_id": "kgp_iol1937-c3636985", "status": "transferred_out:Madras", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1930, "last_place": "Madras"}
 {"person_id": "kgp_iol1947-c1169510", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_iol1931-c3631805", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1926, "last_place": "Cent. Provs."}
-{"person_id": "kgp_iol1935-c3687218", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1926, "last_place": "Nagpur"}
+{"person_id": "kgp_iol1935-c3687218", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1926, "last_place": "Cent. Provs."}
 {"person_id": "kgp_iol1947-c1169694", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_iol1916-c3288947", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1915, "last_place": "Cent. Prov."}
 {"person_id": "kgp_iol1947-c1170015", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1946, "last_place": "govt. of India"}
@@ -10387,7 +10385,6 @@
 {"person_id": "kgp_iol1913-c3456965", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1898, "last_place": "India Office"}
 {"person_id": "kgp_iol1895_supp-c1979934", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1894, "last_place": "Bengal"}
 {"person_id": "kgp_iol1932-c4070348", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1920, "last_place": "Bhagulpur divn."}
-{"person_id": "kgp_iol1895_supp-c1981011", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1887, "last_place": "Punjab"}
 {"person_id": "kgp_iol1903-c2818769", "status": "transferred_out:Punjab", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1887, "last_place": "Punjab"}
 {"person_id": "kgp_iol1889_supp-c1649463", "status": "transferred_out:Punjab", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1887, "last_place": "Punjab"}
 {"person_id": "kgp_iol1945-c1531694", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1939, "last_place": "Bihar"}
@@ -10921,9 +10918,7 @@
 {"person_id": "kgp_iol1928-c4009387", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1919, "last_place": "Aden"}
 {"person_id": "kgp_iol1931-c4331918", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1930, "last_place": "Madras"}
 {"person_id": "kgp_iol1889_jan-c1688779", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1877, "last_place": "Calcutta"}
-{"person_id": "kgp_iol1889_supp-c1693563", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1877, "last_place": "Calcutta"}
 {"person_id": "kgp_iol1898-c2511338", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1877, "last_place": "Calcutta"}
-{"person_id": "kgp_iol1895_supp-c2032168", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1877, "last_place": "Calcutta"}
 {"person_id": "kgp_iol1896-c2517104", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1877, "last_place": "Calcutta"}
 {"person_id": "kgp_iol1898-c2511678", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1889, "last_place": "Allahabad"}
 {"person_id": "kgp_iol1889_supp-c1694015", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1889, "last_place": "Allahabad"}
@@ -13536,7 +13531,6 @@
 {"person_id": "kgp_iol1913-c3736767", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1896, "last_place": "Burma"}
 {"person_id": "kgp_iol1936-c4632501", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1916, "last_place": "United Provs."}
 {"person_id": "kgp_iol1906-c3192849", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1902, "last_place": "Assam"}
-{"person_id": "kgp_iol1919-c4249816", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1917, "last_place": "United Prov."}
 {"person_id": "kgp_iol1931-c4656041", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1919, "last_place": "Dehra Dun"}
 {"person_id": "kgp_iol1894_supp-c2128343", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1896, "last_place": "Cooper's Hill college"}
 {"person_id": "kgp_iol1945-c1826371", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1943, "last_place": "N.Waziristan"}
@@ -14001,7 +13995,6 @@
 {"person_id": "kgp_iol1886_supp-c790099", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1880, "last_place": "compiler of the annual statistical abstract"}
 {"person_id": "kgp_iol1889_supp-c1896107", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1878, "last_place": "Calcutta"}
 {"person_id": "kgp_iol1905-c3131730", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1897, "last_place": "Bengal"}
-{"person_id": "kgp_iol1914-c3876275", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1897, "last_place": "Bengal"}
 {"person_id": "kgp_iol1895_supp-c2288278", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1878, "last_place": "Calcutta"}
 {"person_id": "kgp_iol1947-c1868949", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1945, "last_place": "Persian Gulf"}
 {"person_id": "kgp_iol1933-c4497700", "status": "transferred_out:Bengal", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1930, "last_place": "Bengal"}
@@ -14241,8 +14234,7 @@
 {"person_id": "kgp_iol1938-c1679813", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
 {"person_id": "kgp_iol1889_supp-c1907276", "status": "resigned", "expect_record": false, "reason": "resigned marker", "last_year": 1887, "last_place": "Madras"}
 {"person_id": "kgp_iol1892_supp-c2104846", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1887, "last_place": "Madras"}
-{"person_id": "kgp_iol1917-c4112882", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": null, "last_place": null}
-{"person_id": "kgp_iol1916-c4082119", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1900, "last_place": "board of rev."}
+{"person_id": "kgp_iol1917-c4112882", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1900, "last_place": "board of rev."}
 {"person_id": "kgp_iol1947-c1899827", "status": "transferred_out:Madras", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1944, "last_place": "Madras"}
 {"person_id": "kgp_iol1896-c2993715", "status": "died", "expect_record": false, "reason": "death marker", "last_year": null, "last_place": null}
 {"person_id": "kgp_iol1892_supp-c2105293", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1875, "last_place": "Calcutta"}
@@ -18305,8 +18297,7 @@
 {"person_id": "kgp_iol1947-c2310911", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1944, "last_place": "India Office"}
 {"person_id": "kgp_iol1929-c4952335", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1915, "last_place": "Bengal"}
 {"person_id": "kgp_iol1947-c2311519", "status": "transferred_out:India", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1943, "last_place": "India"}
-{"person_id": "kgp_iol1889_supp-c2179241", "status": "active", "expect_record": true, "reason": "current colonial posting", "last_year": 1886, "last_place": "India office"}
-{"person_id": "kgp_iol1911-c3969579", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1883, "last_place": "India office"}
+{"person_id": "kgp_iol1911-c3969579", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1886, "last_place": "India office"}
 {"person_id": "kgp_iol1911-c3970510", "status": "transferred_out:India", "expect_record": false, "reason": "current posting outside Colonial Office List", "last_year": 1899, "last_place": "India"}
 {"person_id": "kgp_iol1934-c5240904", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1926, "last_place": "Allahabad"}
 {"person_id": "kgp_iol1926-c4297849", "status": "retired", "expect_record": false, "reason": "retired/pensioned marker", "last_year": 1919, "last_place": "Bengal"}
