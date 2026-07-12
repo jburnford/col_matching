@@ -50,6 +50,61 @@ def initials(g):
                    if t and t[0].isalpha())
 
 
+# Office/section labels that leak into the name field. A name whose
+# SURNAME SLOT is one of these is not a person ("Military Secretary",
+# "Deputy Director Revenue Settlement"); leading ones are titles to
+# strip before keying ("Assistant John R. Aitchison" -> initials JR,
+# not AJR). ENGINEER/CONTRACTOR/MERCHANT/DOCTOR/JUDGE are real (Parsi)
+# surnames — deliberately NOT listed.
+_OFFICE_WORDS = {
+    "DEPARTMENT", "OFFICE", "OFFICES", "ESTABLISHMENT", "VACANT",
+    "SECRETARIAT", "BRANCH", "DIVISION", "SERVICE", "GOVERNMENT",
+    "COMMITTEE", "COUNCIL", "BOARD", "SECRETARY", "OFFICER",
+    "SUPERINTENDENT", "INSPECTOR", "COMMISSIONER", "REGISTRAR",
+    "DIRECTOR", "COLLEGE", "SURVEY", "RAILWAY", "RAILWAYS", "POLICE",
+    "CIRCLE", "PROVINCE", "PRESIDENCY", "MEMBER", "CLERK", "CLERKS",
+    "GAZETTED", "ASSISTANT", "DEPUTY", "SETTLEMENT", "COMM", "TAX",
+    "DITTO", "SCHOOL", "SCHOOLS", "HOSPITAL", "COURT", "SECTION",
+    "GENERAL", "AGENT", "ACCOUNTANT", "AUDITOR", "EXAMINER",
+    "TRANSLATOR", "UNDER",
+    # department names OCR leaves in the name slot ("Stationery and
+    # Stamps"). SALT/FOREST/PRESS are real surnames — not listed.
+    "STAMPS", "STATIONERY", "PRINTING", "TELEGRAPH", "TELEGRAPHS",
+    "CUSTOMS", "EXCISE", "ACCOUNTS", "AUDIT", "RECORDS", "ARCHIVES",
+    "FORESTS", "JAILS", "STORES", "PENSIONS", "LIBRARY", "MUSEUM",
+    "GAZETTE", "MINT", "OPIUM", "INDUSTRIES", "COMMERCE",
+    "AGRICULTURE", "EDUCATION", "REVENUE", "FINANCE", "JUSTICE",
+    "MARINE", "IRRIGATION", "SANITARY", "DEPARTMENTS",
+}
+_TITLE_WORDS = _OFFICE_WORDS | {
+    "MR", "ESQ", "ESQR", "SIR", "HON", "HONBLE", "REV", "REVD", "DR",
+    "LORD", "MAJOR", "COL", "CAPT", "CAPTAIN", "LIEUT", "LT", "GEN",
+    "COLONEL", "SURG", "SURGEON", "BRIG", "RAI", "RAO", "KHAN",
+    "BAHADUR", "SAHIB", "THE",
+}
+
+
+def norm_gov(gov):
+    """Fold government-string surface variants so one career keys to
+    one chain: 'GOVERNMENT OF (THE) X' -> X, running-header/OCR
+    suffixes stripped, plus the two whole-unit renames (NWP&O -> UP
+    1902, CP&Berar -> CP 1936). True splits (Bihar/Orissa, Sind,
+    Eastern Bengal) stay distinct — cross-government edges are the
+    unifier's job, not the census key's."""
+    g = (gov or "").strip()
+    g = re.sub(r"—continued$", "", g)
+    g = re.sub(r"[.,]\s*(November|STORE DEPARTMENT).*$", "", g)
+    if g != "GOVERNMENT OF INDIA":      # proper name, not a variant
+        g = re.sub(r"^GOVERNMENT OF (THE )?", "", g).strip(" .,—-")
+    if g == "UNITED PROVINCES":
+        g = "UNITED PROVINCES OF AGRA AND OUDH"
+    if g == "NORTH-WESTERN PROVINCES AND OUDH":
+        g = "UNITED PROVINCES OF AGRA AND OUDH"
+    if g == "CENTRAL PROVINCES AND BERAR":
+        g = "CENTRAL PROVINCES"
+    return g or None
+
+
 def main() -> None:
     linked = set()
     for l in open(ROOT / "civil/civil_person_links.jsonl",
@@ -68,12 +123,16 @@ def main() -> None:
                 continue
             nm = r.get("name") or ""
             toks = [t for t in nm.split() if any(c.isalpha() for c in t)]
-            if len(toks) < 2 or len(toks[-1]) < 3:
+            if len(toks) < 2 or len(toks[-1]) < 3 \
+                    or sk(toks[-1]) in _OFFICE_WORDS:
                 stats["unusable_name"] += 1
                 continue
+            given = toks[:-1]
+            while given and sk(given[0]) in _TITLE_WORDS:
+                given = given[1:]
             stats["unlinked_usable"] += 1
-            key = (sk(toks[-1]), initials(" ".join(toks[:-1])),
-                   r.get("government"))
+            key = (sk(toks[-1]), initials(" ".join(given)),
+                   norm_gov(r.get("government")))
             groups[key].append(r)
 
     chains = []

@@ -108,6 +108,36 @@ IOL_MERGE_SYSTEM = (
 )
 
 
+IOL_NOBIO_SYSTEM = (
+    "You compare two ROSTER identities from the India Office List — "
+    "each is a civil-list office chain, a gradation (seniority) trace, "
+    "or a casualty exit event; NEITHER has a biography — and judge "
+    "whether they describe the SAME person. Same-initials namesakes, "
+    "fathers and sons, and common Indian names are the failure modes.\n"
+    "Judge ONLY on the printed evidence:\n"
+    "- Names: initials matching a fuller name is compatible; "
+    "contradictory full forenames mean different people. Honorific "
+    "titles (Khan Bahadur, Rai Bahadur) are not name evidence.\n"
+    "- Covenant/commission year is gold: a civil servant cannot hold a "
+    "covenanted office before his covenant year, and a career longer "
+    "than ~45 years from entry is implausible.\n"
+    "- Establishment sides: Bengal/Madras/Bombay establishments map to "
+    "their provinces; Government of India and India Office posts draw "
+    "from all three. A Madras-establishment man in a Bengal-side chain "
+    "needs strong other evidence.\n"
+    "- Timing: consecutive year spans across two governments read as a "
+    "transfer (same person); long simultaneous careers in different "
+    "provinces mean different people (a short overlap can be dual "
+    "listing). For an exit event, the roster trace should STOP within "
+    "a year or two of the event date.\n"
+    "- Offices: the same or a promoted office stem across the pair "
+    "supports; unrelated office families are weak evidence either way.\n"
+    'Return strictly: {"verdict": "same"|"different"|"unsure", '
+    '"confidence": 0-100, "reason": "<=200 chars, cite the deciding '
+    'facts"}'
+)
+
+
 IOL_EXIT_SYSTEM = (
     "You compare a casualty-table exit event from the India Office List "
     "(a printed death or retirement notice with an exact date) with a "
@@ -165,6 +195,15 @@ IOL_BIRTH_SYSTEM = (
     '"birth_year": <int or null>, "confidence": 0-100, '
     '"reason": "<=200 chars, cite entry age and last-activity age"}'
 )
+
+
+def render_nobio(pair):
+    lines = ["IDENTITY 1:", *pair["a_lines"], "", "IDENTITY 2:",
+             *pair["b_lines"], ""]
+    if pair.get("note"):
+        lines += [pair["note"], ""]
+    lines += ["Same person?"]
+    return "\n".join(lines)
 
 
 def render_merge(pair):
@@ -328,12 +367,14 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--skeptic", action="store_true")
     ap.add_argument("--mode", choices=["link", "merge", "ioldedup",
-                                       "iolexit", "iolroll", "iolbirth"],
+                                       "iolexit", "iolroll", "iolbirth",
+                                       "iolnobio"],
                     default="link")
     args = ap.parse_args()
     system = {"ioldedup": IOL_MERGE_SYSTEM, "merge": MERGE_SYSTEM,
               "iolexit": IOL_EXIT_SYSTEM, "iolroll": IOL_ROLL_SYSTEM,
-              "iolbirth": IOL_BIRTH_SYSTEM}.get(
+              "iolbirth": IOL_BIRTH_SYSTEM,
+              "iolnobio": IOL_NOBIO_SYSTEM}.get(
         args.mode, SKEPTIC_SYSTEM if args.skeptic else SYSTEM)
 
     done = set()
@@ -359,13 +400,14 @@ def main():
 
     renderer = {"merge": render_merge, "ioldedup": render_merge,
                 "iolexit": render_exit, "iolroll": render_roll,
-                "iolbirth": render_birth}.get(args.mode, render)
+                "iolbirth": render_birth,
+                "iolnobio": render_nobio}.get(args.mode, render)
 
     def one(b):
         base = {"id": b["id"]}
         for k in ("career_id", "person_id", "person_a", "person_b",
                   "stratum", "evidence_class", "cand_rank", "event_id",
-                  "pool"):
+                  "pool", "edge_type"):
             if k in b:
                 base[k] = b[k]
         for attempt in (1, 2):
