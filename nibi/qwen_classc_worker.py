@@ -138,6 +138,29 @@ IOL_NOBIO_SYSTEM = (
 )
 
 
+IOL_CHAIN_SYSTEM = (
+    "You audit ONE collapsed roster chain from the India Office List "
+    "civil lists: every year a given (surname, initials) was printed "
+    "holding an office under one government, collapsed into a single "
+    "identity. Decide whether the printed trace reads as ONE person's "
+    "career or as TWO OR MORE conflated namesakes (fathers and sons, "
+    "brothers, common names sharing initials).\n"
+    "Signals of ONE person: a coherent office trajectory (stays in or "
+    "is promoted through one office family), consistent printed name "
+    "forms, consistent honours.\n"
+    "Signals of CONFLATION: two unrelated offices held simultaneously "
+    "for years, a rank reset (senior office followed years later by a "
+    "junior entry-level one), contradictory fuller name forms for the "
+    "same initials, or an implausibly long span (>45 years).\n"
+    "Gaps alone are weak evidence (leave, deputation, and OCR losses "
+    "produce gaps). A short chain with one office is coherent by "
+    "default.\n"
+    'Return strictly: {"verdict": "confirm"|"reject"|"unsure", '
+    '"confidence": 0-100, "reason": "<=200 chars, cite the deciding '
+    'records"} — confirm = one person, reject = conflated.'
+)
+
+
 IOL_ABC_SYSTEM = (
     "You compare two records from the India Office List and judge "
     "whether they describe the SAME person.\n"
@@ -224,6 +247,14 @@ IOL_BIRTH_SYSTEM = (
     '"birth_year": <int or null>, "confidence": 0-100, '
     '"reason": "<=200 chars, cite entry age and last-activity age"}'
 )
+
+
+def render_chain(pair):
+    lines = list(pair["lines"])
+    if pair.get("note"):
+        lines.append(pair["note"])
+    lines += ["", "One person, or conflated namesakes?"]
+    return "\n".join(lines)
 
 
 def render_nobio(pair):
@@ -397,14 +428,16 @@ def main():
     ap.add_argument("--skeptic", action="store_true")
     ap.add_argument("--mode", choices=["link", "merge", "ioldedup",
                                        "iolexit", "iolroll", "iolbirth",
-                                       "iolnobio", "iolabc"],
+                                       "iolnobio", "iolabc",
+                                       "iolchain"],
                     default="link")
     args = ap.parse_args()
     system = {"ioldedup": IOL_MERGE_SYSTEM, "merge": MERGE_SYSTEM,
               "iolexit": IOL_EXIT_SYSTEM, "iolroll": IOL_ROLL_SYSTEM,
               "iolbirth": IOL_BIRTH_SYSTEM,
               "iolnobio": IOL_NOBIO_SYSTEM,
-              "iolabc": IOL_ABC_SYSTEM}.get(
+              "iolabc": IOL_ABC_SYSTEM,
+              "iolchain": IOL_CHAIN_SYSTEM}.get(
         args.mode, SKEPTIC_SYSTEM if args.skeptic else SYSTEM)
 
     done = set()
@@ -431,7 +464,8 @@ def main():
     renderer = {"merge": render_merge, "ioldedup": render_merge,
                 "iolexit": render_exit, "iolroll": render_roll,
                 "iolbirth": render_birth,
-                "iolnobio": render_nobio}.get(args.mode, render)
+                "iolnobio": render_nobio,
+                "iolchain": render_chain}.get(args.mode, render)
 
     def one(b):
         base = {"id": b["id"]}

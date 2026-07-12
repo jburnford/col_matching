@@ -14,6 +14,7 @@
 #   wl_nobio.jsonl  ~2.0k roster-vs-roster pairs  --mode iolnobio
 #     (chain_grad / chain_chain / grad_exit / chain_exit residue)
 #   wl_abc.jsonl   ~12k class-C identity-vs-bio   --mode iolabc
+#   wl_chain.jsonl  600 chain-coherence sample    --mode iolchain
 # ~1-2h GPU after model load. Resumable — resubmit to continue.
 #
 # Before submitting, copy inputs up (from the col_matching root):
@@ -104,6 +105,15 @@ python3 "$JOB_DIR/qwen_classc_worker.py" \
     --url http://localhost:8000/v1 \
     --model qwen3-30b-a3b \
     --mode iolabc \
+    --workers 16
+
+echo "=== wl_chain (--mode iolchain) ==="; date
+python3 "$JOB_DIR/qwen_classc_worker.py" \
+    --worklist "$JOB_DIR/wl_chain.jsonl" \
+    --out "$JOB_DIR/res_chain.jsonl" \
+    --url http://localhost:8000/v1 \
+    --model qwen3-30b-a3b \
+    --mode iolchain \
     --workers 16
 
 echo "=== workers done ==="; date

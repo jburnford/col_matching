@@ -121,6 +121,8 @@ def main() -> None:
             if (r["edition_tag"], r["char_offset"], i) in linked:
                 stats["linked"] += 1
                 continue
+            r["_line_no"] = i           # char_offset is shared by
+                                        # coholders on one line
             nm = r.get("name") or ""
             nm = re.sub(r"\(.*$", "", nm)   # trailing "(S. Waziristan"
             toks = [t for t in nm.split() if any(c.isalpha() for c in t)]
@@ -158,8 +160,8 @@ def main() -> None:
                 "years": [years[0], years[-1]], "n_records": len(rows),
                 "offices": sorted({(r.get("office") or "")[:60]
                                    for r in rows})[:6],
-                "records": [[r["edition_tag"], r["char_offset"]]
-                            for r in rows][:40],
+                "records": [[r["edition_tag"], r["char_offset"],
+                             r["_line_no"]] for r in rows][:40],
             }, ensure_ascii=False) + "\n")
 
     gid = [json.loads(l) for l in
