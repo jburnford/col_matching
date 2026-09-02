@@ -87,8 +87,8 @@ HTML = """<!DOCTYPE html><html><head><meta charset="utf-8">
 <script>
 const NODES=%(nodes)s, EDGES=%(edges)s, MAXN=%(maxn)d, MAXE=%(maxe)d;
 const map=L.map('map',{worldCopyJump:true}).setView([20,-20],2);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
- {attribution:'&copy; OpenStreetMap, &copy; CARTO',subdomains:'abcd',maxZoom:8}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+ {attribution:'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',maxZoom:8}).addTo(map);
 EDGES.forEach(e=>{
  L.polyline([e.a,e.b],{color:'#5b9bd5',weight:0.4+3.2*e.w/MAXE,
    opacity:0.12+0.5*e.w/MAXE}).addTo(map);

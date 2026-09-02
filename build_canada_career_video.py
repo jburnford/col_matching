@@ -61,8 +61,8 @@ HTML = """<!DOCTYPE html><html><head><meta charset="utf-8">
 const CAN=%(can)s, ARCS=%(arcs)s, MAXW=%(maxw)d, TOTAL=%(total)d;
 const map=L.map('map',{zoomControl:false,attributionControl:false,
   worldCopyJump:false}).setView([18,8],2.4);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
- {subdomains:'abcd',maxZoom:8}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',
+ {maxZoom:8,attribution:'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'}).addTo(map);
 
 function arcPts(a,b,n){
  const dlat=b[0]-a[0], dlon=b[1]-a[1], len=Math.hypot(dlat,dlon)||1;

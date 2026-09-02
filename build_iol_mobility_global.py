@@ -47,7 +47,7 @@ HTML = """<!DOCTYPE html><html><head><meta charset="utf-8">
 const ARCS=%(arcs)s, Y0=%(y0)d, Y1=%(y1)d, TOTAL=ARCS.length;
 const W=1280,H=720;
 const map=L.map('map',{zoomControl:false,attributionControl:false}).setView([14,12],2.3);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{subdomains:'abcd',maxZoom:8}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:8,attribution:'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'}).addTo(map);
 const cv=document.getElementById('cv'); cv.width=W; cv.height=H;
 const ctx=cv.getContext('2d');
 // persistent (accumulating) web canvas, never cleared

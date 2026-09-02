@@ -14,9 +14,9 @@
         zoomControl: true, attributionControl: true, worldCopyJump: true,
         minZoom: 2, maxZoom: 16, zoomSnap: 0.25,
       }).setView([30, 20], 3);
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        subdomains: 'abcd', maxZoom: 19, maxNativeZoom: 20,
-        attribution: '&copy; OpenStreetMap, &copy; CARTO · Office List education data &amp; Wikidata',
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+        maxZoom: 19, maxNativeZoom: 16,
+        attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ · Office List education data &amp; Wikidata',
       }).addTo(map);
       this.map = map;
 
