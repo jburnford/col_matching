@@ -81,6 +81,20 @@ def _load_rollup(data_dir: str) -> dict[str, str]:
     return {k: norm(v["colony"]) for k, v in raw.items() if v.get("colony")}
 
 
+@lru_cache(maxsize=4)
+def _load_kg_place_colony(data_dir: str) -> dict:
+    """KG-derived place -> colony resolver (build_kg_place_colony.py):
+    {"surfaces": {norm(place_raw): [colony_qid,...]},
+     "colonies": {colony_qid: [roster targets,...]}}. Grounded in the two
+    corpora's career_events (crosswalk + fixups) plus the curated
+    colony_qid_roster.json, so 'G. Coast', 'Leeward Is.', Lagos, Quebec ...
+    reach the roster header they are filed under."""
+    path = Path(data_dir) / "kg_place_colony.json"
+    if not path.exists():
+        return {"surfaces": {}, "colonies": {}}
+    return json.loads(path.read_text())
+
+
 @lru_cache(maxsize=1)
 def load(data_dir: str) -> set[str]:
     """Normalized vocabulary of known places."""
@@ -221,6 +235,10 @@ def colony_targets(place: str | None, data_dir: str) -> set[str]:
     roll = _load_rollup(data_dir).get(n)
     if roll:
         targets.add(roll)
+    kg = _load_kg_place_colony(data_dir)
+    for key in {n, norm(place or "")}:
+        for q in kg["surfaces"].get(key, ()):
+            targets.update(kg["colonies"].get(q, ()))
     return targets
 
 

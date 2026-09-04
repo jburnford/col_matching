@@ -6,14 +6,14 @@
 
 | stratum | correct (silver=same) |
 |---|---|
-| all | 46/49 = 94% (CI 83–98%) |
-| det:hard | 15/15 = 100% (CI 80–100%) |
+| all | 40/40 = 100% (CI 91–100%) |
+| det:hard | 19/19 = 100% (CI 83–100%) |
 | det:llm_only | 7/7 = 100% (CI 65–100%) |
-| det:place | 12/14 = 86% (CI 60–96%) |
-| det:possim | 12/13 = 92% (CI 67–99%) |
+| det:place | 9/9 = 100% (CI 70–100%) |
+| det:possim | 5/5 = 100% (CI 57–100%) |
 | policy:apply_t1 | 28/28 = 100% (CI 88–100%) |
 | policy:apply_t2 | 7/7 = 100% (CI 65–100%) |
-| policy:apply_t3 | 11/14 = 79% (CI 52–92%) |
+| policy:apply_t3 | 5/5 = 100% (CI 57–100%) |
 
 ## 2. Judged-'different' reliability (measured never-bio'd negatives)
 
@@ -62,9 +62,6 @@ A silver 'same' here is a FALSE NEGATIVE: a real link judged away, i.e. a career
 
 ## Disagreement / action list (hand re-adjudication queue)
 
-- APPLIED-LINK FP [apply_t3|place] JAMAICA|musgrave|20409::kgp_col1909-p769b9: FALSE POSITIVE: roster row is Governor Sir Anthony Musgrave K.C.M.G. 7,000l.; person is Anthony Musgrave JUNR b.1849, C.M.G., the governor's private secretary (dynastic namesake)
-- APPLIED-LINK FP [apply_t3|place] BAHAMAS|maclure|38002::kgp_col1912-p728b12: FALSE POSITIVE: person is a barrister, registrar sup. ct., ag. stip. & circuit magistrate in 1909 — not the Surveyor-General's Office 2nd Clerk at 30l. the same year; rank contradiction
-- APPLIED-LINK FP [apply_t3|possim] SOUTH AFRICA|bach|133384::kgp_col1922-p937b18_s1: FALSE POSITIVE + junk-name class: both sides are 'Kt Bach(elor)' honour parsed as name; career = Judge President EASTERN DISTRICTS 1918-20 (Graham), person = Transvaal puisne judge who becomes JP only 1920 (Wessels profile)
 - MISSED LINK [hirisk] TRINIDAD AND TOBAGO|shuel|147568::kgp_col1950-p605b20: MISSED LINK: rare surname; bio sub-inspr. of constab. Trinidad 1921-25 = roster T&T constabulary sub-inspector; 1925 Nigeria transfer is edition lag; 1923 row also carries a fused 'T. R. Lambert' garble
 - MISSED LINK [hirisk] NIGERIA|campton|165543::kgp_col1950-p474b9: PROBABLE MISSED LINK: rare surname, single candidate; Nigeria marine officer from 1928 and marine staff print under [Customs] in 1930-31 editions (cf. Jones E.H.); officer-band salary fits
 - MISSED LINK [hirisk] TRANSVAAL|mehliss|92845::kgp_col1923-p880b15: MISSED LINK: judge geography error — Rietfontein hosp. IS Transvaal (public-health hospital); 'Med. supt.' 1900 = roster Medical Superintendent, Public Health Dept 1905-10; rare surname

@@ -51,6 +51,10 @@ BASELINES = {
     # remainder = 268 ambiguous digit repairs + dynastic candidates
     "age_invariants": 323,
     "birth_from_honour": 0,
+    # every non-suspect career is either bio-linked or in the class table —
+    # 2026-09-03 review found 2,596 careers in neither because the class
+    # table predated the B1 careers rebuild (stale-table invariant)
+    "career_unlinked_unclassed": 0,
     "nonword_surname_careers": 302,
     "multiname_given_careers": 1869,
 }
@@ -99,6 +103,13 @@ def main() -> None:
         if r["career_id"] not in career_ids or r["person_id"] not in person_ids)
     measured["career_bad_bio_refs"] = sum(
         1 for c in careers for b in c.get("bio_ids", []) if b not in map_ids)
+
+    classed = {r["career_id"] for r in jload(ROOT / "classc/career_classes.jsonl")}
+    overlay = {r["career_id"] for r in jload(ROOT / "classc/career_person_links.jsonl")}
+    measured["career_unlinked_unclassed"] = sum(
+        1 for c in careers if not c.get("suspect")
+        and not c.get("bio_ids") and c["career_id"] not in classed
+        and c["career_id"] not in overlay)
 
     # link bijectivity: a roster record claimed by >1 bio is a contest at
     # most one side can win — the standing error queue

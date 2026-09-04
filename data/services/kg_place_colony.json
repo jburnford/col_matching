@@ -1,0 +1,15085 @@
+{
+"colonies": {
+"Q1028095": [
+"cambaystate"
+],
+"Q1028835": [
+"britishcameroons",
+"nigeria"
+],
+"Q1045": [
+"somaliabritishmilitaryadministration"
+],
+"Q1050": [
+"swaziland"
+],
+"Q1050859": [
+"gilbertandelliceislands",
+"westernpacific"
+],
+"Q1054923": [
+"hongkong"
+],
+"Q105633777": [
+"qatarprotectorate"
+],
+"Q1060520": [
+"chambastate"
+],
+"Q1063498": [
+"ionianislands"
+],
+"Q1071493": [
+"chhatarpurstate"
+],
+"Q107987587": [
+"bayislands",
+"britishhonduras"
+],
+"Q109039320": [
+"elliceislands",
+"westernpacific"
+],
+"Q1097943": [
+"uganda"
+],
+"Q1121436": [
+"canada",
+"provinceofcanada"
+],
+"Q1121819": [
+"transjordan"
+],
+"Q11317232": [
+"chitralstate"
+],
+"Q1134180": [
+"canada",
+"lowercanada"
+],
+"Q1142179": [
+"orangerivercolony"
+],
+"Q1147441": [
+"britishnorthborneo",
+"northborneo"
+],
+"Q1150673": [
+"penangprinceofwalesisland",
+"straitssettlements"
+],
+"Q115829224": [
+"britishhonduras",
+"englishsettlementofbelize"
+],
+"Q1162123": [
+"australia",
+"swanrivercolony",
+"westernaustralia"
+],
+"Q116282722": [
+"trinidadandtobago"
+],
+"Q1172600": [
+"datiastate"
+],
+"Q1185346": [
+"britishguiana",
+"demerara"
+],
+"Q1187978": [
+"transvaal",
+"transvaalcolonyfirstbritish"
+],
+"Q11927430": [
+"jawharstate"
+],
+"Q11927544": [
+"jhansistate"
+],
+"Q12053604": [
+"mauritius"
+],
+"Q1207105": [
+"dewasstate"
+],
+"Q1240096": [
+"hyderabadstate"
+],
+"Q1261339": [
+"jhalawarstate"
+],
+"Q127861": [
+"egypt"
+],
+"Q129286": [
+"indianempirebritishraj"
+],
+"Q1301901": [
+"colonyofnatal",
+"natal"
+],
+"Q130386222": [
+"antigua",
+"antiguacolony",
+"leewardislands"
+],
+"Q130642141": [
+"udaipurstatemewar"
+],
+"Q13353": [
+"leewardislands",
+"montserrat"
+],
+"Q13410267": [
+"britishsolomonislands",
+"westernpacific"
+],
+"Q1368792": [
+"britishguiana",
+"essequibo"
+],
+"Q1375154": [
+"benaresstate"
+],
+"Q1381495": [
+"garhwalkingdom"
+],
+"Q1396700": [
+"faridkotstate"
+],
+"Q139948": [
+"khanateofkalat"
+],
+"Q1400154": [
+"federatedmalaystates",
+"federationofmalaya"
+],
+"Q1410": [
+"gibraltar"
+],
+"Q1443945": [
+"papua",
+"territoryofnewguinea"
+],
+"Q14491604": [
+"junagadhstate"
+],
+"Q14552167": [
+"porbandarstate"
+],
+"Q1476723": [
+"sachinstate"
+],
+"Q1479726": [
+"federatedmalaystates",
+"federationofmalaya",
+"unfederatedmalaystates"
+],
+"Q148": [
+"china"
+],
+"Q150056": [
+"kingdomofcochin"
+],
+"Q150058": [
+"travancore"
+],
+"Q15238409": [
+"saintluciacolony",
+"stlucia",
+"windwardislands"
+],
+"Q15240384": [
+"stvincent",
+"stvincentcolony",
+"windwardislands"
+],
+"Q15240466": [
+"cyprus"
+],
+"Q1535236": [
+"kalahandistate"
+],
+"Q1545934": [
+"britishwesternpacificterritories",
+"fiji",
+"westernpacific"
+],
+"Q1545942": [
+"nawanagarstate"
+],
+"Q1553143": [
+"alwarstate"
+],
+"Q1557792": [
+"gwaliorstate"
+],
+"Q15630982": [
+"orissatributarystates"
+],
+"Q158725": [
+"tanganyikaterritory"
+],
+"Q1588594": [
+"pannastate"
+],
+"Q15939896": [
+"weihaiwei"
+],
+"Q16": [
+"canada",
+"dominionofcanada"
+],
+"Q1607154": [
+"savanurstate"
+],
+"Q1637975": [
+"leewardislands",
+"nevis",
+"saintkittsandneviscolony",
+"stchristopherandnevis",
+"stchristophersandanguilla"
+],
+"Q1643555": [
+"britishhonduras"
+],
+"Q1649306": [
+"nyasaland",
+"nyasalandprotectorate"
+],
+"Q1658411": [
+"sarawak"
+],
+"Q1683106": [
+"jaorastate"
+],
+"Q16838406": [
+"gangpurstate"
+],
+"Q16839606": [
+"gondalstate"
+],
+"Q17197946": [
+"tongaprotectorate",
+"westernpacific"
+],
+"Q1720882": [
+"cutchstate"
+],
+"Q1728782": [
+"kapurthalastate"
+],
+"Q17298275": [
+"surganastate"
+],
+"Q17342164": [
+"tripura"
+],
+"Q17509767": [
+"aden",
+"adenprovince"
+],
+"Q17513379": [
+"assamprovincerestored"
+],
+"Q176": [
+"canada",
+"quebec"
+],
+"Q176466": [
+"rewastate"
+],
+"Q1772596": [
+"madraspresidencycompany"
+],
+"Q1780114": [
+"australia",
+"tasmania",
+"vandiemensland"
+],
+"Q1785349": [
+"kotastate"
+],
+"Q1796551": [
+"leewardislands",
+"leewardislandscolony"
+],
+"Q1806380": [
+"nigeria",
+"northernnigeria",
+"royalnigercompanyterritory"
+],
+"Q18126222": [
+"janjirastate"
+],
+"Q18127928": [
+"mayurbhanjstate"
+],
+"Q18129046": [
+"oudhstate"
+],
+"Q18164260": [
+"radhanpurstate"
+],
+"Q18164343": [
+"sawantwadistate"
+],
+"Q18221": [
+"jamaica",
+"turksandcaicosislands"
+],
+"Q18348382": [
+"australia",
+"newsouthwales"
+],
+"Q1852345": [
+"trucialstates"
+],
+"Q1865132": [
+"aden",
+"adenprotectorate"
+],
+"Q188096": [
+"penang",
+"straitssettlements"
+],
+"Q1904": [
+"canada",
+"ontario"
+],
+"Q193619": [
+"unionofsouthafrica"
+],
+"Q193714": [
+"palestine"
+],
+"Q1937196": [
+"lowerburma"
+],
+"Q1948": [
+"canada",
+"manitoba"
+],
+"Q1951": [
+"alberta",
+"canada"
+],
+"Q1952": [
+"canada",
+"novascotia",
+"novascotiaprovince"
+],
+"Q1965": [
+"canada",
+"newbrunswick",
+"newbrunswickprovince"
+],
+"Q1973": [
+"britishcolumbia",
+"canada"
+],
+"Q1973084": [
+"federationofmalaya",
+"unfederatedmalaystates"
+],
+"Q1978": [
+"canada",
+"princeedwardisland",
+"princeedwardislandprovince"
+],
+"Q1989": [
+"canada",
+"saskatchewan"
+],
+"Q1998749": [
+"goldcoast",
+"northernterritoriesofthegoldcoast"
+],
+"Q2003": [
+"newfoundland",
+"newfoundlandandlabrador"
+],
+"Q2006542": [
+"dominionofpakistan"
+],
+"Q2009": [
+"canada",
+"yukonterritory"
+],
+"Q2032545": [
+"canada",
+"manitoba",
+"redrivercolony"
+],
+"Q2046345": [
+"colonyandprotectorateofnigeria",
+"nigeria"
+],
+"Q205022": [
+"fernandopobritish"
+],
+"Q2056970": [
+"patnastate"
+],
+"Q2062030": [
+"nigeria",
+"southernnigeria",
+"southernnigeriaprotectorate"
+],
+"Q208668": [
+"mauritius",
+"rodrigues"
+],
+"Q2160037": [
+"unitedprovinces"
+],
+"Q218023": [
+"orangefreestate",
+"orangerivercolony"
+],
+"Q21815597": [
+"bahamas",
+"bahamascolony"
+],
+"Q21816219": [
+"nauru"
+],
+"Q21816225": [
+"bahrainprotectorate"
+],
+"Q21821453": [
+"mauritius",
+"seychelles"
+],
+"Q220982": [
+"sthelena",
+"tristandacunha"
+],
+"Q2221701": [
+"sanglistate"
+],
+"Q2301972": [
+"papua",
+"territoryofpapuaandnewguinea"
+],
+"Q2340665": [
+"basutoland"
+],
+"Q23635": [
+"bermuda"
+],
+"Q2376315": [
+"burma"
+],
+"Q24905912": [
+"coorg"
+],
+"Q2510000": [
+"britishcolumbia",
+"canada",
+"colonyofvancouverisland"
+],
+"Q252": [
+"dutcheastindies"
+],
+"Q25228": [
+"anguilla",
+"leewardislands",
+"stchristophersandanguilla"
+],
+"Q2526023": [
+"jamaica"
+],
+"Q25305": [
+"britishvirginislands",
+"leewardislands",
+"virginislands"
+],
+"Q2538511": [
+"kenya",
+"kenyacolonyprotectorateof"
+],
+"Q2547918": [
+"griqualandwest"
+],
+"Q2566427": [
+"nigercoastprotectorate",
+"nigeria",
+"oilriversprotectorate",
+"southernnigeria"
+],
+"Q2571484": [
+"jammuandkashmir"
+],
+"Q258": [
+"southafrica"
+],
+"Q26": [
+"northernireland"
+],
+"Q2624304": [
+"charkharistate"
+],
+"Q2629708": [
+"punjabprovince"
+],
+"Q2642989": [
+"britishcentralafricaprotectorate",
+"nyasaland",
+"nyasalandprotectorate"
+],
+"Q2645837": [
+"britishnewguinea",
+"papua"
+],
+"Q2660774": [
+"britishwindwardislands",
+"windwardislands"
+],
+"Q266923": [
+"kingdomofmysore"
+],
+"Q26988": [
+"cookislands",
+"newzealand"
+],
+"Q271876": [
+"gilbertislands",
+"westernpacific"
+],
+"Q271901": [
+"oceanislandbanaba",
+"westernpacific"
+],
+"Q2750027": [
+"fortwilliamcalcutta"
+],
+"Q28401203": [
+"australia",
+"queensland"
+],
+"Q2984260": [
+"colonyofnewfoundland",
+"newfoundland"
+],
+"Q30": [
+"unitedstates"
+],
+"Q30059027": [
+"sierraleone",
+"sierraleonecolonyandprotectorate"
+],
+"Q3048062": [
+"orangerivercolony",
+"orangeriversovereignty"
+],
+"Q31057": [
+"norfolkisland"
+],
+"Q31063": [
+"christmasisland",
+"straitssettlements"
+],
+"Q3116419": [
+"grenada",
+"grenadacolony",
+"windwardislands"
+],
+"Q3129772": [
+"heligoland"
+],
+"Q31747": [
+"irishfreestate"
+],
+"Q3243592": [
+"dirstate"
+],
+"Q3246260": [
+"swatstate"
+],
+"Q3249587": [
+"khairpurstate"
+],
+"Q3303188": [
+"baluchistan"
+],
+"Q334": [
+"singapore",
+"singaporecrowncolony",
+"straitssettlements"
+],
+"Q34497": [
+"sthelena"
+],
+"Q3454186": [
+"rampurstate"
+],
+"Q3480281": [
+"kuwait"
+],
+"Q3503368": [
+"suketstate"
+],
+"Q35086": [
+"falklandislands",
+"southgeorgia"
+],
+"Q3535371": [
+"pudukkottaistate"
+],
+"Q3557236": [
+"gambia",
+"gambiacolonyandprotectorate"
+],
+"Q35672": [
+"pitcairnislands"
+],
+"Q35715": [
+"australia",
+"southaustralia"
+],
+"Q3574782": [
+"zanzibar"
+],
+"Q3593530": [
+"elliceislandsseparate",
+"westernpacific"
+],
+"Q36004": [
+"cocoskeelingislands",
+"straitssettlements"
+],
+"Q370736": [
+"capecolony",
+"capeofgoodhope"
+],
+"Q376178": [
+"straitssettlements"
+],
+"Q38610": [
+"newfoundland",
+"newfoundlandcommission"
+],
+"Q3960459": [
+"kingdomofsikkim"
+],
+"Q3963975": [
+"akkalkotstate"
+],
+"Q408": [
+"commonwealthofaustralia"
+],
+"Q40888": [
+"andamanandnicobarislands"
+],
+"Q41": [
+"greece"
+],
+"Q4126447": [
+"easternbengalandassam"
+],
+"Q412980": [
+"ajmermerwara"
+],
+"Q4373718": [
+"singapore",
+"singaporecrowncolony",
+"straitssettlements"
+],
+"Q4412467": [
+"northwestfrontierprovince"
+],
+"Q4530733": [
+"britishbechuanaland"
+],
+"Q472146": [
+"lagos",
+"lagoscolony",
+"nigeria",
+"southernnigeria"
+],
+"Q4907084": [
+"biharandorissa"
+],
+"Q49910": [
+"aden",
+"adencolony"
+],
+"Q4997536": [
+"bundistate"
+],
+"Q503623": [
+"britishgoldcoast",
+"goldcoast"
+],
+"Q509572": [
+"coochbehar"
+],
+"Q5148320": [
+"fiji"
+],
+"Q5148519": [
+"australia",
+"tasmania"
+],
+"Q5155572": [
+"britishsouthafricacompanyterritory",
+"northernrhodesia",
+"southernrhodesia"
+],
+"Q521864": [
+"centralprovinces"
+],
+"Q530560": [
+"papua",
+"territoryofpapua"
+],
+"Q532048": [
+"sandurstate"
+],
+"Q541455": [
+"sudanangloegyptian"
+],
+"Q550374": [
+"southafricanrepublicrestored",
+"transvaal"
+],
+"Q56850459": [
+"australia",
+"victoria",
+"victoriacolony"
+],
+"Q57676556": [
+"australia",
+"westernaustralia"
+],
+"Q5785": [
+"caymanislands",
+"jamaica"
+],
+"Q585408": [
+"nigeria",
+"northernnigeria"
+],
+"Q6124144": [
+"jaipurstate"
+],
+"Q6207845": [
+"jodhpurstate"
+],
+"Q6368814": [
+"karaulistate"
+],
+"Q63973349": [
+"barbados",
+"barbadoscolony"
+],
+"Q6416549": [
+"kishangarhstate"
+],
+"Q6420545": [
+"labuan",
+"northborneo",
+"straitssettlements"
+],
+"Q654342": [
+"federationofrhodesiaandnyasaland"
+],
+"Q657861": [
+"dholpurstate"
+],
+"Q657946": [
+"kolhapurstate"
+],
+"Q662653": [
+"britishsomaliland",
+"somaliland",
+"somalilandprotectorate"
+],
+"Q664": [
+"newzealand"
+],
+"Q6744657": [
+"malta"
+],
+"Q6748050": [
+"mandistate"
+],
+"Q675322": [
+"berbice",
+"britishguiana"
+],
+"Q683": [
+"samoa"
+],
+"Q7126720": [
+"palanpurstate"
+],
+"Q7127625": [
+"palitanastate"
+],
+"Q716890": [
+"indorestate"
+],
+"Q729768": [
+"zululand"
+],
+"Q738395": [
+"canada",
+"northwestterritories",
+"rupertsland"
+],
+"Q747314": [
+"bechuanaland",
+"bechuanalandprotectorate"
+],
+"Q750583": [
+"southernrhodesia"
+],
+"Q7522091": [
+"sindprovince"
+],
+"Q752431": [
+"newhebrides",
+"westernpacific"
+],
+"Q7530545": [
+"sirohistate"
+],
+"Q7621163": [
+"malaccasettlement",
+"straitssettlements"
+],
+"Q769668": [
+"newyorkcolony"
+],
+"Q784": [
+"dominica",
+"dominicacolony",
+"leewardislands",
+"windwardislands"
+],
+"Q795427": [
+"canada",
+"ontario",
+"uppercanada"
+],
+"Q796": [
+"mandatoryiraq"
+],
+"Q797527": [
+"britishtogoland",
+"goldcoast"
+],
+"Q800236": [
+"bahawalpurstate"
+],
+"Q801": [
+"palestine",
+"stateofisrael"
+],
+"Q805": [
+"aden",
+"adenprotectorate"
+],
+"Q806963": [
+"banswarastate"
+],
+"Q808575": [
+"barodastate"
+],
+"Q809955": [
+"bashahrstate"
+],
+"Q810557": [
+"bastarstate"
+],
+"Q817165": [
+"bengalpresidencycompany"
+],
+"Q833": [
+"federatedmalaystates",
+"federationofmalaya",
+"malayanunion",
+"unfederatedmalaystates"
+],
+"Q84": [
+"unitedkingdommetropole"
+],
+"Q843": [
+"baluchistan"
+],
+"Q854850": [
+"bharatpurstate"
+],
+"Q854917": [
+"bhavnagarstate"
+],
+"Q855044": [
+"bhopalstate"
+],
+"Q855058": [
+"bhorstate"
+],
+"Q859966": [
+"bikanerstate"
+],
+"Q876185": [
+"eastafricaprotectorate",
+"kenya"
+],
+"Q889030": [
+"manipurstate"
+],
+"Q891827": [
+"bombaypresidencycompany"
+],
+"Q914031": [
+"tonkstate"
+],
+"Q917553": [
+"patialastate"
+],
+"Q918126": [
+"britishguiana"
+],
+"Q918153": [
+"ceylon"
+],
+"Q918204": [
+"rajpiplastate"
+],
+"Q918861": [
+"britishcolumbia",
+"canada",
+"colonyofbritishcolumbiamainland"
+],
+"Q920396": [
+"antigua",
+"bahamas",
+"barbados",
+"britishguiana",
+"britishhonduras",
+"britishwestindies",
+"caymanislands",
+"dominica",
+"grenada",
+"jamaica",
+"leewardislands",
+"montserrat",
+"nevis",
+"stchristophersandanguilla",
+"stlucia",
+"stvincent",
+"trinidadandtobago",
+"turksandcaicosislands",
+"virginislands",
+"windwardislands"
+],
+"Q921": [
+"brunei",
+"bruneiprotectorate"
+],
+"Q929357": [
+"nabhastate"
+],
+"Q933413": [
+"jathstate"
+],
+"Q953068": [
+"southwestafrica"
+],
+"Q953903": [
+"northernrhodesia"
+],
+"Q96372444": [
+"ashanti",
+"goldcoast"
+],
+"Q9648": [
+"falklandislands"
+],
+"Q976099": [
+"federatedmalaystates",
+"federationofmalaya",
+"malayanunion",
+"unfederatedmalaystates"
+]
+},
+"surfaces": {
+"aba": [
+"Q2046345"
+],
+"abaco": [
+"Q21815597"
+],
+"abacobahamas": [
+"Q21815597"
+],
+"abbottabad": [
+"Q4412467"
+],
+"abeokuta": [
+"Q2046345"
+],
+"abeokutalagos": [
+"Q2046345"
+],
+"aberdeen": [
+"Q84"
+],
+"aberdeenshire": [
+"Q84"
+],
+"aboo": [
+"Q129286"
+],
+"abu": [
+"Q129286"
+],
+"abyssinian": [
+"Q129286"
+],
+"accra": [
+"Q503623"
+],
+"accragcoast": [
+"Q503623"
+],
+"accragoldcoast": [
+"Q503623"
+],
+"acctntgenlsdepartment": [
+"Q84"
+],
+"achimota": [
+"Q503623"
+],
+"achimotagoldcoast": [
+"Q503623"
+],
+"acholi": [
+"Q1097943"
+],
+"addah": [
+"Q503623"
+],
+"adelaide": [
+"Q35715"
+],
+"adelaideaustralia": [
+"Q35715"
+],
+"adelaidesaustralia": [
+"Q35715"
+],
+"adelaidesouthaustralia": [
+"Q35715"
+],
+"aden": [
+"Q17509767",
+"Q49910"
+],
+"adencolony": [
+"Q49910"
+],
+"adendistrict": [
+"Q17509767"
+],
+"adenprotectorate": [
+"Q1865132"
+],
+"adensettlement": [
+"Q17509767"
+],
+"admiralty": [
+"Q84"
+],
+"afghanistan": [
+"Q129286"
+],
+"afghanwar": [
+"Q129286"
+],
+"afgnanwar": [
+"Q129286"
+],
+"africatransvaalprovldivision": [
+"Q193619"
+],
+"aganyikaterritory": [
+"Q158725"
+],
+"agra": [
+"Q129286"
+],
+"agradivision": [
+"Q129286"
+],
+"agradivn": [
+"Q129286"
+],
+"agraup": [
+"Q129286"
+],
+"ahmadabad": [
+"Q129286"
+],
+"ahmadnagar": [
+"Q129286"
+],
+"ahmedabad": [
+"Q129286"
+],
+"ahmednagar": [
+"Q129286"
+],
+"ahmednugger": [
+"Q129286"
+],
+"ahq": [
+"Q129286"
+],
+"aitchisoncollegelahore": [
+"Q129286"
+],
+"ajmer": [
+"Q412980"
+],
+"ajmerandmerwara": [
+"Q412980"
+],
+"ajmere": [
+"Q412980"
+],
+"ajmereandmerwara": [
+"Q412980"
+],
+"ajmeremerwara": [
+"Q412980"
+],
+"ajmermerwara": [
+"Q412980"
+],
+"ajmir": [
+"Q412980"
+],
+"ajmirandmerwara": [
+"Q412980"
+],
+"ajmirmerwara": [
+"Q412980"
+],
+"akalkot": [
+"Q3963975"
+],
+"akaroa": [
+"Q664"
+],
+"akola": [
+"Q129286"
+],
+"akuse": [
+"Q503623"
+],
+"akwapim": [
+"Q503623"
+],
+"akyab": [
+"Q2376315"
+],
+"akyabdistrict": [
+"Q2376315"
+],
+"albany": [
+"Q57676556"
+],
+"albanywaust": [
+"Q57676556"
+],
+"albanywaustralia": [
+"Q57676556"
+],
+"alberni": [
+"Q16"
+],
+"alberta": [
+"Q1951"
+],
+"alburynsw": [
+"Q18348382"
+],
+"aldershot": [
+"Q84"
+],
+"alexandria": [
+"Q127861"
+],
+"alibag": [
+"Q129286"
+],
+"aligarh": [
+"Q129286"
+],
+"aligarhdistrict": [
+"Q129286"
+],
+"alipore": [
+"Q129286"
+],
+"aliporeandrussa": [
+"Q129286"
+],
+"aliwal": [
+"Q129286"
+],
+"aliwaln": [
+"Q193619"
+],
+"aliwalnorth": [
+"Q193619"
+],
+"aliwalnorthdivisioncapecolony": [
+"Q193619"
+],
+"allahabad": [
+"Q129286"
+],
+"allahabaddistrict": [
+"Q129286"
+],
+"allahabaddivision": [
+"Q129286"
+],
+"allahabadhighcourt": [
+"Q129286"
+],
+"allahabadmunicipality": [
+"Q129286"
+],
+"allahabadtrainingcollege": [
+"Q129286"
+],
+"allahabaduniversity": [
+"Q129286"
+],
+"alld": [
+"Q129286"
+],
+"allduniversity": [
+"Q129286"
+],
+"allindiaradio": [
+"Q129286"
+],
+"almora": [
+"Q129286"
+],
+"alorgajah": [
+"Q1400154"
+],
+"alorgajahmalacca": [
+"Q1400154"
+],
+"alorstar": [
+"Q1400154"
+],
+"alta": [
+"Q1951"
+],
+"alwar": [
+"Q1553143"
+],
+"alwardurbar": [
+"Q1553143"
+],
+"alwarstate": [
+"Q1553143"
+],
+"ambala": [
+"Q129286"
+],
+"amballa": [
+"Q129286"
+],
+"ambepusse": [
+"Q918153"
+],
+"america": [
+"Q30"
+],
+"amersfoort": [
+"Q193619"
+],
+"amersfoorttvaal": [
+"Q193619"
+],
+"amherst": [
+"Q129286"
+],
+"amherstnovascotia": [
+"Q16"
+],
+"amoy": [
+"Q148"
+],
+"amraoti": [
+"Q129286"
+],
+"amreli": [
+"Q129286"
+],
+"amritsar": [
+"Q129286"
+],
+"anamaboe": [
+"Q503623"
+],
+"anantapur": [
+"Q129286"
+],
+"andamanandnicobaris": [
+"Q129286"
+],
+"andamanandnicobarislands": [
+"Q40888"
+],
+"andamannicobarislands": [
+"Q40888"
+],
+"andamans": [
+"Q40888"
+],
+"andamansandnicobarislands": [
+"Q40888"
+],
+"andhari": [
+"Q129286"
+],
+"angloegyptian": [
+"Q541455"
+],
+"angloegyptiansudan": [
+"Q541455"
+],
+"anguilla": [
+"Q25228"
+],
+"ankole": [
+"Q1097943"
+],
+"ankoledistrict": [
+"Q1097943"
+],
+"antigua": [
+"Q130386222"
+],
+"antiguaandbarbuda": [
+"Q130386222"
+],
+"antigualeewardis": [
+"Q130386222"
+],
+"antigualeewardislands": [
+"Q130386222"
+],
+"antrim": [
+"Q26"
+],
+"anuradahapurakach": [
+"Q918153"
+],
+"anuradhapura": [
+"Q918153"
+],
+"anuradhapurakach": [
+"Q918153"
+],
+"anuradhapurakachcheri": [
+"Q918153"
+],
+"anuradhpura": [
+"Q918153"
+],
+"appam": [
+"Q503623"
+],
+"arakan": [
+"Q2376315"
+],
+"arakandivision": [
+"Q2376315"
+],
+"arakandivn": [
+"Q2376315"
+],
+"arima": [
+"Q116282722"
+],
+"arimatrinidad": [
+"Q116282722"
+],
+"army": [
+"Q2046345"
+],
+"arrah": [
+"Q129286"
+],
+"arthabaska": [
+"Q176"
+],
+"aruvankadu": [
+"Q129286"
+],
+"asaba": [
+"Q2046345"
+],
+"ashantee": [
+"Q503623"
+],
+"ashanti": [
+"Q96372444"
+],
+"ashantigc": [
+"Q503623"
+],
+"ashantigcoast": [
+"Q503623"
+],
+"ashfordkent": [
+"Q84"
+],
+"assam": [
+"Q17513379",
+"Q817165"
+],
+"assamcivilservice": [
+"Q129286"
+],
+"assamdivn": [
+"Q17513379"
+],
+"assamrailways": [
+"Q129286"
+],
+"assamvalleydistrict": [
+"Q17513379"
+],
+"assamvalleydistricts": [
+"Q17513379"
+],
+"athabasca": [
+"Q16"
+],
+"athens": [
+"Q41"
+],
+"atlin": [
+"Q16"
+],
+"attygensdepartment": [
+"Q84"
+],
+"attygensoffice": [
+"Q84"
+],
+"auckland": [
+"Q664"
+],
+"aust": [
+"Q408"
+],
+"australasia": [
+"Q408",
+"Q56850459"
+],
+"australia": [
+"Q408"
+],
+"australiancommonwealth": [
+"Q408"
+],
+"avisawela": [
+"Q918153"
+],
+"avisawella": [
+"Q918153"
+],
+"avishawelleceylon": [
+"Q918153"
+],
+"avissawella": [
+"Q918153"
+],
+"axim": [
+"Q503623"
+],
+"aximdistrict": [
+"Q503623"
+],
+"aymer": [
+"Q412980"
+],
+"ayreshire": [
+"Q84"
+],
+"ayrshire": [
+"Q84"
+],
+"azamgarh": [
+"Q129286"
+],
+"azimgarh": [
+"Q129286"
+],
+"ba": [
+"Q5148320"
+],
+"backergunge": [
+"Q129286"
+],
+"badulla": [
+"Q918153"
+],
+"badullakach": [
+"Q918153"
+],
+"badullakachcheri": [
+"Q918153"
+],
+"bagdad": [
+"Q796"
+],
+"bagdadtoconstantinople": [
+"Q129286"
+],
+"baghalkhand": [
+"Q129286"
+],
+"baghclkhand": [
+"Q129286"
+],
+"baghdad": [
+"Q796"
+],
+"baghdadiraq": [
+"Q796"
+],
+"bah": [
+"Q21815597"
+],
+"bahamais": [
+"Q21815597"
+],
+"bahamaislands": [
+"Q21815597"
+],
+"bahamas": [
+"Q21815597"
+],
+"bahamascensus": [
+"Q21815597"
+],
+"bahawalpur": [
+"Q800236"
+],
+"bahawalpurstate": [
+"Q800236"
+],
+"bahawalpurstates": [
+"Q800236"
+],
+"bahrain": [
+"Q21816225"
+],
+"bahrein": [
+"Q21816225"
+],
+"bajaur": [
+"Q2629708",
+"Q4412467"
+],
+"bakarganj": [
+"Q4126447"
+],
+"balaclava": [
+"Q56850459"
+],
+"balaclavavic": [
+"Q56850459"
+],
+"balaghat": [
+"Q129286"
+],
+"balapitiya": [
+"Q918153"
+],
+"balasore": [
+"Q129286"
+],
+"balikpulau": [
+"Q188096"
+],
+"balikpulaupenang": [
+"Q188096"
+],
+"ballarat": [
+"Q56850459"
+],
+"ballia": [
+"Q129286"
+],
+"balrampur": [
+"Q129286"
+],
+"balrampurestate": [
+"Q129286"
+],
+"balrampurstate": [
+"Q129286"
+],
+"baltistan": [
+"Q129286"
+],
+"baluchistan": [
+"Q129286",
+"Q3303188"
+],
+"baluchistanagency": [
+"Q843"
+],
+"banaskantha": [
+"Q129286"
+],
+"banaskuntha": [
+"Q129286"
+],
+"banbury": [
+"Q84"
+],
+"banda": [
+"Q129286"
+],
+"bando": [
+"Q4907084"
+],
+"bandocircle": [
+"Q4907084"
+],
+"bandra": [
+"Q129286"
+],
+"banffshire": [
+"Q84"
+],
+"bangal": [
+"Q17342164"
+],
+"bangalore": [
+"Q129286"
+],
+"bangalorehighschool": [
+"Q129286"
+],
+"bankiporeagriculturefarm": [
+"Q129286"
+],
+"bankipur": [
+"Q129286"
+],
+"bankoora": [
+"Q129286"
+],
+"bankura": [
+"Q129286"
+],
+"bannu": [
+"Q2629708",
+"Q4412467"
+],
+"banswara": [
+"Q806963"
+],
+"baquba": [
+"Q796"
+],
+"barabanki": [
+"Q129286"
+],
+"baram": [
+"Q1658411"
+],
+"baramdistrict": [
+"Q1658411"
+],
+"baraset": [
+"Q129286"
+],
+"barb": [
+"Q63973349"
+],
+"barbadoes": [
+"Q63973349"
+],
+"barbados": [
+"Q63973349"
+],
+"barbadoswestindies": [
+"Q63973349"
+],
+"barbadoswi": [
+"Q63973349"
+],
+"barberton": [
+"Q1187978"
+],
+"barbertontransvaal": [
+"Q1187978"
+],
+"barbuda": [
+"Q130386222"
+],
+"barbudaleewardis": [
+"Q130386222"
+],
+"bardwan": [
+"Q129286"
+],
+"bardwandivn": [
+"Q129286"
+],
+"bareilly": [
+"Q129286"
+],
+"barking": [
+"Q84"
+],
+"barklyeast": [
+"Q193619"
+],
+"barklyeastcapecolony": [
+"Q193619"
+],
+"barklywest": [
+"Q193619"
+],
+"barnetherts": [
+"Q84"
+],
+"barnsley": [
+"Q84"
+],
+"baroda": [
+"Q808575"
+],
+"barodaandgujaratstates": [
+"Q129286"
+],
+"barodaresidency": [
+"Q808575"
+],
+"barodastate": [
+"Q808575"
+],
+"barodastaterailways": [
+"Q129286"
+],
+"barodastates": [
+"Q808575"
+],
+"barodaterritory": [
+"Q808575"
+],
+"barossadistrict": [
+"Q35715"
+],
+"barotsedistrict": [
+"Q953903"
+],
+"barotseland": [
+"Q953903"
+],
+"barrackpore": [
+"Q129286"
+],
+"barrackpur": [
+"Q129286"
+],
+"barrie": [
+"Q1904"
+],
+"barrowinfurness": [
+"Q84"
+],
+"barsilightrailway": [
+"Q129286"
+],
+"bartica": [
+"Q918126"
+],
+"bartika": [
+"Q918126"
+],
+"bashahrstate": [
+"Q809955"
+],
+"basingstokedivisionhampshire": [
+"Q84"
+],
+"basra": [
+"Q796"
+],
+"basrah": [
+"Q796"
+],
+"basranasiriyahrailway": [
+"Q129286"
+],
+"bassein": [
+"Q2376315"
+],
+"basseterre": [
+"Q1637975"
+],
+"basseterredistrict": [
+"Q1637975"
+],
+"basseterrestkitts": [
+"Q1637975"
+],
+"bassetterredistrict": [
+"Q1637975"
+],
+"bassora": [
+"Q796"
+],
+"bastarstate": [
+"Q810557"
+],
+"basterstate": [
+"Q810557"
+],
+"basti": [
+"Q129286"
+],
+"basuto": [
+"Q2340665"
+],
+"basutoland": [
+"Q2340665"
+],
+"basutomountedpolice": [
+"Q1050"
+],
+"basutowar": [
+"Q747314"
+],
+"batangpadang": [
+"Q1400154"
+],
+"batangpadangdistrict": [
+"Q1400154"
+],
+"batangpadangperak": [
+"Q1400154"
+],
+"batavia": [
+"Q252"
+],
+"bath": [
+"Q84"
+],
+"bathurst": [
+"Q3557236"
+],
+"bathurstgambia": [
+"Q3557236"
+],
+"bathurstprovinceofgambia": [
+"Q3557236"
+],
+"batticaloa": [
+"Q918153"
+],
+"batticaloakach": [
+"Q918153"
+],
+"batugajah": [
+"Q1400154"
+],
+"batupahat": [
+"Q1400154"
+],
+"batupahatjohore": [
+"Q1400154"
+],
+"bauchi": [
+"Q2046345"
+],
+"baydeverde": [
+"Q2003"
+],
+"bayislands": [
+"Q107987587"
+],
+"bbandcirailway": [
+"Q129286"
+],
+"bbandcirly": [
+"Q129286"
+],
+"bbandciry": [
+"Q129286"
+],
+"bbechuanaland": [
+"Q4530733"
+],
+"bc": [
+"Q1973"
+],
+"bcaadmstn": [
+"Q2642989"
+],
+"bcafrica": [
+"Q2642989"
+],
+"bcafricaprotectorate": [
+"Q2642989"
+],
+"bcaprotectorate": [
+"Q2642989"
+],
+"bcaprotectoratenownyasaland": [
+"Q2642989"
+],
+"bcenafricaprotectorate": [
+"Q2642989"
+],
+"bcentafrica": [
+"Q2642989"
+],
+"bcentafricaprotectorate": [
+"Q2642989"
+],
+"bcentralafricaprotectorate": [
+"Q2642989"
+],
+"bcmbay": [
+"Q129286"
+],
+"bcolumbia": [
+"Q1973"
+],
+"bea": [
+"Q876185"
+],
+"beafrica": [
+"Q876185"
+],
+"beastafrica": [
+"Q876185"
+],
+"beaufortwest": [
+"Q193619"
+],
+"beaufortwestcapecolony": [
+"Q193619"
+],
+"bech": [
+"Q747314"
+],
+"bechprotectorate": [
+"Q747314"
+],
+"bechprotectoratepolice": [
+"Q747314"
+],
+"bechuanaland": [
+"Q747314"
+],
+"bechuanalandborderpolice": [
+"Q747314"
+],
+"bechuanalandpolice": [
+"Q747314"
+],
+"bechuanalandprotectorate": [
+"Q747314"
+],
+"bechuanalandprotectoratepolice": [
+"Q747314"
+],
+"bedford": [
+"Q193619"
+],
+"bedforddistrict": [
+"Q193619"
+],
+"bedforddivision": [
+"Q193619"
+],
+"bedforddivisioncapeofgoodhope": [
+"Q193619"
+],
+"beds": [
+"Q84"
+],
+"beerbhoom": [
+"Q129286"
+],
+"beersheba": [
+"Q801"
+],
+"beershebadistrict": [
+"Q801"
+],
+"behar": [
+"Q129286"
+],
+"beharcircle": [
+"Q129286"
+],
+"behardivn": [
+"Q129286"
+],
+"behgal": [
+"Q129286"
+],
+"behringsea": [
+"Q30"
+],
+"belfast": [
+"Q84"
+],
+"belgaum": [
+"Q129286"
+],
+"belgium": [
+"Q129286"
+],
+"belize": [
+"Q115829224"
+],
+"belizebhond": [
+"Q1643555"
+],
+"belizebhonduras": [
+"Q1643555"
+],
+"belizebrhond": [
+"Q1643555"
+],
+"belizebrhonduras": [
+"Q1643555"
+],
+"belizebritishhonduras": [
+"Q1643555"
+],
+"belizecity": [
+"Q1643555"
+],
+"belizedistrict": [
+"Q1643555"
+],
+"bellary": [
+"Q129286"
+],
+"bellarykistnaandcuddapahnellorerailways": [
+"Q129286"
+],
+"bellarykistnarailway": [
+"Q129286"
+],
+"beloochistan": [
+"Q843"
+],
+"ben": [
+"Q129286"
+],
+"benares": [
+"Q129286"
+],
+"benaresdivision": [
+"Q129286"
+],
+"benaresdivn": [
+"Q129286"
+],
+"benareshinduuniversity": [
+"Q129286"
+],
+"benaresstate": [
+"Q1375154"
+],
+"bende": [
+"Q2046345"
+],
+"bengal": [
+"Q817165"
+],
+"bengalagriculturecollege": [
+"Q129286"
+],
+"bengalandassam": [
+"Q4126447"
+],
+"bengalandbiharandorissa": [
+"Q817165"
+],
+"bengalarmy": [
+"Q129286"
+],
+"bengalartillery": [
+"Q129286"
+],
+"bengalassamline": [
+"Q129286"
+],
+"bengalbiharandorissa": [
+"Q817165"
+],
+"bengalbiharandorissaandassam": [
+"Q817165"
+],
+"bengalcircle": [
+"Q129286"
+],
+"bengalcirclecalcutta": [
+"Q129286"
+],
+"bengalcsnorthwesternprovinces": [
+"Q129286"
+],
+"bengalcsnorthwesternprovincesandoudh": [
+"Q129286"
+],
+"bengalcspunjab": [
+"Q2629708"
+],
+"bengaldooarsrailway": [
+"Q129286"
+],
+"bengaldooarsrailwayco": [
+"Q129286"
+],
+"bengalecclesiasticaldepartment": [
+"Q129286"
+],
+"bengalecclesiasticalestab": [
+"Q129286"
+],
+"bengalecclesidepartment": [
+"Q129286"
+],
+"bengaleducationalservice": [
+"Q129286"
+],
+"bengaleducationdepartment": [
+"Q129286"
+],
+"bengalfisheriesdepartment": [
+"Q129286"
+],
+"bengalindia": [
+"Q817165"
+],
+"bengalirrigation": [
+"Q129286"
+],
+"bengaljudicialdepartment": [
+"Q129286"
+],
+"bengallegislativecouncil": [
+"Q129286"
+],
+"bengalnagpurrailwayco": [
+"Q129286"
+],
+"bengalpolicedepartment": [
+"Q129286"
+],
+"bengalpresidency": [
+"Q817165"
+],
+"bengalprov": [
+"Q817165"
+],
+"bengalprovl": [
+"Q817165"
+],
+"bengalprovservice": [
+"Q129286"
+],
+"benin": [
+"Q2046345"
+],
+"benincity": [
+"Q2046345"
+],
+"beninriver": [
+"Q2046345"
+],
+"benoni": [
+"Q1187978"
+],
+"bentong": [
+"Q1400154"
+],
+"bentota": [
+"Q918153"
+],
+"bentotte": [
+"Q918153"
+],
+"berar": [
+"Q129286"
+],
+"beraradministration": [
+"Q129286"
+],
+"berars": [
+"Q129286"
+],
+"berbera": [
+"Q662653"
+],
+"berbice": [
+"Q675322"
+],
+"berbicebguiana": [
+"Q675322"
+],
+"berbicebrguiana": [
+"Q675322"
+],
+"berbicebritishguiana": [
+"Q675322"
+],
+"berbiceriver": [
+"Q918126"
+],
+"berbiceriverbrguiana": [
+"Q918126"
+],
+"berbiceriverbritishguiana": [
+"Q918126"
+],
+"berhampore": [
+"Q129286"
+],
+"berhamporecollege": [
+"Q129286"
+],
+"berhampur": [
+"Q129286"
+],
+"berlin": [
+"Q84"
+],
+"berlinkitchener": [
+"Q16"
+],
+"berm": [
+"Q23635"
+],
+"bermuda": [
+"Q23635"
+],
+"bermudas": [
+"Q23635"
+],
+"berr": [
+"Q129286"
+],
+"berryis": [
+"Q21815597"
+],
+"berwick": [
+"Q84"
+],
+"besut": [
+"Q1973084"
+],
+"bethal": [
+"Q193619"
+],
+"bethulie": [
+"Q193619"
+],
+"betul": [
+"Q129286"
+],
+"bexhill": [
+"Q84"
+],
+"bezvodmadrasrailwaysurvey": [
+"Q129286"
+],
+"bezwada": [
+"Q129286"
+],
+"bfs": [
+"Q129286"
+],
+"bg": [
+"Q918126"
+],
+"bgajah": [
+"Q1400154"
+],
+"bguiana": [
+"Q918126"
+],
+"bhagalpur": [
+"Q129286"
+],
+"bhagelcund": [
+"Q129286"
+],
+"bhagelkhand": [
+"Q129286"
+],
+"bhagelkhandagency": [
+"Q129286"
+],
+"bhagelkund": [
+"Q129286"
+],
+"bhagulpore": [
+"Q129286"
+],
+"bhagulporedivision": [
+"Q129286"
+],
+"bham": [
+"Q84"
+],
+"bhamo": [
+"Q2376315"
+],
+"bharatpur": [
+"Q854850"
+],
+"bharatpurstate": [
+"Q854850"
+],
+"bharnagargondalrailway": [
+"Q129286"
+],
+"bhartpur": [
+"Q854850"
+],
+"bhartpurstate": [
+"Q854850"
+],
+"bhaunagar": [
+"Q129286"
+],
+"bhaunagargondalrailway": [
+"Q129286"
+],
+"bhavnagar": [
+"Q854917"
+],
+"bhavnagarandgondalstates": [
+"Q129286"
+],
+"bhavnagargondalrailway": [
+"Q129286"
+],
+"bhavnagarstate": [
+"Q854917"
+],
+"bhawalpoor": [
+"Q2629708"
+],
+"bhawalpurstate": [
+"Q800236"
+],
+"bheartpurstate": [
+"Q129286"
+],
+"bhond": [
+"Q1643555"
+],
+"bhonduras": [
+"Q1643555"
+],
+"bhopal": [
+"Q855044"
+],
+"bhopalagency": [
+"Q855044"
+],
+"bhopalrailway": [
+"Q129286"
+],
+"bhopalstate": [
+"Q855044"
+],
+"bhopawar": [
+"Q129286"
+],
+"bhopawur": [
+"Q129286"
+],
+"bhor": [
+"Q855058"
+],
+"bhoreandthallghats": [
+"Q129286"
+],
+"bhowanipatna": [
+"Q129286"
+],
+"bhurtpore": [
+"Q854850"
+],
+"bhurtporestate": [
+"Q854850"
+],
+"bhurtpurstate": [
+"Q854850"
+],
+"bihar": [
+"Q129286"
+],
+"biharandorissa": [
+"Q4907084"
+],
+"biharandorissacivilservice": [
+"Q129286"
+],
+"biharandorissaprovl": [
+"Q4907084"
+],
+"biharcpandorissa": [
+"Q129286"
+],
+"biharcs": [
+"Q129286"
+],
+"biharjudicialdepartment": [
+"Q129286"
+],
+"biharorissa": [
+"Q129286",
+"Q4907084"
+],
+"biharprovl": [
+"Q129286"
+],
+"bijapur": [
+"Q129286"
+],
+"bijapurdistrict": [
+"Q129286"
+],
+"bijnor": [
+"Q129286"
+],
+"bikaner": [
+"Q859966"
+],
+"bikanerstate": [
+"Q859966"
+],
+"bikanir": [
+"Q859966"
+],
+"bikanirstate": [
+"Q859966"
+],
+"bilaspur": [
+"Q129286"
+],
+"biluchistan": [
+"Q843"
+],
+"bintulu": [
+"Q1658411"
+],
+"birkenhead": [
+"Q84"
+],
+"birm": [
+"Q84"
+],
+"birmingham": [
+"Q84"
+],
+"birminghamuniversity": [
+"Q129286"
+],
+"bitulu": [
+"Q1658411"
+],
+"blackriver": [
+"Q2526023"
+],
+"blackrivermauritius": [
+"Q12053604"
+],
+"blantyre": [
+"Q1649306"
+],
+"blantyrenyasa": [
+"Q1649306"
+],
+"bloemfontein": [
+"Q1142179"
+],
+"bloemfonteinmilitarydistrict": [
+"Q1142179"
+],
+"bloemfonteinofs": [
+"Q1142179"
+],
+"bloemfonteinorc": [
+"Q1142179"
+],
+"bloemfonteinsa": [
+"Q1142179"
+],
+"bloemorc": [
+"Q1142179"
+],
+"bmal": [
+"Q1400154"
+],
+"bmalaya": [
+"Q1400154"
+],
+"bmertajam": [
+"Q188096"
+],
+"bnborneo": [
+"Q1147441"
+],
+"bo": [
+"Q129286",
+"Q4907084"
+],
+"boardoftrade": [
+"Q84"
+],
+"boinbay": [
+"Q129286"
+],
+"boksburg": [
+"Q1187978"
+],
+"bolanpass": [
+"Q3303188"
+],
+"bombay": [
+"Q891827"
+],
+"bombayandalibagh": [
+"Q129286"
+],
+"bombayandnd": [
+"Q129286"
+],
+"bombayandsind": [
+"Q129286"
+],
+"bombaybacteriologicallaboratory": [
+"Q129286"
+],
+"bombaybacteriologicallaby": [
+"Q129286"
+],
+"bombaybarodaandcirailwayco": [
+"Q129286"
+],
+"bombaycircle": [
+"Q891827"
+],
+"bombaycity": [
+"Q129286"
+],
+"bombaycivilservicejudicialbranch": [
+"Q129286"
+],
+"bombaycs": [
+"Q129286"
+],
+"bombaycustomshouse": [
+"Q129286"
+],
+"bombaydepartment": [
+"Q129286"
+],
+"bombaydevelopmentscheme": [
+"Q129286"
+],
+"bombaydiocese": [
+"Q129286"
+],
+"bombaydistrictworks": [
+"Q129286"
+],
+"bombaydivision": [
+"Q129286"
+],
+"bombayeducationaldepartment": [
+"Q129286"
+],
+"bombayhighcourt": [
+"Q129286"
+],
+"bombayimprovementtrust": [
+"Q129286"
+],
+"bombayindia": [
+"Q129286"
+],
+"bombayjudicialdepartment": [
+"Q129286"
+],
+"bombaymint": [
+"Q129286"
+],
+"bombayoffice": [
+"Q129286"
+],
+"bombaypolicedepartment": [
+"Q129286"
+],
+"bombayporttrust": [
+"Q129286"
+],
+"bombaypresidency": [
+"Q891827"
+],
+"bombaypresy": [
+"Q891827"
+],
+"bombayprov": [
+"Q129286",
+"Q891827"
+],
+"bombayprovl": [
+"Q129286"
+],
+"bombayprovlcs": [
+"Q129286"
+],
+"bombayprovlservicejudicialbr": [
+"Q129286"
+],
+"bombaypublicworksdepartment": [
+"Q129286"
+],
+"bombaysind": [
+"Q891827"
+],
+"bombaysmallcausecourt": [
+"Q129286"
+],
+"bombayteloffice": [
+"Q129286"
+],
+"bomycivilservicejudicialbranch": [
+"Q129286"
+],
+"bonaventure": [
+"Q16"
+],
+"bonavista": [
+"Q2003"
+],
+"bonnebay": [
+"Q2003"
+],
+"bonny": [
+"Q2046345"
+],
+"bonnydistrict": [
+"Q2046345"
+],
+"borneo": [
+"Q1147441",
+"Q1658411",
+"Q6420545"
+],
+"bornu": [
+"Q2046345"
+],
+"bornuprovnig": [
+"Q2046345"
+],
+"bornuprovnigeria": [
+"Q2046345"
+],
+"boroughofnapier": [
+"Q664"
+],
+"boshof": [
+"Q193619"
+],
+"boston": [
+"Q30"
+],
+"bothaville": [
+"Q193619"
+],
+"boysmodelprimaryschoolpietermaritzburgnatal": [
+"Q84"
+],
+"bpadang": [
+"Q1400154"
+],
+"bpahat": [
+"Q1400154"
+],
+"bpahatjohore": [
+"Q1400154"
+],
+"brackley": [
+"Q84"
+],
+"bradford": [
+"Q84"
+],
+"brahmaputra": [
+"Q129286"
+],
+"brakpan": [
+"Q1187978"
+],
+"brandon": [
+"Q1948"
+],
+"brandonmanitoba": [
+"Q1948"
+],
+"brantford": [
+"Q1904"
+],
+"brantfordont": [
+"Q1904"
+],
+"brantfordontario": [
+"Q1904"
+],
+"brazil": [
+"Q129286"
+],
+"brbechuanaland": [
+"Q4530733"
+],
+"brcafricaprotectorate": [
+"Q2642989"
+],
+"brcams": [
+"Q1028835"
+],
+"brcentafrica": [
+"Q2642989"
+],
+"brcentafricaprotectorate": [
+"Q2642989"
+],
+"brcentafricaprotectoratenyassaland": [
+"Q2642989"
+],
+"brcentralafricaprotectorate": [
+"Q2642989"
+],
+"brcolumbia": [
+"Q1973"
+],
+"breafrica": [
+"Q876185"
+],
+"breafrican": [
+"Q876185"
+],
+"bredasdorp": [
+"Q193619"
+],
+"bredasdorpcapecolonial": [
+"Q193619"
+],
+"bredasdorpdivisioncapecolony": [
+"Q193619"
+],
+"brg": [
+"Q918126"
+],
+"brguiana": [
+"Q918126"
+],
+"brguinna": [
+"Q918126"
+],
+"brhond": [
+"Q1643555"
+],
+"brhonduras": [
+"Q1643555"
+],
+"bridgetonbarbados": [
+"Q63973349"
+],
+"bridgetown": [
+"Q63973349"
+],
+"bridgetownbarbados": [
+"Q63973349"
+],
+"brisbane": [
+"Q28401203"
+],
+"bristol": [
+"Q84"
+],
+"britbechuanaland": [
+"Q4530733"
+],
+"britcenafricaprotectorate": [
+"Q2642989"
+],
+"britcentafrica": [
+"Q2642989"
+],
+"britcentafricaprotectorate": [
+"Q2642989"
+],
+"britcolumbia": [
+"Q1973"
+],
+"briteafrica": [
+"Q876185"
+],
+"briteafricaprotectorate": [
+"Q876185"
+],
+"briteastafricaprotectorate": [
+"Q876185"
+],
+"britguiana": [
+"Q918126"
+],
+"brithonduras": [
+"Q1643555"
+],
+"britindia": [
+"Q129286"
+],
+"britishbaluchistan": [
+"Q3303188"
+],
+"britishbasutoland": [
+"Q2340665"
+],
+"britishbechuanaland": [
+"Q4530733"
+],
+"britishburma": [
+"Q2376315"
+],
+"britishburmah": [
+"Q2376315"
+],
+"britishcolombia": [
+"Q1973"
+],
+"britishcolumbia": [
+"Q1973"
+],
+"britishcolumbiacanada": [
+"Q1973"
+],
+"britishguiana": [
+"Q918126"
+],
+"britishguinea": [
+"Q918126"
+],
+"britishhonduras": [
+"Q1643555"
+],
+"britishindia": [
+"Q129286"
+],
+"britishjamaica": [
+"Q2526023"
+],
+"britishkaffraria": [
+"Q370736"
+],
+"britishmalaya": [
+"Q1400154"
+],
+"britishmuseum": [
+"Q84"
+],
+"britishnewguinea": [
+"Q2645837"
+],
+"britishnorthborneo": [
+"Q1147441"
+],
+"britishnorthborneocompany": [
+"Q1147441"
+],
+"britishsherbro": [
+"Q30059027"
+],
+"britishsolomonislands": [
+"Q13410267"
+],
+"britishsolomonisprotectorate": [
+"Q13410267"
+],
+"britishwestindies": [
+"Q920396"
+],
+"britishzoneoftogoland": [
+"Q797527"
+],
+"britsomaliland": [
+"Q662653"
+],
+"britstown": [
+"Q193619"
+],
+"brixton": [
+"Q84"
+],
+"brmalaya": [
+"Q1400154"
+],
+"brnborneo": [
+"Q1147441"
+],
+"brnewguinea": [
+"Q2645837"
+],
+"brnguinea": [
+"Q2645837"
+],
+"brnorthborneo": [
+"Q1147441"
+],
+"broach": [
+"Q129286"
+],
+"brockville": [
+"Q1904"
+],
+"brodsworth": [
+"Q84"
+],
+"brome": [
+"Q176"
+],
+"brsherbro": [
+"Q30059027"
+],
+"brsolisprotectorate": [
+"Q13410267"
+],
+"brsolomonis": [
+"Q13410267"
+],
+"brsolomonisprotectorate": [
+"Q13410267"
+],
+"brsom": [
+"Q662653"
+],
+"brsomaliland": [
+"Q662653"
+],
+"brun": [
+"Q921"
+],
+"brunei": [
+"Q921"
+],
+"brussels": [
+"Q129286"
+],
+"brvirginis": [
+"Q25305"
+],
+"bsip": [
+"Q13410267"
+],
+"bsolis": [
+"Q13410267"
+],
+"bsolisprotectorate": [
+"Q13410267"
+],
+"bsomaliland": [
+"Q662653"
+],
+"bss": [
+"Q376178"
+],
+"bssttlmts": [
+"Q376178"
+],
+"bua": [
+"Q5148320"
+],
+"buaprov": [
+"Q5148320"
+],
+"buckingham": [
+"Q84"
+],
+"budaun": [
+"Q129286"
+],
+"buganda": [
+"Q1097943"
+],
+"bugandakingdom": [
+"Q1097943"
+],
+"bukitmertajam": [
+"Q188096"
+],
+"bulandshahr": [
+"Q129286"
+],
+"bulawayo": [
+"Q750583"
+],
+"bunbury": [
+"Q57676556"
+],
+"bunburywaust": [
+"Q57676556"
+],
+"bunburywaustralia": [
+"Q57676556"
+],
+"bundelcund": [
+"Q129286"
+],
+"bundelkhand": [
+"Q129286"
+],
+"bundelkhandstates": [
+"Q129286"
+],
+"bundelkhund": [
+"Q129286"
+],
+"bundelkund": [
+"Q129286"
+],
+"bundi": [
+"Q4997536"
+],
+"bundistate": [
+"Q4997536"
+],
+"bunkelkhand": [
+"Q129286"
+],
+"bunyoro": [
+"Q1097943"
+],
+"burdwah": [
+"Q129286"
+],
+"burdwan": [
+"Q129286"
+],
+"burdwanbengal": [
+"Q129286"
+],
+"burdwandistrict": [
+"Q129286"
+],
+"burdwandivision": [
+"Q129286"
+],
+"burdwandivn": [
+"Q129286"
+],
+"burma": [
+"Q2376315"
+],
+"burmachina": [
+"Q129286"
+],
+"burmacircle": [
+"Q129286",
+"Q2376315"
+],
+"burmacommission": [
+"Q129286"
+],
+"burmadivn": [
+"Q2376315"
+],
+"burmaecclesiasticalestablishment": [
+"Q129286"
+],
+"burmafron": [
+"Q129286"
+],
+"burmafront": [
+"Q129286"
+],
+"burmafrontierservice": [
+"Q129286"
+],
+"burmafrontservice": [
+"Q129286"
+],
+"burmah": [
+"Q2376315"
+],
+"burmajudicialdepartment": [
+"Q129286"
+],
+"burmajudicialservice": [
+"Q129286"
+],
+"burmamarineservice": [
+"Q129286"
+],
+"burmameteorologicaldepartment": [
+"Q129286"
+],
+"burmamilitarypolice": [
+"Q129286"
+],
+"burmaoffice": [
+"Q129286"
+],
+"burmapolice": [
+"Q129286"
+],
+"burmapolicedepartment": [
+"Q129286"
+],
+"burmaprov": [
+"Q2376315"
+],
+"burmarailway": [
+"Q129286"
+],
+"burmarailways": [
+"Q129286"
+],
+"burmarailwaysco": [
+"Q129286"
+],
+"burmarly": [
+"Q129286"
+],
+"burmarlyws": [
+"Q129286"
+],
+"burmaryis": [
+"Q129286"
+],
+"burmaryls": [
+"Q129286"
+],
+"burmastaterailway": [
+"Q129286"
+],
+"burmastestaterailway": [
+"Q129286"
+],
+"burmrarailways": [
+"Q129286"
+],
+"bury": [
+"Q84"
+],
+"burylancashire": [
+"Q84"
+],
+"bushire": [
+"Q129286"
+],
+"busoga": [
+"Q1097943"
+],
+"bussorah": [
+"Q796"
+],
+"butterworth": [
+"Q188096"
+],
+"buxar": [
+"Q129286"
+],
+"buxton": [
+"Q84"
+],
+"bwambauga": [
+"Q1097943"
+],
+"bwi": [
+"Q920396"
+],
+"byculla": [
+"Q129286"
+],
+"caccutta": [
+"Q129286"
+],
+"cachar": [
+"Q129286"
+],
+"caicosis": [
+"Q18221"
+],
+"cairo": [
+"Q127861"
+],
+"calabar": [
+"Q2046345"
+],
+"calabarprov": [
+"Q2046345"
+],
+"calcutta": [
+"Q129286"
+],
+"calcuttaanditssuburbs": [
+"Q129286"
+],
+"calcuttacentralteloffice": [
+"Q129286"
+],
+"calcuttachordrailway": [
+"Q129286"
+],
+"calcuttachordrailwayconstruction": [
+"Q129286"
+],
+"calcuttacircle": [
+"Q129286"
+],
+"calcuttacorpn": [
+"Q129286"
+],
+"calcuttadiocese": [
+"Q129286"
+],
+"calcuttaeastdivn": [
+"Q129286"
+],
+"calcuttaelectricaldivn": [
+"Q129286"
+],
+"calcuttahighcourt": [
+"Q129286"
+],
+"calcuttahighcourtoriginaljurisdiction": [
+"Q129286"
+],
+"calcuttamadrasah": [
+"Q129286"
+],
+"calcuttamedicalcollege": [
+"Q129286"
+],
+"calcuttametcollege": [
+"Q129286"
+],
+"calcuttamint": [
+"Q129286"
+],
+"calcuttaport": [
+"Q129286"
+],
+"calcuttasmallcausecourt": [
+"Q129286"
+],
+"calcuttateloffice": [
+"Q129286"
+],
+"calcuttauniversity": [
+"Q129286"
+],
+"caledon": [
+"Q193619"
+],
+"caledonianrailway": [
+"Q84"
+],
+"calgaryalberta": [
+"Q1951"
+],
+"calicut": [
+"Q129286"
+],
+"calliaquadistrict": [
+"Q15240384"
+],
+"caltura": [
+"Q918153"
+],
+"calvinia": [
+"Q193619"
+],
+"camb": [
+"Q84"
+],
+"cambay": [
+"Q1028095"
+],
+"cambaystate": [
+"Q1028095"
+],
+"camberley": [
+"Q84"
+],
+"cambridge": [
+"Q84"
+],
+"cameronhighlands": [
+"Q1400154"
+],
+"cameroons": [
+"Q1028835"
+],
+"can": [
+"Q16"
+],
+"canada": [
+"Q16"
+],
+"canadausaanduk": [
+"Q129286"
+],
+"canadawest": [
+"Q1121436"
+],
+"canara": [
+"Q129286"
+],
+"canberra": [
+"Q408"
+],
+"cannanore": [
+"Q129286"
+],
+"canning": [
+"Q129286"
+],
+"cannonierpointmauritius": [
+"Q12053604"
+],
+"canterbury": [
+"Q84"
+],
+"canterburynewzealand": [
+"Q664"
+],
+"canterburynz": [
+"Q664"
+],
+"canton": [
+"Q148"
+],
+"cantonmentofbelgaum": [
+"Q129286"
+],
+"cape": [
+"Q370736"
+],
+"capecoast": [
+"Q503623"
+],
+"capecoastcastle": [
+"Q503623"
+],
+"capecol": [
+"Q370736"
+],
+"capecolonial": [
+"Q370736"
+],
+"capecolonialsa": [
+"Q370736"
+],
+"capecolony": [
+"Q370736"
+],
+"capeofgoodhope": [
+"Q370736"
+],
+"capepeninsula": [
+"Q370736"
+],
+"capeprov": [
+"Q370736"
+],
+"capeprovdivn": [
+"Q193619"
+],
+"capeprovince": [
+"Q370736"
+],
+"caperailways": [
+"Q747314"
+],
+"capesettlements": [
+"Q370736"
+],
+"capetn": [
+"Q370736"
+],
+"capetown": [
+"Q370736"
+],
+"capetownanddistrict": [
+"Q370736"
+],
+"carbonear": [
+"Q2003"
+],
+"cardiff": [
+"Q84"
+],
+"cardigan": [
+"Q84"
+],
+"cariboo": [
+"Q1973"
+],
+"cariboobritishcolumbia": [
+"Q1973"
+],
+"cariboodistrict": [
+"Q1973"
+],
+"carlisle": [
+"Q84"
+],
+"carnarvon": [
+"Q193619"
+],
+"carnarvoncapecolony": [
+"Q193619"
+],
+"carnatic": [
+"Q129286"
+],
+"carriacon": [
+"Q3116419"
+],
+"carriacou": [
+"Q3116419"
+],
+"carriacougrenada": [
+"Q3116419"
+],
+"carwar": [
+"Q129286"
+],
+"cas": [
+"Q541455"
+],
+"cashmere": [
+"Q2571484"
+],
+"castries": [
+"Q15238409"
+],
+"castriesstlucia": [
+"Q15238409"
+],
+"catisland": [
+"Q21815597"
+],
+"cavobrhonduras": [
+"Q1643555"
+],
+"cawnpore": [
+"Q129286"
+],
+"cawnpur": [
+"Q129286"
+],
+"caymanis": [
+"Q5785"
+],
+"caymanislands": [
+"Q5785"
+],
+"cayodistrictbhonduras": [
+"Q1643555"
+],
+"cayondistrictstkitts": [
+"Q1637975"
+],
+"cecollege": [
+"Q129286"
+],
+"cedros": [
+"Q116282722"
+],
+"censusoffice": [
+"Q129286"
+],
+"centafricaprotectorate": [
+"Q2642989"
+],
+"centboardofrev": [
+"Q129286"
+],
+"centboardofrevenue": [
+"Q129286"
+],
+"centexcisesandsaltdepartmentnorthernindia": [
+"Q129286"
+],
+"centexpmntlfarmottawa": [
+"Q1904"
+],
+"centindia": [
+"Q129286"
+],
+"centprov": [
+"Q129286",
+"Q503623",
+"Q918153"
+],
+"centprovkandy": [
+"Q918153"
+],
+"centprovs": [
+"Q129286"
+],
+"centprovsandbehar": [
+"Q521864"
+],
+"centprovsandberar": [
+"Q129286"
+],
+"centprovsfeudatorystates": [
+"Q129286"
+],
+"centpublicworksdepartment": [
+"Q129286"
+],
+"centqueensland": [
+"Q28401203"
+],
+"centralafrica": [
+"Q2642989"
+],
+"centralboardofrev": [
+"Q129286"
+],
+"centralindia": [
+"Q129286"
+],
+"centralindiaagency": [
+"Q129286"
+],
+"centralindiaandoudh": [
+"Q129286"
+],
+"centraljailnagpur": [
+"Q129286"
+],
+"centralprov": [
+"Q129286",
+"Q918153"
+],
+"centralprovandberar": [
+"Q129286"
+],
+"centralprovandberarcircle": [
+"Q129286"
+],
+"centralprovince": [
+"Q918153"
+],
+"centralprovinceceylon": [
+"Q918153"
+],
+"centralprovinces": [
+"Q521864"
+],
+"centralprovincesandberar": [
+"Q129286"
+],
+"centralprovs": [
+"Q521864"
+],
+"centralprovsandberar": [
+"Q129286"
+],
+"centralpublicworksdepartment": [
+"Q129286"
+],
+"centralqueensland": [
+"Q28401203"
+],
+"centralresearchinstitutekasauli": [
+"Q129286"
+],
+"centralresearchinstkasauli": [
+"Q129286"
+],
+"centralrevenues": [
+"Q129286"
+],
+"centraltechpowerboard": [
+"Q129286"
+],
+"centrindiancoalfieldrailwaysurvey": [
+"Q129286"
+],
+"cerigo": [
+"Q1063498"
+],
+"cey": [
+"Q918153"
+],
+"ceylon": [
+"Q918153"
+],
+"ceyloncolony": [
+"Q918153"
+],
+"ceylonrailways": [
+"Q918153"
+],
+"chacachacare": [
+"Q116282722"
+],
+"chagai": [
+"Q3303188"
+],
+"chakrata": [
+"Q129286"
+],
+"chamba": [
+"Q1060520"
+],
+"chambastate": [
+"Q1060520"
+],
+"champaran": [
+"Q129286"
+],
+"chanda": [
+"Q129286"
+],
+"changi": [
+"Q334"
+],
+"charasadda": [
+"Q4412467"
+],
+"charkhari": [
+"Q2624304"
+],
+"charlottetown": [
+"Q16"
+],
+"charsada": [
+"Q4412467"
+],
+"charsadda": [
+"Q4412467"
+],
+"charterstowers": [
+"Q28401203"
+],
+"chatham": [
+"Q84"
+],
+"chavagacherry": [
+"Q918153"
+],
+"chavakachcheri": [
+"Q918153"
+],
+"chavakacheri": [
+"Q918153"
+],
+"cheam": [
+"Q84"
+],
+"chelsea": [
+"Q84"
+],
+"cheltenham": [
+"Q84"
+],
+"chemindeferduhedjaz": [
+"Q193714"
+],
+"chengalpat": [
+"Q1772596"
+],
+"cheshire": [
+"Q84"
+],
+"chhatigarghfeudatories": [
+"Q129286"
+],
+"chhatishgarhfeudatories": [
+"Q129286"
+],
+"chhattarpurstate": [
+"Q1071493"
+],
+"chhattisgarh": [
+"Q129286"
+],
+"chhattisgarhfeudatories": [
+"Q129286"
+],
+"chhattisgarhstates": [
+"Q129286"
+],
+"chicago": [
+"Q30"
+],
+"chiefcourt": [
+"Q129286"
+],
+"chiefcourtlowerburma": [
+"Q129286"
+],
+"chiefcourtlucknow": [
+"Q129286"
+],
+"chiefcourtoflowerburma": [
+"Q129286"
+],
+"chiefcourtoudh": [
+"Q129286"
+],
+"chiefcourtpunjab": [
+"Q129286"
+],
+"chiefofscotland": [
+"Q129286"
+],
+"chiefofscotlandnwfp": [
+"Q129286"
+],
+"chikwawa": [
+"Q1649306"
+],
+"chilan": [
+"Q918153"
+],
+"chilas": [
+"Q129286"
+],
+"chilau": [
+"Q918153"
+],
+"chilaw": [
+"Q918153"
+],
+"chiliargentineboundarycommission": [
+"Q129286"
+],
+"china": [
+"Q148"
+],
+"chinde": [
+"Q2642989"
+],
+"chindebcentafricaprotectorate": [
+"Q2642989"
+],
+"chingleput": [
+"Q1772596"
+],
+"chinhills": [
+"Q2376315"
+],
+"chinhillsandkachinhills": [
+"Q129286"
+],
+"chinlushai": [
+"Q129286"
+],
+"chinwangtao": [
+"Q148"
+],
+"chiromo": [
+"Q1649306"
+],
+"chitral": [
+"Q11317232"
+],
+"chittagong": [
+"Q129286"
+],
+"chittagongcollege": [
+"Q129286"
+],
+"chittagongdivision": [
+"Q129286"
+],
+"chittagongdivn": [
+"Q129286"
+],
+"chittagongmadrasah": [
+"Q129286"
+],
+"chittoor": [
+"Q129286"
+],
+"chordrailwayconstruction": [
+"Q129286"
+],
+"chotanagpore": [
+"Q129286"
+],
+"chotanagporedivision": [
+"Q129286"
+],
+"chotanagpur": [
+"Q129286"
+],
+"chotanagpurdivision": [
+"Q129286"
+],
+"christchurch": [
+"Q664"
+],
+"christchurchnewzealand": [
+"Q664"
+],
+"christchurchnzealand": [
+"Q664"
+],
+"christiana": [
+"Q193619"
+],
+"christmasis": [
+"Q31063"
+],
+"christmasisland": [
+"Q31063"
+],
+"chumbi": [
+"Q148"
+],
+"chumparum": [
+"Q129286"
+],
+"chumparun": [
+"Q129286"
+],
+"chungking": [
+"Q148"
+],
+"chvakachchri": [
+"Q918153"
+],
+"ci": [
+"Q129286"
+],
+"ciagency": [
+"Q129286"
+],
+"cicrailwayconstruction": [
+"Q129286"
+],
+"cindia": [
+"Q129286"
+],
+"cinqueports": [
+"Q84"
+],
+"circleno": [
+"Q129286"
+],
+"cirencester": [
+"Q84"
+],
+"citydivisionpmburg": [
+"Q1301901"
+],
+"cityofbirmingham": [
+"Q129286"
+],
+"cityofbombay": [
+"Q129286"
+],
+"cityofcapetown": [
+"Q370736"
+],
+"cityofhalifax": [
+"Q1952"
+],
+"cityofrangoon": [
+"Q2376315"
+],
+"cityoftoronto": [
+"Q1904"
+],
+"civilaviationdirectorate": [
+"Q129286"
+],
+"clanwilliam": [
+"Q193619"
+],
+"clarendon": [
+"Q2526023"
+],
+"clerkenwell": [
+"Q84"
+],
+"co": [
+"Q84"
+],
+"coastken": [
+"Q2538511"
+],
+"coastrailways": [
+"Q2046345"
+],
+"cocanada": [
+"Q129286"
+],
+"cochin": [
+"Q150056"
+],
+"cochn": [
+"Q129286"
+],
+"cockburnharbour": [
+"Q18221"
+],
+"cockburnharbourturksisland": [
+"Q18221"
+],
+"coconada": [
+"Q129286"
+],
+"cocosis": [
+"Q36004"
+],
+"cocoskeelingis": [
+"Q36004"
+],
+"cocoskeelingislands": [
+"Q36004"
+],
+"codur": [
+"Q84"
+],
+"codurham": [
+"Q84"
+],
+"cofa": [
+"Q408"
+],
+"cofaust": [
+"Q408"
+],
+"cofaustralia": [
+"Q408"
+],
+"cofgh": [
+"Q370736"
+],
+"cofghprovldivision": [
+"Q193619"
+],
+"cofgoodhope": [
+"Q370736"
+],
+"coimbatore": [
+"Q129286"
+],
+"colaba": [
+"Q129286"
+],
+"colabaandalibagobservatories": [
+"Q129286"
+],
+"colesberg": [
+"Q193619"
+],
+"colesburg": [
+"Q193619"
+],
+"collegehosp": [
+"Q129286"
+],
+"collegehospital": [
+"Q129286"
+],
+"collegeofengrgpoona": [
+"Q129286"
+],
+"collegeofscipoona": [
+"Q129286"
+],
+"colombo": [
+"Q918153"
+],
+"colomboceylon": [
+"Q918153"
+],
+"colombodistrict": [
+"Q918153"
+],
+"colombokach": [
+"Q918153"
+],
+"colombokachcheri": [
+"Q918153"
+],
+"colombomun": [
+"Q918153"
+],
+"colombomuseum": [
+"Q918153"
+],
+"coloniallandandemigrationcommissioners": [
+"Q84"
+],
+"colonialoffice": [
+"Q84"
+],
+"colonyandprotectorateofsnigeria": [
+"Q2062030"
+],
+"colonyofbayislands": [
+"Q107987587"
+],
+"colonyofbritishcolumbia": [
+"Q918861"
+],
+"colonyofcapeofgoodhope": [
+"Q370736"
+],
+"colonyoffiji": [
+"Q5148320"
+],
+"colonyofnatal": [
+"Q1301901"
+],
+"colonyofnewzealand": [
+"Q664"
+],
+"colonyofthecapeofgoodhope": [
+"Q370736"
+],
+"cols": [
+"Q84"
+],
+"columbia": [
+"Q1973"
+],
+"columbo": [
+"Q918153"
+],
+"commercedepartment": [
+"Q129286"
+],
+"commlebrailway": [
+"Q129286"
+],
+"commonwealthofaust": [
+"Q408"
+],
+"commonwealthofaustr": [
+"Q408"
+],
+"commonwealthofaustralia": [
+"Q408"
+],
+"commonwofaustralia": [
+"Q408"
+],
+"concordia": [
+"Q193619"
+],
+"coochbehar": [
+"Q509572"
+],
+"coochbeharstate": [
+"Q509572"
+],
+"coofbourkevictoria": [
+"Q56850459"
+],
+"coofdorset": [
+"Q84"
+],
+"cookis": [
+"Q26988"
+],
+"cookislands": [
+"Q26988"
+],
+"coomassie": [
+"Q503623"
+],
+"coonoor": [
+"Q129286"
+],
+"coorg": [
+"Q24905912"
+],
+"coorgandbangalore": [
+"Q129286"
+],
+"corditefactory": [
+"Q129286"
+],
+"corfu": [
+"Q1063498",
+"Q41"
+],
+"corio": [
+"Q56850459"
+],
+"corosal": [
+"Q1643555"
+],
+"corosalcircuit": [
+"Q1643555"
+],
+"corozal": [
+"Q1643555"
+],
+"cossipore": [
+"Q129286"
+],
+"countyofburbice": [
+"Q675322"
+],
+"countyofessex": [
+"Q129286"
+],
+"countyoflondon": [
+"Q129286"
+],
+"countyofpietermaritzburg": [
+"Q1301901"
+],
+"countyofrussellprovofontario": [
+"Q1904"
+],
+"countyofvictoriatrinidad": [
+"Q116282722"
+],
+"countyvictoriatrinidad": [
+"Q116282722"
+],
+"couva": [
+"Q116282722"
+],
+"couvadistrict": [
+"Q116282722"
+],
+"cp": [
+"Q129286"
+],
+"cradock": [
+"Q193619"
+],
+"cranbrook": [
+"Q16"
+],
+"cranbrookbc": [
+"Q16"
+],
+"crendi": [
+"Q6744657"
+],
+"crete": [
+"Q41"
+],
+"crewe": [
+"Q84"
+],
+"crookedisdistrict": [
+"Q21815597"
+],
+"crownsolrsoffice": [
+"Q84"
+],
+"ctyberbice": [
+"Q675322"
+],
+"cuddalore": [
+"Q129286"
+],
+"cuddapah": [
+"Q129286"
+],
+"cuddapahdistrict": [
+"Q129286"
+],
+"cuddapahdistrictmadras": [
+"Q129286"
+],
+"curepipe": [
+"Q12053604"
+],
+"customsdepartment": [
+"Q129286"
+],
+"cutch": [
+"Q1720882"
+],
+"cutchstate": [
+"Q1720882"
+],
+"cuttack": [
+"Q129286"
+],
+"cuttackdivision": [
+"Q129286"
+],
+"cvdpunjabandnwfp": [
+"Q129286"
+],
+"cwealthofaust": [
+"Q408"
+],
+"cwealthofaustralia": [
+"Q408"
+],
+"cyp": [
+"Q15240466"
+],
+"cyprus": [
+"Q15240466"
+],
+"cyrenaicapolice": [
+"Q193714"
+],
+"dacca": [
+"Q129286"
+],
+"daccacollege": [
+"Q129286"
+],
+"daccacollegeschool": [
+"Q129286"
+],
+"daccadivision": [
+"Q129286"
+],
+"daccadivn": [
+"Q129286"
+],
+"daccauniversity": [
+"Q129286"
+],
+"dalstonmiddlesex": [
+"Q84"
+],
+"dalycollege": [
+"Q129286"
+],
+"dalycollegeindore": [
+"Q129286"
+],
+"dambool": [
+"Q918153"
+],
+"dambula": [
+"Q918153"
+],
+"dambulla": [
+"Q918153"
+],
+"dangs": [
+"Q129286"
+],
+"darbhangah": [
+"Q129286"
+],
+"daressalaam": [
+"Q158725"
+],
+"daressalaamdistrict": [
+"Q158725"
+],
+"darfur": [
+"Q541455"
+],
+"darjeeling": [
+"Q129286"
+],
+"darjiling": [
+"Q129286"
+],
+"darwinnorthernterritory": [
+"Q408"
+],
+"datiastate": [
+"Q1172600"
+],
+"deaar": [
+"Q193619"
+],
+"deal": [
+"Q84"
+],
+"deccaintercollege": [
+"Q129286"
+],
+"deccan": [
+"Q129286"
+],
+"deccancollege": [
+"Q129286"
+],
+"deccancollegepoona": [
+"Q129286"
+],
+"deccanstates": [
+"Q129286"
+],
+"deesa": [
+"Q129286"
+],
+"defenceserviceswcandlahoredistrict": [
+"Q129286"
+],
+"defservices": [
+"Q129286"
+],
+"degema": [
+"Q2046345"
+],
+"dehra": [
+"Q129286"
+],
+"dehradn": [
+"Q129286"
+],
+"dehradun": [
+"Q129286"
+],
+"dehraduncollege": [
+"Q129286"
+],
+"dehraismailkhan": [
+"Q4412467"
+],
+"delhi": [
+"Q129286"
+],
+"delhidivision": [
+"Q129286"
+],
+"delhidivn": [
+"Q129286"
+],
+"delhidurbarlightrailway": [
+"Q129286"
+],
+"delhiminchinabadrailwaysurvey": [
+"Q129286"
+],
+"delhimunicipality": [
+"Q129286"
+],
+"delhiprov": [
+"Q129286"
+],
+"demerara": [
+"Q1185346"
+],
+"demerarabguiana": [
+"Q1185346"
+],
+"demerarabritishguiana": [
+"Q1185346"
+],
+"demeraradistrict": [
+"Q1185346"
+],
+"demerarariver": [
+"Q918126"
+],
+"demerarariverdistrict": [
+"Q918126"
+],
+"demeraryriver": [
+"Q918126"
+],
+"departmentofcommissionergovtofindia": [
+"Q129286"
+],
+"departmentofcommonwealthrelations": [
+"Q129286"
+],
+"departmentofeducationhandl": [
+"Q129286"
+],
+"departmentofexplosives": [
+"Q129286"
+],
+"departmentofsupply": [
+"Q129286"
+],
+"derafat": [
+"Q129286"
+],
+"deraghazikhan": [
+"Q2629708"
+],
+"deraik": [
+"Q4412467"
+],
+"deraimailkhan": [
+"Q4412467"
+],
+"deraismailkhan": [
+"Q2629708",
+"Q4412467"
+],
+"derajat": [
+"Q129286"
+],
+"derajatcircle": [
+"Q129286"
+],
+"derajatdivision": [
+"Q129286"
+],
+"derby": [
+"Q84"
+],
+"derbyshire": [
+"Q84"
+],
+"devon": [
+"Q84"
+],
+"devonport": [
+"Q84"
+],
+"devonportdevon": [
+"Q84"
+],
+"dewasstate": [
+"Q1207105"
+],
+"dewetsdorp": [
+"Q193619"
+],
+"dhanbad": [
+"Q129286"
+],
+"dharwar": [
+"Q129286"
+],
+"dharwr": [
+"Q129286"
+],
+"dholpur": [
+"Q657861"
+],
+"dholpurstate": [
+"Q657861"
+],
+"dhondmandadstaterailway": [
+"Q129286"
+],
+"dhondmanmadrailway": [
+"Q129286"
+],
+"dhondmannadstaterailway": [
+"Q129286"
+],
+"dhrwar": [
+"Q129286"
+],
+"dhrwr": [
+"Q129286"
+],
+"dhubri": [
+"Q129286"
+],
+"dhulia": [
+"Q129286"
+],
+"dhwarwar": [
+"Q129286"
+],
+"diamondfields": [
+"Q2547918"
+],
+"diegogarcia": [
+"Q84"
+],
+"diegomartin": [
+"Q116282722"
+],
+"diegomartinwardunion": [
+"Q116282722"
+],
+"dieppebaystkitts": [
+"Q1637975"
+],
+"dikhan": [
+"Q4412467"
+],
+"dikoya": [
+"Q918153"
+],
+"dikoyaceylon": [
+"Q918153"
+],
+"dimbula": [
+"Q918153"
+],
+"dinagepore": [
+"Q129286"
+],
+"dinapore": [
+"Q129286"
+],
+"dinding": [
+"Q1400154"
+],
+"dindinga": [
+"Q1400154"
+],
+"dindings": [
+"Q1400154"
+],
+"dindingsss": [
+"Q1400154"
+],
+"dindingsssttlmts": [
+"Q1400154"
+],
+"dindingssttlmts": [
+"Q1400154"
+],
+"dir": [
+"Q3243592"
+],
+"dirandswat": [
+"Q129286"
+],
+"directoratgenlofsupply": [
+"Q129286"
+],
+"dirswatandchitral": [
+"Q129286"
+],
+"disa": [
+"Q129286"
+],
+"districtadmnstn": [
+"Q953903"
+],
+"districtofcachar": [
+"Q129286"
+],
+"districtofflacq": [
+"Q12053604"
+],
+"districtofmoka": [
+"Q12053604"
+],
+"districtofmontreal": [
+"Q176"
+],
+"divisionofgeorgecape": [
+"Q370736"
+],
+"divisionofixopo": [
+"Q193619"
+],
+"dixcove": [
+"Q503623"
+],
+"dixcovedistrict": [
+"Q503623"
+],
+"dodecanese": [
+"Q41"
+],
+"dom": [
+"Q784"
+],
+"domincia": [
+"Q784"
+],
+"dominica": [
+"Q784"
+],
+"dominicaisland": [
+"Q784"
+],
+"dominicaleewardis": [
+"Q784"
+],
+"dominicawi": [
+"Q784"
+],
+"dominionobservatoryottawacanada": [
+"Q1904"
+],
+"dominionofcanada": [
+"Q16"
+],
+"dooars": [
+"Q129286"
+],
+"dorchester": [
+"Q84"
+],
+"dordrecht": [
+"Q193619"
+],
+"dorset": [
+"Q84"
+],
+"dover": [
+"Q84"
+],
+"downingst": [
+"Q84"
+],
+"downingstreet": [
+"Q84"
+],
+"dudley": [
+"Q84"
+],
+"dumdum": [
+"Q129286"
+],
+"dundee": [
+"Q84"
+],
+"dundeedistrict": [
+"Q193619"
+],
+"dundeedivision": [
+"Q193619"
+],
+"dunedin": [
+"Q664"
+],
+"dunwich": [
+"Q84"
+],
+"durban": [
+"Q1301901"
+],
+"durbandivision": [
+"Q1301901"
+],
+"durbanmagistracy": [
+"Q1301901"
+],
+"durbannatal": [
+"Q1301901"
+],
+"durbansafrica": [
+"Q1301901"
+],
+"durbhungatirhoot": [
+"Q129286"
+],
+"durham": [
+"Q84"
+],
+"durhamco": [
+"Q84"
+],
+"dutoitspan": [
+"Q370736"
+],
+"dwalior": [
+"Q1557792"
+],
+"dwarka": [
+"Q129286"
+],
+"dwrka": [
+"Q129286"
+],
+"ea": [
+"Q876185"
+],
+"eadenprotectorate": [
+"Q1865132"
+],
+"eafrica": [
+"Q876185"
+],
+"eafricaegyptsalonikaandasiaminor": [
+"Q2046345"
+],
+"eafricancampaign": [
+"Q2046345"
+],
+"eafricanmilyrailwaysgermaneafricaoccupiedterritory": [
+"Q129286"
+],
+"eafricaprotectorate": [
+"Q876185"
+],
+"ealing": [
+"Q84"
+],
+"eap": [
+"Q876185"
+],
+"eaprotectorate": [
+"Q876185"
+],
+"earandh": [
+"Q193714"
+],
+"earh": [
+"Q193714",
+"Q541455"
+],
+"eastafrica": [
+"Q876185"
+],
+"eastafrican": [
+"Q876185"
+],
+"eastafricanprotectorate": [
+"Q876185"
+],
+"eastafricaprotectorate": [
+"Q876185"
+],
+"eastbourne": [
+"Q84"
+],
+"eastcoastrailway": [
+"Q129286"
+],
+"easternbengal": [
+"Q4126447"
+],
+"easternbengalandassam": [
+"Q4126447"
+],
+"easternbengalandthepunjabnorthernstaterailways": [
+"Q129286"
+],
+"easternbengalrailway": [
+"Q129286"
+],
+"easternbengalstaterailway": [
+"Q129286"
+],
+"easterncircle": [
+"Q129286"
+],
+"easterndivn": [
+"Q2046345"
+],
+"easternkathiawaragency": [
+"Q129286"
+],
+"easternkathiawarstates": [
+"Q129286"
+],
+"easternprov": [
+"Q2046345",
+"Q503623",
+"Q918153"
+],
+"easternprovince": [
+"Q918153"
+],
+"easternprovinceceylon": [
+"Q918153"
+],
+"easternrajputanastates": [
+"Q129286"
+],
+"easternregion": [
+"Q2046345"
+],
+"easternseen": [
+"Q129286"
+],
+"easternstates": [
+"Q129286"
+],
+"easternstatesofrajputana": [
+"Q129286"
+],
+"easternstatesrajputana": [
+"Q129286"
+],
+"eastgermanyanditaly": [
+"Q84"
+],
+"eastgriqualand": [
+"Q193619"
+],
+"eastindiahouse": [
+"Q129286"
+],
+"eastindianfly": [
+"Q129286"
+],
+"eastindianrailway": [
+"Q129286"
+],
+"eastlondon": [
+"Q370736"
+],
+"eastprov": [
+"Q918153"
+],
+"eastprovince": [
+"Q918153"
+],
+"ebengal": [
+"Q4126447"
+],
+"ebengalandassam": [
+"Q4126447"
+],
+"ebengalandassamcircle": [
+"Q129286"
+],
+"ebengalrailway": [
+"Q129286"
+],
+"ebengalstaterailway": [
+"Q129286"
+],
+"ebenrailway": [
+"Q129286"
+],
+"ebrailway": [
+"Q129286"
+],
+"ebrailwayandgovtexmrabrailway": [
+"Q129286"
+],
+"ebrly": [
+"Q129286"
+],
+"ebsrailway": [
+"Q129286"
+],
+"ebstaterailway": [
+"Q129286"
+],
+"ebutemetta": [
+"Q2046345"
+],
+"ecoastrailway": [
+"Q129286"
+],
+"edenburg": [
+"Q193619"
+],
+"edenhosp": [
+"Q129286"
+],
+"edin": [
+"Q84"
+],
+"edinburgh": [
+"Q84"
+],
+"edmonton": [
+"Q1951"
+],
+"educationhealthandlandsdepartment": [
+"Q129286"
+],
+"egriqualand": [
+"Q193619"
+],
+"egypt": [
+"Q127861"
+],
+"egyptiangovernment": [
+"Q129286"
+],
+"eindianrailway": [
+"Q129286"
+],
+"eir": [
+"Q129286"
+],
+"eirailway": [
+"Q129286"
+],
+"eirly": [
+"Q129286"
+],
+"eiry": [
+"Q129286"
+],
+"ekathiawar": [
+"Q129286"
+],
+"ekathiawaragency": [
+"Q129286"
+],
+"ekathiawarstates": [
+"Q129286"
+],
+"eketahuna": [
+"Q664"
+],
+"elcayo": [
+"Q1643555"
+],
+"eldoret": [
+"Q2538511"
+],
+"eleuthera": [
+"Q21815597"
+],
+"elliceis": [
+"Q3593530"
+],
+"elliceisdistrict": [
+"Q3593530"
+],
+"elliceislands": [
+"Q109039320"
+],
+"ellickpoor": [
+"Q129286"
+],
+"elmina": [
+"Q503623"
+],
+"elondon": [
+"Q370736"
+],
+"elondoncapeofgoodhope": [
+"Q370736"
+],
+"elphcollegebombay": [
+"Q129286"
+],
+"elphinstonecollege": [
+"Q129286"
+],
+"elphinstonecollegebombay": [
+"Q129286"
+],
+"elphinstonehighschool": [
+"Q129286"
+],
+"elsenburgmuldersvlei": [
+"Q193619"
+],
+"encd": [
+"Q129286"
+],
+"endau": [
+"Q1400154"
+],
+"endaujohore": [
+"Q1400154"
+],
+"eng": [
+"Q84"
+],
+"england": [
+"Q84"
+],
+"englandandwales": [
+"Q84"
+],
+"engrgcollegemadras": [
+"Q129286"
+],
+"enig": [
+"Q2046345"
+],
+"entebbe": [
+"Q1097943"
+],
+"entebbeuga": [
+"Q1097943"
+],
+"entebbeuganda": [
+"Q1097943"
+],
+"entebbeugandaprotectorate": [
+"Q1097943"
+],
+"enugu": [
+"Q2046345"
+],
+"epersiancordonff": [
+"Q129286"
+],
+"eprov": [
+"Q1097943",
+"Q2046345",
+"Q503623",
+"Q918153"
+],
+"eprovince": [
+"Q2538511"
+],
+"erajputana": [
+"Q129286"
+],
+"erajputanastates": [
+"Q129286"
+],
+"eregion": [
+"Q2046345"
+],
+"eregn": [
+"Q2046345"
+],
+"eridingofyorkseducationcttee": [
+"Q129286"
+],
+"eridingofyorkshireeducationcttee": [
+"Q129286"
+],
+"erinpura": [
+"Q129286"
+],
+"ermelo": [
+"Q193619"
+],
+"eshowe": [
+"Q193619"
+],
+"eshowedistrict": [
+"Q193619"
+],
+"eshowedivn": [
+"Q193619"
+],
+"eshowezululand": [
+"Q193619"
+],
+"essequibo": [
+"Q1368792"
+],
+"essequibobritishguiana": [
+"Q1368792"
+],
+"essequiboco": [
+"Q1368792"
+],
+"essequibodistrict": [
+"Q1368792"
+],
+"essequiboriver": [
+"Q918126"
+],
+"essequiboriverdistrict": [
+"Q918126"
+],
+"essex": [
+"Q84"
+],
+"estatesofrajputana": [
+"Q129286"
+],
+"estatesrajputana": [
+"Q129286"
+],
+"estcourt": [
+"Q1301901"
+],
+"estcourtdivn": [
+"Q1301901"
+],
+"etah": [
+"Q129286"
+],
+"etawah": [
+"Q129286"
+],
+"europeanwarfranceflandersandrhinearmyofoccupation": [
+"Q747314"
+],
+"evesham": [
+"Q84"
+],
+"examinersoffice": [
+"Q129286"
+],
+"exeter": [
+"Q84"
+],
+"exopodivision": [
+"Q193619"
+],
+"exuma": [
+"Q21815597"
+],
+"faizabad": [
+"Q129286"
+],
+"falkis": [
+"Q9648"
+],
+"falklandis": [
+"Q9648"
+],
+"falklandisdependencies": [
+"Q84"
+],
+"falklandislands": [
+"Q9648"
+],
+"falklandislds": [
+"Q9648"
+],
+"falklands": [
+"Q9648"
+],
+"falmouth": [
+"Q84"
+],
+"famagusta": [
+"Q15240466"
+],
+"famagustacyprus": [
+"Q15240466"
+],
+"farakhabad": [
+"Q129286"
+],
+"farehamhants": [
+"Q84"
+],
+"faridkot": [
+"Q1396700"
+],
+"faridkotstate": [
+"Q1396700"
+],
+"farukhabad": [
+"Q129286"
+],
+"fatehgarh": [
+"Q129286"
+],
+"fatehpur": [
+"Q129286"
+],
+"fauresmith": [
+"Q193619"
+],
+"fauresmithofs": [
+"Q193619"
+],
+"federatedmalaystates": [
+"Q1400154"
+],
+"federationofmalaya": [
+"Q1479726"
+],
+"fedmalaystates": [
+"Q1400154"
+],
+"fedofmal": [
+"Q1479726"
+],
+"fedofmalaya": [
+"Q1479726"
+],
+"fedofnig": [
+"Q2046345"
+],
+"fedofrhodandnyas": [
+"Q654342"
+],
+"fedofrhodandnyasa": [
+"Q654342"
+],
+"fernandopo": [
+"Q205022"
+],
+"ferozepore": [
+"Q129286"
+],
+"ferrylandnewfndl": [
+"Q2003"
+],
+"ferrylandnewfndld": [
+"Q2003"
+],
+"ficksburg": [
+"Q193619"
+],
+"fife": [
+"Q84"
+],
+"fifeshire": [
+"Q84"
+],
+"fiji": [
+"Q5148320"
+],
+"fijiislands": [
+"Q5148320"
+],
+"financialdepartment": [
+"Q129286"
+],
+"firozpur": [
+"Q129286"
+],
+"flacq": [
+"Q12053604"
+],
+"flacqmauritius": [
+"Q12053604"
+],
+"fms": [
+"Q1400154"
+],
+"fmspahang": [
+"Q1400154"
+],
+"fmsrailways": [
+"Q129286",
+"Q193714"
+],
+"fofmal": [
+"Q1479726"
+],
+"fogo": [
+"Q2003"
+],
+"fogonewfoundland": [
+"Q2003"
+],
+"folkestone": [
+"Q84"
+],
+"foreigndepartmentgovtofindia": [
+"Q129286"
+],
+"foreignoffice": [
+"Q84"
+],
+"forestresearchinstdehradun": [
+"Q129286"
+],
+"forestschooldehradun": [
+"Q129286"
+],
+"fortbeaufort": [
+"Q193619"
+],
+"fortbeaufortcapecolony": [
+"Q193619"
+],
+"fortcarnarvon": [
+"Q193619"
+],
+"forthall": [
+"Q2538511"
+],
+"fortjameson": [
+"Q953903"
+],
+"fortjohnston": [
+"Q1649306"
+],
+"fortpeddie": [
+"Q193619"
+],
+"fortpeddiecapeofgoodhope": [
+"Q193619"
+],
+"fortpeddiedistrict": [
+"Q193619"
+],
+"fortstgeorge": [
+"Q129286"
+],
+"fortunebay": [
+"Q2003"
+],
+"fortwilliam": [
+"Q2750027"
+],
+"france": [
+"Q2046345",
+"Q953903"
+],
+"franceandgermany": [
+"Q2046345"
+],
+"fraserburg": [
+"Q193619"
+],
+"frasershill": [
+"Q1400154"
+],
+"fraservalley": [
+"Q1973"
+],
+"fredericton": [
+"Q1965"
+],
+"freestown": [
+"Q30059027"
+],
+"freetown": [
+"Q30059027"
+],
+"freetowndistrict": [
+"Q30059027"
+],
+"freetownsierraleone": [
+"Q30059027"
+],
+"freetownsleone": [
+"Q30059027"
+],
+"fremantle": [
+"Q57676556"
+],
+"frome": [
+"Q84"
+],
+"fss": [
+"Q129286"
+],
+"fundsdepartment": [
+"Q129286"
+],
+"fyzabad": [
+"Q129286"
+],
+"fyzabaddivision": [
+"Q129286"
+],
+"gaekwarbarodastaterailway": [
+"Q129286"
+],
+"galagdara": [
+"Q918153"
+],
+"galagedara": [
+"Q918153"
+],
+"galagedera": [
+"Q918153"
+],
+"galilee": [
+"Q801"
+],
+"galkisse": [
+"Q918153"
+],
+"galle": [
+"Q918153"
+],
+"galleceylon": [
+"Q918153"
+],
+"galleinceylon": [
+"Q918153"
+],
+"gallekach": [
+"Q918153"
+],
+"gallekachcheri": [
+"Q918153"
+],
+"gam": [
+"Q3557236"
+],
+"gamb": [
+"Q3557236"
+],
+"gambia": [
+"Q3557236"
+],
+"gambiacolony": [
+"Q3557236"
+],
+"gambiaprotectorate": [
+"Q3557236"
+],
+"gambiasettlement": [
+"Q3557236"
+],
+"gampola": [
+"Q918153"
+],
+"gampolaceylon": [
+"Q918153"
+],
+"gampolla": [
+"Q918153"
+],
+"gandeic": [
+"Q1050859"
+],
+"gandeis": [
+"Q1050859"
+],
+"gangescanal": [
+"Q129286"
+],
+"gangpurstate": [
+"Q16838406"
+],
+"ganjam": [
+"Q129286"
+],
+"gardenreach": [
+"Q129286"
+],
+"garhwal": [
+"Q129286"
+],
+"garohills": [
+"Q129286"
+],
+"gauhati": [
+"Q129286"
+],
+"gauhatiassam": [
+"Q129286"
+],
+"gauhatirailwaysurvey": [
+"Q129286"
+],
+"gaya": [
+"Q129286"
+],
+"gbritain": [
+"Q84"
+],
+"gc": [
+"Q503623"
+],
+"gccolonial": [
+"Q503623"
+],
+"gccolony": [
+"Q503623"
+],
+"gcoast": [
+"Q503623"
+],
+"gcoastcol": [
+"Q503623"
+],
+"gcoastcolonial": [
+"Q503623"
+],
+"gcoastcolony": [
+"Q503623"
+],
+"gcoastrailways": [
+"Q2046345"
+],
+"gea": [
+"Q158725"
+],
+"geafrica": [
+"Q158725"
+],
+"geatanganyikaterritory": [
+"Q158725"
+],
+"gedaref": [
+"Q541455"
+],
+"geelong": [
+"Q56850459"
+],
+"geic": [
+"Q1050859"
+],
+"geis": [
+"Q1050859"
+],
+"geiscolonial": [
+"Q1050859"
+],
+"gemas": [
+"Q1400154"
+],
+"generaldepartment": [
+"Q84"
+],
+"generalhospital": [
+"Q129286"
+],
+"generalpostoffice": [
+"Q84"
+],
+"geneva": [
+"Q129286"
+],
+"geologicalsurveyofindia": [
+"Q129286"
+],
+"geolsurveyofindia": [
+"Q129286"
+],
+"george": [
+"Q370736"
+],
+"georgecape": [
+"Q370736"
+],
+"georgecapecolony": [
+"Q370736"
+],
+"georgetown": [
+"Q188096",
+"Q918126"
+],
+"georgetownbguiana": [
+"Q918126"
+],
+"georgetownbrguiana": [
+"Q918126"
+],
+"georgetownbritishguiana": [
+"Q918126"
+],
+"georgetowndemerara": [
+"Q918126"
+],
+"georgetowndistrict": [
+"Q918126"
+],
+"georgetownpenang": [
+"Q188096"
+],
+"geraldton": [
+"Q57676556"
+],
+"gereafrica": [
+"Q158725"
+],
+"germaneafrica": [
+"Q158725"
+],
+"germaneafricaoccupiedterritory": [
+"Q158725"
+],
+"germaneafricaprovadminstrn": [
+"Q158725"
+],
+"germaneafricaprovisionaladmstn": [
+"Q158725"
+],
+"germaneafricaprovisionaladmstrn": [
+"Q158725"
+],
+"germaneafricatanganyikaterritory": [
+"Q158725"
+],
+"germaneastafrica": [
+"Q158725"
+],
+"germaneastafricaoccupiedterritory": [
+"Q158725"
+],
+"germanswafrica": [
+"Q953903"
+],
+"germany": [
+"Q84"
+],
+"germiston": [
+"Q1187978"
+],
+"geziraprovince": [
+"Q541455"
+],
+"ghana": [
+"Q503623"
+],
+"ghazipur": [
+"Q129286"
+],
+"ghizehegypt": [
+"Q127861"
+],
+"gib": [
+"Q1410"
+],
+"gibr": [
+"Q1410"
+],
+"gibraltar": [
+"Q1410"
+],
+"gilbertandelliceis": [
+"Q1050859"
+],
+"gilbertandelliceiscol": [
+"Q1050859"
+],
+"gilbertandelliceiscolonial": [
+"Q1050859"
+],
+"gilbertandelliceiscoly": [
+"Q1050859"
+],
+"gilbertandelliceisprotectorate": [
+"Q1050859"
+],
+"gilbertellicecolonial": [
+"Q1050859"
+],
+"gilbertgroup": [
+"Q271876"
+],
+"gilbertis": [
+"Q271876"
+],
+"gilgit": [
+"Q129286"
+],
+"gippsland": [
+"Q56850459"
+],
+"giprailway": [
+"Q129286"
+],
+"giprly": [
+"Q129286"
+],
+"gisbornenz": [
+"Q664"
+],
+"gisbourneharboardnzealand": [
+"Q664"
+],
+"glasgow": [
+"Q84"
+],
+"glengrey": [
+"Q193619"
+],
+"gloucestershire": [
+"Q84"
+],
+"gmcollegebombay": [
+"Q129286"
+],
+"goa": [
+"Q129286"
+],
+"goalundo": [
+"Q129286"
+],
+"godavari": [
+"Q1772596"
+],
+"godaveri": [
+"Q1772596"
+],
+"godaveridistrict": [
+"Q1772596"
+],
+"goldcoast": [
+"Q503623"
+],
+"goldcoastcolonial": [
+"Q503623"
+],
+"goldcoastcolony": [
+"Q503623"
+],
+"goldcoastrailway": [
+"Q2046345"
+],
+"goldcoastrailways": [
+"Q2046345"
+],
+"goldcoastsettlements": [
+"Q503623"
+],
+"gond": [
+"Q129286"
+],
+"gonda": [
+"Q129286"
+],
+"gondal": [
+"Q16839606"
+],
+"gondalporbandarrailway": [
+"Q129286"
+],
+"gondalstate": [
+"Q16839606"
+],
+"gondia": [
+"Q129286"
+],
+"gorakhpur": [
+"Q129286"
+],
+"goulburn": [
+"Q18348382"
+],
+"govan": [
+"Q84"
+],
+"governmentofindia": [
+"Q129286"
+],
+"govrsexecutivecouncil": [
+"Q129286"
+],
+"govtcentralpress": [
+"Q129286"
+],
+"govtofbengal": [
+"Q129286"
+],
+"govtofindia": [
+"Q129286"
+],
+"govtofindiadepartmentofindusandlabour": [
+"Q129286"
+],
+"govtofindiapress": [
+"Q129286"
+],
+"gozo": [
+"Q6744657"
+],
+"graaffreinet": [
+"Q193619"
+],
+"grahamstown": [
+"Q193619"
+],
+"grahamstowncape": [
+"Q193619"
+],
+"grandcayman": [
+"Q5785"
+],
+"grandforks": [
+"Q16"
+],
+"grandport": [
+"Q12053604"
+],
+"grandportmauritius": [
+"Q12053604"
+],
+"grandturk": [
+"Q18221"
+],
+"graysinn": [
+"Q84"
+],
+"grbr": [
+"Q84"
+],
+"greatbritain": [
+"Q84"
+],
+"greatyarmouth": [
+"Q84"
+],
+"greece": [
+"Q41"
+],
+"greenock": [
+"Q84"
+],
+"greenough": [
+"Q57676556"
+],
+"greenturtlecayabaco": [
+"Q21815597"
+],
+"greenwich": [
+"Q84"
+],
+"greerbhumiharbrahmincollege": [
+"Q129286"
+],
+"gren": [
+"Q3116419"
+],
+"grenada": [
+"Q3116419"
+],
+"grenadines": [
+"Q3116419"
+],
+"grenadinesstvincent": [
+"Q3116419"
+],
+"grevena": [
+"Q41"
+],
+"greymouth": [
+"Q664"
+],
+"greytown": [
+"Q193619"
+],
+"greyvilledivnofdurban": [
+"Q193619"
+],
+"griqualande": [
+"Q193619"
+],
+"griqualandeast": [
+"Q193619"
+],
+"griqualandw": [
+"Q2547918"
+],
+"griqualandwcapecolonial": [
+"Q2547918"
+],
+"griqualandwest": [
+"Q2547918"
+],
+"griqualandwestcape": [
+"Q2547918"
+],
+"griqualandwestcapecolony": [
+"Q2547918"
+],
+"griquatown": [
+"Q193619"
+],
+"griquatowndivisioncapecolony": [
+"Q193619"
+],
+"gtbrit": [
+"Q84"
+],
+"gtbritain": [
+"Q84"
+],
+"gturk": [
+"Q18221"
+],
+"guernsey": [
+"Q84"
+],
+"guiana": [
+"Q918126"
+],
+"guildford": [
+"Q84"
+],
+"guindy": [
+"Q129286"
+],
+"gujarat": [
+"Q129286"
+],
+"gujaratcollege": [
+"Q129286"
+],
+"gujaratcollegeahmedabad": [
+"Q129286"
+],
+"gujaratstates": [
+"Q129286"
+],
+"gujart": [
+"Q129286"
+],
+"gujerat": [
+"Q129286"
+],
+"gujeratstates": [
+"Q129286"
+],
+"gujranwala": [
+"Q2629708"
+],
+"gujrat": [
+"Q129286"
+],
+"gujrnwala": [
+"Q2629708"
+],
+"gujrnwla": [
+"Q2629708"
+],
+"gunnedahliverpoolplainsnsw": [
+"Q18348382"
+],
+"guntoor": [
+"Q129286"
+],
+"guntur": [
+"Q129286"
+],
+"gurdaspur": [
+"Q129286"
+],
+"gurgaon": [
+"Q129286"
+],
+"guysborough": [
+"Q16"
+],
+"guyshorough": [
+"Q16"
+],
+"guzerat": [
+"Q129286"
+],
+"gwadur": [
+"Q129286",
+"Q3303188"
+],
+"gwailor": [
+"Q1557792"
+],
+"gwalior": [
+"Q1557792"
+],
+"gwaliorandcentralindia": [
+"Q129286"
+],
+"gwaliordurbar": [
+"Q1557792"
+],
+"gwaliorstate": [
+"Q1557792"
+],
+"gyantse": [
+"Q148"
+],
+"had": [
+"Q129286"
+],
+"hadhramaut": [
+"Q1865132"
+],
+"hadhramautstates": [
+"Q1865132"
+],
+"hafikineinstbombay": [
+"Q129286"
+],
+"haidarabad": [
+"Q1240096"
+],
+"haidarabadassigneddistricts": [
+"Q129286"
+],
+"haidarabadumarkotrailwaysurvey": [
+"Q129286"
+],
+"haifa": [
+"Q801"
+],
+"haifandistrict": [
+"Q801"
+],
+"haifapal": [
+"Q801"
+],
+"hajj": [
+"Q129286"
+],
+"haldummulla": [
+"Q918153"
+],
+"haldumulla": [
+"Q918153"
+],
+"halifax": [
+"Q1952"
+],
+"halifaxco": [
+"Q1952"
+],
+"halifaxnovascotia": [
+"Q1952"
+],
+"halifaxns": [
+"Q1952"
+],
+"hambantola": [
+"Q918153"
+],
+"hambantota": [
+"Q918153"
+],
+"hambantotakach": [
+"Q918153"
+],
+"hambantotakachchericeylon": [
+"Q918153"
+],
+"hambantotte": [
+"Q918153"
+],
+"hamirpur": [
+"Q129286"
+],
+"hampshire": [
+"Q84"
+],
+"hampsteaddivisionofmiddlesex": [
+"Q84"
+],
+"hangu": [
+"Q129286"
+],
+"hants": [
+"Q84"
+],
+"hantsyeomanry": [
+"Q84"
+],
+"haputal": [
+"Q918153"
+],
+"haputale": [
+"Q918153"
+],
+"haraotiandtonk": [
+"Q914031"
+],
+"harbormainnewfndld": [
+"Q2003"
+],
+"harbormainnewfoundland": [
+"Q2003"
+],
+"harbourgrace": [
+"Q2003"
+],
+"harbourisbahamas": [
+"Q21815597"
+],
+"harbourisland": [
+"Q21815597"
+],
+"harbourislandbahamas": [
+"Q21815597"
+],
+"hardoi": [
+"Q129286"
+],
+"harispattu": [
+"Q918153"
+],
+"harisputtu": [
+"Q918153"
+],
+"harrismith": [
+"Q193619"
+],
+"harrispatloo": [
+"Q918153"
+],
+"harrispattoo": [
+"Q918153"
+],
+"harrispattu": [
+"Q918153"
+],
+"harwich": [
+"Q84"
+],
+"hasanabdal": [
+"Q2629708"
+],
+"hassanabdal": [
+"Q2629708"
+],
+"hastings": [
+"Q129286",
+"Q84"
+],
+"hatton": [
+"Q918153"
+],
+"hawaii": [
+"Q30"
+],
+"hawera": [
+"Q664"
+],
+"hawthorn": [
+"Q56850459"
+],
+"hazara": [
+"Q129286",
+"Q2629708",
+"Q4412467"
+],
+"hazaradistrict": [
+"Q4412467"
+],
+"hazaranwfrontierindia": [
+"Q129286"
+],
+"hazareebagh": [
+"Q129286"
+],
+"hazaribagh": [
+"Q129286"
+],
+"hbmsnigercoastprotectorate": [
+"Q2566427"
+],
+"heidelbergtransvaal": [
+"Q193619"
+],
+"heilbron": [
+"Q193619"
+],
+"heligoland": [
+"Q3129772"
+],
+"henzada": [
+"Q2376315"
+],
+"hereford": [
+"Q84"
+],
+"hermajestystreasury": [
+"Q84"
+],
+"hertfordshire": [
+"Q84"
+],
+"herts": [
+"Q84"
+],
+"highbury": [
+"Q84"
+],
+"highcourtbombay": [
+"Q129286"
+],
+"highcourtcalcutta": [
+"Q129286"
+],
+"highcourtrangoon": [
+"Q129286"
+],
+"highwycombe": [
+"Q84"
+],
+"highwycombebucks": [
+"Q84"
+],
+"hillah": [
+"Q796"
+],
+"hillahdivn": [
+"Q796"
+],
+"hillstatessimla": [
+"Q129286"
+],
+"hilltippera": [
+"Q17342164"
+],
+"hilltipperah": [
+"Q17342164"
+],
+"hismajestysmintbombay": [
+"Q129286"
+],
+"hissar": [
+"Q129286"
+],
+"hissardivision": [
+"Q129286"
+],
+"hk": [
+"Q1054923"
+],
+"hkong": [
+"Q1054923"
+],
+"hlatikulu": [
+"Q1050"
+],
+"hlatikuluswaziland": [
+"Q1050"
+],
+"hmsthfoot": [
+"Q129286"
+],
+"hmtreasury": [
+"Q84"
+],
+"hobart": [
+"Q5148519"
+],
+"hobarttasmania": [
+"Q5148519"
+],
+"hobarttown": [
+"Q5148519"
+],
+"hobarttowntasmania": [
+"Q5148519"
+],
+"holkarandneemuchstaterailways": [
+"Q129286"
+],
+"holkarandnimachstaterailways": [
+"Q129286"
+],
+"holkarsindhneemuchandneemuchnusseerabadrailways": [
+"Q129286"
+],
+"holkarsindianeemuchandneemuchnusseerabadrailways": [
+"Q129286"
+],
+"holkarsindianimachandnimachnasirabadrailways": [
+"Q129286"
+],
+"holloway": [
+"Q84"
+],
+"homedepartment": [
+"Q129286"
+],
+"homedepartmentgovtofindia": [
+"Q129286"
+],
+"homeoffice": [
+"Q84"
+],
+"hondeklipbay": [
+"Q193619"
+],
+"hondeklipbaycapecolony": [
+"Q193619"
+],
+"honduras": [
+"Q1643555"
+],
+"hongkong": [
+"Q1054923"
+],
+"hongkongobservatory": [
+"Q1054923"
+],
+"honolulu": [
+"Q30"
+],
+"hooghly": [
+"Q129286"
+],
+"hooghlycollege": [
+"Q129286"
+],
+"hooghlyriver": [
+"Q129286"
+],
+"hoogly": [
+"Q129286"
+],
+"hoopstaadorc": [
+"Q193619"
+],
+"hoopstad": [
+"Q193619"
+],
+"hopetown": [
+"Q193619"
+],
+"hopetowndivisioncapecolony": [
+"Q193619"
+],
+"horseguards": [
+"Q84"
+],
+"hoshangabad": [
+"Q129286"
+],
+"howrah": [
+"Q129286"
+],
+"howrahjail": [
+"Q129286"
+],
+"huddersfield": [
+"Q84"
+],
+"hudsonsbayterritory": [
+"Q738395"
+],
+"hudsonsstraits": [
+"Q176"
+],
+"hughli": [
+"Q129286"
+],
+"hugli": [
+"Q129286"
+],
+"hull": [
+"Q84"
+],
+"humansdorp": [
+"Q193619"
+],
+"huntingdonshire": [
+"Q84"
+],
+"hyderabad": [
+"Q1240096"
+],
+"hyderabadassigneddistricts": [
+"Q129286"
+],
+"hyderabadcentralprison": [
+"Q129286"
+],
+"hyderabadresdy": [
+"Q129286"
+],
+"hyderabadsind": [
+"Q1240096"
+],
+"hyderabadstate": [
+"Q1240096"
+],
+"hyderabadumarkotrailwaysurvey": [
+"Q129286"
+],
+"hythe": [
+"Q84"
+],
+"i": [
+"Q193714"
+],
+"ibadan": [
+"Q2046345"
+],
+"ibadansnigeria": [
+"Q2046345"
+],
+"igarra": [
+"Q2046345"
+],
+"ijebuode": [
+"Q2046345"
+],
+"ikoroda": [
+"Q2046345"
+],
+"ikorodu": [
+"Q2046345"
+],
+"ikotekpene": [
+"Q2046345"
+],
+"ilesha": [
+"Q2046345"
+],
+"ilorinnigeria": [
+"Q2046345"
+],
+"impendhle": [
+"Q193619"
+],
+"impendhledivision": [
+"Q193619"
+],
+"impendlele": [
+"Q193619"
+],
+"imperialbureauofentomology": [
+"Q84"
+],
+"impl": [
+"Q129286"
+],
+"implagriculturedepartment": [
+"Q129286"
+],
+"implagricultureresearchinst": [
+"Q129286"
+],
+"implcollegeofscienceskensington": [
+"Q129286"
+],
+"implcouncilofagriculturalressearchdepartment": [
+"Q129286"
+],
+"implcouncofagricultureresearch": [
+"Q129286"
+],
+"impllibrary": [
+"Q129286"
+],
+"impllibrarycalcutta": [
+"Q129286"
+],
+"implvetyresearchinst": [
+"Q129286"
+],
+"impvetyseruminst": [
+"Q129286"
+],
+"inagua": [
+"Q21815597"
+],
+"inaguabahamas": [
+"Q21815597"
+],
+"inanda": [
+"Q1301901"
+],
+"inandadivision": [
+"Q1301901"
+],
+"inandadivisionnatal": [
+"Q1301901"
+],
+"inandadivisionofthecountyofvictorianatal": [
+"Q1301901"
+],
+"inandalocation": [
+"Q1301901"
+],
+"inandanatal": [
+"Q1301901"
+],
+"inauda": [
+"Q1301901"
+],
+"indcustomsservice": [
+"Q129286"
+],
+"indfranchisectee": [
+"Q129286"
+],
+"india": [
+"Q129286"
+],
+"indiaauditoffice": [
+"Q129286"
+],
+"indiaboard": [
+"Q84"
+],
+"indiaforest": [
+"Q129286"
+],
+"indiaforestdepartment": [
+"Q129286"
+],
+"indiaforestdepartmentmadras": [
+"Q129286"
+],
+"indialawdepartment": [
+"Q129286"
+],
+"indiamuseumofnaturalhistory": [
+"Q129286"
+],
+"indianarchaeologicaldepartment": [
+"Q129286"
+],
+"indianauddepartment": [
+"Q129286"
+],
+"indianauditdepartment": [
+"Q129286"
+],
+"indianauditoffice": [
+"Q129286"
+],
+"indianecclesestablishment": [
+"Q129286"
+],
+"indianecclesestablishmentunitedprovs": [
+"Q129286"
+],
+"indianecclesiasticaldepartment": [
+"Q129286"
+],
+"indianecclesiasticalestab": [
+"Q129286"
+],
+"indianecclesiasticalestablishment": [
+"Q129286"
+],
+"indianecclesiasticalestablishmentbengal": [
+"Q129286"
+],
+"indianecclesiasticalestablishmentmadras": [
+"Q129286"
+],
+"indianecclesiasticalestablishmentunitedprovinces": [
+"Q129286"
+],
+"indianecclesiasticalestablishmentunitedprovs": [
+"Q129286"
+],
+"indianecclesidepartment": [
+"Q129286"
+],
+"indianeccleslestablishment": [
+"Q129286"
+],
+"indianeccleslestablishmentmadras": [
+"Q129286"
+],
+"indianfinancedepartment": [
+"Q129286"
+],
+"indianfinancedept": [
+"Q129286"
+],
+"indianfindepartment": [
+"Q129286"
+],
+"indianforestdepartment": [
+"Q129286"
+],
+"indianforestservice": [
+"Q129286"
+],
+"indiangeologicalsurvey": [
+"Q129286"
+],
+"indianlegislativedepartment": [
+"Q129286"
+],
+"indianmetdepartment": [
+"Q129286"
+],
+"indianmidlandrailway": [
+"Q129286"
+],
+"indianmunitionsboard": [
+"Q129286"
+],
+"indianmuseumcalcutta": [
+"Q129286"
+],
+"indianoffice": [
+"Q129286"
+],
+"indianordnancedepartment": [
+"Q129286"
+],
+"indianpandt": [
+"Q129286"
+],
+"indianpolice": [
+"Q129286"
+],
+"indianpolicebengal": [
+"Q129286"
+],
+"indianpolicebihar": [
+"Q129286"
+],
+"indianpolicebiharandorissa": [
+"Q129286"
+],
+"indianpolicebombay": [
+"Q129286"
+],
+"indianpolicemadras": [
+"Q129286"
+],
+"indianpolicepunjab": [
+"Q129286"
+],
+"indianpoliceservice": [
+"Q129286"
+],
+"indianpoliceunitedprovs": [
+"Q129286"
+],
+"indianpostsandteleg": [
+"Q129286"
+],
+"indianpostsandtelegraphs": [
+"Q129286"
+],
+"indianpostsandtels": [
+"Q129286"
+],
+"indianpublicworksdepartment": [
+"Q129286"
+],
+"indianpublicworksdepartmentbombay": [
+"Q129286"
+],
+"indianrailwaydepartment": [
+"Q129286"
+],
+"indianriverscommission": [
+"Q129286"
+],
+"indianrlywslondon": [
+"Q129286"
+],
+"indianschoolofmines": [
+"Q129286"
+],
+"indiansectionofthecolonialandindianexhibition": [
+"Q129286"
+],
+"indianserviceofengineer": [
+"Q129286"
+],
+"indianserviceofengrs": [
+"Q129286"
+],
+"indianstate": [
+"Q129286"
+],
+"indianstaterailries": [
+"Q129286"
+],
+"indianstaterailway": [
+"Q129286"
+],
+"indianstaterailways": [
+"Q129286"
+],
+"indianstaterailwaysbirailway": [
+"Q129286"
+],
+"indianstaterailwaysburmarailways": [
+"Q129286"
+],
+"indianstaterailwayscoaldepartment": [
+"Q129286"
+],
+"indianstaterailwayscoaldept": [
+"Q129286"
+],
+"indianstaterailwaysdepcontrofstoreseirailway": [
+"Q129286"
+],
+"indianstaterailwaysdistrictmedicalofficergiprailway": [
+"Q129286"
+],
+"indianstaterailwayseasternbengal": [
+"Q129286"
+],
+"indianstaterailwaysebrailway": [
+"Q129286"
+],
+"indianstaterailwaysebrly": [
+"Q129286"
+],
+"indianstaterailwayseirailway": [
+"Q129286"
+],
+"indianstaterailwayseirly": [
+"Q129286"
+],
+"indianstaterailwaysgiprailway": [
+"Q129286"
+],
+"indianstaterailwaysnwrailway": [
+"Q129286"
+],
+"indianstateriys": [
+"Q129286"
+],
+"indianstateryis": [
+"Q129286"
+],
+"indianstateryiseasternbengal": [
+"Q129286"
+],
+"indianstateryls": [
+"Q129286"
+],
+"indianstateryrs": [
+"Q129286"
+],
+"indianstateryss": [
+"Q129286"
+],
+"indianstateryvs": [
+"Q129286"
+],
+"indianstatycommission": [
+"Q129286"
+],
+"indianstoresdepartment": [
+"Q129286"
+],
+"indianteldepartment": [
+"Q129286"
+],
+"indiantelegraphdepartment": [
+"Q129286"
+],
+"indianveterinaryserviceunitedprovs": [
+"Q129286"
+],
+"indianvetyservice": [
+"Q129286"
+],
+"indiaoffic": [
+"Q129286"
+],
+"indiaoffice": [
+"Q129286",
+"Q84"
+],
+"indiaofficemilitarydepartment": [
+"Q84"
+],
+"indiaofficeregistrydepartment": [
+"Q84"
+],
+"indiaofficesstoresdepartment": [
+"Q84"
+],
+"indiaofficestoredepartment": [
+"Q129286"
+],
+"indiaofficestoresdepartment": [
+"Q84"
+],
+"indiapolicedepartment": [
+"Q129286"
+],
+"indiapolicedepartmentbiharandorissa": [
+"Q129286"
+],
+"indiapostsandtelegraphs": [
+"Q129286"
+],
+"indiapostsandtels": [
+"Q129286"
+],
+"indiapostsandtelsbiharandorissa": [
+"Q129286"
+],
+"indiapostsandtelsmadras": [
+"Q129286"
+],
+"indiapublicworksdepartment": [
+"Q129286"
+],
+"indiapublicworksdepartmentbengal": [
+"Q129286"
+],
+"indiapublicworksdepartmentbiharandorissa": [
+"Q129286"
+],
+"indiapublicworksdepartmentmadras": [
+"Q129286"
+],
+"indiarailwaydepartment": [
+"Q129286"
+],
+"indiastoredepartment": [
+"Q129286"
+],
+"indiastoredepdt": [
+"Q129286"
+],
+"indiastoredepol": [
+"Q129286"
+],
+"indiastoredepot": [
+"Q129286"
+],
+"indiastoredept": [
+"Q129286"
+],
+"indiastoredpt": [
+"Q129286"
+],
+"indiasurveydepartment": [
+"Q129286"
+],
+"indiateldepartment": [
+"Q129286"
+],
+"indiatelegraphdepartment": [
+"Q129286"
+],
+"indnatlwarmemorialcttee": [
+"Q129286"
+],
+"indoburmaconnectionrailwaysurvey": [
+"Q129286"
+],
+"indoeuropeantelegraphdepartment": [
+"Q129286"
+],
+"indoffice": [
+"Q129286"
+],
+"indore": [
+"Q716890"
+],
+"indoredurbar": [
+"Q716890"
+],
+"indorestate": [
+"Q716890"
+],
+"indpostsandtels": [
+"Q129286"
+],
+"indstaterailways": [
+"Q129286"
+],
+"indstateryls": [
+"Q129286"
+],
+"indstoresdepartment": [
+"Q129286"
+],
+"indussindrevenuesurvey": [
+"Q129286"
+],
+"indussindrevsurvey": [
+"Q129286"
+],
+"industriesandlabourdepartment": [
+"Q129286"
+],
+"indusvalley": [
+"Q129286"
+],
+"indusvalleyrailway": [
+"Q129286"
+],
+"indusvalleystaterailway": [
+"Q129286"
+],
+"ingwavuma": [
+"Q193619"
+],
+"innertem": [
+"Q84"
+],
+"innertemple": [
+"Q84"
+],
+"insein": [
+"Q2376315"
+],
+"ionianis": [
+"Q1063498"
+],
+"ionianislands": [
+"Q1063498",
+"Q41"
+],
+"ipoh": [
+"Q1400154"
+],
+"ipohdistrict": [
+"Q1400154"
+],
+"ipr": [
+"Q129286"
+],
+"ipswich": [
+"Q408"
+],
+"ipswichqueensland": [
+"Q408"
+],
+"iraq": [
+"Q796"
+],
+"ireland": [
+"Q129286",
+"Q84"
+],
+"iringadistricttanganyikaterritory": [
+"Q158725"
+],
+"irishfreestate": [
+"Q31747"
+],
+"irrawaddy": [
+"Q2376315"
+],
+"irrawaddydivision": [
+"Q2376315"
+],
+"islandofbarbados": [
+"Q63973349"
+],
+"islandofmalta": [
+"Q6744657"
+],
+"islandoftobago": [
+"Q116282722"
+],
+"isleofwight": [
+"Q84"
+],
+"islington": [
+"Q84"
+],
+"isofnewprovidence": [
+"Q21815597"
+],
+"isofwakenaamrioessequibo": [
+"Q918126"
+],
+"israel": [
+"Q801"
+],
+"ixopo": [
+"Q193619"
+],
+"ixopodivision": [
+"Q193619"
+],
+"ixoponatal": [
+"Q193619"
+],
+"jabalpur": [
+"Q129286"
+],
+"jacobabad": [
+"Q129286"
+],
+"jacobsdal": [
+"Q193619"
+],
+"jaffa": [
+"Q801"
+],
+"jaffapal": [
+"Q801"
+],
+"jaffapalestine": [
+"Q801"
+],
+"jaffna": [
+"Q918153"
+],
+"jaffnaceylon": [
+"Q918153"
+],
+"jaffnakach": [
+"Q918153"
+],
+"jaffnakachcheri": [
+"Q918153"
+],
+"jaffra": [
+"Q918153"
+],
+"jagersfontein": [
+"Q193619"
+],
+"jaipur": [
+"Q6124144"
+],
+"jaipurdurbar": [
+"Q129286"
+],
+"jaipurstate": [
+"Q6124144"
+],
+"jalandhar": [
+"Q129286"
+],
+"jalaun": [
+"Q129286"
+],
+"jalpaiguri": [
+"Q129286"
+],
+"jam": [
+"Q2526023"
+],
+"jamaica": [
+"Q2526023"
+],
+"jamaicaconstabulary": [
+"Q2526023"
+],
+"jamalpur": [
+"Q129286"
+],
+"jammuandkashmir": [
+"Q2571484"
+],
+"jammuandkashmirstates": [
+"Q2571484"
+],
+"jamtarasonthalpergunnahs": [
+"Q129286"
+],
+"janjira": [
+"Q18126222"
+],
+"janjirastate": [
+"Q18126222"
+],
+"jansenville": [
+"Q193619"
+],
+"jaora": [
+"Q1683106"
+],
+"japan": [
+"Q129286"
+],
+"jasin": [
+"Q1400154"
+],
+"jath": [
+"Q933413"
+],
+"jathanddaphlapurstates": [
+"Q933413"
+],
+"jathstate": [
+"Q933413"
+],
+"jaunpr": [
+"Q129286"
+],
+"jaunpur": [
+"Q129286"
+],
+"java": [
+"Q252"
+],
+"jawhar": [
+"Q11927430"
+],
+"jbahru": [
+"Q1973084"
+],
+"jburg": [
+"Q1187978"
+],
+"jca": [
+"Q2526023"
+],
+"jebu": [
+"Q2046345"
+],
+"jebuode": [
+"Q2046345"
+],
+"jelebu": [
+"Q1400154"
+],
+"jelebunegrisembilan": [
+"Q1400154"
+],
+"jerangdihcolliery": [
+"Q129286"
+],
+"jersey": [
+"Q84"
+],
+"jerus": [
+"Q801"
+],
+"jerusalem": [
+"Q801"
+],
+"jerusalemdistrict": [
+"Q193714"
+],
+"jeruspal": [
+"Q801"
+],
+"jessore": [
+"Q129286"
+],
+"jewhar": [
+"Q11927430"
+],
+"jeypore": [
+"Q129286"
+],
+"jhalawar": [
+"Q1261339"
+],
+"jhallawar": [
+"Q1261339"
+],
+"jhallowar": [
+"Q1261339"
+],
+"jhansi": [
+"Q129286"
+],
+"jhansidivision": [
+"Q129286"
+],
+"jhansidivn": [
+"Q129286"
+],
+"jhansimanikpurstaterailway": [
+"Q129286"
+],
+"jhelum": [
+"Q2629708"
+],
+"jhind": [
+"Q129286"
+],
+"jhnsi": [
+"Q129286"
+],
+"jhore": [
+"Q1400154"
+],
+"jjhospital": [
+"Q129286"
+],
+"jlemdistrict": [
+"Q801"
+],
+"joburg": [
+"Q1187978"
+],
+"jodhpur": [
+"Q6207845"
+],
+"jodhpurstate": [
+"Q6207845"
+],
+"johannesburg": [
+"Q1187978"
+],
+"johannesburgnorth": [
+"Q1187978"
+],
+"johburg": [
+"Q1187978"
+],
+"johore": [
+"Q1400154"
+],
+"johorebahru": [
+"Q1973084"
+],
+"johorebharu": [
+"Q1973084"
+],
+"johoredistrict": [
+"Q1400154"
+],
+"jubaland": [
+"Q2538511"
+],
+"jubbulpore": [
+"Q129286"
+],
+"jubbulporecentralprov": [
+"Q129286"
+],
+"jubbulporecentralprovs": [
+"Q129286"
+],
+"jubbulporecircle": [
+"Q129286"
+],
+"jubbulporecollege": [
+"Q129286"
+],
+"jubbulporedivision": [
+"Q521864"
+],
+"jubbulporedivisioncentralprovinces": [
+"Q129286"
+],
+"jubbulpur": [
+"Q129286"
+],
+"juhaland": [
+"Q2538511"
+],
+"jullundur": [
+"Q129286"
+],
+"jullundurdivision": [
+"Q129286"
+],
+"junagad": [
+"Q14491604"
+],
+"junagadh": [
+"Q14491604"
+],
+"junagadhstate": [
+"Q14491604"
+],
+"junagadhstaterailway": [
+"Q129286"
+],
+"junagadstate": [
+"Q14491604"
+],
+"kabale": [
+"Q1097943"
+],
+"kabete": [
+"Q2538511"
+],
+"kabul": [
+"Q129286"
+],
+"kadavu": [
+"Q5148320"
+],
+"kaduna": [
+"Q2046345"
+],
+"kaffraria": [
+"Q370736"
+],
+"kaffrarian": [
+"Q370736"
+],
+"kahama": [
+"Q158725"
+],
+"kaiapoi": [
+"Q664"
+],
+"kaigalle": [
+"Q918153"
+],
+"kaira": [
+"Q129286"
+],
+"kajang": [
+"Q1400154"
+],
+"kaladgi": [
+"Q129286"
+],
+"kalahandi": [
+"Q1535236"
+],
+"kalahandistate": [
+"Q1535236"
+],
+"kalahari": [
+"Q193619"
+],
+"kalaharidesert": [
+"Q193619"
+],
+"kalat": [
+"Q139948"
+],
+"kalatagency": [
+"Q3303188"
+],
+"kalatstate": [
+"Q3303188"
+],
+"kalatstates": [
+"Q3303188"
+],
+"kaldg": [
+"Q129286"
+],
+"kalkasimlarailway": [
+"Q129286"
+],
+"kalpitiya": [
+"Q918153"
+],
+"kalpitoja": [
+"Q918153"
+],
+"kalpitya": [
+"Q918153"
+],
+"kalutara": [
+"Q918153"
+],
+"kalutarakach": [
+"Q918153"
+],
+"kamouraska": [
+"Q16"
+],
+"kampala": [
+"Q1097943"
+],
+"kampalauganda": [
+"Q1097943"
+],
+"kampar": [
+"Q1400154"
+],
+"kamptee": [
+"Q129286"
+],
+"kanara": [
+"Q129286"
+],
+"kanaradistrict": [
+"Q129286"
+],
+"kanchrapara": [
+"Q129286"
+],
+"kandahar": [
+"Q129286"
+],
+"kandaharrailway": [
+"Q129286"
+],
+"kandeish": [
+"Q891827"
+],
+"kandy": [
+"Q918153"
+],
+"kandyceylon": [
+"Q918153"
+],
+"kandykach": [
+"Q918153"
+],
+"kandykachcheri": [
+"Q918153"
+],
+"kangra": [
+"Q129286"
+],
+"kano": [
+"Q2046345"
+],
+"kanoprovnig": [
+"Q2046345"
+],
+"kanoprovnigeria": [
+"Q2046345"
+],
+"kapit": [
+"Q1400154"
+],
+"kapurthala": [
+"Q1728782"
+],
+"kapurthalastate": [
+"Q1728782"
+],
+"karachi": [
+"Q891827"
+],
+"karamoja": [
+"Q1097943"
+],
+"karauli": [
+"Q6368814"
+],
+"karchi": [
+"Q891827"
+],
+"kargalicollierygiprailway": [
+"Q129286"
+],
+"karikal": [
+"Q129286"
+],
+"karnal": [
+"Q129286"
+],
+"karnatakacollegedharwar": [
+"Q129286"
+],
+"karnatakcollegedarwar": [
+"Q129286"
+],
+"karnatakcollegedharwar": [
+"Q129286"
+],
+"karnul": [
+"Q129286"
+],
+"karunegala": [
+"Q918153"
+],
+"karwar": [
+"Q129286"
+],
+"kasamadevarea": [
+"Q953903"
+],
+"kasauli": [
+"Q129286"
+],
+"kashgar": [
+"Q148"
+],
+"kashgarhpolagency": [
+"Q129286"
+],
+"kashgarhpoliticalagency": [
+"Q129286"
+],
+"kashgarpoliticalagency": [
+"Q129286"
+],
+"kashmir": [
+"Q2571484"
+],
+"kashmirdurbar": [
+"Q2571484"
+],
+"kashmirrailwaysurvey": [
+"Q129286"
+],
+"kashmirstate": [
+"Q2571484"
+],
+"kathiawar": [
+"Q129286"
+],
+"kathiawaragency": [
+"Q129286"
+],
+"kathiawarandcutch": [
+"Q129286"
+],
+"kathiawarpollagency": [
+"Q129286"
+],
+"katsina": [
+"Q2046345"
+],
+"kattanning": [
+"Q57676556"
+],
+"kattanningdistrict": [
+"Q57676556"
+],
+"kattywar": [
+"Q129286"
+],
+"kayts": [
+"Q918153"
+],
+"kbahru": [
+"Q1400154"
+],
+"kedah": [
+"Q1400154"
+],
+"keffi": [
+"Q2046345"
+],
+"keffinnig": [
+"Q2046345"
+],
+"kegalla": [
+"Q918153"
+],
+"kegallaceylon": [
+"Q918153"
+],
+"kegallakach": [
+"Q918153"
+],
+"kegalle": [
+"Q918153"
+],
+"keiskamahoek": [
+"Q193619"
+],
+"kelantan": [
+"Q1400154"
+],
+"kemaman": [
+"Q1973084"
+],
+"ken": [
+"Q2538511"
+],
+"keneacso": [
+"Q2538511"
+],
+"kenhardt": [
+"Q193619"
+],
+"keningan": [
+"Q1400154"
+],
+"kennedytown": [
+"Q1054923"
+],
+"kennington": [
+"Q84"
+],
+"kent": [
+"Q84"
+],
+"kenya": [
+"Q2538511"
+],
+"kenyacolonial": [
+"Q2538511"
+],
+"kenyacolonialandprotectorate": [
+"Q2538511"
+],
+"kenyacolony": [
+"Q2538511"
+],
+"kenyacolonyandprotectorate": [
+"Q2538511"
+],
+"kew": [
+"Q84"
+],
+"kewgdns": [
+"Q84"
+],
+"kewobservatory": [
+"Q84"
+],
+"keywestflorida": [
+"Q30"
+],
+"kgalla": [
+"Q918153"
+],
+"khaibar": [
+"Q2629708"
+],
+"khairpur": [
+"Q3249587"
+],
+"khairpurstate": [
+"Q3249587"
+],
+"khandeish": [
+"Q891827"
+],
+"khandesh": [
+"Q891827"
+],
+"khandwa": [
+"Q129286"
+],
+"khanstates": [
+"Q129286"
+],
+"khartoum": [
+"Q541455"
+],
+"khasgar": [
+"Q148"
+],
+"khasigaroandnagahills": [
+"Q129286"
+],
+"khelat": [
+"Q129286",
+"Q3303188"
+],
+"kheri": [
+"Q129286"
+],
+"khewra": [
+"Q129286"
+],
+"khndeish": [
+"Q891827"
+],
+"khndesh": [
+"Q891827"
+],
+"khorramshahr": [
+"Q129286"
+],
+"khotabharu": [
+"Q1400154"
+],
+"khyber": [
+"Q2629708",
+"Q4412467"
+],
+"khyberagency": [
+"Q4412467"
+],
+"khyberpass": [
+"Q2629708"
+],
+"khyberrailwayconstruction": [
+"Q129286"
+],
+"khyberrailwaysurveyandconstruction": [
+"Q129286"
+],
+"kifri": [
+"Q796"
+],
+"kimberley": [
+"Q370736"
+],
+"kimberleycape": [
+"Q370736"
+],
+"kimberleycapecolony": [
+"Q370736"
+],
+"kingdomoftonga": [
+"Q17197946"
+],
+"kingedwardmedicalcollegelahore": [
+"Q129286"
+],
+"kingedwardviicollegeofmedicalspore": [
+"Q334"
+],
+"kinginstituteofpreventivemedicine": [
+"Q129286"
+],
+"kinginstofprevmedicinemadras": [
+"Q129286"
+],
+"kingsnb": [
+"Q1965"
+],
+"kingston": [
+"Q2526023"
+],
+"kingstondistrict": [
+"Q2526023"
+],
+"kingstonjamaica": [
+"Q2526023"
+],
+"kingstonjca": [
+"Q2526023"
+],
+"kingstonont": [
+"Q16"
+],
+"kingstonontario": [
+"Q16"
+],
+"kingstown": [
+"Q15240384"
+],
+"kingstowndistrict": [
+"Q15240384"
+],
+"kingstownstvincent": [
+"Q15240384"
+],
+"kingwilliamstown": [
+"Q370736"
+],
+"kingwilliamstownbritishkaffraria": [
+"Q370736"
+],
+"kingwilliamstowncapecolony": [
+"Q370736"
+],
+"kinta": [
+"Q1400154"
+],
+"kintabgajah": [
+"Q1400154"
+],
+"kintadistrict": [
+"Q1400154"
+],
+"kintaperak": [
+"Q1400154"
+],
+"kirkee": [
+"Q129286"
+],
+"kishengarh": [
+"Q6416549"
+],
+"kishnaghar": [
+"Q129286"
+],
+"kishnaghur": [
+"Q129286"
+],
+"kistna": [
+"Q129286"
+],
+"kisumu": [
+"Q2538511"
+],
+"kitchener": [
+"Q16"
+],
+"kittoor": [
+"Q129286"
+],
+"kitts": [
+"Q1637975"
+],
+"kjhills": [
+"Q129286"
+],
+"kkangear": [
+"Q1400154"
+],
+"kkangsar": [
+"Q1400154"
+],
+"kkubuselangor": [
+"Q1400154"
+],
+"klang": [
+"Q1400154"
+],
+"klangat": [
+"Q1400154"
+],
+"klangselangor": [
+"Q1400154"
+],
+"kldgi": [
+"Q129286"
+],
+"klerksdorp": [
+"Q193619"
+],
+"klipis": [
+"Q1400154"
+],
+"kluang": [
+"Q1400154"
+],
+"klumpor": [
+"Q1400154"
+],
+"klumpur": [
+"Q1400154"
+],
+"klumpurfms": [
+"Q1400154"
+],
+"knysna": [
+"Q370736"
+],
+"kodaikalandmadrasobservatories": [
+"Q129286"
+],
+"kodaikanal": [
+"Q129286"
+],
+"kodaikanalobservatory": [
+"Q129286"
+],
+"koffyfontein": [
+"Q193619"
+],
+"kohart": [
+"Q4412467"
+],
+"kohat": [
+"Q2629708",
+"Q4412467"
+],
+"kohatdistrict": [
+"Q2629708"
+],
+"koinadugudistrict": [
+"Q30059027"
+],
+"kokstad": [
+"Q193619"
+],
+"kokstadccolony": [
+"Q193619"
+],
+"kokstadtranskei": [
+"Q193619"
+],
+"kolaba": [
+"Q129286"
+],
+"kolba": [
+"Q129286"
+],
+"kolhapur": [
+"Q657946"
+],
+"kolhapurandsouthernmaharrattacountry": [
+"Q129286"
+],
+"komgha": [
+"Q193619"
+],
+"komghacapecolony": [
+"Q193619"
+],
+"kongkong": [
+"Q1054923"
+],
+"konkan": [
+"Q129286"
+],
+"konkandistrict": [
+"Q129286"
+],
+"kooshtea": [
+"Q129286"
+],
+"kornegalle": [
+"Q918153"
+],
+"kota": [
+"Q1785349"
+],
+"kotabaharu": [
+"Q1400154"
+],
+"kotabharu": [
+"Q1400154"
+],
+"kotah": [
+"Q1785349"
+],
+"kotahandjhalawar": [
+"Q1785349"
+],
+"kotahstate": [
+"Q1785349"
+],
+"kotatinggi": [
+"Q1400154"
+],
+"kotrirohrirailway": [
+"Q129286"
+],
+"koweit": [
+"Q3480281"
+],
+"kowloon": [
+"Q1054923"
+],
+"kpilah": [
+"Q1400154"
+],
+"krachidistrict": [
+"Q891827"
+],
+"krantzkop": [
+"Q193619"
+],
+"krchi": [
+"Q891827"
+],
+"krchidistrict": [
+"Q891827"
+],
+"krian": [
+"Q1400154"
+],
+"krianperak": [
+"Q1400154"
+],
+"krishnagar": [
+"Q129286"
+],
+"krishnagarcollege": [
+"Q129286"
+],
+"krishnaghur": [
+"Q129286"
+],
+"kroonstad": [
+"Q193619"
+],
+"krugersdorp": [
+"Q193619"
+],
+"kselangor": [
+"Q1400154"
+],
+"kthiawarandcutch": [
+"Q129286"
+],
+"kthiawr": [
+"Q129286"
+],
+"kthiwr": [
+"Q129286"
+],
+"kthiwrandcutch": [
+"Q129286"
+],
+"ktinggi": [
+"Q1400154"
+],
+"ktreng": [
+"Q1973084"
+],
+"kualakangsar": [
+"Q1400154"
+],
+"kualakubu": [
+"Q1400154"
+],
+"kualalangat": [
+"Q1400154"
+],
+"kualalipis": [
+"Q1400154"
+],
+"kualalumpur": [
+"Q1400154"
+],
+"kualalumpurfms": [
+"Q1400154"
+],
+"kualapilah": [
+"Q1400154"
+],
+"kualaselangor": [
+"Q1400154"
+],
+"kuantan": [
+"Q1400154"
+],
+"kuantanpahang": [
+"Q1400154"
+],
+"kuching": [
+"Q1658411"
+],
+"kudat": [
+"Q1400154"
+],
+"kukup": [
+"Q1400154"
+],
+"kulakangsar": [
+"Q1400154"
+],
+"kumaon": [
+"Q129286"
+],
+"kumaondivision": [
+"Q129286"
+],
+"kumaondivn": [
+"Q129286"
+],
+"kumasi": [
+"Q503623"
+],
+"kumasiashanti": [
+"Q503623"
+],
+"kumassi": [
+"Q503623"
+],
+"kumaun": [
+"Q129286"
+],
+"kumaundivision": [
+"Q129286"
+],
+"kumbakonam": [
+"Q129286"
+],
+"kur": [
+"Q541455"
+],
+"kuram": [
+"Q2629708"
+],
+"kuramdivision": [
+"Q2629708"
+],
+"kuramvalley": [
+"Q2629708",
+"Q4412467"
+],
+"kurh": [
+"Q84"
+],
+"kurnah": [
+"Q796"
+],
+"kurnegalle": [
+"Q918153"
+],
+"kurnool": [
+"Q129286"
+],
+"kurnoolcanal": [
+"Q129286"
+],
+"kurrachee": [
+"Q891827"
+],
+"kurram": [
+"Q2629708",
+"Q4412467"
+],
+"kurramagency": [
+"Q4412467"
+],
+"kurrum": [
+"Q4412467"
+],
+"kurseong": [
+"Q129286"
+],
+"kuruengala": [
+"Q918153"
+],
+"kuruman": [
+"Q193619"
+],
+"kurumanbrbech": [
+"Q193619"
+],
+"kurunegala": [
+"Q918153"
+],
+"kurunegalakach": [
+"Q918153"
+],
+"kurunegalla": [
+"Q918153"
+],
+"kurunegalle": [
+"Q918153"
+],
+"kurungala": [
+"Q918153"
+],
+"kurungalla": [
+"Q918153"
+],
+"kushtia": [
+"Q129286"
+],
+"kuwait": [
+"Q3480281"
+],
+"kwahu": [
+"Q503623"
+],
+"kyaukpyu": [
+"Q2376315"
+],
+"kyrenia": [
+"Q15240466"
+],
+"kyreniacyprus": [
+"Q15240466"
+],
+"kyrnia": [
+"Q15240466"
+],
+"labasa": [
+"Q5148320"
+],
+"labourdepartment": [
+"Q129286"
+],
+"labuan": [
+"Q6420545"
+],
+"laccadives": [
+"Q129286"
+],
+"ladakh": [
+"Q129286"
+],
+"ladismith": [
+"Q193619"
+],
+"ladybrand": [
+"Q193619"
+],
+"ladysmith": [
+"Q1301901"
+],
+"lagos": [
+"Q472146"
+],
+"lagoscolonial": [
+"Q472146"
+],
+"lagosfedofnig": [
+"Q2046345"
+],
+"lagosnig": [
+"Q2046345"
+],
+"lagosnigeria": [
+"Q2046345"
+],
+"lagosrailway": [
+"Q2046345"
+],
+"lagossnigeria": [
+"Q2046345"
+],
+"lahore": [
+"Q2629708"
+],
+"lahorecircle": [
+"Q2629708"
+],
+"lahorediocese": [
+"Q129286"
+],
+"lahoredistrict": [
+"Q2629708"
+],
+"lahoredivision": [
+"Q2629708"
+],
+"lahoremedicalcollege": [
+"Q129286"
+],
+"lahorerakhs": [
+"Q2629708"
+],
+"laingsburg": [
+"Q193619"
+],
+"lakekioga": [
+"Q1097943"
+],
+"lakekyoga": [
+"Q1097943"
+],
+"lakenyasa": [
+"Q1649306"
+],
+"lakerukwa": [
+"Q158725"
+],
+"lakevictoriaarea": [
+"Q1097943"
+],
+"lakhimpur": [
+"Q129286"
+],
+"lalitpur": [
+"Q129286"
+],
+"lancashire": [
+"Q84"
+],
+"langeberg": [
+"Q370736"
+],
+"larnaca": [
+"Q15240466"
+],
+"larnacacyprus": [
+"Q15240466"
+],
+"larnacadistrict": [
+"Q15240466"
+],
+"larnaka": [
+"Q15240466"
+],
+"larnakacyprus": [
+"Q15240466"
+],
+"larut": [
+"Q1400154"
+],
+"larutandmatang": [
+"Q1400154"
+],
+"larutperak": [
+"Q1400154"
+],
+"lashiomusesurvey": [
+"Q129286"
+],
+"lateprovinceofcanada": [
+"Q1121436"
+],
+"latesar": [
+"Q550374"
+],
+"lau": [
+"Q5148320"
+],
+"lauarchipelago": [
+"Q5148320"
+],
+"lauis": [
+"Q5148320"
+],
+"lauislands": [
+"Q5148320"
+],
+"launceston": [
+"Q5148519"
+],
+"launcestontasmania": [
+"Q5148519"
+],
+"lauprov": [
+"Q5148320"
+],
+"lautoka": [
+"Q5148320"
+],
+"leamingtonspa": [
+"Q84"
+],
+"leedis": [
+"Q1796551"
+],
+"leeds": [
+"Q84"
+],
+"leewardis": [
+"Q1796551"
+],
+"leewardisland": [
+"Q1796551"
+],
+"leewardislands": [
+"Q1796551"
+],
+"leewardislds": [
+"Q1796551"
+],
+"leewardisldsstkitts": [
+"Q1796551"
+],
+"leewardisles": [
+"Q1796551"
+],
+"leewards": [
+"Q1796551"
+],
+"legislativeassemblydepartment": [
+"Q129286"
+],
+"legislativedepartmentgovtofindia": [
+"Q129286"
+],
+"leh": [
+"Q129286"
+],
+"leicester": [
+"Q84"
+],
+"leith": [
+"Q129286"
+],
+"lennoxville": [
+"Q16"
+],
+"leominster": [
+"Q84"
+],
+"leven": [
+"Q84"
+],
+"levuka": [
+"Q5148320"
+],
+"levukafiji": [
+"Q5148320"
+],
+"lichfield": [
+"Q84"
+],
+"lichtenberg": [
+"Q193619"
+],
+"lichtenburg": [
+"Q193619"
+],
+"limasol": [
+"Q15240466"
+],
+"limasolcyprus": [
+"Q15240466"
+],
+"limassol": [
+"Q15240466"
+],
+"limassolcyprus": [
+"Q15240466"
+],
+"limbang": [
+"Q1658411"
+],
+"lincoln": [
+"Q84"
+],
+"lincolnshire": [
+"Q84"
+],
+"lincolnsinn": [
+"Q129286",
+"Q84"
+],
+"lindley": [
+"Q193619"
+],
+"lionsriver": [
+"Q193619"
+],
+"lionsriverdivision": [
+"Q193619"
+],
+"lipis": [
+"Q1400154"
+],
+"liskeard": [
+"Q84"
+],
+"liverpool": [
+"Q84"
+],
+"livingstone": [
+"Q953903"
+],
+"livingstonenwr": [
+"Q953903"
+],
+"lloydbarrage": [
+"Q129286"
+],
+"lloydbarrageandcc": [
+"Q129286"
+],
+"lohardugga": [
+"Q129286"
+],
+"lokoja": [
+"Q2046345"
+],
+"lomaiviti": [
+"Q5148320"
+],
+"lon": [
+"Q84"
+],
+"lond": [
+"Q84"
+],
+"london": [
+"Q84"
+],
+"londoncanadawest": [
+"Q1904"
+],
+"londoncountycouncil": [
+"Q129286"
+],
+"londonderry": [
+"Q84"
+],
+"londonengland": [
+"Q84"
+],
+"londonoffice": [
+"Q129286"
+],
+"londonofficeindoeuropeantelegraphdepartment": [
+"Q129286"
+],
+"londonofficeoftheindoeuropeantelegraphdepartment": [
+"Q129286"
+],
+"londonont": [
+"Q1904"
+],
+"londonontario": [
+"Q1904"
+],
+"longcay": [
+"Q21815597"
+],
+"loodianah": [
+"Q129286"
+],
+"loralai": [
+"Q3303188"
+],
+"lowerburma": [
+"Q1937196"
+],
+"lowerburmarailwayssurvey": [
+"Q129286"
+],
+"lowercanada": [
+"Q1134180"
+],
+"loweregypt": [
+"Q127861"
+],
+"lowerperak": [
+"Q1400154"
+],
+"lowerprov": [
+"Q817165"
+],
+"lowerprovinces": [
+"Q817165"
+],
+"lowersind": [
+"Q129286"
+],
+"lperak": [
+"Q1400154"
+],
+"lucknow": [
+"Q129286"
+],
+"lucknowdivision": [
+"Q129286"
+],
+"lucknowdivn": [
+"Q129286"
+],
+"ludhiana": [
+"Q129286"
+],
+"lundikotal": [
+"Q129286"
+],
+"lundu": [
+"Q1400154"
+],
+"lunenburg": [
+"Q16"
+],
+"lushai": [
+"Q129286"
+],
+"lyallpur": [
+"Q129286"
+],
+"lydenburg": [
+"Q193619"
+],
+"lyttelton": [
+"Q664"
+],
+"lyttonbritishcolumbia": [
+"Q16"
+],
+"machakos": [
+"Q2538511"
+],
+"mackay": [
+"Q28401203"
+],
+"mackenzieriver": [
+"Q16"
+],
+"maclaganengrgcollege": [
+"Q129286"
+],
+"macuata": [
+"Q5148320"
+],
+"madpolicedepartment": [
+"Q129286"
+],
+"madras": [
+"Q1772596"
+],
+"madrascircle": [
+"Q129286"
+],
+"madrascity": [
+"Q129286"
+],
+"madrasdiocese": [
+"Q129286"
+],
+"madrasdivn": [
+"Q129286"
+],
+"madrasecclesiasticalestablishment": [
+"Q129286"
+],
+"madrasecclesidepartment": [
+"Q129286"
+],
+"madraselecdepartment": [
+"Q129286"
+],
+"madrasgeneralhosp": [
+"Q129286"
+],
+"madrashighcourt": [
+"Q129286"
+],
+"madrasirrigationcompanyscanal": [
+"Q129286"
+],
+"madraspolice": [
+"Q129286"
+],
+"madraspolicedepartment": [
+"Q129286"
+],
+"madrasporttrust": [
+"Q129286"
+],
+"madraspresidency": [
+"Q1772596"
+],
+"madrasprovcs": [
+"Q129286"
+],
+"madrasprovl": [
+"Q129286"
+],
+"madraspublicworksdepartment": [
+"Q129286"
+],
+"madrasrevenuedepartment": [
+"Q129286"
+],
+"madrasrevenuesurveydepartment": [
+"Q129286"
+],
+"madrasrevsurveydepartment": [
+"Q129286"
+],
+"madrassaltabkariandcustomsdepartment": [
+"Q129286"
+],
+"madrassmallcausescourt": [
+"Q129286"
+],
+"madrasstatedepartment": [
+"Q129286"
+],
+"madrasstaterailwaysurveys": [
+"Q129286"
+],
+"madrastown": [
+"Q129286"
+],
+"madura": [
+"Q129286"
+],
+"maduramunicip": [
+"Q129286"
+],
+"mafeking": [
+"Q193619"
+],
+"mafia": [
+"Q158725"
+],
+"mafiais": [
+"Q158725"
+],
+"mafiaisland": [
+"Q158725"
+],
+"magadi": [
+"Q2538511"
+],
+"mahabaleshwar": [
+"Q129286"
+],
+"mahaballeswar": [
+"Q129286"
+],
+"mahableshwar": [
+"Q129286"
+],
+"maharajascollegemysore": [
+"Q129286"
+],
+"mahbaleshwar": [
+"Q129286"
+],
+"mahebourgmauritius": [
+"Q12053604"
+],
+"mahikanta": [
+"Q891827"
+],
+"mahikantha": [
+"Q891827"
+],
+"mahiknth": [
+"Q891827"
+],
+"mahikntha": [
+"Q891827"
+],
+"mahilkantha": [
+"Q891827"
+],
+"mahlabatini": [
+"Q193619"
+],
+"mahlabatinidivision": [
+"Q193619"
+],
+"mainpuri": [
+"Q129286"
+],
+"mal": [
+"Q1400154"
+],
+"malabar": [
+"Q129286"
+],
+"malabarcoast": [
+"Q129286"
+],
+"malabarsplpolice": [
+"Q129286"
+],
+"malacca": [
+"Q7621163"
+],
+"malaccassttlmts": [
+"Q7621163"
+],
+"malaccastraitssettlements": [
+"Q7621163"
+],
+"malakand": [
+"Q129286"
+],
+"malawi": [
+"Q1649306"
+],
+"malaya": [
+"Q1400154"
+],
+"malayanegapatam": [
+"Q129286"
+],
+"malayanpeninsula": [
+"Q1400154"
+],
+"malaysia": [
+"Q833"
+],
+"maldah": [
+"Q129286"
+],
+"malmesbury": [
+"Q193619"
+],
+"malpolice": [
+"Q193714"
+],
+"malta": [
+"Q6744657"
+],
+"malunion": [
+"Q976099"
+],
+"malwa": [
+"Q129286"
+],
+"manaar": [
+"Q918153"
+],
+"manbhum": [
+"Q4907084"
+],
+"manchester": [
+"Q84"
+],
+"manchestershipcanal": [
+"Q84"
+],
+"manchuria": [
+"Q148"
+],
+"mandadivisionofthecountyofvictorianatal": [
+"Q1301901"
+],
+"mandalay": [
+"Q2376315"
+],
+"mandalaydivision": [
+"Q2376315"
+],
+"mandatedterritoryofnewguinea": [
+"Q1443945"
+],
+"mandatedterritoryswafrica": [
+"Q953068"
+],
+"mandistate": [
+"Q6748050"
+],
+"mangalore": [
+"Q129286"
+],
+"mangrovecaybahamas": [
+"Q21815597"
+],
+"manipur": [
+"Q889030"
+],
+"manipurstate": [
+"Q889030"
+],
+"manipurstatedurbar": [
+"Q889030"
+],
+"manipurstates": [
+"Q889030"
+],
+"manitoba": [
+"Q1948"
+],
+"mannar": [
+"Q918153"
+],
+"mannr": [
+"Q918153"
+],
+"mansehra": [
+"Q129286"
+],
+"manshera": [
+"Q129286"
+],
+"manukau": [
+"Q664"
+],
+"mapumulo": [
+"Q193619"
+],
+"maputaland": [
+"Q193619"
+],
+"maradistrict": [
+"Q158725"
+],
+"mardan": [
+"Q4412467"
+],
+"margate": [
+"Q84"
+],
+"mariattockextensionrailwayandfrontierrailwaysurveys": [
+"Q129286"
+],
+"mariattockrailway": [
+"Q129286"
+],
+"mariextensionofthesindsagarbranchofthenwrailway": [
+"Q129286"
+],
+"maritimeprovincescanada": [
+"Q16"
+],
+"maritzburg": [
+"Q1301901"
+],
+"maritzburgcollege": [
+"Q84"
+],
+"maritzburgnatal": [
+"Q1301901"
+],
+"marlboroughcollege": [
+"Q129286"
+],
+"marwar": [
+"Q6207845"
+],
+"marwaragency": [
+"Q6207845"
+],
+"mashonaland": [
+"Q750583"
+],
+"massaruni": [
+"Q918126"
+],
+"massarunibguiana": [
+"Q918126"
+],
+"massarunibrguiana": [
+"Q918126"
+],
+"massarunibritishguiana": [
+"Q918126"
+],
+"massoldistrictcyprus": [
+"Q15240466"
+],
+"masulipatam": [
+"Q129286"
+],
+"matabeleland": [
+"Q750583"
+],
+"matal": [
+"Q918153"
+],
+"matale": [
+"Q918153"
+],
+"matalekach": [
+"Q918153"
+],
+"matang": [
+"Q1400154"
+],
+"matara": [
+"Q918153"
+],
+"matarakach": [
+"Q918153"
+],
+"matarakachcheri": [
+"Q918153"
+],
+"matatiele": [
+"Q193619"
+],
+"matelle": [
+"Q918153"
+],
+"matelleceylon": [
+"Q918153"
+],
+"matheran": [
+"Q129286"
+],
+"mathern": [
+"Q129286"
+],
+"matura": [
+"Q918153"
+],
+"maudevilledistrictofmanchester": [
+"Q2526023"
+],
+"maulmain": [
+"Q2376315"
+],
+"maur": [
+"Q12053604"
+],
+"mauritius": [
+"Q12053604"
+],
+"mayaro": [
+"Q116282722"
+],
+"maymyo": [
+"Q2376315"
+],
+"mayocollege": [
+"Q129286"
+],
+"mayocollegeajmer": [
+"Q129286"
+],
+"mayoschoolofarts": [
+"Q129286"
+],
+"mayurbhanjstate": [
+"Q18127928"
+],
+"mazaruniriver": [
+"Q918126"
+],
+"mbabane": [
+"Q1050"
+],
+"mbaledistrict": [
+"Q1097943"
+],
+"mccarthysisland": [
+"Q3557236"
+],
+"medicalcollegebengal": [
+"Q129286"
+],
+"medicalcollegecalcutta": [
+"Q129286"
+],
+"medicalcollegehosp": [
+"Q129286"
+],
+"meerut": [
+"Q129286"
+],
+"meerutdivision": [
+"Q129286"
+],
+"melbourne": [
+"Q56850459"
+],
+"melbournevictoria": [
+"Q56850459"
+],
+"melrose": [
+"Q84"
+],
+"mercara": [
+"Q129286"
+],
+"mergin": [
+"Q2376315"
+],
+"merwara": [
+"Q412980"
+],
+"meshed": [
+"Q129286"
+],
+"mesopotamia": [
+"Q796"
+],
+"mesopotamiarailways": [
+"Q129286"
+],
+"mespot": [
+"Q796"
+],
+"meteorologicaldepartment": [
+"Q129286"
+],
+"metropolitanandeasternbengalcircle": [
+"Q129286"
+],
+"mewar": [
+"Q129286"
+],
+"mewardurbar": [
+"Q129286"
+],
+"mewarstate": [
+"Q129286"
+],
+"mexico": [
+"Q129286"
+],
+"meywar": [
+"Q129286"
+],
+"mhow": [
+"Q129286"
+],
+"mhowbombay": [
+"Q129286"
+],
+"mhowdivisionrajputana": [
+"Q129286"
+],
+"miamiflorida": [
+"Q30"
+],
+"middledrift": [
+"Q193619"
+],
+"middlesbrough": [
+"Q84"
+],
+"middlesex": [
+"Q84"
+],
+"middletemple": [
+"Q84"
+],
+"midlothian": [
+"Q84"
+],
+"midnapore": [
+"Q129286"
+],
+"midnapur": [
+"Q129286"
+],
+"midtem": [
+"Q84"
+],
+"mileendnewtown": [
+"Q84"
+],
+"militaryaccountsdepartment": [
+"Q129286"
+],
+"militarydepartment": [
+"Q129286"
+],
+"miltydepartment": [
+"Q84"
+],
+"miningdepartment": [
+"Q129286"
+],
+"ministryoftransport": [
+"Q129286"
+],
+"miranshah": [
+"Q4412467"
+],
+"miranzai": [
+"Q2629708"
+],
+"mirpir": [
+"Q129286"
+],
+"mirzapore": [
+"Q129286"
+],
+"mirzapur": [
+"Q129286"
+],
+"mishmimission": [
+"Q129286"
+],
+"mlanje": [
+"Q1649306"
+],
+"mlanjedistrict": [
+"Q1649306"
+],
+"mlanjidistrict": [
+"Q1649306"
+],
+"mohipan": [
+"Q129286"
+],
+"mohmands": [
+"Q4412467"
+],
+"moka": [
+"Q12053604"
+],
+"mombasa": [
+"Q2538511"
+],
+"mombasabreafrica": [
+"Q2538511"
+],
+"mombera": [
+"Q1649306"
+],
+"monghyr": [
+"Q129286"
+],
+"mongubarotse": [
+"Q953903"
+],
+"montagu": [
+"Q193619"
+],
+"montegobay": [
+"Q2526023"
+],
+"montegobaystjames": [
+"Q2526023"
+],
+"montgomery": [
+"Q129286"
+],
+"montreal": [
+"Q176"
+],
+"montrealcanada": [
+"Q129286"
+],
+"montrealprovinceofquebec": [
+"Q176"
+],
+"montserrat": [
+"Q13353"
+],
+"montserratleewardis": [
+"Q13353"
+],
+"mooltan": [
+"Q2629708"
+],
+"mooltandivision": [
+"Q2629708"
+],
+"moorshedabad": [
+"Q129286"
+],
+"moosejaw": [
+"Q1989"
+],
+"moradabad": [
+"Q129286"
+],
+"morar": [
+"Q129286"
+],
+"morvirailway": [
+"Q129286"
+],
+"mosselbay": [
+"Q193619"
+],
+"moulmein": [
+"Q2376315"
+],
+"moumein": [
+"Q2376315"
+],
+"mountabu": [
+"Q129286"
+],
+"mountabudivn": [
+"Q129286"
+],
+"mountayliff": [
+"Q193619"
+],
+"mounteverest": [
+"Q129286"
+],
+"mountgambier": [
+"Q35715"
+],
+"mountgambiersa": [
+"Q35715"
+],
+"moyambadistrict": [
+"Q30059027"
+],
+"mrwar": [
+"Q6207845"
+],
+"mrwr": [
+"Q6207845"
+],
+"msinga": [
+"Q193619"
+],
+"mtal": [
+"Q918153"
+],
+"mtale": [
+"Q918153"
+],
+"mtara": [
+"Q918153"
+],
+"muar": [
+"Q1400154"
+],
+"muarjohore": [
+"Q1400154"
+],
+"mudros": [
+"Q41"
+],
+"muircentralcollege": [
+"Q129286"
+],
+"muircentralcollegeallahabad": [
+"Q129286"
+],
+"mukalla": [
+"Q1865132"
+],
+"muktesar": [
+"Q129286"
+],
+"muktesarlaboratory": [
+"Q129286"
+],
+"mullaitivu": [
+"Q918153"
+],
+"mullaittivu": [
+"Q918153"
+],
+"mulletivoe": [
+"Q918153"
+],
+"multan": [
+"Q2629708"
+],
+"muriprov": [
+"Q2046345"
+],
+"murraysburg": [
+"Q193619"
+],
+"murraysburgdivisioncapecolonial": [
+"Q193619"
+],
+"murraysburgdivisioncapecolony": [
+"Q193619"
+],
+"murree": [
+"Q129286"
+],
+"murshedabadbranchebstaterailway": [
+"Q129286"
+],
+"murshidabad": [
+"Q129286"
+],
+"mussoorie": [
+"Q129286"
+],
+"muttra": [
+"Q129286"
+],
+"muvalleyrailway": [
+"Q129286"
+],
+"muzaffarnagar": [
+"Q129286"
+],
+"muzaffarpur": [
+"Q129286"
+],
+"muzaffarpurcollege": [
+"Q129286"
+],
+"muzafrapurcollege": [
+"Q129286"
+],
+"mymensingh": [
+"Q129286"
+],
+"myook": [
+"Q2376315"
+],
+"mysore": [
+"Q266923"
+],
+"mysoreandcoorg": [
+"Q266923"
+],
+"mysoredivision": [
+"Q129286"
+],
+"mysoredurbar": [
+"Q129286"
+],
+"mysorerailways": [
+"Q129286"
+],
+"mysorestate": [
+"Q266923"
+],
+"naberdeen": [
+"Q129286"
+],
+"nabha": [
+"Q929357"
+],
+"nabhastate": [
+"Q929357"
+],
+"nadi": [
+"Q5148320"
+],
+"nadroga": [
+"Q5148320"
+],
+"nagahills": [
+"Q17513379"
+],
+"nagahillsdistrict": [
+"Q17513379"
+],
+"nagode": [
+"Q129286"
+],
+"nagpore": [
+"Q129286"
+],
+"nagporecircle": [
+"Q129286"
+],
+"nagpur": [
+"Q129286"
+],
+"nagpurchhattisgarhandwardhacoalrailways": [
+"Q129286"
+],
+"nagpurcollege": [
+"Q129286"
+],
+"nagpurdiocese": [
+"Q129286"
+],
+"nagpurdivision": [
+"Q129286"
+],
+"nainital": [
+"Q129286"
+],
+"nairobi": [
+"Q2538511"
+],
+"nairobieafricaprotectorate": [
+"Q2538511"
+],
+"nairobiextraprovincialdistrict": [
+"Q2538511"
+],
+"naitasiri": [
+"Q5148320"
+],
+"naivashaprov": [
+"Q2538511"
+],
+"namerica": [
+"Q84"
+],
+"namosi": [
+"Q5148320"
+],
+"namtu": [
+"Q2376315"
+],
+"nandi": [
+"Q2538511"
+],
+"nanking": [
+"Q148"
+],
+"naparima": [
+"Q116282722"
+],
+"naparimawardunion": [
+"Q116282722"
+],
+"narcot": [
+"Q1772596"
+],
+"narsinghpur": [
+"Q129286"
+],
+"nasik": [
+"Q129286"
+],
+"nasinufiji": [
+"Q5148320"
+],
+"nasirabad": [
+"Q129286"
+],
+"nassau": [
+"Q21815597"
+],
+"nassaubah": [
+"Q21815597"
+],
+"nassaubahamas": [
+"Q21815597"
+],
+"nassaunpbahamas": [
+"Q21815597"
+],
+"nassick": [
+"Q129286"
+],
+"natal": [
+"Q1301901"
+],
+"natalprov": [
+"Q193619"
+],
+"natalprovdivn": [
+"Q193619"
+],
+"natalterritory": [
+"Q1301901"
+],
+"natalunion": [
+"Q193619"
+],
+"nauru": [
+"Q21816219"
+],
+"navalapitiya": [
+"Q918153"
+],
+"navanagarstate": [
+"Q1545942"
+],
+"navua": [
+"Q5148320"
+],
+"nawanagarstate": [
+"Q1545942"
+],
+"nb": [
+"Q1965"
+],
+"nbedfordshire": [
+"Q129286"
+],
+"nbengal": [
+"Q129286"
+],
+"nbengalcircle": [
+"Q129286"
+],
+"nberar": [
+"Q129286"
+],
+"nborn": [
+"Q1147441"
+],
+"nborneo": [
+"Q1147441"
+],
+"nbruns": [
+"Q1965"
+],
+"nbrunswick": [
+"Q1965"
+],
+"nc": [
+"Q129286"
+],
+"ncameroons": [
+"Q2046345"
+],
+"ncprotectoratenowsnigeria": [
+"Q2566427"
+],
+"ncprov": [
+"Q918153"
+],
+"ncprovince": [
+"Q918153"
+],
+"ndelhi": [
+"Q129286"
+],
+"ndistrictbechprotectorate": [
+"Q747314"
+],
+"ndwedwedivision": [
+"Q193619"
+],
+"nebongtebal": [
+"Q188096"
+],
+"nebongtebalpw": [
+"Q188096"
+],
+"neemuch": [
+"Q129286"
+],
+"neemuchrailway": [
+"Q129286"
+],
+"neemuchwrajputana": [
+"Q129286"
+],
+"nefrontier": [
+"Q129286"
+],
+"negapatam": [
+"Q129286"
+],
+"negombo": [
+"Q918153"
+],
+"negrisemb": [
+"Q1400154"
+],
+"negrisembilan": [
+"Q1400154"
+],
+"negrsembilan": [
+"Q1400154"
+],
+"negsemb": [
+"Q1400154"
+],
+"nelancashire": [
+"Q129286"
+],
+"neliya": [
+"Q918153"
+],
+"neliyakach": [
+"Q918153"
+],
+"nellore": [
+"Q129286"
+],
+"nelson": [
+"Q664"
+],
+"nepal": [
+"Q129286"
+],
+"nepalgovt": [
+"Q129286"
+],
+"nerbudda": [
+"Q521864"
+],
+"nerbuddadivision": [
+"Q521864"
+],
+"nerbuddadivn": [
+"Q521864"
+],
+"nerhodesia": [
+"Q953903"
+],
+"nerycoy": [
+"Q193714"
+],
+"netley": [
+"Q84"
+],
+"neueraellia": [
+"Q918153"
+],
+"nevis": [
+"Q1637975"
+],
+"newamsterdam": [
+"Q918126"
+],
+"newamsterdamberbice": [
+"Q918126"
+],
+"newark": [
+"Q84"
+],
+"newbrunswick": [
+"Q1965"
+],
+"newbrunswickcanada": [
+"Q1965"
+],
+"newcastle": [
+"Q84"
+],
+"newcastledivision": [
+"Q1301901"
+],
+"newcastlenatal": [
+"Q1301901"
+],
+"newchwang": [
+"Q148"
+],
+"newchwangsmanchuria": [
+"Q148"
+],
+"newcollegepatna": [
+"Q129286"
+],
+"newdelhi": [
+"Q129286"
+],
+"neweraellia": [
+"Q918153"
+],
+"newfd": [
+"Q38610"
+],
+"newfdld": [
+"Q38610"
+],
+"newfld": [
+"Q38610"
+],
+"newfnd": [
+"Q38610"
+],
+"newfndl": [
+"Q38610"
+],
+"newfndld": [
+"Q2984260"
+],
+"newfoundland": [
+"Q2984260"
+],
+"newfoundlandandlabrador": [
+"Q2003"
+],
+"newguinea": [
+"Q2645837"
+],
+"newheb": [
+"Q752431"
+],
+"newhebrides": [
+"Q752431"
+],
+"newhebridescondominium": [
+"Q752431"
+],
+"newnorfolk": [
+"Q408"
+],
+"neworleans": [
+"Q30"
+],
+"newprovidence": [
+"Q21815597"
+],
+"newprovidencebahamas": [
+"Q21815597"
+],
+"newsouthwales": [
+"Q18348382"
+],
+"newswales": [
+"Q18348382"
+],
+"newterr": [
+"Q1054923"
+],
+"newterritories": [
+"Q1054923"
+],
+"newterritory": [
+"Q1054923"
+],
+"newterrs": [
+"Q1054923"
+],
+"newwestminster": [
+"Q1973"
+],
+"newyork": [
+"Q30",
+"Q769668"
+],
+"newzealand": [
+"Q664"
+],
+"ngamakwe": [
+"Q193619"
+],
+"nguinea": [
+"Q1443945",
+"Q2645837"
+],
+"ngutudistrict": [
+"Q193619"
+],
+"nheb": [
+"Q752431"
+],
+"nhebs": [
+"Q752431"
+],
+"nibongtebal": [
+"Q188096"
+],
+"nicobarislands": [
+"Q40888"
+],
+"nicoletco": [
+"Q176"
+],
+"nicosia": [
+"Q15240466"
+],
+"nicosiacyprus": [
+"Q15240466"
+],
+"nig": [
+"Q2046345"
+],
+"nigercoastprotec": [
+"Q2566427"
+],
+"nigercoastprotectorate": [
+"Q2566427"
+],
+"nigercoastprotectoratenowsnigeria": [
+"Q2566427"
+],
+"nigercoastprotectoratenowsouthnigeria": [
+"Q2566427"
+],
+"nigercprotec": [
+"Q2566427"
+],
+"nigeregn": [
+"Q2046345"
+],
+"nigeria": [
+"Q2046345"
+],
+"nigerianeasternrailway": [
+"Q2046345"
+],
+"nigerianeasternrailwayconstrn": [
+"Q2046345"
+],
+"nigerianmarine": [
+"Q2046345"
+],
+"nigerianrailway": [
+"Q2046345"
+],
+"nigerianrailwayopenlines": [
+"Q2046345"
+],
+"nigerianrailways": [
+"Q2046345"
+],
+"nigeriasprovs": [
+"Q2062030"
+],
+"nikosia": [
+"Q15240466"
+],
+"nilgiridistricts": [
+"Q129286"
+],
+"nilgirihills": [
+"Q129286"
+],
+"nilgiris": [
+"Q129286"
+],
+"nimach": [
+"Q129286"
+],
+"nimar": [
+"Q129286"
+],
+"nindiasaltrevdepartment": [
+"Q129286"
+],
+"nipal": [
+"Q129286"
+],
+"nireland": [
+"Q26"
+],
+"nisaltrev": [
+"Q129286"
+],
+"nisr": [
+"Q129286"
+],
+"nizamsdominions": [
+"Q1240096"
+],
+"nizamsgovt": [
+"Q1240096"
+],
+"nizamsgsrailway": [
+"Q129286"
+],
+"nizamsguaranteedstaterailway": [
+"Q129286"
+],
+"nizamsrailway": [
+"Q129286"
+],
+"njhighschoolkarachi": [
+"Q129286"
+],
+"nkandhladistrict": [
+"Q193619"
+],
+"nnig": [
+"Q585408"
+],
+"nnigeria": [
+"Q585408"
+],
+"nnigeriamarine": [
+"Q2046345"
+],
+"nnigeriaprotectorate": [
+"Q585408"
+],
+"noakhali": [
+"Q129286"
+],
+"norfolk": [
+"Q84"
+],
+"norfolkis": [
+"Q31057"
+],
+"norfolkisland": [
+"Q31057"
+],
+"nornig": [
+"Q585408"
+],
+"northarcot": [
+"Q1772596"
+],
+"northbihar": [
+"Q129286"
+],
+"northborneo": [
+"Q1147441"
+],
+"northcanara": [
+"Q129286"
+],
+"northcentralprov": [
+"Q918153"
+],
+"northcentralprovince": [
+"Q918153"
+],
+"northernbengal": [
+"Q129286"
+],
+"northernbengalstaterailway": [
+"Q129286"
+],
+"northerncameroons": [
+"Q2046345"
+],
+"northerncircle": [
+"Q129286"
+],
+"northerndivisionbechprotectorate": [
+"Q747314"
+],
+"northernindia": [
+"Q129286"
+],
+"northernindiasaltrevdepartment": [
+"Q129286"
+],
+"northernindiasaltrevenuedepartment": [
+"Q129286"
+],
+"northernireland": [
+"Q26"
+],
+"northernnigeria": [
+"Q585408"
+],
+"northernprotectorate": [
+"Q747314"
+],
+"northernprov": [
+"Q918153"
+],
+"northernprovince": [
+"Q918153"
+],
+"northernprovs": [
+"Q585408"
+],
+"northernrhodesia": [
+"Q953903"
+],
+"northernshanstates": [
+"Q2376315"
+],
+"northernterritories": [
+"Q1998749"
+],
+"northernterritoriesgcoast": [
+"Q1998749"
+],
+"northernterritoriesgoldcoast": [
+"Q1998749"
+],
+"northernterritory": [
+"Q408"
+],
+"northernterritorycofa": [
+"Q408"
+],
+"northernterritorysouthaustralia": [
+"Q408"
+],
+"northknara": [
+"Q129286"
+],
+"northlancashire": [
+"Q129286"
+],
+"northmalabar": [
+"Q129286"
+],
+"northofeurope": [
+"Q129286"
+],
+"northrhodesia": [
+"Q953903"
+],
+"northtanjore": [
+"Q129286"
+],
+"northterritory": [
+"Q408"
+],
+"northumberland": [
+"Q84"
+],
+"northwaziristan": [
+"Q4412467"
+],
+"northwesternprov": [
+"Q918153"
+],
+"northwesternprovince": [
+"Q918153"
+],
+"northwesternprovinces": [
+"Q129286"
+],
+"northwesternprovincesandoudh": [
+"Q129286"
+],
+"northwesternprovincesoudh": [
+"Q129286"
+],
+"northwesternrailway": [
+"Q129286"
+],
+"northwesternstaterailway": [
+"Q129286"
+],
+"northwestfrontier": [
+"Q2629708"
+],
+"northwestfrontierprov": [
+"Q4412467"
+],
+"northwestprovince": [
+"Q918153"
+],
+"northwestprovinces": [
+"Q129286"
+],
+"northwestterritories": [
+"Q16"
+],
+"northwestterritoriescanada": [
+"Q16"
+],
+"norwich": [
+"Q84"
+],
+"notts": [
+"Q84"
+],
+"novascotia": [
+"Q1952"
+],
+"nowgong": [
+"Q129286"
+],
+"nowshera": [
+"Q2629708",
+"Q4412467"
+],
+"npnig": [
+"Q585408"
+],
+"npnigeria": [
+"Q585408"
+],
+"nprov": [
+"Q30059027",
+"Q585408",
+"Q918153"
+],
+"nprovceylon": [
+"Q918153"
+],
+"nprovince": [
+"Q918153"
+],
+"nprovinces": [
+"Q585408"
+],
+"nprovincesnigeria": [
+"Q585408"
+],
+"nprovnig": [
+"Q585408"
+],
+"nprovnigeria": [
+"Q585408"
+],
+"nprovs": [
+"Q585408"
+],
+"nprovskaduna": [
+"Q585408"
+],
+"nprovsnig": [
+"Q585408"
+],
+"nprovsnigeria": [
+"Q585408"
+],
+"nqutudistrict": [
+"Q193619"
+],
+"nqutudistrictzululand": [
+"Q193619"
+],
+"nqutuzululand": [
+"Q193619"
+],
+"nregion": [
+"Q2046345"
+],
+"nregn": [
+"Q2046345"
+],
+"nrhod": [
+"Q953903"
+],
+"nrhodesia": [
+"Q953903"
+],
+"nrhodesiafortjameson": [
+"Q953903"
+],
+"nrhodesiapolice": [
+"Q953903"
+],
+"nsawam": [
+"Q503623"
+],
+"nscotia": [
+"Q1952"
+],
+"nsembilan": [
+"Q1400154"
+],
+"nshanstates": [
+"Q2376315"
+],
+"nsw": [
+"Q18348382",
+"Q408"
+],
+"nswales": [
+"Q18348382"
+],
+"nswrailways": [
+"Q408"
+],
+"ntebal": [
+"Q188096"
+],
+"nterritories": [
+"Q408"
+],
+"nterritoriesgcoast": [
+"Q1998749"
+],
+"nterritoriesgoldcoast": [
+"Q1998749"
+],
+"nterritory": [
+"Q408"
+],
+"nterritoryaustralia": [
+"Q408"
+],
+"ntgcoast": [
+"Q1998749"
+],
+"nthnrhodn": [
+"Q953903"
+],
+"nuddea": [
+"Q129286"
+],
+"nuddeaandjessore": [
+"Q129286"
+],
+"nuddeadivn": [
+"Q129286"
+],
+"nushkiextenrailway": [
+"Q129286"
+],
+"nushkiextnrailway": [
+"Q129286"
+],
+"nusseerabad": [
+"Q129286"
+],
+"nusserabad": [
+"Q129286"
+],
+"nuwaraeliya": [
+"Q918153"
+],
+"nuwaraeliyakach": [
+"Q918153"
+],
+"nuwarakalawiya": [
+"Q918153"
+],
+"nuweraeliya": [
+"Q918153"
+],
+"nuweraellia": [
+"Q918153"
+],
+"nuweraelliaceylon": [
+"Q918153"
+],
+"nuwerakalawiya": [
+"Q918153"
+],
+"nwaziristan": [
+"Q4412467"
+],
+"nwfp": [
+"Q4412467"
+],
+"nwfprov": [
+"Q4412467"
+],
+"nwfprovandbaluchistan": [
+"Q129286"
+],
+"nwfprovince": [
+"Q4412467"
+],
+"nwfrontier": [
+"Q2629708",
+"Q4412467"
+],
+"nwfrontierindia": [
+"Q2629708",
+"Q4412467"
+],
+"nwfrontierofindia": [
+"Q2629708",
+"Q4412467"
+],
+"nwfrontierprov": [
+"Q2629708",
+"Q4412467"
+],
+"nwfrontierprovindia": [
+"Q4412467"
+],
+"nwp": [
+"Q129286",
+"Q918153"
+],
+"nwpando": [
+"Q129286"
+],
+"nwpandoudh": [
+"Q129286"
+],
+"nwprov": [
+"Q129286",
+"Q918153"
+],
+"nwprovadministration": [
+"Q129286"
+],
+"nwprovandinoudh": [
+"Q129286"
+],
+"nwprovandoudh": [
+"Q129286"
+],
+"nwprovince": [
+"Q129286",
+"Q918153"
+],
+"nwprovinces": [
+"Q129286"
+],
+"nwprovincesandajmere": [
+"Q129286"
+],
+"nwprovincesandbombay": [
+"Q129286"
+],
+"nwprovincesandoudh": [
+"Q129286"
+],
+"nwprovincesirrigation": [
+"Q129286"
+],
+"nwprovs": [
+"Q129286"
+],
+"nwprovsandoudh": [
+"Q129286"
+],
+"nwrailway": [
+"Q129286"
+],
+"nwrailwayindia": [
+"Q129286"
+],
+"nwrhodesia": [
+"Q953903"
+],
+"nwriv": [
+"Q129286"
+],
+"nwrly": [
+"Q129286"
+],
+"nwsrailway": [
+"Q129286"
+],
+"nwstaterailway": [
+"Q129286"
+],
+"nwt": [
+"Q16"
+],
+"nwterritories": [
+"Q16"
+],
+"nwterritoriescanada": [
+"Q16"
+],
+"nwterritoryofcanada": [
+"Q16"
+],
+"nyanzaprov": [
+"Q2538511"
+],
+"nyas": [
+"Q1649306"
+],
+"nyasa": [
+"Q1649306"
+],
+"nyasaland": [
+"Q1649306"
+],
+"nyasalandprotectorate": [
+"Q1649306"
+],
+"nyassaland": [
+"Q1649306"
+],
+"nyassalandprotectorate": [
+"Q1649306"
+],
+"nyikaterritory": [
+"Q158725"
+],
+"nz": [
+"Q664"
+],
+"nzealand": [
+"Q664"
+],
+"oandrrailway": [
+"Q129286"
+],
+"oban": [
+"Q84"
+],
+"oceanis": [
+"Q271901"
+],
+"officeofauditorgenl": [
+"Q129286"
+],
+"officeofhighcommissionerforindia": [
+"Q129286"
+],
+"officeofsecretarytogovernmentofindiapublicworksdepartment": [
+"Q129286"
+],
+"officeofthecommrsofhmsworksandpublicbldgs": [
+"Q84"
+],
+"officeofthecomsnsofhmswrksandpublicbldgs": [
+"Q84"
+],
+"officeofthehighcommissionerforindia": [
+"Q129286"
+],
+"ofs": [
+"Q218023"
+],
+"ofsprov": [
+"Q193619"
+],
+"ofsprovunionofsafrica": [
+"Q193619"
+],
+"ofsunionofsouthafrica": [
+"Q193619"
+],
+"oghi": [
+"Q129286"
+],
+"ogoja": [
+"Q2046345"
+],
+"ohakune": [
+"Q664"
+],
+"oilriversnigercoastprotectorateandadjoiningnativeterritories": [
+"Q2566427"
+],
+"oilriversprotectorate": [
+"Q2566427"
+],
+"oilriversprotectoratenowsnigeria": [
+"Q2566427"
+],
+"oilriversprotectoratenowsogbynigeria": [
+"Q2566427"
+],
+"oilrivproteonowsniger": [
+"Q2566427"
+],
+"oilrprotectorate": [
+"Q2566427"
+],
+"okrailway": [
+"Q129286"
+],
+"oldcalabar": [
+"Q2046345"
+],
+"oldham": [
+"Q84"
+],
+"omdurman": [
+"Q541455"
+],
+"onderstepoort": [
+"Q1187978"
+],
+"onderstepoortpretoria": [
+"Q1187978"
+],
+"ondo": [
+"Q2046345"
+],
+"onehunga": [
+"Q664"
+],
+"onitsha": [
+"Q2046345"
+],
+"ont": [
+"Q1904"
+],
+"ontario": [
+"Q1904"
+],
+"ontariocanada": [
+"Q1904"
+],
+"oodeypore": [
+"Q129286"
+],
+"ootacamund": [
+"Q129286"
+],
+"ootakamund": [
+"Q129286"
+],
+"openlines": [
+"Q2046345"
+],
+"opobo": [
+"Q2046345"
+],
+"orangefreestate": [
+"Q218023"
+],
+"orangeriver": [
+"Q1142179"
+],
+"orangerivercolonial": [
+"Q1142179"
+],
+"orangerivercolony": [
+"Q1142179"
+],
+"orangeriverfreestate": [
+"Q193619"
+],
+"orangeriversovereignty": [
+"Q3048062"
+],
+"orangewalk": [
+"Q1643555"
+],
+"orc": [
+"Q1142179"
+],
+"orcadmn": [
+"Q1142179"
+],
+"orilliaont": [
+"Q16"
+],
+"orissa": [
+"Q129286"
+],
+"orissadivision": [
+"Q129286"
+],
+"orissafeudatorystates": [
+"Q15630982"
+],
+"orissafeudstates": [
+"Q15630982"
+],
+"orissastates": [
+"Q129286",
+"Q15630982"
+],
+"oriyaagency": [
+"Q15630982"
+],
+"orrailway": [
+"Q129286"
+],
+"otago": [
+"Q664"
+],
+"otagonewzealand": [
+"Q664"
+],
+"otagonz": [
+"Q664"
+],
+"ottawa": [
+"Q1904"
+],
+"oude": [
+"Q129286"
+],
+"oudh": [
+"Q129286",
+"Q18129046"
+],
+"oudhandrohilkhandrailway": [
+"Q129286"
+],
+"oudhandrrailway": [
+"Q129286"
+],
+"oudhchiefcourt": [
+"Q129286"
+],
+"oudhssrohilkhandline": [
+"Q129286"
+],
+"oudtshoorn": [
+"Q193619"
+],
+"oudtshorn": [
+"Q193619"
+],
+"oxford": [
+"Q84"
+],
+"oxfordshire": [
+"Q84"
+],
+"oyo": [
+"Q2046345"
+],
+"paarl": [
+"Q193619"
+],
+"paarlcapeofgoodhope": [
+"Q193619"
+],
+"pahang": [
+"Q1400154"
+],
+"pahangfms": [
+"Q1400154"
+],
+"pakistan": [
+"Q2006542"
+],
+"pal": [
+"Q193714"
+],
+"palamau": [
+"Q129286"
+],
+"palanpur": [
+"Q7126720"
+],
+"palestine": [
+"Q193714"
+],
+"palestinerailways": [
+"Q193714"
+],
+"palghat": [
+"Q129286"
+],
+"palitanastate": [
+"Q7127625"
+],
+"palpolice": [
+"Q193714"
+],
+"palrailway": [
+"Q193714"
+],
+"palrailways": [
+"Q193714"
+],
+"pamplemousses": [
+"Q12053604"
+],
+"pamplemoussesmauritius": [
+"Q12053604"
+],
+"panadur": [
+"Q918153"
+],
+"panadura": [
+"Q918153"
+],
+"panadure": [
+"Q918153"
+],
+"panchmahals": [
+"Q129286"
+],
+"panchmahls": [
+"Q129286"
+],
+"pandtnagpur": [
+"Q129286"
+],
+"panna": [
+"Q1588594"
+],
+"pannastate": [
+"Q1588594"
+],
+"papho": [
+"Q15240466"
+],
+"paphocyprus": [
+"Q15240466"
+],
+"paphodistrict": [
+"Q15240466"
+],
+"paphos": [
+"Q15240466"
+],
+"paphosdistrict": [
+"Q15240466"
+],
+"papua": [
+"Q530560"
+],
+"papuaandnewguinea": [
+"Q2301972"
+],
+"parel": [
+"Q129286"
+],
+"parganas": [
+"Q129286"
+],
+"paris": [
+"Q129286"
+],
+"parishofportland": [
+"Q2526023"
+],
+"parishofstann": [
+"Q2526023"
+],
+"parramatta": [
+"Q18348382"
+],
+"pasirputeh": [
+"Q1973084"
+],
+"pasteurinstcoonor": [
+"Q129286"
+],
+"pasteurinstitutekasauli": [
+"Q129286"
+],
+"pasteurinstofindiakasauli": [
+"Q129286"
+],
+"patiala": [
+"Q917553"
+],
+"patialastate": [
+"Q917553"
+],
+"patna": [
+"Q129286",
+"Q2056970"
+],
+"patnacollege": [
+"Q129286"
+],
+"patnadivision": [
+"Q129286"
+],
+"patnadivn": [
+"Q129286"
+],
+"patnahighcourt": [
+"Q129286"
+],
+"patnamedicalcollege": [
+"Q129286"
+],
+"pattalam": [
+"Q918153"
+],
+"paxoionianislands": [
+"Q1063498"
+],
+"pbuntar": [
+"Q1400154"
+],
+"pdickson": [
+"Q1400154"
+],
+"peddie": [
+"Q193619"
+],
+"pegu": [
+"Q2376315"
+],
+"pegudivision": [
+"Q2376315"
+],
+"pegudivn": [
+"Q2376315"
+],
+"pei": [
+"Q1978"
+],
+"peis": [
+"Q1978"
+],
+"peisland": [
+"Q1978"
+],
+"pekan": [
+"Q1400154"
+],
+"pekanpahang": [
+"Q1400154"
+],
+"pekin": [
+"Q148"
+],
+"peking": [
+"Q148"
+],
+"pemba": [
+"Q3574782"
+],
+"pembrokeshire": [
+"Q84"
+],
+"penang": [
+"Q188096"
+],
+"penangdivision": [
+"Q188096"
+],
+"penangss": [
+"Q188096"
+],
+"penangsstlmts": [
+"Q188096"
+],
+"penangssttlmts": [
+"Q188096"
+],
+"penangssttlnts": [
+"Q188096"
+],
+"penangstraitssettlements": [
+"Q188096"
+],
+"peradeniya": [
+"Q918153"
+],
+"perak": [
+"Q1400154"
+],
+"perakfms": [
+"Q1400154"
+],
+"perakmal": [
+"Q1400154"
+],
+"pergunnahs": [
+"Q129286"
+],
+"perim": [
+"Q17509767"
+],
+"perimis": [
+"Q17509767"
+],
+"perlis": [
+"Q1400154"
+],
+"persiangulf": [
+"Q129286"
+],
+"persiangulfsection": [
+"Q129286"
+],
+"persiangulfstations": [
+"Q129286"
+],
+"persiangulftelegraph": [
+"Q129286"
+],
+"persiansection": [
+"Q129286"
+],
+"persobaluchfrontier": [
+"Q129286"
+],
+"perth": [
+"Q84"
+],
+"perthcity": [
+"Q57676556"
+],
+"perthcountyontario": [
+"Q1904"
+],
+"perthshire": [
+"Q129286"
+],
+"perthwaust": [
+"Q57676556"
+],
+"perthwaustralia": [
+"Q57676556"
+],
+"perthwesternaustralia": [
+"Q57676556"
+],
+"peshawar": [
+"Q2629708",
+"Q4412467"
+],
+"peshawardistrict": [
+"Q2629708",
+"Q4412467"
+],
+"peshawarindia": [
+"Q4412467"
+],
+"peshawur": [
+"Q2629708"
+],
+"peshawurdistrict": [
+"Q2629708"
+],
+"peshawurfrontier": [
+"Q2629708"
+],
+"peshawurvalley": [
+"Q2629708"
+],
+"peterborough": [
+"Q84"
+],
+"philadelphia": [
+"Q30"
+],
+"phillaur": [
+"Q129286"
+],
+"phillour": [
+"Q129286"
+],
+"physicsdivnroyalcollegeofscience": [
+"Q129286"
+],
+"pietermaritzburg": [
+"Q1301901"
+],
+"pietermaritzburgcitydivision": [
+"Q1301901"
+],
+"pietermaritzburgcounty": [
+"Q1301901"
+],
+"pietermaritzburgnatal": [
+"Q1301901"
+],
+"pietersburg": [
+"Q1187978"
+],
+"pietretief": [
+"Q193619"
+],
+"piggspeakswaziland": [
+"Q1050"
+],
+"pilbarrywaustralia": [
+"Q57676556"
+],
+"pilibhit": [
+"Q129286"
+],
+"pinetown": [
+"Q1301901"
+],
+"piquetberg": [
+"Q193619"
+],
+"pirus": [
+"Q41"
+],
+"pishin": [
+"Q3303188"
+],
+"pitcairnis": [
+"Q35672"
+],
+"placentia": [
+"Q2003"
+],
+"plaineswilhelms": [
+"Q12053604"
+],
+"plaineswilhelmsmaur": [
+"Q12053604"
+],
+"plaineswilhems": [
+"Q12053604"
+],
+"plaineswilhemscurepepipedivision": [
+"Q12053604"
+],
+"plaineswilhemsdistrict": [
+"Q12053604"
+],
+"planpur": [
+"Q7126720"
+],
+"plymouth": [
+"Q84"
+],
+"pmburg": [
+"Q1301901"
+],
+"pnadur": [
+"Q918153"
+],
+"pnadure": [
+"Q918153"
+],
+"pointdegalle": [
+"Q918153"
+],
+"pointpedro": [
+"Q918153"
+],
+"polghat": [
+"Q129286"
+],
+"pomeroondistrictbrguiana": [
+"Q918126"
+],
+"pondicherry": [
+"Q129286"
+],
+"pondoland": [
+"Q370736"
+],
+"pontefract": [
+"Q84"
+],
+"pontian": [
+"Q1973084"
+],
+"poole": [
+"Q84"
+],
+"poona": [
+"Q129286"
+],
+"poonaandkirkee": [
+"Q129286"
+],
+"poonaandsatara": [
+"Q129286"
+],
+"poonacircle": [
+"Q129286"
+],
+"poonadistrict": [
+"Q129286"
+],
+"poonadistricts": [
+"Q129286"
+],
+"poonadivision": [
+"Q129286"
+],
+"poonah": [
+"Q129286"
+],
+"poonch": [
+"Q129286"
+],
+"pooree": [
+"Q129286"
+],
+"poplartowerhamlets": [
+"Q84"
+],
+"porbandar": [
+"Q14552167"
+],
+"porbandarstate": [
+"Q14552167"
+],
+"porbandharstate": [
+"Q14552167"
+],
+"portadelaide": [
+"Q35715"
+],
+"portalfred": [
+"Q193619"
+],
+"portantonio": [
+"Q2526023"
+],
+"portblair": [
+"Q40888"
+],
+"portblairadmn": [
+"Q129286"
+],
+"portblairandnicobars": [
+"Q40888"
+],
+"portblairandthenicobars": [
+"Q40888"
+],
+"portdarwin": [
+"Q408"
+],
+"portdegrave": [
+"Q2003"
+],
+"portdickson": [
+"Q1400154"
+],
+"portelizabeth": [
+"Q370736"
+],
+"portelizabethcapecolony": [
+"Q370736"
+],
+"portelizabethcapeofgoodhope": [
+"Q370736"
+],
+"portengngdepartment": [
+"Q2046345"
+],
+"portharcourt": [
+"Q2046345"
+],
+"portlokkoh": [
+"Q30059027"
+],
+"portlouis": [
+"Q12053604"
+],
+"portlouismauritius": [
+"Q12053604"
+],
+"portmariajamaica": [
+"Q2526023"
+],
+"portmourant": [
+"Q918126"
+],
+"portnolloth": [
+"Q193619"
+],
+"portofaden": [
+"Q17509767"
+],
+"portofbombay": [
+"Q129286"
+],
+"portofcalcutta": [
+"Q129286"
+],
+"portofeastlondon": [
+"Q370736"
+],
+"portofrangoon": [
+"Q2376315"
+],
+"portofspain": [
+"Q116282722"
+],
+"portofspaintrinidad": [
+"Q116282722"
+],
+"portsandairdepartment": [
+"Q129286"
+],
+"portsmouth": [
+"Q84"
+],
+"portsmouthdistrict": [
+"Q84"
+],
+"portsmouthdockyard": [
+"Q84"
+],
+"portsudan": [
+"Q541455"
+],
+"portswet": [
+"Q1400154"
+],
+"portswetten": [
+"Q1400154"
+],
+"portswettenham": [
+"Q1400154"
+],
+"postandairdepartment": [
+"Q129286"
+],
+"postoffice": [
+"Q129286",
+"Q84"
+],
+"postsandtelsdepartment": [
+"Q129286"
+],
+"potchefstroom": [
+"Q193619"
+],
+"potchefstroomtransvaal": [
+"Q193619"
+],
+"pq": [
+"Q176"
+],
+"prahsu": [
+"Q503623"
+],
+"prahsue": [
+"Q503623"
+],
+"prampram": [
+"Q503623"
+],
+"predis": [
+"Q1978"
+],
+"presidencycollege": [
+"Q129286"
+],
+"presidencycollegecalcutta": [
+"Q129286"
+],
+"presidencycollegemadras": [
+"Q129286"
+],
+"presidencydivision": [
+"Q129286"
+],
+"presidencygeneralhospcalcutta": [
+"Q129286"
+],
+"presidencyofstchristopherandnevis": [
+"Q1637975"
+],
+"preston": [
+"Q84"
+],
+"prestonlancs": [
+"Q84"
+],
+"presycollege": [
+"Q129286"
+],
+"presycollegecalcutta": [
+"Q129286"
+],
+"presycollegemadras": [
+"Q129286"
+],
+"presygeneralhospcalcutta": [
+"Q129286"
+],
+"presyjail": [
+"Q129286"
+],
+"pretoria": [
+"Q1187978"
+],
+"pretoriadistricttransvaal": [
+"Q1187978"
+],
+"pretoriamunic": [
+"Q1187978"
+],
+"pretoriasarepublic": [
+"Q1187978"
+],
+"prieska": [
+"Q193619"
+],
+"princealbert": [
+"Q1989"
+],
+"princecountyprinceedwardisland": [
+"Q1978"
+],
+"princeedwardis": [
+"Q1978"
+],
+"princeedwardisland": [
+"Q1978"
+],
+"princeedwardislandcanada": [
+"Q1978"
+],
+"princeedwardsisland": [
+"Q1978"
+],
+"princeofwalesisland": [
+"Q1150673"
+],
+"prom": [
+"Q2376315"
+],
+"provinceofbombay": [
+"Q129286"
+],
+"provinceofbritishcolumbiacanada": [
+"Q1973"
+],
+"provinceofcanada": [
+"Q1121436"
+],
+"provinceofgriqualandwest": [
+"Q2547918"
+],
+"provinceofmanitobacanada": [
+"Q1948"
+],
+"provinceofnewbrunswick": [
+"Q1965"
+],
+"provinceofnewbrunswickcanada": [
+"Q1965"
+],
+"provinceofnovascotia": [
+"Q1952"
+],
+"provinceofontario": [
+"Q1904"
+],
+"provinceofontariocanada": [
+"Q1904"
+],
+"provinceofquebec": [
+"Q176"
+],
+"provinceofsabaragamawa": [
+"Q918153"
+],
+"provincequebec": [
+"Q176"
+],
+"provincewellesley": [
+"Q188096"
+],
+"provincewellesleypenang": [
+"Q188096"
+],
+"provl": [
+"Q129286"
+],
+"provofalberta": [
+"Q1951"
+],
+"provofalbertacanada": [
+"Q1951"
+],
+"provofcanada": [
+"Q1121436"
+],
+"provofcapeofgoodhope": [
+"Q193619"
+],
+"provofqueb": [
+"Q176"
+],
+"provofquebec": [
+"Q176"
+],
+"provofsabaragamuwa": [
+"Q918153"
+],
+"provofsaharagamuwa": [
+"Q918153"
+],
+"provofthecapeofgoodhope": [
+"Q193619"
+],
+"provofuva": [
+"Q918153"
+],
+"provofwellesley": [
+"Q188096"
+],
+"provwell": [
+"Q188096"
+],
+"provwellesley": [
+"Q188096"
+],
+"pswettenham": [
+"Q1400154"
+],
+"ptdelhi": [
+"Q129286"
+],
+"ptlouis": [
+"Q12053604"
+],
+"ptlouisrddivision": [
+"Q12053604"
+],
+"ptofspain": [
+"Q116282722"
+],
+"ptpedro": [
+"Q918153"
+],
+"pubjab": [
+"Q129286"
+],
+"publicworksdepartment": [
+"Q129286"
+],
+"pubna": [
+"Q129286"
+],
+"pudukkottai": [
+"Q3535371"
+],
+"pudukkottaiestate": [
+"Q3535371"
+],
+"pudukkottaistate": [
+"Q3535371"
+],
+"pudukotaboundary": [
+"Q129286"
+],
+"pudukottah": [
+"Q129286"
+],
+"pulaujerejakpenang": [
+"Q188096"
+],
+"punjab": [
+"Q2629708"
+],
+"punjabadministration": [
+"Q129286"
+],
+"punjabagricultural": [
+"Q129286"
+],
+"punjabagriculturalcollege": [
+"Q129286"
+],
+"punjabagriculturecollege": [
+"Q129286"
+],
+"punjabandcentralprov": [
+"Q129286"
+],
+"punjabandnwf": [
+"Q129286"
+],
+"punjabandnwfcircle": [
+"Q2629708"
+],
+"punjabandnwfp": [
+"Q129286"
+],
+"punjabandnwfprov": [
+"Q129286"
+],
+"punjabandnwfrontierprov": [
+"Q2629708"
+],
+"punjabandsind": [
+"Q2629708"
+],
+"punjabchiefcourt": [
+"Q129286"
+],
+"punjabcircle": [
+"Q129286"
+],
+"punjabcommission": [
+"Q129286"
+],
+"punjabcs": [
+"Q129286"
+],
+"punjabfrontier": [
+"Q2629708"
+],
+"punjabhighcourt": [
+"Q129286"
+],
+"punjabhillstates": [
+"Q129286"
+],
+"punjabirrigation": [
+"Q129286"
+],
+"punjabirrigationbranch": [
+"Q129286"
+],
+"punjabirrigationsectt": [
+"Q129286"
+],
+"punjabjudicialdepartment": [
+"Q129286"
+],
+"punjablunaticasylum": [
+"Q129286"
+],
+"punjabmentalhosp": [
+"Q129286"
+],
+"punjabnorthernrailway": [
+"Q129286"
+],
+"punjabnorthernstaterailway": [
+"Q129286"
+],
+"punjabnrailway": [
+"Q129286"
+],
+"punjabnstaterailway": [
+"Q129286"
+],
+"punjabpolice": [
+"Q129286"
+],
+"punjabpolicedepartment": [
+"Q129286"
+],
+"punjabprovincialestablishment": [
+"Q129286"
+],
+"punjabprovl": [
+"Q129286"
+],
+"punjabprovlcs": [
+"Q2629708"
+],
+"punjabpublicworksdepartmenthydroelec": [
+"Q129286"
+],
+"punjabstates": [
+"Q129286"
+],
+"punjabuniversitylahore": [
+"Q129286"
+],
+"punjaub": [
+"Q2629708"
+],
+"puri": [
+"Q129286"
+],
+"purnea": [
+"Q129286"
+],
+"purneah": [
+"Q129286"
+],
+"purniah": [
+"Q129286"
+],
+"pusa": [
+"Q129286"
+],
+"putlam": [
+"Q918153"
+],
+"putlamceylon": [
+"Q918153"
+],
+"puttalam": [
+"Q918153"
+],
+"puttalamkach": [
+"Q918153"
+],
+"pwellesley": [
+"Q188096"
+],
+"pyinmanaforestschool": [
+"Q129286"
+],
+"qatar": [
+"Q105633777"
+],
+"qubec": [
+"Q176"
+],
+"que": [
+"Q176"
+],
+"quebcity": [
+"Q176"
+],
+"quebec": [
+"Q176"
+],
+"quebeccanada": [
+"Q176"
+],
+"queenscollegebenares": [
+"Q129286"
+],
+"queensland": [
+"Q28401203"
+],
+"queenstown": [
+"Q193619"
+],
+"quetta": [
+"Q3303188"
+],
+"quettaandpishin": [
+"Q3303188"
+],
+"quettadistrict": [
+"Q3303188"
+],
+"quettapishin": [
+"Q3303188"
+],
+"quettareccttee": [
+"Q129286"
+],
+"quettareconstrcttee": [
+"Q129286"
+],
+"quettatahsil": [
+"Q3303188"
+],
+"quittah": [
+"Q503623"
+],
+"ra": [
+"Q5148320"
+],
+"rabai": [
+"Q2538511"
+],
+"radhanpur": [
+"Q18164260"
+],
+"radhanpurstate": [
+"Q18164260"
+],
+"radnorboroughs": [
+"Q129286"
+],
+"raebareli": [
+"Q129286"
+],
+"raebarelidivision": [
+"Q129286"
+],
+"raf": [
+"Q129286"
+],
+"raggedisland": [
+"Q21815597"
+],
+"railwayboard": [
+"Q129286"
+],
+"railwaybranch": [
+"Q129286"
+],
+"railwayclearingacctsdelhi": [
+"Q129286"
+],
+"railwayclearingacctsoffice": [
+"Q129286"
+],
+"railwayclgacctsoffice": [
+"Q129286"
+],
+"railwaydepartment": [
+"Q129286"
+],
+"railwayratesadvisorycommittee": [
+"Q129286"
+],
+"railways": [
+"Q918153"
+],
+"railwaystaffcollegedehradun": [
+"Q129286"
+],
+"raipur": [
+"Q129286"
+],
+"rajahahi": [
+"Q129286"
+],
+"rajahmandry": [
+"Q129286"
+],
+"rajahmundry": [
+"Q129286"
+],
+"rajamahendri": [
+"Q129286"
+],
+"rajamundry": [
+"Q129286"
+],
+"rajaramcollegekolhapur": [
+"Q129286"
+],
+"rajkot": [
+"Q129286"
+],
+"rajkumarcollegeraipur": [
+"Q129286"
+],
+"rajpipla": [
+"Q918204"
+],
+"rajpiplastate": [
+"Q918204"
+],
+"rajpplastate": [
+"Q918204"
+],
+"rajputana": [
+"Q129286"
+],
+"rajputanaagency": [
+"Q129286"
+],
+"rajputanaandajmermerwara": [
+"Q129286"
+],
+"rajputanaandcentralindia": [
+"Q129286"
+],
+"rajputanadivision": [
+"Q129286"
+],
+"rajputanadivn": [
+"Q129286"
+],
+"rajputanamalwa": [
+"Q129286"
+],
+"rajputanamalwarailway": [
+"Q129286"
+],
+"rajputanamalwarailways": [
+"Q129286"
+],
+"rajputanarailways": [
+"Q129286"
+],
+"rajputanasaltsources": [
+"Q129286"
+],
+"rajputanastaterailway": [
+"Q129286"
+],
+"rajputanastates": [
+"Q129286"
+],
+"rajshahi": [
+"Q129286"
+],
+"rajshahicollege": [
+"Q129286"
+],
+"rajshahye": [
+"Q129286"
+],
+"rajshahyecollege": [
+"Q129286"
+],
+"rajshahyedivision": [
+"Q129286"
+],
+"ramporestate": [
+"Q3454186"
+],
+"rampur": [
+"Q3454186"
+],
+"rampurstate": [
+"Q3454186"
+],
+"ramsgate": [
+"Q84"
+],
+"ranchi": [
+"Q129286"
+],
+"ranchicircle": [
+"Q129286"
+],
+"rand": [
+"Q1187978"
+],
+"rangoon": [
+"Q2376315"
+],
+"rangoonandirawadivalleyrailway": [
+"Q129286"
+],
+"rangoonandirrawaddyvalleyrailway": [
+"Q129286"
+],
+"rangooncity": [
+"Q2376315"
+],
+"rangooncollege": [
+"Q129286"
+],
+"rangoondistrict": [
+"Q2376315"
+],
+"rangoongeneralhosp": [
+"Q129286"
+],
+"rangoontown": [
+"Q2376315"
+],
+"rangoontownpolice": [
+"Q129286"
+],
+"rangpur": [
+"Q129286"
+],
+"rasul": [
+"Q129286"
+],
+"ratesregisterexperiment": [
+"Q129286"
+],
+"ratnagiri": [
+"Q129286"
+],
+"ratnapoora": [
+"Q918153"
+],
+"ratnapura": [
+"Q918153"
+],
+"ratnapuraceylon": [
+"Q918153"
+],
+"ratnapurakach": [
+"Q918153"
+],
+"ratnapurakachcheri": [
+"Q918153"
+],
+"ratngiri": [
+"Q129286"
+],
+"raub": [
+"Q1400154"
+],
+"raubbentong": [
+"Q1400154"
+],
+"ravenshawcollegecuttack": [
+"Q129286"
+],
+"ravenswood": [
+"Q28401203"
+],
+"rawalpindee": [
+"Q2629708"
+],
+"rawalpindi": [
+"Q2629708"
+],
+"rawalpindicircle": [
+"Q2629708"
+],
+"rawalpindidivision": [
+"Q2629708"
+],
+"rawalpindidurbar": [
+"Q2629708"
+],
+"rawang": [
+"Q1400154"
+],
+"rawangselangor": [
+"Q1400154"
+],
+"rawulpindi": [
+"Q2629708"
+],
+"rawulpindidurbar": [
+"Q2629708"
+],
+"rayapuram": [
+"Q129286"
+],
+"re": [
+"Q129286"
+],
+"reading": [
+"Q84"
+],
+"recordoffice": [
+"Q129286"
+],
+"reddersburgorc": [
+"Q193619"
+],
+"redriver": [
+"Q2032545"
+],
+"regina": [
+"Q1989"
+],
+"registryandrecorddepartment": [
+"Q129286",
+"Q84"
+],
+"registryandrecorddepartmentindiaoffice": [
+"Q129286",
+"Q84"
+],
+"registrydepartment": [
+"Q84"
+],
+"registrydepartmentindiaoffice": [
+"Q84"
+],
+"reitz": [
+"Q193619"
+],
+"rembau": [
+"Q1400154"
+],
+"rembaunsembilan": [
+"Q1400154"
+],
+"repton": [
+"Q84"
+],
+"revenuedepartment": [
+"Q129286"
+],
+"revenueestablishmentofstaterailways": [
+"Q129286"
+],
+"rewa": [
+"Q176466"
+],
+"rewadurbar": [
+"Q129286"
+],
+"rewafiji": [
+"Q5148320"
+],
+"rewah": [
+"Q176466"
+],
+"rewahstate": [
+"Q176466"
+],
+"rewakanta": [
+"Q129286"
+],
+"rewakantha": [
+"Q129286"
+],
+"rewaknth": [
+"Q129286"
+],
+"rewakntha": [
+"Q129286"
+],
+"rewaprov": [
+"Q5148320"
+],
+"rewastate": [
+"Q176466"
+],
+"rewastates": [
+"Q129286"
+],
+"rhodandnyasa": [
+"Q654342"
+],
+"rhodesia": [
+"Q750583"
+],
+"richmondsurrey": [
+"Q84"
+],
+"ringarooma": [
+"Q408"
+],
+"riomassaruni": [
+"Q918126"
+],
+"ripon": [
+"Q84"
+],
+"ripondivnyorks": [
+"Q84"
+],
+"rivdurempart": [
+"Q12053604"
+],
+"riversdale": [
+"Q193619"
+],
+"riversdalecp": [
+"Q193619"
+],
+"riversdaledivisioncapecolonial": [
+"Q193619"
+],
+"riversdaledivisioncapecolony": [
+"Q193619"
+],
+"rivieredurempart": [
+"Q12053604"
+],
+"riviredurempart": [
+"Q12053604"
+],
+"rjkot": [
+"Q129286"
+],
+"rjppla": [
+"Q918204"
+],
+"rlvstaffcollegedehradun": [
+"Q129286"
+],
+"rlwyclearingaccts": [
+"Q129286"
+],
+"roadtown": [
+"Q25305"
+],
+"robbenislunaticandleperasylums": [
+"Q370736"
+],
+"robertsheights": [
+"Q1187978"
+],
+"robertson": [
+"Q193619"
+],
+"rodrigues": [
+"Q208668"
+],
+"rodriguez": [
+"Q208668"
+],
+"roebourne": [
+"Q57676556"
+],
+"rohilcund": [
+"Q129286"
+],
+"rohilkhand": [
+"Q129286"
+],
+"rohilkhanddivision": [
+"Q129286"
+],
+"rohilkhanddivn": [
+"Q129286"
+],
+"rohilkund": [
+"Q129286"
+],
+"rohilkunddivision": [
+"Q129286"
+],
+"rohricanalscircle": [
+"Q129286"
+],
+"rohtak": [
+"Q129286"
+],
+"rondebosch": [
+"Q370736"
+],
+"roodepoort": [
+"Q1187978"
+],
+"roorkee": [
+"Q129286"
+],
+"roorki": [
+"Q129286"
+],
+"roseau": [
+"Q784"
+],
+"roseaudominica": [
+"Q784"
+],
+"rotherham": [
+"Q84"
+],
+"rottnest": [
+"Q408"
+],
+"rottnestis": [
+"Q408"
+],
+"rotuma": [
+"Q5148320"
+],
+"rotumah": [
+"Q5148320"
+],
+"royalarsenalwoolwich": [
+"Q84"
+],
+"royalbotanicgardenskew": [
+"Q84"
+],
+"royalgardenskew": [
+"Q84"
+],
+"royalnigercompany": [
+"Q1806380"
+],
+"royalobservatoryhk": [
+"Q1054923"
+],
+"royalobservatoryhongkong": [
+"Q1054923"
+],
+"rugby": [
+"Q84"
+],
+"rukjumarcollegeraipur": [
+"Q129286"
+],
+"rumcay": [
+"Q21815597"
+],
+"runegalakach": [
+"Q918153"
+],
+"rungpur": [
+"Q129286"
+],
+"rupertsland": [
+"Q738395"
+],
+"rurki": [
+"Q129286"
+],
+"russia": [
+"Q129286"
+],
+"rustenburg": [
+"Q1187978"
+],
+"rutnagherry": [
+"Q129286"
+],
+"rutnagherrydistrict": [
+"Q129286"
+],
+"rwalpindi": [
+"Q2629708"
+],
+"ryboard": [
+"Q129286"
+],
+"sa": [
+"Q35715",
+"Q5155572"
+],
+"sabah": [
+"Q1400154"
+],
+"sabaragamuwa": [
+"Q918153"
+],
+"sabarkantha": [
+"Q129286"
+],
+"sabarkanthaagency": [
+"Q129286"
+],
+"sachinstate": [
+"Q1476723"
+],
+"sachn": [
+"Q1476723"
+],
+"saconstabulary": [
+"Q747314"
+],
+"sadiya": [
+"Q129286"
+],
+"sadiyafrontract": [
+"Q129286"
+],
+"sadra": [
+"Q129286"
+],
+"safr": [
+"Q193619"
+],
+"safrica": [
+"Q258",
+"Q5155572"
+],
+"safricacapeprovdivision": [
+"Q193619"
+],
+"safricanrepub": [
+"Q550374"
+],
+"safricanrepublic": [
+"Q550374"
+],
+"safricanwar": [
+"Q129286",
+"Q747314"
+],
+"safricatransvaalprovldivision": [
+"Q193619"
+],
+"saharanpur": [
+"Q129286"
+],
+"saharkantha": [
+"Q129286"
+],
+"saidapet": [
+"Q129286"
+],
+"sainthelena": [
+"Q34497"
+],
+"sainthyacinthe": [
+"Q16"
+],
+"saintlucia": [
+"Q15238409"
+],
+"saintvincent": [
+"Q15240384"
+],
+"salangor": [
+"Q1400154"
+],
+"salangore": [
+"Q1400154"
+],
+"salem": [
+"Q129286"
+],
+"salemdistrict": [
+"Q129286"
+],
+"salford": [
+"Q84"
+],
+"salisburyplain": [
+"Q84"
+],
+"salonica": [
+"Q41"
+],
+"salonika": [
+"Q41"
+],
+"salop": [
+"Q84"
+],
+"salsette": [
+"Q129286"
+],
+"saltcay": [
+"Q18221"
+],
+"saltcayturksandcaicosis": [
+"Q18221"
+],
+"saltcayturksandcaicosislands": [
+"Q18221"
+],
+"saltcayturksis": [
+"Q18221"
+],
+"saltcoats": [
+"Q84"
+],
+"saltpond": [
+"Q503623"
+],
+"samariadistrictpalestineciviladmstn": [
+"Q801"
+],
+"samariapal": [
+"Q801"
+],
+"sambalpur": [
+"Q129286"
+],
+"sambhar": [
+"Q129286"
+],
+"sambharlakedivn": [
+"Q129286"
+],
+"samerailway": [
+"Q129286"
+],
+"samoa": [
+"Q683"
+],
+"sandakan": [
+"Q1400154"
+],
+"sandbcircle": [
+"Q129286"
+],
+"sandoway": [
+"Q2376315"
+],
+"sandur": [
+"Q532048"
+],
+"sandypoint": [
+"Q1637975"
+],
+"sandypointstkitts": [
+"Q1637975"
+],
+"sanfernando": [
+"Q116282722"
+],
+"sanfernandotrin": [
+"Q116282722"
+],
+"sanfernandotrinidad": [
+"Q116282722"
+],
+"sanfrancisco": [
+"Q30"
+],
+"sanfrisco": [
+"Q30"
+],
+"sangli": [
+"Q2221701"
+],
+"sanglistate": [
+"Q2221701"
+],
+"sangor": [
+"Q129286"
+],
+"sanskritcollege": [
+"Q129286"
+],
+"sanskritcollegebenares": [
+"Q129286"
+],
+"santhalpergunnahsindia": [
+"Q129286"
+],
+"sapele": [
+"Q2046345"
+],
+"sar": [
+"Q1658411"
+],
+"saraserajungerailwayconstrn": [
+"Q129286"
+],
+"sarawak": [
+"Q1658411"
+],
+"sarawakmuseum": [
+"Q1400154"
+],
+"sarawk": [
+"Q1658411"
+],
+"sarcot": [
+"Q129286"
+],
+"sardah": [
+"Q129286"
+],
+"sarepub": [
+"Q550374"
+],
+"sarepublic": [
+"Q550374"
+],
+"sask": [
+"Q1989"
+],
+"saskatchewan": [
+"Q1989"
+],
+"satara": [
+"Q129286"
+],
+"sattara": [
+"Q129286"
+],
+"sattarra": [
+"Q129286"
+],
+"saugor": [
+"Q129286"
+],
+"saugordistrict": [
+"Q129286"
+],
+"saust": [
+"Q35715"
+],
+"saustr": [
+"Q35715"
+],
+"saustral": [
+"Q35715"
+],
+"saustralia": [
+"Q35715"
+],
+"savanne": [
+"Q12053604"
+],
+"savannemauritius": [
+"Q12053604"
+],
+"savanrstate": [
+"Q1607154"
+],
+"savantvadi": [
+"Q18164343"
+],
+"savanur": [
+"Q1607154"
+],
+"savanurstate": [
+"Q1607154"
+],
+"savnrstate": [
+"Q1607154"
+],
+"savntvdi": [
+"Q18164343"
+],
+"savusavu": [
+"Q5148320"
+],
+"sawantwadi": [
+"Q18164343"
+],
+"sawantwari": [
+"Q18164343"
+],
+"scanara": [
+"Q1772596"
+],
+"scarborough": [
+"Q84"
+],
+"scinde": [
+"Q129286"
+],
+"sclangor": [
+"Q1400154"
+],
+"scmd": [
+"Q129286"
+],
+"scot": [
+"Q84"
+],
+"scotland": [
+"Q84"
+],
+"seaisscarolina": [
+"Q30"
+],
+"sealdah": [
+"Q129286"
+],
+"seasia": [
+"Q2645837"
+],
+"sebaluchistan": [
+"Q843"
+],
+"secondee": [
+"Q503623"
+],
+"secondeegoldcoastcolony": [
+"Q503623"
+],
+"secunderabad": [
+"Q129286"
+],
+"segamat": [
+"Q1400154"
+],
+"sekondi": [
+"Q503623"
+],
+"sekonditakoradi": [
+"Q503623"
+],
+"selangor": [
+"Q1400154"
+],
+"selangorfederatedmalaystates": [
+"Q1400154"
+],
+"selangorfms": [
+"Q1400154"
+],
+"selngormalaystates": [
+"Q1400154"
+],
+"senekal": [
+"Q193619"
+],
+"sepang": [
+"Q1400154"
+],
+"seramban": [
+"Q1400154"
+],
+"seremban": [
+"Q1400154"
+],
+"serembannegrisembilan": [
+"Q1400154"
+],
+"serendah": [
+"Q1400154"
+],
+"settlementofsierraleone": [
+"Q30059027"
+],
+"sevenoakskent": [
+"Q84"
+],
+"sey": [
+"Q21821453"
+],
+"seychelles": [
+"Q21821453"
+],
+"seychellesis": [
+"Q21821453"
+],
+"sgeorgia": [
+"Q35086"
+],
+"sgraftonnsw": [
+"Q18348382"
+],
+"shahabad": [
+"Q129286"
+],
+"shahjahanpur": [
+"Q129286"
+],
+"shahpur": [
+"Q2629708"
+],
+"shanghae": [
+"Q148"
+],
+"shanghai": [
+"Q148"
+],
+"shanstates": [
+"Q2376315"
+],
+"sheffield": [
+"Q84"
+],
+"sheikhothmantownship": [
+"Q49910"
+],
+"sherbro": [
+"Q30059027"
+],
+"sherbrocountry": [
+"Q30059027"
+],
+"sherbrocounty": [
+"Q30059027"
+],
+"sherbrodistrict": [
+"Q30059027"
+],
+"sherbrosleone": [
+"Q30059027"
+],
+"sherbrowestafrica": [
+"Q30059027"
+],
+"shhjahnpur": [
+"Q129286"
+],
+"shikarpur": [
+"Q891827"
+],
+"shikrpur": [
+"Q891827"
+],
+"shillong": [
+"Q129286"
+],
+"shillongassam": [
+"Q129286"
+],
+"shoeburyness": [
+"Q84"
+],
+"sholapur": [
+"Q129286"
+],
+"sholpur": [
+"Q129286"
+],
+"shrewsbury": [
+"Q84"
+],
+"sialkot": [
+"Q2629708"
+],
+"sibi": [
+"Q3303188"
+],
+"sibiandloralai": [
+"Q3303188"
+],
+"sibpur": [
+"Q129286"
+],
+"sibpurcecollege": [
+"Q129286"
+],
+"sibpurcivilengrgcollege": [
+"Q129286"
+],
+"sibpurengcollege": [
+"Q129286"
+],
+"sibpurengrgcollege": [
+"Q129286"
+],
+"sibsagar": [
+"Q129286"
+],
+"sibsaur": [
+"Q129286"
+],
+"sierraleone": [
+"Q30059027"
+],
+"sierraleoneprotectorate": [
+"Q30059027"
+],
+"sikkim": [
+"Q129286",
+"Q3960459"
+],
+"simcoe": [
+"Q1904"
+],
+"simla": [
+"Q129286"
+],
+"simlaeast": [
+"Q129286"
+],
+"simlahillstates": [
+"Q129286"
+],
+"simlaimperialcircle": [
+"Q129286"
+],
+"simlaimplcircle": [
+"Q129286"
+],
+"simonstn": [
+"Q370736"
+],
+"simonstown": [
+"Q370736"
+],
+"simonstowncapecolony": [
+"Q370736"
+],
+"simonstowncapeofgoodhope": [
+"Q370736"
+],
+"sind": [
+"Q7522091"
+],
+"sindandbaluchistan": [
+"Q7522091"
+],
+"sindandbaluchistancircle": [
+"Q7522091"
+],
+"sindandbaluchistandivn": [
+"Q7522091"
+],
+"sinddistrict": [
+"Q7522091"
+],
+"sindh": [
+"Q7522091"
+],
+"sindhstaterailwayconstructiondivision": [
+"Q129286"
+],
+"sindianrailway": [
+"Q129286"
+],
+"sindiastaterailway": [
+"Q129286"
+],
+"sindsectionnwrailway": [
+"Q129286"
+],
+"sing": [
+"Q4373718"
+],
+"singapore": [
+"Q334",
+"Q4373718"
+],
+"singaporessttlmts": [
+"Q334"
+],
+"singaporestraitssettlements": [
+"Q334"
+],
+"sirhind": [
+"Q129286"
+],
+"sirhindcanal": [
+"Q129286"
+],
+"sirhindcircle": [
+"Q129286"
+],
+"sirhinddivision": [
+"Q129286"
+],
+"sirhinddivn": [
+"Q129286"
+],
+"sirohi": [
+"Q7530545"
+],
+"sitapur": [
+"Q129286"
+],
+"sitapurandkheri": [
+"Q129286"
+],
+"sitapurdivision": [
+"Q129286"
+],
+"sitiawan": [
+"Q1400154"
+],
+"sivaganga": [
+"Q129286"
+],
+"skanara": [
+"Q1772596"
+],
+"skensington": [
+"Q84"
+],
+"skitts": [
+"Q1637975"
+],
+"skittsnevis": [
+"Q1637975"
+],
+"sl": [
+"Q30059027"
+],
+"slangor": [
+"Q1400154"
+],
+"sleone": [
+"Q30059027"
+],
+"sleoneprotectorate": [
+"Q30059027"
+],
+"slumpur": [
+"Q1400154"
+],
+"smithfield": [
+"Q193619"
+],
+"snig": [
+"Q2062030"
+],
+"snigeria": [
+"Q2062030"
+],
+"snigeriaprotectorate": [
+"Q2062030"
+],
+"sokoto": [
+"Q2046345"
+],
+"sokotoprov": [
+"Q2046345"
+],
+"solarphysicsobservatory": [
+"Q129286"
+],
+"solomonis": [
+"Q13410267"
+],
+"solomonislands": [
+"Q13410267"
+],
+"som": [
+"Q662653"
+],
+"somalia": [
+"Q1045"
+],
+"somalicoast": [
+"Q662653"
+],
+"somaliland": [
+"Q662653"
+],
+"somalilandprotectorate": [
+"Q662653"
+],
+"somerset": [
+"Q129286",
+"Q84"
+],
+"somerseteast": [
+"Q193619"
+],
+"somerseteastdivisioncapeofgoodhope": [
+"Q193619"
+],
+"somersethouse": [
+"Q84"
+],
+"somersethouselondon": [
+"Q84"
+],
+"somersetshire": [
+"Q129286"
+],
+"somersetwest": [
+"Q370736"
+],
+"somprotectorate": [
+"Q662653"
+],
+"sonig": [
+"Q2062030"
+],
+"sonigeria": [
+"Q2062030"
+],
+"sonthal": [
+"Q129286"
+],
+"soonderbunds": [
+"Q129286"
+],
+"sorelquebec": [
+"Q16"
+],
+"sorhodesia": [
+"Q750583"
+],
+"sorrell": [
+"Q408"
+],
+"soudan": [
+"Q541455"
+],
+"southafrica": [
+"Q258",
+"Q5155572"
+],
+"southampton": [
+"Q84"
+],
+"southarcot": [
+"Q129286"
+],
+"southaust": [
+"Q35715"
+],
+"southaustralia": [
+"Q35715"
+],
+"southcanara": [
+"Q1772596"
+],
+"southdivisionofarcot": [
+"Q129286"
+],
+"southeasternbaluchistan": [
+"Q3303188"
+],
+"southendonseacityborough": [
+"Q129286"
+],
+"southendonseactyborough": [
+"Q129286"
+],
+"southerncircle": [
+"Q129286"
+],
+"southerndivisionbechprotectorate": [
+"Q747314"
+],
+"southernnigeria": [
+"Q2062030"
+],
+"southernprovince": [
+"Q918153"
+],
+"southernprovincesnigeria": [
+"Q2062030"
+],
+"southernprovsnigeria": [
+"Q2062030"
+],
+"southernrajputanastates": [
+"Q129286"
+],
+"southernrhodesia": [
+"Q750583"
+],
+"southernsectionnwrailway": [
+"Q129286"
+],
+"southernsectionwesternrajputanarailway": [
+"Q129286"
+],
+"southernshanstates": [
+"Q2376315"
+],
+"southindianrailwaycompany": [
+"Q129286"
+],
+"southkanara": [
+"Q1772596"
+],
+"southkensington": [
+"Q84"
+],
+"southkensingtonmuseum": [
+"Q129286"
+],
+"southmalabar": [
+"Q129286"
+],
+"southmalabardistricts": [
+"Q129286"
+],
+"southnigeria": [
+"Q2062030"
+],
+"southprov": [
+"Q918153"
+],
+"southprovince": [
+"Q918153"
+],
+"southwark": [
+"Q84"
+],
+"southwaziristan": [
+"Q4412467"
+],
+"southwell": [
+"Q84"
+],
+"southwestafrica": [
+"Q953068"
+],
+"spanishtown": [
+"Q2526023"
+],
+"spanishtowndistrictofstcatherines": [
+"Q2526023"
+],
+"spanishtownjamaica": [
+"Q2526023"
+],
+"spanishtwn": [
+"Q2526023"
+],
+"spnig": [
+"Q2062030"
+],
+"spnigeria": [
+"Q2062030"
+],
+"spore": [
+"Q4373718"
+],
+"sporedivn": [
+"Q334"
+],
+"spre": [
+"Q334"
+],
+"springsure": [
+"Q28401203"
+],
+"springure": [
+"Q28401203"
+],
+"sprov": [
+"Q2062030",
+"Q918153"
+],
+"sprovs": [
+"Q2062030"
+],
+"sprovsnig": [
+"Q2062030"
+],
+"sprovsnigeria": [
+"Q2062030"
+],
+"spt": [
+"Q129286"
+],
+"srhod": [
+"Q750583"
+],
+"srhodesia": [
+"Q750583"
+],
+"srimenanti": [
+"Q1400154"
+],
+"ss": [
+"Q376178"
+],
+"ssettlements": [
+"Q376178"
+],
+"ssettlimts": [
+"Q376178"
+],
+"ssettlms": [
+"Q376178"
+],
+"ssettlmts": [
+"Q376178"
+],
+"ssettments": [
+"Q376178"
+],
+"ssettmts": [
+"Q376178"
+],
+"sshan": [
+"Q2376315"
+],
+"sshanstates": [
+"Q2376315"
+],
+"ssspore": [
+"Q376178"
+],
+"sstlimts": [
+"Q376178"
+],
+"sstlmts": [
+"Q376178"
+],
+"sstlts": [
+"Q376178"
+],
+"sstmts": [
+"Q376178"
+],
+"sstthnts": [
+"Q376178"
+],
+"ssttlimts": [
+"Q376178"
+],
+"ssttlmnts": [
+"Q376178"
+],
+"ssttlmts": [
+"Q376178"
+],
+"ssttlns": [
+"Q376178"
+],
+"ssttlnts": [
+"Q376178"
+],
+"ssttmte": [
+"Q376178"
+],
+"ssttmts": [
+"Q376178"
+],
+"stafford": [
+"Q84"
+],
+"staffordshire": [
+"Q84"
+],
+"staffs": [
+"Q84"
+],
+"stancreek": [
+"Q1643555"
+],
+"standerton": [
+"Q193619"
+],
+"standrewgrenada": [
+"Q3116419"
+],
+"standrewsgrenada": [
+"Q3116419"
+],
+"standrewsparishgrenada": [
+"Q3116419"
+],
+"stanger": [
+"Q193619"
+],
+"stanley": [
+"Q9648"
+],
+"stanleyfalklandislands": [
+"Q9648"
+],
+"stanncreek": [
+"Q1643555"
+],
+"stannjamaica": [
+"Q2526023"
+],
+"stannsbay": [
+"Q2526023"
+],
+"stateofperak": [
+"Q1400154"
+],
+"staterailwayrevestablishment": [
+"Q129286"
+],
+"staterailways": [
+"Q129286"
+],
+"staterailwaysbranch": [
+"Q129286"
+],
+"staterailwaysestablishment": [
+"Q129286"
+],
+"statesofrajputana": [
+"Q129286"
+],
+"statrailways": [
+"Q129286"
+],
+"stcatherine": [
+"Q2526023"
+],
+"stchristopher": [
+"Q1637975"
+],
+"stchristopherandnevis": [
+"Q1637975"
+],
+"stchristophers": [
+"Q1637975"
+],
+"stelizabeth": [
+"Q2526023"
+],
+"stelizabethjamaica": [
+"Q2526023"
+],
+"stelizjamaica": [
+"Q2526023"
+],
+"stellenbosch": [
+"Q193619"
+],
+"sterkstroom": [
+"Q193619"
+],
+"stgeorge": [
+"Q3116419"
+],
+"stgeorgesdivisiontowerhamlets": [
+"Q129286"
+],
+"stgeorgesgrenada": [
+"Q3116419"
+],
+"stgeorgeshosp": [
+"Q129286"
+],
+"sth": [
+"Q34497"
+],
+"sthelena": [
+"Q34497"
+],
+"sthwaziristan": [
+"Q4412467"
+],
+"sthyacinthe": [
+"Q16"
+],
+"stjohnnewbrunswick": [
+"Q1965"
+],
+"stjohns": [
+"Q2003"
+],
+"stjohnsantigua": [
+"Q130386222"
+],
+"stjohnsnewfndld": [
+"Q2003"
+],
+"stjohnsnewfoundland": [
+"Q2003"
+],
+"stk": [
+"Q1637975"
+],
+"stkitts": [
+"Q1637975"
+],
+"stkittsandnevis": [
+"Q1637975"
+],
+"stkittsleewardis": [
+"Q1637975"
+],
+"stkittsnevis": [
+"Q1637975"
+],
+"stkittsnevisandanguilla": [
+"Q1637975"
+],
+"stkn": [
+"Q1637975"
+],
+"stl": [
+"Q15238409"
+],
+"stlucia": [
+"Q15238409"
+],
+"stmaryjamaica": [
+"Q2526023"
+],
+"stmarylebone": [
+"Q84"
+],
+"stockholm": [
+"Q129286"
+],
+"stocktonontees": [
+"Q84"
+],
+"storedepartment": [
+"Q129286"
+],
+"storedepot": [
+"Q129286"
+],
+"storedepotindiaoffice": [
+"Q129286"
+],
+"storedept": [
+"Q129286"
+],
+"storedeptindiaoffice": [
+"Q129286"
+],
+"stormsriver": [
+"Q193619"
+],
+"stpetersburg": [
+"Q129286"
+],
+"straits": [
+"Q376178"
+],
+"straitsettlements": [
+"Q376178"
+],
+"straitss": [
+"Q376178"
+],
+"straitssettlement": [
+"Q376178"
+],
+"straitssettlements": [
+"Q376178"
+],
+"straitssettlementsandfederatedmalaystates": [
+"Q129286"
+],
+"straitssttlmts": [
+"Q376178"
+],
+"stratfieldmortimer": [
+"Q84"
+],
+"stroud": [
+"Q84"
+],
+"strsettl": [
+"Q376178"
+],
+"strsettler": [
+"Q376178"
+],
+"strsettls": [
+"Q376178"
+],
+"strsettlts": [
+"Q376178"
+],
+"strsttlmts": [
+"Q376178"
+],
+"stsalvador": [
+"Q21815597"
+],
+"stutterheim": [
+"Q193619"
+],
+"stutterheimdivisioncapecolony": [
+"Q193619"
+],
+"stv": [
+"Q15240384"
+],
+"stvgrenadines": [
+"Q3116419"
+],
+"stvin": [
+"Q15240384"
+],
+"stvincent": [
+"Q15240384"
+],
+"stvincentwestindies": [
+"Q15240384"
+],
+"suakim": [
+"Q541455"
+],
+"suakin": [
+"Q541455"
+],
+"subjudicialservicebengal": [
+"Q129286"
+],
+"sudan": [
+"Q541455"
+],
+"sudangovernment": [
+"Q541455"
+],
+"sudangovt": [
+"Q129286"
+],
+"sudanrailways": [
+"Q541455"
+],
+"suezcanal": [
+"Q127861"
+],
+"suffolk": [
+"Q84"
+],
+"sugarcanesubstationiar": [
+"Q129286"
+],
+"suket": [
+"Q3503368"
+],
+"sukkur": [
+"Q891827"
+],
+"sulaimani": [
+"Q796"
+],
+"sultanpore": [
+"Q129286"
+],
+"sultanpur": [
+"Q129286"
+],
+"sultapur": [
+"Q129286"
+],
+"sulymah": [
+"Q30059027"
+],
+"sumatra": [
+"Q252"
+],
+"sundarbans": [
+"Q129286"
+],
+"sungeiujong": [
+"Q1400154"
+],
+"sunghiebackupprovinceofwellesley": [
+"Q188096"
+],
+"sunjeiujong": [
+"Q1400154"
+],
+"superioracctsestablishment": [
+"Q129286"
+],
+"supplydepartment": [
+"Q129286"
+],
+"surat": [
+"Q891827"
+],
+"surgana": [
+"Q17298275"
+],
+"surganastate": [
+"Q17298275"
+],
+"surmavalleyandhilldists": [
+"Q129286"
+],
+"surrey": [
+"Q84"
+],
+"surveydepartment": [
+"Q129286"
+],
+"surveyofindia": [
+"Q129286"
+],
+"surveyofindiadepartment": [
+"Q129286"
+],
+"sussex": [
+"Q84"
+],
+"sutlej": [
+"Q2629708"
+],
+"suva": [
+"Q5148320"
+],
+"suvafiji": [
+"Q5148320"
+],
+"svantvdi": [
+"Q18164343"
+],
+"swa": [
+"Q953068"
+],
+"swaadmstn": [
+"Q953068"
+],
+"swafrica": [
+"Q953068"
+],
+"swafricaprotectorate": [
+"Q953068"
+],
+"swak": [
+"Q1658411"
+],
+"swales": [
+"Q84"
+],
+"swanriverwesternaustralia": [
+"Q1162123"
+],
+"swansea": [
+"Q408"
+],
+"swanseatasmania": [
+"Q408"
+],
+"swaprotectorate": [
+"Q953068"
+],
+"swat": [
+"Q3246260"
+],
+"swaz": [
+"Q1050"
+],
+"swaziland": [
+"Q1050"
+],
+"swazilandadminstrn": [
+"Q1050"
+],
+"swazilandadmnstrn": [
+"Q1050"
+],
+"swazilandadmstrn": [
+"Q1050"
+],
+"swaziristan": [
+"Q4412467"
+],
+"swazpolice": [
+"Q1050"
+],
+"swellendam": [
+"Q193619"
+],
+"swellendamcape": [
+"Q193619"
+],
+"swellendamcapecolonial": [
+"Q193619"
+],
+"swellendamcapecolony": [
+"Q193619"
+],
+"swellendamdistrict": [
+"Q193619"
+],
+"swellendamdivision": [
+"Q193619"
+],
+"swestafrica": [
+"Q953068"
+],
+"sydenhamcollegeofcommerceandeconomicsbombay": [
+"Q129286"
+],
+"sydney": [
+"Q18348382"
+],
+"sydneynewsouthwales": [
+"Q18348382"
+],
+"sydneynsw": [
+"Q18348382"
+],
+"sydneynswales": [
+"Q18348382"
+],
+"sylhet": [
+"Q129286"
+],
+"sylhetandcachar": [
+"Q129286"
+],
+"syria": [
+"Q84"
+],
+"tabankulu": [
+"Q193619"
+],
+"tablebay": [
+"Q193619"
+],
+"tablebaycapeofgoodhope": [
+"Q193619"
+],
+"tacarigua": [
+"Q116282722"
+],
+"tacariguadistricttrinidad": [
+"Q116282722"
+],
+"tacquahdistrict": [
+"Q503623"
+],
+"tafogc": [
+"Q503623"
+],
+"tailevu": [
+"Q5148320"
+],
+"taiping": [
+"Q1400154"
+],
+"taipingperak": [
+"Q1400154"
+],
+"taipo": [
+"Q1054923"
+],
+"taipoinaddn": [
+"Q1054923"
+],
+"takoradi": [
+"Q503623"
+],
+"tamale": [
+"Q503623"
+],
+"tamalegoldcoast": [
+"Q503623"
+],
+"tampin": [
+"Q1400154"
+],
+"tampinnegrisembilan": [
+"Q1400154"
+],
+"tamworth": [
+"Q84"
+],
+"tang": [
+"Q158725"
+],
+"tanga": [
+"Q158725"
+],
+"tangalla": [
+"Q918153"
+],
+"tangalle": [
+"Q918153"
+],
+"tanganyika": [
+"Q158725"
+],
+"tanganyikaadmnstn": [
+"Q158725"
+],
+"tanganyikaadmstrn": [
+"Q158725"
+],
+"tanganyikarailways": [
+"Q129286",
+"Q2046345"
+],
+"tanganyikaterr": [
+"Q158725"
+],
+"tanganyikaterritory": [
+"Q158725"
+],
+"tanganyikaterritoryadmstrn": [
+"Q158725"
+],
+"tanganyikaterritoryasdistrictsuperintendentpolice": [
+"Q747314"
+],
+"tanganyikaterry": [
+"Q158725"
+],
+"tanganyikaterryrailways": [
+"Q2046345"
+],
+"tangrailways": [
+"Q541455"
+],
+"tanjongmalim": [
+"Q1400154"
+],
+"tanjongmalini": [
+"Q1400154"
+],
+"tanjongpagar": [
+"Q334"
+],
+"tanjore": [
+"Q129286"
+],
+"tank": [
+"Q129286"
+],
+"tanson": [
+"Q1400154"
+],
+"tanzania": [
+"Q158725"
+],
+"tapah": [
+"Q1400154"
+],
+"taranaki": [
+"Q664"
+],
+"taranakinzealand": [
+"Q664"
+],
+"tarawa": [
+"Q271876"
+],
+"tasmania": [
+"Q5148519"
+],
+"taung": [
+"Q193619"
+],
+"taunggyi": [
+"Q2376315"
+],
+"taungs": [
+"Q193619"
+],
+"taungsbrbechuanaland": [
+"Q193619"
+],
+"taveuni": [
+"Q5148320"
+],
+"tavistock": [
+"Q84"
+],
+"taviuni": [
+"Q5148320"
+],
+"taviunifiji": [
+"Q5148320"
+],
+"tdad": [
+"Q116282722"
+],
+"tdadandtob": [
+"Q116282722"
+],
+"teheran": [
+"Q129286"
+],
+"tehri": [
+"Q1381495"
+],
+"tehristate": [
+"Q1381495"
+],
+"tellicherry": [
+"Q129286"
+],
+"telokanson": [
+"Q1400154"
+],
+"telukanson": [
+"Q1400154"
+],
+"tembuland": [
+"Q370736"
+],
+"tembulandcofgoodhope": [
+"Q370736"
+],
+"temerloh": [
+"Q1400154"
+],
+"temerlohpahang": [
+"Q1400154"
+],
+"tenasserim": [
+"Q2376315"
+],
+"tenom": [
+"Q1400154"
+],
+"tenterfield": [
+"Q18348382"
+],
+"territoryofnewguinea": [
+"Q1443945"
+],
+"teso": [
+"Q1097943"
+],
+"tezpur": [
+"Q129286"
+],
+"thabanchu": [
+"Q1142179"
+],
+"thaiping": [
+"Q1400154"
+],
+"thal": [
+"Q4412467"
+],
+"thalchotiali": [
+"Q3303188"
+],
+"thalchotialiagency": [
+"Q3303188"
+],
+"thana": [
+"Q129286"
+],
+"tharandparkar": [
+"Q129286"
+],
+"thayetmyo": [
+"Q2376315"
+],
+"thebahamas": [
+"Q21815597"
+],
+"thebechprotectorate": [
+"Q747314"
+],
+"thecape": [
+"Q370736"
+],
+"thecayo": [
+"Q1643555"
+],
+"thedeccan": [
+"Q129286"
+],
+"thedominionofcanada": [
+"Q16"
+],
+"thegambia": [
+"Q3557236"
+],
+"thegoldcoast": [
+"Q503623"
+],
+"thepunjab": [
+"Q2629708"
+],
+"therand": [
+"Q1187978"
+],
+"thestraitssettlements": [
+"Q376178"
+],
+"thewestafricasettlements": [
+"Q84"
+],
+"thewestindies": [
+"Q920396"
+],
+"thirsk": [
+"Q84"
+],
+"thomasoncollegeroorkee": [
+"Q129286"
+],
+"thparganas": [
+"Q129286"
+],
+"threerivers": [
+"Q16"
+],
+"tibet": [
+"Q148"
+],
+"tibetmission": [
+"Q129286"
+],
+"timcomalie": [
+"Q918153"
+],
+"tinnevelly": [
+"Q129286"
+],
+"tippera": [
+"Q17342164"
+],
+"tipperah": [
+"Q129286"
+],
+"tirah": [
+"Q2629708"
+],
+"tirahandpunjabfrontier": [
+"Q129286"
+],
+"tirhoot": [
+"Q129286"
+],
+"tirhut": [
+"Q129286"
+],
+"tirhutstaterailway": [
+"Q129286"
+],
+"tmalim": [
+"Q1400154"
+],
+"tnjubileecollegebhagalpur": [
+"Q129286"
+],
+"tobago": [
+"Q116282722"
+],
+"tochi": [
+"Q2629708",
+"Q4412467"
+],
+"tochiagency": [
+"Q4412467"
+],
+"toco": [
+"Q116282722"
+],
+"togoland": [
+"Q797527"
+],
+"togolandmilyrailways": [
+"Q2046345"
+],
+"toledodistrict": [
+"Q1643555"
+],
+"tonga": [
+"Q17197946"
+],
+"tongaland": [
+"Q193619"
+],
+"tongoland": [
+"Q193619"
+],
+"tonk": [
+"Q914031"
+],
+"tonkstate": [
+"Q914031"
+],
+"toowoomba": [
+"Q408"
+],
+"toro": [
+"Q1097943"
+],
+"toronto": [
+"Q1904"
+],
+"tortola": [
+"Q25305"
+],
+"tounghee": [
+"Q2376315"
+],
+"toungheoo": [
+"Q2376315"
+],
+"tounghoo": [
+"Q2376315"
+],
+"toungoo": [
+"Q2376315"
+],
+"toweroflondon": [
+"Q129286",
+"Q84"
+],
+"townofbombay": [
+"Q129286"
+],
+"townofonehunga": [
+"Q664"
+],
+"townsville": [
+"Q28401203"
+],
+"toxtethdivisionliverpool": [
+"Q84"
+],
+"trandps": [
+"Q541455"
+],
+"transjordan": [
+"Q1121819"
+],
+"transjordania": [
+"Q1121819"
+],
+"transkei": [
+"Q193619"
+],
+"transkeianterritories": [
+"Q193619"
+],
+"transkeianterritory": [
+"Q193619"
+],
+"transkrian": [
+"Q1400154"
+],
+"transpn": [
+"Q129286"
+],
+"transvaal": [
+"Q1187978"
+],
+"transvaalprov": [
+"Q193619"
+],
+"transvaalprovdivision": [
+"Q193619"
+],
+"transvaalprovdivn": [
+"Q193619"
+],
+"transvaalprovince": [
+"Q193619"
+],
+"transvaalprovinceunionofsafrica": [
+"Q193619"
+],
+"transvaalrepublic": [
+"Q550374"
+],
+"transvaalstate": [
+"Q550374"
+],
+"travancore": [
+"Q150058"
+],
+"travancoreandcochin": [
+"Q129286"
+],
+"travancoregovt": [
+"Q129286"
+],
+"treasury": [
+"Q84"
+],
+"trelawny": [
+"Q2526023"
+],
+"treng": [
+"Q1400154"
+],
+"trengganu": [
+"Q1400154"
+],
+"trichinopoli": [
+"Q129286"
+],
+"trichinopoly": [
+"Q129286"
+],
+"trin": [
+"Q116282722"
+],
+"trinandtob": [
+"Q116282722"
+],
+"trinandtobago": [
+"Q116282722"
+],
+"trincomalee": [
+"Q918153"
+],
+"trincomaleeceylon": [
+"Q918153"
+],
+"trincomaleekach": [
+"Q918153"
+],
+"trincomalie": [
+"Q918153"
+],
+"trincomalieceylon": [
+"Q918153"
+],
+"trinidad": [
+"Q116282722"
+],
+"trinidadandtobago": [
+"Q116282722"
+],
+"trintob": [
+"Q116282722"
+],
+"tristandacunha": [
+"Q220982"
+],
+"trucialcoast": [
+"Q1852345"
+],
+"tsoloeastgriqualand": [
+"Q193619"
+],
+"tsomo": [
+"Q193619"
+],
+"tt": [
+"Q158725"
+],
+"tugelavalley": [
+"Q1301901"
+],
+"tulbagh": [
+"Q193619"
+],
+"tulbaghdivisioncape": [
+"Q193619"
+],
+"turkana": [
+"Q2538511"
+],
+"turkisharabia": [
+"Q796"
+],
+"turksandcaicosis": [
+"Q18221"
+],
+"turksandcaicosisland": [
+"Q18221"
+],
+"turksandcaicosislands": [
+"Q18221"
+],
+"turksandcaicosislds": [
+"Q18221"
+],
+"turkscaicosis": [
+"Q18221"
+],
+"turksis": [
+"Q18221"
+],
+"turksisland": [
+"Q18221"
+],
+"turksislands": [
+"Q18221"
+],
+"tuticorin": [
+"Q129286"
+],
+"tvaal": [
+"Q193619"
+],
+"tvl": [
+"Q193619"
+],
+"twillingate": [
+"Q2003"
+],
+"twillingatedistrict": [
+"Q2003"
+],
+"tyrone": [
+"Q26"
+],
+"ubombodistrict": [
+"Q193619"
+],
+"udaipur": [
+"Q130642141"
+],
+"udaipurstate": [
+"Q130642141"
+],
+"uga": [
+"Q1097943"
+],
+"uganda": [
+"Q1097943"
+],
+"ugandamarine": [
+"Q2046345"
+],
+"ugandaprotectorate": [
+"Q1097943"
+],
+"ugandarailway": [
+"Q129286",
+"Q2046345"
+],
+"ugandarailwaymarine": [
+"Q2046345"
+],
+"uganyikaterritory": [
+"Q158725"
+],
+"ugapolice": [
+"Q1097943"
+],
+"uitenhage": [
+"Q370736"
+],
+"uk": [
+"Q84"
+],
+"ukambaprov": [
+"Q2538511"
+],
+"ukandusa": [
+"Q129286"
+],
+"uktaluniversity": [
+"Q129286"
+],
+"ulster": [
+"Q84"
+],
+"ululangat": [
+"Q1400154"
+],
+"ululangatselangor": [
+"Q1400154"
+],
+"ulundi": [
+"Q193619"
+],
+"ulupahang": [
+"Q1400154"
+],
+"uluselangor": [
+"Q1400154"
+],
+"uluselangorextension": [
+"Q1400154"
+],
+"ulwar": [
+"Q1553143"
+],
+"ulwarrajputana": [
+"Q1553143"
+],
+"umballa": [
+"Q129286"
+],
+"umballakarnalsettlement": [
+"Q129286"
+],
+"umlalazidistrict": [
+"Q193619"
+],
+"umlalazisubdistofeshowe": [
+"Q193619"
+],
+"umlazi": [
+"Q1301901"
+],
+"umlazidivisioncoofdurban": [
+"Q1301901"
+],
+"umlazidivisionpinetown": [
+"Q1301901"
+],
+"umlazinatal": [
+"Q1301901"
+],
+"umsinga": [
+"Q193619"
+],
+"umsingadivision": [
+"Q193619"
+],
+"umsingamagistracy": [
+"Q193619"
+],
+"umtata": [
+"Q193619"
+],
+"umuahia": [
+"Q2046345"
+],
+"umvoti": [
+"Q193619"
+],
+"umvoticounty": [
+"Q193619"
+],
+"umvotidivision": [
+"Q193619"
+],
+"umzimkuludistrict": [
+"Q193619"
+],
+"unao": [
+"Q129286"
+],
+"unfederatedmalaystates": [
+"Q1973084"
+],
+"uniondale": [
+"Q370736"
+],
+"uniongroup": [
+"Q664"
+],
+"unionis": [
+"Q664"
+],
+"unionofafrica": [
+"Q193619"
+],
+"unionofsa": [
+"Q5155572"
+],
+"unionofsafr": [
+"Q193619"
+],
+"unionofsafrica": [
+"Q258",
+"Q5155572"
+],
+"unionofsca": [
+"Q193619"
+],
+"unionofsouthafrica": [
+"Q193619"
+],
+"unionsafrica": [
+"Q193619"
+],
+"unitedkingdom": [
+"Q84"
+],
+"unitedprov": [
+"Q2160037"
+],
+"unitedprovadmn": [
+"Q2160037"
+],
+"unitedprovandcentralprov": [
+"Q129286"
+],
+"unitedprovcircle": [
+"Q2160037"
+],
+"unitedprovinces": [
+"Q2160037"
+],
+"unitedprovpunjabnwfprovandajmermerwara": [
+"Q129286"
+],
+"unitedprovs": [
+"Q2160037"
+],
+"unitedprovscircle": [
+"Q2160037"
+],
+"unitedprovsindia": [
+"Q2160037"
+],
+"unitedprovsmedicalservice": [
+"Q129286"
+],
+"unitedstates": [
+"Q30"
+],
+"unitedstatesoftheionianislands": [
+"Q1063498"
+],
+"unprovs": [
+"Q2160037"
+],
+"unyoro": [
+"Q1097943"
+],
+"uofsafrica": [
+"Q193619"
+],
+"up": [
+"Q2160037"
+],
+"upcircle": [
+"Q129286"
+],
+"upconfd": [
+"Q129286"
+],
+"upengrgservice": [
+"Q129286"
+],
+"upperburma": [
+"Q2376315"
+],
+"upperburmadivision": [
+"Q2376315"
+],
+"upperburmadivn": [
+"Q2376315"
+],
+"uppercan": [
+"Q795427"
+],
+"uppercanada": [
+"Q795427"
+],
+"upperegypt": [
+"Q127861"
+],
+"upperperak": [
+"Q1400154"
+],
+"uppersindfrontier": [
+"Q891827"
+],
+"uprovs": [
+"Q2160037"
+],
+"uruan": [
+"Q2046345"
+],
+"uruanfrontierstation": [
+"Q2046345"
+],
+"uruansta": [
+"Q2046345"
+],
+"usa": [
+"Q30"
+],
+"uselangor": [
+"Q1400154"
+],
+"ustates": [
+"Q30"
+],
+"utakamand": [
+"Q129286"
+],
+"uva": [
+"Q918153"
+],
+"uvaprov": [
+"Q918153"
+],
+"valetta": [
+"Q6744657"
+],
+"vallore": [
+"Q129286"
+],
+"vancouver": [
+"Q1973"
+],
+"vancouverbc": [
+"Q1973"
+],
+"vancouverbcolumbia": [
+"Q1973"
+],
+"vancouverbrcolumbia": [
+"Q1973"
+],
+"vancouverisland": [
+"Q2510000"
+],
+"vancouversisland": [
+"Q2510000"
+],
+"vandiemansland": [
+"Q1780114"
+],
+"vandiemensland": [
+"Q1780114"
+],
+"variously": [
+"Q129286"
+],
+"variousstations": [
+"Q129286"
+],
+"vasse": [
+"Q57676556"
+],
+"vassewaustralia": [
+"Q57676556"
+],
+"vassewesternaustralia": [
+"Q57676556"
+],
+"vavuniya": [
+"Q918153"
+],
+"vellore": [
+"Q129286"
+],
+"vere": [
+"Q2526023"
+],
+"vereeniging": [
+"Q193619"
+],
+"versailles": [
+"Q747314"
+],
+"verulam": [
+"Q1301901"
+],
+"veruluminandadivision": [
+"Q1301901"
+],
+"victoria": [
+"Q1973",
+"Q56850459"
+],
+"victoriaaustralia": [
+"Q56850459"
+],
+"victoriabc": [
+"Q1973"
+],
+"victoriabcolumbia": [
+"Q1973"
+],
+"victoriaeast": [
+"Q370736"
+],
+"victoriaeastcapecolony": [
+"Q370736"
+],
+"victoriaecapecolonial": [
+"Q370736"
+],
+"victoriagaol": [
+"Q1054923"
+],
+"victoriagaolhongkong": [
+"Q1054923"
+],
+"victoriainst": [
+"Q1400154"
+],
+"victoriainstklumpur": [
+"Q1400154"
+],
+"victorianrailways": [
+"Q408"
+],
+"victoriaseychellesandoutlyingislands": [
+"Q21821453"
+],
+"victoriawest": [
+"Q193619"
+],
+"victoriawestcapeofgoodhope": [
+"Q193619"
+],
+"victoriawestcofgoodhope": [
+"Q193619"
+],
+"vienna": [
+"Q129286"
+],
+"virginis": [
+"Q25305"
+],
+"virginislands": [
+"Q25305"
+],
+"virginislds": [
+"Q25305"
+],
+"vitilevu": [
+"Q5148320"
+],
+"vitulevufiji": [
+"Q5148320"
+],
+"vizagapatam": [
+"Q129286"
+],
+"vizianagaramzamindari": [
+"Q129286"
+],
+"vizianagram": [
+"Q129286"
+],
+"vizianagramzamindari": [
+"Q129286"
+],
+"vizianagramzemindari": [
+"Q129286"
+],
+"volta": [
+"Q503623"
+],
+"voltadistrict": [
+"Q503623"
+],
+"vredefort": [
+"Q193619"
+],
+"vrijburgbritishbechuanaland": [
+"Q193619"
+],
+"vryburg": [
+"Q193619"
+],
+"vryheid": [
+"Q193619"
+],
+"w": [
+"Q129286"
+],
+"wa": [
+"Q57676556",
+"Q84"
+],
+"wac": [
+"Q84"
+],
+"wadenprotectorate": [
+"Q1865132"
+],
+"wafrica": [
+"Q84"
+],
+"waiapu": [
+"Q664"
+],
+"waikato": [
+"Q664"
+],
+"wakefield": [
+"Q84"
+],
+"wakema": [
+"Q129286"
+],
+"wakkerstroom": [
+"Q193619"
+],
+"wales": [
+"Q84"
+],
+"wana": [
+"Q2629708",
+"Q4412467"
+],
+"wano": [
+"Q2629708",
+"Q4412467"
+],
+"wardha": [
+"Q129286"
+],
+"wardhavalleyrailway": [
+"Q129286"
+],
+"wardsestatepatna": [
+"Q129286"
+],
+"waroffice": [
+"Q84"
+],
+"waroracolliery": [
+"Q129286"
+],
+"warrenton": [
+"Q193619"
+],
+"warri": [
+"Q2046345"
+],
+"warringahnsw": [
+"Q18348382"
+],
+"warwick": [
+"Q84"
+],
+"washington": [
+"Q30"
+],
+"washingtondc": [
+"Q30"
+],
+"waust": [
+"Q57676556"
+],
+"waustralia": [
+"Q57676556"
+],
+"waustralian": [
+"Q408"
+],
+"waziristan": [
+"Q129286"
+],
+"waziristanforce": [
+"Q129286"
+],
+"wberar": [
+"Q129286"
+],
+"wc": [
+"Q129286"
+],
+"weenen": [
+"Q1301901"
+],
+"weenencountry": [
+"Q1301901"
+],
+"weenencounty": [
+"Q1301901"
+],
+"weenencountynatal": [
+"Q1301901"
+],
+"weenendivision": [
+"Q1301901"
+],
+"weenennatal": [
+"Q1301901"
+],
+"weihaiwei": [
+"Q15939896"
+],
+"wellington": [
+"Q664"
+],
+"wellingtonnewzealand": [
+"Q664"
+],
+"wellingtonnz": [
+"Q664"
+],
+"wembley": [
+"Q84"
+],
+"wentworthcountyont": [
+"Q1904"
+],
+"wepener": [
+"Q193619"
+],
+"westafricasettlements": [
+"Q84"
+],
+"westaust": [
+"Q408"
+],
+"westaustralia": [
+"Q408"
+],
+"westbury": [
+"Q408"
+],
+"westburytasmania": [
+"Q408"
+],
+"westernadenprotectorate": [
+"Q1865132"
+],
+"westernaustralia": [
+"Q57676556"
+],
+"westerncircle": [
+"Q129286"
+],
+"westernjumnacanalnwprovinces": [
+"Q129286"
+],
+"westernpacific": [
+"Q1545934"
+],
+"westernprov": [
+"Q503623"
+],
+"westernprovince": [
+"Q918153"
+],
+"westernprovinceceylon": [
+"Q918153"
+],
+"westernprovuganda": [
+"Q1097943"
+],
+"westernrajputana": [
+"Q129286"
+],
+"westernrajputanasection": [
+"Q129286"
+],
+"westernrajputanastates": [
+"Q129286"
+],
+"westernrangemadras": [
+"Q129286"
+],
+"westernsamoa": [
+"Q683"
+],
+"westernstatesofrajputana": [
+"Q129286"
+],
+"westernstatesrajputana": [
+"Q129286"
+],
+"westernsystem": [
+"Q129286"
+],
+"westindies": [
+"Q920396"
+],
+"westlandnewzealand": [
+"Q664"
+],
+"westminster": [
+"Q84"
+],
+"westmoreland": [
+"Q2526023"
+],
+"westmorland": [
+"Q84"
+],
+"westprov": [
+"Q503623",
+"Q918153"
+],
+"westridingofyorkshire": [
+"Q84"
+],
+"wfalkland": [
+"Q9648"
+],
+"whitehall": [
+"Q84"
+],
+"wi": [
+"Q920396"
+],
+"willowmore": [
+"Q193619"
+],
+"willowvale": [
+"Q193619"
+],
+"wilts": [
+"Q84"
+],
+"winburg": [
+"Q193619"
+],
+"winburgofs": [
+"Q193619"
+],
+"winchester": [
+"Q84"
+],
+"windies": [
+"Q920396"
+],
+"windis": [
+"Q2660774"
+],
+"windislds": [
+"Q2660774"
+],
+"windward": [
+"Q2660774"
+],
+"windwardis": [
+"Q2660774"
+],
+"windwardisgrenada": [
+"Q2660774"
+],
+"windwardislands": [
+"Q2660774"
+],
+"windwardislandsbarbados": [
+"Q2660774"
+],
+"windwardislds": [
+"Q2660774"
+],
+"windwardisstvincent": [
+"Q15240384"
+],
+"winnebah": [
+"Q503623"
+],
+"winnebahgcoast": [
+"Q503623"
+],
+"winnipeg": [
+"Q1948"
+],
+"winnipegmanitoba": [
+"Q1948"
+],
+"winnipegresidencyformanitobaandnwt": [
+"Q1948"
+],
+"witwatersrand": [
+"Q1187978"
+],
+"witwatersranddistrict": [
+"Q1187978"
+],
+"wkathiawar": [
+"Q129286"
+],
+"wkathiawaragency": [
+"Q129286"
+],
+"wnig": [
+"Q2046345"
+],
+"wnile": [
+"Q1097943"
+],
+"wolmaransstad": [
+"Q193619"
+],
+"wolverhampton": [
+"Q84"
+],
+"woolwich": [
+"Q84"
+],
+"woolwicharsenal": [
+"Q84"
+],
+"worcester": [
+"Q193619"
+],
+"worcestercape": [
+"Q193619"
+],
+"worcesterextension": [
+"Q193619"
+],
+"worcestershire": [
+"Q84"
+],
+"wpac": [
+"Q1545934"
+],
+"wpacific": [
+"Q1545934"
+],
+"wprov": [
+"Q1097943",
+"Q2046345",
+"Q503623",
+"Q918153"
+],
+"wprovince": [
+"Q918153"
+],
+"wrajputana": [
+"Q129286"
+],
+"wrajputanasection": [
+"Q129286"
+],
+"wrajputanastates": [
+"Q129286"
+],
+"wregion": [
+"Q2046345"
+],
+"wregn": [
+"Q2046345"
+],
+"wsamoa": [
+"Q683"
+],
+"wstatesofrajputana": [
+"Q129286"
+],
+"wynberg": [
+"Q370736"
+],
+"wynbergcapecolony": [
+"Q370736"
+],
+"wyndham": [
+"Q57676556"
+],
+"wyndhamcambridgegulf": [
+"Q57676556"
+],
+"xmasi": [
+"Q31063"
+],
+"xmasis": [
+"Q31063"
+],
+"yaba": [
+"Q2046345"
+],
+"yabanig": [
+"Q2046345"
+],
+"yanam": [
+"Q129286"
+],
+"yarkand": [
+"Q148"
+],
+"yatung": [
+"Q148"
+],
+"yemen": [
+"Q805"
+],
+"yeravada": [
+"Q129286"
+],
+"yeravda": [
+"Q129286"
+],
+"yerrowda": [
+"Q129286"
+],
+"yervada": [
+"Q129286"
+],
+"york": [
+"Q84"
+],
+"yorkconb": [
+"Q1965"
+],
+"yorkconewbrunswick": [
+"Q1965"
+],
+"yorks": [
+"Q84"
+],
+"yorkshire": [
+"Q84"
+],
+"yorkwaustralia": [
+"Q57676556"
+],
+"yorkwestaustralia": [
+"Q57676556"
+],
+"yorkwesternaustralia": [
+"Q57676556"
+],
+"yorubaland": [
+"Q2046345"
+],
+"yukon": [
+"Q2009"
+],
+"yukonterritory": [
+"Q2009"
+],
+"zabul": [
+"Q3303188"
+],
+"zambia": [
+"Q953903"
+],
+"zanz": [
+"Q3574782"
+],
+"zanzibar": [
+"Q3574782"
+],
+"zanzibarcolony": [
+"Q3574782"
+],
+"zanzibarcommdtofpoliceandgovernorofprisons": [
+"Q747314"
+],
+"zanzibarprotectorate": [
+"Q3574782"
+],
+"zaria": [
+"Q2046345"
+],
+"zariannig": [
+"Q2046345"
+],
+"zariaprov": [
+"Q2046345"
+],
+"zastron": [
+"Q193619"
+],
+"zeerust": [
+"Q193619"
+],
+"zeitouncairo": [
+"Q127861"
+],
+"zeyla": [
+"Q662653"
+],
+"zhob": [
+"Q3303188"
+],
+"zhobvalley": [
+"Q3303188"
+],
+"zhoib": [
+"Q129286"
+],
+"zhor": [
+"Q3303188"
+],
+"zhowvalleyrailwaysurvey": [
+"Q129286"
+],
+"zohb": [
+"Q3303188"
+],
+"zohbvalley": [
+"Q3303188"
+],
+"zohrvalley": [
+"Q3303188"
+],
+"zomba": [
+"Q1649306"
+],
+"zombadistrict": [
+"Q1649306"
+],
+"zululand": [
+"Q729768"
+],
+"zungeru": [
+"Q2046345"
+]
+}
+}

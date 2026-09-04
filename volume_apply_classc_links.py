@@ -23,6 +23,13 @@ Auto-apply policy (0 observed FPs in sample):
          appointment; promoted only when the quote grounds in the person's
          events AND colony/position corroborates (10/10 sample-verified —
          mostly used-middle-name cases the exact-initials guard rightly held)
+  tier3 is gated to det=hard (2026-09-04): the silver standard measured
+         apply_t3 at 79% precision (11/14) with every FP outside the hard
+         (place AND position) stratum — place-only / possim tier3 pairs
+         now stay in review.
+  hand   classc_hand_verdicts.jsonl (volume_silver_to_ledger.py) outranks the
+         machine policy: verdict 'different' suppresses a pair whatever the
+         judge said; verdict 'same' applies it as policy apply_hand.
   Careers matching >1 distinct person are demoted to review.
 Everything else -> classc_review_queue.jsonl, resolution "not_linked" —
 FINAL under this policy, no human review required (unlinked is the
@@ -90,11 +97,28 @@ def main() -> None:
     surfreq = Counter(re.sub(r"[^a-z]", "", (p.get("surname") or "").lower())
                       for p in persons.values())
 
-    sames = []
+    # hand-verdict ledger outranks the judge (accumulative, append-only)
+    hand: dict[str, str] = {}
+    ledger = CLASSDIR / "classc_hand_verdicts.jsonl"
+    if ledger.exists():
+        for l in ledger.open(encoding="utf-8"):
+            h = json.loads(l)
+            hand[h["id"]] = h["verdict"]
+
+    sames, seen_ids = [], set()
     for l in (CLASSDIR / "classc_results.jsonl").open(encoding="utf-8"):
         r = json.loads(l)
-        if r.get("verdict") == "same" and (r.get("confidence") or 0) >= SAME_CONF:
-            sames.append(r)
+        if hand.get(r["id"]) == "different":
+            continue
+        if (r.get("verdict") == "same" and (r.get("confidence") or 0) >= SAME_CONF) \
+                or hand.get(r["id"]) == "same":
+            sames.append(r); seen_ids.add(r["id"])
+    for pid, v in hand.items():          # hand 'same' with no judge row at all
+        if v == "same" and pid not in seen_ids and pid in pairs:
+            car, per = pid.split("::", 1)
+            sames.append({"id": pid, "career_id": car, "person_id": per,
+                          "verdict": "same", "confidence": None, "reason": "hand"})
+    n_hand_diff = sum(1 for v in hand.values() if v == "different")
 
     scored = []
     for v in sames:
@@ -124,7 +148,9 @@ def main() -> None:
         exact = (initials(given_of(car["name"])) ==
                  initials(given_of(pr["person"]["name"])) != ())
         freq = surfreq[re.sub(r"[^a-z]", "", (per.get("surname") or "").lower())]
-        if exact and det in ("hard", "place", "possim"):
+        if hand.get(v["id"]) == "same":
+            policy = "apply_hand"
+        elif exact and det in ("hard", "place", "possim"):
             policy = "apply_t1"
         elif exact and freq < RARE_SURNAME:
             policy = "apply_t2"
@@ -153,7 +179,7 @@ def main() -> None:
                 fuzz.partial_ratio(evd, ((e.get("position") or "") + " " +
                                          (e.get("place") or "")).lower()) >= 75
                 for e in per["events"])
-            if grounded and (s["det_tier"] in ("hard", "place") or s["pos_sim"] >= 75):
+            if grounded and s["det_tier"] == "hard":
                 s["policy"] = "apply_t3"
                 s["skeptic_evidence"] = r.get("evidence")
 
@@ -204,14 +230,19 @@ def main() -> None:
         f"- 'same' verdicts scored: {len(scored):,}",
         f"- applied: {len(applied):,} pairs / {len(linked_careers):,} careers "
         f"(tier1 {pol['apply_t1']:,}, tier2 {pol['apply_t2']:,}, "
-        f"tier3 skeptic {pol['apply_t3']:,}); corroboration {dict(det)}",
+        f"tier3 skeptic/hard {pol['apply_t3']:,}, hand {pol['apply_hand']:,}); "
+        f"corroboration {dict(det)}",
+        f"- hand-ledger suppressions (silver-refuted links): {n_hand_diff}",
         f"- not linked (FINAL under this policy — no review required): "
         f"{len(review):,} (ambiguous careers: {len(ambiguous):,})",
         "",
         "## Verification basis",
         "",
         "34 pairs read closely across strata + 10/10 skeptic-tier promotions",
-        "verified (July 2026). Every false positive failed the exact-initials",
+        "verified (July 2026); 200-item silver standard 2026-07-12 (NOBIO_SILVER.md):",
+        "t1 28/28, t2 7/7, t3 11/14 -> t3 gated to det=hard 2026-09-04, the",
+        "three refuted t3 links suppressed via the hand ledger.",
+        "Every earlier false positive failed the exact-initials",
         "test; every policy-passing pair was correct (0 observed FPs in the",
         "applied strata). LLM confidence is uniform (90-95) and was NOT used;",
         "corroboration is recomputed deterministically; tier3 additionally",
