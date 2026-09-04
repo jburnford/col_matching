@@ -36,6 +36,11 @@ BASELINES = {
     "gs3_vs_deduped_diff": 0,      # graph_stage3 persons != deduped set
     "gs3_orphan_event_refs": 0,    # career_events person_id not in persons
     "gs3_orphan_honour_refs": 0,   # honours person_id not in persons
+    # overlay layers (role/employment/honour/qualification/education edges,
+    # career_facts) are emitted SEPARATELY from the spine and go stale when
+    # only the spine is rebuilt (2026-09-03 review: 5,351 orphan role edges)
+    "gs3_orphan_overlay_refs": 0,  # overlay-edge person_id not in persons
+    "gs3_events_no_role_edge": 0,  # persons with events but no role edge
     "dup_person_ids": 0,           # duplicate person_id in deduped corpus
     # ---- corpus census (exact — a change means a rebuild happened;
     #      re-measure and update in the same commit) ----
@@ -129,6 +134,20 @@ def main() -> None:
     measured["gs3_orphan_honour_refs"] = sum(
         1 for r in jload(ROOT / "graph_stage3/honours.jsonl")
         if r["person_id"] not in pset)
+
+    overlay_orphans = 0
+    for layer in ("role_edges", "employment_edges", "honour_edges",
+                  "qualification_edges", "education_edges", "career_facts"):
+        f = ROOT / f"graph_stage3/{layer}.jsonl"
+        if f.exists():
+            overlay_orphans += sum(
+                1 for r in jload(f) if r["person_id"] not in pset)
+    measured["gs3_orphan_overlay_refs"] = overlay_orphans
+    ev_people = {r["person_id"]
+                 for r in jload(ROOT / "graph_stage3/career_events.jsonl")}
+    role_people = {r["person_id"]
+                   for r in jload(ROOT / "graph_stage3/role_edges.jsonl")}
+    measured["gs3_events_no_role_edge"] = len(ev_people - role_people)
 
     # screens (recomputed live so a regression in the person table shows
     # up here even if the screen output files are stale)
