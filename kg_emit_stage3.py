@@ -128,6 +128,14 @@ stats = {"persons": 0, "events": 0, "events_placed": 0, "events_grounded": 0,
          "honours": 0, "education": 0, "places_used": 0}
 places_used = set()
 
+# nameless split records (surname AND given names empty — 37 CO "_s1" stubs
+# from the 1965/66 editions) are not persons: skip them at emit so they never
+# reach the overlays or the atlas search (review A3: 37 search rows named "?").
+_nameless = [r for r in rows if not (r.get("surname") or r.get("given_names"))]
+if _nameless:
+    print(f"  skipped {len(_nameless)} nameless records:", [r["person_id"] for r in _nameless][:5], "…")
+rows = [r for r in rows if r.get("surname") or r.get("given_names")]
+
 for r in rows:
     pid = r["person_id"]
     stats["persons"] += 1

@@ -28,8 +28,8 @@ DuckDB, etc.
 
 | corpus | persons | career events | grounded to Wikidata |
 |--------|--------:|--------------:|---------------------:|
-| Colonial Office List (`data/kg`) | 27,739 | 180,830 | 1,119 persons |
-| India Office List (`data/iol`)   | 18,233 | 120,307 | *(person grounding deferred)* |
+| Colonial Office List (`data/kg`) | 27,526 | 180,470 | 1,066 persons |
+| India Office List (`data/iol`)   | 19,400 | 124,694 | *(person grounding deferred)* |
 
 Places, roles, organisations, schools and honours are grounded too: e.g. the CO
 graph resolves ~131k events to a Wikidata place QID and links 1,518 schools and

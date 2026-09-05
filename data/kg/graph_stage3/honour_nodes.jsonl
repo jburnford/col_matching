@@ -1,11 +1,11 @@
-{"id": "Q12177413", "label": "Companion of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 1930}
+{"id": "Q12177413", "label": "Companion of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 1929}
 {"id": "Q10762848", "label": "Officer of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 1625}
 {"id": "Q12201526", "label": "Member of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 1051}
-{"id": "Q12177415", "label": "Knight Commander of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 869}
+{"id": "Q12177415", "label": "Knight Commander of the Order of St Michael and St George", "type": "order", "source": "mcp", "n_people": 868}
 {"id": "Q12201477", "label": "Commander of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 555}
-{"id": "Q1335064", "label": "Military Cross", "type": "decoration", "source": "mcp", "n_people": 535}
+{"id": "Q1335064", "label": "Military Cross", "type": "decoration", "source": "mcp", "n_people": 534}
 {"id": "Q833163", "label": "Knight Bachelor", "type": "honour", "source": "mcp", "n_people": 455}
-{"id": "Q3195318", "label": "Colonial Police Medal", "type": "decoration", "source": "mcp", "n_people": 368, "merged_from": ["colkg:colonial_police_medal"]}
+{"id": "Q3195318", "label": "Colonial Police Medal", "type": "decoration", "source": "mcp", "n_people": 367, "merged_from": ["colkg:colonial_police_medal"]}
 {"id": "Q1533366", "label": "King's Counsel", "type": "appointment", "source": "reuse", "n_people": 353}
 {"id": "Q1810753", "label": "Imperial Service Order", "type": "order", "source": "mcp", "n_people": 293}
 {"id": "Q12177472", "label": "Companion of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 289}
