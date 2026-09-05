@@ -765,9 +765,9 @@
 "method": "self_colony"
 },
 "Q1150673": {
-"colony_qid": "Q1150673",
-"colony_label": "Penang (Prince of Wales Island)",
-"method": "self_colony"
+"colony_qid": "Q376178",
+"colony_label": "Straits Settlements",
+"method": "override"
 },
 "Q1156": {
 "colony_qid": "Q129286",
@@ -825,9 +825,9 @@
 "method": "country_walk"
 },
 "Q11708": {
-"colony_qid": "Q2645837",
-"colony_label": "British New Guinea",
-"method": "country_walk"
+"colony_qid": "Q4373718",
+"colony_label": "Singapore Crown Colony",
+"method": "override"
 },
 "Q1171": {
 "colony_qid": "Q129286",
@@ -2815,9 +2815,9 @@
 "method": "metropole_uk"
 },
 "Q188096": {
-"colony_qid": "Q188096",
-"colony_label": "Penang",
-"method": "self_colony"
+"colony_qid": "Q376178",
+"colony_label": "Straits Settlements",
+"method": "override"
 },
 "Q1884571": {
 "colony_qid": "Q1973084",
@@ -4245,9 +4245,9 @@
 "method": "country_is_colony"
 },
 "Q2336399": {
-"colony_qid": "Q129286",
-"colony_label": "Indian Empire (British Raj)",
-"method": "country_is_colony"
+"colony_qid": "Q3303188",
+"colony_label": "Baluchistan",
+"method": "override"
 },
 "Q2340665": {
 "colony_qid": "Q2340665",
@@ -6375,9 +6375,9 @@
 "method": "country_walk"
 },
 "Q466551": {
-"colony_qid": "Q193619",
-"colony_label": "Union of South Africa",
-"method": "country_fallback"
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "override"
 },
 "Q46733": {
 "colony_qid": "Q541455",
@@ -9253,5 +9253,25 @@
 "colony_qid": "Q664",
 "colony_label": "New Zealand",
 "method": "country_is_colony"
+},
+"Q3357254": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "override"
+},
+"Q704978": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "override"
+},
+"Q3642949": {
+"colony_qid": "Q370736",
+"colony_label": "Cape Colony",
+"method": "override"
+},
+"Q57278": {
+"colony_qid": "Q18348382",
+"colony_label": "New South Wales",
+"method": "override"
 }
 }

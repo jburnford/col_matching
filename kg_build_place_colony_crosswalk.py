@@ -189,6 +189,12 @@ PLACE_OVERRIDE = {
     "Q159325": ("Q953068", "South-West Africa"),          # Lüderitz
     "Q3826":   ("Q157734", "Muscat and Oman"),            # Muscat consulate/residency -> protected sultanate
     "Q617646": ("Q370736", "Cape Colony"),                # Namakwa (Little Namaqualand) division
+    # 2026-09-04 review (B6/B7/B9): period parents for modern/odd Wikidata geocoding
+    "Q466551": ("Q370736", "Cape Colony"),                # Transkei (WD = 1976 bantustan) -> Transkeian Territories annexed to the Cape 1879-94
+    "Q2336399": ("Q3303188", "Baluchistan"),              # Baluchistan (province, British Raj) -> the Baluchistan colony node (fold the duplicate)
+    "Q11708":  ("Q4373718", "Singapore Crown Colony"),    # "S.E. Asia" (1945-50 SE Asia Command / Commissioner-General, seat Singapore) — was country_walk -> British New Guinea
+    "Q1150673": ("Q376178", "Straits Settlements"),       # Penang Island (Prince of Wales Island) -> Straits Settlements
+    "Q188096": ("Q376178", "Straits Settlements"),        # Penang (modern state QID, if it recurs) -> Straits Settlements
 }
 
 # country-level fallback for the multi-colony countries (admin unknown)

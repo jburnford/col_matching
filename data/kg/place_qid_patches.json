@@ -1,0 +1,26 @@
+{
+ "_doc": "Curated place-QID corrections applied to BOTH corpora's places_grounding.jsonl by kg_patch_place_cache.py (idempotent; run before any spine re-emit). Each row: old qid -> new qid + label, with the verification source. 2026-09-04 review items B5/B6/B9/B10; every target re-fetched on QLever (P31/P17/P625) before entry.",
+ "patches": [
+  {"old": "Q5155572", "new": "Q193619", "label": "Union of South Africa", "why": "B5: 'Union of S. Africa'/'S. Africa'/'S.A.' manifest-joined by containment to the BSAC (Rhodesia) territory; 960 CO events plotted at Harare"},
+  {"old": "Q258", "new": "Q193619", "label": "Union of South Africa", "why": "B10: modern Republic of South Africa on a 1815-1966 corpus"},
+  {"old": "Q8842", "new": "Q79848", "label": "Southampton", "why": "B9: Q8842 is the constellation Virgo"},
+  {"old": "Q62870", "new": "Q168159", "label": "Anglesey", "why": "B9: Q62870 is a human (Stephen Cook)"},
+  {"old": "Q151588", "new": "Q208143", "label": "Wigan", "why": "B9: Q151588 is a film"},
+  {"old": "Q14112", "new": "Q1513", "label": "Nagpur", "why": "B9: Q14112 is Corsica"},
+  {"old": "Q1129", "new": "Q1070", "label": "Ahmedabad", "why": "B9: Q1129 is Hainaut (Belgium)"},
+  {"old": "Q3922", "new": "Q3889", "label": "Lourenço Marques", "why": "B9: Q3922 is Detmold (Germany); Q3889 = Maputo, period name kept as label"},
+  {"old": "Q2349413", "new": "Q2065416", "label": "St Pancras", "why": "B9: Q2349413 is Dolenja Brezovica (Slovenia)"},
+  {"old": "Q3852743", "new": "Q2761728", "label": "Dharwar", "why": "B9: Q3852743 is a Wikidata redirect to Q2761728 (Dharwad)"},
+  {"old": "Q115829224", "new": "Q1643555", "label": "British Honduras", "why": "B9: Q115829224 is the settlement EVENT ('English settlement of Belize', P31 occurrence); the colony entity is British Honduras"},
+  {"old": "Q188096", "new": "Q1150673", "label": "Penang", "why": "B6: Q188096 is the post-1957 Malaysian state; Q1150673 = Penang Island (Prince of Wales Island), colony via crosswalk -> Straits Settlements"},
+  {"old": "Q1049", "new": "Q541455", "label": "Anglo-Egyptian Sudan", "why": "B10: modern Republic of the Sudan -> Anglo-Egyptian Sudan (1899-1956)"},
+  {"old": "Q37211", "new": "Q7522091", "label": "Sind", "why": "B10: modern Sindh (Pakistan province) -> Sind Province of British India"},
+  {"old": "Q398", "new": "Q21816225", "label": "Bahrain", "why": "B10: modern State of Bahrain -> Bahrain Protectorate (colony_canon already folds the colony)"},
+  {"old": "Q817", "new": "Q3480281", "label": "Kuwait", "why": "B10: modern Kuwait -> Sheikhdom of Kuwait (British protectorate)"},
+  {"old": "Q836", "new": "Q2376315", "label": "Burma", "why": "B10: modern Myanmar -> British Burma"},
+  {"old": "Q334", "new": "Q4373718", "label": "Singapore", "why": "B10: modern Republic of Singapore -> Singapore Crown Colony (Straits Settlements via crosswalk pre-1946)"},
+  {"old": "Q1505", "new": "Q3960459", "label": "Sikkim", "why": "B10: modern Indian state -> Kingdom of Sikkim (protectorate)"},
+  {"old": "Q1164", "new": "Q17513379", "label": "Assam", "why": "B10: modern Indian state -> Assam Province"},
+  {"old": "Q10086", "new": "Q266923", "label": "Mysore", "why": "B10: Mysore city -> Kingdom of Mysore (the surface 'Mysore' in a service record names the state)"}
+ ]
+}

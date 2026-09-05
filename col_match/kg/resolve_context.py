@@ -59,6 +59,34 @@ _CEYLON = {
     "Sabaragamuwa", "Dambulla", "Point Pedro", "Tangalle", "Gampola",
     "Nuwarakalawiya", "Dikoya", "Avissawella",
 }
+# Canada (for Kingston, Ontario vs Kingston, Jamaica) and the West Indies.
+_CANADA = {"Canada", "Ontario", "Quebec", "Upper Canada", "Lower Canada",
+           "Province of Canada", "Nova Scotia", "New Brunswick", "Manitoba",
+           "British Columbia", "Prince Edward Island", "Ottawa", "Toronto",
+           "Montreal", "Halifax", "Winnipeg", "Dominion of Canada"}
+_W_INDIES = {"Jamaica", "Barbados", "Trinidad", "Trinidad and Tobago", "British Guiana",
+             "Leeward Islands", "Windward Islands", "Bahamas", "British Honduras",
+             "Grenada", "St. Lucia", "St. Vincent", "Antigua", "Dominica",
+             "Montserrat", "Nevis", "St. Kitts", "Bermuda", "Turks and Caicos Islands",
+             "Cayman Islands", "West Indies", "British West Indies"}
+# Natal (for Newcastle, Natal).
+_NATAL = {"Natal", "Pietermaritzburg", "Durban", "Zululand"}
+# Homonymous towns whose bare surface grounds to the wrong hemisphere without
+# the person's career context (2026-09-03 review B8: Perth -> Scotland for 21
+# W. Australians, Albany -> WA for Cape men, Newcastle -> upon Tyne for Natal,
+# Bathurst -> Banjul for NSW/Cape, Kingston Jamaica/Ontario). Each maps to
+# (region-cluster key -> resolved query); the resolved queries are grounded
+# cache surfaces. A default applies only where the corpus is lopsided.
+_HOMONYM = {
+    "perth":     {"au": "Perth, Western Australia", "default": "Perth, Western Australia"},
+    "albany":    {"au": "Albany, Western Australia", "sa": "Albany, Cape Colony"},
+    "newcastle": {"au": "Newcastle, New South Wales", "natal": "Newcastle, Natal"},
+    "bathurst":  {"au": "Bathurst, New South Wales", "wafr": "Bathurst, Gambia",
+                  "sa": "Bathurst, Cape Colony"},
+    "kingston":  {"wi": "Kingston, Jamaica", "canada": "Kingston, Ontario",
+                  "default": "Kingston, Jamaica"},
+}
+
 # British Columbia / Vancouver Island — to disambiguate "Victoria" (the BC capital
 # and electoral district) from the Australian colony of Victoria. Canonical forms.
 _BC = {"British Columbia", "Vancouver Island", "Colony of Vancouver Island",
@@ -141,7 +169,8 @@ def is_ambiguous(place: str) -> bool:
     """Does this surface form need per-person context to ground?"""
     p = (place or "").strip()
     return (_parse_directional(p) is not None
-            or _is_nwp(p) or canon_key(p) in ("sa", "wa", "cp", "victoria"))
+            or _is_nwp(p) or canon_key(p) in ("sa", "wa", "cp", "victoria")
+            or canon_key(p) in _HOMONYM)
 
 
 def _region_hit(siblings):
@@ -198,6 +227,22 @@ def resolve(place: str, siblings: list[str]) -> tuple[str | None, str]:
         if bc:
             return "Victoria, British Columbia", "british columbia / vancouver island postings"
         return "Victoria, Australia", "default: the Australian colony of Victoria"
+
+    if canon_key(p) in _HOMONYM:
+        rule = _HOMONYM[canon_key(p)]
+        qs = {canonicalize(f) for s_ in siblings for f in _frags(s_)}
+        hits = {k for k, cluster in (("au", au), ("sa", sa), ("wafr", wafr),
+                                     ("wi", qs & _W_INDIES), ("canada", qs & _CANADA),
+                                     ("natal", qs & _NATAL)) if cluster and k in rule}
+        # Natal is inside the southern-Africa cluster: prefer the specific key
+        if "natal" in hits:
+            hits.discard("sa")
+        if len(hits) == 1:
+            k = next(iter(hits))
+            return rule[k], f"{k} postings"
+        if not hits and "default" in rule:
+            return rule["default"], "default (no contrary regional signal)"
+        return None, f"no single-region signal: {sorted(hits)}"
 
     pd = _parse_directional(p)
 

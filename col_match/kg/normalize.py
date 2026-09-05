@@ -191,15 +191,32 @@ def normalize_for_llm(raw_text: str) -> str:
     return " ".join(_expand_token(t) for t in raw_text.split())
 
 
+# Sense-dependent abbreviations resolved from the NEIGHBOURING token at
+# position_norm time (2026-09-03 review C16/C17: "Pol. Agent" was expanding to
+# "police agent" — 1,195 IOL edges — and "Lieut.-Col." to "lieutenant colonial",
+# which the rank fold then read as a bare lieutenant).
+_POL_POLITICAL_NEXT = {"agent", "agents", "agency", "dept", "department", "service",
+                       "secy", "secretary", "asst", "assistant", "resident", "officer",
+                       "offr", "adviser", "advisor", "branch", "member", "staff",
+                       "mission", "residency"}
+_RANK_BEFORE_COL = {"lieut", "lt", "lieutenant", "brevet", "bt", "hon", "temp", "tempy"}
+
+
 def position_norm(position: str | None) -> str:
     """Fully expanded, normalised position string for the KG (token-level
     abbreviation expansion, lowercased, hyphen/slash split)."""
     if not position:
         return ""
     spaced = re.sub(r"[-/]", " ", position)
+    keys = [re.sub(r"[^a-z]", "", t.lower()) for t in re.split(r"\s+", spaced)]
     out = []
-    for t in re.split(r"\s+", spaced):
-        key = re.sub(r"[^a-z]", "", t.lower())
+    for i, key in enumerate(keys):
+        nxt = keys[i + 1] if i + 1 < len(keys) else ""
+        prv = keys[i - 1] if i > 0 else ""
+        if key == "pol" and nxt in _POL_POLITICAL_NEXT:
+            out.append("political"); continue
+        if key == "col" and prv in _RANK_BEFORE_COL:
+            out.append("colonel"); continue
         out.append(POS_ABBREV.get(key, key))
     return " ".join(w for w in out if w)
 

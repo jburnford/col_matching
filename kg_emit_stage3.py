@@ -25,6 +25,15 @@ args = ap.parse_args()
 
 gdir = Path(args.out); gdir.mkdir(parents=True, exist_ok=True)
 gcache = ground_mod.load_cache()
+# period display labels for QIDs whose Wikidata label is a post-1966 rename
+# (Kolkata -> Calcutta, Yangon -> Rangoon ...): data/kg/place_label_lock.json,
+# shared by both corpora (review B14). QIDs are untouched.
+_pll = Path("data/kg/place_label_lock.json")
+_place_lock = {k: v for k, v in (json.loads(_pll.read_text(encoding="utf-8")) if _pll.exists() else {}).items()
+               if k.startswith("Q")}
+for _row in gcache.values():
+    if _row.get("qid") in _place_lock:
+        _row["label"] = _place_lock[_row["qid"]]
 colony_of = {pl: colony_mod.resolve_colony(row) for pl, row in gcache.items()}
 
 # context-resolution map (abbrev province etc. -> resolved query that was grounded)
@@ -49,10 +58,19 @@ _ORG = re.compile(r"\b(railway|R\. ?& ?H|posts|telegraph|tels|currency|administr
 
 from col_match.kg.place_canon import canonicalize as _canon
 
+from col_match.kg.resolve_context import is_ambiguous as _ctx_ambiguous
+
 def resolve_place(place, attestations):
-    """Return (grounding_row, resolved_via). Direct cache hit, else the
-    canonicalised surface (bridges abbreviations like 'United Provs.' to a
-    seeded 'United Provinces' QID), else the per-person context map."""
+    """Return (grounding_row, resolved_via). Per-person context map FIRST for
+    surfaces resolve_context flags ambiguous (Victoria, S.A., Perth, Kingston …
+    — a direct cache hit for those is the flat default, review B8), then the
+    direct cache hit, else the canonicalised surface (bridges abbreviations
+    like 'United Provs.' to a seeded 'United Provinces' QID), else the context
+    map for everything else."""
+    if _ctx_ambiguous(place):
+        rq = next((_per[(a, place)] for a in attestations if (a, place) in _per), None) or _glob1.get(place)
+        g2 = gcache.get(rq) if rq else None
+        if g2 and g2.get("qid"): return g2, rq
     g = gcache.get(place)
     if g and g.get("qid"): return g, None
     cq = _canon(place)

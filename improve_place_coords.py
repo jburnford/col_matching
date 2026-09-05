@@ -38,6 +38,8 @@ SEATS = {
     "Q2571484": ([34.0837, 74.7973], "Srinagar"),        # Jammu and Kashmir
     "Q205697":  ([23.0225, 72.5714], "Ahmedabad"),       # (Gujarat-area agency, if present)
     "Q17509767":([12.7794, 45.0367], "Aden"),            # Aden Province
+    "Q3303188": ([30.1798, 66.9750], "Quetta"),          # Baluchistan (canonical colony node; Q843 folds here)
+    "Q1545934": ([-18.1416, 178.4419], "Suva"),          # Western Pacific High Commission (WD item is the commission: no P625/P36; seat Suva from 1952, Fiji throughout)
     "Q15240466":([35.1856, 33.3823], "Nicosia"),         # Cyprus
     "Q24905912":([12.4244, 75.7382], "Madikeri"),        # Coorg
     "Q15630982":([20.4625, 85.8830], "Cuttack"),         # Orissa Tributary States

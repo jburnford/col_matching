@@ -1,0 +1,19 @@
+{
+ "_doc": "Period display labels for correctly-grounded place QIDs whose Wikidata label is a post-1966 rename (review B14). Applied to the grounding cache at load in kg_emit_stage3.py for BOTH corpora, so places.jsonl / career_events.place_label carry the name the Lists print. QID unchanged.",
+ "Q1156": "Bombay",
+ "Q1348": "Calcutta",
+ "Q1352": "Madras",
+ "Q15116": "Madras",
+ "Q1355": "Bangalore",
+ "Q1538": "Poona",
+ "Q162442": "Allahabad",
+ "Q1800": "Cochin",
+ "Q3726": "Bathurst (Gambia)",
+ "Q37995": "Rangoon",
+ "Q66568": "Cawnpore",
+ "Q79980": "Benares",
+ "Q83786": "Simla",
+ "Q3889": "Lourenço Marques",
+ "Q951161": "Grahamstown",
+ "Q2761728": "Dharwar"
+}

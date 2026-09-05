@@ -22,12 +22,14 @@ def rule(inst):
     if 'surveyor general' in inst: return ('Q7647118','surveyor general')
     if 'auditor general' in inst or ('comptroller' in inst and 'auditor' in inst) or ('cont' in inst and 'auditor' in inst): return ('Q5785176','auditor general')
     if 'accountant general' in inst: return ('Q4672765','accountant general')
-    if 'chief accountant' in inst: return ('Q12096582','chief accountant')
+    if 'judge advocate' in inst: return ('Q4114562','judge advocate')
+    if 'surgeon major' in inst or 'surgeon maj' in inst: return ('Q107350030','surgeon-major')
+    if 'chief accountant' in inst: return ('Q10783678','chief accountant')
     # members / legislators / MPs
     if inst.startswith('member') or inst.startswith('mp ') or inst=='mp' or 'unofficial member' in inst or 'official member' in inst or 'ex officio member' in inst or inst.startswith('elected member') or 'legislative councillor' in inst:
         if 'parliament' in inst or 'parlt' in inst or 'parlmt' in inst or 'house of commons' in inst or 'h of c' in inst or 'house of reps' in inst or 'house of representatives' in inst or 'h of r' in inst or inst.startswith('mp'):
             return ('Q16707842','Member of Parliament')
-        if 'legislative' in inst or 'legislature' in inst or 'assembly' in inst or 'assem' in inst or 'council of government' in inst or 'executive council' in inst or 'house of assembly' in inst or 'legisassem' in inst or 'legislative councillor' in inst:
+        if 'legislative' in inst or 'legislature' in inst or 'assembly' in inst or 'assem' in inst or 'council of government' in inst or 'house of assembly' in inst or 'legisassem' in inst or 'legislative councillor' in inst:
             return ('Q4175034','legislator')
         return None
     if 'municipal councillor' in inst or 'town councillor' in inst or 'city councillor' in inst or 'borough councillor' in inst: return ('Q708492','council member')
@@ -46,13 +48,14 @@ def rule(inst):
     if 'marine engineer' in inst: return ('Q1644847','marine engineer')
     if 'civil engineer' in inst: return ('Q13582652','civil engineer')
     if has('engineer','engngr','engrr','engrn','engnr','engur'): return ('Q81096','engineer')
-    if has('inspector','insptr'): return ('Q27214348','inspector')
+    if has('inspector','insptr'): return ('Q11977377','inspector')
     if has('auditor','audtr'): return ('Q10949665','auditor')
-    if has('accountant','acctg','accts','acctng'): return ('Q3929433','accountant')
+    if has('accountant','acctg','accts','acctng'): return ('Q326653','accountant')
     if 'customs' in inst: return ('Q247797','customs officer')
     if 'prime minister' in inst: return None
     if has('minister'): return ('Q83307','minister')
-    if inst.startswith('governor of') or inst.startswith('governor general') or inst.startswith('governor and') or inst.startswith('governor in chief'): return ('Q132050','governor')
+    if inst.startswith('governor general'): return ('Q382844','governor-general')
+    if inst.startswith('governor of') or inst.startswith('governor and') or inst.startswith('governor in chief'): return ('Q132050','governor')
     if has('director'): return ('Q1162163','director')
     if has('surgeon','surg'): return ('Q774306','surgeon')
     if 'medical officer' in inst or has('moh','dmo','mo','gmo') or 'physician' in inst: return ('Q39631','physician')

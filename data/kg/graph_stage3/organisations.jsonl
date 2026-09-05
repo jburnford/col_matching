@@ -117,6 +117,7 @@
 {"id": "colkg:department_of_agr_S_A", "label": "department of agr., S.A", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 2}
 {"id": "colkg:Fiji_Medical_Department", "label": "Fiji Medical Department", "type": "medical", "source": "resolved_colony", "country_qid": "Q5148320", "n_people": 2}
 {"id": "colkg:Kano_medical_school_N_Nig", "label": "Kano medical school, N. Nig", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 2}
+{"id": "colkg:Union_of_South_Africa_Education_Department", "label": "Union of South Africa Education Department", "type": "education", "source": "resolved_colony", "country_qid": "Q193619", "n_people": 2}
 {"id": "colkg:Hong_Kong_Education_Department", "label": "Hong Kong Education Department", "type": "education", "source": "resolved_colony", "country_qid": "Q1054923", "n_people": 2}
 {"id": "colkg:Ceylon_Treasury", "label": "Ceylon Treasury", "type": "treasury", "source": "resolved_colony", "country_qid": "Q918153", "n_people": 2}
 {"id": "Q30639184", "label": "Fifeshire Artillery Militia", "type": "military", "source": "mcp", "country_qid": "Q145", "n_people": 2}
@@ -395,11 +396,10 @@
 {"id": "colkg:S_Leone_government_railway", "label": "S. Leone government railway", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:R_Sanitary_Inst_Hong_Kong_and_S_China_branch", "label": "R. Sanitary Inst. (Hong Kong and S. China branch)", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Demerara_and_Essequibo_railway", "label": "Demerara and Essequibo railway", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
-{"id": "colkg:Union_of_South_Africa_Education_Department", "label": "Union of South Africa Education Department", "type": "education", "source": "resolved_colony", "country_qid": "Q193619", "n_people": 1}
 {"id": "colkg:ed_department", "label": "ed. department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:army_accts_department", "label": "army accts. department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Leeward_Islds_police_Montserrat", "label": "Leeward Islds. police, Montserrat", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
-{"id": "colkg:British_South_Africa_Company_Territory_Secretariat", "label": "British South Africa Company Territory Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q5155572", "n_people": 1}
+{"id": "colkg:Union_of_South_Africa_Secretariat", "label": "Union of South Africa Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q193619", "n_people": 1}
 {"id": "colkg:Bech_Br_police", "label": "Bech. Br. police", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:S_Devon_Doubling_G_W_R_L_D_and_E_C_railway_constn_Port_Talbot_railways_and_docks", "label": "S. Devon Doubling G.W.R., L.D. and E.C. railway constn., Port Talbot railways and docks", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Admiralty_harb_Dover", "label": "Admiralty harb., Dover", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
@@ -556,7 +556,7 @@
 {"id": "colkg:1st_Norwich_Volr_battalion", "label": "1st Norwich Volr. battalion", "type": "military", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:S_L_administration", "label": "S.L. administration", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:H_K_administration", "label": "H.K. administration", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
-{"id": "colkg:British_South_Africa_Company_Territory_Mines_Department", "label": "British South Africa Company Territory Mines Department", "type": "mines", "source": "resolved_colony", "country_qid": "Q5155572", "n_people": 1}
+{"id": "colkg:Union_of_South_Africa_Mines_Department", "label": "Union of South Africa Mines Department", "type": "mines", "source": "resolved_colony", "country_qid": "Q193619", "n_people": 1}
 {"id": "Q3445962", "label": "Royal Horse Artillery", "type": "military", "source": "mcp", "country_qid": "Q145", "n_people": 1}
 {"id": "colkg:S_A_constabulary", "label": "S. A. constabulary", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Tanganyika_Territory_as_district_superintendent_police", "label": "Tanganyika Territory as district superintendent police", "type": "police", "source": "internal", "country_qid": null, "n_people": 1}
@@ -694,7 +694,6 @@
 {"id": "colkg:Union_health_department", "label": "Union health department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Iraq_civil_administration", "label": "Iraq civil administration", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:African_post_and_telecoms_union_conf", "label": "African post. and telecoms. union conf", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}
-{"id": "colkg:British_South_Africa_Company_Territory_Education_Department", "label": "British South Africa Company Territory Education Department", "type": "education", "source": "resolved_colony", "country_qid": "Q5155572", "n_people": 1}
 {"id": "colkg:Port_Elizabeth_harbour_enquiry_commission", "label": "Port Elizabeth harbour enquiry commission", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Cyprus_Medical_Department", "label": "Cyprus Medical Department", "type": "medical", "source": "resolved_colony", "country_qid": "Q15240466", "n_people": 1}
 {"id": "colkg:board_of_examrs_do", "label": "board of examrs., do", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}

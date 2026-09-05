@@ -36,8 +36,14 @@ def load_work():
 # The QID is correct; only the modern label is anachronistic for a 1815-1966 atlas.
 # Applied at load so emitted nodes + edges carry the historical name. Skips QIDs
 # whose modern name is ALSO valid in-period (UCT 1918, Manchester 1904).
+# The CO lock is shared by both corpora; a corpus-local lock (COL_KG_OUT/
+# institution_label_lock.json, e.g. data/iol/) overlays it (review C24: the
+# lock was CO-only, so IOL showed Thomason College as "IIT Roorkee").
 _LABEL_LOCK_PATH = Path("data/kg/institution_label_lock.json")
 _LABEL_LOCK = json.loads(_LABEL_LOCK_PATH.read_text()) if _LABEL_LOCK_PATH.exists() else {}
+_LOCAL_LOCK = Path(os.environ.get("COL_KG_OUT", "data/kg")) / "institution_label_lock.json"
+if _LOCAL_LOCK.exists() and _LOCAL_LOCK.resolve() != _LABEL_LOCK_PATH.resolve():
+    _LABEL_LOCK.update(json.loads(_LOCAL_LOCK.read_text()))
 
 def load_cache():
     cache = {r["institution"]: r for r in (json.loads(l) for l in CACHE.open())} if CACHE.exists() else {}

@@ -16,20 +16,20 @@
 {"id": "Q12177470", "label": "Knight Commander of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 159}
 {"id": "Q12201445", "label": "Knight Commander of the Order of the British Empire", "type": "order", "source": "mcp", "n_people": 126}
 {"id": "Q12177451", "label": "Knight Grand Cross of the Order of the Bath", "type": "order", "source": "mcp", "n_people": 81}
-{"id": "colkg:mvo", "label": "Member of the Royal Victorian Order", "type": "order", "source": "internal", "n_people": 74}
+{"id": "Q12193926", "label": "Member of the Royal Victorian Order", "type": "order", "source": "curated", "n_people": 74}
 {"id": "colkg:ed", "label": "ed", "type": "order", "source": "internal", "n_people": 73}
 {"id": "colkg:td", "label": "td", "type": "order", "source": "internal", "n_people": 69}
 {"id": "Q12193183", "label": "Commander of the Royal Victorian Order", "type": "order", "source": "mcp", "n_people": 62}
 {"id": "Q1229534", "label": "Distinguished Flying Cross", "type": "decoration", "source": "mcp", "n_people": 55}
-{"id": "colkg:vd", "label": "vd", "type": "order", "source": "internal", "n_people": 44}
-{"id": "colkg:kcvo", "label": "kcvo", "type": "order", "source": "internal", "n_people": 43}
+{"id": "Q869896", "label": "Croix de Guerre (France)", "type": "decoration", "source": "curated", "n_people": 45}
+{"id": "Q20982076", "label": "Volunteer Officers' Decoration", "type": "decoration", "source": "curated", "n_people": 44}
+{"id": "Q12192712", "label": "Knight Commander of the Royal Victorian Order", "type": "order", "source": "curated", "n_people": 43}
 {"id": "colkg:fls", "label": "fls", "type": "order", "source": "internal", "n_people": 42}
 {"id": "colkg:mm", "label": "mm", "type": "order", "source": "internal", "n_people": 42}
 {"id": "colkg:dsc", "label": "dsc", "type": "order", "source": "internal", "n_people": 39}
 {"id": "colkg:dtm_h", "label": "dtm&h", "type": "honour", "source": "internal", "n_people": 34}
 {"id": "colkg:knt_bachel", "label": "knt bachel", "type": "honour", "source": "internal", "n_people": 32}
-{"id": "colkg:croix_de_guerre", "label": "croix-de-guerre", "type": "honour", "source": "internal", "n_people": 31}
-{"id": "colkg:cie", "label": "cie", "type": "order", "source": "internal", "n_people": 31}
+{"id": "Q16008317", "label": "Companion of the Order of the Indian Empire", "type": "order", "source": "curated", "n_people": 31}
 {"id": "colkg:1914_15_star", "label": "1914-15 star", "type": "honour", "source": "internal", "n_people": 31}
 {"id": "colkg:ment_in_desps", "label": "ment in desps", "type": "honour", "source": "internal", "n_people": 31}
 {"id": "colkg:ce", "label": "ce", "type": "order", "source": "internal", "n_people": 30}
@@ -43,7 +43,7 @@
 {"id": "colkg:cm", "label": "cm", "type": "order", "source": "internal", "n_people": 24}
 {"id": "colkg:gbe", "label": "gbe", "type": "order", "source": "internal", "n_people": 24}
 {"id": "colkg:m_inst_c_e", "label": "m inst c e", "type": "honour", "source": "internal", "n_people": 22}
-{"id": "colkg:gcsi", "label": "gcsi", "type": "order", "source": "internal", "n_people": 20}
+{"id": "Q14947472", "label": "Knight Grand Commander of the Order of the Star of India", "type": "order", "source": "curated", "n_people": 20}
 {"id": "colkg:m_b_ch_b", "label": "m b , ch b", "type": "honour", "source": "internal", "n_people": 20}
 {"id": "colkg:kg", "label": "kg", "type": "order", "source": "internal", "n_people": 19}
 {"id": "colkg:acgi", "label": "acgi", "type": "order", "source": "internal", "n_people": 19}
@@ -53,7 +53,7 @@
 {"id": "colkg:a_m_inst_c_e", "label": "a m inst c e", "type": "honour", "source": "internal", "n_people": 18}
 {"id": "colkg:bem", "label": "bem", "type": "order", "source": "internal", "n_people": 18}
 {"id": "colkg:coronation_medal", "label": "coronation medal", "type": "honour", "source": "internal", "n_people": 17}
-{"id": "colkg:gcie", "label": "gcie", "type": "order", "source": "internal", "n_people": 16}
+{"id": "Q16006972", "label": "Knight Grand Commander of the Order of the Indian Empire", "type": "order", "source": "curated", "n_people": 16}
 {"id": "colkg:dic", "label": "dic", "type": "order", "source": "internal", "n_people": 15}
 {"id": "colkg:king_s_medal", "label": "king's medal", "type": "honour", "source": "internal", "n_people": 15}
 {"id": "colkg:turkish_medal", "label": "turkish medal", "type": "honour", "source": "internal", "n_people": 14}
@@ -67,7 +67,7 @@
 {"id": "colkg:gm", "label": "gm", "type": "order", "source": "internal", "n_people": 12}
 {"id": "colkg:m_i_mech_e", "label": "m i mech e", "type": "honour", "source": "internal", "n_people": 12}
 {"id": "colkg:nda", "label": "nda", "type": "order", "source": "internal", "n_people": 12}
-{"id": "colkg:kcsi", "label": "kcsi", "type": "order", "source": "internal", "n_people": 12}
+{"id": "Q14947473", "label": "Knight Commander of the Order of the Star of India", "type": "order", "source": "curated", "n_people": 12}
 {"id": "colkg:aicta", "label": "aicta", "type": "order", "source": "internal", "n_people": 12}
 {"id": "colkg:mg", "label": "mg", "type": "order", "source": "internal", "n_people": 11}
 {"id": "colkg:odm", "label": "odm", "type": "order", "source": "internal", "n_people": 11}
@@ -77,7 +77,6 @@
 {"id": "colkg:be", "label": "be", "type": "order", "source": "internal", "n_people": 10}
 {"id": "colkg:legion_of_honour", "label": "legion of honour", "type": "honour", "source": "internal", "n_people": 10}
 {"id": "colkg:mentioned_in_despatches", "label": "mentioned in despatches", "type": "honour", "source": "internal", "n_people": 10}
-{"id": "colkg:french_croix_de_guerre", "label": "french croix de guerre", "type": "honour", "source": "internal", "n_people": 10}
 {"id": "colkg:afc", "label": "afc", "type": "order", "source": "internal", "n_people": 10}
 {"id": "colkg:arcs", "label": "arcs", "type": "order", "source": "internal", "n_people": 10}
 {"id": "colkg:fss", "label": "fss", "type": "order", "source": "internal", "n_people": 10}
@@ -89,7 +88,7 @@
 {"id": "colkg:mp", "label": "mp", "type": "order", "source": "internal", "n_people": 9}
 {"id": "colkg:aimm", "label": "aimm", "type": "order", "source": "internal", "n_people": 9}
 {"id": "colkg:mnzis", "label": "mnzis", "type": "order", "source": "internal", "n_people": 9}
-{"id": "colkg:csi", "label": "csi", "type": "order", "source": "internal", "n_people": 9}
+{"id": "Q14947476", "label": "Companion of the Order of the Star of India", "type": "order", "source": "curated", "n_people": 9}
 {"id": "colkg:mbcm", "label": "mbcm", "type": "order", "source": "internal", "n_people": 8}
 {"id": "colkg:queen_s_medal_and_four", "label": "queen's medal and four", "type": "honour", "source": "internal", "n_people": 8}
 {"id": "colkg:kb", "label": "kb", "type": "order", "source": "internal", "n_people": 8}
@@ -155,7 +154,7 @@
 {"id": "colkg:br_war_medal", "label": "br war medal", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:queen_s_medal_and_3", "label": "queen's medal and 3", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:qfsm", "label": "qfsm", "type": "order", "source": "internal", "n_people": 4}
-{"id": "colkg:belgian_croix_de_guerre", "label": "belgian croix de guerre", "type": "honour", "source": "internal", "n_people": 4}
+{"id": "Q48915", "label": "Croix de Guerre (Belgium)", "type": "order", "source": "curated", "n_people": 4}
 {"id": "colkg:a_g_s_medical", "label": "a g s medical", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:officer_of_legion_of_honour", "label": "officer of legion of honour", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:medal_with_4", "label": "medal with 4", "type": "honour", "source": "internal", "n_people": 4}
@@ -211,7 +210,7 @@
 {"id": "colkg:a_i_mech_e", "label": "a i mech e", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:m_i_min_e", "label": "m i min e", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:facs", "label": "facs", "type": "order", "source": "internal", "n_people": 3}
-{"id": "colkg:kcie", "label": "kcie", "type": "order", "source": "internal", "n_people": 3}
+{"id": "Q16008267", "label": "Knight Commander of the Order of the Indian Empire", "type": "order", "source": "curated", "n_people": 3}
 {"id": "colkg:f_inst_p", "label": "f inst p", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:pjk", "label": "pjk", "type": "order", "source": "internal", "n_people": 3}
 {"id": "colkg:feis", "label": "feis", "type": "order", "source": "internal", "n_people": 3}
@@ -249,7 +248,6 @@
 {"id": "colkg:mie", "label": "mie", "type": "order", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_ment_in_desps", "label": "medal, ment in desps", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:lg", "label": "lg", "type": "order", "source": "internal", "n_people": 2}
-{"id": "colkg:croix_de_guerre_avec_palme", "label": "croix de guerre avec palme", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:kt_comdr_of_the_crown_of_italy", "label": "kt comdr of the crown of italy", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:medal_for_distinguished_conduct_in_the_field", "label": "medal for \"distinguished conduct in the field\"", "type": "honour", "source": "internal", "n_people": 2}
 {"id": "colkg:m_i_m_cy_e", "label": "m i m & cy e", "type": "honour", "source": "internal", "n_people": 2}
@@ -468,7 +466,6 @@
 {"id": "colkg:fesl", "label": "fesl", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:perak_war_medal", "label": "perak war medal", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:king_and_queen_s_medals_with_five", "label": "king and queen's medals with five", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:croix_de_guerre_with_palm_leaves", "label": "croix de guerre with palm leaves", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:meds", "label": "meds", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:comdr_of_the_legion_of_honour", "label": "comdr of the legion of honour", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:g_s_medl", "label": "g s medl", "type": "honour", "source": "internal", "n_people": 1}
@@ -513,7 +510,6 @@
 {"id": "colkg:fellow_of_royal_socy", "label": "fellow of royal socy", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:gold_medical_diseases_of_children_belfast", "label": "gold medical, diseases of children, belfast", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:chevalier_de_l_ordre_de_leopold_ii_avec_palme", "label": "chevalier de l'ordre de leopold ii, avec palme", "type": "honour", "source": "internal", "n_people": 1}
-{"id": "colkg:croix_de_guerre_1940_avec_palme", "label": "croix de guerre, 1940, avec palme", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:knight_of_the_sovereign_military_order_of_malta", "label": "knight of the sovereign military order of malta", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:mutiny_medal", "label": "mutiny medal", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:silver_medal_for_saving_life_at_sea", "label": "silver medal for saving life at sea", "type": "honour", "source": "internal", "n_people": 1}
