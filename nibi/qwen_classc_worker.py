@@ -35,6 +35,24 @@ SYSTEM = (
     "Initials matching a fuller name is compatible, but a name match alone "
     "is NOT evidence — namesakes are common; different concurrent careers in "
     "different places mean different people.\n"
+    "Known traps (2026-07 silver standard):\n"
+    "- Edition lag: a roster row is compiled up to two years before its "
+    "edition date, so a biography that moves the person elsewhere in the "
+    "roster's last year or the year before is NOT a contradiction.\n"
+    "- Retrospective lists: 'Governors', 'Lieutenant-Governors', Privy "
+    "Council and precedence tables reprint FORMER office-holders for years "
+    "after they left; such rows do not require the person to be resident.\n"
+    "- 'in addn.' / 'also' in a biography means a post held concurrently "
+    "with the previous one, not a departure.\n"
+    "- A sub-territory counts as the colony: Lagos is Nigeria, St. Vincent "
+    "is the Windward Islands, Virgin Islands the Leeward Islands, Transkei "
+    "the Cape, provinces of Canada are Canada.\n"
+    "- Rank: a private secretary, junior clerk or cadet does not hold a "
+    "Governor's or judge's 1,000-pound-plus row, and vice versa.\n"
+    "- If Record 2 lists ALREADY-LINKED roster careers, the candidate is a "
+    "real roster presence: the same person can hold several roster rows "
+    "over a career (different colonies or years), but two rows in the SAME "
+    "colony and years at different ranks are two people.\n"
     'Return strictly: {"verdict": "same"|"different"|"unsure", '
     '"confidence": 0-100, "reason": "<=200 chars, cite the deciding '
     'year/place/rank facts"}'
@@ -357,6 +375,8 @@ def render(pair):
         (f"honours: {', '.join(p['honours'])}" if p.get("honours") else ""),
         (f"appears in editions {p['editions'][0]}-{p['editions'][1]}" if p.get("editions") else ""),
         *p["lines"],
+        (("already linked to roster careers: " + "; ".join(p["linked_careers"][:6]))
+         if p.get("linked_careers") else ""),
         "",
         "Same person?",
     ]
@@ -385,6 +405,9 @@ def extract_json(text):
 def chat(url, model, system, user, timeout=180):
     body = json.dumps({
         "model": model, "temperature": 0.0, "max_tokens": 400,
+        # Qwen3.x hybrid-thinking models: answer directly (vLLM ignores the
+        # key for models whose template has no such switch)
+        "chat_template_kwargs": {"enable_thinking": False},
         "messages": [{"role": "system", "content": system},
                      {"role": "user", "content": user}],
     }).encode()
