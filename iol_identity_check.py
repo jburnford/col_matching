@@ -51,9 +51,13 @@ BASELINES = {
     # (Nibi 17539869: 1,247 judged same of 1,438 delta pairs) -> 10,739;
     # overlays re-applied in-build (100 births, 487 roll honour dates,
     # 2,076 deaths; 104 rows target vanished pre-rechain ids)
+    # 2026-09-04 (review D28/D29): +131 deterministic appointment-chain unions
+    # (kg_dedup_apptchain_candidates.py, >=4 shared exact (position,year)
+    # appointments, edition-disjoint, no birth conflict; ledger source
+    # apptchain-2026-09-04) -> map 10,852, persons 19,400
     "valid_records": 30252,
-    "merge_edges": 10739,
-    "canonical_persons": 19513,
+    "merge_edges": 10852,
+    "canonical_persons": 19400,
     # ---- screen ceilings (re-measured post-rebuild 2026-07-12) ----
     "honour_precedence": 1,
     # 8 fresh garbled birth years arrived with the 6.1k recovered bios —
@@ -64,7 +68,7 @@ BASELINES = {
     # screen's output file; RERUN iol_link_exits.py after any person-table
     # change or this pins a stale count. 2 pinned (edition-lag singleton +
     # hand-review fusion candidate) + 2 new from reorganized chains
-    "events_after_death": 4,
+    "events_after_death": 5,   # +1 2026-09-04: McArthur kgp_iol1917-c3754007 (apptchain union vs 1913 casualty link, score 50) = next A7 pool
     # ---- no-bio layer (steps 1-3 build 2026-07-12; exact — the
     #      judged apply will change these in its own commit) ----
     # (re-measured after the silver-audit fixes: plural office nouns,

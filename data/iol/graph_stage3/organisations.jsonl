@@ -1,4 +1,4 @@
-{"id": "Q16934076", "label": "North Western Railway", "type": "railway", "source": "mcp_verified", "country_qid": "Q129286", "n_people": 152}
+{"id": "Q16934076", "label": "North Western Railway", "type": "railway", "source": "mcp_verified", "country_qid": "Q129286", "n_people": 151}
 {"id": "Q1359276", "label": "Survey of India", "type": "survey", "source": "mcp_verified", "country_qid": "Q668", "n_people": 108}
 {"id": "Q5330017", "label": "Eastern Bengal Railway", "type": "railway", "source": "reuse", "country_qid": "Q129286", "n_people": 88}
 {"id": "colkg:India_Public_Works_department", "label": "India Public Works department", "type": "public_works", "source": "internal", "country_qid": "Q129286", "n_people": 66, "merged_from": ["colkg:GovtOfIndiaPublicWorksDepartment", "colkg:government_of_India_public_works_department"]}
@@ -10,17 +10,17 @@
 {"id": "Q2060703", "label": "British War Office", "type": "organisation", "source": "seed_col_org", "country_qid": "Q145", "n_people": 37}
 {"id": "Q28223617", "label": "Punjab Northern State Railway", "type": "railway", "source": "reuse", "country_qid": "Q129286", "n_people": 30}
 {"id": "Q3348933", "label": "Medical College and Hospital, Kolkata", "type": "department", "source": "mcp_verified", "country_qid": "Q668", "n_people": 29}
-{"id": "Q28223616", "label": "Indus Valley State Railway", "type": "railway", "source": "reuse", "country_qid": "Q843", "n_people": 28}
 {"id": "Q3360189", "label": "Great Indian Peninsula Railway", "type": "railway", "source": "mcp_verified", "country_qid": "Q129286", "n_people": 28}
+{"id": "Q28223616", "label": "Indus Valley State Railway", "type": "railway", "source": "reuse", "country_qid": "Q843", "n_people": 27}
 {"id": "Q16847284", "label": "Indian Imperial Police", "type": "police", "source": "reuse", "country_qid": "Q129286", "n_people": 25}
 {"id": "colkg:Indian_Finance_department", "label": "Indian Finance department", "type": "department", "source": "internal", "country_qid": "Q129286", "n_people": 25}
 {"id": "colkg:Bombay_Public_Works_department", "label": "Bombay Public Works department", "type": "public_works", "source": "internal", "country_qid": "Q129286", "n_people": 22}
 {"id": "colkg:Bombay_Judicial_department", "label": "Bombay Judicial department", "type": "department", "source": "internal", "country_qid": "Q129286", "n_people": 20}
 {"id": "colkg:Bengal_Police_department", "label": "Bengal Police department", "type": "police", "source": "internal", "country_qid": "Q129286", "n_people": 20}
 {"id": "colkg:Madras_Public_Works_department", "label": "Madras Public Works department", "type": "public_works", "source": "internal", "country_qid": "Q129286", "n_people": 20, "merged_from": ["colkg:MadrasPublicWorksDepartment"]}
-{"id": "colkg:Rajputana_state_railway", "label": "Rajputana state railway", "type": "railway", "source": "internal", "country_qid": "Q129286", "n_people": 16}
 {"id": "colkg:India_Telegraph_department", "label": "India Telegraph department", "type": "posts_telegraphs", "source": "internal", "country_qid": "Q129286", "n_people": 16}
-{"id": "Q5596343", "label": "Grant Medical College and Sir Jamshedjee Jeejeebhoy Group of Hospitals", "type": "department", "source": "mcp_verified", "country_qid": "Q668", "n_people": 15}
+{"id": "colkg:Rajputana_state_railway", "label": "Rajputana state railway", "type": "railway", "source": "internal", "country_qid": "Q129286", "n_people": 15}
+{"id": "Q5596343", "label": "Grant Medical College and Sir Jamshedjee Jeejeebhoy Group of Hospitals", "type": "department", "source": "mcp_verified", "country_qid": "Q668", "n_people": 14}
 {"id": "Q4940528", "label": "Bombay, Baroda and Central India Railway", "type": "railway", "source": "reuse", "country_qid": "Q668", "n_people": 14}
 {"id": "colkg:Bengal_judicial_department", "label": "Bengal judicial department", "type": "department", "source": "internal", "country_qid": "Q129286", "n_people": 13}
 {"id": "colkg:India_Forest_department", "label": "India Forest department", "type": "department", "source": "internal", "country_qid": "Q129286", "n_people": 13}
@@ -45,10 +45,10 @@
 {"id": "Q3631634", "label": "Geological Survey of India", "type": "survey", "source": "reuse", "country_qid": "Q129286", "n_people": 7}
 {"id": "Q4887650", "label": "Bengal Nagpur Railway", "type": "railway", "source": "reuse", "country_qid": "Q129286", "n_people": 7}
 {"id": "colkg:Bombay_Police_department", "label": "Bombay Police department", "type": "police", "source": "internal", "country_qid": "Q129286", "n_people": 7}
-{"id": "colkg:Bengal_Presidency_Company_Education_Department", "label": "Bengal Presidency (Company) Education Department", "type": "education", "source": "resolved_colony", "country_qid": "Q817165", "n_people": 7}
 {"id": "colkg:IndiaOfficeStoresDepartment", "label": "India Office Stores Department", "type": "department", "source": "internal", "country_qid": "Q145", "n_people": 7, "merged_from": ["colkg:India_Office_Stores_Department"]}
 {"id": "Q6411596", "label": "King George's Medical University", "type": "department", "source": "mcp_verified", "country_qid": "Q668", "n_people": 6}
 {"id": "Q45312", "label": "King Edward Medical University", "type": "department", "source": "mcp_verified", "country_qid": "Q843", "n_people": 6}
+{"id": "colkg:Bengal_Presidency_Company_Education_Department", "label": "Bengal Presidency (Company) Education Department", "type": "education", "source": "resolved_colony", "country_qid": "Q817165", "n_people": 6}
 {"id": "Q923628", "label": "India Meteorological Department", "type": "department", "source": "mcp_verified", "country_qid": "Q668", "n_people": 6}
 {"id": "colkg:Indian_ecclesiastical_department", "label": "Indian ecclesiastical department", "type": "department", "source": "internal", "country_qid": "Q129286", "n_people": 5}
 {"id": "colkg:NorthWesternStateRailwayIndia", "label": "Punjab N. railway", "type": "railway", "source": "reuse", "country_qid": "Q1393984", "n_people": 5}
@@ -72,7 +72,6 @@
 {"id": "Q887543", "label": "Board of Trade", "type": "department", "source": "mcp_verified", "country_qid": "Q145", "n_people": 4}
 {"id": "colkg:Dhond_Manmad_railway", "label": "Dhond-Manmad railway", "type": "railway", "source": "reuse", "country_qid": null, "n_people": 4}
 {"id": "Q396266", "label": "British Admiralty Office", "type": "organisation", "source": "reuse", "country_qid": null, "n_people": 4}
-{"id": "colkg:IndusSurvey", "label": "Indus survey", "type": "survey", "source": "internal", "country_qid": "Q129286", "n_people": 4}
 {"id": "colkg:Punjab_Province_Public_Works_Department", "label": "Punjab Province Public Works Department", "type": "public_works", "source": "resolved_colony", "country_qid": "Q2629708", "n_people": 4}
 {"id": "colkg:FrontierConstabulary", "label": "Frontier Constabulary", "type": "police", "source": "internal", "country_qid": "Q129286", "n_people": 4}
 {"id": "colkg:BurmaPolice", "label": "Burma Police", "type": "police", "source": "internal", "country_qid": "Q129286", "n_people": 4, "merged_from": ["colkg:Burma_Police"]}
@@ -95,6 +94,7 @@
 {"id": "colkg:RangoonIrrawaddyValleyRailway", "label": "Rangoon and Irrawaddy Valley Railway", "type": "railway", "source": "internal", "country_qid": "Q129286", "n_people": 3}
 {"id": "colkg:BhopalRailway", "label": "Bhopal Railway", "type": "railway", "source": "internal", "country_qid": "Q668", "n_people": 3}
 {"id": "Q7567538", "label": "South Indian Railway Company", "type": "railway", "source": "mcp_verified", "country_qid": "Q668", "n_people": 3}
+{"id": "colkg:IndusSurvey", "label": "Indus survey", "type": "survey", "source": "internal", "country_qid": "Q129286", "n_people": 3}
 {"id": "colkg:LegislativeAssemblyDepartment", "label": "Legislative Assembly department", "type": "department", "source": "internal", "country_qid": "Q129286", "n_people": 3}
 {"id": "colkg:IndianPoliceBombay", "label": "Indian Police (Bombay)", "type": "police", "source": "internal", "country_qid": "Q129286", "n_people": 3}
 {"id": "colkg:MadrasPolice", "label": "Madras Police", "type": "police", "source": "internal", "country_qid": "Q129286", "n_people": 3}
@@ -106,7 +106,6 @@
 {"id": "colkg:ForeignDepartmentGovtOfIndia", "label": "Foreign department, Govt. of India", "type": "department", "source": "reuse", "country_qid": null, "n_people": 3}
 {"id": "colkg:4th_Hussars", "label": "4th Hussars", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 3}
 {"id": "colkg:RailwayClearingAccountsOfficeIndia", "label": "Railway Clearing Accounts Office", "type": "railway", "source": "internal", "country_qid": null, "n_people": 3}
-{"id": "colkg:royal_marine_light_infantry_and_artillery", "label": "Royal Marine Light Infantry and Artillery", "type": "military", "source": "internal", "country_qid": "Q145", "n_people": 3}
 {"id": "colkg:Registry_and_Record_department_India_Office", "label": "Registry and Record Department, India Office", "type": "department", "source": "internal", "country_qid": "Q145", "n_people": 3}
 {"id": "colkg:foreign_and_political_department_govt_of_India", "label": "Foreign and Political Department, Government of India", "type": "department", "source": "internal", "country_qid": "Q129286", "n_people": 3, "merged_from": ["colkg:ForeignAndPoliticalDepartmentIndia"]}
 {"id": "colkg:MuValleyRailway", "label": "Mu valley railway", "type": "railway", "source": "internal", "country_qid": "Q129286", "n_people": 3, "merged_from": ["colkg:Mu_Valley_railway"]}
@@ -179,7 +178,6 @@
 {"id": "colkg:Delhi_Minchinabad_railway_survey", "label": "Delhi-Minchinabad railway survey", "type": "railway", "source": "internal", "country_qid": "Q129286", "n_people": 2}
 {"id": "Q3522398", "label": "Indian Council of Agricultural Research", "type": "department", "source": "reuse", "country_qid": null, "n_people": 2}
 {"id": "colkg:political_and_secret_department", "label": "Political and Secret Department, India Office", "type": "department", "source": "internal", "country_qid": "Q145", "n_people": 2}
-{"id": "colkg:Indian_Empire_British_Raj_Secretariat", "label": "Indian Empire (British Raj) Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q129286", "n_people": 2}
 {"id": "colkg:Indian_State_railways_Coal_Dept", "label": "Indian State Railways, Coal Department", "type": "railway", "source": "internal", "country_qid": "Q129286", "n_people": 2, "merged_from": ["colkg:Indian_State_Railways_Coal_Department"]}
 {"id": "colkg:state_railway_revenue_establishment", "label": "state railway revenue establishment", "type": "railway", "source": "internal", "country_qid": null, "n_people": 2, "merged_from": ["colkg:StateRailwayRevenueEstablishmentIndia"]}
 {"id": "colkg:Vizagapatam_Raipur_railway_survey", "label": "Vizagapatam–Raipur railway survey", "type": "railway", "source": "internal", "country_qid": null, "n_people": 2, "merged_from": ["colkg:VizagapatamRaipurRailwaySurvey"]}
@@ -383,6 +381,7 @@
 {"id": "colkg:HighwaysDepartmentIndia", "label": "Highways Department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:Indian_Police_Madras", "label": "Indian Police, Madras", "type": "police", "source": "internal", "country_qid": "Q129286", "n_people": 1}
 {"id": "colkg:DepartmentOfCommissionerIndia", "label": "Department of Commissioner, Government of India", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
+{"id": "colkg:royal_marine_light_infantry_and_artillery", "label": "Royal Marine Light Infantry and Artillery", "type": "military", "source": "internal", "country_qid": "Q145", "n_people": 1}
 {"id": "colkg:21stHussars", "label": "21st Hussars", "type": "military", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:LowerBurmaRailwaysSurvey", "label": "Lower Burma Railways Survey", "type": "railway", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "Q7145106", "label": "Patna Medical College and Hospital", "type": "department", "source": "mcp_verified", "country_qid": null, "n_people": 1}
@@ -460,6 +459,7 @@
 {"id": "colkg:GovtOfIndiaPublicWorksDepartmentRailwayBranch", "label": "Government of India, Public Works Department (Railway Branch)", "type": "railway", "source": "internal", "country_qid": "Q1393984", "n_people": 1}
 {"id": "colkg:Bengal_sanitary_commission", "label": "Bengal sanitary commission", "type": "department", "source": "internal", "country_qid": "Q129286", "n_people": 1}
 {"id": "colkg:BikanerMedicalDepartment", "label": "Bikaner Medical Department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
+{"id": "colkg:Indian_Empire_British_Raj_Secretariat", "label": "Indian Empire (British Raj) Secretariat", "type": "secretariat", "source": "resolved_colony", "country_qid": "Q129286", "n_people": 1}
 {"id": "colkg:RevenueStatisticsAndCommerceDepartment", "label": "Revenue, Statistics and Commerce Department", "type": "department", "source": "internal", "country_qid": null, "n_people": 1}
 {"id": "colkg:India_Public_Works_department_Accts_department", "label": "India Public Works Department, Accounts Department", "type": "public_works", "source": "internal", "country_qid": "Q129286", "n_people": 1}
 {"id": "colkg:49th_regiment", "label": "49th regiment", "type": "organisation", "source": "internal", "country_qid": null, "n_people": 1}

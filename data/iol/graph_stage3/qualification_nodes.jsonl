@@ -2,7 +2,7 @@
 {"id": "colkg:amice", "label": "Associate Member of the Institution of Civil Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 98}
 {"id": "Q13948235", "label": "Bachelor of Medicine, Bachelor of Surgery", "type": "degree", "source": "seed_co_honour", "n_people": 79}
 {"id": "Q3631327", "label": "Fellowship of the Royal College of Surgeons", "type": "membership", "source": "seed_co_honour", "n_people": 58}
-{"id": "colkg:miee", "label": "Member of the Institution of Electrical Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 55}
+{"id": "colkg:miee", "label": "Member of the Institution of Electrical Engineers", "type": "membership", "source": "seed_co_honour", "n_people": 54}
 {"id": "colkg:msc", "label": "msc", "type": "order", "source": "internal", "n_people": 54}
 {"id": "Q2091008", "label": "Master of Arts", "type": "degree", "source": "seed_co_honour", "n_people": 50}
 {"id": "Q20006267", "label": "Fellow of the Royal Geographical Society", "type": "fellowship", "source": "seed_co_honour", "n_people": 44}
@@ -16,7 +16,7 @@
 {"id": "Q24590727", "label": "Fellow of the Geological Society of London", "type": "membership", "source": "seed_co_honour", "n_people": 19}
 {"id": "colkg:fic", "label": "Fellow of the Institute of Chemistry", "type": "membership", "source": "seed_co_honour", "n_people": 18}
 {"id": "colkg:fcs", "label": "Fellow of the Chemical Society", "type": "membership", "source": "seed_co_honour", "n_people": 15}
-{"id": "Q25513903", "label": "Fellow of the Zoological Society of London", "type": "membership", "source": "seed_co_honour", "n_people": 13}
+{"id": "Q25513903", "label": "Fellow of the Zoological Society of London", "type": "membership", "source": "seed_co_honour", "n_people": 12}
 {"id": "Q41942190", "label": "Fellow of the Royal Institute of British Architects", "type": "membership", "source": "seed_co_honour", "n_people": 12}
 {"id": "Q2248352", "label": "Doctor of Science", "type": "degree", "source": "seed_co_honour", "n_people": 12}
 {"id": "Q6717443", "label": "Member of the Royal College of Veterinary Surgeons", "type": "membership", "source": "seed_co_honour", "n_people": 10}
@@ -25,9 +25,9 @@
 {"id": "colkg:frcvs", "label": "Fellow of the Royal College of Veterinary Surgeons", "type": "membership", "source": "seed_co_honour", "n_people": 9}
 {"id": "colkg:mras", "label": "Member of the Royal Asiatic Society", "type": "membership", "source": "seed_co_honour", "n_people": 7}
 {"id": "Q752297", "label": "Doctor of Philosophy", "type": "degree", "source": "seed_co_honour", "n_people": 7}
-{"id": "colkg:fsa", "label": "Fellow of the Society of Antiquaries of London", "type": "membership", "source": "seed_co_honour", "n_people": 7}
 {"id": "Q787674", "label": "Bachelor of Science", "type": "degree", "source": "seed_co_honour", "n_people": 6}
 {"id": "Q26111565", "label": "Fellow of the Royal Astronomical Society", "type": "membership", "source": "seed_co_honour", "n_people": 6}
+{"id": "colkg:fsa", "label": "Fellow of the Society of Antiquaries of London", "type": "membership", "source": "seed_co_honour", "n_people": 6}
 {"id": "Q5438598", "label": "Fellow of the Royal Society of Edinburgh", "type": "membership", "source": "seed_co_honour", "n_people": 5}
 {"id": "colkg:fia", "label": "fia", "type": "order", "source": "internal", "n_people": 5}
 {"id": "Q4905728", "label": "Fellow of the Royal Society of Arts", "type": "membership", "source": "seed_co_honour", "n_people": 5}

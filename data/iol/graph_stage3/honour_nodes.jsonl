@@ -1,6 +1,6 @@
-{"id": "Q16008317", "label": "Companion of the Order of the Indian Empire", "type": "order", "source": "curated", "n_people": 2161}
+{"id": "Q16008317", "label": "Companion of the Order of the Indian Empire", "type": "order", "source": "curated", "n_people": 2155}
 {"id": "Q10762848", "label": "Officer of the Order of the British Empire", "type": "order", "source": "seed_co_honour", "n_people": 855}
-{"id": "Q14947476", "label": "Companion of the Order of the Star of India", "type": "order", "source": "curated", "n_people": 813}
+{"id": "Q14947476", "label": "Companion of the Order of the Star of India", "type": "order", "source": "curated", "n_people": 811}
 {"id": "Q12201526", "label": "Member of the Order of the British Empire", "type": "order", "source": "seed_co_honour", "n_people": 385}
 {"id": "Q16008267", "label": "Knight Commander of the Order of the Indian Empire", "type": "order", "source": "curated", "n_people": 369}
 {"id": "Q14947473", "label": "Knight Commander of the Order of the Star of India", "type": "order", "source": "curated", "n_people": 331}
@@ -13,7 +13,7 @@
 {"id": "Q12177413", "label": "Companion of the Order of St Michael and St George", "type": "order", "source": "seed_co_honour", "n_people": 180}
 {"id": "Q20982076", "label": "Volunteer Officers' Decoration for India and the Colonies", "type": "order", "source": "mcp_verified", "n_people": 162}
 {"id": "Q12177470", "label": "Knight Commander of the Order of the Bath", "type": "order", "source": "seed_co_honour", "n_people": 125}
-{"id": "colkg:khan_bahadur", "label": "khan bahadur", "type": "honour", "source": "internal", "n_people": 124}
+{"id": "colkg:khan_bahadur", "label": "khan bahadur", "type": "honour", "source": "internal", "n_people": 123}
 {"id": "Q16006972", "label": "Knight Grand Commander of the Order of the Indian Empire", "type": "order", "source": "curated", "n_people": 94}
 {"id": "Q14947472", "label": "Knight Grand Commander of the Order of the Star of India", "type": "order", "source": "curated", "n_people": 93}
 {"id": "Q1810753", "label": "Imperial Service Order", "type": "order", "source": "seed_co_honour", "n_people": 83}
@@ -44,14 +44,13 @@
 {"id": "colkg:gbe", "label": "gbe", "type": "order", "source": "internal", "n_people": 18}
 {"id": "colkg:mie", "label": "mie", "type": "order", "source": "internal", "n_people": 16}
 {"id": "colkg:dph", "label": "dph", "type": "order", "source": "internal", "n_people": 15}
-{"id": "colkg:fls", "label": "fls", "type": "order", "source": "internal", "n_people": 14}
 {"id": "colkg:akc", "label": "akc", "type": "order", "source": "internal", "n_people": 13}
+{"id": "colkg:fls", "label": "fls", "type": "order", "source": "internal", "n_people": 13}
 {"id": "colkg:rai_sahib", "label": "rai sahib", "type": "honour", "source": "internal", "n_people": 13}
 {"id": "colkg:khs", "label": "khs", "type": "order", "source": "internal", "n_people": 13}
 {"id": "Q833163", "label": "Knight Bachelor", "type": "honour", "source": "seed_co_honour", "n_people": 13}
 {"id": "Q2423226", "label": "Kaisar-i-Hind Medal", "type": "medal", "source": "curated", "n_people": 12}
 {"id": "colkg:ims", "label": "ims", "type": "order", "source": "internal", "n_people": 12}
-{"id": "colkg:mutiny_medal", "label": "mutiny medal", "type": "honour", "source": "internal", "n_people": 12}
 {"id": "colkg:sardar_bahadur", "label": "sardar bahadur", "type": "honour", "source": "internal", "n_people": 11}
 {"id": "colkg:khp", "label": "khp", "type": "order", "source": "internal", "n_people": 11}
 {"id": "Q1229534", "label": "Distinguished Flying Cross", "type": "decoration", "source": "seed_co_honour", "n_people": 11}
@@ -67,6 +66,7 @@
 {"id": "colkg:to_king_s_police_medal", "label": "to king's police medal", "type": "honour", "source": "internal", "n_people": 9}
 {"id": "colkg:bronze_star", "label": "bronze star", "type": "honour", "source": "internal", "n_people": 8}
 {"id": "colkg:india_medal", "label": "india medal", "type": "honour", "source": "internal", "n_people": 8}
+{"id": "colkg:mutiny_medal", "label": "mutiny medal", "type": "honour", "source": "internal", "n_people": 8}
 {"id": "colkg:lieut_col", "label": "lieut -col", "type": "honour", "source": "internal", "n_people": 8}
 {"id": "colkg:lce", "label": "lce", "type": "order", "source": "internal", "n_people": 8}
 {"id": "colkg:pms", "label": "pms", "type": "order", "source": "internal", "n_people": 8}
@@ -84,7 +84,6 @@
 {"id": "colkg:adc", "label": "adc", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:statutory_c_s", "label": "statutory c s", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:fsi", "label": "fsi", "type": "order", "source": "internal", "n_people": 5}
-{"id": "colkg:frontier_medal", "label": "frontier medal", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:ksm", "label": "ksm", "type": "order", "source": "internal", "n_people": 5}
 {"id": "colkg:m_inst_c_e", "label": "m inst c e", "type": "honour", "source": "internal", "n_people": 5}
 {"id": "colkg:mm", "label": "mm", "type": "order", "source": "internal", "n_people": 5}
@@ -99,6 +98,7 @@
 {"id": "colkg:nda", "label": "nda", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:ariba", "label": "ariba", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:royal_victorian_chain", "label": "royal victorian chain", "type": "honour", "source": "internal", "n_people": 4}
+{"id": "colkg:frontier_medal", "label": "frontier medal", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:kaiser_i_hind_medal_1st_class", "label": "kaiser-i-hind medal, 1st class", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:aic", "label": "aic", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:jp", "label": "jp", "type": "order", "source": "internal", "n_people": 4}
@@ -106,7 +106,6 @@
 {"id": "colkg:ce", "label": "ce", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:cs", "label": "cs", "type": "order", "source": "internal", "n_people": 4}
 {"id": "colkg:k_i_h", "label": "k -i-h", "type": "honour", "source": "internal", "n_people": 4}
-{"id": "colkg:local_rank_of_lieutenant", "label": "local rank of lieutenant", "type": "honour", "source": "internal", "n_people": 4}
 {"id": "colkg:khedive_s_star", "label": "khedive's star", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:brevet_of_lieutenant_colonel", "label": "brevet of lieutenant-colonel", "type": "honour", "source": "internal", "n_people": 3}
 {"id": "colkg:kt_of_the_order_of_st_john", "label": "kt of the order of st john", "type": "honour", "source": "internal", "n_people": 3}
@@ -517,6 +516,7 @@
 {"id": "colkg:frls", "label": "frls", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:gold_medal_of_r_geo_soc", "label": "gold medal of r geo soc", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:ditto_paris_geo_soc", "label": "ditto paris geo soc", "type": "honour", "source": "internal", "n_people": 1}
+{"id": "colkg:local_rank_of_lieutenant", "label": "local rank of lieutenant", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:diwan_badahur", "label": "diwan badahur", "type": "honour", "source": "internal", "n_people": 1}
 {"id": "colkg:mrase", "label": "mrase", "type": "order", "source": "internal", "n_people": 1}
 {"id": "colkg:brilliant_star_of_zanzibar_1st_grade_2nd_class", "label": "brilliant star of zanzibar, 1st grade, 2nd class", "type": "honour", "source": "internal", "n_people": 1}
