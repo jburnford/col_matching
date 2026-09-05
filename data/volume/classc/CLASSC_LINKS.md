@@ -1,9 +1,9 @@
 # Applied class-C links (career -> bio person)
 
-- 'same' verdicts scored: 13,727
-- applied: 10,009 pairs / 10,009 careers (tier1 7,003, tier2 2,879, tier3 skeptic/hard 99, hand 28); corroboration {'llm_only': 2887, 'hard': 1022, 'place': 6026, 'possim': 74}
+- 'same' verdicts scored: 15,282
+- applied: 11,121 pairs / 11,121 careers (tier1 7,777, tier2 3,218, tier3 skeptic/hard 98, hand 28); corroboration {'llm_only': 3226, 'hard': 1177, 'place': 6639, 'possim': 79}
 - hand-ledger suppressions (silver-refuted links): 3
-- not linked (FINAL under this policy — no review required): 3,718 (ambiguous careers: 143)
+- not linked (FINAL under this policy — no review required): 4,161 (ambiguous careers: 154)
 
 ## Verification basis
 
@@ -21,7 +21,7 @@ events.
 ## Link-rate lift (roster careers with a bio identity)
 
 - before: 20,516 / 179,033 careers (11.5%)
-- after:  30,525 / 179,033 (17.0%)
+- after:  31,637 / 179,033 (17.7%)
 
 Links are an OVERLAY (career_person_links.jsonl) joining careers.jsonl
 on career_id; careers.jsonl itself is untouched (it stays the product
