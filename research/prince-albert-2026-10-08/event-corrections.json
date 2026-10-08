@@ -1,0 +1,528 @@
+[
+  {
+    "id": "prince-albert-review-kgp_col1897-p478b29_s1-9",
+    "person_id": "kgp_col1897-p478b29_s1",
+    "match": {
+      "seq": 9,
+      "year_start": 1870,
+      "position": "C.C. and D.C.",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The source places these magistracies in the Cape career, between Cape colonial secretary service and Tulbagh; Prince Albert is the Cape town.",
+    "source": "col1883-p371b4"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p478b29_s1-11",
+    "person_id": "kgp_col1897-p478b29_s1",
+    "match": {
+      "seq": 11,
+      "year_start": 1870,
+      "position": "C.C. and R.M.",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The source places these magistracies in the Cape career, between Cape colonial secretary service and Tulbagh; Prince Albert is the Cape town.",
+    "source": "col1883-p371b4"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p478b29_s1-12",
+    "person_id": "kgp_col1897-p478b29_s1",
+    "match": {
+      "seq": 12,
+      "year_start": 1870,
+      "position": "civil commissioner and resident magistrate",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The source places these magistracies in the Cape career, between Cape colonial secretary service and Tulbagh; Prince Albert is the Cape town.",
+    "source": "col1883-p371b4"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p478b29_s1-16",
+    "person_id": "kgp_col1897-p478b29_s1",
+    "match": {
+      "seq": 16,
+      "year_start": 1879,
+      "position": "deputy assistant-treasurer",
+      "place_raw": "Tulbagh"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Deputy assistant-treasurer of the Cape government, 1879; Tulbagh was inherited from the preceding magistracy. Central government seat used as an approximate plotting location.",
+    "source": "col1883-p371b4"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p481b20-2",
+    "person_id": "kgp_col1897-p481b20",
+    "match": {
+      "seq": 2,
+      "year_start": 1860,
+      "position": "clerk to C.C. and R.M.",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The source places Prince Albert between Simon’s Town and other Cape offices; this is the Cape town.",
+    "source": "col1897-p481b20"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p481b20-3",
+    "person_id": "kgp_col1897-p481b20",
+    "match": {
+      "seq": 3,
+      "year_start": 1860,
+      "position": "clerk to civil commissioner and resident magistrate",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The source places Prince Albert between Simon’s Town and other Cape offices; this is the Cape town.",
+    "source": "col1897-p481b20"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p481b20-4",
+    "person_id": "kgp_col1897-p481b20",
+    "match": {
+      "seq": 4,
+      "year_start": 1864,
+      "position": "2nd clerk",
+      "place_raw": "attorney-general's office"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Cape attorney-general’s office; the earlier Prince Albert or Humansdorp location was inherited across a new office. Central government seat used as an approximate plotting location.",
+    "source": "col1897-p481b20"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p481b20-5",
+    "person_id": "kgp_col1897-p481b20",
+    "match": {
+      "seq": 5,
+      "year_start": 1864,
+      "position": "2nd clerk attorney-general's office",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Cape attorney-general’s office; the earlier Prince Albert or Humansdorp location was inherited across a new office. Central government seat used as an approximate plotting location.",
+    "source": "col1897-p481b20"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p481b20-6",
+    "person_id": "kgp_col1897-p481b20",
+    "match": {
+      "seq": 6,
+      "year_start": 1869,
+      "position": "master and registrar eastern districts court",
+      "place_raw": "attorney-general's office"
+    },
+    "set": {
+      "place_qid": "Q951161",
+      "place_label": "Grahamstown",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Master and registrar of the Eastern Districts Court, which sat at Grahamstown; the preceding office/Prince Albert strings do not locate this court.",
+    "source": "col1897-p481b20"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p481b20-7",
+    "person_id": "kgp_col1897-p481b20",
+    "match": {
+      "seq": 7,
+      "year_start": 1869,
+      "position": "master and registrar eastern districts court",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q951161",
+      "place_label": "Grahamstown",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Master and registrar of the Eastern Districts Court, which sat at Grahamstown; the preceding office/Prince Albert strings do not locate this court.",
+    "source": "col1897-p481b20"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p481b20-9",
+    "person_id": "kgp_col1897-p481b20",
+    "match": {
+      "seq": 9,
+      "year_start": 1872,
+      "position": "chief clerk, attorney-general's office",
+      "place_raw": "Humansdorp"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Cape attorney-general’s office; the earlier Prince Albert or Humansdorp location was inherited across a new office. Central government seat used as an approximate plotting location.",
+    "source": "col1897-p481b20"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1921-p816b11-2",
+    "person_id": "kgp_col1921-p816b11",
+    "match": {
+      "seq": 2,
+      "year_start": 1891,
+      "position": "clerk to registrar of mines",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Clerk to the registrar of mines, Prince Albert, 1891–92, in a Cape civil-service career.",
+    "source": "col1921-p816b11"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1921-p816b11-3",
+    "person_id": "kgp_col1921-p816b11",
+    "match": {
+      "seq": 3,
+      "year_start": 1892,
+      "position": "legislative council officer",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Return to the Cape legislative council office and later clerkships; Prince Albert belongs only to the preceding mines appointment. Cape Town is the institutional seat identified in the earlier clause.",
+    "source": "col1921-p816b11"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1921-p816b11-4",
+    "person_id": "kgp_col1921-p816b11",
+    "match": {
+      "seq": 4,
+      "year_start": 1894,
+      "position": "legislative council officer",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Return to the Cape legislative council office and later clerkships; Prince Albert belongs only to the preceding mines appointment. Cape Town is the institutional seat identified in the earlier clause.",
+    "source": "col1921-p816b11"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1921-p816b11-5",
+    "person_id": "kgp_col1921-p816b11",
+    "match": {
+      "seq": 5,
+      "year_start": 1899,
+      "position": "clerk of the papers and comtee clerk",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Return to the Cape legislative council office and later clerkships; Prince Albert belongs only to the preceding mines appointment. Cape Town is the institutional seat identified in the earlier clause.",
+    "source": "col1921-p816b11"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1921-p816b11-7",
+    "person_id": "kgp_col1921-p816b11",
+    "match": {
+      "seq": 7,
+      "year_start": 1899,
+      "position": "legislative council officer",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Return to the Cape legislative council office and later clerkships; Prince Albert belongs only to the preceding mines appointment. Cape Town is the institutional seat identified in the earlier clause.",
+    "source": "col1921-p816b11"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1921-p816b11-8",
+    "person_id": "kgp_col1921-p816b11",
+    "match": {
+      "seq": 8,
+      "year_start": 1901,
+      "position": "an esquire of the order of St. John of Jerusalem",
+      "place_raw": "England"
+    },
+    "set": {
+      "place_qid": null,
+      "place_label": null,
+      "colony_qid": null,
+      "colony_label": null,
+      "grounded": false,
+      "route_neutral": true
+    },
+    "reason": "An esquire of the Order of St John of Jerusalem in England is an honour, not an appointment in England. Preserve the source event without a journey.",
+    "source": "col1921-p816b11"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1921-p816b11-9",
+    "person_id": "kgp_col1921-p816b11",
+    "match": {
+      "seq": 9,
+      "year_start": 1904,
+      "position": "clerk assistant and taxing officer",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q5465",
+      "place_label": "Cape Town",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Return to the Cape legislative council office and later clerkships; Prince Albert belongs only to the preceding mines appointment. Cape Town is the institutional seat identified in the earlier clause.",
+    "source": "col1921-p816b11"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1921-p816b11-13",
+    "person_id": "kgp_col1921-p816b11",
+    "match": {
+      "seq": 13,
+      "year_start": null,
+      "position": "honorary secretary",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": null,
+      "place_label": null,
+      "colony_qid": null,
+      "colony_label": null,
+      "grounded": false
+    },
+    "reason": "Undated honorary secretary clause has no Prince Albert location in the source; the mines posting was inherited. The written event remains.",
+    "source": "col1921-p816b11"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1898-p520b7-8",
+    "person_id": "kgp_col1898-p520b7",
+    "match": {
+      "seq": 8,
+      "year_start": 1891,
+      "position": "detached for purpose of investigating the discovery of gold in district of Prince Albert",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The Cape mines official was detached to investigate gold in the Prince Albert district and held temporary mining offices there; all remain mapped in South Africa.",
+    "source": "col1898-p520b7"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1898-p520b7-9",
+    "person_id": "kgp_col1898-p520b7",
+    "match": {
+      "seq": 9,
+      "year_start": 1891,
+      "position": "inspector and registrar of mines",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The Cape mines official was detached to investigate gold in the Prince Albert district and held temporary mining offices there; all remain mapped in South Africa.",
+    "source": "col1898-p520b7"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1898-p520b7-11",
+    "person_id": "kgp_col1898-p520b7",
+    "match": {
+      "seq": 11,
+      "year_start": 1891,
+      "position": "special J.P. for mining areas",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The Cape mines official was detached to investigate gold in the Prince Albert district and held temporary mining offices there; all remain mapped in South Africa.",
+    "source": "col1898-p520b7"
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p546b17-0",
+    "person_id": "kgp_col1897-p546b17",
+    "match": {
+      "seq": 0,
+      "year_start": 1858,
+      "position": "civil service",
+      "place_raw": "Ceylon Colony"
+    },
+    "set": {
+      "place_qid": "Q370736",
+      "place_label": "Cape Colony",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The 1889 source reads Cape Colony, not the Ceylon Colony reading in 1897; this Cape magistrate’s career is corroborated by the named Cape districts. Dates are preserved; edition disagreements in the Carnarvon year are not adjudicated here.",
+    "source": [
+      "col1886-p487b3",
+      "col1889-p530b18"
+    ]
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p546b17-3",
+    "person_id": "kgp_col1897-p546b17",
+    "match": {
+      "seq": 3,
+      "year_start": 1883,
+      "position": "C.C. and R.M.",
+      "place_raw": "Prince Albert"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The 1886 source explicitly names Prince Albert division, Cape Colony.",
+    "source": [
+      "col1886-p487b3",
+      "col1889-p530b18"
+    ]
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p546b17-4",
+    "person_id": "kgp_col1897-p546b17",
+    "match": {
+      "seq": 4,
+      "year_start": 1883,
+      "position": "Civil commissioner and resident magistrate",
+      "place_raw": "Prince Albert division, Cape Colony"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The 1886 source explicitly names Prince Albert division, Cape Colony.",
+    "source": [
+      "col1886-p487b3",
+      "col1889-p530b18"
+    ]
+  },
+  {
+    "id": "prince-albert-review-kgp_col1897-p546b17-5",
+    "person_id": "kgp_col1897-p546b17",
+    "match": {
+      "seq": 5,
+      "year_start": 1885,
+      "position": "relieving C.C. and R.M. of the colony",
+      "place_raw": "Ceylon Colony"
+    },
+    "set": {
+      "place_qid": "Q370736",
+      "place_label": "Cape Colony",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "The 1889 source reads Cape Colony, not the Ceylon Colony reading in 1897; this Cape magistrate’s career is corroborated by the named Cape districts. Dates are preserved; edition disagreements in the Carnarvon year are not adjudicated here.",
+    "source": [
+      "col1886-p487b3",
+      "col1889-p530b18"
+    ]
+  },
+  {
+    "id": "prince-albert-review-kgp_col1918-p827b6-0",
+    "person_id": "kgp_col1918-p827b6",
+    "match": {
+      "seq": 0,
+      "year_start": 1881,
+      "position": "Temp. clerk, mag's. officer",
+      "place_raw": "Prince Albert, Cape Colony"
+    },
+    "set": {
+      "place_qid": "Q1533623",
+      "place_label": "Prince Albert (Cape)",
+      "colony_qid": "Q370736",
+      "colony_label": "Cape Colony",
+      "grounded": true
+    },
+    "reason": "Source explicitly names Prince Albert, Cape Colony. The temporary clerkship must remain mapped.",
+    "source": "col1918-p827b6"
+  }
+]

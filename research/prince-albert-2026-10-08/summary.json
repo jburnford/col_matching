@@ -1,0 +1,12 @@
+{
+  "scope": "All Prince Albert event mentions in both corpora were inspected. Five additional Cape careers carried 18 Saskatchewan-grounded events; two explicit Cape variants were unlocated. Distinguish actual Prince Albert appointments from inherited later-office locations. Preserve temporary mining and magistracy appointments. This is not a complete source adjudication of the six careers.",
+  "corrected_events": 27,
+  "profiles": 6,
+  "sources": [
+    "sources.json",
+    "https://www.gov.za/ss/about-government/contact-directory/wc-municipalities/prince-albert-local-municipality",
+    "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Cape_Colony",
+    "https://newspapers.eggsa.org/index.php/fort-beaufort-advocate/fort-beaufort-advocate-1869-4-october-december"
+  ],
+  "remaining": "Pett\u2019s Carnarvon start year differs by edition; unchanged. Other unreviewed inherited locations may remain outside the corrections documented here."
+}

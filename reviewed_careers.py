@@ -8,7 +8,10 @@ NON_HELD = {'electoral_defeat', 'appointment_not_taken_up', 'attribution_unresol
 
 @lru_cache(maxsize=1)
 def rules():
-    rows = json.loads((Path(__file__).parent / 'research/top-500-careers-2026-10-07/event-corrections.json').read_text())
+    rows = []
+    for path in ('research/top-500-careers-2026-10-07/event-corrections.json',
+                 'research/prince-albert-2026-10-08/event-corrections.json'):
+        rows.extend(json.loads((Path(__file__).parent / path).read_text()))
     out = {}
     for row in rows: out.setdefault(row['person_id'], []).append(row)
     return out
@@ -29,6 +32,12 @@ def apply_review(r):
     def note(code, text):
         reasons.add(code)
         if not any(s.startswith('top500-') for s in reasons): r['location_note'] = text
+    # Explicit source context can resolve this homonym without a person override.
+    # Bare Prince Albert must remain available for genuine Canadian appointments.
+    if 'prince albert' in raw and ('cape colony' in raw or 'south africa' in raw):
+        locate('Q1533623', 'Prince Albert (Cape)', 'Q370736' if y and 1806 <= y <= 1910 else None,
+               'Cape Colony' if y and 1806 <= y <= 1910 else None)
+        note('prince-albert-explicit-cape', 'Source explicitly locates Prince Albert in the Cape; Saskatchewan is a different place.')
     if c == 'Q84' and re.search(r'\b(w\.?\s*africa|west africa)', raw):
         locate('Q4412', 'West Africa')
         note('west-africa-not-london', 'West Africa is a region, not the UK metropole; regional point only.')

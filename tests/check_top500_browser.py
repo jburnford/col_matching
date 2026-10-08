@@ -56,6 +56,17 @@ async def main():
       Object.values(A.places).filter(p=>p.entity_qid==='Q1121436').every(p=>p.lat>43 && p.lat<48 && p.lon>-80 && p.lon<-70);
   }""")
   await page.screenshot(path='/tmp/province-canada-corrected.png',full_page=False)
+  for pid in ['kgp_col1897-p478b29_s1','kgp_col1897-p481b20','kgp_col1921-p816b11','kgp_col1898-p520b7','kgp_col1897-p546b17','kgp_col1918-p827b6']:
+   await page.evaluate('(pid)=>ATLAS.App.selectPerson(pid)',pid)
+   await page.wait_for_timeout(300)
+   assert await page.evaluate("""pid => {
+     const A=ATLAS.App, st=A.careers.persons[pid].st;
+     return st.some(s=>A.places[s[0]].entity_qid==='Q1533623') &&
+       st.every(s=>!['Q671431','Q1989'].includes(A.places[s[0]].entity_qid)) &&
+       !!ATLAS.Places.markers['Q1533623@place'];
+   }""",pid)
+   assert 'Prince Albert (Cape)' in await page.locator('#reg-body').inner_text()
+  await page.screenshot(path='/tmp/prince-albert-cape.png',full_page=False)
   for pid,needle in [('kgp_col1906-p730b6','Prince Albert (Cape)'),('kgp_col1932-p883b6','Belfast (Transvaal)'),('kgp_col1886-p405b4','Alexandria (Cape)')]:
    await page.evaluate('(pid)=>ATLAS.App.selectPerson(pid)',pid)
    assert needle in await page.locator('#reg-body').inner_text()
@@ -87,7 +98,7 @@ async def main():
   await page.wait_for_function("document.querySelector('#rank-1').open")
   await page.screenshot(path='/tmp/top500-review-desktop.png',full_page=False)
   assert not errors,errors
-  print('Province of Canada coordinates and post-Confederation Ottawa appointments passed. Cameron: Ottawa retained in text, temporary Windward posting mapped, solid Gambia arc rendered. Ford, homonyms, composite withdrawal, tour, mobile resize, 500 review rows, search and deep links passed; no browser errors.')
+  print('Six Prince Albert Cape careers and Province of Canada checks passed. Cameron: Ottawa retained in text, temporary Windward posting mapped, solid Gambia arc rendered. Ford, homonyms, composite withdrawal, tour, mobile resize, 500 review rows, search and deep links passed; no browser errors.')
   await browser.close()
 
 if __name__=='__main__':asyncio.run(main())
