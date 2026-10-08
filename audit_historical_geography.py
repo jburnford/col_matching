@@ -49,12 +49,12 @@ def main():
                 n['temporal_candidates'] += 1
                 candidates.append([corpus, r['person_id'], r['seq'], y, cq, r.get('colony_label'),
                                    r.get('place_raw'), r.get('position'), reason,
-                                   min(starts) if starts else '', max(ends) if ends else ''])
+                                   min(starts) if starts else 'unknown', max(ends) if ends else 'unknown'])
         counts[corpus] = dict(n)
     (OUT / f'{prefix}-counts.json').write_text(json.dumps(counts, indent=2) + '\n')
     (OUT / f'{prefix}-corrections.json').write_text(json.dumps(changes, ensure_ascii=False, indent=1) + '\n')
     with (OUT / f'{prefix}-temporal-review.tsv').open('w') as f:
-        writer = csv.writer(f, delimiter='\t')
+        writer = csv.writer(f, delimiter='\t', lineterminator='\n')
         writer.writerow(['corpus', 'person_id', 'seq', 'year', 'qid', 'label', 'place_raw', 'position', 'reason', 'inception', 'dissolution'])
         writer.writerows(candidates)
     print(json.dumps(counts, indent=2))
