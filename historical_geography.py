@@ -60,6 +60,14 @@ def correct_event(original):
                  role_label='defeated by Sir Richard McBride, in Victoria')
         reasons.append('brewster-1912-defeat')
 
+    # These federal appointments inherited "province of Canada" from an
+    # earlier source clause. Retain the raw wording, correct the jurisdiction.
+    # Senate and ministry evidence: research/canada-geography-2026-10-08.json.
+    if ((pid == 'kgp_col1879-p423b19' and y in (1871, 1872) and 'clerk' in pos) or
+            (pid == 'kgp_col1905-p661b19' and y == 1867 and 'inland rev' in pos)):
+        locate('Q16', 'Canada', 'Q16', 'Canada')
+        reasons.append('canada-federal-office-after-confederation')
+
     normalized = re.sub(r'[^a-z ]', '', pos).strip()
     if r.get('org_type') == 'civil' and normalized in (
             'defeated', 'defeated at general elec', 'defeated at g e',

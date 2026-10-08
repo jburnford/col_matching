@@ -1,0 +1,18 @@
+{
+  "entity": "Q1121436",
+  "problem": "Cached Wikidata P625 places the Province of Canada at 60 N, 100 W, outside its historical territory. Post-Confederation federal offices also inherited this jurisdiction from earlier biography clauses.",
+  "regional_marker": {"lat": 46.0, "lon": -76.0, "meaning": "Cartographic choice: schematic regional point within the historical province, not a measured centroid, capital or asserted workplace."},
+  "capital_policy": "Use dated seats. Government relocation years 1844, 1849, 1851, 1855, 1859 and 1865 use the schematic regional marker when only a year is known. Parliamentary session dates may follow the government move. Province jurisdiction is valid only within 1841-1867; no automatic successor is assigned to unreviewed events.",
+  "sources": [
+    {"url": "https://www.pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?i=82422&id=1637", "supports": "Kingston, Montreal, Toronto and Quebec parliamentary seats and relocation chronology."},
+    {"url": "https://www65.statcan.gc.ca/acyb07/acyb07_2013-fra.htm", "supports": "Government moved from Toronto to Quebec in autumn 1851, back to Toronto in 1855, then Quebec in summer 1859."},
+    {"url": "https://publications.gc.ca/collections/collection_2021/parl/x12-3/X12-3-5-1868-eng.pdf", "supports": "Report on removal of government offices from Quebec to Ottawa in October 1865."},
+    {"url": "https://www.ourcommons.ca/procedure/procedure-and-practice-3/ch_06_1-e.html", "supports": "First Ottawa parliamentary sitting in 1866; distinguishes session date from office relocation."},
+    {"url": "https://publications.gc.ca/collections/collection_2014/sen/Y9-19-2014-eng.pdf", "supports": "Robert Le Moine was Clerk of the Senate and Clerk of the Parliaments, 1871-1883."},
+    {"url": "https://guide-ministries.canada.ca/en/canadian-ministries/ministry-details/1/1", "supports": "William Pearce Howland, federal Minister of Inland Revenue, 1 July 1867 to 14 July 1868."}
+  ],
+  "corrected_events": [
+    {"person_id": "kgp_col1879-p423b19", "years": [1871, 1872], "jurisdiction": "Q16", "map_seat": "Ottawa"},
+    {"person_id": "kgp_col1905-p661b19", "years": [1867], "jurisdiction": "Q16", "map_seat": "Ottawa"}
+  ]
+}

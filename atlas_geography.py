@@ -29,6 +29,10 @@ def year(v):
 
 
 def point(q):
+    # Reviewed schematic point inside the historical province, NOT a workplace
+    # or centroid. Wikidata's 60 N, 100 W falls outside its territory.
+    # Evidence and capital chronology: research/canada-geography-2026-10-08.json.
+    if q == 'Q1121436': return [46.0, -76.0]
     for s in evidence().get(q, {}).get('claims', {}).get('P625', []):
         v = value(s)
         if v and s.get('rank') != 'deprecated' and v.get('globe', '').endswith('/Q2'):
@@ -82,6 +86,20 @@ def project(r):
         else: mode = 'capital changed in 1911; regional point'
         # Avoid claiming the Raj existed before Crown rule.
         label = 'India (Company period)' if y < 1858 else ('India' if y > 1947 else 'British Raj')
+    elif q == 'Q1121436' and is_jurisdiction:
+        if not 1841 <= y <= 1867: return None, None
+        # Offices moved within these years; a year-only event cannot identify
+        # which seat was occupied. Legislative sessions can start later than
+        # the actual government move (notably Ottawa in 1865/66).
+        if y in (1844, 1849, 1851, 1855, 1859, 1865):
+            mode = 'capital changed during year; schematic regional point'
+        elif y <= 1843: cap = 'Q202973'
+        elif y <= 1848: cap = 'Q340'
+        elif y <= 1850: cap = 'Q172'
+        elif y <= 1854: cap = 'Q2145'
+        elif y <= 1858: cap = 'Q172'
+        elif y <= 1864: cap = 'Q2145'
+        else: cap = 'Q1930'
     elif is_jurisdiction:
         caps = []
         for s in e.get('claims', {}).get('P36', []):

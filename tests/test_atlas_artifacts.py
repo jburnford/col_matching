@@ -20,6 +20,8 @@ class AtlasArtifactTests(unittest.TestCase):
                 self.assertIn(key, self.places, pid)
                 node = self.places[key]
                 if node['entity_qid'] == 'Q193619': self.assertGreaterEqual(start, 1910, pid)
+                if node['entity_qid'] == 'Q1121436':
+                    self.assertTrue(1841 <= start <= 1867, (pid,start))
                 if node['entity_qid'] == 'Q1643555' and start < 1970:
                     self.assertEqual(node['capital_qid'], 'Q108223', pid)
                 if node['entity_qid'] == 'Q129286' and start < 1911:
@@ -75,6 +77,16 @@ class AtlasArtifactTests(unittest.TestCase):
             self.assertEqual(by_year(1851), {'Q1643555'})
             self.assertEqual(by_year(1858), {'Q717'})
             self.assertEqual(by_year(1861), {'Q370736'})
+
+    def test_province_canada_stays_in_historical_region(self):
+        for node in self.places.values():
+            if node['entity_qid']=='Q1121436':
+                self.assertTrue(43 < node['lat'] < 48 and -80 < node['lon'] < -70,node)
+        for pid,years in [('kgp_col1879-p423b19',(1871,1872)),('kgp_col1905-p661b19',(1867,))]:
+            for y in years:
+                st=[s for s in self.data['persons'][pid]['st'] if s[1]==y]
+                self.assertTrue(st)
+                self.assertTrue(all(self.places[s[0]]['entity_qid']=='Q16' for s in st))
 
     def test_brewster_defeat_retained_without_tenure(self):
         p = self.data['persons']['kgp_col1918-p696b8']

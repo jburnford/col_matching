@@ -46,6 +46,16 @@ async def main():
   await page.locator('details summary').click()
   assert 'Conference participation' in await page.locator('#reg-body').inner_text()
   await page.screenshot(path='/tmp/cameron-africa.png',full_page=False)
+  await page.evaluate("ATLAS.App.selectPerson('kgp_col1879-p423b19')")
+  await page.wait_for_timeout(700)
+  assert await page.evaluate("""() => {
+    const A=ATLAS.App, st=A.careers.persons['kgp_col1879-p423b19'].st;
+    return st.filter(s=>s[1]===1871 || s[1]===1872).length===2 &&
+      st.every(s=>{const p=A.places[s[0]]; return p.lat>43 && p.lat<48 && p.lon>-80 && p.lon<-70;}) &&
+      st.filter(s=>s[1]===1871 || s[1]===1872).every(s=>A.places[s[0]].capital_qid==='Q1930' && A.places[s[0]].entity_qid==='Q16') &&
+      Object.values(A.places).filter(p=>p.entity_qid==='Q1121436').every(p=>p.lat>43 && p.lat<48 && p.lon>-80 && p.lon<-70);
+  }""")
+  await page.screenshot(path='/tmp/province-canada-corrected.png',full_page=False)
   for pid,needle in [('kgp_col1906-p730b6','Prince Albert (Cape)'),('kgp_col1932-p883b6','Belfast (Transvaal)'),('kgp_col1886-p405b4','Alexandria (Cape)')]:
    await page.evaluate('(pid)=>ATLAS.App.selectPerson(pid)',pid)
    assert needle in await page.locator('#reg-body').inner_text()
@@ -77,7 +87,7 @@ async def main():
   await page.wait_for_function("document.querySelector('#rank-1').open")
   await page.screenshot(path='/tmp/top500-review-desktop.png',full_page=False)
   assert not errors,errors
-  print('Cameron: Ottawa retained in text, temporary Windward posting mapped, solid Gambia arc rendered. Ford, homonyms, composite withdrawal, tour, mobile resize, 500 review rows, search and deep links passed; no browser errors.')
+  print('Province of Canada coordinates and post-Confederation Ottawa appointments passed. Cameron: Ottawa retained in text, temporary Windward posting mapped, solid Gambia arc rendered. Ford, homonyms, composite withdrawal, tour, mobile resize, 500 review rows, search and deep links passed; no browser errors.')
   await browser.close()
 
 if __name__=='__main__':asyncio.run(main())

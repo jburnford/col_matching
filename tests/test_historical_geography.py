@@ -49,5 +49,29 @@ class HistoricalGeographyTests(unittest.TestCase):
         self.assertIsNone(p('Q129286', 1911)['capital_qid'])
         self.assertIsNone(p('Q193619', 1920)['capital_qid'])
 
+    def test_province_of_canada_seats_and_transition_years(self):
+        for y,q in ((1841,'Q202973'),(1845,'Q340'),(1850,'Q172'),
+                    (1852,'Q2145'),(1856,'Q172'),(1862,'Q2145'),(1866,'Q1930')):
+            node=project({'colony_qid':'Q1121436','year_start':y})[1]
+            self.assertEqual(node['capital_qid'],q)
+        for y in (1844,1849,1851,1855,1859,1865):
+            node=project({'colony_qid':'Q1121436','year_start':y})[1]
+            self.assertIsNone(node['capital_qid'])
+            self.assertTrue(43 < node['lat'] < 48 and -80 < node['lon'] < -70)
+            self.assertIn('schematic',node['coordinate_kind'])
+        for y in (1840,1868,1871):
+            self.assertEqual(project({'colony_qid':'Q1121436','year_start':y}),(None,None))
+
+    def test_reviewed_federal_offices_keep_source_and_use_canada(self):
+        for pid,y,title in (('kgp_col1879-p423b19',1871,'clerk of the senate'),
+                            ('kgp_col1879-p423b19',1872,'clerk of the parliaments'),
+                            ('kgp_col1905-p661b19',1867,'minister of inland rev.')):
+            row=correct_event(dict(person_id=pid,year_start=y,position=title,
+                                   place_raw='province of Canada',place_qid='Q1121436',colony_qid='Q1121436'))
+            self.assertEqual(location(row),('Q16','Canada'))
+            self.assertEqual(row['place_raw'],'province of Canada')
+            self.assertEqual(project(row)[1]['capital_qid'],'Q1930')
+            self.assertEqual(correct_event(row),row)
+
 
 if __name__ == '__main__': unittest.main()
