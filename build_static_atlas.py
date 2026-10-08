@@ -165,16 +165,16 @@ def build_careers_search(canon):
                 unplaced[pid].add((y0, y1, r.get('role_label') or r.get('position_raw') or '',
                                   r.get('place_raw') or r.get('place_label') or '', reason))
             else:
-                evset[pid].add((y0, y1 or y0, key, ri, 1 if r.get('is_acting') else 0))
+                evset[pid].add((y0, y1 or y0, key, ri, 1 if r.get('is_acting') else 0, r.get('route_order', 0)))
 
     careers, search = {}, []
     for cpid in sorted(evset.keys() | unplaced.keys()):
         corpus = 0 if cpid in co_persons else 1
         sur, giv, qid, wlabel = persons.get(cpid, (None, None, None, None))
-        evs = sorted(evset[cpid], key=lambda e: (e[0], e[2], e[3], e[1]))
+        evs = sorted(evset[cpid], key=lambda e: (e[0], e[5], e[2], e[3], e[1]))
         # Preserve distinct event dates: equal roles years apart do not prove
         # uninterrupted tenure (Brewster's electoral defeat exposed this too).
-        st = [[q, y0, y1, ri, ac] for y0, y1, q, ri, ac in evs]
+        st = [[q, y0, y1, ri, ac] for y0, y1, q, ri, ac, order in evs]
         un = sorted(unplaced[cpid], key=lambda e: (e[0] or 9999, e[2], e[3]))
         disp = wlabel or f"{sur or '?'}, {giv or ''}".strip().rstrip(',')
         careers[cpid] = {'q': qid, 'c': corpus, 'na': len(evs) + len(un), 'nm': disp, 'st': st, 'un': un}

@@ -56,6 +56,27 @@ class Top500Tests(unittest.TestCase):
         rows=[(1900,0,'a'),(1901,1,'b'),(1901,2,'c'),(1902,3,'d')]
         self.assertEqual(list(ordered_arcs('p',rows,nodes)),[])
         self.assertEqual(len(list(ordered_arcs('p',[(1900,0,'a'),(1901,1,'b'),(1901,2,'b')],nodes))),1)
+    def test_reviewed_order_restores_same_year_routes(self):
+        nodes={q:{'entity_qid':q,'lat':i,'lon':i} for i,q in enumerate('abcd')}
+        rows=[(1900,0,'a',None),(1901,1,'c',20),(1901,2,'b',10),(1902,3,'d',None)]
+        self.assertEqual([(a['from'],a['to']) for a in ordered_arcs('p',rows,nodes)], [('a','b'),('b','c'),('c','d')])
+        # A tie between different places, or a missing order, must not manufacture a route.
+        for last in [10,None]:
+            rows=[(1900,0,'a',None),(1901,1,'b',10),(1901,2,'c',last),(1902,3,'d',None)]
+            self.assertEqual(list(ordered_arcs('p',rows,nodes)),[])
+    def test_ford_complete_reviewed_sequence(self):
+        rows=[];nodes={}
+        for e in self.events(1):
+            r=correct_event(e);key,node=project(r)
+            if node:nodes[key]=node
+            if r.get('event_kind') in NON_HELD or r.get('route_neutral'):continue
+            rows.append((r['year_start'],r['seq'],key,r.get('route_order')))
+        arcs=list(ordered_arcs('ford',rows,nodes))
+        self.assertEqual(len(arcs),22)
+        pairs={(nodes[a['from']]['entity_qid'],nodes[a['to']]['entity_qid']) for a in arcs}
+        for pair in [('Q1726','Q90'),('Q1022','Q1040'),('Q90','Q2984260'),('Q2984260','Q29'),('Q2807','Q16869')]:
+            self.assertIn(pair,pairs)
+        self.assertFalse(any('Q17' in pair for pair in pairs))
     def test_composites_cannot_make_routes_or_held_offices(self):
         for n in [12,16,30,52,57,118,160]:
             for e in self.events(n):

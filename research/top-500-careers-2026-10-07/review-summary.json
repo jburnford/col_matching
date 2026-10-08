@@ -2,11 +2,11 @@
   "date": "2026-10-07",
   "cohort": 500,
   "moves_before": 4251,
-  "moves_after": 1937,
-  "event_rules": 343,
-  "changed_events": 3810,
+  "moves_after": 1954,
+  "event_rules": 368,
+  "changed_events": 3818,
   "composites_withdrawn": 7,
   "sources_available": 10053,
-  "method": "Fixed pre-review ranking by distinct directed corridors in the published atlas, descending; ties alphabetical, then person ID. All 500 geographic event sequences inspected in rank order. Selected primary sources checked for suspected errors. Counts are inferred corridors, not verified physical journeys. Ambiguous multi-place years break routes; unresolved identities and unaccepted appointments cannot generate moves.",
+  "method": "Fixed pre-review ranking by distinct directed corridors in the published atlas, descending; ties alphabetical, then person ID. All 500 geographic event sequences inspected in rank order. Selected primary sources checked for suspected errors. Counts are inferred corridors, not verified physical journeys. Multi-place years use source-reviewed order when available and otherwise break routes; unresolved identities and unaccepted appointments cannot generate moves.",
   "limitations": "Mapping inspection is complete; source adjudication is not. Working notes are hypotheses where not explicitly adjudicated. Duplicate people, inherited locations, joint duties, event dates and institutional scope still have open questions. Automated inception dates were not accepted wholesale: for example, the Leeward QID was valid but its display label was wrong."
 }

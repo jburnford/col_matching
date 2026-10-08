@@ -29,7 +29,7 @@ def main():
                         continue  # this is not a HELD_ROLE assertion
                     if event and (fixed != event or fixed.get('historical_corrections')):
                         keys = ('place_qid', 'place_label', 'colony_qid', 'colony_label',
-                                'grounded', 'year_start', 'year_end', 'date_uncertain', 'mobility_excluded', 'event_kind', 'location_note',
+                                'grounded', 'year_start', 'year_end', 'date_uncertain', 'mobility_excluded', 'route_order', 'route_neutral', 'event_kind', 'location_note',
                                 'historical_corrections', 'role_id', 'role_label')
                         for key in keys:
                             if key in fixed and (name != 'role_edges' or key in

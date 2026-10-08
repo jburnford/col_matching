@@ -3,13 +3,13 @@
    search.json are lazy-loaded on first person interaction / search focus. */
 (function (ATLAS) {
   const DATA = 'data/';
-  const getJSON = f => fetch(DATA + f + '?v=20261007-top500').then(r => { if (!r.ok) throw new Error(f + ' ' + r.status); return r.json(); });
+  const getJSON = f => fetch(DATA + f + '?v=20261007-career-routes').then(r => { if (!r.ok) throw new Error(f + ' ' + r.status); return r.json(); });
 
   const App = {
     async boot() {
       const map = L.map('map', {
         zoomControl: false, attributionControl: true, worldCopyJump: true,
-        minZoom: 2, maxZoom: 7, zoomSnap: 0.25,
+        minZoom: 1, maxZoom: 7, zoomSnap: 0.25,
       }).setView([24, 52], 2);   // open zoomed out on the whole web
       L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
         maxZoom: 8,

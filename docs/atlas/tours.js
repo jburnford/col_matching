@@ -26,6 +26,7 @@
 
     // ---- the opening sequence ------------------------------------------
     startIntro() {
+      ATLAS.Places.showCareer(null);
       const reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
       this.wrap.hidden = false;
       ATLAS.Timeline.setSpan(null); ATLAS.Timeline.clearWindow();
@@ -49,6 +50,7 @@
 
     // ---- a guided tour (Willingdon by default) -------------------------
     start(i) {
+      ATLAS.Places.showCareer(null);
       if (ATLAS.Timeline.timer) ATLAS.Timeline.stop();
       ATLAS.Timeline.setSpan(null); ATLAS.Timeline.clearWindow();
       this.t = this.tours[i]; this.k = -1; this._wk = null;

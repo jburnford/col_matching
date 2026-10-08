@@ -14,7 +14,7 @@
       this.layer.clearLayers(); this.markers = {};
       for (const [qid, p] of Object.entries(this.places)) {
         const co = p.co_in + p.co_out, io = p.io_in + p.io_out, tot = co + io;
-        if (!tot) continue;
+        // Keep located postings visible even when their travel order is unresolved.
         const col = co >= io ? '#8FB8EE' : '#E8B24C';
         const r = 3 + 15 * Math.sqrt(tot / this.max);
         const m = L.circleMarker([p.lat, p.lon], {
@@ -33,11 +33,17 @@
       for (const [q, m] of Object.entries(this.markers))
         m.setStyle({ fillOpacity: q === qid ? .55 : .07, opacity: q === qid ? 1 : .35 });
     },
+    showCareer(keys) {
+      this.careerKeys = keys ? new Set(keys) : null;
+      this.clearEmphasis();
+    },
     clearEmphasis() {
       const ps = this.places;
       for (const [q, m] of Object.entries(this.markers)) {
         const p = ps[q], co = p.co_in + p.co_out, io = p.io_in + p.io_out;
-        m.setStyle({ fillOpacity: .14, opacity: .75, color: co >= io ? '#8FB8EE' : '#E8B24C' });
+        const selected = this.careerKeys && this.careerKeys.has(q);
+        m.setStyle({ fillOpacity: selected ? .6 : .14, opacity: selected ? 1 : this.careerKeys ? .25 : .75,
+          weight: selected ? 2 : 1, color: co >= io ? '#8FB8EE' : '#E8B24C' });
       }
     },
   };

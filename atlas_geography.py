@@ -124,22 +124,25 @@ def project(r):
 
 
 def ordered_arcs(pid, rows, nodes):
-    """Year-only data cannot order several places within one year.
-
-    Keep their map points, but break the inferred route on either side. Reviewed
-    full dates can be added later without guessing from alphabetic role order.
-    """
+    """Use source-reviewed within-year order when available; never use seq as evidence."""
     from itertools import groupby
     previous = None
     for y, group in groupby(sorted(rows, key=lambda row: (row[0], row[1])), key=lambda row: row[0]):
+        group = list(group)
         keys = {row[2] for row in group}
-        key = next(iter(keys)) if len(keys) == 1 and None not in keys else None
-        if previous and key and previous != key and 1700 <= y <= 1970:
-            a, b = nodes[previous], nodes[key]
-            # A legal-form/label change at the same point is not travel.
-            if a['entity_qid'] != b['entity_qid'] and (a['lat'], a['lon']) != (b['lat'], b['lon']):
-                yield {'pid': pid, 'yr': y, 'from': previous, 'to': key}
-        previous = key
+        stops = [next(iter(keys))] if len(keys) == 1 else [None]
+        if len(keys) > 1 and None not in keys and all(len(row) > 3 and row[3] is not None for row in group):
+            ordered = sorted(group, key=lambda row: row[3])
+            batches = [{row[2] for row in batch} for _, batch in groupby(ordered, key=lambda row: row[3])]
+            if all(len(batch) == 1 for batch in batches):
+                stops = [next(iter(batch)) for batch in batches]
+        for key in stops:
+            if previous and key and previous != key and 1700 <= y <= 1970:
+                a, b = nodes[previous], nodes[key]
+                # A legal-form/label change at the same point is not travel.
+                if a['entity_qid'] != b['entity_qid'] and (a['lat'], a['lon']) != (b['lat'], b['lon']):
+                    yield {'pid': pid, 'yr': y, 'from': previous, 'to': key}
+            previous = key
 
 
 def transfers(corpus):
@@ -152,8 +155,9 @@ def transfers(corpus):
         if r.get('event_kind') in NON_HELD: continue
         key, node = project(r)
         if node: nodes[key] = node
+        if r.get('route_neutral'): continue
         if r.get('mobility_excluded'): key = None
-        events[canon(r['person_id'])].append((r['year_start'], r['seq'], key))
+        events[canon(r['person_id'])].append((r['year_start'], r['seq'], key, r.get('route_order')))
     arcs = [a for pid, rows in events.items() for a in ordered_arcs(pid, rows, nodes)]
     return {'transfers': sorted(arcs, key=lambda t: t['yr']),
             'labels': {k: v['label'] for k, v in nodes.items()}, 'nodes': nodes}

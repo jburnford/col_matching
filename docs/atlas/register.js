@@ -10,6 +10,7 @@
     init() { this.body = el('reg-body'); },
 
     summary() {
+      ATLAS.Places.showCareer(null);
       ATLAS.Timeline.onYear = null;
       ATLAS.Timeline.setSpan(null);
       const m = ATLAS.App.meta, c = m.counts;
@@ -28,7 +29,7 @@
           <div class="stat"><b style="color:#b07d24">${m.roster.io.toLocaleString()}</b><span>India Office</span></div>
           <div class="stat"><b>${c.arcs.toLocaleString()}</b><span>inferred corridors</span></div>
         </div>
-        <p class="ros-note">Map points retain named localities where available; other points approximate administrative seats or regions. Multiple places in one year do not establish travel order. <a href="review/top-500/">Review of the top 500 careers</a>. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
+        <p class="ros-note">Map points retain named localities where available; other points approximate administrative seats or regions. Within-year routes use source-reviewed order where available. <a href="review/top-500/">Review of the top 500 careers</a>. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
         <div class="reg-h">Busiest corridors <span class="reg-hint">— click to trace who travelled it</span></div>
         <ul class="cor-list">${this.topCorridors(8).map(c => {
           const a = ATLAS.App.places[c.x], b = ATLAS.App.places[c.y];
@@ -164,7 +165,8 @@
       document.getElementById('br-trace').onclick = () =>
         ATLAS.Timeline.playWindow(minY, maxY, Math.max(4500, (maxY - minY) * 340));
       document.getElementById('br-back').onclick = e => { e.preventDefault(); ATLAS.Bridges.open(); };
-      this.fitTo(idx);
+      ATLAS.Places.showCareer(legs.map(l => l.s[0]));
+      this.fitTo(idx, legs.map(l => l.s[0]));
     },
     careerStrip(legs, minY, maxY) {
       const span = Math.max(1, maxY - minY), X = y => ((y - minY) / span) * 100;
@@ -225,10 +227,12 @@
         li.onmouseleave = () => { ATLAS.Places.clearEmphasis(); ATLAS.Timeline.setYear(lastYr, false); };
         li.onclick = () => { const p = ATLAS.App.places[li.dataset.qid]; if (p) ATLAS.App.map.panTo([p.lat, p.lon]); };
       });
-      this.fitTo(idx);
+      ATLAS.Places.showCareer(legs.map(s => s[0]));
+      this.fitTo(idx, legs.map(s => s[0]));
     },
 
     place(qid) {
+      ATLAS.Places.showCareer(null);
       ATLAS.Timeline.onYear = null;
       ATLAS.Timeline.setSpan(null);
       const p = ATLAS.App.places[qid]; if (!p) return;
@@ -258,7 +262,7 @@
           <div class="stat"><b>${outN}</b><span>departures</span></div>
           <div class="stat"><b>${ppl.size}</b><span>officials</span></div>
         </div>
-        <p class="ros-note">Map points retain named localities where available; other points approximate administrative seats or regions. Multiple places in one year do not establish travel order. <a href="review/top-500/">Review of the top 500 careers</a>. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
+        <p class="ros-note">Map points retain named localities where available; other points approximate administrative seats or regions. Within-year routes use source-reviewed order where available. <a href="review/top-500/">Review of the top 500 careers</a>. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
         <div class="reg-h">Busiest corridors <span class="reg-hint">— click to list officials</span></div>
         <ul class="cor-list">${rows}</ul>
         <div id="cor-people"></div>`;
@@ -328,11 +332,13 @@
       box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     },
 
-    fitTo(idx) {
-      if (!idx.length) return;
-      const pts = [];
+    fitTo(idx, placeKeys = []) {
+      const P = ATLAS.App.places;
+      const pts = placeKeys.filter(q => P[q]).map(q => [P[q].lat, P[q].lon]);
       for (const j of idx) { const a = ATLAS.Arcs.arcs[j], P = ATLAS.App.places; if (P[a[1]]) pts.push([P[a[1]].lat, P[a[1]].lon]); if (P[a[2]]) pts.push([P[a[2]].lat, P[a[2]].lon]); }
-      if (pts.length) ATLAS.App.map.fitBounds(pts, { padding: [80, 80], maxZoom: 5, paddingTopLeft: [40, 60], paddingBottomRight: [410, 110] });
+      const mobile = innerWidth <= 820;
+      const side = mobile ? 24 : document.getElementById('register').getBoundingClientRect().width + 24;
+      if (pts.length) ATLAS.App.map.fitBounds(L.latLngBounds(pts).pad(.12), { maxZoom: 5, paddingTopLeft: [24, 100], paddingBottomRight: [side, mobile ? 170 : 110] });
     },
   };
 

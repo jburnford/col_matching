@@ -14,6 +14,19 @@ async def main():
   assert not any(s[1]==1865 and data['places'][s[0]]['entity_qid']=='Q17' for s in data['p']['st'])
   assert any(u[0]==1865 and 'not taken up' in u[4] for u in data['p']['un'])
   assert 'Read review 1' in await page.locator('#reg-body').inner_text()
+  assert await page.evaluate("ATLAS.Arcs.indicesForPerson('kgp_col1896-p581b17').length") == 22
+  await page.screenshot(path='/tmp/ford-restored.png',full_page=False)
+  await page.evaluate("ATLAS.App.selectPerson('kgp_col1918-p704b7')")
+  await page.wait_for_timeout(1000)
+  assert await page.evaluate("""() => {
+    const A=ATLAS.App, keys=A.careers.persons['kgp_col1918-p704b7'].st.map(s=>s[0]);
+    const edge=document.getElementById('register').getBoundingClientRect().left;
+    return keys.every(k=>{const p=A.places[k],xy=A.map.latLngToContainerPoint([p.lat,p.lon]);
+      return xy.x>=0 && xy.x<edge && xy.y>=0 && xy.y<innerHeight && ATLAS.Places.markers[k];});
+  }""")
+  assert await page.evaluate("ATLAS.App.arcs.some(a=>a[3]==='kgp_col1918-p704b7' && a[0]===1884 && a[2]==='Q30059027')")
+  assert await page.evaluate("ATLAS.Places.markers['Q3557236'].options.fillOpacity") == .6
+  await page.screenshot(path='/tmp/cameron-africa.png',full_page=False)
   for pid,needle in [('kgp_col1906-p730b6','Prince Albert (Cape)'),('kgp_col1932-p883b6','Belfast (Transvaal)'),('kgp_col1886-p405b4','Alexandria (Cape)')]:
    await page.evaluate('(pid)=>ATLAS.App.selectPerson(pid)',pid)
    assert needle in await page.locator('#reg-body').inner_text()

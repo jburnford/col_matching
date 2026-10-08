@@ -9,7 +9,8 @@ AUDIT=ROOT/'research/top-500-careers-2026-10-07'
 OUT=ROOT/'docs/review/top-500'
 
 ADJUDICATION={
- 1:'Japan 1865 and Brussels 1870 were not taken up. Both appointments remain as source events, with no held-office or movement assertion. Same-year order is no longer inferred.',
+ 1:'Japan 1865 and Brussels 1870 were not taken up. Both appointments remain as source events, with no held-office or movement assertion. Within-year order is restored from dated source clauses, including Munich then Paris and Paris then Newfoundland then Spain. Promotions and the Privy Council appointment do not break the route. The joint 1873 Carlsruhe/Darmstadt posting is represented at Darmstadt, supported by Ford’s dispatches from there in 1874–75; no separate journey between its two courts is asserted.',
+ 20:'All mapped postings now determine the map extent, including Sierra Leone and Gambia. The January 1884 Leeward private secretaryship precedes Sierra Leone in November; Cameron was secretary to the governor, not himself governor. St Lucia in April precedes acting Windward service in June 1909. Other same-year order and inherited jurisdiction questions remain open.',
  2:'Early editions establish Ceylon 1877. The 1887 duplicate is corrected; inherited New Orleans and West Indies locations on the 1886 exhibition committee are withdrawn.',
  3:'Prince Albert is the Cape town. Bredasdorp replaces Brodsworth for 1874; inherited Brodsworth on later central-office jobs is withdrawn.',
  23:'The source supports the Straits Settlements commission and Mauritius mission. The initial suspicion of mixed people is not established. Conflicting years remain open.',
@@ -74,7 +75,7 @@ def main():
  meta={'date':'2026-10-07','cohort':500,'moves_before':sum(d['moves_before'] for d in ds),
   'moves_after':sum(counts[d['person_id']] for d in ds),'event_rules':len(rules),'changed_events':total_changed,
   'composites_withdrawn':len(QUARANTINED),'sources_available':sum(len(d['sources']) for d in ds),
-  'method':'Fixed pre-review ranking by distinct directed corridors in the published atlas, descending; ties alphabetical, then person ID. All 500 geographic event sequences inspected in rank order. Selected primary sources checked for suspected errors. Counts are inferred corridors, not verified physical journeys. Ambiguous multi-place years break routes; unresolved identities and unaccepted appointments cannot generate moves.',
+  'method':'Fixed pre-review ranking by distinct directed corridors in the published atlas, descending; ties alphabetical, then person ID. All 500 geographic event sequences inspected in rank order. Selected primary sources checked for suspected errors. Counts are inferred corridors, not verified physical journeys. Multi-place years use source-reviewed order when available and otherwise break routes; unresolved identities and unaccepted appointments cannot generate moves.',
   'limitations':'Mapping inspection is complete; source adjudication is not. Working notes are hypotheses where not explicitly adjudicated. Duplicate people, inherited locations, joint duties, event dates and institutional scope still have open questions. Automated inception dates were not accepted wholesale: for example, the Leeward QID was valid but its display label was wrong.'}
  (OUT/'review.json').write_text(json.dumps({'meta':meta,'careers':entries},ensure_ascii=False,separators=(',',':'))+'\n')
  (AUDIT/'review-summary.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')

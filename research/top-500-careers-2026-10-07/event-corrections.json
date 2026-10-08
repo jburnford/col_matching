@@ -6375,5 +6375,398 @@
     },
     "reason": "Ceylon appointment was already recorded as 1877 in the 1883 and 1886 editions; later 1887 is erroneous.",
     "source": "col1883-p422b16"
+  },
+  {
+    "id": "top500-route-1-6",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1855,
+      "place_raw": "Munich",
+      "position": "Attaché"
+    },
+    "set": {
+      "route_order": 10
+    },
+    "reason": "Munich 20 July precedes Paris 8 November 1855.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-7",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1855,
+      "place_raw": "Paris",
+      "position": "Attaché"
+    },
+    "set": {
+      "route_order": 20
+    },
+    "reason": "Paris 8 November follows Munich 20 July 1855.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-10",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1862,
+      "place_raw": "Carlsruhe",
+      "position": "resident as chargé d'affaires"
+    },
+    "set": {
+      "route_order": 20
+    },
+    "reason": "Carlsruhe 15 October follows Stuttgart 5 July 1862.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-13",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1862,
+      "place_raw": "Stuttgart",
+      "position": "transferred to"
+    },
+    "set": {
+      "route_order": 10
+    },
+    "reason": "Stuttgart 5 July precedes Carlsruhe 15 October 1862.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-19",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1867,
+      "place_raw": "Copenhagen",
+      "position": "Acting chargé d'affaires"
+    },
+    "set": {
+      "route_order": 10
+    },
+    "reason": "Copenhagen acting service begins 3 March 1867, before the Washington transfer of 28 March; appointment and tenure dates overlap, not an additional return journey.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-20",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1867,
+      "place_raw": "Washington",
+      "position": "Acting chargé d'affaires"
+    },
+    "set": {
+      "route_order": 20
+    },
+    "reason": "Washington acting service follows the Washington transfer in 1867.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-21",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1867,
+      "place_raw": "Washington",
+      "position": "transferred to"
+    },
+    "set": {
+      "route_order": 20
+    },
+    "reason": "Washington transfer follows the Copenhagen posting in 1867.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-31",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1884,
+      "place_raw": "Spain",
+      "position": "Envoy extraordinary and minister plenipotentiary to the King of Spain"
+    },
+    "set": {
+      "route_order": 30
+    },
+    "reason": "Spain in December follows Paris and then Newfoundland in the 1884 biography.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-32",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1884,
+      "place_raw": "Paris",
+      "position": "Sent on a special commission"
+    },
+    "set": {
+      "route_order": 10
+    },
+    "reason": "The source explicitly puts the Paris mission before Newfoundland in 1884.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-33",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1884,
+      "place_raw": "Newfoundland",
+      "position": "Sent on a special commission"
+    },
+    "set": {
+      "route_order": 20
+    },
+    "reason": "The source says subsequently to Newfoundland, followed by Spain in December 1884.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-11",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1862,
+      "place_raw": "Stuttgart",
+      "position": "2nd secretary in Her Majesty's diplomatic service"
+    },
+    "set": {
+      "route_neutral": true
+    },
+    "reason": "Promotion to second secretary on 1 October 1862 is a diplomatic-service grade, not a new journey to Stuttgart.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-12",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1862,
+      "place_raw": null,
+      "position": "2nd secretary in Her Majesty's diplomatic service"
+    },
+    "set": {
+      "route_neutral": true
+    },
+    "reason": "Unlocated duplicate of the second-secretary promotion; no change of workplace is asserted.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-35",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1888,
+      "place_raw": null,
+      "position": "Sworn a privy councillor"
+    },
+    "set": {
+      "route_neutral": true
+    },
+    "reason": "Sworn a privy councillor is an honour/appointment without a workplace transfer; it must not interrupt the Madrid route.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-28",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1878,
+      "place_raw": "Argentine Republic",
+      "position": "H.M's. envoy extraordinary and minister plenipotentiary to the Argentine Republic"
+    },
+    "set": {
+      "colony_qid": "Q414",
+      "colony_label": "Argentina"
+    },
+    "reason": "Diplomatic accreditation to a country; use its dated administrative seat as an explicitly approximate map point, not the country centroid.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-29",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1879,
+      "place_raw": "Brazil",
+      "position": "H.M's envoy extraordinary and minister plenipotentiary to the Emperor of Brazil"
+    },
+    "set": {
+      "colony_qid": "Q155",
+      "colony_label": "Brazil"
+    },
+    "reason": "Diplomatic accreditation to a country; use its dated administrative seat as an explicitly approximate map point, not the country centroid.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-30",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1881,
+      "place_raw": "Hellenes",
+      "position": "H.M's envoy extraordinary and minister plenipotentiary to the king of the Hellenes"
+    },
+    "set": {
+      "colony_qid": "Q209065",
+      "colony_label": "Kingdom of Greece"
+    },
+    "reason": "Diplomatic accreditation to a country; use its dated administrative seat as an explicitly approximate map point, not the country centroid.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-31-seat",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1884,
+      "place_raw": "Spain",
+      "position": "Envoy extraordinary and minister plenipotentiary to the King of Spain"
+    },
+    "set": {
+      "colony_qid": "Q29",
+      "colony_label": "Spain"
+    },
+    "reason": "Diplomatic accreditation to a country; use its dated administrative seat as an explicitly approximate map point, not the country centroid.",
+    "source": "col1896-p581b17"
+  },
+  {
+    "id": "top500-route-1-26",
+    "rank": 1,
+    "person_id": "kgp_col1896-p581b17",
+    "match": {
+      "year_start": 1873,
+      "place_raw": "Carlsruhe and Darmstadt",
+      "position": "Chargé d'affaires"
+    },
+    "set": {
+      "place_qid": "Q2973",
+      "place_label": "Darmstadt",
+      "colony_qid": null,
+      "colony_label": null,
+      "grounded": true
+    },
+    "reason": "Joint Carlsruhe and Darmstadt appointment (1873), plotted at Darmstadt where Ford dated dispatches in 1874–75. This is a representative workplace for the joint posting, not evidence of a separate Carlsruhe-to-Darmstadt journey.",
+    "source": "col1896-p581b17",
+    "supporting_source": {
+      "url": "https://www.cambridge.org/core/journals/royal-historical-society-camden-fifth-series/article/baden-and-hesse-darmstadt/2867C23136BAA92E5BE22223EDCAF7FB",
+      "records": [
+        "FO 30/242, Ford to Granville, Darmstadt, 7 February 1874",
+        "FO 30/244, Ford to Derby, Darmstadt, 12 February 1875"
+      ]
+    }
+  },
+  {
+    "id": "top500-route-20-2",
+    "rank": 20,
+    "person_id": "kgp_col1918-p704b7",
+    "match": {
+      "year_start": 1883,
+      "place_raw": "Leeward Is.",
+      "position": "as governor of the Leeward Is."
+    },
+    "set": {
+      "route_order": 10,
+      "year_start": 1884,
+      "role_id": null,
+      "role_label": "Private secretary to the governor"
+    },
+    "reason": "Private secretary to Lees as governor of the Leeward Islands, January 1884; not Cameron himself appointed governor in 1883. This precedes Sierra Leone in November.",
+    "source": "col1918-p704b7"
+  },
+  {
+    "id": "top500-route-20-5",
+    "rank": 20,
+    "person_id": "kgp_col1918-p704b7",
+    "match": {
+      "year_start": 1884,
+      "place_raw": "Leeward Islands",
+      "position": "private secretary"
+    },
+    "set": {
+      "route_order": 10
+    },
+    "reason": "Private secretary to Lees as governor of the Leeward Islands, January 1884; not Cameron himself appointed governor in 1883. This precedes Sierra Leone in November.",
+    "source": "col1918-p704b7"
+  },
+  {
+    "id": "top500-route-20-6",
+    "rank": 20,
+    "person_id": "kgp_col1918-p704b7",
+    "match": {
+      "year_start": 1884,
+      "place_raw": "Leeward Is.",
+      "position": "priv. secretary to governor"
+    },
+    "set": {
+      "route_order": 10
+    },
+    "reason": "Private secretary to Lees as governor of the Leeward Islands, January 1884; not Cameron himself appointed governor in 1883. This precedes Sierra Leone in November.",
+    "source": "col1918-p704b7"
+  },
+  {
+    "id": "top500-route-20-3",
+    "rank": 20,
+    "person_id": "kgp_col1918-p704b7",
+    "match": {
+      "year_start": 1884,
+      "place_raw": "S. Leone",
+      "position": "assistant colonial secretary and treasurer"
+    },
+    "set": {
+      "route_order": 20
+    },
+    "reason": "Sierra Leone appointment in November follows the Leeward Islands private secretaryship in January 1884.",
+    "source": "col1918-p704b7"
+  },
+  {
+    "id": "top500-route-20-4",
+    "rank": 20,
+    "person_id": "kgp_col1918-p704b7",
+    "match": {
+      "year_start": 1884,
+      "place_raw": "Sierra Leone",
+      "position": "assistant colonial secretary and treasurer"
+    },
+    "set": {
+      "route_order": 20
+    },
+    "reason": "Sierra Leone appointment in November follows the Leeward Islands private secretaryship in January 1884.",
+    "source": "col1918-p704b7"
+  },
+  {
+    "id": "top500-route-20-17",
+    "rank": 20,
+    "person_id": "kgp_col1918-p704b7",
+    "match": {
+      "year_start": 1909,
+      "place_raw": "St. Lucia",
+      "position": "administrator"
+    },
+    "set": {
+      "route_order": 10
+    },
+    "reason": "St Lucia in April precedes acting Windward governorship from June to October 1909.",
+    "source": "col1918-p704b7"
+  },
+  {
+    "id": "top500-route-20-16",
+    "rank": 20,
+    "person_id": "kgp_col1918-p704b7",
+    "match": {
+      "year_start": 1909,
+      "place_raw": "Windward Is.",
+      "position": "acting governor"
+    },
+    "set": {
+      "route_order": 20
+    },
+    "reason": "St Lucia in April precedes acting Windward governorship from June to October 1909.",
+    "source": "col1918-p704b7"
   }
 ]
