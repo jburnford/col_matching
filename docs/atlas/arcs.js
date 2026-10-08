@@ -142,6 +142,10 @@
       ctx.beginPath(); ctx.fillStyle = HEAD[corpus]; ctx.arc(hd[0], hd[1], 2.4, 0, 7); ctx.fill();
     },
     _drawHighlight() {
+      // A career can be selected during Leaflet's resize/fly transition, after
+      // move invalidated the projection and before moveend rebuilds it.
+      if (!this.pix) this.reproject();
+      if (!this.pix) return;
       const ctx = this.ctx;
       ctx.save();
       const ends = new Set();

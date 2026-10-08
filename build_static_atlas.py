@@ -18,7 +18,7 @@ Neo4j deep-query tab (Phase 2).  CO corpus = 0 (steel-blue), IO corpus = 1 (gold
 from __future__ import annotations
 import json, subprocess, collections, datetime
 from pathlib import Path
-from improve_place_coords import resolve_seats   # seat-of-government coords (capital P36 > centroid)
+from atlas_geography import records, project
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "docs" / "data"
@@ -51,14 +51,13 @@ LABEL_FIX = {
 }
 
 def resolve_coords(all_qids, labels):
-    """Seat-of-government coordinates: each place resolves to its capital (Wikidata
-    P36 -> P625), falling back to centroid only where no capital exists. Persists
-    transfer_coords.json + place_seats.json. (improve_place_coords.resolve_seats)"""
-    coords, seats, report, fallbacks = resolve_seats(all_qids, labels)
-    json.dump(coords, (OUT / "transfer_coords.json").open("w"))
-    json.dump(seats, (OUT / "place_seats.json").open("w"), ensure_ascii=False)
-    print(f"· coords: seat(P36)={report['seat']} curated={report['override']} "
-          f"centroid={report['centroid']} no-coord={report['handfill']}")
+    nodes = {}
+    for name in ('transfers', 'iol_transfers'):
+        nodes.update(json.load(open('/tmp/' + name + '.json'))['nodes'])
+    coords = {q: [v['lat'], v['lon']] for q, v in nodes.items()}
+    seats = {q: v['seat'] for q, v in nodes.items()}
+    json.dump(coords, (OUT / 'transfer_coords.json').open('w'))
+    json.dump(seats, (OUT / 'place_seats.json').open('w'))
     return coords, seats
 
 # ---------------------------------------------------------------- arcs + places
@@ -90,10 +89,11 @@ def build_arcs_places(coords, seats, canon):
         else:           deg[to][2] += 1; deg[f][3] += 1
 
     places = {}
-    for q in deg:
+    nodes = {**co["nodes"], **io["nodes"]}
+    for q in nodes:
         lat, lon = coords[q]
         d = deg[q]
-        places[q] = {"label": LABEL_FIX.get(q, labels.get(q, q)), "seat": seats.get(q) or "",
+        places[q] = {**nodes[q], "label": LABEL_FIX.get(q, labels.get(q, q)), "seat": seats.get(q) or "",
                      "lat": lat, "lon": lon,
                      "co_in": d[0], "co_out": d[1], "io_in": d[2], "io_out": d[3]}
     json.dump(arcs, (OUT / "arcs.json").open("w"), separators=(",", ":"))
@@ -107,21 +107,6 @@ def build_arcs_places(coords, seats, canon):
 # colony fixups). career_facts.jsonl therefore already carries the corrected years, so the
 # atlas reads them straight through — no downstream override here. (The old downstream
 # data/kg/career_event_corrections.json Guggisberg entry has been superseded by that fixup.)
-def _facts(path):
-    """career_facts fuses the GROUNDED role (role_id/role_label) with place+time.
-    Yield the grounded role so the register shows the canonical name ('Governor')
-    rather than the bio abbreviation ('Govr.'); fall back to the raw position when
-    a role wasn't grounded."""
-    for l in path.open():
-        d = json.loads(l)
-        yield (d["person_id"], d.get("colony_qid"),
-               d.get("year_start"), d.get("year_end"),
-               d.get("role_id"), d.get("role_label"),
-               d.get("position_raw"), d.get("is_acting"))
-
-def co_events(): yield from _facts(CO / "career_facts.jsonl")
-def io_events(): yield from _facts(IO / "career_facts.jsonl")
-
 def load_persons(path):
     p = {}
     for l in open(path):
@@ -165,43 +150,34 @@ def build_careers_search(canon):
 
     # gather DEDUPED events per canonical person (a person re-attested across editions
     # produces identical events under merged ids — collapse them to a set)
-    evset = collections.defaultdict(set)       # cpid -> {(y0,y1,colonyQid,roleIdx,acting)}
-    for corpus, gen in ((0, co_events()), (1, io_events())):
-        for pid, col, y0, y1, rid, rlabel, raw, acting in gen:
-            evset[canon(pid)].add((y0, (y1 or y0) if y0 else None, col,
-                                   intern_role(rid, rlabel, raw), 1 if acting else 0))
-
-    careers, search, no_colony = {}, [], 0
-    for cpid, evs in evset.items():
-        corpus = 0 if cpid.startswith("kgp_col") else 1
-        sur, giv, qid, wlabel = persons.get(cpid, (None, None, None, None))
-        evs = sorted((e for e in evs if e[0]),                    # all events with a start year
-                     key=lambda e: (e[0], e[2] or "", e[3], e[1] or e[0]))
-        # "default to the colony capital if we know the colony": jobs the lists record
-        # only by EMPLOYER (e.g. 'G.C. railways', a public works department) never
-        # grounded to a place, so a whole railway/department career used to collapse to
-        # the one posting that named a colony. Carry each colony-less event to the
-        # person's temporally-nearest KNOWN colony so every job by year is mapped+listed.
-        known = [(e[0], e[2]) for e in evs if e[2]]               # (year, colonyQid)
-        near = lambda y: min(known, key=lambda kc: abs((kc[0] or 0) - (y or 0)))[1]
-        st = []
-        for y0, y1, col, pi, ac in evs:
-            c = col or (near(y0) if known else None)
-            if not c:
-                continue                                          # no colony anywhere
-            if st and st[-1][0] == c and st[-1][3] == pi:
-                st[-1][2] = max(st[-1][2], y1 or y0)
+    evset = collections.defaultdict(set)
+    unplaced = collections.defaultdict(set)
+    for corpus in ('kg', 'iol'):
+        for r in records(corpus):
+            pid = canon(r['person_id'])
+            key, node = project(r)
+            y0, y1 = r.get('year_start'), r.get('year_end')
+            ri = intern_role(r.get('role_id'), r.get('role_label'), r.get('position_raw'))
+            if not key:
+                reason = ('electoral defeat; not an appointment' if r.get('event_kind') == 'electoral_defeat'
+                          else r.get('location_note') or ('undated event' if not y0 else 'location unresolved'))
+                unplaced[pid].add((y0, y1, r.get('role_label') or r.get('position_raw') or '',
+                                  r.get('place_raw') or r.get('place_label') or '', reason))
             else:
-                st.append([c, y0, y1 or y0, pi, ac])
-        if not st:                                                # map-able officials only
-            no_colony += 1
-            continue
-        # Prefer the verified Wikidata label (full real name, e.g. "Charles
-        # Tupper") over the abbreviated bio form ("TUPPER, C., BART.").
-        disp = wlabel or f"{sur or '?'}, {giv or ''}".strip().rstrip(",")
-        careers[cpid] = {"q": qid, "c": corpus, "na": len(evs), "nm": disp, "st": st}
+                evset[pid].add((y0, y1 or y0, key, ri, 1 if r.get('is_acting') else 0))
+
+    careers, search = {}, []
+    for cpid in sorted(evset.keys() | unplaced.keys()):
+        corpus = 0 if cpid.startswith('kgp_col') else 1
+        sur, giv, qid, wlabel = persons.get(cpid, (None, None, None, None))
+        evs = sorted(evset[cpid], key=lambda e: (e[0], e[2], e[3], e[1]))
+        # Preserve distinct event dates: equal roles years apart do not prove
+        # uninterrupted tenure (Brewster's electoral defeat exposed this too).
+        st = [[q, y0, y1, ri, ac] for y0, y1, q, ri, ac in evs]
+        un = sorted(unplaced[cpid], key=lambda e: (e[0] or 9999, e[2], e[3]))
+        disp = wlabel or f"{sur or '?'}, {giv or ''}".strip().rstrip(',')
+        careers[cpid] = {'q': qid, 'c': corpus, 'na': len(evs) + len(un), 'nm': disp, 'st': st, 'un': un}
         search.append([cpid, disp, corpus, len(st)])
-    print(f"· careers: {len(careers):,} mapped persons  ({no_colony:,} dropped — no colony on any event)")
 
     json.dump({"roles": role_tbl, "persons": careers},
               (OUT / "careers.json").open("w"), separators=(",", ":"), ensure_ascii=False)
@@ -292,11 +268,20 @@ def build_tours():
             {"web": "both", "home": True, "yr": 1966, "caption": "One thread among the sixteen thousand officials who ever changed post. The whole web is yours now: search an official by name in the panel on the right, or click any circle on the map to see the careers that ran through that place. Click a busy corridor in the panel to trace who travelled it; switch between the two services — or the schools that trained them — from the buttons at lower left; and drag the year along the bottom to watch the empire fill in. Press Finish to open Willingdon's own record."},
          ]},
     ]
+    places = json.load((OUT / "places.json").open())
+    for tour in tours:
+        for step in tour['steps']:
+            q = step.get('qid')
+            if q and q not in places:
+                key, _ = project({'colony_qid': q, 'year_start': step.get('yr', 1931)})
+                if key in places: step['qid'] = key
+                else: step.pop('qid')
     json.dump(tours, (OUT / "tours.json").open("w"), indent=1, ensure_ascii=False)
     print(f"· tours.json {len(tours)} tours")
 
 # ----------------------------------------------------------------
 def main():
+    subprocess.run(["python3", "kg_apply_historical_fixups.py"], cwd=ROOT, check=True)
     run_transfers()
     co = json.load(open("/tmp/transfers.json"))
     io = json.load(open("/tmp/iol_transfers.json"))
@@ -310,7 +295,7 @@ def main():
     build_meta(arcs)
     build_tours()
     # cross-corpus "Two Services" bridges (reads the careers.json just written)
-    import subprocess, sys
+    import sys
     subprocess.run([sys.executable, "build_bridges.py"], check=True)
     print("done →", OUT)
 

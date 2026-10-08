@@ -1,0 +1,22 @@
+{
+  "kg": {
+    "events": 180470,
+    "dated_without_colony_nearest_fallback_risk": 47271,
+    "temporal_candidates": 15832,
+    "undated": 9273,
+    "honduras_before_belmopan": 1461,
+    "explicit_place_without_colony": 2397,
+    "india_before_delhi": 316,
+    "pre_1910_union": 1062
+  },
+  "iol": {
+    "events": 124694,
+    "dated_without_colony_nearest_fallback_risk": 43747,
+    "temporal_candidates": 7010,
+    "india_before_delhi": 15154,
+    "undated": 6666,
+    "explicit_place_without_colony": 1558,
+    "pre_1910_union": 58,
+    "honduras_before_belmopan": 1
+  }
+}

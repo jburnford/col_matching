@@ -19,7 +19,7 @@
       this.body.innerHTML = `
         <div class="reg-h">The personnel of empire</div>
         <p class="reg-lede">Two civil services ran the British Empire. This atlas plots every
-          colony or presidency that changed hands on an official's record — one move, one arc.</p>
+          recorded changes of location in an official's career — one move, one arc.</p>
         <div class="stat-row">
           <div class="stat"><b>${m.roster.total.toLocaleString()}</b><span>officials, ${m.yearRange[0]}–${m.yearRange[1]}</span></div>
           <div class="stat"><b>${moved.toLocaleString()}</b><span>moved between posts</span></div>
@@ -29,6 +29,7 @@
           <div class="stat"><b style="color:#b07d24">${m.roster.io.toLocaleString()}</b><span>India Office</span></div>
           <div class="stat"><b>${c.arcs.toLocaleString()}</b><span>transfers mapped</span></div>
         </div>
+        <p class="ros-note">Map points represent approximate administrative seats or regional locations. Gaps in a career break the route. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
         <div class="reg-h">Busiest corridors <span class="reg-hint">— click to trace who travelled it</span></div>
         <ul class="cor-list">${this.topCorridors(8).map(c => {
           const a = ATLAS.App.places[c.x], b = ATLAS.App.places[c.y];
@@ -76,17 +77,26 @@
     // The post name is the GROUNDED role label and is a click target -> everyone who
     // held that role at that colony.
     roleName(ri) { const r = ATLAS.App.careers.roles[ri]; return (r && r[1]) || 'in service'; },
+    unplacedRows(rec) {
+      if (!rec || !(rec.un || []).length) return '';
+      return `<details class="ros-note"><summary>${rec.un.length} other recorded events</summary>
+        <p>These remain in the record. Unresolved locations are not assigned to another posting.</p>
+        <ul>${rec.un.map(([y0, y1, role, place, reason]) =>
+          `<li><b>${y0 || 'Undated'}${y1 && y1 !== y0 ? '–' + y1 : ''}</b>: ${esc(role)}${place ? ' — ' + esc(place) : ''}. <em>${esc(reason)}</em></li>`).join('')}</ul></details>`;
+    },
     legRows(rec) {
       const places = ATLAS.App.places;
       return rec.st.map((st, i) => {
         const [col, y0, y1, ri, ac] = st;
         const yr = y1 && y1 !== y0 ? `${y0}–${String(y1).slice(2)}` : `${y0}`;
-        const place = places[col] ? places[col].label : col;
+        const p = places[col];
+        const place = p ? p.label : col;
+        const locationNote = p ? `<span class="pl" style="font-size:11px">Map point: ${esc(p.seat)}${p.coordinate_kind === 'administrative seat (approximate)' ? ' (approximate seat)' : ''}</span>` : '';
         const acting = ac ? '<em>acting </em>' : '';
         return `<li class="ros-entry" data-leg="${i}" data-qid="${col}">
             <span class="yr">${yr}</span>
             <span class="pos">${acting}<a class="role-link" data-role="${ri}" data-col="${col}"
-               title="who else held this post here">${esc(this.roleName(ri))}</a><span class="pl">${esc(place)}</span></span>
+               title="who else held this post here">${esc(this.roleName(ri))}</a><span class="pl">${esc(place)}</span>${locationNote}</span>
           </li>`;
       }).join('');
     },
@@ -110,7 +120,8 @@
         .sort((a, x) => (a.s[1] || 0) - (x.s[1] || 0) || a.corp - x.corp);
       const nShared = legs.filter(l => l.corp === 2).length;
       const ys = legs.flatMap(l => [l.s[1], l.s[2] || l.s[1]]).filter(Boolean);
-      const minY = Math.min(...ys), maxY = Math.max(...ys);
+      const minY = ys.length ? Math.min(...ys) : ATLAS.Timeline.y0;
+      const maxY = ys.length ? Math.max(...ys) : ATLAS.Timeline.y1;
 
       const rows = legs.map((l, k) => {
         const [col, y0, y1, ri, ac] = l.s;
@@ -135,6 +146,7 @@
           <button id="br-trace" title="Play this career through time">▶ Trace career</button></div>
         ${this.careerStrip(legs, minY, maxY)}
         <ul class="ros-list" style="margin-top:10px">${rows}</ul>
+        ${this.unplacedRows(co)}${this.unplacedRows(io)}
         <div id="role-people"></div>
         <p style="margin-top:12px"><a href="#" id="br-back" style="color:var(--oxblood)">← all bridge careers</a></p>`;
       this.wireRoleLinks();
@@ -185,7 +197,6 @@
       const rec = C.persons[pid]; if (!rec) return;
       const [sur, giv] = splitName(rec.nm || '');
       const legs = rec.st;
-      const hidden = rec.na - legs.length;
       const rows = this.legRows(rec);
       const qlink = rec.q ? ` · <a href="https://www.wikidata.org/wiki/${rec.q}" target="_blank" rel="noopener">${rec.q}</a>` : '';
       this.body.innerHTML = `
@@ -194,7 +205,7 @@
           <span>${legs.length} located posting${legs.length !== 1 ? 's' : ''}${qlink}</span></div>
         <hr class="ros-rule">
         <ul class="ros-list">${rows}</ul>
-        ${hidden > 0 ? `<p class="ros-note">${hidden} further posting${hidden !== 1 ? 's' : ''} in the record had no mapped location (UK, at sea, unplaced).</p>` : ''}
+        ${this.unplacedRows(rec)}
         <div id="role-people"></div>`;
       this.wireRoleLinks();
 
@@ -247,6 +258,7 @@
           <div class="stat"><b>${outN}</b><span>departures</span></div>
           <div class="stat"><b>${ppl.size}</b><span>officials</span></div>
         </div>
+        <p class="ros-note">Map points represent approximate administrative seats or regional locations. Gaps in a career break the route. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
         <div class="reg-h">Busiest corridors <span class="reg-hint">— click to list officials</span></div>
         <ul class="cor-list">${rows}</ul>
         <div id="cor-people"></div>`;

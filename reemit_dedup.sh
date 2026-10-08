@@ -65,3 +65,5 @@ echo "── colony fixups (year/person-aware rules the crosswalk cannot express
 python3 kg_apply_colony_fixups.py
 echo "── career-year fixups (OCR/source year errors the spine cannot self-correct)"
 python3 kg_apply_year_fixups.py
+echo "── historical geography and event-kind fixups"
+python3 kg_apply_historical_fixups.py

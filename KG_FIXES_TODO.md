@@ -10,6 +10,16 @@ Legend: **viz-patched** = worked around in `build_static_atlas.py` for display o
 
 ---
 
+## 7 October 2026: Wodehouse and corpus-wide historical geography repair
+
+Published build repairs Wodehouse in both Lists, removes all 1,120 pre-1910 Union
+assignments, selects dated seats, and removes the nearest-appointment fallback.
+The graph also retains Brewster's defeat and eleven explicit electoral defeats as
+non-appointment events. Corrections run in `reemit_dedup.sh` and the atlas build.
+See [evidence, reproduction and the remaining review queue](research/geography-2026-10-07/README.md).
+The 21,723 remaining inception/dissolution candidates are not all confirmed errors;
+period identities and source readings still need review.
+
 ## Place grounding
 
 ### 1. Pre-federation colonies grounded to the MODERN entity (state/nation), inconsistently across corpora  ✅ MOSTLY FIXED 2026-06-27
