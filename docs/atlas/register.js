@@ -19,15 +19,15 @@
       const moved = (m.movers.co + m.movers.io);
       this.body.innerHTML = `
         <div class="reg-h">The personnel of empire</div>
-        <p class="reg-lede">Two civil services ran the British Empire. This atlas connects dated locations in officials’ careers. Each arc is an inferred corridor; unresolved locations and ambiguous years break the route.</p>
+        <p class="reg-lede">Two civil services ran the British Empire. This atlas connects dated locations in officials’ careers. Each arc is an inferred corridor; solid lines follow dated sequences; dashed lines show possible connections where the order or intervening locations are unresolved.</p>
         <div class="stat-row">
           <div class="stat"><b>${m.roster.total.toLocaleString()}</b><span>officials, ${m.yearRange[0]}–${m.yearRange[1]}</span></div>
-          <div class="stat"><b>${moved.toLocaleString()}</b><span>have inferred transfers</span></div>
+          <div class="stat"><b>${moved.toLocaleString()}</b><span>have ordered corridors</span></div>
         </div>
         <div class="stat-row" style="margin-top:0">
           <div class="stat"><b style="color:#4f76ad">${m.roster.co.toLocaleString()}</b><span>Colonial Office</span></div>
           <div class="stat"><b style="color:#b07d24">${m.roster.io.toLocaleString()}</b><span>India Office</span></div>
-          <div class="stat"><b>${c.arcs.toLocaleString()}</b><span>inferred corridors</span></div>
+          <div class="stat"><b>${c.arcs.toLocaleString()}</b><span>ordered corridors</span></div>
         </div>
         <p class="ros-note">Map points retain named localities where available; other points approximate administrative seats or regions. Within-year routes use source-reviewed order where available. <a href="review/top-500/">Review of the top 500 careers</a>. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
         <div class="reg-h">Busiest corridors <span class="reg-hint">— click to trace who travelled it</span></div>
@@ -49,6 +49,7 @@
       if (!this._topCorr) {
         const places = ATLAS.App.places, m = {};
         for (const a of ATLAS.Arcs.arcs) {
+          if (a[5]) continue; // uncertainty alternatives are not ranked as journeys
           const x = a[1], y = a[2];
           if (!x || !y || x === y || !places[x] || !places[y]) continue;
           const k = x < y ? x + '|' + y : y + '|' + x;
@@ -71,6 +72,10 @@
       this.place(hub);
       const row = this.body.querySelector(`.cor-row[data-other="${other}"]`);
       if (row) row.click();
+    },
+
+    routeLegend() {
+      return '<p class="ros-note route-legend"><b>Solid:</b> dated sequence. <b>Dashed:</b> possible connection; order or intervening locations unresolved. Dashed alternatives are not additional confirmed journeys.</p>';
     },
 
     // one career's postings as a year-railed list (shared by person + bridge views).
@@ -145,6 +150,7 @@
           ${nShared ? `<span><i style="background:${this.BR[2]}"></i>in both Lists <b>${nShared}</b></span>` : ''}
           <button id="br-trace" title="Play this career through time">▶ Trace career</button></div>
         ${this.careerStrip(legs, minY, maxY)}
+        ${this.routeLegend()}
         <ul class="ros-list" style="margin-top:10px">${rows}</ul>
         ${this.unplacedRows(co)}${this.unplacedRows(io)}
         <div id="role-people"></div>
@@ -205,6 +211,7 @@
         <div class="ros-meta"><span class="corp" style="background:${rec.c ? '#b07d24' : '#4f76ad'}">${CORPN[rec.c]}</span>
           <span>${legs.length} located posting${legs.length !== 1 ? 's' : ''}${qlink}</span></div>
         ${rec.review ? `<p class="ros-note">${rec.review.withdrawn ? 'This record combines several people. Its events are retained below, but excluded from mapped journeys and held-office assertions pending reconstruction. ' : 'Geographic sequence inspected; source questions may remain. '}<a href="review/top-500/#rank-${rec.review.rank}">Read review ${rec.review.rank}</a></p>` : ''}
+        ${this.routeLegend()}
         <hr class="ros-rule">
         <ul class="ros-list">${rows}</ul>
         ${this.unplacedRows(rec)}
@@ -242,15 +249,15 @@
       const corr = {}, ppl = new Set();
       for (const j of idx) {
         const a = arcs[j], other = a[1] === qid ? a[2] : a[1];
-        const c = corr[other] || (corr[other] = { to: 0, from: 0, idx: [] });
-        if (a[2] === qid) c.to++; else c.from++;       // to qid = arrival, from qid = departure
+        const c = corr[other] || (corr[other] = { to: 0, from: 0, possible: 0, idx: [] });
+        if (a[5]) c.possible++; else if (a[2] === qid) c.to++; else c.from++;       // to qid = arrival, from qid = departure
         c.idx.push(j); ppl.add(a[3]);
       }
       const rows = Object.entries(corr).sort((a, b) => (b[1].to + b[1].from) - (a[1].to + a[1].from))
         .slice(0, 16).map(([oq, c]) => {
           const name = ATLAS.App.places[oq] ? ATLAS.App.places[oq].label : oq;
-          const dir = c.to && c.from ? '⇄' : (c.to ? '←' : '→');
-          return `<li class="cor-row" data-other="${oq}"><span>${dir} ${esc(name)}</span><span class="ct">${c.to + c.from}</span></li>`;
+          const dir = !c.to && !c.from ? '⋯' : c.to && c.from ? '⇄' : (c.to ? '←' : '→');
+          return `<li class="cor-row" data-other="${oq}"><span>${dir} ${esc(name)}</span><span class="ct">${c.to + c.from}${c.possible ? ` + ${c.possible} possible` : ''}</span></li>`;
         }).join('');
       const inN = p.co_in + p.io_in, outN = p.co_out + p.io_out;
       this.body.innerHTML = `
@@ -258,12 +265,13 @@
         <p class="ros-name" style="font-size:21px">${esc(p.label)}</p>
         ${p.seat && p.seat !== p.label ? `<div class="ros-meta"><span>seat of government: ${esc(p.seat)}</span></div>` : ''}
         <div class="stat-row">
-          <div class="stat"><b>${inN}</b><span>arrivals</span></div>
-          <div class="stat"><b>${outN}</b><span>departures</span></div>
+          <div class="stat"><b>${inN}</b><span>ordered arrivals</span></div>
+          <div class="stat"><b>${outN}</b><span>ordered departures</span></div>
           <div class="stat"><b>${ppl.size}</b><span>officials</span></div>
         </div>
         <p class="ros-note">Map points retain named localities where available; other points approximate administrative seats or regions. Within-year routes use source-reviewed order where available. <a href="review/top-500/">Review of the top 500 careers</a>. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
         <div class="reg-h">Busiest corridors <span class="reg-hint">— click to list officials</span></div>
+        ${this.routeLegend()}
         <ul class="cor-list">${rows}</ul>
         <div id="cor-people"></div>`;
       ATLAS.Arcs.setHighlight(idx);

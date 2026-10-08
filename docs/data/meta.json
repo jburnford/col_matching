@@ -16,6 +16,7 @@
 },
 "counts": {
 "arcs": 26171,
+"uncertain_connections": 32937,
 "officials": 13735,
 "co": 17612,
 "io": 8559

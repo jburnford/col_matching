@@ -69,13 +69,17 @@ def build_arcs_places(coords, seats, canon):
 
     # fold to canonical person, then DEDUP repeated moves (a person re-attested
     # across editions logs the same from->to under several merged ids / near years)
-    raw = []
+    raw, uncertain = [], []
     for corpus, data in ((0, co), (1, io)):
-        for t in data["transfers"]:
+        for t in data["transfers"] + data.get('uncertain_transfers', []):
             f, to = t["from"], t["to"]
             if f not in coords or to not in coords or f == to:
                 continue
-            raw.append([t["yr"], f, to, canon(t["pid"]), corpus])
+            row = [t["yr"], f, to, canon(t["pid"]), corpus]
+            if t.get('uncertain'):
+                uncertain.append(row + [t['uncertain']])
+            else:
+                raw.append(row)
     raw.sort(key=lambda a: a[0])                          # earliest year wins for a repeated move
     arcs, seen = [], set()
     deg = collections.defaultdict(lambda: [0, 0, 0, 0])  # [co_in, co_out, io_in, io_out]
@@ -88,6 +92,19 @@ def build_arcs_places(coords, seats, canon):
         if corpus == 0: deg[to][0] += 1; deg[f][1] += 1
         else:           deg[to][2] += 1; deg[f][3] += 1
 
+    # Alternative connections are published separately from ordered corridors.
+    # A same-year association is undirected; never use its storage order as travel.
+    uncertain_out, uncertain_seen = [], set()
+    for a in sorted(uncertain, key=lambda a: (a[0], a[3], a[1], a[2])):
+        k = (a[3], a[1], a[2])
+        reverse = (a[3], a[2], a[1])
+        same_year = a[5].startswith('same-year')
+        if k in seen or (same_year and reverse in seen): continue
+        uk = (a[3], *sorted(a[1:3])) if same_year else k
+        if uk in uncertain_seen: continue
+        uncertain_seen.add(uk); uncertain_out.append(a)
+    json.dump(uncertain_out, (OUT / 'uncertain_arcs.json').open('w'), separators=(',', ':'))
+
     places = {}
     nodes = {**co["nodes"], **io["nodes"]}
     for q in nodes:
@@ -98,7 +115,7 @@ def build_arcs_places(coords, seats, canon):
                      "co_in": d[0], "co_out": d[1], "io_in": d[2], "io_out": d[3]}
     json.dump(arcs, (OUT / "arcs.json").open("w"), separators=(",", ":"))
     json.dump(places, (OUT / "places.json").open("w"), separators=(",", ":"))
-    print(f"· arcs.json {len(arcs):,} arcs   places.json {len(places)} places")
+    print(f"· arcs.json {len(arcs):,} ordered corridors; {len(uncertain_out):,} uncertain connections; {len(places)} places")
     return arcs
 
 # ---------------------------------------------------------------- careers + search
@@ -187,6 +204,7 @@ def build_careers_search(canon):
 
 # ---------------------------------------------------------------- meta + tours
 def build_meta(arcs):
+    uncertain = json.loads((OUT / 'uncertain_arcs.json').read_text())
     yrs = [a[0] for a in arcs]
     hist = {"co": collections.Counter(), "io": collections.Counter()}
     for yr, _, _, _, corpus in arcs:
@@ -203,7 +221,7 @@ def build_meta(arcs):
         "officials": officials,                                   # officials who moved (both corpora)
         "roster": {"co": roster_co, "io": roster_io, "total": roster_co + roster_io},
         "movers": {"co": len(movers[0]), "io": len(movers[1])},
-        "counts": {"arcs": len(arcs),
+        "counts": {"arcs": len(arcs), "uncertain_connections": len(uncertain),
                    "officials": officials,
                    "co": sum(1 for a in arcs if a[4] == 0),
                    "io": sum(1 for a in arcs if a[4] == 1)},

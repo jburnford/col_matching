@@ -79,6 +79,7 @@
         if (p && this.corpus[a[4]] && (!this.window || (a[0] >= this.window[0] && a[0] < this.window[1]))) {
           const [cx, cy] = arcCurve(p[0], p[1], p[2], p[3]);
           this.pctx.strokeStyle = WEB[a[4]]; this.pctx.lineWidth = 0.7;
+          this.pctx.setLineDash(a[5] ? [4, 5] : []);
           this.pctx.beginPath(); this.pctx.moveTo(p[0], p[1]);
           this.pctx.quadraticCurveTo(cx, cy, p[2], p[3]); this.pctx.stroke();
         }
@@ -109,7 +110,7 @@
         while (i > 0 && this.arcs[i - 1][0] > this.curYear - FLIGHT) i--;
         for (; i < this.arcs.length; i++) {
           const a = this.arcs[i]; if (a[0] > this.curYear) break;
-          if (!this.corpus[a[4]] || !this.pix[i]) continue;
+          if (!this.corpus[a[4]] || !this.pix[i] || a[5]) continue;
           if (this.window && (a[0] < this.window[0] || a[0] >= this.window[1])) continue;
           const f = (this.curYear - a[0]) / FLIGHT; if (f < 0 || f > 1) continue;
           this._fly(this.pix[i], a[4], f);
@@ -157,6 +158,7 @@
         const tr = TRAIL[a[4]], [cx, cy] = arcCurve(p[0], p[1], p[2], p[3]);
         ctx.shadowColor = `rgba(${tr[0]},${tr[1]},${tr[2]},0.9)`; ctx.shadowBlur = 8;
         ctx.strokeStyle = `rgba(${tr[0]},${tr[1]},${tr[2]},0.92)`; ctx.lineWidth = 1.8;
+        ctx.setLineDash(a[5] ? [7, 6] : []);
         ctx.beginPath(); ctx.moveTo(p[0], p[1]); ctx.quadraticCurveTo(cx, cy, p[2], p[3]); ctx.stroke();
         ends.add(p[0] + ',' + p[1]); ends.add(p[2] + ',' + p[3]);
       }

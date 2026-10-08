@@ -3,7 +3,7 @@
    search.json are lazy-loaded on first person interaction / search focus. */
 (function (ATLAS) {
   const DATA = 'data/';
-  const getJSON = f => fetch(DATA + f + '?v=20261007-career-routes').then(r => { if (!r.ok) throw new Error(f + ' ' + r.status); return r.json(); });
+  const getJSON = f => fetch(DATA + f + '?v=20261008-route-uncertainty').then(r => { if (!r.ok) throw new Error(f + ' ' + r.status); return r.json(); });
 
   const App = {
     async boot() {
@@ -17,8 +17,9 @@
       }).addTo(map);
       this.map = map;
 
-      const [meta, arcs, places, tours] = await Promise.all(
-        ['meta.json', 'arcs.json', 'places.json', 'tours.json'].map(getJSON));
+      const [meta, ordered, places, tours, uncertain] = await Promise.all(
+        ['meta.json', 'arcs.json', 'places.json', 'tours.json', 'uncertain_arcs.json'].map(getJSON));
+      const arcs = ordered.concat(uncertain).sort((a, b) => a[0] - b[0]);
       this.meta = meta; this.arcs = arcs; this.places = places; this.tours = tours;
       this.careers = null; this.search = null;
 

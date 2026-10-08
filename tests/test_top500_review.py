@@ -51,19 +51,41 @@ class Top500Tests(unittest.TestCase):
         self.assertEqual(p['entity_qid'],'Q1348');self.assertIsNone(p['capital_qid'])
         _,p=project({'year_start':1912,'place_qid':'Q1930','place_label':'Ottawa','colony_qid':'Q1904'})
         self.assertEqual(p['entity_qid'],'Q1930')
-    def test_ambiguous_year_breaks_route(self):
+    def test_ambiguous_year_preserves_explicit_alternatives(self):
         nodes={q:{'entity_qid':q,'lat':i,'lon':i} for i,q in enumerate('abcd')}
         rows=[(1900,0,'a'),(1901,1,'b'),(1901,2,'c'),(1902,3,'d')]
-        self.assertEqual(list(ordered_arcs('p',rows,nodes)),[])
+        arcs=list(ordered_arcs('p',rows,nodes))
+        self.assertEqual({(a['from'],a['to']) for a in arcs},{('a','b'),('a','c'),('b','c'),('b','d'),('c','d')})
+        self.assertTrue(all(a.get('uncertain') for a in arcs))
         self.assertEqual(len(list(ordered_arcs('p',[(1900,0,'a'),(1901,1,'b'),(1901,2,'b')],nodes))),1)
     def test_reviewed_order_restores_same_year_routes(self):
         nodes={q:{'entity_qid':q,'lat':i,'lon':i} for i,q in enumerate('abcd')}
         rows=[(1900,0,'a',None),(1901,1,'c',20),(1901,2,'b',10),(1902,3,'d',None)]
         self.assertEqual([(a['from'],a['to']) for a in ordered_arcs('p',rows,nodes)], [('a','b'),('b','c'),('c','d')])
-        # A tie between different places, or a missing order, must not manufacture a route.
+        # A tie or missing order must never manufacture a solid ordered route.
         for last in [10,None]:
             rows=[(1900,0,'a',None),(1901,1,'b',10),(1901,2,'c',last),(1902,3,'d',None)]
-            self.assertEqual(list(ordered_arcs('p',rows,nodes)),[])
+            arcs=list(ordered_arcs('p',rows,nodes))
+            self.assertTrue(arcs)
+            self.assertTrue(all(a.get('uncertain') for a in arcs))
+    def test_unlocated_events_preserve_endpoints_without_assigning_a_place(self):
+        nodes={q:{'entity_qid':q,'lat':i,'lon':i} for i,q in enumerate('abc')}
+        rows=[(1900,0,'a'),(1901,1,None),(1902,2,'b'),(1903,3,'c')]
+        arcs=list(ordered_arcs('p',rows,nodes))
+        self.assertEqual([(a['from'],a['to']) for a in arcs],[('a','b'),('b','c')])
+        self.assertIn('unlocated',arcs[0]['uncertain'])
+        self.assertNotIn('uncertain',arcs[1])
+    def test_cameron_gambia_incoming_connections_survive_1912_ambiguity(self):
+        rows=[];nodes={}
+        for e in self.events(20):
+            r=correct_event(e);key,node=project(r)
+            if node:nodes[key]=node
+            if r.get('event_kind') in NON_HELD or r.get('route_neutral'):continue
+            rows.append((r['year_start'],r['seq'],key,r.get('route_order')))
+        arcs=list(ordered_arcs('cameron',rows,nodes))
+        incoming=[a for a in arcs if a['to']=='Q3557236']
+        self.assertEqual({a['from'] for a in incoming},{'Q2660774@Q41547','Q1930@place'})
+        self.assertTrue(all(a['yr']==1914 and a.get('uncertain') for a in incoming))
     def test_ford_complete_reviewed_sequence(self):
         rows=[];nodes={}
         for e in self.events(1):

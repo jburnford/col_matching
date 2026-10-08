@@ -10,7 +10,7 @@ OUT=ROOT/'docs/review/top-500'
 
 ADJUDICATION={
  1:'Japan 1865 and Brussels 1870 were not taken up. Both appointments remain as source events, with no held-office or movement assertion. Within-year order is restored from dated source clauses, including Munich then Paris and Paris then Newfoundland then Spain. Promotions and the Privy Council appointment do not break the route. The joint 1873 Carlsruhe/Darmstadt posting is represented at Darmstadt, supported by Ford’s dispatches from there in 1874–75; no separate journey between its two courts is asserted.',
- 20:'All mapped postings now determine the map extent, including Sierra Leone and Gambia. The January 1884 Leeward private secretaryship precedes Sierra Leone in November; Cameron was secretary to the governor, not himself governor. St Lucia in April precedes acting Windward service in June 1909. Other same-year order and inherited jurisdiction questions remain open.',
+ 20:'All mapped postings now determine the map extent, including Sierra Leone and Gambia. The January 1884 Leeward private secretaryship precedes Sierra Leone in November; Cameron was secretary to the governor, not himself governor. St Lucia in April precedes acting Windward service in June 1909. The shared atlas route builder now preserves dashed alternatives into Gambia despite the unresolved order of his 1912 Windward and Ottawa events. Other same-year order and inherited jurisdiction questions remain open.',
  2:'Early editions establish Ceylon 1877. The 1887 duplicate is corrected; inherited New Orleans and West Indies locations on the 1886 exhibition committee are withdrawn.',
  3:'Prince Albert is the Cape town. Bredasdorp replaces Brodsworth for 1874; inherited Brodsworth on later central-office jobs is withdrawn.',
  23:'The source supports the Straits Settlements commission and Mauritius mission. The initial suspicion of mixed people is not established. Conflicting years remain open.',
@@ -43,6 +43,7 @@ def main():
  notes={int(n):(tags.split(','),note) for n,tags,note in (line.split('|',2) for line in (AUDIT/'inspection-notes.txt').read_text().splitlines())}
  assert len(ds)==len(notes)==500 and set(notes)==set(range(1,501))
  arcs=json.loads((ROOT/'docs/data/arcs.json').read_text());counts=collections.Counter(a[3] for a in arcs)
+ uncertain=json.loads((ROOT/'docs/data/uncertain_arcs.json').read_text());uncertain_counts=collections.Counter(a[3] for a in uncertain)
  data=json.loads((ROOT/'docs/data/careers.json').read_text()); persons=data['persons']
  rules=json.loads((AUDIT/'event-corrections.json').read_text())
  entries=[];total_changed=0
@@ -65,7 +66,7 @@ def main():
   if not selected:selected=sorted(d['sources'],key=lambda s:len(s['text']),reverse=True)
   src=next((s for s in selected if len(s['text'])<6500),selected[0])
   row={k:d[k] for k in ['rank','person_id','name','moves_before','corpus']}
-  row.update(moves_after=counts[d['person_id']],tags=notes[n][0],inspection_note=notes[n][1],adjudication=adjudication,
+  row.update(moves_after=counts[d['person_id']],possible_connections=uncertain_counts[d['person_id']],tags=notes[n][0],inspection_note=notes[n][1],adjudication=adjudication,
     status='Composite withdrawn; reconstruction open' if n in QUARANTINED else 'Mapping inspected; corrections applied, questions remain' if changed else 'Mapping inspected; source questions remain',
     changes=changed,source_count=len(d['sources']),source=src,
     source_scope='Geographic sequence inspected. Selected source clauses adjudicated; not every attestation or life event independently verified.')
@@ -73,15 +74,15 @@ def main():
   if d['person_id'] in persons:
    persons[d['person_id']]['review']={'rank':n,'withdrawn':n in QUARANTINED}
  meta={'date':'2026-10-07','cohort':500,'moves_before':sum(d['moves_before'] for d in ds),
-  'moves_after':sum(counts[d['person_id']] for d in ds),'event_rules':len(rules),'changed_events':total_changed,
+  'moves_after':sum(counts[d['person_id']] for d in ds),'possible_connections':sum(uncertain_counts[d['person_id']] for d in ds),'event_rules':len(rules),'changed_events':total_changed,
   'composites_withdrawn':len(QUARANTINED),'sources_available':sum(len(d['sources']) for d in ds),
-  'method':'Fixed pre-review ranking by distinct directed corridors in the published atlas, descending; ties alphabetical, then person ID. All 500 geographic event sequences inspected in rank order. Selected primary sources checked for suspected errors. Counts are inferred corridors, not verified physical journeys. Multi-place years use source-reviewed order when available and otherwise break routes; unresolved identities and unaccepted appointments cannot generate moves.',
+  'method':'Fixed pre-review ranking by distinct directed corridors in the published atlas, descending; ties alphabetical, then person ID. All 500 geographic event sequences inspected in rank order. Selected primary sources checked for suspected errors. Counts are inferred corridors, not verified physical journeys. Source-reviewed within-year order is retained. Unknown order and gaps generate separately counted dashed alternatives between recorded locations, not suppressed routes or additional confirmed journeys; unresolved identities and unaccepted appointments cannot generate moves.',
   'limitations':'Mapping inspection is complete; source adjudication is not. Working notes are hypotheses where not explicitly adjudicated. Duplicate people, inherited locations, joint duties, event dates and institutional scope still have open questions. Automated inception dates were not accepted wholesale: for example, the Leeward QID was valid but its display label was wrong.'}
  (OUT/'review.json').write_text(json.dumps({'meta':meta,'careers':entries},ensure_ascii=False,separators=(',',':'))+'\n')
  (AUDIT/'review-summary.json').write_text(json.dumps(meta,ensure_ascii=False,indent=2)+'\n')
  with (OUT/'review.csv').open('w') as f:
-  w=csv.writer(f,lineterminator='\n');w.writerow(['rank','person_id','name','corridors_before','corridors_after','status','inspection_note','adjudication'])
-  for d in entries:w.writerow([d[k] for k in ['rank','person_id','name','moves_before','moves_after','status','inspection_note','adjudication']])
+  w=csv.writer(f,lineterminator='\n');w.writerow(['rank','person_id','name','corridors_before','corridors_after','possible_connections','status','inspection_note','adjudication'])
+  for d in entries:w.writerow([d[k] for k in ['rank','person_id','name','moves_before','moves_after','possible_connections','status','inspection_note','adjudication']])
  (ROOT/'docs/data/careers.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')))
  print(json.dumps(meta,indent=2))
 if __name__=='__main__':main()

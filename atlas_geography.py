@@ -124,25 +124,53 @@ def project(r):
 
 
 def ordered_arcs(pid, rows, nodes):
-    """Use source-reviewed within-year order when available; never use seq as evidence."""
-    from itertools import groupby
-    previous = None
+    """Preserve dated career connectivity and identify uncertainty explicitly.
+
+    A multi-place year is a set of possible endpoints, not a missing career.
+    Solid corridors require a single ordered endpoint on both sides. Dashed
+    connections show alternatives, never an invented order within a year.
+    Unknown locations can make a connection incomplete but cannot erase its
+    known endpoints. No coordinate is assigned to an unknown event.
+    """
+    from itertools import groupby, combinations
+    previous = set()
+    previous_uncertain = False
+    gap = False
+
+    def edge(y, left, right, reason=None):
+        if left == right or not 1700 <= y <= 1970:
+            return None
+        a, b = nodes[left], nodes[right]
+        if a['entity_qid'] == b['entity_qid'] or (a['lat'], a['lon']) == (b['lat'], b['lon']):
+            return None
+        arc = {'pid': pid, 'yr': y, 'from': left, 'to': right}
+        if reason: arc['uncertain'] = reason
+        return arc
+
     for y, group in groupby(sorted(rows, key=lambda row: (row[0], row[1])), key=lambda row: row[0]):
         group = list(group)
         keys = {row[2] for row in group}
-        stops = [next(iter(keys))] if len(keys) == 1 else [None]
-        if len(keys) > 1 and None not in keys and all(len(row) > 3 and row[3] is not None for row in group):
+        known = keys - {None}
+        if not known:
+            gap = True
+            continue
+        groups = [known]
+        if len(known) > 1 and None not in keys and all(len(row) > 3 and row[3] is not None for row in group):
             ordered = sorted(group, key=lambda row: row[3])
-            batches = [{row[2] for row in batch} for _, batch in groupby(ordered, key=lambda row: row[3])]
-            if all(len(batch) == 1 for batch in batches):
-                stops = [next(iter(batch)) for batch in batches]
-        for key in stops:
-            if previous and key and previous != key and 1700 <= y <= 1970:
-                a, b = nodes[previous], nodes[key]
-                # A legal-form/label change at the same point is not travel.
-                if a['entity_qid'] != b['entity_qid'] and (a['lat'], a['lon']) != (b['lat'], b['lon']):
-                    yield {'pid': pid, 'yr': y, 'from': previous, 'to': key}
-            previous = key
+            groups = [{row[2] for row in batch} for _, batch in groupby(ordered, key=lambda row: row[3])]
+        for current in groups:
+            uncertain = len(current) > 1 or None in keys
+            reason = ('unlocated event between recorded places' if gap or None in keys else
+                      'alternative endpoints; within-year order unresolved' if previous_uncertain or uncertain else None)
+            for left in sorted(previous):
+                for right in sorted(current):
+                    arc = edge(y, left, right, reason)
+                    if arc: yield arc
+            # Undirected associations: alphabetical storage is not a travel order.
+            for left, right in combinations(sorted(current), 2):
+                arc = edge(y, left, right, 'same-year places; direction and order unresolved')
+                if arc: yield arc
+            previous, previous_uncertain, gap = current, uncertain, False
 
 
 def transfers(corpus):
@@ -159,5 +187,6 @@ def transfers(corpus):
         if r.get('mobility_excluded'): key = None
         events[canon(r['person_id'])].append((r['year_start'], r['seq'], key, r.get('route_order')))
     arcs = [a for pid, rows in events.items() for a in ordered_arcs(pid, rows, nodes)]
-    return {'transfers': sorted(arcs, key=lambda t: t['yr']),
+    return {'transfers': sorted((a for a in arcs if not a.get('uncertain')), key=lambda t: t['yr']),
+            'uncertain_transfers': sorted((a for a in arcs if a.get('uncertain')), key=lambda t: t['yr']),
             'labels': {k: v['label'] for k, v in nodes.items()}, 'nodes': nodes}
