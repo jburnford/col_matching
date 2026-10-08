@@ -135,7 +135,8 @@ def build_canon():
     return canon
 
 def build_careers_search(canon):
-    persons = load_persons(CO / "persons.jsonl"); persons.update(load_persons(IO / "persons.jsonl"))
+    co_persons = load_persons(CO / "persons.jsonl")
+    persons = {**co_persons, **load_persons(IO / "persons.jsonl")}
 
     # intern the GROUNDED role (id + canonical label), keyed by role identity so
     # every spelling of "Governor" folds to one row — that shared index is also what
@@ -168,7 +169,7 @@ def build_careers_search(canon):
 
     careers, search = {}, []
     for cpid in sorted(evset.keys() | unplaced.keys()):
-        corpus = 0 if cpid.startswith('kgp_col') else 1
+        corpus = 0 if cpid in co_persons else 1
         sur, giv, qid, wlabel = persons.get(cpid, (None, None, None, None))
         evs = sorted(evset[cpid], key=lambda e: (e[0], e[2], e[3], e[1]))
         # Preserve distinct event dates: equal roles years apart do not prove
@@ -265,7 +266,7 @@ def build_tours():
             {"qid": "Q1772596", "yr": 1919, "caption": "He moves south to govern Madras."},
             {"qid": "Q16",      "yr": 1926, "caption": "Then he crosses the world to become Governor-General of Canada — a Colonial Office appointment."},
             {"qid": "Q129286",  "yr": 1931, "caption": "And returns to India as Viceroy. His service runs through both Lists — the single thread this atlas was built to follow."},
-            {"web": "both", "home": True, "yr": 1966, "caption": "One thread among the sixteen thousand officials who ever changed post. The whole web is yours now: search an official by name in the panel on the right, or click any circle on the map to see the careers that ran through that place. Click a busy corridor in the panel to trace who travelled it; switch between the two services — or the schools that trained them — from the buttons at lower left; and drag the year along the bottom to watch the empire fill in. Press Finish to open Willingdon's own record."},
+            {"web": "both", "home": True, "yr": 1966, "caption": "One thread among the officials with inferred changes of location. The whole web is yours now: search an official by name in the panel on the right, or click any circle on the map to see the careers that ran through that place. Click a busy corridor in the panel to trace who travelled it; switch between the two services — or the schools that trained them — from the buttons at lower left; and drag the year along the bottom to watch the empire fill in. Press Finish to open Willingdon's own record."},
          ]},
     ]
     places = json.load((OUT / "places.json").open())
@@ -297,6 +298,8 @@ def main():
     # cross-corpus "Two Services" bridges (reads the careers.json just written)
     import sys
     subprocess.run([sys.executable, "build_bridges.py"], check=True)
+    from build_top500_review import main as build_review
+    build_review()
     print("done →", OUT)
 
 if __name__ == "__main__":

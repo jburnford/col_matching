@@ -70,9 +70,9 @@ def main():
             "role_source": r.get("source"),
             "org_source": o.get("source"),
         }
-        for key in ('place_raw', 'event_kind', 'location_note', 'historical_corrections'):
+        for key in ('place_raw', 'event_kind', 'location_note', 'historical_corrections', 'date_uncertain', 'mobility_excluded'):
             if key in e: fact[key] = e[key]
-        if e.get('event_kind') == 'electoral_defeat':
+        if e.get('event_kind') in {'electoral_defeat', 'appointment_not_taken_up', 'attribution_unresolved'}:
             fact.update(role_id=None, role_label=e.get('role_label'), year_end=None)
         out.append(fact)
         if str(fact["role_id"] or "").startswith("Q"): stat["role_qid"] += 1

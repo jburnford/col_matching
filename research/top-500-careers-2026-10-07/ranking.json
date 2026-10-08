@@ -1,0 +1,3502 @@
+[
+ {
+  "rank": 1,
+  "person_id": "kgp_col1896-p581b17",
+  "name": "FORD, FRANCIS CLARE",
+  "moves_before": 23,
+  "corpus": "kg"
+ },
+ {
+  "rank": 2,
+  "person_id": "kgp_col1925-p947b7",
+  "name": "Daniel Morris",
+  "moves_before": 18,
+  "corpus": "kg"
+ },
+ {
+  "rank": 3,
+  "person_id": "kgp_col1906-p730b6",
+  "name": "ROBERTSON, ABRAHAM FAURE",
+  "moves_before": 18,
+  "corpus": "kg"
+ },
+ {
+  "rank": 4,
+  "person_id": "kgp_col1883-p404b12",
+  "name": "William Jervois",
+  "moves_before": 16,
+  "corpus": "kg"
+ },
+ {
+  "rank": 5,
+  "person_id": "kgp_iol1936-c3170214",
+  "name": "COBB, HENRY VENN",
+  "moves_before": 15,
+  "corpus": "iol"
+ },
+ {
+  "rank": 6,
+  "person_id": "kgp_iol1934-c5314980",
+  "name": "WILKINSON, WALTER HUGH JOHN",
+  "moves_before": 15,
+  "corpus": "iol"
+ },
+ {
+  "rank": 7,
+  "person_id": "kgp_col1906-p683b12",
+  "name": "Arthur Havelock",
+  "moves_before": 14,
+  "corpus": "kg"
+ },
+ {
+  "rank": 8,
+  "person_id": "kgp_col1924-p799b14",
+  "name": "BRANCH, CHARLES ERNEST ST. J.",
+  "moves_before": 14,
+  "corpus": "kg"
+ },
+ {
+  "rank": 9,
+  "person_id": "kgp_col1915-p679b10",
+  "name": "CLARKE, WILLIAM JAMES",
+  "moves_before": 14,
+  "corpus": "kg"
+ },
+ {
+  "rank": 10,
+  "person_id": "kgp_iol1915-c2936722",
+  "name": "CRAWFORD, JAMES ADAIR",
+  "moves_before": 14,
+  "corpus": "iol"
+ },
+ {
+  "rank": 11,
+  "person_id": "kgp_col1923-p759b6",
+  "name": "Ernest Woodford Birch",
+  "moves_before": 14,
+  "corpus": "kg"
+ },
+ {
+  "rank": 12,
+  "person_id": "kgp_col1897-p494b18",
+  "name": "FORD, CHARLES F.",
+  "moves_before": 14,
+  "corpus": "kg"
+ },
+ {
+  "rank": 13,
+  "person_id": "kgp_col1918-p738b20",
+  "name": "Francis Fleming",
+  "moves_before": 14,
+  "corpus": "kg"
+ },
+ {
+  "rank": 14,
+  "person_id": "kgp_iol1937-c4080921",
+  "name": "KERSHAW, Louis James",
+  "moves_before": 14,
+  "corpus": "iol"
+ },
+ {
+  "rank": 15,
+  "person_id": "kgp_iol1895_supp-c2045603",
+  "name": "MARTINDALE, ARTHUR HENRY TEMPLE",
+  "moves_before": 14,
+  "corpus": "iol"
+ },
+ {
+  "rank": 16,
+  "person_id": "kgp_col1932-p996b8",
+  "name": "MILLINGTON, WM. MILNES",
+  "moves_before": 14,
+  "corpus": "kg"
+ },
+ {
+  "rank": 17,
+  "person_id": "kgp_iol1935-c5582593",
+  "name": "WORGAN, LIONEL JOHN WOODS",
+  "moves_before": 14,
+  "corpus": "iol"
+ },
+ {
+  "rank": 18,
+  "person_id": "kgp_iol1934-c2741058",
+  "name": "BAYLEY, CHARLES STUART",
+  "moves_before": 13,
+  "corpus": "iol"
+ },
+ {
+  "rank": 19,
+  "person_id": "kgp_iol1930-c3237995",
+  "name": "DOBBS, HENRY ROBERT CONWAY",
+  "moves_before": 13,
+  "corpus": "iol"
+ },
+ {
+  "rank": 20,
+  "person_id": "kgp_col1918-p704b7",
+  "name": "Edward John Cameron",
+  "moves_before": 13,
+  "corpus": "kg"
+ },
+ {
+  "rank": 21,
+  "person_id": "kgp_col1930-p1003b16",
+  "name": "Eyre Hutson",
+  "moves_before": 13,
+  "corpus": "kg"
+ },
+ {
+  "rank": 22,
+  "person_id": "kgp_iol1945-c1189512",
+  "name": "GOULD, BASIL JOHN",
+  "moves_before": 13,
+  "corpus": "iol"
+ },
+ {
+  "rank": 23,
+  "person_id": "kgp_col1897-p554b10",
+  "name": "Hercules Robinson, 1st Baron Rosmead",
+  "moves_before": 13,
+  "corpus": "kg"
+ },
+ {
+  "rank": 24,
+  "person_id": "kgp_col1939-p1031b17",
+  "name": "KEET, JOHAN DIEDERIK MOHR",
+  "moves_before": 13,
+  "corpus": "kg"
+ },
+ {
+  "rank": 25,
+  "person_id": "kgp_col1897-p553b4",
+  "name": "William Robinson",
+  "moves_before": 13,
+  "corpus": "kg"
+ },
+ {
+  "rank": 26,
+  "person_id": "kgp_iol1889_supp-c2246857",
+  "name": "WODEHOUSE, CHARLES",
+  "moves_before": 13,
+  "corpus": "iol"
+ },
+ {
+  "rank": 27,
+  "person_id": "kgp_col1948-p475b2",
+  "name": "Alfred Claud Hollis",
+  "moves_before": 12,
+  "corpus": "kg"
+ },
+ {
+  "rank": 28,
+  "person_id": "kgp_col1924-p801b13",
+  "name": "BROERS, CHRISTIAAN WOUTER",
+  "moves_before": 12,
+  "corpus": "kg"
+ },
+ {
+  "rank": 29,
+  "person_id": "kgp_iol1926-c2851048",
+  "name": "COLVIN, ELLIOT GRAHAM",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 30,
+  "person_id": "kgp_col1927-p894b6",
+  "name": "DAVIDSON, P.",
+  "moves_before": 12,
+  "corpus": "kg"
+ },
+ {
+  "rank": 31,
+  "person_id": "kgp_iol1932-c3444688",
+  "name": "GABRIEL, CECIL HAMILTON",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 32,
+  "person_id": "kgp_iol1895_supp-c1692399",
+  "name": "HAMILTON, RICHARD ERRIS",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 33,
+  "person_id": "kgp_iol1919-c3600977",
+  "name": "HARE, LANCELOT",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 34,
+  "person_id": "kgp_iol1936-c4017752",
+  "name": "KEYES, TERENCE HUMPHREY",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 35,
+  "person_id": "kgp_iol1894_supp-c1847785",
+  "name": "LE MESSURIER, AUGUSTUS",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 36,
+  "person_id": "kgp_iol1945-c1524359",
+  "name": "LOTHIAN, ARTHUR CUNNINGHAM",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 37,
+  "person_id": "kgp_col1879-p427b3",
+  "name": "MACDOUGALL, WILLIAM",
+  "moves_before": 12,
+  "corpus": "kg"
+ },
+ {
+  "rank": 38,
+  "person_id": "kgp_iol1911-c3614272",
+  "name": "PRIDEAUX, WILLIAM FRANCIS",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 39,
+  "person_id": "kgp_iol1915-c3938721",
+  "name": "PRITCHARD, CHARLES HAMERTON",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 40,
+  "person_id": "kgp_col1961-p434b11",
+  "name": "RAMAGE, Richard Ogilvy",
+  "moves_before": 12,
+  "corpus": "kg"
+ },
+ {
+  "rank": 41,
+  "person_id": "kgp_col1930-p1072b7",
+  "name": "ROBINSON, FRANKLYN",
+  "moves_before": 12,
+  "corpus": "kg"
+ },
+ {
+  "rank": 42,
+  "person_id": "kgp_iol1894_supp-c2590134",
+  "name": "WYLIE, HENRY",
+  "moves_before": 12,
+  "corpus": "iol"
+ },
+ {
+  "rank": 43,
+  "person_id": "kgp_iol1895_supp-c1128325",
+  "name": "BARBOUR, DAVID MILLER",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 44,
+  "person_id": "kgp_col1953-p252b16",
+  "name": "BELL, EDWARD PETER STUBBS",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 45,
+  "person_id": "kgp_dol1935-p846b4",
+  "name": "BRINK, DANIEL",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 46,
+  "person_id": "kgp_iol1932-c3034493",
+  "name": "CHENEVIX-TRENCH, GEORGE FREDERICK",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 47,
+  "person_id": "kgp_col1918-p728b4",
+  "name": "DREYER, PETER",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 48,
+  "person_id": "kgp_iol1940-c1791368",
+  "name": "GABRIEL, EDMUND VIVIAN",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 49,
+  "person_id": "kgp_col1905-p664b4",
+  "name": "Henry Moore Jackson",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 50,
+  "person_id": "kgp_iol1932-c3787592",
+  "name": "HUTCHINSON, WILLIAM GORDON",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 51,
+  "person_id": "kgp_iol1940-c2283887",
+  "name": "LATIFI, ALMA",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 52,
+  "person_id": "kgp_col1923-p870b14",
+  "name": "MCDONNELL, MICHAEL FRANCIS JOSEPH",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 53,
+  "person_id": "kgp_iol1934-c4392452",
+  "name": "NAPIER, ARTHUR GEORGE FRITZ",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 54,
+  "person_id": "kgp_iol1895_supp-c2326303",
+  "name": "REYNOLDS, EDWARD SWATMAN",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 55,
+  "person_id": "kgp_iol1893_supp-c2201912",
+  "name": "ROBERTS, ARTHUR WILLIAM",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 56,
+  "person_id": "kgp_iol1922-c3808203",
+  "name": "ROBERTSON, DONALD",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 57,
+  "person_id": "kgp_col1928-p1165b18",
+  "name": "ROWE, R. H.",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 58,
+  "person_id": "kgp_col1940-p1043b14",
+  "name": "SELWYN-CLARKE, PERCY SELWYN",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 59,
+  "person_id": "kgp_iol1947-c2108154",
+  "name": "SIVASANKARA MENON, KUMAR PADMA",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 60,
+  "person_id": "kgp_iol1947-c2117223",
+  "name": "SMITH, DANIEL RICHARD",
+  "moves_before": 11,
+  "corpus": "iol"
+ },
+ {
+  "rank": 61,
+  "person_id": "kgp_col1958-p434b17",
+  "name": "SPENCER, O. A.",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 62,
+  "person_id": "kgp_col1929-p1067b9",
+  "name": "THEILER, SIB ARNOLD",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 63,
+  "person_id": "kgp_col1909-p706b5",
+  "name": "Walter Egerton",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 64,
+  "person_id": "kgp_col1930-p1115b17",
+  "name": "WELLINGTON, ARTHUR ROBARTES",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 65,
+  "person_id": "kgp_col1898-p556b6",
+  "name": "William Douglas Young",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 66,
+  "person_id": "kgp_col1917-p809b12",
+  "name": "William MacGregor",
+  "moves_before": 11,
+  "corpus": "kg"
+ },
+ {
+  "rank": 67,
+  "person_id": "kgp_iol1936-c2779102",
+  "name": "BAILEY, FREDERICK MARSHMAN",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 68,
+  "person_id": "kgp_col1905-p610b6",
+  "name": "BAYNES, EDWARD WILLIAM",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 69,
+  "person_id": "kgp_iol1894_supp-c1137702",
+  "name": "BIGGS, THOMAS HESKETH",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 70,
+  "person_id": "kgp_iol1932-c2825186",
+  "name": "BISCOE, HUGH VINCENT",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 71,
+  "person_id": "kgp_col1931-p966b9",
+  "name": "BRADSHAW, VINCENT EDWARD PATRICK",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 72,
+  "person_id": "kgp_col1897-p572b7",
+  "name": "Charles Tupper",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 73,
+  "person_id": "kgp_iol1945-c887853",
+  "name": "CHATTERJEE, BASANTA KUMAR",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 74,
+  "person_id": "kgp_col1939-p976b5",
+  "name": "DAWE, MORLEY THOMAS",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 75,
+  "person_id": "kgp_iol1916-c3118226",
+  "name": "DOBBIE, WILLIAM HERBERT",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 76,
+  "person_id": "kgp_col1924-p838b10",
+  "name": "EADIE, DAVID",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 77,
+  "person_id": "kgp_col1920-p884b13",
+  "name": "Edward Merewether",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 78,
+  "person_id": "kgp_col1940-p1049b15",
+  "name": "Frederic Gordon-Smith",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 79,
+  "person_id": "kgp_iol1945-c1143217",
+  "name": "GASTRELL, EVERARD HUDDLESTON",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 80,
+  "person_id": "kgp_col1931-p1025b9",
+  "name": "GILMAN, EDWARD WILMOT FRANCIS",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 81,
+  "person_id": "kgp_col1890-p501b23",
+  "name": "HUDSON, GEORGE",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 82,
+  "person_id": "kgp_col1920-p789b5",
+  "name": "Hugh Clifford",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 83,
+  "person_id": "kgp_iol1931-c3973252",
+  "name": "JACOB, HAROLD FENTON",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 84,
+  "person_id": "kgp_iol1940-c2193844",
+  "name": "KEALY, EDWARD HERBERT",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 85,
+  "person_id": "kgp_iol1890_supp-c1770734",
+  "name": "LYTTON, EDWARD ROBERT BULWER-LYTTON",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 86,
+  "person_id": "kgp_iol1926-c3622921",
+  "name": "MAJUMDAR, UPENDRALAL",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 87,
+  "person_id": "kgp_iol1931-c4350395",
+  "name": "MAKINDALE, ARTHUR HENRY TEMPLE",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 88,
+  "person_id": "kgp_col1940-p995b10",
+  "name": "MCKINSTRY, SIDNEY ALEXANDER ROGER",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 89,
+  "person_id": "kgp_dol1935-p948b13",
+  "name": "McROBERTS, B. A. K.",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 90,
+  "person_id": "kgp_col1934-p864b8",
+  "name": "MERON, EDWARD J.",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 91,
+  "person_id": "kgp_col1936-p964b5",
+  "name": "MUDIE, NORMAN DAVID",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 92,
+  "person_id": "kgp_col1909-p768b20",
+  "name": "MURRAY, ALEXANDER",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 93,
+  "person_id": "kgp_iol1931-c4641621",
+  "name": "PEARS, STEUART EDMUND",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 94,
+  "person_id": "kgp_iol1892_supp-c2036189",
+  "name": "PELLEY, LEWIS",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 95,
+  "person_id": "kgp_iol1894_supp-c2150411",
+  "name": "PLOWDEN, TREVOR JOHN CHICHELE",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 96,
+  "person_id": "kgp_iol1930-c4721299",
+  "name": "SCOTT O'CONNOR, VINCENT CLARENCE",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 97,
+  "person_id": "kgp_iol1947-c2110197",
+  "name": "SKRINE, CLARMONT PERCIVAL",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 98,
+  "person_id": "kgp_iol1926-c4104050",
+  "name": "SMITH, JOHN MANNERS",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 99,
+  "person_id": "kgp_col1927-p1035b14",
+  "name": "SMITH-REWS, GEOFFREY WHISTLER BINGHAM",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 100,
+  "person_id": "kgp_iol1930-c4903983",
+  "name": "STRATTON, WALLACE CHRISTOPHER RAMSAY",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 101,
+  "person_id": "kgp_col1948-p548b17",
+  "name": "TEMPANY, HAROLD AUGUSTINE",
+  "moves_before": 10,
+  "corpus": "kg"
+ },
+ {
+  "rank": 102,
+  "person_id": "kgp_iol1947-c2226447",
+  "name": "THORNBURGH, DAVID GILL",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 103,
+  "person_id": "kgp_iol1892_supp-c2405845",
+  "name": "WALTER, CHARLES KENNETH MACKENZIE",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 104,
+  "person_id": "kgp_iol1947-c2325158",
+  "name": "WEBB, WILFRED FRANCIS",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 105,
+  "person_id": "kgp_iol1939-c3439906",
+  "name": "WEIR, JAMES LESLIE ROSE",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 106,
+  "person_id": "kgp_iol1907-c3741597",
+  "name": "WINGATE, ANDREW",
+  "moves_before": 10,
+  "corpus": "iol"
+ },
+ {
+  "rank": 107,
+  "person_id": "kgp_col1940-p865b4",
+  "name": "AITKEN, JOHN",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 108,
+  "person_id": "kgp_col1948-p426b3",
+  "name": "Alan Burns",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 109,
+  "person_id": "kgp_col1953-p275b22",
+  "name": "Alexander Grantham",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 110,
+  "person_id": "kgp_col1888-p516b22",
+  "name": "Anthony Musgrave",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 111,
+  "person_id": "kgp_col1931-p949b14",
+  "name": "ARTHUR, JAMES STARTIN WILLS",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 112,
+  "person_id": "kgp_iol1916-c2724720",
+  "name": "BARR, DAVID WILLIAM KEITH",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 113,
+  "person_id": "kgp_col1934-p844b9",
+  "name": "BAYNES, THOMAS EDWIN PERCIVAL",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 114,
+  "person_id": "kgp_col1914-p655b16",
+  "name": "BELLAMY, CHAS. VINCENT",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 115,
+  "person_id": "kgp_col1928-p993b6",
+  "name": "Bettington, Digby Rowland Albemarle",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 116,
+  "person_id": "kgp_col1919-p723b14",
+  "name": "BROADRICK, EDWD. GEO.",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 117,
+  "person_id": "kgp_iol1889_supp-c1063910",
+  "name": "BROWNE, CLEMENT METCALFE",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 118,
+  "person_id": "kgp_col1897-p470b20",
+  "name": "BURT, ALFRED EARLE",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 119,
+  "person_id": "kgp_col1940-p898b8",
+  "name": "CHAMPION, REGINALD STUART",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 120,
+  "person_id": "kgp_col1948-p415b12",
+  "name": "Charles Frederic Belcher",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 121,
+  "person_id": "kgp_col1936-p861b12",
+  "name": "CLARKSON, FRANK CECIL",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 122,
+  "person_id": "kgp_col1922-p769b10",
+  "name": "CONDELL, CLAUDE FORLONG",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 123,
+  "person_id": "kgp_col1954-p284b15",
+  "name": "CROUCHER, HERBERT HARRY",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 124,
+  "person_id": "kgp_col1937-p889b19_s11",
+  "name": "DALTON, LLEWELYN CHISHOLM",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 125,
+  "person_id": "kgp_iol1940-c1594007",
+  "name": "DAVIDSON, JOHN",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 126,
+  "person_id": "kgp_col1896-p573b4",
+  "name": "DES VŒUX, GEORGE W.",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 127,
+  "person_id": "kgp_col1936-p1007b11",
+  "name": "Douglas Roy Stewart",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 128,
+  "person_id": "kgp_dol1935-p876b16",
+  "name": "DOWNING, GEOFFREY GEORGE DAVID",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 129,
+  "person_id": "kgp_col1890-p477b13",
+  "name": "DUFFERIN, Frederick Temple Hamilton-Blackwood",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 130,
+  "person_id": "kgp_col1914-p703b20",
+  "name": "EVANS, WILLIAM",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 131,
+  "person_id": "kgp_iol1945-c1109381",
+  "name": "FISHER, GERALD THOMAS",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 132,
+  "person_id": "kgp_iol1911-c2864103",
+  "name": "FITZGERALD, PERCY SEYMOUR VESEY",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 133,
+  "person_id": "kgp_col1940-p932b18",
+  "name": "FOLLOWS, CHARLES GEOFFREY SHIELD",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 134,
+  "person_id": "kgp_col1930-p972b9",
+  "name": "FRANCIS, (Cyril Gerard) Brooke",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 135,
+  "person_id": "kgp_iol1889_supp-c1333179",
+  "name": "FRASER, EDWARD ALEXANDER",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 136,
+  "person_id": "kgp_iol1947-c1152277",
+  "name": "GALLOWAY, ARNOLD CRAWSHAW",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 137,
+  "person_id": "kgp_iol1937-c3629070",
+  "name": "GAVAGHAN, EDWARD LAWRENCE",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 138,
+  "person_id": "kgp_iol1945-c1162399",
+  "name": "GIDNEY, CLAUDE HENRY",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 139,
+  "person_id": "kgp_col1953-p274b17",
+  "name": "GILMOUR, ANDREW",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 140,
+  "person_id": "kgp_iol1890_supp-c1475016",
+  "name": "GOODFELLOW, GEORGE RISTO",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 141,
+  "person_id": "kgp_col1889-p487b13",
+  "name": "GRIFFITH, T. RISELY.",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 142,
+  "person_id": "kgp_iol1895_supp-c1698069",
+  "name": "HANCOCK, GEORGE EDWARD",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 143,
+  "person_id": "kgp_col1939-p1050b5",
+  "name": "Harry Luke",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 144,
+  "person_id": "kgp_col1930-p914b3",
+  "name": "Henry Hesketh Bell",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 145,
+  "person_id": "kgp_col1894-p506b15",
+  "name": "Henry Loch, 1st Baron Loch",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 146,
+  "person_id": "kgp_col1939-p1074b6",
+  "name": "Herbert Richmond Palmer",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 147,
+  "person_id": "kgp_iol1947-c1314908",
+  "name": "HICKINBOTHAM, Tom",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 148,
+  "person_id": "kgp_iol1911-c3079626",
+  "name": "HOLDICH, THOMAS HUNGERFORD",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 149,
+  "person_id": "kgp_col1953-p283b11",
+  "name": "HOWE, GERARD LEWIS",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 150,
+  "person_id": "kgp_iol1947-c1708363",
+  "name": "HYDARI, MUHAMMAD SALEH AKBAR",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 151,
+  "person_id": "kgp_col1954-p308b10",
+  "name": "JOHNS, Robert John Aylwin Wallace",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 152,
+  "person_id": "kgp_iol1936-c4048016",
+  "name": "KISCH, HERMANN MICHAEL",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 153,
+  "person_id": "kgp_col1894-p502b7",
+  "name": "KYSHE, JAMES WILLIAM NORTON",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 154,
+  "person_id": "kgp_iol1895_supp-c1939288",
+  "name": "LE MESSURIER, AUGUSTUS",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 155,
+  "person_id": "kgp_col1889-p507b22",
+  "name": "LOFTUS, Augustus William Frederick Spencer, commonly called Lord Augustus",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 156,
+  "person_id": "kgp_col1888-p502b19",
+  "name": "LOFTUS, G.C.B.",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 157,
+  "person_id": "kgp_iol1895_supp-c1960180",
+  "name": "LOGAN, ROBERT",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 158,
+  "person_id": "kgp_col1927-p975b4",
+  "name": "MACGREGOR, DAVID SLIMAN",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 159,
+  "person_id": "kgp_col1921-p875b12",
+  "name": "MCARTHUR, MALCOLM STEWART HANNIBAL",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 160,
+  "person_id": "kgp_col1917-p808b15",
+  "name": "MCDONALD, O. J.",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 161,
+  "person_id": "kgp_iol1926-c3665217",
+  "name": "MEADE, MALCOLM JOHN",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 162,
+  "person_id": "kgp_iol1890_supp-c1849728",
+  "name": "MEADE, RICHARD JOHN",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 163,
+  "person_id": "kgp_col1886-p475b26",
+  "name": "MITCHELL, ROBERT W. S.",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 164,
+  "person_id": "kgp_col1878-p414b20",
+  "name": "MOIR, ALEXANDER WILSON",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 165,
+  "person_id": "kgp_iol1945-c1737315",
+  "name": "NEALE, WALTER GORDON",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 166,
+  "person_id": "kgp_col1923-p894b14",
+  "name": "O'CONNELL, JOHN HAMILTON",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 167,
+  "person_id": "kgp_iol1894_supp-c2089438",
+  "name": "OLLIVANT, EDWARD CHARLES KAYLL",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 168,
+  "person_id": "kgp_iol1905-c3083657",
+  "name": "PEILE, JAMES BRAITHWAITE",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 169,
+  "person_id": "kgp_col1886-p487b7",
+  "name": "PHILLIPPO, GEORGE",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 170,
+  "person_id": "kgp_iol1915-c3940138",
+  "name": "PRITCHARD, LIONEL EDWARD",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 171,
+  "person_id": "kgp_iol1933-c4560087",
+  "name": "RAVENSHAW, CHARLES WITHERS",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 172,
+  "person_id": "kgp_col1931-p1117b11",
+  "name": "RICHARDS, Arthur Frederick Richards",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 173,
+  "person_id": "kgp_iol1940-c2984401",
+  "name": "SADASHIVA RAU, KALLE RAMA RAU",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 174,
+  "person_id": "kgp_iol1889_supp-c2021008",
+  "name": "SINKINSON, EDWARD JAMES",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 175,
+  "person_id": "kgp_iol1886_supp-c965541",
+  "name": "TREVOR, WILLIAM SPOTTISWOODE",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 176,
+  "person_id": "kgp_iol1889_supp-c2138531",
+  "name": "TREVOR, WILLIAM SPOTTISWOODE",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 177,
+  "person_id": "kgp_iol1937-c5399921",
+  "name": "WARD, LANCELOT BANGOR",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 178,
+  "person_id": "kgp_iol1939-c3432909",
+  "name": "WATTS, RALPH PONSONBY",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 179,
+  "person_id": "kgp_iol1945-c2338944",
+  "name": "WILBERFORCE-BELL, HAROLD",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 180,
+  "person_id": "kgp_col1886-p473b16",
+  "name": "William Edward Maxwell",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 181,
+  "person_id": "kgp_iol1936-c5429665",
+  "name": "WILSON, DENIS GREY",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 182,
+  "person_id": "kgp_iol1935-c5581477",
+  "name": "WOOLLAM, WILLIAM DIXON",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 183,
+  "person_id": "kgp_col1965-p359b23",
+  "name": "WRIGHT, W. A.",
+  "moves_before": 9,
+  "corpus": "kg"
+ },
+ {
+  "rank": 184,
+  "person_id": "kgp_iol1895_supp-c2723077",
+  "name": "WYLLIE, WILLIAM HUTT CURZON",
+  "moves_before": 9,
+  "corpus": "iol"
+ },
+ {
+  "rank": 185,
+  "person_id": "kgp_iol1933-c2543429",
+  "name": "ALDER, WILFRED",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 186,
+  "person_id": "kgp_col1896-p646b7",
+  "name": "Ambrose Shea",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 187,
+  "person_id": "kgp_col1921-p757b14",
+  "name": "ASHBURNHAM, JOHN ANCHITEL",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 188,
+  "person_id": "kgp_col1919-p707b10",
+  "name": "AUCHINLECK, WILLIAM DOUGLAS",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 189,
+  "person_id": "kgp_col1883-p391b7",
+  "name": "Augustus Gore",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 190,
+  "person_id": "kgp_col1930-p907b17",
+  "name": "BAIN, NORMAN KERR",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 191,
+  "person_id": "kgp_iol1931-c2889995",
+  "name": "BARRETT, CYRIL CHARLES JOHNSON",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 192,
+  "person_id": "kgp_col1933-p837b3",
+  "name": "BARRETT-LENNARD, FIENNES CECIL ARTHUR",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 193,
+  "person_id": "kgp_col1948-p413b7",
+  "name": "BARTON, Cecil James Juxon Talbot.",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 194,
+  "person_id": "kgp_col1939-p937b17",
+  "name": "BARTON, PERCIVAL FULLER",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 195,
+  "person_id": "kgp_iol1921-c2689928",
+  "name": "BEGBIE, ALFRED GLYNN",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 196,
+  "person_id": "kgp_col1889-p531b17",
+  "name": "Benjamin Pine",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 197,
+  "person_id": "kgp_iol1907-c2294309",
+  "name": "BERKELEY, JAMES CAVAN",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 198,
+  "person_id": "kgp_iol1922-c2427862",
+  "name": "BERKELEY, ROBERT BRUCE",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 199,
+  "person_id": "kgp_iol1930-c2817887",
+  "name": "BLAKEWAY, Denys Brooke",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 200,
+  "person_id": "kgp_iol1947-c840527",
+  "name": "BRADSHAW, JOHN RICHARD LONDON",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 201,
+  "person_id": "kgp_iol1917-c2866603",
+  "name": "BRERETON, HERBERT JAMES",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 202,
+  "person_id": "kgp_iol1919-c3014462",
+  "name": "BRETERON, HERBERT JAMES",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 203,
+  "person_id": "kgp_iol1936-c2986110",
+  "name": "BRETT, John Aloysius",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 204,
+  "person_id": "kgp_iol1926-c2701699",
+  "name": "BRIGSTOCKE, ARTHUR MONTAGU",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 205,
+  "person_id": "kgp_col1932-p883b6",
+  "name": "BRITTEN, HENRY",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 206,
+  "person_id": "kgp_col1933-p853b23",
+  "name": "BRUCE, THOMAS DUNDAS HOPE",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 207,
+  "person_id": "kgp_col1919-p726b2",
+  "name": "BRYANT, ALFRED THOMAS",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 208,
+  "person_id": "kgp_col1936-p850b15",
+  "name": "BUCHANAN-SMITH, WALTER BUCHANAN",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 209,
+  "person_id": "kgp_iol1892_supp-c1188269",
+  "name": "BYRNE, EDWARD SIMPSON",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 210,
+  "person_id": "kgp_col1964-p243b17",
+  "name": "CAREW, WILLIAM DESMOND",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 211,
+  "person_id": "kgp_iol1922-c2567541",
+  "name": "CARMICHAEL, GEORGE",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 212,
+  "person_id": "kgp_iol1940-c1399072",
+  "name": "CARSON, CHARLES WILLIAM CHARTERIS",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 213,
+  "person_id": "kgp_col1921-p787b3",
+  "name": "CHAMBERS, CECIL HART",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 214,
+  "person_id": "kgp_col1896-p610b5",
+  "name": "Charles Lees",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 215,
+  "person_id": "kgp_col1923-p782b10",
+  "name": "CLOUGH, ERNEST MARSHALL OWEN",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 216,
+  "person_id": "kgp_col1925-p844b3",
+  "name": "CODRINGTON, STEWART",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 217,
+  "person_id": "kgp_col1955-p292b14",
+  "name": "COOLS-LARTIGUE, G. R.",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 218,
+  "person_id": "kgp_col1910-p734b18",
+  "name": "Cornelius Alfred Moloney",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 219,
+  "person_id": "kgp_col1965-p231b24",
+  "name": "COX, Christopher William Machell",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 220,
+  "person_id": "kgp_iol1889_supp-c1203453",
+  "name": "CUMMING, WILLIAM GORDON",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 221,
+  "person_id": "kgp_col1936-p871b9",
+  "name": "CURRY, H. D.",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 222,
+  "person_id": "kgp_iol1947-c1019142",
+  "name": "DAUBENY, RONALD GILES",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 223,
+  "person_id": "kgp_iol1947-c1057575",
+  "name": "DIXON, MICHAEL GREY",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 224,
+  "person_id": "kgp_col1921-p808b19",
+  "name": "DRAYTON, EDWARD RAWLR",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 225,
+  "person_id": "kgp_iol1919-c3336247",
+  "name": "DRUMMOND, ARTHUR BERKELEY",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 226,
+  "person_id": "kgp_iol1947-c1093736",
+  "name": "EGERTON, WILLIAM LE BELWARD",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 227,
+  "person_id": "kgp_iol1940-c1718944",
+  "name": "EVANS, LEONARD GLYDE LAVINGTON",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 228,
+  "person_id": "kgp_col1877-p411b4_s2",
+  "name": "EVERARD",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 229,
+  "person_id": "kgp_iol1947-c1112760",
+  "name": "FARGUE, DUDLEY GORDON HERIOT DE LA",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 230,
+  "person_id": "kgp_iol1939-c1737010",
+  "name": "FIELD, DONALD MOYLE",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 231,
+  "person_id": "kgp_col1883-p383b18",
+  "name": "FIRTH, HENRY ALOYSIUS",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 232,
+  "person_id": "kgp_iol1889_supp-c1313364",
+  "name": "FITZGERALD, JAMES RICHARD",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 233,
+  "person_id": "kgp_iol1911-c2865145",
+  "name": "FITZPATRICK, DENNIS",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 234,
+  "person_id": "kgp_col1931-p1016b20",
+  "name": "FRANCIS, CLIFFORD CLAUDE",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 235,
+  "person_id": "kgp_iol1927-c3401138",
+  "name": "GORDON, FREDERICK DUKOFF",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 236,
+  "person_id": "kgp_col1924-p859b4",
+  "name": "GRANT, HENRY EUGENE WALTER",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 237,
+  "person_id": "kgp_col1930-p983b2",
+  "name": "GREEN, CHARLES FRANCOIS JOSEPH",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 238,
+  "person_id": "kgp_col1924-p861b2",
+  "name": "GREENE, WILLIAM CONTYNGHAM",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 239,
+  "person_id": "kgp_iol1932-c3554787",
+  "name": "GREY, ARTHUR JAMES HERBERT",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 240,
+  "person_id": "kgp_iol1915-c3286889",
+  "name": "HARDING, CHARLES",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 241,
+  "person_id": "kgp_iol1933-c3558889",
+  "name": "HARDINGE, CHARLES",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 242,
+  "person_id": "kgp_col1937-p931b20_s1",
+  "name": "HEARNE, HORACE HECTOR",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 243,
+  "person_id": "kgp_col1928-p1040b6",
+  "name": "Henry Dobbs",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 244,
+  "person_id": "kgp_col1910-p722b20",
+  "name": "Henry Edward McCallum",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 245,
+  "person_id": "kgp_iol1938-c2027471",
+  "name": "HOLLAND, ROBERT ERSKINE",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 246,
+  "person_id": "kgp_iol1947-c1335689",
+  "name": "HOPKINSON, ARTHUR JOHN",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 247,
+  "person_id": "kgp_col1912-p707b13",
+  "name": "Hubert Jerningham",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 248,
+  "person_id": "kgp_col1921-p853b10",
+  "name": "INNES, JOHN ROBT.",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 249,
+  "person_id": "kgp_iol1947-c1376034",
+  "name": "JACKSON, GORDON NOEL",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 250,
+  "person_id": "kgp_iol1933-c3749672",
+  "name": "JAGAT PRASAD",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 251,
+  "person_id": "kgp_col1880-p398b18",
+  "name": "John A. Macdonald",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 252,
+  "person_id": "kgp_iol1895_supp-c1866038",
+  "name": "KEENE, HENRY GEORGE HARRIS",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 253,
+  "person_id": "kgp_iol1909-c3170989",
+  "name": "KENNEDY, WILLOUGHBY PITCAIRN",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 254,
+  "person_id": "kgp_col1928-p1098b17",
+  "name": "LABORDE, EDWARD DANIEL",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 255,
+  "person_id": "kgp_iol1893_supp-c1793819",
+  "name": "LAMBERT, PARRY",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 256,
+  "person_id": "kgp_iol1933-c3927499",
+  "name": "LAW, HENRY DUNCAN GRAVES",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 257,
+  "person_id": "kgp_col1905-p675b4",
+  "name": "LLEWELYN, ROBT. B.",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 258,
+  "person_id": "kgp_iol1947-c1567380",
+  "name": "MACKENZIE, DUNCAN GEORGE",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 259,
+  "person_id": "kgp_iol1930-c4131504",
+  "name": "MARRIS, WILLIAM SINCLAIR",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 260,
+  "person_id": "kgp_col1965-p240b4",
+  "name": "Maurice Henry Dorman",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 261,
+  "person_id": "kgp_iol1922-c3397937",
+  "name": "MCCONAGHEY, FRANK",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 262,
+  "person_id": "kgp_iol1906-c3053218",
+  "name": "MELHUISH, WILLIAM FRANCIS",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 263,
+  "person_id": "kgp_col1931-p1086b7",
+  "name": "MELVILLE, THOMAS ALEXANDER",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 264,
+  "person_id": "kgp_iol1917-c3890320",
+  "name": "MITRA, JYOTISH CHANDRA",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 265,
+  "person_id": "kgp_col1923-p889b6",
+  "name": "MURRAY, CHARLES",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 266,
+  "person_id": "kgp_iol1917-c3967262",
+  "name": "NEWMARCH, LINDSAY SHERWOOD",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 267,
+  "person_id": "kgp_col1932-p1013b5",
+  "name": "PEEBLES, H. W.",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 268,
+  "person_id": "kgp_iol1936-c4709957",
+  "name": "RAE, MAITLAND EASTON",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 269,
+  "person_id": "kgp_col1957-p419b12",
+  "name": "RAWLINGS, G. S.",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 270,
+  "person_id": "kgp_iol1889_supp-c1922025",
+  "name": "REEVES, HENRY NICHOLAS",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 271,
+  "person_id": "kgp_col1908-p716b17",
+  "name": "REYNOLDS, GEORGE ALEXANDER",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 272,
+  "person_id": "kgp_col1913-p772b3",
+  "name": "RICHARDS, T. H. HATTON",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 273,
+  "person_id": "kgp_col1940-p937b21",
+  "name": "Ronald Garvey",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 274,
+  "person_id": "kgp_col1940-p1037b13",
+  "name": "ROSS, EDWARD ANDREW",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 275,
+  "person_id": "kgp_col1877-p411b4",
+  "name": "RUSHWORTH, EDW. EVERARD",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 276,
+  "person_id": "kgp_iol1931-c4867923",
+  "name": "RUSSELL, (CHARLES) LENNOX",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 277,
+  "person_id": "kgp_col1908-p722b7",
+  "name": "SADLER, JAMES HAYES",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 278,
+  "person_id": "kgp_col1912-p767b18",
+  "name": "SCHOOLES, HENRY RAWLINS PIPON",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 279,
+  "person_id": "kgp_col1883-p442b10",
+  "name": "SHEPSTONE, THEOPHILUS",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 280,
+  "person_id": "kgp_col1921-p930b19",
+  "name": "SHERWOOD, MONTAGUE EARLE",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 281,
+  "person_id": "kgp_iol1926-c4097209",
+  "name": "SMITH, FRANK ADDINSELL",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 282,
+  "person_id": "kgp_iol1895_supp-c2472344",
+  "name": "STACE, EDWARD VINCENT",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 283,
+  "person_id": "kgp_iol1940-c3202888",
+  "name": "STEWART, ANDREW CHARLES",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 284,
+  "person_id": "kgp_col1939-p1110b17",
+  "name": "STOCKDALE, FRANK ARTHUR",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 285,
+  "person_id": "kgp_col1939-p1111b16",
+  "name": "STREAK, M. J.",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 286,
+  "person_id": "kgp_iol1930-c4910341",
+  "name": "STRONG, HENRY STUART",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 287,
+  "person_id": "kgp_iol1905-c3352131",
+  "name": "TEMPLE, HENRY MARTINDALE",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 288,
+  "person_id": "kgp_iol1898-c2861983",
+  "name": "TEMPLE, RICHARD, Bart.",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 289,
+  "person_id": "kgp_col1950-p620b12",
+  "name": "THACKER, RANSLEY SAMUEL",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 290,
+  "person_id": "kgp_iol1895_supp-c2578953",
+  "name": "TREVOR, SALUSBY THOMAS",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 291,
+  "person_id": "kgp_iol1920-c4380503",
+  "name": "TUCKER, ALEXANDER LAUZUN PENDOCK",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 292,
+  "person_id": "kgp_iol1917-c4455869",
+  "name": "TUCKER, TUDOR HENRY ST. GEORGE",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 293,
+  "person_id": "kgp_col1929-p1077b4",
+  "name": "WALCOTT, HENRY BARCLAY",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 294,
+  "person_id": "kgp_iol1893_supp-c2471935",
+  "name": "WATSON, JOHN",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 295,
+  "person_id": "kgp_col1932-p1069b18",
+  "name": "WELSH, WILLIAM THOMSON",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 296,
+  "person_id": "kgp_col1948-p480b7",
+  "name": "Wilfrid Edward Francis Jackson",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 297,
+  "person_id": "kgp_iol1947-c2345846",
+  "name": "WILLIAMS, ARTHUR DU COETLOGAN",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 298,
+  "person_id": "kgp_col1931-p1168b15",
+  "name": "WILSON, CHARLES",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 299,
+  "person_id": "kgp_iol1940-c3500442",
+  "name": "WINGATE, RONALD EVELYN LESLIE",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 300,
+  "person_id": "kgp_iol1938-c3477211",
+  "name": "WORGAN, TREVOR HARTLAND",
+  "moves_before": 8,
+  "corpus": "iol"
+ },
+ {
+  "rank": 301,
+  "person_id": "kgp_col1931-p1173b9",
+  "name": "YOUNG, ALFRED KARNEY",
+  "moves_before": 8,
+  "corpus": "kg"
+ },
+ {
+  "rank": 302,
+  "person_id": "kgp_iol1900-c1801295",
+  "name": "ABBOTT, HENRY BYAM",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 303,
+  "person_id": "kgp_iol1914-c2529627",
+  "name": "ABUD, HENRY MALLABY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 304,
+  "person_id": "kgp_iol1947-c646693",
+  "name": "ACHESON, JAMES GLASGOW",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 305,
+  "person_id": "kgp_iol1936-c2695147",
+  "name": "ADIE, WALTER SIBBALD",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 306,
+  "person_id": "kgp_col1937-p844b3",
+  "name": "AHEARNE, CHRISTOPHER DOMINIC",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 307,
+  "person_id": "kgp_iol1947-c667826",
+  "name": "ALBAN, REGINALD GEORGE EVELIN WILLIAM",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 308,
+  "person_id": "kgp_col1948-p486b11",
+  "name": "Alec Kirkbride",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 309,
+  "person_id": "kgp_col1925-p806b2",
+  "name": "ALEXANDER, GILCHRIST GIBB",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 310,
+  "person_id": "kgp_iol1947-c705510",
+  "name": "AUCHINLECK, CLAUDE JOHN EYRE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 311,
+  "person_id": "kgp_col1931-p950b17",
+  "name": "AUCHINLECK, GILBERT GRAHAME",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 312,
+  "person_id": "kgp_iol1889_supp-c958564",
+  "name": "BALFOUR, EDWARD GREEN",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 313,
+  "person_id": "kgp_col1956-p282b20",
+  "name": "BAND, R. W. I.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 314,
+  "person_id": "kgp_iol1947-c733486",
+  "name": "BANERJEE, BAMA CHARAN",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 315,
+  "person_id": "kgp_col1894-p444b9",
+  "name": "BAYNES, EDWIN D. L.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 316,
+  "person_id": "kgp_col1878-p363b6",
+  "name": "BAYNES, EDWIN DONALD",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 317,
+  "person_id": "kgp_iol1939-c1182839",
+  "name": "BAZALGETTE, REGINALD LOUIS",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 318,
+  "person_id": "kgp_col1925-p815b3",
+  "name": "BEATTY, DAVID",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 319,
+  "person_id": "kgp_col1940-p884b13",
+  "name": "Bernard Henry Bourdillon",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 320,
+  "person_id": "kgp_col1931-p959b19",
+  "name": "BIDEN, ARTHUR GERALD",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 321,
+  "person_id": "kgp_iol1919-c2962987",
+  "name": "BILL, JOHN HUGO HEPBURN",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 322,
+  "person_id": "kgp_iol1934-c2826838",
+  "name": "BLOOD, BINDON",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 323,
+  "person_id": "kgp_iol1892_supp-c1129064",
+  "name": "BONUS, JOSEPH",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 324,
+  "person_id": "kgp_col1950-p464b22",
+  "name": "BOYCE, Edward Audley",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 325,
+  "person_id": "kgp_col1925-p827b14",
+  "name": "BROCKMAN, EDWD. LEWIS",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 326,
+  "person_id": "kgp_col1900-p525b5",
+  "name": "BROWNE, GERALD",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 327,
+  "person_id": "kgp_iol1904-c2220202",
+  "name": "BRUCE, RICHARD ISAAC",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 328,
+  "person_id": "kgp_col1919-p730b12",
+  "name": "CAMACHO, MARTIN J.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 329,
+  "person_id": "kgp_iol1939-c1392807",
+  "name": "CATER, ALEXANDER NORMAN LEY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 330,
+  "person_id": "kgp_col1931-p982b10",
+  "name": "Cecil Clementi",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 331,
+  "person_id": "kgp_col1888-p452b7",
+  "name": "CHALMERS, W. B.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 332,
+  "person_id": "kgp_col1914-p747b20",
+  "name": "Charles King-Harman",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 333,
+  "person_id": "kgp_col1940-p907b14",
+  "name": "CORRY, WILFRED CHARLES STEUART",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 334,
+  "person_id": "kgp_col1923-p787b15",
+  "name": "CORYNDON, ROBT. THORNE",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 335,
+  "person_id": "kgp_iol1895_supp-c1400810",
+  "name": "CRAWLEY, CHARLES EDWARD",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 336,
+  "person_id": "kgp_iol1908-c2582887",
+  "name": "CROMER, EVELYN BARING",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 337,
+  "person_id": "kgp_iol1935-c3373568",
+  "name": "CROSTHWAITE, CHARLES GILBERT",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 338,
+  "person_id": "kgp_col1939-p970b17",
+  "name": "DASH, JOHN SYDNEY",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 339,
+  "person_id": "kgp_col1961-p319b7",
+  "name": "DAVIES, EDWARD JOHN",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 340,
+  "person_id": "kgp_col1928-p1029b4",
+  "name": "DAVIS, STEUART SPENCER",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 341,
+  "person_id": "kgp_iol1937-c3407091",
+  "name": "DENNING, HOWARD",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 342,
+  "person_id": "kgp_col1936-p854b19",
+  "name": "Donald Charles Cameron",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 343,
+  "person_id": "kgp_col1939-p1026b9",
+  "name": "Douglas James Jardine",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 344,
+  "person_id": "kgp_col1878-p401b2",
+  "name": "DRUMMOND",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 345,
+  "person_id": "kgp_col1886-p453b5",
+  "name": "Dudley Hervey",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 346,
+  "person_id": "kgp_col1951-p531b4",
+  "name": "DUTTON, ERIC ALDHELM TORLOGH",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 347,
+  "person_id": "kgp_col1913-p675b17",
+  "name": "DYER, THOS. THEODORE RODNEY",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 348,
+  "person_id": "kgp_iol1894_supp-c1450561",
+  "name": "EUAN-SMITH, CHARLES BEAN",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 349,
+  "person_id": "kgp_iol1945-c1090916",
+  "name": "EVANS-GORDON, KENMURE ALICK GARTH EVANS",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 350,
+  "person_id": "kgp_col1927-p911b9",
+  "name": "FARRER, ROLAND J.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 351,
+  "person_id": "kgp_col1897-p489b3",
+  "name": "FFERIN, AND AVA, 1st MARQUIS of",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 352,
+  "person_id": "kgp_col1921-p818b19",
+  "name": "FIRMSTONE, HAROLD WILLIAM",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 353,
+  "person_id": "kgp_col1919-p764b19",
+  "name": "FISHER, SIDNEY ARTHUR",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 354,
+  "person_id": "kgp_iol1935-c3608269",
+  "name": "FITZPATRICK, JAMES ALEXANDER OSSORY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 355,
+  "person_id": "kgp_col1957-p338b11",
+  "name": "FLEMMICH, C. O.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 356,
+  "person_id": "kgp_iol1889_supp-c1321629",
+  "name": "FORBES, JOHN GREENLAW",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 357,
+  "person_id": "kgp_iol1909-c2860535",
+  "name": "FORBES, JOHN GREENLAW",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 358,
+  "person_id": "kgp_dol1935-p918b17",
+  "name": "Francis Humphrys",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 359,
+  "person_id": "kgp_col1933-p968b5",
+  "name": "Francis James Newton",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 360,
+  "person_id": "kgp_col1940-p935b18",
+  "name": "FRETZ, WILMOT THEODORE STUART",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 361,
+  "person_id": "kgp_col1951-p542b17",
+  "name": "FURSE, Ralph Dollignon",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 362,
+  "person_id": "kgp_col1966-p240b23",
+  "name": "GARRATT, O. V.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 363,
+  "person_id": "kgp_col1948-p544b16",
+  "name": "George Beresford-Stooke",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 364,
+  "person_id": "kgp_col1939-p995b21",
+  "name": "GIBSON, LESLIE BERTRAM",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 365,
+  "person_id": "kgp_iol1925-c3080248",
+  "name": "GODREZJI, DORABJI PUDUMJI",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 366,
+  "person_id": "kgp_iol1892_supp-c1508006",
+  "name": "GORDON, LEWIS",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 367,
+  "person_id": "kgp_col1920-p827b9",
+  "name": "GORDON, WILLIAM MONTGOMERIE",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 368,
+  "person_id": "kgp_iol1931-c3680044",
+  "name": "GOUGH, HUGH AUGUSTUS KEPPEL",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 369,
+  "person_id": "kgp_col1900-p553b20",
+  "name": "GREENE, CONYNGHAM",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 370,
+  "person_id": "kgp_col1914-p722b6",
+  "name": "GRIFFITH, FRANCIS W.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 371,
+  "person_id": "kgp_col1921-p837b11",
+  "name": "HALL, GILBERT AMOS",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 372,
+  "person_id": "kgp_iol1947-c1285814",
+  "name": "HARVEY, CECIL WALTER LEWERY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 373,
+  "person_id": "kgp_col1894-p489b16",
+  "name": "HAYTER, HENRY HEYLYN",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 374,
+  "person_id": "kgp_col1897-p540b4",
+  "name": "Henry Wylie Norman",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 375,
+  "person_id": "kgp_col1957-p320b18",
+  "name": "Herbert Charles Fahie Cox",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 376,
+  "person_id": "kgp_col1909-p734b3",
+  "name": "HOOD, SAMUEL JAMES",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 377,
+  "person_id": "kgp_iol1894_supp-c1698612",
+  "name": "HOSKING, EDWARD",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 378,
+  "person_id": "kgp_iol1945-c1328641",
+  "name": "HOWES, JOHN BARON",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 379,
+  "person_id": "kgp_col1963-p316b9",
+  "name": "Hugh Foot, Baron Caradon",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 380,
+  "person_id": "kgp_iol1920-c3406399",
+  "name": "HYDE-CATES, GEORGE EDWARD HYDE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 381,
+  "person_id": "kgp_col1962-p367b14",
+  "name": "HYNE, Ragnar",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 382,
+  "person_id": "kgp_col1949-p491b13",
+  "name": "JACK, Murray Munro",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 383,
+  "person_id": "kgp_col1936-p926b13",
+  "name": "JACKSON, FRANCIS WALTER FITTON",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 384,
+  "person_id": "kgp_col1877-p424b5",
+  "name": "James Walker",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 385,
+  "person_id": "kgp_iol1917-c3589005",
+  "name": "JENNINGS, ROBERT HENRY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 386,
+  "person_id": "kgp_col1966-p313b13",
+  "name": "John Montague Stow",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 387,
+  "person_id": "kgp_col1921-p859b10",
+  "name": "JONES, WM. HENRY HYNDMAN",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 388,
+  "person_id": "kgp_iol1886_supp-c547633",
+  "name": "KENNEDY, MICHAEL KAVANAGH",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 389,
+  "person_id": "kgp_col1927-p958b17",
+  "name": "KEYTE, CHARLES ROBERT",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 390,
+  "person_id": "kgp_iol1937-c4122543",
+  "name": "KNOX, STUART GEORGE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 391,
+  "person_id": "kgp_iol1889_supp-c1591389",
+  "name": "LAMBERT, PARRY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 392,
+  "person_id": "kgp_col1880-p395b3",
+  "name": "LANYON, W. OWEN",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 393,
+  "person_id": "kgp_iol1940-c2285662",
+  "name": "LATIMER, COURTENAY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 394,
+  "person_id": "kgp_col1939-p1043b11",
+  "name": "LAVILLE, LOUIS VICTOR JOSEPH",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 395,
+  "person_id": "kgp_col1940-p982b14",
+  "name": "LAW, CHARLES EWAN",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 396,
+  "person_id": "kgp_iol1911-c3286718",
+  "name": "LORIMER, JOHN GORDON",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 397,
+  "person_id": "kgp_col1931-p1072b12",
+  "name": "LORNIE, JAMES",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 398,
+  "person_id": "kgp_col1867-p245b25",
+  "name": "M'SWINEY, JOHN",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 399,
+  "person_id": "kgp_col1948-p500b5",
+  "name": "MacLENNAN, Norman Macpherson",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 400,
+  "person_id": "kgp_col1928-p1115b6",
+  "name": "MAGENNIS, WILLIAM BABINGTON",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 401,
+  "person_id": "kgp_col1928-p1116b15",
+  "name": "MARRIOTT, HAYES",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 402,
+  "person_id": "kgp_iol1889_supp-c1704722",
+  "name": "MARTINDALE, ARTHUR HENRY TEMPLE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 403,
+  "person_id": "kgp_iol1886_supp-c657145",
+  "name": "MAYNE, JASPER OTWAY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 404,
+  "person_id": "kgp_col1931-p1075b13",
+  "name": "MC CLINTOCK, SAMUEL ALEXANDER",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 405,
+  "person_id": "kgp_col1931-p1077b8",
+  "name": "McFALL, JOHN LYND",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 406,
+  "person_id": "kgp_col1965-p293b21",
+  "name": "McKISACK, Audley",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 407,
+  "person_id": "kgp_col1886-p470b14",
+  "name": "MCNAIR, J. F. A.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 408,
+  "person_id": "kgp_iol1889_supp-c1725090",
+  "name": "MCNEILE, JOHN MAGEE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 409,
+  "person_id": "kgp_col1957-p393b12",
+  "name": "McVILLY, R. B.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 410,
+  "person_id": "kgp_iol1925-c3595079",
+  "name": "MEREWETHER, JOHN WALTER BERESFORD",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 411,
+  "person_id": "kgp_iol1889_supp-c1738107",
+  "name": "MERRIMAN, CHARLES JAMES",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 412,
+  "person_id": "kgp_iol1947-c1653157",
+  "name": "METCALFE, ROY DOUGLAS",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 413,
+  "person_id": "kgp_iol1889_supp-c1741159",
+  "name": "MICHAEL, JAMES",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 414,
+  "person_id": "kgp_col1931-p1087b11",
+  "name": "MICHELIN, WILLIAM PLUNKETT",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 415,
+  "person_id": "kgp_iol1889_supp-c1743859",
+  "name": "MILES, SAMUEL BARRETT",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 416,
+  "person_id": "kgp_iol1931-c4407761",
+  "name": "MILNE, JOHN STUART",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 417,
+  "person_id": "kgp_col1950-p570b9",
+  "name": "MILSUM, JOHN NOEL",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 418,
+  "person_id": "kgp_iol1894_supp-c2004952",
+  "name": "MOCKLER, EDWARD",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 419,
+  "person_id": "kgp_iol1938-c2541477",
+  "name": "MOSSE, ARTHUR HENRY EYRE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 420,
+  "person_id": "kgp_iol1906-c3109412",
+  "name": "MULES, Horace Charles",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 421,
+  "person_id": "kgp_col1878-p416b10",
+  "name": "MUNDY, ROBERT MILLER",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 422,
+  "person_id": "kgp_col1909-p769b9",
+  "name": "MUSGRAVE, ANTHONY, junior",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 423,
+  "person_id": "kgp_iol1894_supp-c2046133",
+  "name": "NAPIER AND ETRICK, FRANCIS NAPIER",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 424,
+  "person_id": "kgp_iol1892_supp-c1966640",
+  "name": "NAPIER AND ETTICK, FRANCIS",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 425,
+  "person_id": "kgp_iol1898-c2580701",
+  "name": "NAPIER, AND TRICK (BARON) , RIGHT FRANCIS",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 426,
+  "person_id": "kgp_iol1895_supp-c2149816",
+  "name": "NAPIER, FRANCIS",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 427,
+  "person_id": "kgp_col1933-p967b12",
+  "name": "NETTLETON, SYDNEY CHARLES KING FARLOW",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 428,
+  "person_id": "kgp_iol1927-c4134238",
+  "name": "NEWMARCH, ALEXANDER",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 429,
+  "person_id": "kgp_col1929-p1015b15",
+  "name": "NICHOLSON, REGINALD",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 430,
+  "person_id": "kgp_col1883-p425b20",
+  "name": "NIND, PHILIP HENRY",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 431,
+  "person_id": "kgp_col1923-p894b6",
+  "name": "NUNN, BERNARD",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 432,
+  "person_id": "kgp_col1939-p1072b19",
+  "name": "ONRAET, RENÉ HENRY DE SOLMINIHAC",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 433,
+  "person_id": "kgp_col1966-p288b14",
+  "name": "OWEN, P. G.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 434,
+  "person_id": "kgp_iol1947-c1843391",
+  "name": "PILLAI, N. RAGHAVAN",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 435,
+  "person_id": "kgp_col1948-p521b8",
+  "name": "POLLARD, ARNOLD",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 436,
+  "person_id": "kgp_iol1934-c4598696",
+  "name": "PRIDEAUX, FRANCIS BEVILLE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 437,
+  "person_id": "kgp_col1940-p1028b2",
+  "name": "PURCELL, VICTOR WILLIAM WILLIAMS SAUNDERS",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 438,
+  "person_id": "kgp_col1953-p307b14",
+  "name": "RAE, Alexander Montgomery Wilson",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 439,
+  "person_id": "kgp_col1939-p1084b18",
+  "name": "RAE, JAMES STANLEY",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 440,
+  "person_id": "kgp_iol1936-c4746223",
+  "name": "RAMSAY, ARTHUR DENNYS GILBERT",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 441,
+  "person_id": "kgp_col1919-p898b10",
+  "name": "Richard James Wilkinson",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 442,
+  "person_id": "kgp_col1939-p1089b17",
+  "name": "RIGBY, WILLIAM EDWARD",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 443,
+  "person_id": "kgp_iol1930-c4606092",
+  "name": "RIVAZ, CECIL ARTHUR GLENCAIRN",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 444,
+  "person_id": "kgp_col1920-p767b16",
+  "name": "Robert Norman Bland",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 445,
+  "person_id": "kgp_iol1889_supp-c1946368",
+  "name": "ROBERTS, ARTHUR WILLIAM",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 446,
+  "person_id": "kgp_iol1945-c1980581",
+  "name": "RUSHTON, HUGH DARRELL",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 447,
+  "person_id": "kgp_iol1894_supp-c2271040",
+  "name": "SALMON, WILLIAM ARTHUR",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 448,
+  "person_id": "kgp_iol1934-c4801434",
+  "name": "SAMS, HUBERT ARTHUR",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 449,
+  "person_id": "kgp_col1888-p534b13",
+  "name": "Samuel Rowe",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 450,
+  "person_id": "kgp_iol1893_supp-c2238879",
+  "name": "SANDEMAN, JOHN EDWARD",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 451,
+  "person_id": "kgp_col1931-p1125b3",
+  "name": "SAVAGE, GEORGE",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 452,
+  "person_id": "kgp_col1928-p1167b11",
+  "name": "SCOTT, RALPH",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 453,
+  "person_id": "kgp_iol1928-c4537738",
+  "name": "SCOTT-MONCRIEFF, WILLIAM ELMSBY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 454,
+  "person_id": "kgp_iol1916-c4211592",
+  "name": "SEDDON, CHARLES NORMAN",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 455,
+  "person_id": "kgp_col1928-p1168b19",
+  "name": "SELLS, H. C.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 456,
+  "person_id": "kgp_col1915-p807b18",
+  "name": "SHERIFF, PERCY MUSGRAVE CRESSWELL",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 457,
+  "person_id": "kgp_col1953-p247b10",
+  "name": "Sidney Abrahams",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 458,
+  "person_id": "kgp_col1933-p999b13",
+  "name": "SKINNER, ARTHUR DONALD WILLIAM",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 459,
+  "person_id": "kgp_col1912-p772b13",
+  "name": "SKIRVING, JOHN MACKENZIE",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 460,
+  "person_id": "kgp_col1923-p927b6",
+  "name": "SMALLWOOD, HENRY ARMSTRONG",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 461,
+  "person_id": "kgp_iol1925-c4030370",
+  "name": "SPENCE, PHILIP TREVOR AUGUSTINE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 462,
+  "person_id": "kgp_iol1922-c2344362",
+  "name": "SRINIVASA, R. SRINIVASA",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 463,
+  "person_id": "kgp_iol1947-c2001065",
+  "name": "ST. JOHN, OLIVER CHARLES BEAUCHAMP",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 464,
+  "person_id": "kgp_iol1933-c4868746",
+  "name": "STAIG, BERTIE MUNRO",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 465,
+  "person_id": "kgp_iol1932-c4938406",
+  "name": "STANDEN, BERTRAM PRIOR",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 466,
+  "person_id": "kgp_col1963-p435b26",
+  "name": "STEVENSON, Lawrence Thorne",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 467,
+  "person_id": "kgp_col1883-p446b19",
+  "name": "STRAHAN, GEO. C.",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 468,
+  "person_id": "kgp_col1910-p772b23",
+  "name": "STUART, JAMES",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 469,
+  "person_id": "kgp_col1940-p1058b18",
+  "name": "SWINBOURNE, CHARLES AUGUSTUS",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 470,
+  "person_id": "kgp_col1948-p549b19",
+  "name": "THOMAS, Thomas Shenton Whitelegge",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 471,
+  "person_id": "kgp_col1953-p319b17",
+  "name": "TODD, CHARLES DOUGLAS",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 472,
+  "person_id": "kgp_col1888-p549b16",
+  "name": "TODD, JOHN SPENCER BRYDGES",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 473,
+  "person_id": "kgp_iol1947-c2236172",
+  "name": "TOMKINS, WILLIAM DOUGLAS",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 474,
+  "person_id": "kgp_col1897-p571b6",
+  "name": "TROTTER, HENRY",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 475,
+  "person_id": "kgp_iol1894_supp-c2458552",
+  "name": "TUPP, ALFRED COTTERELL",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 476,
+  "person_id": "kgp_col1878-p442b4",
+  "name": "TWEED, ARTHUR",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 477,
+  "person_id": "kgp_col1940-p1069b10",
+  "name": "VERITY, JOHN",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 478,
+  "person_id": "kgp_iol1894_supp-c2502744",
+  "name": "WARD, WILLIAM ERSKINE",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 479,
+  "person_id": "kgp_col1920-p950b9",
+  "name": "WATKINS, FREDERICK HENRY",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 480,
+  "person_id": "kgp_col1914-p835b4",
+  "name": "WHYHAM, WILLIAM HENRY",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 481,
+  "person_id": "kgp_col1925-p1017b4",
+  "name": "WIGLEY, WILFRID MURRAY",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 482,
+  "person_id": "kgp_col1964-p284b20",
+  "name": "William Allmond Codrington Goode",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 483,
+  "person_id": "kgp_col1924-p995b4",
+  "name": "WOLFERSTAN, LITTLETON EDWARD PIPE",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 484,
+  "person_id": "kgp_dol1935-p1031b7",
+  "name": "WORLEDGE, JOHN LEONARD",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 485,
+  "person_id": "kgp_col1956-p417b13",
+  "name": "WORLEY, NEWNHAM ARTHUR",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 486,
+  "person_id": "kgp_col1894-p562b8",
+  "name": "WRENFORDSLEY, HENRY THOMAS",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 487,
+  "person_id": "kgp_col1883-p461b17",
+  "name": "YOUNG, WILLIAM ALEXANDER GEORGE",
+  "moves_before": 7,
+  "corpus": "kg"
+ },
+ {
+  "rank": 488,
+  "person_id": "kgp_iol1926-c4419524",
+  "name": "YULE, ROBERT ABERCROMBY",
+  "moves_before": 7,
+  "corpus": "iol"
+ },
+ {
+  "rank": 489,
+  "person_id": "kgp_col1964-p216b19",
+  "name": "ADDI, M.",
+  "moves_before": 6,
+  "corpus": "kg"
+ },
+ {
+  "rank": 490,
+  "person_id": "kgp_col1929-p867b21",
+  "name": "ALLEN, PERCY TOTHILL",
+  "moves_before": 6,
+  "corpus": "kg"
+ },
+ {
+  "rank": 491,
+  "person_id": "kgp_col1959-p292b12",
+  "name": "ARMITAGE, Arthur Henry",
+  "moves_before": 6,
+  "corpus": "kg"
+ },
+ {
+  "rank": 492,
+  "person_id": "kgp_iol1910-c2337771",
+  "name": "ASTON, HENRY FAURE",
+  "moves_before": 6,
+  "corpus": "iol"
+ },
+ {
+  "rank": 493,
+  "person_id": "kgp_iol1912-c2442672",
+  "name": "ATKINSON, FREDERIC JAMES",
+  "moves_before": 6,
+  "corpus": "iol"
+ },
+ {
+  "rank": 494,
+  "person_id": "kgp_col1939-p928b4",
+  "name": "AUCHINLECK, MAURICE M.",
+  "moves_before": 6,
+  "corpus": "kg"
+ },
+ {
+  "rank": 495,
+  "person_id": "kgp_col1929-p872b2",
+  "name": "AUDEN, FRANCIS THOMAS",
+  "moves_before": 6,
+  "corpus": "kg"
+ },
+ {
+  "rank": 496,
+  "person_id": "kgp_iol1895_supp-c1121049",
+  "name": "BAIRD, ANDREW WILSON",
+  "moves_before": 6,
+  "corpus": "iol"
+ },
+ {
+  "rank": 497,
+  "person_id": "kgp_col1919-p708b21",
+  "name": "BALDWIN, WILLIAM FREDERICK",
+  "moves_before": 6,
+  "corpus": "kg"
+ },
+ {
+  "rank": 498,
+  "person_id": "kgp_iol1931-c2873891",
+  "name": "BANNERMAN, ARTHUR D'ARCY GORDON",
+  "moves_before": 6,
+  "corpus": "iol"
+ },
+ {
+  "rank": 499,
+  "person_id": "kgp_col1886-p405b4",
+  "name": "BARBER, CHARLES",
+  "moves_before": 6,
+  "corpus": "kg"
+ },
+ {
+  "rank": 500,
+  "person_id": "kgp_iol1947-c744119",
+  "name": "BARLOW, HENRY ARTHUR NORTHEY",
+  "moves_before": 6,
+  "corpus": "iol"
+ }
+]

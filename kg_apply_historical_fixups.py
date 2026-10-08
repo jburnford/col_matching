@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 from historical_geography import correct_event
+from reviewed_careers import NON_HELD
 
 ROOT = Path(__file__).resolve().parent
 
@@ -23,21 +24,17 @@ def main():
                     row = json.loads(line)
                     event = events.get((row.get('person_id'), row.get('seq')))
                     fixed = correct_event(event) if event else row
-                    if event and fixed != event:
-                        if name == 'role_edges' and fixed.get('event_kind') == 'electoral_defeat':
-                            changed += 1
-                            continue  # this is not a HELD_ROLE assertion
+                    if event and name == 'role_edges' and fixed.get('event_kind') in NON_HELD:
+                        changed += 1
+                        continue  # this is not a HELD_ROLE assertion
+                    if event and (fixed != event or fixed.get('historical_corrections')):
                         keys = ('place_qid', 'place_label', 'colony_qid', 'colony_label',
-                                'grounded', 'year_end', 'event_kind', 'location_note',
+                                'grounded', 'year_start', 'year_end', 'date_uncertain', 'mobility_excluded', 'event_kind', 'location_note',
                                 'historical_corrections', 'role_id', 'role_label')
                         for key in keys:
                             if key in fixed and (name != 'role_edges' or key in
-                                    ('role_id', 'role_label', 'historical_corrections')):
+                                    ('role_id', 'role_label', 'year_start', 'year_end', 'historical_corrections')):
                                 row[key] = fixed[key]
-                    # Re-running after a corrected spine must also preserve the overlay.
-                    if event and event.get('historical_corrections') and name != 'role_edges':
-                        for key in ('event_kind', 'location_note', 'historical_corrections', 'role_id', 'role_label'):
-                            if key in event: row[key] = event[key]
                     output = json.dumps(row, ensure_ascii=False) + '\n'
                     changed += output != line
                     dst.write(output)

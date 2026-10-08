@@ -1,0 +1,500 @@
+1|not_taken_up,ordering|Japan 1865 and Brussels 1870 explicitly not taken up in col 1886-p438 b25; suppress movement, retain appointment evidence. Stuttgart precedes Karlsruhe in 1862; Paris/Newfoundland precede Spain in 1884.
+2|date_conflict,representation,inheritance|Morris has duplicate Ceylon 1877/1887 starts and 1886 New Orleans inherited from 1885 exhibition; reports/representation of West Indies are not proof of presence there. Inspect early editions for date and exhibition venue.
+3|homonym,ocr,inheritance|Prince Albert is in the Cape career, not Saskatchewan. Brodsworth conflicts with Bredasdorp in col 1894-p533 b23. Central-office jobs inherit district names without source support.
+4|same_year,rollup|Jervois has genuine inspection missions but duplicates Halifax/Bermuda and broad India versus Bombay in 1871–72; multi-place lists do not establish every directed leg. Canada 1863 predates Dominion label.
+5|rollup,joint_office,inheritance|Cobb's Mysore residency and Coorg secretaryship/chief commissionership are joint posts, not repeated journeys. India/Madras alternate through pooled editions. Coorg inheritance into 1894 revenue jobs needs source check.
+6|rollup,period|Wilkinson's Rajputana and Mewar are collapsed to all-India; India/province alternation inflates travel. Preserve actual France and Nepal appointments.
+7|period|Havelock's intercolonial career is plausible; Nevis and Trinidad mapped to later composite polities, Madras labelled Company after 1858. Campaign/commission context matters for Liberia/Paris/Brussels.
+8|period,rollup|Branch's Leeward Islands use a polity ending 1816 in 1898–1909; Antigua versus regional Leewards creates artificial alternation. Penang should retain its named locality.
+9|same_year,period|Clarke combines military campaigns and civil posts; Natal/Zululand and same-year Transvaal assignments need ordering evidence. Province/colony identity changes cannot alone establish a move.
+10|rollup,joint_office|Crawford's Hyderabad/India and Mysore/Coorg alternation contains overlapping appointments and inherited places. Rajputana/Mewar should not be plotted as central India government seats.
+11|inheritance,period|Birch alternates Downing Street and Straits Settlements during 1876–80; inspect inherited location. Singapore Crown Colony before 1946 and Federated Malay States before 1895 are invalid period labels.
+12|identity|Charles F. Ford profile mixes Francis Clare's diplomatic sequence with Hong Kong, Kumasi and Gambia. Source-level person-boundary/merge investigation required before publishing as one career.
+13|not_taken_up,homonym,period|Fleming's Natal 1886 appointment explicitly not taken up; Black River 1873 is in Mauritius context, not Jamaica. Leeward polity label also anachronistic.
+14|rollup,period|Kershaw's named European missions plausible; generic India and India Office need distinct source-supported locations. Assam before 1912 and restored-province label conflict.
+15|rollup,joint_office|Martindale's Mysore/Coorg duties are joint; generic India and Rajputana locations overstate travel; preserve distinct Bhopal, Hyderabad, Ajmer and Jhalawar.
+16|identity,rollup,period|Millington has simultaneous Caribbean and Malayan district jobs plus Bermuda 1924; possible contaminated biography. Johore, Kelantan and Trengganu are wrongly pooled into Federated Malay States.
+17|same_year,rollup|Worgan's four locations in 1892 need source interpretation; simultaneous city references must not become an arbitrary tour. Later presidency changes may be genuine transfers.
+18|rollup,period|Bayley alternates Bengal/India and Bihar/India and has Assam before the restored province; Jaipore unplaced although later postings identify Jaipur context.
+19|rollup,period|Dobbs has real Persian/Afghan/Iraq postings but Indian agencies collapse to Raj. Basra 1915 cannot be Mandatory Iraq in that year.
+20|period,rollup|Cameron's Leeward/Windward versus island assignments inflate travel; Ottawa mapped to Ontario's seat rather than the named city.
+21|period,rollup|Hutson's Caribbean/Pacific sequence plausible, but Windward/Leeward regional representation needs source check; Melbourne 1909 uses defunct Victoria Colony.
+22|rollup,period|Gould's Gyantse in Tibet is mapped through China, and Waziristan through all-India; preserve named places. Indian provinces, Kashmiri and Afghan postings otherwise plausible.
+23|identity,source_check|Robinson/Rosmead has anomalous Ireland 1852, Straits 1863/1868, Mauritius 1886 and New Zealand 1877/1879 variants. Check source membership against gubernatorial chronology.
+24|period,rollup|Keet's forestry visits are real source event types, but Cape/Natal/Transvaal colonies persist after Union and place/parent changes inflate route. Distinguish travel from enduring appointment.
+25|identity,period|William Robinson profile needs separation from similarly named governors: Hong Kong 1855 among St Kitts/PEI/Australian service is suspicious. Regional/period labels also need repair.
+26|rollup,period|Charles Wodehouse's Secunderabad, Kathiawar and Rewa Kantha collapse to all-India; same-year state and region references should not create extra legs.
+27|inheritance,period|Hollis repeatedly alternates EAP and German East Africa between appointments; inspect inherited German EA. German EA is wrongly mapped to later Tanganyika Territory; Jubaland uses later Kenya.
+28|period,rollup,same_year|Broers' South African district career remains local; named cities replace changing Cape/Natal/Union capital proxies. Multiple 1900–02 duties require chronology rather than alphabetic sequencing.
+29|inheritance,rollup|Colvin alternates Bengal and Rajputana/Baluchistan through overlapping dates; inspect generic presidency inheritance across political appointments.
+30|identity,inheritance|Davidson's Cape assignments recur through Ashanti, Caribbean and Canadian service; inspect merged sources/person identities and inherited Cape locations before accepting itineraries.
+31|rollup|Gabriel's Delhi 1906 is mapped to Calcutta via Raj; Chilas and Mewar likewise need named locality retained. Multiple 1928 Rajputana roles may be concurrent.
+32|rollup,same_year|Hamilton has five regional references in 1879 and conflicting 1882 roles; source ordering/concurrent service requires checking. Calcutta should retain named point.
+33|period,inheritance|Hare's Bengal and Assam before 1905 is wrongly a later combined province; repeated inherited combined region conflicts with explicit Purneah/Patna/Dacca appointments.
+34|rollup,same_year|Keyes' diplomatic/frontier service plausible; generic India/Punjab entries beside specific Persian/Baluchistan postings need source-level location distinction.
+35|rollup,period,same_year|Le Messurier's explicit Delhi, Agra and Calcutta must not shift with imperial capital choice. Sind before 1936 needs historical jurisdiction; joint Mysore/Coorg assignments not automatic moves.
+36|rollup,inheritance|Lothian alternates Bengal and Bundelkhand, then regional Rajputana/India references against explicit states; source ambiguity in a combined 1937 appointment needs preservation.
+37|period,rollup|Macdougall's New York 1853 is wrongly a colonial entity; Charlottetown is plotted through Canada rather than PEI. Upper Canada/Ontario/Canada changes mix legal forms and geography.
+38|alias,rollup|Prideaux's Jeypore and Jaipur at identical years resolve differently and create false regional alternation; retain one Jaipur state/city interpretation from political-service context.
+39|rollup,same_year|Pritchard's political-agent sequence is plausible, but Bundelkhand/Mewar map to the imperial seat and Haraoti/Tonk is a joint jurisdiction. Review 1902 and 1906 ordering.
+40|source_check,same_year|Ramage's late multi territory sequence may be inspection missions rather than successive jobs; check 1951–55 roles. Earlier Malta/Gold Coast 1939 overlap needs source evidence.
+41|period,wrong_jurisdiction|Franklyn Robinson: Jasin is Malacca context, Singapore pre-1946 not separate Crown Colony, Kedah/Kelantan not Federated Malay States. Named cities should survive administrative aggregation.
+42|period,rollup,joint_office|Wylie has NW Frontier before 1901 and Baluchistan before agency creation; Mysore/Coorg is a joint post and Rajputana district service collapsed to India.
+43|rollup,representation|Barbour's Bengal/India oscillation may reflect central duties rather than transfers. West Indies commission must be distinguished from a posting; verify source role.
+44|period,inheritance|Bell's Caribbean jurisdictions and post-1946 Malaya need period entities; multiple island appointments in 1931/1935 require ordering evidence.
+45|period,rollup|Brink's Vryburg changes to Union coordinate after 1910 without a move; Pretoria and Pietermaritzburg use dissolved colonies. Named places should remain stable.
+46|period,rollup|Chenevix-Trench: Basra 1891 is not Mandatory Iraq; Leh maps to central India rather than the named town. Persian and frontier sequence otherwise geographically plausible.
+47|rollup,same_year|Dreyer's district transfers are plausible within Cape; some towns map to Cape Town while others retain local points. Group same-year concurrent/acting duties before drawing routes.
+48|inheritance,rollup|Edmund Gabriel repeatedly alternates India Office and Central India/India in 1902–05; examine pooled editions and inherited locations. Delhi 1910 must retain its city point.
+49|period,joint_office|Jackson has Caribbean and Pacific postings; Fiji and Western Pacific represent overlapping responsibilities. Trinidad and Leeward labels use later or wrong-period entities.
+50|rollup|Hutchinson's frontier/state career is plausible; Rajputana, Malwa and Central India are not the imperial capital. Preserve district locations instead of province-seat substitutions.
+51|rollup|Latifi's Karnal/Ambala/Delhi and Punjab are one regional career, with distinct European conference visits. Current all-India/province aggregation creates artificial movement.
+52|identity,inheritance|Mc Donnell's repeated Gambia/Sierra Leone oscillations and later Sudan/Egypt/Tanganyika/Palestine require source identity checks; geographic sequence may combine offices/people.
+53|same_year,source_check|Napier's multi-presidency career has concurrent-looking 1913/1916/1918/1925 entries. Determine whether finance/inspection service lists jurisdictions rather than successive residence.
+54|period,rollup|Reynolds: Sind 1863 predates province separation, Gwadar 1886 is not British Baluchistan, Jacobabad uses all-India. Preserve named locations and historical jurisdiction limits.
+55|rollup,same_year|Roberts' Nasirabad, Jacobabad and Mount Abu collapse to India; 1881 and 1888 multisite references need source order. Political-agent context supports Alwar and Kota.
+56|joint_office,rollup|Donald Robertson's Mysore/Coorg assignments are concurrent; regional aliases of Nasirabad and Bhopawar should not create separate movements. India Office 1911 needs role interpretation.
+57|identity,period|Rowe mixes military and medical service with interleaved Singapore/Penang and Gold Coast/Sierra Leone; inspect source identities and duplicates. Singapore period entity is wrong.
+58|period,representation|Selwyn-Clarke has health missions/conferences and named cities; Johannesburg 1935 cannot use Transvaal Colony. Generic Gold Coast references around missions do not prove returns.
+59|rollup,period|Menon's India/Zhob and China/India entries may be pooled broad and specific descriptions; retain diplomatic China evidence and remove false parent/locality journeys.
+60|rollup,period|Daniel Smith's Gyantse and Indian agency towns use modern-country/imperial-capital proxies. Persian postings and state posts otherwise plausible; inspect concurrent entries.
+61|period,representation|Spencer's Canada/West Indies and European conference travel is mixed with Malaya jobs; Malaya after 1946 cannot be Federated Malay States. Representation of a region is not presence there.
+62|period,rollup|Theiler's pre-1902 Transvaal Colony labels and post-1910 colony labels are invalid; named cities and conferences provide more precise points. Review Rhodesia legal form by date.
+63|period,wrong_jurisdiction|Egerton's Singapore/Straits alternation and pre-federation Sungei Ujong/Pahang mappings inflate travel; preserve settlements and correct federation chronology.
+64|period,representation|Wellington's medical missions/conferences produce genuine foreign travel but Singapore and Melbourne entities are anachronistic; Delhi 1927 duplicate broad India record should not add a move.
+65|inheritance,period|Young repeatedly returns to generic British Guiana alongside Trinidad/Gold Coast missions; inspect inherited place. Caribbean and Falkland appointments need correct period labels.
+66|joint_office,period|Mac Gregor's Fiji/Western Pacific duties overlap; Tonga 1879 predates protectorate. Hobart mission and later New Guinea/Lagos/Newfoundland/Queensland sequence plausible.
+67|rollup,period|Bailey's Gyantse/Chumbi wrongly pass through China; named Tibetan locations must remain. Sikkim and political-service state changes plausible; no automatic India-capital substitute.
+68|joint_office,period|Baynes' repeated Antigua/Montserrat duties may be joint/acting assignments. Leeward polity ending 1816 is wrong for 1908–27; inspect England retirement-related events.
+69|same_year,representation|Biggs lists many provinces at the same dates (1868, 1874); likely service scope/department jurisdiction rather than a fully ordered sequence. Need raw source role check.
+70|rollup,same_year|Biscoe's frontier and Persian service plausible; regional India/Central India/Rajputana entries have weaker location precision than explicit Bandar Abbas/Khorasan.
+71|same_year,period|Bradshaw's batches of district names in 1890/1898 are a career range, not necessarily same-year sequential moves. Later South African city postings use dissolved colonies.
+72|declined,rollup,period|Tupper declined a cabinet seat in 1867; retain negation as non-held appointment. Charlottetown maps incorrectly to Canada/Ottawa; early provincial labels need date care.
+73|rollup,same_year|Chatterjee's explicit Calcutta 1924/1926 must not map to Delhi. Several province changes in 1933–36 need source order and role scope checked.
+74|representation,rollup|Dawe's agricultural missions include genuine overseas work; Toronto is incorrectly generalized to Ontario's capital. Cyprus/London 1930 may be a report/leave rather than two appointments.
+75|rollup,period|Dobbie's Chumparun/Purneah and NW Provinces collapse to the imperial seat; finance-service region changes should be distinguished from source-stated transfers.
+76|rollup,period|Glasgow maps to London; Cape towns after 1910 use dissolved colony. Walfish Bay remains unresolved.
+77|date_conflict,homonym,period|1830 Straits entry conflicts with 1880; inspect source. Penom/Tenom and Dindings incorrectly use FMS; Singapore period wrong.
+78|period,representation|Northern Rhodesia 1913 predates colony; Inner Temple is training. Straits/FMS same-year roles need scope distinction.
+79|rollup,same_year|Ahwaz, Zahedan and Tehran political career plausible; Punjab/Kolhapur/NWFP 1927 requires order and local precision.
+80|wrong_jurisdiction,rollup|Singapore period and Malayan localities need correction; combined SS/FMS appropriately unresolved.
+81|period,rollup|Transvaal 1880/1881 changes government without proving movement. Preserve Cape towns.
+82|wrong_jurisdiction,period|West Africa 1921 incorrectly maps to UK. Pre-1895 Perak/Pahang cannot be FMS; Togoland campaign predates mandate.
+83|rollup,same_year|Political service in Aden and Indian states plausible; 1903 Baroda/Aden ordering unclear; Dthala unresolved.
+84|rollup,same_year|Ajmer/Central India/India alternation overstates precision; same-year agency postings require chronology.
+85|date_conflict|Six diplomatic capitals assigned 1849 appear to flatten a career range; source dates need adjudication.
+86|rollup,representation|Calcutta 1918 incorrectly maps to Delhi; finance jurisdiction is not sufficient evidence of residence.
+87|identity,joint_office|MAKINDALE appears OCR duplicate of rank 15 MARTINDALE; joint Mysore/Coorg duties are not separate journeys.
+88|inheritance,period|Belize and Leewards interleave in 1930/1932; check inherited island location. Leeward period entity wrong.
+89|period,representation|Basrah/Mesopotamia 1917 cannot be Mandatory Iraq; Middle Temple training and military campaigns need distinct event types.
+90|identity|MERON Edward J appears truncated duplicate of Edward John Cameron rank 20; source headword needs verification.
+91|period,rollup|Singapore pre-1946 label wrong; city versus Straits/FMS aggregation inflates Malayan movement.
+92|identity|Ceylon/Straits engineer and Manitoba/East Marquette politician appear combined; inspect source boundaries before accepting route.
+93|period,joint_office|NWFP before 1901 and joint Mysore/Coorg roles are misleading; retain named frontier locations.
+94|period,rollup|Sind before 1936 and Karachi mapped to Bombay need repair; Persian/Zanzibar political service plausible.
+95|period,rollup|Baghdad/Turkish Arabia 1880 incorrectly maps to Mandatory Iraq. Assigned districts and named cities lose precision.
+96|period,rollup|Assam 1902 uses restored entity; finance provinces and generic India alternate without proving travel.
+97|rollup|Kashgar 1922 wrongly maps to Beijing via China; preserve named consular towns, unresolved compound remains visible.
+98|rollup|Frontier and state sequence plausible; Gilgit unresolved and generic India/agency capital proxies overstate locality.
+99|period|Ellice Islands 1908/1914 maps to separate 1975 colony; island/combined territory alternation is not necessarily movement.
+100|period,rollup|Bassora 1890 incorrectly maps to Mandatory Iraq; Rajputana/central India should not imply imperial seat.
+101|representation,period|Agricultural conferences and joint regional duties require distinction; Leeward and Malaya entities need date checks.
+102|same_year,rollup|Multiple frontier places per year require source order; Zabol unresolved rather than guessed.
+103|alias,rollup|Meywar/Mewar unresolved or all-India despite Udaipur context; regional and local aliases inflate route.
+104|period,same_year|Baghdad 1918 predates mandate; multiple 1945 states require order; Orissa and Chhattisgarh towns unresolved.
+105|rollup,joint_office|Gyantse maps through China; Dwalior OCR resolves Gwalior. Gujarat/Baroda duties may be joint.
+106|alias,period|Mewar 1887 maps to Raj while Udaipur maps to state; Sind before 1936 and named towns need correction.
+107|rollup,representation|Intercolonial judicial sequence plausible; Inner Temple training separate; preserve Penang/Ipoh localities.
+108|period,rollup|Governorship sequence plausible; St Kitts/Dominica labels and India-style capital substitution need period precision.
+109|joint_office,same_year|Fiji/Western Pacific responsibilities overlap; annual duplicates should not make return journeys.
+110|period|Long gubernatorial sequence plausible; Leeward entity, Nevis composite polity and Trinidad label need date-aware treatment.
+111|wrong_jurisdiction,period|Kedah, Muar and Johore are not FMS; Singapore before 1946 uses later colony.
+112|joint_office,rollup|Agency/region and state names overlap; central India references must not imply a distinct imperial-seat posting.
+113|inheritance,same_year|Repeated Dominica around Montserrat/Virgin acting jobs may be inherited locations; check simultaneous duties.
+114|rollup|Plymouth maps to London; named Ceylon towns should remain distinct. Later intercolonial chain plausible.
+115|period,same_year|Togoland 1914 campaign predates mandate; London/Gold Coast/Togo 1915 lacks secure order.
+116|wrong_jurisdiction,period|Dindings wrongly FMS; Singapore pre-1946 wrong entity; several 1902 places need source chronology.
+117|rollup,same_year|Murree/Allahabad become imperial seat; same-year region/province descriptions do not establish separate movements.
+118|homonym,period|Newcastle in Western Australian career likely local Newcastle/Toodyay rather than NSW; Commonwealth before 1901 invalid.
+119|wrong_jurisdiction,date_conflict|Jerusalem 1927 maps to Israel; WWI theatres all dated 1914 flatten range. Aden legal transition not a journey; Yemen needs source check.
+120|joint_office,period|East African appellate jurisdiction may cover several territories concurrently; defunct EAP used in 1942.
+121|date_conflict,period|Gallipoli/Egypt/Palestine all dated 1914 appear collapsed wartime range; Caribbean period entities need correction.
+122|same_year|Medical intercolonial sequence plausible; St Lucia/Grenada same-year order requires source support.
+123|inheritance,source_check|British Guiana/Jamaica interleave 1936–44; distinguish agricultural missions from inherited or merged assignments.
+124|wrong_jurisdiction|Repeated West Africa maps to UK metropole, demonstrably wrong; court jurisdiction must not become London residence.
+125|representation,rollup|Provincial finance service plausible; generic India positions are weak evidence for travel to central capital.
+126|joint_office,period|Fiji/Western Pacific joint responsibilities inflate movement; Trinidad 1877 uses later combined polity.
+127|homonym,joint_office|Rewa 1918 in Fiji career incorrectly maps to Indian Rewa State. Fiji/Western Pacific roles overlap.
+128|period,joint_office|Antigua-Montserrat and Dominica-St Kitts combined roles unresolved appropriately; Leeward period label wrong.
+129|representation,source_check|Ulster/Ireland and PEI around governorship require role interpretation; titles may be mistaken for postings.
+130|wrong_jurisdiction,period|Dindings not FMS; pre-1946 Singapore entity and Transvaal legal-form labels require repair.
+131|rollup|Political-service sequence plausible; Bundelkhand/central India/Chagai lose named-location precision.
+132|rollup,same_year|Kathiawar and Mahi Kantha collapse to imperial/presidency seats; joint 1893 locations lack order.
+133|inheritance,same_year|Seychelles/Gibraltar 1925 alternation and three 1918 places require source ordering; later sequence plausible.
+134|homonym,representation|Rewa 1911 in Fiji career wrongly maps to India; Hythe/Inner Temple training differs from postings.
+135|joint_office,same_year|1874 multiple political jurisdictions and Mysore/Coorg 1886 joint duties cannot be assumed sequential journeys.
+136|joint_office,rollup|Bahrain/Persian Gulf overlap may be one posting; named consular city sequence otherwise plausible.
+137|representation,same_year|Three provinces in 1921 may be departmental scope; Calcutta 1927 incorrectly maps to Delhi.
+138|rollup|Quetta/Sibi/Kalat and frontier postings plausible; regional aggregation conceals actual towns and may add broad-local alternation.
+139|wrong_jurisdiction,period|Kedah/Jasin not FMS; Singapore pre-1946 wrong period. Stanley camp event requires detention context.
+140|same_year,rollup|Three 1872 states/places need source ordering; Poona and Kathiawar should not use imperial seat.
+141|joint_office,period|Windward/Grenada overlap may be jurisdiction not moves; Seychelles/Sierra Leone 1888 needs order.
+142|alias,rollup|Rajpipla capitalization/accent aliases duplicate same place; Delhi needs own coordinate; Europe remains regional.
+143|wrong_jurisdiction|Jerusalem 1920/1921 incorrectly maps to Israel. Wartime Mudros should retain named location.
+144|joint_office,period|Leewards versus island duties inflate moves; Accra should remain town; northern Nigeria form needs date bounds.
+145|period,representation|Sutlej 1845 maps to later Punjab Province; campaigns not all civil postings. Later governor sequence plausible.
+146|period,representation|Northern Provinces after 1914 mislabelled dissolved Northern Nigeria; Bornu/Sudan 1934 may be publication/topic rather than posting.
+147|period,joint_office|Aden Province label persists after 1937; Bahrain/Persian Gulf may denote same appointment.
+148|date_conflict,inheritance|Bhutan persists around later survey campaigns; Sherpur 1870 versus 1879 needs source dates. NWFP 1881 predates province.
+149|inheritance,same_year|Mombasa/Gold Coast 1934 and Straits/Gold Coast 1937 may be old-place inheritance; later appointments plausible.
+150|representation,joint_office|Ceylon/Hyderabad/London 1931 roles require scope/order; generic India entries alone do not prove return.
+151|wrong_jurisdiction|D.W.W.I. 1946 maps to Danish West Indies, likely Development and Welfare West Indies abbreviation; Malaya post-1946 wrong FMS.
+152|representation,rollup|Postal international conferences plausible; Washington should retain named city and Calcutta/Bengal overlap not false moves.
+153|homonym,period|Black River 1874/76/77 in Mauritius career incorrectly maps to Jamaica; Singapore pre-1946 wrong entity.
+154|identity,joint_office|Likely duplicate of Augustus Le Messurier rank 35; Mysore/Coorg joint responsibilities and named-city rollup need repair.
+155|identity,rollup|Same diplomat as rank 156; North German Confederation versus Berlin is changing jurisdiction, not necessarily move.
+156|identity,date_conflict|Duplicate Loftus rank 155; Berlin 1853/1855 discrepancy requires source date check.
+157|representation,same_year|Finance provinces/India interleave repeatedly; multiple 1884/85 entries do not give secure travel order.
+158|joint_office,period|Leeward/island alternation and St Kitts later polity inflate route; Belize/Mauritius 1905 needs order.
+159|wrong_jurisdiction,inheritance|Kedah not FMS; Straits entries recur across Brunei/Labuan appointments and may be inherited parent jurisdiction.
+160|identity|Mc Donald OJ contains Mac Gregor governor career through Queensland plus Bahamas jobs; probable adjacent-biography contamination.
+161|alias,rollup|Baghclkhand OCR maps to Raj while Baghelkhand maps agency; Rewah/state versus agency should not create journeys.
+162|joint_office,rollup|Mysore and Coorg explicitly joint; Morar/Nowgong map to imperial seat despite Gwalior context.
+163|homonym|Montserrat and St George may be Trinidad districts, not Caribbean islands/Grenada; examine wardenship source.
+164|period,same_year|Bay Islands/Honduras/Turks 1862 needs source order; Leeward and St Kitts entity periods wrong.
+165|period,rollup|Basra 1916 predates mandate; Oghi and Rajputana assigned imperial seat despite local context.
+166|rollup,period|Cape district career uses mixed town/capital points; dissolved colony label persists after 1910.
+167|period,rollup|Sind before 1936; Surat and other specific towns collapse to presidency. England visit context needed.
+168|alias,representation|Bhaunagar versus Bhavnagar resolve differently; generic India/province repeated pairs and Delhi/Simla create spurious seat changes.
+169|same_year|Intercolonial legal career plausible; Gibraltar/Straits 1873 and Columbia/Guiana 1871 require source sequence.
+170|representation,period|Finance/treasury provinces plausible scope, not always relocation; Assam restored entity used too early.
+171|joint_office,rollup|Mysore/Coorg joint; Secunderabad and Mewar map to imperial seat. Unspecified places correctly remain unresolved.
+172|wrong_jurisdiction,period|Kota Bharu, Kedah and Johore not FMS; federation/Straits/whole Malaya are not interchangeable locations.
+173|representation,rollup|Finance provinces and central India roles overlap; Madras Company label wrong after 1858.
+174|representation,rollup|Provincial finance sequence plausible but generic India inserted beside province may not be physical transfer.
+175|rollup|Darjeeling/Dinapore/Calcutta map to imperial seat; mixed Fort William specificity can create false local moves.
+176|identity,rollup|Duplicate Trevor rank175; Fort William 1860/61 and Burma 1876/78 differ between versions. Named Calcutta should remain stable.
+177|period,representation|Bihar/Orissa 1911 predates province; finance territories may be jurisdiction rather than residence.
+178|rollup,joint_office|Kashgar mapped to Beijing; Gulf/Kuwait 1934 may one post. Allahabad should remain city.
+179|rollup,representation|Delhi 1911 central-seat transition masks actual city; joint political jurisdictions not evidence of each leg.
+180|period,wrong_jurisdiction|Perak/Larut before 1895 mapped FMS; Singapore later colony. Multi-place 1865 remains unresolved.
+181|rollup,joint_office|Dir/Swat and Chitral may joint agency; specific frontier towns lost in province aggregation.
+182|ocr,rollup|Calcutta/Caccutta 1912–24 plotted at Delhi, despite explicit city and OCR aliases.
+183|period,same_year|Malaya 1951 cannot FMS; Kenya/Nyasaland 1950 and Kenya/Solomons 1962 order unestablished.
+184|alias,joint_office|Merwara/Ajmer joint and multiple 1879/1891 locations; Mewar/Meywar inconsistently resolved.
+185|representation,rollup|Finance provinces overlap; Calcutta 1919 mapped to Delhi and NW Provinces to imperial seat.
+186|period,representation|St Johns 1860 mapped modern Newfoundland/Labrador while adjacent entries use colony; conference visits need distinct roles.
+187|period,rollup|Johannesburg 1920 mapped dissolved Transvaal colony; named Cape/Bechuanaland towns use mixed precision.
+188|period,joint_office|Leeward/island responsibilities overlap; St Kitts composite and Leeward entity dates wrong.
+189|period,same_year|Tobago 1877 maps later Trinidad/Tobago; Ceylon/Honduras 1851 source order required.
+190|rollup,same_year|Malacca/Straits parent descriptions inflate route; multiple 1921/25 Malayan districts need source order.
+191|joint_office,same_year|Gulf consular circuit plausible; Bahrain/Muscat 1926 and Bahrain/Kuwait 1927 need chronology.
+192|wrong_jurisdiction,period|Johore/Kedah wrongly FMS; Nigeria 1913 uses post 1914 entity; multiple 1920 jurisdictions not an itinerary.
+193|period,joint_office|EAP persists to 1935 after 1920 end; Fiji/Western Pacific simultaneous duties.
+194|wrong_jurisdiction,source_check|Trengganu not FMS; Gold Coast/Malacca 1920 may inherited location; Labuan/Dominica 1932 needs ordering.
+195|representation,rollup|Calcutta/Bengal/India and Bombay 1874 overlap in departmental service; not evidence of repeated journeys.
+196|period,same_year|Sherbro/Natal 1849 and Antigua/Gold Coast 1866 need source order; St Kitts/Leeward entity dates wrong.
+197|alias,joint_office|Baghelkhand OCR variants inconsistent; Haraoti/Tonk joint; named Jacobabad collapsed to India.
+198|alias,joint_office|Bhagelkhand/Baghalkhand versus Baghelkhand resolves differently; Kota/Jhalawar joint jurisdiction.
+199|period,rollup|NWFP 1897 predates province; frontier/India alternating broad and local descriptions inflate routes.
+200|rollup,same_year|Aden/Gulf 1930 need order; Waziristan and Malwa not central capital, preserve locality.
+201|identity,period|Duplicate misspelling at rank202; Assam 1890 wrong restored entity; finance regions may be service scope.
+202|identity,period|BRETERON duplicate BRERETON rank201; same chronology and province issues.
+203|joint_office,rollup|Dir/Swat/Chitral joint duties and many same-year frontier towns need ordering; imperial-seat substitutes misleading.
+204|representation,same_year|Finance province changes plausible; multiple 1900 and department scope need distinction from residence.
+205|homonym,period|Belfast 1907 in Transvaal district career wrongly UK; post 1910 South African colonies invalid.
+206|joint_office,same_year|Fiji/Western Pacific/Solomons duties overlap; Fiji/Jamaica 1922 needs sequence.
+207|wrong_jurisdiction,period|Dindings/Johore wrongly FMS; Singapore pre 1946 entity wrong; parent Straits entries may not returns.
+208|period|German East Africa 1916 mapped later Tanganyika; Southern Nigeria/Provinces after 1914 maps dissolved protectorate.
+209|period,rollup|Assam 1874 uses restored entity; Allahabad not imperial capital. Department scope may inflate transfer chain.
+210|joint_office,same_year|Fiji/Tonga 1948 may overlapping commission duties; Fiji/New Hebrides 1935 needs source order.
+211|representation,rollup|Bombay with Rewa Kantha 1901 and Punjab 1905 may overlapping department jurisdiction rather than travel.
+212|representation,same_year|Bombay/Hyderabad pairs 1893/1898 and Bengal/Burma 1901 require role scope and source order.
+213|period|Nigeria 1909 predates 1914 colony; German East Africa 1917 cannot Tanganyika Territory.
+214|period,joint_office|Brunei 1879 predates protectorate; Labuan/Brunei duties may joint. Leeward entity wrong period.
+215|period,rollup|Delhi 1902/03 maps Calcutta; Union 1908 already unresolved; Cape after 1910 wrong legal form, campaign ranges need care.
+216|period,rollup|Singapore pre 1946; Penang/Kuala Lumpur 1920 order unresolved, parent/city duplicate changes inflate route.
+217|joint_office,same_year|Windward regional role overlaps island duties; St Lucia/Barbados 1946 and Guiana/Dominica 1948 need order.
+218|inheritance,same_year|Gold Coast parent repeats between Lagos jobs; Bahamas/Gold Coast 1873 needs chronology. Long career otherwise plausible.
+219|wrong_jurisdiction,representation|West Africa 1943 maps UK; multiple inspection destinations assigned 1943 cannot support ordered tour; EAP 1947 defunct.
+220|rollup,inheritance|Rangoon/Burma and India broad references overlap; Rajputana 1884 with Burma needs source context.
+221|rollup,same_year|Gizo/Solomons/Fiji 1915 and Honduras/Solomons 1919 need source order; city/parent duplication inflates moves.
+222|rollup|Moradabad/Eastern States mapped imperial seat; named consular postings otherwise plausible.
+223|same_year,rollup|Baroda/Central India/Punjab 1936 needs source order; Punjab states not imperial seat; Kabul/Peshawar 1944 ambiguous order.
+224|joint_office|Windward duties repeatedly overlap Grenada; regional jurisdiction need not imply movement from island.
+225|joint_office,alias|Mewar and Bhopawar collapse to Raj; Kota/Jhalawar and Haraoti/Tonk joint posts not travel itinerary.
+226|rollup,period|Kathiawar/Mewar/central India mapped imperial seat; Madras Company label wrong; state postings otherwise plausible.
+227|joint_office,rollup|Mysore/Coorg joint 1925/1935; Ajmer/Rajputana pairs not necessarily moves.
+228|identity|Truncated EVERARD duplicates Edward Everard Rushworth rank275; 1866 jurisdictions need source order.
+229|rollup,same_year|Ajmer/Rajputana overlap and Ajmer/Zhob 1934 need source order; named frontier districts lost.
+230|same_year,rollup|Kashmir/Baroda/India 1917 ambiguous order; Mewar and southern agencies incorrectly imply central seat.
+231|period,same_year|Calcutta/Trinidad 1872 and St Vincent/Natal 1874 need source order; Nevis and Tobago-style composite polity issues.
+232|rollup,same_year|Hyderabad/Ajmer/Baluchistan 1882 order unknown; Berar should not become imperial seat.
+233|date_conflict|1835/1837/1839 entries duplicate later 1885/1887/1889 jobs before service 1858; probable OCR year errors.
+234|joint_office,representation|Gizo/Solomons and Western Pacific overlap; Lincoln's Inn 1925 is training, not necessarily permanent transfer.
+235|representation,same_year|Many provinces 1915 and Punjab/NWFP 1918 likely departmental scope; no ordered itinerary established.
+236|period,rollup|Venezuela correctly explicit; Harbour Island not Nassau; Leeward entity and Trinidad 1885 later polity wrong.
+237|period,same_year|Singapore later colony; Pahang/Malacca 1928 requires source order; combined SS/FMS appropriately unresolved.
+238|period,rollup|Pretoria 1896 incorrectly British Transvaal despite explicit SAR; Athens maps Greece; diplomatic joint jurisdictions retained unresolved.
+239|period,rollup|Kurnah 1915 cannot Mandatory Iraq; Ahwaz/Gulf 1911 may overlap; Mewar wrongly central seat.
+240|identity|HARDING duplicate of HARDINGE rank241 with matching diplomat chronology; Washington rolls up country.
+241|identity|HARDINGE duplicate rank240; dates and cities otherwise plausible, League of Nations remains unplaced.
+242|period,alias|E.A./Eastern Africa inconsistently region/protectorate in 1930–32; Uganda OCR suffix anda unresolved appropriately.
+243|identity,period|Duplicate cross-corpus Henry Dobbs rank19; Mesopotamia 1915 predates mandate, Mussoorie mapped Delhi.
+244|period|Pahang 1891 predates FMS; Singapore pre 1946 entity; later governor sequence plausible.
+245|rollup,same_year|Madras/Bombay 1896 and several 1904 places need scope/order; Ajmer/Rajputana pair not proof of travel.
+246|rollup|Kathiawar agencies mapped imperial seat; frontier/Sikkim sequence plausible, retain named towns.
+247|same_year,rollup|Vienna/Berlin 1877 and Belgrade/Aden 1878 need source check; Berwick constituency may not residence.
+248|period,rollup|Singapore later entity; Penang/Straits province descriptions intermixed with city postings.
+249|joint_office,rollup|Kuwait/Persian Gulf 1943 may one consular appointment; Ajmer/Rajputana 1939 broad/local pair.
+250|representation,rollup|Three provinces 1918 likely finance scope; Calcutta 1925 wrongly Delhi; Delhi 1928 should remain city.
+251|period,representation|Canada before 1867 incorrectly Dominion; Charlottetown not Ottawa. Cabinet resignation after defeat is not unheld appointment.
+252|representation,same_year|Four 1874 locations and Calcutta/Hyderabad 1886 require role scope and chronology, not ordered moves.
+253|date_conflict,joint_office|Five locations dated 1875 look compressed service range; joint states may not separate journeys.
+254|period,joint_office|Tobago 1882 later combined polity; Windward/Grenada overlap indicates regional duties.
+255|representation,same_year|Calcutta/Bombay 1879 and Bengal/Punjab 1886 need source order; provincial finance scope may overstate mobility.
+256|rollup,same_year|Hyderabad/Bihar 1912 and India/Kashmir 1916 ambiguous order; Loralai should retain own point.
+257|period,joint_office|Tobago 1885 later polity; St Lucia/Windward 1889 concurrent possible; explicit Colonial Office London unresolved.
+258|alias,rollup|Western Rajputana capitalization changes resolution; states mapped central seat; Hyderabad/East Rajputana 1933 requires order.
+259|rollup,representation|India Office and England visits plausible distinct work; generic India entries may not physical return.
+260|period,source_check|Tanganyika 1964 after independence uses territory and may inherited location; verify final event role.
+261|joint_office,same_year|Kota/Jhalawar joint; Sibi/Muscat 1908 need order; Gilgit unresolved.
+262|representation,inheritance|Repeated Gulf/India/Bengal/Bombay/Madras same-year entries suggest departmental scope or inherited Gulf, not journeys.
+263|period,joint_office|Leewards/Antigua 1934 overlap; Singapore pre 1946; Singapore/FMS 1917 needs role scope.
+264|representation,rollup|Calcutta 1913/18/19 wrongly Delhi; several finance provinces same year cannot establish itinerary.
+265|period|Johannesburg 1889/96 wrong British Transvaal form; Cape 1915 dissolved; Union transition not itself move.
+266|period,same_year|Turkish Arabia 1902/03 wrongly Mandatory Iraq; three 1885 places need source chronology.
+267|same_year,period|Belize/Northern Nigeria 1905 and Dominica/France 1914 need order; Leeward entity wrong period.
+268|rollup|Oghi 1911 maps imperial seat despite Hazara context; frontier and Gulf postings otherwise plausible.
+269|wrong_jurisdiction,period|Kota Bahru/Kedah not FMS; all FMS after 1946 defunct; Singapore 1933/38 wrong period.
+270|date_conflict,joint_office|Seven 1871 political jurisdictions look career range/joint duties, not ordered journeys; Delhi wrongly capital proxy.
+271|rollup,joint_office|Namaqualand/Hondeklip/Port Nolloth/Cape descriptions overlap; region versus town must not imply extra travel.
+272|joint_office,rollup|Fiji/Western Pacific 1883 overlap; Larnaca lost to Cyprus capital; Melbourne/Guinea 1889 order needed.
+273|joint_office,inheritance|Western Pacific/Solomons overlap; Zomba/St Vincent 1943 needs chronology; regional Windward role not automatic move.
+274|wrong_jurisdiction,representation|Johore/Kukup/Batu Pahat wrongly FMS; Malaya/Negapatam recruiting agency requires actual office location.
+275|identity,same_year|Duplicate of truncated EVERARD rank228; 1866 multiple territories need chronology; Nova Scotia 1847 later province label.
+276|rollup|Derajat, Mewar and generic India references map to the imperial seat. The political-service sequence is otherwise plausible.
+277|inheritance,same_year|Baroda recurs beside Afghanistan, Siam and Muscat assignments. Check whether an earlier place was inherited into later clauses.
+278|period,joint_office|Leeward and St Kitts responsibilities overlap; Honduras also appears in 1880. The jurisdiction labels need date checks.
+279|period,same_year|Natal 1838 predates the colony. Natal and England in 1874 require source order; Transvaal 1877 falls in the first British occupation.
+280|wrong_jurisdiction,identity|Alor Gajah and Jasin are wrongly assigned to FMS. One source contains neighbouring Sikes and Silberrad biographies: check its boundaries.
+281|same_year,rollup|Alwar/Ajmer in 1902 and Peshawar/Indore in 1912 need source order. Eastern Rajputana should not imply the imperial seat.
+282|joint_office,rollup|Aden and the Somali coast in 1889 may be a joint jurisdiction. Kathiawar and Mahi Kantha lose local precision.
+283|joint_office,same_year|Bahrain and the Gulf in 1936 may describe one post. Kuwait and Khorramshahr in 1937 need source order.
+284|representation,inheritance|Agricultural conferences and a publication title are mixed with service. Guiana/London and Ceylon/London pairs need role context.
+285|period,rollup|South African towns use a mixture of dissolved colony labels and a Union point after 1910. Preserve the named towns.
+286|rollup,same_year|Kathiawar, Banas Kantha and Western Rajputana collapse to a distant capital. Baroda and the regional reference in 1926 need chronology.
+287|alias,joint_office|Khelat maps to Baluchistan while Kalat maps to the khanate. An alias should not create a journey; Khorasan/Seistan may be joint duties.
+288|representation,rollup|Evesham, Kingston and college roles may identify constituencies or institutions rather than residence. NW Provinces should not imply the imperial seat.
+289|joint_office,representation|Eastern Africa and Kenya may describe appellate jurisdiction. Gray's Inn is training; Mombasa/Zanzibar in 1947 need order.
+290|period,rollup|Assam 1869 uses the later restored-province entity. Fort William, Bengal and Calcutta mix local and regional descriptions.
+291|joint_office,rollup|Hyderabad/Berar may overlap; four places in 1888 need chronology. Indore/Central India in 1913 is a local/regional pair.
+292|same_year,rollup|The three locations in 1904 and 1913 require source order. Baluchistan aggregation conceals specific frontier towns.
+293|rollup,same_year|Ottawa in 1912–21 maps to Toronto through Ontario. St Vincent/Grenada in 1892 and Honduras/Grenada in 1897 need chronology.
+294|period,representation|Kuram 1879 precedes NWFP. Campaigns and regimental labels are not necessarily postings; Malta 1873/1878 needs a date check.
+295|homonym,period|Prince Albert 1896 is in Cape district service, not Saskatchewan. Cape Colony labels persist after 1910.
+296|same_year|Trinidad/Bahamas in 1906 need source order. The later intercolonial sequence is plausible; Toro remains unresolved.
+297|representation,rollup|Repeated Bengal/India departmental references do not establish travel. Rawalpindi/Quetta in 1916 need order.
+298|period,rollup|Simla 1927 maps to Delhi; Singapore uses a later colony. Delhi/Madras in 1926 and three Malayan places in 1929 need order.
+299|period,rollup|Mesopotamia 1917 predates the mandate. Frontier towns should retain their own locations.
+300|representation,rollup|Calcutta 1916 maps to Delhi. Finance jurisdictions and Bombay/Assam in 1920 require role context and chronology.
+301|inheritance,period|Orange Walk persists beside Seychelles in 1903. Check inherited location; Leeward labels and Honduras district precision need attention.
+302|alias,rollup|Ulwur, Jeypur and Meywar resolve inconsistently alongside their aliases. Abu maps to the imperial seat; same-year states need order.
+303|same_year|Kolhapur/Aden in 1886 and Sawantwadi/Aden in 1899 require source order. The remaining political sequence is plausible.
+304|rollup|Waziristan 1935 maps to the imperial seat while North Waziristan maps to NWFP. Kabul/Quetta in 1920 need order.
+305|period,representation|Assam 1899 uses the restored-province entity. Provincial finance responsibilities may describe jurisdiction rather than residence.
+306|wrong_jurisdiction,rollup|Batu Pahat is not FMS. Simla 1931 maps to Delhi, and Singapore uses the later colony entity.
+307|same_year,rollup|Mardan/NWFP in 1945 is a local/regional pair. Karman remains unresolved; the named Gulf postings are plausible.
+308|date_conflict,period|Four wartime theatres are all dated 1916, probably compressing a range. Transjordan's political form and Geneva's conference role need checking.
+309|joint_office,representation|Fiji and Western Pacific responsibilities overlap. Peru 1908 needs mission context; the Solomons abbreviation remains unresolved.
+310|inheritance,period|Mesopotamia persists through Indian assignments in 1927–35, suggesting inherited wartime geography. The 1916 mandate label is invalid.
+311|representation,period|Agricultural missions and education are mixed with appointments. Nigeria/Mauritius in 1928 need order; the Leeward label is misleading.
+312|date_conflict,joint_office|Five territories dated 1862 may describe medical-service coverage or a date range. Bangalore should not map to the imperial seat.
+313|wrong_jurisdiction,period|Canton maps to Beijing. Johore is not FMS, and 1946 Straits references require transition dates. Language training needs its own event context.
+314|representation,same_year|Sind, Orissa and NWFP in 1941 may describe audit jurisdiction. Orissa should not map to the imperial seat.
+315|period,joint_office|Leeward and St Kitts labels need date checks. Regional responsibilities overlap Antigua; Anguilla in 1888 needs chronology.
+316|period,joint_office|Tobago 1860 uses the later combined polity. Leeward and Antigua references in 1871–72 may be joint responsibilities.
+317|same_year,rollup|Meerut/Moradabad/Kashmir in 1926 and Kerman/Bandar Abbas in 1935 need chronology. Rajkot should not map to the imperial seat.
+318|wrong_jurisdiction,period|Jasin is not FMS; Singapore uses the later colony. Christmas Island/Penang in 1903 need source order.
+319|period,rollup|Baghdad 1919 predates the mandate. Allahabad 1915 maps to Delhi; Baquba 1920 needs careful transition dating.
+320|same_year|East Africa/Somaliland in 1908 require chronology. The later intercolonial sequence is plausible.
+321|period,joint_office|NWFP 1900 predates the province. Gulf/Shiraz may overlap; Bushire/Tochi in 1917 need source order.
+322|rollup,representation|Calcutta, Simla, Malakand and Meerut lose their own locations. Campaign and regimental references are not all held offices.
+323|period,representation|Sind 1861 and NWFP 1879/1881 use later jurisdictions. Railway coverage is not necessarily residence; Jhansi needs its own point.
+324|homonym,inheritance|Northern Province in the Uganda career maps to Ceylon. Munich 1934 needs conference context.
+325|period,same_year|Singapore uses the later colony entity. Perak/Pahang in 1908 and Straits/Negri Sembilan in 1910 need chronology.
+326|period,joint_office|Fiji/Western Pacific in 1879 may be joint duties. Selangor 1894 predates FMS; Maldives remains unresolved.
+327|rollup,same_year|Derajat maps to the imperial seat. Zhob/Derajat in 1890 and Afghanistan/Baluchistan in 1878 need source order.
+328|homonym|St Johns in the Antigua career maps to Newfoundland. The Leeward label also needs correction.
+329|joint_office,rollup|Haraoti/Tonk may be joint duties; Baluchistan/Kalat pairs do not establish moves. Check the date of the Madras States entity.
+330|rollup,representation|Shanghai 1909 maps to Beijing. India 1902 needs mission context; Ceylon/Hong Kong in 1925 need order.
+331|rollup,period|Kaffraria 1856 needs a jurisdiction check. Mixing towns with a Cape capital point distorts this district career.
+332|same_year|Bahamas/Barbados in 1874 need source order. The later gubernatorial sequence is plausible.
+333|wrong_jurisdiction|Batu Pahat maps to FMS while Johore Bahru maps to Unfederated Malay States. Singapore uses the later colony.
+334|period|Barotseland 1897 and NW Rhodesia 1900 use the later Northern Rhodesia entity. Mashonaland 1890 needs period precision.
+335|representation,same_year|Finance provinces may describe scope. Bombay/Central Provinces in 1884 need order; Calcutta should retain its city point.
+336|inheritance|Ionian Islands recur in 1870 and 1876 alongside India/Egypt service. Check for inheritance from an early posting.
+337|same_year,rollup|NWFP/Central India in 1904 and Gwalior/Eastern Rajputana in 1926 need chronology. Frontier towns lose precision.
+338|representation|Agricultural visits are plausible. Generic Canada and repeated Trinidad references need role context; Surinam remains unresolved.
+339|period,representation|Singapore 1941/1942 predates the colony. Lincoln's Inn is training; Kenya/Gold Coast in 1933 need order.
+340|wrong_jurisdiction,period|Jerusalem 1925 maps to Israel; German East Africa 1916 maps to Tanganyika. St Kitts labels need period care.
+341|rollup|Calcutta in 1923, 1924 and 1929 maps to Delhi. Surat loses its city point; England/London visits need role context.
+342|period,inheritance|Southern Nigeria 1921 uses a dissolved protectorate. Nigeria/Tanganyika in 1924 need order; the old parent location may persist.
+343|inheritance|Tanganyika/North Borneo interleave in 1929–33, suggesting inherited locations. Swaziland/Somaliland in 1916 need a clause check.
+344|identity|The truncated Drummond profile resembles William Jervois's career. Check identity; Canada before 1867 uses a later Dominion label.
+345|ocr,wrong_jurisdiction|Cape Settlements likely corrupts Straits Settlements. Negri Sembilan 1883 predates FMS; Singapore uses the later colony.
+346|rollup,same_year|Quthing/Basutoland is a town/region pair. Kenya/Zanzibar in 1922 need order; combined Kenya/Uganda remains unresolved.
+347|joint_office,rollup|Windward Islands, Grenada and Carriacou responsibilities overlap. Several places in 1901–04 do not establish an ordered itinerary.
+348|rollup,representation|India Office in 1873 is not a posting in India. Joint embassy and campaign destinations need scope/order; Meywar remains unresolved.
+349|joint_office,rollup|Mysore/Coorg in 1925 are joint responsibilities. Rewa Durbar maps to the imperial seat; Baroda/Jaipur in 1935 need order.
+350|wrong_jurisdiction,period|Dindings and Kelantan are wrongly FMS. Singapore uses the later colony; three locations in 1919 need scope and chronology.
+351|identity,representation|The truncated Dufferin profile appears to duplicate rank 129. Ulster/Ireland may be peerage titles rather than postings.
+352|period,rollup|Singapore uses the later colony. Joint Straits/FMS duties should not produce a route; local towns need their own points.
+353|declined,representation|Electoral defeats in 1891 and 1911 are already unplaced. Constituencies are not necessarily residences; foreign visits need event context.
+354|rollup,joint_office|Wana/Waziristan in 1920 resolve to provincial versus imperial seats. Punjab States should not imply the central capital.
+355|wrong_jurisdiction,same_year|Kluang is not FMS. Kluang/Fiji in 1941 and Lipis/Brunei in 1936 need order; generic Malaya requires period care.
+356|identity,representation|Appears to duplicate Forbes at rank 357. Railway jurisdictions in 1872/1878 are not necessarily journeys; Sind uses a later province.
+357|identity,representation|Appears to duplicate Forbes at rank 356. This version keeps the combined railway territories unresolved, revealing an extraction difference.
+358|homonym,source_check|New Hebrides 1922 conflicts with the frontier and Afghan diplomatic career. Hazara 1907 maps to the imperial seat; check the actual source clause.
+359|period,representation|Southern Rhodesia before 1923 needs legal-form precision. London 1930 needs role context; the wider sequence is plausible.
+360|period,representation|Transvaal 1918 uses a dissolved colony. Northern Rhodesia 1913 uses a later form; Eastern Africa may describe judicial scope.
+361|same_year,representation|Seven inspection destinations dated 1928 cannot be ordered from the year alone. Oxford 1948 should not map to London.
+362|period|Malaya 1949 cannot be FMS. The remaining sequence is plausible; BBS remains unresolved.
+363|same_year|The Sarawak, Kenya, Mauritius, Zanzibar, Rhodesia, Nigeria and Sierra Leone sequence is geographically plausible.
+364|wrong_jurisdiction,period|Kedah is not FMS; Singapore 1920 uses a later entity. Same-year settlement pairs require chronology.
+365|date_conflict,representation|Four cities assigned to 1877 may compress a finance career. Bombay/Bengal in 1904 need role scope and order.
+366|rollup|Jubbulpore 1890 maps to the imperial seat, and Moulmein loses its city point. Central Provinces/town alternation may be artificial.
+367|joint_office,period|Western Pacific/Fiji and Leewards/Antigua responsibilities overlap. Rotuma loses its island location; the Leeward label needs repair.
+368|joint_office,same_year|Gulf/Shiraz/Kermanshah in 1916 need chronology or joint-role interpretation. Mewar/Central India in 1914 overlap geographically.
+369|identity,period|Appears to duplicate Greene at rank 238. Pretoria 1896 is wrongly British Transvaal; Stuttgart/Darmstadt may be a joint mission.
+370|rollup,period|Ottawa 1911 maps to Toronto. Leewards/Antigua may be joint duties; St Vincent/Grenada in 1907 need order.
+371|wrong_jurisdiction,period|Dindings and Kedah are not FMS. Singapore uses a later colony; parent and locality descriptions inflate the route.
+372|rollup,joint_office|Agra, Poonch and the political agencies should not map to the imperial seat. Gujarat/Baroda in 1933 overlap; the Deccan compound remains unresolved.
+373|representation,rollup|Statistical conferences and visits are plausible. Melbourne/Victoria descriptions should not create extra moves.
+374|not_taken_up|The source explicitly says the 1893 viceroy appointment was not taken up. Preserve the appointment evidence without asserting office or travel.
+375|same_year|Bahamas/Gibraltar in 1929 need source order. Other intercolonial postings are plausible; SAHC remains unresolved.
+376|inheritance,same_year|Honduras/Gold Coast in 1891 and Sierra Leone/Gold Coast in 1901 need chronology. An earlier place may carry forward.
+377|period,rollup|Sind 1890/1892 uses a later province. Thana and Karachi lose their cities; Sind/Burma in 1892 need order.
+378|wrong_jurisdiction,joint_office|Karachi 1938 should not inherit Bombay Presidency. Bahrain/Gulf and Trucial Coast/Gulf may be joint responsibilities.
+379|same_year,period|Cyrenaica/Cyprus in 1943 and Jamaica/Cyprus in 1945 need order. Check the role associated with Cyprus after independence.
+380|same_year,rollup|Sawantwadi/Palanpur in 1901 need order. Kathiawar should not imply the central capital; the wider political sequence is plausible.
+381|same_year|Sierra Leone/Gold Coast in 1948 need order. The Pacific, African and Mediterranean postings are otherwise plausible.
+382|period,rollup|Scotland 1920 maps to London. Singapore/Straits in 1938 overlap; Malaya after 1946 cannot remain FMS indefinitely.
+383|wrong_jurisdiction,period|Lome 1919 should not inherit British Togoland. Northern Territories/Gold Coast parent changes do not establish travel.
+384|period,joint_office|Trinidad before 1889 uses a later combined polity. Barbados/Windward appointments may be joint responsibilities.
+385|period,rollup|Basra 1892 is wrongly Mandatory Iraq. Simla and Meerut lose their locations; several places in 1890 need chronology.
+386|joint_office,same_year|Windward Islands/St Lucia responsibilities may overlap. Jamaica/Kenya in 1955 need order; Barbados is plausible.
+387|joint_office,period|St Lucia/Tobago may be a joint judicial post. Tobago 1883 uses a later polity; Straits/FMS in 1903 may be joint scope.
+388|date_conflict,representation|Three places in 1848 and three in 1860 may describe service coverage or a date range. Satara should not map to the imperial seat.
+389|joint_office,same_year|Ocean Island/Demerara in 1915 need order. Gilbert and Ellice Islands/Western Pacific responsibilities overlap in 1919.
+390|period,joint_office|Bussorah 1894 and Basra 1915 predate the mandate. Mysore/Coorg in 1921 are joint duties.
+391|identity,representation|Appears to duplicate Lambert at rank 255. NW Provinces versus Bengal in 1886 needs a source check; finance scope is not necessarily residence.
+392|joint_office,inheritance|West Indies/Jamaica overlap in 1865. Gold Coast 1878 may inherit an earlier campaign beside Griqualand service.
+393|wrong_jurisdiction,alias|W.I. in this Indian political career likely means Western India, not West Indies. Oghi/Hazara also resolve inconsistently.
+394|wrong_jurisdiction,period|Kelantan, Kedah and Johore are wrongly FMS while Johore Bahru uses Unfederated Malay States. Singapore's period label is wrong.
+395|joint_office,period|Eastern Africa/Uganda may be judicial scope. East Africa Protectorate is invalid in 1933.
+396|period,rollup|Turkish Arabia 1910 is wrongly Mandatory Iraq. Tochi/Khyber predate NWFP; generic India entries may inflate movement.
+397|wrong_jurisdiction,period|Dindings is not FMS. Singapore uses the later colony; settlement/parent duplicates inflate the chain.
+398|inheritance,period|Bahamas/New Amsterdam in 1835 and Guiana/Port of Spain in 1848 need source checks. Trinidad uses the later composite polity.
+399|representation,rollup|Washington 1943 loses its city point. Cape Town's abbreviation remains unresolved; medical missions are not all permanent appointments.
+400|homonym,period|Aberdeen 1902 in Cape district service maps to Britain. Cape labels persist after 1910; preserve the town locations.
+401|wrong_jurisdiction,period|Johore is not FMS. Singapore uses the later colony; combined Straits/FMS responsibilities appropriately remain unresolved.
+402|identity,joint_office|A third Martindale profile appears alongside ranks 15 and 87. Mysore/Coorg in 1885 are joint; generic India duplicates local descriptions.
+403|representation,rollup|Oudh and NW Provinces map to the imperial seat. Regimental or departmental territories are not necessarily residence.
+404|period,same_year|Singapore uses the later colony. Tasmania/NSW in 1913 need order; Puket/West Siam remains unresolved.
+405|joint_office,period|Negri/Pahang and Selangor/Negri may be joint judicial duties. Singapore uses the later colony; Penang/Singapore in 1928 need order.
+406|period|Federation of Nigeria 1954 needs legal-form precision. The later sequence is plausible; Colonial Office remains unresolved.
+407|period,inheritance|Perak and Sungei Ujong before 1895 are not FMS. Siam recurs beside Malayan duties and needs a clause check.
+408|period,representation|Assam 1880/1882 uses the restored entity. Three provinces in 1879 may be engineering jurisdiction rather than travel.
+409|wrong_jurisdiction,period|FMS is invalid after 1946 and Johore was not a member. Federation of Malaya/Singapore in 1955 need order.
+410|rollup,same_year|Belgaum and Mahi Kantha lose their localities. Palanpur/Mahi Kantha in 1911 may be joint duties or sequential appointments.
+411|period,representation|Sind 1868 uses a later province. Regimental Bombay references are not necessarily residence; Karachi/Aden in 1866 need order.
+412|joint_office,same_year|Trucial Coast/Gulf overlap in 1940. Muscat/eastern states in 1943 and Chagai/Sibi in 1945 need order; eastern states are not Delhi.
+413|rollup,representation|Edinburgh 1884 maps to London and Secunderabad to the imperial seat. Exhibitions and visits need distinct event context.
+414|period,joint_office|Leewards/St Kitts overlap in 1922 and have misleading labels. Gibraltar/Sierra Leone in 1913 need order; Coomassie needs its city point.
+415|period|Baghdad/Turkish Arabia 1879 is wrongly Mandatory Iraq. A Gulf Residency reference does not necessarily establish a new physical posting.
+416|representation,rollup|Three presidencies in 1899 may be finance scope. Calcutta 1915 maps to Delhi; same-year provinces require order.
+417|period,representation|Singapore 1942 predates the colony; FMS 1946 needs transition care. Agricultural visits to Java/Sumatra should retain the islands.
+418|period,alias|Basra and Turkish Arabia in 1881–92 are wrongly Mandatory Iraq. Bassora/Busreh aliases resolve inconsistently.
+419|wrong_jurisdiction|States of W.I. in this Indian political career means Western India. Its West Indies location is wrong.
+420|homonym,period|Hyderabad in this Sind career maps to Hyderabad State in India. Sind before 1936 and Karachi's Bombay rollup also need repair.
+421|joint_office,period|Windward responsibilities do not necessarily imply travel. The Leeward label is misleading and Hampshire should not map to London.
+422|identity,source_check|Musgrave junior's career follows his father's governorships. This may be legitimate service with his father; check roles before alleging a false merge.
+423|identity,date_conflict|Appears to duplicate Napier at ranks 424–426. Vienna/Constantinople in 1840 need chronology; Plymouth should not map to London.
+424|identity,date_conflict|Another Napier spelling with the same diplomatic sequence. The two capitals assigned to 1840 need a date check.
+425|identity,rollup|Another Napier profile with the same sequence. Plymouth maps to London; this version omits the Constantinople 1840 event.
+426|identity,date_conflict|Fourth Napier profile with the same diplomatic career and the same 1840 ambiguity. Person deduplication remains open.
+427|same_year|East Africa/Uganda in 1912 may be a region/locality description. The later intercolonial sequence is plausible.
+428|period,representation|Assam 1899 uses the restored entity. Finance jurisdictions and Hyderabad/United Provinces in 1902 need role context and order.
+429|period,joint_office|Zaria/Muri in 1902–03 inherit later Nigeria. Windward Islands/St Lucia in 1917 may be joint duties.
+430|homonym,period|Douglas 1864 in a British Columbia career needs disambiguation. Trinidad 1878 uses a later polity; Vancouver Island is distinct.
+431|wrong_jurisdiction,period|Alor Gajah is not FMS. Singapore uses the later colony; repeated same-year settlements need chronology.
+432|period,rollup|Singapore uses the later colony. Straits/settlement alternation may be artificial; Perak 1931 needs role context.
+433|period,same_year|British Military Administration of Somalia in 1946–49 is plausible. Eritrea/Tanganyika in 1950 need order; Aden 1965 needs constitutional care.
+434|rollup,period|Calcutta 1929 maps to Delhi. Karachi 1936 requires a transition date; departmental India references do not establish residence.
+435|representation,same_year|Philippines 1942 may be wartime service or detention. The intercolonial sequence is plausible but needs event context.
+436|joint_office,rollup|Khorasan/Mashhad in 1920 is a region/city pair. Haraoti/Tonk may be joint duties; Zhob loses its locality.
+437|rollup,representation|Canton 1921 maps to Beijing. Training is not necessarily a posting; FMS/Straits in 1924 may be joint scope.
+438|period,representation|Johannesburg 1935 uses dissolved Transvaal Colony. Medical conferences and Gambia/Gold Coast pairs need role context and chronology.
+439|inheritance,joint_office|Bahamas repeats during Belize service in 1914–16, suggesting inheritance. St Vincent/Grenada in 1926 need order; Leeward labels are misleading.
+440|rollup,same_year|Dir/Swat and Eastern Rajputana map to the imperial seat. Punjab/Tochi in 1909 may be a region/locality pair.
+441|wrong_jurisdiction,period|Dindings is not FMS. Singapore uses the later colony; Batang Padang/Perak descriptions overlap.
+442|rollup,period|Canton 1921 maps to Beijing and Singapore uses the later colony. Administrative jurisdiction needs to be distinguished from residence.
+443|rollup,representation|Calcutta 1915/1921 maps to Delhi. Finance jurisdictions and generic Northern India do not establish a particular workplace.
+444|period|Sri Menanti and Sungei Ujong references before 1895 predate FMS. Singapore uses the later colony.
+445|joint_office,same_year|Several places in 1881 and 1883 may be joint political duties. Morar and Nasirabad should not imply the imperial seat.
+446|same_year,rollup|Gulf/Hyderabad in 1939 need source order. Preserve frontier towns instead of substituting provincial capitals.
+447|alias,rollup|Sangli and Rajpipla spelling variants resolve inconsistently. Kolaba maps to the imperial seat; Cutch/Mahi Kantha in 1889 need order.
+448|period|NWFP 1899 predates the province and Mesopotamia 1917 predates the mandate. Central circle remains unresolved.
+449|wrong_jurisdiction,identity|West Africa Settlements maps to London. Check identity against the other Rowe profile before assuming a duplicate.
+450|period,representation|Survey territories in 1864 and 1873 are not an ordered itinerary. Assam uses a later entity; Hazara 1868 precedes NWFP.
+451|period,same_year|Singapore uses the later colony. Penang/Singapore in 1915 and Penang/Malacca in 1920 need chronology.
+452|wrong_jurisdiction,period|Dindings is not FMS and Singapore uses the later colony. Several settlement pairs require source order.
+453|joint_office,same_year|Kota/Jhalawar and Haraoti/Tonk are compound jurisdictions. Quetta/Western Rajputana in 1915 need order.
+454|rollup,representation|Bombay/India in 1891 and Bombay/Baroda in 1903 may describe a service cadre and a posting, not return journeys.
+455|joint_office,period|Straits/FMS roles may be joint. Singapore uses the later colony; Perak/FMS in 1920 is a local/regional pair.
+456|same_year|Grenada/St Vincent in 1902 need source order. The remaining Caribbean sequence is plausible.
+457|not_taken_up,period|The 1915 Kenya crown-counsel appointment explicitly says he did not proceed. Retain the appointment, without asserting office or travel.
+458|joint_office,period|Leewards, Antigua and Montserrat in 1920 may overlap. Leeward and St Kitts labels need period care.
+459|joint_office,inheritance|St Helena and several Leeward responsibilities may be concurrent. Repeated volunteer-unit references do not prove a return to St Helena.
+460|same_year|St Lucia/Barbados in 1908 need order. The wider sequence is plausible; Fiji district locations remain unresolved.
+461|rollup,same_year|Mewar, Malwa and Bundelkhand map to the imperial seat. Ajmer/Mewar in 1919 require chronology.
+462|representation,same_year|This is a provincial finance career. Madras/Bombay in 1919 need order; the Madras Company label is misleading.
+463|wrong_jurisdiction|W.I. alongside Western India States Agency is wrongly West Indies. Mansehra should not map to the imperial seat.
+464|period,representation|Iraq 1941 cannot be Mandatory Iraq. Departmental India and province references may describe scope rather than travel.
+465|rollup|Nagpur repeatedly maps to the imperial seat while Central Provinces maps elsewhere. The city/region pair creates artificial oscillation.
+466|period,rollup|Northern Nigeria in 1954–59 uses the dissolved protectorate. Mukalla loses its locality; Palestine 1948 needs a month-level check.
+467|same_year|Malta/Bahamas in 1868 and Cape/Tasmania in 1880 require chronology. An appointment is not always evidence of arrival.
+468|identity,inheritance|Newfoundland repeatedly interleaves with a Natal/Zululand career. Inspect identities and source boundaries.
+469|period,joint_office|Ellice Islands in 1922–32 uses the separate 1975 colony. Western Pacific/Gilbert and Ellice duties may overlap in 1920.
+470|same_year|Uganda/Nigeria in 1920 need order. The governor sequence is plausible; combined Malay States responsibility remains unresolved.
+471|period,joint_office|Singapore 1945 predates the colony. Leewards/Antigua in 1936 may be joint; North Borneo 1946 needs transition care.
+472|rollup,representation|Cape Town, colony and district references mix geographic precision. Paris may be an exhibition; London/Cape Town in 1882 need order.
+473|representation,same_year|European conference visits are mixed with the India Office base. The 1922 order and the India 1940 role require source checks.
+474|representation,rollup|Java should not automatically map to Batavia. Penang needs its own point; Siamese Malay States remains unresolved.
+475|rollup,representation|Dehra Dun and Azimgarh map to the imperial seat. Finance jurisdiction and generic India references do not prove moves.
+476|same_year,rollup|Four Cape places in 1867 need role context and order. Alexandria 1858 needs source disambiguation before choosing Egypt or the Cape.
+477|representation,same_year|Middle Temple is training. Jamaica, Guiana and Turks in 1936 may describe judicial scope rather than an ordered journey.
+478|period,representation|Assam in 1876–91 uses the restored entity. Central Provinces, Calcutta and Assam in 1883 need finance-role context.
+479|period,wrong_jurisdiction|The Grenadines are not all Grenada. Leeward labels need correction; volunteer units are not necessarily residence.
+480|period,joint_office|Leeward regional duties and island posts interleave. Nevis uses a later composite polity; 1898 needs chronology.
+481|period,joint_office|Leewards/St Kitts responsibilities overlap. The St Kitts label is misleading; school and defence-unit references need context.
+482|period|Malaya 1948 cannot be FMS. Singapore 1939 uses the later colony; Singapore after 1959 and North Borneo 1960 need legal-form precision.
+483|wrong_jurisdiction,period|Dindings and Kedah are not FMS. Singapore uses the later colony; settlement pairs need chronology.
+484|inheritance,same_year|Kenya/Seychelles in 1925 and 1929 may reflect inherited locations. Kenya/Zanzibar in 1920 need order; audit scope is not residence.
+485|joint_office,period|Straits/FMS and Selangor/Pahang may be joint judicial responsibilities. Singapore uses the later colony; Guiana 1955 needs event context.
+486|period,rollup|The Leeward label is misleading. Preserve Sydney's city point; the Australian/Fiji judicial sequence is plausible.
+487|identity,period|One attestation runs into a medical advertisement. Check its boundary; Vancouver/BC legal union does not prove a move, and Trinidad uses a later polity.
+488|rollup,same_year|Derajat 1918 maps to the imperial seat. Punjab/Hazara in 1914 may be a region/locality pair; Dera Ismail Khan/Peshawar in 1915 need order.
+489|joint_office|Federation of Rhodesia and Nyasaland versus Nyasaland may describe scope rather than travel. Other postings are plausible.
+490|joint_office,period|Combined states and Straits/FMS duties do not establish ordered journeys. Singapore uses the later colony; Taiping/Perak overlap.
+491|period|The Leeward label is misleading. Later medical postings are plausible; Singapore 1953/1958 falls within the colony period.
+492|rollup|Kathiawar and Deccan map to the imperial seat. Bombay cadre references versus actual postings may inflate movement.
+493|representation,date_conflict|Three provinces assigned to 1873 may compress a finance career. Indian Treasuries is not a unique place; source chronology is needed.
+494|joint_office,period|Antigua/Leewards in 1926 overlap. The Leeward label is misleading; acting island appointments require source order.
+495|period|Kenya 1919 predates the colony. The other intercolonial postings are plausible; the war reference remains unplaced.
+496|representation,same_year|The Venice survey/conference visit is plausible. Calcutta/Bombay in 1886 need order; generic India does not establish a return.
+497|same_year,representation|South Africa/Southern Nigeria in 1911 and Mauritius/Seychelles in 1915 need order. Combined Cape/OFS scope remains unresolved.
+498|joint_office,rollup|Kota/Jhalawar is a compound jurisdiction. Ajmer/Rajputana in 1899 overlap; political agencies should not imply the imperial seat.
+499|homonym|Alexandria in this Cape magistrate's career maps to Egypt. Check Cape Alexandria; Bathurst is also in Cape context.
+500|rollup,same_year|Kashgar in 1934/1936 maps to Beijing. Meshed/Kerman in 1942 need chronology; Western India States remains unresolved.

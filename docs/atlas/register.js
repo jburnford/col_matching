@@ -18,18 +18,17 @@
       const moved = (m.movers.co + m.movers.io);
       this.body.innerHTML = `
         <div class="reg-h">The personnel of empire</div>
-        <p class="reg-lede">Two civil services ran the British Empire. This atlas plots every
-          recorded changes of location in an official's career — one move, one arc.</p>
+        <p class="reg-lede">Two civil services ran the British Empire. This atlas connects dated locations in officials’ careers. Each arc is an inferred corridor; unresolved locations and ambiguous years break the route.</p>
         <div class="stat-row">
           <div class="stat"><b>${m.roster.total.toLocaleString()}</b><span>officials, ${m.yearRange[0]}–${m.yearRange[1]}</span></div>
-          <div class="stat"><b>${moved.toLocaleString()}</b><span>moved between posts</span></div>
+          <div class="stat"><b>${moved.toLocaleString()}</b><span>have inferred transfers</span></div>
         </div>
         <div class="stat-row" style="margin-top:0">
           <div class="stat"><b style="color:#4f76ad">${m.roster.co.toLocaleString()}</b><span>Colonial Office</span></div>
           <div class="stat"><b style="color:#b07d24">${m.roster.io.toLocaleString()}</b><span>India Office</span></div>
-          <div class="stat"><b>${c.arcs.toLocaleString()}</b><span>transfers mapped</span></div>
+          <div class="stat"><b>${c.arcs.toLocaleString()}</b><span>inferred corridors</span></div>
         </div>
-        <p class="ros-note">Map points represent approximate administrative seats or regional locations. Gaps in a career break the route. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
+        <p class="ros-note">Map points retain named localities where available; other points approximate administrative seats or regions. Multiple places in one year do not establish travel order. <a href="review/top-500/">Review of the top 500 careers</a>. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
         <div class="reg-h">Busiest corridors <span class="reg-hint">— click to trace who travelled it</span></div>
         <ul class="cor-list">${this.topCorridors(8).map(c => {
           const a = ATLAS.App.places[c.x], b = ATLAS.App.places[c.y];
@@ -203,6 +202,7 @@
         <p class="ros-name">${esc(sur) || '—'}<span class="giv">${esc(giv)}</span></p>
         <div class="ros-meta"><span class="corp" style="background:${rec.c ? '#b07d24' : '#4f76ad'}">${CORPN[rec.c]}</span>
           <span>${legs.length} located posting${legs.length !== 1 ? 's' : ''}${qlink}</span></div>
+        ${rec.review ? `<p class="ros-note">${rec.review.withdrawn ? 'This record combines several people. Its events are retained below, but excluded from mapped journeys and held-office assertions pending reconstruction. ' : 'Geographic sequence inspected; source questions may remain. '}<a href="review/top-500/#rank-${rec.review.rank}">Read review ${rec.review.rank}</a></p>` : ''}
         <hr class="ros-rule">
         <ul class="ros-list">${rows}</ul>
         ${this.unplacedRows(rec)}
@@ -258,7 +258,7 @@
           <div class="stat"><b>${outN}</b><span>departures</span></div>
           <div class="stat"><b>${ppl.size}</b><span>officials</span></div>
         </div>
-        <p class="ros-note">Map points represent approximate administrative seats or regional locations. Gaps in a career break the route. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
+        <p class="ros-note">Map points retain named localities where available; other points approximate administrative seats or regions. Multiple places in one year do not establish travel order. <a href="review/top-500/">Review of the top 500 careers</a>. <a href="https://github.com/jburnford/col_matching/tree/master/research/geography-2026-10-07" target="_blank" rel="noopener">Geography corrections and audit</a></p>
         <div class="reg-h">Busiest corridors <span class="reg-hint">— click to list officials</span></div>
         <ul class="cor-list">${rows}</ul>
         <div id="cor-people"></div>`;

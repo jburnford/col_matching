@@ -8,6 +8,7 @@ import json
 from functools import lru_cache
 from pathlib import Path
 from historical_geography import correct_event, location
+from reviewed_careers import NON_HELD
 from improve_place_coords import SEATS
 
 ROOT = Path(__file__).resolve().parent
@@ -54,17 +55,25 @@ def records(corpus):
 
 
 def project(r):
+    r = correct_event(r)
     q, label = location(r)
     y = r.get('year_start')
-    if not q or not y: return None, None
+    if not q or not y or r.get('date_uncertain'): return None, None
     e = evidence().get(q, {})
     label = label or e.get('label') or q
     label = {'Q891827': 'Bombay Presidency', 'Q817165': 'Bengal Presidency'}.get(q, label)
     seat, coords, cap = '', None, None
     mode = 'regional point'
-    is_jurisdiction = bool(r.get('colony_qid'))
+    is_jurisdiction = q == r.get('colony_qid')
+    explicit = bool(r.get('place_qid') and r.get('place_qid') != r.get('colony_qid'))
+    if explicit:
+        coords = point(q)
+        if not coords: return None, None
+        mode, seat = 'named place (approximate)', label
     # Direct historical evidence supersedes inconsistent P36 dates (1971 in WD).
-    if q == 'Q1643555':
+    if explicit:
+        pass
+    elif q == 'Q1643555':
         cap = 'Q108223' if y < 1970 else 'Q3043'
     elif q == 'Q129286':
         if y <= 1910: cap = 'Q1348'
@@ -104,7 +113,7 @@ def project(r):
     if not coords: return None, None
     if not seat: seat = mode
     # Different seats need separate plotting nodes. These are not new QIDs.
-    key = q
+    key = q if is_jurisdiction else q + '@place'
     if q == 'Q129286':
         key += '@' + ('company' if y < 1858 else 'india' if y > 1947 else 'raj') + '-' + (cap or 'transition')
     elif cap and len(e.get('claims', {}).get('P36', [])) > 1:
@@ -114,23 +123,37 @@ def project(r):
     return key, node
 
 
+def ordered_arcs(pid, rows, nodes):
+    """Year-only data cannot order several places within one year.
+
+    Keep their map points, but break the inferred route on either side. Reviewed
+    full dates can be added later without guessing from alphabetic role order.
+    """
+    from itertools import groupby
+    previous = None
+    for y, group in groupby(sorted(rows, key=lambda row: (row[0], row[1])), key=lambda row: row[0]):
+        keys = {row[2] for row in group}
+        key = next(iter(keys)) if len(keys) == 1 and None not in keys else None
+        if previous and key and previous != key and 1700 <= y <= 1970:
+            a, b = nodes[previous], nodes[key]
+            # A legal-form/label change at the same point is not travel.
+            if a['entity_qid'] != b['entity_qid'] and (a['lat'], a['lon']) != (b['lat'], b['lon']):
+                yield {'pid': pid, 'yr': y, 'from': previous, 'to': key}
+        previous = key
+
+
 def transfers(corpus):
     from collections import defaultdict
+    from build_static_atlas import build_canon
+    canon = build_canon()
     events, nodes = defaultdict(list), {}
     for r in records(corpus):
         if not r.get('year_start'): continue
-        if r.get('event_kind') == 'electoral_defeat': continue
+        if r.get('event_kind') in NON_HELD: continue
         key, node = project(r)
         if node: nodes[key] = node
-        events[r['person_id']].append((r['year_start'], r['seq'], key))
-    arcs = []
-    for pid, rows in events.items():
-        previous = None
-        for y, seq, key in sorted(rows):
-            if previous and key and previous != key and 1700 <= y <= 1970:
-                if nodes[previous]['entity_qid'] != nodes[key]['entity_qid']:
-                    arcs.append({'pid': pid, 'yr': y, 'from': previous, 'to': key})
-            # Unknown location breaks a route; it must not invent a direct move.
-            previous = key
+        if r.get('mobility_excluded'): key = None
+        events[canon(r['person_id'])].append((r['year_start'], r['seq'], key))
+    arcs = [a for pid, rows in events.items() for a in ordered_arcs(pid, rows, nodes)]
     return {'transfers': sorted(arcs, key=lambda t: t['yr']),
             'labels': {k: v['label'] for k, v in nodes.items()}, 'nodes': nodes}

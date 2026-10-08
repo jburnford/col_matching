@@ -28,7 +28,9 @@
       this.corpus = { 0: true, 1: true };
       this.window = null;               // [y0, y1) — only moves in this window burn in
       const resize = () => this.resize();
-      window.addEventListener('resize', resize);
+      // Leaflet updates its cached dimensions before emitting this event.
+      // A window listener can read the previous viewport size instead.
+      map.on('resize', resize);
       // during a pan/fly: invalidate projection; cheaply re-track the curated tour
       // arcs (they project lat/lon live) so they follow the map instead of freezing
       map.on('move zoom', () => { this.pix = null; if (this.hlc) this.draw(); });
@@ -39,7 +41,7 @@
     resize() {
       const w = this.map.getSize().x, h = this.map.getSize().y;
       for (const c of [this.cv, this.pc]) { c.width = w; c.height = h; }
-      this.W = w; this.H = h; this.pix = null; this.reproject(); this.rebuild();
+      this.W = w; this.H = h; this.pix = null; this.reproject(); this.rebuild(); this.draw();
     },
     setData(arcs, places) {
       this.arcs = arcs;                                          // [[yr,from,to,pid,corpus]]

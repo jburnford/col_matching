@@ -5,6 +5,7 @@ neighbouring appointment. Sources and review limits: research/geography-2026-10-
 """
 from copy import deepcopy
 import re
+from reviewed_careers import apply_review, NON_HELD
 
 WODEHOUSE = {'kgp_col1878-p447b3', 'kgp_iol1889_jan-c2242376'}
 
@@ -68,13 +69,13 @@ def correct_event(original):
 
     if reasons:
         r['historical_corrections'] = sorted(set(r.get('historical_corrections', [])) | set(reasons))
-    return r
+    return apply_review(r)
 
 
 def location(r):
-    """The recorded jurisdiction, or the explicit grounded place. Never a guess."""
-    if r.get('event_kind') == 'electoral_defeat':
+    """Prefer the explicit grounded place, then the recorded jurisdiction."""
+    if r.get('event_kind') in NON_HELD:
         return None, None
-    q = r.get('colony_qid') or r.get('place_qid')
-    label = r.get('colony_label') if r.get('colony_qid') else r.get('place_label')
+    q = r.get('place_qid') or r.get('colony_qid')
+    label = r.get('place_label') if r.get('place_qid') else r.get('colony_label')
     return q, label
