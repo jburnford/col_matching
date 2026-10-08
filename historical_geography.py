@@ -6,6 +6,7 @@ neighbouring appointment. Sources and review limits: research/geography-2026-10-
 from copy import deepcopy
 import re
 from reviewed_careers import apply_review, NON_HELD
+from appointment_scope import classify_for_appointment_map
 
 WODEHOUSE = {'kgp_col1878-p447b3', 'kgp_iol1889_jan-c2242376'}
 
@@ -69,7 +70,7 @@ def correct_event(original):
 
     if reasons:
         r['historical_corrections'] = sorted(set(r.get('historical_corrections', [])) | set(reasons))
-    return apply_review(r)
+    return classify_for_appointment_map(apply_review(r))
 
 
 def location(r):

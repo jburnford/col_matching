@@ -49,9 +49,24 @@ class AtlasArtifactTests(unittest.TestCase):
         self.assertEqual(meta['counts']['uncertain_connections'],len(self.uncertain))
 
     def test_cameron_published_gambia_connections(self):
-        incoming=[a for a in self.uncertain if a[3]=='kgp_col1918-p704b7' and a[2]=='Q3557236']
-        self.assertEqual({a[1] for a in incoming},{'Q1930@place','Q2660774@Q41547'})
+        incoming=[a for a in self.arcs if a[3]=='kgp_col1918-p704b7' and a[2]=='Q3557236']
+        self.assertEqual({a[1] for a in incoming},{'Q2660774@Q41547'})
         self.assertTrue(all(a[0]==1914 for a in incoming))
+        pid='kgp_col1918-p704b7'
+        self.assertFalse(any('Q1930@place' in a[1:3] for a in self.arcs+self.uncertain if a[3]==pid))
+        p=self.data['persons'][pid]
+        self.assertTrue(any(s[1]==1912 and s[4] and s[0]=='Q2660774@Q41547' for s in p['st']))
+        self.assertTrue(any(u[0]==1912 and u[3]=='Ottawa' and 'not mapped as an appointment' in u[4] for u in p['un']))
+
+    def test_scope_exclusions_remain_in_written_records(self):
+        from build_static_atlas import build_canon
+        canon=build_canon()
+        audit=json.loads((ROOT/'research/appointment-map-2026-10-08/excluded-events.json').read_text())
+        self.assertEqual({r['corpus'] for r in audit},{'kg','iol'})
+        for r in audit:
+            p=self.data['persons'][canon(r['person_id'])]
+            self.assertTrue(any(u[0]==r['year_start'] and u[4]==r['appointment_map_note']
+                                for u in p.get('un',[])),r)
 
     def test_wodehouse_both_records(self):
         for pid in ('kgp_col1878-p447b3', 'kgp_iol1889_jan-c2242376'):

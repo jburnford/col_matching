@@ -56,6 +56,7 @@ def records(corpus):
 
 def project(r):
     r = correct_event(r)
+    if r.get('appointment_map_excluded'): return None, None
     q, label = location(r)
     y = r.get('year_start')
     if not q or not y or r.get('date_uncertain'): return None, None
@@ -180,7 +181,7 @@ def transfers(corpus):
     events, nodes = defaultdict(list), {}
     for r in records(corpus):
         if not r.get('year_start'): continue
-        if r.get('event_kind') in NON_HELD: continue
+        if r.get('event_kind') in NON_HELD or r.get('appointment_map_excluded'): continue
         key, node = project(r)
         if node: nodes[key] = node
         if r.get('route_neutral'): continue

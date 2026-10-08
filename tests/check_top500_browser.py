@@ -29,7 +29,7 @@ async def main():
   assert await page.evaluate("""() => {
     const A=ATLAS.Arcs, incoming=A.arcs.map((a,i)=>({a,i})).filter(({a})=>
       a[3]==='kgp_col1918-p704b7' && a[2]==='Q3557236');
-    return incoming.length===2 && incoming.every(({a,i})=>a[0]===1914 && a[5] && A.hl.includes(i));
+    return incoming.length===1 && incoming.every(({a,i})=>a[0]===1914 && a[1]==='Q2660774@Q41547' && !a[5] && A.hl.includes(i));
   }""")
   # Verify actual canvas rendering, not just a marker or an array entry.
   assert await page.evaluate("""() => {
@@ -37,11 +37,14 @@ async def main():
     const p=ATLAS.App.places['Q3557236'], target=A.map.latLngToContainerPoint([p.lat,p.lon]);
     let end=null, drawn=0;
     ctx.quadraticCurveTo=function(cx,cy,x,y){end=[x,y];return curve.call(this,cx,cy,x,y);};
-    ctx.stroke=function(){if(end && Math.abs(end[0]-target.x)<1 && Math.abs(end[1]-target.y)<1 && this.getLineDash().length)drawn++;return stroke.call(this);};
+    ctx.stroke=function(){if(end && Math.abs(end[0]-target.x)<1 && Math.abs(end[1]-target.y)<1 && !this.getLineDash().length)drawn++;return stroke.call(this);};
     try {A.draw();} finally {ctx.stroke=stroke;ctx.quadraticCurveTo=curve;}
-    return drawn===2;
+    return drawn===1;
   }""")
   assert 'Dashed:' in await page.locator('.route-legend').inner_text()
+  assert await page.evaluate("!ATLAS.App.careers.persons['kgp_col1918-p704b7'].st.some(s=>s[0]==='Q1930@place')")
+  await page.locator('details summary').click()
+  assert 'Conference participation' in await page.locator('#reg-body').inner_text()
   await page.screenshot(path='/tmp/cameron-africa.png',full_page=False)
   for pid,needle in [('kgp_col1906-p730b6','Prince Albert (Cape)'),('kgp_col1932-p883b6','Belfast (Transvaal)'),('kgp_col1886-p405b4','Alexandria (Cape)')]:
    await page.evaluate('(pid)=>ATLAS.App.selectPerson(pid)',pid)
@@ -74,7 +77,7 @@ async def main():
   await page.wait_for_function("document.querySelector('#rank-1').open")
   await page.screenshot(path='/tmp/top500-review-desktop.png',full_page=False)
   assert not errors,errors
-  print('Ford, homonyms, composite withdrawal, tour, mobile resize, 500 review rows, search and deep links passed; no browser errors.')
+  print('Cameron: Ottawa retained in text, temporary Windward posting mapped, solid Gambia arc rendered. Ford, homonyms, composite withdrawal, tour, mobile resize, 500 review rows, search and deep links passed; no browser errors.')
   await browser.close()
 
 if __name__=='__main__':asyncio.run(main())

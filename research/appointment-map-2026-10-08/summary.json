@@ -1,0 +1,13 @@
+{
+  "policy": "Map substantive and temporary appointments. Preserve explicit conference participation and travel in written records without using them as map stops or route breaks. Retain temporary staff and special-duty assignments. Rules do not resolve every ambiguous event type.",
+  "counts": {
+    "kg": {
+      "excluded_events": 603,
+      "acting_events_retained": 20163
+    },
+    "iol": {
+      "excluded_events": 165,
+      "acting_events_retained": 15562
+    }
+  }
+}

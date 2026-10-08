@@ -178,7 +178,7 @@ def build_careers_search(canon):
             ri = intern_role(r.get('role_id'), r.get('role_label'), r.get('position_raw'))
             if not key:
                 reason = ('electoral defeat; not an appointment' if r.get('event_kind') == 'electoral_defeat'
-                          else r.get('location_note') or ('undated event' if not y0 else 'location unresolved'))
+                          else r.get('appointment_map_note') or r.get('location_note') or ('undated event' if not y0 else 'location unresolved'))
                 unplaced[pid].add((y0, y1, r.get('role_label') or r.get('position_raw') or '',
                                   r.get('place_raw') or r.get('place_label') or '', reason))
             else:
@@ -301,6 +301,8 @@ def build_tours():
 # ----------------------------------------------------------------
 def main():
     subprocess.run(["python3", "kg_apply_historical_fixups.py"], cwd=ROOT, check=True)
+    from appointment_scope import write_audit
+    write_audit()
     run_transfers()
     co = json.load(open("/tmp/transfers.json"))
     io = json.load(open("/tmp/iol_transfers.json"))

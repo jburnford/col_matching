@@ -6,6 +6,7 @@ from historical_geography import correct_event
 from reviewed_careers import NON_HELD
 
 ROOT = Path(__file__).resolve().parent
+MAP_FIELDS = {'appointment_map_excluded', 'appointment_map_note'}
 
 
 def main():
@@ -27,10 +28,18 @@ def main():
                     if event and name == 'role_edges' and fixed.get('event_kind') in NON_HELD:
                         changed += 1
                         continue  # this is not a HELD_ROLE assertion
-                    if event and (fixed != event or fixed.get('historical_corrections')):
+                    if event and name != 'role_edges':
+                        for key in ('appointment_map_excluded', 'appointment_map_note'):
+                            if key in fixed:
+                                row[key] = fixed[key]
+                            else:
+                                row.pop(key, None)
+                    source_changed = event and ({k: v for k, v in fixed.items() if k not in MAP_FIELDS} !=
+                                                {k: v for k, v in event.items() if k not in MAP_FIELDS})
+                    if event and (source_changed or fixed.get('historical_corrections')):
                         keys = ('place_qid', 'place_label', 'colony_qid', 'colony_label',
                                 'grounded', 'year_start', 'year_end', 'date_uncertain', 'mobility_excluded', 'route_order', 'route_neutral', 'event_kind', 'location_note',
-                                'historical_corrections', 'role_id', 'role_label')
+                                'appointment_map_excluded', 'appointment_map_note', 'historical_corrections', 'role_id', 'role_label')
                         for key in keys:
                             if key in fixed and (name != 'role_edges' or key in
                                     ('role_id', 'role_label', 'year_start', 'year_end', 'historical_corrections')):

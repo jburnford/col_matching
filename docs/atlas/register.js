@@ -19,7 +19,7 @@
       const moved = (m.movers.co + m.movers.io);
       this.body.innerHTML = `
         <div class="reg-h">The personnel of empire</div>
-        <p class="reg-lede">Two civil services ran the British Empire. This atlas connects dated locations in officials’ careers. Each arc is an inferred corridor; solid lines follow dated sequences; dashed lines show possible connections where the order or intervening locations are unresolved.</p>
+        <p class="reg-lede">Two civil services ran the British Empire. This atlas connects appointments, including acting and temporary postings. Conference visits remain in the written record. Each arc is an inferred corridor; solid lines follow dated sequences; dashed lines show possible connections where the order or intervening locations are unresolved.</p>
         <div class="stat-row">
           <div class="stat"><b>${m.roster.total.toLocaleString()}</b><span>officials, ${m.yearRange[0]}–${m.yearRange[1]}</span></div>
           <div class="stat"><b>${moved.toLocaleString()}</b><span>have ordered corridors</span></div>
@@ -85,7 +85,7 @@
     unplacedRows(rec) {
       if (!rec || !(rec.un || []).length) return '';
       return `<details class="ros-note"><summary>${rec.un.length} other recorded events</summary>
-        <p>These remain in the record. Unresolved locations are not assigned to another posting.</p>
+        <p>These remain in the written record. Conference visits and other travel are not mapped as appointments; unresolved locations are not assigned to another posting.</p>
         <ul>${rec.un.map(([y0, y1, role, place, reason]) =>
           `<li><b>${y0 || 'Undated'}${y1 && y1 !== y0 ? '–' + y1 : ''}</b>: ${esc(role)}${place ? ' — ' + esc(place) : ''}. <em>${esc(reason)}</em></li>`).join('')}</ul></details>`;
     },

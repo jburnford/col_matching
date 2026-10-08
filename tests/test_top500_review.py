@@ -75,17 +75,17 @@ class Top500Tests(unittest.TestCase):
         self.assertEqual([(a['from'],a['to']) for a in arcs],[('a','b'),('b','c')])
         self.assertIn('unlocated',arcs[0]['uncertain'])
         self.assertNotIn('uncertain',arcs[1])
-    def test_cameron_gambia_incoming_connections_survive_1912_ambiguity(self):
+    def test_cameron_conference_does_not_interrupt_temporary_appointments(self):
         rows=[];nodes={}
         for e in self.events(20):
             r=correct_event(e);key,node=project(r)
             if node:nodes[key]=node
-            if r.get('event_kind') in NON_HELD or r.get('route_neutral'):continue
+            if r.get('event_kind') in NON_HELD or r.get('route_neutral') or r.get('appointment_map_excluded'):continue
             rows.append((r['year_start'],r['seq'],key,r.get('route_order')))
         arcs=list(ordered_arcs('cameron',rows,nodes))
         incoming=[a for a in arcs if a['to']=='Q3557236']
-        self.assertEqual({a['from'] for a in incoming},{'Q2660774@Q41547','Q1930@place'})
-        self.assertTrue(all(a['yr']==1914 and a.get('uncertain') for a in incoming))
+        self.assertEqual({a['from'] for a in incoming},{'Q2660774@Q41547'})
+        self.assertTrue(all(a['yr']==1914 and not a.get('uncertain') for a in incoming))
     def test_ford_complete_reviewed_sequence(self):
         rows=[];nodes={}
         for e in self.events(1):

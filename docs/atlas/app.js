@@ -3,7 +3,7 @@
    search.json are lazy-loaded on first person interaction / search focus. */
 (function (ATLAS) {
   const DATA = 'data/';
-  const getJSON = f => fetch(DATA + f + '?v=20261008-route-uncertainty').then(r => { if (!r.ok) throw new Error(f + ' ' + r.status); return r.json(); });
+  const getJSON = f => fetch(DATA + f + '?v=20261008-appointments').then(r => { if (!r.ok) throw new Error(f + ' ' + r.status); return r.json(); });
 
   const App = {
     async boot() {
