@@ -35,12 +35,12 @@ Places, roles, organisations, schools and honours are grounded too: e.g. the CO
 graph resolves ~131k events to a Wikidata place QID and links 1,518 schools and
 20 honour types to Wikidata.
 
-For a **place-only historical gazetteer** with discrete years and source
-locators, run `python build_whg_gazetteer.py`. It prepares local WHG candidates,
-an export preview, and grouped review queues without including people or career
-networks. Follow with `python build_whg_tail_review.py` for frequency-aware tail
-diagnostics and source-image review packets. Rare places are retained. See
-[WHG preparation and evidence limits](docs/WHG_GAZETTEER.md).
+A **World Historical Gazetteer contribution** of every place named in the
+biographies (LP-TSV and Linked Places JSON, with printed variants, editions,
+dated attestation spans, Wikidata matches, AAT types and points; no people)
+is built by `python3 build_whg_gazetteer.py` after a one-off
+`python3 whg_fetch_wikidata.py`. `python3 build_whg_tail_review.py` adds
+rare-place review packets. See [WHG gazetteer](docs/WHG_GAZETTEER.md).
 
 ---
 

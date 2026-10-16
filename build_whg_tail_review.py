@@ -71,6 +71,15 @@ def risk_signals(place, aliases_to_qids):
     return signals
 
 
+def tail_view(place):
+    """Adapt a v2 places.jsonl record to the screening fields used here."""
+    return {"candidate_variants": sorted(set(place.get("printed_toponyms", {})) | ({place["title"]} if place.get("title") else set())),
+            "grounded_labels": [place["wikidata_label"]] if place.get("wikidata_label") else [],
+            "proposed_fclass": (place.get("fclasses") or [""])[0],
+            "direct_evidence_count": place.get("evidence_tiers", {}).get("same_clause", 0),
+            "temporal_screen_event_count": 0, "corpora": place.get("corpora", [])}
+
+
 def authority_bounds(entity):
     result = {}
     for prop, key in (("P571", "inception_years"), ("P576", "dissolution_years")):
@@ -134,27 +143,23 @@ def run(root, gazetteer, out, max_references=5, samples=3, image_config=None):
         expected = manifest["inputs"].get(str(path.relative_to(root)))
         if digest(path) != expected:
             raise ValueError("Graph changed; rebuild the gazetteer first")
-        for _, event in rows(path):
-            qid = event.get("place_qid")
-            if qid:
-                counts[qid] += 1
-                for field in ("year_start", "year_end"):
-                    if type(event.get(field)) is int:
-                        years[qid].add(event[field])
-    places = {p["qid"]: p for _, p in rows(gazetteer / "places.jsonl")}
-    for qid, place in places.items():
-        for name in place["candidate_variants"]:
-            aliases[norm(name)].add(qid)
+    raw_places = {p["id"]: p for _, p in rows(gazetteer / "places.jsonl")}
+    places, bounds_by_id = {}, {}
+    for pid, record in raw_places.items():
+        places[pid] = {**tail_view(record), "title": record["title"]}
+        counts[pid] = record["mentions"]
+        years[pid] = {y for ys in record["years_by_tier"].values() for y in ys}
+        bounds_by_id[pid] = {"inception_years": [record["authority_inception"]] if record.get("authority_inception") else [],
+                             "dissolution_years": [record["authority_dissolved"]] if record.get("authority_dissolved") else []}
+        for name in places[pid]["candidate_variants"]:
+            aliases[norm(name)].add(pid)
     tail = {q: p for q, p in places.items() if 1 <= counts[q] <= max_references}
     requested = collections.defaultdict(lambda: collections.defaultdict(list))
     for _, evidence in rows(gazetteer / "evidence.jsonl"):
-        if evidence["qid"] in tail and evidence["evidence_tier"] == "name_occurrence_only":
-            loc = evidence["source"]
+        loc = evidence.get("source")
+        if evidence["place_id"] in tail and loc and "char_start" in loc:
+            evidence["qid"] = evidence["place_id"]
             requested[loc["path"]][loc["line"]].append(evidence)
-    cache_path = root / "research/geography-2026-10-07/wikidata.json"
-    authority = json.loads(cache_path.read_text()) if cache_path.exists() else {}
-    if cache_path.exists():
-        inputs.append(cache_path)
     image_sources = json.loads(image_config.read_text()) if image_config else {"volumes": {}}
     if image_config:
         inputs.append(image_config)
@@ -170,14 +175,14 @@ def run(root, gazetteer, out, max_references=5, samples=3, image_config=None):
                 qid, raw = evidence["qid"], bio.get("raw_text") or ""
                 loc = evidence["source"]
                 start, end = loc["char_start"], loc["char_end"]
-                if raw[start:end] != evidence["printed_name"]:
+                if norm(raw[start:end]) != norm(evidence["printed_name"]):
                     raise ValueError("Source offsets no longer match evidence")
                 excerpt = clause_context(raw, start, end)
                 signature = hashlib.sha256(norm(excerpt).encode()).hexdigest()
                 record = stats[qid]
                 duplicate = signature in record["passages"]
                 record["passages"].add(signature)
-                record["publication_years"].add(evidence["publication_year"])
+                record["publication_years"].update(evidence.get("printed_in_editions") or [evidence["publication_year"]])
                 clause_years = {int(y) for y in re.findall(r"\b(?:1[5-9]\d\d)\b", excerpt)}
                 record["cooccurring_years"].update(clause_years)
                 if re.search(r"\b(educated|education|school|college|university|schl|educ|ed)\b", excerpt, re.I):
@@ -197,7 +202,7 @@ def run(root, gazetteer, out, max_references=5, samples=3, image_config=None):
     packets, reviews, ocr_requests = [], [], collections.defaultdict(list)
     for qid, place in sorted(tail.items()):
         stat = stats[qid]
-        bounds = authority_bounds(authority.get(qid, {}))
+        bounds = bounds_by_id[qid]
         questions = temporal_questions(years[qid], bounds)
         signals = risk_signals(place, aliases) + sorted(stat["context_signals"])
         if any(questions.values()):
@@ -213,7 +218,7 @@ def run(root, gazetteer, out, max_references=5, samples=3, image_config=None):
         priority = 10 * len(diagnostic) + (5 if counts[qid] == 1 else 1)
         record = {"qid": qid, "title": place["title"], "event_references": counts[qid],
                   "candidate_year_endpoints": sorted(years[qid]),
-                  "source_name_occurrences": place["name_occurrence_count"],
+                  "source_name_occurrences": counts[qid],
                   "distinct_excerpt_signatures": len(stat["passages"]),
                   "source_publication_years": sorted(stat["publication_years"]),
                   "source_clause_cooccurring_years_unverified": sorted(stat["cooccurring_years"]),

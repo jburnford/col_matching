@@ -67,13 +67,15 @@ class TailIntegration(unittest.TestCase):
             write("data/kg/graph_stage3/places.jsonl", [{
                 "place": "Ohakune", "label": "Ohakune", "qid": "Q2016369", "instance_of": ["town"]}])
             write("data/kg/graph_stage3/career_events.jsonl", [{
-                "place_qid": "Q2016369", "year_start": 1922, "person_id": "PRIVATE"},
-                {"place_qid": "Q2016369", "year_start": 1924, "person_id": "PRIVATE"}])
+                "place_qid": "Q2016369", "place_raw": "Ohakune", "year_start": 1922, "person_id": "kgp_col1933-p0b0"},
+                {"place_qid": "Q2016369", "place_raw": "Ohakune", "year_start": 1924, "person_id": "kgp_col1933-p0b0"}])
+            write("data/kg/llm_struct_corpus.stage3.jsonl", [{
+                "person_id": "kgp_col1933-p0b0", "attestations": ["col1933-p0b0", "col1934-p0b0"]}])
             provenance = {"doc": "col", "edition_year": 1933, "page": 0, "block": 0, "bbox": [1, 2, 3, 4]}
             exact_provenance = {**provenance, "block": 1, "bbox": [5, 6, 7, 8]}
             for edition in (1933, 1934):
                 write(f"data/kg/bios/col{edition}.jsonl", [{
-                    "edition_year": edition, "raw_text": "district officer, Ohakune, 1922",
+                    "bio_id": f"col{edition}-p0b0", "edition_year": edition, "raw_text": "district officer, Ohakune, 1922",
                     "events": [{"place": "Ohakune", "year_start": 1922,
                                 "text_span": "district officer, Ohakune, 1922"}],
                     "provenance": [provenance, exact_provenance]}])
@@ -83,7 +85,9 @@ class TailIntegration(unittest.TestCase):
                                         {"bbox": [5, 6, 7, 8], "text": "district officer, Ohakune, 1922"}]]))
             rules = root / "rules.json"
             rules.write_text(json.dumps({"version": 1, "place_decisions": {}}))
-            build(root, root / "gazetteer", rules)
+            identities = root / "identities.json"
+            identities.write_text(json.dumps({"version": 1}))
+            build(root, root / "gazetteer", rules, identities, root / "no-authority.json")
             summary = run(root, root / "gazetteer", root / "tail")
             self.assertEqual(summary["tail_places"], 1)
             self.assertEqual(summary["automatically_excluded"], 0)

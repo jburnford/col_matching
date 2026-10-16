@@ -1,144 +1,120 @@
-# Place-only WHG preparation
+# WHG gazetteer: every place in the biographies
 
 Run from the repository root:
 
 ```sh
-python build_whg_gazetteer.py
-python -m unittest discover -s tests -p test_whg_gazetteer.py -v
+python3 whg_fetch_wikidata.py          # once; incremental. Caches data/whg/wikidata_places.json
+python3 build_whg_gazetteer.py         # → out/whg/ (ignored)
+python3 build_whg_tail_review.py       # optional rare-place review packets → out/whg-tail/
+python3 -m unittest discover -s tests -p 'test_whg*.py' -v
 ```
 
-The default output directory is `out/whg/` (ignored by Git). This is an offline
-preparation pipeline; it does not contact WHG or publish anything. Inputs and
-outputs have SHA-256 fingerprints. An unchanged rerun reuses intact artifacts;
-changed inputs or damaged outputs trigger a rebuild. Use `--force` to rebuild.
-
-## Scope and evidence
-
-The contribution is places and years. There are no person records, personal
-identifiers, role fields, appointments, or career networks in its outputs.
-Internal source file/line and event-index locators allow an auditor to retrieve
-the original passage. They refer to historical biographical sources, but those
-biographies are not copied into the export.
-
-For the upstream models and transformations, see
-[OCR and parsing provenance](OCR_AND_PARSING.md), including the reported
-Chandra 2 OCR, legacy olmOCR route, deterministic parsing, and Qwen/Gemini
-model configurations. The WHG build's file hashes do not substitute for missing
-OCR checkpoint and parser-run metadata.
-
-Existing grounded place tables provide **candidate identities**, not a validated
-gazetteer. Identical Wikidata IDs are provisionally grouped across both corpora;
-incorrect conflations must be corrected upstream before a release. IDs use
-`imperial-places:Q…`; preserve an ID crosswalk if identities are later split.
-
-The pipeline keeps three evidence levels separate:
-
-1. **Merged event candidates:** existing explicit `place_qid` and discrete start
-   years. No fallback to `colony_qid`, which can be inferred or inconsistent.
-2. **Name occurrences:** a token-based multi-pattern matcher scans source text
-   once using the place-name vocabulary. These are retrieval candidates only:
-   Victoria or Washington may refer to a person, not a location. Source character
-   offsets recover the exact original string. No historical year is inferred.
-3. **Explicit place/year source candidates:** a source-specific parsed event must
-   have a non-inherited place, a full historical year no later than the edition,
-   and a passage corroborated in raw text containing both. Normalization ignores
-   case/punctuation, preserves word boundaries, and does not expand abbreviations.
-   The printed place must map to one candidate QID in that corpus. This supports
-   the extraction; it does not independently establish geographic identity.
-
-Only the third level supplies the initial WHG preview. Publication years and
-historical years remain separate. Earliest/latest mentions never become an
-asserted place lifespan, and gaps are not filled. Missing raw India Office
-biographies are reported rather than replaced with merged edition lists.
-
-Place types are proposals derived from existing labels. Multiple competing
-classes remain unresolved. Geometry is deliberately absent: atlas capital and
-regional plotting points are not automatically valid gazetteer geometries.
-
-## Outputs
+The build is offline. It writes a [World Historical Gazetteer](https://whgazetteer.org)
+contribution covering **every location named in the career biographies** of the
+Colonial Office and India Office Lists, in both upload formats:
 
 | File | Purpose |
 | --- | --- |
-| `places.jsonl` | One candidate per QID, discrete years, variants, status rules, source examples, and issues |
-| `evidence.jsonl` | Streaming source ledger with separate evidence tiers, dates, and locators |
-| `review.tsv` | One row per candidate identity, with counts, issue codes, and a priority score |
-| `review-groups.json` | Issue-based queues ordered by affected evidence/event counts |
-| `unresolved-names.json` | Unmapped or ambiguous explicit names grouped across repeated passages |
-| `whg-preview.tsv` | LP-TSV-shaped preview of directly corroborated names with proposed types |
-| `whg-ready.tsv` | The subset with explicit identity approval and type decisions |
-| `report.json` | Coverage, exclusion counts, and limitations |
-| `manifest.json` | Reproducibility fingerprints |
+| `whg-places.tsv` | LP-TSV 0.5: one row per place with title, source, years, feature class, AAT type, Wikidata match, printed variants, parent, point, description |
+| `whg-places.lpf.json` | Linked Places Format 1.3: same places with per-name citations (up to five editions) and timespans |
+| `places.jsonl` | Full per-place record: evidence tiers, identity methods, printed toponyms, years by tier, authority dates, review issues |
+| `evidence.jsonl` | One line per place mention: printed name, historical year, identity method, evidence tier, source locator (biography file/line/offsets) and every edition that printed it |
+| `review.tsv` | Per-place review queue with issue codes |
+| `excluded-mentions.tsv` | Every place string *not* exported, with a reason (office, campaign, generic word, unexpanded abbreviation, descriptive phrase, non-place entity) |
+| `report.json` / `manifest.json` | Counts and SHA-256 fingerprints of inputs and outputs |
 
-The simple TSV uses a real source publication year for its selected title. The
-ledger preserves all source and historical years. Variants use `@und` because
-the language of a name is not inferred merely from the language of the book.
-Names containing TSV structural characters or obvious stray quote/bracket
-delimiters are held back from the table but retained verbatim in the evidence.
-Clean variants for the same place remain eligible. Rich per-name dates,
-source citations, and imperial relationships need a subsequent Linked Places
-JSON mapping; these sidecars must not be discarded when preparing that release.
-Neither preview nor ready output is claimed to have passed WHG's online validator.
+No people, roles, or careers appear in the TSV, LPF, or `places.jsonl`.
+Evidence locators point into the biography files for audit.
+
+## Where the places come from
+
+The spine is the published career graphs (`data/{kg,iol}/graph_stage3/career_events.jsonl`).
+Every event that names a place is resolved to exactly one outcome, in order:
+
+1. **Graph grounding** — the event's reviewed `place_qid` (context-resolved
+   homonyms such as Victoria or Perth stay as the graph resolved them).
+2. **Period rules** — `config/whg_place_identities.json` maps names whose entity
+   changed with time (Transvaal, Natal, Cape, South Africa, Sind, Assam, Central
+   Provinces, Iraq) to the period-correct entity by event year. These are the
+   mentions an earlier review nulled as "jurisdiction outside period".
+3. **Surface rules** — curated aliases and OCR repairs (`Kong` → Hong Kong).
+4. **Graph surface vote** — the QID the graph assigns the same printed name in
+   the same corpus, when one QID has ≥80% of the votes.
+5. **Grounding tables** — `data/{kg,iol}/places_grounding.jsonl`, same corpus first.
+6. **Composites** — `Natal and Hong Kong`, `S.S. and F.M.S.` are split and each
+   part resolved; `S. African museum, Capetown` keeps Capetown.
+7. **Exclusions** — offices and departments, campaigns, generic words (`Union`,
+   `various stations`), unexpanded initialisms (`N.S.`, `C.A.`), lower-case
+   descriptive phrases, and graph QIDs whose Wikidata classes are organisations
+   (India Office). Each is listed in `excluded-mentions.tsv`.
+8. **Name-only places** — everything else becomes a place without an authority
+   match (`Pusa`, `Dandagamuwa`, `Krobo`). WHG reconciliation can propose a match.
+
+Local places (`ip-local-…`) are used where no period-correct Wikidata item
+exists (Assam before the 1905 partition).
+
+### Name-only homonyms
+
+A name-only record takes its context from the person's nearest posting with a
+colony. Contexts are grouped at country level (Wikidata P17, ignoring the UK
+umbrella), so Raj provinces fold together but Crown colonies stay separate:
+`St. Thomas` in Jamaica and in Barbados become two records. The context becomes
+`parent_name`/`parent_id` (LPF relation `gvp:broaderPartitive`, certainty
+`less-certain`), flagged `parent_inferred_from_career_context`.
+
+## Evidence tiers
+
+Each mention is searched in **every edition** of the person's printed biography
+(the `attestations` of the structured corpus), not only the edition the model read:
+
+- `same_clause` — the printed name and the full event year occur in one clause.
+- `printed` — the name is printed but the year is not in the same clause
+  (e.g. a place carried forward from an earlier clause, or an abbreviated year).
+- `structured_only` — the name was not found as printed (model normalisation,
+  OCR damage, or a merged-away biography).
+
+Years in the export come from the strongest tier that has any years. Variants
+and citations come only from names actually found in the text. Normalisation
+ignores case and punctuation and does not expand abbreviations.
+
+## Export decisions
+
+- **Title**: the most-attested printed toponym (strongest tier first);
+  `title_source` and `attestation_year` are the first edition that printed it
+  (e.g. `Colonial Office List (1913)`, `India Office List (July 1885)`). If no
+  printed form survives, the Wikidata label is used with `title_source=Wikidata`.
+- **start/end**: earliest and latest dated career references to the place —
+  an attestation span, not the place's lifespan. Years outside the Wikidata
+  entity's inception/dissolution (±1) are kept out of the span and flagged
+  `years_outside_authority_entity_dates`.
+- **fclasses / aat_types / types**: from the Wikidata P31 classes; AAT IDs come
+  from P1014 on the class or its nearest superclass (≤3 hops). WHG reports that
+  feature classes are not yet searchable and AAT types are preferred, so both
+  are given. Name-only places get a feature class from their name
+  (`district` → A, `river` → H, `valley` → T, `prison` → S, else P) and are flagged.
+- **Geometry**: the Wikidata P625 point (`geo_source=Wikidata`), or a curated
+  point for local places. Atlas plotting seats are never used.
+- **Variants**: other printed forms, cleaned of OCR edge furniture (`. Cyprus`,
+  `Kedah &`), tagged `@en` (English-language usage in an English publication).
+- **IDs**: `ip-Q…`, `ip-local-…`, `ip-name-…`; LPF `@id` prefixes
+  `https://jimclifford.ca/col_matching/whg/places/`. Keep a crosswalk if a
+  Wikidata identity is later split.
 
 ## Imperial relationship rules
 
-`config/whg_rules.json` holds explicit entity-and-period rules with citations.
-Allowed statuses are `british_empire`, `outside_british_empire`,
-`mixed_or_contested`, and `unknown`. Unmatched years remain unknown. Conflicting
-rules produce mixed/contested status. Rule application to merged candidate years
-is explicitly separate from application to corroborated historical years.
+`config/whg_rules.json` holds explicit entity-and-period status rules with
+citations (`british_empire`, `outside_british_empire`, `mixed_or_contested`,
+`unknown`). They are recorded per year in `places.jsonl`, not exported to WHG.
+No status is inherited from a modern country or a graph colony label.
 
-The seed rule classifies Washington, DC (`Q61`) as outside the British Empire
-for 1801–1966, based on its US federal-capital status documented by the
-[National Archives](https://www.archives.gov/research/district-of-columbia).
-These are deliberately bounded operational dates, not a founding/dissolution
-claim. The rule does not resolve the identity of every printed “Washington.”
-No status is inherited from a present-day country or a graph colony label.
-Metropolitan Britain, dominions, mandates, protectorates, and disputed periods
-need a documented classification policy before expanding the rule table.
+## Known limits
 
-## Approval and reducing review at scale
-
-`place_decisions` starts empty. An identity decision can be recorded as:
-
-```json
-{
-  "Q61": {
-    "approved": true,
-    "evidence": "URI or local audit record of an independent identity check",
-    "fclass": "P",
-    "title": "Washington"
-  }
-}
-```
-
-This is an example, not a pre-approved decision. A chosen title must occur in
-direct source evidence. Approval alone cannot manufacture missing source data.
-Imperial status may remain unknown without blocking a useful place record.
-
-The first pass intentionally does **not** auto-approve the existing Wikidata
-grounding. A scalable next stage should:
-
-1. Retrieve authority candidates once per identity/name/context group, caching
-   request, response, service version, and source lineage. WHG/Wikidata agreement
-   is not independent corroboration if both derive from the same data.
-2. Resolve retrieved passages using geographic context and entity type, including
-   person-name versus place-name ambiguity. A language model may propose the
-   interpretation, but must return source offsets and candidate IDs; unsupported
-   names, dates, or citations fail deterministic checks.
-3. Calibrate automatic acceptance on a stratified historical-geography sample;
-   separately measure identity, date-linkage, and source precision. Keep a held-out
-   set and audit a random sample of automatically accepted cases.
-4. Save accepted decisions and scoped reusable rules. Rerun only affected groups
-   in a later incremental implementation. The current cache works per complete
-   build, not per claim or remote API request.
-5. Review high-impact ambiguous groups and a random accepted sample near release,
-   rather than inspecting every mention. Existing temporal flags are candidates,
-   not verified errors; the pipeline groups the saved screen by place identity.
-
-The present implementation supplies extraction, retrieval, provenance, grouping,
-and export safeguards. Authority reconciliation, calibrated automatic acceptance,
-complete imperial-status coverage, source recovery for India Office records,
-and the rich Linked Places export remain additional stages.
+- Graph identities are the project's reviewed grounding, not independent
+  verification; homonym and period errors fixed upstream flow through on rebuild.
+- Name-only places have no geometry until reconciled.
+- Abbreviations held as `unexpanded_abbreviation` (`N.S.`, `T.W.I.`) need a
+  context-aware expansion pass before they can join the gazetteer.
+- Nothing has been uploaded to WHG or run through its validator.
 
 ## Tail diagnostics and image-review handoff
 
@@ -148,9 +124,10 @@ python build_whg_tail_review.py
 python -m unittest discover -s tests -p 'test_whg*.py' -v
 ```
 
-The tail step defaults to **one to five structured event references per QID**;
-change this with `--max-event-references`. Event counts include repeated and
-merged graph records and are not independent witnesses. The step retains every
+The tail step defaults to **one to five place mentions per gazetteer record**
+(Wikidata, local or name-only); change this with `--max-event-references`.
+Mention counts include repeated and merged graph records and are not
+independent witnesses. The step retains every
 tail candidate, whether or not a source is retrievable. It does not modify the
 gazetteer, approve an identity, or exclude a rare place.
 
@@ -215,15 +192,12 @@ to the packet and image actually inspected. An unreadable image or ambiguous
 entity should produce abstention. Schema conformance alone is not evidence that
 an image was read, and reviews do not automatically change public data.
 
-### Current environment limits
+### Source images
 
-The checked workspace has Colonial Office OCR JSON and source biographies but
-no source PDFs/page images, no raw India Office HTML/markdown tree, and no
-upstream OCR execution manifests. Visual transcription, full India Office
-source verification, and attribution of OCR batches to Chandra 2 versus
-Infinity/Infinity-2 remain blocked by those missing artifacts. Existing local
-authority caches supply screening questions; calibrated independent authority
-reconciliation and rich Linked Places export are still additional stages.
-
-The committed [16 October preparation snapshot](../research/whg-preparation-2026-10-16/README.md)
-contains aggregate results, an excerpt-free tail queue, and reproduction hashes.
+Page images are not in this checkout. The Colonial Office OCR (`raw_ocr/json/`,
+mirrored at `~/plato/colonial_office_lists/`) is of Google Books scans. Chandra 2
+job scripts (`datalab-to/chandra-ocr-2`) are in `~/plato/chandra/`, but no
+per-edition run log is kept with the OCR output.
+India Office raw OCR is under the ignored `iol_ocr_1860-1940/` and its parsed
+biographies under the ignored `data/iol/bios/`; a clone without them builds the
+Colonial Office half of the evidence only.

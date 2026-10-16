@@ -1,0 +1,43 @@
+{
+  "pipeline_version": 2,
+  "counts": {
+    "events_without_place": 58623,
+    "excluded:campaign_or_noise": 335,
+    "excluded:descriptive_phrase": 1364,
+    "excluded:generic_or_non_place_term": 1906,
+    "excluded:institution_or_office": 10757,
+    "excluded:non_place_entity": 66,
+    "excluded:unexpanded_abbreviation": 412,
+    "export_local": 1,
+    "export_name": 6488,
+    "export_places": 8609,
+    "export_wd": 2120,
+    "iol_events": 124694,
+    "iol_place_mentions": 94409,
+    "issue:attestation_year_from_biography_edition": 28,
+    "issue:feature_class_from_name": 6500,
+    "issue:multiple_authority_coordinates": 113,
+    "issue:no_authority_match": 6488,
+    "issue:no_geometry": 6585,
+    "issue:not_found_in_source_text": 409,
+    "issue:parent_inferred_from_career_context": 5996,
+    "issue:title_needs_punctuation_review": 16,
+    "issue:title_not_printed_in_source": 425,
+    "issue:years_outside_authority_entity_dates": 250,
+    "kg_events": 180470,
+    "kg_place_mentions": 152132,
+    "tier:printed": 114818,
+    "tier:same_clause": 118795,
+    "tier:structured_only": 3652,
+    "toponyms_held_for_punctuation": 23
+  },
+  "scope": "Every place mention in both career graphs; no people or career networks in exports.",
+  "notes": [
+    "Graph place_qid identities are the reviewed career-graph grounding; others via config/whg_place_identities.json and the project's grounding tables.",
+    "Name-only places have no authority match yet; WHG reconciliation can propose one.",
+    "Years are the span of dated career references printed in the Lists, not place lifespans.",
+    "Excluded mentions are listed with reasons in excluded-mentions.tsv; nothing is dropped silently.",
+    "Geometry is the Wikidata point (or a curated local point), never an atlas plotting seat.",
+    "No network calls, WHG upload, or publication performed by this build."
+  ]
+}

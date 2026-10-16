@@ -1,5 +1,9 @@
 # Place-only WHG preparation snapshot — 16 October 2026
 
+> **Superseded** by the [v2 gazetteer snapshot](../whg-gazetteer-2026-10-16/README.md).
+> This v1 run drew direct evidence only from the rules parser's colony-level
+> `place` field, so it reached 151 of 2,126 candidates. Kept for the record.
+
 This snapshot records automated preparation and text-based triage, not a
 validated gazetteer or an image-reviewed release. Nothing has been uploaded to
 WHG. Candidate identities are inherited from existing grounding and need

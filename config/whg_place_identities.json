@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "description": "Identity rules for printed place names the career graph left without a QID. Applied only to mentions with no graph place_qid. Periods are half-open [start, end) on the event year. QIDs come from the project's reviewed grounding tables (data/*/places_grounding.jsonl) or wd-mcp vector search (2026-10-16); local places have no adequate period-correct Wikidata entity.",
+  "period_identities": [
+    {
+      "surfaces": [
+        "Transvaal",
+        "T'vaal"
+      ],
+      "periods": [
+        {
+          "start": 1852,
+          "end": 1902,
+          "qid": "Q550374",
+          "note": "South African Republic"
+        },
+        {
+          "start": 1902,
+          "end": 1910,
+          "qid": "Q1187978",
+          "note": "Transvaal Colony"
+        },
+        {
+          "start": 1910,
+          "end": 1995,
+          "qid": "Q190959",
+          "note": "Transvaal Province"
+        }
+      ]
+    },
+    {
+      "surfaces": [
+        "Natal"
+      ],
+      "periods": [
+        {
+          "start": 1839,
+          "end": 1843,
+          "qid": "Q1029847",
+          "note": "Natalia Republic (wd-mcp)"
+        },
+        {
+          "start": 1843,
+          "end": 1910,
+          "qid": "Q1301901",
+          "note": "Colony of Natal"
+        },
+        {
+          "start": 1910,
+          "end": 1995,
+          "qid": "Q917867",
+          "note": "Natal Province"
+        }
+      ]
+    },
+    {
+      "surfaces": [
+        "Cape",
+        "Cape Prov.",
+        "Cape Province",
+        "Cape of Good Hope",
+        "C. of G. H.",
+        "C. of G.H.",
+        "Cape Colony",
+        "Cape colonial",
+        "Cape Col."
+      ],
+      "periods": [
+        {
+          "start": 1795,
+          "end": 1910,
+          "qid": "Q370736",
+          "note": "Cape Colony"
+        },
+        {
+          "start": 1910,
+          "end": 1995,
+          "qid": "Q849164",
+          "note": "Cape Province"
+        }
+      ]
+    },
+    {
+      "surfaces": [
+        "S. Africa",
+        "South Africa",
+        "S. Afr.",
+        "Union of S. Africa",
+        "U. of S. Africa",
+        "Union of South Africa"
+      ],
+      "periods": [
+        {
+          "start": 1500,
+          "end": 1910,
+          "qid": "Q27394",
+          "note": "Southern Africa region (wd-mcp); before Union a printed 'S. Africa' is regional"
+        },
+        {
+          "start": 1910,
+          "end": 1961,
+          "qid": "Q193619",
+          "note": "Union of South Africa"
+        }
+      ]
+    },
+    {
+      "surfaces": [
+        "Sind",
+        "Scinde",
+        "Sindh",
+        "Sind district",
+        "lower Sind"
+      ],
+      "periods": [
+        {
+          "start": 1843,
+          "end": 1936,
+          "qid": "Q7522081",
+          "note": "Sind Division of Bombay Presidency (wd-mcp)"
+        },
+        {
+          "start": 1936,
+          "end": 1956,
+          "qid": "Q7522091",
+          "note": "Sind Province"
+        }
+      ]
+    },
+    {
+      "surfaces": [
+        "Assam",
+        "Assam Valley districts",
+        "Assam Valley district",
+        "Assam valley districts",
+        "Assam Valley Districts"
+      ],
+      "periods": [
+        {
+          "start": 1500,
+          "end": 1905,
+          "local": "assam-pre-1905",
+          "note": "No Wikidata item for pre-partition Assam (wd-mcp 2026-10-16); Assam Province Q17513379 starts 1912"
+        },
+        {
+          "start": 1905,
+          "end": 1912,
+          "qid": "Q4126447",
+          "note": "Eastern Bengal and Assam"
+        },
+        {
+          "start": 1912,
+          "end": 1948,
+          "qid": "Q17513379",
+          "note": "Assam Province"
+        }
+      ]
+    },
+    {
+      "surfaces": [
+        "Central Prov.",
+        "Cent. Provs.",
+        "Cent. Prov.",
+        "Central Provs.",
+        "Central Provinces",
+        "Cent. Provinces",
+        "C.P."
+      ],
+      "corpora": [
+        "iol"
+      ],
+      "periods": [
+        {
+          "start": 1861,
+          "end": 1936,
+          "qid": "Q521864",
+          "note": "Central Provinces"
+        },
+        {
+          "start": 1936,
+          "end": 1951,
+          "qid": "Q5061723",
+          "note": "Central Provinces and Berar"
+        }
+      ]
+    },
+    {
+      "surfaces": [
+        "Iraq",
+        "'Iraq"
+      ],
+      "periods": [
+        {
+          "start": 1500,
+          "end": 1920,
+          "qid": "Q11767",
+          "note": "Mesopotamia (region) before the mandate"
+        }
+      ]
+    }
+  ],
+  "surface_identities": {
+    "E. Bengal and Assam": {
+      "qid": "Q4126447"
+    },
+    "Eastern Bengal and Assam": {
+      "qid": "Q4126447"
+    },
+    "Turkish Arabia": {
+      "qid": "Q11767"
+    },
+    "F.M.S.": {
+      "qid": "Q1400154"
+    },
+    "Kong": {
+      "same_as": "Hong Kong",
+      "note": "OCR split of Hong Kong"
+    },
+    "Eng. Kong": {
+      "same_as": "Hong Kong",
+      "note": "OCR: 'Eng., Hong Kong'"
+    },
+    "Hong ng": {
+      "same_as": "Hong Kong",
+      "note": "OCR"
+    },
+    "Irak": {
+      "same_as": "Iraq",
+      "note": "variant spelling"
+    },
+    "Cent. Prov.": {
+      "same_as": "Central Province, Ceylon",
+      "corpora_note": "CO usage is Ceylon"
+    },
+    "Mateking": {
+      "same_as": "Mafeking",
+      "note": "OCR"
+    },
+    "Kathia-war": {
+      "same_as": "Kathiawar",
+      "note": "hyphenated OCR/print form; not a war"
+    }
+  },
+  "local_places": {
+    "assam-pre-1905": {
+      "title": "Assam",
+      "fclass": "A",
+      "description": "Assam before the 1905 partition: part of Bengal Presidency until 1874, then a Chief Commissioner's province. No separate Wikidata item.",
+      "lon": 91.77,
+      "lat": 26.14,
+      "geo_source": "Approximate: Guwahati area, as for Assam Province (Q17513379)"
+    }
+  },
+  "non_place_terms": [
+    "(east)",
+    "(north)",
+    "(south)",
+    "(west)",
+    "abroad",
+    "at home",
+    "british",
+    "british empire",
+    "capital",
+    "central",
+    "city",
+    "coast",
+    "colonial",
+    "colonies",
+    "colonies and protectorates",
+    "colony",
+    "commonwealth",
+    "cross",
+    "danish",
+    "dependencies",
+    "dist",
+    "district",
+    "dominion",
+    "dutch",
+    "east",
+    "east coast",
+    "eastern",
+    "elsewhere",
+    "empire",
+    "english",
+    "field",
+    "french",
+    "front",
+    "general",
+    "german",
+    "gold",
+    "headquarters",
+    "hinterland",
+    "home",
+    "home stations",
+    "imperial",
+    "india and abroad",
+    "indian state",
+    "interior",
+    "italian",
+    "local",
+    "mainland",
+    "native",
+    "north",
+    "north)",
+    "northern",
+    "out-stations",
+    "outstations",
+    "overseas",
+    "portuguese",
+    "presidency",
+    "protectorate",
+    "prov",
+    "province",
+    "provinces",
+    "royal",
+    "settlement",
+    "settlements",
+    "south",
+    "southern",
+    "spanish",
+    "state",
+    "states",
+    "station",
+    "stations",
+    "territory",
+    "the colonies",
+    "the front",
+    "town",
+    "union",
+    "various stations",
+    "west",
+    "west coast",
+    "western"
+  ]
+}
