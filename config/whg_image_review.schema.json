@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WHG source-image review response (does not approve publication)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["packet_id", "reviewer", "image", "transcription", "geography"],
+  "properties": {
+    "packet_id": {"type": "string", "pattern": "^[a-f0-9]{24}$"},
+    "reviewer": {
+      "type": "object", "additionalProperties": false,
+      "required": ["model_or_human", "version", "reviewed_at"],
+      "properties": {
+        "model_or_human": {"type": "string", "minLength": 1},
+        "version": {"type": "string", "minLength": 1},
+        "reviewed_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "image": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_path_or_uri", "sha256", "pdf_page_index"],
+      "properties": {
+        "source_path_or_uri": {"type": "string", "minLength": 1},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "pdf_page_index": {"type": "integer", "minimum": 0}
+      }
+    },
+    "transcription": {
+      "type": "object", "additionalProperties": false,
+      "required": ["printed_place", "printed_dates", "legibility", "notes"],
+      "properties": {
+        "printed_place": {"type": ["string", "null"]},
+        "printed_dates": {"type": "array", "items": {"type": "string"}},
+        "legibility": {"enum": ["clear", "partly_readable", "unreadable"]},
+        "notes": {"type": "string"}
+      }
+    },
+    "geography": {
+      "type": "object", "additionalProperties": false,
+      "required": ["is_geographic", "candidate_qid", "confidence", "evidence"],
+      "properties": {
+        "is_geographic": {"enum": ["yes", "no", "uncertain"]},
+        "candidate_qid": {"anyOf": [{"type": "null"}, {"type": "string", "pattern": "^Q[0-9]+$"}]},
+        "confidence": {"enum": ["high", "medium", "low", "abstain"]},
+        "evidence": {"type": "string"}
+      }
+    }
+  }
+}

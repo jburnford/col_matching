@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "record_status": "unfilled_example_not_run_evidence",
+  "source": {
+    "title": null,
+    "edition": null,
+    "scan_uri": null,
+    "pdf_sha256": null,
+    "pages_processed": null
+  },
+  "ocr": {
+    "reported_model_name": null,
+    "candidate_model_names": ["Chandra 2", "Infinity / Infinity-2"],
+    "checkpoint_id": null,
+    "checkpoint_revision": null,
+    "processor_revision": null,
+    "runtime_versions": null,
+    "preprocessing": null,
+    "decoding_settings": null,
+    "hardware": null,
+    "run_id": null,
+    "run_date": null,
+    "job_log_uri": null,
+    "output_uri": null,
+    "output_sha256": null,
+    "source_locator_convention": null
+  },
+  "parsing_runs": [
+    {
+      "entry_point": null,
+      "code_commit": null,
+      "rules_version": null,
+      "model_checkpoint_and_revision": null,
+      "quantization": null,
+      "prompt_sha256": null,
+      "generation_settings": null,
+      "normalization_version": null,
+      "validation_version": null,
+      "input_sha256": null,
+      "output_sha256": null,
+      "error_and_retry_counts": null
+    }
+  ],
+  "evaluation": {
+    "transcription": null,
+    "parsing": null,
+    "geographic_resolution": null
+  }
+}

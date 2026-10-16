@@ -95,11 +95,16 @@
   <h2>How it was built</h2>
   <p>Work at this scale — tens of thousands of biographies across more than a century of editions —
     was possible because <b>Claude Code</b> orchestrated the pipeline end to end: running the
-    <b>Chandra 2</b> OCR model on the <b>Nibi cluster</b> (Digital Research Alliance of Canada),
+    OCR jobs on the <b>Nibi cluster</b> (Digital Research Alliance of Canada),
     driving local language models for the parsing, deduplication and entity-grounding, and building the
     interactive visualisation itself. What would once have been years of manual transcription and
     record linkage became a tractable solo project — a small illustration of how AI tooling is changing
     what a single historian can attempt.</p>
+
+  <p>OCR model attribution remains under verification: an earlier methods description named
+    Chandra 2, while several implementation descriptions name Infinity-2. Original run logs are needed to identify
+    the model for each batch. The repository also retains an older olmOCR processing route.
+    See the <a href="https://github.com/jburnford/col_matching/blob/master/docs/OCR_AND_PARSING.md">OCR and parsing provenance notes</a>.</p>
 
   <p>Building the visualisation was itself a core part of the method, not merely its output. Plotting
     careers on a map made errors legible that no table of numbers would surface — an official marooned
