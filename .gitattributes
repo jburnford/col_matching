@@ -1,0 +1,2 @@
+# Empty final TSV fields require trailing tabs; preserve the table structure.
+research/whg-preparation-2026-10-16/*.tsv whitespace=-blank-at-eol

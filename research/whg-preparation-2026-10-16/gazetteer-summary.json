@@ -1,0 +1,39 @@
+{
+  "pipeline_version": 1,
+  "counts": {
+    "direct_evidence_records": 93931,
+    "direct_source_candidate": 95739,
+    "inherited_place": 338415,
+    "iol_events": 124694,
+    "iol_events_without_explicit_place_qid": 45981,
+    "iol_source_files": 0,
+    "kg_events": 180470,
+    "kg_events_without_explicit_place_qid": 50017,
+    "kg_source_files": 70,
+    "missing_or_future_year": 10,
+    "missing_or_institution_place": 242483,
+    "name_occurrence_records": 821871,
+    "name_variants_held_from_export": 19,
+    "place_candidates": 2126,
+    "place_not_in_span": 111902,
+    "places_with_direct_evidence": 149,
+    "places_with_name_occurrences": 1499,
+    "preview_places": 131,
+    "ready_places": 0,
+    "short_ambiguous_name": 107,
+    "source_identity_unmapped": 1808,
+    "temporal_screen_place_groups": 128,
+    "uncertain_event_years": 6,
+    "unresolved_name_groups": 31
+  },
+  "scope": "Place and year candidates only; no people or career networks.",
+  "limitations": [
+    "Existing Wikidata mappings are candidates, not independent verification.",
+    "Only explicit source spans with full historical years are included as direct evidence.",
+    "Source date/name co-occurrence corroborates extraction, not historical identity.",
+    "Absent source files, inherited places and abbreviated years are held back.",
+    "No atlas coordinates, modern-country status inheritance, or inferred lifespans.",
+    "LP-TSV is a preview; rich evidence and imperial status remain in JSONL sidecars.",
+    "No network calls, WHG upload, or publication performed."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Unfilled example. Paths must point to actual source scans. Page keys are zero-based PDF indices, not printed page numbers. Null coordinate space forbids assuming that OCR bbox units are image pixels.",
+  "volumes": {
+    "ColonialOfficeList1933.pdf": {
+      "pdf_path": null,
+      "page_images": {},
+      "bbox_coordinate_space": null
+    }
+  }
+}

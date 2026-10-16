@@ -35,6 +35,13 @@ Places, roles, organisations, schools and honours are grounded too: e.g. the CO
 graph resolves ~131k events to a Wikidata place QID and links 1,518 schools and
 20 honour types to Wikidata.
 
+For a **place-only historical gazetteer** with discrete years and source
+locators, run `python build_whg_gazetteer.py`. It prepares local WHG candidates,
+an export preview, and grouped review queues without including people or career
+networks. Follow with `python build_whg_tail_review.py` for frequency-aware tail
+diagnostics and source-image review packets. Rare places are retained. See
+[WHG preparation and evidence limits](docs/WHG_GAZETTEER.md).
+
 ---
 
 ## Quick start: load the graph
@@ -161,7 +168,12 @@ tagged GitHub release is archived to Zenodo and gets its own version DOI too
 The graph is the downstream product of a longer pipeline; you don't need any of
 it to *use* the data, but here is the lineage:
 
-1. **OCR** of the printed Lists (raw CO text is committed under `raw_ocr/`).
+1. **OCR** of the printed Lists. Model attribution remains unconfirmed between
+   **Chandra 2** and **Infinity/Infinity-2**; the repository also retains an
+   earlier olmOCR route. Raw layout-aware CO
+   artifacts are committed under `raw_ocr/`. Model attribution, parsing routes,
+   and missing run metadata are documented in
+   [OCR and parsing provenance](docs/OCR_AND_PARSING.md).
 2. **Person resolution** — the printed "Record of Services" biographies are
    segmented, deduplicated across editions, and compiled into per-person
    biographies with per-fact edition provenance (`col_match/services/`).

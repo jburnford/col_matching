@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "description": "Explicit entity rules only. No status inheritance from modern countries or the career graph's colony field.",
+  "imperial_relationships": [
+    {
+      "qid": "Q61",
+      "start": 1801,
+      "end": 1966,
+      "status": "outside_british_empire",
+      "source": "https://www.archives.gov/research/district-of-columbia",
+      "note": "Washington, DC: US federal capital. Bounds deliberately cover only the relevant historical corpus; 1801 is not a founding date. Does not resolve ambiguous occurrences of Washington."
+    }
+  ],
+  "place_decisions": {}
+}
