@@ -5,7 +5,7 @@
   "moves_after": 1936,
   "possible_connections": 4481,
   "event_rules": 368,
-  "changed_events": 3905,
+  "changed_events": 3906,
   "composites_withdrawn": 7,
   "sources_available": 10053,
   "method": "Fixed pre-review ranking by distinct directed corridors in the published atlas, descending; ties alphabetical, then person ID. All 500 geographic event sequences inspected in rank order. Selected primary sources checked for suspected errors. The map follows appointments, including acting and temporary service; explicit conference attendance and visits remain written events. Counts are inferred corridors, not verified physical journeys. Source-reviewed within-year order is retained. Unknown order and gaps generate separately counted dashed alternatives between recorded locations, not suppressed routes or additional confirmed journeys; unresolved identities and unaccepted appointments cannot generate moves.",

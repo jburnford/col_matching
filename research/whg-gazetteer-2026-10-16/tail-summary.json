@@ -1,36 +1,36 @@
 {
-  "candidate_places": 8610,
+  "candidate_places": 7958,
   "tail_max_event_references": 5,
-  "tail_places": 7192,
-  "tail_event_references": 10757,
+  "tail_places": 6555,
+  "tail_event_references": 9837,
   "frequency_distribution": {
-    ">100": 222,
-    "1": 5157,
-    "2-5": 2035,
-    "6-20": 777,
-    "21-100": 419
+    ">100": 221,
+    "1": 4700,
+    "2-5": 1855,
+    "6-20": 764,
+    "21-100": 418
   },
-  "places_with_source_examples": 6735,
-  "image_packets": 8304,
+  "places_with_source_examples": 6203,
+  "image_packets": 7694,
   "image_states": {
-    "awaiting_image": 8304
+    "awaiting_image": 7694
   },
-  "packets_with_name_aligned_ocr_block": 5910,
-  "packets_with_excerpt_aligned_ocr_block": 5750,
+  "packets_with_name_aligned_ocr_block": 5464,
+  "packets_with_excerpt_aligned_ocr_block": 5310,
   "signals": {
-    "name_maps_to_multiple_identities": 1418,
-    "historical_name_or_ocr_difference": 216,
-    "education_or_institution_context": 157,
-    "candidate_year_without_retrieved_clause_support": 1934,
-    "short_name": 185,
-    "candidate_year_outside_authority_entity_dates": 58,
-    "settlement_vs_administrative_area": 8,
-    "check_india_office_source_coverage": 1860,
-    "no_explicit_source_place_year_pair": 2067,
-    "ruler_or_polity_context": 12,
-    "no_retrieved_source_example": 457
+    "short_name": 180,
+    "historical_name_or_ocr_difference": 195,
+    "candidate_year_outside_authority_entity_dates": 60,
+    "candidate_year_without_retrieved_clause_support": 1728,
+    "settlement_vs_administrative_area": 7,
+    "check_india_office_source_coverage": 1727,
+    "name_maps_to_multiple_identities": 1093,
+    "no_explicit_source_place_year_pair": 1769,
+    "education_or_institution_context": 149,
+    "ruler_or_polity_context": 11,
+    "no_retrieved_source_example": 352
   },
-  "retained_tail_places": 7192,
+  "retained_tail_places": 6555,
   "automatically_excluded": 0,
   "automatically_approved": 0,
   "limits": [

@@ -165,7 +165,8 @@ class PipelineChecks(Fixture):
                          ["Assam", "Hong Kong", "Natal", "Natal", "Pusa", "Washington"])
         self.assertEqual(sorted(r["matches"] for r in table if r["title"] == "Natal"),
                          ["wd:Q1301901", "wd:Q917867"])
-        self.assertIn("Kong@en", rows["Hong Kong"]["variants"])
+        # The OCR alias counts as a Hong Kong mention but is not a name form.
+        self.assertNotIn("Kong@en", rows["Hong Kong"]["variants"])
         self.assertEqual(report["counts"]["excluded:institution_or_office"], 1)
         excluded = (self.out / "excluded-mentions.tsv").read_text()
         self.assertIn("Government of India", excluded)
@@ -211,8 +212,24 @@ class PipelineChecks(Fixture):
                                  "place_qid": "Q769779", "year_start": 1905}]
         self.write_rows("data/kg/graph_stage3/career_events.jsonl", events)
         report = self.build()
-        self.assertEqual(report["counts"]["excluded:non_place_entity"], 1)
+        self.assertEqual(report["counts"].get("excluded:non_place_entity", 0)
+                         + report["counts"].get("excluded:institution_or_office", 0), 2)
         self.assertNotIn("India Office", (self.out / "whg-places.tsv").read_text())
+
+    def test_department_label_naming_a_kingdom_is_not_a_place(self):
+        a = Authority(self.authority)
+        a.classes["Qd"] = {"label": "department of the United Kingdom Government", "aat": [], "parents": []}
+        a.classes["Qg"] = {"label": "botanical garden", "aat": [], "parents": []}
+        a.classes["Qh"] = {"label": "higher education institution", "aat": [], "parents": []}
+        a.entities["QIO"] = {"classes": ["Qd"]}
+        a.entities["QKEW"] = {"classes": ["Qg", "Qh"]}
+        self.assertTrue(a.non_place("QIO"))
+        self.assertFalse(a.non_place("QKEW"))
+
+    def test_abbreviated_titles_lose_to_full_printed_forms(self):
+        from build_whg_gazetteer import is_abbreviated
+        self.assertTrue(all(is_abbreviated(n) for n in ("Nig.", "H.K.", "B. Hond.", "S'pore")))
+        self.assertFalse(any(is_abbreviated(n) for n in ("St. Vincent", "St. John's", "Hong Kong")))
 
     def test_lpf_features_carry_citations_and_when(self):
         self.build()

@@ -12,20 +12,29 @@ Nothing has been uploaded to WHG or run through its validator. Method:
 | | |
 | --- | --- |
 | Place mentions in the two career graphs | 246,541 (152,132 CO + 94,409 IOL) |
-| Mentions exported as places | 237,265 |
-| — name and year printed in the same clause | 118,795 |
-| — name printed, year elsewhere | 114,818 |
-| — not found as printed (structured only) | 3,652 |
-| Mentions excluded, with reasons (`excluded-mentions.tsv`) | 14,840 (offices 10,757; generic words 1,906; descriptive phrases 1,364; unexpanded abbreviations 412; campaigns 335; non-place Wikidata entities 66) |
-| **Places exported** | **8,610** |
-| — Wikidata-matched | 2,121 (2,098 with AAT type, 2,024 with a point) |
+| Mentions exported as places | 234,541 |
+| — name and year printed in the same clause | 117,742 |
+| — name printed, year elsewhere | 113,367 |
+| — not found verbatim (parser-normalised; cites the biography edition) | 3,432 |
+| Mentions excluded, with reasons (`excluded-mentions.tsv`) | 17,507 (offices, departments and works 12,928; generic words 2,455; descriptive phrases 1,138; unexpanded abbreviations 362; campaigns 338; regiments 120; non-place Wikidata entities 107; routes 38; malformed strings 21) |
+| **Places exported** | **7,039** |
+| — Wikidata-matched | 2,108 (2,085 with AAT type, 2,015 with a point) |
 | — local (no period-correct Wikidata item) | 1 (Assam before 1905) |
-| — name-only, awaiting reconciliation | 6,488 |
-| Places with years outside their Wikidata entity's dates (kept out of the span, flagged) | 251 |
-| Rare places (1–5 mentions) in the tail review | 7,192; source examples for 6,735 |
+| — name-only, awaiting reconciliation | 4,930 (517 with a parent printed in the source) |
+| Name-only records held for review (`held-names.tsv`: single mention, abbreviations only) | 919 |
+| Places with years outside their Wikidata entity's dates (flagged) | 248 |
+| Rare places (1–5 mentions) in the tail review | 6,555; source examples for 6,203 |
 
 A mention can yield more than one place (composites such as *Natal and Hong
 Kong*), so exported + excluded exceeds the mention count.
+
+**Measured quality (16 Oct, after an independent review):** a seeded sample of
+80 name-only rows still contained about 13 that are not places (organisations
+such as *Calcutta Corporation*, fragments such as *Air*); further terms were
+added after that sample, but expect roughly one in ten name-only rows to need
+removal at reconciliation. Wikidata-matched titles contain no bare
+abbreviations (52 use the Wikidata label because only an abbreviation was
+printed).
 
 ## Examples
 
@@ -45,6 +54,7 @@ Kong*), so exported + excluded exceeds the mention count.
   citations to up to five editions, timespans, AAT types, closeMatch links).
 - `review.tsv` — per-place review queue and issue codes.
 - `excluded-mentions.tsv` — every place string not exported, with its reason.
+- `held-names.tsv` — name-only records held back (single mention, abbreviations only).
 - `report.json` — full counts.
 - `tail-review.tsv`, `tail-summary.json` — excerpt-free rare-place queue.
 - `reproduction-hashes.json` — input/output SHA-256.
@@ -66,13 +76,14 @@ without it only Colonial Office editions are searched.
 
 ## Before upload
 
-1. Review the 251 out-of-period flags. Many point to graph grounding to a
-   modern or umbrella entity (Ceylon after 1948); fix upstream and rebuild.
-   Pre-Confederation Canada was fixed this way: 146 career events now use
-   The Canadas (to 1840) or the Province of Canada (1841–66)
-   ([evidence](../canada-geography-2026-10-16.json)).
-2. Reconcile name-only places, by wd-mcp grounding of the most frequent ones or
-   WHG's reconciliation after upload.
-3. Expand held abbreviations (`N.S.`, `T.W.I.`, `C.A.`) using career context.
+1. Review the 248 out-of-period flags. Most are geographic places whose
+   Wikidata dates describe a modern state or district (closeMatch acceptable);
+   genuine identity errors go upstream. Fixed so far: pre-Confederation Canada
+   (146 events; [evidence](../canada-geography-2026-10-16.json)), New York
+   (colonial province → city) and D.W.W.I. (an office, not the Danish West
+   Indies) ([evidence](../geography-2026-10-16-fable-review.json)).
+2. Reconcile name-only places (wd-mcp for frequent ones, or WHG's reconciliation).
+3. Expand held abbreviations (`N.S.`, `T.W.I.`) and review `held-names.tsv`.
 4. Decide the public `@id` base (currently `https://jimclifford.ca/col_matching/whg/places/`).
-5. Upload privately to WHG and run its validator.
+5. Add citation, licence (CC0), contact and scan URIs; settle OCR attribution.
+6. Upload privately to WHG and run its validator.

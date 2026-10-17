@@ -265,6 +265,18 @@
     "Kathia-war": {
       "same_as": "Kathiawar",
       "note": "hyphenated OCR/print form; not a war"
+    },
+    "D.W.W.I.": {
+      "exclude": "institution_or_office",
+      "note": "Development and Welfare Organisation, West Indies (HQ Barbados); research/geography-2026-10-16-fable-review.json"
+    },
+    "Somerset Hosp.": {
+      "exclude": "institution_or_office",
+      "note": "Somerset Hospital, Cape Town; not Somerset, England"
+    },
+    "New brides": {
+      "same_as": "New Hebrides",
+      "note": "OCR"
     }
   },
   "local_places": {

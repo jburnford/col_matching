@@ -99,5 +99,14 @@ class HistoricalGeographyTests(unittest.TestCase):
                                place_qid='Q16',colony_qid='Q16'))
         self.assertEqual(location(row),('Q84','London'))
 
+    def test_new_york_city_and_development_welfare(self):
+        row=correct_event(dict(person_id='kgp_x',year_start=1862,place_raw='New York',
+                               place_qid='Q769668',colony_qid='Q769668'))
+        self.assertEqual((row['place_qid'],row['colony_qid']),('Q60','Q30'))
+        row=correct_event(dict(person_id='kgp_x',year_start=1943,place_raw='D.W.W.I.',
+                               place_qid='Q829655',colony_qid=None))
+        self.assertEqual((row['place_qid'],row['colony_qid']),(None,'Q63973349'))
+        self.assertEqual(correct_event(row),row)
+
 
 if __name__ == '__main__': unittest.main()

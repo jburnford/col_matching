@@ -1,11 +1,11 @@
 {
  "gazetteer_inputs_excluding_bios": {
   "config/whg_rules.json": "9b5207e0c4d1a2dfaba28f97938072ef1ebd1dc53636ad439256e14692a7c412",
-  "config/whg_place_identities.json": "3ceae85f3f99dca7e8b5b1faf808280288e2991c6289635c25f57e2ef859caf7",
+  "config/whg_place_identities.json": "596932ecf80135d6c10c8becb086a325248de26233236f1e0d59c1da0e1dc325",
   "data/whg/wikidata_places.json": "a0ac003d55ca13709cfb291754ba6414d5e7647c0c4ef0c1228d4f058ed7c69c",
-  "build_whg_gazetteer.py": "2cd30feb99a7e960be80df255bc0cb8d0748842ebf323b2a35e3a4f3b0edd228",
+  "build_whg_gazetteer.py": "8a8d9d0560b3892a8d8f227277c2f7069a45787dffde27f1785f36b81f2a46eb",
   "data/kg/graph_stage3/places.jsonl": "d6bfaac60493bce020323b0d2a9d498957df30922dc6558b61bf68f3e86b41d7",
-  "data/kg/graph_stage3/career_events.jsonl": "65f54e4c09d8b9de342a2acac54e5db114bea4aac4b8071a2374cc65fe1dd0c8",
+  "data/kg/graph_stage3/career_events.jsonl": "01fe6766903875b6a0af840f63b8c1847c583016282ccb90a25edb90dc27b63a",
   "data/kg/places_grounding.jsonl": "497944874700164dfe534814d6a2bcc553c61270e9d9d1a8b2c8b91a8f74dfb5",
   "data/kg/llm_struct_corpus.stage3.jsonl": "60784f676b501ba1cdb1ab8fe034051fb6bd57a574cfa2397ca6565fae015064",
   "data/iol/graph_stage3/places.jsonl": "a83288f519a258ae2f1e9e640073432b085c5c9aa0b9a2132b7e00bdcd0dca91",
@@ -18,18 +18,19 @@
  },
  "bios_files_hashed": 316,
  "gazetteer_outputs": {
-  "whg-places.tsv": "46cd0b5955e825ada07a5f141fadbd0ce994e258e3014584e56e33a406f01357",
-  "whg-places.lpf.json": "a2068f5fecf409e9e25fd412b3e45a91144db4ede1d97d8b5ea833d0da50984b",
-  "places.jsonl": "275aebfa7f50fd86e27bc4281afbed7451be1d0dff595282706ae3f287fde34c",
-  "evidence.jsonl": "0625a06ad0f59bf15ec56077e7e5a08c278bef6072804fd0f653f7d78a5c8c53",
-  "review.tsv": "6cdba6a1945264316c95e69210d15721b6b6bf315773e6abcc101e867d8b4511",
-  "excluded-mentions.tsv": "21c09ff2fe6e228fafc3d6a9b80e17318b1427d00c98b85fac43d224564fc35d",
-  "report.json": "5b7707423837f0c022aa0f63ce29fc188a31e18d27d01e758495120eee6cb77d"
+  "whg-places.tsv": "9dfc271468b3e9e52a157754b23dc93ed0a5ccea7980957f46af3a28eba7c19c",
+  "whg-places.lpf.json": "c63fd251eeb478418f46f48cc3569f95b1a07bed7344be71e7a46ce2b6bc8f41",
+  "places.jsonl": "0ed0b5be2eb955720323f7da8181e12471327aee26eb564a52013caf0203aabc",
+  "evidence.jsonl": "922f192a9ad046156dcd883e4ccb1adc16bbd85a2e6522c12108bb6cf03f20ce",
+  "review.tsv": "e97056669cdec82c3864d71ac9667e9d86eb982595cd6dfde885ce033283c665",
+  "excluded-mentions.tsv": "85117adf4af14f41b2091950ee734be2c686b16868a42f2a8a085464442c0131",
+  "held-names.tsv": "723139fdb7887e8e3830305c8454da2c55507ff302a6bb3b7a6cecad335d6c20",
+  "report.json": "3a6ca3020b1b83b7a4b576991976adf9e442654e4a299f6ba0b870de83db16ff"
  },
  "tail_outputs": {
-  "image-review-packets.jsonl": "9dfe42af0353da8643f2668ae16c699348ee8e0ebd78a8985d3985de317ad4eb",
-  "summary.json": "6b484aa9298d00a89ec30140fd000c2fc6193c9a165bb56c61adef4c9020036e",
-  "tail-details.jsonl": "ac5ce961a52217a7ca9562e1ba605362b7afd05dc0df8aa887e26072f7734f0d",
-  "tail-review.tsv": "263b42e7639f85ee04edea00164158527606a6780c8c8c5fa9f07c20d0e407fb"
+  "image-review-packets.jsonl": "dd26ae6fdf713506171cbacf91c81b34791d2861e9d75574808153c588096290",
+  "summary.json": "118199297ed21268814245b80505d3d96f2b186d9b8bafcc580ded08b66de75d",
+  "tail-details.jsonl": "7d5dbd02f92b1f73d5e0403dd4ee4a0d8e4fb46dd5175572d05bdcee18b76349",
+  "tail-review.tsv": "84eed93af6e48fda4539fcc1f4e41a9294711a14e8c64fc928d6682be79e519f"
  }
 }

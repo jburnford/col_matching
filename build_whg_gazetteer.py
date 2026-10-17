@@ -72,11 +72,24 @@ _TRAIL = re.compile(r"[\s,:;&\-–—*\"“”‘’]+$")
 def clean_toponym(name):
     """Strip OCR furniture at the edges ('. Cyprus', 'Kedah &', 'Cyprus:')."""
     name = _TRAIL.sub("", _LEAD.sub("", name or "")).strip()
+    name = re.sub(r"(\w)- ([a-z])", r"\1\2", name)  # line-break hyphen: "Esse- quibo"
+    if re.fullmatch(r"\([^()]+\)", name):
+        name = name[1:-1].strip()
     while name.endswith(")") and name.count(")") > name.count("("):
         name = _TRAIL.sub("", name[:-1]).strip()
     while name.startswith("(") and name.count("(") > name.count(")"):
         name = _LEAD.sub("", name[1:]).strip()
     return name
+
+
+_ABBR_TOKEN = re.compile(r"^(?!(?:St|Mt|Ft|Pt|Co|Ste)\.$)[A-Za-z]{1,6}\.$")
+
+
+def is_abbreviated(name):
+    """'Nig.', 'H.K.', 'B. Hond.', "S'pore" — but not 'St. Vincent' or "St. John's"."""
+    return (any(_ABBR_TOKEN.match(t) for t in name.split())
+            or bool(re.fullmatch(r"(?:[A-Z]\.\s?){1,6}", name))
+            or bool(re.search(r"[A-Za-z]'[a-rt-z]", name)))
 
 
 def exportable_name(name):
@@ -99,7 +112,7 @@ def slug(text):
 _ORG = re.compile(
     r"\b(govt|government|gov|survey|dept|department|depot|dep[oô]t|mint|board|ministry|"
     r"establishment|army|branch|office|posts?|tels|telegraphs?|railways?|rlys?|ry|ryis|"
-    r"service|services|corps|regiment|police|force|forces|bank|company|co|commission|"
+    r"service|services|corps|regiment|police|force|forces|bank|company|commission|"
     r"council|court|secretariat|treasury|customs|audit|museum|college|coll|school|schl|"
     r"university|univ|hospital|conf|conference|committee|staff|division of|circle of|"
     r"admiralty|treasur(?:y|ies)|plebiscite|front|engineers?|artillery|hussars|rifles|"
@@ -110,7 +123,22 @@ _ORG = re.compile(
     r"delegation|squadron|fleet|navy|naval|flotilla|hq|headquarters|secrt|secretary|"
     r"cabinet|legislative|legislature|society|soc|assoc|association|inf|highlanders|volrs|"
     r"h\.?m\.?s|league|trust|education|system|inspectorate|conservancy|chamber|syndicate|"
-    r"delegates?|delegation|volns|vols)\b", re.I)
+    r"delegates?|delegation|volns|vols|hosp|hosps|census|boundary|asylums?|mortuary|transport|"
+    r"workshops?|improvements?|harbrs|instns|institutions|infirmary|admlty|miny|ministry|"
+    r"c\.s|treasy|secretariat|camp of instruction|depot|stores|works|scheme|organ|orgn|"
+    r"organization|organisation|bureau|parltr|parlt|parliament|teacher|teachers|kach|ach|"
+    r"defences|lit|res|vet|agric|agricl|educ|med|medical|sanitary|survey|surveys|times|"
+    r"gazette|newspaper|club|lodge|exhibn|exhibition|conference|sectt|ltd|limited|colleges|"
+    r"schools|rlways|rlwys|rlys|rly|hajj|pilgrimage|cabinet|assembly|irrigation|marine|"
+    r"revenues?|agents?|radio|project|d[eé]p[oô]t|broadcasting|museum|zoo|bureau|tour|"
+    r"corporation|kachcheri|kach|cutcherry|authy|authority|estab|ecclesiastical|section|"
+    r"h\. of a|h\. of r|waters|dispensary)\b", re.I)
+_REGIMENT = re.compile(r"\b\d+(?:st|nd|rd|th)\b|\b(foot|punjabis|sikhs|gurkhas|pathans|baluchis|"
+                       r"rajputs|jats|dogras|mahrattas|grenadiers|f\.f|pioneers|rifles|lancers)\b", re.I)
+_GENERIC_ONLY = re.compile(r"^(?:(?:n|s|e|w|ne|nw|se|sw|north|south|east|west|northern|southern|eastern|"
+                           r"western|central|cent|upper|lower|middle|mid|district|dist|divn|division|"
+                           r"circle|province|prov|coast|coasts|canal|of|the|and|africa|india|area|areas|"
+                           r"region|zone|section|sub)\.?\s*)+$", re.I)
 _MILITARY = re.compile(r"\b(infantry|inf|cavalry|regiment|regt|rifles|hussars|lancers|dragoons|"
                        r"fusiliers|guards|artillery|battalion|brigade|division|force|forces|"
                        r"command|front|expedition|exped|expedit|corps|volunteers?|militia|"
@@ -162,7 +190,7 @@ NON_PLACE_CLASSES = re.compile(
     r"\b(organization|organisation|government agency|government department|ministry|"
     r"department|office|company|business|institution|university|college|school|"
     r"academic|court|legislature|parliament|military unit|army|regiment|police|"
-    r"bank|newspaper|human|person|war|battle|conflict|event|religious order)\b", re.I)
+    r"bank|newspaper|person|war|battle|conflict|event|religious order)\b|^human$", re.I)
 
 
 class Authority:
@@ -221,8 +249,10 @@ class Authority:
         if not ent or not ent.get("classes"):
             return False
         direct = [self.classes.get(c, {}).get("label") or "" for c in ent["classes"]]
-        placey = [re.sub(r"government agency|agency of", "", x, flags=re.I) for x in direct]
-        if any(re.search(pat, x, re.I) for x in placey for _, pat in CLASS_RULES):
+        # An organisation label never counts as a place label, even when it
+        # names a polity ("department of the United Kingdom Government").
+        if any(not NON_PLACE_CLASSES.search(x) and any(re.search(pat, x, re.I) for _, pat in CLASS_RULES)
+               for x in direct):
             return False
         return any(NON_PLACE_CLASSES.search(x) for x in direct)
 
@@ -311,13 +341,25 @@ class Resolver:
     def classify_unresolved(self, surface):
         p = surface.strip()
         key = canon_key(p)
+        if self.surfaces.get(key, {}).get("exclude"):
+            return self.surfaces[key]["exclude"]
         if key in self.non_place or not re.search(r"[A-Za-z]{2}", p):
             return "generic_or_non_place_term"
         flag, why = suspected_noise(p)
         if flag:
             return "institution_or_office" if "office" in why or "institution" in why else "campaign_or_noise"
+        if _REGIMENT.search(p):
+            return "military_unit"
+        if re.search(r"\bexped\w*", p, re.I):
+            return "campaign_or_noise"
         if _ORG.search(p):
             return "institution_or_office"
+        if _GENERIC_ONLY.match(p.strip()):
+            return "generic_or_non_place_term"
+        if p.count("(") != p.count(")") or re.search(r"^\W|\)\s*\w", p):
+            return "malformed_string"
+        if re.search(r"\b(to|via)\b", p):
+            return "route_phrase"
         letters = re.sub(r"[^A-Za-z]", "", p)
         tokens = re.findall(r"[A-Za-z]+", p)
         if tokens and all(len(t) <= 2 or t.isupper() for t in tokens) and ("." in p or letters.isupper()):
@@ -348,6 +390,9 @@ class Resolver:
 
     def resolve(self, surface, corpus, year):
         """[(part, identity, method)] — identity None means excluded (method=reason)."""
+        rule = self.surfaces.get(canon_key(clean_toponym(surface) or surface), {})
+        if rule.get("exclude"):
+            return [(surface, None, rule["exclude"])]
         identity, method = self.single(surface, corpus, year)
         if identity:
             return [(surface, identity, method)]
@@ -523,7 +568,8 @@ def context_group(qid, authority):
 
 def merge_place(dst, src):
     dst["mentions"] += src["mentions"]
-    for field in ("tiers", "methods", "toponyms", "printed_surfaces", "raw_surfaces", "contexts"):
+    for field in ("tiers", "methods", "toponyms", "printed_surfaces", "raw_surfaces", "contexts",
+                  "printed_parents"):
         dst[field].update(src[field])
     dst["corpora"] |= src["corpora"]
     dst["fallback_editions"] |= src["fallback_editions"]
@@ -614,7 +660,7 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
     manifest = {str(p.relative_to(root)) if p.is_relative_to(root) else str(p): digest(p) for p in inputs}
     output.mkdir(parents=True, exist_ok=True)
     outputs = ["whg-places.tsv", "whg-places.lpf.json", "places.jsonl", "evidence.jsonl",
-               "review.tsv", "excluded-mentions.tsv", "report.json"]
+               "review.tsv", "excluded-mentions.tsv", "held-names.tsv", "report.json"]
     previous = output / "manifest.json"
     if not force and previous.exists():
         old = json.loads(previous.read_text())
@@ -634,6 +680,9 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
             if r.get("qid") and r.get("label"):
                 graph_labels[r["qid"]].add(r["label"])
 
+    def graph_label(q):
+        return sorted(graph_labels[q])[0] if graph_labels.get(q) else q
+
     places = {}
     excluded = collections.defaultdict(lambda: {"count": 0, "corpora": set(), "years": set(), "examples": []})
 
@@ -645,6 +694,7 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                            "citations": collections.defaultdict(set),
                            "years": {t: set() for t in TIERS}, "printed_surfaces": collections.Counter(),
                            "raw_surfaces": collections.Counter(), "contexts": collections.Counter(),
+                           "printed_parents": collections.Counter(),
                            "fallback_editions": set(),
                            "examples": []}
         return places[key]
@@ -662,6 +712,17 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                 year = valid_year(event.get("year_start"))
                 if event.get("place_qid"):
                     targets = [(raw_place or event.get("place_label") or "", ("wd", event["place_qid"]), "graph")]
+                    # The graph also grounded office and campaign strings ("Bahamas
+                    # census", "Nandi expedit."): keep the place word or exclude.
+                    reason = resolver.classify_unresolved(raw_place) if raw_place else None
+                    if reason and resolver.surfaces.get(canon_key(clean_toponym(raw_place)), {}).get("exclude"):
+                        targets = [(raw_place, None, reason)]
+                    elif reason in ("institution_or_office", "campaign_or_noise", "military_unit"):
+                        found = (resolver.place_in_institution(raw_place, corpus, year)
+                                 if reason == "institution_or_office" else None)
+                        targets = ([(found[0], ("wd", event["place_qid"]), "graph:place_in_institution")]
+                                   if found and found[1] == ("wd", event["place_qid"])
+                                   else [(raw_place, None, reason)])
                 elif raw_place:
                     if is_institution(raw_place)[0]:
                         targets = [(raw_place, None, "institution_or_office")]
@@ -685,7 +746,7 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                     m = re.match(r"kgp_(.+?)(?:_s\d+)?$", event["person_id"])
                     b = sources.get(m[1]) if m else None
                     bios = [b] if b else []
-                for printed, identity, method in targets:
+                for t_index, (printed, identity, method) in enumerate(targets):
                     if identity is None:
                         e = excluded[(method, printed)]
                         e["count"] += 1
@@ -700,17 +761,31 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                         e["corpora"].add(corpus)
                         counts["excluded:non_place_entity"] += 1
                         continue
-                    context = None
+                    context, printed_parent = None, None
                     if identity[0] == "name":
-                        near = sorted(career.get(event["person_id"], []),
-                                      key=lambda c: abs(c[0] - (event.get("seq") or 0)))
-                        if near:
-                            context = near[0][1:]
+                        # A qualifier printed in the same string ("Kalgoorlie, W.A.")
+                        # is evidence; otherwise the previous posting is only a key
+                        # for keeping homonyms apart, never an exported parent.
+                        qualifiers = [i for _, i, _ in targets[t_index + 1:] if i and i[0] == "wd"] \
+                            if "," in raw_place else []
+                        if qualifiers:
+                            q = qualifiers[0][1]
+                            printed_parent = (q, authority.entities.get(q, {}).get("label") or graph_label(q))
+                            context = printed_parent
+                        else:
+                            seq = event.get("seq") or 0
+                            near = sorted(career.get(event["person_id"], []),
+                                          key=lambda c: (c[0] > seq, abs(c[0] - seq)))
+                            if near:
+                                context = near[0][1:]
+                        if context:
                             identity = ("name", f"{identity[1]}|{context[0]}")
                     key = ":".join(identity)
                     p = place(key)
                     if context:
                         p["contexts"][context] += 1
+                    if printed_parent:
+                        p["printed_parents"][printed_parent] += 1
                     p["mentions"] += 1
                     p["corpora"].add(corpus)
                     p["methods"][method.split(":")[-1] if method.startswith("composite") else method.split(":")[0]] += 1
@@ -735,7 +810,7 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                         p["years"][best_tier].add(year)
                         if valid_year(event.get("year_end")):
                             p["years"][best_tier].add(event["year_end"])
-                    if printed_in:
+                    if printed_in and not method.endswith("surface_rule"):  # aliases repair OCR; not name forms
                         name = clean_toponym(printed)
                         p["printed_surfaces"][printed] += 1
                         if exportable_name(name):
@@ -769,7 +844,7 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
     fields = ["id", "title", "title_source", "attestation_year", "start", "end", "fclasses",
               "aat_types", "types", "matches", "variants", "parent_name", "parent_id",
               "lon", "lat", "geo_source", "geo_id", "description"]
-    features, review_rows, used_ids = [], [], set()
+    features, review_rows, used_ids, held_rows = [], [], set(), []
     with ((output / "places.jsonl").open("w", encoding="utf-8") as place_file,
           (output / "whg-places.tsv").open("w", encoding="utf-8", newline="") as tsv_file):
         tsv = csv.DictWriter(tsv_file, fieldnames=fields, delimiter="\t", lineterminator="\n",
@@ -795,15 +870,31 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                 issues.append("years_outside_authority_entity_dates")
             in_period = sorted(set(years) - set(out_of_period)) or sorted(years)
             # Title: the most-attested printed toponym, strongest tier first.
-            toponyms = sorted(p["toponyms"], key=lambda n: (p["toponym_tiers"][n], -p["toponyms"][n], n))
-            if toponyms:
+            toponyms = sorted(p["toponyms"], key=lambda n: (is_abbreviated(n), p["toponym_tiers"][n],
+                                                            -p["toponyms"][n], n))
+            if toponyms and (not is_abbreviated(toponyms[0]) or not (wd_label or local.get("title"))):
                 title = toponyms[0]
                 first = min(p["citations"][title])
                 title_source, attestation_year = first[1], first[0]
+            elif toponyms:  # only abbreviations printed ("H.K."): authority label, cited honestly
+                printed_as = toponyms[0]
+                first = min(p["citations"][printed_as])
+                title = local.get("title") or wd_label
+                title_source = f"{first[1]}, printed as {printed_as}; full form from Wikidata {qid}" if qid else \
+                               f"{first[1]}, printed as {printed_as}"
+                attestation_year = first[0]
+                issues.append("title_from_authority_label")
             else:
                 title = local.get("title") or wd_label or (p["raw_surfaces"].most_common(1)[0][0] if p["raw_surfaces"] else ident)
                 title = clean_toponym(title) or ident
-                title_source, attestation_year = ("Wikidata" if wd_label and qid else "Career graph (structured)"), None
+                title_source, attestation_year = None, None
+                if p["fallback_editions"]:
+                    fy, fc = min(p["fallback_editions"])
+                    title_source = (f"{CORPUS_TITLE[fc]} ({fy}), structured biography; "
+                                    + (f"name form from Wikidata {qid}" if qid and wd_label else "printed form not matched verbatim"))
+                    attestation_year = fy
+                else:
+                    title_source = f"Wikidata {qid}" if qid else "Career graph (structured)"
                 issues.append("title_not_printed_in_source")
             if not exportable_name(title):
                 issues.append("title_needs_punctuation_review")
@@ -839,13 +930,19 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
             if pid in used_ids:  # slug collision ("Bala-Pitimodara" vs "Bala Pitimodara")
                 pid += "-" + hashlib.sha1(key.encode()).hexdigest()[:6]
             used_ids.add(pid)
-            variants = [n for n in toponyms if n != title]
+            seen_norm = {norm(title)}
+            variants = []
+            for n in toponyms:
+                if n == title or "," in n or norm(n) in seen_norm:
+                    continue  # comma-qualified forms stay in the evidence
+                seen_norm.add(norm(n))
+                variants.append(n)
             parent_name = parent_id = ""
-            if kind == "name" and p["contexts"]:
-                (cq, clabel), _ = p["contexts"].most_common(1)[0]
-                parent_name = clabel or (authority.entities.get(cq, {}).get("label") or cq)
+            if kind == "name" and p["printed_parents"]:
+                (cq, clabel), _ = p["printed_parents"].most_common(1)[0]
+                parent_name = clabel or cq
                 parent_id = f"https://www.wikidata.org/wiki/{cq}"
-                issues.append("parent_inferred_from_career_context")
+                issues.append("parent_printed_with_name")
             description = (f"Place named in British imperial career biographies ({', '.join(CORPUS_TITLE[c] for c in sorted(p['corpora']))}); "
                            f"{p['mentions']} dated career reference(s). Years give the span of those references, not the place's existence.")
             if local.get("description"):
@@ -868,19 +965,30 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                    "parent_name": parent_name.replace(";", ","), "parent_id": parent_id,
                    "lon": lon, "lat": lat, "geo_source": geo_source, "geo_id": geo_id,
                    "description": description}
-            tsv.writerow(row)
-            # LPF feature with per-name citations and timespans.
+            # Single-mention unmatched names made only of abbreviations are the
+            # junkiest class (organisations, fragments): held for review, listed.
+            held = kind == "name" and p["mentions"] < 2 and is_abbreviated(title)
+            if held:
+                issues.append("held_single_abbreviated_name")
+                held_rows.append({"id": pid, "title": title, "mentions": p["mentions"],
+                                  "title_source": title_source, "start": start, "end": end})
+            else:
+                tsv.writerow(row)
+            # LPF names: citations carry publication years; the feature's `when`
+            # carries the event years. Every name has a citation.
             names = []
             for n in toponyms or [title]:
                 cites = sorted(p["citations"].get(n, set()))
                 item = {"toponym": n, "lang": "en"}
                 if cites:
                     item["citations"] = [{"label": label, "year": y} for y, label in cites[:MAX_CITATIONS]]
-                    item["when"] = {"timespans": [{"start": {"in": str(cites[0][0])},
-                                                   "end": {"in": str(cites[-1][0])}}]}
-                elif start or attestation_year:
-                    item["when"] = {"timespans": [{"start": {"in": start or str(attestation_year)}}]}
+                else:
+                    item["citations"] = [{"label": title_source, **({"year": attestation_year} if attestation_year else {})}]
                 names.append(item)
+            if title not in [n["toponym"] for n in names]:
+                names.insert(0, {"toponym": title, "lang": "en",
+                                 "citations": [{"label": f"Wikidata {qid}" if qid else title_source,
+                                                **({"@id": f"https://www.wikidata.org/wiki/{qid}"} if qid else {})}]})
             when = {"timespans": [{"start": {"in": start}, "end": {"in": end or start}}]} if start else \
                    ({"timespans": [{"start": {"in": str(attestation_year)}}]} if attestation_year else None)
             feature = {"@id": ID_BASE + pid, "type": "Feature",
@@ -892,11 +1000,12 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                        "descriptions": [{"value": description, "lang": "en"}]}
             if parent_id:
                 feature["relations"] = [{"relationType": "gvp:broaderPartitive", "relationTo": parent_id,
-                                         "label": f"within {parent_name} (inferred from adjacent career postings)",
-                                         "certainty": "less-certain"}]
+                                         "label": f"within {parent_name} (printed with the name in the source)",
+                                         "certainty": "certain"}]
             if when:
                 feature["when"] = when
-            features.append(feature)
+            if not held:
+                features.append(feature)
             result = {"id": pid, "key": key, "qid": qid, "title": title, "wikidata_label": wd_label,
                       "local": bool(local), "fclasses": fcl, "types": types,
                       "mentions": p["mentions"], "evidence_tiers": dict(p["tiers"]),
@@ -914,8 +1023,11 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                                 "structured_only": p["tiers"]["structured_only"],
                                 "start": start, "end": end, "fclasses": ";".join(fcl),
                                 "issues": ";".join(issues)})
-            counts["export_places"] += 1
-            counts[f"export_{kind}"] += 1
+            if held:
+                counts["held_name_only"] += 1
+            else:
+                counts["export_places"] += 1
+                counts[f"export_{kind}"] += 1
             for issue in issues:
                 counts["issue:" + issue] += 1
 
@@ -927,6 +1039,11 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                            delimiter="\t", lineterminator="\n")
         w.writeheader()
         w.writerows(sorted(review_rows, key=lambda r: (-r["mentions"], r["id"])))
+    with (output / "held-names.tsv").open("w", encoding="utf-8", newline="") as handle:
+        w = csv.DictWriter(handle, fieldnames=["id", "title", "mentions", "title_source", "start", "end"],
+                           delimiter="\t", lineterminator="\n")
+        w.writeheader()
+        w.writerows(sorted(held_rows, key=lambda r: r["title"]))
     with (output / "excluded-mentions.tsv").open("w", encoding="utf-8", newline="") as handle:
         w = csv.writer(handle, delimiter="\t", lineterminator="\n")
         w.writerow(["reason", "printed_name", "mentions", "corpora", "first_year", "last_year"])

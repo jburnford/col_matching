@@ -14,11 +14,11 @@ campaign_or_noise	Basuto war	4	kg	1880	1881
 campaign_or_noise	German S.W.A. campaign	4	kg	1915	1915
 campaign_or_noise	May	4	iol;kg	1883	1938
 campaign_or_noise	Nile campaign	4	kg	1884	1898
+campaign_or_noise	4th Mounted Brig., G.S.W.A. campaign	3	kg	1915	1916
 campaign_or_noise	Ashantee War	3	kg	1873	1873
 campaign_or_noise	Boer war	3	kg	1881	1901
 campaign_or_noise	E. African campaign	3	kg	1914	1917
 campaign_or_noise	Egyptian expedn.	3	kg	1882	1882
-campaign_or_noise	G.S.W.A. campaign	3	kg	1915	1916
 campaign_or_noise	Lushai expedn.	3	iol	1871	1889
 campaign_or_noise	Persian war	3	iol	1856	1856
 campaign_or_noise	Yoruba	3	kg	1940	1944
@@ -53,6 +53,7 @@ campaign_or_noise	Ashanti expedn.	1	kg	1900	1900
 campaign_or_noise	Balkan War	1	kg	1912	1912
 campaign_or_noise	Benin R. exped.	1	kg	1894	1894
 campaign_or_noise	Brit. polar year expedn.	1	kg	1932	1932
+campaign_or_noise	Bukoba Expedy. Forces	1	kg	1915	1915
 campaign_or_noise	Burmese War	1	iol	1887	1887
 campaign_or_noise	Burmese campaign	1	iol	1885	1885
 campaign_or_noise	Cameroons Expedn.	1	kg	1914	1914
@@ -101,6 +102,7 @@ campaign_or_noise	Natal Native Rebellion	1	kg	1906	1906
 campaign_or_noise	Natal Rebellion	1	kg	1910	1910
 campaign_or_noise	Natal native rebellion	1	kg	1906	1906
 campaign_or_noise	Nile Expdn.	1	kg	1884	1884
+campaign_or_noise	Nile expedit.	1	kg	1884	1884
 campaign_or_noise	Persian War	1	iol		
 campaign_or_noise	Persian and Abyssinian expeditionary forces	1	iol		
 campaign_or_noise	Russo-Japanese War	1	kg	1905	1905
@@ -113,6 +115,7 @@ campaign_or_noise	S.A. Rebellion	1	kg	1914	1914
 campaign_or_noise	S.A. war	1	kg		
 campaign_or_noise	S.W. Africa campaign	1	kg	1914	1914
 campaign_or_noise	S.W. African campaign	1	kg	1914	1914
+campaign_or_noise	Sotik Expedns.	1	kg	1905	1905
 campaign_or_noise	Soudan expedn.	1	kg	1898	1898
 campaign_or_noise	South African War	1	kg	1879	1879
 campaign_or_noise	Sutlej campaign	1	iol	1845	1845
@@ -138,36 +141,24 @@ campaign_or_noise	war committee of cabinet (Ottawa)	1	kg	1918	1918
 descriptive_phrase	chief of Scotland	19	iol	1910	1938
 descriptive_phrase	district A	18	kg	1877	1938
 descriptive_phrase	central revs.	15	iol	1915	1934
-descriptive_phrase	eastern district	15	kg	1858	1938
-descriptive_phrase	central circle	13	iol	1914	1935
 descriptive_phrase	district A.	13	kg	1890	1902
-descriptive_phrase	northern district	13	kg	1858	1927
-descriptive_phrase	northern division	13	iol;kg	1846	1923
 descriptive_phrase	various districts	12	iol;kg	1861	1892
 descriptive_phrase	igua	11	kg	1894	1907
 descriptive_phrase	defence headqrs.	10	kg	1917	1934
 descriptive_phrase	district C	10	kg	1877	1910
 descriptive_phrase	district C.	10	kg	1874	1916
-descriptive_phrase	central division	9	iol;kg	1886	1906
 descriptive_phrase	"district ""A"""	9	kg	1883	1937
 descriptive_phrase	district B	9	kg	1878	1899
-descriptive_phrase	central revenues	8	iol	1920	1936
 descriptive_phrase	district B.	8	kg	1894	1900
-descriptive_phrase	irrigation	8	iol	1865	1878
 descriptive_phrase	ma	8	kg	1897	1933
-descriptive_phrase	rlways.	8	kg	1927	1947
 descriptive_phrase	same constituency	8	kg	1883	1912
 descriptive_phrase	anda	7	kg	1916	1929
 descriptive_phrase	central jail	7	iol	1859	1925
 descriptive_phrase	district D	7	kg	1891	1907
 descriptive_phrase	district F.	7	kg	1887	1935
-descriptive_phrase	eastern circle	7	iol;kg	1882	1928
-descriptive_phrase	northern circle	7	iol	1909	1935
 descriptive_phrase	in addn.	6	kg	1921	1929
 descriptive_phrase	magistracy	6	kg	1933	1956
 descriptive_phrase	open lines	6	kg	1927	1939
-descriptive_phrase	public works	6	kg	1885	1933
-descriptive_phrase	the East	6	iol;kg	1850	1892
 descriptive_phrase	the colony	6	kg	1849	1849
 descriptive_phrase	cis-Sutlej states	5	iol	1846	1857
 descriptive_phrase	communications	5	iol	1937	1941
@@ -184,9 +175,8 @@ descriptive_phrase	various places	5	iol;kg	1869	1879
 descriptive_phrase	botan. gdns.	4	kg	1924	1949
 descriptive_phrase	chief	4	kg	1940	1950
 descriptive_phrase	cis-Sutlej territory	4	iol		
-descriptive_phrase	colonial (later o'seas) geol. surveys	4	kg	1948	1960
+descriptive_phrase	co. of Quebec	4	kg	1878	1887
 descriptive_phrase	cordite factory	4	iol	1919	1928
-descriptive_phrase	county of St. George	4	kg	1858	1882
 descriptive_phrase	crown mines	4	kg	1915	1938
 descriptive_phrase	"district ""A."""	4	kg	1897	1902
 descriptive_phrase	"district ""C"	4	kg	1883	1911
@@ -195,35 +185,28 @@ descriptive_phrase	"district ""D."""	4	kg	1894	1899
 descriptive_phrase	"district ""E"""	4	kg	1906	1936
 descriptive_phrase	district No. 1	4	kg	1872	1896
 descriptive_phrase	dists. A. and B.	4	kg	1914	1917
-descriptive_phrase	harbours	4	kg	1928	1954
 descriptive_phrase	high commissioner for India	4	iol	1920	1937
 descriptive_phrase	in	4	kg	1921	1926
 descriptive_phrase	in Malwa	4	iol	1925	1931
 descriptive_phrase	midland circuit	4	kg	1860	1867
 descriptive_phrase	minister of civil aviation	4	kg	1947	1950
 descriptive_phrase	minister of finance	4	kg	1954	1960
-descriptive_phrase	ne	4	kg	1911	1913
 descriptive_phrase	public accts.	4	kg	1924	1926
 descriptive_phrase	t. E. Africa	4	kg	1918	1918
 descriptive_phrase	the Gujarat States	4	iol	1939	1941
 descriptive_phrase	the station	4	kg		
-descriptive_phrase	western circle	4	iol	1868	1900
-descriptive_phrase	western district	4	kg	1877	1887
-descriptive_phrase	adjoining native territories	3	kg	1891	1897
 descriptive_phrase	central rev.	3	iol	1925	1940
 descriptive_phrase	chief commissioner	3	iol	1941	1941
+descriptive_phrase	co-op. socs.	3	kg	1934	1935
 descriptive_phrase	county Caroni	3	kg	1863	1875
+descriptive_phrase	county of St. George	3	kg	1858	1878
 descriptive_phrase	cty. St. George	3	kg	1885	1887
-descriptive_phrase	dispensaries	3	kg	1937	1947
 descriptive_phrase	"district ""C"""	3	kg	1883	1927
 descriptive_phrase	"district ""F"""	3	kg	1907	1963
 descriptive_phrase	"district ""F."""	3	kg	1911	1914
 descriptive_phrase	"district ""I"""	3	kg	1911	1912
 descriptive_phrase	district 3	3	kg	1892	1909
-descriptive_phrase	district E	3	kg	1901	1930
-descriptive_phrase	east district	3	kg	1892	1901
-descriptive_phrase	east. district	3	kg	1923	1937
-descriptive_phrase	eastern districts	3	kg	1863	1880
+descriptive_phrase	executive co.	3	kg	1957	1961
 descriptive_phrase	foreign affairs	3	iol	1903	1916
 descriptive_phrase	g Tebal	3	kg	1917	1917
 descriptive_phrase	ganyika Territory	3	kg	1920	1926
@@ -240,16 +223,13 @@ descriptive_phrase	national provident fund	3	kg	1910	1925
 descriptive_phrase	penal settmt.	3	kg	1894	1900
 descriptive_phrase	protectorate of S. Arabia	3	kg	1963	1964
 descriptive_phrase	royal botanic garden	3	iol	1899	1901
-descriptive_phrase	southern district	3	iol;kg	1881	1922
-descriptive_phrase	southern districts	3	iol;kg	1881	1884
-descriptive_phrase	southern division	3	iol;kg	1873	1901
 descriptive_phrase	that colony	3	kg	1855	1859
 descriptive_phrase	the Arab Legion	3	kg	1932	1935
 descriptive_phrase	the Near East	3	kg		
 descriptive_phrase	the city	3	kg		
-descriptive_phrase	vagrant dépôt	3	kg	1881	1881
 descriptive_phrase	various areas	3	kg	1929	1936
 descriptive_phrase	western district of the county of St. George, with the town of Port of Spain	3	kg	1870	1874
+descriptive_phrase	adjoining native territories	2	kg	1896	1897
 descriptive_phrase	also in China	2	kg		
 descriptive_phrase	anyika Territory	2	kg	1916	1929
 descriptive_phrase	at Sierra Leone	2	kg	1862	1862
@@ -258,18 +238,16 @@ descriptive_phrase	borstal	2	kg	1924	1925
 descriptive_phrase	botanic station	2	kg	1901	1912
 descriptive_phrase	canals constn.	2	iol	1932	1933
 descriptive_phrase	canals construction	2	iol	1923	1926
-descriptive_phrase	cent. provs.	2	kg		
 descriptive_phrase	cent. revs.	2	iol	1941	1943
-descriptive_phrase	centr. intell. bureau	2	iol	1943	1945
-descriptive_phrase	central district	2	kg	1880	1918
 descriptive_phrase	cinchona cultivation	2	iol	1918	1921
+descriptive_phrase	co. Caroni	2	kg	1895	1895
+descriptive_phrase	co. Pietermaritzburg	2	kg	1868	1874
 descriptive_phrase	colonial Directors of agriculture Confces.	2	kg	1931	1937
 descriptive_phrase	colonial confce.	2	kg	1887	1894
 descriptive_phrase	compiler of the annual statistical abstract	2	iol	1867	1880
 descriptive_phrase	construction circle	2	iol	1936	1939
 descriptive_phrase	corpn. of Calcutta	2	iol	1919	1921
 descriptive_phrase	county St. Patrick	2	kg	1926	1926
-descriptive_phrase	county)	2	kg	1846	1865
 descriptive_phrase	crown lands	2	kg	1926	1932
 descriptive_phrase	defence hdqrs.	2	kg	1919	1925
 descriptive_phrase	directorat-genl. of supply	2	iol	1940	1941
@@ -290,7 +268,6 @@ descriptive_phrase	electy. Malay States	2	kg	1937	1938
 descriptive_phrase	fed. minister of finance	2	kg	1954	1957
 descriptive_phrase	first district	2	kg	1876	1881
 descriptive_phrase	for States of Rampur	2	iol	1945	1945
-descriptive_phrase	for. res. organ.	2	kg	1947	1948
 descriptive_phrase	fort Kinburn	2	kg	1855	1855
 descriptive_phrase	frontier	2	kg	1900	1900
 descriptive_phrase	frontier constaby.	2	iol	1929	1930
@@ -304,29 +281,20 @@ descriptive_phrase	inland rev.	2	kg	1897	1947
 descriptive_phrase	island	2	kg	1871	1902
 descriptive_phrase	lesser dependencies	2	kg	1929	1929
 descriptive_phrase	lo. East	2	kg	1884	1884
-descriptive_phrase	marine	2	kg	1953	1954
 descriptive_phrase	min. of aircraft prodn.	2	iol	1940	1940
 descriptive_phrase	minister of State	2	kg	1963	1964
-descriptive_phrase	minister of comms. and works	2	kg	1956	1963
 descriptive_phrase	nganyika	2	kg	1919	1926
 descriptive_phrase	nk	2	kg	1960	1964
-descriptive_phrase	north district	2	kg	1881	1881
-descriptive_phrase	north division	2	iol;kg	1865	1879
 descriptive_phrase	north of the Orange River	2	kg	1852	1852
 descriptive_phrase	north-west	2	kg	1885	1885
 descriptive_phrase	northern area of France	2	kg		
-descriptive_phrase	northern coast	2	kg	1865	1865
-descriptive_phrase	northern dists.	2	kg	1904	1905
-descriptive_phrase	northern divn.	2	iol	1915	1916
 descriptive_phrase	northern road	2	iol	1863	1863
 descriptive_phrase	offrs. families	2	kg	1932	1934
 descriptive_phrase	on the Continent	2	iol;kg	1878	1887
 descriptive_phrase	on the W. Coast	2	kg	1874	1874
 descriptive_phrase	other Mediterranean stations	2	kg		
-descriptive_phrase	overseas settlement delegtn. to Canada	2	kg	1924	1935
 descriptive_phrase	parish of St. George	2	kg	1881	1881
 descriptive_phrase	parish of St. Patrick	2	kg	1858	1858
-descriptive_phrase	parlt. of Union of S. Africa	2	kg	1920	1936
 descriptive_phrase	part of Sylhet	2	iol		
 descriptive_phrase	penal settlmt.	2	kg	1892	1892
 descriptive_phrase	port	2	kg	1926	1931
@@ -344,8 +312,6 @@ descriptive_phrase	sappers and miners	2	iol	1860	1860
 descriptive_phrase	sec't	2	kg	1949	1956
 descriptive_phrase	south-western circle	2	iol	1887	1893
 descriptive_phrase	southern Mahratta	2	iol	1881	1881
-descriptive_phrase	southern divn.	2	iol	1895	1897
-descriptive_phrase	southern provinces	2	iol;kg	1856	1860
 descriptive_phrase	southern states	2	iol	1931	1931
 descriptive_phrase	stine	2	kg	1925	1926
 descriptive_phrase	supply finance	2	iol	1941	1942
@@ -359,7 +325,6 @@ descriptive_phrase	united presidency	2	kg
 descriptive_phrase	various is.	2	kg	1928	1932
 descriptive_phrase	ward Is.	2	kg	1919	1925
 descriptive_phrase	waterwks.	2	kg	1940	1958
-descriptive_phrase	western boundary G. Coast	2	kg	1892	1892
 descriptive_phrase	additional dists. C.D.H.K.	1	kg	1935	1935
 descriptive_phrase	adjacent territories	1	kg	1895	1895
 descriptive_phrase	admstrn.	1	kg	1921	1921
@@ -382,17 +347,14 @@ descriptive_phrase	b. and r.	1	iol	1938	1938
 descriptive_phrase	beyond the frontier	1	iol	1876	1876
 descriptive_phrase	bight of Benin and coast of Loando	1	kg		
 descriptive_phrase	births	1	kg	1932	1932
+descriptive_phrase	borough and co. of Durban	1	kg	1870	1870
 descriptive_phrase	bot. gdns.	1	kg	1917	1917
 descriptive_phrase	bu	1	kg	1890	1890
-descriptive_phrase	bureau of hyg. and trop. diseases	1	kg	1935	1935
-descriptive_phrase	bureau of statistics	1	kg	1945	1945
 descriptive_phrase	burgher refugee camp	1	kg	1902	1902
 descriptive_phrase	canals constrn.	1	iol	1930	1930
 descriptive_phrase	cent. Kedah	1	kg	1916	1916
 descriptive_phrase	cent. Perak	1	kg	1931	1931
-descriptive_phrase	cent. district	1	kg		
 descriptive_phrase	cent. district, No. 1	1	kg	1915	1915
-descriptive_phrase	cent. division	1	kg		
 descriptive_phrase	central S.A.	1	kg	1903	1903
 descriptive_phrase	central Trengganu	1	kg	1947	1947
 descriptive_phrase	central intell.	1	iol	1910	1910
@@ -409,15 +371,20 @@ descriptive_phrase	civil and military station of Bangalore	1	iol	1881	1881
 descriptive_phrase	civil aviation	1	kg	1946	1946
 descriptive_phrase	civil aviation directe.	1	iol	1940	1940
 descriptive_phrase	civil aviation directorate	1	iol	1940	1940
-descriptive_phrase	civil engineering colleges	1	iol	1868	1868
 descriptive_phrase	civil hospitals	1	iol	1931	1931
 descriptive_phrase	civil supplies	1	iol	1943	1943
 descriptive_phrase	ck	1	kg	1921	1921
 descriptive_phrase	class II.	1	kg	1920	1920
 descriptive_phrase	clearing house accounts	1	iol	1927	1927
 descriptive_phrase	cnty. Essequebo	1	kg	1887	1887
+descriptive_phrase	co. Antrim	1	kg	1908	1908
+descriptive_phrase	co. Cork	1	kg	1886	1886
+descriptive_phrase	co. Down	1	kg	1884	1884
+descriptive_phrase	co. Louth	1	kg	1847	1847
+descriptive_phrase	co. Sligo	1	kg	1874	1874
+descriptive_phrase	co. Umvoti	1	kg	1887	1887
+descriptive_phrase	co. of St. George	1	kg	1858	1858
 descriptive_phrase	coalfields cttee.	1	iol	1945	1945
-descriptive_phrase	coast of Africa	1	kg	1838	1838
 descriptive_phrase	coastal Queensland	1	kg		
 descriptive_phrase	coasts of Australia	1	kg		
 descriptive_phrase	colonial aud.	1	kg	1941	1941
@@ -425,17 +392,13 @@ descriptive_phrase	colonial confere.	1	kg	1887	1887
 descriptive_phrase	colonial coronation contingent	1	kg	1911	1911
 descriptive_phrase	colonial dev. corpn.	1	kg	1947	1947
 descriptive_phrase	colonial land and emigration commissioners	1	kg	1840	1840
-descriptive_phrase	colonial prod. res., C.O.	1	kg	1953	1953
-descriptive_phrase	colonial prods. adv. bureau	1	kg	1949	1949
 descriptive_phrase	colonial terrs.	1	kg	1950	1950
 descriptive_phrase	colony of British Guiana	1	kg	1859	1859
-descriptive_phrase	commonwealth parltr.	1	kg	1904	1904
 descriptive_phrase	compiler of the annual trade and navigation statement for India	1	iol	1869	1869
 descriptive_phrase	concentration camp	1	kg	1902	1902
 descriptive_phrase	conjoint parishes of Westmoreland	1	kg	1899	1899
 descriptive_phrase	conquered territory civil admstrn.	1	kg	1918	1918
 descriptive_phrase	continent of Europe	1	kg	1924	1924
-descriptive_phrase	coolie dépôt	1	kg	1867	1867
 descriptive_phrase	corrner	1	kg	1903	1903
 descriptive_phrase	councils	1	kg	1951	1951
 descriptive_phrase	counties Kerry	1	kg		
@@ -447,10 +410,8 @@ descriptive_phrase	county Durban	1	kg	1876	1876
 descriptive_phrase	county Pietermaritzburg	1	kg	1874	1874
 descriptive_phrase	county S. Patrick	1	kg	1880	1880
 descriptive_phrase	county St. David, and ward of Blanchisseuse, county of St. George, and warden Toco ward union	1	kg	1868	1868
-descriptive_phrase	county St. George	1	kg		
 descriptive_phrase	county Victoria	1	kg	1853	1853
 descriptive_phrase	county and city of Dublin	1	kg	1867	1867
-descriptive_phrase	county infirmary	1	kg	1874	1874
 descriptive_phrase	county of Caroni	1	kg	1906	1906
 descriptive_phrase	county of Coroni	1	kg	1929	1929
 descriptive_phrase	county of Demerara	1	kg	1859	1859
@@ -467,8 +428,6 @@ descriptive_phrase	county of St. Patrick	1	kg	1927	1927
 descriptive_phrase	county of Victoria	1	kg	1930	1930
 descriptive_phrase	county of Warwick	1	kg	1879	1879
 descriptive_phrase	county of Weenen	1	kg	1874	1874
-descriptive_phrase	crown agents	1	kg	1901	1901
-descriptive_phrase	crown lands and surveys	1	kg	1938	1938
 descriptive_phrase	cties. Niagara	1	kg	1887	1887
 descriptive_phrase	cty. Demerara	1	kg	1866	1866
 descriptive_phrase	custodian of enemy property	1	kg	1922	1922
@@ -495,7 +454,6 @@ descriptive_phrase	district 7	1	kg	1912	1912
 descriptive_phrase	district B. W.	1	kg	1894	1894
 descriptive_phrase	district D. Barbados	1	kg	1923	1923
 descriptive_phrase	district D. St. Kitts	1	kg	1919	1919
-descriptive_phrase	district E.	1	kg	1917	1917
 descriptive_phrase	district E. Barbados	1	kg	1892	1892
 descriptive_phrase	district G.	1	kg	1893	1893
 descriptive_phrase	district No. 2	1	kg	1882	1882
@@ -504,9 +462,7 @@ descriptive_phrase	district Zululand	1	kg	1887	1887
 descriptive_phrase	district admnstn.	1	kg	1915	1915
 descriptive_phrase	district commissioner	1	kg	1915	1915
 descriptive_phrase	district courts	1	kg	1934	1934
-descriptive_phrase	district infirmary	1	kg	1924	1924
 descriptive_phrase	district jail	1	iol	1921	1921
-descriptive_phrase	district national schools	1	kg		
 descriptive_phrase	district of Athabasca	1	kg	1899	1899
 descriptive_phrase	district of East London	1	kg	1857	1857
 descriptive_phrase	district of Leribe	1	kg	1871	1871
@@ -531,10 +487,7 @@ descriptive_phrase	eastern and midland districts	1	kg	1858	1858
 descriptive_phrase	eastern counties	1	kg	1933	1933
 descriptive_phrase	eastern district of the county of St. Patrick	1	kg	1862	1862
 descriptive_phrase	eastern district, county St. George	1	kg	1878	1878
-descriptive_phrase	eastern division	1	kg	1930	1930
 descriptive_phrase	eastern frontier district	1	iol	1884	1884
-descriptive_phrase	eastern provinces	1	kg	1871	1871
-descriptive_phrase	eastern seen.	1	iol	1932	1932
 descriptive_phrase	econ. cont.	1	kg	1943	1943
 descriptive_phrase	emfontein	1	kg	1929	1929
 descriptive_phrase	entyne Coast judicial district	1	kg	1901	1901
@@ -547,17 +500,14 @@ descriptive_phrase	eward Islands	1	kg	1888	1888
 descriptive_phrase	ex-Shah of Iran	1	kg	1942	1942
 descriptive_phrase	exposition	1	kg	1885	1885
 descriptive_phrase	famine districts	1	iol	1874	1874
-descriptive_phrase	far East	1	kg	1914	1914
 descriptive_phrase	fed. expt. stn.	1	kg	1939	1939
 descriptive_phrase	fed. hqrs.	1	kg	1929	1929
 descriptive_phrase	federal hdqurtrs.	1	kg	1932	1932
 descriptive_phrase	fedl. headqrs.	1	kg	1930	1930
 descriptive_phrase	fedl. sect.	1	kg	1931	1931
-descriptive_phrase	flax estab.	1	kg	1945	1945
 descriptive_phrase	for states of Rampur	1	iol	1946	1946
 descriptive_phrase	former republic of Oldenburg	1	kg	1946	1946
 descriptive_phrase	friendly societies	1	kg	1906	1906
-descriptive_phrase	from Perth to Adelaide along the S. Coast	1	kg	1870	1870
 descriptive_phrase	frontier border	1	kg	1869	1869
 descriptive_phrase	fuel research stn.	1	kg	1926	1926
 descriptive_phrase	girls' schls.	1	kg	1926	1926
@@ -574,6 +524,7 @@ descriptive_phrase	guardians fund	1	kg	1902	1902
 descriptive_phrase	hai	1	kg	1909	1909
 descriptive_phrase	hang	1	kg	1933	1933
 descriptive_phrase	harbour of King's Lynn	1	kg		
+descriptive_phrase	harbours	1	kg	1928	1928
 descriptive_phrase	head-quarters	1	iol	1895	1895
 descriptive_phrase	headqrs. division	1	kg	1913	1913
 descriptive_phrase	health	1	kg	1935	1935
@@ -588,7 +539,6 @@ descriptive_phrase	hore	1	kg	1930	1930
 descriptive_phrase	ibar	1	kg	1921	1921
 descriptive_phrase	icordia	1	kg	1914	1914
 descriptive_phrase	immignts.	1	kg	1911	1911
-descriptive_phrase	imperial bureau of entomology	1	kg		
 descriptive_phrase	in Burma	1	kg	1921	1921
 descriptive_phrase	in Central India	1	iol	1874	1874
 descriptive_phrase	in Ekoi country	1	kg	1899	1899
@@ -598,16 +548,12 @@ descriptive_phrase	in North-Western Australia	1	kg	1878	1878
 descriptive_phrase	in Oudh	1	iol	1858	1858
 descriptive_phrase	in the city of Port of Spain	1	kg		
 descriptive_phrase	in the island of Jamaica	1	kg		
-descriptive_phrase	industry	1	kg	1921	1921
 descriptive_phrase	inland dists.	1	kg	1936	1936
 descriptive_phrase	inland waterways and docks	1	kg	1917	1917
-descriptive_phrase	intelligence bureau	1	iol	1933	1933
 descriptive_phrase	internat. leprosy congress	1	kg	1948	1948
-descriptive_phrase	internat. met. organ.	1	kg	1948	1948
 descriptive_phrase	inundation canals	1	iol	1876	1876
 descriptive_phrase	ion of S. Africa	1	kg	1919	1919
 descriptive_phrase	iron bridge yard	1	iol	1851	1851
-descriptive_phrase	irrigation sectt.	1	iol	1944	1944
 descriptive_phrase	irrign.	1	iol		
 descriptive_phrase	island of St. Vincent	1	kg	1898	1898
 descriptive_phrase	island of Wakenaam	1	kg	1889	1889
@@ -618,6 +564,7 @@ descriptive_phrase	ka	1	kg	1916	1916
 descriptive_phrase	keian Territories	1	kg	1928	1928
 descriptive_phrase	kings of Denkera	1	kg	1877	1877
 descriptive_phrase	land and agriculture loan fund	1	kg		
+descriptive_phrase	land sett. and tech. co-ord. comtees	1	kg		
 descriptive_phrase	late S.A.	1	kg	1895	1895
 descriptive_phrase	lava	1	kg	1879	1879
 descriptive_phrase	lazaretto	1	kg	1867	1867
@@ -630,15 +577,12 @@ descriptive_phrase	lun. asyl.	1	kg	1894	1894
 descriptive_phrase	lutara	1	kg	1934	1934
 descriptive_phrase	maliland	1	kg	1919	1919
 descriptive_phrase	mania	1	kg	1892	1892
-descriptive_phrase	marine and water courts	1	kg		
 descriptive_phrase	mbilan	1	kg	1915	1915
-descriptive_phrase	mental	1	kg	1936	1936
 descriptive_phrase	metropolitan and eastern Bengal circle	1	iol	1902	1902
 descriptive_phrase	metropolitan circle	1	iol	1886	1886
 descriptive_phrase	metropolitan district	1	kg	1892	1892
 descriptive_phrase	midland counties	1	kg		
 descriptive_phrase	military district No. 2 (Canada)	1	kg	1915	1915
-descriptive_phrase	military works	1	iol	1872	1872
 descriptive_phrase	mills of factory area	1	iol	1919	1919
 descriptive_phrase	min. of supply	1	iol	1940	1940
 descriptive_phrase	miners	1	iol	1838	1838
@@ -648,7 +592,6 @@ descriptive_phrase	minister of food	1	kg	1940	1940
 descriptive_phrase	minister of fuel and power	1	kg	1944	1944
 descriptive_phrase	minister of munitions	1	kg	1916	1916
 descriptive_phrase	minister of town and country planning	1	kg	1947	1947
-descriptive_phrase	miny. of transport	1	kg	1919	1919
 descriptive_phrase	miralty	1	kg	1908	1908
 descriptive_phrase	mod. Greek	1	kg	1898	1898
 descriptive_phrase	mountain province of Colo Navosa	1	kg		
@@ -659,7 +602,6 @@ descriptive_phrase	nang	1	kg	1910	1910
 descriptive_phrase	national prov. fund	1	kg	1926	1926
 descriptive_phrase	nd	1	kg	1927	1927
 descriptive_phrase	nduras	1	kg	1906	1906
-descriptive_phrase	near	1	kg	1914	1914
 descriptive_phrase	near Derby	1	kg		
 descriptive_phrase	near Sitana	1	kg	1857	1857
 descriptive_phrase	new colonial and protectorate of S. Nigeria	1	kg	1906	1906
@@ -667,27 +609,22 @@ descriptive_phrase	new territorials	1	kg	1959	1959
 descriptive_phrase	ngor	1	kg	1901	1901
 descriptive_phrase	nika	1	kg		
 descriptive_phrase	nnatr. S. Rhodesia	1	kg	1898	1898
-descriptive_phrase	north and central	1	kg	1923	1923
 descriptive_phrase	north and west districts of that country	1	iol		
 descriptive_phrase	north of China	1	iol	1860	1860
 descriptive_phrase	north of Lake Tanganyika	1	kg	1893	1893
 descriptive_phrase	north-west frontier of India	1	kg	1897	1897
 descriptive_phrase	north-west part of Australia	1	kg	1837	1837
 descriptive_phrase	north-western province (Kurunegala)	1	kg	1859	1859
-descriptive_phrase	northern and eastern provinces	1	kg	1866	1866
 descriptive_phrase	northern circuit	1	kg		
 descriptive_phrase	northern cmd.	1	iol	1932	1932
-descriptive_phrase	northern districts	1	iol	1881	1881
 descriptive_phrase	northern electoral district	1	kg	1883	1883
 descriptive_phrase	northern frontier of the colony	1	kg	1866	1866
-descriptive_phrase	northwest	1	kg	1888	1888
 descriptive_phrase	nr. Newcastle-on-Tyne	1	kg		
 descriptive_phrase	occupied territory of German E. Africa	1	kg	1916	1916
 descriptive_phrase	of Wight	1	kg	1880	1880
 descriptive_phrase	of high commissioner	1	kg	1917	1917
 descriptive_phrase	officer of high commissioner for S.A.	1	kg	1928	1928
 descriptive_phrase	officers' families	1	kg	1937	1937
-descriptive_phrase	oil palm res. stn.	1	kg	1947	1947
 descriptive_phrase	old Canada	1	kg	1861	1861
 descriptive_phrase	omaliland protectorate	1	kg	1935	1935
 descriptive_phrase	on West Coast Gold Fields	1	kg	1863	1863
@@ -697,7 +634,6 @@ descriptive_phrase	on various islands	1	kg	1923	1923
 descriptive_phrase	on's Town	1	kg	1856	1856
 descriptive_phrase	ong Kong	1	kg	1935	1935
 descriptive_phrase	ordnance	1	kg	1920	1920
-descriptive_phrase	organ	1	kg	1903	1903
 descriptive_phrase	otamia	1	kg	1919	1919
 descriptive_phrase	other Islands	1	kg	1900	1900
 descriptive_phrase	other countries	1	kg	1908	1908
@@ -723,7 +659,6 @@ descriptive_phrase	parish of St. Thomas	1	kg	1879	1879
 descriptive_phrase	penal sttlmt.	1	kg	1892	1892
 descriptive_phrase	peninsula	1	kg		
 descriptive_phrase	plague admstrn.	1	kg	1901	1901
-descriptive_phrase	political agent	1	iol		
 descriptive_phrase	port of Madras	1	iol	1913	1913
 descriptive_phrase	port of Singapore	1	kg		
 descriptive_phrase	postal enquiry cte.	1	iol	1934	1934
@@ -744,7 +679,7 @@ descriptive_phrase	provisional admstrn.	1	kg	1918	1918
 descriptive_phrase	prus	1	kg	1911	1911
 descriptive_phrase	public acctns.	1	kg	1939	1939
 descriptive_phrase	public lotto	1	kg	1958	1958
-descriptive_phrase	public mortuary	1	kg	1913	1913
+descriptive_phrase	rail-road co-ordin.	1	iol	1944	1944
 descriptive_phrase	rance	1	kg	1917	1917
 descriptive_phrase	rates register experiment	1	iol	1930	1930
 descriptive_phrase	re	1	kg	1886	1886
@@ -763,7 +698,6 @@ descriptive_phrase	rural areas	1	kg	1919	1919
 descriptive_phrase	salt mines	1	iol	1925	1925
 descriptive_phrase	same prov.	1	kg	1874	1874
 descriptive_phrase	same territories	1	kg	1894	1894
-descriptive_phrase	se	1	kg	1935	1935
 descriptive_phrase	sec't.	1	kg	1950	1950
 descriptive_phrase	secon. Ethiopia	1	kg	1942	1942
 descriptive_phrase	settlements on the Gold Coast	1	kg	1861	1861
@@ -771,7 +705,6 @@ descriptive_phrase	several districts of Basutoland	1	kg	1880	1880
 descriptive_phrase	sister provinces	1	kg		
 descriptive_phrase	sleepg. sick	1	kg		
 descriptive_phrase	sly	1	kg	1917	1917
-descriptive_phrase	south circle	1	iol	1859	1859
 descriptive_phrase	south-east coast of South America	1	kg		
 descriptive_phrase	south-west frontier	1	iol	1853	1853
 descriptive_phrase	southern Afghanistan	1	iol	1881	1881
@@ -787,7 +720,6 @@ descriptive_phrase	southern states of Central India and in Malwa	1	iol	1932	1932
 descriptive_phrase	stationery	1	kg	1911	1911
 descriptive_phrase	statistical reporter and keeper of the records	1	iol	1879	1879
 descriptive_phrase	stralia	1	kg	1899	1899
-descriptive_phrase	subs. Provs.	1	iol	1936	1936
 descriptive_phrase	sup.ct.	1	kg	1920	1920
 descriptive_phrase	supply fin.	1	iol	1941	1941
 descriptive_phrase	supreme courts of Ipoh	1	kg	1947	1947
@@ -815,8 +747,6 @@ descriptive_phrase	the Unions	1	kg	1886	1886
 descriptive_phrase	the Zollverein	1	kg		
 descriptive_phrase	the ceded districts	1	iol	1862	1862
 descriptive_phrase	the chief commissioner Ajmer-Merwara	1	iol	1939	1939
-descriptive_phrase	the coasts	1	iol	1878	1878
-descriptive_phrase	the district	1	kg	1828	1828
 descriptive_phrase	the district of Long Island	1	kg	1862	1862
 descriptive_phrase	the presidency	1	iol	1866	1866
 descriptive_phrase	their dependencies	1	kg	1926	1926
@@ -825,8 +755,6 @@ descriptive_phrase	these colonies	1	kg	1884	1884
 descriptive_phrase	this see	1	kg	1854	1854
 descriptive_phrase	throughout the world	1	kg	1923	1923
 descriptive_phrase	title	1	iol	1876	1876
-descriptive_phrase	to Assam	1	iol	1909	1909
-descriptive_phrase	to Vancouver's Island	1	kg	1875	1875
 descriptive_phrase	town and island of Bombay	1	iol	1923	1923
 descriptive_phrase	town of Port of Spain	1	kg	1876	1876
 descriptive_phrase	tra	1	kg	1926	1926
@@ -858,13 +786,9 @@ descriptive_phrase	variously	1	iol	1931	1931
 descriptive_phrase	ward of Blanchisseuse	1	kg	1872	1872
 descriptive_phrase	ward's estate in Behar	1	iol	1873	1873
 descriptive_phrase	wards' estate in Behar	1	iol	1873	1873
-descriptive_phrase	water works	1	kg	1930	1930
 descriptive_phrase	waziland	1	kg	1928	1928
 descriptive_phrase	west banks	1	kg	1857	1857
-descriptive_phrase	west coast of Africa (Gambia	1	kg		
 descriptive_phrase	west coast of England	1	kg	1873	1873
-descriptive_phrase	west district	1	kg	1937	1937
-descriptive_phrase	west of India coast defences	1	iol	1888	1888
 descriptive_phrase	western circuit	1	kg	1874	1874
 descriptive_phrase	western cmd.	1	iol	1931	1931
 descriptive_phrase	western district of England	1	kg	1877	1877
@@ -872,15 +796,12 @@ descriptive_phrase	western district of the county of St. George	1	kg	1862	1862
 descriptive_phrase	western district, county of St. George	1	kg		
 descriptive_phrase	western district, county of St. Patrick	1	kg	1865	1865
 descriptive_phrase	western province of Ceylon	1	kg	1842	1842
-descriptive_phrase	westn. circle	1	iol	1929	1929
 descriptive_phrase	whole island	1	kg	1868	1868
 descriptive_phrase	winter assizes	1	kg	1906	1906
 descriptive_phrase	with Ashford Carbonell	1	kg	1874	1874
 descriptive_phrase	with Cetywayo	1	kg	1882	1882
 descriptive_phrase	with K.A.R. in E. Africa	1	kg	1914	1914
 descriptive_phrase	working party on toxic substances in agriculture	1	kg	1950	1950
-descriptive_phrase	works	1	kg	1924	1924
-descriptive_phrase	workshop	1	iol	1928	1928
 descriptive_phrase	xcheri N.C. Prov.	1	kg	1914	1914
 descriptive_phrase	y. of int.	1	kg	1919	1919
 descriptive_phrase	yika Territory	1	kg	1930	1930
@@ -888,35 +809,42 @@ generic_or_non_place_term	N.S.	66	kg	1826	1947
 generic_or_non_place_term	C.A.	57	kg	1905	1956
 generic_or_non_place_term	N.T.	53	kg	1900	1955
 generic_or_non_place_term	Union	46	kg	1910	1939
-generic_or_non_place_term	South	34	kg	1889	1946
 generic_or_non_place_term	T.W.I.	34	kg	1957	1962
-generic_or_non_place_term	North	32	kg	1886	1939
+generic_or_non_place_term	South	33	kg	1889	1939
 generic_or_non_place_term	T.	32	iol;kg	1920	1964
-generic_or_non_place_term	N.	28	kg	1874	1948
+generic_or_non_place_term	North	31	kg	1901	1939
+generic_or_non_place_term	S. district	29	kg	1874	1934
 generic_or_non_place_term	N.R.	27	kg	1904	1929
+generic_or_non_place_term	N.W. district	27	kg	1878	1936
 generic_or_non_place_term	various stations	26	iol;kg	1858	1898
 generic_or_non_place_term	K.	25	iol;kg	1892	1964
+generic_or_non_place_term	N.	25	kg	1874	1948
 generic_or_non_place_term	Dominion	24	kg	1858	1897
+generic_or_non_place_term	N. district	24	kg	1877	1946
 generic_or_non_place_term	Commonwealth	22	kg	1901	1914
 generic_or_non_place_term	E.A.G.C.	22	kg	1937	1958
 generic_or_non_place_term	N. T.	21	kg	1905	1933
 generic_or_non_place_term	West Coast	21	kg	1873	1933
 generic_or_non_place_term	S.	20	iol;kg	1901	1964
 generic_or_non_place_term	D.T.C.	18	kg	1961	1964
-generic_or_non_place_term	E.	18	iol;kg	1852	1951
-generic_or_non_place_term	M.E.	17	kg	1939	1960
+generic_or_non_place_term	E.	17	iol;kg	1852	1950
 generic_or_non_place_term	B.H.	16	kg	1950	1966
 generic_or_non_place_term	D.	16	kg	1909	1950
+generic_or_non_place_term	M.E.	16	kg	1939	1960
 generic_or_non_place_term	C.P.	15	iol;kg	1883	1923
 generic_or_non_place_term	Coast	15	kg	1908	1933
 generic_or_non_place_term	W.A.F.F.	15	kg	1885	1919
+generic_or_non_place_term	eastern district	15	kg	1858	1938
 generic_or_non_place_term	B.E.F.	14	iol;kg	1914	1926
 generic_or_non_place_term	B.M.A.	14	kg	1944	1954
 generic_or_non_place_term	F.M.S.R.	14	kg	1903	1933
 generic_or_non_place_term	E.A.V.R.O.	13	kg	1948	1962
 generic_or_non_place_term	H.O.	13	kg	1899	1944
 generic_or_non_place_term	Indian State	13	iol	1921	1935
+generic_or_non_place_term	central circle	13	iol	1914	1935
 generic_or_non_place_term	dominion	13	kg	1867	1879
+generic_or_non_place_term	northern district	13	kg	1858	1927
+generic_or_non_place_term	northern division	13	iol;kg	1846	1923
 generic_or_non_place_term	C.R.O.	12	kg	1953	1965
 generic_or_non_place_term	K.A.R.	12	kg	1902	1917
 generic_or_non_place_term	M.S.V.R.	12	kg	1914	1927
@@ -924,9 +852,11 @@ generic_or_non_place_term	Presidency	12	iol;kg	1858	1920
 generic_or_non_place_term	S.P.	12	kg	1883	1946
 generic_or_non_place_term	(north)	11	kg	1912	1921
 generic_or_non_place_term	D.P.W.	11	kg	1913	1956
+generic_or_non_place_term	N. division	11	iol;kg	1872	1899
 generic_or_non_place_term	R.A.F.	11	iol;kg	1917	1934
 generic_or_non_place_term	S.A.C.	11	kg	1900	1906
 generic_or_non_place_term	U.S.L.	11	iol	1890	1907
+generic_or_non_place_term	W. district	11	kg	1883	1938
 generic_or_non_place_term	W.P.	11	kg	1879	1946
 generic_or_non_place_term	B.	10	iol;kg	1892	1961
 generic_or_non_place_term	I.O.	10	kg	1900	1931
@@ -935,74 +865,100 @@ generic_or_non_place_term	P.	10	iol;kg	1897	1937
 generic_or_non_place_term	interior	10	kg	1869	1920
 generic_or_non_place_term	C.S.A.R.	9	kg	1902	1908
 generic_or_non_place_term	Colony	9	kg	1872	1948
+generic_or_non_place_term	E. Coast	9	iol;kg	1880	1891
 generic_or_non_place_term	G.W.R.	9	kg	1896	1922
 generic_or_non_place_term	I.C.T.A.	9	kg	1921	1957
 generic_or_non_place_term	N.W.F.	9	iol	1905	1930
 generic_or_non_place_term	U.F.O.	9	kg	1919	1923
-generic_or_non_place_term	colonial	9	kg	1885	1946
+generic_or_non_place_term	central division	9	iol;kg	1886	1906
 generic_or_non_place_term	colony	9	kg	1859	1904
 generic_or_non_place_term	C.	8	iol;kg	1902	1939
 generic_or_non_place_term	C.A.D.	8	kg	1922	1947
+generic_or_non_place_term	E. district	8	kg	1858	1944
 generic_or_non_place_term	E.E.F.	8	iol;kg	1916	1919
 generic_or_non_place_term	E.P.	8	kg	1936	1947
 generic_or_non_place_term	I	8	kg	1954	1964
 generic_or_non_place_term	M.V.I.	8	kg	1916	1926
 generic_or_non_place_term	W.	8	iol;kg	1866	1940
+generic_or_non_place_term	W. India	8	iol;kg	1874	1944
 generic_or_non_place_term	W.A.M.S.	8	kg	1897	1927
 generic_or_non_place_term	overseas	8	kg	1915	1927
 generic_or_non_place_term	protectorate	8	kg	1907	1937
 generic_or_non_place_term	Central	7	iol;kg	1857	1939
+generic_or_non_place_term	Central Circle	7	iol	1911	1928
 generic_or_non_place_term	E. A. P.	7	kg	1901	1919
 generic_or_non_place_term	F.A.P.	7	kg	1906	1930
 generic_or_non_place_term	K.L.	7	kg	1900	1949
 generic_or_non_place_term	N. P.	7	kg	1875	1928
 generic_or_non_place_term	P. W.	7	kg	1874	1889
+generic_or_non_place_term	South district	7	kg	1911	1918
 generic_or_non_place_term	U.D.F.	7	kg	1913	1937
+generic_or_non_place_term	Upper	7	kg	1841	1865
+generic_or_non_place_term	West Africa	7	kg	1849	1912
+generic_or_non_place_term	colonial	7	kg	1885	1946
+generic_or_non_place_term	eastern circle	7	iol;kg	1882	1928
+generic_or_non_place_term	northern circle	7	iol	1909	1935
 generic_or_non_place_term	A.H.Q.	6	iol	1926	1938
-generic_or_non_place_term	B.N.G.	6	kg	1900	1904
 generic_or_non_place_term	B.W.A.	6	kg	1946	1951
 generic_or_non_place_term	B/T.	6	kg	1910	1944
 generic_or_non_place_term	C.C.	6	iol;kg	1902	1929
 generic_or_non_place_term	East Coast	6	kg	1881	1923
 generic_or_non_place_term	H.K.V.D.C.	6	kg	1939	1941
+generic_or_non_place_term	N. Cent. Prov.	6	kg	1880	1908
+generic_or_non_place_term	N. India	6	iol;kg	1882	1938
 generic_or_non_place_term	N. R.	6	kg	1911	1929
-generic_or_non_place_term	N.W.	6	iol;kg	1878	1893
+generic_or_non_place_term	N. divn.	6	iol	1876	1896
+generic_or_non_place_term	Northern district	6	kg	1889	1939
+generic_or_non_place_term	Northern division	6	iol	1880	1888
 generic_or_non_place_term	O.S.O.	6	kg	1919	1922
+generic_or_non_place_term	S. India	6	iol;kg	1881	1931
 generic_or_non_place_term	S.S. E. A. P.	6	kg	1911	1923
 generic_or_non_place_term	S.S.C.S.	6	kg	1938	1952
+generic_or_non_place_term	S.W. district	6	kg	1875	1946
 generic_or_non_place_term	c.	6	iol;kg	1862	1923
 generic_or_non_place_term	h.q.	6	kg	1947	1957
 generic_or_non_place_term	home	6	kg	1827	1899
+generic_or_non_place_term	the East	6	iol;kg	1850	1892
 generic_or_non_place_term	C. O.	5	kg	1902	1916
+generic_or_non_place_term	Cent. Provinces	5	kg	1905	1905
 generic_or_non_place_term	Dependencies	5	kg	1921	1925
 generic_or_non_place_term	E.A.A.R.I.	5	kg	1937	1949
 generic_or_non_place_term	E.A.T.R.O.	5	kg	1950	1957
-generic_or_non_place_term	East	5	kg	1855	1946
 generic_or_non_place_term	G.W.B.	5	kg		
 generic_or_non_place_term	I.B.	5	iol	1927	1937
 generic_or_non_place_term	K.U.R.	5	kg	1925	1945
 generic_or_non_place_term	L. C.	5	kg	1841	1873
 generic_or_non_place_term	L.C.C.	5	kg	1898	1933
 generic_or_non_place_term	L.G.B.	5	kg	1909	1911
+generic_or_non_place_term	N.E. district	5	kg	1883	1904
+generic_or_non_place_term	N.W.	5	iol;kg	1878	1893
 generic_or_non_place_term	N.W.R.	5	kg	1905	1910
 generic_or_non_place_term	N.Y.	5	kg	1908	1949
 generic_or_non_place_term	N.Z.E.F.	5	kg	1914	1917
+generic_or_non_place_term	New South	5	kg	1880	1891
+generic_or_non_place_term	Northern Provinces	5	kg	1897	1913
 generic_or_non_place_term	R.A.M.C.	5	kg	1915	1923
 generic_or_non_place_term	R.A.P.	5	kg	1911	1929
+generic_or_non_place_term	Southern district	5	kg	1911	1931
+generic_or_non_place_term	Southern division	5	iol;kg	1862	1934
 generic_or_non_place_term	Union.	5	kg	1910	1930
 generic_or_non_place_term	W. A.	5	kg	1863	1906
+generic_or_non_place_term	W. African	5	iol;kg	1909	1913
 generic_or_non_place_term	W. P.	5	kg	1887	1939
 generic_or_non_place_term	t.	5	kg	1916	1928
+generic_or_non_place_term	B.N.G.	4	kg	1901	1904
 generic_or_non_place_term	D.C.S.	4	kg	1946	1947
 generic_or_non_place_term	D.O.S.	4	kg	1946	1955
 generic_or_non_place_term	E. A. Y.	4	kg	1910	1927
 generic_or_non_place_term	E.A.F.	4	kg	1909	1946
 generic_or_non_place_term	E.C.	4	iol	1926	1929
+generic_or_non_place_term	Eastern district	4	kg	1908	1915
 generic_or_non_place_term	F.S.	4	kg	1920	1928
 generic_or_non_place_term	H.	4	kg	1944	1952
 generic_or_non_place_term	H.Q.	4	kg	1920	1949
 generic_or_non_place_term	I.A.R.O.	4	iol;kg	1917	1918
 generic_or_non_place_term	M.S.	4	kg	1932	1935
+generic_or_non_place_term	N. Cent. prov.	4	kg	1874	1894
 generic_or_non_place_term	N. W. R.	4	kg	1905	1907
 generic_or_non_place_term	N.D.	4	iol	1922	1946
 generic_or_non_place_term	N.F.F.	4	kg	1915	1928
@@ -1010,25 +966,38 @@ generic_or_non_place_term	N.I.	4	iol;kg	1831	1932
 generic_or_non_place_term	O.A.S.	4	kg	1955	1963
 generic_or_non_place_term	O.D.M.	4	kg	1964	1964
 generic_or_non_place_term	O.E.T.A.(S)	4	kg	1918	1919
+generic_or_non_place_term	S. African	4	kg	1900	1910
+generic_or_non_place_term	S. Eastern Prov.	4	kg	1928	1939
 generic_or_non_place_term	S.C.	4	iol;kg	1927	1948
+generic_or_non_place_term	S.E. Provs.	4	kg	1930	1935
 generic_or_non_place_term	S.R.	4	kg	1916	1939
-generic_or_non_place_term	S.W.	4	iol;kg	1913	1914
+generic_or_non_place_term	Southern District	4	kg	1865	1877
 generic_or_non_place_term	T.P.D.	4	kg	1920	1937
+generic_or_non_place_term	W. Coast of Africa	4	kg	1863	1915
 generic_or_non_place_term	W.A.I.F.O.R.	4	kg	1951	1960
 generic_or_non_place_term	W.C.	4	iol	1926	1938
+generic_or_non_place_term	West district	4	kg	1904	1906
 generic_or_non_place_term	e	4	kg	1915	1922
 generic_or_non_place_term	g.	4	kg	1952	1964
+generic_or_non_place_term	ne	4	kg	1911	1913
 generic_or_non_place_term	presidency	4	iol	1856	1878
+generic_or_non_place_term	western circle	4	iol	1868	1900
+generic_or_non_place_term	western district	4	kg	1877	1887
 generic_or_non_place_term	21	3	iol	1913	1920
 generic_or_non_place_term	B.M.P.	3	iol;kg	1911	1937
 generic_or_non_place_term	B.O.T.	3	kg	1951	1965
 generic_or_non_place_term	B.S.A.	3	kg	1908	1929
 generic_or_non_place_term	C.O.	3	kg	1868	1946
 generic_or_non_place_term	D.C.	3	kg	1911	1911
+generic_or_non_place_term	E Coast	3	kg	1880	1884
+generic_or_non_place_term	E. coast	3	iol;kg	1889	1947
 generic_or_non_place_term	E.A.L.F.O.	3	kg	1957	1958
 generic_or_non_place_term	E.I.R.	3	iol	1925	1941
+generic_or_non_place_term	East	3	kg	1855	1883
 generic_or_non_place_term	East coast	3	iol	1889	1892
 generic_or_non_place_term	Eastern	3	iol;kg	1950	1950
+generic_or_non_place_term	Eastern Circle	3	iol	1881	1910
+generic_or_non_place_term	Eastern divn.	3	kg	1920	1922
 generic_or_non_place_term	F.P.	3	kg	1932	1938
 generic_or_non_place_term	French	3	kg	1892	1918
 generic_or_non_place_term	G.	3	kg	1907	1945
@@ -1038,25 +1007,38 @@ generic_or_non_place_term	G.N.R.	3	kg	1903	1915
 generic_or_non_place_term	Home	3	kg	1861	1914
 generic_or_non_place_term	I.C.A.O.	3	kg	1946	1951
 generic_or_non_place_term	M.E.L.F.	3	kg	1952	1955
+generic_or_non_place_term	N. and W. Provs.	3	kg	1908	1911
 generic_or_non_place_term	N.C.	3	iol	1926	1935
 generic_or_non_place_term	N.C.P.	3	kg	1933	1938
 generic_or_non_place_term	P. R. G.	3	kg	1878	1887
 generic_or_non_place_term	R.E.	3	iol;kg	1914	1918
 generic_or_non_place_term	R.I.M.	3	iol	1893	1905
 generic_or_non_place_term	R.N.	3	kg	1928	1943
+generic_or_non_place_term	S. divn.	3	iol;kg	1862	1913
 generic_or_non_place_term	S.A.H.C.	3	kg	1938	1958
+generic_or_non_place_term	S.W.	3	iol;kg	1913	1914
 generic_or_non_place_term	U.N.	3	kg	1949	1960
 generic_or_non_place_term	W/o. I	3	kg	1940	1947
+generic_or_non_place_term	Western District	3	kg	1882	1887
+generic_or_non_place_term	Western Provinces	3	iol;kg	1826	1884
 generic_or_non_place_term	district	3	kg	1880	1893
+generic_or_non_place_term	district E	3	kg	1901	1930
+generic_or_non_place_term	east district	3	kg	1892	1901
+generic_or_non_place_term	east. district	3	kg	1923	1937
+generic_or_non_place_term	eastern districts	3	kg	1863	1880
 generic_or_non_place_term	headquarters	3	iol;kg	1883	1892
 generic_or_non_place_term	n.	3	kg	1884	1919
 generic_or_non_place_term	province	3	kg	1855	1874
 generic_or_non_place_term	s	3	kg	1883	1901
 generic_or_non_place_term	s.p.t.	3	iol	1915	1919
+generic_or_non_place_term	southern district	3	iol;kg	1881	1922
+generic_or_non_place_term	southern districts	3	iol;kg	1881	1884
+generic_or_non_place_term	southern division	3	iol;kg	1873	1901
 generic_or_non_place_term	""""	2	kg	1898	1901
 generic_or_non_place_term	1886	2	iol	1886	1886
 generic_or_non_place_term	A.	2	kg	1921	1921
 generic_or_non_place_term	A.E.F.	2	kg	1940	1940
+generic_or_non_place_term	African coast	2	kg	1875	1875
 generic_or_non_place_term	B.B. & S.	2	kg	1951	1959
 generic_or_non_place_term	B.B.C.	2	kg	1934	1934
 generic_or_non_place_term	B.C.A.	2	kg	1902	1906
@@ -1067,10 +1049,19 @@ generic_or_non_place_term	C.A.C.	2	kg	1945	1949
 generic_or_non_place_term	C.O.I.	2	kg	1945	1949
 generic_or_non_place_term	C.P.R.	2	kg		
 generic_or_non_place_term	C.S.O.	2	kg	1893	1894
+generic_or_non_place_term	Cent.	2	kg	1955	1956
+generic_or_non_place_term	Cent. division	2	kg	1914	1915
+generic_or_non_place_term	Central Division	2	kg	1903	1904
 generic_or_non_place_term	Colonial	2	kg	1885	1905
 generic_or_non_place_term	Colonies	2	kg	1886	1921
+generic_or_non_place_term	E. African	2	kg	1915	1917
+generic_or_non_place_term	E. Indian	2	kg	1861	1877
 generic_or_non_place_term	E.A.C.L.A.	2	kg	1920	1949
 generic_or_non_place_term	E.A.M.S.	2	kg	1931	1951
+generic_or_non_place_term	East. District	2	kg	1876	1876
+generic_or_non_place_term	Eastern Prov.	2	kg	1906	1907
+generic_or_non_place_term	Eastern circle	2	iol	1914	1927
+generic_or_non_place_term	Eastern dists.	2	kg	1931	1931
 generic_or_non_place_term	F.S.S.	2	iol	1927	1930
 generic_or_non_place_term	G.C.R.	2	kg	1917	1923
 generic_or_non_place_term	G.I.	2	iol	1942	1944
@@ -1081,20 +1072,29 @@ generic_or_non_place_term	I.	2	kg	1866	1875
 generic_or_non_place_term	I. & E. H.K.	2	kg	1938	1947
 generic_or_non_place_term	I.M.R.	2	kg	1901	1929
 generic_or_non_place_term	I.S.	2	kg	1921	1923
+generic_or_non_place_term	Indian	2	kg	1885	1885
 generic_or_non_place_term	J.n.	2	iol	1915	1919
 generic_or_non_place_term	K.S.L.I.	2	kg	1906	1908
 generic_or_non_place_term	L.M.	2	kg	1893	1893
 generic_or_non_place_term	L.S.	2	kg	1909	1912
 generic_or_non_place_term	L.S.T.M.	2	kg	1915	1921
+generic_or_non_place_term	M.	2	kg	1900	1914
 generic_or_non_place_term	M.C.A.	2	kg	1946	1948
 generic_or_non_place_term	M.E.F.	2	kg	1917	1944
 generic_or_non_place_term	M.T.C.A.	2	kg	1946	1946
 generic_or_non_place_term	M.W.S.	2	iol	1893	1914
+generic_or_non_place_term	N. Central Prov.	2	kg	1894	1895
 generic_or_non_place_term	N. S.	2	kg	1894	1919
 generic_or_non_place_term	N.E.	2	kg	1882	1882
 generic_or_non_place_term	N.R.M.C.	2	kg	1917	1917
 generic_or_non_place_term	N.R.P.	2	kg	1924	1925
+generic_or_non_place_term	N.W. India	2	iol	1939	1939
+generic_or_non_place_term	N.W. districts	2	kg	1882	1890
+generic_or_non_place_term	N.W. division	2	kg	1916	1948
+generic_or_non_place_term	N.W. divn.	2	kg	1914	1919
 generic_or_non_place_term	N.W.I.	2	kg	1935	1944
+generic_or_non_place_term	Northern Division	2	kg	1881	1881
+generic_or_non_place_term	Northern circle	2	iol	1919	1919
 generic_or_non_place_term	O. C.	2	kg	1896	1898
 generic_or_non_place_term	O.A.D.	2	kg	1956	1957
 generic_or_non_place_term	O.E.T.A.	2	kg	1918	1918
@@ -1104,24 +1104,41 @@ generic_or_non_place_term	R.F.A.	2	kg	1908	1917
 generic_or_non_place_term	R.N.R.	2	kg	1881	1898
 generic_or_non_place_term	R.T.A.	2	iol	1942	1944
 generic_or_non_place_term	S. A.	2	kg	1899	1899
+generic_or_non_place_term	S. Eastern division	2	kg	1896	1908
 generic_or_non_place_term	S. t.	2	kg	1901	1909
 generic_or_non_place_term	S.A.M.C.	2	kg	1929	1929
 generic_or_non_place_term	S.E.A.C.	2	kg	1947	1947
 generic_or_non_place_term	S.S.U.F.	2	kg	1919	1938
+generic_or_non_place_term	Sn. Provs.	2	kg	1938	1938
+generic_or_non_place_term	Southern circle	2	iol	1929	1929
 generic_or_non_place_term	U.M.S.	2	kg	1914	1930
 generic_or_non_place_term	W. O.	2	kg	1878	1915
+generic_or_non_place_term	W. division	2	kg	1899	1904
 generic_or_non_place_term	W.A.C.	2	kg	1947	1948
 generic_or_non_place_term	W.A.C.R.I.	2	kg	1949	1953
 generic_or_non_place_term	W.A.I.-T.S.	2	kg	1951	1953
 generic_or_non_place_term	W.A.I.T.R.	2	kg	1949	1951
 generic_or_non_place_term	W.O.	2	kg	1937	1940
+generic_or_non_place_term	Western Africa	2	kg	1849	1866
+generic_or_non_place_term	Western Division	2	kg	1881	1881
+generic_or_non_place_term	Western circle	2	iol	1920	1925
+generic_or_non_place_term	cent.	2	kg	1923	1927
+generic_or_non_place_term	cent. provs.	2	kg		
+generic_or_non_place_term	central district	2	kg	1880	1918
 generic_or_non_place_term	coast	2	kg	1905	1952
 generic_or_non_place_term	dependencies	2	kg	1890	1942
+generic_or_non_place_term	dists.	2	kg	1925	1925
+generic_or_non_place_term	north district	2	kg	1881	1881
+generic_or_non_place_term	north division	2	iol;kg	1865	1879
+generic_or_non_place_term	northern coast	2	kg	1865	1865
+generic_or_non_place_term	northern dists.	2	kg	1904	1905
+generic_or_non_place_term	northern divn.	2	iol	1915	1916
+generic_or_non_place_term	southern divn.	2	iol	1895	1897
+generic_or_non_place_term	southern provinces	2	iol;kg	1856	1860
 generic_or_non_place_term	town	2	kg	1882	1888
 generic_or_non_place_term	w.	2	kg	1890	1894
 generic_or_non_place_term	"""B"""	1	kg	1959	1959
 generic_or_non_place_term	'G'	1	kg	1957	1957
-generic_or_non_place_term	(S.A.)	1	kg	1934	1934
 generic_or_non_place_term	.S.	1	kg	1920	1920
 generic_or_non_place_term	2	1	kg	1886	1886
 generic_or_non_place_term	A.E.	1	kg	1926	1926
@@ -1149,11 +1166,26 @@ generic_or_non_place_term	C.S.	1	iol	1931	1931
 generic_or_non_place_term	C.T.O.	1	kg	1876	1876
 generic_or_non_place_term	C.U.R.V.	1	kg	1886	1886
 generic_or_non_place_term	C.W.B.	1	kg	1937	1937
+generic_or_non_place_term	Canal district	1	kg	1896	1896
+generic_or_non_place_term	Cent. Africa	1	kg	1883	1883
+generic_or_non_place_term	Cent. African	1	kg	1904	1904
+generic_or_non_place_term	Cent. Provs	1	kg	1913	1913
+generic_or_non_place_term	Cent. Provs.	1	iol		
+generic_or_non_place_term	Central Divn.	1	iol	1914	1914
+generic_or_non_place_term	Central Indias	1	iol		
+generic_or_non_place_term	Central circles	1	iol	1912	1912
+generic_or_non_place_term	Coast prov.	1	kg	1936	1936
 generic_or_non_place_term	Cross	1	kg	1895	1895
 generic_or_non_place_term	D. H.	1	kg		
 generic_or_non_place_term	D.O.T.	1	kg	1920	1920
 generic_or_non_place_term	D.S.I.R.	1	kg	1954	1954
+generic_or_non_place_term	District E	1	kg	1858	1858
 generic_or_non_place_term	E	1	kg	1922	1922
+generic_or_non_place_term	E. Coast Africa	1	kg		
+generic_or_non_place_term	E. Coast of Africa	1	kg	1900	1900
+generic_or_non_place_term	E. Provs.	1	kg	1939	1939
+generic_or_non_place_term	E. circle	1	iol	1893	1893
+generic_or_non_place_term	E. coast of Africa	1	kg	1861	1861
 generic_or_non_place_term	E.A.A. F.R.O.	1	kg	1963	1963
 generic_or_non_place_term	E.A.A.R.S.	1	kg	1928	1928
 generic_or_non_place_term	E.A.A.T.T. R.R.O.	1	kg	1948	1948
@@ -1172,6 +1204,14 @@ generic_or_non_place_term	E.B.	1	iol	1912	1912
 generic_or_non_place_term	E.C.A.F.E.	1	kg	1949	1949
 generic_or_non_place_term	E.F.	1	kg	1914	1914
 generic_or_non_place_term	E.M.B.	1	kg	1929	1929
+generic_or_non_place_term	East Coast canal	1	iol	1876	1876
+generic_or_non_place_term	East Coast of Africa	1	kg		
+generic_or_non_place_term	East Indian	1	kg		
+generic_or_non_place_term	East and West Coasts of Africa	1	kg		
+generic_or_non_place_term	Eastern Zone	1	kg	1948	1948
+generic_or_non_place_term	Eastern division	1	kg	1903	1903
+generic_or_non_place_term	Eastern provinces	1	kg	1868	1868
+generic_or_non_place_term	Eastn. Prov.	1	kg	1883	1883
 generic_or_non_place_term	F. O.	1	kg	1926	1926
 generic_or_non_place_term	F.A.O.	1	kg	1955	1955
 generic_or_non_place_term	F.I.D.F.	1	kg	1935	1935
@@ -1207,10 +1247,9 @@ generic_or_non_place_term	L. I.	1	kg	1935	1935
 generic_or_non_place_term	L.B.	1	iol	1934	1934
 generic_or_non_place_term	L.C.C.A.	1	kg	1899	1899
 generic_or_non_place_term	L.I.	1	kg	1889	1889
-generic_or_non_place_term	L.M.S.R.	1	kg	1922	1922
 generic_or_non_place_term	L.S.W.R.	1	kg	1896	1896
 generic_or_non_place_term	L/N.	1	kg	1936	1936
-generic_or_non_place_term	M.	1	kg	1914	1914
+generic_or_non_place_term	Lower	1	iol		
 generic_or_non_place_term	M.A.T.I.	1	kg	1962	1962
 generic_or_non_place_term	M.G.W.R. (I)	1	kg	1923	1923
 generic_or_non_place_term	M.N.	1	kg	1939	1939
@@ -1218,7 +1257,13 @@ generic_or_non_place_term	M.O.F.	1	kg
 generic_or_non_place_term	M.T.	1	kg	1915	1915
 generic_or_non_place_term	M.U.	1	kg	1946	1946
 generic_or_non_place_term	M.Y.A.F.	1	kg	1939	1939
+generic_or_non_place_term	Mid.	1	kg	1901	1901
 generic_or_non_place_term	N	1	kg	1923	1923
+generic_or_non_place_term	N. Africa	1	kg	1944	1944
+generic_or_non_place_term	N. Divn.	1	kg	1913	1913
+generic_or_non_place_term	N. Provn.	1	kg	1921	1921
+generic_or_non_place_term	N. W. district	1	kg	1895	1895
+generic_or_non_place_term	N. coast	1	kg	1865	1865
 generic_or_non_place_term	N.C. P.	1	kg	1894	1894
 generic_or_non_place_term	N.F.D.	1	kg	1916	1916
 generic_or_non_place_term	N.H.S.	1	kg	1950	1950
@@ -1226,8 +1271,17 @@ generic_or_non_place_term	N.I.S.R.	1	iol	1909	1909
 generic_or_non_place_term	N.R.D.F.	1	kg	1939	1939
 generic_or_non_place_term	N.R.R.	1	kg	1915	1915
 generic_or_non_place_term	N.T.S.	1	kg	1956	1956
+generic_or_non_place_term	N.W. Africa	1	kg	1942	1942
+generic_or_non_place_term	N.W. Districts	1	kg	1908	1908
+generic_or_non_place_term	N.W. dists.	1	kg	1890	1890
 generic_or_non_place_term	N.W.M.P.	1	kg	1873	1873
-generic_or_non_place_term	Northern	1	kg	1866	1866
+generic_or_non_place_term	North Western	1	iol	1899	1899
+generic_or_non_place_term	North and North Central Provinces	1	kg	1886	1886
+generic_or_non_place_term	North cent. prov.	1	kg	1886	1886
+generic_or_non_place_term	North district	1	kg	1904	1904
+generic_or_non_place_term	Northern District	1	kg	1872	1872
+generic_or_non_place_term	Northern and Eastern provinces	1	kg	1866	1866
+generic_or_non_place_term	Northern areas	1	kg	1936	1936
 generic_or_non_place_term	O.	1	kg	1896	1896
 generic_or_non_place_term	O.E.T.A. (S)	1	kg	1920	1920
 generic_or_non_place_term	O.E.T.A. (S.)	1	kg	1919	1919
@@ -1237,7 +1291,6 @@ generic_or_non_place_term	P. W. D.	1	kg	1900	1900
 generic_or_non_place_term	P.D.W.	1	kg	1947	1947
 generic_or_non_place_term	P.M.C.	1	kg	1930	1930
 generic_or_non_place_term	P.M.G.	1	kg	1900	1900
-generic_or_non_place_term	P.S.	1	kg	1946	1946
 generic_or_non_place_term	Protectorate	1	kg	1899	1899
 generic_or_non_place_term	R.C.P.	1	kg		
 generic_or_non_place_term	R.F.C.	1	kg	1917	1917
@@ -1249,21 +1302,38 @@ generic_or_non_place_term	R.M.A.	1	kg	1947	1947
 generic_or_non_place_term	R.M.C.	1	kg	1935	1935
 generic_or_non_place_term	R.N.A.S.	1	kg	1917	1917
 generic_or_non_place_term	R.O.	1	kg	1911	1911
+generic_or_non_place_term	S. Coast	1	kg	1875	1875
+generic_or_non_place_term	S. Province	1	kg	1892	1892
+generic_or_non_place_term	S. W. district	1	kg	1879	1879
+generic_or_non_place_term	S. dists.	1	kg	1929	1929
+generic_or_non_place_term	S. division	1	kg	1914	1914
 generic_or_non_place_term	S.A.A.F.	1	kg	1942	1942
 generic_or_non_place_term	S.A.F.F.	1	kg	1899	1899
 generic_or_non_place_term	S.A.H.A.	1	kg	1917	1917
 generic_or_non_place_term	S.A.H.C.T.	1	kg	1949	1949
 generic_or_non_place_term	S.A.L.	1	kg	1917	1917
 generic_or_non_place_term	S.A.M.R.	1	kg	1913	1913
+generic_or_non_place_term	S.Africa	1	iol	1945	1945
 generic_or_non_place_term	S.E.	1	iol	1917	1917
 generic_or_non_place_term	S.E. & C.R.	1	kg	1912	1912
+generic_or_non_place_term	S.E. Africa	1	kg	1881	1881
+generic_or_non_place_term	S.E. Provinces	1	iol	1843	1843
+generic_or_non_place_term	S.E. provs.	1	kg	1930	1930
 generic_or_non_place_term	S.M.A.C.	1	kg	1916	1916
 generic_or_non_place_term	S.M.E.	1	kg	1915	1915
 generic_or_non_place_term	S.N.	1	kg	1913	1913
 generic_or_non_place_term	S.P.H.S.	1	kg	1952	1952
 generic_or_non_place_term	S.P.T.	1	iol		
+generic_or_non_place_term	S.W. African	1	kg	1914	1914
+generic_or_non_place_term	S.W. and E. African	1	kg	1914	1914
 generic_or_non_place_term	S.W.7	1	iol	1920	1920
+generic_or_non_place_term	Sindia	1	iol	1876	1876
+generic_or_non_place_term	South African	1	kg		
 generic_or_non_place_term	Southern	1	kg	1915	1915
+generic_or_non_place_term	Southern Circle	1	iol	1914	1914
+generic_or_non_place_term	Southern India	1	iol	1881	1881
+generic_or_non_place_term	Southern districts	1	iol	1893	1893
+generic_or_non_place_term	Southern dists.	1	iol	1902	1902
 generic_or_non_place_term	T. S.S.	1	kg	1923	1923
 generic_or_non_place_term	T.U.C.	1	kg	1921	1921
 generic_or_non_place_term	U S.A.	1	kg	1888	1888
@@ -1271,11 +1341,19 @@ generic_or_non_place_term	U.K.-U.S.A.	1	kg	1907	1907
 generic_or_non_place_term	U.N.O.	1	kg	1947	1947
 generic_or_non_place_term	U.N.R.R.A.	1	kg	1944	1944
 generic_or_non_place_term	U.W.I.	1	kg	1955	1955
+generic_or_non_place_term	Upper India	1	iol	1891	1891
+generic_or_non_place_term	Upper Provinces	1	iol	1862	1862
 generic_or_non_place_term	V.A.F.F.	1	kg	1916	1916
 generic_or_non_place_term	V.B.	1	kg	1931	1931
 generic_or_non_place_term	V.D.	1	kg	1911	1911
 generic_or_non_place_term	V.I.	1	kg	1894	1894
 generic_or_non_place_term	V.S.	1	kg	1960	1960
+generic_or_non_place_term	W. Central Africa	1	kg	1912	1912
+generic_or_non_place_term	W. Coast	1	kg	1919	1919
+generic_or_non_place_term	W. Coast district	1	kg	1891	1891
+generic_or_non_place_term	W. coast of Africa	1	kg		
+generic_or_non_place_term	W. districts	1	iol	1885	1885
+generic_or_non_place_term	W. provs.	1	kg	1949	1949
 generic_or_non_place_term	W.A.I.-T.C.	1	kg	1949	1949
 generic_or_non_place_term	W.A.I.T.C.	1	kg	1951	1951
 generic_or_non_place_term	W.A.I.T.S.	1	kg	1955	1955
@@ -1286,13 +1364,28 @@ generic_or_non_place_term	W.H.O.	1	kg	1958	1958
 generic_or_non_place_term	W.O.I.	1	kg	1940	1940
 generic_or_non_place_term	W.P.M.R.	1	kg		
 generic_or_non_place_term	West	1	kg	1897	1897
+generic_or_non_place_term	West Coast District	1	kg	1877	1877
+generic_or_non_place_term	West Indian	1	kg	1904	1904
+generic_or_non_place_term	West Indian Province	1	kg	1883	1883
+generic_or_non_place_term	West Indian Provinces	1	kg	1883	1883
+generic_or_non_place_term	West. division	1	kg		
+generic_or_non_place_term	Western Circle	1	iol	1924	1924
+generic_or_non_place_term	Western Districts	1	iol	1885	1885
+generic_or_non_place_term	Western division	1	kg	1904	1904
 generic_or_non_place_term	Z.N.	1	kg		
 generic_or_non_place_term	b.	1	kg	1884	1884
 generic_or_non_place_term	c	1	iol	1885	1885
+generic_or_non_place_term	cent. district	1	kg		
+generic_or_non_place_term	cent. division	1	kg		
 generic_or_non_place_term	central	1	kg	1886	1886
 generic_or_non_place_term	city	1	kg	1944	1944
+generic_or_non_place_term	coast of Africa	1	kg	1838	1838
+generic_or_non_place_term	district E.	1	kg	1917	1917
 generic_or_non_place_term	east	1	kg	1857	1857
 generic_or_non_place_term	eastern	1	kg	1848	1848
+generic_or_non_place_term	eastern division	1	kg	1930	1930
+generic_or_non_place_term	eastern provinces	1	kg	1871	1871
+generic_or_non_place_term	eastern seen.	1	iol	1932	1932
 generic_or_non_place_term	f A.	1	kg	1911	1911
 generic_or_non_place_term	f G. H.	1	kg	1903	1903
 generic_or_non_place_term	hinterland	1	kg	1898	1898
@@ -1301,11 +1394,23 @@ generic_or_non_place_term	i.p.r.	1	iol	1946	1946
 generic_or_non_place_term	l	1	kg	1905	1905
 generic_or_non_place_term	n	1	kg	1933	1933
 generic_or_non_place_term	north	1	kg	1866	1866
+generic_or_non_place_term	north and central	1	kg	1923	1923
 generic_or_non_place_term	northern	1	kg	1848	1848
+generic_or_non_place_term	northern and eastern provinces	1	kg	1866	1866
+generic_or_non_place_term	northern districts	1	iol	1881	1881
+generic_or_non_place_term	northwest	1	kg	1888	1888
 generic_or_non_place_term	r.	1	kg	1905	1905
+generic_or_non_place_term	se	1	kg	1935	1935
+generic_or_non_place_term	south circle	1	iol	1859	1859
+generic_or_non_place_term	subs. Provs.	1	iol	1936	1936
 generic_or_non_place_term	t	1	kg	1903	1903
 generic_or_non_place_term	the Colonies	1	kg	1901	1901
+generic_or_non_place_term	the coasts	1	iol	1878	1878
+generic_or_non_place_term	the district	1	kg	1828	1828
 generic_or_non_place_term	west coast	1	iol	1863	1863
+generic_or_non_place_term	west district	1	kg	1937	1937
+generic_or_non_place_term	westn. circle	1	iol	1929	1929
+institution_or_office	India Office	1818	iol	1824	1946
 institution_or_office	C.O.	728	iol;kg	1863	1966
 institution_or_office	Indian State railways	541	iol	1891	1946
 institution_or_office	E.A.R. & H.	462	kg	1932	1965
@@ -1366,6 +1471,7 @@ institution_or_office	Indian State railways (E.B. railway)	21	iol	1896	1942
 institution_or_office	Office of the High commissioner for India	21	iol	1921	1936
 institution_or_office	Indian Army	20	iol;kg	1886	1949
 institution_or_office	chief court	20	iol	1870	1946
+institution_or_office	rlwys.	20	kg	1921	1948
 institution_or_office	Indian State railway	19	iol;kg	1901	1934
 institution_or_office	home department	19	iol	1875	1945
 institution_or_office	Imp. Inst.	18	kg	1893	1954
@@ -1383,6 +1489,7 @@ institution_or_office	Survey of India Department	16	iol	1851	1892
 institution_or_office	board of revenue	16	iol	1856	1890
 institution_or_office	high court	16	iol;kg	1873	1942
 institution_or_office	posts and tels.	16	iol	1916	1937
+institution_or_office	D.W.W.I.	15	kg	1943	1955
 institution_or_office	Grant medical college	15	iol	1889	1911
 institution_or_office	Indian State Railways (N.W. railway)	15	iol	1903	1945
 institution_or_office	Railway department	15	iol	1899	1923
@@ -1407,6 +1514,7 @@ institution_or_office	Indian Audit department	12	iol	1910	1930
 institution_or_office	Indian Off. (mil. department)	12	iol	1909	1928
 institution_or_office	atty.-gen.'s department	12	kg	1898	1904
 institution_or_office	Br. post office	11	kg	1914	1946
+institution_or_office	Calcutta High Court	11	iol	1899	1912
 institution_or_office	Dominions Office	11	kg	1925	1938
 institution_or_office	Indian Public Works department	11	iol	1880	1917
 institution_or_office	Mayo college	11	iol	1903	1932
@@ -1437,6 +1545,7 @@ institution_or_office	Inst. for medical Research	9	kg	1908	1927
 institution_or_office	K.U. railways and H.	9	kg	1919	1934
 institution_or_office	Kowloon-Canton railway	9	kg	1913	1938
 institution_or_office	Medical College	9	iol	1870	1890
+institution_or_office	Nigerian marine	9	kg	1910	1929
 institution_or_office	Queen's university	9	kg	1885	1934
 institution_or_office	Royal college	9	kg	1903	1946
 institution_or_office	University of Madras	9	iol	1875	1886
@@ -1455,14 +1564,20 @@ institution_or_office	N.Z. Expd. Force	8	kg	1914	1918
 institution_or_office	Nigerian railways	8	kg	1907	1937
 institution_or_office	North Western railway	8	iol	1886	1924
 institution_or_office	Post Office	8	iol	1899	1911
+institution_or_office	Royal Observatory, Hong Kong	8	kg	1912	1929
+institution_or_office	central revenues	8	iol	1920	1936
 institution_or_office	frontier constabulary	8	iol	1920	1934
 institution_or_office	government office	8	kg	1884	1956
+institution_or_office	irrigation	8	iol	1865	1878
 institution_or_office	medical department	8	kg	1946	1965
 institution_or_office	railway branch	8	iol	1873	1914
 institution_or_office	registry and record department	8	iol	1903	1913
+institution_or_office	rlways.	8	kg	1927	1947
 institution_or_office	university of Cape Town	8	kg	1918	1935
 institution_or_office	zoological survey of India	8	iol	1919	1927
 institution_or_office	Br. Empire Exhibn.	7	kg	1924	1927
+institution_or_office	Central revenues	7	iol	1921	1937
+institution_or_office	Colombo museum	7	kg	1886	1906
 institution_or_office	East Coast railway	7	iol	1890	1899
 institution_or_office	Elphinstone College	7	iol	1875	1892
 institution_or_office	G.I.P. Rly	7	iol	1920	1945
@@ -1494,8 +1609,11 @@ institution_or_office	general hospital	7	iol	1884	1893
 institution_or_office	office of contr. and audr.-gen.	7	kg	1910	1935
 institution_or_office	university of S. Africa	7	kg	1918	1927
 institution_or_office	Afghan boundary commission	6	iol	1884	1890
+institution_or_office	British Museum	6	iol	1878	1903
 institution_or_office	Cameroons Expedy. Force	6	kg	1916	1923
+institution_or_office	Chenab bridge project	6	iol	1887	1889
 institution_or_office	Cooper's Hill college	6	iol	1878	1896
+institution_or_office	Crown Agents	6	kg	1910	1922
 institution_or_office	E.A.C.S.O., customs	6	kg	1946	1963
 institution_or_office	East Indian railway	6	iol;kg	1856	1891
 institution_or_office	Fife Artillery Militia	6	kg	1873	1878
@@ -1503,6 +1621,7 @@ institution_or_office	G.I.P.Rly.	6	iol	1913	1930
 institution_or_office	Guy's Hosp.	6	kg	1897	1897
 institution_or_office	H.C.'s Office	6	iol	1922	1937
 institution_or_office	"H.M.S. ""Worcester"""	6	kg	1894	1911
+institution_or_office	Hong Kong Observatory	6	kg	1883	1907
 institution_or_office	Ind. Police	6	iol	1914	1934
 institution_or_office	Ind. Posts and Tels.	6	iol	1913	1946
 institution_or_office	Indian Eccles establishment	6	iol	1919	1931
@@ -1516,14 +1635,19 @@ institution_or_office	Indus-Sind revenue survey	6	iol	1862	1892
 institution_or_office	Inst. medical Resch.	6	kg	1926	1932
 institution_or_office	Jamsetji Jijibhoy Hospital	6	iol	1858	1889
 institution_or_office	Laval university	6	kg	1871	1898
+institution_or_office	Madras diocese	6	iol	1936	1944
 institution_or_office	Nigeria regiment	6	kg	1914	1918
+institution_or_office	Nizam's govt.	6	iol	1885	1946
 institution_or_office	Ogaden punitive force	6	kg	1900	1907
+institution_or_office	Pudukota boundary	6	iol	1887	1888
 institution_or_office	Queen Victoria school	6	kg	1918	1930
 institution_or_office	Ravenshaw college	6	iol	1922	1936
 institution_or_office	Royal Engineers	6	iol;kg	1859	1909
 institution_or_office	Tan Tock Seng hosp.	6	kg	1923	1957
+institution_or_office	Tapti irrigation	6	iol	1866	1880
 institution_or_office	Treasury	6	iol;kg	1899	1964
 institution_or_office	Trinidad local forces	6	kg	1905	1944
+institution_or_office	Uga. rlwys.	6	kg	1926	1938
 institution_or_office	W.P.H.C.	6	kg	1915	1965
 institution_or_office	Western System	6	kg	1884	1899
 institution_or_office	army	6	iol;kg	1868	1919
@@ -1540,12 +1664,14 @@ institution_or_office	high commissioners office	6	kg	1950	1965
 institution_or_office	inland rev. department	6	kg	1943	1954
 institution_or_office	office of the secretary of state for the colonies	6	kg	1838	1879
 institution_or_office	public service comsnr.'s office	6	kg	1920	1931
+institution_or_office	public works	6	kg	1885	1933
 institution_or_office	store department	6	iol	1865	1919
 institution_or_office	supreme court	6	kg	1875	1938
 institution_or_office	Afghanistan force	5	iol	1879	1897
-institution_or_office	Alfred co.	5	kg	1867	1870
 institution_or_office	B. Guiana local forces	5	kg	1922	1924
+institution_or_office	Bahamas census	5	kg	1891	1901
 institution_or_office	Baro-Kano railway	5	kg	1907	1912
+institution_or_office	Bombay High Court	5	iol	1876	1896
 institution_or_office	Carnegie Poor White commission of research	5	kg	1928	1939
 institution_or_office	Eastern conservancy	5	kg	1912	1931
 institution_or_office	Ellis Kadoorie school	5	kg	1915	1936
@@ -1553,6 +1679,7 @@ institution_or_office	Fed. secretariat	5	kg	1915	1920
 institution_or_office	Forest Research Inst.	5	iol	1923	1942
 institution_or_office	Govt. of India, Reforms Office	5	iol	1933	1938
 institution_or_office	Grey college school	5	kg	1884	1918
+institution_or_office	H. of A.	5	kg	1916	1933
 institution_or_office	Holkar state railway	5	iol	1870	1875
 institution_or_office	Home Forces	5	kg	1913	1930
 institution_or_office	Home Office	5	iol	1903	1922
@@ -1572,9 +1699,13 @@ institution_or_office	N.W.Rly.	5	iol	1897	1935
 institution_or_office	National Insurance Audit department	5	kg	1913	1937
 institution_or_office	Nizam's state railway	5	iol	1870	1881
 institution_or_office	Rajputana-Malwa railway	5	iol	1884	1894
+institution_or_office	Royal Observatory, H.K.	5	kg	1932	1947
 institution_or_office	Royal university of Malta	5	kg	1948	1955
+institution_or_office	S. African parlt.	5	kg	1910	1929
 institution_or_office	S. Indian railway	5	kg	1898	1916
+institution_or_office	Shing Mun Valley scheme	5	kg	1923	1939
 institution_or_office	Thomason college	5	iol	1901	1934
+institution_or_office	Union H. of A.	5	kg	1910	1929
 institution_or_office	Union defence forces	5	kg	1912	1914
 institution_or_office	Union government	5	kg	1913	1937
 institution_or_office	Wantsai government school	5	kg	1914	1924
@@ -1594,16 +1725,17 @@ institution_or_office	pol. (external) department	5	iol	1930	1945
 institution_or_office	railway clearing accts.	5	iol	1927	1936
 institution_or_office	shipping department	5	kg	1948	1954
 institution_or_office	university of Stellenbosch	5	kg	1903	1929
+institution_or_office	All-India Radio	4	iol	1935	1936
 institution_or_office	B. B. and C. I. railway	4	iol	1885	1891
 institution_or_office	B. Guiana militia	4	kg	1900	1943
 institution_or_office	Bellary-Kistna and Cuddapah-Nellore railways	4	iol	1886	1890
 institution_or_office	Bhutan field force	4	iol	1864	1871
 institution_or_office	Board of Trade	4	iol;kg	1908	1937
+institution_or_office	Br. Caribbean pre-fed. estab.	4	kg	1956	1959
 institution_or_office	Br. Museum	4	kg	1863	1935
 institution_or_office	Brit. legation	4	iol	1940	1944
 institution_or_office	Central public works department	4	iol	1940	1942
 institution_or_office	Charing Cross Hosp.	4	kg	1938	1938
-institution_or_office	Colonial Exhibition	4	kg	1886	1886
 institution_or_office	Colonial and Indian Exhibition	4	kg	1886	1886
 institution_or_office	Dhond and Manmad state railway	4	iol	1872	1878
 institution_or_office	E. African Currency board	4	kg	1920	1920
@@ -1626,6 +1758,7 @@ institution_or_office	Hafikine Inst.	4	iol	1925	1932
 institution_or_office	Haileybury college	4	kg	1885	1937
 institution_or_office	Harrison college	4	kg	1931	1934
 institution_or_office	Home department	4	iol	1909	1942
+institution_or_office	Horse Guards	4	kg	1859	1872
 institution_or_office	House of Commons	4	iol	1895	1928
 institution_or_office	Ind. State railways	4	iol	1914	1944
 institution_or_office	Ind. customs service	4	iol	1931	1945
@@ -1633,6 +1766,7 @@ institution_or_office	Indian Munitions board	4	iol	1918	1918
 institution_or_office	Indian State railways (B.I. railway)	4	iol	1920	1928
 institution_or_office	Indus-Sind rev. survey	4	iol	1862	1892
 institution_or_office	Jamsetji Jijibhoj Hospital	4	iol	1858	1882
+institution_or_office	Kurram-Afghan boundary	4	iol	1894	1906
 institution_or_office	L. Islds. police	4	kg	1898	1905
 institution_or_office	Louis Trichardt department of justice	4	kg	1924	1934
 institution_or_office	Magburaka training college	4	kg	1954	1956
@@ -1647,8 +1781,9 @@ institution_or_office	N. India Salt Rev. department	4	iol	1872	1910
 institution_or_office	N. W. railway	4	iol	1887	1913
 institution_or_office	North-Western state railway	4	iol	1886	1887
 institution_or_office	Outram school, bore	4	kg	1926	1930
+institution_or_office	Presidency Colleges	4	iol	1876	1878
 institution_or_office	Presy. college	4	iol	1887	1913
-institution_or_office	Queen's Co.	4	kg	1896	1917
+institution_or_office	R. Infirmary	4	kg	1905	1924
 institution_or_office	Raffles Girls' school	4	kg	1937	1957
 institution_or_office	Rajputana-Malwa railway system	4	iol	1885	1890
 institution_or_office	Rewari Ferozepur railway	4	iol	1881	1883
@@ -1661,17 +1796,19 @@ institution_or_office	St. George's Hosp.	4	iol	1901	1913
 institution_or_office	St. Kitts def. force	4	kg	1903	1906
 institution_or_office	Tels. ( Bihar	4	iol	1898	1927
 institution_or_office	Union department of education	4	kg	1921	1937
+institution_or_office	Victoria Inst.	4	kg	1934	1952
 institution_or_office	West Indian court of appeal	4	kg	1924	1926
 institution_or_office	Western Conservancy	4	kg	1892	1909
 institution_or_office	Western and Midland systems of railway	4	kg	1884	1890
 institution_or_office	Worcestershire regiment	4	kg	1900	1914
+institution_or_office	Yallahs Valley land authy.	4	kg	1951	1953
 institution_or_office	accts. branch of the financial department	4	iol	1872	1893
 institution_or_office	agriculture prod. and settlement board	4	kg	1944	1946
 institution_or_office	atty.-gen.'s office	4	kg	1895	1903
 institution_or_office	battalion Guinea	4	kg	1890	1898
 institution_or_office	board of trade	4	iol;kg	1870	1908
 institution_or_office	civil service commission	4	kg	1945	1964
-institution_or_office	co. of Quebec	4	kg	1878	1887
+institution_or_office	colonial (later o'seas) geol. surveys	4	kg	1948	1960
 institution_or_office	customs and railway extension confce. at Capetown	4	kg	1888	1897
 institution_or_office	department of Explosives	4	iol	1903	1929
 institution_or_office	department of justice	4	kg	1899	1922
@@ -1712,7 +1849,6 @@ institution_or_office	18th Lond. regiment	3	kg	1915	1918
 institution_or_office	1st W.I. regiment	3	kg	1857	1870
 institution_or_office	1st West India regiment	3	kg	1857	1870
 institution_or_office	2nd W. I. regiment	3	kg	1860	1866
-institution_or_office	4th Light Dragoons	3	kg	1846	1851
 institution_or_office	African education	3	kg	1955	1959
 institution_or_office	Ahmedabad Field Corps	3	kg	1857	1857
 institution_or_office	Ahmedabad Koli Corps	3	kg	1857	1857
@@ -1735,13 +1871,15 @@ institution_or_office	Caterham Asylum	3	kg	1874	1874
 institution_or_office	Central Br. school	3	kg	1922	1937
 institution_or_office	Central India railway co.	3	iol	1885	1899
 institution_or_office	Charing Cross hosp.	3	kg	1924	1924
+institution_or_office	Chenal bridge project	3	iol	1887	1887
+institution_or_office	Chinese hosps. and dispensaries	3	kg	1937	1947
 institution_or_office	Chitral Relief Force	3	iol	1895	1895
 institution_or_office	Codrington college	3	kg	1847	1847
 institution_or_office	Customs department	3	iol	1879	1902
 institution_or_office	Cuttack-Midnapur-Calcutta railway survey	3	iol	1894	1894
-institution_or_office	Delhi-Ambala-Kalka co.	3	iol	1889	1895
 institution_or_office	Dominion Government	3	kg	1874	1874
 institution_or_office	Dominion government	3	kg	1921	1926
+institution_or_office	Dominion observatory, Ottawa, Canada	3	kg	1909	1919
 institution_or_office	Donegal Artillery (militia)	3	kg	1890	1902
 institution_or_office	E. African Vty. Corps	3	kg	1916	1917
 institution_or_office	E. B. railway	3	iol	1931	1931
@@ -1754,11 +1892,13 @@ institution_or_office	E.I. rly	3	iol	1932	1937
 institution_or_office	Eastern Command	3	iol;kg	1928	1961
 institution_or_office	Ferret Force	3	kg	1948	1951
 institution_or_office	Forest Products Inst.	3	kg	1934	1937
+institution_or_office	Fort instns.	3	kg	1929	1936
 institution_or_office	Gondal-Porbandar railway	3	iol	1914	1916
 institution_or_office	Govt.	3	iol	1904	1927
 institution_or_office	H.C.'s office	3	iol	1921	1927
 institution_or_office	"H.M.S. ""Conway"""	3	kg	1885	1902
 institution_or_office	"H.M.S. ""Minotaur"""	3	kg	1916	1917
+institution_or_office	Hampstead division of Middlesex	3	kg	1885	1887
 institution_or_office	His Majesty's Mint	3	iol	1921	1926
 institution_or_office	Imperial Library	3	iol	1901	1905
 institution_or_office	Impl. Inst.	3	iol;kg	1893	1903
@@ -1773,6 +1913,7 @@ institution_or_office	Indian Railway department	3	iol	1905	1915
 institution_or_office	Indian State railways (dep. contr. of stores, E.I. railway)	3	iol	1926	1929
 institution_or_office	Indian State railways, Coal Dept	3	iol	1928	1937
 institution_or_office	Indian Telegraph department	3	iol	1870	1887
+institution_or_office	Indian and Colonial Exhibition	3	kg		
 institution_or_office	Indian ecclesiastical department	3	iol	1901	1935
 institution_or_office	Indian medical department	3	iol	1852	1879
 institution_or_office	Indian service of Engrs.	3	iol	1920	1928
@@ -1780,7 +1921,6 @@ institution_or_office	Indian staff corps	3	kg	1886	1894
 institution_or_office	Indian tel. department	3	iol	1893	1914
 institution_or_office	Indus survey	3	iol	1869	1869
 institution_or_office	Inns of Court	3	iol;kg	1875	1913
-institution_or_office	Khyber Rifles	3	iol	1897	1901
 institution_or_office	King George's medical college	3	iol	1914	1926
 institution_or_office	Kingston constabulary force	3	kg	1878	1878
 institution_or_office	Kowloon–Canton rlwy.	3	kg	1951	1960
@@ -1790,6 +1930,7 @@ institution_or_office	Makogai leper asylum	3	kg	1910	1910
 institution_or_office	Mari-Attock railway	3	iol	1893	1904
 institution_or_office	Marlborough college	3	iol;kg	1897	1906
 institution_or_office	Mayo school of arts	3	iol	1914	1929
+institution_or_office	Mhow military works division	3	iol	1872	1880
 institution_or_office	Mico Training college	3	kg	1932	1949
 institution_or_office	Mohmand Field Force	3	iol	1908	1908
 institution_or_office	Mt. Allison university	3	kg		
@@ -1828,8 +1969,10 @@ institution_or_office	Tels.	3	iol	1898	1920
 institution_or_office	Thomason Civil Engineering College	3	iol	1870	1874
 institution_or_office	Thomason College	3	iol	1863	1879
 institution_or_office	Tochi Field Force	3	iol	1897	1897
+institution_or_office	Training Schools	3	iol	1907	1910
 institution_or_office	Union Defence Forces	3	kg	1920	1937
 institution_or_office	Union health department	3	kg	1919	1939
+institution_or_office	Upper Godavery works	3	iol	1862	1862
 institution_or_office	Western Front	3	kg	1915	1917
 institution_or_office	Western conservancy	3	kg	1916	1931
 institution_or_office	Worcester militia	3	kg	1840	1853
@@ -1842,7 +1985,6 @@ institution_or_office	board	3	kg	1924	1930
 institution_or_office	board agr.	3	kg	1918	1928
 institution_or_office	cent. hosp.	3	kg	1883	1929
 institution_or_office	civil secretariat	3	iol	1879	1882
-institution_or_office	co-op. socs.	3	kg	1934	1935
 institution_or_office	college hospital	3	iol	1872	1892
 institution_or_office	college of medical	3	kg	1929	1947
 institution_or_office	colonial sec's office	3	kg	1911	1927
@@ -1851,7 +1993,6 @@ institution_or_office	department of agr. and forestry	3	kg	1934	1939
 institution_or_office	department of external affairs; Commonwealth government	3	kg	1901	1907
 institution_or_office	department of migration	3	kg	1929	1942
 institution_or_office	estate duty office	3	kg	1934	1947
-institution_or_office	executive co.	3	kg	1957	1961
 institution_or_office	ext. affairs department	3	iol	1940	1941
 institution_or_office	fed. government	3	kg	1958	1963
 institution_or_office	fedl. secretariat	3	kg	1919	1929
@@ -1894,33 +2035,36 @@ institution_or_office	to the overland telegraph between Adelaide	3	kg	1874	1874
 institution_or_office	university N.B.	3	kg	1873	1888
 institution_or_office	university of London	3	iol;kg	1911	1929
 institution_or_office	university of Malaya	3	kg		
+institution_or_office	vagrant dépôt	3	kg	1881	1881
 institution_or_office	western system	3	iol;kg	1877	1896
-institution_or_office	1st Royal Lanark Militia	2	kg	1872	1872
 institution_or_office	2/1st Punjab regiment	2	iol		
 institution_or_office	3rd Essex regiment	2	kg	1896	1899
 institution_or_office	3rd West India Regiment	2	kg	1852	1853
 institution_or_office	40th regiment	2	kg	1870	1870
-institution_or_office	4th Hussars	2	iol	1861	1861
 institution_or_office	4th Nigeria regiment, W.A.F.F.	2	kg	1920	1921
 institution_or_office	4th Suffolk regiment	2	kg	1903	1903
 institution_or_office	53rd battalion	2	kg		
 institution_or_office	86th W. Australia Infantry regiment	2	kg		
-institution_or_office	9th Lancers	2	iol	1872	1878
 institution_or_office	Aden Field Force	2	kg	1915	1915
 institution_or_office	Aden protectorate government guards	2	kg	1939	1945
 institution_or_office	Adisadel college	2	kg	1937	1937
+institution_or_office	Admlty.	2	kg	1900	1914
 institution_or_office	Afghan-Baluch boundary commission	2	iol	1894	1896
 institution_or_office	African forces	2	kg	1901	1903
 institution_or_office	Ahmadu Bello university	2	kg	1962	1962
 institution_or_office	Aka field force	2	iol	1883	1886
+institution_or_office	All India Radio	2	iol	1937	1937
 institution_or_office	Anglo-French bndry. commission	2	kg	1895	1898
 institution_or_office	Anglo-German bound. commission	2	kg	1896	1897
 institution_or_office	Anglo-Siamese boundary commission	2	iol	1889	1889
 institution_or_office	Antigua defence force	2	kg	1903	1914
+institution_or_office	Anuradahapura Kach.	2	kg	1920	1920
 institution_or_office	Assam-Bengal railway company	2	iol	1892	1892
 institution_or_office	Australian Museum	2	kg	1853	1856
 institution_or_office	Australian military Forces	2	kg		
 institution_or_office	Australian museum	2	kg	1928	1928
+institution_or_office	Austrln. parltr.	2	kg	1901	1901
+institution_or_office	Badulla-Kachcheri	2	kg	1900	1903
 institution_or_office	Barbados volns.	2	kg	1904	1906
 institution_or_office	Beatty secondary school	2	kg	1954	1955
 institution_or_office	Bedford regiment	2	kg	1914	1915
@@ -1941,8 +2085,6 @@ institution_or_office	Br. central school	2	kg	1938	1938
 institution_or_office	Burma Front Service	2	iol	1943	1945
 institution_or_office	Burma-China rlwy. constr.	2	kg	1941	1945
 institution_or_office	Burmra railways	2	iol	1924	1935
-institution_or_office	Bute Rifles	2	kg	1855	1855
-institution_or_office	Bute Rifles (embodied)	2	kg	1855	1855
 institution_or_office	C.A.'s office	2	kg	1905	1907
 institution_or_office	C.E. college	2	iol	1905	1912
 institution_or_office	C.O. conf.	2	kg	1927	1930
@@ -1952,10 +2094,12 @@ institution_or_office	Cape Peninsula regiment	2	kg	1902	1913
 institution_or_office	Cawnpur-Farukhabad and Muttra-Hathras Railways	2	iol	1880	1881
 institution_or_office	Central Bengal system of state railways	2	iol	1878	1880
 institution_or_office	Central Museum	2	iol	1910	1915
+institution_or_office	Central Provinces surveys	2	iol	1859	1863
 institution_or_office	Central Training College	2	iol	1891	1892
 institution_or_office	Charing Cross Hospital	2	iol;kg	1883	1883
 institution_or_office	Chili-Argentine Boundary commission	2	iol	1902	1902
 institution_or_office	Chinese labour battalion	2	kg	1917	1918
+institution_or_office	Clyde Defences	2	kg	1914	1916
 institution_or_office	Coleford and Monmouth railway	2	kg	1880	1884
 institution_or_office	Coleford and Monmouth rlwy.	2	kg	1881	1884
 institution_or_office	College Hospital	2	iol	1874	1874
@@ -1995,8 +2139,10 @@ institution_or_office	Falkland Is. Def. Force	2	kg	1927	1931
 institution_or_office	Fed. government	2	kg	1953	1955
 institution_or_office	Fernando post office	2	kg	1952	1952
 institution_or_office	Foreign department, Govt. of India	2	iol	1877	1883
+institution_or_office	G.W.R. West London works	2	kg		
 institution_or_office	G.W.Rly.	2	kg	1890	1893
 institution_or_office	Geylang English school	2	kg	1923	1923
+institution_or_office	Gisbourne har. board, N. Zealand	2	kg	1885	1887
 institution_or_office	Glam. Artil. Militia	2	kg	1893	1898
 institution_or_office	Glouc. regiment	2	kg		
 institution_or_office	Gold Coast Volunteers	2	kg	1916	1917
@@ -2006,17 +2152,19 @@ institution_or_office	Govt. central press	2	iol	1920	1923
 institution_or_office	Govt. of India department of indus. and labour	2	iol	1928	1930
 institution_or_office	Great Indian Peninsula railways	2	iol		
 institution_or_office	Griqualand Field Force	2	kg	1878	1879
+institution_or_office	H.M.C.S. Nimanoa	2	kg	1936	1937
 institution_or_office	Hawaiian Sugar Planters' Assoc. experiment station	2	kg	1905	1907
 institution_or_office	Holkar and Neemuch state railway	2	iol	1878	1878
 institution_or_office	Holkar, Sindia-Nimach, and Nimach-Nasirabad railways	2	iol	1881	1881
 institution_or_office	Home forces	2	iol	1915	1915
+institution_or_office	Hunter River improvements	2	kg	1855	1858
 institution_or_office	I.S.F. (now N.W.) railway	2	kg	1877	1877
-institution_or_office	Imperial Brit. E. Africa Co.	2	kg	1886	1889
 institution_or_office	Impl. agriculture department	2	iol	1909	1912
 institution_or_office	Impl. education Confce., in London	2	kg	1911	1923
 institution_or_office	Impl. library	2	iol	1929	1930
 institution_or_office	Impl. military railways	2	kg	1902	1902
 institution_or_office	Impl. vety. research inst.	2	iol	1940	1940
+institution_or_office	Inanda division of the county of Victoria, Natal	2	kg	1868	1870
 institution_or_office	Indian Audit Office	2	iol	1937	1946
 institution_or_office	Indian Forest department	2	iol	1873	1884
 institution_or_office	Indian Geological Survey	2	iol	1905	1921
@@ -2026,14 +2174,16 @@ institution_or_office	Indian State railways ( district medical officer, G.I.P. r
 institution_or_office	Indian State railways, Coal department	2	iol	1921	1936
 institution_or_office	Indian Vety. Service	2	iol	1923	1933
 institution_or_office	Indian civil vety. department	2	kg	1904	1905
-institution_or_office	Indian exhibition	2	iol	1885	1886
+institution_or_office	Indian ecclesiastical Estab.	2	iol	1937	1939
 institution_or_office	Indian government	2	kg	1919	1934
 institution_or_office	Indian guaranteed railways (Scinde, Punjab, and Delhi)	2	kg	1883	1883
 institution_or_office	Indian legislative assembly	2	iol	1930	1935
 institution_or_office	Indian munitions board	2	iol	1917	1919
 institution_or_office	Indian school	2	kg	1920	1921
 institution_or_office	Indian school of mines	2	iol	1935	1937
+institution_or_office	Indian section of the Colonial and Indian exhibition	2	iol	1885	1886
 institution_or_office	Indian service	2	iol	1856	1858
+institution_or_office	Indian teacher training centre	2	kg	1947	1953
 institution_or_office	Indian telegraph department	2	iol	1909	1909
 institution_or_office	Indian treasuries	2	iol	1904	1912
 institution_or_office	Indo-Burma Connection Survey	2	iol	1914	1915
@@ -2045,20 +2195,22 @@ institution_or_office	Jhansi-Manikpur state railway	2	iol	1883	1885
 institution_or_office	Kabul field force	2	iol	1879	1879
 institution_or_office	Kathiawar local battalion	2	iol	1867	1867
 institution_or_office	Kent Artil. militia	2	kg	1862	1862
+institution_or_office	Kew Observatory	2	kg	1872	1876
 institution_or_office	Khalsa college	2	iol	1924	1931
 institution_or_office	King Edward VII college of Medicine	2	kg	1921	1946
 institution_or_office	King Edward medical college	2	iol	1919	1930
 institution_or_office	King Institute of Preventive Medicine	2	iol	1905	1909
-institution_or_office	King's Roy. Rifles	2	kg	1890	1893
 institution_or_office	Kingsbury and Neasden isolation hosp.	2	kg	1910	1910
 institution_or_office	Kitwe Trng. college	2	kg	1956	1962
 institution_or_office	Kowloon-Canton railway (British section)	2	kg	1911	1911
 institution_or_office	Krishnagore college	2	iol	1930	1930
 institution_or_office	Kwong Wah hosp.	2	kg	1926	1926
 institution_or_office	L. and N.W. railway	2	kg	1863	1875
+institution_or_office	Lake Albert marine	2	kg	1915	1915
 institution_or_office	Lake Victoria fish. service, E.A.H.C.	2	kg	1948	1955
 institution_or_office	Lancs. Fusiliers	2	kg	1903	1915
 institution_or_office	Lashio-Muse survey	2	iol	1927	1927
+institution_or_office	Lewisham infirmary	2	kg		
 institution_or_office	Lynch's secretary school	2	kg	1937	1942
 institution_or_office	Maclagan engrg. college	2	iol	1924	1934
 institution_or_office	Makerere college council	2	kg	1940	1954
@@ -2066,6 +2218,7 @@ institution_or_office	Mal. regiment	2	kg	1940	1941
 institution_or_office	Malakand Field Force	2	iol	1897	1897
 institution_or_office	Malay and S. Stlmts. Volunteer Force (Malacca)	2	kg	1922	1922
 institution_or_office	Manchester regiment	2	iol	1895	1897
+institution_or_office	Manda division of the county of Victoria, Natal	2	kg	1868	1870
 institution_or_office	Mesopotamia Field Force	2	iol	1915	1916
 institution_or_office	Midsex. regiment	2	kg	1917	1917
 institution_or_office	Ministry of Transport	2	iol	1919	1919
@@ -2078,7 +2231,6 @@ institution_or_office	N. P. Asylum	2	kg	1882	1882
 institution_or_office	N. York rifle militia	2	kg	1879	1881
 institution_or_office	N.E. railway	2	kg	1872	1905
 institution_or_office	N.E. system	2	iol	1877	1881
-institution_or_office	N.R. Rifles	2	kg	1915	1916
 institution_or_office	N.W. Front.	2	kg	1923	1930
 institution_or_office	N.W. Militia	2	iol	1919	1920
 institution_or_office	N.W. railways	2	iol	1886	1886
@@ -2095,6 +2247,7 @@ institution_or_office	Nizam's government	2	iol	1885	1887
 institution_or_office	Nizam's railway	2	iol	1882	1883
 institution_or_office	North-Western State Railway	2	iol	1885	1885
 institution_or_office	Northern Command	2	iol	1924	1936
+institution_or_office	Northern section	2	iol	1898	1899
 institution_or_office	Nova Scotian legislative Assembly	2	kg		
 institution_or_office	Nushki Extn. railway	2	iol	1916	1916
 institution_or_office	Oversea Sttlmt. Office	2	kg	1919	1924
@@ -2105,17 +2258,22 @@ institution_or_office	Presidency hospital	2	iol	1883	1885
 institution_or_office	Princess Alice hosp.	2	kg	1950	1950
 institution_or_office	Privy Council	2	iol	1897	1897
 institution_or_office	Propsting government	2	kg		
+institution_or_office	Punjab (irrigation)	2	iol	1883	1894
 institution_or_office	Punjab Frontier Force	2	iol	1880	1892
 institution_or_office	Queen Mary Hosp.	2	kg	1937	1937
 institution_or_office	R. Geographical Society	2	iol	1910	1919
 institution_or_office	R. Irish Fusiliers	2	kg	1915	1915
+institution_or_office	Radio Malawi	2	kg	1963	1964
 institution_or_office	Raffles museum	2	kg	1934	1946
 institution_or_office	Rajputana-Malwa railways	2	iol	1883	1884
+institution_or_office	Ravee section	2	iol	1873	1873
 institution_or_office	Rawal Pindi command	2	iol	1881	1886
 institution_or_office	Rhodes university college	2	kg	1925	1925
 institution_or_office	Rhodes-Livingstone inst.	2	kg	1937	1945
 institution_or_office	Rhodesian forest service	2	kg	1920	1920
+institution_or_office	Richmond Hill institutions	2	kg	1946	1954
 institution_or_office	Richmond school	2	kg	1902	1903
+institution_or_office	Robben Is. lunatic and leper asylums	2	kg	1909	1912
 institution_or_office	Round Table conf.	2	iol	1931	1932
 institution_or_office	Roy. Niger Constabulary	2	kg	1890	1891
 institution_or_office	Roy. Soc.	2	kg		
@@ -2137,8 +2295,8 @@ institution_or_office	S.A. medical Corps	2	kg
 institution_or_office	S.C. & A.S. staff	2	kg	1931	1948
 institution_or_office	S.E. railway	2	iol	1858	1858
 institution_or_office	Salonika Front	2	kg		
-institution_or_office	Samana Rifles	2	iol	1907	1908
 institution_or_office	Sanskrit College	2	iol	1864	1885
+institution_or_office	Sarawak museum	2	kg	1947	1947
 institution_or_office	Scottish education department	2	kg	1910	1910
 institution_or_office	Sindh state railway, construction division	2	iol	1879	1881
 institution_or_office	Sindia and Neemuch state railways	2	iol	1880	1880
@@ -2146,28 +2304,33 @@ institution_or_office	Sinjawi and railway district	2	iol	1900	1902
 institution_or_office	Somaliland police force	2	kg	1923	1928
 institution_or_office	South Australian mounted forces	2	kg	1886	1889
 institution_or_office	South Bank prov.	2	kg	1912	1920
-institution_or_office	South Persia Rifles	2	iol	1916	1917
 institution_or_office	St. Joseph's light infantry regiment of militia	2	kg	1833	1837
 institution_or_office	St. Kitts-Nevis naval def. force	2	kg	1904	1905
 institution_or_office	St. Kitts-Nevis volr. forces	2	kg	1897	1897
+institution_or_office	State Rlwys.	2	iol	1886	1886
 institution_or_office	State railways branch	2	iol	1893	1903
+institution_or_office	Suez defences	2	kg	1916	1916
 institution_or_office	Sultan Idris training college	2	kg	1950	1950
-institution_or_office	Sutherland Rifles	2	kg	1855	1855
 institution_or_office	Tanganyika post. service	2	kg	1936	1937
 institution_or_office	Tasmanian government railways	2	kg	1891	1892
 institution_or_office	Tech. Inst.	2	kg	1909	1912
 institution_or_office	Tels. (Bihar	2	iol	1907	1937
 institution_or_office	Thagi and Dakaiti department	2	iol	1872	1877
 institution_or_office	The Peak school	2	kg	1946	1946
+institution_or_office	Times	2	kg	1903	1908
 institution_or_office	Tirah expedy. force	2	iol	1897	1897
 institution_or_office	Tochi field force	2	iol;kg	1897	1898
+institution_or_office	Trigl. Surveys	2	iol	1900	1910
 institution_or_office	Turkish army	2	kg	1877	1877
+institution_or_office	Tytam Tuk scheme	2	kg	1915	1916
 institution_or_office	U.F.O. government	2	kg	1919	1919
 institution_or_office	Uktal university	2	iol		
 institution_or_office	University of London	2	kg	1850	1856
 institution_or_office	University of Toronto	2	kg		
+institution_or_office	Victoria Inst., K. Lumpur	2	kg	1921	1935
 institution_or_office	W. African lands committee	2	kg	1912	1912
 institution_or_office	W. Indian Agri. college	2	kg	1921	1924
+institution_or_office	W. Indian Club	2	kg	1917	1917
 institution_or_office	W. Indian court of appl.	2	kg	1921	1938
 institution_or_office	W. conservancy	2	kg	1903	1905
 institution_or_office	W. system	2	kg	1883	1884
@@ -2183,19 +2346,18 @@ institution_or_office	Zoological Survey of India	2	iol	1929	1933
 institution_or_office	acctnt.-gen's. department	2	kg	1950	1955
 institution_or_office	agriculture department	2	kg	1909	1918
 institution_or_office	agriculture res. council	2	kg	1946	1951
+institution_or_office	attorney-general's office	2	kg	1864	1869
 institution_or_office	aud. department	2	kg	1901	1903
 institution_or_office	audit office	2	kg	1865	1868
 institution_or_office	bank of Montreal	2	kg		
 institution_or_office	board of agriculture and fisheries	2	kg	1906	1906
 institution_or_office	cent. board	2	kg	1954	1960
+institution_or_office	centr. intell. bureau	2	iol	1943	1945
 institution_or_office	central board of rev.	2	iol	1931	1934
 institution_or_office	central secrt.	2	kg	1958	1963
 institution_or_office	central system	2	iol	1877	1878
 institution_or_office	central tech. power board	2	iol	1945	1946
 institution_or_office	chief court of Lower Burma	2	iol	1908	1917
-institution_or_office	co. Caroni	2	kg	1895	1895
-institution_or_office	co. Cork	2	kg	1876	1886
-institution_or_office	co. Pietermaritzburg	2	kg	1868	1874
 institution_or_office	college of commerce	2	iol	1915	1919
 institution_or_office	committee on governors' pensions	2	kg	1927	1930
 institution_or_office	court of King's Bench of Manitoba	2	kg	1910	1929
@@ -2210,11 +2372,12 @@ institution_or_office	department of agriculture	2	kg	1927	1951
 institution_or_office	department of co-op. socs.	2	kg	1936	1938
 institution_or_office	department of education, govt. of India	2	iol	1919	1919
 institution_or_office	department of issue of state paper currency	2	iol	1880	1881
+institution_or_office	division of George, Cape	2	kg	1881	1881
+institution_or_office	division of Ixopo	2	kg	1876	1876
 institution_or_office	division of Umgeni	2	kg	1876	1876
 institution_or_office	eastern conservancy	2	kg	1908	1926
 institution_or_office	estab. department	2	kg	1953	1958
 institution_or_office	establishment (United Provs.)	2	iol	1937	1939
-institution_or_office	ex. co.	2	kg	1949	1952
 institution_or_office	examiner's office	2	iol	1851	1854
 institution_or_office	external affairs department	2	iol	1937	1938
 institution_or_office	famine commission	2	iol	1878	1878
@@ -2223,6 +2386,7 @@ institution_or_office	fed. audit.	2	kg	1954	1958
 institution_or_office	federal department of mines	2	kg	1920	1920
 institution_or_office	fin. department	2	iol	1927	1932
 institution_or_office	financial department	2	iol	1863	1867
+institution_or_office	for. res. organ.	2	kg	1947	1948
 institution_or_office	foreign department, government of India	2	iol	1873	1873
 institution_or_office	foreign office	2	iol;kg	1859	1876
 institution_or_office	funds department	2	iol	1874	1882
@@ -2245,15 +2409,18 @@ institution_or_office	legislative Assembly department	2	iol	1937	1937
 institution_or_office	legislative assembly department	2	iol	1929	1930
 institution_or_office	leper inst.	2	kg	1927	1933
 institution_or_office	map publn. office	2	iol	1927	1928
+institution_or_office	marine	2	kg	1953	1954
 institution_or_office	medical college hospital	2	iol	1891	1892
 institution_or_office	military board	2	iol	1851	1853
 institution_or_office	milty. department	2	iol	1917	1940
 institution_or_office	min. of labour and nat. service	2	iol	1943	1945
+institution_or_office	minister of comms. and works	2	kg	1956	1963
 institution_or_office	motor transpt. department	2	kg	1922	1922
 institution_or_office	office of auditor-genl.	2	iol	1936	1936
 institution_or_office	office of commissioner in U.K.	2	kg	1955	1957
 institution_or_office	office of high commissioner for S. Africa	2	kg	1918	1923
 institution_or_office	on active service	2	kg	1914	1920
+institution_or_office	parlt. of Union of S. Africa	2	kg	1920	1936
 institution_or_office	police school	2	kg	1909	1912
 institution_or_office	post and air department	2	iol	1944	1944
 institution_or_office	post office and telegraphs	2	iol	1910	1911
@@ -2271,6 +2438,7 @@ institution_or_office	railway department, Brisbane, Qnsld.	2	kg	1885	1887
 institution_or_office	res. bank of India	2	iol	1935	1935
 institution_or_office	revenue department	2	iol	1858	1860
 institution_or_office	rly, clearing accts. office	2	iol	1933	1934
+institution_or_office	runegala kach.	2	kg	1928	1929
 institution_or_office	school	2	kg	1919	1921
 institution_or_office	sleeping sickness commission	2	kg	1908	1909
 institution_or_office	store depot	2	iol	1857	1904
@@ -2283,26 +2451,14 @@ institution_or_office	university of Pretoria	2	kg	1917	1934
 institution_or_office	university of Reading	2	kg	1929	1929
 institution_or_office	university of Toronto	2	kg	1913	1927
 institution_or_office	water and elec. department	2	kg	1955	1958
+institution_or_office	western boundary G. Coast	2	kg	1892	1892
 institution_or_office	1/18 Lond. regiment	1	kg	1916	1916
 institution_or_office	107th (Royal Sussex) regiment	1	kg	1881	1881
-institution_or_office	12th Lancers	1	kg	1854	1854
 institution_or_office	12th London regiment	1	kg	1917	1917
 institution_or_office	17th regiment	1	kg	1867	1867
-institution_or_office	1st Army, B.E.F.	1	kg	1917	1917
-institution_or_office	1st Eastern Rifles	1	kg	1914	1914
-institution_or_office	1st Forfar Artil. volrs.	1	kg	1880	1880
-institution_or_office	1st King's African rifles	1	kg	1905	1905
-institution_or_office	1st Norfolk Royal Garrison Arty. Volunteers	1	kg	1888	1888
-institution_or_office	1st Northumberland Fusiliers	1	kg	1918	1918
 institution_or_office	1st Norwich Volr. battalion	1	kg		
 institution_or_office	1st W. I. regiment	1	kg	1869	1869
-institution_or_office	1st grade staff officer	1	kg	1919	1919
-institution_or_office	21st Hussars	1	iol	1862	1862
-institution_or_office	272nd brigade, R.F.A.	1	kg	1917	1917
 institution_or_office	29th Vancouver regiment	1	kg		
-institution_or_office	2nd Hussars	1	kg	1855	1855
-institution_or_office	2nd Northumberland Fusiliers	1	kg	1915	1915
-institution_or_office	2nd Roy. Lanark militia	1	kg	1859	1859
 institution_or_office	2nd West India Regiment	1	kg	1861	1861
 institution_or_office	2nd West India regiment	1	kg	1871	1871
 institution_or_office	32nd (D.C.L.I.) regiment	1	kg	1880	1880
@@ -2315,24 +2471,17 @@ institution_or_office	4th Lond. general hosp.	1	kg	1917	1917
 institution_or_office	4th Norfolk regiment	1	kg	1889	1889
 institution_or_office	4th W. I. regiment	1	kg	1862	1862
 institution_or_office	4th battalion Nigeria regiment	1	kg	1914	1914
-institution_or_office	4th hussars	1	iol	1861	1861
 institution_or_office	51st (Soo) regiment	1	kg		
-institution_or_office	5th Bengal Cavalry	1	iol	1868	1868
-institution_or_office	5th Lancers	1	iol	1884	1884
 institution_or_office	6th Army Corps, B.E.F.	1	kg	1917	1917
-institution_or_office	79th highlanders	1	kg		
-institution_or_office	7th Dragoon Guards	1	kg	1862	1862
 institution_or_office	80th regiment	1	kg		
-institution_or_office	8th Army	1	kg	1941	1941
 institution_or_office	8th vol. battalion K.R.R.	1	kg	1896	1896
-institution_or_office	97th Deccan Inf.	1	iol	1909	1909
-institution_or_office	9th Bengal native infantry	1	iol	1845	1845
 institution_or_office	A. G.'s department of Custom House	1	iol	1907	1907
 institution_or_office	A.G.'s department	1	kg	1904	1904
 institution_or_office	Abor. department	1	kg	1895	1895
 institution_or_office	Abyssinian expedit. force	1	iol	1868	1868
 institution_or_office	Abyssinian expeditionary force	1	iol	1868	1868
 institution_or_office	Abyssinian field force	1	iol	1867	1867
+institution_or_office	Accra re-housing scheme	1	kg	1940	1940
 institution_or_office	Admiralty breakwaters	1	kg	1903	1903
 institution_or_office	Admiralty harb.	1	kg	1897	1897
 institution_or_office	Afghan expeditionary force	1	iol	1879	1879
@@ -2343,12 +2492,15 @@ institution_or_office	African post. and telecoms. union conf.	1	kg	1948	1948
 institution_or_office	Afzalganj hospital	1	iol		
 institution_or_office	Agr. Econ. Res. Inst.	1	kg	1925	1925
 institution_or_office	Agra-Gwalior railway	1	iol	1872	1872
+institution_or_office	Air Miny.	1	kg	1919	1919
 institution_or_office	Aitchison College	1	iol	1886	1886
 institution_or_office	Albert Dock Hosp.	1	kg		
+institution_or_office	Albert marine	1	kg	1913	1913
 institution_or_office	Aldershot cavalry brigade	1	kg		
-institution_or_office	Alexandra co.	1	kg	1876	1876
 institution_or_office	Alexandra, resident magistrate's office	1	kg	1876	1876
 institution_or_office	Algoma Cent. railway	1	kg	1901	1901
+institution_or_office	Alguada Reef Lighthouse works	1	iol	1860	1860
+institution_or_office	Allahabad High Court	1	iol	1920	1920
 institution_or_office	Alld. university	1	iol	1922	1922
 institution_or_office	American Association for Advancement Sc.	1	kg	1882	1882
 institution_or_office	American fish. soc.	1	kg	1910	1910
@@ -2360,10 +2512,14 @@ institution_or_office	Anglo-French conf. on N. Heb.	1	kg	1954	1954
 institution_or_office	Anglo-German Boundary Commission	1	kg	1886	1886
 institution_or_office	Anglo-German boundary commission	1	kg	1908	1908
 institution_or_office	Anglo-German boundary commission to Lake Chad	1	kg		
+institution_or_office	Anglo-German-Belgian Boundary (Ruwenzori-Lake Edward section)	1	kg	1911	1911
 institution_or_office	Anglo-German-Belgian Boundary commission	1	kg	1911	1911
 institution_or_office	Annamalai university	1	iol	1929	1929
 institution_or_office	Antigua-Montserrat-Virgin Is. police force	1	kg	1960	1960
+institution_or_office	Anurad- pura kach.	1	kg	1932	1932
+institution_or_office	Anuradahapura Kachcheri	1	kg	1920	1920
 institution_or_office	Apapa Nig. rlwy.	1	kg	1937	1937
+institution_or_office	Arab bureau	1	kg	1916	1916
 institution_or_office	Arapai Farm inst.	1	kg	1962	1962
 institution_or_office	Army Council	1	iol	1904	1904
 institution_or_office	Army Head-quarters	1	iol	1900	1900
@@ -2372,24 +2528,28 @@ institution_or_office	Army department	1	iol	1914	1914
 institution_or_office	Army headqtrs.	1	kg	1914	1914
 institution_or_office	Army wing, Rhine army of occupation	1	kg	1919	1919
 institution_or_office	Arsikere-Mangalore railway survey	1	iol	1894	1894
-institution_or_office	Artists Rifles	1	kg	1916	1916
 institution_or_office	Arusha-Moshi lands commission	1	kg	1946	1946
 institution_or_office	Ashanti Field Force	1	kg	1900	1900
 institution_or_office	Ashanti field force	1	kg	1900	1900
 institution_or_office	Assam-Bengal railway co.	1	iol	1895	1895
 institution_or_office	Assembly of the League of Nations	1	iol	1932	1932
 institution_or_office	Atlantic Fleet	1	kg	1905	1905
+institution_or_office	Atlas loco. works	1	kg		
 institution_or_office	Australian Army Vety. Corps.	1	kg		
 institution_or_office	Australian Imp. Forces	1	kg	1918	1918
 institution_or_office	Australian defence department	1	kg	1918	1918
 institution_or_office	Australian federal council	1	kg	1885	1885
 institution_or_office	Australian museum and Technological museum	1	kg		
+institution_or_office	Australian parliament	1	kg	1901	1901
+institution_or_office	Australian parlt.	1	kg	1901	1901
 institution_or_office	Australian public service	1	kg	1948	1948
 institution_or_office	Australian service	1	kg	1937	1937
+institution_or_office	B'caloa Kachcheri	1	kg	1920	1920
 institution_or_office	B'dos general hosp.	1	kg	1926	1926
 institution_or_office	B. B. Laboratory	1	iol	1922	1922
 institution_or_office	B. Guiana Militia Infy.	1	kg	1914	1914
 institution_or_office	B. Guiana-Brazil bound. commission	1	kg	1931	1931
+institution_or_office	B. Guiana–Brazil boundary	1	kg	1931	1931
 institution_or_office	B. Hond. def. force	1	kg	1928	1928
 institution_or_office	B. Honduras Territorial Force	1	kg		
 institution_or_office	B.B. & C.I. and G.I.P. railways	1	iol	1945	1945
@@ -2398,7 +2558,6 @@ institution_or_office	B.B. and C.I. railway co.	1	iol	1885	1885
 institution_or_office	B.B. and C.I. rly	1	iol	1946	1946
 institution_or_office	B.B. and C.I.Ry.	1	iol	1945	1945
 institution_or_office	B.G. militia	1	kg	1937	1937
-institution_or_office	B.S.A. Co.	1	kg		
 institution_or_office	B.S.A. police, division I. (now Bech. protectorate police)	1	kg	1898	1898
 institution_or_office	B.W.A. met. service	1	kg	1950	1950
 institution_or_office	Bahamas Vol. Defence Force	1	kg	1917	1917
@@ -2408,7 +2567,7 @@ institution_or_office	Baluchistan-Afghan boundary commission	1	iol
 institution_or_office	Banaban school Ocean Is.	1	kg	1929	1929
 institution_or_office	Bank of New South Wales	1	kg		
 institution_or_office	Barbados volunteers	1	kg		
-institution_or_office	Barclays Bank (Dom.	1	kg		
+institution_or_office	Barclays Bank (Dom., colonial, and Overseas) Pretoria	1	kg		
 institution_or_office	Barkly asylum	1	kg	1895	1895
 institution_or_office	Baro Kano railway	1	kg	1909	1909
 institution_or_office	Barsi Light railway	1	iol	1914	1914
@@ -2417,13 +2576,14 @@ institution_or_office	Bechuanaland field force	1	kg	1884	1884
 institution_or_office	Belize Volunteer Rifle and Artillery Corps	1	kg		
 institution_or_office	Belize fire brigade	1	kg	1928	1928
 institution_or_office	Belize volunteer corps	1	kg	1878	1878
+institution_or_office	Benares colleges	1	iol	1874	1874
+institution_or_office	Bengal C.S. (North-Western Provinces	1	iol	1891	1891
 institution_or_office	Bengal Fusiliers	1	iol	1857	1857
 institution_or_office	Bengal army (infantry)	1	iol	1840	1840
 institution_or_office	Bengal artillery	1	iol	1832	1832
 institution_or_office	Bengal staff corps	1	iol	1863	1863
 institution_or_office	Bengal yeomanry cavalry	1	iol	1857	1857
 institution_or_office	Bengal-Assam railway, northern section	1	iol	1891	1891
-institution_or_office	Bengal-Nagpur co.	1	iol	1887	1887
 institution_or_office	Bengal-Nagpur railway company	1	iol	1887	1887
 institution_or_office	Benguela railway survey	1	kg	1909	1909
 institution_or_office	Bethlem Royal Hosp.	1	kg		
@@ -2437,12 +2597,14 @@ institution_or_office	Bhootan field force	1	iol	1865	1865
 institution_or_office	Bhutan Duars Field Force	1	iol	1864	1864
 institution_or_office	Bingham city asylum	1	kg		
 institution_or_office	Blvth and W. North British railway	1	kg	1896	1896
+institution_or_office	Bo'ness drainage works	1	kg	1883	1883
 institution_or_office	Board of Agriculture	1	iol	1913	1913
 institution_or_office	Board of education	1	iol	1909	1909
 institution_or_office	Bodleian Library	1	iol	1912	1912
 institution_or_office	Boer Forces	1	kg	1899	1899
 institution_or_office	Bombay Infantry	1	iol	1861	1861
 institution_or_office	Bombay infantry	1	iol	1848	1848
+institution_or_office	Bonasika irrig. scheme	1	kg	1943	1943
 institution_or_office	Boral inst.	1	kg	1932	1932
 institution_or_office	Border Mily. police	1	iol	1932	1932
 institution_or_office	Borstal Inst.	1	kg	1938	1938
@@ -2450,18 +2612,19 @@ institution_or_office	Bosworth school	1	kg	1880	1880
 institution_or_office	Br. Army of Rhine	1	kg	1924	1924
 institution_or_office	Br. Army of the Rhine	1	kg		
 institution_or_office	Br. Caribbean met. service	1	kg	1951	1951
+institution_or_office	Br. Caribbean pre-fed'l estab.	1	kg	1956	1956
 institution_or_office	Br. China indemnity delegation	1	kg	1926	1926
 institution_or_office	Br. E.A. meteor. service	1	kg	1928	1928
 institution_or_office	Br. Emp. Exhibn.	1	kg		
 institution_or_office	Br. Empire soc. for the blind	1	kg	1950	1950
 institution_or_office	Br. M.E. Office	1	kg	1950	1950
-institution_or_office	Br. S. Africa Co.	1	kg	1891	1891
 institution_or_office	Br. S. Africa Company	1	kg	1891	1891
 institution_or_office	Br. Salvage commission for E. Africa	1	kg	1912	1912
 institution_or_office	Br. Sol. Trng. college	1	kg	1961	1961
 institution_or_office	Br. Somaliland-Ethiopia bdny. commission	1	kg	1931	1931
 institution_or_office	Br. embassy	1	kg	1956	1956
 institution_or_office	Br. post and tel. service	1	kg	1901	1901
+institution_or_office	Br. res.	1	kg	1913	1913
 institution_or_office	Br. secretary Anglo-American Caribbean commission	1	kg	1942	1942
 institution_or_office	Brazilian Central Bahia railway	1	kg	1891	1891
 institution_or_office	Bredasdorp division of Cape Colony	1	kg	1855	1855
@@ -2480,10 +2643,10 @@ institution_or_office	British Legation	1	iol	1927	1927
 institution_or_office	Brompton Consumptive Hospital	1	kg		
 institution_or_office	Brompton Hosp. for consumption	1	kg		
 institution_or_office	Brompton hosp.	1	kg	1898	1898
-institution_or_office	Buckingham rifles	1	kg	1860	1860
 institution_or_office	Bugishu coffee board	1	kg	1954	1954
 institution_or_office	Bukalasa farm inst.	1	kg	1956	1956
-institution_or_office	Bukoba Expedy. Forces	1	kg	1915	1915
+institution_or_office	Bureau of Hygiene	1	kg	1925	1925
+institution_or_office	Burma refugee orgn.	1	iol	1942	1942
 institution_or_office	Burma-China boundary commission	1	iol	1898	1898
 institution_or_office	Burmaste state railway	1	iol	1892	1892
 institution_or_office	Bushire Fd. Force	1	iol	1918	1918
@@ -2491,6 +2654,7 @@ institution_or_office	C. and A.G.'s office	1	kg	1905	1905
 institution_or_office	C.A.D., central office	1	kg	1946	1946
 institution_or_office	C.I. railway co.	1	iol	1885	1885
 institution_or_office	C.I.C. railway construction	1	iol	1924	1924
+institution_or_office	C.M. project	1	iol	1933	1933
 institution_or_office	C.S. board	1	kg		
 institution_or_office	C.S.A. railways	1	kg	1903	1903
 institution_or_office	Cabinet Offices	1	iol	1939	1939
@@ -2510,12 +2674,14 @@ institution_or_office	Canadian assembly	1	kg	1878	1878
 institution_or_office	Canadian defence committee	1	kg	1898	1898
 institution_or_office	Canara police force	1	kg	1863	1863
 institution_or_office	Canton-Hankow railway	1	kg		
-institution_or_office	Cape Mounted Rifles	1	kg	1899	1899
-institution_or_office	Cape Rifles	1	kg	1897	1897
 institution_or_office	Cape colonial forces	1	kg	1878	1878
 institution_or_office	Cape division of the colony	1	kg	1857	1857
+institution_or_office	Caribbean Organ.	1	kg	1962	1962
 institution_or_office	Carrington Centennial Hosp. for convalescents	1	kg		
 institution_or_office	Carrington Centennial Hospital for convalescents	1	kg		
+institution_or_office	Cauvery Mettur project	1	iol	1927	1927
+institution_or_office	Cauvery-Mettur project	1	iol	1930	1930
+institution_or_office	Cauvey-Metur project	1	iol	1930	1930
 institution_or_office	Cawnpore-Achnera state railway	1	iol	1884	1884
 institution_or_office	Cawnpore-Farukhabad and Muttra-Hathras railways	1	iol	1880	1880
 institution_or_office	Cawnpur-Achneyra state railway	1	iol	1884	1884
@@ -2526,38 +2692,42 @@ institution_or_office	Centennial Exhibition	1	kg	1888	1888
 institution_or_office	Central Force	1	kg	1915	1915
 institution_or_office	Central London Throat and Ear Hospital	1	kg		
 institution_or_office	Central Office	1	kg	1957	1957
+institution_or_office	Central Revenues	1	iol	1923	1923
 institution_or_office	Central S. African railways	1	kg		
 institution_or_office	Central legislative assembly	1	iol	1931	1931
 institution_or_office	Ceres High school	1	kg	1924	1924
 institution_or_office	Ceylon Light Infantry	1	kg		
-institution_or_office	Ceylon rifles	1	kg		
 institution_or_office	Channel Squadron	1	kg		
 institution_or_office	Charing Cross Hosp. medical school	1	kg		
 institution_or_office	Charlestown-Johannesburg railway	1	kg	1894	1894
 institution_or_office	Cheadle asylum	1	kg		
+institution_or_office	Chili-Argentine Boundary Tribunal	1	iol	1902	1902
 institution_or_office	Chin field force	1	iol	1888	1888
 institution_or_office	China Exped. Force	1	iol	1900	1900
 institution_or_office	China Field Force	1	iol	1901	1901
 institution_or_office	China command	1	kg		
-institution_or_office	Chinese Nat. 8th Army	1	kg	1946	1946
 institution_or_office	Chord railway construction	1	iol	1925	1925
 institution_or_office	City of Lond. Mat. Hosp.	1	kg		
 institution_or_office	City of London Asylum	1	kg		
 institution_or_office	Civil Vet. department	1	iol	1907	1907
+institution_or_office	Cleggan Harb. Works	1	kg	1885	1885
 institution_or_office	Clitheroe division of N.E. Lancashire	1	iol	1885	1885
+institution_or_office	Clonelly Dispensary Districts	1	kg	1857	1857
 institution_or_office	Clougher Valley railway	1	kg	1884	1884
-institution_or_office	Co sipore	1	iol	1915	1915
 institution_or_office	Co.	1	kg	1867	1867
-institution_or_office	Co. Donegrel	1	kg	1857	1857
-institution_or_office	Co. Louth	1	kg	1847	1847
 institution_or_office	Coast railways	1	kg	1911	1911
 institution_or_office	Cobourg college Inst.	1	kg	1883	1883
+institution_or_office	Col mbo Kachcheri	1	kg	1920	1920
 institution_or_office	Coldstream guards	1	iol	1875	1875
 institution_or_office	Coleridge and Parry school	1	kg	1952	1952
 institution_or_office	College of the Immaculate Conception	1	kg	1879	1879
+institution_or_office	Colonial Exhibition	1	kg	1886	1886
 institution_or_office	Combo militia	1	kg		
+institution_or_office	Commonwealth bureau of science and industry	1	kg	1921	1921
+institution_or_office	Commonwealth parlt.	1	kg	1901	1901
 institution_or_office	Cooly depôt	1	kg	1867	1867
 institution_or_office	Cooper's Hill College	1	iol	1890	1890
+institution_or_office	Corona Club	1	kg	1921	1921
 institution_or_office	Council	1	iol	1937	1937
 institution_or_office	Council of State	1	iol	1932	1932
 institution_or_office	Counties Asylum	1	kg		
@@ -2584,7 +2754,9 @@ institution_or_office	Dhond-Mandad state railway	1	iol	1879	1879
 institution_or_office	Dhond-Manmad railway	1	iol	1878	1878
 institution_or_office	Dhond-Manmad state railway	1	iol	1879	1879
 institution_or_office	Dhond-Mannad state railway	1	iol	1879	1879
+institution_or_office	Dinajapore relief works	1	iol	1874	1874
 institution_or_office	Director-General's office	1	iol	1877	1877
+institution_or_office	Dispensary	1	kg	1886	1886
 institution_or_office	Division of the Upper Umkomanzi	1	kg	1878	1878
 institution_or_office	Dokalim Boundary commission	1	iol	1932	1932
 institution_or_office	Dom. government stationery	1	kg	1899	1899
@@ -2600,7 +2772,6 @@ institution_or_office	Duke of York school	1	kg	1948	1948
 institution_or_office	E. A. department	1	kg	1901	1901
 institution_or_office	E. Africa Force	1	kg	1916	1916
 institution_or_office	E. Africa Pay Corps	1	kg		
-institution_or_office	E. Africa Rifles	1	kg	1899	1899
 institution_or_office	E. African Expedy. Force	1	kg	1916	1916
 institution_or_office	E. African Forces	1	kg	1915	1915
 institution_or_office	E. African medical service	1	kg	1926	1926
@@ -2622,6 +2793,7 @@ institution_or_office	E. inspectorate	1	kg	1932	1932
 institution_or_office	E. regional production devel. board	1	kg	1950	1950
 institution_or_office	E.A. Agr. Res. Inst.	1	kg	1928	1928
 institution_or_office	E.A. Force	1	kg	1917	1917
+institution_or_office	E.A. vet res. organ.	1	kg	1947	1947
 institution_or_office	E.A.rlwy.	1	kg	1946	1946
 institution_or_office	E.B. and Burma railways	1	iol	1932	1932
 institution_or_office	E.B. railway and Burma railways	1	iol	1931	1931
@@ -2650,6 +2822,7 @@ institution_or_office	Egerton school of agriculture	1	kg	1949	1949
 institution_or_office	Egyptian coast guard service	1	kg	1886	1886
 institution_or_office	Egyptian forces	1	kg	1919	1919
 institution_or_office	Egyptian government agriculture college	1	kg	1905	1905
+institution_or_office	Egyptian miny. of finance	1	kg	1919	1919
 institution_or_office	Egyptian state tels. administration	1	kg	1929	1929
 institution_or_office	Egyptian state tels. and telephones	1	kg	1928	1928
 institution_or_office	Egyptian tels. administration	1	kg	1943	1943
@@ -2687,6 +2860,7 @@ institution_or_office	French front	1	kg	1917	1917
 institution_or_office	Frontier constabulary	1	iol	1932	1932
 institution_or_office	G. Cent. railway	1	kg	1909	1909
 institution_or_office	G. Coast regiment	1	kg		
+institution_or_office	G.E.C., Ltd.	1	kg		
 institution_or_office	G.I.P. railway and govt. exr. of accts., B.B. and C.I. railway	1	iol	1932	1932
 institution_or_office	G.W. railway	1	kg	1894	1894
 institution_or_office	Gambia field force	1	kg	1901	1901
@@ -2726,9 +2900,11 @@ institution_or_office	Grey's hosp.	1	kg
 institution_or_office	Gt. Southern of Spain railway	1	kg	1919	1919
 institution_or_office	Gurkha force under Jung Bahadur	1	iol		
 institution_or_office	H. H. the Nizam's medical department	1	iol	1912	1912
+institution_or_office	H. commission Terr., Cent. Africa	1	kg	1943	1943
 institution_or_office	H. of Commons	1	kg	1940	1940
 institution_or_office	H. of Lords	1	kg	1905	1905
 institution_or_office	H.B.M. court for Zanzibar	1	kg	1904	1904
+institution_or_office	H.E.I.C. Bengal Marine	1	kg	1846	1846
 institution_or_office	H.H. the Nizam's govt.	1	iol	1911	1911
 institution_or_office	H.K. Vol. Def. Corps	1	kg	1935	1935
 institution_or_office	H.M's treasury	1	kg	1951	1951
@@ -2743,7 +2919,7 @@ institution_or_office	"H.M.S. ""Edinburgh Castle"""	1	kg	1914	1914
 institution_or_office	"H.M.S. ""Essex"""	1	kg	1908	1908
 institution_or_office	"H.M.S. ""Fame"" (China Station)"	1	kg	1918	1918
 institution_or_office	"H.M.S. ""Hecla"""	1	kg		
-institution_or_office	"H.M.S. ""Hyacinth"	1	kg	1886	1886
+institution_or_office	"H.M.S. ""Hyacinth,"" Pacific station"	1	kg	1886	1886
 institution_or_office	"H.M.S. ""Leander"""	1	kg	1912	1912
 institution_or_office	"H.M.S. ""Rover"""	1	kg	1838	1838
 institution_or_office	"H.M.S. ""Roxburgh"""	1	kg	1910	1910
@@ -2756,9 +2932,13 @@ institution_or_office	H.M.S. Camperdown	1	kg	1895	1895
 institution_or_office	Haffkine Inst.	1	iol	1925	1925
 institution_or_office	Haffkine inst.	1	iol	1932	1932
 institution_or_office	Haidarabad-Umarkot railway survey	1	iol	1890	1890
+institution_or_office	Hajj	1	iol	1942	1942
 institution_or_office	Hancock Museum	1	kg	1901	1901
+institution_or_office	Harbrs.	1	kg	1910	1910
+institution_or_office	Hardwick hosps.	1	kg	1886	1886
 institution_or_office	Harnai and Gulistan-Karez sections of Kandahar railway	1	iol	1880	1880
 institution_or_office	Harvard university	1	kg	1914	1914
+institution_or_office	Haveli project	1	iol	1944	1944
 institution_or_office	Hazara field force	1	iol	1888	1888
 institution_or_office	Hearst admn.	1	kg	1916	1916
 institution_or_office	Heaton Lodge school, nr. Huddersfield	1	kg		
@@ -2772,6 +2952,7 @@ institution_or_office	Holkar, Sindh-Neemuch, and Neemuch-Nusseerabad railways	1	
 institution_or_office	Holkar, Sindia-Neemuch, and Neemuch-Nusseerabad railways	1	iol	1881	1881
 institution_or_office	Home Fleet	1	kg	1907	1907
 institution_or_office	Home department govt. of India	1	iol	1929	1929
+institution_or_office	Home waters, near and far East	1	kg	1914	1914
 institution_or_office	Hong Kong Defence Force	1	kg		
 institution_or_office	Hong Kong Volunteer Corps	1	kg		
 institution_or_office	Hong Kong Volunteer Defence Corps	1	kg	1935	1935
@@ -2784,13 +2965,15 @@ institution_or_office	Hudson commission	1	kg	1956	1956
 institution_or_office	Hudson's Bay Company	1	kg		
 institution_or_office	Hulme division of Manchester	1	kg	1945	1945
 institution_or_office	Humansdorp division of the colony	1	kg	1859	1859
+institution_or_office	Hunstanton urban sanitary authority	1	kg	1881	1881
 institution_or_office	Hyderabad-Godavery Valley railway	1	kg	1895	1895
 institution_or_office	Hyderabad-Umarkot railway survey	1	iol	1890	1890
 institution_or_office	I. stationery office	1	kg	1914	1914
+institution_or_office	I.C.I. agriculture res. stn.	1	kg	1933	1933
 institution_or_office	I.F.S.	1	kg		
 institution_or_office	III. Corps	1	kg	1914	1914
 institution_or_office	Imp. Army	1	kg	1919	1919
-institution_or_office	Imp. Brit. E. Africa Co.	1	kg	1889	1889
+institution_or_office	Imp. Bureau	1	kg	1914	1914
 institution_or_office	Imp. Conf.	1	kg	1907	1907
 institution_or_office	Imp. Customs service	1	iol	1934	1934
 institution_or_office	Imp. Defence college	1	iol	1938	1938
@@ -2803,7 +2986,6 @@ institution_or_office	Imp. college of Trop. agriculture	1	kg
 institution_or_office	Imp. customs	1	kg	1862	1862
 institution_or_office	Imp. department of agriculture for W.I.	1	kg	1905	1905
 institution_or_office	Imp. post office	1	kg	1897	1897
-institution_or_office	Imperial Austrian 6th Dragoons	1	kg		
 institution_or_office	Imperial Conference	1	iol	1923	1923
 institution_or_office	Imperial Institute	1	kg	1904	1904
 institution_or_office	Imperial military railways	1	kg	1900	1900
@@ -2821,6 +3003,7 @@ institution_or_office	Impl. department of agriculture for the West Indies	1	kg	1
 institution_or_office	Impl. education confce.	1	kg	1911	1911
 institution_or_office	Impl. legislative council	1	iol	1917	1917
 institution_or_office	Improvement Trust Cawnpore	1	iol	1932	1932
+institution_or_office	Inchicore works	1	kg		
 institution_or_office	Ind. railway staty. board cttee.	1	iol	1933	1933
 institution_or_office	Ind. treasuries	1	iol	1901	1901
 institution_or_office	India Treasuries	1	iol	1913	1913
@@ -2837,13 +3020,13 @@ institution_or_office	Indian Rivers commission	1	iol	1902	1902
 institution_or_office	Indian Service of Engineers	1	iol	1905	1905
 institution_or_office	Indian Staff Corps	1	iol	1842	1842
 institution_or_office	Indian Tel. department	1	iol	1910	1910
+institution_or_office	Indian and colonial exhibn.	1	iol	1886	1886
 institution_or_office	Indian archaeological department	1	iol	1906	1906
 institution_or_office	Indian civil Vety. department	1	iol	1884	1884
 institution_or_office	Indian civil service commission	1	kg	1912	1912
 institution_or_office	Indian civil veterinary department	1	iol	1878	1878
 institution_or_office	Indian deleg. to London naval conf.	1	iol	1935	1935
 institution_or_office	Indian deleg. to the disarmament conf.	1	iol	1932	1932
-institution_or_office	Indian delegation to 7th and 8th assemblies of League of Nations	1	iol	1926	1926
 institution_or_office	Indian legislative department	1	iol	1920	1920
 institution_or_office	Indian legve. assembly	1	iol	1920	1920
 institution_or_office	Indian met. department	1	iol	1942	1942
@@ -2855,6 +3038,7 @@ institution_or_office	Indo-Burma connection railway survey	1	iol	1914	1914
 institution_or_office	Indo-European Tel. department	1	iol	1928	1928
 institution_or_office	Indo-European Telegraph Department	1	iol		
 institution_or_office	Indo-European telegraph department	1	iol	1887	1887
+institution_or_office	Inland Revenue	1	iol	1903	1903
 institution_or_office	Inniskilling Dragoons	1	kg	1871	1871
 institution_or_office	Inns of Court O.T.C.	1	kg	1915	1915
 institution_or_office	Inst of Animal Path.	1	kg	1924	1924
@@ -2874,26 +3058,26 @@ institution_or_office	Jamsetji Jijibhoy hosp.	1	iol	1882	1882
 institution_or_office	Jamsetji-Jijibhoj hospital	1	iol		
 institution_or_office	Jamsetji-Jijibhoy Hospital	1	iol	1883	1883
 institution_or_office	Jirhoot State Railway	1	iol	1887	1887
-institution_or_office	Johannesburg mtd. rifles	1	kg	1901	1901
 institution_or_office	Johns Hopkins university	1	kg	1949	1949
 institution_or_office	K. African Forces	1	kg	1916	1916
 institution_or_office	K.B. and appeal court	1	kg	1906	1906
-institution_or_office	K.R. Rifles	1	iol	1884	1884
 institution_or_office	Kabul-Kandahar field force	1	iol	1880	1880
+institution_or_office	Kach.	1	kg	1922	1922
 institution_or_office	Kadoorie school	1	kg	1936	1936
 institution_or_office	Kalka Simla railway	1	iol	1913	1913
 institution_or_office	Kalka-Simla railway	1	iol	1907	1907
 institution_or_office	Kalka-Simla railway survey	1	iol	1892	1892
+institution_or_office	Kalutera kach.	1	kg	1925	1925
 institution_or_office	Kamerun Exped. Force	1	kg	1914	1914
 institution_or_office	Karamoja (prov. administration)	1	kg		
 institution_or_office	Kettering Gram. school	1	kg	1915	1915
 institution_or_office	Keyham naval barracks	1	kg	1903	1903
 institution_or_office	Kidderminster Infirm. and Children's Hosp.	1	kg	1897	1897
+institution_or_office	Killeagh dispensary, co. Cork	1	kg	1876	1876
 institution_or_office	King Edward VII college of medical	1	kg	1937	1937
 institution_or_office	King Geo. VI Hosp.	1	kg	1962	1962
 institution_or_office	King cabinet	1	kg	1921	1921
 institution_or_office	King inst. of prev. medicine	1	iol	1919	1919
-institution_or_office	King's African Rifles (Uganda)	1	kg	1899	1899
 institution_or_office	King's College	1	kg		
 institution_or_office	King's Own Royal Lancaster regiment	1	kg	1900	1900
 institution_or_office	King's college, Windsor, N.S.	1	kg		
@@ -2901,10 +3085,13 @@ institution_or_office	Kitale school	1	kg	1935	1935
 institution_or_office	Kitwe school	1	kg	1931	1931
 institution_or_office	Koforidua railway extn.	1	kg	1912	1912
 institution_or_office	Kotri-Rohri railway	1	iol	1894	1894
+institution_or_office	Kowloon mortuary	1	kg	1934	1934
+institution_or_office	Kowloon-Canton rlways.	1	kg	1917	1917
 institution_or_office	Krishnaghar College	1	iol		
 institution_or_office	Krishnagur College	1	iol	1873	1873
 institution_or_office	Kumbakonum college	1	iol	1882	1882
 institution_or_office	Kurram field force	1	iol	1878	1878
+institution_or_office	Kurunegala-Kachcheri	1	kg	1901	1901
 institution_or_office	Kwong Wah hospital	1	kg		
 institution_or_office	Káthiawar state railways	1	iol	1879	1879
 institution_or_office	L. & N. W. Ry.	1	kg	1872	1872
@@ -2918,6 +3105,7 @@ institution_or_office	Lai Chi Kok branch prison	1	kg
 institution_or_office	Lake Command, E.A.E.F.	1	kg	1916	1916
 institution_or_office	Lake Field Force telegraphs	1	kg	1916	1916
 institution_or_office	Lake force	1	kg		
+institution_or_office	Lake of the Woods investigation under the boundary waters treaty	1	kg	1911	1911
 institution_or_office	Lanark Militia	1	kg	1881	1881
 institution_or_office	Lanarkshire and Dumbartonshire rlwy.	1	kg	1894	1894
 institution_or_office	Lancaster Mental Hosp.	1	kg	1930	1930
@@ -2928,6 +3116,8 @@ institution_or_office	Letchworth school	1	kg	1909	1909
 institution_or_office	Libyan government	1	kg	1954	1954
 institution_or_office	Lister Inst.	1	kg	1910	1910
 institution_or_office	Litherland school board	1	kg	1898	1898
+institution_or_office	Lloyd Barrage Project	1	iol	1925	1925
+institution_or_office	Lloyd Barrage project	1	iol	1926	1926
 institution_or_office	Local Government Board	1	iol	1892	1892
 institution_or_office	Local Govt. board	1	iol	1912	1912
 institution_or_office	Lodge school	1	kg	1947	1947
@@ -2939,12 +3129,14 @@ institution_or_office	Loughborough High school	1	kg	1923	1923
 institution_or_office	Loughborough college	1	kg	1931	1931
 institution_or_office	M'chester university	1	kg	1939	1939
 institution_or_office	M. & S.M. Rly	1	iol	1941	1941
-institution_or_office	M. and S. co. gaol	1	kg	1900	1900
+institution_or_office	M.E. and Cent. medical	1	kg	1943	1943
 institution_or_office	M/Inf.	1	kg	1945	1945
 institution_or_office	Macdonald college, McGill university	1	kg	1925	1925
 institution_or_office	Mad. Engrg. college	1	iol	1888	1888
 institution_or_office	Mad. Police department	1	iol		
+institution_or_office	Madhopur workshops	1	iol	1868	1868
 institution_or_office	Madras Artillery	1	iol	1825	1825
+institution_or_office	Madras High Court	1	iol	1908	1908
 institution_or_office	Madras command	1	iol	1894	1894
 institution_or_office	Makerere university college	1	kg	1961	1961
 institution_or_office	Mal. armed local forces trib.	1	kg	1949	1949
@@ -2954,14 +3146,16 @@ institution_or_office	Malay States medical service	1	kg	1912	1912
 institution_or_office	Malay and S. Sttlnts. Volunteer Force (Malacca)	1	kg	1922	1922
 institution_or_office	Malayan educnl. service	1	kg	1937	1937
 institution_or_office	Malayan forest service	1	kg	1937	1937
+institution_or_office	Malayan medical Jnl.	1	kg		
+institution_or_office	Maldon sanitary district	1	kg	1882	1882
 institution_or_office	Malmesbury division of Cape Colony	1	kg	1866	1866
 institution_or_office	Malta Expeditionary Force	1	iol	1878	1878
 institution_or_office	Malta branch	1	kg		
 institution_or_office	Malvern district council	1	kg	1896	1896
 institution_or_office	Manda division of the county of Victoria	1	kg	1857	1857
-institution_or_office	Marconi's W.T. Co.	1	kg	1920	1920
 institution_or_office	Mari extension of the Sind-Sagar branch of the N.W. railway	1	iol	1890	1890
 institution_or_office	Mari-Attock extension railway and frontier railway surveys	1	iol	1891	1891
+institution_or_office	Masai res.	1	kg	1923	1923
 institution_or_office	Maseru hosp.	1	kg	1933	1933
 institution_or_office	Mauritus railways	1	kg	1865	1865
 institution_or_office	Mddsx. hosp.	1	kg		
@@ -2993,12 +3187,17 @@ institution_or_office	Military Accounts department	1	iol	1937	1937
 institution_or_office	Ministry of Information	1	iol	1939	1939
 institution_or_office	Ministry of Munitions	1	iol	1917	1917
 institution_or_office	Ministry of Pensions	1	iol	1924	1924
+institution_or_office	Miny. of Health	1	kg	1926	1926
+institution_or_office	Miny. of Munitions	1	kg	1916	1916
+institution_or_office	Miny. of Pensions	1	kg	1917	1917
 institution_or_office	Mohale's Hoek hosp.	1	kg	1930	1930
 institution_or_office	Mohmand frontier constabulary	1	iol	1923	1923
+institution_or_office	Morcom Ltd.	1	kg	1903	1903
 institution_or_office	Morvi railway	1	iol	1887	1887
 institution_or_office	Mu-Valley railway	1	iol	1889	1889
 institution_or_office	Muir Central College	1	iol	1877	1877
 institution_or_office	Muir Central college	1	iol	1891	1891
+institution_or_office	Mullaittivu kach.	1	kg	1934	1934
 institution_or_office	Mulligaum depot	1	iol		
 institution_or_office	Munali secretary school	1	kg	1952	1952
 institution_or_office	Murshedabad branch, E.B. state railway	1	iol	1902	1902
@@ -3030,6 +3229,7 @@ institution_or_office	N.Z. Forces	1	kg	1891	1891
 institution_or_office	N.Z. Inf. Res. Group	1	kg	1917	1917
 institution_or_office	N.Z. military forces	1	kg	1919	1919
 institution_or_office	N.Z. mily. forces	1	kg	1937	1937
+institution_or_office	N.Z. town planning tour	1	kg	1914	1914
 institution_or_office	Nagore force, and Central India regiments	1	iol	1886	1886
 institution_or_office	Nagpore force, and Central India regiments	1	iol	1886	1886
 institution_or_office	Nagpur force, and Central India regts.	1	iol	1886	1886
@@ -3046,11 +3246,11 @@ institution_or_office	Natal militia	1	kg
 institution_or_office	National government	1	kg	1917	1917
 institution_or_office	Nausori school	1	kg	1916	1916
 institution_or_office	Neemuch-Nasirabad railway surveys	1	iol	1878	1878
+institution_or_office	Nethersole hosps.	1	kg		
 institution_or_office	New South Wales government agency	1	kg	1879	1879
 institution_or_office	Newton Abbot Inf.	1	kg		
 institution_or_office	Newton division of Lancashire	1	kg	1950	1950
 institution_or_office	Nig. Navy	1	kg	1958	1958
-institution_or_office	Niger Co.'s territories	1	kg	1899	1899
 institution_or_office	Nigerian (Eastern) railway	1	kg	1914	1914
 institution_or_office	Nigerian Eastern railway	1	kg	1922	1922
 institution_or_office	Nigerian Eastern railway constrn.	1	kg	1931	1931
@@ -3060,8 +3260,6 @@ institution_or_office	Nigerian marine department	1	kg	1928	1928
 institution_or_office	Nigerian railway capital works	1	kg	1921	1921
 institution_or_office	Nigerian regiment	1	kg	1917	1917
 institution_or_office	Nilgiri railway co.	1	iol	1890	1890
-institution_or_office	Nilgiri volunteer rifles	1	iol	1878	1878
-institution_or_office	Nimach state railways	1	iol	1880	1880
 institution_or_office	Nizam's Guaranteed State railway	1	iol	1905	1905
 institution_or_office	Nizam's guaranteed railway co.	1	iol	1884	1884
 institution_or_office	Nizam's guaranteed railway company	1	iol	1884	1884
@@ -3076,6 +3274,7 @@ institution_or_office	North York militia	1	kg	1841	1841
 institution_or_office	North system	1	kg	1892	1892
 institution_or_office	North-western railway	1	iol	1888	1888
 institution_or_office	Northam Rd. school	1	kg	1924	1924
+institution_or_office	Northampton general Infirmary	1	kg	1927	1927
 institution_or_office	Northern Waziristan Militia	1	iol	1911	1911
 institution_or_office	Northern branch	1	kg		
 institution_or_office	Northern command	1	kg	1911	1911
@@ -3095,6 +3294,7 @@ institution_or_office	Out Island administration	1	kg	1910	1910
 institution_or_office	Outram rd. school	1	kg	1922	1922
 institution_or_office	P. o. Wales school	1	kg	1949	1949
 institution_or_office	P.M.G.'s department	1	kg	1901	1901
+institution_or_office	Paddington infirmary	1	kg		
 institution_or_office	Pan American leprosy conf.	1	kg	1946	1946
 institution_or_office	Pasir Panjang Secondary school	1	kg	1955	1955
 institution_or_office	Pasteur Inst. of India	1	iol	1914	1914
@@ -3105,22 +3305,25 @@ institution_or_office	Penang volunteer corps	1	kg
 institution_or_office	Penang volunteers	1	kg	1919	1919
 institution_or_office	Permanent Mandates commission, League of Nations	1	kg	1921	1921
 institution_or_office	Persian Survey Party	1	iol	1916	1916
+institution_or_office	Persian section	1	iol	1865	1865
 institution_or_office	Peshawar valley force	1	iol	1878	1878
 institution_or_office	Pharm. Soc.	1	kg	1886	1886
 institution_or_office	Pindi to Kohat section of Punjab Northern railway	1	iol	1879	1879
 institution_or_office	Pindi-Kohat section of Punjab N. railway	1	iol	1879	1879
+institution_or_office	Pindi-Peshawar section	1	iol	1879	1879
 institution_or_office	Pjaub police	1	kg		
 institution_or_office	Polish Army	1	kg		
 institution_or_office	Polish forces in G.B.	1	kg	1940	1940
+institution_or_office	Port of London Authority	1	kg	1910	1910
 institution_or_office	Posts and Telegraphs	1	iol	1921	1921
 institution_or_office	Posts and Tels.	1	iol	1938	1938
-institution_or_office	Power Co.	1	kg	1921	1921
+institution_or_office	Praya Reclamation Works	1	kg	1889	1889
 institution_or_office	Presidency Brigade	1	iol	1903	1903
 institution_or_office	Presidency Hospital	1	iol		
 institution_or_office	Presidency general hospital	1	iol	1881	1881
 institution_or_office	Pretoria-Pietersburg rlwy.	1	kg	1899	1899
-institution_or_office	Prince Co.	1	kg	1919	1919
 institution_or_office	Protectorate Guards	1	kg	1938	1938
+institution_or_office	Punjab (works)	1	iol	1929	1929
 institution_or_office	Punjab command	1	iol	1902	1902
 institution_or_office	Queen Charlotte's Matern. Hosp.	1	kg		
 institution_or_office	Queen Mary's hosp.	1	kg	1937	1937
@@ -3128,7 +3331,6 @@ institution_or_office	Queen's College	1	kg	1881	1881
 institution_or_office	Queen's Roy. college	1	kg	1890	1890
 institution_or_office	Queen's Royal College	1	kg	1879	1879
 institution_or_office	Queen's Royal college	1	kg	1911	1911
-institution_or_office	Queen's co.	1	kg	1899	1899
 institution_or_office	Queen's college Br. Guiana	1	kg	1931	1931
 institution_or_office	Queen's college and Wantsai school	1	kg	1922	1922
 institution_or_office	Queen's college and school	1	kg	1921	1921
@@ -3146,6 +3348,7 @@ institution_or_office	R. Vety. college	1	kg	1913	1913
 institution_or_office	R. college	1	kg	1901	1901
 institution_or_office	R.M. Acad.	1	kg	1828	1828
 institution_or_office	R.W. Kent regiment R. of O.	1	kg	1923	1923
+institution_or_office	Radcliffe infirmary	1	kg		
 institution_or_office	Raffles inst.	1	kg	1919	1919
 institution_or_office	Raffles library	1	kg	1895	1895
 institution_or_office	Railway Dists.	1	kg	1926	1926
@@ -3159,7 +3362,9 @@ institution_or_office	Rhod. & Nyasa standards inst.	1	kg
 institution_or_office	Rhodesian commission	1	kg	1919	1919
 institution_or_office	Rhodesian forces	1	kg	1912	1912
 institution_or_office	Richmond hosp.	1	kg	1885	1885
+institution_or_office	Rio Minho irrign. scheme	1	kg	1928	1928
 institution_or_office	Robben Island leper asylum	1	kg	1899	1899
+institution_or_office	Rochdale sewerage scheme	1	kg	1894	1894
 institution_or_office	Roscommon light railway	1	kg	1884	1884
 institution_or_office	Rostov university	1	kg		
 institution_or_office	Rowett Res. Inst.	1	kg	1927	1927
@@ -3173,7 +3378,7 @@ institution_or_office	Royal Indian Air Force	1	kg	1943	1943
 institution_or_office	Royal London Ophthalmic hosp.	1	kg	1901	1901
 institution_or_office	Royal Malta Artillery	1	kg		
 institution_or_office	Royal Malta Library	1	kg	1947	1947
-institution_or_office	Royal Niger Co.	1	kg	1895	1895
+institution_or_office	Royal Niger Company	1	kg	1887	1887
 institution_or_office	Royal Observatory	1	kg	1854	1854
 institution_or_office	Royal Ontario museum	1	kg	1927	1927
 institution_or_office	Royal Sanitary Inst. in co-opn. with Union government	1	kg		
@@ -3183,16 +3388,18 @@ institution_or_office	Royal Society	1	kg
 institution_or_office	Royal Society of Tasmania	1	kg		
 institution_or_office	Royal Surrey county hosp.	1	kg	1935	1935
 institution_or_office	Royal Vety. college	1	kg	1922	1922
+institution_or_office	Royal Victoria Dispensary for Consumption	1	kg		
 institution_or_office	Royal Westminster Ophthal. Hosp.	1	kg	1893	1893
 institution_or_office	Royal mint	1	kg	1864	1864
 institution_or_office	Royal university	1	kg	1946	1946
+institution_or_office	Russo-Afghan boundary	1	kg	1903	1903
 institution_or_office	S. African Field Force	1	kg	1914	1914
 institution_or_office	S. African Forces	1	kg	1914	1914
 institution_or_office	S. African Inst. for medical Research	1	kg	1927	1927
 institution_or_office	S. African Museum	1	kg	1925	1925
 institution_or_office	S. African Repub. forces	1	kg	1901	1901
 institution_or_office	S. African Res. Bank	1	kg	1932	1932
-institution_or_office	S. African board of Barclays Bank (Dom.	1	kg		
+institution_or_office	S. African board of Barclays Bank (Dom., colonial and Overseas)	1	kg		
 institution_or_office	S. African constabulary	1	kg	1903	1903
 institution_or_office	S. African high commission	1	kg	1924	1924
 institution_or_office	S. African police hdqrs.	1	kg	1927	1927
@@ -3230,7 +3437,9 @@ institution_or_office	Sedbergh school	1	kg	1930	1930
 institution_or_office	Sekondi-Takoradi municipal council	1	kg	1952	1952
 institution_or_office	Selati Rlwy.	1	kg	1892	1892
 institution_or_office	Shanghai-Nanking railway	1	kg	1908	1908
+institution_or_office	Shannon improvement works	1	kg	1888	1888
 institution_or_office	Sherborne school	1	iol	1918	1918
+institution_or_office	Shoreditch Infirmary	1	kg	1894	1894
 institution_or_office	Siamese Govt.	1	iol	1908	1908
 institution_or_office	Siberian government	1	kg	1919	1919
 institution_or_office	Sind-Pishin railway	1	iol	1887	1887
@@ -3264,13 +3473,14 @@ institution_or_office	St. King's Gram. school	1	kg	1894	1894
 institution_or_office	St. Kitts-Nevis defence force	1	kg	1898	1898
 institution_or_office	St. Leonard's school	1	kg	1897	1897
 institution_or_office	St. Lucy Middle School	1	kg	1869	1869
+institution_or_office	St. Mary Abbot's Infirmary	1	kg	1878	1878
+institution_or_office	St. Mary's Infirmary	1	kg	1899	1899
 institution_or_office	St. Peter's hosp.	1	kg		
 institution_or_office	St. Thomas' Hosp.	1	kg	1892	1892
 institution_or_office	Staff College	1	kg	1881	1881
 institution_or_office	Staff college	1	kg	1905	1905
 institution_or_office	Stanstead Academy	1	kg	1868	1868
 institution_or_office	State railway rev. establishment	1	iol	1877	1877
-institution_or_office	Steel Co.	1	kg	1910	1910
 institution_or_office	Stellenbosch division of the Cape of Good Hope	1	kg	1867	1867
 institution_or_office	Stockenstrom division of Cape Colony	1	kg	1859	1859
 institution_or_office	Stockwell Hospital	1	kg		
@@ -3284,7 +3494,8 @@ institution_or_office	Swan Hill Shire council	1	kg
 institution_or_office	Swaz. court of appeal	1	kg	1956	1956
 institution_or_office	Swaziland-Portuguese bdndry. commission	1	kg	1920	1920
 institution_or_office	Sydenham college of Commerce	1	iol	1940	1940
-institution_or_office	T. Squadron	1	kg	1876	1876
+institution_or_office	T. Squadron, Cretan waters	1	kg	1876	1876
+institution_or_office	T.I. Teacher	1	kg	1914	1914
 institution_or_office	T.T. posts	1	kg	1944	1944
 institution_or_office	Taff Vale rlwy.	1	kg	1877	1877
 institution_or_office	Tan Tock Seng's hosp. and general hosp.	1	kg	1915	1915
@@ -3301,9 +3512,11 @@ institution_or_office	Three Counties asylum	1	kg	1899	1899
 institution_or_office	Three Counties lunatic asylum	1	kg	1911	1911
 institution_or_office	Timaru high school	1	kg	1889	1889
 institution_or_office	Tirah expdy. force	1	iol	1897	1897
+institution_or_office	Tonbridge Infirmary	1	kg	1926	1926
 institution_or_office	Tooting Fever hosp.	1	kg	1893	1893
 institution_or_office	Transjordan Frontier Force	1	kg	1926	1926
 institution_or_office	Transvaal conservancy	1	kg	1910	1910
+institution_or_office	Transvaal parlt.	1	kg	1907	1907
 institution_or_office	Transvaal volunteers	1	kg	1900	1900
 institution_or_office	Tripoli administration	1	kg	1954	1954
 institution_or_office	Trop. Agri. college committee	1	kg	1920	1920
@@ -3316,6 +3529,8 @@ institution_or_office	Turks Islands volunteer corps	1	kg
 institution_or_office	U.D.F., political services in protectorate of S.W. Africa	1	kg	1915	1915
 institution_or_office	U.F.O. govt.	1	kg	1919	1919
 institution_or_office	U.N. sci. conf. on conserv.	1	kg	1949	1949
+institution_or_office	U.N. section	1	kg	1946	1946
+institution_or_office	U.N. special fund—F.A.O. Groundwater project	1	kg	1965	1965
 institution_or_office	Uganda vols.	1	kg	1914	1914
 institution_or_office	Union Govt.	1	kg	1919	1919
 institution_or_office	Union agr. department	1	kg	1911	1911
@@ -3323,11 +3538,13 @@ institution_or_office	Union civil service	1	kg	1910	1910
 institution_or_office	Union department of agriculture	1	kg	1952	1952
 institution_or_office	Union ed. department	1	kg	1921	1921
 institution_or_office	Union education and prison depts.	1	kg		
+institution_or_office	Union parltr.	1	kg	1910	1910
 institution_or_office	Union treasury	1	kg	1910	1910
 institution_or_office	University of Oxford	1	kg	1852	1852
 institution_or_office	University of Sydney	1	kg		
 institution_or_office	University of Toronto and the Law Society of Upper Canada	1	kg		
 institution_or_office	Valletta Museum	1	kg	1903	1903
+institution_or_office	Venezuelan boundary	1	kg	1925	1925
 institution_or_office	Vict. Inst.	1	kg	1937	1937
 institution_or_office	Victorian Commission for the Colonial and Indian Exhibition	1	kg	1886	1886
 institution_or_office	Victorian government	1	kg	1899	1899
@@ -3363,6 +3580,7 @@ institution_or_office	Wellingborough Grammar school	1	kg	1910	1910
 institution_or_office	West Australian Police Force	1	kg	1871	1871
 institution_or_office	West Bank	1	kg	1883	1883
 institution_or_office	West Ham Boro'. fever hosp.	1	kg		
+institution_or_office	West India Club	1	kg	1898	1898
 institution_or_office	West India committee	1	kg	1898	1898
 institution_or_office	West Middlesex rifle volunteer corps	1	kg	1860	1860
 institution_or_office	West Riding Asylum	1	kg	1884	1884
@@ -3371,15 +3589,16 @@ institution_or_office	West system, C.G.R.	1	kg	1880	1880
 institution_or_office	Western Pacific services	1	kg	1926	1926
 institution_or_office	Western Railways	1	kg	1882	1882
 institution_or_office	Western command	1	kg	1923	1923
+institution_or_office	Western general dispensary	1	kg	1890	1890
 institution_or_office	Western inspectorate	1	kg	1935	1935
 institution_or_office	Whitworth hosp.	1	kg	1886	1886
+institution_or_office	Wicklow Harb. works	1	kg	1880	1880
 institution_or_office	Willesden Matern. Hosp.	1	kg		
 institution_or_office	Windward Rifle Volunteers	1	kg		
 institution_or_office	Woodstock Hosp.	1	kg	1933	1933
 institution_or_office	Worc. regiment	1	kg	1916	1916
-institution_or_office	XI. (Army) Wing, 2nd Army	1	kg	1917	1917
+institution_or_office	Workington Harbour Works	1	kg	1868	1868
 institution_or_office	XV. Corps.	1	kg		
-institution_or_office	Yarmouth Co.	1	kg	1883	1883
 institution_or_office	Yaumati government school	1	kg	1917	1917
 institution_or_office	Yaws commission	1	kg	1934	1934
 institution_or_office	Yellow Fever Res. Inst.	1	kg	1946	1946
@@ -3410,10 +3629,9 @@ institution_or_office	board of liquor comsns.	1	kg	1928	1928
 institution_or_office	board of official visitors of hospitals for the insane	1	kg		
 institution_or_office	board of trustees of Natal museum	1	kg		
 institution_or_office	border mounted police	1	iol	1905	1905
-institution_or_office	borough and co. of Durban	1	kg	1870	1870
+institution_or_office	bureau of hyg. and trop. diseases	1	kg	1935	1935
+institution_or_office	bureau of statistics	1	kg	1945	1945
 institution_or_office	calcutta medical college hospital	1	iol	1873	1873
-institution_or_office	canal co.	1	iol	1859	1859
-institution_or_office	canal company	1	iol	1859	1859
 institution_or_office	census office	1	iol	1891	1891
 institution_or_office	cent. Argentine rlwy.	1	kg	1928	1928
 institution_or_office	cent. asylum	1	kg	1920	1920
@@ -3440,14 +3658,9 @@ institution_or_office	chief sec.'s office	1	kg	1937	1937
 institution_or_office	chronic sick hospital	1	kg	1890	1890
 institution_or_office	civil and ment. hosp.	1	kg	1934	1934
 institution_or_office	civil aviation department	1	kg	1954	1954
+institution_or_office	civil engineering colleges	1	iol	1868	1868
 institution_or_office	civil hosp.	1	kg	1925	1925
 institution_or_office	civil veterinary department in India	1	iol	1892	1892
-institution_or_office	co. Antrim	1	kg	1908	1908
-institution_or_office	co. Down	1	kg	1884	1884
-institution_or_office	co. Louth	1	kg	1847	1847
-institution_or_office	co. Sligo	1	kg	1874	1874
-institution_or_office	co. Umvoti	1	kg	1887	1887
-institution_or_office	co. of St. George	1	kg	1858	1858
 institution_or_office	coal mines stowing board	1	iol	1939	1939
 institution_or_office	col. audit department	1	kg	1915	1915
 institution_or_office	college of agriculture	1	kg	1950	1950
@@ -3458,9 +3671,10 @@ institution_or_office	colonial Adv. Council of agriculture and Animal Health	1	k
 institution_or_office	colonial Office	1	kg	1915	1915
 institution_or_office	colonial aud. (later o'seas audit service)	1	kg	1943	1943
 institution_or_office	colonial conference	1	kg	1887	1887
-institution_or_office	colonial exhibn.	1	iol	1886	1886
 institution_or_office	colonial forest service	1	kg	1937	1937
 institution_or_office	colonial medical res. committee	1	kg		
+institution_or_office	colonial prod. res., C.O.	1	kg	1953	1953
+institution_or_office	colonial prods. adv. bureau	1	kg	1949	1949
 institution_or_office	colonial registry office	1	kg	1874	1874
 institution_or_office	colonial secretariat	1	kg	1874	1874
 institution_or_office	colonial secretary office	1	kg	1885	1885
@@ -3471,6 +3685,7 @@ institution_or_office	commission of investn. into desert locust control orgn.	1	
 institution_or_office	commission on Zanz. clove ind.	1	kg	1949	1949
 institution_or_office	committee on colonial blue-books and blue-book repts.	1	kg	1917	1917
 institution_or_office	comml., E.B. railway	1	iol	1933	1933
+institution_or_office	commonwealth parltr.	1	kg	1904	1904
 institution_or_office	compiled the record of services of Madras civilians	1	iol	1741	1741
 institution_or_office	comsnr.'s office	1	kg	1903	1903
 institution_or_office	conf. of comsns. of labr.	1	kg	1951	1951
@@ -3478,12 +3693,16 @@ institution_or_office	conf. of comsnsrs. of labr.	1	kg	1951	1951
 institution_or_office	conjt. board of R.C.P. and R.C.S.	1	kg		
 institution_or_office	contr. commission for Germany	1	kg	1945	1945
 institution_or_office	coolie depôt	1	kg	1867	1867
+institution_or_office	coolie dépôt	1	kg	1867	1867
 institution_or_office	cotton policy committee	1	kg	1948	1948
 institution_or_office	council and senate, Raffles college	1	kg		
 institution_or_office	council of Cape university	1	kg		
+institution_or_office	county infirmary	1	kg	1874	1874
 institution_or_office	court of Hong Kong university	1	kg	1926	1926
 institution_or_office	court of arbitn.	1	kg	1921	1921
 institution_or_office	court of insolvency	1	kg	1911	1911
+institution_or_office	crown agents	1	kg	1901	1901
+institution_or_office	crown lands and surveys	1	kg	1938	1938
 institution_or_office	crown law office	1	kg	1921	1921
 institution_or_office	ctian Army	1	kg	1905	1905
 institution_or_office	dairy industry commission	1	kg	1934	1934
@@ -3506,6 +3725,8 @@ institution_or_office	department, mines and resources	1	kg	1936	1936
 institution_or_office	diocese of Algoma	1	kg		
 institution_or_office	diocese of S'pore	1	kg	1947	1947
 institution_or_office	director-general's office	1	iol	1883	1883
+institution_or_office	district infirmary	1	kg	1924	1924
+institution_or_office	district national schools	1	kg		
 institution_or_office	district of Advance Post	1	kg	1877	1877
 institution_or_office	division of Hay	1	kg	1882	1882
 institution_or_office	division of King William's Town	1	kg	1865	1865
@@ -3534,6 +3755,7 @@ institution_or_office	finance and commerce department	1	iol	1891	1891
 institution_or_office	finance department	1	kg	1934	1934
 institution_or_office	financial commissioner's office	1	iol	1866	1866
 institution_or_office	financial department, govt. of India	1	iol	1889	1889
+institution_or_office	flax estab.	1	kg	1945	1945
 institution_or_office	foreign and pol. department	1	iol	1922	1922
 institution_or_office	forest research institute	1	iol	1924	1924
 institution_or_office	general post office O.R.C.	1	kg	1903	1903
@@ -3544,11 +3766,11 @@ institution_or_office	gov.-gen.	1	kg	1947	1947
 institution_or_office	gov.-gen.'s office	1	kg	1910	1910
 institution_or_office	government F.M.S.	1	kg	1939	1939
 institution_or_office	government Ry.	1	kg	1894	1894
-institution_or_office	government S.A.	1	kg	1927	1927
+institution_or_office	government S.A. and Health Section L. of N.	1	kg	1927	1927
 institution_or_office	government cent. school	1	kg	1879	1879
 institution_or_office	government central museum	1	iol	1874	1874
-institution_or_office	government civil	1	kg	1936	1936
 institution_or_office	government civil mental and Tsan-Yuk hosp.	1	kg	1935	1935
+institution_or_office	government civil, mental and Tsan Yuk hosps.	1	kg	1936	1936
 institution_or_office	government class Tsan Yuk hospa.	1	kg	1936	1936
 institution_or_office	government comsnr.'s office	1	kg	1901	1901
 institution_or_office	government cottage hosps.	1	kg	1904	1904
@@ -3601,6 +3823,7 @@ institution_or_office	hosp. Ipoh	1	kg	1927	1927
 institution_or_office	house of commons	1	kg	1878	1878
 institution_or_office	imp. inst. of agriculture res.	1	kg	1929	1929
 institution_or_office	imp. vety. serum inst.	1	iol	1930	1930
+institution_or_office	imperial bureau of entomology	1	kg		
 institution_or_office	indus. department	1	iol	1937	1937
 institution_or_office	indus. man. board	1	kg	1942	1942
 institution_or_office	industries and labour department	1	iol	1924	1924
@@ -3610,15 +3833,17 @@ institution_or_office	inform. and bctg. department	1	iol	1941	1941
 institution_or_office	inl. rev. department	1	kg	1929	1929
 institution_or_office	intell. branch.	1	iol	1943	1943
 institution_or_office	intell. bureau, govt. of India, home department	1	iol	1946	1946
+institution_or_office	intelligence bureau	1	iol	1933	1933
 institution_or_office	inter-col. railway	1	kg	1871	1871
+institution_or_office	internat. met. organ.	1	kg	1948	1948
 institution_or_office	irrigation secretariat	1	iol	1946	1946
+institution_or_office	irrigation sectt.	1	iol	1944	1944
 institution_or_office	judicial and Public department	1	iol	1911	1911
 institution_or_office	judicial and public department	1	iol	1911	1911
 institution_or_office	judicial court of appeal	1	kg	1959	1959
 institution_or_office	judiciary	1	kg	1947	1947
 institution_or_office	labour advsy. board	1	kg		
 institution_or_office	labour bureau, govt. of India	1	iol	1921	1921
-institution_or_office	land sett. and tech. co-ord. comtees	1	kg		
 institution_or_office	lands and survey department	1	kg	1874	1874
 institution_or_office	law department	1	kg	1901	1901
 institution_or_office	law school	1	kg	1915	1915
@@ -3636,12 +3861,14 @@ institution_or_office	local govt. board	1	iol	1910	1910
 institution_or_office	lunatic asylum	1	kg	1912	1912
 institution_or_office	main reef road commission	1	kg	1928	1928
 institution_or_office	maj. works committee	1	kg	1937	1937
+institution_or_office	marine and water courts	1	kg		
 institution_or_office	marine department	1	kg	1923	1923
 institution_or_office	medical and health department	1	kg	1951	1951
 institution_or_office	medical and sany. services	1	kg	1928	1928
 institution_or_office	medical department Accra	1	kg	1889	1889
 institution_or_office	medical school	1	iol	1883	1883
 institution_or_office	met. police	1	kg	1924	1924
+institution_or_office	military works	1	iol	1872	1872
 institution_or_office	military works branch	1	iol	1872	1872
 institution_or_office	mily. works department	1	iol	1888	1888
 institution_or_office	mines department	1	iol	1939	1939
@@ -3652,6 +3879,7 @@ institution_or_office	ministry of health	1	iol	1914	1914
 institution_or_office	ministry of justice	1	kg	1921	1921
 institution_or_office	ministry of shipping	1	kg	1917	1917
 institution_or_office	ministry of transport	1	kg	1919	1919
+institution_or_office	miny. of transport	1	kg	1919	1919
 institution_or_office	missionary diocese of Waiapu	1	kg	1903	1903
 institution_or_office	national savings committee	1	kg	1922	1922
 institution_or_office	native land commission	1	kg	1903	1903
@@ -3673,7 +3901,9 @@ institution_or_office	office of secretary of state for the colonies	1	kg	1850	18
 institution_or_office	office of secretary to government of India, public works department	1	iol	1888	1888
 institution_or_office	office of the commrs. of H.M.'s works and public bldgs.	1	kg	1885	1885
 institution_or_office	office of the comsns. of H.M.'s wrks. and public bldgs.	1	kg	1885	1885
+institution_or_office	oil palm res. stn.	1	kg	1947	1947
 institution_or_office	on staff of the Lake Command, E.A.E.F., to Tabora	1	kg	1916	1916
+institution_or_office	organ	1	kg	1903	1903
 institution_or_office	outside audit	1	iol	1926	1926
 institution_or_office	overseas settle- nt department	1	kg	1922	1922
 institution_or_office	overseas settlement committee	1	kg	1919	1919
@@ -3691,6 +3921,7 @@ institution_or_office	police commission	1	kg	1921	1921
 institution_or_office	police commissioner	1	kg	1921	1921
 institution_or_office	police department	1	kg	1940	1940
 institution_or_office	police office	1	kg	1879	1879
+institution_or_office	political agent	1	iol		
 institution_or_office	port engng. department	1	kg	1939	1939
 institution_or_office	ports and air department	1	iol	1944	1944
 institution_or_office	post and tels. department	1	kg	1940	1940
@@ -3704,6 +3935,7 @@ institution_or_office	prov. administration	1	kg	1940	1940
 institution_or_office	prov. council	1	kg	1915	1915
 institution_or_office	provl. finance commission	1	kg	1933	1933
 institution_or_office	prsn. department	1	kg	1885	1885
+institution_or_office	public mortuary	1	kg	1913	1913
 institution_or_office	public services commission	1	iol	1930	1930
 institution_or_office	public works department Arima district	1	kg	1903	1903
 institution_or_office	public works department Punjab	1	iol	1929	1929
@@ -3711,7 +3943,6 @@ institution_or_office	public works department, railway branch	1	iol	1903	1903
 institution_or_office	purchases department, public printing and stationery	1	kg	1920	1920
 institution_or_office	quarter-master general's staff	1	kg		
 institution_or_office	quinquennial of Leipzig university	1	kg	1909	1909
-institution_or_office	rail-road co-ordin.	1	iol	1944	1944
 institution_or_office	railway audit	1	iol	1935	1935
 institution_or_office	railway cig. accts.	1	iol	1938	1938
 institution_or_office	railway clearing accounts	1	iol	1932	1932
@@ -3733,8 +3964,8 @@ institution_or_office	revenue establishment of state railways	1	iol	1876	1876
 institution_or_office	revenue, statistics, and commerce department	1	iol	1884	1884
 institution_or_office	rlwy. clearing accts.	1	iol	1930	1930
 institution_or_office	rlwys. and port service	1	kg	1946	1946
-institution_or_office	royal Canadian rifles	1	kg		
 institution_or_office	royal Glamorganshire light infantry regiment of militia	1	kg		
+institution_or_office	royal Observatory, H.K.	1	kg	1956	1956
 institution_or_office	royal artillery	1	iol	1863	1863
 institution_or_office	royal commission on navy and defence admstrn.	1	kg	1916	1916
 institution_or_office	royal commission on reformatory and industrial schools	1	iol		
@@ -3750,10 +3981,12 @@ institution_or_office	school of gunnery	1	kg	1871	1871
 institution_or_office	science and art department	1	kg	1881	1881
 institution_or_office	secretariat, foreign department	1	iol	1874	1874
 institution_or_office	secretary of state	1	iol	1882	1882
+institution_or_office	sectt.	1	iol	1915	1915
 institution_or_office	service territory of German E. Africa	1	kg	1914	1914
 institution_or_office	services and general department	1	iol	1928	1928
 institution_or_office	skin department, St. Thomas' hosp.	1	kg		
 institution_or_office	solar physics observatory	1	iol	1892	1892
+institution_or_office	south division of Arcot	1	iol	1851	1851
 institution_or_office	south-eastern circ. and cent. crim. court	1	kg		
 institution_or_office	southern police district	1	kg	1848	1848
 institution_or_office	spec. treason court	1	kg	1900	1900
@@ -3766,6 +3999,7 @@ institution_or_office	statistical department	1	iol	1855	1855
 institution_or_office	statistics and commerce department	1	iol	1874	1874
 institution_or_office	steam navigation board	1	kg	1853	1853
 institution_or_office	sup. court of Jerus.	1	kg	1934	1934
+institution_or_office	sup. court, Eastern dists.	1	kg	1904	1904
 institution_or_office	superior accounts establishment	1	iol	1889	1889
 institution_or_office	supply department	1	iol	1943	1943
 institution_or_office	survey commission	1	kg	1921	1921
@@ -3817,20 +4051,153 @@ institution_or_office	university surgical clinic	1	kg	1936	1936
 institution_or_office	war cabinet secretariat	1	kg		
 institution_or_office	war losses compensation commission	1	kg	1902	1902
 institution_or_office	war trade department	1	kg	1901	1901
+institution_or_office	water works	1	kg	1930	1930
+institution_or_office	west of India coast defences	1	iol	1888	1888
 institution_or_office	western front	1	kg	1914	1914
 institution_or_office	with Army of Black Sea	1	kg		
 institution_or_office	with the army of occupation on the Rhine	1	kg	1915	1915
 institution_or_office	wool ind. research assoc.	1	kg	1932	1932
-non_place_entity:Q1026391	Calcutta High Court	11	iol		
+institution_or_office	works	1	kg	1924	1924
+institution_or_office	workshop	1	iol	1928	1928
+malformed_string	Umunze (Awka) Patrol	3	kg	1915	1925
+malformed_string	"""Die Landbou-weekblad"	2	kg	1919	1919
+malformed_string	N.W. Territories (now Sask.	2	kg	1898	1904
+malformed_string	T.T. (later	2	kg	1933	1947
+malformed_string	(E.A.) Ken.	1	kg	1944	1944
+malformed_string	C.V.D. (Punjab	1	iol	1918	1918
+malformed_string	Cent. (Niger) division S. Nigeria Protec.	1	kg	1901	1901
+malformed_string	N. (now W.) district	1	kg	1883	1883
+malformed_string	N.W. and E. (afterwards N.W.) district	1	kg	1878	1878
+malformed_string	N.Z. Is. Terr. (Cook Is.	1	kg	1937	1937
+malformed_string	Niger (now S. Nigeria) Protec.	1	kg	1896	1896
+malformed_string	Northern (now Western) District	1	kg	1883	1883
+malformed_string	Oil Rivers (now Niger Coast) Protectorate and adjoining native territories	1	kg	1891	1891
+malformed_string	Oil Rivers (now S. Nigeria) Protec.	1	kg	1892	1892
+malformed_string	Port Swettenham (later Penang	1	kg	1946	1946
+malformed_string	west coast of Africa (Gambia	1	kg		
+military_unit	1st circle	5	iol	1870	1897
+military_unit	1st district	4	kg	1881	1950
+military_unit	2nd district	4	iol;kg	1895	1938
+military_unit	4th Light Dragoons	3	kg	1846	1851
+military_unit	Khyber Rifles	3	iol	1897	1901
+military_unit	W. African F.F.	3	kg	1897	1898
+military_unit	12th Australian Infy. Brig.	2	kg	1916	1917
+military_unit	1st Royal Lanark Militia	2	kg	1872	1872
+military_unit	3rd R.W.F.	2	kg	1915	1915
+military_unit	4th Hussars	2	iol	1861	1861
+military_unit	4th K.S.L.I.	2	kg	1903	1906
+military_unit	53rd Sikhs F.F.	2	kg		
+military_unit	5th Waziristan	2	iol	1933	1936
+military_unit	9th Lancers	2	iol	1872	1878
+military_unit	Bute Rifles	2	kg	1855	1855
+military_unit	Bute Rifles (embodied)	2	kg	1855	1855
+military_unit	King's Roy. Rifles	2	kg	1890	1893
+military_unit	N.R. Rifles	2	kg	1915	1916
+military_unit	Pt. Louis, 3rd division	2	kg	1898	1899
+military_unit	Samana Rifles	2	iol	1907	1908
+military_unit	South Persia Rifles	2	iol	1916	1917
+military_unit	Sutherland Rifles	2	kg	1855	1855
+military_unit	W.F.F. Egypt	2	kg	1916	1916
+military_unit	106th Foot	1	iol	1869	1869
+military_unit	12th Lancers	1	kg	1854	1854
+military_unit	16th Can. Scottish	1	kg		
+military_unit	17th	1	kg	1922	1922
+military_unit	1st Army, B.E.F.	1	kg	1917	1917
+military_unit	1st Eastern	1	kg		
+military_unit	1st Eastern Rifles	1	kg	1914	1914
+military_unit	1st Forfar Artil. volrs.	1	kg	1880	1880
+military_unit	1st King's African rifles	1	kg	1905	1905
+military_unit	1st Norfolk Royal Garrison Arty. Volunteers	1	kg	1888	1888
+military_unit	1st Northumberland Fusiliers	1	kg	1918	1918
+military_unit	1st division	1	iol	1854	1854
+military_unit	1st grade staff officer	1	kg	1919	1919
+military_unit	20th Punjabis	1	kg	1918	1918
+military_unit	21st Hussars	1	iol	1862	1862
+military_unit	24th Parganas	1	iol	1934	1934
+military_unit	272nd brigade, R.F.A.	1	kg	1917	1917
+military_unit	2nd Divn.	1	kg	1928	1928
+military_unit	2nd Eastern	1	kg	1881	1881
+military_unit	2nd Hussars	1	kg	1855	1855
+military_unit	2nd Northumberland Fusiliers	1	kg	1915	1915
+military_unit	2nd Roy. Lanark militia	1	kg	1859	1859
+military_unit	2nd S.A. Infy.	1	kg	1917	1917
+military_unit	2nd W. I. Reg.	1	kg	1861	1861
+military_unit	3rd (howitzer) brig.	1	kg	1908	1908
+military_unit	3rd E. African divn.	1	kg	1916	1916
+military_unit	3rd K.A.R.	1	kg	1904	1904
+military_unit	3rd circle	1	iol	1879	1879
+military_unit	3rd divn.	1	kg	1911	1911
+military_unit	4th district	1	kg	1898	1898
+military_unit	4th hussars	1	iol	1861	1861
+military_unit	5th Bengal Cavalry	1	iol	1868	1868
+military_unit	5th Lancers	1	iol	1884	1884
+military_unit	5th Roy. Dub. Fus.	1	kg	1902	1902
+military_unit	60th Divn.	1	kg	1915	1915
+military_unit	6th country district	1	kg	1884	1884
+military_unit	6th division	1	iol	1852	1852
+military_unit	79th highlanders	1	kg		
+military_unit	7th Dragoon Guards	1	kg	1862	1862
+military_unit	8th Army	1	kg	1941	1941
+military_unit	8th military district of Lower Canada	1	kg	1863	1863
+military_unit	97th Deccan Inf.	1	iol	1909	1909
+military_unit	9th Bengal native infantry	1	iol	1845	1845
+military_unit	9th N.I.	1	iol	1852	1852
+military_unit	Artists Rifles	1	kg	1916	1916
+military_unit	Buckingham rifles	1	kg	1860	1860
+military_unit	Cape Mounted Rifles	1	kg	1899	1899
+military_unit	Cape Rifles	1	kg	1897	1897
+military_unit	Ceylon rifles	1	kg		
+military_unit	Chinese Nat. 8th Army	1	kg	1946	1946
+military_unit	E. A. Pioneers	1	kg	1915	1915
+military_unit	E. Africa Rifles	1	kg	1899	1899
+military_unit	E. Persian Cordon F.F.	1	iol	1918	1918
+military_unit	H.M.'s 107th foot	1	iol	1862	1862
+military_unit	Imperial Austrian 6th Dragoons	1	kg		
+military_unit	Indian delegation to 7th and 8th assemblies of League of Nations	1	iol	1926	1926
+military_unit	Johannesburg mtd. rifles	1	kg	1901	1901
+military_unit	K.R. Rifles	1	iol	1884	1884
+military_unit	King's African Rifles (Uganda)	1	kg	1899	1899
+military_unit	Nilgiri volunteer rifles	1	iol	1878	1878
+military_unit	S. Leone F.F.	1	kg	1899	1899
+military_unit	West African F.F.	1	kg	1897	1897
+military_unit	XI. (Army) Wing, 2nd Army	1	kg	1917	1917
+military_unit	royal Canadian rifles	1	kg		
+non_place_entity:Q1233784	Inner Temple	20	iol;kg		
+non_place_entity:Q1233784	Inner Tem.	8	kg		
+non_place_entity:Q124371650	Samaria, Pal.	5	kg		
+non_place_entity:Q124371650	Samaria district, Palestine civil admstn.	2	kg		
 non_place_entity:Q157412	Gray's Inn	22	iol;kg		
-non_place_entity:Q2033487	Colombo museum	7	kg		
-non_place_entity:Q3522720	Allahabad High Court	1	iol		
-non_place_entity:Q502531	Madras High Court	1	iol		
-non_place_entity:Q6373	British Museum	8	iol;kg		
+non_place_entity:Q6373	British Museum	2	kg		
 non_place_entity:Q69482	Lincoln's Inn	10	iol;kg		
 non_place_entity:Q69482	Lincolns Inn	1	kg		
-non_place_entity:Q695852	Bombay High Court	5	iol		
-unexpanded_abbreviation	rlwys.	20	kg	1921	1948
+non_place_entity:Q769779	India Office	9	iol		
+non_place_entity:Q769779	India office	3	iol		
+non_place_entity:Q925942	Middle Temple	16	iol;kg		
+non_place_entity:Q925942	Mid. Tem.	9	kg		
+route_phrase	Kabul to Kandahar	8	iol	1880	1883
+route_phrase	H.M.G. del. to inter. labr. confes.	6	kg	1945	1950
+route_phrase	Peshawar to Dera Ishmail Khan	2	iol	1849	1853
+route_phrase	overseas settlement delegtn. to Canada	2	kg	1924	1935
+route_phrase	Bagdad to Constantinople	1	iol	1857	1857
+route_phrase	Burma to South-Western China	1	iol	1868	1868
+route_phrase	Kandahar to Kabul	1	iol	1880	1880
+route_phrase	Kroonstad to Johannesburg	1	kg		
+route_phrase	Lake of the Woods to the summit of the Rocky Mountains	1	kg	1872	1872
+route_phrase	N. to M.C.	1	kg	1911	1911
+route_phrase	Nig. to Jca.	1	kg	1940	1940
+route_phrase	Northampton to Roebourne	1	kg	1883	1883
+route_phrase	Perth to Adelaide along the S. Coast	1	kg	1870	1870
+route_phrase	Perth to Adelaide along the south coast	1	kg	1870	1870
+route_phrase	Peshawur to Dera Ishmail Khan	1	iol	1849	1849
+route_phrase	Portland Canal to Mt. St. Elias	1	kg		
+route_phrase	Red River to the base at the Rocky Mountains	1	kg	1874	1874
+route_phrase	Roebourne to Derby	1	kg	1886	1886
+route_phrase	Rosario to Peirano	1	kg	1889	1889
+route_phrase	W. Indies to Egypt	1	kg	1916	1916
+route_phrase	Yola to sea	1	kg	1909	1909
+route_phrase	from Perth to Adelaide along the S. Coast	1	kg	1870	1870
+route_phrase	to Assam	1	iol	1909	1909
+route_phrase	to Vancouver's Island	1	kg	1875	1875
 unexpanded_abbreviation	C.As.	19	kg	1928	1965
 unexpanded_abbreviation	U.S. of S.	15	kg	1902	1957
 unexpanded_abbreviation	Rhod.	12	kg	1897	1956
@@ -3847,12 +4214,9 @@ unexpanded_abbreviation	V.Is.	7	kg	1941	1962
 unexpanded_abbreviation	gr. A	7	kg	1945	1957
 unexpanded_abbreviation	Br. H.	6	kg	1895	1904
 unexpanded_abbreviation	Chin.	6	kg	1895	1935
-unexpanded_abbreviation	N.Z. H. of R.	6	kg	1917	1938
-unexpanded_abbreviation	Nehch.	6	kg	1929	1936
 unexpanded_abbreviation	Tob.	6	kg	1926	1958
 unexpanded_abbreviation	Cols.	5	kg	1932	1942
 unexpanded_abbreviation	En. Cd.	5	iol	1905	1917
-unexpanded_abbreviation	H. of A.	5	kg	1916	1933
 unexpanded_abbreviation	Ind.	5	iol;kg	1884	1944
 unexpanded_abbreviation	Ky.	5	kg	1879	1910
 unexpanded_abbreviation	St.	5	kg	1878	1964
@@ -3874,15 +4238,12 @@ unexpanded_abbreviation	Vict.	3	kg	1897	1906
 unexpanded_abbreviation	ec.	3	kg	1928	1933
 unexpanded_abbreviation	gr. C.	3	kg	1962	1965
 unexpanded_abbreviation	tlmts.	3	kg	1922	1924
-unexpanded_abbreviation	3rd R.W.F.	2	kg	1915	1915
-unexpanded_abbreviation	4th K.S.L.I.	2	kg	1903	1906
 unexpanded_abbreviation	Admy.	2	kg	1937	1945
 unexpanded_abbreviation	Bo.	2	iol;kg	1948	1948
 unexpanded_abbreviation	Br. W.A.	2	kg	1937	1947
 unexpanded_abbreviation	Bucks.	2	kg	1906	1946
 unexpanded_abbreviation	Calif.	2	kg	1943	1955
 unexpanded_abbreviation	Cant.	2	kg	1870	1873
-unexpanded_abbreviation	Cent.	2	kg	1955	1956
 unexpanded_abbreviation	H. of C.	2	kg	1908	1919
 unexpanded_abbreviation	II	2	kg	1953	1955
 unexpanded_abbreviation	III	2	kg	1954	1961
@@ -3893,19 +4254,17 @@ unexpanded_abbreviation	Mont.	2	kg	1955	1960
 unexpanded_abbreviation	Nfld.	2	kg	1893	1894
 unexpanded_abbreviation	Sport.	2	kg	1920	1922
 unexpanded_abbreviation	Win.	2	kg	1873	1874
-unexpanded_abbreviation	cent.	2	kg	1923	1927
-unexpanded_abbreviation	dists.	2	kg	1925	1925
+unexpanded_abbreviation	ex. co.	2	kg	1949	1952
 unexpanded_abbreviation	gr. B.	2	kg	1935	1949
 unexpanded_abbreviation	gr. E	2	kg	1955	1955
 unexpanded_abbreviation	pt.	2	kg	1912	1915
-unexpanded_abbreviation	3rd K.A.R.	1	kg	1904	1904
-unexpanded_abbreviation	9th N.I.	1	iol	1852	1852
 unexpanded_abbreviation	APE TOWN	1	kg	1874	1874
 unexpanded_abbreviation	Aber.	1	kg	1876	1876
 unexpanded_abbreviation	Admty.	1	kg	1938	1938
 unexpanded_abbreviation	Alex.	1	kg	1937	1937
 unexpanded_abbreviation	Allhd.	1	iol	1940	1940
 unexpanded_abbreviation	Ar.	1	kg	1886	1886
+unexpanded_abbreviation	B.S.A. Co.	1	kg		
 unexpanded_abbreviation	Bar.	1	kg	1961	1961
 unexpanded_abbreviation	Bas.	1	kg	1965	1965
 unexpanded_abbreviation	Ben.	1	iol		
@@ -3928,15 +4287,12 @@ unexpanded_abbreviation	Ire.	1	kg	1851	1851
 unexpanded_abbreviation	It.	1	kg	1940	1940
 unexpanded_abbreviation	Jer.	1	kg	1924	1924
 unexpanded_abbreviation	Ju.	1	kg		
-unexpanded_abbreviation	Kach.	1	kg	1922	1922
 unexpanded_abbreviation	Lanca.	1	kg	1885	1885
 unexpanded_abbreviation	MELBOURNE (AUSTRALIA)	1	kg	1847	1847
 unexpanded_abbreviation	Mai.	1	kg	1946	1946
 unexpanded_abbreviation	Mex.	1	kg	1894	1894
-unexpanded_abbreviation	Mid.	1	kg	1901	1901
 unexpanded_abbreviation	Middx.	1	kg	1872	1872
 unexpanded_abbreviation	N. ia	1	kg	1927	1927
-unexpanded_abbreviation	N. to M.C.	1	kg	1911	1911
 unexpanded_abbreviation	NEW WESTMINSTER (BRITISH COLUMBIA)	1	kg	1865	1865
 unexpanded_abbreviation	Nysa.	1	kg	1951	1951
 unexpanded_abbreviation	Phg.	1	kg	1918	1918
@@ -3973,7 +4329,6 @@ unexpanded_abbreviation	offls.	1	kg	1932	1932
 unexpanded_abbreviation	provl.	1	iol	1939	1939
 unexpanded_abbreviation	rev.	1	kg	1930	1930
 unexpanded_abbreviation	schs.	1	kg	1946	1946
-unexpanded_abbreviation	sectt.	1	iol	1915	1915
 unexpanded_abbreviation	tc.	1	kg	1927	1927
 unexpanded_abbreviation	tech.	1	kg	1930	1930
 unexpanded_abbreviation	trans.	1	kg	1941	1941

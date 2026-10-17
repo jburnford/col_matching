@@ -84,6 +84,21 @@ def correct_event(original):
         locate('Q84', 'London', 'Q84', 'United Kingdom (metropole)')
         reasons.append('walcott-london-commissions')
 
+    # "New York" after the Revolution is the city (consulates), not the
+    # colonial Province of New York (Q769668, 1664-1783).
+    if r.get('place_qid') == 'Q769668' and (not y or y > 1783):
+        locate('Q60', 'New York City', 'Q30', 'United States')
+        reasons.append('new-york-city-not-province')
+
+    # D.W.W.I. = Development and Welfare Organisation, West Indies (1940-58),
+    # headquartered in Barbados; it was grounded to the Danish West Indies.
+    # Source: research/geography-2026-10-16-fable-review.json.
+    if re.sub(r'[^a-z]', '', (r.get('place_raw') or '').lower()) == 'dwwi':
+        locate(None, None, 'Q63973349', 'Barbados Colony')
+        r['location_note'] = ('Development and Welfare Organisation, West Indies (HQ Barbados); '
+                              'office, not a place.')
+        reasons.append('development-welfare-west-indies')
+
     # Modern Canada (Q16) begins 1 July 1867. Before that a printed "Canada"
     # is the Canadas (Upper + Lower, 1791-1840) or the Province of Canada
     # (Act of Union in force Feb. 1841). Evidence: research/canada-geography-2026-10-16.json.

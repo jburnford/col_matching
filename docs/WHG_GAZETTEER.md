@@ -43,24 +43,34 @@ Every event that names a place is resolved to exactly one outcome, in order:
 5. **Grounding tables** — `data/{kg,iol}/places_grounding.jsonl`, same corpus first.
 6. **Composites** — `Natal and Hong Kong`, `S.S. and F.M.S.` are split and each
    part resolved; `S. African museum, Capetown` keeps Capetown.
-7. **Exclusions** — offices and departments, campaigns, generic words (`Union`,
-   `various stations`), unexpanded initialisms (`N.S.`, `C.A.`), lower-case
-   descriptive phrases, and graph QIDs whose Wikidata classes are organisations
-   (India Office). Each is listed in `excluded-mentions.tsv`.
+7. **Exclusions** — offices, departments and works, regiments, campaigns,
+   generic words (`Union`, `various stations`), unexpanded initialisms (`N.S.`),
+   descriptive phrases, routes (`Kabul to Kandahar`), malformed strings, and
+   graph QIDs whose Wikidata classes are organisations (India Office). Graph-
+   grounded strings get the same screen (`Bahamas census` keeps Bahamas;
+   `Nandi expedit.` is excluded). Each is listed in `excluded-mentions.tsv`.
 8. **Name-only places** — everything else becomes a place without an authority
    match (`Pusa`, `Dandagamuwa`, `Krobo`). WHG reconciliation can propose a match.
 
 Local places (`ip-local-…`) are used where no period-correct Wikidata item
 exists (Assam before the 1905 partition).
 
-### Name-only homonyms
+### Name-only homonyms and parents
 
-A name-only record takes its context from the person's nearest posting with a
-colony. Contexts are grouped at country level (Wikidata P17, ignoring the UK
+A name-only record is keyed by the person's previous posting with a colony
+(else the next), grouped at country level (Wikidata P17, ignoring the UK
 umbrella), so Raj provinces fold together but Crown colonies stay separate:
-`St. Thomas` in Jamaica and in Barbados become two records. The context becomes
-`parent_name`/`parent_id` (LPF relation `gvp:broaderPartitive`, certainty
-`less-certain`), flagged `parent_inferred_from_career_context`.
+`St. Thomas` in Jamaica and in Barbados become two records. That inferred
+context is **only a key**. A review found it wrong for about a third of
+records, so it is never exported. `parent_name`/`parent_id` (LPF relation
+`gvp:broaderPartitive`) are given only when the source prints the qualifier
+with the name (`Kalgoorlie, W.A.`), flagged `parent_printed_with_name`.
+
+### Held names
+
+Single-mention unmatched names made only of abbreviations (`B.B. protectorate`,
+`T.I.`) are mostly organisations or fragments. They are not exported; they are
+listed in `held-names.tsv` for review.
 
 ## Evidence tiers
 
@@ -79,14 +89,24 @@ ignores case and punctuation and does not expand abbreviations.
 
 ## Export decisions
 
-- **Title**: the most-attested printed toponym (strongest tier first);
-  `title_source` and `attestation_year` are the first edition that printed it
-  (e.g. `Colonial Office List (1913)`, `India Office List (July 1885)`). If no
-  printed form survives, the Wikidata label is used with `title_source=Wikidata`.
+- **Title**: the most-attested *unabbreviated* printed toponym (strongest tier
+  first); `title_source` and `attestation_year` are the first edition that
+  printed it (e.g. `Colonial Office List (1913)`, `India Office List (July 1885)`).
+  When only abbreviations were printed (`H.K.`), the title is the Wikidata label
+  and `title_source` says so (`… printed as H.K.; full form from Wikidata Q…`).
+  Names the parser normalised so they are not found verbatim cite the
+  biography's edition (`…, structured biography`).
+- **LPF names**: every name has citations (up to five editions). Name entries
+  carry no `when`; publication years live in the citations and event years in
+  the feature `when`.
 - **start/end**: earliest and latest dated career references to the place —
   an attestation span, not the place's lifespan. Years outside the Wikidata
-  entity's inception/dissolution (±1) are kept out of the span and flagged
-  `years_outside_authority_entity_dates`.
+  entity's inception/dissolution (±1) are flagged
+  `years_outside_authority_entity_dates`. They are left out of the span when
+  the entity has in-period years. When *all* years fall outside, the span is
+  kept: most such records are geographic places whose Wikidata dates describe
+  a modern state or district (Japan, Exuma, Christmas Island), and the flag
+  asks for an identity check rather than asserting an error.
 - **fclasses / aat_types / types**: from the Wikidata P31 classes; AAT IDs come
   from P1014 on the class or its nearest superclass (≤3 hops). WHG reports that
   feature classes are not yet searchable and AAT types are preferred, so both
@@ -97,7 +117,10 @@ ignores case and punctuation and does not expand abbreviations.
   where Wikidata's point is wrong or missing (Province of Canada, The Canadas),
   labelled as a schematic point in `geo_source`. Atlas plotting seats are never used.
 - **Variants**: other printed forms, cleaned of OCR edge furniture (`. Cyprus`,
-  `Kedah &`), tagged `@en` (English-language usage in an English publication).
+  `Kedah &`) and line-break hyphens (`Esse- quibo`), tagged `@en`
+  (English-language usage in an English publication). Comma-qualified forms
+  (`Kimberley, Cape`) and OCR repairs from alias rules (`Kong` → Hong Kong)
+  stay in the evidence, not the variants.
 - **IDs**: `ip-Q…`, `ip-local-…`, `ip-name-…`; LPF `@id` prefixes
   `https://jimclifford.ca/col_matching/whg/places/`. Keep a crosswalk if a
   Wikidata identity is later split.

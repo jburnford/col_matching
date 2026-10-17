@@ -1,0 +1,12 @@
+{
+  "context": "Identity errors surfaced by the WHG gazetteer out-of-period screen and an independent (Fable) review, 2026-10-16.",
+  "corrections": [
+    {"surface": "New York", "from": "Q769668 Province of New York (1664-1783)", "to": "Q60 New York City; colony Q30 United States", "evidence": "Mentions are consulates and quarantine visits 1862-1931 (e.g. 'clerk in British consulate, New York, April, 1862')."},
+    {"surface": "D.W.W.I.", "from": "Q829655 Danish West Indies (to 1917)", "to": "no place; colony Barbados (Q63973349)", "evidence": "Printed 1943-1954 as 'admin. sec., compt., D.W.W.I.' = Development and Welfare Organisation, West Indies, created 1940 and based in Barbados.", "source": "https://beta.nationalarchives.gov.uk/catalogue/id/C460"}
+  ],
+  "kept_with_flag": {
+    "Q4765854 Shan States": "Item describes the 1885-1948 Shan States; its Wikidata dates (1215-1563) are inconsistent with its description.",
+    "Q1185346 Demerara": "Historic region of the Guianas; Wikidata dates are the Dutch colony's.",
+    "geographic places with modern statehood or district inception dates (Japan, Persia, Exuma, Christmas Island...)": "closeMatch to the place is acceptable; flag remains for review."
+  }
+}
