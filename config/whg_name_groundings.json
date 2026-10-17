@@ -1,0 +1,1569 @@
+{
+ "name:acre|Q1121819": {
+  "qid": "Q126084",
+  "matched_label": "Acre",
+  "distance_km": 135,
+  "context_qids": [
+   "Q1121819"
+  ],
+  "classes": [
+   "city"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:acre|Q193714": {
+  "qid": "Q126084",
+  "matched_label": "Acre",
+  "distance_km": 131,
+  "context_qids": [
+   "Q193714"
+  ],
+  "classes": [
+   "city"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:akwete": {
+  "qid": "Q15043591",
+  "matched_label": "Akwete",
+  "distance_km": 117,
+  "context_qids": [
+   "Q2566427"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:allesley": {
+  "qid": "Q2291566",
+  "matched_label": "Allesley",
+  "distance_km": 15,
+  "context_qids": [
+   "Q549761"
+  ],
+  "classes": [
+   "civil parish",
+   "suburb",
+   "village"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:angul": {
+  "qid": "Q518237",
+  "matched_label": "Angul",
+  "distance_km": 134,
+  "context_qids": [
+   "Q4907084"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:aqaba": {
+  "qid": "Q180522",
+  "matched_label": "Aqaba",
+  "distance_km": 248,
+  "context_qids": [
+   "Q193714"
+  ],
+  "classes": [
+   "big city",
+   "border city",
+   "city"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:armley": {
+  "qid": "Q2393654",
+  "matched_label": "Armley",
+  "distance_km": 3,
+  "context_qids": [
+   "Q39121"
+  ],
+  "classes": [
+   "district",
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:aundh": {
+  "qid": "Q4821875",
+  "matched_label": "Aundh",
+  "distance_km": 112,
+  "context_qids": [
+   "Q891827",
+   "Q129286"
+  ],
+  "classes": [
+   "neighborhood"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:badagry|Q472146": {
+  "qid": "Q798812",
+  "matched_label": "Badagry",
+  "distance_km": 57,
+  "context_qids": [
+   "Q472146"
+  ],
+  "classes": [
+   "local government area of Nigeria",
+   "village"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:beqa": {
+  "qid": "Q48313",
+  "matched_label": "Beqa",
+  "distance_km": 109,
+  "context_qids": [
+   "Q5148320"
+  ],
+  "classes": [
+   "island",
+   "volcanic island"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:bergville": {
+  "qid": "Q820397",
+  "matched_label": "Bergville",
+  "distance_km": 139,
+  "context_qids": [
+   "Q1301901"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:bida emirate": {
+  "qid": "Q4903979",
+  "matched_label": "Bida Emirate",
+  "distance_km": 81,
+  "context_qids": [
+   "Q585408"
+  ],
+  "classes": [
+   "historical country",
+   "traditional state in Nigeria"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:bishopsbourne": {
+  "qid": "Q866348",
+  "matched_label": "Bishopsbourne",
+  "distance_km": 28,
+  "context_qids": [
+   "Q23298"
+  ],
+  "classes": [
+   "civil parish",
+   "village"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:bothas hill": {
+  "qid": "Q4948615",
+  "matched_label": "Botha's Hill",
+  "distance_km": 36,
+  "context_qids": [
+   "Q1301901"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:broken hill": {
+  "qid": "Q216902",
+  "matched_label": "Broken Hill",
+  "distance_km": 103,
+  "context_qids": [
+   "Q953903"
+  ],
+  "classes": [
+   "big city",
+   "city"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:buyaga": {
+  "qid": "Q31886840",
+  "matched_label": "Buyaga",
+  "distance_km": 172,
+  "context_qids": [
+   "Q1097943"
+  ],
+  "classes": [
+   "sub-county of Uganda"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:carolina": {
+  "qid": "Q2119900",
+  "matched_label": "Carolina",
+  "distance_km": 119,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:cauvery": {
+  "qid": "Q216239",
+  "matched_label": "Cauvery",
+  "distance_km": 196,
+  "context_qids": [
+   "Q1772596"
+  ],
+  "classes": [
+   "main stem",
+   "watercourse"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:cayon": {
+  "qid": "Q3316336",
+  "matched_label": "Cayon",
+  "distance_km": 49,
+  "context_qids": [
+   "Q1637975"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:chickerell": {
+  "qid": "Q2334880",
+  "matched_label": "Chickerell",
+  "distance_km": 26,
+  "context_qids": [
+   "Q23159"
+  ],
+  "classes": [
+   "civil parish",
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:copperbelt": {
+  "qid": "Q1131440",
+  "matched_label": "Copperbelt",
+  "distance_km": 240,
+  "context_qids": [
+   "Q953903"
+  ],
+  "classes": [
+   "mining region"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:cumberland": {
+  "qid": "Q3007512",
+  "matched_label": "Cumberland",
+  "distance_km": 130,
+  "context_qids": [
+   "Q1952"
+  ],
+  "classes": [
+   "locality"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:cuyuni river": {
+  "qid": "Q1146770",
+  "matched_label": "Cuyuni River",
+  "distance_km": 154,
+  "context_qids": [
+   "Q918126"
+  ],
+  "classes": [
+   "river"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:demarara": {
+  "qid": "Q1185346",
+  "matched_label": "Demarara",
+  "distance_km": 211,
+  "context_qids": [
+   "Q918126"
+  ],
+  "classes": [
+   "historical region"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:deoli|Q4997536": {
+  "qid": "Q3299159",
+  "matched_label": "Deoli",
+  "distance_km": 43,
+  "context_qids": [
+   "Q4997536"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:dewsbury|Q163": {
+  "qid": "Q525508",
+  "matched_label": "Dewsbury",
+  "distance_km": 47,
+  "context_qids": [
+   "Q163"
+  ],
+  "classes": [
+   "market town",
+   "town",
+   "unparished area"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:dickoya": {
+  "qid": "Q5273765",
+  "matched_label": "Dickoya",
+  "distance_km": 85,
+  "context_qids": [
+   "Q918153"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:dieppe bay": {
+  "qid": "Q21052158",
+  "matched_label": "Dieppe Bay",
+  "distance_km": 145,
+  "context_qids": [
+   "Q1637975"
+  ],
+  "classes": [
+   "bay"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:dumbara": {
+  "qid": "Q27455267",
+  "matched_label": "Dumbara",
+  "distance_km": 48,
+  "context_qids": [
+   "Q918153"
+  ],
+  "classes": [
+   "fourth-level administrative division"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:eastern transvaal|Q1187978": {
+  "qid": "Q132410",
+  "matched_label": "Eastern Transvaal",
+  "distance_km": 111,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "province of South Africa"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:epe": {
+  "qid": "Q1023707",
+  "matched_label": "Epe",
+  "distance_km": 67,
+  "context_qids": [
+   "Q472146"
+  ],
+  "classes": [
+   "local government area of Nigeria",
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:fajara": {
+  "qid": "Q1393605",
+  "matched_label": "Fajara",
+  "distance_km": 13,
+  "context_qids": [
+   "Q3557236"
+  ],
+  "classes": [
+   "neighborhood"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:fort simpson": {
+  "qid": "Q1240735",
+  "matched_label": "Fort Simpson",
+  "distance_km": 225,
+  "context_qids": [
+   "Q3411"
+  ],
+  "classes": [
+   "municipality",
+   "village"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:gajah": {
+  "qid": "Q24966200",
+  "matched_label": "Gajah",
+  "distance_km": 167,
+  "context_qids": [
+   "Q376178"
+  ],
+  "classes": [
+   "island"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:gilberts": {
+  "qid": "Q271876",
+  "matched_label": "Gilberts",
+  "distance_km": 0,
+  "context_qids": [
+   "Q271876"
+  ],
+  "classes": [
+   "administrative territorial entity",
+   "archipelago",
+   "island group of Kiribati"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:grenville": {
+  "qid": "Q115261620",
+  "matched_label": "Grenville",
+  "distance_km": 126,
+  "context_qids": [
+   "Q1904"
+  ],
+  "classes": [
+   "geographic township of Ontario"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:guisborough": {
+  "qid": "Q952490",
+  "matched_label": "Guisborough",
+  "distance_km": 64,
+  "context_qids": [
+   "Q163"
+  ],
+  "classes": [
+   "civil parish",
+   "market town",
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:heidelberg|Q1187978": {
+  "qid": "Q1594009",
+  "matched_label": "Heidelberg",
+  "distance_km": 234,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:himeville": {
+  "qid": "Q1619054",
+  "matched_label": "Himeville",
+  "distance_km": 90,
+  "context_qids": [
+   "Q1301901"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:kambia": {
+  "qid": "Q1722889",
+  "matched_label": "Kambia",
+  "distance_km": 171,
+  "context_qids": [
+   "Q30059027"
+  ],
+  "classes": [
+   "city"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:kidderpore": {
+  "qid": "Q6404679",
+  "matched_label": "Kidderpore",
+  "distance_km": 2,
+  "context_qids": [
+   "Q817165"
+  ],
+  "classes": [
+   "neighborhood"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:kilifi": {
+  "qid": "Q1009199",
+  "matched_label": "Kilifi",
+  "distance_km": 50,
+  "context_qids": [
+   "Q2538511"
+  ],
+  "classes": [
+   "city"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:kissy|Q30059027": {
+  "qid": "Q3815689",
+  "matched_label": "Kissy",
+  "distance_km": 187,
+  "context_qids": [
+   "Q30059027"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:koslanda": {
+  "qid": "Q1784945",
+  "matched_label": "Koslanda",
+  "distance_km": 134,
+  "context_qids": [
+   "Q918153"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:kroh|Q188953": {
+  "qid": "Q6438778",
+  "matched_label": "Kroh",
+  "distance_km": 107,
+  "context_qids": [
+   "Q188953"
+  ],
+  "classes": [
+   "border city",
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:kukuna": {
+  "qid": "Q35704980",
+  "matched_label": "Kukuna",
+  "distance_km": 162,
+  "context_qids": [
+   "Q30059027"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:kyetume": {
+  "qid": "Q20746276",
+  "matched_label": "Kyetume",
+  "distance_km": 46,
+  "context_qids": [
+   "Q1097943"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:lamu|Q876185": {
+  "qid": "Q272799",
+  "matched_label": "Lamu",
+  "distance_km": 241,
+  "context_qids": [
+   "Q876185"
+  ],
+  "classes": [
+   "human settlement",
+   "town",
+   "urban area"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:largo": {
+  "qid": "Q35712026",
+  "matched_label": "Largo",
+  "distance_km": 76,
+  "context_qids": [
+   "Q30059027"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:larkhill": {
+  "qid": "Q738194",
+  "matched_label": "Larkhill",
+  "distance_km": 13,
+  "context_qids": [
+   "Q23183"
+  ],
+  "classes": [
+   "garrison",
+   "village"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:leamington|Q549761": {
+  "qid": "Q546635",
+  "matched_label": "Leamington",
+  "distance_km": 4,
+  "context_qids": [
+   "Q549761"
+  ],
+  "classes": [
+   "civil parish",
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:linggi": {
+  "qid": "Q6553872",
+  "matched_label": "Linggi",
+  "distance_km": 234,
+  "context_qids": [
+   "Q376178"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:liwonde": {
+  "qid": "Q1377361",
+  "matched_label": "Liwonde",
+  "distance_km": 37,
+  "context_qids": [
+   "Q2642989"
+  ],
+  "classes": [
+   "city",
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mahaica": {
+  "qid": "Q25224046",
+  "matched_label": "Mahaica",
+  "distance_km": 208,
+  "context_qids": [
+   "Q918126"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mahaicony": {
+  "qid": "Q866074",
+  "matched_label": "Mahaicony",
+  "distance_km": 202,
+  "context_qids": [
+   "Q918126"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:makogai": {
+  "qid": "Q1611499",
+  "matched_label": "Makogai",
+  "distance_km": 31,
+  "context_qids": [
+   "Q5148320",
+   "Q5148320"
+  ],
+  "classes": [
+   "island",
+   "volcanic island"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:malaita": {
+  "qid": "Q641568",
+  "matched_label": "Malaita",
+  "distance_km": 125,
+  "context_qids": [
+   "Q13410267"
+  ],
+  "classes": [
+   "island"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mandvi": {
+  "qid": "Q2768275",
+  "matched_label": "Mandvi",
+  "distance_km": 245,
+  "context_qids": [
+   "Q891827"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:marampa": {
+  "qid": "Q6754754",
+  "matched_label": "Marampa",
+  "distance_km": 108,
+  "context_qids": [
+   "Q30059027"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:marlborough": {
+  "qid": "Q539528",
+  "matched_label": "Marlborough",
+  "distance_km": 18,
+  "context_qids": [
+   "Q23183"
+  ],
+  "classes": [
+   "civil parish",
+   "market town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:masindi": {
+  "qid": "Q1907120",
+  "matched_label": "Masindi",
+  "distance_km": 198,
+  "context_qids": [
+   "Q1097943"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mazeras": {
+  "qid": "Q6798454",
+  "matched_label": "Mazeras",
+  "distance_km": 16,
+  "context_qids": [
+   "Q876185"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mbarara": {
+  "qid": "Q731039",
+  "matched_label": "Mbarara",
+  "distance_km": 213,
+  "context_qids": [
+   "Q1097943"
+  ],
+  "classes": [
+   "administrative territorial entity",
+   "city",
+   "city of Uganda"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mengo": {
+  "qid": "Q6817018",
+  "matched_label": "Mengo",
+  "distance_km": 37,
+  "context_qids": [
+   "Q1097943"
+  ],
+  "classes": [
+   "neighborhood"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:middelburg|Q1187978": {
+  "qid": "Q1931836",
+  "matched_label": "Middelburg",
+  "distance_km": 101,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mount roraima": {
+  "qid": "Q4777",
+  "matched_label": "Mount Roraima",
+  "distance_km": 224,
+  "context_qids": [
+   "Q918126"
+  ],
+  "classes": [
+   "mountain",
+   "tepui"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:moyamba": {
+  "qid": "Q913292",
+  "matched_label": "Moyamba",
+  "distance_km": 109,
+  "context_qids": [
+   "Q30059027"
+  ],
+  "classes": [
+   "city"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mubende": {
+  "qid": "Q3528929",
+  "matched_label": "Mubende",
+  "distance_km": 131,
+  "context_qids": [
+   "Q1097943"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:mulago": {
+  "qid": "Q6933715",
+  "matched_label": "Mulago",
+  "distance_km": 36,
+  "context_qids": [
+   "Q1097943"
+  ],
+  "classes": [
+   "hill"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:new hanover": {
+  "qid": "Q985837",
+  "matched_label": "New Hanover",
+  "distance_km": 28,
+  "context_qids": [
+   "Q1301901"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:new kowloon": {
+  "qid": "Q1136014",
+  "matched_label": "New Kowloon",
+  "distance_km": 7,
+  "context_qids": [
+   "Q1054923"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:northern transvaal|Q1187978": {
+  "qid": "Q134907",
+  "matched_label": "Northern Transvaal",
+  "distance_km": 122,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "province of South Africa"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:onderneeming": {
+  "qid": "Q105972984",
+  "matched_label": "Onderneeming",
+  "distance_km": 235,
+  "context_qids": [
+   "Q918126"
+  ],
+  "classes": [
+   "administrative territorial entity"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:panwila": {
+  "qid": "Q7131987",
+  "matched_label": "Panwila",
+  "distance_km": 109,
+  "context_qids": [
+   "Q918153"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:perak river": {
+  "qid": "Q127997026",
+  "matched_label": "Perak River",
+  "distance_km": 112,
+  "context_qids": [
+   "Q376178"
+  ],
+  "classes": [
+   "river"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:phaltan": {
+  "qid": "Q2341367",
+  "matched_label": "Phaltan",
+  "distance_km": 201,
+  "context_qids": [
+   "Q891827",
+   "Q129286"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:pussellawa": {
+  "qid": "Q7261927",
+  "matched_label": "Pussellawa",
+  "distance_km": 91,
+  "context_qids": [
+   "Q918153"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:ragama": {
+  "qid": "Q3417458",
+  "matched_label": "Ragama",
+  "distance_km": 17,
+  "context_qids": [
+   "Q918153"
+  ],
+  "classes": [
+   "human settlement",
+   "suburb"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:regent": {
+  "qid": "Q16899190",
+  "matched_label": "Regent",
+  "distance_km": 173,
+  "context_qids": [
+   "Q30059027"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:richmond|Q1301901": {
+  "qid": "Q985819",
+  "matched_label": "Richmond",
+  "distance_km": 35,
+  "context_qids": [
+   "Q1301901"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:rossendale": {
+  "qid": "Q527423",
+  "matched_label": "Rossendale",
+  "distance_km": 26,
+  "context_qids": [
+   "Q23077"
+  ],
+  "classes": [
+   "borough in the United Kingdom",
+   "non-metropolitan district"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:sackville": {
+  "qid": "Q2028824",
+  "matched_label": "Sackville",
+  "distance_km": 148,
+  "context_qids": [
+   "Q1965"
+  ],
+  "classes": [
+   "town in New Brunswick",
+   "unincorporated area"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:sagamu": {
+  "qid": "Q2276423",
+  "matched_label": "Sagamu",
+  "distance_km": 51,
+  "context_qids": [
+   "Q472146"
+  ],
+  "classes": [
+   "local government area of Nigeria"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:sculcoates": {
+  "qid": "Q7439411",
+  "matched_label": "Sculcoates",
+  "distance_km": 2,
+  "context_qids": [
+   "Q128147"
+  ],
+  "classes": [
+   "civil parish",
+   "suburb"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:sehore": {
+  "qid": "Q2077421",
+  "matched_label": "Sehore",
+  "distance_km": 33,
+  "context_qids": [
+   "Q855044"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:serampore": {
+  "qid": "Q1815367",
+  "matched_label": "Serampore",
+  "distance_km": 23,
+  "context_qids": [
+   "Q817165"
+  ],
+  "classes": [
+   "big city",
+   "municipality of West Bengal"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:serua": {
+  "qid": "Q1208362",
+  "matched_label": "Serua",
+  "distance_km": 20,
+  "context_qids": [
+   "Q2999039"
+  ],
+  "classes": [
+   "province of Fiji"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:sharrow": {
+  "qid": "Q7490475",
+  "matched_label": "Sharrow",
+  "distance_km": 2,
+  "context_qids": [
+   "Q42448"
+  ],
+  "classes": [
+   "suburb"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:sibasa": {
+  "qid": "Q7506936",
+  "matched_label": "Sibasa",
+  "distance_km": 233,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:skeldon": {
+  "qid": "Q1051779",
+  "matched_label": "Skeldon",
+  "distance_km": 204,
+  "context_qids": [
+   "Q918126"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:southern grenadines": {
+  "qid": "Q3044818",
+  "matched_label": "Southern Grenadines",
+  "distance_km": 90,
+  "context_qids": [
+   "Q2660774"
+  ],
+  "classes": [
+   "administrative territorial entity of Grenada",
+   "first-level administrative division"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:st davids": {
+  "qid": "Q7587702",
+  "matched_label": "St. David's",
+  "distance_km": 11,
+  "context_qids": [
+   "Q3116419"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:st georges|Q23635": {
+  "qid": "Q28063",
+  "matched_label": "St. George's",
+  "distance_km": 9,
+  "context_qids": [
+   "Q23635"
+  ],
+  "classes": [
+   "municipality of Bermuda",
+   "village"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:st georges|Q3116419": {
+  "qid": "Q41547",
+  "matched_label": "St. George's",
+  "distance_km": 11,
+  "context_qids": [
+   "Q3116419"
+  ],
+  "classes": [
+   "city"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:st john|Q503331": {
+  "qid": "Q954721",
+  "matched_label": "St. John",
+  "distance_km": 164,
+  "context_qids": [
+   "Q503331"
+  ],
+  "classes": [
+   "parish of Jersey"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:st michael|Q2660774": {
+  "qid": "Q819170",
+  "matched_label": "St. Michael",
+  "distance_km": 174,
+  "context_qids": [
+   "Q2660774"
+  ],
+  "classes": [
+   "parish of Barbados"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:st nicholas": {
+  "qid": "Q7590820",
+  "matched_label": "St. Nicholas",
+  "distance_km": 9,
+  "context_qids": [
+   "Q10690"
+  ],
+  "classes": [
+   "village"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:suddie|Q1368792": {
+  "qid": "Q2363129",
+  "matched_label": "Suddie",
+  "distance_km": 10,
+  "context_qids": [
+   "Q1368792"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:suddie|Q918126": {
+  "qid": "Q2363129",
+  "matched_label": "Suddie",
+  "distance_km": 237,
+  "context_qids": [
+   "Q918126"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:tarkwa|Q1231673": {
+  "qid": "Q995439",
+  "matched_label": "Tarkwa",
+  "distance_km": 56,
+  "context_qids": [
+   "Q1231673"
+  ],
+  "classes": [
+   "city",
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:three cities": {
+  "qid": "Q680230",
+  "matched_label": "Three Cities",
+  "distance_km": 3,
+  "context_qids": [
+   "Q6744657"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:tugela": {
+  "qid": "Q7851621",
+  "matched_label": "Tugela",
+  "distance_km": 107,
+  "context_qids": [
+   "Q1301901"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:umzinto": {
+  "qid": "Q3643553",
+  "matched_label": "Umzinto",
+  "distance_km": 85,
+  "context_qids": [
+   "Q1301901"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:utrecht": {
+  "qid": "Q18108",
+  "matched_label": "Utrecht",
+  "distance_km": 214,
+  "context_qids": [
+   "Q1301901"
+  ],
+  "classes": [
+   "village"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:valletta": {
+  "qid": "Q23800",
+  "matched_label": "Valletta",
+  "distance_km": 0,
+  "context_qids": [
+   "Q6744657"
+  ],
+  "classes": [
+   "city",
+   "local council of Malta"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:vepery": {
+  "qid": "Q16902610",
+  "matched_label": "Vepery",
+  "distance_km": 1,
+  "context_qids": [
+   "Q1772596"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:vrededorp": {
+  "qid": "Q17111654",
+  "matched_label": "Vrededorp",
+  "distance_km": 239,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "human settlement",
+   "suburb"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:waterloo|Q30059027": {
+  "qid": "Q623241",
+  "matched_label": "Waterloo",
+  "distance_km": 174,
+  "context_qids": [
+   "Q30059027"
+  ],
+  "classes": [
+   "human settlement"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:west end": {
+  "qid": "Q20828416",
+  "matched_label": "West End",
+  "distance_km": 51,
+  "context_qids": [
+   "Q25305"
+  ],
+  "classes": [
+   "subdistrict of the United States Virgin Islands"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:whampoa": {
+  "qid": "Q1023890",
+  "matched_label": "Whampoa",
+  "distance_km": 117,
+  "context_qids": [
+   "Q1054923"
+  ],
+  "classes": [
+   "district of China"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:windsor|Q1952": {
+  "qid": "Q1973829",
+  "matched_label": "Windsor",
+  "distance_km": 89,
+  "context_qids": [
+   "Q1952"
+  ],
+  "classes": [
+   "human settlement",
+   "town in Nova Scotia"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:yasawa": {
+  "qid": "Q3055364",
+  "matched_label": "Yasawa",
+  "distance_km": 173,
+  "context_qids": [
+   "Q5148320"
+  ],
+  "classes": [
+   "island",
+   "volcanic island"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:yaumati": {
+  "qid": "Q4542478",
+  "matched_label": "Yaumati",
+  "distance_km": 4,
+  "context_qids": [
+   "Q1054923"
+  ],
+  "classes": [
+   "territory"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:yeoville": {
+  "qid": "Q8052507",
+  "matched_label": "Yeoville",
+  "distance_km": 235,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "suburb"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:ysabel": {
+  "qid": "Q713182",
+  "matched_label": "Ysabel",
+  "distance_km": 190,
+  "context_qids": [
+   "Q13410267"
+  ],
+  "classes": [
+   "island"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:zohar": {
+  "qid": "Q31782009",
+  "matched_label": "Zohar",
+  "distance_km": 162,
+  "context_qids": [
+   "Q3303188"
+  ],
+  "classes": [
+   "mountain range"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ },
+ "name:zoutpansberg|Q1187978": {
+  "qid": "Q3110404",
+  "matched_label": "Zoutpansberg",
+  "distance_km": 218,
+  "context_qids": [
+   "Q1187978"
+  ],
+  "classes": [
+   "town"
+  ],
+  "method": "qlever exact label/alias, unique within 250 km of career context",
+  "reviewed": false
+ }
+}

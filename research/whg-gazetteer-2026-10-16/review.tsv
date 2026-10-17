@@ -1251,7 +1251,7 @@ wd:Q935184	ip-Q935184	Q935184	Kota Tinggi	7	3	4	0	1925	1939	P;A	multiple_authori
 wd:Q986198	ip-Q986198	Q986198	Manukau	7	1	6	0	1882	1882	A	years_outside_authority_entity_dates
 wd:Q994000	ip-Q994000	Q994000	York, West Australia	7	2	5	0	1864	1868	P	
 name:bruas	ip-name-bruas		Bruas	7	7	0	0	1906	1926	P	feature_class_from_name;no_authority_match;no_geometry
-name:chinese protectorate|Q1865	ip-name-chinese-protectorate-q1865		Chinese protectorate	7	0	0	7	1921	1925	A	title_not_printed_in_source;feature_class_from_name;no_authority_match;not_found_in_source_text;no_geometry;parent_printed_with_name
+name:chinese protectorate|Q188953	ip-name-chinese-protectorate-q188953		Chinese protectorate	7	0	0	7	1921	1925	A	title_not_printed_in_source;feature_class_from_name;no_authority_match;not_found_in_source_text;no_geometry;parent_printed_with_name
 name:e states|Q2571484	ip-name-e-states-q2571484		E. States	7	0	7	0	1934	1944	A	feature_class_from_name;no_authority_match;no_geometry
 name:l islds|Q1637975	ip-name-l-islds-q1637975		L. Islds.	7	0	7	0	1898	1912	P	feature_class_from_name;no_authority_match;no_geometry
 name:mano salija	ip-name-mano-salija		Mano Salija	7	7	0	0	1893	1905	P	feature_class_from_name;no_authority_match;no_geometry
@@ -1378,7 +1378,7 @@ name:n york|Q1904	ip-name-n-york-q1904		N. York	6	0	6	0	1881	1921	P	feature_clas
 name:nepal frontier	ip-name-nepal-frontier		Nepal frontier	6	0	6	0	1860	1893	L	feature_class_from_name;no_authority_match;no_geometry
 name:noniti country	ip-name-noniti-country		Noniti country	6	2	4	0	1852	1857	L	feature_class_from_name;no_authority_match;no_geometry
 name:perak south|Q1400154	ip-name-perak-south-q1400154		Perak South	6	6	0	0	1896	1924	P	feature_class_from_name;no_authority_match;no_geometry
-name:persian baluchistan|Q3303188	ip-name-persian-baluchistan-q3303188		Persian Baluchistan	6	4	2	0	1917	1929	P	feature_class_from_name;no_authority_match;no_geometry
+name:persian baluchistan|Q4412467	ip-name-persian-baluchistan-q4412467		Persian Baluchistan	6	4	2	0	1917	1929	P	feature_class_from_name;no_authority_match;no_geometry
 name:punjab circle	ip-name-punjab-circle		Punjab Circle	6	4	2	0	1904	1914	A	feature_class_from_name;no_authority_match;no_geometry
 name:qua country	ip-name-qua-country		Qua country	6	1	5	0	1899	1899	L	feature_class_from_name;no_authority_match;no_geometry
 name:rawal pindi divisions	ip-name-rawal-pindi-divisions		Rawal Pindi divisions	6	2	4	0	1883	1886	P	feature_class_from_name;no_authority_match;no_geometry
@@ -1565,7 +1565,7 @@ name:quebec west	ip-name-quebec-west		Quebec West	5	1	4	0	1904	1904	P	feature_cl
 name:r honduras|Q1643555	ip-name-r-honduras-q1643555		R. Honduras	5	0	5	0	1921	1923	P	feature_class_from_name;no_authority_match;no_geometry
 name:soufriere	ip-name-soufriere		Soufriere	5	2	3	0	1892	1895	P	feature_class_from_name;no_authority_match;no_geometry
 name:south bihar	ip-name-south-bihar		South Bihar	5	1	4	0	1913	1917	P	feature_class_from_name;no_authority_match;no_geometry
-name:southern states of ci|Q6124144	ip-name-southern-states-of-ci-q6124144		Southern States of C.I.	5	5	0	0	1914	1932	A	feature_class_from_name;no_authority_match;no_geometry
+name:southern states of ci|Q855044	ip-name-southern-states-of-ci-q855044		Southern States of C.I.	5	5	0	0	1914	1932	A	feature_class_from_name;no_authority_match;no_geometry
 name:st andrew|Q116282722	ip-name-st-andrew-q116282722		St. Andrew	5	0	5	0	1921	1925	P	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:st joseph|Q116282722	ip-name-st-joseph-q116282722		St. Joseph	5	0	5	0	1872	1902	P	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:st michael|Q2660774	ip-name-st-michael-q2660774		St. Michael	5	0	5	0	1873	1882	P	feature_class_from_name;no_authority_match;no_geometry
@@ -2097,7 +2097,7 @@ name:ishan|Q2566427	ip-name-ishan-q2566427		Ishan	3	3	0	0	1901	1902	P	feature_cl
 name:isles de los	ip-name-isles-de-los		Isles de Los	3	3	0	0	1875	1905	T	feature_class_from_name;no_authority_match;no_geometry
 name:jowaki|Q127861	ip-name-jowaki-q127861		Jowaki	3	3	0	0	1877	1877	P	feature_class_from_name;no_authority_match;no_geometry
 name:judicial br	ip-name-judicial-br		Judicial Br.	3	2	1	0	1904	1904	P	feature_class_from_name;no_authority_match;no_geometry
-name:kaffrarian outpost|Q3048062	ip-name-kaffrarian-outpost-q3048062		Kaffrarian outpost	3	0	3	0			P	feature_class_from_name;no_authority_match;no_geometry
+name:kaffrarian outpost|Q2547918	ip-name-kaffrarian-outpost-q2547918		Kaffrarian outpost	3	0	3	0			P	feature_class_from_name;no_authority_match;no_geometry
 name:kaffrarian outpost|Q370736	ip-name-kaffrarian-outpost-q370736		Kaffrarian outpost	3	1	2	0	1828	1828	P	feature_class_from_name;no_authority_match;no_geometry
 name:kafir	ip-name-kafir		Kafir	3	3	0	0	1846	1852	P	feature_class_from_name;no_authority_match;no_geometry
 name:kaihihi pas	ip-name-kaihihi-pas		Kaihihi Pas	3	0	3	0	1860	1860	P	feature_class_from_name;no_authority_match;no_geometry
@@ -2739,7 +2739,7 @@ name:haraoi	ip-name-haraoi		Haraoi	2	2	0	0	1880	1886	P	feature_class_from_name;n
 name:haraoit	ip-name-haraoit		Haraoit	2	2	0	0	1901	1901	P	feature_class_from_name;no_authority_match;no_geometry
 name:harrakote	ip-name-harrakote		Harrakote	2	2	0	0	1859	1859	P	feature_class_from_name;no_authority_match;no_geometry
 name:haveli	ip-name-haveli		Haveli	2	1	1	0	1937	1943	P	feature_class_from_name;no_authority_match;no_geometry
-name:hay|Q3048062	ip-name-hay-q3048062		Hay	2	2	0	0	1871	1876	P	feature_class_from_name;no_authority_match;no_geometry
+name:hay|Q2547918	ip-name-hay-q2547918		Hay	2	2	0	0	1871	1876	P	feature_class_from_name;no_authority_match;no_geometry
 name:hay|Q370736	ip-name-hay-q370736		Hay	2	2	0	0	1881	1881	P	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:hm penal settlmt|Q1487312	ip-name-hm-penal-settlmt-q1487312		H.M. penal settlmt.	2	2	0	0	1891	1909	P	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:hms penal settlement	ip-name-hms-penal-settlement		H.M.'s penal settlement	2	2	0	0	1876	1876	A	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name

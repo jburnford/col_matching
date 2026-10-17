@@ -66,6 +66,17 @@ records, so it is never exported. `parent_name`/`parent_id` (LPF relation
 `gvp:broaderPartitive`) are given only when the source prints the qualifier
 with the name (`Kalgoorlie, W.A.`), flagged `parent_printed_with_name`.
 
+### Name-match proposals
+
+`whg_ground_names.py` proposes Wikidata matches for name-only places: exact
+English label or alias on QLever, with a point, of a settlement/polity/water/
+landform/region class, **unique within 250 km** of the record's career-context
+colony (national contexts such as the UK metropole or the US are refused, since
+one point cannot anchor them). A sample found roughly one proposal in ten
+doubtful (e.g. a modern province for *Eastern Transvaal*), so proposals are
+written to `config/whg_name_groundings.json` with `"reviewed": false` and the
+build applies only entries a reviewer has set to `true`.
+
 ### Held names
 
 Single-mention unmatched names made only of abbreviations (`B.B. protectorate`,

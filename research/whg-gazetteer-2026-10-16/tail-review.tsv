@@ -450,7 +450,7 @@ ip-name-flinders-q35715	Flinders	2	2	2	21	name_maps_to_multiple_identities;candi
 ip-name-french-ests-in-india-q129286	French Ests. in India	2	2	1	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-hamilton-q1904	Hamilton	4	4	4	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-hanover-square-q84	Hanover Square	2	2	2	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-hay-q3048062	Hay	2	2	2	21	name_maps_to_multiple_identities;short_name	retain_pending_verification
+ip-name-hay-q2547918	Hay	2	2	2	21	name_maps_to_multiple_identities;short_name	retain_pending_verification
 ip-name-hay-q370736	Hay	2	2	2	21	name_maps_to_multiple_identities;short_name	retain_pending_verification
 ip-name-hm-dockyard-q1013370	H.M. dockyard	3	3	1	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-hope	Hope	2	2	1	21	short_name;education_or_institution_context	retain_pending_verification
@@ -522,7 +522,7 @@ ip-name-simla-west	Simla (West)	2	2	2	21	name_maps_to_multiple_identities;check_
 ip-name-sm-country-q808575	S.M. country	4	4	4	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-smc-states-q657946	S.M.C. States	3	3	2	21	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-southern-afghanistan-q2629708	Southern Afghanistan	4	4	3	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-southern-states-of-ci-q6124144	Southern States of C.I.	5	5	5	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
+ip-name-southern-states-of-ci-q855044	Southern States of C.I.	5	5	5	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-st-andrew-q116282722	St. Andrew	5	5	4	21	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-st-andrew-q2526023	St. Andrew	3	3	2	21	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-st-andrew-q63973349	St. Andrew	3	3	2	21	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -2460,7 +2460,7 @@ ip-name-jogindarnagar	Jogindarnagar	2	2	1	11	check_india_office_source_coverage;
 ip-name-jowaki-q127861	Jowaki	3	3	3	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
 ip-name-judicial-br	Judicial Br.	3	3	1	11	check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kachin-hills	Kachin Hills	2	2	1	11	check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-kaffrarian-outpost-q3048062	Kaffrarian outpost	3	3	1	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
+ip-name-kaffrarian-outpost-q2547918	Kaffrarian outpost	3	3	1	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
 ip-name-kafir	Kafir	3	3	3	11	candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kafiristan	Kafiristan	2	2	2	11	check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kaihihi-pas	Kaihihi Pas	3	3	1	11	no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification

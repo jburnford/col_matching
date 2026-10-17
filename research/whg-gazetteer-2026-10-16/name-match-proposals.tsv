@@ -1,0 +1,118 @@
+place_key	proposed_qid	matched_label	distance_km	context_qids	classes	reviewed
+name:acre|Q1121819	Q126084	Acre	135	Q1121819	city	false
+name:acre|Q193714	Q126084	Acre	131	Q193714	city	false
+name:akwete	Q15043591	Akwete	117	Q2566427	town	false
+name:allesley	Q2291566	Allesley	15	Q549761	civil parish;suburb;village	false
+name:angul	Q518237	Angul	134	Q4907084	human settlement	false
+name:aqaba	Q180522	Aqaba	248	Q193714	big city;border city;city	false
+name:armley	Q2393654	Armley	3	Q39121	district;human settlement	false
+name:aundh	Q4821875	Aundh	112	Q891827;Q129286	neighborhood	false
+name:badagry|Q472146	Q798812	Badagry	57	Q472146	local government area of Nigeria;village	false
+name:beqa	Q48313	Beqa	109	Q5148320	island;volcanic island	false
+name:bergville	Q820397	Bergville	139	Q1301901	town	false
+name:bida emirate	Q4903979	Bida Emirate	81	Q585408	historical country;traditional state in Nigeria	false
+name:bishopsbourne	Q866348	Bishopsbourne	28	Q23298	civil parish;village	false
+name:bothas hill	Q4948615	Botha's Hill	36	Q1301901	town	false
+name:broken hill	Q216902	Broken Hill	103	Q953903	big city;city	false
+name:buyaga	Q31886840	Buyaga	172	Q1097943	sub-county of Uganda	false
+name:carolina	Q2119900	Carolina	119	Q1187978	town	false
+name:cauvery	Q216239	Cauvery	196	Q1772596	main stem;watercourse	false
+name:cayon	Q3316336	Cayon	49	Q1637975	town	false
+name:chickerell	Q2334880	Chickerell	26	Q23159	civil parish;town	false
+name:copperbelt	Q1131440	Copperbelt	240	Q953903	mining region	false
+name:cumberland	Q3007512	Cumberland	130	Q1952	locality	false
+name:cuyuni river	Q1146770	Cuyuni River	154	Q918126	river	false
+name:demarara	Q1185346	Demarara	211	Q918126	historical region	false
+name:deoli|Q4997536	Q3299159	Deoli	43	Q4997536	human settlement	false
+name:dewsbury|Q163	Q525508	Dewsbury	47	Q163	market town;town;unparished area	false
+name:dickoya	Q5273765	Dickoya	85	Q918153	human settlement	false
+name:dieppe bay	Q21052158	Dieppe Bay	145	Q1637975	bay	false
+name:dumbara	Q27455267	Dumbara	48	Q918153	fourth-level administrative division	false
+name:eastern transvaal|Q1187978	Q132410	Eastern Transvaal	111	Q1187978	province of South Africa	false
+name:epe	Q1023707	Epe	67	Q472146	local government area of Nigeria;town	false
+name:fajara	Q1393605	Fajara	13	Q3557236	neighborhood	false
+name:fort simpson	Q1240735	Fort Simpson	225	Q3411	municipality;village	false
+name:gajah	Q24966200	Gajah	167	Q376178	island	false
+name:gilberts	Q271876	Gilberts	0	Q271876	administrative territorial entity;archipelago;island group of Kiribati	false
+name:grenville	Q115261620	Grenville	126	Q1904	geographic township of Ontario	false
+name:guisborough	Q952490	Guisborough	64	Q163	civil parish;market town;town	false
+name:heidelberg|Q1187978	Q1594009	Heidelberg	234	Q1187978	human settlement	false
+name:himeville	Q1619054	Himeville	90	Q1301901	town	false
+name:kambia	Q1722889	Kambia	171	Q30059027	city	false
+name:kidderpore	Q6404679	Kidderpore	2	Q817165	neighborhood	false
+name:kilifi	Q1009199	Kilifi	50	Q2538511	city	false
+name:kissy|Q30059027	Q3815689	Kissy	187	Q30059027	human settlement	false
+name:koslanda	Q1784945	Koslanda	134	Q918153	human settlement	false
+name:kroh|Q188953	Q6438778	Kroh	107	Q188953	border city;human settlement	false
+name:kukuna	Q35704980	Kukuna	162	Q30059027	human settlement	false
+name:kyetume	Q20746276	Kyetume	46	Q1097943	human settlement	false
+name:lamu|Q876185	Q272799	Lamu	241	Q876185	human settlement;town;urban area	false
+name:largo	Q35712026	Largo	76	Q30059027	human settlement	false
+name:larkhill	Q738194	Larkhill	13	Q23183	garrison;village	false
+name:leamington|Q549761	Q546635	Leamington	4	Q549761	civil parish;town	false
+name:linggi	Q6553872	Linggi	234	Q376178	human settlement	false
+name:liwonde	Q1377361	Liwonde	37	Q2642989	city;human settlement	false
+name:mahaica	Q25224046	Mahaica	208	Q918126	human settlement	false
+name:mahaicony	Q866074	Mahaicony	202	Q918126	human settlement	false
+name:makogai	Q1611499	Makogai	31	Q5148320;Q5148320	island;volcanic island	false
+name:malaita	Q641568	Malaita	125	Q13410267	island	false
+name:mandvi	Q2768275	Mandvi	245	Q891827	town	false
+name:marampa	Q6754754	Marampa	108	Q30059027	human settlement	false
+name:marlborough	Q539528	Marlborough	18	Q23183	civil parish;market town	false
+name:masindi	Q1907120	Masindi	198	Q1097943	human settlement	false
+name:mazeras	Q6798454	Mazeras	16	Q876185	human settlement	false
+name:mbarara	Q731039	Mbarara	213	Q1097943	administrative territorial entity;city;city of Uganda	false
+name:mengo	Q6817018	Mengo	37	Q1097943	neighborhood	false
+name:middelburg|Q1187978	Q1931836	Middelburg	101	Q1187978	town	false
+name:mount roraima	Q4777	Mount Roraima	224	Q918126	mountain;tepui	false
+name:moyamba	Q913292	Moyamba	109	Q30059027	city	false
+name:mubende	Q3528929	Mubende	131	Q1097943	human settlement	false
+name:mulago	Q6933715	Mulago	36	Q1097943	hill	false
+name:new hanover	Q985837	New Hanover	28	Q1301901	town	false
+name:new kowloon	Q1136014	New Kowloon	7	Q1054923	human settlement	false
+name:northern transvaal|Q1187978	Q134907	Northern Transvaal	122	Q1187978	province of South Africa	false
+name:onderneeming	Q105972984	Onderneeming	235	Q918126	administrative territorial entity	false
+name:panwila	Q7131987	Panwila	109	Q918153	human settlement	false
+name:perak river	Q127997026	Perak River	112	Q376178	river	false
+name:phaltan	Q2341367	Phaltan	201	Q891827;Q129286	human settlement	false
+name:pussellawa	Q7261927	Pussellawa	91	Q918153	human settlement	false
+name:ragama	Q3417458	Ragama	17	Q918153	human settlement;suburb	false
+name:regent	Q16899190	Regent	173	Q30059027	human settlement	false
+name:richmond|Q1301901	Q985819	Richmond	35	Q1301901	town	false
+name:rossendale	Q527423	Rossendale	26	Q23077	borough in the United Kingdom;non-metropolitan district	false
+name:sackville	Q2028824	Sackville	148	Q1965	town in New Brunswick;unincorporated area	false
+name:sagamu	Q2276423	Sagamu	51	Q472146	local government area of Nigeria	false
+name:sculcoates	Q7439411	Sculcoates	2	Q128147	civil parish;suburb	false
+name:sehore	Q2077421	Sehore	33	Q855044	human settlement	false
+name:serampore	Q1815367	Serampore	23	Q817165	big city;municipality of West Bengal	false
+name:serua	Q1208362	Serua	20	Q2999039	province of Fiji	false
+name:sharrow	Q7490475	Sharrow	2	Q42448	suburb	false
+name:sibasa	Q7506936	Sibasa	233	Q1187978	town	false
+name:skeldon	Q1051779	Skeldon	204	Q918126	human settlement	false
+name:southern grenadines	Q3044818	Southern Grenadines	90	Q2660774	administrative territorial entity of Grenada;first-level administrative division	false
+name:st davids	Q7587702	St. David's	11	Q3116419	town	false
+name:st georges|Q23635	Q28063	St. George's	9	Q23635	municipality of Bermuda;village	false
+name:st georges|Q3116419	Q41547	St. George's	11	Q3116419	city	false
+name:st john|Q503331	Q954721	St. John	164	Q503331	parish of Jersey	false
+name:st michael|Q2660774	Q819170	St. Michael	174	Q2660774	parish of Barbados	false
+name:st nicholas	Q7590820	St. Nicholas	9	Q10690	village	false
+name:suddie|Q1368792	Q2363129	Suddie	10	Q1368792	human settlement	false
+name:suddie|Q918126	Q2363129	Suddie	237	Q918126	human settlement	false
+name:tarkwa|Q1231673	Q995439	Tarkwa	56	Q1231673	city;human settlement	false
+name:three cities	Q680230	Three Cities	3	Q6744657	human settlement	false
+name:tugela	Q7851621	Tugela	107	Q1301901	town	false
+name:umzinto	Q3643553	Umzinto	85	Q1301901	town	false
+name:utrecht	Q18108	Utrecht	214	Q1301901	village	false
+name:valletta	Q23800	Valletta	0	Q6744657	city;local council of Malta	false
+name:vepery	Q16902610	Vepery	1	Q1772596	human settlement	false
+name:vrededorp	Q17111654	Vrededorp	239	Q1187978	human settlement;suburb	false
+name:waterloo|Q30059027	Q623241	Waterloo	174	Q30059027	human settlement	false
+name:west end	Q20828416	West End	51	Q25305	subdistrict of the United States Virgin Islands	false
+name:whampoa	Q1023890	Whampoa	117	Q1054923	district of China	false
+name:windsor|Q1952	Q1973829	Windsor	89	Q1952	human settlement;town in Nova Scotia	false
+name:yasawa	Q3055364	Yasawa	173	Q5148320	island;volcanic island	false
+name:yaumati	Q4542478	Yaumati	4	Q1054923	territory	false
+name:yeoville	Q8052507	Yeoville	235	Q1187978	suburb	false
+name:ysabel	Q713182	Ysabel	190	Q13410267	island	false
+name:zohar	Q31782009	Zohar	162	Q3303188	mountain range	false
+name:zoutpansberg|Q1187978	Q3110404	Zoutpansberg	218	Q1187978	town	false

@@ -856,7 +856,8 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
     groundings_path = root / "config/whg_name_groundings.json"
     groundings = json.loads(groundings_path.read_text(encoding="utf-8")) if groundings_path.exists() else {}
     for key, g in groundings.items():
-        if key not in places or authority.non_place(g["qid"]):
+        # Proposals from whg_ground_names.py apply only once a reviewer accepts them.
+        if not g.get("reviewed") or key not in places or authority.non_place(g["qid"]):
             continue
         target = "wd:" + g["qid"]
         p = places.pop(key)

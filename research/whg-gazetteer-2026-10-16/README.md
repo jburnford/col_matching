@@ -77,6 +77,8 @@ printed).
 - `review.tsv` — per-place review queue and issue codes.
 - `excluded-mentions.tsv` — every place string not exported, with its reason.
 - `held-names.tsv` — name-only records held back (single mention, abbreviations only).
+- `name-match-proposals.tsv` — 117 proposed Wikidata matches for name-only places
+  (exact label, unique within 250 km of the career context); unreviewed, not applied.
 - `report.json` — full counts.
 - `tail-review.tsv`, `tail-summary.json` — excerpt-free rare-place queue.
 - `reproduction-hashes.json` — input/output SHA-256.
@@ -108,7 +110,9 @@ without it only Colonial Office editions are searched.
    where Wikidata has one (`entity_folds`: Western Australia, NSW, Fiji,
    Seychelles, Barbados, Trinidad and Tobago, Zambia, Aden, British Columbia);
    Dominica, Swaziland and Turks and Caicos have no colonial item.
-2. Reconcile name-only places (wd-mcp for frequent ones, or WHG's reconciliation).
+2. Reconcile name-only places: review `name-match-proposals.tsv` (set
+   `reviewed: true` in `config/whg_name_groundings.json`), wd-mcp for frequent
+   ones, or WHG's reconciliation after upload.
 3. Expand held abbreviations (`N.S.`, `T.W.I.`) and review `held-names.tsv`.
 4. Decide the public `@id` base (currently `https://jimclifford.ca/col_matching/whg/places/`).
 5. Add citation, licence (CC0), contact and scan URIs; settle OCR attribution.
