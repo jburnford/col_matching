@@ -32,7 +32,7 @@ def point(q):
     # Reviewed schematic point inside the historical province, NOT a workplace
     # or centroid. Wikidata's 60 N, 100 W falls outside its territory.
     # Evidence and capital chronology: research/canada-geography-2026-10-08.json.
-    if q == 'Q1121436': return [46.0, -76.0]
+    if q in ('Q1121436', 'Q7721124'): return [46.0, -76.0]
     for s in evidence().get(q, {}).get('claims', {}).get('P625', []):
         v = value(s)
         if v and s.get('rank') != 'deprecated' and v.get('globe', '').endswith('/Q2'):
@@ -86,6 +86,10 @@ def project(r):
         else: mode = 'capital changed in 1911; regional point'
         # Avoid claiming the Raj existed before Crown rule.
         label = 'India (Company period)' if y < 1858 else ('India' if y > 1947 else 'British Raj')
+    elif q == 'Q7721124' and is_jurisdiction:
+        # The Canadas: the governor-in-chief sat at Quebec. 2026-10-16 evidence file.
+        if not 1791 <= y <= 1840: return None, None
+        cap = 'Q2145'
     elif q == 'Q1121436' and is_jurisdiction:
         if not 1841 <= y <= 1867: return None, None
         # Offices moved within these years; a year-only event cannot identify

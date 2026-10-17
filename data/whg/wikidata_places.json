@@ -47772,6 +47772,22 @@
    "inception": [],
    "label": "Thaba Tshwane"
   },
+  "Q7721124": {
+   "classes": [
+    "Q1351282"
+   ],
+   "coords": [],
+   "countries": [
+    "Q16"
+   ],
+   "dissolved": [
+    1841
+   ],
+   "inception": [
+    1791
+   ],
+   "label": "The Canadas"
+  },
   "Q772185": {
    "classes": [
     "Q1145005"

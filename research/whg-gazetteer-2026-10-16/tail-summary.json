@@ -1,10 +1,10 @@
 {
-  "candidate_places": 8609,
+  "candidate_places": 8610,
   "tail_max_event_references": 5,
   "tail_places": 7192,
   "tail_event_references": 10757,
   "frequency_distribution": {
-    ">100": 221,
+    ">100": 222,
     "1": 5157,
     "2-5": 2035,
     "6-20": 777,

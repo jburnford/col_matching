@@ -73,5 +73,31 @@ class HistoricalGeographyTests(unittest.TestCase):
             self.assertEqual(project(row)[1]['capital_qid'],'Q1930')
             self.assertEqual(correct_event(row),row)
 
+    def test_canada_before_confederation(self):
+        base=dict(person_id='kgp_x',position='clerk',place_raw='Canada',place_qid='Q16',colony_qid='Q16')
+        for y,q in ((1831,'Q7721124'),(1840,'Q7721124'),(1841,'Q1121436'),(1866,'Q1121436'),(1867,'Q16')):
+            row=correct_event({**base,'year_start':y})
+            self.assertEqual((row['place_qid'],row['colony_qid']),(q,q))
+            self.assertEqual(row['place_raw'],'Canada')
+            self.assertEqual(correct_event(row),row)
+        node=project({**base,'year_start':1831})[1]
+        self.assertEqual(node['capital_qid'],'Q2145')
+        self.assertEqual(project({'colony_qid':'Q7721124','year_start':1845}),(None,None))
+
+    def test_named_places_get_pre_confederation_colonies(self):
+        def colony(q,y): return correct_event(dict(person_id='kgp_x',year_start=y,place_qid=q,colony_qid='Q16'))['colony_qid']
+        self.assertEqual(colony('Q202973',1838),'Q7721124')
+        self.assertEqual(colony('Q202973',1851),'Q1121436')
+        self.assertEqual(colony('Q2127',1864),'Q1978')
+        self.assertEqual(colony('Q2957125',1859),'Q918861')
+        self.assertIsNone(colony('Q3411',1865))
+        self.assertEqual(colony('Q202973',1885),'Q16')
+
+    def test_walcott_commissions_were_in_london(self):
+        row=correct_event(dict(person_id='kgp_col1879-p464b17',year_start=1840,place_raw='Canada',
+                               position='secretary to H.M. colonial land and emigration commission',
+                               place_qid='Q16',colony_qid='Q16'))
+        self.assertEqual(location(row),('Q84','London'))
+
 
 if __name__ == '__main__': unittest.main()

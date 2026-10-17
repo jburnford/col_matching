@@ -10,6 +10,16 @@ from appointment_scope import classify_for_appointment_map
 
 WODEHOUSE = {'kgp_col1878-p447b3', 'kgp_iol1889_jan-c2242376'}
 
+# Colony of a named place before Confederation, where the graph said Canada.
+# 'canadas' = The Canadas / Province of Canada by year. PEI joined in 1873; the
+# graph's convention for the island colony is Q1978. Mackenzie River lay in
+# HBC territory, not a colony: left unresolved.
+PRE_CONFEDERATION_COLONY = {
+    'Q202973': 'canadas',                                   # Kingston
+    'Q2127': ('Q1978', 'Prince Edward Island (Province)'),  # Charlottetown
+    'Q2957125': ('Q918861', 'Colony of British Columbia'),  # Lytton
+}
+
 
 def correct_event(original):
     r = deepcopy(original)
@@ -67,6 +77,29 @@ def correct_event(original):
             (pid == 'kgp_col1905-p661b19' and y == 1867 and 'inland rev' in pos)):
         locate('Q16', 'Canada', 'Q16', 'Canada')
         reasons.append('canada-federal-office-after-confederation')
+
+    # Walcott's 1840 commissions sat in London; "Canada" was inherited from
+    # the preceding clause. Source: col1879-p464b17.
+    if pid == 'kgp_col1879-p464b17' and y == 1840 and ('emigration' in pos or 'coloniz' in pos):
+        locate('Q84', 'London', 'Q84', 'United Kingdom (metropole)')
+        reasons.append('walcott-london-commissions')
+
+    # Modern Canada (Q16) begins 1 July 1867. Before that a printed "Canada"
+    # is the Canadas (Upper + Lower, 1791-1840) or the Province of Canada
+    # (Act of Union in force Feb. 1841). Evidence: research/canada-geography-2026-10-16.json.
+    if y and y < 1867 and 'Q16' in (r.get('place_qid'), r.get('colony_qid')):
+        period = ('Q7721124', 'The Canadas') if y <= 1840 else ('Q1121436', 'Province of Canada')
+        if r.get('place_qid') == 'Q16':
+            locate(*period, *period)
+        else:
+            colony = PRE_CONFEDERATION_COLONY.get(r.get('place_qid'), 'unresolved')
+            colony = period if colony == 'canadas' else colony
+            if colony == 'unresolved':
+                r.update(colony_qid=None, colony_label=None)
+                r['location_note'] = 'Canada (1867) is invalid for this date; named place retained, colony unresolved.'
+            else:
+                r.update(colony_qid=colony[0], colony_label=colony[1])
+        reasons.append('canada-before-confederation')
 
     normalized = re.sub(r'[^a-z ]', '', pos).strip()
     if r.get('org_type') == 'civil' and normalized in (

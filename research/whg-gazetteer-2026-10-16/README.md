@@ -17,11 +17,11 @@ Nothing has been uploaded to WHG or run through its validator. Method:
 | — name printed, year elsewhere | 114,818 |
 | — not found as printed (structured only) | 3,652 |
 | Mentions excluded, with reasons (`excluded-mentions.tsv`) | 14,840 (offices 10,757; generic words 1,906; descriptive phrases 1,364; unexpanded abbreviations 412; campaigns 335; non-place Wikidata entities 66) |
-| **Places exported** | **8,609** |
-| — Wikidata-matched | 2,120 (2,097 with AAT type, 2,024 with a point) |
+| **Places exported** | **8,610** |
+| — Wikidata-matched | 2,121 (2,098 with AAT type, 2,024 with a point) |
 | — local (no period-correct Wikidata item) | 1 (Assam before 1905) |
 | — name-only, awaiting reconciliation | 6,488 |
-| Places with years outside their Wikidata entity's dates (kept out of the span, flagged) | 250 |
+| Places with years outside their Wikidata entity's dates (kept out of the span, flagged) | 251 |
 | Rare places (1–5 mentions) in the tail review | 7,192; source examples for 6,735 |
 
 A mention can yield more than one place (composites such as *Natal and Hong
@@ -66,9 +66,11 @@ without it only Colonial Office editions are searched.
 
 ## Before upload
 
-1. Review the 250 out-of-period flags. Many point to graph grounding to a
-   modern or umbrella entity (Canada `Q16` before 1867, Ceylon after 1948);
-   fix upstream and rebuild.
+1. Review the 251 out-of-period flags. Many point to graph grounding to a
+   modern or umbrella entity (Ceylon after 1948); fix upstream and rebuild.
+   Pre-Confederation Canada was fixed this way: 146 career events now use
+   The Canadas (to 1840) or the Province of Canada (1841–66)
+   ([evidence](../canada-geography-2026-10-16.json)).
 2. Reconcile name-only places, by wd-mcp grounding of the most frequent ones or
    WHG's reconciliation after upload.
 3. Expand held abbreviations (`N.S.`, `T.W.I.`, `C.A.`) using career context.

@@ -822,7 +822,11 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                 issues.append("not_found_in_source_text")
             # Geometry: Wikidata point (or curated local point); never atlas seats.
             lon = lat = geo_source = geo_id = ""
-            if ent.get("coords"):
+            override = identities.get("geometry_overrides", {}).get(qid) if qid else None
+            if override:
+                lon, lat, geo_source = override["lon"], override["lat"], override["geo_source"]
+                issues.append("reviewed_geometry_override")
+            elif ent.get("coords"):
                 lon, lat = ent["coords"][0]
                 geo_source, geo_id = "Wikidata", f"https://www.wikidata.org/wiki/{qid}"
                 if len(ent["coords"]) > 1:

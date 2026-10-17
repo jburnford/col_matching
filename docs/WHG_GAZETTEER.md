@@ -92,8 +92,10 @@ ignores case and punctuation and does not expand abbreviations.
   feature classes are not yet searchable and AAT types are preferred, so both
   are given. Name-only places get a feature class from their name
   (`district` → A, `river` → H, `valley` → T, `prison` → S, else P) and are flagged.
-- **Geometry**: the Wikidata P625 point (`geo_source=Wikidata`), or a curated
-  point for local places. Atlas plotting seats are never used.
+- **Geometry**: the Wikidata P625 point (`geo_source=Wikidata`), a curated
+  point for local places, or a reviewed override in `geometry_overrides`
+  where Wikidata's point is wrong or missing (Province of Canada, The Canadas),
+  labelled as a schematic point in `geo_source`. Atlas plotting seats are never used.
 - **Variants**: other printed forms, cleaned of OCR edge furniture (`. Cyprus`,
   `Kedah &`), tagged `@en` (English-language usage in an English publication).
 - **IDs**: `ip-Q…`, `ip-local-…`, `ip-name-…`; LPF `@id` prefixes

@@ -543,7 +543,7 @@ ip-name-hope	Hope	2	2	1	21	short_name;education_or_institution_context	retain_pe
 ip-name-hope-town-q370736	Hope Town	4	4	4	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-india-offic	India Offic.	3	3	1	21	no_explicit_source_place_year_pair;check_india_office_source_coverage;education_or_institution_context;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-isle-of-wight-arty-q503623	Isle of Wight Arty.	2	2	1	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-jowaki-q4412467	Jowaki	2	2	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
+ip-name-jowaki-q3303188	Jowaki	2	2	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kaffrarian-outpost-q370736	Kaffrarian outpost	3	3	1	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kensington-q1054923	Kensington	2	2	1	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kenya-uganda-tanganyika-q158725	Kenya-Uganda-Tanganyika	2	2	1	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -630,9 +630,9 @@ ip-name-se-provs-q2062030	S.E. Provs.	4	4	1	21	name_maps_to_multiple_identities;
 ip-name-sehore	Sehore	2	2	2	21	check_india_office_source_coverage;education_or_institution_context;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-selama-q1400154	Selama	3	3	2	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-sherpur-q2629708	Sherpur	4	4	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-sherpur-q4412467	Sherpur	2	2	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
+ip-name-sherpur-q3303188	Sherpur	2	2	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-simla-west	Simla (West)	2	2	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-sm-country-q808575	S.M. country	4	4	4	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
+ip-name-sm-country-q657946	S.M. country	4	4	4	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-smc-states-q657946	S.M.C. States	3	3	2	21	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-southern-afghanistan-q2629708	Southern Afghanistan	4	4	3	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-southern-states-of-ci-q855044	Southern States of C.I.	5	5	5	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -666,7 +666,7 @@ ip-name-umgeni-division	Umgeni division	5	5	3	21	name_maps_to_multiple_identitie
 ip-name-umgeni-q1301901	Umgeni	5	5	3	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-union-h-of-a-q193619	Union H. of A.	2	2	2	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-union-senate-q1187978	Union senate	2	2	1	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-upper-scinde-q891827	Upper Scinde	4	4	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
+ip-name-upper-scinde-q808575	Upper Scinde	4	4	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-upper-tugela-q1301901	Upper Tugela	2	2	2	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-village-main-reef-q750583	Village Main Reef	2	2	2	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-w-african	W. African	2	2	1	21	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -964,7 +964,7 @@ ip-name-brit-n-borneo	Brit. N. Borneo	1	1	1	15	no_explicit_source_place_year_pai
 ip-name-britain-q129286	Britain	1	1	1	15	name_maps_to_multiple_identities	retain_pending_verification
 ip-name-britain-q16	Britain	1	1	1	15	name_maps_to_multiple_identities	retain_pending_verification
 ip-name-british-german-legion	British German Legion	1	1	1	15	no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-british-north-america-q16	British North America	1	1	1	15	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
+ip-name-british-north-america-q1121436	British North America	1	1	1	15	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
 ip-name-british-north-america-q63973349	British North America	1	1	1	15	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
 ip-name-british-ruanda-q541455	British Ruanda	1	1	1	15	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
 ip-name-british-sikhim	British Sikhim	1	1	1	15	check_india_office_source_coverage;education_or_institution_context	retain_pending_verification
@@ -2825,10 +2825,10 @@ ip-name-jhelum-canal-colony	Jhelum Canal Colony	2	2	1	11	check_india_office_sour
 ip-name-jodhpoor	Jodhpoor	2	2	1	11	check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-jogindarnagar	Jogindarnagar	2	2	1	11	check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-jowaki-q127861	Jowaki	3	3	3	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
-ip-name-jowaki-q1772596	Jowaki	5	5	5	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
+ip-name-jowaki-q817165	Jowaki	5	5	5	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
 ip-name-judicial-br	Judicial Br.	3	3	1	11	check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kachin-hills	Kachin Hills	2	2	1	11	check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-kaffrarian-outpost-q2547918	Kaffrarian outpost	3	3	1	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
+ip-name-kaffrarian-outpost-q3048062	Kaffrarian outpost	3	3	1	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
 ip-name-kafir	Kafir	3	3	3	11	candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kafiristan	Kafiristan	2	2	2	11	check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-kaihihi-pas	Kaihihi Pas	3	3	1	11	no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -2845,7 +2845,7 @@ ip-name-kigezi	Kigezi	5	5	4	11	candidate_year_without_retrieved_clause_support	r
 ip-name-kipevu	Kipevu	2	2	2	11	candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-klip-river	Klip River	2	2	2	11	name_maps_to_multiple_identities	retain_pending_verification
 ip-name-knysna-division	Knysna division	2	2	2	11	no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-kolhapur-q657946	Kolhápúr	2	2	2	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
+ip-name-kolhapur-q891827	Kolhápúr	2	2	2	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
 ip-name-krobo-q2566427	Krobo	2	2	2	11	name_maps_to_multiple_identities	retain_pending_verification
 ip-name-krugersdorp-dists-q129286	Krugersdorp dists.	4	4	1	11	name_maps_to_multiple_identities	retain_pending_verification
 ip-name-kubub	Kubub	2	2	1	11	candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -2921,7 +2921,7 @@ ip-name-n-district-q1643555	N. district	2	2	0	11	name_maps_to_multiple_identitie
 ip-name-n-district-q193714	N. district	4	4	0	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;no_retrieved_source_example	retain_pending_verification
 ip-name-n-district-q3116419	N. district	2	2	0	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;no_retrieved_source_example	retain_pending_verification
 ip-name-n-district-q370736	N. district	2	2	0	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;no_retrieved_source_example	retain_pending_verification
-ip-name-n-division-q2376315	N. division	3	3	3	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
+ip-name-n-division-q891827	N. division	3	3	3	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
 ip-name-n-frontier-district-q876185	N. Frontier district	2	2	0	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;no_retrieved_source_example	retain_pending_verification
 ip-name-n-india-salt-rev	N. India salt rev.	2	2	1	11	no_explicit_source_place_year_pair;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-n-johore	N. Johore	2	2	1	11	no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -3067,7 +3067,7 @@ ip-name-s-eastern-prov	S. Eastern Prov.	4	4	1	11	no_explicit_source_place_year_p
 ip-name-s-kavirondo	S. Kavirondo	2	2	1	11	no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-s-kedah-q1400154	S. Kedah	2	2	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
 ip-name-s-kedah-q376178	S. Kedah	3	3	3	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
-ip-name-s-mahratta-country-q14552167	S. Mahratta country	3	3	3	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;check_india_office_source_coverage	retain_pending_verification
+ip-name-s-mahratta-country-q891827	S. Mahratta country	3	3	3	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;check_india_office_source_coverage	retain_pending_verification
 ip-name-s-malabar	S. Malabar	3	3	3	11	no_explicit_source_place_year_pair;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-s-malacca-q376178	S. Malacca	2	2	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
 ip-name-s-malacca-q7621163	S. Malacca	2	2	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification

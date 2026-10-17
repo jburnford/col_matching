@@ -1,15 +1,15 @@
 {
  "gazetteer_inputs_excluding_bios": {
   "config/whg_rules.json": "9b5207e0c4d1a2dfaba28f97938072ef1ebd1dc53636ad439256e14692a7c412",
-  "config/whg_place_identities.json": "4d928b9aaec79e5526795009d89eb7a62eb2b122430f464fa7312084d1ccd2c4",
-  "data/whg/wikidata_places.json": "3b0d1d4eb13b3d7f38f2cd15b098f48829fe032594925535c20036243d4009ae",
-  "build_whg_gazetteer.py": "c46b4156569ae01f0a860439a2f3569e9284220905f19a6194435d03e165e910",
+  "config/whg_place_identities.json": "3ceae85f3f99dca7e8b5b1faf808280288e2991c6289635c25f57e2ef859caf7",
+  "data/whg/wikidata_places.json": "a0ac003d55ca13709cfb291754ba6414d5e7647c0c4ef0c1228d4f058ed7c69c",
+  "build_whg_gazetteer.py": "2cd30feb99a7e960be80df255bc0cb8d0748842ebf323b2a35e3a4f3b0edd228",
   "data/kg/graph_stage3/places.jsonl": "d6bfaac60493bce020323b0d2a9d498957df30922dc6558b61bf68f3e86b41d7",
-  "data/kg/graph_stage3/career_events.jsonl": "0f4a9574ec439fe2061d839fef5e15c23cbb63e80cfdf6edc10a82daf67afa67",
+  "data/kg/graph_stage3/career_events.jsonl": "65f54e4c09d8b9de342a2acac54e5db114bea4aac4b8071a2374cc65fe1dd0c8",
   "data/kg/places_grounding.jsonl": "497944874700164dfe534814d6a2bcc553c61270e9d9d1a8b2c8b91a8f74dfb5",
   "data/kg/llm_struct_corpus.stage3.jsonl": "60784f676b501ba1cdb1ab8fe034051fb6bd57a574cfa2397ca6565fae015064",
   "data/iol/graph_stage3/places.jsonl": "a83288f519a258ae2f1e9e640073432b085c5c9aa0b9a2132b7e00bdcd0dca91",
-  "data/iol/graph_stage3/career_events.jsonl": "7ded9be5ebfb2b9f91233ec9073ada2c1d990233c1b2dc2e719921c1f912daf6",
+  "data/iol/graph_stage3/career_events.jsonl": "37075b1bde923f7f989f3c869171b914dc4e48a66520b9b3aa2b4d0213cff7c2",
   "data/iol/places_grounding.jsonl": "677dae33399c5b75bc614fd7d3b986e3a339d95137cad6e77856ddf36b147940",
   "data/iol/llm_struct_corpus.stage3.jsonl": "a46a6f2197d07e1c4cfd7b7a2da78b64793090c5262ddeaa13a93594426da20b",
   "data/iol/llm_struct_corpus.stage3.deduped.jsonl": "960c8332366b599842e40ce1f11d48eb93d1177b099c5f0f6d2d138063841119",
@@ -18,18 +18,18 @@
  },
  "bios_files_hashed": 316,
  "gazetteer_outputs": {
-  "whg-places.tsv": "c88eccc351e46f47e8f95f2d262c2d9b073f3dddbd7714ab5133447cd607200a",
-  "whg-places.lpf.json": "775acc897f7e41198d965ec4b676df286f9433a1bee5f4827c63cf97914da1c4",
-  "places.jsonl": "cc0a6d65cb1c82f6ac38cc5970ae2a9fe73ef4440ec482b4f095f5e7394ef9cd",
-  "evidence.jsonl": "d65b76e41b1fed3a969e2cc64263d353dd2bcf3cdb1be90e02b086c699a9d2df",
-  "review.tsv": "da6e3c8d72509334e6ca24da6150f2ef40e7cab7406f606222faf82bfb4be771",
+  "whg-places.tsv": "46cd0b5955e825ada07a5f141fadbd0ce994e258e3014584e56e33a406f01357",
+  "whg-places.lpf.json": "a2068f5fecf409e9e25fd412b3e45a91144db4ede1d97d8b5ea833d0da50984b",
+  "places.jsonl": "275aebfa7f50fd86e27bc4281afbed7451be1d0dff595282706ae3f287fde34c",
+  "evidence.jsonl": "0625a06ad0f59bf15ec56077e7e5a08c278bef6072804fd0f653f7d78a5c8c53",
+  "review.tsv": "6cdba6a1945264316c95e69210d15721b6b6bf315773e6abcc101e867d8b4511",
   "excluded-mentions.tsv": "21c09ff2fe6e228fafc3d6a9b80e17318b1427d00c98b85fac43d224564fc35d",
-  "report.json": "3f41dffc2b28fc276bd4d9e2a06181afb0270d57f9c9e8eb5e3204b7a59d4d39"
+  "report.json": "5b7707423837f0c022aa0f63ce29fc188a31e18d27d01e758495120eee6cb77d"
  },
  "tail_outputs": {
-  "image-review-packets.jsonl": "63bcd43f2f998c1b4ffe1130fc389a29fa9fbdd5b2f202cbcad612ad918e2ad9",
-  "summary.json": "a764aaee1a8ce4a6078ca015516890bf03e0f81c831115689eb8c9f150b3bf7a",
-  "tail-details.jsonl": "8a979baf500d58f2768242a8e17f280a73efa76858fbd0e9328beb55ca38024d",
-  "tail-review.tsv": "a45cf0d489c71ad1341d8993d21fd73c829b89e70fbd8104d34fccc77ed75dc4"
+  "image-review-packets.jsonl": "9dfe42af0353da8643f2668ae16c699348ee8e0ebd78a8985d3985de317ad4eb",
+  "summary.json": "6b484aa9298d00a89ec30140fd000c2fc6193c9a165bb56c61adef4c9020036e",
+  "tail-details.jsonl": "ac5ce961a52217a7ca9562e1ba605362b7afd05dc0df8aa887e26072f7734f0d",
+  "tail-review.tsv": "263b42e7639f85ee04edea00164158527606a6780c8c8c5fa9f07c20d0e407fb"
  }
 }

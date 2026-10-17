@@ -197,6 +197,32 @@
           "note": "Mesopotamia (region) before the mandate"
         }
       ]
+    },
+    {
+      "surfaces": [
+        "Canada",
+        "Can."
+      ],
+      "periods": [
+        {
+          "start": 1791,
+          "end": 1841,
+          "qid": "Q7721124",
+          "note": "The Canadas (Upper + Lower Canada); research/canada-geography-2026-10-16.json"
+        },
+        {
+          "start": 1841,
+          "end": 1867,
+          "qid": "Q1121436",
+          "note": "Province of Canada"
+        },
+        {
+          "start": 1867,
+          "end": 1967,
+          "qid": "Q16",
+          "note": "Canada (Confederation 1 July 1867)"
+        }
+      ]
     }
   ],
   "surface_identities": {
@@ -331,5 +357,17 @@
     "west",
     "west coast",
     "western"
-  ]
+  ],
+  "geometry_overrides": {
+    "Q1121436": {
+      "lon": -76.0,
+      "lat": 46.0,
+      "geo_source": "Reviewed schematic point within the historical province, not a centroid or capital; Wikidata P625 (60N 100W) falls outside the territory. research/canada-geography-2026-10-08.json"
+    },
+    "Q7721124": {
+      "lon": -76.0,
+      "lat": 46.0,
+      "geo_source": "Reviewed schematic point within Upper and Lower Canada, not a centroid or capital; no Wikidata P625. research/canada-geography-2026-10-16.json"
+    }
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "problem": "133 pre-1867 career events (130 CO, 3 IOL) were grounded to modern Canada (Q16), whose Wikidata inception is 1867; 12 more had Q16 as colony for Charlottetown, Kingston, Lytton and Mackenzie River. Found via the WHG gazetteer out-of-period screen (e.g. Griffin, deputy postmaster-general's office, 'Canada, 24th April, 1831').",
+  "rule": "Printed 'Canada' with event year <= 1840 -> The Canadas (Q7721124, crown colony 1791-1841, has parts Upper Canada Q795427 and Lower Canada Q1134180); 1841-1866 -> Province of Canada (Q1121436); 1867+ unchanged (Q16). A bare 'Canada' cannot say which of Upper or Lower Canada was meant, so the collective colony is used rather than guessing.",
+  "colony_only": {
+    "Kingston Q202973": "The Canadas / Province of Canada by year",
+    "Charlottetown Q2127": "Q1978, the graph's existing pre-1873 Prince Edward Island colony convention (no separate colony item in Wikidata, wd-mcp 2026-10-16)",
+    "Lytton Q2957125": "Colony of British Columbia Q918861 (1858-1866)",
+    "Mackenzie River Q3411": "colony unresolved (Hudson's Bay Company territory, not a colony)"
+  },
+  "event_specific": [
+    {"person_id": "kgp_col1879-p464b17", "year": 1840, "change": "Q16 -> London Q84", "evidence": "WALCOTT: 'in March, 1840, was appointed secretary to H.M. colonial land and emigration commission, and also to the South Australian colonization commission' - London bodies; 'Canada' inherited from the 1835 clause."}
+  ],
+  "atlas": "The Canadas plots at Quebec (Q2145), seat of the governor-in-chief, for 1791-1840; schematic regional point [46.0, -76.0] as for the Province of Canada.",
+  "wikidata": {"Q7721124": "wd-mcp get_statements 2026-10-16: P31 crown colony, P571 1791, P576 1841, P527 Upper Canada + Lower Canada, P1366 Province of Canada"}
+}

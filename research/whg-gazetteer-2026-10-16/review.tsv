@@ -31,8 +31,8 @@ wd:Q1649306	ip-Q1649306	Q1649306	Nyasa.	1887	792	869	226	1906	1965	A	years_outsi
 wd:Q769779	ip-Q769779	Q769779	India Office	1830	680	1150	0	1857	1946	A	years_outside_authority_entity_dates;no_geometry
 wd:Q63973349	ip-Q63973349	Q63973349	Barbados	1752	809	938	5	1825	1962	A	years_outside_authority_entity_dates;no_geometry
 wd:Q15240466	ip-Q15240466	Q15240466	Cyprus	1639	804	835	0	1878	1948	A	years_outside_authority_entity_dates;no_geometry
-wd:Q16	ip-Q16	Q16	Canada	1614	769	824	21	1866	1959	A	years_outside_authority_entity_dates
 wd:Q370736	ip-Q370736	Q370736	Cape	1600	707	836	57	1828	1911	A	years_outside_authority_entity_dates
+wd:Q16	ip-Q16	Q16	Canada	1479	683	778	18	1867	1959	A	
 wd:Q1643555	ip-Q1643555	Q1643555	B. Hond.	1479	165	1312	2	1861	1962	A	years_outside_authority_entity_dates
 wd:Q664	ip-Q664	Q664	N.Z.	1401	452	949	0	1840	1954	A	
 wd:Q4907084	ip-Q4907084	Q4907084	Bihar and Orissa	1343	606	737	0	1911	1937	A	years_outside_authority_entity_dates
@@ -47,7 +47,7 @@ wd:Q1301901	ip-Q1301901	Q1301901	Natal	1131	537	594	0	1843	1911	A	years_outside_
 wd:Q3574782	ip-Q3574782	Q3574782	Zanzibar	1092	624	432	36	1892	1964	A	years_outside_authority_entity_dates;no_geometry
 wd:Q130386222	ip-Q130386222	Q130386222	Antigua	1008	567	441	0	1825	1964	A	no_geometry
 wd:Q18348382	ip-Q18348382	Q18348382	New South Wales	1006	311	695	0	1827	1902	A	years_outside_authority_entity_dates;no_geometry
-wd:Q84	ip-Q84	Q84	London	990	713	277	0	1830	1964	P	
+wd:Q84	ip-Q84	Q84	London	992	713	279	0	1830	1964	P	
 wd:Q3557236	ip-Q3557236	Q3557236	Gambia	959	507	451	1	1834	1965	A	
 wd:Q57676556	ip-Q57676556	Q57676556	Western Australia	865	138	717	10	1831	1902	A	years_outside_authority_entity_dates
 wd:Q193619	ip-Q193619	Q193619	Union of S. Africa	858	108	740	10	1910	1956	A	years_outside_authority_entity_dates
@@ -196,6 +196,7 @@ wd:Q185944	ip-Q185944	Q185944	Kelantan	134	113	21	0	1895	1955	A
 wd:Q1968268	ip-Q1968268	Q1968268	Kegalla	134	125	9	0	1845	1937	P	
 wd:Q10717	ip-Q10717	Q10717	Georgetown	132	59	71	2	1858	1939	P	
 wd:Q675322	ip-Q675322	Q675322	Berbice	132	68	64	0	1827	1912	A	
+wd:Q1121436	ip-Q1121436	Q1121436	Canada	131	82	46	3	1842	1867	A	years_outside_authority_entity_dates;reviewed_geometry_override
 wd:Q2694747	ip-Q2694747	Q2694747	Larut	129	109	20	0	1874	1948	A	
 wd:Q5838	ip-Q5838	Q5838	Kabul	129	102	27	0	1833	1946	P;A	
 wd:Q2566427	ip-Q2566427	Q2566427	Niger Coast Protec.	127	17	23	87	1891	1897	A	
@@ -842,6 +843,7 @@ wd:Q61432	ip-Q61432	Q61432	Brandon	13	2	11	0	1882	1930	P
 wd:Q641	ip-Q641	Q641	Venice	13	4	9	0	1881	1881	P	
 wd:Q651131	ip-Q651131	Q651131	Khota Bharu	13	8	5	0	1911	1924	P;A	
 wd:Q760144	ip-Q760144	Q760144	Anantapur	13	11	2	0	1882	1942	P	
+wd:Q7721124	ip-Q7721124	Q7721124	Canada	13	8	5	0	1831	1842	A	years_outside_authority_entity_dates;reviewed_geometry_override
 wd:Q813395	ip-Q813395	Q813395	Beaufort West	13	9	4	0	1854	1924	P	
 wd:Q818344	ip-Q818344	Q818344	Bentong	13	13	0	0	1916	1930	A	years_outside_authority_entity_dates
 wd:Q843954	ip-Q843954	Q843954	Tenasserim	13	9	4	0	1855	1903	L	
@@ -882,7 +884,7 @@ wd:Q653801	ip-Q653801	Q653801	Port Dickson	12	10	2	0	1910	1951	P
 wd:Q793553	ip-Q793553	Q793553	Azamgarh	12	7	5	0	1858	1878	A	
 wd:Q79848	ip-Q79848	Q79848	Southampton	12	10	2	0	1857	1928	P	
 wd:Q993721	ip-Q993721	Q993721	Germiston	12	6	6	0	1908	1929	P	
-name:coopers hill|Q2629708	ip-name-coopers-hill-q2629708		Cooper's Hill	12	6	6	0	1870	1899	T	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:coopers hill|Q817165	ip-name-coopers-hill-q817165		Cooper's Hill	12	6	6	0	1870	1899	T	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:krobo|Q503623	ip-name-krobo-q503623		Krobo	12	1	11	0	1891	1891	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:malay states|Q1400154	ip-name-malay-states-q1400154		Malay States	12	10	2	0	1896	1936	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:n cent prov	ip-name-n-cent-prov		N. Cent. Prov.	12	4	8	0	1874	1889	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -890,7 +892,6 @@ name:n district|Q1054923	ip-name-n-district-q1054923		N. district	12	1	1	10	1931
 wd:Q1014	ip-Q1014	Q1014	Liberia	11	8	3	0	1879	1918	A	
 wd:Q1017696	ip-Q1017696	Q1017696	Jacobabad	11	11	0	0	1880	1887	P	
 wd:Q1019	ip-Q1019	Q1019	Madagascar	11	8	3	0	1861	1944	A	years_outside_authority_entity_dates
-wd:Q1121436	ip-Q1121436	Q1121436	late province of Canada	11	4	7	0	1851	1865	A	
 wd:Q1156248	ip-Q1156248	Q1156248	England and Wales	11	7	4	0	1854	1945	A	no_geometry
 wd:Q1188560	ip-Q1188560	Q1188560	Winnebah	11	7	4	0	1857	1907	P	
 wd:Q1200493	ip-Q1200493	Q1200493	Shortlands	11	6	5	0	1916	1920	T	
@@ -1263,7 +1264,7 @@ name:assam circle	ip-name-assam-circle		Assam Circle	7	5	2	0	1912	1932	A	feature
 name:bruas	ip-name-bruas		Bruas	7	7	0	0	1906	1926	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:central circle	ip-name-central-circle		Central Circle	7	6	1	0	1911	1927	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:chinese protectorate|Q1400154	ip-name-chinese-protectorate-q1400154		Chinese protectorate	7	0	0	7	1921	1925	A	title_not_printed_in_source;feature_class_from_name;no_authority_match;not_found_in_source_text;no_geometry;parent_inferred_from_career_context
-name:e states|Q2629708	ip-name-e-states-q2629708		E. States	7	0	7	0	1934	1944	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:e states|Q2571484	ip-name-e-states-q2571484		E. States	7	0	7	0	1934	1944	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kabul to kandahar|Q129286	ip-name-kabul-to-kandahar-q129286		Kabul to Kandahar	7	4	3	0	1880	1880	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:mano salija	ip-name-mano-salija		Mano Salija	7	7	0	0	1893	1905	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:n frontier|Q662653	ip-name-n-frontier-q662653		N. Frontier	7	0	7	0	1922	1935	L	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -1397,7 +1398,7 @@ name:n york|Q1904	ip-name-n-york-q1904		N. York	6	0	6	0	1881	1921	P	feature_clas
 name:nepal frontier	ip-name-nepal-frontier		Nepal frontier	6	0	6	0	1860	1893	L	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:northern division|Q2376315	ip-name-northern-division-q2376315		Northern division	6	5	1	0	1880	1888	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:perak south|Q1400154	ip-name-perak-south-q1400154		Perak South	6	6	0	0	1896	1924	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:persian baluchistan|Q4412467	ip-name-persian-baluchistan-q4412467		Persian Baluchistan	6	4	2	0	1917	1929	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:persian baluchistan|Q3303188	ip-name-persian-baluchistan-q3303188		Persian Baluchistan	6	4	2	0	1917	1929	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:punjab circle	ip-name-punjab-circle		Punjab Circle	6	4	2	0	1904	1914	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:rawal pindi divisions	ip-name-rawal-pindi-divisions		Rawal Pindi divisions	6	2	4	0	1883	1886	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:s trin	ip-name-s-trin		S. Trin.	6	0	6	0	1937	1950	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -1556,7 +1557,7 @@ name:griqualand|Q2547918	ip-name-griqualand-q2547918		Griqualand	5	5	0	0	1872	18
 name:heidelberg|Q1187978	ip-name-heidelberg-q1187978		Heidelberg	5	2	3	0	1904	1916	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:imperial brit east africa compy	ip-name-imperial-brit-east-africa-compy		Imperial Brit. East Africa Compy.	5	0	5	0	1891	1915	P	feature_class_from_name;no_authority_match;no_geometry
 name:jessor	ip-name-jessor		Jessor	5	5	0	0	1860	1896	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:jowaki|Q1772596	ip-name-jowaki-q1772596		Jowaki	5	5	0	0	1877	1878	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:jowaki|Q817165	ip-name-jowaki-q817165		Jowaki	5	5	0	0	1877	1878	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kigezi	ip-name-kigezi		Kigezi	5	1	4	0	1960	1960	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kings county|Q1978	ip-name-kings-county-q1978		King's county	5	1	4	0	1900	1900	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:l islds|Q1637975	ip-name-l-islds-q1637975		L. Islds.	5	0	5	0	1898	1903	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -1824,7 +1825,7 @@ name:s shetland	ip-name-s-shetland		S. Shetland	4	0	4	0	1919	1939	P	feature_clas
 name:s w transvaal	ip-name-s-w-transvaal		S.-W. Transvaal	4	0	4	0	1921	1937	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:se provs|Q2062030	ip-name-se-provs-q2062030		S.E. Provs.	4	0	4	0	1930	1935	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:sherpur|Q2629708	ip-name-sherpur-q2629708		Sherpur	4	1	3	0	1879	1879	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:sm country|Q808575	ip-name-sm-country-q808575		S.M. country	4	3	1	0	1908	1918	L	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:sm country|Q657946	ip-name-sm-country-q657946		S.M. country	4	3	1	0	1908	1918	L	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:southern afghanistan|Q2629708	ip-name-southern-afghanistan-q2629708		Southern Afghanistan	4	4	0	0	1878	1880	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:southern district	ip-name-southern-district		Southern District	4	4	0	0	1865	1877	A	feature_class_from_name;no_authority_match;no_geometry
 name:st albans	ip-name-st-albans		St. Albans	4	0	4	0	1872	1903	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -1835,7 +1836,7 @@ name:st david	ip-name-st-david		St. David	4	0	4	0	1873	1925	P	feature_class_from
 name:strand division	ip-name-strand-division		Strand Division	4	1	3	0	1910	1910	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:sudan rlways	ip-name-sudan-rlways		Sudan rlways.	4	1	3	0	1938	1938	P	feature_class_from_name;no_authority_match;no_geometry
 name:sutherland|Q953068	ip-name-sutherland-q953068		Sutherland	4	1	3	0	1931	1931	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:upper scinde|Q891827	ip-name-upper-scinde-q891827		Upper Scinde	4	2	2	0	1840	1841	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:upper scinde|Q808575	ip-name-upper-scinde-q808575		Upper Scinde	4	2	2	0	1840	1841	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:virgin april	ip-name-virgin-april		Virgin April	4	0	0	4	1902	1908	P	title_not_printed_in_source;feature_class_from_name;no_authority_match;not_found_in_source_text;no_geometry;parent_inferred_from_career_context
 name:w surrey	ip-name-w-surrey		W. Surrey	4	0	4	0	1880	1885	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:western canada	ip-name-western-canada		Western Canada	4	0	4	0	1917	1919	P	feature_class_from_name;no_authority_match;no_geometry
@@ -2156,7 +2157,7 @@ name:ishan|Q2566427	ip-name-ishan-q2566427		Ishan	3	3	0	0	1901	1902	P	feature_cl
 name:isles de los	ip-name-isles-de-los		Isles de Los	3	3	0	0	1875	1905	T	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:jowaki|Q127861	ip-name-jowaki-q127861		Jowaki	3	3	0	0	1877	1877	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:judicial br	ip-name-judicial-br		Judicial Br.	3	2	1	0	1904	1904	P	feature_class_from_name;no_authority_match;no_geometry
-name:kaffrarian outpost|Q2547918	ip-name-kaffrarian-outpost-q2547918		Kaffrarian outpost	3	0	3	0			P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:kaffrarian outpost|Q3048062	ip-name-kaffrarian-outpost-q3048062		Kaffrarian outpost	3	0	3	0			P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kaffrarian outpost|Q370736	ip-name-kaffrarian-outpost-q370736		Kaffrarian outpost	3	1	2	0	1828	1828	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kafir	ip-name-kafir		Kafir	3	3	0	0	1846	1852	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kaihihi pas	ip-name-kaihihi-pas		Kaihihi Pas	3	0	3	0	1860	1860	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -2202,7 +2203,7 @@ name:n afghanistan	ip-name-n-afghanistan		N. Afghanistan	3	0	3	0	1870	1880	P	fea
 name:n arakan	ip-name-n-arakan		N. Arakan	3	0	3	0	1868	1878	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:n border|Q2547918	ip-name-n-border-q2547918		N. Border	3	0	3	0	1878	1879	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:n district	ip-name-n-district		N. district	3	1	0	2	1880	1880	A	feature_class_from_name;no_authority_match;no_geometry
-name:n division|Q2376315	ip-name-n-division-q2376315		N. division	3	3	0	0	1872	1888	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:n division|Q891827	ip-name-n-division-q891827		N. division	3	3	0	0	1872	1888	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:n frontier|Q876185	ip-name-n-frontier-q876185		N. Frontier	3	0	3	0	1909	1920	L	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:n kanara	ip-name-n-kanara		N. Kanara	3	0	3	0	1862	1862	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:n kedah|Q1400154	ip-name-n-kedah-q1400154		N. Kedah	3	0	3	0	1914	1932	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -2257,7 +2258,7 @@ name:s afghanistan	ip-name-s-afghanistan		S. Afghanistan	3	1	2	0	1880	1881	P	fea
 name:s africa eastern dists local divn	ip-name-s-africa-eastern-dists-local-divn		S. Africa eastern dists. local divn.	3	0	3	0	1925	1932	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:s district|Q63973349	ip-name-s-district-q63973349		S. district	3	0	1	2	1883	1883	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:s kedah|Q376178	ip-name-s-kedah-q376178		S. Kedah	3	0	3	0	1920	1927	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:s mahratta country|Q14552167	ip-name-s-mahratta-country-q14552167		S. Mahratta country	3	0	3	0	1847	1900	L	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:s mahratta country|Q891827	ip-name-s-mahratta-country-q891827		S. Mahratta country	3	0	3	0	1847	1900	L	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:s malabar	ip-name-s-malabar		S. Malabar	3	0	3	0	1879	1898	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:s wales district	ip-name-s-wales-district		S. Wales district	3	0	0	3	1933	1939	A	title_not_printed_in_source;feature_class_from_name;no_authority_match;not_found_in_source_text;no_geometry;parent_inferred_from_career_context
 name:sadong|Q1658411	ip-name-sadong-q1658411		Sadong	3	3	0	0	1891	1898	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -2901,7 +2902,7 @@ name:jhelum canal colony	ip-name-jhelum-canal-colony		Jhelum Canal Colony	2	1	1	
 name:jodhpoor	ip-name-jodhpoor		Jodhpoor	2	2	0	0	1878	1879	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:jogindarnagar	ip-name-jogindarnagar		Jogindarnagar	2	1	1	0	1933	1933	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:jolna	ip-name-jolna		Jolna	2	1	1	0	1874	1874	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:jowaki|Q4412467	ip-name-jowaki-q4412467		Jowaki	2	2	0	0	1877	1878	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:jowaki|Q3303188	ip-name-jowaki-q3303188		Jowaki	2	2	0	0	1877	1878	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kachin hills	ip-name-kachin-hills		Kachin Hills	2	2	0	0	1892	1893	T	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kaduva	ip-name-kaduva		Kaduva	2	2	0	0	1906	1906	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kafiristan	ip-name-kafiristan		Kafiristan	2	2	0	0	1888	1891	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -2930,7 +2931,7 @@ name:kirkdale prison	ip-name-kirkdale-prison		Kirkdale prison	2	2	0	0	1876	1876	
 name:klip river	ip-name-klip-river		Klip River	2	2	0	0	1860	1860	H	feature_class_from_name;no_authority_match;no_geometry
 name:klipdam	ip-name-klipdam		Klipdam	2	2	0	0	1895	1908	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:knysna division	ip-name-knysna-division		Knysna division	2	0	2	0	1862	1862	A	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:kolhápúr|Q657946	ip-name-kolhapur-q657946		Kolhápúr	2	2	0	0	1866	1867	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:kolhápúr|Q891827	ip-name-kolhapur-q891827		Kolhápúr	2	2	0	0	1866	1867	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:kologha	ip-name-kologha		Kologha	2	2	0	0	1914	1914	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:komgha division	ip-name-komgha-division		Komgha division	2	1	0	1	1880	1880	A	feature_class_from_name;no_authority_match;no_geometry
 name:kooyong (vic)	ip-name-kooyong-vic		Kooyong (Vic.)	2	1	1	0	1934	1934	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -3261,7 +3262,7 @@ name:selensing pahang	ip-name-selensing-pahang		Selensing. Pahang	2	1	1	0	1896	1
 name:severn tunnel	ip-name-severn-tunnel		Severn tunnel	2	0	2	0			P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:seychelles general	ip-name-seychelles-general		Seychelles general	2	0	0	2	1908	1912	P	title_not_printed_in_source;feature_class_from_name;no_authority_match;not_found_in_source_text;no_geometry;parent_inferred_from_career_context
 name:shai hills	ip-name-shai-hills		Shai Hills	2	2	0	0	1892	1892	T	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:sherpur|Q4412467	ip-name-sherpur-q4412467		Sherpur	2	1	1	0	1879	1879	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:sherpur|Q3303188	ip-name-sherpur-q3303188		Sherpur	2	1	1	0	1879	1879	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:shire highlands	ip-name-shire-highlands		Shire Highlands	2	2	0	0	1915	1915	L	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:sholapore	ip-name-sholapore		Sholapore	2	1	1	0	1855	1857	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:shropshire	ip-name-shropshire		Shropshire	2	2	0	0	1922	1923	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
@@ -4243,7 +4244,7 @@ name:british assocn	ip-name-british-assocn		British Assocn.	1	1	0	0	1886	1886	P	
 name:british central african protectorate	ip-name-british-central-african-protectorate		British Central African protectorate	1	0	0	1			A	title_not_printed_in_source;feature_class_from_name;no_authority_match;not_found_in_source_text;no_geometry;parent_inferred_from_career_context;attestation_year_from_biography_edition
 name:british german legion	ip-name-british-german-legion		British German Legion	1	0	1	0	1855	1855	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:british n america	ip-name-british-n-america		British N. America	1	0	1	0	1839	1839	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
-name:british north america|Q16	ip-name-british-north-america-q16		British North America	1	1	0	0	1839	1839	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
+name:british north america|Q1121436	ip-name-british-north-america-q1121436		British North America	1	1	0	0	1839	1839	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:british north america|Q63973349	ip-name-british-north-america-q63973349		British North America	1	0	1	0			P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:british quiah districts	ip-name-british-quiah-districts		British Quiah districts	1	1	0	0	1881	1881	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
 name:british ruanda|Q541455	ip-name-british-ruanda-q541455		British Ruanda	1	0	1	0	1919	1919	P	feature_class_from_name;no_authority_match;no_geometry;parent_inferred_from_career_context
