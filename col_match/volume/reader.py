@@ -18,7 +18,7 @@ import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
-# Root of the new (Infinity-2) OCR tree. Resolution order:
+# Root of the new (Infinity-Parser2) OCR tree. Resolution order:
 #   1. COL_OCR_ROOT env override;
 #   2. the in-repo copy (raw_ocr/, so the repo is self-contained on GitHub);
 #   3. the original external location under ~/plato.

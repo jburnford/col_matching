@@ -37,7 +37,7 @@ from col_match.kg.place_canon import canon_key, canonicalize, is_institution
 ROOT = Path(__file__).resolve().parent
 VERSION = 2
 STATUSES = {"british_empire", "outside_british_empire", "mixed_or_contested", "unknown"}
-ID_BASE = "https://jimclifford.ca/col_matching/whg/places/"
+ID_BASE = "https://jimclifford.ca/col_matching/whg/places/#"
 LPF_CONTEXT = "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld"
 TIERS = ("same_clause", "printed", "structured_only")
 CORPUS_TITLE = {"kg": "Colonial Office List", "iol": "India Office List"}

@@ -168,12 +168,11 @@ tagged GitHub release is archived to Zenodo and gets its own version DOI too
 The graph is the downstream product of a longer pipeline; you don't need any of
 it to *use* the data, but here is the lineage:
 
-1. **OCR** of the printed Lists. Model attribution remains unconfirmed between
-   **Chandra 2** and **Infinity/Infinity-2**; the repository also retains an
-   earlier olmOCR route. Raw layout-aware CO
-   artifacts are committed under `raw_ocr/`. Model attribution, parsing routes,
-   and missing run metadata are documented in
-   [OCR and parsing provenance](docs/OCR_AND_PARSING.md).
+1. **OCR** of the printed Lists: Colonial Office Lists (Internet Archive) with
+   **Infinity-Parser2-Pro**, India Office Lists (British Library) with
+   **Chandra 2**. Raw layout-aware CO artifacts are committed under `raw_ocr/`;
+   an earlier olmOCR route is retained for the legacy matcher. Evidence and
+   parsing routes: [OCR and parsing provenance](docs/OCR_AND_PARSING.md).
 2. **Person resolution** — the printed "Record of Services" biographies are
    segmented, deduplicated across editions, and compiled into per-person
    biographies with per-fact edition provenance (`col_match/services/`).

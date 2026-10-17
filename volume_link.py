@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Within-volume bio↔roster linking driver for the new (Infinity-2) OCR.
+"""Within-volume bio↔roster linking driver for the new (Infinity-Parser2) OCR.
 
   python3 volume_link.py --year 1921
   python3 volume_link.py --year 1888 --doc col

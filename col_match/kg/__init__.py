@@ -1,7 +1,7 @@
 """Knowledge-graph extraction FROM the Colonial Office List biographies.
 
 Goal: the best-possible grounded person-career graph built from the services-
-section biographies of the new (Infinity-2) OCR, independent of the staff-list
+section biographies of the new (Infinity-Parser2) OCR, independent of the staff-list
 linking work (deferred). Pipeline:
 
   discover (volume.reader/bios) -> cluster persons across editions (persons)

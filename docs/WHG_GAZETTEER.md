@@ -6,6 +6,7 @@ Run from the repository root:
 python3 whg_fetch_wikidata.py          # once; incremental. Caches data/whg/wikidata_places.json
 python3 build_whg_gazetteer.py         # → out/whg/ (ignored)
 python3 build_whg_tail_review.py       # optional rare-place review packets → out/whg-tail/
+python3 build_whg_places_page.py       # public places page: every LPF @id resolves
 python3 -m unittest discover -s tests -p 'test_whg*.py' -v
 ```
 
@@ -132,9 +133,11 @@ ignores case and punctuation and does not expand abbreviations.
   (English-language usage in an English publication). Comma-qualified forms
   (`Kimberley, Cape`) and OCR repairs from alias rules (`Kong` → Hong Kong)
   stay in the evidence, not the variants.
-- **IDs**: `ip-Q…`, `ip-local-…`, `ip-name-…`; LPF `@id` prefixes
-  `https://jimclifford.ca/col_matching/whg/places/`. Keep a crosswalk if a
-  Wikidata identity is later split.
+- **IDs**: `ip-Q…`, `ip-local-…`, `ip-name-…`; LPF `@id` is
+  `https://jimclifford.ca/col_matching/whg/places/#<id>`, which resolves to that
+  record's anchor on the published places page (`build_whg_places_page.py` →
+  `docs/whg/places/index.html`). Keep a crosswalk if a Wikidata identity is
+  later split.
 
 ## Imperial relationship rules
 
@@ -231,9 +234,9 @@ an image was read, and reviews do not automatically change public data.
 ### Source images
 
 Page images are not in this checkout. The Colonial Office OCR (`raw_ocr/json/`,
-mirrored at `~/plato/colonial_office_lists/`) is of Google Books scans. Chandra 2
-job scripts (`datalab-to/chandra-ocr-2`) are in `~/plato/chandra/`, but no
-per-edition run log is kept with the OCR output.
+mirrored at `~/plato/colonial_office_lists/`) is Infinity-Parser2-Pro output on
+Internet Archive copies of Google-digitised volumes; the India Office OCR is
+Chandra 2 output on British Library scans. See [OCR provenance](OCR_AND_PARSING.md).
 India Office raw OCR is under the ignored `iol_ocr_1860-1940/` and its parsed
 biographies under the ignored `data/iol/bios/`; a clone without them builds the
 Colonial Office half of the evidence only.

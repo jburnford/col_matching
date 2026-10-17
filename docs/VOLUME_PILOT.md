@@ -1,4 +1,4 @@
-# Within-volume bio↔roster linking on the new (Infinity-2) OCR — pilot + handoff
+# Within-volume bio↔roster linking on the new (Infinity-Parser2) OCR — pilot + handoff
 
 **Goal.** Set the old cross-edition pipeline aside and test, inside a *single*
 edition, whether we can link services-section **biographies** to that same

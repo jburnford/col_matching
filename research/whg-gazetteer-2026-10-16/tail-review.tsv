@@ -547,7 +547,7 @@ ip-name-uganda-prots-q1097943	Uganda Prots.	4	4	4	21	name_maps_to_multiple_ident
 ip-name-uganda-prots-q15240466	Uganda Prots.	3	3	1	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-umgeni-q1301901	Umgeni	5	5	3	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-union-senate-q1187978	Union senate	2	2	1	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-upper-scinde-q808575	Upper Scinde	4	4	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
+ip-name-upper-scinde-q891827	Upper Scinde	4	4	2	21	name_maps_to_multiple_identities;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-upper-tugela-q1301901	Upper Tugela	2	2	2	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-w-frontier-q127861	W. frontier	3	3	2	21	name_maps_to_multiple_identities;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-w-indus-q8660	W. Indus	2	2	1	21	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -2391,8 +2391,8 @@ ip-name-east-indian-fly	East Indian fly.	2	2	1	11	no_explicit_source_place_year_
 ip-name-east-states	East. States	2	2	1	11	no_explicit_source_place_year_pair;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-eastern-cmd	Eastern Cmd.	2	2	1	11	candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-eccles-hill	Eccles Hill	3	3	1	11	candidate_year_without_retrieved_clause_support	retain_pending_verification
-ip-name-egyptian-q1772596	Egyptian	2	2	2	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
 ip-name-egyptian-q541455	Egyptian	2	2	2	11	name_maps_to_multiple_identities	retain_pending_verification
+ip-name-egyptian-q817165	Egyptian	2	2	2	11	name_maps_to_multiple_identities;check_india_office_source_coverage	retain_pending_verification
 ip-name-eng-frontier	Eng. frontier	2	2	1	11	candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-er-states	E.R. States	4	4	2	11	no_explicit_source_place_year_pair;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-erlistock	Erlistock	2	2	1	11	no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
@@ -2665,7 +2665,7 @@ ip-name-s-baluchistan-q3303188	S. Baluchistan	2	2	2	11	name_maps_to_multiple_ide
 ip-name-s-kavirondo	S. Kavirondo	2	2	1	11	no_explicit_source_place_year_pair;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-s-kedah-q1400154	S. Kedah	2	2	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
 ip-name-s-kedah-q376178	S. Kedah	3	3	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
-ip-name-s-mahratta-country-q14552167	S. Mahratta country	2	2	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;check_india_office_source_coverage	retain_pending_verification
+ip-name-s-mahratta-country-q891827	S. Mahratta country	2	2	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair;check_india_office_source_coverage	retain_pending_verification
 ip-name-s-malabar	S. Malabar	3	3	3	11	no_explicit_source_place_year_pair;check_india_office_source_coverage;candidate_year_without_retrieved_clause_support	retain_pending_verification
 ip-name-s-malacca-q376178	S. Malacca	2	2	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification
 ip-name-s-malacca-q7621163	S. Malacca	2	2	2	11	name_maps_to_multiple_identities;no_explicit_source_place_year_pair	retain_pending_verification

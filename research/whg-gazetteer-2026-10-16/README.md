@@ -25,9 +25,10 @@ Careers: a grounded person-career knowledge graph of the Colonial Office List
 and India Office List*, Dataset, Zenodo, <https://doi.org/10.5281/zenodo.21079938>
 (gazetteer derived from the 16 October 2026 snapshot).
 
-**Sources:** Colonial Office Lists (Google Books scans; OCR attribution pending confirmation — see
-[OCR provenance](../../docs/OCR_AND_PARSING.md)) and India Office Lists.
-Per-edition scan URIs are not yet attached (`title_uri` empty).
+**Sources:** Colonial Office Lists, Internet Archive copies of Google-digitised
+volumes (OCR: Infinity-Parser2-Pro); India Office Lists, British Library (OCR:
+Chandra 2). See [OCR provenance](../../docs/OCR_AND_PARSING.md). Per-edition
+scan URIs are not yet attached (`title_uri` empty).
 
 ## Results
 
@@ -114,6 +115,8 @@ without it only Colonial Office editions are searched.
    `reviewed: true` in `config/whg_name_groundings.json`), wd-mcp for frequent
    ones, or WHG's reconciliation after upload.
 3. Expand held abbreviations (`N.S.`, `T.W.I.`) and review `held-names.tsv`.
-4. Decide the public `@id` base (currently `https://jimclifford.ca/col_matching/whg/places/`).
-5. Add citation, licence (CC0), contact and scan URIs; settle OCR attribution.
+4. Push so the places page goes live: every `@id` is
+   `https://jimclifford.ca/col_matching/whg/places/#<id>`.
+5. Attach per-edition scan URIs (Internet Archive items for the CO Lists,
+   British Library shelfmarks for the IOL) as `title_uri`.
 6. Upload privately to WHG and run its validator.

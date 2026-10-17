@@ -6,32 +6,22 @@ the printed page; parsing turns that transcription into structured fields;
 grounding proposes which geographic entity a name refers to. Errors and model
 versions must be recorded separately for each stage.
 
-## OCR: Infinity-2, Chandra 2, and the earlier olmOCR corpus
+## OCR: Infinity-Parser2-Pro (Colonial Office), Chandra 2 (India Office)
 
-**OCR model attribution is unconfirmed.** The earlier
-[public methods page](about.html) named **Chandra 2** and described execution
-on the **Nibi cluster, Digital Research Alliance of Canada**. The layout reader
-instead names **Infinity-2** in a comment. Chandra 2 and Infinity/Infinity-2
-remain candidate attributions until original run evidence resolves the model
-for each batch. The local checkout contains
-downstream OCR artifacts and readers, not a complete Chandra 2 inference setup
-or a per-volume model-run registry. An exact checkpoint revision, runtime,
-decoding settings, image preprocessing, and job identity cannot be recovered
-from the model name alone.
+| Corpus | Source scans | OCR model | Evidence |
+| --- | --- | --- | --- |
+| Colonial Office, Dominions Office and Commonwealth Relations Office Lists (83 editions, `raw_ocr/json/`) | Internet Archive copies of Google-digitised volumes (page 1 of each carries the Google Books notice) | **Infinity-Parser2-Pro** (`infly/Infinity-Parser2-Pro`, FP8, vLLM, Nibi H100; `parser --task doc2json --output-format json`) | Every edition is `<name>.pdf/result.json`: pages of `{bbox, category, text}` blocks with Infinity's lowercase layout labels (`header`, `page_footnote`, `table_caption`…) and pixel boxes — the schema documented by the Infinity recovery tool, whose validator checks `ColonialOfficeList1890`/`1894` (`~/plato/wpcs-ocr-public/nibi/recover_infinity_json.py`, `validate_recovery.py`, `run_infinity_production.slurm`). No Chandra-format Colonial Office output exists in this project. |
+| India Office Lists (139 edition directories, ignored `iol_ocr_1860-1940/`) | British Library | **Chandra 2** (`datalab-to/chandra-ocr-2`) | Every edition is `<name>.md`, `<name>.html` and `<name>_metadata.json` (`total_token_count`, `total_chunks`, `page_box`), with hashed `_img.webp` crops and prose image descriptions in `alt` text — Chandra's output layout. Job scripts in `~/plato/chandra/`. |
 
-Infinity-2 is also named by `volume_link.py`, the volume/KG package descriptions,
-and the [within-volume pilot](VOLUME_PILOT.md). These provide consistent
-implementation-level attribution for the layout-aware route, but not immutable
-checkpoint or per-batch execution evidence.
+What is **not** recoverable from the artifacts: checkpoint revisions, decoding
+settings and per-batch job IDs. If Chandra was also run on some Colonial Office
+editions, that output is not what this corpus was built from: the readers use
+only `raw_ocr/json/`. Earlier code comments calling the CO route "Infinity-2"
+refer to Infinity-Parser2.
 
-There are also older **olmOCR** references and a legacy markdown reader.
-Do not relabel that older corpus as Chandra 2 output. In addition,
-`col_match/volume/reader.py` contains an “Infinity-2” comment for the layout-aware
-tree, while the earlier public methods description named Chandra 2. This is an unresolved
-provenance discrepancy, not evidence that those names denote the same model.
-Preserve the original artifact and recover its OCR job manifest before assigning
-a checkpoint to an individual edition. The inspected Colonial Office 1913
-`result.json` is a top-level page list, without top-level model/run metadata.
+An older full-volume **olmOCR** markdown corpus (`olmocr_results.md`) fed the
+original roster matcher; it is retained but is not the source of the
+knowledge graph.
 
 | OCR artifact route | Reader and segmentation | Source locator |
 | --- | --- | --- |

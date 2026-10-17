@@ -1,4 +1,4 @@
-"""Within-volume bio↔roster linking on the new (Infinity-2) Colonial Office
+"""Within-volume bio↔roster linking on the new (Infinity-Parser2) Colonial Office
 List OCR.
 
 A self-contained pilot, deliberately isolated from the old cross-edition
