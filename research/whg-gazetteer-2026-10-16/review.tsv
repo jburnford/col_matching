@@ -13,11 +13,11 @@ wd:Q918126	ip-Q918126	Q918126	British Guiana	4227	347	3879	1	1831	1965	A
 wd:Q158725	ip-Q158725	Q158725	Tanganyika Territory	4173	2313	1857	3	1921	1962	A	years_outside_authority_entity_dates
 wd:Q2160037	ip-Q2160037	Q2160037	United Provinces	4116	1579	2528	9	1901	1905	A	years_outside_authority_entity_dates
 wd:Q2538511	ip-Q2538511	Q2538511	Kenya	3604	2189	1394	21	1919	1964	A	years_outside_authority_entity_dates
-wd:Q116282722	ip-Q116282722	Q116282722	Trinidad	3385	1481	1903	1	1888	1963	A	years_outside_authority_entity_dates;no_geometry
+wd:Q116282722	ip-Q116282722	Q116282722	Trinidad	3394	1489	1904	1	1888	1963	A	years_outside_authority_entity_dates;no_geometry
 wd:Q521864	ip-Q521864	Q521864	Central Provinces	3262	1409	1844	9	1860	1942	A	years_outside_authority_entity_dates
 wd:Q1097943	ip-Q1097943	Q1097943	Uganda	3252	1818	1136	298	1893	1963	A	years_outside_authority_entity_dates
 wd:Q2526023	ip-Q2526023	Q2526023	Jamaica	3059	1298	1682	79	1829	1963	A	years_outside_authority_entity_dates
-wd:Q953903	ip-Q953903	Q953903	N.Rhod.	3018	13	3005	0	1927	1956	A	years_outside_authority_entity_dates
+wd:Q953903	ip-Q953903	Q953903	N.Rhod.	3022	17	3005	0	1927	1960	A	years_outside_authority_entity_dates
 wd:Q1400154	ip-Q1400154	Q1400154	Federated Malay States	3000	1815	1185	0	1894	1947	A	years_outside_authority_entity_dates
 wd:Q1054746	ip-Q1054746	Q1054746	Singapore	2949	1902	1047	0	1838	1963	T	
 wd:Q12053604	ip-Q12053604	Q12053604	Mauritius	2912	1188	1724	0	1824	1966	A	
@@ -26,12 +26,12 @@ wd:Q876185	ip-Q876185	Q876185	East Africa	2352	714	1122	516	1894	1920	A	years_ou
 wd:Q376178	ip-Q376178	Q376178	Straits Settlements	2306	1103	1203	0	1846	1946	A	years_outside_authority_entity_dates
 wd:Q1348	ip-Q1348	Q1348	Calcutta	2291	1591	699	1	1829	1963	P	
 wd:Q30059027	ip-Q30059027	Q30059027	Sierra Leone	2226	836	1385	5	1829	1962	A	years_outside_authority_entity_dates
-wd:Q5148320	ip-Q5148320	Q5148320	Fiji	2204	943	1261	0	1874	1966	A	years_outside_authority_entity_dates
+wd:Q5148320	ip-Q5148320	Q5148320	Fiji	2205	944	1261	0	1874	1966	A	years_outside_authority_entity_dates
 wd:Q1649306	ip-Q1649306	Q1649306	Nyasaland	1888	792	870	226	1906	1965	A	years_outside_authority_entity_dates
-wd:Q63973349	ip-Q63973349	Q63973349	Barbados	1752	809	938	5	1825	1962	A	years_outside_authority_entity_dates;no_geometry
+wd:Q63973349	ip-Q63973349	Q63973349	Barbados	1769	816	948	5	1825	1962	A	years_outside_authority_entity_dates;no_geometry
 wd:Q15240466	ip-Q15240466	Q15240466	Cyprus	1639	804	835	0	1878	1948	A	years_outside_authority_entity_dates;no_geometry
 wd:Q370736	ip-Q370736	Q370736	Cape	1605	711	837	57	1828	1911	A	years_outside_authority_entity_dates
-wd:Q16	ip-Q16	Q16	Canada	1479	683	778	18	1867	1959	A	
+wd:Q16	ip-Q16	Q16	Canada	1480	684	778	18	1866	1959	A	
 wd:Q1643555	ip-Q1643555	Q1643555	British Honduras	1479	165	1312	2	1861	1962	A	years_outside_authority_entity_dates
 wd:Q664	ip-Q664	Q664	New Zealand	1408	453	955	0	1840	1954	A	
 wd:Q4907084	ip-Q4907084	Q4907084	Bihar and Orissa	1343	606	737	0	1911	1937	A	years_outside_authority_entity_dates
@@ -44,11 +44,11 @@ wd:Q35715	ip-Q35715	Q35715	South Australia	1212	143	1051	18	1836	1936	A
 wd:Q1150673	ip-Q1150673	Q1150673	Penang	1151	928	223	0	1831	1958	T;A	multiple_authority_coordinates
 wd:Q1301901	ip-Q1301901	Q1301901	Natal	1132	537	595	0	1843	1911	A	years_outside_authority_entity_dates
 wd:Q3574782	ip-Q3574782	Q3574782	Zanzibar	1092	624	432	36	1892	1964	A	years_outside_authority_entity_dates;no_geometry
+wd:Q18348382	ip-Q18348382	Q18348382	New South Wales	1011	311	700	0	1827	1902	A	years_outside_authority_entity_dates;no_geometry
 wd:Q130386222	ip-Q130386222	Q130386222	Antigua	1008	567	441	0	1825	1964	A	no_geometry
-wd:Q18348382	ip-Q18348382	Q18348382	New South Wales	1006	311	695	0	1827	1902	A	years_outside_authority_entity_dates;no_geometry
 wd:Q84	ip-Q84	Q84	London	993	714	279	0	1830	1964	P	
 wd:Q3557236	ip-Q3557236	Q3557236	Gambia	959	507	451	1	1834	1965	A	
-wd:Q57676556	ip-Q57676556	Q57676556	Western Australia	865	138	717	10	1831	1902	A	years_outside_authority_entity_dates
+wd:Q57676556	ip-Q57676556	Q57676556	Western Australia	938	158	769	11	1831	1902	A	years_outside_authority_entity_dates
 wd:Q193619	ip-Q193619	Q193619	Union of S.A.	859	109	740	10	1910	1956	A	years_outside_authority_entity_dates
 wd:Q3116419	ip-Q3116419	Q3116419	Grenada	844	457	386	1	1826	1965	T	
 wd:Q56850459	ip-Q56850459	Q56850459	Victoria	773	374	398	1	1850	1902	A	years_outside_authority_entity_dates;no_geometry
@@ -75,12 +75,12 @@ wd:Q37995	ip-Q37995	Q37995	Rangoon	590	421	168	1	1852	1954	P	multiple_authority_
 wd:Q11739	ip-Q11739	Q11739	Lahore	579	407	169	3	1842	1946	P;A	
 wd:Q15240384	ip-Q15240384	Q15240384	St. Vincent	579	2	576	1	1901	1904	A	no_geometry
 local:assam-pre-1905	ip-local-assam-pre-1905		Assam	569	394	174	1	1837	1912	A	
-wd:Q49910	ip-Q49910	Q49910	Aden	563	355	208	0	1936	1964	A	years_outside_authority_entity_dates
 wd:Q142	ip-Q142	Q142	France	533	406	127	0	1867	1958	A	
 wd:Q7621163	ip-Q7621163	Q7621163	Malacca	531	444	87	0	1825	1959	P	feature_class_from_name;no_geometry
+wd:Q21821453	ip-Q21821453	Q21821453	Seychelles	527	321	206	0	1821	1965	A	no_geometry
 wd:Q189710	ip-Q189710	Q189710	Selangor	525	434	91	0	1894	1955	A	years_outside_authority_entity_dates
-wd:Q21821453	ip-Q21821453	Q21821453	Seychelles	523	318	205	0	1821	1965	A	no_geometry
 wd:Q662653	ip-Q662653	Q662653	Somaliland	511	326	112	73	1889	1961	A	
+wd:Q49910	ip-Q49910	Q49910	Aden	506	304	202	0	1937	1964	A	years_outside_authority_entity_dates
 wd:Q5148519	ip-Q5148519	Q5148519	Tasmania	505	233	261	11	1855	1902	A	years_outside_authority_entity_dates;no_geometry
 wd:Q5465	ip-Q5465	Q5465	Cape Town	502	288	214	0	1834	1948	P;A	
 wd:Q13353	ip-Q13353	Q13353	Montserrat	498	279	219	0	1838	1965	T	
@@ -117,7 +117,7 @@ wd:Q1965	ip-Q1965	Q1965	New Brunswick	284	150	134	0	1866	1951	A	years_outside_au
 wd:Q203197	ip-Q203197	Q203197	Kandy	280	241	39	0	1820	1959	P	
 wd:Q3509795	ip-Q3509795	Q3509795	E.Nig.	280	51	229	0	1953	1960	P	years_outside_authority_entity_dates
 wd:Q1139314	ip-Q1139314	Q1139314	Kathiawar	276	210	66	0	1859	1941	A	
-wd:Q1973	ip-Q1973	Q1973	British Columbia	276	111	164	1	1870	1921	A	years_outside_authority_entity_dates
+wd:Q17509767	ip-Q17509767	Q17509767	Aden	263	226	37	0	1846	1937	A	years_outside_authority_entity_dates
 wd:Q7102849	ip-Q7102849	Q7102849	Orissa	263	152	111	0	1935	1946	A	years_outside_authority_entity_dates
 wd:Q188947	ip-Q188947	Q188947	Kedah	262	217	45	0	1885	1954	A	
 wd:Q185111	ip-Q185111	Q185111	Tobago	260	142	118	0	1826	1942	T;A	
@@ -139,7 +139,6 @@ wd:Q2571484	ip-Q2571484	Q2571484	Kashmir	223	191	32	0	1860	1946	A	years_outside_
 wd:Q2660774	ip-Q2660774	Q2660774	Windward Islands	215	144	71	0	1836	1958	A	years_outside_authority_entity_dates
 wd:Q18221	ip-Q18221	Q18221	Turks Islands	210	103	107	0	1843	1965	A	years_outside_authority_entity_dates
 wd:Q1637975	ip-Q1637975	Q1637975	St. Kitts-Nevis	209	2	207	0	1891	1911	A	years_outside_authority_entity_dates
-wd:Q17509767	ip-Q17509767	Q17509767	Aden	206	175	31	0	1846	1938	A	years_outside_authority_entity_dates
 wd:Q190959	ip-Q190959	Q190959	Transvaal	205	95	100	10	1910	1951	A	years_outside_authority_entity_dates
 wd:Q920396	ip-Q920396	Q920396	West Indies	205	110	95	0	1815	1959	A	years_outside_authority_entity_dates
 wd:Q1952	ip-Q1952	Q1952	Nova Scotia	203	89	114	0	1867	1937	A	years_outside_authority_entity_dates
@@ -154,6 +153,7 @@ wd:Q3761	ip-Q3761	Q3761	Accra	189	105	84	0	1862	1963	P
 wd:Q13360574	ip-Q13360574	Q13360574	Matara	185	173	12	0	1845	1938	P	
 wd:Q5468	ip-Q5468	Q5468	Durban	184	132	45	7	1850	1939	P	
 wd:Q117	ip-Q117	Q117	Ghana	183	146	37	0	1956	1961	A	years_outside_authority_entity_dates
+wd:Q1973	ip-Q1973	Q1973	British Columbia	182	55	126	1	1871	1921	A	
 wd:Q34647	ip-Q34647	Q34647	Johannesburg	181	128	53	0	1889	1953	P	
 wd:Q8660	ip-Q8660	Q8660	Karachi	180	133	47	0	1848	1954	P;A	
 wd:Q190716	ip-Q190716	Q190716	Central Province	179	92	87	0	1849	1950	A	
@@ -195,7 +195,7 @@ wd:Q796	ip-Q796	Q796	Iraq	137	95	40	2	1931	1953	A	years_outside_authority_entity
 wd:Q185944	ip-Q185944	Q185944	Kelantan	134	113	21	0	1895	1955	A	
 wd:Q10717	ip-Q10717	Q10717	Georgetown	132	59	71	2	1858	1939	P	
 wd:Q675322	ip-Q675322	Q675322	Berbice	132	68	64	0	1827	1912	A	
-wd:Q1121436	ip-Q1121436	Q1121436	Canada	131	82	46	3	1842	1867	A	years_outside_authority_entity_dates;reviewed_geometry_override
+wd:Q1121436	ip-Q1121436	Q1121436	Canada	130	81	46	3	1842	1867	A	years_outside_authority_entity_dates;reviewed_geometry_override
 wd:Q2694747	ip-Q2694747	Q2694747	Larut	129	109	20	0	1874	1948	A	
 wd:Q5838	ip-Q5838	Q5838	Kabul	129	102	27	0	1833	1946	P;A	
 wd:Q323873	ip-Q323873	Q323873	Trincomalee	128	122	6	0	1827	1948	P	
@@ -239,7 +239,6 @@ wd:Q953068	ip-Q953068	Q953068	South-West Africa	92	14	71	7	1914	1934	A
 wd:Q3509092	ip-Q3509092	Q3509092	Northern Region	90	50	40	0	1950	1963	L	title_from_authority_label
 wd:Q2495639	ip-Q2495639	Q2495639	Chilaw	89	73	16	0	1860	1937	P	
 wd:Q172	ip-Q172	Q172	Toronto	87	45	42	0	1842	1947	P;A	
-wd:Q3206	ip-Q3206	Q3206	West Australia	87	20	66	1	1851	1886	A	years_outside_authority_entity_dates
 wd:Q1070	ip-Q1070	Q1070	Ahmedabad	86	74	12	0	1849	1946	P	
 wd:Q3246880	ip-Q3246880	Q3246880	Hazara	86	81	3	2	1868	1944	A	
 wd:Q657946	ip-Q657946	Q657946	Kolhapur	86	70	16	0	1852	1946	A	
@@ -263,6 +262,7 @@ wd:Q1280127	ip-Q1280127	Q1280127	Mannar	78	66	12	0	1847	1938	P
 wd:Q376749	ip-Q376749	Q376749	Chittagong	78	49	29	0	1847	1933	P	
 wd:Q207521	ip-Q207521	Q207521	Abyssinia	77	43	15	19	1864	1959	A	
 wd:Q66568	ip-Q66568	Q66568	Cawnpore	77	53	24	0	1840	1945	P	
+wd:Q918861	ip-Q918861	Q918861	British Columbia	77	45	32	0	1857	1865	A	no_geometry
 wd:Q2007	ip-Q2007	Q2007	North West Territories, Canada	76	44	32	0	1869	1919	A	
 wd:Q3780	ip-Q3780	Q3780	Freetown	76	42	30	4	1850	1955	P	
 wd:Q4997518	ip-Q4997518	Q4997518	Bundelkhand	76	69	7	0	1831	1944	A	
@@ -651,7 +651,6 @@ wd:Q2003745	ip-Q2003745	Q2003745	Nowshera	20	20	0	0	1865	1946	P
 wd:Q202973	ip-Q202973	Q202973	Kingston	20	15	5	0	1860	1937	P	
 wd:Q23666	ip-Q23666	Q23666	Great Britain	20	4	16	0	1845	1911	T	
 wd:Q243293	ip-Q243293	Q243293	Secondee	20	14	6	0	1876	1949	P	multiple_authority_coordinates
-wd:Q244	ip-Q244	Q244	Barbadoes	20	7	13	0	1850	1890	A	
 wd:Q278422	ip-Q278422	Q278422	Umsinga	20	15	5	0	1874	1936	P	years_outside_authority_entity_dates;multiple_authority_coordinates
 wd:Q3166683	ip-Q3166683	Q3166683	Saidapet	20	15	5	0	1876	1930	P	
 wd:Q3642949	ip-Q3642949	Q3642949	Bathurst	20	17	3	0	1853	1946	P	
@@ -781,10 +780,12 @@ wd:Q1758870	ip-Q1758870	Q1758870	Tai Po	14	6	8	0	1907	1922	P
 wd:Q192435	ip-Q192435	Q192435	Tripolitania	14	13	1	0	1942	1952	A	
 wd:Q211055	ip-Q211055	Q211055	Mafeking	14	12	2	0	1885	1913	P	
 wd:Q2127	ip-Q2127	Q2127	Charlottetown	14	10	4	0	1857	1904	A;P	
+wd:Q2514958	ip-Q2514958	Q2514958	British Columbia	14	10	4	0	1866	1871	A	no_geometry
 wd:Q2662991	ip-Q2662991	Q2662991	Mansehra	14	13	1	0	1926	1944	P	
 wd:Q2973	ip-Q2973	Q2973	Carlsruhe and Darmstadt	14	6	8	0	1870	1889	P	
 wd:Q2999039	ip-Q2999039	Q2999039	Navua	14	14	0	0	1884	1919	P	
 wd:Q3115958	ip-Q3115958	Q3115958	Inagua	14	14	0	0	1854	1907	T	
+wd:Q3206	ip-Q3206	Q3206	West Australia	14	0	14	0	1903	1912	A	
 wd:Q3246260	ip-Q3246260	Q3246260	Swat	14	13	1	0	1901	1939	A	no_geometry
 wd:Q3392	ip-Q3392	Q3392	Nile	14	14	0	0	1884	1898	H	multiple_authority_coordinates
 wd:Q3593530	ip-Q3593530	Q3593530	Ellice Islands	14	8	4	2	1908	1915	A	years_outside_authority_entity_dates;title_from_authority_label;no_geometry
@@ -867,6 +868,7 @@ wd:Q184090	ip-Q184090	Q184090	Preston	12	10	2	0	1826	1945	P
 wd:Q190184	ip-Q190184	Q190184	Harar	12	9	3	0	1915	1935	P	
 wd:Q2006534	ip-Q2006534	Q2006534	Piquetberg	12	7	5	0	1868	1924	P	
 wd:Q20118773	ip-Q20118773	Q20118773	Prahsue	12	5	7	0	1878	1887	P	no_geometry
+wd:Q2132	ip-Q2132	Q2132	Victoria	12	3	9	0	1886	1912	P	
 wd:Q220982	ip-Q220982	Q220982	Tristan da Cunha	12	7	5	0	1950	1965	T	multiple_authority_coordinates
 wd:Q2315507	ip-Q2315507	Q2315507	Thar and Parkar	12	11	1	0	1873	1913	A	
 wd:Q23157	ip-Q23157	Q23157	Somerset	12	10	2	0	1842	1926	A;P	
@@ -1051,7 +1053,6 @@ wd:Q637555	ip-Q637555	Q637555	Montego Bay	9	5	4	0	1867	1947	P	years_outside_auth
 wd:Q6748050	ip-Q6748050	Q6748050	Mandi State	9	9	0	0	1903	1917	A	
 wd:Q709298	ip-Q709298	Q709298	Barrackpore	9	7	2	0	1873	1903	P	
 wd:Q746718	ip-Q746718	Q746718	Birkenhead	9	5	4	0	1869	1947	P	
-wd:Q754	ip-Q754	Q754	Trinidad and Tobago	9	8	1	0	1889	1955	A	years_outside_authority_entity_dates;title_from_authority_label
 wd:Q818106	ip-Q818106	Q818106	Benoni	9	7	2	0	1910	1937	P	
 wd:Q834486	ip-Q834486	Q834486	Federation of South Arabia	9	0	9	0	1962	1965	A	title_from_authority_label
 wd:Q849888	ip-Q849888	Q849888	Britstown	9	6	3	0	1901	1919	P	
@@ -1059,7 +1060,6 @@ wd:Q851955	ip-Q851955	Q851955	Bundelkhund	9	9	0	0	1840	1939	L
 wd:Q855058	ip-Q855058	Q855058	Bhor	9	8	1	0	1901	1932	A	
 wd:Q889897	ip-Q889897	Q889897	Bunyoro	9	8	1	0	1899	1900	A	years_outside_authority_entity_dates
 wd:Q923811	ip-Q923811	Q923811	New Amsterdam	9	8	1	0	1848	1914	P	
-wd:Q953	ip-Q953	Q953	Zambia	9	8	1	0	1964	1964	A	years_outside_authority_entity_dates
 wd:Q956	ip-Q956	Q956	Peking	9	7	2	0	1879	1926	P	
 name:barkly|Q2547918	ip-name-barkly-q2547918		Barkly	9	7	2	0	1873	1876	P	feature_class_from_name;no_authority_match;no_geometry
 name:cleveland divn	ip-name-cleveland-divn		Cleveland Divn.	9	0	9	0	1902	1918	A	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
@@ -1153,7 +1153,7 @@ name:karene	ip-name-karene		Karene	8	0	8	0	1898	1921	P	feature_class_from_name;n
 name:klip river division|Q1301901	ip-name-klip-river-division-q1301901		Klip River Division	8	7	0	1	1852	1881	A	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:lower tugela division|Q1301901	ip-name-lower-tugela-division-q1301901		Lower Tugela division	8	5	2	1	1856	1887	A	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:n tory	ip-name-n-tory		N. tory	8	1	7	0	1920	1920	P	feature_class_from_name;no_authority_match;no_geometry
-name:partabgarh|Q716890	ip-name-partabgarh-q716890		Partabgarh	8	5	3	0	1879	1885	P	feature_class_from_name;no_authority_match;no_geometry
+name:partabgarh|Q859966	ip-name-partabgarh-q859966		Partabgarh	8	5	3	0	1879	1885	P	feature_class_from_name;no_authority_match;no_geometry
 name:queens town	ip-name-queens-town		Queen's Town	8	6	2	0	1854	1916	P	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:richmond|Q370736	ip-name-richmond-q370736		Richmond	8	8	0	0	1848	1897	P	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:s rajputana states	ip-name-s-rajputana-states		S. Rajputana States	8	0	8	0	1918	1945	A	feature_class_from_name;no_authority_match;no_geometry
@@ -1194,7 +1194,6 @@ wd:Q2072124	ip-Q2072124	Q2072124	Rawang	7	5	2	0	1887	1932	A
 wd:Q207799	ip-Q207799	Q207799	Pooree	7	3	4	0	1852	1869	P	
 wd:Q2088458	ip-Q2088458	Q2088458	Bankoora	7	7	0	0	1874	1881	A	
 wd:Q213137	ip-Q213137	Q213137	East Indies	7	6	1	0	1845	1919	L	
-wd:Q2132	ip-Q2132	Q2132	Victoria, B.C.	7	2	5	0	1886	1906	P	
 wd:Q214178	ip-Q214178	Q214178	Nablus	7	5	0	2	1919	1929	P	
 wd:Q214820	ip-Q214820	Q214820	Whitehall	7	3	4	0	1852	1872	S;L	
 wd:Q216982	ip-Q216982	Q216982	Grevena	7	2	5	0	1872	1877	P	
@@ -1317,7 +1316,6 @@ wd:Q264014	ip-Q264014	Q264014	Kroonstad	6	4	2	0	1920	1928	P
 wd:Q2727978	ip-Q2727978	Q2727978	Carwar	6	3	3	0	1859	1883	P	
 wd:Q305259	ip-Q305259	Q305259	Nagpur division	6	4	2	0	1880	1893	A	
 wd:Q30671991	ip-Q30671991	Q30671991	Igarra	6	2	4	0	1903	1904	P	multiple_authority_coordinates
-wd:Q3224	ip-Q3224	Q3224	New South Wales	6	0	6	0	1863	1887	A	title_from_authority_label
 wd:Q328493	ip-Q328493	Q328493	Eastern Province	6	0	6	0	1921	1934	A	title_from_authority_label
 wd:Q3330858	ip-Q3330858	Q3330858	Kwahu	6	4	2	0	1890	1919	P	no_geometry
 wd:Q34374	ip-Q34374	Q34374	Crete	6	6	0	0	1896	1906	L;T	
@@ -1510,6 +1508,7 @@ wd:Q806125	ip-Q806125	Q806125	Banas Kantha	5	5	0	0	1925	1933	A
 wd:Q849108	ip-Q849108	Q849108	N'Gami	5	2	3	0	1904	1908	H	
 wd:Q854693	ip-Q854693	Q854693	Bhagulpore division	5	5	0	0	1873	1890	A	
 wd:Q889394	ip-Q889394	Q889394	Mozambique	5	2	3	0	1901	1910	A	
+wd:Q953	ip-Q953	Q953	Zambia	5	4	1	0	1964	1964	A	
 wd:Q977183	ip-Q977183	Q977183	St. Andrew's parish, Grenada	5	0	5	0	1851	1905	A	
 wd:Q989418	ip-Q989418	Q989418	Stockton-on-Tees	5	5	0	0	1887	1945	P	
 wd:Q990616	ip-Q990616	Q990616	Harwich	5	5	0	0	1888	1917	A;P	
@@ -1520,7 +1519,7 @@ name:alfred	ip-name-alfred		Alfred	5	5	0	0	1878	1887	P	feature_class_from_name;n
 name:alfred co	ip-name-alfred-co		Alfred co.	5	2	3	0	1867	1870	A	feature_class_from_name;no_authority_match;no_geometry
 name:alfred county	ip-name-alfred-county		Alfred County	5	3	2	0	1867	1874	A	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:aro|Q2046345	ip-name-aro-q2046345		Aro	5	4	1	0	1901	1902	P	feature_class_from_name;no_authority_match;no_geometry
-name:assam circle|Q891827	ip-name-assam-circle-q891827		Assam Circle	5	4	1	0	1913	1932	A	feature_class_from_name;no_authority_match;no_geometry
+name:assam circle|Q2376315	ip-name-assam-circle-q2376315		Assam Circle	5	4	1	0	1913	1932	A	feature_class_from_name;no_authority_match;no_geometry
 name:b pahang|Q1400154	ip-name-b-pahang-q1400154		B. Pahang	5	0	5	0	1915	1928	P	feature_class_from_name;no_authority_match;no_geometry
 name:bari doab canal	ip-name-bari-doab-canal		Bari Doab canal	5	5	0	0	1854	1872	H	feature_class_from_name;no_authority_match;no_geometry
 name:basse terre	ip-name-basse-terre		Basse-terre	5	2	3	0	1862	1872	P	feature_class_from_name;no_authority_match;no_geometry
@@ -1566,7 +1565,7 @@ name:quebec west	ip-name-quebec-west		Quebec West	5	1	4	0	1904	1904	P	feature_cl
 name:r honduras|Q1643555	ip-name-r-honduras-q1643555		R. Honduras	5	0	5	0	1921	1923	P	feature_class_from_name;no_authority_match;no_geometry
 name:soufriere	ip-name-soufriere		Soufriere	5	2	3	0	1892	1895	P	feature_class_from_name;no_authority_match;no_geometry
 name:south bihar	ip-name-south-bihar		South Bihar	5	1	4	0	1913	1917	P	feature_class_from_name;no_authority_match;no_geometry
-name:southern states of ci|Q855044	ip-name-southern-states-of-ci-q855044		Southern States of C.I.	5	5	0	0	1914	1932	A	feature_class_from_name;no_authority_match;no_geometry
+name:southern states of ci|Q6124144	ip-name-southern-states-of-ci-q6124144		Southern States of C.I.	5	5	0	0	1914	1932	A	feature_class_from_name;no_authority_match;no_geometry
 name:st andrew|Q116282722	ip-name-st-andrew-q116282722		St. Andrew	5	0	5	0	1921	1925	P	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:st joseph|Q116282722	ip-name-st-joseph-q116282722		St. Joseph	5	0	5	0	1872	1902	P	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:st michael|Q2660774	ip-name-st-michael-q2660774		St. Michael	5	0	5	0	1873	1882	P	feature_class_from_name;no_authority_match;no_geometry
@@ -1590,7 +1589,6 @@ wd:Q1021915	ip-Q1021915	Q1021915	Krantzkop	4	3	1	0	1894	1904	P
 wd:Q1023671	ip-Q1023671	Q1023671	Fatehgarh	4	2	2	0	1859	1891	P	
 wd:Q1023703	ip-Q1023703	Q1023703	Oyo	4	3	1	0	1904	1956	P;A	
 wd:Q1028741	ip-Q1028741	Q1028741	Cameron Highlands	4	3	1	0	1940	1951	A	
-wd:Q1042	ip-Q1042	Q1042	Seychelles	4	3	1	0	1874	1899	A	years_outside_authority_entity_dates;title_from_authority_label
 wd:Q1055	ip-Q1055	Q1055	Hamburg	4	3	1	0	1931	1956	A;P	
 wd:Q1061665	ip-Q1061665	Q1061665	Asaba	4	3	1	0	1899	1902	P	multiple_authority_coordinates
 wd:Q1133636	ip-Q1133636	Q1133636	Tarai	4	4	0	0	1861	1891	T;A	no_geometry
@@ -1782,7 +1780,7 @@ name:s australian|Q28401203	ip-name-s-australian-q28401203		S. Australian	4	0	4	
 name:s shetland	ip-name-s-shetland		S. Shetland	4	0	4	0	1919	1939	P	feature_class_from_name;no_authority_match;no_geometry
 name:s w transvaal	ip-name-s-w-transvaal		S.-W. Transvaal	4	0	4	0	1921	1937	P	feature_class_from_name;no_authority_match;no_geometry
 name:sadong	ip-name-sadong		Sadong	4	4	0	0	1891	1901	P	feature_class_from_name;no_authority_match;no_geometry
-name:sm country|Q657946	ip-name-sm-country-q657946		S.M. country	4	3	1	0	1908	1918	L	feature_class_from_name;no_authority_match;no_geometry
+name:sm country|Q808575	ip-name-sm-country-q808575		S.M. country	4	3	1	0	1908	1918	L	feature_class_from_name;no_authority_match;no_geometry
 name:southern afghanistan|Q2629708	ip-name-southern-afghanistan-q2629708		Southern Afghanistan	4	4	0	0	1878	1880	P	feature_class_from_name;no_authority_match;no_geometry
 name:st albans	ip-name-st-albans		St. Albans	4	0	4	0	1872	1903	P	feature_class_from_name;no_authority_match;no_geometry
 name:st andrews|Q84	ip-name-st-andrews-q84		St. Andrew's	4	0	4	0	1851	1906	P	feature_class_from_name;no_authority_match;no_geometry
@@ -1794,7 +1792,7 @@ name:strand division	ip-name-strand-division		Strand Division	4	1	3	0	1910	1910	
 name:sutherland|Q953068	ip-name-sutherland-q953068		Sutherland	4	1	3	0	1931	1931	P	feature_class_from_name;no_authority_match;no_geometry
 name:uganda prots|Q1097943	ip-name-uganda-prots-q1097943		Uganda Prots.	4	4	0	0	1900	1909	A	feature_class_from_name;no_authority_match;no_geometry
 name:uganda prots|Q2642989	ip-name-uganda-prots-q2642989		Uganda Prots.	4	4	0	0	1903	1905	A	feature_class_from_name;no_authority_match;no_geometry
-name:upper scinde|Q891827	ip-name-upper-scinde-q891827		Upper Scinde	4	2	2	0	1840	1841	P	feature_class_from_name;no_authority_match;no_geometry
+name:upper scinde|Q808575	ip-name-upper-scinde-q808575		Upper Scinde	4	2	2	0	1840	1841	P	feature_class_from_name;no_authority_match;no_geometry
 name:virgin april	ip-name-virgin-april		Virgin April	4	0	0	4	1902	1908	P	title_not_printed_in_source;feature_class_from_name;no_authority_match;not_found_in_source_text;no_geometry
 name:w surrey	ip-name-w-surrey		W. Surrey	4	0	4	0	1880	1885	P	feature_class_from_name;no_authority_match;no_geometry
 name:western canada	ip-name-western-canada		Western Canada	4	0	4	0	1917	1919	P	feature_class_from_name;no_authority_match;no_geometry
@@ -1876,6 +1874,7 @@ wd:Q2365710	ip-Q2365710	Q2365710	Muzaffarnagar	3	1	2	0	1878	1878	A
 wd:Q241	ip-Q241	Q241	Cuba	3	3	0	0	1928	1950	A	years_outside_authority_entity_dates
 wd:Q242992	ip-Q242992	Q242992	Bhaunagar	3	2	1	0	1859	1863	P	multiple_authority_coordinates
 wd:Q243846	ip-Q243846	Q243846	Hillah	3	3	0	0	1918	1919	P	
+wd:Q244	ip-Q244	Q244	Island of Barbados	3	0	3	0			A	
 wd:Q2460233	ip-Q2460233	Q2460233	Jagersfontein	3	3	0	0	1890	1900	P	
 wd:Q2559220	ip-Q2559220	Q2559220	Eastern Region	3	1	2	0	1959	1959	L	title_from_authority_label
 wd:Q2574863	ip-Q2574863	Q2574863	Kurnah	3	2	1	0	1914	1916	P	
@@ -2470,7 +2469,6 @@ wd:Q85774522	ip-Q85774522	Q85774522	Jeypore Estate	2	2	0	0	1890	1920	A	no_geomet
 wd:Q868368	ip-Q868368	Q868368	Tanjong Pagar	2	2	0	0	1905	1907	P;A	
 wd:Q897489	ip-Q897489	Q897489	Brakpan	2	2	0	0	1925	1938	P	
 wd:Q917011	ip-Q917011	Q917011	Umzimkulu district	2	2	0	0	1881	1881	P	
-wd:Q918861	ip-Q918861	Q918861	colony of British Columbia	2	0	2	0	1863	1863	A	no_geometry
 wd:Q921719	ip-Q921719	Q921719	Pudukottah	2	2	0	0	1872	1888	P	years_outside_authority_entity_dates
 wd:Q922701	ip-Q922701	Q922701	Sitapur division	2	2	0	0	1876	1888	P	years_outside_authority_entity_dates
 wd:Q927822	ip-Q927822	Q927822	Laingsburg	2	2	0	0	1903	1903	P	
@@ -2817,7 +2815,7 @@ name:kissy|Q30059027	ip-name-kissy-q30059027		Kissy	2	0	2	0			P	feature_class_fr
 name:klip river	ip-name-klip-river		Klip River	2	2	0	0	1860	1860	H	feature_class_from_name;no_authority_match;no_geometry
 name:klipdam	ip-name-klipdam		Klipdam	2	2	0	0	1895	1908	P	feature_class_from_name;no_authority_match;no_geometry
 name:knysna division	ip-name-knysna-division		Knysna division	2	0	2	0	1862	1862	A	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
-name:kolhápúr|Q891827	ip-name-kolhapur-q891827		Kolhápúr	2	2	0	0	1866	1867	P	feature_class_from_name;no_authority_match;no_geometry
+name:kolhápúr|Q657946	ip-name-kolhapur-q657946		Kolhápúr	2	2	0	0	1866	1867	P	feature_class_from_name;no_authority_match;no_geometry
 name:kologha	ip-name-kologha		Kologha	2	2	0	0	1914	1914	P	feature_class_from_name;no_authority_match;no_geometry
 name:komgha division	ip-name-komgha-division		Komgha division	2	1	0	1	1880	1880	A	feature_class_from_name;no_authority_match;no_geometry;parent_printed_with_name
 name:kooyong (vic)	ip-name-kooyong-vic		Kooyong (Vic.)	2	1	1	0	1934	1934	P	feature_class_from_name;no_authority_match;no_geometry
@@ -3332,6 +3330,7 @@ wd:Q301107	ip-Q301107	Q301107	Belfast	1	1	0	0	1907	1907	P
 wd:Q311199	ip-Q311199	Q311199	Gedaref	1	0	1	0			P	
 wd:Q319416	ip-Q319416	Q319416	Aberdeen	1	1	0	0	1902	1902	P	
 wd:Q322155	ip-Q322155	Q322155	Rajahahi	1	1	0	0	1923	1923	A;P	
+wd:Q3224	ip-Q3224	Q3224	New South Wales	1	0	1	0			A	title_from_authority_label
 wd:Q3315863	ip-Q3315863	Q3315863	Miraj (Junior)	1	1	0	0	1902	1903	A	
 wd:Q34589	ip-Q34589	Q34589	Euphrates	1	1	0	0	1902	1903	H	multiple_authority_coordinates
 wd:Q3497036	ip-Q3497036	Q3497036	Kennedy Town	1	0	1	0			P	
@@ -3369,7 +3368,6 @@ wd:Q693093	ip-Q693093	Q693093	Machakos	1	1	0	0	1905	1905	P
 wd:Q704371	ip-Q704371	Q704371	Mackay	1	1	0	0	1881	1882	P	
 wd:Q704864	ip-Q704864	Q704864	Tamworth	1	1	0	0	1869	1872	P	
 wd:Q709267	ip-Q709267	Q709267	Burdwan, Bengal	1	1	0	0	1861	1861	P	
-wd:Q712	ip-Q712	Q712	Fiji Islands	1	1	0	0	1874	1875	A	years_outside_authority_entity_dates
 wd:Q719518	ip-Q719518	Q719518	Paxo, Ionian Islands	1	1	0	0	1860	1860	T	
 wd:Q7231063	ip-Q7231063	Q7231063	Port-de-Grave	1	1	0	0	1898	1898	P	
 wd:Q7278489	ip-Q7278489	Q7278489	Rabai	1	1	0	0	1903	1903	P	

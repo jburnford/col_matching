@@ -648,6 +648,8 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
     identities = json.loads(identities_path.read_text(encoding="utf-8"))
     validate_identities(identities)
     inputs = [rules_path, identities_path, authority_path, Path(__file__)]
+    if (root / "config/whg_name_groundings.json").exists():
+        inputs.append(root / "config/whg_name_groundings.json")
     for corpus in ("kg", "iol"):
         graph = root / f"data/{corpus}/graph_stage3"
         inputs += [graph / "places.jsonl", graph / "career_events.jsonl"]
@@ -673,6 +675,9 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
     resolver = Resolver(root, identities)
     sources = Sources(root)
     local_places = identities.get("local_places", {})
+    folds = collections.defaultdict(list)
+    for fold in identities.get("entity_folds", []):
+        folds[fold["from"]].append(fold)
     counts = collections.Counter()
     graph_labels = collections.defaultdict(set)
     for corpus in ("kg", "iol"):
@@ -755,6 +760,13 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                             e["years"].add(year)
                         counts["excluded:" + method] += 1
                         continue
+                    if identity[0] == "wd":  # curated per-mention folds (modern state -> colony etc.)
+                        for fold in folds.get(identity[1], []):
+                            if ((fold.get("before") is None or (year is not None and year < fold["before"]))
+                                    and (fold.get("after") is None or (year is not None and year > fold["after"]))
+                                    and (not fold.get("printed") or norm(fold["printed"]) == norm(printed))):
+                                identity, method = ("wd", fold["to"]), method + ":entity_fold"
+                                break
                     if identity[0] == "wd" and authority.non_place(identity[1]):
                         e = excluded[("non_place_entity:" + identity[1], printed)]
                         e["count"] += 1
@@ -839,6 +851,26 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
 
     # Name-only homonyms: one record per country-level context group.
     remap = merge_name_contexts(places, authority)
+    # Name-only records matched by whg_ground_names.py (exact label, unique
+    # within a radius of the career context) become Wikidata records.
+    groundings_path = root / "config/whg_name_groundings.json"
+    groundings = json.loads(groundings_path.read_text(encoding="utf-8")) if groundings_path.exists() else {}
+    for key, g in groundings.items():
+        if key not in places or authority.non_place(g["qid"]):
+            continue
+        target = "wd:" + g["qid"]
+        p = places.pop(key)
+        p["methods"]["name_label_proximity"] += p["mentions"]
+        if target in places:
+            merge_place(places[target], p)
+        else:
+            p["key"] = target
+            places[target] = p
+        for fine, merged in list(remap.items()):
+            if merged == key:
+                remap[fine] = target
+        remap[key] = target
+        counts["name_records_matched"] += 1
 
     # ------------------------------------------------------------- export
     fields = ["id", "title", "title_source", "attestation_year", "start", "end", "fclasses",
@@ -909,6 +941,8 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
                 issues.append("feature_class_from_name")
             if kind == "name":
                 issues.append("no_authority_match")
+            if p["methods"].get("name_label_proximity"):
+                issues.append("matched_by_label_and_proximity")
             if not p["tiers"]["same_clause"] and not p["tiers"]["printed"]:
                 issues.append("not_found_in_source_text")
             # Geometry: Wikidata point (or curated local point); never atlas seats.
@@ -1007,6 +1041,7 @@ def run(root, output, rules_path, identities_path, authority_path, force=False):
             if not held:
                 features.append(feature)
             result = {"id": pid, "key": key, "qid": qid, "title": title, "wikidata_label": wd_label,
+                      "context_qids": [c[0] for c, _ in p["contexts"].most_common()],
                       "local": bool(local), "fclasses": fcl, "types": types,
                       "mentions": p["mentions"], "evidence_tiers": dict(p["tiers"]),
                       "identity_methods": dict(p["methods"]), "corpora": sorted(p["corpora"]),

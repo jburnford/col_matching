@@ -99,10 +99,22 @@ def correct_event(original):
                               'office, not a place.')
         reasons.append('development-welfare-west-indies')
 
+    # Every edition (1911-18) prints "N.W. mounted pol., Canada, 1866-1904" for a
+    # man born 1855; the force was founded in 1873. The true year is unknown,
+    # so the date is marked uncertain and the post-1873 jurisdiction kept.
+    if pid == 'kgp_col1914-p840b13' and y == 1866 and 'mounted' in pos:
+        r.update(date_uncertain=True)
+        locate('Q16', 'Canada', 'Q16', 'Canada')
+        r['location_note'] = 'Printed 1866 in every edition; N.W. Mounted Police founded 1873.'
+        reasons.append('nwmp-printed-year-error')
+        return_early = True
+    else:
+        return_early = False
+
     # Modern Canada (Q16) begins 1 July 1867. Before that a printed "Canada"
     # is the Canadas (Upper + Lower, 1791-1840) or the Province of Canada
     # (Act of Union in force Feb. 1841). Evidence: research/canada-geography-2026-10-16.json.
-    if y and y < 1867 and 'Q16' in (r.get('place_qid'), r.get('colony_qid')):
+    if y and y < 1867 and not return_early and 'Q16' in (r.get('place_qid'), r.get('colony_qid')):
         period = ('Q7721124', 'The Canadas') if y <= 1840 else ('Q1121436', 'Province of Canada')
         if r.get('place_qid') == 'Q16':
             locate(*period, *period)

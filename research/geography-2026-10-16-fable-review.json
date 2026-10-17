@@ -1,8 +1,25 @@
 {
   "context": "Identity errors surfaced by the WHG gazetteer out-of-period screen and an independent (Fable) review, 2026-10-16.",
   "corrections": [
-    {"surface": "New York", "from": "Q769668 Province of New York (1664-1783)", "to": "Q60 New York City; colony Q30 United States", "evidence": "Mentions are consulates and quarantine visits 1862-1931 (e.g. 'clerk in British consulate, New York, April, 1862')."},
-    {"surface": "D.W.W.I.", "from": "Q829655 Danish West Indies (to 1917)", "to": "no place; colony Barbados (Q63973349)", "evidence": "Printed 1943-1954 as 'admin. sec., compt., D.W.W.I.' = Development and Welfare Organisation, West Indies, created 1940 and based in Barbados.", "source": "https://beta.nationalarchives.gov.uk/catalogue/id/C460"}
+    {
+      "surface": "New York",
+      "from": "Q769668 Province of New York (1664-1783)",
+      "to": "Q60 New York City; colony Q30 United States",
+      "evidence": "Mentions are consulates and quarantine visits 1862-1931 (e.g. 'clerk in British consulate, New York, April, 1862')."
+    },
+    {
+      "surface": "D.W.W.I.",
+      "from": "Q829655 Danish West Indies (to 1917)",
+      "to": "no place; colony Barbados (Q63973349)",
+      "evidence": "Printed 1943-1954 as 'admin. sec., compt., D.W.W.I.' = Development and Welfare Organisation, West Indies, created 1940 and based in Barbados.",
+      "source": "https://beta.nationalarchives.gov.uk/catalogue/id/C460"
+    },
+    {
+      "person_id": "kgp_col1914-p840b13",
+      "surface": "Canada",
+      "change": "date_uncertain; Q16 not Province of Canada",
+      "evidence": "WRIGHT, EDWARD JAMES (b. 1855): 'served in N.W. mounted pol., Canada, 1866-1904' in every edition 1911-1918; the North-West Mounted Police was founded in 1873. True start year unknown."
+    }
   ],
   "kept_with_flag": {
     "Q4765854 Shan States": "Item describes the 1885-1948 Shan States; its Wikidata dates (1215-1563) are inconsistent with its description.",

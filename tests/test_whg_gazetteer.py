@@ -231,6 +231,19 @@ class PipelineChecks(Fixture):
         self.assertTrue(all(is_abbreviated(n) for n in ("Nig.", "H.K.", "B. Hond.", "S'pore")))
         self.assertFalse(any(is_abbreviated(n) for n in ("St. Vincent", "St. John's", "Hong Kong")))
 
+    def test_entity_folds_are_year_and_name_bounded(self):
+        ids = json.loads(self.identities.read_text())
+        ids["entity_folds"] = [{"from": "Q61", "to": "Q1223", "before": 1890, "printed": "Washington"}]
+        self.identities.write_text(json.dumps(ids))
+        self.build()
+        rows = {r["id"] for r in self.tsv("whg-places.tsv")}
+        self.assertIn("ip-Q61", rows)          # the 1900 mention stays
+        self.write_rows("data/kg/graph_stage3/career_events.jsonl", self.events + [
+            {"person_id": "kgp_col1901-p1b1", "seq": 9, "place_raw": "Washington", "place_qid": "Q61", "year_start": 1880}])
+        self.build()
+        rows = {r["id"] for r in self.tsv("whg-places.tsv")}
+        self.assertIn("ip-Q1223", rows)        # the 1880 mention folds
+
     def test_lpf_features_carry_citations_and_when(self):
         self.build()
         lpf = json.loads((self.out / "whg-places.lpf.json").read_text())

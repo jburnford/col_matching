@@ -14,6 +14,7 @@ import json
 from pathlib import Path
 import re
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -26,17 +27,23 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 """
 
 
-def sparql(query):
+def sparql(query, attempts=6):
     data = urllib.parse.urlencode({"query": PREFIX + query}).encode()
     req = urllib.request.Request(QLEVER, data=data, headers={
         "Accept": "application/sparql-results+json",
         "User-Agent": "col_matching-whg/1.0 (jic823@usask.ca)"})
-    for attempt in range(4):
+    for attempt in range(attempts):
         try:
             with urllib.request.urlopen(req, timeout=300) as resp:
                 return json.load(resp)["results"]["bindings"]
+        except urllib.error.HTTPError as exc:
+            if attempt == attempts - 1:
+                raise
+            # Rate limit: honour Retry-After, else back off a minute per attempt.
+            wait = int(exc.headers.get("Retry-After") or 0) if exc.code == 429 else 0
+            time.sleep(max(wait, 60 * (attempt + 1)) if exc.code == 429 else 5 * (attempt + 1))
         except Exception:
-            if attempt == 3:
+            if attempt == attempts - 1:
                 raise
             time.sleep(5 * (attempt + 1))
 
@@ -71,6 +78,10 @@ def candidate_qids(root):
         for rule in config.get("period_identities", []):
             found.update(p["qid"] for p in rule["periods"] if p.get("qid"))
         found.update(r["qid"] for r in config.get("surface_identities", {}).values() if r.get("qid"))
+        found.update(f["to"] for f in config.get("entity_folds", []))
+    groundings = root / "config/whg_name_groundings.json"
+    if groundings.exists():
+        found.update(g["qid"] for g in json.loads(groundings.read_text(encoding="utf-8")).values())
     return sorted(q for q in found if re.fullmatch(r"Q\d+", q))
 
 

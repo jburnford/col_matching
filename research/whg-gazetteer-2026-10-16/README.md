@@ -7,6 +7,28 @@ Nothing has been uploaded to WHG or run through its validator. Method:
 [v1 preparation snapshot](../whg-preparation-2026-10-16/README.md), which reached
 151 places.
 
+## Dataset summary
+
+**Title:** Places of the British imperial service: a gazetteer of locations named
+in Colonial Office and India Office List biographies, 1862–1966.
+
+**Description:** Every place named in the printed "records of services"
+(career biographies) of the Colonial Office Lists and India Office Lists:
+colonies, provinces, districts, towns, stations and sites where officials
+served. Each record gives the printed name forms, the List editions that
+printed them, and the span of dated career references to the place. People and
+careers are not included.
+
+**Creator:** Jim Clifford, University of Saskatchewan. **Licence:** CC0 1.0
+([LICENSE-DATA](../../LICENSE-DATA)). **Cite as:** Jim Clifford, *Imperial
+Careers: a grounded person-career knowledge graph of the Colonial Office List
+and India Office List*, Dataset, Zenodo, <https://doi.org/10.5281/zenodo.21079938>
+(gazetteer derived from the 16 October 2026 snapshot).
+
+**Sources:** Colonial Office Lists (Google Books scans; OCR attribution pending confirmation — see
+[OCR provenance](../../docs/OCR_AND_PARSING.md)) and India Office Lists.
+Per-edition scan URIs are not yet attached (`title_uri` empty).
+
 ## Results
 
 | | |
@@ -17,12 +39,12 @@ Nothing has been uploaded to WHG or run through its validator. Method:
 | — name printed, year elsewhere | 113,367 |
 | — not found verbatim (parser-normalised; cites the biography edition) | 3,432 |
 | Mentions excluded, with reasons (`excluded-mentions.tsv`) | 17,507 (offices, departments and works 12,928; generic words 2,455; descriptive phrases 1,138; unexpanded abbreviations 362; campaigns 338; regiments 120; non-place Wikidata entities 107; routes 38; malformed strings 21) |
-| **Places exported** | **7,039** |
-| — Wikidata-matched | 2,108 (2,085 with AAT type, 2,015 with a point) |
+| **Places exported** | **7,037** |
+| — Wikidata-matched | 2,106 (2,083 with AAT type, 2,012 with a point) |
 | — local (no period-correct Wikidata item) | 1 (Assam before 1905) |
 | — name-only, awaiting reconciliation | 4,930 (517 with a parent printed in the source) |
 | Name-only records held for review (`held-names.tsv`: single mention, abbreviations only) | 919 |
-| Places with years outside their Wikidata entity's dates (flagged) | 248 |
+| Places with years outside their Wikidata entity's dates (flagged) | 242 |
 | Rare places (1–5 mentions) in the tail review | 6,555; source examples for 6,203 |
 
 A mention can yield more than one place (composites such as *Natal and Hong
@@ -76,12 +98,16 @@ without it only Colonial Office editions are searched.
 
 ## Before upload
 
-1. Review the 248 out-of-period flags. Most are geographic places whose
+1. Review the 242 out-of-period flags. Most are geographic places whose
    Wikidata dates describe a modern state or district (closeMatch acceptable);
    genuine identity errors go upstream. Fixed so far: pre-Confederation Canada
    (146 events; [evidence](../canada-geography-2026-10-16.json)), New York
    (colonial province → city) and D.W.W.I. (an office, not the Danish West
-   Indies) ([evidence](../geography-2026-10-16-fable-review.json)).
+   Indies) ([evidence](../geography-2026-10-16-fable-review.json)). Modern
+   states used for colonial-era mentions are folded per mention into the colony
+   where Wikidata has one (`entity_folds`: Western Australia, NSW, Fiji,
+   Seychelles, Barbados, Trinidad and Tobago, Zambia, Aden, British Columbia);
+   Dominica, Swaziland and Turks and Caicos have no colonial item.
 2. Reconcile name-only places (wd-mcp for frequent ones, or WHG's reconciliation).
 3. Expand held abbreviations (`N.S.`, `T.W.I.`) and review `held-names.tsv`.
 4. Decide the public `@id` base (currently `https://jimclifford.ca/col_matching/whg/places/`).

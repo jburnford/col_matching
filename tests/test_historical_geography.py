@@ -108,5 +108,13 @@ class HistoricalGeographyTests(unittest.TestCase):
         self.assertEqual((row['place_qid'],row['colony_qid']),(None,'Q63973349'))
         self.assertEqual(correct_event(row),row)
 
+    def test_nwmp_printed_year_error_is_uncertain_not_province(self):
+        row=correct_event(dict(person_id='kgp_col1914-p840b13',year_start=1866,place_raw='Canada',
+                               position='served in N.W. mounted police',place_qid='Q1121436',colony_qid='Q1121436'))
+        self.assertTrue(row['date_uncertain'])
+        self.assertEqual(location(row),('Q16','Canada'))
+        self.assertEqual(project(row),(None,None))
+        self.assertEqual(correct_event(row),row)
+
 
 if __name__ == '__main__': unittest.main()

@@ -381,5 +381,81 @@
       "lat": 46.0,
       "geo_source": "Reviewed schematic point within Upper and Lower Canada, not a centroid or capital; no Wikidata P625. research/canada-geography-2026-10-16.json"
     }
-  }
+  },
+  "entity_folds": [
+    {
+      "from": "Q1042",
+      "to": "Q21821453",
+      "before": 1976,
+      "note": "Seychelles (state) -> Crown Colony of Seychelles"
+    },
+    {
+      "from": "Q17509767",
+      "to": "Q49910",
+      "after": 1936,
+      "before": 1964,
+      "note": "Aden Province ends 1937; later Colony of Aden"
+    },
+    {
+      "from": "Q1973",
+      "to": "Q2132",
+      "printed": "Victoria",
+      "note": "Printed 'Victoria' grounded to British Columbia is the city of Victoria (wd-mcp Q2132)"
+    },
+    {
+      "from": "Q1973",
+      "to": "Q918861",
+      "before": 1866,
+      "note": "British Columbia (province, 1871) before 1866 -> Colony of British Columbia (1858-1866)"
+    },
+    {
+      "from": "Q1973",
+      "to": "Q2514958",
+      "after": 1865,
+      "before": 1871,
+      "note": "1866-1871 -> united Colony of British Columbia (wd-mcp Q2514958)"
+    },
+    {
+      "from": "Q244",
+      "to": "Q63973349",
+      "before": 1966,
+      "note": "Barbados (state) -> Colony of Barbados"
+    },
+    {
+      "from": "Q3206",
+      "to": "Q57676556",
+      "before": 1901,
+      "note": "Western Australia (state, 1901) -> Colony of Western Australia"
+    },
+    {
+      "from": "Q3224",
+      "to": "Q18348382",
+      "before": 1901,
+      "note": "New South Wales (state) -> Colony of New South Wales"
+    },
+    {
+      "from": "Q49910",
+      "to": "Q17509767",
+      "before": 1937,
+      "note": "Aden Colony starts 1937; earlier Aden Province"
+    },
+    {
+      "from": "Q712",
+      "to": "Q5148320",
+      "before": 1970,
+      "note": "Fiji -> Colony of Fiji"
+    },
+    {
+      "from": "Q754",
+      "to": "Q116282722",
+      "before": 1962,
+      "note": "Trinidad and Tobago (state) -> colony"
+    },
+    {
+      "from": "Q953",
+      "to": "Q953903",
+      "before": 1964,
+      "note": "Zambia -> Northern Rhodesia"
+    }
+  ]
 }
